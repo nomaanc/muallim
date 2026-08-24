@@ -1,0 +1,33 @@
+{
+  "name": "Muallim ul-Qur'an",
+  "short_name": "Muallim",
+  "description": "Interactive Quranic Arabic workbook with Hinglish translations. 7 Stages, 114 Lessons.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FDFBF7",
+  "theme_color": "#1B4332",
+  "lang": "ur",
+  "dir": "rtl",
+  "categories": ["education", "books", "religion"],
+  "prefer_related_applications": false,
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./icons/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "./icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Bookmarks",
+      "url": "./index.html#bookmarks",
+      "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Starred Items",
+      "url": "./index.html#favourites",
+      "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

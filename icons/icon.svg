@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#1B4332"/>
+  <rect x="24" y="24" width="464" height="464" rx="80"
+        fill="none" stroke="#FDFBF7" stroke-width="6" opacity="0.15"/>
+  <line x1="140" y1="380" x2="372" y2="380" stroke="#C5A880" stroke-width="2.5" opacity="0.7"/>
+  <line x1="140" y1="132" x2="372" y2="132" stroke="#C5A880" stroke-width="2.5" opacity="0.7"/>
+  <text x="256" y="320"
+        font-family="'Amiri','Noto Naskh Arabic','Traditional Arabic',serif"
+        font-size="260" fill="#FDFBF7" text-anchor="middle" direction="rtl">م</text>
+  <text x="256" y="438"
+        font-family="Georgia,serif" font-size="28" fill="#C5A880" text-anchor="middle" opacity="0.8">Muallim ul-Quran</text>
+</svg>
