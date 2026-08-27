@@ -862,6 +862,419 @@
         reader.readAsText(file);
       }
 
+      // ============================================================
+      // F4 — Exam Generation System
+      // ============================================================
+      let _examConfig = {
+        scopeType: 'lesson', selectedLessons: [], selectedUnits: [],
+        filter: 'all', questionCount: 20,
+        questionTypes: ['mcq','mcq_rev','matching','tf','audio_mcq'],
+        outputMode: 'interactive', _lessonTabStage: 1
+      };
+      let _examQuestions = [], _examAnswered = 0, _examScore = 0;
+
+      function openExamConfig() {
+        _examConfig = { scopeType: 'lesson', selectedLessons: [], selectedUnits: [], filter: 'all',
+          questionCount: 20, questionTypes: ['mcq','mcq_rev','matching','tf','audio_mcq'],
+          outputMode: 'interactive', _lessonTabStage: currentStage };
+        _renderExamStep(1);
+        document.getElementById('exam-config-modal').showModal();
+      }
+
+      function _renderExamStep(step) {
+        const body = document.getElementById('exam-config-body');
+        const nav = (backStep, nextStep, nextLabel) => `
+          <div class="exam-nav-row">
+            ${backStep ? `<button class="btn-secondary" onclick="App._renderExamStep(${backStep})">← Wapas</button>` : '<span></span>'}
+            <button class="btn-primary" onclick="${nextStep ? `App._renderExamStep(${nextStep})` : 'App._generateAndShowExam()'}">${nextLabel || 'Aage →'}</button>
+          </div>`;
+
+        if (step === 1) {
+          body.innerHTML = `
+            <div class="exam-step-title">Qadam 1 — Kya shamil karein?</div>
+            <div class="exam-scope-opts">
+              ${[['lessons','Alag Alag Lessons'],['units','Poora Unit'],['all','Saare 7 Units']].map(([v,l]) =>
+                `<label class="exam-radio-label"><input type="radio" name="es" value="${v}" ${_examConfig.scopeType===v?'checked':''} onchange="App._setExamScopeType('${v}')"> ${l}</label>`
+              ).join('')}
+            </div>
+            ${_renderExamScopeSelector()}
+            ${nav(null, 2)}
+          `;
+        } else if (step === 2) {
+          body.innerHTML = `
+            <div class="exam-step-title">Qadam 2 — Kaunse items?</div>
+            <div class="exam-scope-opts">
+              <label class="exam-radio-label"><input type="radio" name="ef" value="all" ${_examConfig.filter==='all'?'checked':''} onchange="App._setExamFilter('all')"> Tamam Items</label>
+              <label class="exam-radio-label"><input type="radio" name="ef" value="starred" ${_examConfig.filter==='starred'?'checked':''} onchange="App._setExamFilter('starred')"> Sirf Starred ★</label>
+            </div>
+            ${nav(1, 3)}
+          `;
+        } else if (step === 3) {
+          body.innerHTML = `
+            <div class="exam-step-title">Qadam 3 — Kitne Sawaal?</div>
+            <div class="exam-count-btns">
+              ${[10,20,30,50].map(n => `<button class="exam-count-btn${_examConfig.questionCount===n?' selected':''}" onclick="App._setExamCount(${n})">${n}</button>`).join('')}
+            </div>
+            <div style="margin-top:10px;display:flex;align-items:center;gap:8px;">
+              <span style="font-size:0.85rem;">Ya likho:</span>
+              <input type="number" min="5" max="100" value="${_examConfig.questionCount}" style="width:60px;padding:4px 6px;border:1px solid var(--border-color,#ccc);border-radius:6px;" oninput="App._setExamCountInput(this.value)">
+            </div>
+            ${nav(2, 4)}
+          `;
+        } else if (step === 4) {
+          const types = [['mcq','MCQ — Arabic → Hinglish'],['mcq_rev','MCQ — Hinglish → Arabic'],
+                         ['matching','Matching / Jori Milao'],['tf','Sahi / Ghalat'],['audio_mcq','Audio MCQ — Suno aur jawab do']];
+          body.innerHTML = `
+            <div class="exam-step-title">Qadam 4 — Sawaal ke Qisam</div>
+            ${types.map(([val,lbl]) => `
+              <label class="exam-check-label">
+                <input type="checkbox" value="${val}" ${_examConfig.questionTypes.includes(val)?'checked':''}
+                  onchange="App._toggleExamType('${val}', this.checked)">
+                ${lbl}
+              </label>`).join('')}
+            ${nav(3, 5)}
+          `;
+        } else if (step === 5) {
+          body.innerHTML = `
+            <div class="exam-step-title">Qadam 5 — Kaise lena hai?</div>
+            <div class="exam-scope-opts">
+              <label class="exam-radio-label"><input type="radio" name="eo" value="interactive" ${_examConfig.outputMode==='interactive'?'checked':''} onchange="App._setExamOutputMode('interactive')"> 🎯 App mein (scoring ke saath)</label>
+              <label class="exam-radio-label"><input type="radio" name="eo" value="print" ${_examConfig.outputMode==='print'?'checked':''} onchange="App._setExamOutputMode('print')"> 🖨️ Print karein (paper pe)</label>
+            </div>
+            ${nav(4, null, '📝 Imtehaan Banao')}
+          `;
+        }
+      }
+
+      function _setExamScopeType(v) { _examConfig.scopeType = v; _renderExamStep(1); }
+      function _setExamFilter(v) { _examConfig.filter = v; }
+      function _setExamCount(n) { _examConfig.questionCount = n; _renderExamStep(3); }
+      function _setExamCountInput(val) { _examConfig.questionCount = Math.max(5, Math.min(100, +val || 20)); }
+      function _toggleExamType(val, checked) {
+        if (checked) {
+          if (!_examConfig.questionTypes.includes(val)) _examConfig.questionTypes.push(val);
+        } else {
+          _examConfig.questionTypes = _examConfig.questionTypes.filter(t => t !== val);
+        }
+      }
+      function _setExamOutputMode(v) { _examConfig.outputMode = v; }
+      function _setExamStageTab(s) { _examConfig._lessonTabStage = s; _renderExamStep(1); }
+      function _toggleExamUnit(u, checked) {
+        if (checked) {
+          if (!_examConfig.selectedUnits.includes(u)) _examConfig.selectedUnits.push(u);
+        } else {
+          _examConfig.selectedUnits = _examConfig.selectedUnits.filter(x => x !== u);
+        }
+      }
+      function _toggleExamLesson(stage, lesson, checked) {
+        if (checked) {
+          if (!_examConfig.selectedLessons.some(x => x.stage === stage && x.lesson === lesson)) {
+            _examConfig.selectedLessons.push({ stage, lesson });
+          }
+        } else {
+          _examConfig.selectedLessons = _examConfig.selectedLessons.filter(x => !(x.stage === stage && x.lesson === lesson));
+        }
+      }
+
+      function _renderExamScopeSelector() {
+        if (_examConfig.scopeType === 'all') return '';
+        if (_examConfig.scopeType === 'units') {
+          return `<div class="exam-unit-grid">
+            ${[1,2,3,4,5,6,7].map(u => `
+              <label class="exam-unit-check">
+                <input type="checkbox" ${_examConfig.selectedUnits.includes(u)?'checked':''}
+                  onchange="App._toggleExamUnit(${u}, this.checked)">
+                Unit ${u}
+              </label>`).join('')}
+          </div>`;
+        }
+        const st = _examConfig._lessonTabStage || 1;
+        const stageData = window.PWA_BOOK_DATA.stages[`Stage${st}`] || [];
+        return `
+          <div class="exam-stage-tabs">
+            ${[1,2,3,4,5,6,7].map(s =>
+              `<button class="exam-stage-tab${s===st?' selected':''}" onclick="App._setExamStageTab(${s})">Unit ${s}</button>`
+            ).join('')}
+          </div>
+          <div class="exam-lesson-checks">
+            ${stageData.map(l => {
+              const sel = _examConfig.selectedLessons.some(x => x.stage===st && x.lesson===l.lesson_id);
+              return `<label class="exam-lesson-check">
+                <input type="checkbox" ${sel?'checked':''}
+                  onchange="App._toggleExamLesson(${st}, ${l.lesson_id}, this.checked)">
+                L${l.lesson_id}
+              </label>`;
+            }).join('')}
+          </div>`;
+      }
+
+      function _collectExamItems() {
+        const items = [], stages = window.PWA_BOOK_DATA.stages;
+        const addLesson = (sNum, lId) => {
+          const les = (stages[`Stage${sNum}`] || []).find(l => l.lesson_id === lId);
+          if (!les) return;
+          (les.sections || []).forEach((sec, sIdx) => {
+            ((sec.data && sec.data.items) || []).forEach((it, iIdx) => {
+              if (!it.arabic || !it.hinglish || it.arabic.includes('----')) return;
+              const key = `S${sNum}L${lId}_s${sIdx}_${iIdx}`;
+              if (_examConfig.filter === 'starred' && !isStarred(key)) return;
+              items.push({ arabic: it.arabic, hinglish: it.hinglish, stage: sNum, lesson: lId, key });
+            });
+          });
+        };
+        if (_examConfig.scopeType === 'all') {
+          for (let s = 1; s <= 7; s++) (stages[`Stage${s}`] || []).forEach(l => addLesson(s, l.lesson_id));
+        } else if (_examConfig.scopeType === 'units') {
+          const units = _examConfig.selectedUnits.length ? _examConfig.selectedUnits : [currentStage];
+          units.forEach(u => (stages[`Stage${u}`] || []).forEach(l => addLesson(u, l.lesson_id)));
+        } else {
+          const lessons = _examConfig.selectedLessons.length ? _examConfig.selectedLessons : [{ stage: currentStage, lesson: currentLesson }];
+          lessons.forEach(({ stage, lesson }) => addLesson(stage, lesson));
+        }
+        return items;
+      }
+
+      function _shuffleArr(arr) {
+        const a = [...arr];
+        for (let i = a.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [a[i], a[j]] = [a[j], a[i]];
+        }
+        return a;
+      }
+
+      function _pickDistractors(correct, all) {
+        const sameUnit = _shuffleArr(all.filter(x => x.stage === correct.stage && x.key !== correct.key));
+        const diffUnit = _shuffleArr(all.filter(x => x.stage !== correct.stage));
+        const d = [...sameUnit.slice(0,2), ...diffUnit.slice(0,1)];
+        if (d.length < 3) {
+          const extra = _shuffleArr(all.filter(x => x.key !== correct.key && !d.find(dd => dd.key === x.key)));
+          d.push(...extra.slice(0, 3 - d.length));
+        }
+        return d.slice(0, 3);
+      }
+
+      function _generateAndShowExam() {
+        if (_examConfig.questionTypes.length === 0) { showToast('Kam az kam ek sawaal ka qism chunein!'); return; }
+        const allItems = _collectExamItems();
+        if (allItems.length === 0) { showToast('Is selection mein koi item nahi. Scope ya filter badlein.'); return; }
+        document.getElementById('exam-config-modal').close();
+
+        const pool = _shuffleArr(allItems).slice(0, _examConfig.questionCount);
+        const types = _shuffleArr([..._examConfig.questionTypes]);
+        _examQuestions = [];
+
+        pool.forEach((item, idx) => {
+          const qtype = types[idx % types.length];
+          const distractors = _pickDistractors(item, allItems);
+          const optItems = _shuffleArr([item, ...distractors]);
+          const correctIdx = optItems.findIndex(x => x.key === item.key);
+          if (qtype === 'mcq') {
+            _examQuestions.push({ type:'mcq', arabic:item.arabic, correct:item.hinglish,
+              options:optItems.map(x=>x.hinglish), correctIdx });
+          } else if (qtype === 'mcq_rev') {
+            _examQuestions.push({ type:'mcq_rev', hinglish:item.hinglish, correct:item.arabic,
+              options:optItems.map(x=>x.arabic), correctIdx });
+          } else if (qtype === 'tf') {
+            const showCorrect = Math.random() > 0.5;
+            _examQuestions.push({ type:'tf', arabic:item.arabic,
+              hinglish: showCorrect ? item.hinglish : (distractors[0]?.hinglish || item.hinglish),
+              isCorrect: showCorrect });
+          } else if (qtype === 'audio_mcq') {
+            _examQuestions.push({ type:'audio_mcq', arabic:item.arabic, correct:item.hinglish,
+              options:optItems.map(x=>x.hinglish), correctIdx });
+          } else {
+            _examQuestions.push({ type:'matching_item', item, distractors });
+          }
+        });
+
+        // Consolidate matching_item -> matching sets of 4
+        const matchItems = _examQuestions.filter(q => q.type === 'matching_item');
+        _examQuestions = _examQuestions.filter(q => q.type !== 'matching_item');
+        for (let i = 0; i < matchItems.length; i += 4) {
+          const batch = matchItems.slice(i, i+4);
+          if (batch.length >= 2) {
+            const lefts  = batch.map(b => b.item.arabic);
+            const rights = _shuffleArr(batch.map(b => b.item.hinglish));
+            _examQuestions.push({ type:'matching', lefts, rights, answers: batch.map(b => ({ arabic:b.item.arabic, hinglish:b.item.hinglish })) });
+          }
+        }
+
+        _examAnswered = 0; _examScore = 0;
+        _examConfig.outputMode === 'print' ? _renderPrintExam() : _renderInteractiveExam();
+      }
+
+      function _renderInteractiveExam() {
+        document.getElementById('exam-modal-title').textContent = `📝 Imtehaan (${_examQuestions.length} Sawaal)`;
+        document.getElementById('exam-print-btn').style.display = 'none';
+        let html = '<div class="exam-questions">';
+        _examQuestions.forEach((q, qi) => {
+          html += `<div class="exam-q" id="examq-${qi}" data-answered="0" data-qi="${qi}">`;
+          html += `<div class="exam-q-num">Q${qi+1}</div>`;
+          if (q.type === 'mcq') {
+            html += `<div class="exam-q-text exam-arabic" dir="rtl">${q.arabic}</div>`;
+            q.options.forEach((o,oi) => html += `<button class="exam-opt" onclick="App._answerMcq(${qi},${oi},${q.correctIdx})">${o}</button>`);
+          } else if (q.type === 'mcq_rev') {
+            html += `<div class="exam-q-text">${q.hinglish}</div>`;
+            q.options.forEach((o,oi) => html += `<button class="exam-opt exam-opt-arabic" dir="rtl" onclick="App._answerMcq(${qi},${oi},${q.correctIdx})">${o}</button>`);
+          } else if (q.type === 'tf') {
+            html += `<div class="exam-q-text exam-arabic" dir="rtl">${q.arabic}</div><div class="exam-q-text">${q.hinglish}</div>`;
+            html += `<div class="exam-tf-btns">
+              <button class="exam-opt exam-tf" onclick="App._answerTf(${qi},true,${q.isCorrect})">✓ Sahi</button>
+              <button class="exam-opt exam-tf" onclick="App._answerTf(${qi},false,${q.isCorrect})">✗ Ghalat</button>
+            </div>`;
+          } else if (q.type === 'audio_mcq') {
+            html += `<button class="btn-secondary exam-audio-btn" onclick="App.speakArabic('${(q.arabic||'').replace(/'/g,"\\'")}')">🔊 Suno</button>`;
+            q.options.forEach((o,oi) => html += `<button class="exam-opt" onclick="App._answerMcq(${qi},${oi},${q.correctIdx})">${o}</button>`);
+          } else if (q.type === 'matching') {
+            html += `<div class="exam-q-text">Sahi jori milao:</div><div class="exam-match-grid">
+              <div class="exam-match-col">${q.lefts.map((l,li) => `<button class="exam-match-item exam-arabic" dir="rtl" data-side="left" data-idx="${li}" onclick="App._selectMatch(${qi},this)">${l}</button>`).join('')}</div>
+              <div class="exam-match-col">${q.rights.map((r,ri) => `<button class="exam-match-item" data-side="right" data-idx="${ri}" onclick="App._selectMatch(${qi},this)">${r}</button>`).join('')}</div>
+            </div>`;
+          }
+          html += '</div>';
+        });
+        html += '</div><div id="exam-summary" style="display:none;" class="exam-summary"></div>';
+        document.getElementById('exam-display-mount').innerHTML = html;
+        document.getElementById('exam-modal').showModal();
+      }
+
+      let _matchSel = {};
+
+      function _selectMatch(qi, btn) {
+        const side = btn.dataset.side, idx = +btn.dataset.idx;
+        if (!_matchSel[qi]) _matchSel[qi] = {};
+        _matchSel[qi][side] = idx;
+        const qEl = document.getElementById(`examq-${qi}`);
+        qEl.querySelectorAll(`.exam-match-item[data-side="${side}"]`).forEach(b => b.classList.remove('selected'));
+        btn.classList.add('selected');
+        const sel = _matchSel[qi];
+        if (sel.left !== undefined && sel.right !== undefined) {
+          const q = _examQuestions[qi];
+          const isMatch = q.answers.some(a => a.arabic === q.lefts[sel.left] && a.hinglish === q.rights[sel.right]);
+          const lBtn = qEl.querySelector(`.exam-match-item[data-side="left"][data-idx="${sel.left}"]`);
+          const rBtn = qEl.querySelector(`.exam-match-item[data-side="right"][data-idx="${sel.right}"]`);
+          if (isMatch) {
+            lBtn.classList.add('match-correct'); lBtn.disabled = true;
+            rBtn.classList.add('match-correct'); rBtn.disabled = true;
+            _examScore++; _examAnswered++;
+          } else {
+            lBtn.classList.add('match-wrong'); rBtn.classList.add('match-wrong');
+            setTimeout(() => { lBtn.classList.remove('match-wrong','selected'); rBtn.classList.remove('match-wrong','selected'); }, 800);
+          }
+          delete _matchSel[qi];
+          if (qEl.querySelectorAll('.exam-match-item:not(:disabled)').length === 0) _checkExamDone();
+        }
+      }
+
+      function _answerMcq(qi, chosen, correct) {
+        const qEl = document.getElementById(`examq-${qi}`);
+        if (qEl.dataset.answered === '1') return;
+        qEl.dataset.answered = '1'; _examAnswered++;
+        const opts = qEl.querySelectorAll('.exam-opt');
+        opts.forEach((b,i) => { b.disabled=true; if(i===correct) b.classList.add('opt-correct'); if(i===chosen&&chosen!==correct) b.classList.add('opt-wrong'); });
+        if (chosen === correct) _examScore++;
+        _checkExamDone();
+      }
+
+      function _answerTf(qi, userAns, isCorrect) {
+        const qEl = document.getElementById(`examq-${qi}`);
+        if (qEl.dataset.answered === '1') return;
+        qEl.dataset.answered = '1'; _examAnswered++;
+        if (userAns === isCorrect) _examScore++;
+        qEl.querySelectorAll('.exam-tf').forEach(b => {
+          b.disabled=true;
+          const bIsTrue = b.textContent.includes('Sahi');
+          if (bIsTrue === isCorrect) b.classList.add('opt-correct');
+          else if (bIsTrue === userAns) b.classList.add('opt-wrong');
+        });
+        _checkExamDone();
+      }
+
+      function _checkExamDone() {
+        const nonMatch = _examQuestions.filter(q => q.type !== 'matching');
+        const matchQ   = _examQuestions.filter(q => q.type === 'matching');
+        const answered = document.querySelectorAll('.exam-q[data-answered="1"]').length;
+        if (answered < nonMatch.length + matchQ.length) return;
+        const total = _examQuestions.length;
+        const pct = Math.round(_examScore / Math.max(total,1) * 100);
+        const s = document.getElementById('exam-summary');
+        s.style.display = 'block';
+        s.innerHTML = `
+          <div class="exam-score-display">${_examScore} / ${total}</div>
+          <div class="exam-score-pct">${pct}% Sahi</div>
+          <div style="margin-top:16px;display:flex;gap:10px;justify-content:center;">
+            <button class="btn-secondary" onclick="App._generateAndShowExam()">🔁 Dobara</button>
+            <button class="btn-primary" onclick="App.openExamConfig()">📝 Naya Imtehaan</button>
+          </div>`;
+        s.scrollIntoView({ behavior:'smooth', block:'center' });
+      }
+
+      function _renderPrintExam() {
+        document.getElementById('exam-modal-title').textContent = '📝 Imtehaan Paper';
+        document.getElementById('exam-print-btn').style.display = 'inline-flex';
+        const today = new Date().toLocaleDateString('en-IN', { day:'numeric', month:'long', year:'numeric' });
+        let html = `
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+          <div class="exam-print-wrapper">
+            <div class="ep-header">
+              <div class="ep-title">MUALLIM UL-QUR'AN — مُعَلِّمُ الْقُرْآنِ</div>
+              <div class="ep-subtitle">IMTEHAAN PAPER</div>
+              <div class="ep-meta">
+                <div>Naam: _______________________</div>
+                <div>Class / Roll: _______________</div>
+                <div>Tarikh: ${today}</div>
+                <div>Marks: ${_examQuestions.length * 2} | Waqt: ${Math.ceil(_examQuestions.length * 2.5)}m</div>
+              </div>
+            </div>`;
+
+        const sections = [
+          ['mcq','MCQ — Arabic se Hinglish'],
+          ['mcq_rev','MCQ — Hinglish se Arabic'],
+          ['tf','Sahi ya Ghalat'],
+          ['audio_mcq','Audio Sawaal (app mein suno)'],
+          ['matching','Jori Milao']
+        ];
+        let ak = '<div class="ep-answer-key"><div class="ep-ak-title">JAWAB NAAMA (Answer Key)</div>';
+        let qn = 1;
+        sections.forEach(([type, title]) => {
+          const qs = _examQuestions.filter(q => q.type === type);
+          if (!qs.length) return;
+          html += `<div class="ep-section"><div class="ep-section-header"><span>${title}</span><span>[${qs.length*2} Marks]</span></div>`;
+          qs.forEach(q => {
+            if (type === 'mcq' || type === 'mcq_rev' || type === 'audio_mcq') {
+              const qText = type === 'mcq_rev' ? q.hinglish : `<span class="ep-arabic" dir="rtl">${q.arabic}</span>`;
+              const prefix = type === 'audio_mcq' ? '🔊 ' : '';
+              const optStyle = type === 'mcq_rev' ? 'dir="rtl" class="ep-arabic"' : '';
+              html += `<div class="ep-q">
+                <div class="ep-q-text">Q${qn}. ${prefix}${qText} ka matlab:</div>
+                <div class="ep-opts">${q.options.map((o,i) => `<div class="ep-opt" ${optStyle}>(${String.fromCharCode(65+i)}) ${o}</div>`).join('')}</div>
+              </div>`;
+              ak += `<div>Q${qn}: ${String.fromCharCode(65+q.correctIdx)}</div>`;
+            } else if (type === 'tf') {
+              html += `<div class="ep-q">
+                <div class="ep-q-text">Q${qn}. <span class="ep-arabic" dir="rtl">${q.arabic}</span> = "${q.hinglish}" — Sahi hai ya Ghalat?</div>
+                <div class="ep-blank-line"></div>
+              </div>`;
+              ak += `<div>Q${qn}: ${q.isCorrect ? 'Sahi' : 'Ghalat'}</div>`;
+            } else if (type === 'matching') {
+              html += `<div class="ep-q"><div class="ep-q-text">Q${qn}. Sahi jori milao:</div>
+                <table class="ep-match-table"><thead><tr><th>Column A (Arabic)</th><th>Jawab</th><th>Column B (Hinglish)</th></tr></thead><tbody>
+                ${q.lefts.map((l,i) => `<tr><td class="ep-arabic" dir="rtl">${l}</td><td class="ep-match-blank">___</td><td>${q.rights[i]||''}</td></tr>`).join('')}
+                </tbody></table></div>`;
+              ak += `<div>Q${qn}: ${q.answers.map(a => `${a.arabic}=${a.hinglish}`).join('; ')}</div>`;
+            }
+            qn++;
+          });
+          html += '</div>';
+        });
+        ak += '</div>';
+        html += `<div style="page-break-before:always;"></div>${ak}</div>`;
+        document.getElementById('exam-display-mount').innerHTML = html;
+        document.getElementById('exam-modal').showModal();
+      }
+
       return {
         init,
         setTheme,
@@ -895,7 +1308,23 @@
         jumpToSearchLesson,
         openExportDialog,
         doExport,
-        importDataBackup
+        importDataBackup,
+        openExamConfig,
+        _renderExamStep,
+        _setExamScopeType,
+        _setExamFilter,
+        _setExamCount,
+        _setExamCountInput,
+        _toggleExamType,
+        _setExamOutputMode,
+        _setExamStageTab,
+        _toggleExamUnit,
+        _toggleExamLesson,
+        _generateAndShowExam,
+        _answerMcq,
+        _answerTf,
+        _selectMatch,
+        _checkExamDone
       };
     })();
 

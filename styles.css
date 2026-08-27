@@ -1014,4 +1014,72 @@
 .spinner-mini-btn.selected { background: var(--accent-light, #2d6a4f); color: #fff; border-color: transparent; }
 .spinner-pool-info { font-size: 0.75rem; color: var(--text-muted); text-align: right; padding: 2px 0 4px; }
 
+/* F4 — Exam config */
+.exam-step-title { font-weight:700; font-size:1rem; margin-bottom:12px; }
+.exam-scope-opts { display:flex; flex-direction:column; gap:10px; margin-bottom:12px; }
+.exam-radio-label, .exam-check-label { display:flex; align-items:center; gap:8px; font-size:0.9rem; cursor:pointer; }
+.exam-unit-grid { display:flex; flex-wrap:wrap; gap:8px; margin-top:8px; }
+.exam-unit-check { display:flex; align-items:center; gap:4px; font-size:0.85rem; cursor:pointer; }
+.exam-stage-tabs { display:flex; flex-wrap:wrap; gap:4px; margin:8px 0 6px; }
+.exam-stage-tab { padding:4px 10px; font-size:0.78rem; border:1px solid var(--border-color,#ccc); border-radius:6px; cursor:pointer; background:transparent; }
+.exam-stage-tab.selected { background:var(--accent,#1B4332); color:#fff; border-color:transparent; }
+.exam-lesson-checks { display:flex; flex-wrap:wrap; gap:6px; }
+.exam-lesson-check { font-size:0.8rem; display:flex; align-items:center; gap:3px; cursor:pointer; }
+.exam-count-btns { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:8px; }
+.exam-count-btn { padding:8px 18px; border:1.5px solid var(--border-color,#ccc); border-radius:8px; background:transparent; font-size:1rem; cursor:pointer; }
+.exam-count-btn.selected { background:var(--accent,#1B4332); color:#fff; border-color:transparent; }
+.exam-nav-row { display:flex; justify-content:space-between; margin-top:20px; }
+
+/* F4 — Exam display */
+.exam-modal { max-width:98vw; width:680px; }
+.exam-questions { display:flex; flex-direction:column; gap:20px; padding:4px 0 16px; }
+.exam-q { border:1px solid var(--border-color,#ddd); border-radius:10px; padding:14px; }
+.exam-q-num { font-size:0.72rem; font-weight:700; color:var(--text-muted); margin-bottom:6px; text-transform:uppercase; }
+.exam-q-text { font-size:0.95rem; margin-bottom:10px; }
+.exam-arabic { font-family:'Amiri',serif; font-size:1.3rem; direction:rtl; }
+.exam-opt { display:block; width:100%; text-align:left; padding:9px 12px; border:1px solid var(--border-color,#ccc); border-radius:8px; background:transparent; font-size:0.88rem; cursor:pointer; margin-bottom:6px; transition:background 0.15s; }
+.exam-opt-arabic { font-family:'Amiri',serif; font-size:1.1rem; direction:rtl; text-align:right; }
+.exam-opt:disabled { cursor:default; }
+.exam-opt.opt-correct { background:#d1fae5; border-color:#10b981; color:#065f46; }
+.exam-opt.opt-wrong   { background:#fee2e2; border-color:#ef4444; color:#991b1b; }
+.exam-tf-btns { display:flex; gap:10px; }
+.exam-tf { flex:1; text-align:center; }
+.exam-audio-btn { margin-bottom:10px; }
+.exam-match-grid { display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+.exam-match-col { display:flex; flex-direction:column; gap:6px; }
+.exam-match-item { padding:8px; border:1px solid var(--border-color,#ccc); border-radius:8px; background:transparent; cursor:pointer; font-size:0.88rem; }
+.exam-match-item.selected { border-color:var(--accent,#1B4332); background:var(--bg-secondary,#f7f5f0); }
+.exam-match-item.match-correct { background:#d1fae5; border-color:#10b981; }
+.exam-match-item.match-wrong   { background:#fee2e2; border-color:#ef4444; }
+.exam-summary { background:var(--bg-secondary,#f7f5f0); border-radius:12px; padding:24px; text-align:center; margin-top:20px; }
+.exam-score-display { font-size:2.5rem; font-weight:800; color:var(--accent,#1B4332); }
+.exam-score-pct { font-size:1.1rem; color:var(--text-secondary); margin-top:4px; }
+
+/* F4 — Print exam */
+.exam-print-wrapper { font-family:'Noto Sans',sans-serif; color:#000; font-size:9pt; line-height:1.5; }
+.ep-header { border:1.5px solid #000; padding:10px; margin-bottom:14px; text-align:center; }
+.ep-title { font-size:13pt; font-weight:700; text-transform:uppercase; }
+.ep-subtitle { font-size:10pt; font-weight:600; text-transform:uppercase; margin:4px 0 8px; }
+.ep-meta { display:grid; grid-template-columns:1fr 1fr; gap:6px; text-align:left; border-top:1px solid #000; padding-top:8px; font-size:9pt; }
+.ep-section { margin-bottom:12px; }
+.ep-section-header { display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid #000; font-weight:700; font-size:9.5pt; text-transform:uppercase; padding-bottom:2px; margin-bottom:8px; }
+.ep-q { margin-bottom:10px; page-break-inside:avoid; }
+.ep-q-text { font-weight:500; margin-bottom:4px; font-size:9pt; }
+.ep-arabic { font-family:'Amiri',serif; font-size:15pt; direction:rtl; }
+.ep-opts { display:grid; grid-template-columns:1fr 1fr; gap:4px; margin-left:12px; margin-top:4px; }
+.ep-opt { font-size:9pt; }
+.ep-blank-line { border-bottom:1px dotted #000; width:70%; height:18px; display:inline-block; vertical-align:bottom; margin-top:4px; }
+.ep-match-table { width:100%; border-collapse:collapse; margin-top:6px; font-size:9pt; }
+.ep-match-table th, .ep-match-table td { border:1px solid #000; padding:3px 6px; }
+.ep-match-blank { text-align:center; width:80px; }
+.ep-answer-key { margin-top:8px; }
+.ep-ak-title { font-weight:700; text-decoration:underline; font-size:10pt; margin-bottom:8px; }
+
+@media print {
+  .app-header, #menu-panel, .modal-header button, #exam-print-btn { display:none !important; }
+  dialog.exam-modal { position:static !important; margin:0; border:none; padding:0; width:100%; }
+  .ep-section { page-break-inside:avoid; }
+}
+
+
 

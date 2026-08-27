@@ -275,6 +275,7 @@
           <span class="menu-action-badge" id="star-count-badge"></span>
         </button>
         <button class="menu-action-row" onclick="closeMenuPanel();App.openSpinner()">🎲 <span>Vocabulary Drill</span></button>
+        <button class="menu-action-row" onclick="closeMenuPanel();App.openExamConfig()">📝 <span>Imtehaan Banao</span></button>
       </div>
 
       <div class="menu-section">
@@ -327,5 +328,24 @@
     if (location.hash === '#favourites') setTimeout(() => App.openFavourites(), 500);
   });
   </script>
+  <!-- Exam Modals -->
+  <dialog id="exam-config-modal" class="app-modal">
+    <div class="modal-header">
+      <div class="modal-title">📝 Imtehaan Banao</div>
+      <button class="icon-btn" onclick="document.getElementById('exam-config-modal').close()">✕</button>
+    </div>
+    <div class="modal-body" id="exam-config-body"></div>
+  </dialog>
+
+  <dialog id="exam-modal" class="app-modal exam-modal">
+    <div class="modal-header">
+      <div class="modal-title" id="exam-modal-title">📝 Imtehaan</div>
+      <div style="display:flex;gap:6px;">
+        <button class="btn-secondary" id="exam-print-btn" onclick="window.print()" style="display:none;">🖨️ Print</button>
+        <button class="icon-btn" onclick="document.getElementById('exam-modal').close()">✕</button>
+      </div>
+    </div>
+    <div class="modal-body" id="exam-display-mount"></div>
+  </dialog>
 </body>
 </html>
