@@ -7,7 +7,9 @@
       let favourites = JSON.parse(localStorage.getItem('muallim_favs') || '[]');
       let customAnswers = JSON.parse(localStorage.getItem('muallim_custom_answers') || '{}');
       let activeEditKey = null;
-      let spinnerMode = 'starred'; // 'starred' or 'lesson'
+      let spinnerScope  = 'lesson';  // 'lesson' | 'unit' | 'all'
+      let spinnerFilter = 'all';     // 'starred' | 'all'
+      let spinnerScopeValue = null;  // {stage, lesson} or unit number
       let spinnerPool = [];
       let spinnerIndex = 0;
       let isSpinnerRevealed = false;
@@ -513,62 +515,124 @@
       }
 
       function openSpinner() {
-        setSpinnerPool(spinnerMode);
+        if (!spinnerScopeValue) {
+          spinnerScopeValue = spinnerScope === 'unit' ? currentStage : { stage: currentStage, lesson: currentLesson };
+        }
+        _renderSpinnerScopePicker();
+        _buildSpinnerPool();
         document.getElementById('spinner-modal').showModal();
       }
 
-      function setSpinnerPool(mode) {
-        spinnerMode = mode;
-        document.getElementById('pool-starred-btn').classList.toggle('selected', mode === 'starred');
-        document.getElementById('pool-lesson-btn').classList.toggle('selected', mode === 'lesson');
+      function setSpinnerScope(scope) {
+        spinnerScope = scope;
+        spinnerScopeValue = scope === 'unit' ? currentStage
+                          : scope === 'lesson' ? { stage: currentStage, lesson: currentLesson }
+                          : null;
+        document.querySelectorAll('#spinner-scope-group .spinner-seg').forEach(b =>
+          b.classList.toggle('selected', b.dataset.scope === scope));
+        _renderSpinnerScopePicker();
+        _buildSpinnerPool();
+      }
 
+      function setSpinnerFilter(filter) {
+        spinnerFilter = filter;
+        document.querySelectorAll('#spinner-filter-group .spinner-seg').forEach(b =>
+          b.classList.toggle('selected', b.dataset.filter === filter));
+        _buildSpinnerPool();
+      }
+
+      function _renderSpinnerScopePicker() {
+        const picker = document.getElementById('spinner-scope-picker');
+        if (spinnerScope === 'all') { picker.style.display = 'none'; picker.innerHTML = ''; return; }
+        picker.style.display = 'block';
+        if (spinnerScope === 'unit') {
+          const cur = typeof spinnerScopeValue === 'number' ? spinnerScopeValue : currentStage;
+          spinnerScopeValue = cur;
+          picker.innerHTML = '<div class="spinner-mini-picker"><div class="spinner-stage-tabs">' +
+            [1,2,3,4,5,6,7].map(u =>
+              `<button class="spinner-mini-btn${u===cur?' selected':''}" onclick="App._setSpinnerUnit(${u})">${u}</button>`
+            ).join('') + '</div></div>';
+        } else {
+          const sv = spinnerScopeValue && spinnerScopeValue.stage ? spinnerScopeValue : { stage: currentStage, lesson: currentLesson };
+          const stageData = window.PWA_BOOK_DATA.stages[`Stage${sv.stage}`] || [];
+          picker.innerHTML = `<div class="spinner-mini-picker">
+            <div class="spinner-stage-tabs">
+              ${[1,2,3,4,5,6,7].map(s =>
+                `<button class="spinner-stage-tab${s===sv.stage?' selected':''}" onclick="App._setSpinnerStageTab(${s})">${s}</button>`
+              ).join('')}
+            </div>
+            <div class="spinner-lesson-btns">
+              ${stageData.map(l => {
+                const sel = sv.stage === l.stage && l.lesson_id === sv.lesson;
+                return `<button class="spinner-mini-btn${sel?' selected':''}" onclick="App._setSpinnerLesson(${sv.stage},${l.lesson_id})">${l.lesson_id}</button>`;
+              }).join('')}
+            </div>
+          </div>`;
+        }
+      }
+
+      function _setSpinnerStageTab(stage) {
+        spinnerScopeValue = { stage, lesson: 1 };
+        _renderSpinnerScopePicker();
+        _buildSpinnerPool();
+      }
+      function _setSpinnerUnit(unit) {
+        spinnerScopeValue = unit;
+        _renderSpinnerScopePicker();
+        _buildSpinnerPool();
+      }
+      function _setSpinnerLesson(stage, lesson) {
+        spinnerScopeValue = { stage, lesson };
+        _renderSpinnerScopePicker();
+        _buildSpinnerPool();
+      }
+
+      function _buildSpinnerPool() {
         spinnerPool = [];
-        if (mode === 'starred') {
-          favourites.forEach(f => {
-            const customVal = customAnswers[f.key];
-            spinnerPool.push({
-              arabic: f.arabic,
-              origHinglish: f.hinglish,
-              customHinglish: customVal || '',
-              key: f.key
+        const stages = window.PWA_BOOK_DATA.stages;
+        const collect = (stageNum, lessonId) => {
+          const les = (stages[`Stage${stageNum}`] || []).find(l => l.lesson_id === lessonId);
+          if (!les) return;
+          (les.sections || []).forEach((sec, sIdx) => {
+            ((sec.data && sec.data.items) || []).forEach((it, iIdx) => {
+              if (!it.arabic || !it.hinglish || it.arabic.includes('----')) return;
+              const itemKey = `S${stageNum}L${lessonId}_s${sIdx}_${iIdx}`;
+              if (spinnerFilter === 'starred' && !isStarred(itemKey)) return;
+              spinnerPool.push({ arabic: it.arabic, origHinglish: it.hinglish, customHinglish: customAnswers[itemKey] || '', key: itemKey });
             });
           });
+        };
+        if (spinnerScope === 'lesson') {
+          const sv = spinnerScopeValue && spinnerScopeValue.stage ? spinnerScopeValue : { stage: currentStage, lesson: currentLesson };
+          collect(sv.stage, sv.lesson);
+        } else if (spinnerScope === 'unit') {
+          const unit = typeof spinnerScopeValue === 'number' ? spinnerScopeValue : currentStage;
+          (stages[`Stage${unit}`] || []).forEach(l => collect(unit, l.lesson_id));
         } else {
-          const stageKey = `Stage${currentStage}`;
-          const stageData = window.PWA_BOOK_DATA.stages[stageKey] || [];
-          const lesson = stageData.find(l => l.lesson_id === currentLesson) || stageData[0];
-          if (lesson) {
-            (lesson.sections || []).forEach((sec, sIdx) => {
-              const items = (sec.data && sec.data.items) || [];
-              items.forEach((it, iIdx) => {
-                if (it.arabic && it.hinglish && !it.arabic.includes('----')) {
-                  const itemKey = `S${currentStage}L${currentLesson}_s${sIdx}_${iIdx}`;
-                  const customVal = customAnswers[itemKey];
-                  spinnerPool.push({
-                    arabic: it.arabic,
-                    origHinglish: it.hinglish,
-                    customHinglish: customVal || '',
-                    key: itemKey
-                  });
-                }
-              });
-            });
-          }
+          for (let s = 1; s <= 7; s++) (stages[`Stage${s}`] || []).forEach(l => collect(s, l.lesson_id));
         }
-
-        // Shuffle pool
         for (let i = spinnerPool.length - 1; i > 0; i--) {
           const j = Math.floor(Math.random() * (i + 1));
           [spinnerPool[i], spinnerPool[j]] = [spinnerPool[j], spinnerPool[i]];
         }
         spinnerIndex = 0;
+        const info = document.getElementById('spinner-pool-info');
+        if (info) info.textContent = spinnerPool.length > 0 ? `${spinnerPool.length} items` : '';
         showSpinnerCard();
+      }
+
+      // Backward compat alias
+      function setSpinnerPool(mode) {
+        if (mode === 'starred') { spinnerScope = 'all'; spinnerFilter = 'starred'; }
+        else { spinnerScope = 'lesson'; spinnerFilter = 'all'; }
+        spinnerScopeValue = null;
+        _buildSpinnerPool();
       }
 
       function showSpinnerCard() {
         if (spinnerPool.length === 0) {
-          document.getElementById('spinner-arabic').textContent = spinnerMode === 'starred' ? 'No Starred Items Yet' : 'No Items in Current Lesson';
-          document.getElementById('spinner-hinglish').innerHTML = spinnerMode === 'starred' ? 'Tap ★ on any word to star it!' : '';
+          document.getElementById('spinner-arabic').textContent = spinnerFilter === 'starred' ? 'Koi starred item nahi hai' : 'Is scope mein koi item nahi';
+          document.getElementById('spinner-hinglish').innerHTML = spinnerFilter === 'starred' ? 'Tap ★ on any word to star it!' : '';
           document.getElementById('spinner-hinglish').style.display = 'block';
           document.getElementById('spinner-hint').style.display = 'none';
           return;
@@ -816,6 +880,12 @@
         navigateNextLesson,
         openSpinner,
         setSpinnerPool,
+        setSpinnerScope,
+        setSpinnerFilter,
+        _setSpinnerStageTab,
+        _setSpinnerUnit,
+        _setSpinnerLesson,
+        _buildSpinnerPool,
         toggleSpinnerReveal,
         nextSpinnerCard,
         playCurrentSpinnerAudio,

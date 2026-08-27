@@ -120,24 +120,31 @@
   <!-- Spaced-Repetition Spinner Modal -->
   <dialog id="spinner-modal" class="app-modal">
     <div class="modal-header">
-      <div class="modal-title">🔀 Spaced Repetition Spinner</div>
+      <div class="modal-title">🔀 Vocabulary Drill</div>
       <button class="icon-btn" onclick="document.getElementById('spinner-modal').close()">✕</button>
     </div>
     <div class="modal-body">
-      <div class="spinner-pool-toggle">
-        <button id="pool-starred-btn" class="spinner-pool-opt selected" onclick="App.setSpinnerPool('starred')">★ Starred Items (<span id="starred-count-badge">0</span>)</button>
-        <button id="pool-lesson-btn" class="spinner-pool-opt" onclick="App.setSpinnerPool('lesson')">📖 Current Lesson</button>
+      <div class="spinner-row-label">Scope</div>
+      <div class="spinner-seg-group" id="spinner-scope-group">
+        <button class="spinner-seg selected" data-scope="lesson" onclick="App.setSpinnerScope('lesson')">📖 Lesson</button>
+        <button class="spinner-seg" data-scope="unit" onclick="App.setSpinnerScope('unit')">📚 Unit</button>
+        <button class="spinner-seg" data-scope="all" onclick="App.setSpinnerScope('all')">🌐 Sab</button>
       </div>
-
+      <div id="spinner-scope-picker" class="spinner-scope-picker" style="display:none;"></div>
+      <div class="spinner-row-label" style="margin-top:10px;">Filter</div>
+      <div class="spinner-seg-group" id="spinner-filter-group">
+        <button class="spinner-seg selected" data-filter="all" onclick="App.setSpinnerFilter('all')">📋 Sab Items</button>
+        <button class="spinner-seg" data-filter="starred" onclick="App.setSpinnerFilter('starred')">★ Sirf Starred</button>
+      </div>
+      <div id="spinner-pool-info" class="spinner-pool-info"></div>
       <div id="spinner-card" class="spinner-card" onclick="App.toggleSpinnerReveal()">
         <div id="spinner-arabic" class="spinner-arabic">...</div>
         <div id="spinner-hinglish" class="spinner-hinglish" style="display:none;">...</div>
-        <div id="spinner-hint" class="spinner-hint">(tap card to reveal translation)</div>
+        <div id="spinner-hint" class="spinner-hint">(card tap karein — tarjuma zahir hoga)</div>
       </div>
-
       <div class="spinner-controls">
-        <button class="btn-secondary" onclick="App.playCurrentSpinnerAudio()">🔊 Hear</button>
-        <button class="btn-primary" onclick="App.nextSpinnerCard()">Next Card →</button>
+        <button class="btn-secondary" onclick="App.playCurrentSpinnerAudio()">🔊 Suno</button>
+        <button class="btn-primary" onclick="App.nextSpinnerCard()">Agla →</button>
       </div>
     </div>
   </dialog>
