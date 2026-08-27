@@ -1083,3 +1083,319 @@
 
 
 
+
+
+/* ── Bookmark Transparent Outline & Fill System ───────── */
+.btn-bookmark {
+  background: transparent !important;
+  border: none !important;
+  cursor: pointer;
+  padding: 4px 6px;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  transition: transform 0.15s ease, filter 0.15s ease;
+}
+.btn-bookmark:hover {
+  transform: scale(1.15);
+}
+.btn-bookmark svg {
+  width: 18px;
+  height: 18px;
+  stroke: var(--accent-emerald, #1B4332);
+  stroke-width: 2px;
+  fill: transparent;
+  transition: fill 0.2s ease, stroke 0.2s ease, filter 0.2s ease;
+}
+.btn-bookmark.bookmarked svg {
+  fill: var(--accent-emerald, #1B4332);
+  stroke: var(--accent-emerald, #1B4332);
+  filter: drop-shadow(0 2px 4px rgba(27,67,50,0.35));
+}
+[data-theme="dark"] .btn-bookmark svg {
+  stroke: #C5A880;
+}
+[data-theme="dark"] .btn-bookmark.bookmarked svg {
+  fill: #C5A880;
+  stroke: #C5A880;
+  filter: drop-shadow(0 2px 4px rgba(197,168,128,0.4));
+}
+
+
+/* ── Vocabulary Drill Multi-Select Scope Studio ──────── */
+.spinner-scope-studio {
+  margin: 12px 0 16px;
+}
+.spinner-tabs-bar {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--divider-light, #eee);
+}
+.spinner-tab-btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--divider-gold, #c5a880);
+  background: var(--bg-surface-elevated, #fff);
+  color: var(--text-primary, #333);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s;
+}
+.spinner-tab-btn.selected {
+  background: var(--accent-emerald, #1B4332);
+  color: #fff;
+  border-color: var(--accent-emerald, #1B4332);
+}
+.spinner-lesson-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 8px;
+  max-height: 180px;
+  overflow-y: auto;
+  padding: 4px;
+  border: 1px solid var(--divider-light, #eee);
+  border-radius: 8px;
+  background: var(--bg-surface, #fafafa);
+}
+.spinner-lesson-chip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 8px;
+  border-radius: 6px;
+  border: 1px solid var(--border-color, #ccc);
+  background: var(--bg-surface-elevated, #fff);
+  font-size: 0.78rem;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.15s;
+}
+.spinner-lesson-chip.selected {
+  border-color: var(--accent-emerald, #1B4332);
+  background: rgba(27,67,50,0.1);
+  font-weight: 700;
+}
+.spinner-count-badge {
+  font-size: 0.68rem;
+  background: var(--divider-light, #eee);
+  padding: 1px 5px;
+  border-radius: 10px;
+  color: var(--text-secondary, #666);
+}
+.spinner-lesson-chip.selected .spinner-count-badge {
+  background: var(--accent-emerald, #1B4332);
+  color: #fff;
+}
+.spinner-pool-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  font-size: 0.85rem;
+  color: var(--text-secondary, #666);
+}
+
+
+/* ── Embedded Admin Portal & Scorecard Review ────────── */
+.admin-card {
+  background: var(--bg-surface-elevated, #fff);
+  border: 1px solid var(--divider-gold, #c5a880);
+  border-radius: 10px;
+  padding: 16px;
+  margin: 12px 0;
+  box-shadow: var(--shadow-sm, 0 2px 8px rgba(0,0,0,0.06));
+}
+.admin-badge {
+  background: #DC2626;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+  margin-top: 8px;
+}
+.admin-table th, .admin-table td {
+  padding: 6px 8px;
+  border: 1px solid var(--divider-light, #eee);
+  text-align: left;
+}
+.admin-table th {
+  background: var(--bg-hover, #f5f5f5);
+  font-weight: 700;
+}
+.scorecard-box {
+  background: var(--bg-surface-elevated, #fff);
+  border: 2px solid var(--divider-gold, #c5a880);
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  margin: 16px 0;
+}
+.scorecard-grade-badge {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  font-weight: 800;
+  margin-top: 6px;
+}
+.scorecard-grade-badge.pass { background: rgba(16,185,129,0.15); color: #065F46; }
+.scorecard-grade-badge.fail { background: rgba(239,68,68,0.15); color: #991B1B; }
+.review-q-item {
+  border: 1px solid var(--divider-light, #eee);
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 8px;
+  text-align: left;
+  font-size: 0.88rem;
+}
+.review-q-item.correct { border-left: 4px solid #10B981; }
+.review-q-item.wrong { border-left: 4px solid #EF4444; }
+
+
+/* ── Upgraded Multi-Page Print Engine (Dense 2/3/4 Column) */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 8mm 10mm 10mm 10mm;
+  }
+  html, body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 9pt !important;
+    line-height: 1.3 !important;
+    height: auto !important;
+    overflow: visible !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  /* Prevent Dialog and Modal Container Clipping */
+  dialog, dialog#exam-modal, .exam-modal, .modal-backdrop, .app-header, .side-drawer, .menu-panel, .drawer-backdrop {
+    position: static !important;
+    display: block !important;
+    max-height: none !important;
+    height: auto !important;
+    overflow: visible !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+  .no-print, .dialog-header, .exam-nav-row, #exam-print-btn, #exam-download-btn, .header-inner, button {
+    display: none !important;
+  }
+  .exam-print-wrapper {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .ep-header {
+    border: 1.5pt solid #000;
+    padding: 6pt;
+    margin-bottom: 8pt;
+    text-align: center;
+  }
+  .ep-title {
+    font-size: 13pt;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+  }
+  .ep-subtitle {
+    font-size: 9.5pt;
+    font-weight: 700;
+    margin: 2pt 0;
+  }
+  .ep-meta-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4pt;
+    font-size: 8pt;
+    margin-top: 4pt;
+    text-align: left;
+    border-top: 0.5pt solid #000;
+    padding-top: 4pt;
+  }
+  /* High-Density Column Grids */
+  .ep-grid-3col {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 6pt !important;
+  }
+  .ep-grid-2col {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8pt !important;
+  }
+  .ep-section {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    margin-bottom: 8pt;
+  }
+  .ep-section-header {
+    font-size: 9.5pt;
+    font-weight: 700;
+    background: #f0f0f0 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    padding: 2pt 4pt;
+    border-left: 3pt solid #000;
+    margin-bottom: 4pt;
+    display: flex;
+    justify-content: space-between;
+  }
+  .ep-q {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    border: 0.5pt solid #aaa;
+    padding: 4pt 6pt;
+    border-radius: 3pt;
+    margin-bottom: 4pt;
+  }
+  .ep-q-text {
+    font-size: 8.5pt;
+    font-weight: 600;
+    margin-bottom: 2pt;
+  }
+  .ep-arabic {
+    font-family: 'Amiri', 'Traditional Arabic', serif !important;
+    font-size: 13pt !important;
+    direction: rtl;
+    text-align: right;
+  }
+  .ep-opts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2pt;
+    font-size: 8pt;
+  }
+  .ep-match-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 8pt;
+  }
+  .ep-match-table th, .ep-match-table td {
+    border: 0.5pt solid #000;
+    padding: 2pt 4pt;
+  }
+  .ep-page-break {
+    page-break-before: always !important;
+    break-before: page !important;
+  }
+}

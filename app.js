@@ -37,7 +37,7 @@
         populateStageTabs();
         updateStarredCountBadge();
         // updateBookmarksBadge() removed — bookmark drawer gone
-        setTimeout(() => { if (typeof offerResume === 'function') offerResume(); }, 1500);
+        
       }
 
       function setupEventListeners() {
@@ -274,7 +274,7 @@
                   <div class="card-top">
                     <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
                     <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">★</button>
-                    <button class="card-action-btn btn-bookmark${BookmarkStore.isBookmarked(itemKey) ? ' bookmarked' : ''}" data-item-id="${itemKey}" onclick="setBookmark('${itemKey}', ${currentStage}, ${currentLesson}, '${escAr}', '${escHi}')">🔖</button>
+                    <button class="card-action-btn btn-bookmark${BookmarkStore.isBookmarked(itemKey) ? ' bookmarked' : ''}" data-item-id="${itemKey}" onclick="setBookmark('${itemKey}', ${currentStage}, ${currentLesson}, '${escAr}', '${escHi}')" title="Bookmark"><svg viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg></button>
                   </div>
                   <div class="arabic-text">${it.arabic}</div>
                   ${renderDualAnswerHtml(itemKey, it.arabic, it.hinglish)}
@@ -307,7 +307,7 @@
                   <div class="card-top">
                     <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
                     <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">★</button>
-                    <button class="card-action-btn btn-bookmark${BookmarkStore.isBookmarked(itemKey) ? ' bookmarked' : ''}" data-item-id="${itemKey}" onclick="setBookmark('${itemKey}', ${currentStage}, ${currentLesson}, '${escAr}', '${escHi}')">🔖</button>
+                    <button class="card-action-btn btn-bookmark${BookmarkStore.isBookmarked(itemKey) ? ' bookmarked' : ''}" data-item-id="${itemKey}" onclick="setBookmark('${itemKey}', ${currentStage}, ${currentLesson}, '${escAr}', '${escHi}')" title="Bookmark"><svg viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg></button>
                   </div>
                   <div class="arabic-text">${it.arabic}</div>
                   ${renderDualAnswerHtml(itemKey, it.arabic, it.hinglish)}
@@ -344,7 +344,7 @@
                   <div class="card-top">
                     <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
                     <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">★</button>
-                    <button class="card-action-btn btn-bookmark${BookmarkStore.isBookmarked(itemKey) ? ' bookmarked' : ''}" data-item-id="${itemKey}" onclick="setBookmark('${itemKey}', ${currentStage}, ${currentLesson}, '${escAr}', '${escHi}')">🔖</button>
+                    <button class="card-action-btn btn-bookmark${BookmarkStore.isBookmarked(itemKey) ? ' bookmarked' : ''}" data-item-id="${itemKey}" onclick="setBookmark('${itemKey}', ${currentStage}, ${currentLesson}, '${escAr}', '${escHi}')" title="Bookmark"><svg viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg></button>
                   </div>
                   <div class="arabic-text" style="font-size:calc(var(--arabic-scale)*1.1);">${v.arabic}</div>
                   ${v.hinglish ? renderDualAnswerHtml(itemKey, v.arabic, v.hinglish) : ''}
@@ -393,7 +393,7 @@
                   <div class="card-top">
                     <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
                     <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">★</button>
-                    <button class="card-action-btn btn-bookmark${BookmarkStore.isBookmarked(itemKey) ? ' bookmarked' : ''}" data-item-id="${itemKey}" onclick="setBookmark('${itemKey}', ${currentStage}, ${currentLesson}, '${escAr}', '${escHi}')">🔖</button>
+                    <button class="card-action-btn btn-bookmark${BookmarkStore.isBookmarked(itemKey) ? ' bookmarked' : ''}" data-item-id="${itemKey}" onclick="setBookmark('${itemKey}', ${currentStage}, ${currentLesson}, '${escAr}', '${escHi}')" title="Bookmark"><svg viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg></button>
                   </div>
                   <div class="arabic-text" style="font-size:calc(var(--arabic-scale)*1.1);">${it.arabic}</div>
                   ${it.hinglish ? renderDualAnswerHtml(itemKey, it.arabic, it.hinglish) : ''}
@@ -425,7 +425,7 @@
                     <div class="card-top">
                       <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
                       <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">★</button>
-                      <button class="card-action-btn btn-bookmark${BookmarkStore.isBookmarked(itemKey) ? ' bookmarked' : ''}" data-item-id="${itemKey}" onclick="setBookmark('${itemKey}', ${currentStage}, ${currentLesson}, '${escAr}', '${escHi}')">🔖</button>
+                      <button class="card-action-btn btn-bookmark${BookmarkStore.isBookmarked(itemKey) ? ' bookmarked' : ''}" data-item-id="${itemKey}" onclick="setBookmark('${itemKey}', ${currentStage}, ${currentLesson}, '${escAr}', '${escHi}')" title="Bookmark"><svg viewBox="0 0 24 24"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg></button>
                     </div>
                     <div class="arabic-text">${it.arabic}</div>
                     ${renderDualAnswerHtml(itemKey, it.arabic, it.hinglish)}
@@ -541,83 +541,124 @@
         _buildSpinnerPool();
       }
 
+            let _spinnerSelectedLessons = [];
+
       function _renderSpinnerScopePicker() {
         const picker = document.getElementById('spinner-scope-picker');
-        if (spinnerScope === 'all') { picker.style.display = 'none'; picker.innerHTML = ''; return; }
+        if (spinnerScope === 'all') {
+          picker.style.display = 'none';
+          picker.innerHTML = '';
+          return;
+        }
         picker.style.display = 'block';
-        if (spinnerScope === 'unit') {
-          const cur = typeof spinnerScopeValue === 'number' ? spinnerScopeValue : currentStage;
-          spinnerScopeValue = cur;
-          picker.innerHTML = '<div class="spinner-mini-picker"><div class="spinner-stage-tabs">' +
-            [1,2,3,4,5,6,7].map(u =>
-              `<button class="spinner-mini-btn${u===cur?' selected':''}" onclick="App._setSpinnerUnit(${u})">${u}</button>`
-            ).join('') + '</div></div>';
-        } else {
-          const sv = spinnerScopeValue && spinnerScopeValue.stage ? spinnerScopeValue : { stage: currentStage, lesson: currentLesson };
-          const stageData = window.PWA_BOOK_DATA.stages[`Stage${sv.stage}`] || [];
-          picker.innerHTML = `<div class="spinner-mini-picker">
-            <div class="spinner-stage-tabs">
-              ${[1,2,3,4,5,6,7].map(s =>
-                `<button class="spinner-stage-tab${s===sv.stage?' selected':''}" onclick="App._setSpinnerStageTab(${s})">${s}</button>`
-              ).join('')}
+
+        const st = typeof spinnerScopeValue === 'number' ? spinnerScopeValue : (spinnerScopeValue?.stage || currentStage);
+        const stageData = window.PWA_BOOK_DATA.stages[`Stage${st}`] || [];
+
+        picker.innerHTML = `
+          <div class="spinner-scope-studio">
+            <div class="spinner-tabs-bar">
+              ${[1,2,3,4,5,6,7].map(s => `
+                <button class="spinner-tab-btn ${s===st?'selected':''}" onclick="App._setSpinnerStageTab(${s})">
+                  Unit ${s}
+                </button>
+              `).join('')}
             </div>
-            <div class="spinner-lesson-btns">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;">
+              <small><strong>Unit ${st} Lessons:</strong></small>
+              <div style="display:flex;gap:4px;">
+                <button class="btn-secondary" style="font-size:0.72rem;padding:2px 6px;" onclick="App._selectAllStageLessons(${st})">All Unit ${st}</button>
+                <button class="btn-secondary" style="font-size:0.72rem;padding:2px 6px;" onclick="App._clearSpinnerLessons()">Clear</button>
+              </div>
+            </div>
+            <div class="spinner-lesson-grid">
               ${stageData.map(l => {
-                const sel = sv.stage === l.stage && l.lesson_id === sv.lesson;
-                return `<button class="spinner-mini-btn${sel?' selected':''}" onclick="App._setSpinnerLesson(${sv.stage},${l.lesson_id})">${l.lesson_id}</button>`;
+                const count = (l.sections || []).reduce((acc, sec) => acc + ((sec.data && sec.data.items) ? sec.data.items.length : 0), 0);
+                const isSel = _spinnerSelectedLessons.some(x => x.stage === st && x.lesson === l.lesson_id);
+                return `
+                  <div class="spinner-lesson-chip ${isSel?'selected':''}" onclick="App._toggleSpinnerLessonChip(${st}, ${l.lesson_id})">
+                    <span>L${l.lesson_id}</span>
+                    <span class="spinner-count-badge">${count}</span>
+                  </div>
+                `;
               }).join('')}
             </div>
-          </div>`;
-        }
+          </div>
+        `;
       }
 
       function _setSpinnerStageTab(stage) {
         spinnerScopeValue = { stage, lesson: 1 };
         _renderSpinnerScopePicker();
-        _buildSpinnerPool();
       }
-      function _setSpinnerUnit(unit) {
-        spinnerScopeValue = unit;
-        _renderSpinnerScopePicker();
-        _buildSpinnerPool();
-      }
-      function _setSpinnerLesson(stage, lesson) {
-        spinnerScopeValue = { stage, lesson };
+
+      function _toggleSpinnerLessonChip(stage, lesson) {
+        const idx = _spinnerSelectedLessons.findIndex(x => x.stage === stage && x.lesson === lesson);
+        if (idx >= 0) {
+          _spinnerSelectedLessons.splice(idx, 1);
+        } else {
+          _spinnerSelectedLessons.push({ stage, lesson });
+        }
         _renderSpinnerScopePicker();
         _buildSpinnerPool();
       }
 
-      function _buildSpinnerPool() {
+      function _selectAllStageLessons(stage) {
+        const stageData = window.PWA_BOOK_DATA.stages[`Stage${stage}`] || [];
+        stageData.forEach(l => {
+          if (!_spinnerSelectedLessons.some(x => x.stage === stage && x.lesson === l.lesson_id)) {
+            _spinnerSelectedLessons.push({ stage, lesson: l.lesson_id });
+          }
+        });
+        _renderSpinnerScopePicker();
+        _buildSpinnerPool();
+      }
+
+      function _clearSpinnerLessons() {
+        _spinnerSelectedLessons = [];
+        _renderSpinnerScopePicker();
+        _buildSpinnerPool();
+      }
+
+            function _buildSpinnerPool() {
         spinnerPool = [];
         const stages = window.PWA_BOOK_DATA.stages;
-        const collect = (stageNum, lessonId) => {
-          const les = (stages[`Stage${stageNum}`] || []).find(l => l.lesson_id === lessonId);
+
+        const addLessonItems = (sNum, lId) => {
+          const les = (stages[`Stage${sNum}`] || []).find(l => l.lesson_id === lId);
           if (!les) return;
-          (les.sections || []).forEach((sec, sIdx) => {
-            ((sec.data && sec.data.items) || []).forEach((it, iIdx) => {
+          (les.sections || []).forEach(sec => {
+            ((sec.data && sec.data.items) || []).forEach(it => {
               if (!it.arabic || !it.hinglish || it.arabic.includes('----')) return;
-              const itemKey = `S${stageNum}L${lessonId}_s${sIdx}_${iIdx}`;
-              if (spinnerFilter === 'starred' && !isStarred(itemKey)) return;
-              spinnerPool.push({ arabic: it.arabic, origHinglish: it.hinglish, customHinglish: customAnswers[itemKey] || '', key: itemKey });
+              const key = `S${sNum}L${lId}_${it.id || it.arabic}`;
+              if (spinnerFilter === 'starred' && !isStarred(key)) return;
+              spinnerPool.push({
+                arabic: it.arabic,
+                hinglish: it.hinglish,
+                stage: sNum,
+                lesson: lId,
+                key
+              });
             });
           });
         };
-        if (spinnerScope === 'lesson') {
-          const sv = spinnerScopeValue && spinnerScopeValue.stage ? spinnerScopeValue : { stage: currentStage, lesson: currentLesson };
-          collect(sv.stage, sv.lesson);
-        } else if (spinnerScope === 'unit') {
-          const unit = typeof spinnerScopeValue === 'number' ? spinnerScopeValue : currentStage;
-          (stages[`Stage${unit}`] || []).forEach(l => collect(unit, l.lesson_id));
+
+        if (spinnerScope === 'all') {
+          for (let s = 1; s <= 7; s++) {
+            (stages[`Stage${s}`] || []).forEach(l => addLessonItems(s, l.lesson_id));
+          }
+        } else if (_spinnerSelectedLessons.length > 0) {
+          _spinnerSelectedLessons.forEach(({ stage, lesson }) => addLessonItems(stage, lesson));
         } else {
-          for (let s = 1; s <= 7; s++) (stages[`Stage${s}`] || []).forEach(l => collect(s, l.lesson_id));
+          // Default to current lesson if none selected
+          addLessonItems(currentStage, currentLesson);
         }
-        for (let i = spinnerPool.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [spinnerPool[i], spinnerPool[j]] = [spinnerPool[j], spinnerPool[i]];
-        }
-        spinnerIndex = 0;
+
+        spinnerCurrentIdx = 0;
         const info = document.getElementById('spinner-pool-info');
-        if (info) info.textContent = spinnerPool.length > 0 ? `${spinnerPool.length} items` : '';
+        if (info) {
+          info.innerHTML = `<strong>Total Words:</strong> ${spinnerPool.length} | <strong>Filtered:</strong> ${spinnerFilter==='starred'?'Starred Only':'All'}`;
+        }
         showSpinnerCard();
       }
 
@@ -1139,7 +1180,7 @@
         document.getElementById('exam-modal').showModal();
       }
 
-      let _matchSel = {};
+            let _matchSel = {};
 
       function _selectMatch(qi, btn) {
         const side = btn.dataset.side, idx = +btn.dataset.idx;
@@ -1151,19 +1192,33 @@
         const sel = _matchSel[qi];
         if (sel.left !== undefined && sel.right !== undefined) {
           const q = _examQuestions[qi];
-          const isMatch = q.answers.some(a => a.arabic === q.lefts[sel.left] && a.hinglish === q.rights[sel.right]);
+          const leftText = q.lefts[sel.left];
+          const rightText = q.rights[sel.right];
+          const isMatch = q.answers.some(a => a.arabic === leftText && a.hinglish === rightText);
           const lBtn = qEl.querySelector(`.exam-match-item[data-side="left"][data-idx="${sel.left}"]`);
           const rBtn = qEl.querySelector(`.exam-match-item[data-side="right"][data-idx="${sel.right}"]`);
+
           if (isMatch) {
+            lBtn.classList.remove('selected'); rBtn.classList.remove('selected');
             lBtn.classList.add('match-correct'); lBtn.disabled = true;
             rBtn.classList.add('match-correct'); rBtn.disabled = true;
-            _examScore++; _examAnswered++;
+            _examScore += 2; _examAnswered++;
           } else {
-            lBtn.classList.add('match-wrong'); rBtn.classList.add('match-wrong');
-            setTimeout(() => { lBtn.classList.remove('match-wrong','selected'); rBtn.classList.remove('match-wrong','selected'); }, 800);
+            // Wrong Attempt: Mark Red and DO NOT permit infinite retry
+            lBtn.classList.remove('selected'); rBtn.classList.remove('selected');
+            lBtn.classList.add('match-wrong'); lBtn.disabled = true;
+            rBtn.classList.add('match-wrong'); rBtn.disabled = true;
+            _examAnswered++;
+            const correctAns = q.answers.find(a => a.arabic === leftText);
+            if (correctAns) {
+              lBtn.setAttribute('title', `Sahi: ${correctAns.hinglish}`);
+            }
           }
           delete _matchSel[qi];
-          if (qEl.querySelectorAll('.exam-match-item:not(:disabled)').length === 0) _checkExamDone();
+          if (qEl.querySelectorAll('.exam-match-item:not(:disabled)').length === 0) {
+            qEl.dataset.answered = '1';
+            _checkExamDone();
+          }
         }
       }
 
@@ -1191,88 +1246,160 @@
         _checkExamDone();
       }
 
-      function _checkExamDone() {
-        const nonMatch = _examQuestions.filter(q => q.type !== 'matching');
-        const matchQ   = _examQuestions.filter(q => q.type === 'matching');
-        const answered = document.querySelectorAll('.exam-q[data-answered="1"]').length;
-        if (answered < nonMatch.length + matchQ.length) return;
+            function _checkExamDone() {
         const total = _examQuestions.length;
-        const pct = Math.round(_examScore / Math.max(total,1) * 100);
+        const answered = document.querySelectorAll('.exam-q[data-answered="1"]').length;
+        if (answered < total) return;
+        const maxMarks = total * 2;
+        const pct = Math.round((_examScore / Math.max(maxMarks, 1)) * 100);
+        const grade = pct >= 85 ? 'A+' : pct >= 75 ? 'A' : pct >= 60 ? 'B' : pct >= 45 ? 'C' : 'F';
+        const studentName = (localStorage.getItem('muallim_student_name') || '').trim() || 'Talib-e-Ilm';
+
+        // Save to ExamHistoryStore
+        const examRecord = {
+          id: 'exam_' + Date.now(),
+          student_name: studentName,
+          timestamp: Date.now(),
+          score: _examScore,
+          max_score: maxMarks,
+          percentage: pct,
+          grade: grade,
+          questions_count: total
+        };
+        if (typeof ExamHistoryStore !== 'undefined') {
+          ExamHistoryStore.save(examRecord);
+        }
+
         const s = document.getElementById('exam-summary');
         s.style.display = 'block';
         s.innerHTML = `
-          <div class="exam-score-display">${_examScore} / ${total}</div>
-          <div class="exam-score-pct">${pct}% Sahi</div>
-          <div style="margin-top:16px;display:flex;gap:10px;justify-content:center;">
-            <button class="btn-secondary" onclick="App._generateAndShowExam()">🔁 Dobara</button>
-            <button class="btn-primary" onclick="App.openExamConfig()">📝 Naya Imtehaan</button>
-          </div>`;
-        s.scrollIntoView({ behavior:'smooth', block:'center' });
+          <div class="scorecard-box">
+            <div style="font-size:0.95rem;color:var(--text-muted,#666);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:4px;">Nateeja / Exam Scorecard</div>
+            <div style="font-size:1.35rem;font-weight:700;color:var(--accent-emerald,#1b4332);margin-bottom:10px;">${studentName}</div>
+            <div style="font-size:2.8rem;font-weight:800;color:${pct>=60?'#10B981':'#EF4444'};line-height:1;">${_examScore} / ${maxMarks}</div>
+            <div class="scorecard-grade-badge ${pct>=60?'pass':'fail'}">Grade ${grade} · ${pct}% Sahi</div>
+            <div style="margin-top:16px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap;">
+              <button class="btn-secondary" onclick="window.print()">🖨️ Print Result</button>
+              <button class="btn-primary" onclick="App._generateAndShowExam()">🔁 Dobara Imtehaan</button>
+              <button class="btn-secondary" onclick="App.openExamConfig()">📝 Naya Imtehaan</button>
+            </div>
+          </div>
+        `;
+        s.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
 
-      function _renderPrintExam() {
-        document.getElementById('exam-modal-title').textContent = '📝 Imtehaan Paper';
+            function _renderPrintExam() {
+        document.getElementById('exam-modal-title').textContent = '📝 Imtehaan Paper (Print Mode)';
         document.getElementById('exam-print-btn').style.display = 'inline-flex';
+        const dlBtn = document.getElementById('exam-download-btn');
+        if (dlBtn) dlBtn.style.display = 'inline-flex';
+
         const today = new Date().toLocaleDateString('en-IN', { day:'numeric', month:'long', year:'numeric' });
+        const studentName = (localStorage.getItem('muallim_student_name') || '').trim() || '___________________';
+
         let html = `
-          <link rel="preconnect" href="https://fonts.googleapis.com">
-          <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
           <div class="exam-print-wrapper">
             <div class="ep-header">
               <div class="ep-title">MUALLIM UL-QUR'AN — مُعَلِّمُ الْقُرْآنِ</div>
-              <div class="ep-subtitle">IMTEHAAN PAPER</div>
-              <div class="ep-meta">
-                <div>Naam: _______________________</div>
-                <div>Class / Roll: _______________</div>
-                <div>Tarikh: ${today}</div>
-                <div>Marks: ${_examQuestions.length * 2} | Waqt: ${Math.ceil(_examQuestions.length * 2.5)}m</div>
+              <div class="ep-subtitle">EXAMINATION PAPER</div>
+              <div class="ep-meta-grid">
+                <div><strong>Naam:</strong> ${studentName}</div>
+                <div><strong>Roll No:</strong> _______________</div>
+                <div><strong>Tarikh:</strong> ${today}</div>
+                <div><strong>Marks:</strong> ${_examQuestions.length * 2} | <strong>Waqt:</strong> ${Math.ceil(_examQuestions.length * 2.5)}m</div>
               </div>
             </div>`;
 
         const sections = [
-          ['mcq','MCQ — Arabic se Hinglish'],
-          ['mcq_rev','MCQ — Hinglish se Arabic'],
-          ['tf','Sahi ya Ghalat'],
-          ['audio_mcq','Audio Sawaal (app mein suno)'],
-          ['matching','Jori Milao']
+          ['mcq', 'Section A: Arabic se Hinglish (MCQ)', 'ep-grid-3col'],
+          ['mcq_rev', 'Section B: Hinglish se Arabic (MCQ)', 'ep-grid-2col'],
+          ['matching', 'Section C: Jori Milao (Matching Pairs)', 'ep-grid-2col'],
+          ['tf', 'Section D: Sahi ya Ghalat (True / False)', 'ep-grid-2col'],
+          ['audio_mcq', 'Section E: Audio / Ayah Constructs', 'ep-grid-2col']
         ];
-        let ak = '<div class="ep-answer-key"><div class="ep-ak-title">JAWAB NAAMA (Answer Key)</div>';
+
+        let ak = '<div class="ep-page-break"></div><div class="ep-answer-key"><div class="ep-section-header"><span>JAWAB NAAMA (Answer Key)</span><span>Unit Test</span></div><div class="ep-grid-3col" style="margin-top:8pt;">';
         let qn = 1;
-        sections.forEach(([type, title]) => {
+
+        sections.forEach(([type, title, gridClass]) => {
           const qs = _examQuestions.filter(q => q.type === type);
           if (!qs.length) return;
-          html += `<div class="ep-section"><div class="ep-section-header"><span>${title}</span><span>[${qs.length*2} Marks]</span></div>`;
+          html += `<div class="ep-section">
+            <div class="ep-section-header"><span>${title}</span><span>[${qs.length * 2} Marks]</span></div>
+            <div class="${gridClass}">`;
+
           qs.forEach(q => {
             if (type === 'mcq' || type === 'mcq_rev' || type === 'audio_mcq') {
               const qText = type === 'mcq_rev' ? q.hinglish : `<span class="ep-arabic" dir="rtl">${q.arabic}</span>`;
               const prefix = type === 'audio_mcq' ? '🔊 ' : '';
               const optStyle = type === 'mcq_rev' ? 'dir="rtl" class="ep-arabic"' : '';
               html += `<div class="ep-q">
-                <div class="ep-q-text">Q${qn}. ${prefix}${qText} ka matlab:</div>
+                <div class="ep-q-text">Q${qn}. ${prefix}${qText}</div>
                 <div class="ep-opts">${q.options.map((o,i) => `<div class="ep-opt" ${optStyle}>(${String.fromCharCode(65+i)}) ${o}</div>`).join('')}</div>
               </div>`;
-              ak += `<div>Q${qn}: ${String.fromCharCode(65+q.correctIdx)}</div>`;
+              ak += `<div style="border:0.5pt solid #ccc;padding:3pt 6pt;border-radius:3pt;"><strong>Q${qn}:</strong> (${String.fromCharCode(65+q.correctIdx)}) ${type==='mcq_rev'?q.correct:q.correct}</div>`;
             } else if (type === 'tf') {
               html += `<div class="ep-q">
-                <div class="ep-q-text">Q${qn}. <span class="ep-arabic" dir="rtl">${q.arabic}</span> = "${q.hinglish}" — Sahi hai ya Ghalat?</div>
-                <div class="ep-blank-line"></div>
+                <div class="ep-q-text">Q${qn}. <span class="ep-arabic" dir="rtl">${q.arabic}</span> = "${q.hinglish}"</div>
+                <div style="font-size:8pt;margin-top:3pt;">[  ] Sahi  /  [  ] Ghalat</div>
               </div>`;
-              ak += `<div>Q${qn}: ${q.isCorrect ? 'Sahi' : 'Ghalat'}</div>`;
+              ak += `<div style="border:0.5pt solid #ccc;padding:3pt 6pt;border-radius:3pt;"><strong>Q${qn}:</strong> ${q.isCorrect ? 'Sahi (True)' : 'Ghalat (False)'}</div>`;
             } else if (type === 'matching') {
-              html += `<div class="ep-q"><div class="ep-q-text">Q${qn}. Sahi jori milao:</div>
+              html += `<div class="ep-q" style="grid-column: span 2;">
+                <div class="ep-q-text">Q${qn}. Sahi jori milayein:</div>
                 <table class="ep-match-table"><thead><tr><th>Column A (Arabic)</th><th>Jawab</th><th>Column B (Hinglish)</th></tr></thead><tbody>
-                ${q.lefts.map((l,i) => `<tr><td class="ep-arabic" dir="rtl">${l}</td><td class="ep-match-blank">___</td><td>${q.rights[i]||''}</td></tr>`).join('')}
+                ${q.lefts.map((l,i) => `<tr><td class="ep-arabic" dir="rtl">${l}</td><td class="ep-match-blank">_____</td><td>${q.rights[i]||''}</td></tr>`).join('')}
                 </tbody></table></div>`;
-              ak += `<div>Q${qn}: ${q.answers.map(a => `${a.arabic}=${a.hinglish}`).join('; ')}</div>`;
+              ak += `<div style="border:0.5pt solid #ccc;padding:3pt 6pt;border-radius:3pt;grid-column: span 2;"><strong>Q${qn}:</strong> ${q.answers.map(a => `${a.arabic} ➔ ${a.hinglish}`).join('; ')}</div>`;
             }
             qn++;
           });
-          html += '</div>';
+          html += '</div></div>';
         });
-        ak += '</div>';
-        html += `<div style="page-break-before:always;"></div>${ak}</div>`;
+
+        ak += '</div></div>';
+        html += ak + '</div>';
         document.getElementById('exam-display-mount').innerHTML = html;
         document.getElementById('exam-modal').showModal();
+      }
+
+      function downloadExamPaperHtml() {
+        const printEl = document.querySelector('.exam-print-wrapper');
+        if (!printEl) { showToast('Pehle imtehaan paper generate karein'); return; }
+        const doc = `<!DOCTYPE html>
+<html lang="ur" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Muallim ul-Quran — Imtehaan Paper</title>
+  <style>
+    body { font-family: system-ui, -apple-system, sans-serif; padding: 15px; margin: 0; color: #000; }
+    .ep-header { border: 1.5pt solid #000; padding: 8pt; text-align: center; margin-bottom: 10pt; }
+    .ep-title { font-size: 14pt; font-weight: 800; }
+    .ep-subtitle { font-size: 10pt; font-weight: 700; margin: 2pt 0; }
+    .ep-meta-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6pt; font-size: 8.5pt; border-top: 1pt solid #000; padding-top: 4pt; margin-top: 4pt; text-align: left; }
+    .ep-grid-3col { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6pt; }
+    .ep-grid-2col { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8pt; }
+    .ep-section { margin-bottom: 10pt; }
+    .ep-section-header { font-size: 10pt; font-weight: 700; background: #eee; padding: 3pt 6pt; border-left: 3pt solid #000; margin-bottom: 6pt; display: flex; justify-content: space-between; }
+    .ep-q { border: 0.5pt solid #aaa; padding: 4pt 6pt; border-radius: 3pt; font-size: 8.5pt; margin-bottom: 4pt; }
+    .ep-arabic { font-family: 'Amiri', 'Traditional Arabic', serif; font-size: 13pt; direction: rtl; text-align: right; }
+    .ep-opts { display: grid; grid-template-columns: 1fr 1fr; gap: 2pt; font-size: 8pt; margin-top: 2pt; }
+    .ep-match-table { width: 100%; border-collapse: collapse; font-size: 8pt; margin-top: 4pt; }
+    .ep-match-table th, .ep-match-table td { border: 0.5pt solid #000; padding: 3pt 5pt; }
+    .ep-page-break { page-break-before: always; margin-top: 20pt; }
+    @media print { @page { size: A4 portrait; margin: 8mm 10mm; } body { padding: 0; } }
+  </style>
+</head>
+<body>
+  ${printEl.outerHTML}
+</body>
+</html>`;
+        const blob = new Blob([doc], { type: 'text/html;charset=utf-8;' });
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = `Muallim_Exam_Paper_${Date.now()}.html`;
+        a.click();
+        showToast('Imtehaan paper download ho gaya 📥');
       }
 
       return {
@@ -1309,6 +1436,15 @@
         openExportDialog,
         doExport,
         importDataBackup,
+        setStudentName,
+        getStudentName,
+        installPwaApp,
+        toggleDailyReminder,
+        setReminderTime,
+        downloadExamPaperHtml,
+        _selectAllStageLessons,
+        _clearSpinnerLessons,
+        _toggleSpinnerLessonChip,
         openExamConfig,
         _renderExamStep,
         _setExamScopeType,
@@ -1330,12 +1466,13 @@
 
     document.addEventListener('DOMContentLoaded', App.init);
 
+    
     // ================================================================
-    // Phase 5 — Single Bookmark System (module-level, outside App IIFE)
+    // Phase 5 — Single Bookmark System (SVG Outline / Filled State)
     // ================================================================
 
     const BookmarkStore = (() => {
-      const KEY = 'muallim_bookmark'; // singular
+      const KEY = 'muallim_bookmark';
       function load() { try { return JSON.parse(localStorage.getItem(KEY)); } catch { return null; } }
       function save(v) { try { localStorage.setItem(KEY, JSON.stringify(v)); } catch { showToast('Storage full'); } }
       return {
@@ -1343,7 +1480,7 @@
         get()            { return load(); },
         clear()          { localStorage.removeItem(KEY); },
         isBookmarked(id) { const b = load(); return b ? b.id === id : false; },
-        has(id)          { return this.isBookmarked(id); } // shim for any missed references
+        has(id)          { return this.isBookmarked(id); }
       };
     })();
 
@@ -1355,12 +1492,19 @@
     }
 
     function setBookmark(itemId, stage, lesson, arabic, hinglish) {
-      BookmarkStore.set({ id: itemId, stage, lesson, arabic, hinglish, timestamp: Date.now() });
-      refreshBookmarkButtons();
-      showToast('🔖 Jagah save ho gayi');
+      if (BookmarkStore.isBookmarked(itemId)) {
+        BookmarkStore.clear();
+        refreshBookmarkButtons();
+        showToast('🔖 Bookmark hata diya gaya');
+      } else {
+        BookmarkStore.set({ id: itemId, stage, lesson, arabic, hinglish, timestamp: Date.now() });
+        refreshBookmarkButtons();
+        showToast('🔖 Jagah save ho gayi');
+      }
     }
 
-    // ================================================================
+
+// ================================================================
     // Phase 9 — Enhanced Toast (replaces Phase 5 basic version)
     // ================================================================
     function showToast(msg, duration, actionLabel, actionFn) {
@@ -1396,7 +1540,7 @@
       document.body.style.overflow = '';
     }
 
-    function syncMenuState() {
+        function syncMenuState() {
       const dark    = document.documentElement.getAttribute('data-theme') === 'dark';
       const teacher = document.documentElement.getAttribute('data-mode')  === 'teacher';
       const tt = document.getElementById('theme-toggle');
@@ -1407,6 +1551,19 @@
       const latPx = getComputedStyle(document.documentElement).getPropertyValue('--hinglish-scale').trim();
       const al = document.getElementById('ar-size-label');  if (al)  al.textContent  = arPx;
       const ll = document.getElementById('lat-size-label'); if (ll)  ll.textContent  = latPx;
+
+      // Sync Student Name
+      const nameInput = document.getElementById('student-name-input');
+      if (nameInput) nameInput.value = localStorage.getItem('muallim_student_name') || '';
+
+      // Sync Push Notification toggle
+      const pt = document.getElementById('push-notif-toggle');
+      const isNotif = localStorage.getItem('muallim_daily_reminder') === 'true';
+      if (pt) { pt.classList.toggle('active', isNotif); pt.setAttribute('aria-checked', isNotif); }
+      const timeCont = document.getElementById('reminder-time-container');
+      if (timeCont) timeCont.style.display = isNotif ? 'flex' : 'none';
+      const timeInput = document.getElementById('reminder-time-input');
+      if (timeInput) timeInput.value = localStorage.getItem('muallim_reminder_time') || '20:00';
     }
 
     function shareApp() {
@@ -1467,19 +1624,7 @@
       if (bar) bar.style.width = pct + '%';
     }, { passive: true });
 
-    function offerResume() {
-      const last = ProgressStore.getLast();
-      if (!last) return;
-      const mins = Math.round((Date.now() - last.savedAt) / 60000);
-      if (mins > 60 * 24 * 7) return;
-      const label = mins < 60 ? `${mins}m ago` : `${Math.round(mins / 60)}h ago`;
-      showToast(
-        `Continue from Stage ${last.stage} Lesson ${last.lesson}? (${label})`,
-        8000,
-        'Continue',
-        () => App.loadLesson(last.stage, last.lesson)
-      );
-    }
+    
 
     function updateProgressDisplay() {
       const el = document.getElementById('progress-display');
@@ -1499,3 +1644,237 @@
         </div>`;
       }).join('') || '<div style="color:var(--text-muted);font-size:0.85rem;padding:8px 0">Read lessons to track progress</div>';
     }
+
+
+    // ================================================================
+    // Student Profile & PWA Install & Notifications
+    // ================================================================
+    let _deferredInstallPrompt = null;
+    window.addEventListener('beforeinstallprompt', e => {
+      e.preventDefault();
+      _deferredInstallPrompt = e;
+      const btn = document.getElementById('install-pwa-btn');
+      if (btn) btn.style.display = 'flex';
+    });
+
+    function setStudentName(val) {
+      localStorage.setItem('muallim_student_name', (val || '').trim());
+    }
+    function getStudentName() {
+      return localStorage.getItem('muallim_student_name') || '';
+    }
+
+    function installPwaApp() {
+      if (_deferredInstallPrompt) {
+        _deferredInstallPrompt.prompt();
+        _deferredInstallPrompt.userChoice.then(() => { _deferredInstallPrompt = null; });
+      } else {
+        showToast('📲 PWA: Browser menu se "Add to Home screen" / "Install" chunein', 5000);
+      }
+    }
+
+    function toggleDailyReminder() {
+      const toggle = document.getElementById('push-notif-toggle');
+      const timeCont = document.getElementById('reminder-time-container');
+      const isEnabled = localStorage.getItem('muallim_daily_reminder') === 'true';
+
+      if (!isEnabled) {
+        if ('Notification' in window) {
+          Notification.requestPermission().then(perm => {
+            if (perm === 'granted') {
+              localStorage.setItem('muallim_daily_reminder', 'true');
+              toggle?.classList.add('active');
+              toggle?.setAttribute('aria-checked', 'true');
+              if (timeCont) timeCont.style.display = 'flex';
+              showToast('Daily Study Reminder Active 🔔');
+              scheduleStudyReminder();
+            } else {
+              showToast('Notification permission nahi mili');
+            }
+          });
+        } else {
+          showToast('Aapka browser notifications support nahi karta');
+        }
+      } else {
+        localStorage.removeItem('muallim_daily_reminder');
+        toggle?.classList.remove('active');
+        toggle?.setAttribute('aria-checked', 'false');
+        if (timeCont) timeCont.style.display = 'none';
+        showToast('Daily Reminder Band Kar Diya Gaya');
+      }
+    }
+
+    function setReminderTime(t) {
+      localStorage.setItem('muallim_reminder_time', t);
+      showToast(`Reminder waqt set: ${t}`);
+      scheduleStudyReminder();
+    }
+
+    function scheduleStudyReminder() {
+      if (localStorage.getItem('muallim_daily_reminder') !== 'true') return;
+      const timeStr = localStorage.getItem('muallim_reminder_time') || '20:00';
+      const [h, m] = timeStr.split(':').map(Number);
+      const now = new Date();
+      const target = new Date();
+      target.setHours(h, m, 0, 0);
+      if (target <= now) target.setDate(target.getDate() + 1);
+      const delay = target.getTime() - now.getTime();
+
+      setTimeout(() => {
+        if ('Notification' in window && Notification.permission === 'granted') {
+          new Notification("Muallim ul-Qur'an — Dars ka Waqt", {
+            body: 'Aaj ka Quranic Arabic dars mukammal karein aur naye alfaaz seekhein!',
+            icon: './icons/icon-192.png'
+          });
+        }
+        scheduleStudyReminder(); // Schedule for next day
+      }, Math.min(delay, 2147483647));
+    }
+
+    // ================================================================
+    // Exam History Store & Admin Sync
+    // ================================================================
+    const ExamHistoryStore = (() => {
+      const KEY = 'muallim_exam_history';
+      function getAll() {
+        try { return JSON.parse(localStorage.getItem(KEY)) || []; } catch { return []; }
+      }
+      function save(record) {
+        const list = getAll();
+        list.unshift(record);
+        if (list.length > 50) list.pop();
+        localStorage.setItem(KEY, JSON.stringify(list));
+        AdminPortal.syncStudentExam(record);
+      }
+      return { getAll, save };
+    })();
+
+    // ================================================================
+    // In-App Embedded Admin Portal
+    // ================================================================
+    const AdminPortal = (() => {
+      const DEFAULT_PIN = '7860';
+      let _isUnlocked = false;
+
+      function promptLogin() {
+        if (_isUnlocked) { renderDashboard(); return; }
+        const pin = prompt('Teacher / Admin PIN darj karein:');
+        if (pin === (localStorage.getItem('muallim_admin_pin') || DEFAULT_PIN)) {
+          _isUnlocked = true;
+          renderDashboard();
+          showToast('Admin Portal Unlocked ✅');
+        } else if (pin !== null) {
+          showToast('Ghalat PIN ❌');
+        }
+      }
+
+      function syncStudentExam(examRecord) {
+        const roster = JSON.parse(localStorage.getItem('muallim_admin_roster') || '[]');
+        let student = roster.find(s => s.name === examRecord.student_name);
+        if (!student) {
+          student = { name: examRecord.student_name, exams: [], lastActive: Date.now() };
+          roster.push(student);
+        }
+        student.exams.unshift(examRecord);
+        student.lastActive = Date.now();
+        localStorage.setItem('muallim_admin_roster', JSON.stringify(roster));
+      }
+
+      function renderDashboard() {
+        const container = document.getElementById('admin-portal-mount');
+        if (!container) return;
+        const roster = JSON.parse(localStorage.getItem('muallim_admin_roster') || '[]');
+        const starsCount = (JSON.parse(localStorage.getItem('muallim_favs') || '[]')).length;
+        const notesObj = JSON.parse(localStorage.getItem('muallim_custom_answers') || '{}');
+        const notesCount = Object.keys(notesObj).length;
+
+        container.innerHTML = `
+          <div class="admin-card">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;">
+              <strong style="color:var(--accent-emerald,#1b4332);font-size:1rem;">👨‍💼 Teacher Control Center</strong>
+              <span class="admin-badge">Admin Active</span>
+            </div>
+            <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px;text-align:center;">
+              <div style="background:var(--bg-hover,#f0f7f4);padding:8px;border-radius:6px;"><strong>${roster.length}</strong><br><small>Students</small></div>
+              <div style="background:var(--bg-hover,#f0f7f4);padding:8px;border-radius:6px;"><strong>${starsCount}</strong><br><small>Starred Words</small></div>
+              <div style="background:var(--bg-hover,#f0f7f4);padding:8px;border-radius:6px;"><strong>${notesCount}</strong><br><small>Custom Notes</small></div>
+            </div>
+
+            <div style="margin-bottom:12px;">
+              <small><strong>📢 Broadcast Study Notice</strong></small>
+              <div style="display:flex;gap:6px;margin-top:4px;">
+                <input type="text" id="admin-broadcast-msg" placeholder="e.g. Unit 3 Exam kal hoga!" style="flex:1;padding:6px;border:1px solid #ccc;border-radius:4px;font-size:0.85rem;">
+                <button class="btn-primary" style="padding:6px 12px;font-size:0.82rem;" onclick="AdminPortal.sendBroadcast()">Send</button>
+              </div>
+            </div>
+
+            <div>
+              <small><strong>📊 Student Exam Gradebook</strong></small>
+              <div style="max-height:160px;overflow-y:auto;margin-top:4px;">
+                <table class="admin-table">
+                  <thead><tr><th>Student</th><th>Score</th><th>Grade</th><th>Date</th></tr></thead>
+                  <tbody>
+                    ${roster.flatMap(s => s.exams.map(e => `
+                      <tr><td>${s.name}</td><td>${e.score}/${e.max_score}</td><td><strong>${e.grade}</strong></td><td>${new Date(e.timestamp).toLocaleDateString()}</td></tr>
+                    `)).join('') || '<tr><td colspan="4" style="text-align:center;">Koi exam submit nahi hua</td></tr>'}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div style="margin-top:12px;display:flex;gap:6px;flex-wrap:wrap;">
+              <button class="btn-secondary" style="font-size:0.8rem;padding:4px 8px;" onclick="AdminPortal.exportCsv()">📥 Export CSV</button>
+              <button class="btn-secondary" style="font-size:0.8rem;padding:4px 8px;" onclick="AdminPortal.changePin()">🔑 Change PIN</button>
+              <button class="btn-secondary" style="font-size:0.8rem;padding:4px 8px;" onclick="AdminPortal.lock()">🔒 Lock</button>
+            </div>
+          </div>
+        `;
+      }
+
+      function sendBroadcast() {
+        const input = document.getElementById('admin-broadcast-msg');
+        const msg = input?.value?.trim();
+        if (!msg) { showToast('Message likhein!'); return; }
+        if ('Notification' in window && Notification.permission === 'granted') {
+          new Notification("Muallim ul-Qur'an Notice", { body: msg, icon: './icons/icon-192.png' });
+        }
+        showToast('Notice broadcasted: ' + msg);
+        input.value = '';
+      }
+
+      function exportCsv() {
+        const roster = JSON.parse(localStorage.getItem('muallim_admin_roster') || '[]');
+        let csv = "Student Name,Exam Score,Max Score,Percentage,Grade,Date
+";
+        roster.forEach(s => {
+          s.exams.forEach(e => {
+            csv += `"${s.name}",${e.score},${e.max_score},${e.percentage}%,${e.grade},"${new Date(e.timestamp).toISOString()}"
+`;
+          });
+        });
+        const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = `Muallim_Gradebook_${Date.now()}.csv`;
+        a.click();
+      }
+
+      function changePin() {
+        const newPin = prompt('Naya 4-digit PIN darj karein:');
+        if (newPin && newPin.trim().length >= 4) {
+          localStorage.setItem('muallim_admin_pin', newPin.trim());
+          showToast('PIN tabdeel ho gaya ✅');
+        } else if (newPin !== null) {
+          showToast('Kam az kam 4 digits zaroori hain');
+        }
+      }
+
+      function lock() {
+        _isUnlocked = false;
+        const mount = document.getElementById('admin-portal-mount');
+        if (mount) mount.innerHTML = '';
+        showToast('Admin Portal Locked 🔒');
+      }
+
+      return { promptLogin, syncStudentExam, sendBroadcast, exportCsv, changePin, lock };
+    })();

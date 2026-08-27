@@ -227,7 +227,15 @@
       <div class="menu-panel-title"><span>📖</span> <span>Muallim ul-Qur'an</span></div>
       <button class="icon-btn" onclick="closeMenuPanel()" aria-label="Close">✕</button>
     </div>
-    <div class="menu-panel-body">
+        <div class="menu-panel-body">
+
+      <div class="menu-section">
+        <div class="menu-section-label">Student Profile</div>
+        <div class="menu-row menu-row-col">
+          <div class="menu-row-label-small">👤 Student Name</div>
+          <input type="text" id="student-name-input" placeholder="e.g. Nomaan" style="width:100%;box-sizing:border-box;padding:8px 10px;border:1.5px solid var(--divider-gold,#c5a880);border-radius:6px;background:var(--bg-surface-elevated,#fff);color:var(--text-primary,#222);font-size:0.9rem;" onchange="App.setStudentName(this.value)" oninput="App.setStudentName(this.value)">
+        </div>
+      </div>
 
       <div class="menu-section">
         <div class="menu-section-label">Display</div>
@@ -284,9 +292,26 @@
       </div>
 
       <div class="menu-section">
-        <div class="menu-section-label">Tools</div>
+        <div class="menu-section-label">Tools & PWA</div>
+        <button class="menu-action-row" id="install-pwa-btn" onclick="App.installPwaApp()">📲 <span>Add to Home Screen / Install</span></button>
+        <div class="menu-row">
+          <span class="menu-row-label">🔔 Daily Study Reminder</span>
+          <button class="toggle-btn" id="push-notif-toggle" role="switch" aria-checked="false" onclick="App.toggleDailyReminder()">
+            <span class="toggle-thumb"></span>
+          </button>
+        </div>
+        <div id="reminder-time-container" class="menu-row" style="display:none;">
+          <span class="menu-row-label-small">⏰ Reminder Waqt</span>
+          <input type="time" id="reminder-time-input" value="20:00" style="padding:4px 8px;border:1.5px solid var(--divider-gold,#c5a880);border-radius:4px;background:var(--bg-surface-elevated,#fff);color:var(--text-primary,#222);" onchange="App.setReminderTime(this.value)">
+        </div>
         <button class="menu-action-row" onclick="closeMenuPanel();App.openExportDialog()">📤 <span>Export / Backup</span></button>
         <button class="menu-action-row" onclick="shareApp()">🔗 <span>Share this App</span></button>
+      </div>
+
+      <div class="menu-section">
+        <div class="menu-section-label">Teacher Administration</div>
+        <button class="menu-action-row" onclick="AdminPortal.promptLogin()">👨‍💼 <span>Teacher / Admin Portal</span> <span class="admin-badge">PIN</span></button>
+        <div id="admin-portal-mount"></div>
       </div>
 
       <div class="menu-section menu-section-about">
@@ -340,6 +365,12 @@
   <dialog id="exam-modal" class="app-modal exam-modal">
     <div class="modal-header">
       <div class="modal-title" id="exam-modal-title">📝 Imtehaan</div>
+      <div style="display:flex;gap:6px;">
+        <button class="btn-secondary" id="exam-download-btn" onclick="App.downloadExamPaperHtml()" style="display:none;">📥 Download HTML</button>
+        <button class="btn-secondary" id="exam-print-btn" onclick="window.print()" style="display:none;">🖨️ Print</button>
+        <button class="icon-btn" onclick="document.getElementById('exam-modal').close()">✕</button>
+      </div>
+    </div>
       <div style="display:flex;gap:6px;">
         <button class="btn-secondary" id="exam-print-btn" onclick="window.print()" style="display:none;">🖨️ Print</button>
         <button class="icon-btn" onclick="document.getElementById('exam-modal').close()">✕</button>
