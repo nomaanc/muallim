@@ -615,27 +615,40 @@
       function openFavourites() {
         let favsHtml = '';
         if (favourites.length === 0) {
-          favsHtml = '<p style="text-align:center; color:var(--text-muted); padding:20px;">No starred items yet. Tap the ★ button on any card to save it here!</p>';
+          favsHtml = '<p style="text-align:center; color:var(--text-muted); padding:20px;">Abhi koi starred item nahi hai. Kisi bhi card par ★ tap karein!</p>';
         } else {
-          favsHtml = '<div class="bidi-grid cols-1">';
-          favourites.forEach((f) => {
-            const escAr = (f.arabic || '').replace(/'/g, "\\'");
-            const escHi = (f.hinglish || '').replace(/'/g, "\\'");
-            favsHtml += `
-              <div class="vocab-card">
-                <div class="card-top">
-                  <span style="font-size:0.8rem; color:var(--text-muted);">Unit ${f.stage} Lesson ${f.lesson}</span>
-                  <div class="card-actions">
-                    <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
-                    <button class="card-action-btn starred" onclick="App.toggleStarInPlace(this, '${f.key}', '${escAr}', '${escHi}'); App.openFavourites();">★</button>
-                  </div>
-                </div>
-                <div class="arabic-text">${f.arabic}</div>
-                ${renderDualAnswerHtml(f.key, f.arabic, f.hinglish)}
-              </div>
-            `;
+          // Group by stage+lesson, sort groups ascending
+          const groups = {};
+          favourites.forEach(f => {
+            const gk = `${f.stage}_${f.lesson}`;
+            if (!groups[gk]) groups[gk] = { stage: f.stage, lesson: f.lesson, items: [] };
+            groups[gk].items.push(f);
           });
-          favsHtml += '</div>';
+          const sortedGroups = Object.values(groups).sort((a, b) =>
+            a.stage !== b.stage ? a.stage - b.stage : a.lesson - b.lesson
+          );
+          favsHtml = '';
+          sortedGroups.forEach(group => {
+            favsHtml += `<div class="favs-group-header">Unit ${group.stage} &nbsp;&middot;&nbsp; Lesson ${group.lesson}</div>`;
+            favsHtml += '<div class="bidi-grid cols-1">';
+            group.items.forEach(f => {
+              const escAr = (f.arabic || '').replace(/'/g, "\\'");
+              const escHi = (f.hinglish || '').replace(/'/g, "\\'");
+              favsHtml += `
+                <div class="vocab-card">
+                  <div class="card-top">
+                    <div class="card-actions">
+                      <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
+                      <button class="card-action-btn starred" onclick="App.toggleStarInPlace(this, '${f.key}', '${escAr}', '${escHi}'); App.openFavourites();">★</button>
+                    </div>
+                  </div>
+                  <div class="arabic-text">${f.arabic}</div>
+                  ${renderDualAnswerHtml(f.key, f.arabic, f.hinglish)}
+                </div>
+              `;
+            });
+            favsHtml += '</div>';
+          });
         }
         document.getElementById('favs-list-mount').innerHTML = favsHtml;
         document.getElementById('favs-modal').showModal();

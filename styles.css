@@ -1020,3 +1020,17 @@
   cursor: pointer; white-space: nowrap;
 }
 [data-theme="dark"] .app-toast { background: #0A1810; border: 1px solid var(--divider-gold); }
+
+/* F1 — Starred items group header */
+.favs-group-header {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  padding: 14px 4px 6px;
+  border-bottom: 1px solid var(--border-color, #ddd);
+  margin-bottom: 8px;
+}
+.favs-group-header:first-child { padding-top: 4px; }
+
