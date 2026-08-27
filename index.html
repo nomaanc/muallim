@@ -213,21 +213,6 @@
   <!-- Service Worker Cache-First Blob Registration -->
 
   <!-- ====================================================== -->
-  <!-- Bookmark Drawer — Phase 5F                             -->
-  <!-- ====================================================== -->
-  <div id="bm-drawer" class="side-drawer" role="dialog" aria-label="Bookmarks" aria-modal="true">
-    <div class="drawer-header">
-      <span class="drawer-title">📌 Bookmarks</span>
-      <div class="drawer-header-actions">
-        <button class="icon-btn" onclick="clearAllBookmarks()" title="Clear all">🗑</button>
-        <button class="icon-btn" onclick="closeBmDrawer()" aria-label="Close">✕</button>
-      </div>
-    </div>
-    <div id="bm-list" class="drawer-list"></div>
-  </div>
-  <div id="bm-backdrop" class="drawer-backdrop" onclick="closeBmDrawer()"></div>
-
-  <!-- ====================================================== -->
   <!-- Menu Panel — Phase 7B                                  -->
   <!-- ====================================================== -->
   <div id="menu-panel" class="menu-panel" role="dialog" aria-label="Settings and Navigation" aria-modal="true">
@@ -278,10 +263,6 @@
       <div class="menu-section">
         <div class="menu-section-label">Content</div>
         <button class="menu-action-row" onclick="closeMenuPanel();App.openSearchModal()">🔍 <span>Search Sentences</span></button>
-        <button class="menu-action-row" onclick="closeMenuPanel();openBmDrawer()">
-          📌 <span>Bookmarks</span>
-          <span class="menu-action-badge" id="bm-count-badge"></span>
-        </button>
         <button class="menu-action-row" onclick="closeMenuPanel();App.openFavourites()">
           ⭐ <span>Starred Items</span>
           <span class="menu-action-badge" id="star-count-badge"></span>
@@ -336,7 +317,6 @@
   <!-- Deep-link handler for Manifest shortcuts (Phase 6D) -->
   <script>
   window.addEventListener('DOMContentLoaded', () => {
-    if (location.hash === '#bookmarks')  setTimeout(() => openBmDrawer(),       500);
     if (location.hash === '#favourites') setTimeout(() => App.openFavourites(), 500);
   });
   </script>

@@ -15,11 +15,26 @@
       function init() {
         setupEventListeners();
         setAudioSpeed(audioSpeed, false);
-        loadLesson(1, 1);
+
+        // Auto-resume from single bookmark if exists
+        const bm = BookmarkStore.get();
+        if (bm && bm.stage && bm.lesson) {
+          loadLesson(bm.stage, bm.lesson);
+          setTimeout(() => {
+            const card = document.querySelector(`[data-item-id="${bm.id}"]`);
+            if (card) {
+              card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+              card.classList.add('highlight-flash');
+              setTimeout(() => card.classList.remove('highlight-flash'), 1800);
+            }
+          }, 600);
+        } else {
+          loadLesson(1, 1);
+        }
+
         populateStageTabs();
         updateStarredCountBadge();
-        updateBookmarksBadge();
-        // Phase 8: offer to resume previous reading position
+        // updateBookmarksBadge() removed — bookmark drawer gone
         setTimeout(() => { if (typeof offerResume === 'function') offerResume(); }, 1500);
       }
 
@@ -254,10 +269,10 @@
               const isSentence = it.type === 'sentence' || it.sentence_number != null;
               const cardHtml = `
                 <div class="vocab-card" data-item-id="${itemKey}" style="position:relative">
-                  <span class="bookmark-indicator" style="display:${BookmarkStore.has(itemKey)?'block':'none'}">📌</span>
                   <div class="card-top">
                     <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
                     <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">★</button>
+                    <button class="card-action-btn btn-bookmark${BookmarkStore.isBookmarked(itemKey) ? ' bookmarked' : ''}" data-item-id="${itemKey}" onclick="setBookmark('${itemKey}', ${currentStage}, ${currentLesson}, '${escAr}', '${escHi}')">🔖</button>
                   </div>
                   <div class="arabic-text">${it.arabic}</div>
                   ${renderDualAnswerHtml(itemKey, it.arabic, it.hinglish)}
@@ -287,10 +302,10 @@
               const isSentence = it.type === 'sentence' || it.sentence_number != null;
               const cardHtml = `
                 <div class="vocab-card" data-item-id="${itemKey}" style="${it.full_width ? 'grid-column: 1 / -1;' : ''} position:relative">
-                  <span class="bookmark-indicator" style="display:${BookmarkStore.has(itemKey)?'block':'none'}">📌</span>
                   <div class="card-top">
                     <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
                     <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">★</button>
+                    <button class="card-action-btn btn-bookmark${BookmarkStore.isBookmarked(itemKey) ? ' bookmarked' : ''}" data-item-id="${itemKey}" onclick="setBookmark('${itemKey}', ${currentStage}, ${currentLesson}, '${escAr}', '${escHi}')">🔖</button>
                   </div>
                   <div class="arabic-text">${it.arabic}</div>
                   ${renderDualAnswerHtml(itemKey, it.arabic, it.hinglish)}
@@ -324,10 +339,10 @@
               const escHi = (v.hinglish || '').replace(/'/g, "\\'");
               const cardHtml = `
                 <div class="verse-card" data-item-id="${itemKey}" style="position:relative">
-                  <span class="bookmark-indicator" style="display:${BookmarkStore.has(itemKey)?'block':'none'}">📌</span>
                   <div class="card-top">
                     <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
                     <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">★</button>
+                    <button class="card-action-btn btn-bookmark${BookmarkStore.isBookmarked(itemKey) ? ' bookmarked' : ''}" data-item-id="${itemKey}" onclick="setBookmark('${itemKey}', ${currentStage}, ${currentLesson}, '${escAr}', '${escHi}')">🔖</button>
                   </div>
                   <div class="arabic-text" style="font-size:calc(var(--arabic-scale)*1.1);">${v.arabic}</div>
                   ${v.hinglish ? renderDualAnswerHtml(itemKey, v.arabic, v.hinglish) : ''}
@@ -373,10 +388,10 @@
               const escHi = (it.hinglish || '').replace(/'/g, "\\'");
               const cardHtml = `
                 <div class="verse-card ayah-pause-card" data-item-id="${itemKey}" style="position:relative">
-                  <span class="bookmark-indicator" style="display:${BookmarkStore.has(itemKey)?'block':'none'}">📌</span>
                   <div class="card-top">
                     <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
                     <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">★</button>
+                    <button class="card-action-btn btn-bookmark${BookmarkStore.isBookmarked(itemKey) ? ' bookmarked' : ''}" data-item-id="${itemKey}" onclick="setBookmark('${itemKey}', ${currentStage}, ${currentLesson}, '${escAr}', '${escHi}')">🔖</button>
                   </div>
                   <div class="arabic-text" style="font-size:calc(var(--arabic-scale)*1.1);">${it.arabic}</div>
                   ${it.hinglish ? renderDualAnswerHtml(itemKey, it.arabic, it.hinglish) : ''}
@@ -408,6 +423,7 @@
                     <div class="card-top">
                       <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
                       <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">★</button>
+                      <button class="card-action-btn btn-bookmark${BookmarkStore.isBookmarked(itemKey) ? ' bookmarked' : ''}" data-item-id="${itemKey}" onclick="setBookmark('${itemKey}', ${currentStage}, ${currentLesson}, '${escAr}', '${escHi}')">🔖</button>
                     </div>
                     <div class="arabic-text">${it.arabic}</div>
                     ${renderDualAnswerHtml(itemKey, it.arabic, it.hinglish)}
@@ -420,28 +436,6 @@
         });
 
         document.getElementById('lesson-content-mount').innerHTML = html;
-
-        // Phase 5: wire up long-press gestures and refresh bookmark indicators
-        requestAnimationFrame(() => {
-          document.querySelectorAll('.vocab-card[data-item-id]').forEach(cardEl => {
-            const itemId = cardEl.dataset.itemId;
-            // find item data from current lesson for the popup
-            const stageData = window.PWA_BOOK_DATA.stages[`Stage${currentStage}`] || [];
-            const les = stageData.find(l => l.lesson_id === currentLesson);
-            if (!les) return;
-            for (const sec of (les.sections || [])) {
-              if (sec.type === 'grid' || sec.type === 'three_col_list' || sec.type === 'waw_grid') {
-                const items = (sec.data || {}).items || [];
-                const it = items.find((_, iIdx) => {
-                  const sIdx = (les.sections || []).indexOf(sec);
-                  return `S${currentStage}L${currentLesson}_s${sIdx}_${iIdx}` === itemId;
-                });
-                if (it) { attachLongPress(cardEl, { ...it, id: itemId }, currentStage, currentLesson); break; }
-              }
-            }
-          });
-          refreshBookmarkIndicators();
-        });
 
         renderBottomNavigation();
       }
@@ -838,148 +832,33 @@
     document.addEventListener('DOMContentLoaded', App.init);
 
     // ================================================================
-    // Phase 5 — Bookmark System (module-level, outside App IIFE)
+    // Phase 5 — Single Bookmark System (module-level, outside App IIFE)
     // ================================================================
 
     const BookmarkStore = (() => {
-      const KEY = 'muallim_bookmarks', MAX = 200;
-      function load() { try { return JSON.parse(localStorage.getItem(KEY)) || []; } catch { return []; } }
-      function save(l) { try { localStorage.setItem(KEY, JSON.stringify(l)); } catch { showToast('Storage full'); } }
+      const KEY = 'muallim_bookmark'; // singular
+      function load() { try { return JSON.parse(localStorage.getItem(KEY)); } catch { return null; } }
+      function save(v) { try { localStorage.setItem(KEY, JSON.stringify(v)); } catch { showToast('Storage full'); } }
       return {
-        add(item) {
-          let l = load();
-          if (l.some(b => b.id === item.id)) return false;
-          l.unshift(item);
-          if (l.length > MAX) { l = l.slice(0, MAX); showToast('Oldest bookmark removed (max 200)'); }
-          save(l); return true;
-        },
-        remove(id) { save(load().filter(b => b.id !== id)); },
-        has(id)    { return load().some(b => b.id === id); },
-        getAll()   { return load(); },
-        clear()    { save([]); }
+        set(item)        { save(item); },
+        get()            { return load(); },
+        clear()          { localStorage.removeItem(KEY); },
+        isBookmarked(id) { const b = load(); return b ? b.id === id : false; },
+        has(id)          { return this.isBookmarked(id); } // shim for any missed references
       };
     })();
 
-    function attachLongPress(cardEl, itemData, stage, lesson) {
-      let t = null;
-      const start = e => { t = setTimeout(() => { t = null; if (navigator.vibrate) navigator.vibrate(50); showBookmarkPopup(e, itemData, stage, lesson); }, 600); };
-      const cancel = () => { if (t) { clearTimeout(t); t = null; } };
-      cardEl.addEventListener('pointerdown', start);
-      cardEl.addEventListener('pointerup', cancel);
-      cardEl.addEventListener('pointermove', cancel);
-      cardEl.addEventListener('pointercancel', cancel);
-      cardEl.addEventListener('contextmenu', e => e.preventDefault());
-    }
-
-    function showBookmarkPopup(e, itemData, stage, lesson) {
-      document.getElementById('bm-popup')?.remove();
-      const isBookmarked = BookmarkStore.has(itemData.id);
-      const pop = document.createElement('div');
-      pop.id = 'bm-popup';
-      pop.className = 'bookmark-popup';
-      pop.innerHTML = `
-        <button class="bookmark-popup-btn" onclick="toggleBookmark()">
-          ${isBookmarked ? '🗑 Remove Bookmark' : '📌 Bookmark this'}
-        </button>
-        <button class="bookmark-popup-btn" onclick="copyCard()">
-          📋 Copy Arabic + Hinglish
-        </button>`;
-      const x = Math.min((e.clientX || 100), window.innerWidth - 220);
-      const y = Math.max((e.clientY || 100) - 60, 10);
-      pop.style.cssText = `position:fixed;left:${x}px;top:${y}px;z-index:9999`;
-      document.body.appendChild(pop);
-      window._bmpData = { itemData, stage, lesson };
-      setTimeout(() => document.addEventListener('pointerdown', dismissBmPopup, { once: true }), 0);
-    }
-
-    function dismissBmPopup() { document.getElementById('bm-popup')?.remove(); window._bmpData = null; }
-
-    function toggleBookmark() {
-      const { itemData, stage, lesson } = window._bmpData || {};
-      if (!itemData) return;
-      if (BookmarkStore.has(itemData.id)) {
-        BookmarkStore.remove(itemData.id);
-        showToast('Bookmark removed');
-      } else {
-        BookmarkStore.add({
-          id: itemData.id,
-          sentence_number: itemData.sentence_number || null,
-          arabic: itemData.arabic || '',
-          hinglish: itemData.hinglish || '',
-          stage: stage, lesson: lesson,
-          lesson_key: `S${stage}L${lesson}`,
-          label: `Stage ${stage} \u00b7 Lesson ${lesson}`,
-          timestamp: Date.now()
-        });
-        showToast('📌 Bookmarked!');
-      }
-      refreshBookmarkIndicators();
-      dismissBmPopup();
-      updateBookmarksBadge();
-    }
-
-    function copyCard() {
-      const { itemData } = window._bmpData || {};
-      if (!itemData) return;
-      navigator.clipboard?.writeText(`${itemData.arabic}\n${itemData.hinglish}`).then(() => showToast('Copied!'));
-      dismissBmPopup();
-    }
-
-    function refreshBookmarkIndicators() {
-      document.querySelectorAll('.vocab-card[data-item-id]').forEach(card => {
-        const ind = card.querySelector('.bookmark-indicator');
-        if (ind) ind.style.display = BookmarkStore.has(card.dataset.itemId) ? 'block' : 'none';
+    function refreshBookmarkButtons() {
+      const bm = BookmarkStore.get();
+      document.querySelectorAll('.btn-bookmark').forEach(btn => {
+        btn.classList.toggle('bookmarked', bm ? bm.id === btn.dataset.itemId : false);
       });
     }
 
-    function openBmDrawer() {
-      const list = document.getElementById('bm-list');
-      if (!list) return;
-      const bms = BookmarkStore.getAll();
-      if (typeof closeMenuPanel === 'function') closeMenuPanel();
-      list.innerHTML = bms.length === 0
-        ? `<div class="drawer-empty">📌<br><br>No bookmarks yet.<br><small>Long-press any sentence card to bookmark it.</small></div>`
-        : bms.map(bm => `<div class="bookmark-entry" data-id="${bm.id}">
-            <div class="bookmark-entry-header">
-              <span class="bookmark-label">${bm.label}${bm.sentence_number ? ' · #'+bm.sentence_number : ''}</span>
-              <button class="icon-btn" onclick="event.stopPropagation();removeBm('${bm.id}')">🗑</button>
-            </div>
-            <div class="bookmark-arabic" dir="rtl">${bm.arabic}</div>
-            <div class="bookmark-hinglish">${bm.hinglish}</div>
-            <div class="bookmark-date">${new Date(bm.timestamp).toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric'})}</div>
-          </div>`).join('');
-      list.querySelectorAll('.bookmark-entry').forEach(el => {
-        const bm = bms.find(b => b.id === el.dataset.id);
-        if (bm) el.addEventListener('click', () => { closeBmDrawer(); jumpToBookmark(bm); });
-      });
-      document.getElementById('bm-drawer')?.classList.add('open');
-      document.getElementById('bm-backdrop')?.classList.add('visible');
-      document.body.style.overflow = 'hidden';
-    }
-
-    function closeBmDrawer() {
-      document.getElementById('bm-drawer')?.classList.remove('open');
-      document.getElementById('bm-backdrop')?.classList.remove('visible');
-      document.body.style.overflow = '';
-    }
-
-    function removeBm(id) { BookmarkStore.remove(id); showToast('Bookmark removed'); openBmDrawer(); refreshBookmarkIndicators(); updateBookmarksBadge(); }
-
-    function clearAllBookmarks() {
-      if (!confirm('Remove all bookmarks?')) return;
-      BookmarkStore.clear(); openBmDrawer(); refreshBookmarkIndicators(); updateBookmarksBadge();
-    }
-
-    function jumpToBookmark(bm) {
-      App.loadLesson(bm.stage, bm.lesson);
-      setTimeout(() => {
-        const card = document.querySelector(`[data-item-id="${bm.id}"]`);
-        if (card) {
-          card.scrollIntoView({ behavior: 'smooth', block: 'center' });
-          card.classList.add('highlight-flash');
-          setTimeout(() => card.classList.remove('highlight-flash'), 1800);
-        }
-      }, 400);
+    function setBookmark(itemId, stage, lesson, arabic, hinglish) {
+      BookmarkStore.set({ id: itemId, stage, lesson, arabic, hinglish, timestamp: Date.now() });
+      refreshBookmarkButtons();
+      showToast('🔖 Jagah save ho gayi');
     }
 
     // ================================================================
@@ -1008,7 +887,6 @@
       document.getElementById('menu-toggle-btn')?.setAttribute('aria-expanded', 'true');
       document.body.style.overflow = 'hidden';
       syncMenuState();
-      updateBookmarksBadge();
       updateProgressDisplay();
     }
 
@@ -1032,14 +910,6 @@
       const ll = document.getElementById('lat-size-label'); if (ll)  ll.textContent  = latPx;
     }
 
-    // updateBookmarksBadge — updates menu panel badge AND header badge
-    function updateBookmarksBadge() {
-      const n  = BookmarkStore.getAll().length;
-      const cb = document.getElementById('bm-count-badge'); if (cb) cb.textContent = n || '';
-      const mb = document.getElementById('menu-badge');
-      if (mb) { mb.textContent = n; mb.style.display = n > 0 ? 'block' : 'none'; }
-    }
-
     function shareApp() {
       const d = { title: "Muallim ul-Qur'an", text: 'Interactive Quranic Arabic workbook with Hinglish translations', url: 'https://nomaanc.github.io/muallim/' };
       if (navigator.share && navigator.canShare(d)) navigator.share(d);
@@ -1048,7 +918,7 @@
 
     // Global Escape key handler
     document.addEventListener('keydown', e => {
-      if (e.key === 'Escape') { closeMenuPanel(); closeBmDrawer(); dismissBmPopup(); }
+      if (e.key === 'Escape') { closeMenuPanel(); }
     });
 
     // ================================================================
