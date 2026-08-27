@@ -598,7 +598,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S1L2",
@@ -960,7 +961,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S1L3",
@@ -1276,7 +1278,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S1L4",
@@ -1973,7 +1976,8 @@ window.PWA_BOOK_DATA = {
             }
           }
         ],
-        "title": "Unit 1 Lesson 4"
+        "title": "Unit 1 Lesson 4",
+        "status": "complete"
       },
       {
         "lesson_key": "S1L5",
@@ -2658,7 +2662,8 @@ window.PWA_BOOK_DATA = {
             }
           }
         ],
-        "title": "Unit 1 Lesson 5"
+        "title": "Unit 1 Lesson 5",
+        "status": "complete"
       },
       {
         "lesson_key": "S1L6",
@@ -3355,7 +3360,8 @@ window.PWA_BOOK_DATA = {
         ],
         "stage_id": 1,
         "lesson_id": 6,
-        "title": "Unit 1 Lesson 6"
+        "title": "Unit 1 Lesson 6",
+        "status": "complete"
       },
       {
         "lesson_key": "S1L7",
@@ -4029,7 +4035,8 @@ window.PWA_BOOK_DATA = {
         ],
         "stage_id": 1,
         "lesson_id": 7,
-        "title": "Unit 1 Lesson 7"
+        "title": "Unit 1 Lesson 7",
+        "status": "complete"
       },
       {
         "lesson_key": "S1L8",
@@ -4721,7 +4728,8 @@ window.PWA_BOOK_DATA = {
         ],
         "stage_id": 1,
         "lesson_id": 8,
-        "title": "Unit 1 Lesson 8"
+        "title": "Unit 1 Lesson 8",
+        "status": "complete"
       },
       {
         "lesson_key": "S1L9",
@@ -5360,7 +5368,8 @@ window.PWA_BOOK_DATA = {
         ],
         "stage_id": 1,
         "lesson_id": 9,
-        "title": "Unit 1 Lesson 9"
+        "title": "Unit 1 Lesson 9",
+        "status": "complete"
       },
       {
         "lesson_key": "S1L10",
@@ -5992,7 +6001,8 @@ window.PWA_BOOK_DATA = {
         ],
         "stage_id": 1,
         "lesson_id": 10,
-        "title": "Unit 1 Lesson 10"
+        "title": "Unit 1 Lesson 10",
+        "status": "complete"
       },
       {
         "key": "S1L11",
@@ -6625,7 +6635,8 @@ window.PWA_BOOK_DATA = {
         "stage_id": 1,
         "lesson_key": "S1L11",
         "lesson_id": 11,
-        "title": "Unit 1 Lesson 11"
+        "title": "Unit 1 Lesson 11",
+        "status": "complete"
       },
       {
         "key": "S1L12",
@@ -7189,7 +7200,8 @@ window.PWA_BOOK_DATA = {
         "stage_id": 1,
         "lesson_key": "S1L12",
         "lesson_id": 12,
-        "title": "Unit 1 Lesson 12"
+        "title": "Unit 1 Lesson 12",
+        "status": "complete"
       },
       {
         "key": "S1L13",
@@ -8012,7 +8024,8 @@ window.PWA_BOOK_DATA = {
         "stage_id": 1,
         "lesson_key": "S1L13",
         "lesson_id": 13,
-        "title": "Unit 1 Lesson 13"
+        "title": "Unit 1 Lesson 13",
+        "status": "complete"
       },
       {
         "lesson_key": "S1L14",
@@ -8548,7 +8561,8 @@ window.PWA_BOOK_DATA = {
         ],
         "stage_id": 1,
         "lesson_id": 14,
-        "title": "Unit 1 Lesson 14"
+        "title": "Unit 1 Lesson 14",
+        "status": "complete"
       },
       {
         "lesson_key": "S1L15",
@@ -9000,7 +9014,8 @@ window.PWA_BOOK_DATA = {
         ],
         "stage_id": 1,
         "lesson_id": 15,
-        "title": "Unit 1 Lesson 15"
+        "title": "Unit 1 Lesson 15",
+        "status": "complete"
       },
       {
         "page_start": 44,
@@ -9309,7 +9324,8 @@ window.PWA_BOOK_DATA = {
         "stage_id": 1,
         "lesson_key": "S1L16",
         "lesson_id": 16,
-        "title": "Unit 1 Lesson 16"
+        "title": "Unit 1 Lesson 16",
+        "status": "complete"
       },
       {
         "page_start": 46,
@@ -9706,7 +9722,8 @@ window.PWA_BOOK_DATA = {
               "text": "Quran-e-Pak ko samajhne ke liye alfaaz, mukhtalif qism ke jumle, muhaavre aur chand zaroori qawaid jaanna zaroori hai. Is kitab mein In Sha Allah aap yeh sab cheezein aahista aahista aur aasaani ke saath seekhein ge."
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "page_start": 48,
@@ -10109,7 +10126,8 @@ window.PWA_BOOK_DATA = {
         "stage_id": 1,
         "lesson_key": "S1L18",
         "lesson_id": 18,
-        "title": "Unit 1 Lesson 18"
+        "title": "Unit 1 Lesson 18",
+        "status": "complete"
       },
       {
         "page_start": 50,
@@ -10363,7 +10381,8 @@ window.PWA_BOOK_DATA = {
         "stage_id": 1,
         "lesson_key": "S1L19",
         "lesson_id": 19,
-        "title": "Unit 1 Lesson 19"
+        "title": "Unit 1 Lesson 19",
+        "status": "complete"
       }
     ],
     "Stage2": [
@@ -10696,47 +10715,56 @@ window.PWA_BOOK_DATA = {
                 {
                   "num": 1,
                   "arabic": "إِنَّ هَذَا/ عَدُوٌّ",
-                  "hinglish": "Beshak yeh dushman hai"
+                  "hinglish": "Beshak yeh dushman hai",
+                  "sentence_number": 1
                 },
                 {
                   "num": 2,
                   "arabic": "إِنَّ هَذِهِ/ تَذْكِرَةٌ",
-                  "hinglish": "Beshak yeh ek naseehat hai"
+                  "hinglish": "Beshak yeh ek naseehat hai",
+                  "sentence_number": 2
                 },
                 {
                   "num": 3,
                   "arabic": "إِنَّ اللَّهَ/ قَادِرٌ",
-                  "hinglish": "Beshak Allah qadir Hai"
+                  "hinglish": "Beshak Allah qadir Hai",
+                  "sentence_number": 3
                 },
                 {
                   "num": 4,
                   "arabic": "إِنَّ اللَّهَ/ مُخْرِجٌ",
-                  "hinglish": "Beshak Allah zaahir karne wala Hai"
+                  "hinglish": "Beshak Allah zaahir karne wala Hai",
+                  "sentence_number": 4
                 },
                 {
                   "num": 5,
                   "arabic": "إِنَّ اللَّهَ/ سَمِيعٌ بَصِيرٌ",
-                  "hinglish": "Beshak Allah sunne wala dekhne wala Hai"
+                  "hinglish": "Beshak Allah sunne wala dekhne wala Hai",
+                  "sentence_number": 5
                 },
                 {
                   "num": 6,
                   "arabic": "إِنَّ اللَّهَ/ وَاسِعٌ عَلِيمٌ",
-                  "hinglish": "Beshak Allah wus'at wala jaanne wala Hai"
+                  "hinglish": "Beshak Allah wus'at wala jaanne wala Hai",
+                  "sentence_number": 6
                 },
                 {
                   "num": 7,
                   "arabic": "إِنَّ اللَّهَ/ عَلِيمٌ خَبِيرٌ",
-                  "hinglish": "Beshak Allah jaanne wala khabardaar Hai"
+                  "hinglish": "Beshak Allah jaanne wala khabardaar Hai",
+                  "sentence_number": 7
                 },
                 {
                   "num": 8,
                   "arabic": "إِنَّ اللَّهَ/ غَفُورٌ شَكُورٌ",
-                  "hinglish": "Beshak Allah bakhshne wala qadardaan Hai"
+                  "hinglish": "Beshak Allah bakhshne wala qadardaan Hai",
+                  "sentence_number": 8
                 },
                 {
                   "num": 9,
                   "arabic": "إِنَّ السَّاعَةَ/ آتِيَةٌ",
-                  "hinglish": "Beshak qayamat aane wali hai"
+                  "hinglish": "Beshak qayamat aane wali hai",
+                  "sentence_number": 9
                 }
               ]
             }
@@ -10758,47 +10786,56 @@ window.PWA_BOOK_DATA = {
                 {
                   "num": 1,
                   "arabic": "فَإِنَّ اللَّهَ/ عَلِيمٌ",
-                  "hinglish": "Phir beshak Allah jaanne wala Hai"
+                  "hinglish": "Phir beshak Allah jaanne wala Hai",
+                  "sentence_number": 1
                 },
                 {
                   "num": 2,
                   "arabic": "فَإِنَّ اللَّهَ/ غَنِيٌّ",
-                  "hinglish": "Phir beshak Allah beniyaaz Hai"
+                  "hinglish": "Phir beshak Allah beniyaaz Hai",
+                  "sentence_number": 2
                 },
                 {
                   "num": 3,
                   "arabic": "فَإِنَّ اللَّهَ/ سَمِيعٌ عَلِيمٌ",
-                  "hinglish": "Phir beshak Allah sunne wala jaanne wala Hai"
+                  "hinglish": "Phir beshak Allah sunne wala jaanne wala Hai",
+                  "sentence_number": 3
                 },
                 {
                   "num": 4,
                   "arabic": "فَإِنَّ اللَّهَ/ غَفُورٌ رَحِيمٌ",
-                  "hinglish": "Phir beshak Allah bakhshne wala meharban Hai"
+                  "hinglish": "Phir beshak Allah bakhshne wala meharban Hai",
+                  "sentence_number": 4
                 },
                 {
                   "num": 5,
                   "arabic": "فَإِنَّ اللَّهَ/ شَاكِرٌ عَلِيمٌ",
-                  "hinglish": "Phir beshak Allah qadardaan jaanne wala Hai"
+                  "hinglish": "Phir beshak Allah qadardaan jaanne wala Hai",
+                  "sentence_number": 5
                 },
                 {
                   "num": 6,
                   "arabic": "فَإِنَّ اللَّهَ/ عَزِيزٌ حَكِيمٌ",
-                  "hinglish": "Phir beshak Allah ghalib hikmat wala Hai"
+                  "hinglish": "Phir beshak Allah ghalib hikmat wala Hai",
+                  "sentence_number": 6
                 },
                 {
                   "num": 7,
                   "arabic": "فَإِنَّ اللَّهَ/ غَنِيٌّ حَمِيدٌ",
-                  "hinglish": "Phir beshak Allah beniyaaz hamd ke laayiq Hai"
+                  "hinglish": "Phir beshak Allah beniyaaz hamd ke laayiq Hai",
+                  "sentence_number": 7
                 },
                 {
                   "num": 8,
                   "arabic": "فَإِنَّ اللَّهَ/ عَدُوٌّ",
-                  "hinglish": "Phir beshak Allah dushman Hai (kaafiron ka)"
+                  "hinglish": "Phir beshak Allah dushman Hai (kaafiron ka)",
+                  "sentence_number": 8
                 },
                 {
                   "num": 9,
                   "arabic": "فَإِنَّ الْإِنْسَانَ/ كَفُورٌ",
-                  "hinglish": "Phir beshak insaan bada nashukra hai"
+                  "hinglish": "Phir beshak insaan bada nashukra hai",
+                  "sentence_number": 9
                 }
               ]
             }
@@ -10820,62 +10857,74 @@ window.PWA_BOOK_DATA = {
                 {
                   "num": 1,
                   "arabic": "إِنَّ هَذَا/ لَسَاحِرٌ",
-                  "hinglish": "Beshak yeh yaqeenan jadoogarr hai"
+                  "hinglish": "Beshak yeh yaqeenan jadoogarr hai",
+                  "sentence_number": 1
                 },
                 {
                   "num": 2,
                   "arabic": "إِنَّ هَذَا/ لَسِحْرٌ",
-                  "hinglish": "Beshak yeh yaqeenan jadoo hai"
+                  "hinglish": "Beshak yeh yaqeenan jadoo hai",
+                  "sentence_number": 2
                 },
                 {
                   "num": 3,
                   "arabic": "إِنَّ هَذَا/ لَشَيْءٌ",
-                  "hinglish": "Beshak yeh yaqeenan ek cheez hai"
+                  "hinglish": "Beshak yeh yaqeenan ek cheez hai",
+                  "sentence_number": 3
                 },
                 {
                   "num": 4,
                   "arabic": "إِنَّ هَذَا/ لَمَكْرٌ",
-                  "hinglish": "Beshak yeh yaqeenan saazish hai"
+                  "hinglish": "Beshak yeh yaqeenan saazish hai",
+                  "sentence_number": 4
                 },
                 {
                   "num": 5,
                   "arabic": "إِنَّ ذَلِكَ/ لَحَقٌّ",
-                  "hinglish": "Beshak woh yaqeenan haq hai"
+                  "hinglish": "Beshak woh yaqeenan haq hai",
+                  "sentence_number": 5
                 },
                 {
                   "num": 6,
                   "arabic": "إِنَّ الْإِنْسَانَ/ لَظَلُومٌ",
-                  "hinglish": "Beshak insaan yaqeenan bada zalim hai"
+                  "hinglish": "Beshak insaan yaqeenan bada zalim hai",
+                  "sentence_number": 6
                 },
                 {
                   "num": 7,
                   "arabic": "وَإِنَّ الدِّينَ/ لَوَاقِعٌ",
-                  "hinglish": "Aur beshak badla (insaf) yaqeenan hone wala hai"
+                  "hinglish": "Aur beshak badla (insaf) yaqeenan hone wala hai",
+                  "sentence_number": 7
                 },
                 {
                   "num": 8,
                   "arabic": "إِنَّ إِبْرَاهِيمَ/ لَحَلِيمٌ",
-                  "hinglish": "Beshak Ibrahim (A.S.) yaqeenan meharban the"
+                  "hinglish": "Beshak Ibrahim (A.S.) yaqeenan meharban the",
+                  "sentence_number": 8
                 },
                 {
                   "num": 9,
                   "arabic": "إِنَّ اللَّهَ/ لَعَفُوٌّ غَفُورٌ",
-                  "hinglish": "Beshak Allah yaqeenan muaf karne wala bakhshne wala Hai"
+                  "hinglish": "Beshak Allah yaqeenan muaf karne wala bakhshne wala Hai",
+                  "sentence_number": 9
                 },
                 {
                   "num": 10,
                   "arabic": "إِنَّ اللَّهَ/ لَقَوِيٌّ عَزِيزٌ",
-                  "hinglish": "Beshak Allah yaqeenan quwwat wala ghalib Hai"
+                  "hinglish": "Beshak Allah yaqeenan quwwat wala ghalib Hai",
+                  "sentence_number": 10
                 },
                 {
                   "num": 11,
                   "arabic": "وَإِنَّ اللَّهَ/ لَعَلِيمٌ حَلِيمٌ",
-                  "hinglish": "Aur beshak Allah yaqeenan jaanne wala meharban Hai"
+                  "hinglish": "Aur beshak Allah yaqeenan jaanne wala meharban Hai",
+                  "sentence_number": 11
                 },
                 {
                   "num": 12,
                   "arabic": "إِنَّ الْإِنْسَانَ/ لَكَفُورٌ",
-                  "hinglish": "Beshak insaan yaqeenan nashukra hai"
+                  "hinglish": "Beshak insaan yaqeenan nashukra hai",
+                  "sentence_number": 12
                 }
               ]
             }
@@ -10904,126 +10953,144 @@ window.PWA_BOOK_DATA = {
                   "arabic": "إِنَّ الْهُدَى",
                   "hinglish": "Beshak hidayat",
                   "id": 1,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 1
                 },
                 {
                   "num": 2,
                   "arabic": "إِنَّ الْمَوْتَ",
                   "hinglish": "Beshak maut",
                   "id": 2,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 2
                 },
                 {
                   "num": 3,
                   "arabic": "إِنَّ هَذَا",
                   "hinglish": "Beshak yeh",
                   "id": 3,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 3
                 },
                 {
                   "num": 4,
                   "arabic": "إِنَّ الصَّلَاةَ",
                   "hinglish": "Beshak namaz",
                   "id": 4,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 4
                 },
                 {
                   "num": 5,
                   "arabic": "إِنَّ الشِّرْكَ",
                   "hinglish": "Beshak shirk",
                   "id": 5,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 5
                 },
                 {
                   "num": 6,
                   "arabic": "إِنَّ الدِّينَ",
                   "hinglish": "Beshak deen",
                   "id": 6,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 6
                 },
                 {
                   "num": 7,
                   "arabic": "إِنَّ الْقَوْمَ",
                   "hinglish": "Beshak qaum",
                   "id": 7,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 7
                 },
                 {
                   "num": 8,
                   "arabic": "إِنَّ الْفَضْلَ",
                   "hinglish": "Beshak fazl",
                   "id": 8,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 8
                 },
                 {
                   "num": 9,
                   "arabic": "إِنَّ الشَّيْطَانَ",
                   "hinglish": "Beshak Shaytan",
                   "id": 9,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 9
                 },
                 {
                   "num": 10,
                   "arabic": "إِنَّ جَهَنَّمَ",
                   "hinglish": "Beshak jahannam",
                   "id": 10,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 10
                 },
                 {
                   "num": 11,
                   "arabic": "إِنَّ الْخِزْيَ",
                   "hinglish": "Beshak ruswai",
                   "id": 11,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 11
                 },
                 {
                   "num": 12,
                   "arabic": "إِنَّ الْعِزَّةَ",
                   "hinglish": "Beshak izzat",
                   "id": 12,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 12
                 },
                 {
                   "num": 13,
                   "arabic": "إِنَّ الْأَمْرَ",
                   "hinglish": "Beshak hukm",
                   "id": 13,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 13
                 },
                 {
                   "num": 14,
                   "arabic": "إِنَّ الْإِنْسَانَ",
                   "hinglish": "Beshak insaan",
                   "id": 14,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 14
                 },
                 {
                   "num": 15,
                   "arabic": "إِنَّ النَّفْسَ",
                   "hinglish": "Beshak nafs",
                   "id": 15,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 15
                 },
                 {
                   "num": 16,
                   "arabic": "إِنَّ الْعَهْدَ",
                   "hinglish": "Beshak waada",
                   "id": 16,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 16
                 },
                 {
                   "num": 17,
                   "arabic": "إِنَّ الْبَاطِلَ",
                   "hinglish": "Beshak baatil",
                   "id": 17,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 17
                 },
                 {
                   "num": 18,
                   "arabic": "إِنَّ يَأْجُوجَ",
                   "hinglish": "Beshak Ya'jooj",
                   "id": 18,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 18
                 }
               ]
             }
@@ -11034,7 +11101,8 @@ window.PWA_BOOK_DATA = {
           "items_extracted": 86,
           "v3_source": "Data-Version-3-till-stage-7/S2L1.md",
           "pages_processed": 2
-        }
+        },
+        "status": "complete"
       },
       {
         "lesson_key": "S2L2",
@@ -11456,67 +11524,80 @@ window.PWA_BOOK_DATA = {
                 {
                   "num": 1,
                   "arabic": "الْحَمْدُ/ لِلَّهِ",
-                  "hinglish": "Sab tareef Allah ke liye hai"
+                  "hinglish": "Sab tareef Allah ke liye hai",
+                  "sentence_number": 1
                 },
                 {
                   "num": 2,
                   "arabic": "الْغَيْبُ/ لِلَّهِ",
-                  "hinglish": "Ghaib (ka ilm) Allah ke liye hai"
+                  "hinglish": "Ghaib (ka ilm) Allah ke liye hai",
+                  "sentence_number": 2
                 },
                 {
                   "num": 3,
                   "arabic": "الدِّينُ/ لِلَّهِ",
-                  "hinglish": "Deen Allah ke liye hai"
+                  "hinglish": "Deen Allah ke liye hai",
+                  "sentence_number": 3
                 },
                 {
                   "num": 4,
                   "arabic": "الْحُكْمُ/ لِلَّهِ",
-                  "hinglish": "Hukm Allah ke liye hai"
+                  "hinglish": "Hukm Allah ke liye hai",
+                  "sentence_number": 4
                 },
                 {
                   "num": 5,
                   "arabic": "الْمُلْكُ/ لِلَّهِ",
-                  "hinglish": "Badshahat Allah ke liye hai"
+                  "hinglish": "Badshahat Allah ke liye hai",
+                  "sentence_number": 5
                 },
                 {
                   "num": 6,
                   "arabic": "الْأَنْفَالُ/ لِلَّهِ",
-                  "hinglish": "Maal-e-ghaneemat Allah ke liye hai"
+                  "hinglish": "Maal-e-ghaneemat Allah ke liye hai",
+                  "sentence_number": 6
                 },
                 {
                   "num": 7,
                   "arabic": "هَذَا/ لِلَّهِ",
-                  "hinglish": "Yeh Allah ke liye hai"
+                  "hinglish": "Yeh Allah ke liye hai",
+                  "sentence_number": 7
                 },
                 {
                   "num": 8,
                   "arabic": "وَالْعَاقِبَةُ/ لِلتَّقْوَى",
-                  "hinglish": "Aur anjam taqwa ke liye hai"
+                  "hinglish": "Aur anjam taqwa ke liye hai",
+                  "sentence_number": 8
                 },
                 {
                   "num": 9,
                   "arabic": "هَذَا بَيَانٌ/ لِلنَّاسِ",
-                  "hinglish": "Yeh logon ke liye ek wazeh bayan hai"
+                  "hinglish": "Yeh logon ke liye ek wazeh bayan hai",
+                  "sentence_number": 9
                 },
                 {
                   "num": 10,
                   "arabic": "هَذَا بَلَاغٌ/ لِلنَّاسِ",
-                  "hinglish": "Yeh logon ke liye paigham hai"
+                  "hinglish": "Yeh logon ke liye paigham hai",
+                  "sentence_number": 10
                 },
                 {
                   "num": 11,
                   "arabic": "إِنَّ الْأَرْضَ/ لِلَّهِ",
-                  "hinglish": "Beshak zameen Allah ke liye hai"
+                  "hinglish": "Beshak zameen Allah ke liye hai",
+                  "sentence_number": 11
                 },
                 {
                   "num": 12,
                   "arabic": "هَذَا بَصَائِرُ/ لِلنَّاسِ",
-                  "hinglish": "Yeh logon ke liye nishaniyan hain"
+                  "hinglish": "Yeh logon ke liye nishaniyan hain",
+                  "sentence_number": 12
                 },
                 {
                   "num": 13,
                   "arabic": "فَإِنَّ الْعِزَّةَ/ لِلَّهِ جَمِيعًا",
-                  "hinglish": "Phir beshak tamaam izzat Allah ke liye hai"
+                  "hinglish": "Phir beshak tamaam izzat Allah ke liye hai",
+                  "sentence_number": 13
                 }
               ]
             }
@@ -11538,32 +11619,38 @@ window.PWA_BOOK_DATA = {
                 {
                   "num": 1,
                   "arabic": "وَلِلَّهِ/ الْعِزَّةُ",
-                  "hinglish": "Aur Allah hi ke liye izzat hai"
+                  "hinglish": "Aur Allah hi ke liye izzat hai",
+                  "sentence_number": 1
                 },
                 {
                   "num": 2,
                   "arabic": "لِلَّهِ/ الشَّفَاعَةُ",
-                  "hinglish": "Allah hi ke liye sifarish hai"
+                  "hinglish": "Allah hi ke liye sifarish hai",
+                  "sentence_number": 2
                 },
                 {
                   "num": 3,
                   "arabic": "وَلِلَّهِ/ الْمَثَلُ",
-                  "hinglish": "Aur Allah hi ke liye aala misaal hai"
+                  "hinglish": "Aur Allah hi ke liye aala misaal hai",
+                  "sentence_number": 3
                 },
                 {
                   "num": 4,
                   "arabic": "لِلَّهِ/ الْأَمْرُ جَمِيعًا",
-                  "hinglish": "Allah hi ke liye tamaam hukm hai"
+                  "hinglish": "Allah hi ke liye tamaam hukm hai",
+                  "sentence_number": 4
                 },
                 {
                   "num": 5,
                   "arabic": "لِلَّهِ/ الدِّينُ",
-                  "hinglish": "Allah hi ke liye deen hai"
+                  "hinglish": "Allah hi ke liye deen hai",
+                  "sentence_number": 5
                 },
                 {
                   "num": 6,
                   "arabic": "وَلِلَّهِ/ الْمَشْرِقُ وَالْمَغْرِبُ",
-                  "hinglish": "Aur Allah hi ke liye mashriq aur maghrib hai"
+                  "hinglish": "Aur Allah hi ke liye mashriq aur maghrib hai",
+                  "sentence_number": 6
                 }
               ]
             }
@@ -11585,32 +11672,38 @@ window.PWA_BOOK_DATA = {
                 {
                   "num": 1,
                   "arabic": "فَلِلَّهِ/ الْعِزَّةُ",
-                  "hinglish": "Phir Allah hi ke liye izzat hai"
+                  "hinglish": "Phir Allah hi ke liye izzat hai",
+                  "sentence_number": 1
                 },
                 {
                   "num": 2,
                   "arabic": "فَلِلَّهِ/ الْحَمْدُ",
-                  "hinglish": "Phir Allah hi ke liye tamaam tareef hai"
+                  "hinglish": "Phir Allah hi ke liye tamaam tareef hai",
+                  "sentence_number": 2
                 },
                 {
                   "num": 3,
                   "arabic": "فَلِلَّهِ/ الْحُجَّةُ",
-                  "hinglish": "Phir Allah hi ke liye kaamil daleel hai"
+                  "hinglish": "Phir Allah hi ke liye kaamil daleel hai",
+                  "sentence_number": 3
                 },
                 {
                   "num": 4,
                   "arabic": "فَلِلَّهِ/ الْمَكْرُ",
-                  "hinglish": "Phir Allah hi ke liye tamaam tadbeer hai"
+                  "hinglish": "Phir Allah hi ke liye tamaam tadbeer hai",
+                  "sentence_number": 4
                 },
                 {
                   "num": 5,
                   "arabic": "فَلِلَّهِ/ الْمَكْرُ جَمِيعًا",
-                  "hinglish": "Phir Allah hi ke liye tamaam tadbeerein hain"
+                  "hinglish": "Phir Allah hi ke liye tamaam tadbeerein hain",
+                  "sentence_number": 5
                 },
                 {
                   "num": 6,
                   "arabic": "فَلِلَّهِ/ الْآخِرَةُ وَالْأُولَى",
-                  "hinglish": "Phir Allah hi ke liye aakhirat aur duniya hai"
+                  "hinglish": "Phir Allah hi ke liye aakhirat aur duniya hai",
+                  "sentence_number": 6
                 }
               ]
             }
@@ -11712,126 +11805,144 @@ window.PWA_BOOK_DATA = {
                   "arabic": "لِلْقِتَالِ",
                   "hinglish": "Jung ke liye",
                   "id": 1,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 1
                 },
                 {
                   "num": 2,
                   "arabic": "لِلْحَرْبِ",
                   "hinglish": "Larai ke liye",
                   "id": 2,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 2
                 },
                 {
                   "num": 3,
                   "arabic": "لِلْخَيْرِ",
                   "hinglish": "Bhalai ke liye",
                   "id": 3,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 3
                 },
                 {
                   "num": 4,
                   "arabic": "لِلنَّاسِ",
                   "hinglish": "Logon ke liye",
                   "id": 4,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 4
                 },
                 {
                   "num": 5,
                   "arabic": "لِلْكَذِبِ",
                   "hinglish": "Jhooth ke liye",
                   "id": 5,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 5
                 },
                 {
                   "num": 6,
                   "arabic": "لِلْكُفْرِ",
                   "hinglish": "Kufr ke liye",
                   "id": 6,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 6
                 },
                 {
                   "num": 7,
                   "arabic": "لِلتَّقْوَى",
                   "hinglish": "Taqwa ke liye",
                   "id": 7,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 7
                 },
                 {
                   "num": 8,
                   "arabic": "لِلْحَقِّ",
                   "hinglish": "Haq ke liye",
                   "id": 8,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 8
                 },
                 {
                   "num": 9,
                   "arabic": "لِلدِّينِ",
                   "hinglish": "Deen ke liye",
                   "id": 9,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 9
                 },
                 {
                   "num": 10,
                   "arabic": "لِلْكِتَابِ",
                   "hinglish": "Kitaab ke liye",
                   "id": 10,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 10
                 },
                 {
                   "num": 11,
                   "arabic": "لِلْقَوْمِ",
                   "hinglish": "Qaum ke liye",
                   "id": 11,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 11
                 },
                 {
                   "num": 12,
                   "arabic": "لِلسَّاعَةِ",
                   "hinglish": "Qayamat ke liye",
                   "id": 12,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 12
                 },
                 {
                   "num": 13,
                   "arabic": "لِلصَّلَاةِ",
                   "hinglish": "Namaz ke liye",
                   "id": 13,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 13
                 },
                 {
                   "num": 14,
                   "arabic": "لِلْغَيْبِ",
                   "hinglish": "Ghaib ke liye",
                   "id": 14,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 14
                 },
                 {
                   "num": 15,
                   "arabic": "لِلشَّمْسِ",
                   "hinglish": "Suraj ke liye",
                   "id": 15,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 15
                 },
                 {
                   "num": 16,
                   "arabic": "لِلْقَمَرِ",
                   "hinglish": "Chand ke liye",
                   "id": 16,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 16
                 },
                 {
                   "num": 17,
                   "arabic": "لِلْأَرْضِ",
                   "hinglish": "Zameen ke liye",
                   "id": 17,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 17
                 },
                 {
                   "num": 18,
                   "arabic": "لِلْجَبَلِ",
                   "hinglish": "Pahaad ke liye",
                   "id": 18,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 18
                 }
               ]
             }
@@ -11842,7 +11953,8 @@ window.PWA_BOOK_DATA = {
           "items_extracted": 105,
           "v3_source": "Data-Version-3-till-stage-7/S2L2.md",
           "pages_processed": 2
-        }
+        },
+        "status": "complete"
       },
       {
         "lesson_key": "S2L3",
@@ -12498,52 +12610,62 @@ window.PWA_BOOK_DATA = {
                 {
                   "num": 1,
                   "arabic": "إِنَّ/ فِي ذَلِكَ/ لَآيَةً",
-                  "hinglish": "Beshak is mein yaqeenan ek nishani hai"
+                  "hinglish": "Beshak is mein yaqeenan ek nishani hai",
+                  "sentence_number": 1
                 },
                 {
                   "num": 2,
                   "arabic": "إِنَّ/ فِي ذَلِكَ/ لَعِبْرَةً",
-                  "hinglish": "Beshak is mein yaqeenan ek ibrat hai"
+                  "hinglish": "Beshak is mein yaqeenan ek ibrat hai",
+                  "sentence_number": 2
                 },
                 {
                   "num": 3,
                   "arabic": "إِنَّ/ فِي ذَلِكَ/ لَآيَاتٍ",
-                  "hinglish": "Beshak is mein yaqeenan nishaniyan hain"
+                  "hinglish": "Beshak is mein yaqeenan nishaniyan hain",
+                  "sentence_number": 3
                 },
                 {
                   "num": 4,
                   "arabic": "إِنَّ/ فِي ذَلِكَ/ لَرَحْمَةً وَذِكْرَى",
-                  "hinglish": "Beshak is mein yaqeenan rahmat aur naseehat hai"
+                  "hinglish": "Beshak is mein yaqeenan rahmat aur naseehat hai",
+                  "sentence_number": 4
                 },
                 {
                   "num": 5,
                   "arabic": "إِنَّ/ فِي ذَلِكَ/ لَذِكْرَى",
-                  "hinglish": "Beshak is mein yaqeenan naseehat hai"
+                  "hinglish": "Beshak is mein yaqeenan naseehat hai",
+                  "sentence_number": 5
                 },
                 {
                   "num": 6,
                   "arabic": "إِنَّ الْإِنْسَانَ/ لَفِي خُسْرٍ",
-                  "hinglish": "Beshak insaan yaqeenan ghate mein hai"
+                  "hinglish": "Beshak insaan yaqeenan ghate mein hai",
+                  "sentence_number": 6
                 },
                 {
                   "num": 7,
                   "arabic": "إِنَّ ذَلِكَ/ فِي كِتَابٍ",
-                  "hinglish": "Beshak yeh ek kitaab mein hai"
+                  "hinglish": "Beshak yeh ek kitaab mein hai",
+                  "sentence_number": 7
                 },
                 {
                   "num": 8,
                   "arabic": "هَلْ/ فِي ذَلِكَ/ قَسَمٌ",
-                  "hinglish": "Kya is mein koi qasam hai?"
+                  "hinglish": "Kya is mein koi qasam hai?",
+                  "sentence_number": 8
                 },
                 {
                   "num": 9,
                   "arabic": "إِنَّ فِي السَّمَاوَاتِ وَالْأَرْضِ لَآيَاتٍ",
-                  "hinglish": "Beshak aasmanon aur zameen mein yaqeenan nishaniyan hain"
+                  "hinglish": "Beshak aasmanon aur zameen mein yaqeenan nishaniyan hain",
+                  "sentence_number": 9
                 },
                 {
                   "num": 10,
                   "arabic": "فَرِيقٌ فِي الْجَنَّةِ/ وَفَرِيقٌ فِي السَّعِيرِ",
-                  "hinglish": "Ek giroh jannat mein aur ek giroh bhadakti aag mein hai"
+                  "hinglish": "Ek giroh jannat mein aur ek giroh bhadakti aag mein hai",
+                  "sentence_number": 10
                 }
               ]
             }
@@ -12639,7 +12761,8 @@ window.PWA_BOOK_DATA = {
           "items_extracted": 107,
           "v3_source": "Data-Version-3-till-stage-7/S2L3.md",
           "pages_processed": 2
-        }
+        },
+        "status": "complete"
       },
       {
         "lesson_key": "S2L4",
@@ -13218,43 +13341,50 @@ window.PWA_BOOK_DATA = {
                   "num": 1,
                   "arabic": "سَلَامٌ/ عَلَى نُوحٍ",
                   "hinglish": "Salam ho Nooh (A.S.) par",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 1
                 },
                 {
                   "num": 2,
                   "arabic": "سَلَامٌ/ عَلَى إِبْرَاهِيمَ",
                   "hinglish": "Salam ho Ibrahim (A.S.) par",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 2
                 },
                 {
                   "num": 3,
                   "arabic": "سَلَامٌ/ عَلَى إِلْ يَاسِينَ",
                   "hinglish": "Salam ho Ilyas (A.S.) par",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 3
                 },
                 {
                   "num": 4,
                   "arabic": "سَلَامٌ/ عَلَى مُوسَى وَهَارُونَ",
                   "hinglish": "Salam ho Musa (A.S.) aur Haroon (A.S.) par",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 4
                 },
                 {
                   "num": 5,
                   "arabic": "إِنَّ ذَلِكَ/ عَلَى اللَّهِ يَسِيرٌ",
                   "hinglish": "Beshak yeh Allah par aasan hai",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 5
                 },
                 {
                   "num": 6,
                   "arabic": "لَيْسَ/ عَلَى الْأَعْمَى/ حَرَجٌ",
                   "hinglish": "Andhe par koi tangi nahi hai",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 6
                 },
                 {
                   "num": 7,
                   "arabic": "لَيْسَ عَلَى الْأَعْمَى حَرَجٌ وَلَا عَلَى الْأَعْرَجِ حَرَجٌ وَلَا عَلَى الْمَرِيضِ حَرَجٌ",
                   "hinglish": "Andhe par koi tangi nahi hai, na langde par koi tangi hai, aur na bimaar par koi tangi hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 7
                 }
               ]
             }
@@ -13281,61 +13411,71 @@ window.PWA_BOOK_DATA = {
                   "num": 1,
                   "arabic": "إِذْ وَقَفُوا عَلَى النَّارِ",
                   "hinglish": "Jab woh aag par khade kiye gaye",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 1
                 },
                 {
                   "num": 2,
                   "arabic": "فَبَاءُوا بِغَضَبٍ عَلَى غَضَبٍ",
                   "hinglish": "To woh gusse par gusse ke mustahiq hue",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 2
                 },
                 {
                   "num": 3,
                   "arabic": "إِنَّكَ لَعَلَى هُدًى مُسْتَقِيمٍ",
                   "hinglish": "Beshak aap yaqeenan seedhi hidayat par hain",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 3
                 },
                 {
                   "num": 4,
                   "arabic": "لَيْسَتِ النَّصَارَى عَلَى شَيْءٍ",
                   "hinglish": "Eesai kisi cheez par nahi hain",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 4
                 },
                 {
                   "num": 5,
                   "arabic": "وَإِنَّكَ لَعَلَى خُلُقٍ عَظِيمٍ",
                   "hinglish": "Aur beshak aap yaqeenan aala ikhlaq par hain",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 5
                 },
                 {
                   "num": 6,
                   "arabic": "فَمَا أَصْبَرَهُمْ عَلَى النَّارِ",
                   "hinglish": "To kitna ziada sabr karne wale hain woh aag par!",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 6
                 },
                 {
                   "num": 7,
                   "arabic": "وَعَلَى الْوَارِثِ مِثْلُ ذَلِكَ",
                   "hinglish": "Aur waaris par bhi is jaisa hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 7
                 },
                 {
                   "num": 8,
                   "arabic": "إِنَّ اللَّهَ لَذُو فَضْلٍ عَلَى النَّاسِ",
                   "hinglish": "Beshak Allah logon par bada fazl karne wala Hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 8
                 },
                 {
                   "num": 9,
                   "arabic": "وَكَانَ ذَلِكَ عَلَى اللَّهِ يَسِيرًا",
                   "hinglish": "Aur yeh Allah par aasan Hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 9
                 },
                 {
                   "num": 10,
                   "arabic": "أُولَئِكَ عَلَى هُدًى مِنْ رَبِّهِمْ",
                   "hinglish": "Woh log apne Rabb ki taraf se hidayat par hain",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 10
                 }
               ]
             }
@@ -13452,7 +13592,8 @@ window.PWA_BOOK_DATA = {
           "items_extracted": 108,
           "v3_source": "Data-Version-3-till-stage-7/S2L4.md",
           "pages_processed": 2
-        }
+        },
+        "status": "complete"
       },
       {
         "lesson_key": "S2L5",
@@ -14130,55 +14271,64 @@ window.PWA_BOOK_DATA = {
                   "num": "3",
                   "arabic": "﴿وَمَا هُوَ بِمُزَحْزِحِهِ مِنَ الْعَذَابِ﴾",
                   "id": 1,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 3
                 },
                 {
                   "num": "2",
                   "arabic": "﴿مَا أَنزَلَ اللهُ مِنَ الْكِتَابِ﴾",
                   "id": 2,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 2
                 },
                 {
                   "num": "1",
                   "arabic": "﴿أَوْ كَصَيِّبٍ مِنَ السَّمَاءِ﴾",
                   "id": 3,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 1
                 },
                 {
                   "num": "6",
                   "arabic": "﴿وَمِنَ النَّاسِ مَنْ يَشْرِي نَفْسَهُ﴾",
                   "id": 4,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 6
                 },
                 {
                   "num": "5",
                   "arabic": "﴿وَلَنَبْلُوَنَّكُمْ بِشَيْءٍ مِنَ الْخَوْفِ﴾",
                   "id": 5,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 5
                 },
                 {
                   "num": "4",
                   "arabic": "﴿وَمَنْ أَحْسَنُ مِنَ اللهِ صِبْغَةً﴾",
                   "id": 6,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 4
                 },
                 {
                   "num": "9",
                   "arabic": "﴿وَالْفِتْنَةُ أَشَدُّ مِنَ الْقَتْلِ﴾",
                   "id": 7,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 9
                 },
                 {
                   "num": "8",
                   "arabic": "﴿وَمَا هُمْ بِخَارِجِينَ مِنَ النَّارِ﴾",
                   "id": 8,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 8
                 },
                 {
                   "num": "7",
                   "arabic": "﴿وَمَا أَنزَلَ اللهُ مِنَ السَّمَاءِ﴾",
                   "id": 9,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 7
                 }
               ]
             }
@@ -14271,7 +14421,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "page_start": 62,
@@ -14936,7 +15087,8 @@ window.PWA_BOOK_DATA = {
         "stage_id": 2,
         "lesson_key": "S2L6",
         "lesson_id": 6,
-        "title": "Unit 2 Lesson 6"
+        "title": "Unit 2 Lesson 6",
+        "status": "complete"
       },
       {
         "page_start": 64,
@@ -15521,12 +15673,14 @@ window.PWA_BOOK_DATA = {
                 {
                   "num": 1,
                   "arabic": "بِالنَّفْسِ / وَالْعَيْنُ بِالْعَيْنِ / وَالْأَنْفُ بِالْأَنْفِ / وَالْأُذُنُ بِالْأُذُنِ / وَالسِّنُّ بِالسِّنِّ",
-                  "hinglish": "Jaan ke badle jaan / aur aankh ke badle aankh / aur naak ke badle naak / aur kaan ke badle kaan / aur daant ke badle daant"
+                  "hinglish": "Jaan ke badle jaan / aur aankh ke badle aankh / aur naak ke badle naak / aur kaan ke badle kaan / aur daant ke badle daant",
+                  "sentence_number": 1
                 },
                 {
                   "num": 2,
                   "arabic": "الْحُرُّ بِالْحُرِّ / وَالْعَبْدُ بِالْعَبْدِ / وَالْأُنْثَى بِالْأُنْثَى",
-                  "hinglish": "Azaad ke badle azaad / aur gulaam ke badle gulaam / aur aurat ke badle aurat"
+                  "hinglish": "Azaad ke badle azaad / aur gulaam ke badle gulaam / aur aurat ke badle aurat",
+                  "sentence_number": 2
                 }
               ]
             }
@@ -15744,7 +15898,8 @@ window.PWA_BOOK_DATA = {
         "stage_id": 2,
         "lesson_key": "S2L7",
         "lesson_id": 7,
-        "title": "Unit 2 Lesson 7"
+        "title": "Unit 2 Lesson 7",
+        "status": "complete"
       },
       {
         "lesson_key": "S2L8",
@@ -16070,72 +16225,86 @@ window.PWA_BOOK_DATA = {
                 {
                   "num": 1,
                   "arabic": "سُبْحَانَكَ لَا عِلْمَ لَنَا",
-                  "hinglish": "tu pak hai, hamare liye koi ilm nahin"
+                  "hinglish": "tu pak hai, hamare liye koi ilm nahin",
+                  "sentence_number": 1
                 },
                 {
                   "num": 2,
                   "arabic": "لَا إِكْرَاهَ فِي الدِّينِ",
-                  "hinglish": "deen mein koi zabardasti nahin"
+                  "hinglish": "deen mein koi zabardasti nahin",
+                  "sentence_number": 2
                 },
                 {
                   "num": 3,
                   "arabic": "لَا طَاقَةَ لَنَا الْيَوْمَ بِجَالُوتَ",
-                  "hinglish": "aaj hamare paas Jalut ke muqable ki koi taqat nahin"
+                  "hinglish": "aaj hamare paas Jalut ke muqable ki koi taqat nahin",
+                  "sentence_number": 3
                 },
                 {
                   "num": 4,
                   "arabic": "اللَّهُ رَبُّكُمْ لَا إِلٰهَ إِلَّا هُوَ",
-                  "hinglish": "Allah tumhara Rabb hai, uske siwa koi ilah nahin"
+                  "hinglish": "Allah tumhara Rabb hai, uske siwa koi ilah nahin",
+                  "sentence_number": 4
                 },
                 {
                   "num": 5,
                   "arabic": "ذٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ",
-                  "hinglish": "yeh kitab hai, is mein koi shak nahin"
+                  "hinglish": "yeh kitab hai, is mein koi shak nahin",
+                  "sentence_number": 5
                 },
                 {
                   "num": 6,
                   "arabic": "لَا تَبْدِيلَ لِخَلْقِ اللَّهِ",
-                  "hinglish": "Allah ki khalaqat mein koi tabdeeli nahin"
+                  "hinglish": "Allah ki khalaqat mein koi tabdeeli nahin",
+                  "sentence_number": 6
                 },
                 {
                   "num": 7,
                   "arabic": "وَأَنَّ الْكَافِرِينَ لَا مَوْلَى لَهُمْ",
-                  "hinglish": "aur beshak kafiron ke liye koi dost nahin"
+                  "hinglish": "aur beshak kafiron ke liye koi dost nahin",
+                  "sentence_number": 7
                 },
                 {
                   "num": 8,
                   "arabic": "وَالسَّاعَةُ لَا رَيْبَ فِيهَا",
-                  "hinglish": "aur qayamat, us mein koi shak nahin"
+                  "hinglish": "aur qayamat, us mein koi shak nahin",
+                  "sentence_number": 8
                 },
                 {
                   "num": 9,
                   "arabic": "لَا حُجَّةَ بَيْنَنَا وَبَيْنَكُمُ",
-                  "hinglish": "hamare aur tumhare darmiyan koi daleel nahin"
+                  "hinglish": "hamare aur tumhare darmiyan koi daleel nahin",
+                  "sentence_number": 9
                 },
                 {
                   "num": 10,
                   "arabic": "لَا ظُلْمَ الْيَوْمَ",
-                  "hinglish": "aaj koi zulm nahin"
+                  "hinglish": "aaj koi zulm nahin",
+                  "sentence_number": 10
                 },
                 {
                   "num": 11,
                   "arabic": "لَهُ الْمُلْكُ لَا إِلٰهَ إِلَّا هُوَ",
-                  "hinglish": "uski badshahat hai, uske siwa koi ilah nahin"
+                  "hinglish": "uski badshahat hai, uske siwa koi ilah nahin",
+                  "sentence_number": 11
                 },
                 {
                   "num": 12,
                   "arabic": "إِنَّ السَّاعَةَ لَآتِيَةٌ لَا رَيْبَ فِيهَا",
-                  "hinglish": "beshak qayamat aane wali hai, us mein koi shak nahin"
+                  "hinglish": "beshak qayamat aane wali hai, us mein koi shak nahin",
+                  "sentence_number": 12
                 },
                 {
                   "num": 13,
                   "arabic": "لَا بُشْرَى يَوْمَئِذٍ لِلْمُجْرِمِينَ",
-                  "hinglish": "us din mujrimon ke liye koi khushkhabri nahin"
+                  "hinglish": "us din mujrimon ke liye koi khushkhabri nahin",
+                  "sentence_number": 13
                 },
                 {
                   "num": 14,
                   "arabic": "لَا تَبْدِيلَ لِكَلِمَاتِ اللَّهِ",
-                  "hinglish": "Allah ki baaton ke liye koi tabdeeli nahin"
+                  "hinglish": "Allah ki baaton ke liye koi tabdeeli nahin",
+                  "sentence_number": 14
                 }
               ]
             }
@@ -16254,7 +16423,8 @@ window.PWA_BOOK_DATA = {
               "text": "Kisi bhi zubaan ke jumle samajhne ke liye alfaaz ka jaanna zaroori hai. Bohat se Quranic alfaaz seekhne ke baad, ab aap mukhtasar Quranic jumlon ko samajhne ke qabil hain. Jaise jaise aap jumle samajhne lagte hain, zubaan ke qawaid (Grammar) khud ba khud samajh aane lagte hain."
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S2L9",
@@ -16827,72 +16997,86 @@ window.PWA_BOOK_DATA = {
                 {
                   "num": 1,
                   "arabic": "إِنْ أُرِيدُ إِلَّا الْإِصْلَاحَ",
-                  "hinglish": "main islah ke siwa kuch nahin chahta"
+                  "hinglish": "main islah ke siwa kuch nahin chahta",
+                  "sentence_number": 1
                 },
                 {
                   "num": 2,
                   "arabic": "لَيْسَ لَهُمْ فِي الْآخِرَةِ إِلَّا النَّارُ",
-                  "hinglish": "unke liye aakhirat mein aag ke siwa kuch nahin"
+                  "hinglish": "unke liye aakhirat mein aag ke siwa kuch nahin",
+                  "sentence_number": 2
                 },
                 {
                   "num": 3,
                   "arabic": "وَمَا تَوْفِيقِي إِلَّا بِاللَّهِ",
-                  "hinglish": "aur meri taufiq Allah ke siwa kisi se nahin"
+                  "hinglish": "aur meri taufiq Allah ke siwa kisi se nahin",
+                  "sentence_number": 3
                 },
                 {
                   "num": 4,
                   "arabic": "لَا تَعْبُدُونَ إِلَّا اللَّهَ",
-                  "hinglish": "tum Allah ke siwa kisi ki ibadat nahin karte"
+                  "hinglish": "tum Allah ke siwa kisi ki ibadat nahin karte",
+                  "sentence_number": 4
                 },
                 {
                   "num": 5,
                   "arabic": "فَهَلْ عَلَى الرُّسُلِ إِلَّا الْبَلَاغُ الْمُبِينُ",
-                  "hinglish": "to kya rasoolon par khula paigham pahunchane ke siwa kuch aur hai"
+                  "hinglish": "to kya rasoolon par khula paigham pahunchane ke siwa kuch aur hai",
+                  "sentence_number": 5
                 },
                 {
                   "num": 6,
                   "arabic": "مَا يَأْكُلُونَ فِي بُطُونِهِمْ إِلَّا النَّارَ",
-                  "hinglish": "woh apne peton mein aag ke siwa kuch nahin khate"
+                  "hinglish": "woh apne peton mein aag ke siwa kuch nahin khate",
+                  "sentence_number": 6
                 },
                 {
                   "num": 7,
                   "arabic": "وَلَا تَقُولُوا عَلَى اللَّهِ إِلَّا الْحَقَّ",
-                  "hinglish": "aur Allah par sach ke siwa kuch na kaho"
+                  "hinglish": "aur Allah par sach ke siwa kuch na kaho",
+                  "sentence_number": 7
                 },
                 {
                   "num": 8,
                   "arabic": "مَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
-                  "hinglish": "rasool par paigham pahunchane ke siwa kuch nahin"
+                  "hinglish": "rasool par paigham pahunchane ke siwa kuch nahin",
+                  "sentence_number": 8
                 },
                 {
                   "num": 9,
                   "arabic": "لَا أَقُولُ عَلَى اللَّهِ إِلَّا الْحَقَّ",
-                  "hinglish": "main Allah par sach ke siwa kuch nahin kehta"
+                  "hinglish": "main Allah par sach ke siwa kuch nahin kehta",
+                  "sentence_number": 9
                 },
                 {
                   "num": 10,
                   "arabic": "إِنْ أَرَدْنَا إِلَّا الْحُسْنَىٰ",
-                  "hinglish": "humne bhalai ke siwa kuch nahin chaha"
+                  "hinglish": "humne bhalai ke siwa kuch nahin chaha",
+                  "sentence_number": 10
                 },
                 {
                   "num": 11,
                   "arabic": "لَا يَصْلَاهَا إِلَّا الْأَشْقَى",
-                  "hinglish": "us mein sab se badbakht ke siwa koi dakhil na hoga"
+                  "hinglish": "us mein sab se badbakht ke siwa koi dakhil na hoga",
+                  "sentence_number": 11
                 },
                 {
                   "num": 12,
                   "arabic": "مَا يُمْسِكُهُنَّ إِلَّا الرَّحْمٰنُ",
-                  "hinglish": "unhein Rahman ke siwa koi nahin rokta"
+                  "hinglish": "unhein Rahman ke siwa koi nahin rokta",
+                  "sentence_number": 12
                 },
                 {
                   "num": 13,
                   "arabic": "وَمَا أَنْسَانِيهُ إِلَّا الشَّيْطَانُ",
-                  "hinglish": "aur mujhe Shaytan ke siwa kisi ne nahin bhulaya"
+                  "hinglish": "aur mujhe Shaytan ke siwa kisi ne nahin bhulaya",
+                  "sentence_number": 13
                 },
                 {
                   "num": 14,
                   "arabic": "وَلَمْ يُرِدْ إِلَّا الْحَيَاةَ",
-                  "hinglish": "aur usne zindagi ke siwa kuch nahin chaha"
+                  "hinglish": "aur usne zindagi ke siwa kuch nahin chaha",
+                  "sentence_number": 14
                 }
               ]
             }
@@ -16904,7 +17088,8 @@ window.PWA_BOOK_DATA = {
               "text": "Naye alfaaz aate jaayein, unhe yaad karte jaayein, taake aane waale maraahil mein aapke liye aasaani ho."
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S2L10",
@@ -17217,42 +17402,50 @@ window.PWA_BOOK_DATA = {
                 {
                   "num": 1,
                   "arabic": "وَالسَّمَاءِ ذَاتِ الْحُبُكِ",
-                  "hinglish": "raston wale aasman ki qasam"
+                  "hinglish": "raston wale aasman ki qasam",
+                  "sentence_number": 1
                 },
                 {
                   "num": 2,
                   "arabic": "يس ۚ وَالْقُرْآنِ الْحَكِيمِ",
-                  "hinglish": "Yaseen. Hikmat wale Qur'an ki qasam"
+                  "hinglish": "Yaseen. Hikmat wale Qur'an ki qasam",
+                  "sentence_number": 2
                 },
                 {
                   "num": 3,
                   "arabic": "كَلَّا وَالْقَمَرِ. وَاللَّيْلِ إِذْ أَدْبَرَ. وَالصُّبْحِ إِذَا أَسْفَرَ",
-                  "hinglish": "hargiz nahin, chand ki qasam. aur raat ki qasam jab woh peechhe hate. aur subah ki qasam jab woh roshan ho jaye"
+                  "hinglish": "hargiz nahin, chand ki qasam. aur raat ki qasam jab woh peechhe hate. aur subah ki qasam jab woh roshan ho jaye",
+                  "sentence_number": 3
                 },
                 {
                   "num": 4,
                   "arabic": "وَالطُّورِ. وَكِتَابٍ مَسْطُورٍ",
-                  "hinglish": "Toor ki qasam. aur likhi hui kitab ki qasam"
+                  "hinglish": "Toor ki qasam. aur likhi hui kitab ki qasam",
+                  "sentence_number": 4
                 },
                 {
                   "num": 5,
                   "arabic": "وَاللَّهِ رَبِّنَا مَا كُنَّا مُشْرِكِينَ",
-                  "hinglish": "hamare Rabb Allah ki qasam hum mushrik nahin the"
+                  "hinglish": "hamare Rabb Allah ki qasam hum mushrik nahin the",
+                  "sentence_number": 5
                 },
                 {
                   "num": 6,
                   "arabic": "وَاللَّيْلِ وَمَا وَسَقَ. وَالْقَمَرِ إِذَا اتَّسَقَ",
-                  "hinglish": "aur raat ki qasam aur jo woh jama kare. aur chand ki qasam jab woh poora ho jaye"
+                  "hinglish": "aur raat ki qasam aur jo woh jama kare. aur chand ki qasam jab woh poora ho jaye",
+                  "sentence_number": 6
                 },
                 {
                   "num": 7,
                   "arabic": "وَالطُّورِ. وَكِتَابٍ مَسْطُورٍ. فِي رَقٍّ مَنْشُورٍ. وَالْبَيْتِ الْمَعْمُورِ. وَالسَّقْفِ الْمَرْفُوعِ. وَالْبَحْرِ الْمَسْجُورِ",
-                  "hinglish": "Toor ki qasam. aur likhi hui kitab ki qasam. khole hue warq mein. aur aabad ghar ki qasam. aur oonchi chhat ki qasam. aur bhare hue samundar ki qasam"
+                  "hinglish": "Toor ki qasam. aur likhi hui kitab ki qasam. khole hue warq mein. aur aabad ghar ki qasam. aur oonchi chhat ki qasam. aur bhare hue samundar ki qasam",
+                  "sentence_number": 7
                 }
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S2L11",
@@ -17485,7 +17678,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S2L12",
@@ -17892,7 +18086,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S2L13",
@@ -18233,66 +18428,76 @@ window.PWA_BOOK_DATA = {
                   "arabic": "﴿يَا أَيُّهَا النَّبِيُّ حَسْبُكَ اللهُ﴾",
                   "hinglish": "Ae Nabi! Aap ke liye Allah kafi hai",
                   "id": 1,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 3
                 },
                 {
                   "num": "2",
                   "arabic": "﴿يَا آدَمُ أَنبِئْهُمْ بِأَسْمَائِهِمْ﴾",
                   "hinglish": "Ae Adam! Unhein unke naam bata do",
                   "id": 2,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 2
                 },
                 {
                   "num": "1",
                   "arabic": "﴿يَا أَيُّهَا النَّاسُ اعْبُدُوا...﴾",
                   "id": 3,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 1
                 },
                 {
                   "num": "6",
                   "arabic": "﴿يَا أَيُّهَا النَّبِيُّ اتَّقِ اللهَ﴾",
                   "hinglish": "Ae Nabi! Allah se daro",
                   "id": 4,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 6
                 },
                 {
                   "num": "5",
                   "arabic": "﴿يَا إِبْلِيسُ مَا مَنَعَكَ أَنْ تَسْجُدَ﴾",
                   "hinglish": "Ae Iblees! Kis cheez ne tujhe rok diya ke tu sajdah kare",
                   "id": 5,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 5
                 },
                 {
                   "num": "4",
                   "arabic": "﴿يَا عِيسَىٰ إِنِّي مُتَوَفِّيكَ﴾",
                   "hinglish": "Ae Eesa! Beshak main aap ko poora lene wala hoon",
                   "id": 6,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 4
                 },
                 {
                   "num": "9",
                   "arabic": "﴿يَا نَارُ كُونِي بَرْدًا وَسَلَامًا﴾",
                   "hinglish": "Ae aag! Tu thandi aur salamati wali ho ja",
                   "id": 7,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 9
                 },
                 {
                   "num": "8",
                   "arabic": "﴿يَا صَالِحُ اثْتِنَا بِمَا تَعِدُنَا﴾",
                   "id": 8,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 8
                 },
                 {
                   "num": "7",
                   "arabic": "﴿يَا أَيُّهَا السَّاحِرُ ادْعُ لَنَا﴾",
                   "hinglish": "Ae jadoogar! Hamare liye dua karo",
                   "id": 9,
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 7
                 }
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       }
     ],
     "Stage3": [
@@ -19155,7 +19360,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S3L2",
@@ -19842,7 +20048,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S3L3",
@@ -20359,7 +20566,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S3L4",
@@ -21563,7 +21771,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S3L5",
@@ -22915,7 +23124,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S3L6",
@@ -23798,7 +24008,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S3L7",
@@ -24098,7 +24309,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S3L8",
@@ -24766,7 +24978,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S3L9",
@@ -25153,7 +25366,8 @@ window.PWA_BOOK_DATA = {
               "text": "Ab yeh bhi yaad rakhein: agar lafz (مُ) se shuru ho jis par damma ho aur doosre aakhir se pehle wale harf par fatah ho (jaise مُسَخَّر، مُحَمَّد) to yeh 'jis par kaam kiya gaya' ka mafhoom deta hai."
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S3L10",
@@ -25432,7 +25646,8 @@ window.PWA_BOOK_DATA = {
               "text": "Ab upar ke tamam alfaaz ko (ين) ke saath bhi parhein."
             }
           }
-        ]
+        ],
+        "status": "complete"
       }
     ],
     "Stage4": [
@@ -26505,7 +26720,8 @@ window.PWA_BOOK_DATA = {
               "text": "Fehm-e-Quran-e-Kareem ka asal matlab yeh hai ke aap Quran Kareem ki kisi bhi aayat ko sunte hi uska matlab samajh jayein aur jab aapko Quran Kareem ki aayat ka matlab barah-e-raast Arabi mein hi samajh aane lagay ga to aapko tafaseer parhne ka lutf aaye ga aur aap ba-asani is baat ka faisla kar sakein gay ke kaun si tafseer Quran Kareem ke mafhoom ke zyada qareeb tar hai."
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S4L2",
@@ -27084,7 +27300,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S4L3",
@@ -27931,7 +28148,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S4L4",
@@ -29048,7 +29266,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S4L5",
@@ -29225,7 +29444,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S4L6",
@@ -29482,7 +29702,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S4L7",
@@ -30337,7 +30558,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S4L8",
@@ -31102,7 +31324,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S4L9",
@@ -31332,7 +31555,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S4L10",
@@ -31917,7 +32141,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S4L11",
@@ -32364,7 +32589,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S4L12",
@@ -33076,7 +33302,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S4L13",
@@ -33328,7 +33555,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S4L14",
@@ -34266,7 +34494,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S4L15",
@@ -34652,7 +34881,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S4L16",
@@ -35269,7 +35499,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S4L17",
@@ -35575,7 +35806,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S4L18",
@@ -35815,7 +36047,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       }
     ],
     "Stage5": [
@@ -36739,7 +36972,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S5L2",
@@ -38099,7 +38333,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S5L3",
@@ -38128,7 +38363,7 @@ window.PWA_BOOK_DATA = {
             }
           }
         ],
-        "status": "template"
+        "status": "stub"
       },
       {
         "lesson_key": "S5L4",
@@ -38157,7 +38392,7 @@ window.PWA_BOOK_DATA = {
             }
           }
         ],
-        "status": "template"
+        "status": "stub"
       },
       {
         "lesson_key": "S5L5",
@@ -38186,7 +38421,7 @@ window.PWA_BOOK_DATA = {
             }
           }
         ],
-        "status": "template"
+        "status": "stub"
       },
       {
         "lesson_key": "S5L6",
@@ -38213,7 +38448,7 @@ window.PWA_BOOK_DATA = {
             }
           }
         ],
-        "status": "template"
+        "status": "stub"
       },
       {
         "lesson_key": "S5L7",
@@ -38240,7 +38475,7 @@ window.PWA_BOOK_DATA = {
             }
           }
         ],
-        "status": "template"
+        "status": "stub"
       },
       {
         "lesson_key": "S5L8",
@@ -38268,992 +38503,992 @@ window.PWA_BOOK_DATA = {
                   "id": 1,
                   "arabic": "عَلَيْهِمُ الضَّلَالَةُ",
                   "hinglish": "un par gumrahi hai",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 1
                 },
                 {
                   "id": 2,
                   "arabic": "عَلَيْهِمْ مِّنَ السَّمَاءِ آيَةً",
                   "hinglish": "un par aasman se ek nishani",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 2
                 },
                 {
                   "id": 3,
                   "arabic": "عَلَيْهِمْ آيَاتُ الرَّحْمٰنِ",
                   "hinglish": "un par Rahman ki nishaniyan",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 3
                 },
                 {
                   "id": 4,
                   "arabic": "عَلَيْهِمْ مَّطَرًا",
                   "hinglish": "un par barish",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 4
                 },
                 {
                   "id": 5,
                   "arabic": "عَلَيْهِمْ حَسْرَةً",
                   "hinglish": "un par hasrat",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 5
                 },
                 {
                   "id": 6,
                   "arabic": "عَلَيْهِمْ مِّنْ كُلِّ بَابٍ",
                   "hinglish": "un par har darwaze se",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 6
                 },
                 {
                   "id": 7,
                   "arabic": "عَلَيْهِمُ الطُّوفَانَ",
                   "hinglish": "un par toofan",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 7
                 },
                 {
                   "id": 8,
                   "arabic": "عَلَيْهِمُ الْقُرْآنُ",
                   "hinglish": "un par Quran",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 8
                 },
                 {
                   "id": 9,
                   "arabic": "عَلَيْهِمُ السَّمَاءُ وَالْأَرْضُ",
                   "hinglish": "un par aasman aur zameen",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 9
                 },
                 {
                   "id": 10,
                   "arabic": "عَلَيْهِمْ مِّنَ النَّبِيِّينَ",
                   "hinglish": "un par nabiyon mein se",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 10
                 },
                 {
                   "id": 11,
                   "arabic": "عَلَيْهِمُ الْمَنَّ وَالسَّلْوىٰ",
                   "hinglish": "un par mann aur salwa",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 11
                 },
                 {
                   "id": 12,
                   "arabic": "عَلَيْهِمُ الذِّلَّةُ وَالْمَسْكَنَةُ",
                   "hinglish": "un par zillat aur miskeeni",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 12
                 },
                 {
                   "id": 13,
                   "arabic": "سَوَاءٌ عَلَيْهِمْ",
                   "hinglish": "un par barabar hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 13
                 },
                 {
                   "id": 14,
                   "arabic": "السَّكِينَةَ عَلَيْهِمْ",
                   "hinglish": "un par sukoon",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 14
                 },
                 {
                   "id": 15,
                   "arabic": "أُمَّةٌ مِّنْهُمْ",
                   "hinglish": "un mein se ek ummat",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 15
                 },
                 {
                   "id": 16,
                   "arabic": "إِلَىٰ رَجُلٍ مِّنْهُمْ",
                   "hinglish": "un mein se ek aadmi ki taraf",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 16
                 },
                 {
                   "id": 17,
                   "arabic": "طَائِفَةٌ مِّنْهُمْ مَّعَكَ",
                   "hinglish": "un mein se ek giroh aap ke saath",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 17
                 },
                 {
                   "id": 18,
                   "arabic": "فِيهِمْ / رَسُولًا مِّنْهُمْ",
                   "hinglish": "un mein / un mein se ek Rasool",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 18
                 },
                 {
                   "id": 19,
                   "arabic": "لَهُمْ / مِّنَ اللّٰهِ فَضْلًا كَبِيرًا",
                   "hinglish": "un ke liye / Allah se bada karam",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 19
                 },
                 {
                   "id": 20,
                   "arabic": "عَلَيْهِمْ / إِلَىٰ يَوْمِ الْقِيَامَةِ",
                   "hinglish": "un par / qiyamat ke din tak",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 20
                 },
                 {
                   "id": 21,
                   "arabic": "لَهُمْ / رِزْقًا مِّنَ السَّمَاوَاتِ وَالْأَرْضِ",
                   "hinglish": "un ke liye / aasman aur zameen se rizq",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 21
                 },
                 {
                   "id": 22,
                   "arabic": "عَلَيْهِمْ / بَابًا مِّنَ السَّمَاءِ",
                   "hinglish": "un par / aasman se ek darwaza",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 22
                 },
                 {
                   "id": 23,
                   "arabic": "عَلَيْهِمْ / بَرَكَاتٍ مِّنَ السَّمَاءِ وَالْأَرْضِ",
                   "hinglish": "un par / aasman aur zameen se barkatein",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 23
                 },
                 {
                   "id": 24,
                   "arabic": "عَلَيْهِمْ كِتَابًا مِّنَ السَّمَاءِ",
                   "hinglish": "un par aasman se ek kitab",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 24
                 },
                 {
                   "id": 25,
                   "arabic": "عَلَيْهِمْ بَرَكَاتٍ مِّنَ السَّمَاءِ",
                   "hinglish": "un par aasman se barkatein",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 25
                 },
                 {
                   "id": 26,
                   "arabic": "عَلَيْهِمْ مِّنَ السَّمَاءِ مَلَكًا",
                   "hinglish": "un par aasman se ek farishta",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 26
                 },
                 {
                   "id": 27,
                   "arabic": "شَهِيدًا عَلَيْهِمْ مِّنْ أَنْفُسِهِمْ",
                   "hinglish": "un par gawah un mein se (un ke nafson mein se)",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 27
                 },
                 {
                   "id": 28,
                   "arabic": "فِيهِمْ / رَسُولًا / مِّنْ أَنْفُسِهِمْ",
                   "hinglish": "un mein / ek Rasool / un mein se",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 28
                 },
                 {
                   "id": 29,
                   "arabic": "إِلَّا عِبَادَكَ مِنْهُمُ الْمُخْلَصِينَ",
                   "hinglish": "siwaye tere bandon ke un mein se jo mukhlis hain",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 29
                 },
                 {
                   "id": 30,
                   "arabic": "إِلَيْهِمْ عَهْدَهُمْ إِلَىٰ مُدَّتِهِمْ",
                   "hinglish": "un ki taraf un ka ahad un ki muddat tak",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 30
                 },
                 {
                   "id": 31,
                   "arabic": "عَلَيْهِمْ حِجَارَةً مِّن طِينٍ",
                   "hinglish": "un par mitti ke pathar",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 31
                 },
                 {
                   "id": 32,
                   "arabic": "﴿لَهُمْ أَجْرٌ﴾",
                   "hinglish": "un ke liye ajar hai",
                   "is_filled": false,
-                  "sentence_number": 1
+                  "sentence_number": 32
                 },
                 {
                   "id": 33,
                   "arabic": "﴿لَهُمْ مَّغْفِرَةٌ﴾",
                   "hinglish": "un ke liye maghfirat hai",
                   "is_filled": false,
-                  "sentence_number": 2
+                  "sentence_number": 33
                 },
                 {
                   "id": 34,
                   "arabic": "﴿لَهُمُ الْحُسْنَىٰ﴾",
                   "hinglish": "un ke liye bhalai hai",
                   "is_filled": false,
-                  "sentence_number": 3
+                  "sentence_number": 34
                 },
                 {
                   "id": 35,
                   "arabic": "﴿لَهُمْ جَنَّاتٌ﴾",
                   "hinglish": "un ke liye jannatein hain",
                   "is_filled": false,
-                  "sentence_number": 4
+                  "sentence_number": 35
                 },
                 {
                   "id": 36,
                   "arabic": "﴿أَنَّ لَهُمْ جَنَّاتٍ﴾",
                   "hinglish": "ke un ke liye jannatein hain",
                   "is_filled": false,
-                  "sentence_number": 5
+                  "sentence_number": 36
                 },
                 {
                   "id": 37,
                   "arabic": "﴿أَنَّ لَهُمْ أَجْرًا حَسَنًا﴾",
                   "hinglish": "ke un ke liye achha ajar hai",
                   "is_filled": false,
-                  "sentence_number": 6
+                  "sentence_number": 37
                 },
                 {
                   "id": 38,
                   "arabic": "﴿لَهُمْ دَرَجَاتٌ﴾",
                   "hinglish": "un ke liye darje hain",
                   "is_filled": false,
-                  "sentence_number": 7
+                  "sentence_number": 38
                 },
                 {
                   "id": 39,
                   "arabic": "﴿لَهُمْ فِيهَا فَاكِهَةٌ﴾",
                   "hinglish": "un ke liye iss mein phal hain",
                   "is_filled": false,
-                  "sentence_number": 8
+                  "sentence_number": 39
                 },
                 {
                   "id": 40,
                   "arabic": "﴿لَهُمْ أَجْرٌ كَبِيرٌ﴾",
                   "hinglish": "un ke liye bada ajar hai",
                   "is_filled": false,
-                  "sentence_number": 9
+                  "sentence_number": 40
                 },
                 {
                   "id": 41,
                   "arabic": "﴿وَلَهُمْ أَجْرٌ كَرِيمٌ﴾",
                   "hinglish": "aur un ke liye izzat wala ajar hai",
                   "is_filled": false,
-                  "sentence_number": 10
+                  "sentence_number": 41
                 },
                 {
                   "id": 42,
                   "arabic": "﴿لَهُمْ رِزْقٌ مَّعْلُومٌ﴾",
                   "hinglish": "un ke liye maloom rizq hai",
                   "is_filled": false,
-                  "sentence_number": 11
+                  "sentence_number": 42
                 },
                 {
                   "id": 43,
                   "arabic": "﴿لَهُمْ جَنَّاتُ النَّعِيمِ﴾",
                   "hinglish": "un ke liye ne'maton ke baaghat hain",
                   "is_filled": false,
-                  "sentence_number": 12
+                  "sentence_number": 43
                 },
                 {
                   "id": 44,
                   "arabic": "﴿لَهُمْ دَارُ السَّلَامِ﴾",
                   "hinglish": "un ke liye salamti ka ghar hai",
                   "is_filled": false,
-                  "sentence_number": 13
+                  "sentence_number": 44
                 },
                 {
                   "id": 45,
                   "arabic": "﴿وَلَهُمْ رِزْقُهُمْ﴾",
                   "hinglish": "aur un ke liye un ka rizq hai",
                   "is_filled": false,
-                  "sentence_number": 14
+                  "sentence_number": 45
                 },
                 {
                   "id": 46,
                   "arabic": "﴿لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ﴾",
                   "hinglish": "un ke liye na khatam hone wala ajar hai",
                   "is_filled": false,
-                  "sentence_number": 15
+                  "sentence_number": 46
                 },
                 {
                   "id": 47,
                   "arabic": "﴿لَهُمُ الْأَمْنُ﴾",
                   "hinglish": "un ke liye aman hai",
                   "is_filled": false,
-                  "sentence_number": 16
+                  "sentence_number": 47
                 },
                 {
                   "id": 48,
                   "arabic": "﴿لَهُمُ الْخَيْرَاتُ﴾",
                   "hinglish": "un ke liye bhalaiyan hain",
                   "is_filled": false,
-                  "sentence_number": 17
+                  "sentence_number": 48
                 },
                 {
                   "id": 49,
                   "arabic": "﴿لَهُمُ الْبُشْرَىٰ﴾",
                   "hinglish": "un ke liye khushkhabri hai",
                   "is_filled": false,
-                  "sentence_number": 18
+                  "sentence_number": 49
                 },
                 {
                   "id": 50,
                   "arabic": "﴿لَهُمْ مَّغْفِرَةٌ وَأَجْرٌ عَظِيمٌ﴾",
                   "hinglish": "un ke liye maghfirat aur azeem ajar hai",
                   "is_filled": false,
-                  "sentence_number": 19
+                  "sentence_number": 50
                 },
                 {
                   "id": 51,
                   "arabic": "﴿لَهُمْ مَّغْفِرَةٌ وَأَجْرٌ كَبِيرٌ﴾",
                   "hinglish": "un ke liye maghfirat aur bada ajar hai",
                   "is_filled": false,
-                  "sentence_number": 20
+                  "sentence_number": 51
                 },
                 {
                   "id": 52,
                   "arabic": "﴿لَهُمْ مَّغْفِرَةٌ وَرِزْقٌ كَرِيمٌ﴾",
                   "hinglish": "un ke liye maghfirat aur izzat wala rizq hai",
                   "is_filled": false,
-                  "sentence_number": 21
+                  "sentence_number": 52
                 },
                 {
                   "id": 53,
                   "arabic": "﴿لَهُمْ دَرَجَاتٌ عِنْدَ رَبِّهِمْ﴾",
                   "hinglish": "un ke liye darje hain un ke Rabb ke paas",
                   "is_filled": false,
-                  "sentence_number": 22
+                  "sentence_number": 53
                 },
                 {
                   "id": 54,
                   "arabic": "﴿لَهُمْ أَجْرُهُمْ وَنُورُهُمْ﴾",
                   "hinglish": "un ke liye un ka ajar aur un ki roshni hai",
                   "is_filled": false,
-                  "sentence_number": 23
+                  "sentence_number": 54
                 },
                 {
                   "id": 55,
                   "arabic": "﴿لَهُمْ / فِيهَا / نَعِيمٌ مُّقِيمٌ﴾",
                   "hinglish": "un ke liye / iss mein / daimi aasaish hai",
                   "is_filled": false,
-                  "sentence_number": 24
+                  "sentence_number": 55
                 },
                 {
                   "id": 56,
                   "arabic": "﴿وَلَهُمْ فِيهَا أَزْوَاجٌ مُّطَهَّرَةٌ﴾",
                   "hinglish": "aur un ke liye iss mein pak jode hain",
                   "is_filled": false,
-                  "sentence_number": 25
+                  "sentence_number": 56
                 },
                 {
                   "id": 57,
                   "arabic": "﴿لَهُمْ جَنَّاتُ الْفِرْدَوْسِ﴾",
                   "hinglish": "un ke liye firdaus ke baaghat hain",
                   "is_filled": false,
-                  "sentence_number": 26
+                  "sentence_number": 57
                 },
                 {
                   "id": 58,
                   "arabic": "﴿وَلَهُمْ فِيهَا مِن كُلِّ الثَّمَرَاتِ﴾",
                   "hinglish": "aur un ke liye iss mein har phalon mein se hai",
                   "is_filled": false,
-                  "sentence_number": 27
+                  "sentence_number": 58
                 },
                 {
                   "id": 59,
                   "arabic": "﴿لَهُمْ / فِيهَا / دَارُ الْخُلْدِ﴾",
                   "hinglish": "un ke liye / iss mein / abadiyat ka ghar hai",
                   "is_filled": false,
-                  "sentence_number": 28
+                  "sentence_number": 59
                 },
                 {
                   "id": 60,
                   "arabic": "﴿فَلَا خَوْفٌ عَلَيْهِمْ﴾",
                   "hinglish": "toh koi khauf nahin un par",
                   "is_filled": false,
-                  "sentence_number": 29
+                  "sentence_number": 60
                 },
                 {
                   "id": 61,
                   "arabic": "﴿عَلَيْهِمْ صَلَوَاتٌ مِّن رَّبِّهِمْ وَرَحْمَةٌ﴾",
                   "hinglish": "un par rahmatein hain un ke Rabb ki taraf se aur rahmat",
                   "is_filled": false,
-                  "sentence_number": 30
+                  "sentence_number": 61
                 },
                 {
                   "id": 62,
                   "arabic": "﴿لَهُمْ دَارُ السَّلَامِ عِنْدَ رَبِّهِمْ / وَهُوَ وَلِيُّهُمْ﴾",
                   "hinglish": "un ke liye salamti ka ghar hai un ke Rabb ke paas / aur woh un ka dost hai",
                   "is_filled": false,
-                  "sentence_number": 31
+                  "sentence_number": 62
                 },
                 {
                   "id": 63,
                   "arabic": "﴿لَهُمُ الْبُشْرَىٰ فِي الْحَيَاةِ الدُّنْيَا وَفِي الْآخِرَةِ﴾",
                   "hinglish": "un ke liye khushkhabri hai duniya ki zindagi mein aur aakhirat mein",
                   "is_filled": false,
-                  "sentence_number": 32
+                  "sentence_number": 63
                 },
                 {
                   "id": 64,
                   "arabic": "﴿لَهُمْ دَرَجَاتٌ عِنْدَ رَبِّهِمْ / وَمَغْفِرَةٌ وَرِزْقٌ كَرِيمٌ﴾",
                   "hinglish": "un ke liye darje hain un ke Rabb ke paas / aur maghfirat aur izzat wala rizq hai",
                   "is_filled": false,
-                  "sentence_number": 33
+                  "sentence_number": 64
                 },
                 {
                   "id": 65,
                   "arabic": "﴿وَلَهُمْ فِيهَا مِن كُلِّ الثَّمَرَاتِ وَمَغْفِرَةٌ مِّن رَّبِّهِمْ﴾",
                   "hinglish": "aur un ke liye iss mein har phalon mein se hai aur maghfirat hai un ke Rabb ki taraf se",
                   "is_filled": false,
-                  "sentence_number": 34
+                  "sentence_number": 65
                 },
                 {
                   "id": 66,
                   "arabic": "﴿وَقُلُوبُهُمْ وَجِلَةٌ / أَنَّهُمْ إِلَىٰ رَبِّهِمْ رَاجِعُونَ﴾",
                   "hinglish": "aur un ke dil khaufzada hain / ke woh apne Rabb ki taraf lotne wale hain",
                   "is_filled": false,
-                  "sentence_number": 35
+                  "sentence_number": 66
                 },
                 {
                   "id": 67,
                   "arabic": "﴿لَهُمُ الْبُشْرَىٰ / فِي الْحَيَاةِ الدُّنْيَا وَفِي الْآخِرَةِ / لَا تَبْدِيلَ لِكَلِمَاتِ اللّٰهِ / ذٰلِكَ هُوَ الْفَوْزُ الْعَظِيمُ﴾",
                   "hinglish": "un ke liye khushkhabri hai / duniya ki zindagi mein aur aakhirat mein / Allah ki baaton ke liye koi tabdeeli nahin / wahi azeem kamyabi hai",
                   "is_filled": false,
-                  "sentence_number": 36
+                  "sentence_number": 67
                 },
                 {
                   "id": 68,
                   "arabic": "﴿إِلَّا عِبَادَ اللّٰهِ الْمُخْلَصِينَ . أُولٰئِكَ لَهُمْ رِزْقٌ مَّعْلُومٌ . فَوَاكِهُ وَهُمْ مُّكْرَمُونَ . فِي جَنَّاتِ النَّعِيمِ﴾",
                   "hinglish": "siwaye Allah ke un bandon ke jo mukhlis hain. unhi ke liye maloom rizq hai. phal aur unhein izzat diye gaye hain. ne'maton ke baaghat mein",
                   "is_filled": false,
-                  "sentence_number": 37
+                  "sentence_number": 68
                 },
                 {
                   "id": 69,
                   "arabic": "﴿لَهُمْ خِزْيٌ﴾",
                   "hinglish": "un ke liye ruswai hai",
                   "is_filled": false,
-                  "sentence_number": 1
+                  "sentence_number": 69
                 },
                 {
                   "id": 70,
                   "arabic": "﴿لَهُمُ الْعَذَابُ﴾",
                   "hinglish": "un ke liye azab hai",
                   "is_filled": false,
-                  "sentence_number": 2
+                  "sentence_number": 70
                 },
                 {
                   "id": 71,
                   "arabic": "﴿لَهُمُ اللَّعْنَةُ﴾",
                   "hinglish": "un ke liye laanat hai",
                   "is_filled": false,
-                  "sentence_number": 3
+                  "sentence_number": 71
                 },
                 {
                   "id": 72,
                   "arabic": "﴿لَهُمْ نَارُ جَهَنَّمَ﴾",
                   "hinglish": "un ke liye jahannam ki aag hai",
                   "is_filled": false,
-                  "sentence_number": 4
+                  "sentence_number": 72
                 },
                 {
                   "id": 73,
                   "arabic": "﴿وَلَهُمْ عَذَابُ النَّارِ﴾",
                   "hinglish": "aur un ke liye aag ka azab hai",
                   "is_filled": false,
-                  "sentence_number": 5
+                  "sentence_number": 73
                 },
                 {
                   "id": 74,
                   "arabic": "﴿لَهُمْ عَذَابُ الْحَرِيقِ﴾",
                   "hinglish": "un ke liye jalne ka azab hai",
                   "is_filled": false,
-                  "sentence_number": 6
+                  "sentence_number": 74
                 },
                 {
                   "id": 75,
                   "arabic": "﴿وَلَهُمْ مَّقَامِعُ﴾",
                   "hinglish": "aur un ke liye hathode hain",
                   "is_filled": false,
-                  "sentence_number": 7
+                  "sentence_number": 75
                 },
                 {
                   "id": 76,
                   "arabic": "﴿لَهُمْ فِي الدُّنْيَا خِزْيٌ﴾",
                   "hinglish": "un ke liye duniya mein ruswai hai",
                   "is_filled": false,
-                  "sentence_number": 8
+                  "sentence_number": 76
                 },
                 {
                   "id": 77,
                   "arabic": "﴿لَهُمْ خِزْيٌ فِي الدُّنْيَا﴾",
                   "hinglish": "un ke liye ruswai hai duniya mein",
                   "is_filled": false,
-                  "sentence_number": 9
+                  "sentence_number": 77
                 },
                 {
                   "id": 78,
                   "arabic": "﴿وَلَهُمْ عَذَابٌ أَلِيمٌ﴾",
                   "hinglish": "aur un ke liye dardnak azab hai",
                   "is_filled": false,
-                  "sentence_number": 10
+                  "sentence_number": 78
                 },
                 {
                   "id": 79,
                   "arabic": "﴿وَلَهُمْ عَذَابٌ مُّهِينٌ﴾",
                   "hinglish": "aur un ke liye zaleel karne wala azab hai",
                   "is_filled": false,
-                  "sentence_number": 11
+                  "sentence_number": 79
                 },
                 {
                   "id": 80,
                   "arabic": "﴿وَلَهُمْ عَذَابٌ عَظِيمٌ﴾",
                   "hinglish": "aur un ke liye azeem azab hai",
                   "is_filled": false,
-                  "sentence_number": 12
+                  "sentence_number": 80
                 },
                 {
                   "id": 81,
                   "arabic": "﴿لَهُمْ عَذَابٌ شَدِيدٌ﴾",
                   "hinglish": "un ke liye shadeed azab hai",
                   "is_filled": false,
-                  "sentence_number": 13
+                  "sentence_number": 81
                 },
                 {
                   "id": 82,
                   "arabic": "﴿وَلَهُمْ عَذَابٌ مُّقِيمٌ﴾",
                   "hinglish": "aur un ke liye sada rehne wala azab hai",
                   "is_filled": false,
-                  "sentence_number": 14
+                  "sentence_number": 82
                 },
                 {
                   "id": 83,
                   "arabic": "﴿وَلَهُمْ عَذَابٌ وَاصِبٌ﴾",
                   "hinglish": "aur un ke liye musalsal azab hai",
                   "is_filled": false,
-                  "sentence_number": 15
+                  "sentence_number": 83
                 },
                 {
                   "id": 84,
                   "arabic": "﴿لَهُمْ سُوءُ الْحِسَابِ﴾",
                   "hinglish": "un ke liye bura hisab hai",
                   "is_filled": false,
-                  "sentence_number": 16
+                  "sentence_number": 84
                 },
                 {
                   "id": 85,
                   "arabic": "﴿لَهُمْ سُوءُ الدَّارِ﴾",
                   "hinglish": "un ke liye bura ghar hai",
                   "is_filled": false,
-                  "sentence_number": 17
+                  "sentence_number": 85
                 },
                 {
                   "id": 86,
                   "arabic": "﴿وَالنَّارُ / مَثْوًى لَّهُمْ﴾",
                   "hinglish": "aur aag / thikana hai un ke liye",
                   "is_filled": false,
-                  "sentence_number": 18
+                  "sentence_number": 86
                 },
                 {
                   "id": 87,
                   "arabic": "﴿تَعْسًا لَّهُمْ﴾",
                   "hinglish": "halakat hai un ke liye",
                   "is_filled": false,
-                  "sentence_number": 19
+                  "sentence_number": 87
                 },
                 {
                   "id": 88,
                   "arabic": "﴿وَوَيْلٌ لَّهُمْ﴾",
                   "hinglish": "aur tabahi hai un ke liye",
                   "is_filled": false,
-                  "sentence_number": 20
+                  "sentence_number": 88
                 },
                 {
                   "id": 89,
                   "arabic": "﴿لَا مَوْلَىٰ لَهُمْ﴾",
                   "hinglish": "koi madadgar nahin un ke liye",
                   "is_filled": false,
-                  "sentence_number": 21
+                  "sentence_number": 89
                 },
                 {
                   "id": 90,
                   "arabic": "﴿إِنَّهُمْ رِجْسٌ﴾",
                   "hinglish": "beshak woh napak hain",
                   "is_filled": false,
-                  "sentence_number": 22
+                  "sentence_number": 90
                 },
                 {
                   "id": 91,
                   "arabic": "﴿عَلَيْهِمْ نَارٌ مُّؤْصَدَةٌ﴾",
                   "hinglish": "un par musallat aag hai",
                   "is_filled": false,
-                  "sentence_number": 23
+                  "sentence_number": 91
                 },
                 {
                   "id": 92,
                   "arabic": "﴿لَهُمْ ثِيَابٌ مِّن نَّارٍ﴾",
                   "hinglish": "un ke liye aag se kapde hain",
                   "is_filled": false,
-                  "sentence_number": 24
+                  "sentence_number": 92
                 },
                 {
                   "id": 93,
                   "arabic": "﴿وَلَهُمْ فِي الْآخِرَةِ عَذَابُ النَّارِ﴾",
                   "hinglish": "aur un ke liye aakhirat mein aag ka azab hai",
                   "is_filled": false,
-                  "sentence_number": 25
+                  "sentence_number": 93
                 },
                 {
                   "id": 94,
                   "arabic": "﴿وَلَهُمْ فِي الْآخِرَةِ عَذَابٌ عَظِيمٌ﴾",
                   "hinglish": "aur un ke liye aakhirat mein azeem azab hai",
                   "is_filled": false,
-                  "sentence_number": 26
+                  "sentence_number": 94
                 },
                 {
                   "id": 95,
                   "arabic": "﴿لَهُمْ عَذَابٌ فِي الْحَيَاةِ الدُّنْيَا﴾",
                   "hinglish": "un ke liye azab hai duniya ki zindagi mein",
                   "is_filled": false,
-                  "sentence_number": 27
+                  "sentence_number": 95
                 },
                 {
                   "id": 96,
                   "arabic": "﴿مَتَاعٌ قَلِيلٌ / وَلَهُمْ عَذَابٌ أَلِيمٌ﴾",
                   "hinglish": "thoda faida hai / aur un ke liye dardnak azab hai",
                   "is_filled": false,
-                  "sentence_number": 28
+                  "sentence_number": 96
                 },
                 {
                   "id": 97,
                   "arabic": "﴿وَلَهُمُ اللَّعْنَةُ / وَلَهُمْ سُوءُ الدَّارِ﴾",
                   "hinglish": "aur un ke liye laanat hai / aur un ke liye bura ghar hai",
                   "is_filled": false,
-                  "sentence_number": 29
+                  "sentence_number": 97
                 },
                 {
                   "id": 98,
                   "arabic": "﴿لَهُمْ عَذَابٌ / مِّن رِّجْزٍ أَلِيمٍ﴾",
                   "hinglish": "un ke liye azab hai / dardnak azaab mein se",
                   "is_filled": false,
-                  "sentence_number": 30
+                  "sentence_number": 98
                 },
                 {
                   "id": 99,
                   "arabic": "﴿إِنَّهُمْ رِجْسٌ / وَمَأْوَاهُمْ جَهَنَّمُ﴾",
                   "hinglish": "beshak woh napak hain / aur un ka thikana jahannam hai",
                   "is_filled": false,
-                  "sentence_number": 31
+                  "sentence_number": 99
                 },
                 {
                   "id": 100,
                   "arabic": "﴿وَلَهُمْ / مَّقَامِعُ مِنْ حَدِيدٍ﴾",
                   "hinglish": "aur un ke liye / lohe se hathode hain",
                   "is_filled": false,
-                  "sentence_number": 32
+                  "sentence_number": 100
                 },
                 {
                   "id": 101,
                   "arabic": "﴿لَهُمْ فِيهَا زَفِيرٌ وَشَهِيقٌ﴾",
                   "hinglish": "un ke liye iss mein cheekhna aur chinghadna hai",
                   "is_filled": false,
-                  "sentence_number": 33
+                  "sentence_number": 101
                 },
                 {
                   "id": 102,
                   "arabic": "﴿لَهُمْ / مِّن جَهَنَّمَ / مِهَادٌ﴾",
                   "hinglish": "un ke liye / jahannam se / bichhona hai",
                   "is_filled": false,
-                  "sentence_number": 34
+                  "sentence_number": 102
                 },
                 {
                   "id": 103,
                   "arabic": "﴿عَلَيْهِمْ لَعْنَةُ اللّٰهِ وَالْمَلَائِكَةِ﴾",
                   "hinglish": "un par Allah ki laanat aur farishton ki",
                   "is_filled": false,
-                  "sentence_number": 35
+                  "sentence_number": 103
                 },
                 {
                   "id": 104,
                   "arabic": "﴿فِي آذَانِهِمْ وَقْرٌ / وَهُوَ عَلَيْهِمْ عَمًى﴾",
                   "hinglish": "un ke kanon mein bojh hai / aur woh un par andhapan hai",
                   "is_filled": false,
-                  "sentence_number": 36
+                  "sentence_number": 104
                 },
                 {
                   "id": 105,
                   "arabic": "﴿وَعَلَيْهِمْ غَضَبٌ وَلَهُمْ عَذَابٌ شَدِيدٌ﴾",
                   "hinglish": "aur un par ghazab hai aur un ke liye shadeed azab hai",
                   "is_filled": false,
-                  "sentence_number": 37
+                  "sentence_number": 105
                 },
                 {
                   "id": 106,
                   "arabic": "﴿لَهُمْ عَذَابٌ أَلِيمٌ / فِي الدُّنْيَا وَالْآخِرَةِ﴾",
                   "hinglish": "un ke liye dardnak azab hai / duniya aur aakhirat mein",
                   "is_filled": false,
-                  "sentence_number": 38
+                  "sentence_number": 106
                 },
                 {
                   "id": 107,
                   "arabic": "﴿لَهُمْ شَرَابٌ مِّنْ حَمِيمٍ / وَعَذَابٌ أَلِيمٌ﴾",
                   "hinglish": "un ke liye kholte pani se sharab hai / aur dardnak azab hai",
                   "is_filled": false,
-                  "sentence_number": 39
+                  "sentence_number": 107
                 },
                 {
                   "id": 108,
                   "arabic": "﴿لَّيْسَ لَهُمْ طَعَامٌ / إِلَّا مِن ضَرِيعٍ﴾",
                   "hinglish": "un ke liye koi khana nahin hai / siwaye kante dar jhadiyon ke",
                   "is_filled": false,
-                  "sentence_number": 40
+                  "sentence_number": 108
                 },
                 {
                   "id": 109,
                   "arabic": "﴿فَلَهُمْ عَذَابٌ جَهَنَّمَ / وَلَهُمْ عَذَابُ الْحَرِيقِ﴾",
                   "hinglish": "toh un ke liye jahannam ka azab hai / aur un ke liye jalne ka azab hai",
                   "is_filled": false,
-                  "sentence_number": 41
+                  "sentence_number": 109
                 },
                 {
                   "id": 110,
                   "arabic": "﴿وَعَلَىٰ أَبْصَارِهِمْ غِشَاوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ﴾",
                   "hinglish": "aur un ki ankhon par parda hai aur un ke liye azeem azab hai",
                   "is_filled": false,
-                  "sentence_number": 42
+                  "sentence_number": 110
                 },
                 {
                   "id": 111,
                   "arabic": "﴿لَهُمْ خِزْيٌ فِي الدُّنْيَا / وَلَهُمْ فِي الْآخِرَةِ عَذَابٌ عَظِيمٌ﴾",
                   "hinglish": "un ke liye duniya mein ruswai hai / aur un ke liye aakhirat mein azeem azab hai",
                   "is_filled": false,
-                  "sentence_number": 43
+                  "sentence_number": 111
                 },
                 {
                   "id": 112,
                   "arabic": "﴿لَهُمْ فِي الدُّنْيَا خِزْيٌ / وَلَهُمْ فِي الْآخِرَةِ عَذَابٌ عَظِيمٌ﴾",
                   "hinglish": "un ke liye duniya mein ruswai hai / aur un ke liye aakhirat mein azeem azab hai",
                   "is_filled": false,
-                  "sentence_number": 44
+                  "sentence_number": 112
                 },
                 {
                   "id": 113,
                   "arabic": "﴿فَعَلَيْهِمْ غَضَبٌ مِّنَ اللّٰهِ / وَلَهُمْ عَذَابٌ عَظِيمٌ﴾",
                   "hinglish": "toh un par Allah ki taraf se ghazab hai / aur un ke liye azeem azab hai",
                   "is_filled": false,
-                  "sentence_number": 45
+                  "sentence_number": 113
                 },
                 {
                   "id": 114,
                   "arabic": "﴿فَهُوَ وَلِيُّهُمُ الْيَوْمَ / وَلَهُمْ عَذَابٌ أَلِيمٌ﴾",
                   "hinglish": "toh woh aaj un ka dost hai / aur un ke liye dardnak azab hai",
                   "is_filled": false,
-                  "sentence_number": 46
+                  "sentence_number": 114
                 },
                 {
                   "id": 115,
                   "arabic": "﴿لَهُمْ / مِن فَوْقِهِمْ / ظُلَلٌ مِّنَ النَّارِ / وَمِن تَحْتِهِمْ ظُلَلٌ﴾",
                   "hinglish": "un ke liye / un ke upar se / aag ke saaybaan hain / aur un ke neeche se saaybaan hain",
                   "is_filled": false,
-                  "sentence_number": 47
+                  "sentence_number": 115
                 },
                 {
                   "id": 116,
                   "arabic": "﴿أَلَا إِنَّهُمْ فِي مِرْيَةٍ مِّن لِّقَاءِ رَبِّهِمْ / أَلَا إِنَّهُ بِكُلِّ شَيْءٍ مُّحِيطٌ﴾",
                   "hinglish": "sun lo! beshak woh apne Rabb ki mulaqat ke bare mein shak mein hain / sun lo! beshak woh har cheez ko gherne wala hai",
-                  "is_filled": false,
-                  "sentence_number": 48
+                  "is_filled": false
                 },
                 {
                   "id": 117,
                   "arabic": "﴿حُجَّتُهُمْ دَاحِضَةٌ عِنْدَ رَبِّهِمْ / وَعَلَيْهِمْ غَضَبٌ / وَلَهُمْ عَذَابٌ شَدِيدٌ﴾",
                   "hinglish": "un ki daleel un ke Rabb ke paas nakam hai / aur un par ghazab hai / aur un ke liye shadeed azab hai",
-                  "is_filled": false,
-                  "sentence_number": 49
+                  "is_filled": false
                 },
                 {
                   "id": 118,
                   "arabic": "﴿فَإِنَّهُمْ لَآكِلُونَ مِنْهَا / فَمَالِئُونَ مِنْهَا الْبُطُونَ / ثُمَّ إِنَّ لَهُمْ عَلَيْهَا لَشَوْبًا مِّنْ حَمِيمٍ / ثُمَّ إِنَّ مَرْجِعَهُمْ لَإِلَى الْجَحِيمِ﴾",
                   "hinglish": "toh beshak woh us mein se khane wale hain / phir us se pait bharne wale hain / phir beshak un ke liye us par kholte pani se mashroob hai / phir beshak un ka lotna jahannam ki taraf hai",
-                  "is_filled": false,
-                  "sentence_number": 50
+                  "is_filled": false
                 },
                 {
                   "id": 119,
                   "arabic": "﴿اللّٰهُ حَفِيظٌ عَلَيْهِمْ﴾",
                   "hinglish": "Allah un par nigehbaan hai",
-                  "is_filled": false,
-                  "sentence_number": 1
+                  "is_filled": false
                 },
                 {
                   "id": 120,
                   "arabic": "﴿فَإِنَّهُمْ عَدُوٌّ لِّي﴾",
                   "hinglish": "toh beshak woh mere dushman hain",
-                  "is_filled": false,
-                  "sentence_number": 2
+                  "is_filled": false
                 },
                 {
                   "id": 121,
                   "arabic": "﴿هُوَ شَرٌّ لَّهُمْ﴾",
                   "hinglish": "woh un ke liye bura hai",
-                  "is_filled": false,
-                  "sentence_number": 3
+                  "is_filled": false
                 },
                 {
                   "id": 122,
                   "arabic": "﴿ذٰلِكَ أَزْكَىٰ لَهُمْ﴾",
                   "hinglish": "yeh un ke liye zyada behtar hai",
-                  "is_filled": false,
-                  "sentence_number": 4
+                  "is_filled": false
                 },
                 {
                   "id": 123,
                   "arabic": "﴿فَإِنَّهُ مِنْهُمْ﴾",
                   "hinglish": "toh beshak woh un mein se hai",
-                  "is_filled": false,
-                  "sentence_number": 5
+                  "is_filled": false
                 },
                 {
                   "id": 124,
                   "arabic": "﴿فَإِنَّهُمْ عِبَادُكَ﴾",
                   "hinglish": "toh beshak woh tere bande hain",
-                  "is_filled": false,
-                  "sentence_number": 6
+                  "is_filled": false
                 },
                 {
                   "id": 125,
                   "arabic": "﴿لَيْسَ لَهُمْ بِهِ عِلْمٌ﴾",
                   "hinglish": "un ke liye us ka koi ilm nahin",
-                  "is_filled": false,
-                  "sentence_number": 7
+                  "is_filled": false
                 },
                 {
                   "id": 126,
                   "arabic": "﴿رَبُّهُمْ أَعْلَمُ بِهِمْ﴾",
                   "hinglish": "un ka Rabb un ko behtar jaanne wala hai",
-                  "is_filled": false,
-                  "sentence_number": 8
+                  "is_filled": false
                 },
                 {
                   "id": 127,
                   "arabic": "﴿وَلَهُمْ عَلَيَّ ذَنْبٌ﴾",
                   "hinglish": "aur un ka mujh par gunaah hai",
-                  "is_filled": false,
-                  "sentence_number": 9
+                  "is_filled": false
                 },
                 {
                   "id": 128,
                   "arabic": "﴿وَكَثِيرٌ مِّنْهُمْ فَاسِقُونَ﴾",
                   "hinglish": "aur un mein se aksar naafarman hain",
-                  "is_filled": false,
-                  "sentence_number": 10
+                  "is_filled": false
                 },
                 {
                   "id": 129,
                   "arabic": "﴿وَأَنَّهُمْ إِلَيْهِ رَاجِعُونَ﴾",
                   "hinglish": "aur beshak woh us ki taraf lotne wale hain",
-                  "is_filled": false,
-                  "sentence_number": 11
+                  "is_filled": false
                 },
                 {
                   "id": 130,
                   "arabic": "﴿وَلَهُمْ فِيهَا مَنَافِعُ وَمَشَارِبُ﴾",
                   "hinglish": "aur un ke liye iss mein nafa aur faide hain",
-                  "is_filled": false,
-                  "sentence_number": 12
+                  "is_filled": false
                 },
                 {
                   "id": 131,
                   "arabic": "﴿إِنَّكَ مَيِّتٌ / وَإِنَّهُمْ مَّيِّتُونَ﴾",
                   "hinglish": "beshak tu murda hai / aur beshak woh murda hain",
-                  "is_filled": false,
-                  "sentence_number": 13
+                  "is_filled": false
                 },
                 {
                   "id": 132,
                   "arabic": "﴿مِنْهُمْ أُمَّةٌ مُّقْتَصِدَةٌ﴾",
                   "hinglish": "un mein se darmiyani ummat hai",
-                  "is_filled": false,
-                  "sentence_number": 14
+                  "is_filled": false
                 },
                 {
                   "id": 133,
                   "arabic": "﴿إِنَّ رَبَّهُمْ بِهِمْ / يَوْمَئِذٍ / لَّخَبِيرٌ﴾",
                   "hinglish": "beshak un ka Rabb un se / us din / khabardaar hai",
-                  "is_filled": false,
-                  "sentence_number": 15
+                  "is_filled": false
                 },
                 {
                   "id": 134,
                   "arabic": "﴿كَأَنَّهُمْ / حُمُرٌ مُّسْتَنْفِرَةٌ﴾",
                   "hinglish": "goya ke woh / bhadke hue gadhe hain",
-                  "is_filled": false,
-                  "sentence_number": 16
+                  "is_filled": false
                 },
                 {
                   "id": 135,
                   "arabic": "﴿وَأَنَّ الْكَافِرِينَ لَا مَوْلَىٰ لَهُمْ﴾",
                   "hinglish": "aur beshak kafiron ke liye koi madadgar nahin hai",
-                  "is_filled": false,
-                  "sentence_number": 17
+                  "is_filled": false
                 },
                 {
                   "id": 136,
                   "arabic": "﴿وَإِنِّي مُرْسِلَةٌ إِلَيْهِمْ بِهَدِيَّةٍ﴾",
                   "hinglish": "aur beshak main un ki taraf ek tohfa bhejne wali hoon",
-                  "is_filled": false,
-                  "sentence_number": 18
+                  "is_filled": false
                 },
                 {
                   "id": 137,
                   "arabic": "﴿أَمْ لَهُمْ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ﴾",
                   "hinglish": "kya un ke liye aasman aur zameen ki badshahat hai?",
-                  "is_filled": false,
-                  "sentence_number": 19
+                  "is_filled": false
                 },
                 {
                   "id": 138,
                   "arabic": "﴿أَمْ لَهُمْ شِرْكٌ فِي السَّمَاوَاتِ﴾",
                   "hinglish": "kya un ke liye aasmanon mein shirk hai?",
-                  "is_filled": false,
-                  "sentence_number": 20
+                  "is_filled": false
                 },
                 {
                   "id": 139,
                   "arabic": "﴿وَالْكَافِرُونَ لَهُمْ عَذَابٌ شَدِيدٌ﴾",
                   "hinglish": "aur kafiron ke liye shadeed azab hai",
-                  "is_filled": false,
-                  "sentence_number": 21
+                  "is_filled": false
                 },
                 {
                   "id": 140,
                   "arabic": "﴿فَإِنَّهُمْ عَدُوٌّ لِّي إِلَّا رَبَّ الْعَالَمِينَ﴾",
                   "hinglish": "toh beshak woh mere dushman hain siwaye tamaam jahanon ke Rabb ke",
-                  "is_filled": false,
-                  "sentence_number": 22
+                  "is_filled": false
                 },
                 {
                   "id": 141,
                   "arabic": "﴿لَيْسَ لَهُمْ / مِن دُونِهِ / وَلِيٌّ وَلَا شَفِيعٌ﴾",
                   "hinglish": "un ke liye nahin hai / us ke siwa / koi dost aur koi sifarshi",
-                  "is_filled": false,
-                  "sentence_number": 23
+                  "is_filled": false
                 },
                 {
                   "id": 142,
                   "arabic": "﴿وَلَهُمْ أَعْمَالٌ مِّن دُونِ ذٰلِكَ﴾",
                   "hinglish": "aur un ke liye us ke ilawa aamaal hain",
-                  "is_filled": false,
-                  "sentence_number": 24
+                  "is_filled": false
                 },
                 {
                   "id": 143,
                   "arabic": "﴿فَإِنَّهَا مُحَرَّمَةٌ عَلَيْهِمْ أَرْبَعِينَ سَنَةً﴾",
                   "hinglish": "toh beshak woh un par chalees saal tak haram karda hai",
-                  "is_filled": false,
-                  "sentence_number": 25
+                  "is_filled": false
                 },
                 {
                   "id": 144,
                   "arabic": "﴿إِنَّهَا عَلَيْهِمْ مُّؤْصَدَةٌ . فِي عَمَدٍ مُّمَدَّدَةٍ﴾",
                   "hinglish": "beshak woh un par band ki hui hai. lambe sutunon mein",
-                  "is_filled": false,
-                  "sentence_number": 26
+                  "is_filled": false
                 },
                 {
                   "id": 145,
                   "arabic": "﴿إِنَّ عِبَادِي / لَيْسَ لَكَ عَلَيْهِمْ / سُلْطَانٌ﴾",
                   "hinglish": "beshak mere bande / tere liye un par nahin hai / koi ghalba",
-                  "is_filled": false,
-                  "sentence_number": 27
+                  "is_filled": false
                 },
                 {
                   "id": 146,
                   "arabic": "﴿بَلْ قُلُوبُهُمْ فِي غَمْرَةٍ مِّنْ هٰذَا / وَلَهُمْ أَعْمَالٌ مِّن دُونِ ذٰلِكَ / هُمْ لَهَا عَامِلُونَ﴾",
                   "hinglish": "balke un ke dil iss mein se ghaflat mein hain / aur un ke liye us ke ilawa aamaal hain / woh us par amal karne wale hain",
-                  "is_filled": false,
-                  "sentence_number": 28
+                  "is_filled": false
                 },
                 {
                   "id": 147,
@@ -39408,7 +39643,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S5L9",
@@ -39435,7 +39671,7 @@ window.PWA_BOOK_DATA = {
             }
           }
         ],
-        "status": "template"
+        "status": "stub"
       },
       {
         "lesson_key": "S5L10",
@@ -39466,289 +39702,337 @@ window.PWA_BOOK_DATA = {
                   "id": 1,
                   "arabic": "وَإِلَهُكُمْ وَاحِدٌ",
                   "hinglish": "aur tum logon ka mabood ek hai",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 1
                 },
                 {
                   "id": 2,
                   "arabic": "وَإِلَهُكُمْ إِلَهٌ وَاحِدٌ",
                   "hinglish": "aur tum logon ka mabood ek mabood hai",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 2
                 },
                 {
                   "id": 3,
                   "arabic": "إِنَّمَا إِلَهُكُمُ اللَّهُ",
                   "hinglish": "tum logon ka mabood sirf Allah hai",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 3
                 },
                 {
                   "id": 4,
                   "arabic": "فَإِلَهُكُمْ إِلَهٌ وَاحِدٌ",
                   "hinglish": "toh tum logon ka mabood ek mabood hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 4
                 },
                 {
                   "id": 5,
                   "arabic": "وَاللَّهُ مَوْلَاكُمْ",
                   "hinglish": "aur Allah tum logon ka aqa hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 5
                 },
                 {
                   "id": 6,
                   "arabic": "بَلِ اللَّهُ مَوْلَاكُمْ",
                   "hinglish": "balke Allah tum logon ka aqa hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 6
                 },
                 {
                   "id": 7,
                   "arabic": "وَإِنَّ اللَّهَ رَبِّي وَرَبُّكُمْ",
                   "hinglish": "aur beshak Allah mera Rabb aur tum logon ka Rabb hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 7
                 },
                 {
                   "id": 8,
                   "arabic": "أَنَّمَا إِلَهُكُمْ إِلَهٌ وَاحِدٌ",
                   "hinglish": "ke tum logon ka mabood ek mabood hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 8
                 },
                 {
                   "id": 9,
                   "arabic": "رَبُّكُمْ ذُو رَحْمَةٍ وَاسِعَةٍ",
                   "hinglish": "tum logon ka Rabb wus'at wali rahmat wala hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 9
                 },
                 {
                   "id": 10,
                   "arabic": "رَبُّكُمْ رَبُّ السَّمَاوَاتِ وَالْأَرْضِ",
                   "hinglish": "tum logon ka Rabb aasmano aur zameen ka Rabb hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 10
                 },
                 {
                   "id": 11,
                   "arabic": "رَبُّكُمْ أَعْلَمُ",
                   "hinglish": "tum logon ka Rabb sab se behtar jaanne wala hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 11
                 },
                 {
                   "id": 12,
                   "arabic": "فَرَبُّكُمْ أَعْلَمُ",
                   "hinglish": "toh tum logon ka Rabb sab se behtar jaanne wala hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 12
                 },
                 {
                   "id": 13,
                   "arabic": "هَذَا إِلَهُكُمْ وَإِلَهُ مُوسَى",
                   "hinglish": "yeh tum logon ka mabood aur Musa (A.S.) ka mabood hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 13
                 },
                 {
                   "id": 14,
                   "arabic": "هُوَ مَوْلَاكُمْ",
                   "hinglish": "woh tum logon ka aqa hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 14
                 },
                 {
                   "id": 15,
                   "arabic": "أَيْنَ شُرَكَاؤُكُمْ",
                   "hinglish": "tum logon ke shareek kahan hain",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 15
                 },
                 {
                   "id": 16,
                   "arabic": "وَمَأْوَاكُمُ النَّارُ",
                   "hinglish": "aur tum logon ka thikana aag hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 16
                 },
                 {
                   "id": 17,
                   "arabic": "وَفِي السَّمَاءِ رِزْقُكُمْ",
                   "hinglish": "aur aasman mein tum logon ka rizq hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 17
                 },
                 {
                   "id": 18,
                   "arabic": "وَطَعَامُكُمْ حِلٌّ لَهُمْ",
                   "hinglish": "aur tum logon ka khana unke liye halal hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 18
                 },
                 {
                   "id": 19,
                   "arabic": "بُشْرَاكُمُ الْيَوْمَ جَنَّاتٌ",
                   "hinglish": "aaj tum logon ki khushkhabri jannatein hain",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 19
                 },
                 {
                   "id": 20,
                   "arabic": "إِنَّمَا أَنَا بَشَرٌ مِثْلُكُمْ",
                   "hinglish": "main toh bas tum logon ki tarah ek bashar hoon",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 20
                 },
                 {
                   "id": 21,
                   "arabic": "إِنَّهُ لَكَبِيرُكُمْ",
                   "hinglish": "beshak woh tum logon mein bada hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 21
                 },
                 {
                   "id": 22,
                   "arabic": "فِيهِ ذِكْرُكُمْ",
                   "hinglish": "iss mein tum logon ka zikr hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 22
                 },
                 {
                   "id": 23,
                   "arabic": "مَوْعِدُكُمْ يَوْمُ الزِّينَةِ",
                   "hinglish": "tum logon ka waada zeenat ke din ka hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 23
                 },
                 {
                   "id": 24,
                   "arabic": "وَكَانَ سَعْيُكُمْ مَشْكُورًا",
                   "hinglish": "aur tum logon ki koshish qabil e qadar thi",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 24
                 },
                 {
                   "id": 25,
                   "arabic": "طَائِرُكُمْ عِنْدَ اللَّهِ",
                   "hinglish": "tum logon ki nahusat Allah ke paas hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 25
                 },
                 {
                   "id": 26,
                   "arabic": "طَائِرُكُمْ مَعَكُمْ",
                   "hinglish": "tum logon ki nahusat tum logon ke saath hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 26
                 },
                 {
                   "id": 27,
                   "arabic": "ثُمَّ إِلَيَّ مَرْجِعُكُمْ",
                   "hinglish": "phir meri taraf tum logon ka lautna hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 27
                 },
                 {
                   "id": 28,
                   "arabic": "ثُمَّ إِلَيْهِ مَرْجِعُكُمْ",
                   "hinglish": "phir uski taraf tum logon ka lautna hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 28
                 },
                 {
                   "id": 29,
                   "arabic": "بَعْضُكُمْ مِنْ بَعْضٍ",
                   "hinglish": "tum logon mein se baaz baaz se hain",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 29
                 },
                 {
                   "id": 30,
                   "arabic": "فَمَا ظَنُّكُمْ بِرَبِّ الْعَالَمِينَ",
                   "hinglish": "toh tum logon ka Rabb ul aalameen ke baare mein kya gumaan hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 30
                 },
                 {
                   "id": 31,
                   "arabic": "بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ",
                   "hinglish": "tum logon mein se baaz baaz ke dushman hain",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 31
                 },
                 {
                   "id": 32,
                   "arabic": "وَأَنْتُمُ الْأَعْلَوْنَ وَاللَّهُ مَعَكُمْ",
                   "hinglish": "aur tum hi buland ho aur Allah tum logon ke saath Hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 32
                 },
                 {
                   "id": 33,
                   "arabic": "إِنَّمَا وَلِيُّكُمُ اللَّهُ وَرَسُولُهُ",
                   "hinglish": "tum logon ka dost sirf Allah aur Uska Rasool hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 33
                 },
                 {
                   "id": 34,
                   "arabic": "وَهُوَ مَعَكُمْ",
                   "hinglish": "aur woh tum logon ke saath Hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 34
                 },
                 {
                   "id": 35,
                   "arabic": "اللَّهُ شَهِيدٌ بَيْنِي وَبَيْنَكُمْ",
                   "hinglish": "Allah mere aur tum logon ke darmiyan gawah Hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 35
                 },
                 {
                   "id": 36,
                   "arabic": "وَطَعَامُكُمْ حِلٌّ لَهُمْ",
                   "hinglish": "aur tum logon ka khana unke liye halal hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 36
                 },
                 {
                   "id": 37,
                   "arabic": "وَأَنَا مَعَكُمْ مِنَ الشَّاهِدِينَ",
                   "hinglish": "aur main bhi tum logon ke saath gawahon mein se hoon",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 37
                 },
                 {
                   "id": 38,
                   "arabic": "بَيْنَكُمْ وَبَيْنَهُمْ مِيثَاقٌ",
                   "hinglish": "tum logon ke aur unke darmiyan waada hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 38
                 },
                 {
                   "id": 39,
                   "arabic": "أَنَّمَا إِلَهُكُمْ إِلَهٌ وَاحِدٌ فَهَلْ أَنْتُمْ مُسْلِمُونَ",
                   "hinglish": "ke tum logon ka mabood ek mabood hai toh kya tum musalman ho",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 39
                 },
                 {
                   "id": 40,
                   "arabic": "وَمِنْ آيَاتِهِ مَنَامُكُمْ بِاللَّيْلِ وَالنَّهَارِ",
                   "hinglish": "aur uski nishaniyon mein se tum logon ka raat aur din mein sona hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 40
                 },
                 {
                   "id": 41,
                   "arabic": "بَلِ اللَّهُ مَوْلَاكُمْ وَهُوَ خَيْرُ النَّاصِرِينَ",
                   "hinglish": "balke Allah tum logon ka aqa hai aur woh behtareen madad karne wala Hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 41
                 },
                 {
                   "id": 42,
                   "arabic": "إِنِّي مَعَكُمْ مِنَ الْمُنْتَظِرِينَ",
                   "hinglish": "beshak main bhi tum logon ke saath intezar karne walon mein se hoon",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 42
                 },
                 {
                   "id": 43,
                   "arabic": "إِنَّمَا إِلَهُكُمُ اللَّهُ الَّذِي لَا إِلَهَ إِلَّا هُوَ",
                   "hinglish": "tum logon ka mabood sirf Allah hai jiske siwa koi mabood nahin",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 43
                 },
                 {
                   "id": 44,
                   "arabic": "وَإِلَهُكُمْ إِلَهٌ وَاحِدٌ لَا إِلَهَ إِلَّا هُوَ الرَّحْمَنُ الرَّحِيمُ",
                   "hinglish": "aur tum logon ka mabood ek mabood hai uske siwa koi mabood nahin jo bada meharban nihayat raham wala hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 44
                 },
                 {
                   "id": 45,
                   "arabic": "مَا خَلْقُكُمْ وَلَا بَعْثُكُمْ إِلَّا كَنَفْسٍ وَاحِدَةٍ إِنَّ اللَّهَ سَمِيعٌ بَصِيرٌ",
                   "hinglish": "nahin hai tum logon ki paidaish aur na tum logon ka uthaya jana magar ek jaan ki tarah beshak Allah sunne wala dekhne wala Hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 45
                 },
                 {
                   "id": 46,
                   "arabic": "وَإِنَّ هَذِهِ أُمَّتُكُمْ أُمَّةً وَاحِدَةً وَأَنَا رَبُّكُمْ",
                   "hinglish": "aur beshak yeh tum logon ki ummat ek ummat hai aur main tum logon ka Rabb hoon",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 46
                 },
                 {
                   "id": 47,
                   "arabic": "هَذَا فَوْجٌ مُقْتَحِمٌ مَعَكُمْ لَا مَرْحَبًا بِهِمْ إِنَّهُمْ صَالُوا النَّارِ",
                   "hinglish": "yeh giroh tum logon ke saath dakhil hone wala hai unke liye koi khush-amdeed nahin beshak woh aag mein jane wale hain",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 47
                 },
                 {
                   "id": 48,
                   "arabic": "أَنَّمَا الْحَيَاةُ الدُّنْيَا لَعِبٌ وَلَهْوٌ وَزِينَةٌ وَتَفَاخُرٌ بَيْنَكُمْ وَتَكَاثُرٌ فِي الْأَمْوَالِ وَالْأَوْلَادِ",
                   "hinglish": "ke duniya ki zindagi bas khel aur tamasha aur zeenat hai aur aapas mein itrana hai aur amwal aur aulad mein kasrat se muqabla karna hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 48
                 },
                 {
                   "id": 49,
@@ -39886,13 +40170,15 @@ window.PWA_BOOK_DATA = {
                   "id": 71,
                   "arabic": "إِنَّمَا أَمْوَالُكُمْ وَأَوْلَادُكُمْ فِتْنَةٌ وَاللَّهُ عِنْدَهُ أَجْرٌ عَظِيمٌ",
                   "hinglish": "tum logon ke amwal aur tum logon ki aulad sirf aazmaish hain aur Allah hi ke paas azeem ajar Hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 1
                 },
                 {
                   "id": 72,
                   "arabic": "أُمَّهَاتُكُمْ وَبَنَاتُكُمْ وَأَخَوَاتُكُمْ وَعَمَّاتُكُمْ وَخَالَاتُكُمْ وَبَنَاتُ الْأَخِ وَبَنَاتُ الْأُخْتِ",
                   "hinglish": "tum logon ki maayein aur tum logon ki betiyan aur tum logon ki behnein aur tum logon ki phuphiyan aur tum logon ki khalayein aur bhai ki betiyan aur behen ki betiyan",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 1
                 },
                 {
                   "id": 73,
@@ -40041,7 +40327,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S5L11",
@@ -40072,91 +40359,106 @@ window.PWA_BOOK_DATA = {
                   "id": 1,
                   "arabic": "لِرَبِّكُم",
                   "hinglish": "tumhare Rabb ke liye",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 1
                 },
                 {
                   "id": 2,
                   "arabic": "لِعَمَلِكُم",
                   "hinglish": "tumhare amal ke liye",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 2
                 },
                 {
                   "id": 3,
                   "arabic": "لِأَيْمَانِكُم",
                   "hinglish": "tumhari qasamon ke liye",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 3
                 },
                 {
                   "id": 4,
                   "arabic": "لِقُلُوبِكُم",
                   "hinglish": "tumhare dilon ke liye",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 4
                 },
                 {
                   "id": 5,
                   "arabic": "لِأَنْفُسِكُم",
                   "hinglish": "tumhari jaanon ke liye",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 5
                 },
                 {
                   "id": 6,
                   "arabic": "لِأَنْعَامِكُم",
                   "hinglish": "tumhare chaupaayon ke liye",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 6
                 },
                 {
                   "id": 7,
                   "arabic": "بِرَبِّكُم",
                   "hinglish": "tumhare Rabb par",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 7
                 },
                 {
                   "id": 8,
                   "arabic": "بِإِيمَانِكُم",
                   "hinglish": "tumhare imaan par",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 8
                 },
                 {
                   "id": 9,
                   "arabic": "بِدِينِكُم",
                   "hinglish": "tumhare deen par",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 9
                 },
                 {
                   "id": 10,
                   "arabic": "بِأَمْوَالِكُم",
                   "hinglish": "tumhare maal par",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 10
                 },
                 {
                   "id": 11,
                   "arabic": "بِوُجُوهِكُم",
                   "hinglish": "tumhare chehron par",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 11
                 },
                 {
                   "id": 12,
                   "arabic": "بِأَفْوَاهِكُم",
                   "hinglish": "tumhare munh se",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 12
                 },
                 {
                   "id": 13,
                   "arabic": "بِأَعْدَائِكُم",
                   "hinglish": "tumhare dushmanon par",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 13
                 },
                 {
                   "id": 14,
                   "arabic": "فِي سَبِيلِ اللَّهِ بِأَمْوَالِكُم وَأَنْفُسِكُم",
                   "hinglish": "Allah ke raste mein tumhare maal aur tumhari jaanon se",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 14
                 },
                 {
                   "id": 15,
                   "arabic": "إِنَّ رَبَّكُم",
                   "hinglish": "beshak tumhara Rabb",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 15
                 },
                 {
                   "id": 16,
@@ -40186,106 +40488,91 @@ window.PWA_BOOK_DATA = {
                   "id": 20,
                   "arabic": "إِنَّ رَبَّكُمُ اللَّهُ",
                   "hinglish": "beshak tumhara Rabb Allah Hai",
-                  "is_filled": false,
-                  "sentence_number": 1
+                  "is_filled": false
                 },
                 {
                   "id": 21,
                   "arabic": "وَإِنَّ رَبَّكُمُ الرَّحْمَنُ",
                   "hinglish": "aur beshak tumhara Rabb Rahman Hai",
-                  "is_filled": false,
-                  "sentence_number": 2
+                  "is_filled": false
                 },
                 {
                   "id": 22,
                   "arabic": "إِنَّ إِلَهَكُم لَوَاحِدٌ",
                   "hinglish": "beshak tumhara mabood ek hi hai",
-                  "is_filled": false,
-                  "sentence_number": 3
+                  "is_filled": false
                 },
                 {
                   "id": 23,
                   "arabic": "وَاللَّهُ أَعْلَمُ بِإِيمَانِكُم",
                   "hinglish": "aur Allah tumhare imaan ko zyada jaanne wala Hai",
-                  "is_filled": false,
-                  "sentence_number": 4
+                  "is_filled": false
                 },
                 {
                   "id": 24,
                   "arabic": "إِنَّ رَبَّكُم لَرَءُوفٌ رَحِيمٌ",
                   "hinglish": "beshak tumhara Rabb bada shafqat karne wala meharban Hai",
-                  "is_filled": false,
-                  "sentence_number": 5
+                  "is_filled": false
                 },
                 {
                   "id": 25,
                   "arabic": "إِنَّ سَعْيَكُم لَشَتَّى",
                   "hinglish": "beshak tumhari koshish juda juda hai",
-                  "is_filled": false,
-                  "sentence_number": 6
+                  "is_filled": false
                 },
                 {
                   "id": 26,
                   "arabic": "وَاللَّهُ أَعْلَمُ بِأَعْدَائِكُم",
                   "hinglish": "aur Allah tumhare dushmanon ko zyada jaanne wala Hai",
-                  "is_filled": false,
-                  "sentence_number": 7
+                  "is_filled": false
                 },
                 {
                   "id": 27,
                   "arabic": "رَبَّكُم أَعْلَمُ بِمَا فِي نُفُوسِكُم",
                   "hinglish": "tumhara Rabb zyada jaanne wala Hai jo tumhare nafs mein hai",
-                  "is_filled": false,
-                  "sentence_number": 8
+                  "is_filled": false
                 },
                 {
                   "id": 28,
                   "arabic": "فِيهِ سَكِينَةٌ مِن رَبِّكُم",
                   "hinglish": "us mein sukoon hai tumhare Rabb ki taraf se",
-                  "is_filled": false,
-                  "sentence_number": 9
+                  "is_filled": false
                 },
                 {
                   "id": 29,
                   "arabic": "ثُمَّ إِلَى رَبِّكُم مَرْجِعُكُم",
                   "hinglish": "phir tumhare Rabb ki taraf tumhara lautna hai",
-                  "is_filled": false,
-                  "sentence_number": 10
+                  "is_filled": false
                 },
                 {
                   "id": 30,
                   "arabic": "فَإِنَّ مَصِيرَكُم إِلَى النَّارِ",
                   "hinglish": "toh beshak tumhara thikana aag ki taraf hai",
-                  "is_filled": false,
-                  "sentence_number": 11
+                  "is_filled": false
                 },
                 {
                   "id": 31,
                   "arabic": "وَأَنَّ أَكْثَرَكُم فَاسِقُونَ",
                   "hinglish": "aur beshak tum mein se aksar naafarman hain",
-                  "is_filled": false,
-                  "sentence_number": 12
+                  "is_filled": false
                 },
                 {
                   "id": 32,
                   "arabic": "إِنَّمَا بَغْيُكُم عَلَى أَنْفُسِكُم",
                   "hinglish": "bas tumhari sarkashi tumhari apni jaanon par hai",
-                  "is_filled": false,
-                  "sentence_number": 13
+                  "is_filled": false
                 },
                 {
                   "id": 33,
                   "arabic": "الْحَقُّ مِن رَبِّكُم",
                   "hinglish": "haq tumhare Rabb ki taraf se hai",
-                  "is_filled": false,
-                  "sentence_number": 14
+                  "is_filled": false
                 },
                 {
                   "id": 34,
                   "arabic": "إِنَّ أَكْرَمَكُم عِنْدَ اللَّهِ أَتْقَاكُم إِنَّ اللَّهَ عَلِيمٌ خَبِيرٌ",
                   "hinglish": "beshak Allah ke paas tum mein sab se muazzaz zyada parhezgar hai beshak Allah jaanne wala khabardar Hai",
-                  "is_filled": false,
-                  "sentence_number": 15
+                  "is_filled": false
                 },
                 {
                   "id": 35,
@@ -40452,7 +40739,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S5L12",
@@ -40483,1364 +40771,1364 @@ window.PWA_BOOK_DATA = {
                   "id": 1,
                   "arabic": "لَا جُنَاحَ عَلَيْكُمْ",
                   "hinglish": "Tum par koi gunah nahin",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 1
                 },
                 {
                   "id": 2,
                   "arabic": "عَلَيْكُمْ نِعْمَتِي",
                   "hinglish": "Tum par meri ne'mat",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 2
                 },
                 {
                   "id": 3,
                   "arabic": "إِلَيْكُمُ السَّلَامُ",
                   "hinglish": "Tum par salam",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 3
                 },
                 {
                   "id": 4,
                   "arabic": "إِلَيْكُمْ مِنْ رَبِّكُمْ",
                   "hinglish": "Tumhari taraf tumhare Rabb se",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 4
                 },
                 {
                   "id": 5,
                   "arabic": "إِنَّ لَكُمْ",
                   "hinglish": "Beshak tumhare liye",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 5
                 },
                 {
                   "id": 6,
                   "arabic": "حِلٌّ لَكُمْ",
                   "hinglish": "Halal hai tumhare liye",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 6
                 },
                 {
                   "id": 7,
                   "arabic": "فِتْنَةٌ لَكُمْ",
                   "hinglish": "Azmaish hai tumhare liye",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 7
                 },
                 {
                   "id": 8,
                   "arabic": "لَكُمُ الْأَرْضُ",
                   "hinglish": "Tumhare liye zameen hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 8
                 },
                 {
                   "id": 9,
                   "arabic": "لَكُمُ اللَّيْلُ",
                   "hinglish": "Tumhare liye raat hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 9
                 },
                 {
                   "id": 10,
                   "arabic": "لَكُمْ أَعْمَالُكُمْ",
                   "hinglish": "Tumhare liye tumhare a'maal hain",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 10
                 },
                 {
                   "id": 11,
                   "arabic": "لَكُمْ آيَةٌ",
                   "hinglish": "Tumhare liye nishani hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 11
                 },
                 {
                   "id": 12,
                   "arabic": "لَكُمْ هَذِهِ",
                   "hinglish": "Tumhare liye yeh hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 12
                 },
                 {
                   "id": 13,
                   "arabic": "وَلَكُمْ فِي الْأَرْضِ",
                   "hinglish": "Aur tumhare liye zameen mein",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 13
                 },
                 {
                   "id": 14,
                   "arabic": "وَلَكُمْ أَعْمَالُكُمْ",
                   "hinglish": "Aur tumhare liye tumhare a'maal hain",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 14
                 },
                 {
                   "id": 15,
                   "arabic": "لَكُمْ دِينُكُمْ",
                   "hinglish": "Tumhare liye tumhara deen hai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 15
                 },
                 {
                   "id": 16,
                   "arabic": "لَكُمْ يَوْمَ الْقِيَامَةِ",
                   "hinglish": "Tumhare liye qiyamat ka din",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 16
                 },
                 {
                   "id": 17,
                   "arabic": "لَكُمْ مِنْ أَبِيكُمْ",
                   "hinglish": "Tumhare liye tumhare baap se",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 17
                 },
                 {
                   "id": 18,
                   "arabic": "لَكُمْ مِنْ أَزْوَاجِكُمْ",
                   "hinglish": "Tumhare liye tumhari biwiyon se",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 18
                 },
                 {
                   "id": 19,
                   "arabic": "يَا قَوْمِ إِنَّكُمْ",
                   "hinglish": "Aye meri qawm! Beshak tum",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 19
                 },
                 {
                   "id": 20,
                   "arabic": "مِنْكُمْ جَزَاءً",
                   "hinglish": "Tum mein se jaza",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 20
                 },
                 {
                   "id": 21,
                   "arabic": "مِنْكُمْ شُهَدَاءَ",
                   "hinglish": "Tum mein se gawah",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 21
                 },
                 {
                   "id": 22,
                   "arabic": "التَّقْوَى مِنْكُمْ",
                   "hinglish": "Tum mein se taqwa",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 22
                 },
                 {
                   "id": 23,
                   "arabic": "رَحْمَةُ اللهِ وَبَرَكَاتُهُ عَلَيْكُمْ",
                   "hinglish": "Allah ki rahmat aur uski barkatein tum par",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 23
                 },
                 {
                   "id": 24,
                   "arabic": "فَضْلُ اللهِ عَلَيْكُمْ وَرَحْمَتُهُ",
                   "hinglish": "Allah ka karam tum par aur uski rahmat",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 24
                 },
                 {
                   "id": 25,
                   "arabic": "عَلَيْكُمْ غَضَبٌ مِنْ رَبِّكُمْ",
                   "hinglish": "Tum par tumhare Rabb se azab",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 25
                 },
                 {
                   "id": 26,
                   "arabic": "فِيكُمْ/ رَسُولًا مِنْكُمْ",
                   "hinglish": "Tum mein / tum mein se ek Rasool",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 26
                 },
                 {
                   "id": 27,
                   "arabic": "لَكُمْ/ ضَرًّا وَلَا نَفْعًا",
                   "hinglish": "Tumhare liye / nuqsan aur na nafa",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 27
                 },
                 {
                   "id": 28,
                   "arabic": "لَكُمْ مَثَلًا مِنْ أَنْفُسِكُمْ",
                   "hinglish": "Tumhare liye ek misal tumhari nafs se",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 28
                 },
                 {
                   "id": 29,
                   "arabic": "عَلَيْكُمْ عَذَابًا",
                   "hinglish": "Tum par azab",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 29
                 },
                 {
                   "id": 30,
                   "arabic": "عَلَيْكُمْ آيَاتِي",
                   "hinglish": "Tum par meri aayat",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 30
                 },
                 {
                   "id": 31,
                   "arabic": "إِلَيْكُمُ الْكِتَابُ",
                   "hinglish": "Tumhari taraf kitab",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 31
                 },
                 {
                   "id": 32,
                   "arabic": "إِلَيْكُمْ/ نُورًا مُبِينًا",
                   "hinglish": "Tumhari taraf / khuli roshni",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 32
                 },
                 {
                   "id": 33,
                   "arabic": "فَهُوَ لَكُمْ",
                   "hinglish": "toh woh tumhare liye",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 33
                 },
                 {
                   "id": 34,
                   "arabic": "بُشْرَى لَكُمْ",
                   "hinglish": "Khushkhabri tumhare liye",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 34
                 },
                 {
                   "id": 35,
                   "arabic": "لِبَاسٌ لَكُمْ",
                   "hinglish": "Libaas tumhare liye",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 35
                 },
                 {
                   "id": 36,
                   "arabic": "لَكُمُ الْفُلْكُ",
                   "hinglish": "Tumhare liye kashtiyan",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 36
                 },
                 {
                   "id": 37,
                   "arabic": "لَكُمُ الْأَنْهَارُ",
                   "hinglish": "Tumhare liye nehren",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 37
                 },
                 {
                   "id": 38,
                   "arabic": "لَكُمْ رِزْقًا",
                   "hinglish": "Tumhare liye rizq",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 38
                 },
                 {
                   "id": 39,
                   "arabic": "لَكُمْ جَزَاءً",
                   "hinglish": "Tumhare liye jaza",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 39
                 },
                 {
                   "id": 40,
                   "arabic": "لَكُمْ أَنْهَارًا",
                   "hinglish": "Tumhare liye nehren",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 40
                 },
                 {
                   "id": 41,
                   "arabic": "لَكُمْ مِنَ الْجِبَالِ",
                   "hinglish": "Tumhare liye paharon se",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 41
                 },
                 {
                   "id": 42,
                   "arabic": "لَكُمْ اللَّيْلَ وَالنَّهَارَ",
                   "hinglish": "Tumhare liye raat aur din",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 42
                 },
                 {
                   "id": 43,
                   "arabic": "لَكُمْ ذُنُوبَكُمْ",
                   "hinglish": "Tumhare liye tumhare gunah",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 43
                 },
                 {
                   "id": 44,
                   "arabic": "لَكُمْ اللَّيْلَ لِبَاسًا",
                   "hinglish": "Tumhare liye raat libaas",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 44
                 },
                 {
                   "id": 45,
                   "arabic": "لَكُمْ مِنْ بُيُوتِكُمْ",
                   "hinglish": "Tumhare liye tumhare gharon se",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 45
                 },
                 {
                   "id": 46,
                   "arabic": "لَكُمْ مِنْ أَنْفُسِكُمْ",
                   "hinglish": "Tumhare liye tumhari nafson se",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 46
                 },
                 {
                   "id": 47,
                   "arabic": "ثُمَّ إِنَّكُمْ يَوْمَ الْقِيَامَةِ",
                   "hinglish": "Phir beshak tum qiyamat ke din",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 47
                 },
                 {
                   "id": 48,
                   "arabic": "مِنْكُمْ فِدْيَةٌ",
                   "hinglish": "Tum mein se fidya",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 48
                 },
                 {
                   "id": 49,
                   "arabic": "فَرِيقٌ مِنْكُمْ",
                   "hinglish": "Tum mein se ek giroh",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 49
                 },
                 {
                   "id": 50,
                   "arabic": "بَيْنَ الْأَغْنِيَاءِ مِنْكُمْ",
                   "hinglish": "Tum mein se ameeron ke darmiyan",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 50
                 },
                 {
                   "id": 51,
                   "arabic": "عَلَيْكُمْ مِنَ السَّمَاءِ مَاءً",
                   "hinglish": "Tum par aasman se pani",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 51
                 },
                 {
                   "id": 52,
                   "arabic": "عَلَيْكُمْ مِنَ الْكِتَابِ وَالْحِكْمَةِ",
                   "hinglish": "Tum par kitab aur hikmat se",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 52
                 },
                 {
                   "id": 53,
                   "arabic": "إِلَيْكُمْ رَسُولًا/ شَاهِدًا عَلَيْكُمْ",
                   "hinglish": "Tumhari taraf ek Rasool / tum par gawah",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 53
                 },
                 {
                   "id": 54,
                   "arabic": "لَكُمُ الشَّمْسَ وَالْقَمَرَ",
                   "hinglish": "Tumhare liye suraj aur chand",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 54
                 },
                 {
                   "id": 55,
                   "arabic": "لَكُمْ رَبُّكُمْ/ مِنْ رَحْمَتِهِ",
                   "hinglish": "Tumhare liye tumhara Rabb / uski rahmat se",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 55
                 },
                 {
                   "id": 56,
                   "arabic": "لَكُمْ/ مِنْ أَنْفُسِكُمْ/ أَزْوَاجًا",
                   "hinglish": "Tumhare liye / tumhari nafs se / biwiyan",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 56
                 },
                 {
                   "id": 57,
                   "arabic": "عَلَيْكُمْ غَضَبٌ",
                   "hinglish": "Tum par ghussa",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 57
                 },
                 {
                   "id": 58,
                   "arabic": "عَلَيْكُمْ غَضَبِي",
                   "hinglish": "Tum par mera ghussa",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 58
                 },
                 {
                   "id": 59,
                   "arabic": "إِلَيْكُمْ ذِكْرًا",
                   "hinglish": "Tumhari taraf zikr",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 59
                 },
                 {
                   "id": 60,
                   "arabic": "إِلَيْكُمْ آيَاتٍ مُبَيِّنَاتٍ",
                   "hinglish": "Tumhari taraf khuli nishaniyan",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 60
                 },
                 {
                   "id": 61,
                   "arabic": "أُفٍّ لَكُمْ",
                   "hinglish": "Uff tumhare liye",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 61
                 },
                 {
                   "id": 62,
                   "arabic": "خَيْرٌ لَكُمْ",
                   "hinglish": "Tumhare liye behtar",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 62
                 },
                 {
                   "id": 63,
                   "arabic": "رِزْقًا لَكُمْ",
                   "hinglish": "Tumhare liye rizq",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 63
                 },
                 {
                   "id": 64,
                   "arabic": "لَكُمُ الْإِسْلَامَ",
                   "hinglish": "Tumhare liye Islam",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 64
                 },
                 {
                   "id": 65,
                   "arabic": "لَكُمْ أَعْدَاءً",
                   "hinglish": "Tumhare liye dushman",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 65
                 },
                 {
                   "id": 66,
                   "arabic": "لَكُمْ كِتَابٌ",
                   "hinglish": "Tumhare liye kitab",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 66
                 },
                 {
                   "id": 67,
                   "arabic": "لَكُمْ جَنَّاتٍ",
                   "hinglish": "Tumhare liye jannat",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 67
                 },
                 {
                   "id": 68,
                   "arabic": "لَكُمْ نُورًا",
                   "hinglish": "Tumhare liye roshni",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 68
                 },
                 {
                   "id": 69,
                   "arabic": "لَكُمْ مِنَ الشَّجَرِ",
                   "hinglish": "Tumhare liye darakhton se",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 69
                 },
                 {
                   "id": 70,
                   "arabic": "لَكُمْ آيَاتِهِ",
                   "hinglish": "Tumhare liye uski aayat",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 70
                 },
                 {
                   "id": 71,
                   "arabic": "لَكُمْ أَنْفُسَكُمْ",
                   "hinglish": "Tumhare liye tumhari nafs",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 71
                 },
                 {
                   "id": 72,
                   "arabic": "لَكُمْ فِيهَا مَنَافِعُ",
                   "hinglish": "Tumhare liye us mein faidey hain",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 72
                 },
                 {
                   "id": 73,
                   "arabic": "لَكُمْ مِنْ ذُنُوبِكُمْ",
                   "hinglish": "Tumhare liye tumhare gunahon se",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 73
                 },
                 {
                   "id": 74,
                   "arabic": "إِنَّكُمْ بَعْدَ ذَلِكَ",
                   "hinglish": "Beshak tum uske baad",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 74
                 },
                 {
                   "id": 75,
                   "arabic": "فِيكُمْ أَنْبِيَاءَ",
                   "hinglish": "Tum mein anbiya",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 75
                 },
                 {
                   "id": 76,
                   "arabic": "مِنْكُمْ مَرِيضًا",
                   "hinglish": "Tum mein se bimaar",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 76
                 },
                 {
                   "id": 77,
                   "arabic": "رُسُلٌ مِنْكُمْ",
                   "hinglish": "Tum mein se Rasool",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 77
                 },
                 {
                   "id": 78,
                   "arabic": "إِلَّا قَلِيلًا مِنْكُمْ",
                   "hinglish": "Magar tum mein se thore",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 78
                 },
                 {
                   "id": 79,
                   "arabic": "مِنَ السَّمَاءِ مَاءً لَكُمْ",
                   "hinglish": "Aasman se pani tumhare liye",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 79
                 },
                 {
                   "id": 80,
                   "arabic": "مِنْكُمْ مَلَائِكَةٌ فِي الْأَرْضِ",
                   "hinglish": "Tum mein se farishtay zameen mein",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 80
                 },
                 {
                   "id": 81,
                   "arabic": "إِلَيْكُمْ مِنْ اللَّهِ وَرَسُولِهِ",
                   "hinglish": "Tumhari taraf Allah aur uske Rasool se",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 81
                 },
                 {
                   "id": 82,
                   "arabic": "الرَّسُولُ شَهِيدًا عَلَيْكُمْ",
                   "hinglish": "Rasool tum par gawah",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 82
                 },
                 {
                   "id": 83,
                   "arabic": "لَكُمْ عِنْدَ بَارِئِكُمْ",
                   "hinglish": "Tumhare liye tumhare khaliq ke paas",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 83
                 },
                 {
                   "id": 84,
                   "arabic": "لِلنَّاسِ عَلَيْكُمْ حُجَّةٌ",
                   "hinglish": "Logon ke liye tum par daleel",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 84
                 },
                 {
                   "id": 85,
                   "arabic": "لَكُمُ اللَّيْلَ وَالنَّهَارَ وَالشَّمْسَ وَالْقَمَرَ",
                   "hinglish": "Tumhare liye raat aur din aur suraj aur chand",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 85
                 },
                 {
                   "id": 86,
                   "arabic": "فَضْلُ اللَّهِ عَلَيْكُمْ وَرَحْمَتُهُ فِي الدُّنْيَا وَالْآخِرَةِ",
                   "hinglish": "Allah ka karam tum par aur uski rahmat duniya aur aakhirat mein",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 86
                 },
                 {
                   "id": 87,
                   "arabic": "عَلَيْكُمْ سَمْعُكُمْ وَلَا أَبْصَارُكُمْ وَلَا جُلُودُكُمْ",
                   "hinglish": "Tum par tumhara sunna aur na tumhara dekhna aur na tumhari khalein",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 87
                 },
                 {
                   "id": 88,
                   "arabic": "عَلَيْكُمُ الْقِصَاصُ/ فِي الْقَتْلَى",
                   "hinglish": "Tum par qisas / qatal mein",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 88
                 },
                 {
                   "id": 89,
                   "arabic": "مِنْكُمْ عِشْرُونَ صَابِرُونَ",
                   "hinglish": "Tum mein se bees sabr karne wale",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 89
                 },
                 {
                   "id": 90,
                   "arabic": "إِلَيْكُمْ كِتَابًا/ فِيهِ ذِكْرُكُمْ",
                   "hinglish": "Tumhari taraf kitab / us mein tumhara zikr",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 90
                 },
                 {
                   "id": 91,
                   "arabic": "الرَّسُولُ عَلَيْكُمْ شَهِيدًا",
                   "hinglish": "Rasool tum par gawah",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 91
                 },
                 {
                   "id": 92,
                   "arabic": "عَلَيْكُمْ عَذَابًا مِنْ فَوْقِكُمْ",
                   "hinglish": "Tum par tumhare upar se azab",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 92
                 },
                 {
                   "id": 93,
                   "arabic": "لَكُمُ السَّمْعَ وَالْأَبْصَارَ وَالْأَفْئِدَةَ",
                   "hinglish": "Tumhare liye sunna aur dekhna aur dil",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 93
                 },
                 {
                   "id": 94,
                   "arabic": "يَا قَوْمِ إِنِّي لَكُمْ نَذِيرٌ مُبِينٌ",
                   "hinglish": "Aye meri qawm! Beshak main tumhare liye khula darane wala hoon",
                   "is_filled": false,
-                  "sentence_number": 1
+                  "sentence_number": 94
                 },
                 {
                   "id": 95,
                   "arabic": "إِنِّي لَكُمْ رَسُولٌ أَمِينٌ",
                   "hinglish": "Beshak main tumhare liye amanat dar Rasool hoon",
                   "is_filled": false,
-                  "sentence_number": 2
+                  "sentence_number": 95
                 },
                 {
                   "id": 96,
                   "arabic": "إِنِّي رَسُولُ اللَّهِ إِلَيْكُمْ",
                   "hinglish": "Beshak main tumhari taraf Allah ka Rasool hoon",
                   "is_filled": false,
-                  "sentence_number": 3
+                  "sentence_number": 96
                 },
                 {
                   "id": 97,
                   "arabic": "وَأَنَا لَكُمْ نَاصِحٌ أَمِينٌ",
                   "hinglish": "Aur main tumhare liye amanat dar khair khwah hoon",
                   "is_filled": false,
-                  "sentence_number": 4
+                  "sentence_number": 97
                 },
                 {
                   "id": 98,
                   "arabic": "أَنَا لَكُمْ نَذِيرٌ مُبِينٌ",
                   "hinglish": "Main tumhare liye khula darane wala hoon",
                   "is_filled": false,
-                  "sentence_number": 5
+                  "sentence_number": 98
                 },
                 {
                   "id": 99,
                   "arabic": "إِنَّنِي لَكُمْ مِنْهُ نَذِيرٌ وَبَشِيرٌ",
                   "hinglish": "Beshak main tumhare liye uski taraf se darane wala aur khushkhabri dene wala hoon",
                   "is_filled": false,
-                  "sentence_number": 6
+                  "sentence_number": 99
                 },
                 {
                   "id": 100,
                   "arabic": "إِنَّمَا أَنَا لَكُمْ نَذِيرٌ مُبِينٌ",
                   "hinglish": "Sirf main tumhare liye khula darane wala hoon",
                   "is_filled": false,
-                  "sentence_number": 7
+                  "sentence_number": 100
                 },
                 {
                   "id": 101,
                   "arabic": "سَلَامٌ عَلَيْكُمْ",
                   "hinglish": "Tum par salam",
                   "is_filled": false,
-                  "sentence_number": 8
+                  "sentence_number": 101
                 },
                 {
                   "id": 102,
                   "arabic": "فَإِنَّ اللَّهَ غَنِيٌّ عَنْكُمْ",
                   "hinglish": "toh beshak Allah tum se beniyaaz Hai",
                   "is_filled": false,
-                  "sentence_number": 9
+                  "sentence_number": 102
                 },
                 {
                   "id": 103,
                   "arabic": "بَقِيَّةُ اللَّهِ خَيْرٌ لَكُمْ",
                   "hinglish": "Allah ka ata karda maal tumhare liye behtar hai",
                   "is_filled": false,
-                  "sentence_number": 10
+                  "sentence_number": 103
                 },
                 {
                   "id": 104,
                   "arabic": "وَهُوَ خَيْرٌ لَكُمْ",
                   "hinglish": "Aur woh tumhare liye behtar hai",
                   "is_filled": false,
-                  "sentence_number": 11
+                  "sentence_number": 104
                 },
                 {
                   "id": 105,
                   "arabic": "وَهُوَ شَرٌّ لَكُمْ",
                   "hinglish": "Aur woh tumhare liye bura hai",
                   "is_filled": false,
-                  "sentence_number": 12
+                  "sentence_number": 105
                 },
                 {
                   "id": 106,
                   "arabic": "وَهُوَ كُرْهٌ لَكُمْ",
                   "hinglish": "Aur woh tumhare liye napasandeeda hai",
                   "is_filled": false,
-                  "sentence_number": 13
+                  "sentence_number": 106
                 },
                 {
                   "id": 107,
                   "arabic": "هُوَ جُنْدٌ لَكُمْ",
                   "hinglish": "Woh tumhare liye lashkar hai",
                   "is_filled": false,
-                  "sentence_number": 14
+                  "sentence_number": 107
                 },
                 {
                   "id": 108,
                   "arabic": "ذَلِكَ خَيْرٌ لَكُمْ",
                   "hinglish": "Yeh tumhare liye behtar hai",
                   "is_filled": false,
-                  "sentence_number": 15
+                  "sentence_number": 108
                 },
                 {
                   "id": 109,
                   "arabic": "ذَلِكَ خَيْرٌ لَكُمْ وَأَطْهَرُ",
                   "hinglish": "Yeh tumhare liye behtar aur zyada paak hai",
                   "is_filled": false,
-                  "sentence_number": 16
+                  "sentence_number": 109
                 },
                 {
                   "id": 110,
                   "arabic": "فَهُوَ خَيْرٌ لَكُمْ",
                   "hinglish": "toh woh tumhare liye behtar hai",
                   "is_filled": false,
-                  "sentence_number": 17
+                  "sentence_number": 110
                 },
                 {
                   "id": 111,
                   "arabic": "إِنِّي مُنَزِّلُهَا عَلَيْكُمْ",
                   "hinglish": "Beshak main isko tum par nazil karne wala hoon",
                   "is_filled": false,
-                  "sentence_number": 18
+                  "sentence_number": 111
                 },
                 {
                   "id": 112,
                   "arabic": "إِنَّ الشَّيْطَانَ لَكُمْ عَدُوٌّ",
                   "hinglish": "Beshak Shaytan tumhara dushman hai",
                   "is_filled": false,
-                  "sentence_number": 19
+                  "sentence_number": 112
                 },
                 {
                   "id": 113,
                   "arabic": "إِنَّهُ لَكُمْ عَدُوٌّ مُبِينٌ",
                   "hinglish": "Beshak woh tumhare liye khula dushman hai",
                   "is_filled": false,
-                  "sentence_number": 20
+                  "sentence_number": 113
                 },
                 {
                   "id": 114,
                   "arabic": "إِنِّي بَرِيءٌ مِنْكُمْ",
                   "hinglish": "Beshak main tum se bari hoon",
                   "is_filled": false,
-                  "sentence_number": 21
+                  "sentence_number": 114
                 },
                 {
                   "id": 115,
                   "arabic": "لَكُمْ فِيهَا خَيْرٌ",
                   "hinglish": "Tumhare liye us mein bhalai hai",
                   "is_filled": false,
-                  "sentence_number": 22
+                  "sentence_number": 115
                 },
                 {
                   "id": 116,
                   "arabic": "فَلَيْسَ عَلَيْكُمْ جُنَاحٌ",
                   "hinglish": "toh tum par koi gunah nahin",
-                  "is_filled": false,
-                  "sentence_number": 23
+                  "is_filled": false
                 },
                 {
                   "id": 117,
                   "arabic": "ثُمَّ إِنَّكُمْ بَعْدَ ذَلِكَ لَمَيِّتُونَ",
                   "hinglish": "Phir beshak tum uske baad yaqeenan marne wale ho",
-                  "is_filled": false,
-                  "sentence_number": 24
+                  "is_filled": false
                 },
                 {
                   "id": 118,
                   "arabic": "فَإِنَّكُمْ غَالِبُونَ",
                   "hinglish": "toh beshak tum ghalib ho",
-                  "is_filled": false,
-                  "sentence_number": 25
+                  "is_filled": false
                 },
                 {
                   "id": 119,
                   "arabic": "إِنَّكُمْ لَكَاذِبُونَ",
                   "hinglish": "Beshak tum yaqeenan jhoote ho",
-                  "is_filled": false,
-                  "sentence_number": 26
+                  "is_filled": false
                 },
                 {
                   "id": 120,
                   "arabic": "أَنَّكُمْ أَوْلِيَاءُ لِلَّهِ",
                   "hinglish": "Beshak tum Allah ke dost ho",
-                  "is_filled": false,
-                  "sentence_number": 27
+                  "is_filled": false
                 },
                 {
                   "id": 121,
                   "arabic": "إِنَّكُمْ لَفِي خَلْقٍ جَدِيدٍ",
                   "hinglish": "Beshak tum yaqeenan nayi paidaish mein ho",
-                  "is_filled": false,
-                  "sentence_number": 28
+                  "is_filled": false
                 },
                 {
                   "id": 122,
                   "arabic": "إِنَّكُمْ مُجْرِمُونَ",
                   "hinglish": "Beshak tum mujrim ho",
-                  "is_filled": false,
-                  "sentence_number": 29
+                  "is_filled": false
                 },
                 {
                   "id": 123,
                   "arabic": "إِنَّكُمْ/ أَنْتُمُ الظَّالِمُونَ",
                   "hinglish": "Beshak tum / tum hi zalim ho",
-                  "is_filled": false,
-                  "sentence_number": 30
+                  "is_filled": false
                 },
                 {
                   "id": 124,
                   "arabic": "إِنَّكُمْ/ لَفِي قَوْلٍ مُخْتَلِفٍ",
                   "hinglish": "Beshak tum / yaqeenan mukhtalif baat mein ho",
-                  "is_filled": false,
-                  "sentence_number": 31
+                  "is_filled": false
                 },
                 {
                   "id": 125,
                   "arabic": "إِنَّكُمْ مَبْعُوثُونَ مِنْ بَعْدِ الْمَوْتِ",
                   "hinglish": "Beshak tum maut ke baad uthaye jane wale ho",
-                  "is_filled": false,
-                  "sentence_number": 32
+                  "is_filled": false
                 },
                 {
                   "id": 126,
                   "arabic": "إِنَّكُمْ لَذَائِقُو الْعَذَابِ الْأَلِيمِ",
                   "hinglish": "Beshak tum yaqeenan dardnak azab chakhne wale ho",
-                  "is_filled": false,
-                  "sentence_number": 33
+                  "is_filled": false
                 },
                 {
                   "id": 127,
                   "arabic": "وَلَكُمْ عَذَابٌ عَظِيمٌ",
                   "hinglish": "Aur tumhare liye azeem azab hai",
-                  "is_filled": false,
-                  "sentence_number": 34
+                  "is_filled": false
                 },
                 {
                   "id": 128,
                   "arabic": "نَعَمْ وَإِنَّكُمْ لَمِنَ الْمُقَرَّبِينَ",
                   "hinglish": "Haan aur beshak tum yaqeenan muqarrab logon mein se ho",
-                  "is_filled": false,
-                  "sentence_number": 35
+                  "is_filled": false
                 },
                 {
                   "id": 129,
                   "arabic": "لَكُمُ الْمُلْكُ الْيَوْمَ",
                   "hinglish": "Tumhare liye aaj badshahat hai",
-                  "is_filled": false,
-                  "sentence_number": 36
+                  "is_filled": false
                 },
                 {
                   "id": 130,
                   "arabic": "فَلَكُمْ أَجْرٌ عَظِيمٌ",
                   "hinglish": "toh tumhare liye azeem ajar hai",
-                  "is_filled": false,
-                  "sentence_number": 37
+                  "is_filled": false
                 },
                 {
                   "id": 131,
                   "arabic": "لَكُمْ فِيهَا دِفْءٌ وَمَنَافِعُ",
                   "hinglish": "Tumhare liye us mein hararat aur faidey hain",
-                  "is_filled": false,
-                  "sentence_number": 38
+                  "is_filled": false
                 },
                 {
                   "id": 132,
                   "arabic": "لَكُمْ فِيهَا فَاكِهَةٌ كَثِيرَةٌ",
                   "hinglish": "Tumhare liye us mein bohot se phal hain",
-                  "is_filled": false,
-                  "sentence_number": 39
+                  "is_filled": false
                 },
                 {
                   "id": 133,
                   "arabic": "وَلَكُمْ أَعْمَالُكُمْ",
                   "hinglish": "Aur tumhare liye tumhare a'maal hain",
-                  "is_filled": false,
-                  "sentence_number": 40
+                  "is_filled": false
                 },
                 {
                   "id": 134,
                   "arabic": "وَلَكُمْ فِي الْقِصَاصِ حَيَاةٌ",
                   "hinglish": "Aur tumhare liye qisas mein zindagi hai",
-                  "is_filled": false,
-                  "sentence_number": 41
+                  "is_filled": false
                 },
                 {
                   "id": 135,
                   "arabic": "وَلَكُمْ فِيهَا مَنَافِعُ كَثِيرَةٌ",
                   "hinglish": "Aur tumhare liye us mein bohot se faidey hain",
-                  "is_filled": false,
-                  "sentence_number": 42
+                  "is_filled": false
                 },
                 {
                   "id": 136,
                   "arabic": "كَانَ لَكُمْ فَتْحٌ مِنَ اللَّهِ",
                   "hinglish": "Tumhare liye Allah ki taraf se fatah thi",
-                  "is_filled": false,
-                  "sentence_number": 43
+                  "is_filled": false
                 },
                 {
                   "id": 137,
                   "arabic": "أَمْ لَهُ الْبَنَاتُ/ وَلَكُمُ الْبَنُونَ",
                   "hinglish": "Kya uske liye betiyan hain / aur tumhare liye bete hain",
-                  "is_filled": false,
-                  "sentence_number": 44
+                  "is_filled": false
                 },
                 {
                   "id": 138,
                   "arabic": "أَلَكُمُ الذَّكَرُ/ وَلَهُ الْأُنْثَى",
                   "hinglish": "Kya tumhare liye mard hain / aur uske liye aurat hai",
-                  "is_filled": false,
-                  "sentence_number": 45
+                  "is_filled": false
                 },
                 {
                   "id": 139,
                   "arabic": "إِنَّ هَذَا كَانَ لَكُمْ جَزَاءً",
                   "hinglish": "Beshak yeh tumhare liye jaza tha",
-                  "is_filled": false,
-                  "sentence_number": 46
+                  "is_filled": false
                 },
                 {
                   "id": 140,
                   "arabic": "أَمْ لَكُمْ سُلْطَانٌ مُبِينٌ",
                   "hinglish": "Kya tumhare liye khuli daleel hai",
-                  "is_filled": false,
-                  "sentence_number": 47
+                  "is_filled": false
                 },
                 {
                   "id": 141,
                   "arabic": "فَمِنْكُمْ كَافِرٌ وَمِنْكُمْ مُؤْمِنٌ",
                   "hinglish": "toh tum mein se koi kafir hai aur tum mein se koi momin hai",
-                  "is_filled": false,
-                  "sentence_number": 48
+                  "is_filled": false
                 },
                 {
                   "id": 142,
                   "arabic": "وَلَكُمْ فِيهَا جَمَالٌ",
                   "hinglish": "Aur tumhare liye us mein khoobsurti hai",
-                  "is_filled": false,
-                  "sentence_number": 49
+                  "is_filled": false
                 },
                 {
                   "id": 143,
                   "arabic": "لَكُمْ فِيهِمْ أُسْوَةٌ حَسَنَةٌ",
                   "hinglish": "Tumhare liye un mein achha namoona hai",
-                  "is_filled": false,
-                  "sentence_number": 50
+                  "is_filled": false
                 },
                 {
                   "id": 144,
                   "arabic": "أَنَّ فِيكُمْ رَسُولَ اللَّهِ",
                   "hinglish": "Ke tum mein Allah ke Rasool hain",
-                  "is_filled": false,
-                  "sentence_number": 51
+                  "is_filled": false
                 },
                 {
                   "id": 145,
                   "arabic": "إِنَّ مَا عِنْدَ اللَّهِ/ هُوَ خَيْرٌ لَكُمْ",
                   "hinglish": "Beshak jo Allah ke paas hai / woh tumhare liye behtar hai",
-                  "is_filled": false,
-                  "sentence_number": 52
+                  "is_filled": false
                 },
                 {
                   "id": 146,
                   "arabic": "كَانَ لَكُمْ فِيهِمْ أُسْوَةٌ حَسَنَةٌ",
                   "hinglish": "Tumhare liye un mein achha namoona tha",
-                  "is_filled": false,
-                  "sentence_number": 53
+                  "is_filled": false
                 },
                 {
                   "id": 147,
                   "arabic": "لِي عَمَلِي وَلَكُمْ عَمَلُكُمْ",
                   "hinglish": "Mere liye mera amal aur tumhare liye tumhara amal hai",
-                  "is_filled": false,
-                  "sentence_number": 54
+                  "is_filled": false
                 },
                 {
                   "id": 148,
                   "arabic": "لَكُمْ دِينُكُمْ وَلِيَ دِينِ",
                   "hinglish": "Tumhare liye tumhara deen aur mere liye mera deen hai",
-                  "is_filled": false,
-                  "sentence_number": 55
+                  "is_filled": false
                 },
                 {
                   "id": 149,
                   "arabic": "فَلَا غَالِبَ لَكُمْ",
                   "hinglish": "toh koi ghalib nahin tumhare liye",
-                  "is_filled": false,
-                  "sentence_number": 56
+                  "is_filled": false
                 },
                 {
                   "id": 150,
                   "arabic": "فَعَلَيْكُمُ النَّصْرُ",
                   "hinglish": "toh tum par madad hai",
-                  "is_filled": false,
-                  "sentence_number": 57
+                  "is_filled": false
                 },
                 {
                   "id": 151,
                   "arabic": "وَإِنِّي جَارٌ لَكُمْ",
                   "hinglish": "Aur beshak main tumhara padosi hoon",
-                  "is_filled": false,
-                  "sentence_number": 58
+                  "is_filled": false
                 },
                 {
                   "id": 152,
                   "arabic": "فَلَكُمُ الرُّبُعُ",
                   "hinglish": "toh tumhare liye chauthai hai",
-                  "is_filled": false,
-                  "sentence_number": 59
+                  "is_filled": false
                 },
                 {
                   "id": 153,
                   "arabic": "لَا تَثْرِيبَ/ عَلَيْكُمُ الْيَوْمَ",
                   "hinglish": "Koi pakar nahin / tum par aaj",
-                  "is_filled": false,
-                  "sentence_number": 60
+                  "is_filled": false
                 },
                 {
                   "id": 154,
                   "arabic": "لَيْسَ لَكُمْ بِهِ عِلْمٌ",
                   "hinglish": "Nahin hai tumhare liye iska ilm",
-                  "is_filled": false,
-                  "sentence_number": 61
+                  "is_filled": false
                 },
                 {
                   "id": 155,
                   "arabic": "وَإِنَّ لَكُمْ/ فِي الْأَنْعَامِ/ لَعِبْرَةً",
                   "hinglish": "Aur beshak tumhare liye / choupayon mein / yaqeenan ibrat hai",
-                  "is_filled": false,
-                  "sentence_number": 62
+                  "is_filled": false
                 },
                 {
                   "id": 156,
                   "arabic": "مِنْكُمْ أُمَّةٌ",
                   "hinglish": "Tum mein se ek ummat",
-                  "is_filled": false,
-                  "sentence_number": 63
+                  "is_filled": false
                 },
                 {
                   "id": 157,
                   "arabic": "وَفِيكُمْ رَسُولُهُ",
                   "hinglish": "Aur tum mein uske Rasool hain",
-                  "is_filled": false,
-                  "sentence_number": 64
+                  "is_filled": false
                 },
                 {
                   "id": 158,
                   "arabic": "رَبُّكُمْ أَعْلَمُ بِكُمْ",
                   "hinglish": "Tumhara Rabb tumhein zyada jaanne wala Hai",
-                  "is_filled": false,
-                  "sentence_number": 65
+                  "is_filled": false
                 },
                 {
                   "id": 159,
                   "arabic": "وَيَا قَوْمِ/ هَذِهِ نَاقَةُ اللَّهِ لَكُمْ",
                   "hinglish": "Aur aye meri qawm / yeh Allah ki oontni hai tumhare liye",
-                  "is_filled": false,
-                  "sentence_number": 66
+                  "is_filled": false
                 },
                 {
                   "id": 160,
                   "arabic": "يَابَنِي إِسْرَائِيلَ إِنِّي رَسُولُ اللَّهِ إِلَيْكُمْ",
                   "hinglish": "Aye Bani Isra'eel! Beshak main tumhari taraf Allah ka Rasool hoon",
-                  "is_filled": false,
-                  "sentence_number": 67
+                  "is_filled": false
                 },
                 {
                   "id": 161,
                   "arabic": "يَا أَيُّهَا النَّاسُ إِنِّي رَسُولُ اللَّهِ إِلَيْكُمْ",
                   "hinglish": "Aye logo! Beshak main tumhari taraf Allah ka Rasool hoon",
-                  "is_filled": false,
-                  "sentence_number": 68
+                  "is_filled": false
                 },
                 {
                   "id": 162,
                   "arabic": "لَقَدْ كَانَ لَكُمْ فِي رَسُولِ اللَّهِ أُسْوَةٌ حَسَنَةٌ",
                   "hinglish": "Yaqeenan tumhare liye Allah ke Rasool mein achha namoona tha",
-                  "is_filled": false,
-                  "sentence_number": 69
+                  "is_filled": false
                 },
                 {
                   "id": 163,
                   "arabic": "كَانَتْ لَكُمْ أُسْوَةٌ حَسَنَةٌ فِي إِبْرَاهِيمَ",
                   "hinglish": "Tumhare liye Ibrahim (A.S.) mein achha namoona tha",
-                  "is_filled": false,
-                  "sentence_number": 70
+                  "is_filled": false
                 },
                 {
                   "id": 164,
                   "arabic": "إِنَّ/ مِنْ أَزْوَاجِكُمْ وَأَوْلَادِكُمْ/ عَدُوًّا لَكُمْ",
                   "hinglish": "Beshak / tumhari biwiyon aur tumhari aulad mein se / tumhara dushman hai",
-                  "is_filled": false,
-                  "sentence_number": 71
+                  "is_filled": false
                 },
                 {
                   "id": 165,
                   "arabic": "إِنَّ هَذَا كَانَ لَكُمْ جَزَاءً/ وَكَانَ سَعْيُكُمْ مَشْكُورًا",
                   "hinglish": "Beshak yeh tumhare liye jaza tha / aur tumhari koshish qabool ki gayi",
-                  "is_filled": false,
-                  "sentence_number": 72
+                  "is_filled": false
                 },
                 {
                   "id": 166,
                   "arabic": "وَلَكُمْ أَعْمَالُكُمْ/ سَلَامٌ عَلَيْكُمْ",
                   "hinglish": "Aur tumhare liye tumhare a'maal hain / tum par salam",
-                  "is_filled": false,
-                  "sentence_number": 73
+                  "is_filled": false
                 },
                 {
                   "id": 167,
                   "arabic": "وَلَكُمْ فِي الْأَرْضِ مُسْتَقَرٌّ/ وَمَتَاعٌ إِلَى حِينٍ",
                   "hinglish": "Aur tumhare liye zameen mein thikana hai / aur ek tay shuda waqt tak saman hai",
-                  "is_filled": false,
-                  "sentence_number": 74
+                  "is_filled": false
                 },
                 {
                   "id": 168,
                   "arabic": "وَلَكُمْ فِي الْقِصَاصِ حَيَاةٌ/ يَا أُولِي الْأَلْبَابِ",
                   "hinglish": "Aur tumhare liye qisas mein zindagi hai / aye aql walo",
-                  "is_filled": false,
-                  "sentence_number": 75
+                  "is_filled": false
                 },
                 {
                   "id": 169,
                   "arabic": "لَيْسَ عَلَيْكُمْ وَلَا عَلَيْهِمْ جُنَاحٌ",
                   "hinglish": "Nahin hai tum par aur na un par koi gunah",
-                  "is_filled": false,
-                  "sentence_number": 76
+                  "is_filled": false
                 },
                 {
                   "id": 170,
                   "arabic": "لَا غَالِبَ لَكُمُ الْيَوْمَ مِنَ النَّاسِ",
                   "hinglish": "Koi ghalib nahin tumhare liye aaj logon mein se",
-                  "is_filled": false,
-                  "sentence_number": 77
+                  "is_filled": false
                 },
                 {
                   "id": 171,
                   "arabic": "لَكُمُ الدَّارُ الْآخِرَةُ عِنْدَ اللَّهِ خَالِصَةً",
                   "hinglish": "Tumhare liye aakhirat ka ghar Allah ke paas khalis hai",
-                  "is_filled": false,
-                  "sentence_number": 78
+                  "is_filled": false
                 },
                 {
                   "id": 172,
                   "arabic": "لَكُمْ فِيهَا مَنَافِعُ/ إِلَى أَجَلٍ مُسَمًّى",
                   "hinglish": "Tumhare liye us mein faidey hain / ek tay shuda muddat tak",
-                  "is_filled": false,
-                  "sentence_number": 79
+                  "is_filled": false
                 },
                 {
                   "id": 173,
                   "arabic": "وَإِنَّ عَلَيْكُمْ لَحَافِظِينَ. كِرَامًا كَاتِبِينَ",
                   "hinglish": "Aur beshak tum par yaqeenan hifazat karne wale hain. mu'azziz likhne wale (farishtay) hain",
-                  "is_filled": false,
-                  "sentence_number": 80
+                  "is_filled": false
                 },
                 {
                   "id": 174,
                   "arabic": "وَفِيكُمْ سَمَّاعُونَ لَهُمْ/ وَاللَّهُ عَلِيمٌ بِالظَّالِمِينَ",
                   "hinglish": "Aur tum mein un ki baatein kaan laga kar sunne wale hain / aur Allah zalimon ko jaanne wala Hai",
-                  "is_filled": false,
-                  "sentence_number": 81
+                  "is_filled": false
                 },
                 {
                   "id": 175,
                   "arabic": "لَا غَالِبَ لَكُمُ الْيَوْمَ مِنَ النَّاسِ/ وَإِنِّي جَارٌ لَكُمْ",
                   "hinglish": "Koi ghalib nahin tumhare liye aaj logon mein se / aur beshak main tumhara padosi hoon",
-                  "is_filled": false,
-                  "sentence_number": 82
+                  "is_filled": false
                 },
                 {
                   "id": 176,
                   "arabic": "بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ/ وَلَكُمْ فِي الْأَرْضِ مُسْتَقَرٌّ/ وَمَتَاعٌ إِلَى حِينٍ",
                   "hinglish": "Tum mein se ba'z ba'z ke dushman hain / aur tumhare liye zameen mein thikana hai / aur ek tay shuda waqt tak saman hai",
-                  "is_filled": false,
-                  "sentence_number": 83
+                  "is_filled": false
                 },
                 {
                   "id": 177,
                   "arabic": "فَعَلَيْكُمُ النَّصْرُ/ إِلَّا عَلَى قَوْمٍ/ بَيْنَكُمْ وَبَيْنَهُمْ مِيثَاقٌ",
                   "hinglish": "toh tum par madad hai / magar us qawm par / tumhare aur unke darmiyan muahida hai",
-                  "is_filled": false,
-                  "sentence_number": 84
+                  "is_filled": false
                 },
                 {
                   "id": 178,
                   "arabic": "وَلَوْلَا فَضْلُ اللَّهِ عَلَيْكُمْ وَرَحْمَتُهُ/ وَأَنَّ اللَّهَ رَءُوفٌ رَحِيمٌ",
                   "hinglish": "Aur agar na hota Allah ka karam tum par aur uski rahmat / aur beshak Allah shafiq meharban Hai",
-                  "is_filled": false,
-                  "sentence_number": 85
+                  "is_filled": false
                 },
                 {
                   "id": 179,
                   "arabic": "ذَلِكُمُ اللَّهُ",
                   "hinglish": "Yehi Allah hai",
-                  "is_filled": false,
-                  "sentence_number": 1
+                  "is_filled": false
                 },
                 {
                   "id": 180,
                   "arabic": "ذَلِكُمُ الشَّيْطَانُ",
                   "hinglish": "Yehi Shaytan hai",
-                  "is_filled": false,
-                  "sentence_number": 2
+                  "is_filled": false
                 },
                 {
                   "id": 181,
                   "arabic": "ذَلِكُمْ خَيْرٌ",
                   "hinglish": "Yehi behtar hai",
-                  "is_filled": false,
-                  "sentence_number": 3
+                  "is_filled": false
                 },
                 {
                   "id": 182,
                   "arabic": "ذَلِكُمْ أَطْهَرُ",
                   "hinglish": "Yehi zyada paak hai",
-                  "is_filled": false,
-                  "sentence_number": 4
+                  "is_filled": false
                 },
                 {
                   "id": 183,
                   "arabic": "ذَلِكُمْ أَزْكَى",
                   "hinglish": "Yehi sab se umda hai",
-                  "is_filled": false,
-                  "sentence_number": 5
+                  "is_filled": false
                 },
                 {
                   "id": 184,
                   "arabic": "ذَلِكُمْ أَقْسَطُ",
                   "hinglish": "Yehi zyada insaaf wali hai",
-                  "is_filled": false,
-                  "sentence_number": 6
+                  "is_filled": false
                 },
                 {
                   "id": 185,
                   "arabic": "ذَلِكُمْ حُكْمُ اللَّهِ",
                   "hinglish": "Yehi Allah ka hukm hai",
-                  "is_filled": false,
-                  "sentence_number": 7
+                  "is_filled": false
                 },
                 {
                   "id": 186,
                   "arabic": "ذَلِكُمْ قَوْلُكُمْ",
                   "hinglish": "Yehi tumhari baat hai",
-                  "is_filled": false,
-                  "sentence_number": 8
+                  "is_filled": false
                 },
                 {
                   "id": 187,
                   "arabic": "ذَلِكُمْ ظَنُّكُمْ",
                   "hinglish": "Yehi tumhara gumaan hai",
-                  "is_filled": false,
-                  "sentence_number": 9
+                  "is_filled": false
                 },
                 {
                   "id": 188,
                   "arabic": "ذَلِكُمْ فِسْقٌ",
                   "hinglish": "Yehi gunah hai",
-                  "is_filled": false,
-                  "sentence_number": 10
+                  "is_filled": false
                 },
                 {
                   "id": 189,
                   "arabic": "فِي ذَلِكُمْ",
                   "hinglish": "iss mein",
-                  "is_filled": false,
-                  "sentence_number": 11
+                  "is_filled": false
                 },
                 {
                   "id": 190,
                   "arabic": "إِنَّ ذَلِكُمْ",
                   "hinglish": "Beshak yehi",
-                  "is_filled": false,
-                  "sentence_number": 12
+                  "is_filled": false
                 },
                 {
                   "id": 191,
                   "arabic": "عَلَى ذَلِكُمْ",
                   "hinglish": "iss par",
-                  "is_filled": false,
-                  "sentence_number": 13
+                  "is_filled": false
                 },
                 {
                   "id": 192,
                   "arabic": "ذَلِكُمُ اللَّهُ/ رَبُّكُمْ",
                   "hinglish": "Yehi Allah hai / tumhara Rabb",
-                  "is_filled": false,
-                  "sentence_number": 14
+                  "is_filled": false
                 },
                 {
                   "id": 193,
                   "arabic": "ذَلِكُمُ اللَّهُ رَبُّكُمْ/ لَهُ الْمُلْكُ",
                   "hinglish": "Yehi Allah tumhara Rabb hai / uske liye badshahat hai",
-                  "is_filled": false,
-                  "sentence_number": 15
+                  "is_filled": false
                 },
                 {
                   "id": 194,
                   "arabic": "ذَلِكُمُ اللَّهُ/ رَبِّي",
                   "hinglish": "Yehi Allah hai / mera Rabb",
-                  "is_filled": false,
-                  "sentence_number": 16
+                  "is_filled": false
                 },
                 {
                   "id": 195,
                   "arabic": "إِنَّ فِي ذَلِكُمْ لَآيَاتٍ",
                   "hinglish": "Beshak iss mein yaqeenan nishaniyan hain",
-                  "is_filled": false,
-                  "sentence_number": 17
+                  "is_filled": false
                 },
                 {
                   "id": 196,
                   "arabic": "ذَلِكُمْ/ خَيْرٌ لَكُمْ",
                   "hinglish": "Yehi / behtar hai tumhare liye",
-                  "is_filled": false,
-                  "sentence_number": 18
+                  "is_filled": false
                 },
                 {
                   "id": 197,
                   "arabic": "ذَلِكُمْ أَزْكَى لَكُمْ وَأَطْهَرُ",
                   "hinglish": "Yehi sab se umda hai tumhare liye aur zyada paak hai",
-                  "is_filled": false,
-                  "sentence_number": 19
+                  "is_filled": false
                 },
                 {
                   "id": 198,
                   "arabic": "ذَلِكُمْ أَطْهَرُ لِقُلُوبِكُمْ",
                   "hinglish": "Yehi zyada paak hai tumhare dilon ke liye",
-                  "is_filled": false,
-                  "sentence_number": 20
+                  "is_filled": false
                 },
                 {
                   "id": 199,
                   "arabic": "ذَلِكُمْ خَيْرٌ لَكُمْ عِنْدَ بَارِئِكُمْ",
                   "hinglish": "Yehi behtar hai tumhare liye tumhare khaliq ke paas",
-                  "is_filled": false,
-                  "sentence_number": 21
+                  "is_filled": false
                 },
                 {
                   "id": 200,
                   "arabic": "ذَلِكُمْ قَوْلُكُمْ بِأَفْوَاهِكُمْ",
                   "hinglish": "Yehi tumhari baat hai tumhare munh se",
-                  "is_filled": false,
-                  "sentence_number": 22
+                  "is_filled": false
                 },
                 {
                   "id": 201,
                   "arabic": "إِنَّمَا ذَلِكُمُ الشَّيْطَانُ",
                   "hinglish": "Sirf yehi Shaytan hai",
-                  "is_filled": false,
-                  "sentence_number": 23
+                  "is_filled": false
                 },
                 {
                   "id": 202,
                   "arabic": "وَأَنَا عَلَى ذَلِكُمْ مِنَ الشَّاهِدِينَ",
                   "hinglish": "Aur main iss par gawahon mein se hoon",
-                  "is_filled": false,
-                  "sentence_number": 24
+                  "is_filled": false
                 },
                 {
                   "id": 203,
                   "arabic": "إِنَّ ذَلِكُمْ/ كَانَ عِنْدَ اللَّهِ عَظِيمًا",
                   "hinglish": "Beshak yehi / Allah ke paas azeem tha",
-                  "is_filled": false,
-                  "sentence_number": 25
+                  "is_filled": false
                 },
                 {
                   "id": 204,
                   "arabic": "ذَلِكُمُ اللَّهُ رَبُّكُمْ/ لَا إِلَهَ إِلَّا هُوَ/ خَالِقُ كُلِّ شَيْءٍ",
                   "hinglish": "Yehi Allah tumhara Rabb hai / uske siwa koi mabood nahin / har cheez ka khaliq hai",
-                  "is_filled": false,
-                  "sentence_number": 26
+                  "is_filled": false
                 },
                 {
                   "id": 205,
                   "arabic": "ذَلِكُمُ اللَّهُ رَبُّكُمْ/ لَهُ الْمُلْكُ/ لَا إِلَهَ إِلَّا هُوَ",
                   "hinglish": "Yehi Allah tumhara Rabb hai / uske liye badshahat hai / uske siwa koi mabood nahin",
-                  "is_filled": false,
-                  "sentence_number": 27
+                  "is_filled": false
                 },
                 {
                   "id": 206,
                   "arabic": "وَفِي ذَلِكُمْ بَلَاءٌ مِنْ رَبِّكُمْ عَظِيمٌ",
                   "hinglish": "Aur iss mein azeem aazmaish thi tumhare Rabb ki taraf se",
-                  "is_filled": false,
-                  "sentence_number": 28
+                  "is_filled": false
                 },
                 {
                   "id": 207,
                   "arabic": "ذَلِكُمْ أَقْسَطُ عِنْدَ اللَّهِ/ وَأَقْوَمُ لِلشَّهَادَةِ",
                   "hinglish": "Yehi zyada insaaf wali baat hai Allah ke paas / aur zyada mazboot hai gawahi ke liye",
-                  "is_filled": false,
-                  "sentence_number": 29
+                  "is_filled": false
                 },
                 {
                   "id": 208,
                   "arabic": "فَذَلِكُمُ اللَّهُ رَبُّكُمُ الْحَقُّ/ فَمَاذَا بَعْدَ الْحَقِّ إِلَّا الضَّلَالُ",
                   "hinglish": "toh yehi Allah tumhara Rabb sach'cha hai / toh haq ke baad gumrahi ke siwa kya hai",
-                  "is_filled": false,
-                  "sentence_number": 30
+                  "is_filled": false
                 },
                 {
                   "id": 209,
@@ -42007,7 +42295,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S5L13",
@@ -42307,7 +42596,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S5L14",
@@ -42338,255 +42628,255 @@ window.PWA_BOOK_DATA = {
                   "id": 1,
                   "arabic": "شُرَكَاءُ : شُرَكَاؤُنَا",
                   "hinglish": "shareek : hamare shareek",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 1
                 },
                 {
                   "id": 2,
                   "arabic": "آلِهَةٌ : آلِهَتُنَا",
                   "hinglish": "ma'bud : hamare ma'bud",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 2
                 },
                 {
                   "id": 3,
                   "arabic": "شُفَعَاءُ : شُفَعَاؤُنَا",
                   "hinglish": "sifarish karne wale : hamare sifarish karne wale",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 3
                 },
                 {
                   "id": 4,
                   "arabic": "إِخْوَانُ : إِخْوَانُنَا",
                   "hinglish": "bhai : hamare bhai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 4
                 },
                 {
                   "id": 5,
                   "arabic": "أَزْوَاجٌ : أَزْوَاجُنَا",
                   "hinglish": "biwiyan : hamari biwiyan",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 5
                 },
                 {
                   "id": 6,
                   "arabic": "نَحْنُ وَآبَاؤُنَا",
                   "hinglish": "ham aur hamare aaba",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 6
                 },
                 {
                   "id": 7,
                   "arabic": "عَلَيْهِمْ آيَاتُنَا",
                   "hinglish": "un par hamari nishaniyan",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 7
                 },
                 {
                   "id": 8,
                   "arabic": "مَعَنَا بَنِي إِسْرَائِيلَ",
                   "hinglish": "hamare saath Bani Israil",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 8
                 },
                 {
                   "id": 9,
                   "arabic": "رُسُلُنَا بِالْبَيِّنَاتِ",
                   "hinglish": "hamare Rasool khuli nishaniyon ke saath",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 9
                 },
                 {
                   "id": 10,
                   "arabic": "بَيْنَنَا بِالْحَقِّ",
                   "hinglish": "hamare darmiyan haq ke saath",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 10
                 },
                 {
                   "id": 11,
                   "arabic": "بَيْنَنَا وَبَيْنَكَ مَوْعِدًا",
                   "hinglish": "hamare aur tumhare darmiyan ek wada",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 11
                 },
                 {
                   "id": 12,
                   "arabic": "إِلَّا بَشَرٌ مِّثْلُنَا",
                   "hinglish": "magar ek bashar hamari tarah",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 12
                 },
                 {
                   "id": 13,
                   "arabic": "اللَّهُ رَبُّنَا",
                   "hinglish": "Allah hamara Rabb hai",
                   "is_filled": false,
-                  "sentence_number": 1
+                  "sentence_number": 13
                 },
                 {
                   "id": 14,
                   "arabic": "اللَّهُ رَبُّنَا وَرَبُّكُمْ",
                   "hinglish": "Allah hamara Rabb aur tumhara Rabb hai",
                   "is_filled": false,
-                  "sentence_number": 2
+                  "sentence_number": 14
                 },
                 {
                   "id": 15,
                   "arabic": "رَبُّنَا اللَّهُ",
                   "hinglish": "hamara Rabb Allah hai",
                   "is_filled": false,
-                  "sentence_number": 3
+                  "sentence_number": 15
                 },
                 {
                   "id": 16,
                   "arabic": "وَرَبُّنَا الرَّحْمَٰنُ",
                   "hinglish": "aur hamara Rabb Rahman hai",
                   "is_filled": false,
-                  "sentence_number": 4
+                  "sentence_number": 16
                 },
                 {
                   "id": 17,
                   "arabic": "وَهُوَ رَبُّنَا وَرَبُّكُمْ",
                   "hinglish": "aur woh hamara Rabb aur tumhara Rabb hai",
                   "is_filled": false,
-                  "sentence_number": 5
+                  "sentence_number": 17
                 },
                 {
                   "id": 18,
                   "arabic": "وَهُوَ رَبُّنَا",
                   "hinglish": "aur woh hamara Rabb hai",
                   "is_filled": false,
-                  "sentence_number": 6
+                  "sentence_number": 18
                 },
                 {
                   "id": 19,
                   "arabic": "أَنْتَ وَلِيُّنَا",
                   "hinglish": "tu hamara dost hai",
                   "is_filled": false,
-                  "sentence_number": 7
+                  "sentence_number": 19
                 },
                 {
                   "id": 20,
                   "arabic": "هُوَ مَوْلَانَا",
                   "hinglish": "woh hamara maula hai",
                   "is_filled": false,
-                  "sentence_number": 8
+                  "sentence_number": 20
                 },
                 {
                   "id": 21,
                   "arabic": "حَسْبُنَا اللَّهُ",
                   "hinglish": "hamare liye Allah kafi hai",
                   "is_filled": false,
-                  "sentence_number": 9
+                  "sentence_number": 21
                 },
                 {
                   "id": 22,
                   "arabic": "سُبْحَانَكَ / أَنْتَ وَلِيُّنَا",
                   "hinglish": "tu pak hai / tu hamara dost hai",
                   "is_filled": false,
-                  "sentence_number": 10
+                  "sentence_number": 22
                 },
                 {
                   "id": 23,
                   "arabic": "هَٰذَا كِتَابُنَا",
                   "hinglish": "yeh hamari kitab hai",
                   "is_filled": false,
-                  "sentence_number": 11
+                  "sentence_number": 23
                 },
                 {
                   "id": 24,
                   "arabic": "هَٰذَا عَطَاؤُنَا",
                   "hinglish": "yeh hamari ata hai",
                   "is_filled": false,
-                  "sentence_number": 12
+                  "sentence_number": 24
                 },
                 {
                   "id": 25,
                   "arabic": "وَتِلْكَ حُجَّتُنَا",
                   "hinglish": "aur woh hamari daleel hai",
                   "is_filled": false,
-                  "sentence_number": 13
+                  "sentence_number": 25
                 },
                 {
                   "id": 26,
                   "arabic": "إِنَّ هَٰذَا لَرِزْقُنَا",
                   "hinglish": "beshak yeh hamara rizq hai",
                   "is_filled": false,
-                  "sentence_number": 14
+                  "sentence_number": 26
                 },
                 {
                   "id": 27,
                   "arabic": "وَأَبُونَا شَيْخٌ كَبِيرٌ",
                   "hinglish": "aur hamare baap bade buzurg hain",
-                  "is_filled": false,
-                  "sentence_number": 15
+                  "is_filled": false
                 },
                 {
                   "id": 28,
                   "arabic": "قُلُوبُنَا غُلْفٌ",
                   "hinglish": "hamare dil lipe hue hain",
-                  "is_filled": false,
-                  "sentence_number": 16
+                  "is_filled": false
                 },
                 {
                   "id": 29,
                   "arabic": "أَنْتَ وَلِيُّنَا مِنْ دُونِهِمْ",
                   "hinglish": "tu hamara dost hai un ko chhod kar",
-                  "is_filled": false,
-                  "sentence_number": 17
+                  "is_filled": false
                 },
                 {
                   "id": 30,
                   "arabic": "رَبُّنَا رَبُّ السَّمَاوَاتِ وَالْأَرْضِ",
                   "hinglish": "hamara Rabb aasmano aur zameen ka Rabb hai",
-                  "is_filled": false,
-                  "sentence_number": 18
+                  "is_filled": false
                 },
                 {
                   "id": 31,
                   "arabic": "أَ آلِهَتُنَا خَيْرٌ / أَمْ هُوَ",
                   "hinglish": "kya hamare ma'bud behtar hain / ya woh",
-                  "is_filled": false,
-                  "sentence_number": 19
+                  "is_filled": false
                 },
                 {
                   "id": 32,
                   "arabic": "لَشَهَادَتُنَا أَحَقُّ مِنْ شَهَادَتِهِمَا",
                   "hinglish": "hamari gawahi zyada haqdar hai un dono ki gawahi se",
-                  "is_filled": false,
-                  "sentence_number": 20
+                  "is_filled": false
                 },
                 {
                   "id": 33,
                   "arabic": "إِنَّ اللَّهَ مَعَنَا",
                   "hinglish": "beshak Allah hamare saath hai",
-                  "is_filled": false,
-                  "sentence_number": 21
+                  "is_filled": false
                 },
                 {
                   "id": 34,
                   "arabic": "لَا حُجَّةَ بَيْنَنَا وَبَيْنَكُمُ",
                   "hinglish": "koi daleel nahin hamare darmiyan aur tumhare darmiyan",
-                  "is_filled": false,
-                  "sentence_number": 22
+                  "is_filled": false
                 },
                 {
                   "id": 35,
                   "arabic": "وَلَدَيْنَا كِتَابٌ",
                   "hinglish": "aur hamare paas kitab hai",
-                  "is_filled": false,
-                  "sentence_number": 23
+                  "is_filled": false
                 },
                 {
                   "id": 36,
                   "arabic": "وَعِنْدَنَا كِتَابٌ حَفِيظٌ",
                   "hinglish": "aur hamare paas hifazat karne wali kitab hai",
-                  "is_filled": false,
-                  "sentence_number": 24
+                  "is_filled": false
                 },
                 {
                   "id": 37,
                   "arabic": "فَإِذَا هُمْ جَمِيعٌ لَّدَيْنَا مُحْضَرُونَ",
                   "hinglish": "toh tab woh sab hamare paas hazir kiye gaye",
-                  "is_filled": false,
-                  "sentence_number": 25
+                  "is_filled": false
                 },
                 {
                   "id": 38,
                   "arabic": "وَإِلَهُنَا وَإِلَهُكُمْ وَاحِدٌ / وَنَحْنُ لَهُ مُسْلِمُونَ",
                   "hinglish": "aur hamara ma'bud aur tumhara ma'bud ek hai / aur ham us ke liye farmabardar hain",
-                  "is_filled": false,
-                  "sentence_number": 26
+                  "is_filled": false
                 },
                 {
                   "id": 39,
@@ -42771,7 +43061,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S5L15",
@@ -42801,194 +43092,194 @@ window.PWA_BOOK_DATA = {
                   "id": 1,
                   "arabic": "إِنَّ بُيُوتَنَا",
                   "hinglish": "beshak hamare ghar",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 1
                 },
                 {
                   "id": 2,
                   "arabic": "إِنَّ جُندَنَا",
                   "hinglish": "beshak hamara lashkar",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 2
                 },
                 {
                   "id": 3,
                   "arabic": "فِي قُلُوبِنَا غِلًّا",
                   "hinglish": "hamare dilon mein keena",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 3
                 },
                 {
                   "id": 4,
                   "arabic": "لِأَوَّلِنَا وَآخِرِنَا",
                   "hinglish": "hamare pehlay aur hamare pichlay ke liye",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 4
                 },
                 {
                   "id": 5,
                   "arabic": "كَلِمَتُنَا لِعِبَادِنَا",
                   "hinglish": "hamari baat hamare bandon ke liye",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 5
                 },
                 {
                   "id": 6,
                   "arabic": "بَيْنَنَا وَبَيْنَ قَوْمِنَا",
                   "hinglish": "hamare darmiyan aur hamari qom ke darmiyan",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 6
                 },
                 {
                   "id": 7,
                   "arabic": "بِآيَاتِنَا وَسُلْطَانٍ مُّبِينٍ",
                   "hinglish": "hamari nishaniyon aur khuli daleel ke saath",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 7
                 },
                 {
                   "id": 8,
                   "arabic": "سَبْعِينَ رَجُلًا لِّمِيقَاتِنَا",
                   "hinglish": "sattar aadmi hamare waqt ke liye",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 8
                 },
                 {
                   "id": 9,
                   "arabic": "وَإِسْرَافَنَا فِي أَمْرِنَا",
                   "hinglish": "aur hamari zyadati hamare kaam mein",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 9
                 },
                 {
                   "id": 10,
                   "arabic": "إِلَّا مَوْتَتَنَا الْأُولَى",
                   "hinglish": "magar hamari pehli maut",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 10
                 },
                 {
                   "id": 11,
                   "arabic": "إِنَّ رَبَّنَا لَغَفُورٌ شَكُورٌ",
                   "hinglish": "beshak hamara Rabb bakhshne wala qadardaan hai",
                   "is_filled": false,
-                  "sentence_number": 1
+                  "sentence_number": 11
                 },
                 {
                   "id": 12,
                   "arabic": "إِنَّ أَبَانَا لَفِي ضَلَالٍ مُّبِينٍ",
                   "hinglish": "beshak hamara baap khuli gumrahi mein hai",
                   "is_filled": false,
-                  "sentence_number": 2
+                  "sentence_number": 12
                 },
                 {
                   "id": 13,
                   "arabic": "إِنَّهُ الْحَقُّ مِن رَّبِّنَا",
                   "hinglish": "beshak woh haq hai hamare Rabb se",
                   "is_filled": false,
-                  "sentence_number": 3
+                  "sentence_number": 13
                 },
                 {
                   "id": 14,
                   "arabic": "وَهَذَا لِشُرَكَائِنَا",
                   "hinglish": "aur yeh hamare shareekon ke liye hai",
                   "is_filled": false,
-                  "sentence_number": 4
+                  "sentence_number": 14
                 },
                 {
                   "id": 15,
                   "arabic": "سُبْحَانَ رَبِّنَا",
                   "hinglish": "pak hai hamara Rabb",
                   "is_filled": false,
-                  "sentence_number": 5
+                  "sentence_number": 15
                 },
                 {
                   "id": 16,
                   "arabic": "إِنَّهُ كَانَ لِآيَاتِنَا عَنِيدًا",
                   "hinglish": "beshak woh hamari nishaniyon ke liye ziddi Tha",
                   "is_filled": false,
-                  "sentence_number": 6
+                  "sentence_number": 16
                 },
                 {
                   "id": 17,
                   "arabic": "إِنَّهُ مِنْ عِبَادِنَا الْمُؤْمِنِينَ",
                   "hinglish": "beshak woh hamare momin bandon mein se hai",
                   "is_filled": false,
-                  "sentence_number": 7
+                  "sentence_number": 17
                 },
                 {
                   "id": 18,
                   "arabic": "إِنَّهُ مِنْ عِبَادِنَا الْمُخْلَصِينَ",
                   "hinglish": "beshak woh hamare mukhlis bandon mein se hai",
                   "is_filled": false,
-                  "sentence_number": 8
+                  "sentence_number": 18
                 },
                 {
                   "id": 19,
                   "arabic": "وَإِنَّ جُندَنَا لَهُمُ الْغَالِبُونَ",
                   "hinglish": "aur beshak hamara lashkar hi ghalib aane wala hai",
                   "is_filled": false,
-                  "sentence_number": 9
+                  "sentence_number": 19
                 },
                 {
                   "id": 20,
                   "arabic": "وَأَنَّ مَرَدَّنَا إِلَى اللَّهِ",
                   "hinglish": "aur beshak hamara palatna Allah ki taraf hai",
-                  "is_filled": false,
-                  "sentence_number": 10
+                  "is_filled": false
                 },
                 {
                   "id": 21,
                   "arabic": "فَإِنَّمَا عَلَىٰ رَسُولِنَا الْبَلَاغُ الْمُبِينُ",
                   "hinglish": "toh hamare Rasool par sirf khula paigham pohchana hai",
-                  "is_filled": false,
-                  "sentence_number": 11
+                  "is_filled": false
                 },
                 {
                   "id": 22,
                   "arabic": "كُلٌّ مِّنْ عِندِ رَبِّنَا",
                   "hinglish": "sab hamare Rabb ke paas se hai",
-                  "is_filled": false,
-                  "sentence_number": 12
+                  "is_filled": false
                 },
                 {
                   "id": 23,
                   "arabic": "وَالَّذِينَ هُمْ عَنْ آيَاتِنَا غَافِلُونَ",
                   "hinglish": "aur jo log hamari nishaniyon se ghafil hain",
-                  "is_filled": false,
-                  "sentence_number": 13
+                  "is_filled": false
                 },
                 {
                   "id": 24,
                   "arabic": "إِنَّهُمَا مِنْ عِبَادِنَا الْمُؤْمِنِينَ",
                   "hinglish": "beshak woh dono hamare momin bandon mein se hain",
-                  "is_filled": false,
-                  "sentence_number": 14
+                  "is_filled": false
                 },
                 {
                   "id": 25,
                   "arabic": "وَإِنَّ كَثِيرًا مِّنَ النَّاسِ عَنْ آيَاتِنَا لَغَافِلُونَ",
                   "hinglish": "aur beshak logon mein se aksar hamari nishaniyon se ghafil hain",
-                  "is_filled": false,
-                  "sentence_number": 15
+                  "is_filled": false
                 },
                 {
                   "id": 26,
                   "arabic": "إِنَّهُ مِنْ عِبَادِنَا الْمُؤْمِنِينَ. وَإِنَّ لُوطًا لِّمِنَ الْمُرْسَلِينَ",
                   "hinglish": "beshak woh hamare momin bandon mein se hai. aur beshak Lut rasoolon mein se hai",
-                  "is_filled": false,
-                  "sentence_number": 16
+                  "is_filled": false
                 },
                 {
                   "id": 27,
                   "arabic": "وَأَنَّ مَرَدَّنَا إِلَى اللَّهِ وَأَنَّ الْمُسْرِفِينَ هُمْ أَصْحَابُ النَّارِ",
                   "hinglish": "aur beshak hamara palatna Allah ki taraf hai aur beshak had se guzarne wale hi aag wale hain",
-                  "is_filled": false,
-                  "sentence_number": 17
+                  "is_filled": false
                 },
                 {
                   "id": 28,
                   "arabic": "إِنَّ لَدَيْنَا أَنكَالًا وَجَحِيمًا. وَطَعَامًا ذَا غُصَّةٍ وَعَذَابًا أَلِيمًا",
                   "hinglish": "beshak hamare paas beriyan hain aur bhadakti aag hai. aur atakne wala khana aur dardnak azab hai",
-                  "is_filled": false,
-                  "sentence_number": 18
+                  "is_filled": false
                 },
                 {
                   "id": 29,
                   "arabic": "مَا فِي بُطُونِ هَـٰذِهِ الْأَنْعَامِ خَالِصَةٌ لِّذُكُورِنَا وَمُحَرَّمٌ عَلَىٰ أَزْوَاجِنَا",
                   "hinglish": "jo inn jawan chopayon ke pet mein hai woh hamare mardon ke liye khalis hai aur hamari biwiyon par haram karda hai",
-                  "is_filled": false,
-                  "sentence_number": 19
+                  "is_filled": false
                 },
                 {
                   "id": 30,
@@ -43161,7 +43452,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S5L16",
@@ -43191,422 +43483,434 @@ window.PWA_BOOK_DATA = {
                   "id": 1,
                   "arabic": "لَنَا مِن لَّدُنكَ رَحْمَةً",
                   "hinglish": "hamare liye apne paas se rahmat",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 1
                 },
                 {
                   "id": 2,
                   "arabic": "لَنَا نُورَنَا",
                   "hinglish": "hamare liye hamara noor",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 2
                 },
                 {
                   "id": 3,
                   "arabic": "لَنَا رَبَّكَ",
                   "hinglish": "hamare liye tera Rabb",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 3
                 },
                 {
                   "id": 4,
                   "arabic": "لَنَا رَبَّنَا",
                   "hinglish": "hamare liye hamara Rabb",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 4
                 },
                 {
                   "id": 5,
                   "arabic": "لَنَا مَلِكًا",
                   "hinglish": "hamare liye ek badshah",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 5
                 },
                 {
                   "id": 6,
                   "arabic": "لَنَا ذُنُوبَنَا",
                   "hinglish": "hamare liye hamare gunah",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 6
                 },
                 {
                   "id": 7,
                   "arabic": "لَنَا إِلَـٰهًا",
                   "hinglish": "hamare liye ek mabood",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 7
                 },
                 {
                   "id": 8,
                   "arabic": "لَنَا مِن لَّدُنكَ وَلِيًّا",
                   "hinglish": "hamare liye apne paas se dost",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 8
                 },
                 {
                   "id": 9,
                   "arabic": "لَنَا مِنْ أَزْوَاجِنَا",
                   "hinglish": "hamare liye hamari biwiyon mein se",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 9
                 },
                 {
                   "id": 10,
                   "arabic": "لَنَا مِن لَّدُنكَ نَصِيرًا",
                   "hinglish": "hamare liye apne paas se madadgar",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 10
                 },
                 {
                   "id": 11,
                   "arabic": "لَنَا فِي هَـٰذِهِ الدُّنْيَا حَسَنَةً",
                   "hinglish": "hamare liye iss duniya mein bhalai",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 11
                 },
                 {
                   "id": 12,
                   "arabic": "بِرَحْمَةٍ مِّنَّا",
                   "hinglish": "hamari taraf se rahmat ke saath",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 12
                 },
                 {
                   "id": 13,
                   "arabic": "إِلَّا رَحْمَةً مِّنَّا",
                   "hinglish": "magar hamari taraf se rahmat",
-                  "is_filled": false
+                  "is_filled": false,
+                  "sentence_number": 1
                 },
                 {
                   "id": 14,
                   "arabic": "إِنَّا مُؤْمِنُونَ",
                   "hinglish": "beshak ham momin hain",
                   "is_filled": false,
-                  "sentence_number": 1
+                  "sentence_number": 2
                 },
                 {
                   "id": 15,
                   "arabic": "إِنَّا مُنتَظِرُونَ",
                   "hinglish": "beshak ham intezar karne wale hain",
                   "is_filled": false,
-                  "sentence_number": 2
+                  "sentence_number": 3
                 },
                 {
                   "id": 16,
                   "arabic": "إِنَّا مُنزِلُونَ",
                   "hinglish": "beshak ham nazil karne wale hain",
                   "is_filled": false,
-                  "sentence_number": 3
+                  "sentence_number": 4
                 },
                 {
                   "id": 17,
                   "arabic": "إِنَّا مُنتَقِمُونَ",
                   "hinglish": "beshak ham badla lene wale hain",
                   "is_filled": false,
-                  "sentence_number": 4
+                  "sentence_number": 5
                 },
                 {
                   "id": 18,
                   "arabic": "إِنَّا مُوقِنُونَ",
                   "hinglish": "beshak ham yaqeen rakhne wale hain",
                   "is_filled": false,
-                  "sentence_number": 5
+                  "sentence_number": 6
                 },
                 {
                   "id": 19,
                   "arabic": "إِنَّا إِلَيْكُم مُّرْسَلُونَ",
                   "hinglish": "beshak ham tumhari taraf bheje gaye hain",
                   "is_filled": false,
-                  "sentence_number": 6
+                  "sentence_number": 7
                 },
                 {
                   "id": 20,
                   "arabic": "وَإِنَّا لَهُ كَاتِبُونَ",
                   "hinglish": "aur beshak ham uske liye likhne wale hain",
                   "is_filled": false,
-                  "sentence_number": 7
+                  "sentence_number": 8
                 },
                 {
                   "id": 21,
                   "arabic": "وَإِنَّا بِهِ كَافِرُونَ",
                   "hinglish": "aur beshak ham uske sath inkar karne wale hain",
                   "is_filled": false,
-                  "sentence_number": 8
+                  "sentence_number": 9
                 },
                 {
                   "id": 22,
                   "arabic": "إِنَّا إِلَى اللَّهِ رَاغِبُونَ",
                   "hinglish": "beshak ham Allah ki taraf raghib hain",
                   "is_filled": false,
-                  "sentence_number": 9
+                  "sentence_number": 10
                 },
                 {
                   "id": 23,
                   "arabic": "فَإِنَّا مِنْهُم مُّنتَقِمُونَ",
                   "hinglish": "toh beshak ham un se badla lene wale hain",
                   "is_filled": false,
-                  "sentence_number": 10
+                  "sentence_number": 11
                 },
                 {
                   "id": 24,
                   "arabic": "وَإِنَّا فَوْقَهُمْ قَاهِرُونَ",
                   "hinglish": "aur beshak ham un par ghalib hain",
                   "is_filled": false,
-                  "sentence_number": 11
+                  "sentence_number": 12
                 },
                 {
                   "id": 25,
                   "arabic": "فَإِنَّا عَلَيْهِم مُّقْتَدِرُونَ",
                   "hinglish": "toh beshak ham un par qudrat rakhne wale hain",
                   "is_filled": false,
-                  "sentence_number": 12
+                  "sentence_number": 13
                 },
                 {
                   "id": 26,
                   "arabic": "لَا عِلْمَ لَنَا",
                   "hinglish": "hamare liye koi ilm nahin",
                   "is_filled": false,
-                  "sentence_number": 13
+                  "sentence_number": 14
                 },
                 {
                   "id": 27,
                   "arabic": "لَا طَاقَةَ لَنَا",
                   "hinglish": "hamare liye koi taqat nahin",
                   "is_filled": false,
-                  "sentence_number": 14
+                  "sentence_number": 15
                 },
                 {
                   "id": 28,
                   "arabic": "إِنَّا بِكُلٍّ كَافِرُونَ",
                   "hinglish": "beshak ham har kisi ke sath inkar karne wale hain",
                   "is_filled": false,
-                  "sentence_number": 15
+                  "sentence_number": 16
                 },
                 {
                   "id": 29,
                   "arabic": "إِنَّا رَسُولُ رَبِّ الْعَالَمِينَ",
                   "hinglish": "beshak ham tamamo jahanon ke Rabb ke Rasool hain",
                   "is_filled": false,
-                  "sentence_number": 16
+                  "sentence_number": 17
                 },
                 {
                   "id": 30,
                   "arabic": "إِنَّا رُسُلُ رَبِّكَ",
                   "hinglish": "beshak ham tere Rabb ke rasool hain",
                   "is_filled": false,
-                  "sentence_number": 17
+                  "sentence_number": 18
                 },
                 {
                   "id": 31,
                   "arabic": "إِنَّا مَعَكُم مُّسْتَمِعُونَ",
                   "hinglish": "beshak ham tumhare sath sunne wale hain",
                   "is_filled": false,
-                  "sentence_number": 18
+                  "sentence_number": 19
                 },
                 {
                   "id": 32,
                   "arabic": "إِنَّا لِلَّهِ وَإِنَّا إِلَيْهِ رَاجِعُونَ",
                   "hinglish": "beshak ham Allah ke liye hain aur beshak ham uski taraf lautne wale hain",
                   "is_filled": false,
-                  "sentence_number": 19
+                  "sentence_number": 20
                 },
                 {
                   "id": 33,
                   "arabic": "إِنَّا مِنَ الْمُجْرِمِينَ مُنتَقِمُونَ",
                   "hinglish": "beshak ham mujrimon se badla lene wale hain",
                   "is_filled": false,
-                  "sentence_number": 20
+                  "sentence_number": 21
                 },
                 {
                   "id": 34,
                   "arabic": "إِنَّا إِلَىٰ رَبِّنَا مُنقَلِبُونَ",
                   "hinglish": "beshak ham apne Rabb ki taraf palatne wale hain",
                   "is_filled": false,
-                  "sentence_number": 21
+                  "sentence_number": 22
                 },
                 {
                   "id": 35,
                   "arabic": "هَـٰذَا سِحْرٌ وَإِنَّا بِهِ كَافِرُونَ",
                   "hinglish": "yeh jadu hai aur beshak ham iska inkar karne wale hain",
                   "is_filled": false,
-                  "sentence_number": 22
+                  "sentence_number": 23
                 },
                 {
                   "id": 36,
                   "arabic": "وَإِنَّا عَلَىٰ آثَارِهِم مُّهْتَدُونَ",
                   "hinglish": "aur beshak ham unke nishano par hidayat pane wale hain",
                   "is_filled": false,
-                  "sentence_number": 23
+                  "sentence_number": 24
                 },
                 {
                   "id": 37,
                   "arabic": "وَإِنَّا عَلَىٰ آثَارِهِم مُّقْتَدُونَ",
                   "hinglish": "aur beshak ham unke nishano par pairwi karne wale hain",
                   "is_filled": false,
-                  "sentence_number": 24
+                  "sentence_number": 25
                 },
                 {
                   "id": 38,
                   "arabic": "إِلَيْنَا مَرْجِعُهُمْ",
                   "hinglish": "hamari taraf unka lautna hai",
                   "is_filled": false,
-                  "sentence_number": 25
+                  "sentence_number": 26
                 },
                 {
                   "id": 39,
                   "arabic": "كُلٌّ إِلَيْنَا رَاجِعُونَ",
                   "hinglish": "har koi hamari taraf lautne wale hain",
                   "is_filled": false,
-                  "sentence_number": 26
+                  "sentence_number": 27
                 },
                 {
                   "id": 40,
                   "arabic": "إِنَّ إِلَيْنَا إِيَابَهُمْ",
                   "hinglish": "beshak hamari taraf unka palatna hai",
                   "is_filled": false,
-                  "sentence_number": 27
+                  "sentence_number": 28
                 },
                 {
                   "id": 41,
                   "arabic": "وَمِنَّا الْقَاسِطُونَ",
                   "hinglish": "aur ham mein se zalim hain",
                   "is_filled": false,
-                  "sentence_number": 28
+                  "sentence_number": 29
                 },
                 {
                   "id": 42,
                   "arabic": "وَأَنَّا مِنَّا الْمُسْلِمُونَ",
                   "hinglish": "aur beshak ham mein se musalman hain",
                   "is_filled": false,
-                  "sentence_number": 29
+                  "sentence_number": 30
                 },
                 {
                   "id": 43,
                   "arabic": "وَقَوْمُهُمَا لَنَا عَابِدُونَ",
                   "hinglish": "aur inn dono ki qom hamare ibadat karne wale hain",
                   "is_filled": false,
-                  "sentence_number": 30
+                  "sentence_number": 31
                 },
                 {
                   "id": 44,
                   "arabic": "إِنَّ عَلَيْنَا جَمْعَهُ وَقُرْآنَهُ",
                   "hinglish": "beshak isko jama karna aur isko parhna ham par hai",
                   "is_filled": false,
-                  "sentence_number": 31
+                  "sentence_number": 32
                 },
                 {
                   "id": 45,
                   "arabic": "ذَٰلِكَ مِن فَضْلِ اللَّهِ عَلَيْنَا",
                   "hinglish": "yeh Allah ke fazl mein se ham par hai",
                   "is_filled": false,
-                  "sentence_number": 32
+                  "sentence_number": 33
                 },
                 {
                   "id": 46,
                   "arabic": "ثُمَّ إِنَّ عَلَيْنَا بَيَانَهُ",
                   "hinglish": "phir beshak iska bayan karna ham par hai",
                   "is_filled": false,
-                  "sentence_number": 33
+                  "sentence_number": 34
                 },
                 {
                   "id": 47,
                   "arabic": "ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُمْ",
                   "hinglish": "phir beshak unka hisab ham par hai",
                   "is_filled": false,
-                  "sentence_number": 34
+                  "sentence_number": 35
                 },
                 {
                   "id": 48,
                   "arabic": "ذَٰلِكَ حَشْرٌ عَلَيْنَا يَسِيرٌ",
                   "hinglish": "yeh uthana ham par aasan hai",
                   "is_filled": false,
-                  "sentence_number": 35
+                  "sentence_number": 36
                 },
                 {
                   "id": 49,
                   "arabic": "لَا عِلْمَ لَنَا إِنَّكَ أَنتَ عَلَّامُ الْغُيُوبِ",
                   "hinglish": "hamare liye koi ilm nahin beshak tu hi ghaibon ka jaanne wala hai",
                   "is_filled": false,
-                  "sentence_number": 36
+                  "sentence_number": 37
                 },
                 {
                   "id": 50,
                   "arabic": "لَيْسَ عَلَيْنَا فِي الْأُمِّيِّينَ سَبِيلٌ",
                   "hinglish": "inn anpadh logon ke mamle mein ham par koi pakad nahin hai",
                   "is_filled": false,
-                  "sentence_number": 37
+                  "sentence_number": 38
                 },
                 {
                   "id": 51,
                   "arabic": "مَتَاعٌ فِي الدُّنْيَا ثُمَّ إِلَيْنَا مَرْجِعُهُمْ",
                   "hinglish": "duniya mein (thoda) faida hai phir hamari taraf unka lautna hai",
                   "is_filled": false,
-                  "sentence_number": 38
+                  "sentence_number": 39
                 },
                 {
                   "id": 52,
                   "arabic": "إِنَّا مَعَكُمْ إِنَّمَا نَحْنُ مُسْتَهْزِئُونَ",
                   "hinglish": "beshak ham tumhare sath hain bas ham hi mazaq udane wale hain",
                   "is_filled": false,
-                  "sentence_number": 39
+                  "sentence_number": 40
                 },
                 {
                   "id": 53,
                   "arabic": "لَا طَاقَةَ لَنَا الْيَوْمَ بِجَالُوتَ وَجُنُودِهِ",
                   "hinglish": "aaj hamare liye jaloot aur uske lashkaron ke muqable mein koi taqat nahin",
                   "is_filled": false,
-                  "sentence_number": 40
+                  "sentence_number": 41
                 },
                 {
                   "id": 54,
                   "arabic": "ذَٰلِكَ مِن فَضْلِ اللَّهِ عَلَيْنَا وَعَلَى النَّاسِ",
                   "hinglish": "yeh Allah ke fazl mein se ham par aur logon par hai",
                   "is_filled": false,
-                  "sentence_number": 41
+                  "sentence_number": 42
                 },
                 {
                   "id": 55,
                   "arabic": "فَإِنَّمَا عَلَيْكَ الْبَلَاغُ وَعَلَيْنَا الْحِسَابُ",
                   "hinglish": "toh bas tum par paigham pohchana hai aur ham par hisab hai",
                   "is_filled": false,
-                  "sentence_number": 42
+                  "sentence_number": 43
                 },
                 {
                   "id": 56,
                   "arabic": "لَنَا أَعْمَالُنَا وَلَكُمْ أَعْمَالُكُمْ سَلَامٌ عَلَيْكُمْ",
                   "hinglish": "hamare liye hamare aamal hain aur tumhare liye tumhare aamal hain salamti ho tum par",
                   "is_filled": false,
-                  "sentence_number": 43
+                  "sentence_number": 44
                 },
                 {
                   "id": 57,
                   "arabic": "إِنَّ إِلَيْنَا إِيَابَهُمْ ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُمْ",
                   "hinglish": "beshak hamari taraf unka palatna hai phir beshak unka hisab ham par hai",
                   "is_filled": false,
-                  "sentence_number": 44
+                  "sentence_number": 45
                 },
                 {
                   "id": 58,
                   "arabic": "وَأَنَّا مِنَّا الْمُسْلِمُونَ وَمِنَّا الْقَاسِطُونَ",
                   "hinglish": "aur beshak ham mein se musalman hain aur ham mein se zulm karne wale hain",
                   "is_filled": false,
-                  "sentence_number": 45
+                  "sentence_number": 46
                 },
                 {
                   "id": 59,
                   "arabic": "إِنَّا مُنزِلُونَ عَلَىٰ أَهْلِ هَـٰذِهِ الْقَرْيَةِ رِجْزًا مِّنَ السَّمَاءِ",
                   "hinglish": "beshak ham iss basti ke ghar walon par aasman se azab nazil karne wale hain",
                   "is_filled": false,
-                  "sentence_number": 46
+                  "sentence_number": 47
                 },
                 {
                   "id": 60,
                   "arabic": "وَهُوَ رَبُّنَا وَرَبُّكُمْ وَلَنَا أَعْمَالُنَا وَلَكُمْ أَعْمَالُكُمْ وَنَحْنُ لَهُ مُخْلِصُونَ",
                   "hinglish": "aur woh hamara Rabb aur tumhara Rabb hai aur hamare liye hamare aamal hain aur tumhare liye tumhare aamal hain aur ham uske liye mukhlis hain",
                   "is_filled": false,
-                  "sentence_number": 47
+                  "sentence_number": 48
                 },
                 {
                   "id": 61,
                   "arabic": "اللَّهُ رَبُّنَا وَرَبُّكُمْ لَنَا أَعْمَالُنَا وَلَكُمْ أَعْمَالُكُمْ لَا حُجَّةَ بَيْنَنَا وَبَيْنَكُمُ",
                   "hinglish": "Allah hamara Rabb aur tumhara Rabb hai hamare aamal hamare liye aur tumhare aamal tumhare liye hain hamare aur tumhare darmiyan koi daleel nahin",
                   "is_filled": false,
-                  "sentence_number": 48
+                  "sentence_number": 49
                 },
                 {
                   "id": 62,
                   "arabic": "لَيُوسُفُ وَأَخُوهُ أَحَبُّ إِلَىٰ أَبِينَا مِنَّا وَنَحْنُ عُصْبَةٌ إِنَّ أَبَانَا لَفِي ضَلَالٍ مُّبِينٍ",
                   "hinglish": "albatta Yusuf aur uska bhai hamare baap ki taraf ham se zyada pyara hai aur ham ek toli hain beshak hamara baap khuli gumrahi mein hai",
-                  "is_filled": false,
-                  "sentence_number": 49
+                  "is_filled": false
                 },
                 {
                   "id": 63,
@@ -43877,7 +44181,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S5L17",
@@ -43906,7 +44211,7 @@ window.PWA_BOOK_DATA = {
             }
           }
         ],
-        "status": "template"
+        "status": "stub"
       },
       {
         "lesson_key": "S5L18",
@@ -43935,7 +44240,7 @@ window.PWA_BOOK_DATA = {
             }
           }
         ],
-        "status": "template"
+        "status": "stub"
       },
       {
         "lesson_key": "S5L19",
@@ -43964,7 +44269,7 @@ window.PWA_BOOK_DATA = {
             }
           }
         ],
-        "status": "template"
+        "status": "stub"
       },
       {
         "lesson_key": "S5L20",
@@ -44469,49 +44774,49 @@ window.PWA_BOOK_DATA = {
                   "arabic": "أَ أَنْتُمْ أَعْلَمُ / أَمِ اللَّهُ",
                   "hinglish": "",
                   "is_filled": false,
-                  "sentence_number": 25
+                  "sentence_number": 1
                 },
                 {
                   "id": 2,
                   "arabic": "أَ آلِهَتُنَا خَيْرٌ / أَمْ هُوَ",
                   "hinglish": "",
                   "is_filled": false,
-                  "sentence_number": 26
+                  "sentence_number": 2
                 },
                 {
                   "id": 3,
                   "arabic": "أَ هُمْ خَيْرٌ / أَمْ قَوْمُ تُبَّعٍ",
                   "hinglish": "",
                   "is_filled": false,
-                  "sentence_number": 27
+                  "sentence_number": 3
                 },
                 {
                   "id": 4,
                   "arabic": "أَ ذَلِكَ خَيْرٌ نُزُلًا / أَمْ شَجَرَةُ الزَّقُّومِ",
                   "hinglish": "zaqqum ka darakht",
                   "is_filled": true,
-                  "sentence_number": 28
+                  "sentence_number": 4
                 },
                 {
                   "id": 5,
                   "arabic": "أَ قَرِيبٌ / أَمْ بَعِيدٌ",
                   "hinglish": "",
                   "is_filled": false,
-                  "sentence_number": 29
+                  "sentence_number": 5
                 },
                 {
                   "id": 6,
                   "arabic": "أَ ذَلِكَ خَيْرٌ / أَمْ جَنَّةُ الْخُلْدِ",
                   "hinglish": "",
                   "is_filled": false,
-                  "sentence_number": 30
+                  "sentence_number": 6
                 },
                 {
                   "id": 7,
                   "arabic": "أَ أَرْبَابٌ مُتَفَرِّقُونَ خَيْرٌ / أَمِ اللَّهُ الْوَاحِدُ الْقَهَّارُ",
                   "hinglish": "",
                   "is_filled": false,
-                  "sentence_number": 31
+                  "sentence_number": 7
                 }
               ]
             }
@@ -45046,7 +45351,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S5L21",
@@ -46801,7 +47107,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S5L22",
@@ -46819,332 +47126,351 @@ window.PWA_BOOK_DATA = {
                   "id": 1,
                   "arabic": "أَشَدُّ قُوَّةً",
                   "hinglish": "zyada sakht quwwat",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 1
                 },
                 {
                   "id": 2,
                   "arabic": "أَشَدُّ عَذَابًا",
                   "hinglish": "zyada sakht azab",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 2
                 },
                 {
                   "id": 3,
                   "arabic": "أَشَدُّ بَطْشًا",
                   "hinglish": "zyada sakht pakad",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 3
                 },
                 {
                   "id": 4,
                   "arabic": "أَشَدُّ حَرًّا",
                   "hinglish": "zyada sakht garmi",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 4
                 },
                 {
                   "id": 5,
                   "arabic": "أَشَدُّ خَلْقًا",
                   "hinglish": "zyada sakht paidaish",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 5
                 },
                 {
                   "id": 6,
                   "arabic": "أَشَدُّ قَسْوَةً",
                   "hinglish": "zyada sakht sakhti",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 6
                 },
                 {
                   "id": 7,
                   "arabic": "أَشَدُّ بَأْسًا",
                   "hinglish": "zyada sakht azab",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 7
                 },
                 {
                   "id": 8,
                   "arabic": "أَشَدُّ رَهْبَةً",
                   "hinglish": "zyada sakht dar",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 8
                 },
                 {
                   "id": 9,
                   "arabic": "خَيْرٌ ثَوَابًا",
                   "hinglish": "behtar sawab",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 9
                 },
                 {
                   "id": 10,
                   "arabic": "خَيْرٌ نُزُلًا",
                   "hinglish": "behtar istaqbal",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 10
                 },
                 {
                   "id": 11,
                   "arabic": "خَيْرٌ أَمَلًا",
                   "hinglish": "behtar umeed",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 11
                 },
                 {
                   "id": 12,
                   "arabic": "خَيْرٌ مَرَدًّا",
                   "hinglish": "behtar palatne",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 12
                 },
                 {
                   "id": 13,
                   "arabic": "أَقْوَمُ قِيلًا",
                   "hinglish": "zyada seedhi baat karne",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 13
                 },
                 {
                   "id": 14,
                   "arabic": "أَسْرَعُ مَكْرًا",
                   "hinglish": "zyada tez tadbeer",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 14
                 },
                 {
                   "id": 15,
                   "arabic": "أَصْدَقُ حَدِيثًا",
                   "hinglish": "zyada sach'chi baat",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 15
                 },
                 {
                   "id": 16,
                   "arabic": "وَمَنْ / أَحْسَنُ دِينًا",
                   "hinglish": "aur kaun zyada achha hai deen ke aitebar se",
                   "is_filled": true,
-                  "sentence_number": 1
+                  "sentence_number": 16
                 },
                 {
                   "id": 17,
                   "arabic": "وَمَنْ / أَحْسَنُ قَوْلًا",
                   "hinglish": "aur kaun zyada achha hai baat ke aitebar se",
                   "is_filled": true,
-                  "sentence_number": 2
+                  "sentence_number": 17
                 },
                 {
                   "id": 18,
                   "arabic": "وَمَنْ أَحْسَنُ مِنَ اللهِ حُكْمًا",
                   "hinglish": "aur kaun Allah se zyada achha hai faisle mein",
                   "is_filled": true,
-                  "sentence_number": 3
+                  "sentence_number": 18
                 },
                 {
                   "id": 19,
                   "arabic": "وَمَنْ أَحْسَنُ مِنَ اللهِ صِبْغَةً",
                   "hinglish": "aur kaun Allah se zyada achha hai rang mein",
                   "is_filled": true,
-                  "sentence_number": 4
+                  "sentence_number": 19
                 },
                 {
                   "id": 20,
                   "arabic": "وَمَنْ أَصْدَقُ / مِنَ اللهِ / حَدِيثًا",
                   "hinglish": "aur kaun zyada sach'cha hai Allah se baat mein",
                   "is_filled": true,
-                  "sentence_number": 5
+                  "sentence_number": 20
                 },
                 {
                   "id": 21,
                   "arabic": "أَيُّكُمْ أَحْسَنُ عَمَلًا",
                   "hinglish": "tum mein se kaun zyada achha hai amal mein",
                   "is_filled": true,
-                  "sentence_number": 6
+                  "sentence_number": 21
                 },
                 {
                   "id": 22,
                   "arabic": "أَيُّهُمْ أَحْسَنُ عَمَلًا",
                   "hinglish": "un mein se kaun zyada achha hai amal mein",
                   "is_filled": true,
-                  "sentence_number": 7
+                  "sentence_number": 22
                 },
                 {
                   "id": 23,
                   "arabic": "أَيُّنَا / أَشَدُّ عَذَابًا",
                   "hinglish": "hum mein se kaun zyada sakht hai azab mein",
                   "is_filled": true,
-                  "sentence_number": 8
+                  "sentence_number": 23
                 },
                 {
                   "id": 24,
                   "arabic": "هُوَ أَشَدُّ مِنْهُمْ قُوَّةً",
                   "hinglish": "woh un se zyada sakht hai quwwat mein",
                   "is_filled": true,
-                  "sentence_number": 9
+                  "sentence_number": 24
                 },
                 {
                   "id": 25,
                   "arabic": "هُمْ أَشَدُّ مِنْهُمْ بَطْشًا",
                   "hinglish": "woh un se zyada sakht hain pakad mein",
                   "is_filled": true,
-                  "sentence_number": 10
+                  "sentence_number": 25
                 },
                 {
                   "id": 26,
                   "arabic": "أَ هُمْ أَشَدُّ خَلْقًا",
                   "hinglish": "kya woh log zyada sakht hain paidaish mein",
                   "is_filled": true,
-                  "sentence_number": 11
+                  "sentence_number": 26
                 },
                 {
                   "id": 27,
                   "arabic": "أَ أَنْتُمْ / أَشَدُّ خَلْقًا / أَمِ السَّمَاءُ",
                   "hinglish": "kya tum log zyada sakht ho paidaish mein ya aasman",
                   "is_filled": true,
-                  "sentence_number": 12
+                  "sentence_number": 27
                 },
                 {
                   "id": 28,
                   "arabic": "هُوَ / أَشَدُّ مِنْهُ قُوَّةً / وَأَكْثَرُ جَمْعًا",
                   "hinglish": "woh us se zyada sakht hai quwwat mein aur zyada jama karne wala hai",
                   "is_filled": true,
-                  "sentence_number": 13
+                  "sentence_number": 28
                 },
                 {
                   "id": 29,
                   "arabic": "نَارُ جَهَنَّمَ / أَشَدُّ حَرًّا",
                   "hinglish": "jahannam ki aag zyada sakht hai garmi mein",
                   "is_filled": true,
-                  "sentence_number": 14
+                  "sentence_number": 29
                 },
                 {
                   "id": 30,
                   "arabic": "الْأَعْرَابُ / أَشَدُّ كُفْرًا وَنِفَاقًا",
                   "hinglish": "baddu log zyada sakht hain kufr aur munafiqat mein",
                   "is_filled": true,
-                  "sentence_number": 15
+                  "sentence_number": 30
                 },
                 {
                   "id": 31,
                   "arabic": "فَهِيَ كَالْحِجَارَةِ أَوْ أَشَدُّ قَسْوَةً",
                   "hinglish": "toh woh patharon ki tarah hain ya sakhti mein zyada sakht hain",
                   "is_filled": true,
-                  "sentence_number": 16
+                  "sentence_number": 31
                 },
                 {
                   "id": 32,
                   "arabic": "هِيَ / أَشَدُّ قُوَّةً / مِنْ قَرْيَتِكَ",
                   "hinglish": "woh zyada sakht hai quwwat mein tumhari basti se",
                   "is_filled": true,
-                  "sentence_number": 17
+                  "sentence_number": 32
                 },
                 {
                   "id": 33,
                   "arabic": "مَنْ أَشَدُّ مِنَّا قُوَّةً",
                   "hinglish": "kaun hum se zyada sakht hai quwwat mein",
                   "is_filled": true,
-                  "sentence_number": 18
+                  "sentence_number": 33
                 },
                 {
                   "id": 34,
                   "arabic": "اللهُ أَسْرَعُ مَكْرًا",
                   "hinglish": "Allah zyada tez hai tadbeer mein",
                   "is_filled": true,
-                  "sentence_number": 19
+                  "sentence_number": 34
                 },
                 {
                   "id": 35,
                   "arabic": "نَحْنُ أَكْثَرُ أَمْوَالًا وَأَوْلَادًا",
                   "hinglish": "hum zyada hain maalon aur aulad mein",
                   "is_filled": true,
-                  "sentence_number": 20
+                  "sentence_number": 35
                 },
                 {
                   "id": 36,
                   "arabic": "وَاللهُ / أَشَدُّ بَأْسًا / وَأَشَدُّ تَنْكِيلًا",
                   "hinglish": "aur Allah zyada sakht hai azab mein aur zyada sakht hai saza mein",
                   "is_filled": true,
-                  "sentence_number": 21
+                  "sentence_number": 36
                 },
                 {
                   "id": 37,
                   "arabic": "ذَلِكَ خَيْرٌ / وَأَحْسَنُ تَأْوِيلًا",
                   "hinglish": "yeh behtar hai aur anjaam mein zyada achha hai",
                   "is_filled": true,
-                  "sentence_number": 22
+                  "sentence_number": 37
                 },
                 {
                   "id": 38,
                   "arabic": "فَاللهُ / خَيْرٌ حَافِظًا / وَهُوَ أَرْحَمُ الرَّاحِمِينَ",
                   "hinglish": "toh Allah behtar hai hifazat ke aitebar se aur woh sab meharbanon se zyada meharban Hai",
                   "is_filled": true,
-                  "sentence_number": 23
+                  "sentence_number": 38
                 },
                 {
                   "id": 39,
                   "arabic": "وَالْبَاقِيَاتُ الصَّالِحَاتُ خَيْرٌ / عِنْدَ رَبِّكَ ثَوَابًا / وَخَيْرٌ أَمَلًا",
                   "hinglish": "aur baqi rehne wali nekiyan behtar hain tere Rabb ke paas sawab mein aur umeed mein behtar hain",
                   "is_filled": true,
-                  "sentence_number": 24
+                  "sentence_number": 39
                 },
                 {
                   "id": 40,
                   "arabic": "وَالْبَاقِيَاتُ الصَّالِحَاتُ خَيْرٌ / عِنْدَ رَبِّكَ ثَوَابًا / وَخَيْرٌ مَرَدًّا",
                   "hinglish": "aur baqi rehne wali nekiyan behtar hain tere Rabb ke paas sawab mein aur anjaam mein behtar hain",
                   "is_filled": true,
-                  "sentence_number": 25
+                  "sentence_number": 40
                 },
                 {
                   "id": 41,
                   "arabic": "أَصْحَابُ الْجَنَّةِ / يَوْمَئِذٍ / خَيْرٌ مُسْتَقَرًّا / وَأَحْسَنُ مَقِيلًا",
                   "hinglish": "jannat wale us din behtar thikane wale aur behtar aaram ki jagah wale honge",
                   "is_filled": true,
-                  "sentence_number": 26
+                  "sentence_number": 41
                 },
                 {
                   "id": 42,
                   "arabic": "لَهُمْ فِيهَا دَارُ الْخُلْدِ جَزَاءً",
                   "hinglish": "unke liye us mein hamesha ka ghar hai bataur badla",
                   "is_filled": true,
-                  "sentence_number": 1
+                  "sentence_number": 42
                 },
                 {
                   "id": 43,
                   "arabic": "إِنَّهُمْ رِجْسٌ وَمَأْوَاهُمْ جَهَنَّمُ جَزَاءً",
                   "hinglish": "beshak woh napaak hain aur unka thikana jahannam hai bataur badla",
                   "is_filled": true,
-                  "sentence_number": 2
+                  "sentence_number": 43
                 },
                 {
                   "id": 44,
                   "arabic": "وَمَأْوَاهُمْ جَهَنَّمُ جَزَاءً",
                   "hinglish": "aur unka thikana jahannam hai bataur badla",
                   "is_filled": true,
-                  "sentence_number": 3
+                  "sentence_number": 44
                 },
                 {
                   "id": 45,
                   "arabic": "فَإِنَّ جَهَنَّمَ جَزَاؤُكُمْ جَزَاءً",
                   "hinglish": "toh beshak jahannam tumhara badla hai bataur badla",
                   "is_filled": true,
-                  "sentence_number": 4
+                  "sentence_number": 45
                 },
                 {
                   "id": 46,
                   "arabic": "ذَلِكَ جَزَاءُ أَعْدَاءِ اللهِ / النَّارُ / لَهُمْ فِيهَا دَارُ الْخُلْدِ / جَزَاءً",
                   "hinglish": "yeh Allah ke dushmanon ka badla hai aag, unke liye us mein hamesha ka ghar hai bataur badla",
                   "is_filled": true,
-                  "sentence_number": 5
+                  "sentence_number": 46
                 },
                 {
                   "id": 47,
                   "arabic": "وَكِيلًا",
                   "hinglish": "bataur karsaz",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 47
                 },
                 {
                   "id": 48,
                   "arabic": "عَلِيمًا",
                   "hinglish": "bataur jaanne wala",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 48
                 },
                 {
                   "id": 49,
                   "arabic": "حَسِيبًا",
                   "hinglish": "bataur hisab karne wala",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 49
                 },
                 {
                   "id": 50,
                   "arabic": "حَافِظًا",
                   "hinglish": "bataur hifazat karne wala",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 50
                 },
                 {
                   "id": 51,
@@ -47174,134 +47500,115 @@ window.PWA_BOOK_DATA = {
                   "id": 55,
                   "arabic": "وَكَفَى بِاللهِ وَلِيًّا",
                   "hinglish": "yaqeenan Allah kafi hai karsaz hone ke aitebar se",
-                  "is_filled": true,
-                  "sentence_number": 1
+                  "is_filled": true
                 },
                 {
                   "id": 56,
                   "arabic": "وَكَفَى بِاللهِ نَصِيرًا",
                   "hinglish": "yaqeenan Allah kafi hai madadgar hone ke aitebar se",
-                  "is_filled": true,
-                  "sentence_number": 2
+                  "is_filled": true
                 },
                 {
                   "id": 57,
                   "arabic": "وَكَفَى بِاللهِ حَسِيبًا",
                   "hinglish": "yaqeenan Allah kafi hai hisab lene ke aitebar se",
-                  "is_filled": true,
-                  "sentence_number": 3
+                  "is_filled": true
                 },
                 {
                   "id": 58,
                   "arabic": "وَكَفَى بِاللهِ شَهِيدًا",
                   "hinglish": "yaqeenan Allah kafi hai gawah hone ke aitebar se",
-                  "is_filled": true,
-                  "sentence_number": 4
+                  "is_filled": true
                 },
                 {
                   "id": 59,
                   "arabic": "وَكَفَى بِاللهِ وَكِيلًا",
                   "hinglish": "yaqeenan Allah kafi hai karsaz hone ke aitebar se",
-                  "is_filled": true,
-                  "sentence_number": 5
+                  "is_filled": true
                 },
                 {
                   "id": 60,
                   "arabic": "كَفَى بِاللهِ بَيْنِي وَبَيْنَكُمْ شَهِيدًا",
                   "hinglish": "yaqeenan Allah kafi hai mere aur tumhare darmiyan gawah hone ke aitebar se",
-                  "is_filled": true,
-                  "sentence_number": 6
+                  "is_filled": true
                 },
                 {
                   "id": 61,
                   "arabic": "كَفَى بِهِ شَهِيدًا",
                   "hinglish": "yaqeenan woh kafi hai bataur gawah",
-                  "is_filled": true,
-                  "sentence_number": 7
+                  "is_filled": true
                 },
                 {
                   "id": 62,
                   "arabic": "وَكَفَى بِجَهَنَّمَ سَعِيرًا",
                   "hinglish": "yaqeenan jahannam kafi hai bataur dahakti hui",
-                  "is_filled": true,
-                  "sentence_number": 8
+                  "is_filled": true
                 },
                 {
                   "id": 63,
                   "arabic": "كَفَى بِنَفْسِكَ",
                   "hinglish": "tumhara apna aap hi kafi hai",
-                  "is_filled": true,
-                  "sentence_number": 9
+                  "is_filled": true
                 },
                 {
                   "id": 64,
                   "arabic": "وَكَفَى بِرَبِّكَ هَادِيًا وَنَصِيرًا",
                   "hinglish": "aur yaqeenan tera Rabb kafi hai bataur hidayat dene wala aur madadgar",
-                  "is_filled": true,
-                  "sentence_number": 10
+                  "is_filled": true
                 },
                 {
                   "id": 65,
                   "arabic": "لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ / وَكَفَى بِاللهِ وَكِيلًا",
                   "hinglish": "uske liye hai jo kuch aasmanon mein hai aur jo kuch zameen mein hai aur yaqeenan Allah kafi hai bataur karsaz",
-                  "is_filled": true,
-                  "sentence_number": 1
+                  "is_filled": true
                 },
                 {
                   "id": 66,
                   "arabic": "وَاللهُ أَعْلَمُ بِأَعْدَائِكُمْ / وَكَفَى بِاللهِ وَلِيًّا / وَكَفَى بِاللهِ نَصِيرًا",
                   "hinglish": "aur Allah khoob jaanta hai tumhare dushmanon ko, aur yaqeenan Allah kafi hai bataur dost, aur yaqeenan Allah kafi hai bataur madadgar",
-                  "is_filled": true,
-                  "sentence_number": 2
+                  "is_filled": true
                 },
                 {
                   "id": 67,
                   "arabic": "كَفَى بِاللهِ شَهِيدًا بَيْنِي وَبَيْنَكُمْ / إِنَّهُ كَانَ بِعِبَادِهِ خَبِيرًا بَصِيرًا",
                   "hinglish": "yaqeenan Allah kafi hai bataur gawah mere aur tumhare darmiyan, beshak woh apne bandon se khabardar Hai dekhne wala Hai",
-                  "is_filled": true,
-                  "sentence_number": 3
+                  "is_filled": true
                 },
                 {
                   "id": 68,
                   "arabic": "كَفَى بِهِ شَهِيدًا بَيْنِي وَبَيْنَكُمْ / وَهُوَ الْغَفُورُ الرَّحِيمُ",
                   "hinglish": "yaqeenan woh kafi hai bataur gawah mere aur tumhare darmiyan, aur woh bakhshne wala meharban Hai",
-                  "is_filled": true,
-                  "sentence_number": 4
+                  "is_filled": true
                 },
                 {
                   "id": 69,
                   "arabic": "ذَلِكَ الْفَضْلُ مِنَ اللهِ / وَكَفَى بِاللهِ عَلِيمًا",
                   "hinglish": "yeh fazl Allah se hai, aur yaqeenan Allah kafi hai bataur jaanne wala",
-                  "is_filled": true,
-                  "sentence_number": 5
+                  "is_filled": true
                 },
                 {
                   "id": 70,
                   "arabic": "كَفَى بِنَفْسِكَ الْيَوْمَ عَلَيْكَ حَسِيبًا",
                   "hinglish": "tera apna aap aaj apne khilaf bataur hisab lene wala kafi hai",
-                  "is_filled": true,
-                  "sentence_number": 6
+                  "is_filled": true
                 },
                 {
                   "id": 71,
                   "arabic": "إِنَّ عِبَادِي لَيْسَ لَكَ عَلَيْهِمْ سُلْطَانٌ وَكَفَى بِرَبِّكَ وَكِيلًا",
                   "hinglish": "beshak mere bandon par tera koi zor nahin, aur yaqeenan tera Rabb kafi hai bataur karsaz",
-                  "is_filled": true,
-                  "sentence_number": 7
+                  "is_filled": true
                 },
                 {
                   "id": 72,
                   "arabic": "فَإِنَّ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ / وَكَانَ اللهُ غَنِيًّا حَمِيدًا . / وَلِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ / وَكَفَى بِاللهِ وَكِيلًا",
                   "hinglish": "toh beshak Allah hi ke liye hai jo kuch aasmanon mein hai aur jo kuch zameen mein hai, aur Allah beniyaaz hamd ke laayiq Hai. aur Allah hi ke liye hai jo kuch aasmanon mein hai aur jo kuch zameen mein hai, aur yaqeenan Allah kafi hai bataur karsaz",
-                  "is_filled": true,
-                  "sentence_number": 8
+                  "is_filled": true
                 },
                 {
                   "id": 73,
                   "arabic": "وَكَفَى بِاللهِ شَهِيدًا / مُحَمَّدٌ رَسُولُ اللهِ / وَالَّذِينَ مَعَهُ أَشِدَّاءُ عَلَى الْكُفَّارِ / رُحَمَاءُ بَيْنَهُمْ",
                   "hinglish": "aur yaqeenan Allah kafi hai bataur gawah, Muhammad ﷺ Allah ke Rasool hain, aur jo log unke saath hain kafiron par sakht hain, aapas mein meharban hain",
-                  "is_filled": true,
-                  "sentence_number": 9
+                  "is_filled": true
                 },
                 {
                   "id": 74,
@@ -47540,7 +47847,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S5L23",
@@ -47558,324 +47866,325 @@ window.PWA_BOOK_DATA = {
                   "id": 1,
                   "arabic": "مِنْ وَلِيٍّ وَلَا نَصِيرٍ",
                   "hinglish": "na koi dost aur na hi koi madadgar",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 1
                 },
                 {
                   "id": 2,
                   "arabic": "مِنْ وَلِيٍّ وَلَا شَفِيعٍ",
                   "hinglish": "na koi dost aur na hi koi sifarish karne wala",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 2
                 },
                 {
                   "id": 3,
                   "arabic": "مِنْ قُوَّةٍ وَلَا نَاصِرٍ",
                   "hinglish": "na koi quwwat aur na hi koi madadgar",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 3
                 },
                 {
                   "id": 4,
                   "arabic": "مِنْ شَافِعِينَ وَلَا صَدِيقٍ",
                   "hinglish": "na koi sifarish karne wale aur na hi koi dost",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 4
                 },
                 {
                   "id": 5,
                   "arabic": "مِنْ حَمِيمٍ وَلَا شَفِيعٍ",
                   "hinglish": "na koi gehra dost aur na hi koi sifarish karne wala",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 5
                 },
                 {
                   "id": 6,
                   "arabic": "لَهُ / مَا لَهُ",
                   "hinglish": "uske liye nahin hai",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 6
                 },
                 {
                   "id": 7,
                   "arabic": "لَهَا / مَا لَهَا",
                   "hinglish": "uske liye nahin hai",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 7
                 },
                 {
                   "id": 8,
                   "arabic": "لَهُمْ / مَا لَهُمْ",
                   "hinglish": "unke liye nahin hai",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 8
                 },
                 {
                   "id": 9,
                   "arabic": "لَكَ / مَا لَكَ",
                   "hinglish": "tere liye nahin hai",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 9
                 },
                 {
                   "id": 10,
                   "arabic": "لَكُمْ / مَا لَكُمْ",
                   "hinglish": "tumhare liye nahin hai",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 10
                 },
                 {
                   "id": 11,
                   "arabic": "لِلظَّالِمِينَ / مَا لِلظَّالِمِينَ",
                   "hinglish": "zalimon ke liye nahin hai",
-                  "is_filled": true
+                  "is_filled": true,
+                  "sentence_number": 11
                 },
                 {
                   "id": 12,
                   "arabic": "فَمَا لَهُ مِنْ نُورٍ",
                   "hinglish": "toh uske liye koi roshni nahin hai",
                   "is_filled": true,
-                  "sentence_number": 1
+                  "sentence_number": 12
                 },
                 {
                   "id": 13,
                   "arabic": "فَمَا لَهُ مِنْ وَلِيٍّ",
                   "hinglish": "toh uske liye koi dost nahin hai",
                   "is_filled": true,
-                  "sentence_number": 2
+                  "sentence_number": 13
                 },
                 {
                   "id": 14,
                   "arabic": "فَمَا لَهُ مِنْ هَادٍ",
                   "hinglish": "toh uske liye koi hidayat dene wala nahin hai",
                   "is_filled": true,
-                  "sentence_number": 3
+                  "sentence_number": 14
                 },
                 {
                   "id": 15,
                   "arabic": "فَمَا لَهُ مِنْ مُكْرِمٍ",
                   "hinglish": "toh uske liye koi izzat dene wala nahin hai",
                   "is_filled": true,
-                  "sentence_number": 4
+                  "sentence_number": 15
                 },
                 {
                   "id": 16,
                   "arabic": "مَا لَهُ مِنْ سَبِيلٍ",
                   "hinglish": "uske liye koi rasta nahin hai",
                   "is_filled": true,
-                  "sentence_number": 5
+                  "sentence_number": 16
                 },
                 {
                   "id": 17,
                   "arabic": "فَمَا لَهُ مِنْ مُضِلٍّ",
                   "hinglish": "toh uske liye koi gumrah karne wala nahin hai",
                   "is_filled": true,
-                  "sentence_number": 6
+                  "sentence_number": 17
                 },
                 {
                   "id": 18,
                   "arabic": "مَا لَهُ مِنْ دَافِعٍ",
                   "hinglish": "uske liye koi door karne wala nahin hai",
                   "is_filled": true,
-                  "sentence_number": 7
+                  "sentence_number": 18
                 },
                 {
                   "id": 19,
                   "arabic": "مَا لَهُمْ مِنْ مَحِيصٍ",
                   "hinglish": "unke liye koi farar ki jagah nahin hai",
                   "is_filled": true,
-                  "sentence_number": 8
+                  "sentence_number": 19
                 },
                 {
                   "id": 20,
                   "arabic": "مَا لَنَا مِنْ مَحِيصٍ",
                   "hinglish": "hamare liye koi farar ki jagah nahin hai",
                   "is_filled": true,
-                  "sentence_number": 9
+                  "sentence_number": 20
                 },
                 {
                   "id": 21,
                   "arabic": "مَا لَكُمْ مِنْ زَوَالٍ",
                   "hinglish": "tumhare liye koi zawaal nahin hai",
                   "is_filled": true,
-                  "sentence_number": 10
+                  "sentence_number": 21
                 },
                 {
                   "id": 22,
                   "arabic": "وَمَا لَكُمْ مِنْ إِلَهٍ غَيْرُهُ",
                   "hinglish": "aur tumhare liye koi mabood nahin hai uske siwa",
                   "is_filled": true,
-                  "sentence_number": 11
+                  "sentence_number": 22
                 },
                 {
                   "id": 23,
                   "arabic": "وَمَا لَكُمْ مِنْ نَكِيرٍ",
                   "hinglish": "aur tumhare liye koi inkar nahin hai",
                   "is_filled": true,
-                  "sentence_number": 12
+                  "sentence_number": 23
                 },
                 {
                   "id": 24,
                   "arabic": "مَا لَكُمْ مِنْ مَلْجَإٍ يَوْمَئِذٍ",
                   "hinglish": "tumhare liye us din koi panah gah nahin hai",
                   "is_filled": true,
-                  "sentence_number": 13
+                  "sentence_number": 24
                 },
                 {
                   "id": 25,
                   "arabic": "فَمَا لَهُ مِنْ قُوَّةٍ وَلَا نَاصِرٍ",
                   "hinglish": "toh uske liye na koi quwwat hai aur na hi koi madadgar",
                   "is_filled": true,
-                  "sentence_number": 14
+                  "sentence_number": 25
                 },
                 {
                   "id": 26,
                   "arabic": "وَمَا لِلظَّالِمِينَ مِنْ نَصِيرٍ",
                   "hinglish": "aur zalimon ke liye koi madadgar nahin hai",
                   "is_filled": true,
-                  "sentence_number": 15
+                  "sentence_number": 26
                 },
                 {
                   "id": 27,
                   "arabic": "وَمَا لَهُ / فِي الْآخِرَةِ / مِنْ نَصِيبٍ",
                   "hinglish": "aur uske liye aakhirat mein koi hissa nahin hai",
                   "is_filled": true,
-                  "sentence_number": 16
+                  "sentence_number": 27
                 },
                 {
                   "id": 28,
                   "arabic": "وَمَا لَهُ / مِنْهُمْ / مِنْ ظَهِيرٍ",
                   "hinglish": "aur uske liye un mein se koi madadgar nahin hai",
                   "is_filled": true,
-                  "sentence_number": 17
+                  "sentence_number": 28
                 },
                 {
                   "id": 29,
                   "arabic": "مَا لَهُ / فِي الْآخِرَةِ / مِنْ خَلَاقٍ",
                   "hinglish": "uske liye aakhirat mein koi hissa nahin hai",
                   "is_filled": true,
-                  "sentence_number": 18
+                  "sentence_number": 29
                 },
                 {
                   "id": 30,
                   "arabic": "مَا لَهُمْ / مِنَ اللهِ / مِنْ عَاصِمٍ",
                   "hinglish": "unke liye Allah se koi bachane wala nahin hai",
                   "is_filled": true,
-                  "sentence_number": 19
+                  "sentence_number": 30
                 },
                 {
                   "id": 31,
                   "arabic": "مَا لَكُمْ / مِنَ اللهِ / مِنْ عَاصِمٍ",
                   "hinglish": "tumhare liye Allah se koi bachane wala nahin hai",
                   "is_filled": true,
-                  "sentence_number": 20
+                  "sentence_number": 31
                 },
                 {
                   "id": 32,
                   "arabic": "وَمَا لَهُمْ / مِنَ اللهِ / مِنْ وَاقٍ",
                   "hinglish": "aur unke liye Allah se koi bachane wala nahin hai",
                   "is_filled": true,
-                  "sentence_number": 21
+                  "sentence_number": 32
                 },
                 {
                   "id": 33,
                   "arabic": "وَمَا لَهُمْ / مِنْ دُونِهِ / مِنْ وَالٍ",
                   "hinglish": "aur unke liye uske siwa koi dost nahin hai",
                   "is_filled": true,
-                  "sentence_number": 22
+                  "sentence_number": 33
                 },
                 {
                   "id": 34,
                   "arabic": "مَا لَكَ / مِنَ اللهِ / مِنْ وَلِيٍّ وَلَا وَاقٍ",
                   "hinglish": "tere liye Allah se na koi dost hai aur na hi koi bachane wala",
                   "is_filled": true,
-                  "sentence_number": 23
+                  "sentence_number": 34
                 },
                 {
                   "id": 35,
                   "arabic": "مَا لَكُمْ / مِنْ وَلَايَتِهِمْ / مِنْ شَيْءٍ",
                   "hinglish": "tumhare liye unki dosti mein se koi madad nahin hai",
                   "is_filled": true,
-                  "sentence_number": 24
+                  "sentence_number": 35
                 },
                 {
                   "id": 36,
                   "arabic": "وَمَا لَكُمْ / مِنْ دُونِ اللهِ / مِنْ وَلِيٍّ وَلَا نَصِيرٍ",
                   "hinglish": "aur tumhare liye Allah ke siwa na koi dost hai aur na hi koi madadgar",
                   "is_filled": true,
-                  "sentence_number": 25
+                  "sentence_number": 36
                 },
                 {
                   "id": 37,
                   "arabic": "مَا لَكُمْ / مِنْ دُونِهِ / مِنْ وَلِيٍّ وَلَا شَفِيعٍ",
                   "hinglish": "tumhare liye uske siwa na koi dost hai aur na hi koi sifarish karne wala",
-                  "is_filled": true,
-                  "sentence_number": 26
+                  "is_filled": true
                 },
                 {
                   "id": 38,
                   "arabic": "مَا لَكَ / مِنَ اللهِ / مِنْ وَلِيٍّ وَلَا نَصِيرٍ",
                   "hinglish": "tere liye Allah se na koi dost hai aur na hi koi madadgar",
-                  "is_filled": true,
-                  "sentence_number": 27
+                  "is_filled": true
                 },
                 {
                   "id": 39,
                   "arabic": "وَمَا لَهُمْ / فِي الْأَرْضِ / مِنْ وَلِيٍّ وَلَا نَصِيرٍ",
                   "hinglish": "aur unke liye zameen mein na koi dost hai aur na hi koi madadgar",
-                  "is_filled": true,
-                  "sentence_number": 28
+                  "is_filled": true
                 },
                 {
                   "id": 40,
                   "arabic": "مَا لِلظَّالِمِينَ مِنْ حَمِيمٍ وَلَا شَفِيعٍ",
                   "hinglish": "zalimon ke liye na koi gehra dost hai aur na hi koi sifarish karne wala",
-                  "is_filled": true,
-                  "sentence_number": 29
+                  "is_filled": true
                 },
                 {
                   "id": 41,
                   "arabic": "وَالظَّالِمُونَ مَا لَهُمْ مِنْ وَلِيٍّ وَلَا نَصِيرٍ",
                   "hinglish": "aur zalimon ke liye na koi dost hai aur na hi koi madadgar",
-                  "is_filled": true,
-                  "sentence_number": 30
+                  "is_filled": true
                 },
                 {
                   "id": 42,
                   "arabic": "وَمَا لَهُمْ / فِيهِمَا / مِنْ شِرْكٍ",
                   "hinglish": "aur unke liye un dono mein koi hissa nahin hai",
-                  "is_filled": true,
-                  "sentence_number": 31
+                  "is_filled": true
                 },
                 {
                   "id": 43,
                   "arabic": "مَا لَهُمْ / بِذَلِكَ / مِنْ عِلْمٍ",
                   "hinglish": "unke liye iss bare mein koi ilm nahin hai",
-                  "is_filled": true,
-                  "sentence_number": 32
+                  "is_filled": true
                 },
                 {
                   "id": 44,
                   "arabic": "وَمَا لَهُمْ / بِهِ / مِنْ عِلْمٍ",
                   "hinglish": "aur unke liye iss bare mein koi ilm nahin hai",
-                  "is_filled": true,
-                  "sentence_number": 33
+                  "is_filled": true
                 },
                 {
                   "id": 45,
                   "arabic": "مَا لَنَا / فِي بَنَاتِكَ / مِنْ حَقٍّ",
                   "hinglish": "hamare liye teri betiyon mein koi haq nahin hai",
-                  "is_filled": true,
-                  "sentence_number": 34
+                  "is_filled": true
                 },
                 {
                   "id": 46,
                   "arabic": "وَمَا لِأَحَدٍ / عِنْدَهُ / مِنْ نِعْمَةٍ",
                   "hinglish": "aur kisi ke liye uske paas koi ne'mat nahin hai",
-                  "is_filled": true,
-                  "sentence_number": 35
+                  "is_filled": true
                 },
                 {
                   "id": 47,
                   "arabic": "مَا لَهُمْ بِهِ مِنْ عِلْمٍ وَلَا لِآبَائِهِمْ",
                   "hinglish": "unke liye iska koi ilm nahin hai aur na hi unke baap dadaon ke liye",
-                  "is_filled": true,
-                  "sentence_number": 36
+                  "is_filled": true
                 }
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       }
     ],
     "Stage6": [
@@ -48438,7 +48747,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S6L2",
@@ -48831,7 +49141,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S6L3",
@@ -49133,7 +49444,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S6L4",
@@ -49568,7 +49880,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S6L5",
@@ -49835,7 +50148,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S6L6",
@@ -50167,7 +50481,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S6L7",
@@ -50506,7 +50821,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S6L8",
@@ -51748,7 +52064,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S6L9",
@@ -52668,7 +52985,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S6L10",
@@ -53435,7 +53753,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S6L11",
@@ -54363,7 +54682,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S6L12",
@@ -55480,7 +55800,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S6L13",
@@ -56296,7 +56617,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S6L14",
@@ -57308,7 +57630,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S6L15",
@@ -57855,7 +58178,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S6L16",
@@ -58304,7 +58628,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S6L17",
@@ -58823,7 +59148,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S6L18",
@@ -59286,7 +59612,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S6L19",
@@ -59868,7 +60195,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S6L20",
@@ -60627,7 +60955,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S6L21",
@@ -61267,7 +61596,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       }
     ],
     "Stage7": [
@@ -64514,7 +64844,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S7L3",
@@ -64751,7 +65082,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S7L4",
@@ -64967,7 +65299,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S7L5",
@@ -66029,7 +66362,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S7L6",
@@ -68260,7 +68594,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S7L7",
@@ -70491,7 +70826,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S7L8",
@@ -70985,7 +71321,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S7L9",
@@ -71290,7 +71627,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       },
       {
         "lesson_key": "S7L10",
@@ -71511,7 +71849,8 @@ window.PWA_BOOK_DATA = {
               ]
             }
           }
-        ]
+        ],
+        "status": "complete"
       }
     ]
   }

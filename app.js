@@ -345,6 +345,77 @@
               }
             });
             html += `</div>`;
+          } else if (secType === 'bullet_instruction') {
+            if (d.text) html += `<div class="bullet-instruction" style="margin:8px 0;font-size:0.95rem;color:var(--text-muted, #555);">• ${d.text}</div>`;
+          } else if (secType === 'example_table') {
+            const rows = d.rows || d.items || [];
+            if (rows.length > 0) {
+              html += `<div class="example-table-wrapper" style="overflow-x:auto;margin:12px 0;"><table class="example-table" style="width:100%;border-collapse:collapse;">`;
+              if (d.headers && d.headers.length) {
+                html += `<thead><tr>${d.headers.map(h => `<th style="border:1px solid var(--border-color,#ddd);padding:6px 10px;background:var(--bg-secondary,#f9f9f9);">${h}</th>`).join('')}</tr></thead>`;
+              }
+              html += `<tbody>`;
+              rows.forEach(r => {
+                const cells = Array.isArray(r) ? r : [r.col1 || r.arabic, r.col2 || r.hinglish, r.col3 || ''].filter(Boolean);
+                html += `<tr>${cells.map(c => `<td style="border:1px solid var(--border-color,#ddd);padding:6px 10px;text-align:center;">${c}</td>`).join('')}</tr>`;
+              });
+              html += `</tbody></table></div>`;
+            }
+          } else if (secType === 'spacer') {
+            const h = d.height || 16;
+            html += `<div class="section-spacer" style="height:${h}px;" aria-hidden="true"></div>`;
+          } else if (secType === 'ayah_pause_block') {
+            html += `<div class="bidi-grid cols-1">`;
+            (d.items || []).forEach((it, iIdx) => {
+              const itemKey = `S${currentStage}L${currentLesson}_apb_${it.id || iIdx}`;
+              const starred = isStarred(itemKey);
+              const escAr = (it.arabic || '').replace(/'/g, "\\'");
+              const escHi = (it.hinglish || '').replace(/'/g, "\\'");
+              const cardHtml = `
+                <div class="verse-card ayah-pause-card" data-item-id="${itemKey}" style="position:relative">
+                  <span class="bookmark-indicator" style="display:${BookmarkStore.has(itemKey)?'block':'none'}">📌</span>
+                  <div class="card-top">
+                    <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
+                    <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">★</button>
+                  </div>
+                  <div class="arabic-text" style="font-size:calc(var(--arabic-scale)*1.1);">${it.arabic}</div>
+                  ${it.hinglish ? renderDualAnswerHtml(itemKey, it.arabic, it.hinglish) : ''}
+                </div>
+              `;
+              if (it.sentence_number != null) {
+                html += `<div class="sentence-card-wrapper">
+                  ${renderSentenceNumber(it.sentence_number)}
+                  ${renderGrammarBanner(it.grammar_banner)}
+                  ${cardHtml}
+                </div>`;
+              } else {
+                html += renderGrammarBanner(it.grammar_banner);
+                html += cardHtml;
+              }
+            });
+            html += `</div>`;
+          } else if (secType === 'tashbeeh_grid') {
+            const items = d.items || [];
+            if (items.length > 0) {
+              html += `<div class="bidi-grid cols-2">`;
+              items.forEach((it, iIdx) => {
+                const itemKey = `S${currentStage}L${currentLesson}_tg_${it.id || iIdx}`;
+                const starred = isStarred(itemKey);
+                const escAr = (it.arabic || '').replace(/'/g, "\\'");
+                const escHi = (it.hinglish || '').replace(/'/g, "\\'");
+                html += `
+                  <div class="vocab-card" data-item-id="${itemKey}" style="position:relative">
+                    <div class="card-top">
+                      <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
+                      <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">★</button>
+                    </div>
+                    <div class="arabic-text">${it.arabic}</div>
+                    ${renderDualAnswerHtml(itemKey, it.arabic, it.hinglish)}
+                  </div>
+                `;
+              });
+              html += `</div>`;
+            }
           }
         });
 
