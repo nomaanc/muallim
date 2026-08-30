@@ -8,6 +8,11 @@
   <meta name="theme-color" content="#1B4332">
   <link rel="manifest" href='data:application/manifest+json,{"name": "Muallim ul-Qur'an Workbook", "short_name": "Muallim", "description": "Interactive Qur'anic Arabic Workbook with Roman Urdu (Hinglish) Translations", "start_url": "./index.html", "display": "standalone", "background_color": "#FDFBF7", "theme_color": "#1B4332", "icons": [{"src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231B4332'/%3E%3Ctext x='50' y='65' font-family='serif' font-size='50' fill='%23FDFBF7' text-anchor='middle'%3E%D9%85%3C/text%3E%3C/svg%3E", "sizes": "192x192 512x512", "type": "image/svg+xml"}]}'>
 
+
+  <!-- Firebase SDK (modular, loaded async only when config is set) -->
+  <script type="module" id="firebase-module-loader">
+    // Firebase is loaded dynamically via App.initFirebase() after user provides config
+  </script>
   <!-- Zero-FOUC Theme & Mode Initializer -->
   <script>
     (function() {
@@ -1368,6 +1373,130 @@
       opacity: 1;
     }
 
+
+    /* ═══════════════════════════════════════
+       FIREBASE CONFIG + ENHANCED ADMIN UI
+    ═══════════════════════════════════════ */
+    .firebase-config-area {
+      width: 100%;
+      min-height: 80px;
+      padding: 8px 10px;
+      border: 1px solid var(--divider-gold);
+      border-radius: var(--radius-md);
+      background: var(--bg-surface-elevated);
+      color: var(--text-primary);
+      font-size: 0.75rem;
+      font-family: 'Courier New', monospace;
+      box-sizing: border-box;
+      resize: vertical;
+    }
+    .firebase-config-area:focus { outline: none; border-color: var(--accent-emerald); }
+    .firebase-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 10px;
+      margin-bottom: 6px;
+    }
+    .firebase-status.connected {
+      background: rgba(16,185,129,0.12);
+      color: #059669;
+    }
+    .firebase-status.disconnected {
+      background: rgba(239,68,68,0.10);
+      color: #DC2626;
+    }
+    .firebase-status.syncing {
+      background: rgba(245,158,11,0.12);
+      color: #D97706;
+    }
+    .sync-indicator {
+      position: fixed;
+      bottom: 70px;
+      right: 14px;
+      font-size: 0.72rem;
+      color: #059669;
+      background: rgba(255,255,255,0.95);
+      padding: 4px 10px;
+      border-radius: 12px;
+      border: 1px solid rgba(16,185,129,0.3);
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      z-index: 800;
+      font-weight: 600;
+    }
+    [data-theme="dark"] .sync-indicator {
+      background: rgba(20,30,20,0.95);
+    }
+    .sync-indicator.show { opacity: 1; }
+
+    /* Admin student cards */
+    .admin-student-card {
+      border: 1px solid var(--divider-light);
+      border-radius: var(--radius-md);
+      padding: 8px 10px;
+      margin-bottom: 8px;
+      font-size: 0.8rem;
+    }
+    .admin-student-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+    .admin-student-name {
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+    .admin-student-badge {
+      font-size: 0.68rem;
+      color: var(--text-muted);
+    }
+    .admin-data-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 4px;
+    }
+    .admin-data-chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 2px 8px;
+      border-radius: 10px;
+      font-size: 0.7rem;
+      font-weight: 600;
+    }
+    .admin-data-chip.starred {
+      background: rgba(251,191,36,0.15);
+      color: #92400E;
+    }
+    .admin-data-chip.custom {
+      background: rgba(99,102,241,0.10);
+      color: #4338CA;
+    }
+    .admin-data-chip.exam {
+      background: rgba(16,185,129,0.10);
+      color: #047857;
+    }
+    .admin-broadcast-textarea {
+      width: 100%;
+      padding: 7px 10px;
+      border: 1px solid var(--divider-gold);
+      border-radius: var(--radius-md);
+      background: var(--bg-surface-elevated);
+      color: var(--text-primary);
+      font-size: 0.82rem;
+      box-sizing: border-box;
+      resize: vertical;
+      min-height: 50px;
+      margin-bottom: 6px;
+    }
+
     </style>
 </head>
 <body>
@@ -1475,21 +1604,61 @@
         </button>
       </div>
       <div id="admin-unlocked-view" style="display:none;" class="admin-panel">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+        <!-- Header row -->
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
           <span style="font-weight:700; font-size:0.88rem;">Admin Panel <span class="admin-badge">UNLOCKED</span></span>
           <button class="btn-secondary" style="padding:4px 10px; font-size:0.78rem;" onclick="App.lockAdmin()">🔒 Lock</button>
         </div>
-        <div class="menu-btn-row" style="margin-bottom:10px;">
-          <button class="btn-secondary" onclick="App.changeAdminPin()" style="flex:1; padding:5px; font-size:0.78rem;">Change PIN</button>
+
+        <!-- Firebase status + config -->
+        <div id="firebase-status-row" style="margin-bottom:8px;">
+          <div id="firebase-status-badge" class="firebase-status disconnected">⚡ Firebase not configured</div>
+          <button id="firebase-config-toggle-btn" class="btn-secondary"
+            style="width:100%; padding:5px; font-size:0.78rem; margin-bottom:4px;"
+            onclick="App.toggleFirebaseConfigPanel()">
+            ⚙ Configure Firebase
+          </button>
+          <div id="firebase-config-panel" style="display:none; margin-bottom:8px;">
+            <div style="font-size:0.72rem; color:var(--text-muted); margin-bottom:4px;">
+              Paste your Firebase config object (from Firebase Console → Project Settings):
+            </div>
+            <textarea id="firebase-config-input" class="firebase-config-area"
+              rows="5"
+              placeholder='{ "apiKey": "...", "authDomain": "...", "projectId": "...", "storageBucket": "...", "messagingSenderId": "...", "appId": "..." }'></textarea>
+            <div style="display:flex; gap:6px; margin-top:5px;">
+              <button class="btn-secondary" style="flex:1; padding:5px; font-size:0.78rem;"
+                onclick="App.saveFirebaseConfig()">💾 Save &amp; Connect</button>
+              <button class="btn-secondary" style="flex:1; padding:5px; font-size:0.78rem;"
+                onclick="App.clearFirebaseConfig()">🗑 Remove Config</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Admin controls -->
+        <div class="menu-btn-row" style="margin-bottom:8px;">
+          <button class="btn-secondary" onclick="App.changeAdminPin()" style="flex:1; padding:5px; font-size:0.78rem;">🔑 Change PIN</button>
           <button class="btn-secondary" onclick="App.refreshAdminStudents()" style="flex:1; padding:5px; font-size:0.78rem;">↺ Refresh</button>
         </div>
-        <div style="font-size:0.75rem; color:var(--text-muted); margin-bottom:6px; font-weight:700;">STUDENT DATA (Firestore)</div>
-        <div id="admin-students-mount" style="font-size:0.8rem; color:var(--text-muted); text-align:center; padding:10px;">
-          Firebase not configured yet.<br>See docs/FIREBASE_SETUP.md
+
+        <!-- Broadcast notification -->
+        <div style="margin-bottom:8px;">
+          <div style="font-size:0.72rem; color:var(--text-muted); font-weight:700; margin-bottom:4px;">📢 BROADCAST TO STUDENTS</div>
+          <textarea id="broadcast-msg-input" class="admin-broadcast-textarea"
+            placeholder="Type message to send to all students..."></textarea>
+          <button class="btn-secondary" style="width:100%; padding:5px; font-size:0.78rem;"
+            onclick="App.sendBroadcast()">📤 Send Broadcast</button>
         </div>
+
+        <!-- Student data view -->
+        <div style="font-size:0.72rem; color:var(--text-muted); font-weight:700; margin-bottom:6px;">👥 STUDENT DATA</div>
+        <div id="admin-students-mount" style="font-size:0.8rem; color:var(--text-muted); text-align:center; padding:10px;">
+          Configure Firebase to see student data
+        </div>
+
+        <!-- Danger zone -->
         <div class="admin-danger-zone">
-          <div style="font-size:0.72rem; color:var(--text-muted); font-weight:700; margin-bottom:4px;">DANGER ZONE</div>
-          <button class="btn-danger" onclick="App.clearAllLocalData()">🗑 Clear All Local Student Data</button>
+          <div style="font-size:0.72rem; color:var(--text-muted); font-weight:700; margin-bottom:4px;">⚠ DANGER ZONE</div>
+          <button class="btn-danger" onclick="App.clearAllLocalData()">🗑 Clear All Local Data</button>
         </div>
       </div>
     </div>
@@ -3364,6 +3533,395 @@
       printWin.focus();
     };
 
+
+    // ═══════════════════════════════════════════════════════════════
+    // FIREBASE SYNC MODULE
+    // Handles: Firestore multi-device sync for starred, custom answers,
+    // exam history, student profiles. Admin reads all student data.
+    // ═══════════════════════════════════════════════════════════════
+
+    // ── Device ID (stable UUID per browser) ──
+    function getDeviceId() {
+      let id = localStorage.getItem('muallim_device_id');
+      if (!id) {
+        id = 'dev_' + crypto.randomUUID();
+        localStorage.setItem('muallim_device_id', id);
+      }
+      return id;
+    }
+
+    // ── Firebase state ──
+    let _db = null;          // Firestore instance
+    let _fbApp = null;       // Firebase App instance
+    let _fbConfig = null;    // config object
+    let _syncDebounceTimer = null;
+
+    const FIREBASE_MODULES = {
+      app:       'https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js',
+      firestore: 'https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js',
+    };
+
+    // ── Load + init Firebase ──
+    async function loadFirebase(config) {
+      const { initializeApp, getApps } = await import(FIREBASE_MODULES.app);
+      const {
+        getFirestore, doc, setDoc, getDoc, getDocs,
+        collection, updateDoc, serverTimestamp, onSnapshot
+      } = await import(FIREBASE_MODULES.firestore);
+
+      // Prevent double-init
+      const apps = getApps();
+      _fbApp = apps.length > 0 ? apps[0] : initializeApp(config);
+      _db = getFirestore(_fbApp);
+
+      // Expose Firestore helpers on module scope
+      window._FS = { doc, setDoc, getDoc, getDocs, collection, updateDoc, serverTimestamp, onSnapshot };
+      window._FSDB = _db;
+      return true;
+    }
+
+    // ── Firebase Config: Save / Clear / Toggle panel ──
+    App.saveFirebaseConfig = async function() {
+      const raw = document.getElementById('firebase-config-input').value.trim();
+      if (!raw) { showToast('Paste your Firebase config first'); return; }
+      let config;
+      try {
+        // Allow both JSON object and JS object literals
+        config = JSON.parse(raw.replace(/([{,]\s*)([a-zA-Z_][a-zA-Z0-9_]*)(\s*:)/g, '$1"$2"$3'));
+      } catch(e) {
+        showToast('Invalid config JSON: ' + e.message); return;
+      }
+      if (!config.apiKey || !config.projectId) {
+        showToast('Config missing apiKey or projectId'); return;
+      }
+      localStorage.setItem('muallim_firebase_config', JSON.stringify(config));
+      _fbConfig = config;
+      showToast('Connecting to Firebase…');
+      await App.initFirebase();
+    };
+
+    App.clearFirebaseConfig = function() {
+      if (!confirm('Remove Firebase config? Sync will stop (local data stays intact).')) return;
+      localStorage.removeItem('muallim_firebase_config');
+      _db = null; _fbApp = null; _fbConfig = null;
+      updateFirebaseStatusBadge(false);
+      showToast('Firebase config removed');
+    };
+
+    App.toggleFirebaseConfigPanel = function() {
+      const panel = document.getElementById('firebase-config-panel');
+      if (!panel) return;
+      const isOpen = panel.style.display !== 'none';
+      panel.style.display = isOpen ? 'none' : 'block';
+      if (!isOpen) {
+        // Pre-fill if config exists
+        const saved = localStorage.getItem('muallim_firebase_config');
+        if (saved) document.getElementById('firebase-config-input').value = saved;
+      }
+    };
+
+    // ── Initialize Firebase on load (if config saved) ──
+    App.initFirebase = async function() {
+      const savedConfig = localStorage.getItem('muallim_firebase_config');
+      if (!savedConfig) return;
+      try {
+        _fbConfig = JSON.parse(savedConfig);
+        showSyncIndicator('Connecting…');
+        await loadFirebase(_fbConfig);
+        updateFirebaseStatusBadge(true);
+        showToast('☁ Firebase connected');
+        // Push local data up, then pull any newer remote data
+        await syncAllToFirestore();
+        showSyncIndicator('Synced ✓');
+        console.log('[Firebase] Connected and synced');
+      } catch(e) {
+        updateFirebaseStatusBadge(false);
+        console.warn('[Firebase] Init failed:', e);
+        showToast('Firebase error: ' + e.message);
+      }
+    };
+
+    function updateFirebaseStatusBadge(connected) {
+      const badge = document.getElementById('firebase-status-badge');
+      if (!badge) return;
+      if (connected) {
+        badge.className = 'firebase-status connected';
+        badge.textContent = '☁ Firebase connected';
+      } else {
+        badge.className = 'firebase-status disconnected';
+        badge.textContent = '⚡ Firebase not configured';
+      }
+    }
+
+    function showSyncIndicator(msg) {
+      const el = document.getElementById('sync-indicator');
+      if (!el) return;
+      el.textContent = msg || '☁ Synced';
+      el.classList.add('show');
+      clearTimeout(el._t);
+      el._t = setTimeout(() => el.classList.remove('show'), 2500);
+    }
+
+    // ── Firestore document paths ──
+    function studentDocPath() {
+      return `muallim_students/${getDeviceId()}`;
+    }
+
+    // ── Full sync: push local → Firestore ──
+    async function syncAllToFirestore() {
+      if (!_db || !window._FS) return;
+      const { doc, setDoc, serverTimestamp } = window._FS;
+      const studentName = localStorage.getItem('muallim_student_name') || 'Anonymous';
+      const deviceId = getDeviceId();
+
+      try {
+        // Write student profile + all data in one document
+        const examHistory = JSON.parse(localStorage.getItem('muallim_exam_history') || '[]');
+        const favs = JSON.parse(localStorage.getItem('muallim_favs') || '[]');
+        const custom = JSON.parse(localStorage.getItem('muallim_custom_answers') || '{}');
+
+        const payload = {
+          deviceId,
+          name: studentName,
+          lastSeen: serverTimestamp(),
+          currentStage,
+          currentLesson,
+          // Stars: array of { key, arabic, hinglish, stage, lesson }
+          starred: favs,
+          // Custom answers: key → answer string
+          customAnswers: custom,
+          // Exam history: array of result objects
+          examHistory: examHistory.slice(-50), // keep last 50
+          // Best score
+          bestScore: examHistory.length > 0 ? Math.max(...examHistory.map(h => h.score)) : null,
+        };
+
+        await setDoc(doc(_db, studentDocPath()), payload, { merge: true });
+        showSyncIndicator('☁ Synced');
+      } catch(e) {
+        console.warn('[Firebase] syncAll error:', e);
+      }
+    }
+
+    // ── Debounced sync (called after every data change) ──
+    function debouncedSync(delayMs) {
+      delayMs = delayMs || 1500;
+      clearTimeout(_syncDebounceTimer);
+      _syncDebounceTimer = setTimeout(syncAllToFirestore, delayMs);
+    }
+
+    // ── Patch toggleStarInPlace to also sync ──
+    const _origToggleStar = toggleStarInPlace;
+    function toggleStarInPlace(btn, key, arabic, hinglish) {
+      _origToggleStar(btn, key, arabic, hinglish);
+      debouncedSync();
+    }
+
+    // ── Patch saveCustomAnswer to also sync ──
+    const _origSaveCustom = saveCustomAnswer;
+    function saveCustomAnswer(key, val) {
+      _origSaveCustom(key, val);
+      debouncedSync();
+    }
+
+    // ── Patch saveStudentName to also sync ──
+    App.saveStudentName = function(name) {
+      localStorage.setItem('muallim_student_name', name.trim());
+      showToast('Name saved ✓');
+      debouncedSync(500);
+    };
+
+    // ── Admin: Read ALL students from Firestore ──
+    App.refreshAdminStudents = async function() {
+      const mount = document.getElementById('admin-students-mount');
+      if (!mount) return;
+
+      // If Firebase not configured, show local data only
+      if (!_db || !window._FS) {
+        renderAdminLocalOnly(mount);
+        return;
+      }
+
+      mount.innerHTML = '<div style="text-align:center; padding:12px; color:var(--text-muted);">Loading…</div>';
+
+      try {
+        const { collection, getDocs } = window._FS;
+        const snap = await getDocs(collection(_db, 'muallim_students'));
+        const students = [];
+        snap.forEach(doc => students.push({ id: doc.id, ...doc.data() }));
+
+        if (students.length === 0) {
+          mount.innerHTML = '<div style="text-align:center; padding:12px; color:var(--text-muted);">No students synced yet</div>';
+          return;
+        }
+
+        // Sort by lastSeen descending
+        students.sort((a, b) => {
+          const at = a.lastSeen?.toMillis?.() || 0;
+          const bt = b.lastSeen?.toMillis?.() || 0;
+          return bt - at;
+        });
+
+        mount.innerHTML = students.map(s => buildAdminStudentCard(s)).join('');
+      } catch(e) {
+        mount.innerHTML = `<div style="color:#EF4444; padding:8px; font-size:0.8rem;">Error: ${e.message}</div>`;
+      }
+    };
+
+    function renderAdminLocalOnly(mount) {
+      const name = localStorage.getItem('muallim_student_name') || 'Anonymous';
+      const examHistory = JSON.parse(localStorage.getItem('muallim_exam_history') || '[]');
+      const favs = JSON.parse(localStorage.getItem('muallim_favs') || '[]');
+      const custom = JSON.parse(localStorage.getItem('muallim_custom_answers') || '{}');
+      const best = examHistory.length > 0 ? Math.max(...examHistory.map(h => h.score)) : null;
+
+      const student = {
+        name, deviceId: getDeviceId(),
+        starred: favs, customAnswers: custom, examHistory,
+        bestScore: best, lastSeen: null, _localOnly: true
+      };
+      mount.innerHTML = buildAdminStudentCard(student);
+      mount.insertAdjacentHTML('afterbegin',
+        '<div style="font-size:0.72rem; color:var(--accent-emerald); margin-bottom:8px;">⚠ Local data only — configure Firebase for multi-device</div>'
+      );
+    }
+
+    function buildAdminStudentCard(s) {
+      const name = s.name || 'Anonymous';
+      const deviceShort = (s.deviceId || '').slice(-6);
+      const lastSeen = s.lastSeen?.toDate?.() ? new Date(s.lastSeen.toDate()).toLocaleDateString() : (s._localOnly ? 'this device' : 'unknown');
+      const starCount = (s.starred || []).length;
+      const customCount = Object.keys(s.customAnswers || {}).length;
+      const examCount = (s.examHistory || []).length;
+      const best = s.bestScore != null ? s.bestScore + '%' : '—';
+
+      return `
+        <div class="admin-student-card">
+          <div class="admin-student-card-header">
+            <span class="admin-student-name">👤 ${name}</span>
+            <span class="admin-student-badge">#${deviceShort} · ${lastSeen}</span>
+          </div>
+          <div class="admin-data-row">
+            <span class="admin-data-chip starred">⭐ ${starCount} starred</span>
+            <span class="admin-data-chip custom">✏ ${customCount} custom</span>
+            <span class="admin-data-chip exam">🎓 ${examCount} exams · best ${best}</span>
+          </div>
+          ${examCount > 0 ? `
+            <div style="margin-top:6px; font-size:0.75rem; color:var(--text-muted);">
+              Last exam: ${s.examHistory.slice(-1)[0]?.grade || '—'} — 
+              ${s.examHistory.slice(-1)[0]?.score || 0}% on 
+              ${new Date(s.examHistory.slice(-1)[0]?.date || Date.now()).toLocaleDateString()}
+            </div>` : ''}
+          ${starCount > 0 ? `
+            <details style="margin-top:6px;">
+              <summary style="font-size:0.72rem; color:var(--accent-emerald); cursor:pointer; font-weight:700;">
+                View ${starCount} starred words
+              </summary>
+              <div style="margin-top:6px; display:flex; flex-wrap:wrap; gap:4px;">
+                ${(s.starred || []).map(f =>
+                  `<span style="font-family:var(--font-arabic); font-size:0.9rem; padding:2px 6px; background:rgba(251,191,36,0.1); border-radius:6px;" title="${f.hinglish || ''}">${f.arabic}</span>`
+                ).join('')}
+              </div>
+            </details>` : ''}
+          ${customCount > 0 ? `
+            <details style="margin-top:4px;">
+              <summary style="font-size:0.72rem; color:#4338CA; cursor:pointer; font-weight:700;">
+                View ${customCount} custom answers
+              </summary>
+              <table style="margin-top:6px; width:100%; border-collapse:collapse; font-size:0.72rem;">
+                <tr style="color:var(--text-muted);"><th style="text-align:left; padding:2px 4px;">Arabic key</th><th style="text-align:left; padding:2px 4px;">Custom answer</th></tr>
+                ${Object.entries(s.customAnswers || {}).map(([k, v]) =>
+                  `<tr><td style="padding:2px 4px; color:var(--text-muted);">${k}</td><td style="padding:2px 4px; color:var(--text-primary); font-weight:600;">${v}</td></tr>`
+                ).join('')}
+              </table>
+            </details>` : ''}
+        </div>`;
+    }
+
+    // ── Admin: Send broadcast notification ──
+    App.sendBroadcast = async function() {
+      const msg = document.getElementById('broadcast-msg-input')?.value?.trim();
+      if (!msg) { showToast('Type a message first'); return; }
+      if (!_db || !window._FS) {
+        showToast('Firebase must be configured to send broadcasts');
+        return;
+      }
+      try {
+        const { doc, setDoc, serverTimestamp } = window._FS;
+        await setDoc(doc(_db, 'muallim_broadcasts', `bc_${Date.now()}`), {
+          message: msg,
+          sentAt: serverTimestamp(),
+          sentBy: localStorage.getItem('muallim_student_name') || 'Teacher'
+        });
+        document.getElementById('broadcast-msg-input').value = '';
+        showToast('📢 Broadcast sent!');
+      } catch(e) {
+        showToast('Error sending broadcast: ' + e.message);
+      }
+    };
+
+    // ── Listen for incoming broadcasts (students) ──
+    async function listenForBroadcasts() {
+      if (!_db || !window._FS) return;
+      const { collection, onSnapshot } = window._FS;
+      try {
+        onSnapshot(collection(_db, 'muallim_broadcasts'), snap => {
+          snap.docChanges().forEach(change => {
+            if (change.type === 'added') {
+              const data = change.doc.data();
+              // Only show if message is new (within last 5 minutes)
+              const ageMs = Date.now() - (data.sentAt?.toMillis?.() || 0);
+              if (ageMs < 5 * 60 * 1000) {
+                showToast('📢 ' + data.message, 6000);
+              }
+            }
+          });
+        });
+      } catch(e) {
+        console.warn('[Firebase] broadcast listener error:', e);
+      }
+    }
+
+    // ── Also sync after exam finishes ──
+    const _origSaveExamResult = typeof saveExamResult === 'function' ? saveExamResult : null;
+    // We patch it at runtime:
+    function saveExamResultAndSync() {
+      // Call the original save (already defined in previous JS block)
+      const { pct, correct, total } = calcExamScore();
+      const grade = calcGrade(pct);
+      const result = {
+        id: `exam_${Date.now()}`,
+        studentName: localStorage.getItem('muallim_student_name') || 'Anonymous',
+        stage: currentStage,
+        lesson: currentLesson,
+        date: new Date().toISOString(),
+        score: pct,
+        grade,
+        correct,
+        total,
+        breakdown: { ...examBreakdown }
+      };
+      examHistory.push(result);
+      localStorage.setItem('muallim_exam_history', JSON.stringify(examHistory));
+      // Now sync to Firestore
+      debouncedSync(500);
+    }
+
+    // Override finishExam to use syncing version
+    App.finishExam = function() {
+      examState = 'summary';
+      saveExamResultAndSync();
+      renderExamView();
+    };
+
+    // ── Auto-init Firebase on DOMContentLoaded ──
+    // (called from the patched DOMContentLoaded listener below)
+    function initFirebaseOnLoad() {
+      App.initFirebase().then(() => {
+        if (_db) listenForBroadcasts();
+      });
+    }
+
       return {
         init,
         setTheme,
@@ -3423,7 +3981,13 @@
         printExamResults,
         seqDragStart,
         seqDragOver,
-        seqDrop
+        seqDrop,
+        initFirebase,
+        saveFirebaseConfig,
+        clearFirebaseConfig,
+        toggleFirebaseConfigPanel,
+        refreshAdminStudents,
+        sendBroadcast
       };
     })();
 
@@ -3436,6 +4000,7 @@
       }, 100);
     });
   </script>
+  <div id="sync-indicator" class="sync-indicator">☁ Synced</div>
   <!-- Toast Notification -->
   <div id="app-toast"></div>
 

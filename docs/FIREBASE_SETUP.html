@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Firebase Setup Guide — Muallim ul-Qur'an</title>
+  <style>
+    :root {
+      --green:#1B4332;--green-light:#2D6A4F;--green-bg:rgba(27,67,50,.07);
+      --gold:#B7860B;--red:#DC2626;--blue:#1D4ED8;--blue-bg:rgba(29,78,216,.07);
+      --purple:#6D28D9;--gray-50:#F9FAFB;--gray-100:#F3F4F6;--gray-200:#E5E7EB;
+      --gray-400:#9CA3AF;--gray-600:#4B5563;--gray-800:#1F2937;
+      --radius:10px;--shadow:0 2px 12px rgba(0,0,0,.08);
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#FDFBF7;color:var(--gray-800);line-height:1.65}
+    .page-wrap{max-width:900px;margin:0 auto;padding:24px 20px 60px}
+    /* Header */
+    .doc-header{background:var(--green);color:white;padding:32px 28px;border-radius:var(--radius);margin-bottom:32px;position:relative;overflow:hidden}
+    .doc-header::after{content:'☁';position:absolute;right:28px;top:18px;font-size:5rem;opacity:.08}
+    .doc-header h1{font-size:1.6rem;margin-bottom:6px}
+    .doc-header p{opacity:.8;font-size:.92rem}
+    .doc-header .badge{display:inline-block;background:rgba(255,255,255,.15);padding:3px 10px;border-radius:20px;font-size:.75rem;font-weight:700;margin-top:10px}
+    /* TOC */
+    .toc{background:var(--green-bg);border:1px solid rgba(27,67,50,.15);border-radius:var(--radius);padding:18px 22px;margin-bottom:32px}
+    .toc h3{color:var(--green);font-size:.88rem;font-weight:700;text-transform:uppercase;margin-bottom:10px}
+    .toc ol{padding-left:18px}
+    .toc li{margin-bottom:4px}
+    .toc a{color:var(--green-light);font-weight:600;text-decoration:none;font-size:.9rem}
+    .toc a:hover{text-decoration:underline}
+    /* Sections */
+    .section{margin-bottom:36px}
+    .section-header{display:flex;align-items:center;gap:12px;margin-bottom:16px;padding-bottom:10px;border-bottom:2px solid var(--gray-200)}
+    .section-number{background:var(--green);color:white;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.9rem;flex-shrink:0}
+    .section-header h2{font-size:1.15rem;color:var(--gray-800)}
+    .section-header .est{font-size:.75rem;color:var(--gray-400);margin-left:auto}
+    /* Steps */
+    .step{display:flex;gap:14px;margin-bottom:14px;align-items:flex-start}
+    .step-num{background:var(--gray-100);border:2px solid var(--gray-200);color:var(--green);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.78rem;flex-shrink:0;margin-top:2px}
+    .step-body{flex:1}
+    .step-body p{font-size:.92rem;color:var(--gray-800)}
+    .step-body p+p{margin-top:6px}
+    /* Code */
+    pre{background:#1E2433;color:#E2E8F0;padding:16px 18px;border-radius:var(--radius);font-size:.82rem;overflow-x:auto;margin:10px 0;line-height:1.6;position:relative}
+    code{font-family:'Fira Code','Courier New',monospace}
+    pre .comment{color:#718096}
+    pre .key{color:#FBB6CE}
+    pre .str{color:#9AE6B4}
+    pre .num{color:#FAF089}
+    pre .kw{color:#90CDF4}
+    .ic{background:var(--gray-100);color:var(--green);font-family:'Courier New',monospace;font-size:.83em;padding:2px 6px;border-radius:4px;border:1px solid var(--gray-200)}
+    /* Callouts */
+    .callout{padding:14px 16px;border-radius:var(--radius);margin:14px 0;font-size:.88rem;display:flex;gap:10px}
+    .ci{font-size:1.1rem;flex-shrink:0;margin-top:1px}
+    .callout.info{background:var(--blue-bg);border-left:3px solid var(--blue)}
+    .callout.warn{background:rgba(251,191,36,.10);border-left:3px solid #D97706}
+    .callout.tip{background:var(--green-bg);border-left:3px solid var(--green)}
+    .callout.danger{background:rgba(220,38,38,.07);border-left:3px solid var(--red)}
+    /* Tables */
+    .doc-table{width:100%;border-collapse:collapse;margin:12px 0;font-size:.88rem}
+    .doc-table th{background:var(--green);color:white;padding:9px 12px;text-align:left;font-weight:700}
+    .doc-table td{padding:8px 12px;border-bottom:1px solid var(--gray-200);vertical-align:top}
+    .doc-table tr:last-child td{border-bottom:none}
+    .doc-table tr:nth-child(even) td{background:var(--gray-50)}
+    /* Schema tree */
+    .schema-tree{background:#1E2433;color:#E2E8F0;padding:16px 18px;border-radius:var(--radius);font-family:'Courier New',monospace;font-size:.82rem;line-height:1.8;margin:10px 0;overflow-x:auto}
+    .schema-tree .folder{color:#90CDF4}
+    .schema-tree .field{color:#9AE6B4}
+    .schema-tree .type{color:#FBB6CE;font-style:italic}
+    .schema-tree .arrow{color:#718096}
+    /* Rules block */
+    .rules-block{background:#0D1117;color:#C9D1D9;padding:16px 18px;border-radius:var(--radius);font-family:'Courier New',monospace;font-size:.8rem;line-height:1.7;overflow-x:auto}
+    .rules-block .rk{color:#FF7B72}
+    .rules-block .rs{color:#A5D6FF}
+    .rules-block .rc{color:#8B949E}
+    /* Cards */
+    .card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:14px 0}
+    .mini-card{background:white;border:1px solid var(--gray-200);border-radius:var(--radius);padding:14px;box-shadow:var(--shadow)}
+    .mini-card .icon{font-size:1.6rem;margin-bottom:6px}
+    .mini-card h4{font-size:.88rem;color:var(--green);margin-bottom:4px}
+    .mini-card p{font-size:.78rem;color:var(--gray-600)}
+    /* Checklist */
+    .checklist{list-style:none;padding:0;margin:10px 0}
+    .checklist li{display:flex;gap:8px;align-items:flex-start;padding:5px 0;font-size:.9rem}
+    .checklist li::before{content:'☐';color:var(--green);font-size:1rem;flex-shrink:0;margin-top:1px}
+    /* Tag */
+    .tag{display:inline-block;padding:2px 8px;border-radius:10px;font-size:.72rem;font-weight:700}
+    .tag.free{background:rgba(16,185,129,.12);color:#047857}
+    .tag.optional{background:var(--gray-100);color:var(--gray-600)}
+    h3.sub{margin:18px 0 10px;font-size:.95rem;color:var(--gray-800)}
+    @media(max-width:600px){.card-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<div class="page-wrap">
+
+<div class="doc-header">
+  <h1>&#9729; Firebase Setup Guide</h1>
+  <p>Enable multi-device sync for Muallim ul-Qur'an &mdash; sync starred words, custom answers, and exam scores across all student devices, with a full teacher admin dashboard.</p>
+  <div class="badge">Muallim ul-Qur'an &middot; Firestore + FCM &middot; Free Tier &middot; Spark Plan</div>
+</div>
+
+<div class="toc">
+  <h3>Table of Contents</h3>
+  <ol>
+    <li><a href="#s1">What You Get with Firebase</a></li>
+    <li><a href="#s2">Create a Firebase Project (5 min)</a></li>
+    <li><a href="#s3">Enable Firestore Database</a></li>
+    <li><a href="#s4">Set Firestore Security Rules (Critical)</a></li>
+    <li><a href="#s5">Connect the App &mdash; Paste Your Config</a></li>
+    <li><a href="#s6">Embed Config for All Students (Recommended)</a></li>
+    <li><a href="#s7">Firestore Data Structure Explained</a></li>
+    <li><a href="#s8">Admin Dashboard &mdash; Reading Student Data</a></li>
+    <li><a href="#s9">What Admin Sees Per Student</a></li>
+    <li><a href="#s10">Broadcast Notifications to Students</a></li>
+    <li><a href="#s11">Enable Background Push Notifications (FCM)</a></li>
+    <li><a href="#s12">Free Tier Limits &amp; Quota Safety</a></li>
+    <li><a href="#s13">Troubleshooting</a></li>
+    <li><a href="#s14">Full Firestore Rules (Copy-Paste Ready)</a></li>
+    <li><a href="#s15">Setup Checklist</a></li>
+  </ol>
+</div>
+
+<!-- S1 -->
+<div class="section" id="s1">
+  <div class="section-header">
+    <div class="section-number">1</div>
+    <h2>What You Get with Firebase</h2>
+  </div>
+  <div class="card-grid">
+    <div class="mini-card"><div class="icon">&#11088;</div><h4>Starred Words Sync</h4><p>All students' starred vocabulary saved to cloud. Admin sees every student's starred Arabic words.</p></div>
+    <div class="mini-card"><div class="icon">&#9999;&#65039;</div><h4>Custom Answers Sync</h4><p>Students' personal translations synced. Teacher sees each custom answer for every vocab item, per student.</p></div>
+    <div class="mini-card"><div class="icon">&#127891;</div><h4>Exam Scores Sync</h4><p>Every attempt (score, grade, breakdown, timestamp) stored per student. Admin sees full history.</p></div>
+    <div class="mini-card"><div class="icon">&#128226;</div><h4>Broadcast Alerts</h4><p>Teacher types a message in Admin Panel &rarr; all students with app open see it as an instant toast alert.</p></div>
+    <div class="mini-card"><div class="icon">&#128242;</div><h4>Cross-Device</h4><p>Student uses phone and tablet &mdash; data auto-merges. Works offline, syncs when back online.</p></div>
+    <div class="mini-card"><div class="icon">&#128;FREE</div><h4>Free Forever</h4><p>Firebase Spark plan: 1 GiB storage, 50K reads/day, 20K writes/day &mdash; enough for a full class.</p></div>
+  </div>
+  <div class="callout info"><div class="ci">&#8505;&#65039;</div><div>The app works <strong>fully offline</strong> without Firebase. All reading, bookmarks, vocab drill, and exams continue to work with no internet. Firebase only adds cloud sync on top.</div></div>
+</div>
+
+<!-- S2 -->
+<div class="section" id="s2">
+  <div class="section-header">
+    <div class="section-number">2</div>
+    <h2>Create a Firebase Project</h2>
+    <span class="est">~5 min &middot; Free</span>
+  </div>
+  <div class="step"><div class="step-num">1</div><div class="step-body"><p>Go to <strong><a href="https://console.firebase.google.com" target="_blank">console.firebase.google.com</a></strong> and sign in with your Google account.</p></div></div>
+  <div class="step"><div class="step-num">2</div><div class="step-body"><p>Click <strong>"Add project"</strong>. Enter a name like <span class="ic">muallim-quran</span>. Click <strong>Continue</strong>.</p></div></div>
+  <div class="step"><div class="step-num">3</div><div class="step-body"><p>On the Google Analytics screen, <strong>disable analytics</strong> (not needed). Click <strong>Create project</strong>.</p></div></div>
+  <div class="step"><div class="step-num">4</div><div class="step-body"><p>Once created, click <strong>Continue</strong>. You&rsquo;ll land on the Project Overview page.</p></div></div>
+  <div class="step"><div class="step-num">5</div><div class="step-body"><p>Click the <strong>Web icon</strong> (<code>&lt;/&gt;</code>) to add a web app. Enter a nickname like <span class="ic">Muallim Web</span>. <strong>Do NOT</strong> check &ldquo;Firebase Hosting&rdquo;. Click <strong>Register app</strong>.</p></div></div>
+  <div class="step"><div class="step-num">6</div><div class="step-body">
+    <p>Firebase shows you a config object. <strong>Copy the <code>{ &hellip; }</code> object</strong>:</p>
+    <pre><code><span class="comment">// Example — your real values will differ:</span>
+{
+  <span class="key">"apiKey"</span>: <span class="str">"AIzaSyXXXXXXXXXXXXXXXX"</span>,
+  <span class="key">"authDomain"</span>: <span class="str">"muallim-quran.firebaseapp.com"</span>,
+  <span class="key">"projectId"</span>: <span class="str">"muallim-quran"</span>,
+  <span class="key">"storageBucket"</span>: <span class="str">"muallim-quran.appspot.com"</span>,
+  <span class="key">"messagingSenderId"</span>: <span class="str">"123456789012"</span>,
+  <span class="key">"appId"</span>: <span class="str">"1:123456789012:web:abcdef1234"</span>
+}</code></pre>
+    <div class="callout warn"><div class="ci">&#9888;&#65039;</div><div><strong>Is the API key safe?</strong> Yes &mdash; for a web PWA protected by Firestore Security Rules, the API key alone cannot read or write data. The rules (Step 4) enforce all access control. Never share your Firebase <em>service account private key</em> (that is a different file, only used server-side).</div></div>
+  </div></div>
+</div>
+
+<!-- S3 -->
+<div class="section" id="s3">
+  <div class="section-header">
+    <div class="section-number">3</div>
+    <h2>Enable Firestore Database</h2>
+    <span class="est">~3 min</span>
+  </div>
+  <div class="step"><div class="step-num">1</div><div class="step-body"><p>In the Firebase Console left sidebar &rarr; <strong>Firestore Database</strong> (under Build).</p></div></div>
+  <div class="step"><div class="step-num">2</div><div class="step-body"><p>Click <strong>&ldquo;Create database&rdquo;</strong>.</p></div></div>
+  <div class="step"><div class="step-num">3</div><div class="step-body"><p>Choose <strong>&ldquo;Start in production mode&rdquo;</strong>. Click <strong>Next</strong>.</p></div></div>
+  <div class="step"><div class="step-num">4</div><div class="step-body"><p>Select a Cloud Firestore location &mdash; choose the region nearest to your students. For Pakistan: <span class="ic">asia-south1</span> (Mumbai). Click <strong>Enable</strong>.</p></div></div>
+  <div class="callout tip"><div class="ci">&#128161;</div><div>The location cannot be changed later. <strong>asia-south1</strong> (Mumbai) gives the best latency for Pakistan and India.</div></div>
+</div>
+
+<!-- S4 -->
+<div class="section" id="s4">
+  <div class="section-header">
+    <div class="section-number">4</div>
+    <h2>Set Firestore Security Rules</h2>
+    <span class="est">~5 min &middot; Critical</span>
+  </div>
+  <div class="callout danger"><div class="ci">&#128680;</div><div><strong>This step is required.</strong> Without proper rules, anyone who finds your API key could read or modify all student data. The rules below protect everything correctly.</div></div>
+  <div class="step"><div class="step-num">1</div><div class="step-body"><p>In the Firestore Console, click the <strong>&ldquo;Rules&rdquo;</strong> tab at the top.</p></div></div>
+  <div class="step"><div class="step-num">2</div><div class="step-body">
+    <p><strong>Delete all existing rules</strong> and paste the rules from <a href="#s14">Section 14</a> below.</p>
+  </div></div>
+  <div class="step"><div class="step-num">3</div><div class="step-body"><p>Click <strong>&ldquo;Publish&rdquo;</strong>. Rules take effect within ~1 minute.</p></div></div>
+  <div class="callout info"><div class="ci">&#8505;&#65039;</div><div><strong>Why no login?</strong> The app works as an offline PWA and requiring students to create Google accounts adds friction. Instead, each device gets a stable UUID &mdash; the security rule verifies a device can only write its own document. This is appropriate for a classroom Qur'an study app where authentication overhead outweighs the benefit.</div></div>
+</div>
+
+<!-- S5 -->
+<div class="section" id="s5">
+  <div class="section-header">
+    <div class="section-number">5</div>
+    <h2>Connect the App &mdash; Paste Your Config</h2>
+    <span class="est">~2 min &middot; Teacher device only</span>
+  </div>
+  <div class="step"><div class="step-num">1</div><div class="step-body"><p>Open the Muallim app at <strong>nomaanc.github.io/muallim/</strong>.</p></div></div>
+  <div class="step"><div class="step-num">2</div><div class="step-body"><p>Tap the <strong>&#9776; menu</strong> button (top right corner).</p></div></div>
+  <div class="step"><div class="step-num">3</div><div class="step-body"><p>Scroll to the bottom of the menu. Enter the Teacher PIN (default: <span class="ic">786</span>) and tap <strong>&ldquo;Unlock Admin Panel&rdquo;</strong>.</p></div></div>
+  <div class="step"><div class="step-num">4</div><div class="step-body"><p>In the Admin Panel, tap <strong>&ldquo;&#9881; Configure Firebase&rdquo;</strong>.</p></div></div>
+  <div class="step"><div class="step-num">5</div><div class="step-body">
+    <p>Paste your Firebase config JSON into the text area. Only paste the <code>{ &hellip; }</code> object, not the surrounding JavaScript code.</p>
+    <div class="callout warn"><div class="ci">&#9888;&#65039;</div><div>If Firebase Console showed: <code>const firebaseConfig = { &hellip; };</code> &mdash; only paste the part inside <code>= { &hellip; };</code>, i.e. just the curly braces and their contents.</div></div>
+  </div></div>
+  <div class="step"><div class="step-num">6</div><div class="step-body"><p>Tap <strong>&ldquo;&#128190; Save &amp; Connect&rdquo;</strong>. The badge turns green: <em>&ldquo;&#9729; Firebase connected&rdquo;</em>.</p></div></div>
+  <div class="step"><div class="step-num">7</div><div class="step-body"><p>The app immediately syncs your local data (starred, custom answers, exam history) to Firestore. Future changes sync within ~1.5 seconds (debounced).</p></div></div>
+</div>
+
+<!-- S6 -->
+<div class="section" id="s6">
+  <div class="section-header">
+    <div class="section-number">6</div>
+    <h2>Embed Config for All Students (Recommended)</h2>
+    <span class="est">~3 min &middot; One-time</span>
+  </div>
+  <div class="callout tip"><div class="ci">&#128161;</div><div>The teacher paste (Step 5) connects <em>your</em> device. To make ALL student devices auto-connect without any setup, embed the config directly into the HTML file and push to GitHub.</div></div>
+  <p style="font-size:.9rem;margin-bottom:8px;">Open <span class="ic">pwa/final-book-7units.html</span> in a text editor. Find this block near the top of the file:</p>
+  <pre><code><span class="comment">&lt;!-- Firebase SDK (modular, loaded async only when config is set) --&gt;</span>
+<span class="kw">&lt;script</span> type=<span class="str">"module"</span> id=<span class="str">"firebase-module-loader"</span>&gt;
+  <span class="comment">// Firebase is loaded dynamically via App.initFirebase() after user provides config</span>
+<span class="kw">&lt;/script&gt;</span></code></pre>
+  <p style="font-size:.9rem;margin:8px 0;">Replace it with:</p>
+  <pre><code><span class="comment">&lt;!-- Firebase auto-config: embedded so all devices auto-connect --&gt;</span>
+<span class="kw">&lt;script&gt;</span>
+  <span class="kw">try</span> {
+    <span class="kw">if</span> (!localStorage.getItem(<span class="str">'muallim_firebase_config'</span>)) {
+      localStorage.setItem(<span class="str">'muallim_firebase_config'</span>, JSON.stringify({
+        apiKey: <span class="str">"YOUR_API_KEY"</span>,
+        authDomain: <span class="str">"YOUR_PROJECT.firebaseapp.com"</span>,
+        projectId: <span class="str">"YOUR_PROJECT_ID"</span>,
+        storageBucket: <span class="str">"YOUR_PROJECT.appspot.com"</span>,
+        messagingSenderId: <span class="str">"YOUR_SENDER_ID"</span>,
+        appId: <span class="str">"YOUR_APP_ID"</span>
+      }));
+    }
+  } <span class="kw">catch</span>(e) {}
+<span class="kw">&lt;/script&gt;</span></code></pre>
+  <p style="font-size:.9rem;margin-top:8px;">Replace the placeholder values with your real Firebase config values, then commit and push to GitHub. Every student who opens the app will automatically connect to Firestore.</p>
+</div>
+
+<!-- S7 -->
+<div class="section" id="s7">
+  <div class="section-header">
+    <div class="section-number">7</div>
+    <h2>Firestore Data Structure Explained</h2>
+  </div>
+  <p style="font-size:.9rem;margin-bottom:12px;">The app uses a flat, efficient structure &mdash; one Firestore document per student device:</p>
+  <div class="schema-tree"><pre>
+Firestore Root
+&#9474;
+&#9500;&#9472;&#9472; <span class="folder">muallim_students/</span>             <span class="comment">&larr; collection</span>
+&#9474;   &#9474;
+&#9474;   &#9492;&#9472;&#9472; <span class="folder">dev_550e8400-e29b.../</span>      <span class="comment">&larr; document per device (UUID key)</span>
+&#9474;       &#9474;
+&#9474;       &#9500;&#9472;&#9472; <span class="field">deviceId</span>           <span class="arrow">&#8594;</span> <span class="type">"dev_550e8400..."</span>   stable browser UUID
+&#9474;       &#9500;&#9472;&#9472; <span class="field">name</span>               <span class="arrow">&#8594;</span> <span class="type">"Ali Hassan"</span>        student's entered name
+&#9474;       &#9500;&#9472;&#9472; <span class="field">lastSeen</span>           <span class="arrow">&#8594;</span> <span class="type">Timestamp</span>           server time of last sync
+&#9474;       &#9500;&#9472;&#9472; <span class="field">currentStage</span>       <span class="arrow">&#8594;</span> <span class="type">number</span>              last lesson position (1-7)
+&#9474;       &#9500;&#9472;&#9472; <span class="field">currentLesson</span>      <span class="arrow">&#8594;</span> <span class="type">number</span>              last lesson position (1-N)
+&#9474;       &#9474;
+&#9474;       &#9500;&#9472;&#9472; <span class="field">starred</span>            <span class="arrow">&#8594;</span> <span class="type">Array of objects</span>
+&#9474;       &#9474;     <span class="comment">Each item: { key, arabic, hinglish, stage, lesson }</span>
+&#9474;       &#9474;     <span class="comment">Max ~500 items (well under Firestore limits)</span>
+&#9474;       &#9474;
+&#9474;       &#9500;&#9472;&#9472; <span class="field">customAnswers</span>      <span class="arrow">&#8594;</span> <span class="type">Map / object</span>
+&#9474;       &#9474;     <span class="comment">Key: vocab item identifier e.g. "S1L3_s2_4"</span>
+&#9474;       &#9474;     <span class="comment">Value: student's custom translation string</span>
+&#9474;       &#9474;
+&#9474;       &#9500;&#9472;&#9472; <span class="field">examHistory</span>        <span class="arrow">&#8594;</span> <span class="type">Array of objects</span> (last 50 attempts)
+&#9474;       &#9474;     <span class="comment">Each: { id, studentName, stage, lesson, date,</span>
+&#9474;       &#9474;             <span class="comment">score, grade, correct, total, breakdown }</span>
+&#9474;       &#9474;
+&#9474;       &#9492;&#9472;&#9472; <span class="field">bestScore</span>          <span class="arrow">&#8594;</span> <span class="type">number</span>              highest exam % ever
+&#9474;
+&#9492;&#9472;&#9472; <span class="folder">muallim_broadcasts/</span>           <span class="comment">&larr; collection</span>
+    &#9474;
+    &#9492;&#9472;&#9472; <span class="folder">bc_1724887200000/</span>         <span class="comment">&larr; document per broadcast (timestamp key)</span>
+        &#9500;&#9472;&#9472; <span class="field">message</span>            <span class="arrow">&#8594;</span> <span class="type">"Exam tomorrow at 3pm"</span>
+        &#9500;&#9472;&#9472; <span class="field">sentAt</span>             <span class="arrow">&#8594;</span> <span class="type">Timestamp</span>
+        &#9492;&#9472;&#9472; <span class="field">sentBy</span>             <span class="arrow">&#8594;</span> <span class="type">"Teacher"</span>
+</pre></div>
+
+  <h3 class="sub">Design Decisions</h3>
+  <table class="doc-table">
+    <tr><th>Decision</th><th>Reason</th></tr>
+    <tr><td><strong>One document per device</strong></td><td>Atomic writes, no subcollections &rarr; fewer Firestore reads (critical for free tier).</td></tr>
+    <tr><td><strong>UUID device ID, no auth</strong></td><td>No login friction for students. The security rule prevents cross-device writes without blocking reads.</td></tr>
+    <tr><td><strong>starred as Array</strong></td><td>Entire star list written in one atomic operation. Simple to display in admin. Max ~500 stars per student is realistic.</td></tr>
+    <tr><td><strong>customAnswers as Map</strong></td><td>Direct O(1) key&rarr;value lookup. Merges cleanly with <span class="ic">setDoc(merge:true)</span>.</td></tr>
+    <tr><td><strong>Last 50 exams only</strong></td><td>Keeps document size small (Firestore limit: 1 MiB per document). Students rarely need exams older than 50 attempts.</td></tr>
+    <tr><td><strong>Server timestamp for lastSeen</strong></td><td>Uses Firebase server time, not device clock &mdash; accurate sorting even if a device has wrong clock.</td></tr>
+    <tr><td><strong>1.5s debounce</strong></td><td>Rapid starring of 10 words = 1 write, not 10. Protects daily quota dramatically.</td></tr>
+  </table>
+</div>
+
+<!-- S8 -->
+<div class="section" id="s8">
+  <div class="section-header">
+    <div class="section-number">8</div>
+    <h2>Admin Dashboard &mdash; Reading Student Data</h2>
+  </div>
+  <div class="step"><div class="step-num">1</div><div class="step-body"><p>Open the app &rarr; &#9776; menu &rarr; Enter PIN &rarr; <strong>Unlock Admin Panel</strong>.</p></div></div>
+  <div class="step"><div class="step-num">2</div><div class="step-body"><p>Firebase status badge should show <strong>&ldquo;&#9729; Firebase connected&rdquo;</strong> in green. If not, configure Firebase first (Step 5).</p></div></div>
+  <div class="step"><div class="step-num">3</div><div class="step-body"><p>Tap <strong>&ldquo;&#8634; Refresh&rdquo;</strong> to load all student records from Firestore. One card appears per student device.</p></div></div>
+  <div class="step"><div class="step-num">4</div><div class="step-body"><p>Students who haven't entered their name appear as <em>"Anonymous"</em> with a device ID suffix. Remind them to go to &#9776; &rarr; My Name.</p></div></div>
+</div>
+
+<!-- S9 -->
+<div class="section" id="s9">
+  <div class="section-header">
+    <div class="section-number">9</div>
+    <h2>What Admin Sees Per Student</h2>
+  </div>
+  <table class="doc-table">
+    <tr><th>Data</th><th>How displayed</th><th>Source</th></tr>
+    <tr><td>&#11088; Starred words count</td><td>Chip showing count. Expandable: tap to see all Arabic words inline.</td><td><span class="ic">starred[]</span></td></tr>
+    <tr><td>&#9999;&#65039; Custom answers count</td><td>Chip showing count. Expandable: full table of key &rarr; translation.</td><td><span class="ic">customAnswers{}</span></td></tr>
+    <tr><td>&#127891; Exam count &amp; best score</td><td>Chip: "3 exams &middot; best 87%". Last exam: grade + score + date.</td><td><span class="ic">examHistory[]</span>, <span class="ic">bestScore</span></td></tr>
+    <tr><td>Last seen</td><td>Date shown in card header (server timestamp).</td><td><span class="ic">lastSeen</span></td></tr>
+    <tr><td>Lesson position</td><td>Stage N Lesson N (where student last was).</td><td><span class="ic">currentStage/Lesson</span></td></tr>
+  </table>
+  <div class="callout tip"><div class="ci">&#128161;</div><div>To see <strong>raw data</strong> in Firebase Console: Firestore &rarr; Data tab &rarr; muallim_students &rarr; click any device document. You can see the full starred array, customAnswers map, and examHistory array.</div></div>
+
+  <h3 class="sub">Exporting to CSV</h3>
+  <p style="font-size:.9rem">Firebase Console doesn't have built-in CSV export. Use <a href="https://console.firebase.google.com/project/_/firestore/data" target="_blank">Firestore Console</a> &rarr; three-dot menu &rarr; <strong>Export collection</strong> (exports as NDJSON). Or use the free tool <a href="https://firestore-export.web.app" target="_blank">firestore-export.web.app</a> to export as CSV.</p>
+</div>
+
+<!-- S10 -->
+<div class="section" id="s10">
+  <div class="section-header">
+    <div class="section-number">10</div>
+    <h2>Broadcast Notifications to Students</h2>
+  </div>
+  <div class="callout info"><div class="ci">&#8505;&#65039;</div><div>This uses Firestore (not FCM) &mdash; the message appears as a toast notification for any student who has the app open. It does NOT wake up students whose app is closed (that requires FCM, Section 11).</div></div>
+  <div class="step"><div class="step-num">1</div><div class="step-body"><p>Unlock Admin Panel &rarr; scroll to <strong>&ldquo;&#128226; Broadcast to Students&rdquo;</strong> section.</p></div></div>
+  <div class="step"><div class="step-num">2</div><div class="step-body"><p>Type your message (max 500 characters) in the text area.</p></div></div>
+  <div class="step"><div class="step-num">3</div><div class="step-body"><p>Tap <strong>&ldquo;&#128228; Send Broadcast&rdquo;</strong>. The message appears in Firestore under <span class="ic">muallim_broadcasts</span>.</p></div></div>
+  <div class="step"><div class="step-num">4</div><div class="step-body"><p>Students who have the app open see a green toast notification at the bottom of the screen within a few seconds. New broadcasts from the last 5 minutes are shown on load.</p></div></div>
+</div>
+
+<!-- S11 -->
+<div class="section" id="s11">
+  <div class="section-header">
+    <div class="section-number">11</div>
+    <h2>Enable Background Push Notifications (FCM) <span class="tag optional">Optional</span></h2>
+    <span class="est">~10 min</span>
+  </div>
+  <div class="callout info"><div class="ci">&#8505;&#65039;</div><div>The Broadcast feature (Step 10) works without FCM &mdash; it shows in-app toasts when the student has the app open. FCM adds <strong>background push</strong> (notification shown even when the app is closed, like a WhatsApp message).</div></div>
+
+  <h3 class="sub">11.1 &mdash; Generate VAPID Key</h3>
+  <div class="step"><div class="step-num">1</div><div class="step-body"><p>Firebase Console &rarr; <strong>Project Settings</strong> (gear icon) &rarr; <strong>Cloud Messaging</strong> tab.</p></div></div>
+  <div class="step"><div class="step-num">2</div><div class="step-body"><p>Under <em>Web Push certificates</em>, click <strong>&ldquo;Generate key pair&rdquo;</strong>. Copy the VAPID Key (a long base64 string).</p></div></div>
+
+  <h3 class="sub">11.2 &mdash; Create the Service Worker File</h3>
+  <p style="font-size:.9rem;margin-bottom:8px;">Create <span class="ic">pwa/firebase-messaging-sw.js</span>:</p>
+  <pre><code><span class="comment">// firebase-messaging-sw.js — place in pwa/ folder</span>
+importScripts(<span class="str">'https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js'</span>);
+importScripts(<span class="str">'https://www.gstatic.com/firebasejs/10.12.0/firebase-messaging-compat.js'</span>);
+
+firebase.initializeApp({
+  apiKey: <span class="str">"YOUR_API_KEY"</span>,
+  authDomain: <span class="str">"YOUR_PROJECT.firebaseapp.com"</span>,
+  projectId: <span class="str">"YOUR_PROJECT_ID"</span>,
+  storageBucket: <span class="str">"YOUR_PROJECT.appspot.com"</span>,
+  messagingSenderId: <span class="str">"YOUR_SENDER_ID"</span>,
+  appId: <span class="str">"YOUR_APP_ID"</span>
+});
+
+<span class="kw">const</span> messaging = firebase.messaging();
+
+messaging.onBackgroundMessage(<span class="kw">function</span>(payload) {
+  self.registration.showNotification(
+    payload.notification?.title || <span class="str">'Muallim ul-Qur\'an'</span>,
+    {
+      body: payload.notification?.body || payload.data?.message || <span class="str">''</span>,
+      icon: <span class="str">'/muallim/icons/icon-192.png'</span>,
+      badge: <span class="str">'/muallim/icons/icon-192.png'</span>,
+      tag: <span class="str">'muallim-broadcast'</span>
+    }
+  );
+});</code></pre>
+
+  <h3 class="sub">11.3 &mdash; Embed FCM Token Registration in the App</h3>
+  <p style="font-size:.9rem;margin-bottom:8px;">In <span class="ic">final-book-7units.html</span>, find the <span class="ic">App.enablePushNotifications</span> function. After <span class="ic">Notification.requestPermission()</span> returns <span class="ic">'granted'</span>, add:</p>
+  <pre><code><span class="kw">const</span> { getMessaging, getToken, onMessage } = <span class="kw">await</span> import(
+  <span class="str">'https://www.gstatic.com/firebasejs/10.12.0/firebase-messaging.js'</span>
+);
+<span class="kw">const</span> messaging = getMessaging(_fbApp);
+<span class="kw">const</span> swReg = <span class="kw">await</span> navigator.serviceWorker.register(<span class="str">'/muallim/firebase-messaging-sw.js'</span>);
+<span class="kw">const</span> token = <span class="kw">await</span> getToken(messaging, {
+  vapidKey: <span class="str">'YOUR_VAPID_KEY_HERE'</span>,    <span class="comment">// from Step 11.1</span>
+  serviceWorkerRegistration: swReg
+});
+<span class="kw">if</span> (token &amp;&amp; _db &amp;&amp; window._FS) {
+  <span class="kw">const</span> { doc, updateDoc } = window._FS;
+  <span class="kw">await</span> updateDoc(doc(_db, studentDocPath()), { fcmToken: token });
+  showToast(<span class="str">'&#9989; Push notifications enabled!'</span>);
+}
+
+<span class="comment">// Also listen for foreground messages</span>
+onMessage(messaging, (payload) =&gt; {
+  showToast(<span class="str">'&#128226; '</span> + (payload.notification?.body || <span class="str">''</span>), 6000);
+});</code></pre>
+
+  <div class="callout tip"><div class="ci">&#128161;</div><div>For most classroom use, the in-app Broadcast (Firestore-based) is sufficient. Only add FCM if you specifically need to reach students when their app is closed.</div></div>
+</div>
+
+<!-- S12 -->
+<div class="section" id="s12">
+  <div class="section-header">
+    <div class="section-number">12</div>
+    <h2>Free Tier Limits &amp; Quota Safety</h2>
+  </div>
+  <table class="doc-table">
+    <tr><th>Resource</th><th>Free Limit</th><th>Estimated Usage (30 students)</th><th>Status</th></tr>
+    <tr><td>Firestore Reads</td><td>50,000/day</td><td>~60 (2 per student load)</td><td style="color:#047857;font-weight:700">&#10003; Safe</td></tr>
+    <tr><td>Firestore Writes</td><td>20,000/day</td><td>~60&ndash;300 (debounced)</td><td style="color:#047857;font-weight:700">&#10003; Safe</td></tr>
+    <tr><td>Storage</td><td>1 GiB total</td><td>~0.15 MB (5 KB &times; 30 students)</td><td style="color:#047857;font-weight:700">&#10003; Safe</td></tr>
+    <tr><td>Network egress</td><td>10 GiB/month</td><td>Minimal (JSON only)</td><td style="color:#047857;font-weight:700">&#10003; Safe</td></tr>
+  </table>
+  <div class="callout tip"><div class="ci">&#128161;</div><div><strong>Debouncing is critical:</strong> The app waits 1.5 seconds after the last change before syncing, so rapidly starring 10 words = 1 write, not 10.<br><br>
+  <strong>Scaling up:</strong> If your class grows beyond ~500 students, consider Firebase Blaze (pay-as-you-go). 1 million reads costs about $0.06 &mdash; negligible at classroom scale.<br><br>
+  <strong>Monitor:</strong> Firebase Console &rarr; Usage and billing tab &rarr; Firestore section. Set a budget alert at $1 to get an email if usage unexpectedly spikes.</div></div>
+</div>
+
+<!-- S13 -->
+<div class="section" id="s13">
+  <div class="section-header">
+    <div class="section-number">13</div>
+    <h2>Troubleshooting</h2>
+  </div>
+  <table class="doc-table">
+    <tr><th>Problem</th><th>Likely Cause</th><th>Fix</th></tr>
+    <tr><td>"Firebase error: permission-denied"</td><td>Security rules not published, or wrong rules</td><td>Re-paste rules from Section 14 &rarr; Publish &rarr; wait 2 min.</td></tr>
+    <tr><td>Badge stays "&#9889; not configured"</td><td>Config JSON is malformed</td><td>Validate at <a href="https://jsonlint.com" target="_blank">jsonlint.com</a>. Only paste the <code>{ &hellip; }</code> block, not the <code>const firebaseConfig =</code> wrapper.</td></tr>
+    <tr><td>No students shown in Admin Panel</td><td>Students haven't loaded the app since Firebase was configured</td><td>Have students refresh the app tab. Tap Refresh in Admin Panel.</td></tr>
+    <tr><td>Firebase fails to load (module error)</td><td>Network/CORS issue; ad blocker</td><td>Try Chrome (best Firebase support). Disable ad blockers. Firebase SDK loads from Google CDN.</td></tr>
+    <tr><td>Sync indicator shows but nothing in Firestore</td><td>Rule validation blocking write</td><td>Open Chrome DevTools (F12) &rarr; Console &rarr; look for <code>[Firebase]</code> error.</td></tr>
+    <tr><td>Push notifications not arriving</td><td>Permission not granted; service worker not registered</td><td>Student must tap "Allow Notifications" in the app. Check browser notification settings &mdash; not blocked.</td></tr>
+    <tr><td>Students show as "Anonymous"</td><td>Student hasn't entered name</td><td>Remind them: &#9776; menu &rarr; My Name &rarr; type name &rarr; press Enter.</td></tr>
+    <tr><td>Data not loading after reopening app</td><td>Sync is push-only from student side; reads need teacher device with config</td><td>Embed config in HTML (Section 6) so all devices auto-sync bidirectionally.</td></tr>
+  </table>
+  <h3 class="sub">Debug in DevTools</h3>
+  <p style="font-size:.9rem;margin-bottom:8px;">Open Chrome DevTools (F12) &rarr; Console tab. The app logs Firebase events prefixed <span class="ic">[Firebase]</span>:</p>
+  <pre><code><span class="comment">// Normal output:</span>
+[Firebase] Connected and synced
+[Firebase] Student doc written successfully
+
+<span class="comment">// Error output:</span>
+[Firebase] Init failed: FirebaseError: Missing or insufficient permissions
+[Firebase] syncAll error: FirebaseError: permission-denied</code></pre>
+</div>
+
+<!-- S14 -->
+<div class="section" id="s14">
+  <div class="section-header">
+    <div class="section-number">14</div>
+    <h2>Full Firestore Rules (Copy-Paste Ready)</h2>
+  </div>
+  <div class="callout tip"><div class="ci">&#128161;</div><div>These rules are production-ready. Copy them exactly &mdash; replace all existing content in the Rules editor, then Publish.</div></div>
+  <div class="rules-block"><pre><code><span class="rk">rules_version</span> = <span class="rs">'2'</span>;
+
+<span class="rk">service</span> cloud.firestore {
+  <span class="rk">match</span> /databases/{database}/documents {
+
+    <span class="rc">// ─── STUDENT DOCUMENTS ──────────────────────────────────</span>
+    <span class="rc">// One doc per device (UUID key). Device can write its own</span>
+    <span class="rc">// doc only. All docs readable (teacher admin reads all).</span>
+    <span class="rk">match</span> /muallim_students/{deviceId} {
+
+      allow write: <span class="rk">if</span>
+        request.resource.data.deviceId == deviceId
+        &amp;&amp; request.resource.data.keys().hasAll([<span class="rs">'deviceId'</span>, <span class="rs">'name'</span>])
+        &amp;&amp; request.resource.data.deviceId <span class="rk">is</span> string
+        &amp;&amp; request.resource.data.name <span class="rk">is</span> string
+        &amp;&amp; request.resource.data.name.size() &lt;= 100;
+
+      allow read: <span class="rk">if</span> true;
+    }
+
+    <span class="rc">// ─── BROADCAST MESSAGES ──────────────────────────────────</span>
+    <span class="rc">// Readable by all (students receive broadcasts).</span>
+    <span class="rc">// Write requires valid string message &lt;= 500 chars.</span>
+    <span class="rc">// Update/delete not allowed (broadcasts are immutable).</span>
+    <span class="rk">match</span> /muallim_broadcasts/{broadcastId} {
+      allow read: <span class="rk">if</span> true;
+      allow create: <span class="rk">if</span>
+        request.resource.data.message <span class="rk">is</span> string
+        &amp;&amp; request.resource.data.message.size() &gt; 0
+        &amp;&amp; request.resource.data.message.size() &lt;= 500
+        &amp;&amp; request.resource.data.keys().hasAll([<span class="rs">'message'</span>, <span class="rs">'sentAt'</span>]);
+      allow update, delete: <span class="rk">if</span> false;
+    }
+
+    <span class="rc">// ─── DEFAULT: DENY ALL OTHER PATHS ───────────────────────</span>
+    <span class="rk">match</span> /{document=**} {
+      allow read, write: <span class="rk">if</span> false;
+    }
+  }
+}</code></pre></div>
+</div>
+
+<!-- S15 -->
+<div class="section" id="s15">
+  <div class="section-header">
+    <div class="section-number">15</div>
+    <h2>Setup Checklist</h2>
+  </div>
+  <ul class="checklist">
+    <li>Firebase project created (Spark / free plan)</li>
+    <li>Firestore database enabled &mdash; production mode &mdash; asia-south1 region</li>
+    <li>Security rules published (from Section 14)</li>
+    <li>Web app registered in Firebase Console &rarr; config object copied</li>
+    <li>Config pasted into Admin Panel &rarr; badge shows "&#9729; Firebase connected"</li>
+    <li>Test: star a word in the app &rarr; wait 2 sec &rarr; check Firestore Console &rarr; muallim_students &rarr; document exists with <span class="ic">starred</span> array</li>
+    <li>Test: Admin Panel &rarr; Refresh &rarr; student card visible with star count</li>
+    <li>Students have entered names (&#9776; &rarr; My Name)</li>
+    <li>(Recommended) Embed config in HTML for all-device auto-sync (Section 6)</li>
+    <li>(Optional) firebase-messaging-sw.js created for background push (Section 11)</li>
+    <li>(Optional) Budget alert set at $1 in Firebase Console &rarr; Usage and billing</li>
+  </ul>
+</div>
+
+<div style="text-align:center;padding:20px;color:var(--gray-400);font-size:.8rem;border-top:1px solid var(--gray-200);margin-top:20px;">
+  Muallim ul-Qur'an &middot; Firebase Setup Guide &middot; 2026<br>
+  Live app: <a href="https://nomaanc.github.io/muallim/" style="color:var(--green);">nomaanc.github.io/muallim/</a>
+</div>
+
+</div>
+</body>
+</html>
