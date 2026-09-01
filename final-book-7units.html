@@ -1852,10 +1852,26 @@
   <script>
     if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
       const swCode = `
-        const CACHE_NAME = 'muallim-v4-cache';
+        const CACHE_NAME = 'muallim-v4.2-cache';
         self.addEventListener('install', (e) => self.skipWaiting());
-        self.addEventListener('activate', (e) => e.waitUntil(self.clients.claim()));
+        self.addEventListener('activate', (e) => {
+          e.waitUntil(
+            caches.keys().then((keys) => Promise.all(
+              keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k))
+            )).then(() => self.clients.claim())
+          );
+        });
         self.addEventListener('fetch', (e) => {
+          if (e.request.mode === 'navigate' || e.request.destination === 'document') {
+            e.respondWith(
+              fetch(e.request).then((res) => {
+                const clone = res.clone();
+                caches.open(CACHE_NAME).then((c) => c.put(e.request, clone));
+                return res;
+              }).catch(() => caches.match(e.request))
+            );
+            return;
+          }
           e.respondWith(
             caches.match(e.request).then((cached) => cached || fetch(e.request))
           );
@@ -1870,6 +1886,7 @@
   <!-- Main Application Logic IIFE -->
   <script>
     var App = (function() {
+      const App = {};
       let currentStage = 1;
       let currentLesson = 1;
       let audioSpeed = parseFloat(localStorage.getItem('muallim_audio_speed') || '1.0');
@@ -1887,6 +1904,7 @@
         loadLesson(1, 1);
         populateStageTabs();
         updateStarredCountBadge();
+        if (typeof debouncedSync === "function") debouncedSync();
       }
 
       function setupEventListeners() {
@@ -1999,6 +2017,7 @@
         localStorage.setItem('muallim_custom_answers', JSON.stringify(customAnswers));
         document.getElementById('custom-edit-modal').close();
         renderCurrentLesson();
+        if (typeof debouncedSync === "function") debouncedSync();
       }
 
       function deleteCustomAnswer() {
@@ -2278,8 +2297,8 @@
 
       function setSpinnerPool(mode) {
         spinnerMode = mode;
-        document.getElementById('pool-starred-btn').classList.toggle('selected', mode === 'starred');
-        document.getElementById('pool-lesson-btn').classList.toggle('selected', mode === 'lesson');
+        const starTab = document.getElementById('pool-starred-btn') || document.getElementById('drill-tab-starred'); if (starTab) starTab.classList.toggle('selected', mode === 'starred');
+        const lsnTab = document.getElementById('pool-lesson-btn') || document.getElementById('drill-tab-custom'); if (lsnTab) lsnTab.classList.toggle('selected', mode === 'lesson');
 
         spinnerPool = [];
         if (mode === 'starred') {
@@ -3800,19 +3819,7 @@
       _syncDebounceTimer = setTimeout(syncAllToFirestore, delayMs);
     }
 
-    // ── Patch toggleStarInPlace to also sync ──
-    const _origToggleStar = toggleStarInPlace;
-    function toggleStarInPlace(btn, key, arabic, hinglish) {
-      _origToggleStar(btn, key, arabic, hinglish);
-      debouncedSync();
-    }
-
-    // ── Patch saveCustomAnswer to also sync ──
-    const _origSaveCustom = saveCustomAnswer;
-    function saveCustomAnswer(key, val) {
-      _origSaveCustom(key, val);
-      debouncedSync();
-    }
+    // (sync called directly from core toggleStarInPlace / saveCustomAnswer)
 
     // ── Patch saveStudentName to also sync ──
     App.saveStudentName = function(name) {
@@ -4012,7 +4019,7 @@
       });
     }
 
-      return {
+      Object.assign(App, {
         init,
         setTheme,
         setMode,
@@ -4020,6 +4027,7 @@
         setAudioSpeed,
         speakArabic,
         toggleStarInPlace,
+        isStarred,
         openCustomEditor,
         saveCustomAnswer,
         deleteCustomAnswer,
@@ -4040,53 +4048,19 @@
         openExportDialog,
         doExport,
         importDataBackup,
-        saveStudentName,
-        promptInstall,
-        enablePushNotifications,
-        tryAdminUnlock,
-        lockAdmin,
-        changeAdminPin,
-        refreshAdminStudents,
-        clearAllLocalData,
-        toggleBookmark,
-        switchDrillTab,
-        drillSelectAll,
-        drillClearAll,
-        startCustomDrill,
-        startStarredDrill,
-        endDrill,
-        openExam,
-        closeExam,
-        startExam,
-        answerMCQ,
-        answerTF,
-        selectMatchArabic,
-        selectMatchHinglish,
-        submitFillin,
-        submitSequence,
-        nextQuestion,
-        finishExam,
-        reviewExam,
-        retakeExam,
-        printExamResults,
-        seqDragStart,
-        seqDragOver,
-        seqDrop,
-        initFirebase,
-        saveFirebaseConfig,
-        clearFirebaseConfig,
-        toggleFirebaseConfigPanel,
-        refreshAdminStudents,
-        sendBroadcast
-      };
+        loadBookmark,
+        initStudentName
+      });
+      return App;
     })();
 
     document.addEventListener('DOMContentLoaded', function() {
-      App.init();
-      // Initialize additional features after DOM ready
+      if (window.App && typeof window.App.init === 'function') {
+        window.App.init();
+      }
       setTimeout(() => {
-        initStudentName();
-        loadBookmark();
+        if (window.App && typeof window.App.initStudentName === 'function') window.App.initStudentName();
+        if (window.App && typeof window.App.loadBookmark === 'function') window.App.loadBookmark();
       }, 100);
     });
   </script>

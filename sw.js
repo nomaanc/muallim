@@ -1,7 +1,7 @@
-/* Muallim ul-Quran — Service Worker v2.0 */
-/* Strategy: Cache-First with background network refresh (stale-while-revalidate) */
+/* Muallim ul-Quran — Service Worker v4.2 */
+/* Strategy: Network-First for HTML/navigation, Cache-First with revalidate for assets */
 
-const CACHE_NAME = 'muallim-v2';
+const CACHE_NAME = 'muallim-v4.2-cache';
 const ASSETS = [
   './',
   './index.html',
@@ -9,21 +9,14 @@ const ASSETS = [
   './app.js',
   './manifest.json',
   './pwa_book_data.js',
-  './icons/icon.svg',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/apple-touch-icon.png'
+  './icons/icon.svg'
 ];
 
-// Install — pre-cache all app shell assets
+// Install — pre-cache app shell assets
 self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(CACHE_NAME)
-      .then(c => c.addAll(ASSETS.filter(a => {
-        // Skip PNG icons during install if they don't exist yet —
-        // the SVG icon is sufficient for the install prompt.
-        return !a.endsWith('.png');
-      })))
+      .then(c => c.addAll(ASSETS))
       .then(() => self.skipWaiting())
   );
 });
@@ -39,11 +32,23 @@ self.addEventListener('activate', e => {
   );
 });
 
-// Fetch — Cache-First, background refresh
+// Fetch — Network-first for HTML navigation, Cache-first for assets
 self.addEventListener('fetch', e => {
   if (e.request.method !== 'GET') return;
-  // Skip cross-origin requests (e.g. TTS, external APIs)
   if (!e.request.url.startsWith(self.location.origin)) return;
+
+  if (e.request.mode === 'navigate' || e.request.destination === 'document') {
+    e.respondWith(
+      fetch(e.request).then(res => {
+        if (res && res.ok) {
+          const clone = res.clone();
+          caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
+        }
+        return res;
+      }).catch(() => caches.match(e.request))
+    );
+    return;
+  }
 
   e.respondWith(
     caches.match(e.request).then(cached => {
@@ -52,8 +57,8 @@ self.addEventListener('fetch', e => {
           caches.open(CACHE_NAME).then(c => c.put(e.request, res.clone()));
         }
         return res;
-      }).catch(() => cached);   // offline fallback: return stale cache
-      return cached || net;     // serve cache immediately if available
+      }).catch(() => cached);
+      return cached || net;
     })
   );
 });
