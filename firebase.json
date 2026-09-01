@@ -1,0 +1,32 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "firestore.rules",
+      "firestore.indexes.json",
+      "*.py",
+      "*.txt",
+      "*.md",
+      "book_data.js",
+      "book_data.json",
+      "pwa_book_data.js",
+      "app.js",
+      "styles.css",
+      "sw.js",
+      "html-update.md",
+      "feature-enhancements-prompt.md",
+      "data-audit-prompt.md",
+      "final-book-7units.html"
+    ],
+    "rewrites": [
+      { "source": "**", "destination": "/index.html" }
+    ]
+  }
+}
