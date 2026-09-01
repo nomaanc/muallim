@@ -2142,8 +2142,6 @@
               `;
             });
             html += `</div>`;
-          }
-
           } else if (secType === 'section_label') {
             html += `<div class="section-label-divider"><span>${d.text || ''}</span></div>`;
 
@@ -2194,6 +2192,7 @@
               });
               html += '</div>';
             }
+          } // end tashbeeh_grid / ayah_pause_block
         });
 
         document.getElementById('lesson-content-mount').innerHTML = html;
