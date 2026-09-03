@@ -1538,6 +1538,20 @@
         .example-table { display:flex; flex-direction:column; gap:6px; margin:8px 0; }
         .example-row { border-left:3px solid var(--gold,#B7860B) !important; }
 
+
+        /* ── Exam scope buttons & accordion ── */
+        .exam-scope-btns { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+        .scope-btn { padding: 7px 12px; border: 1.5px solid var(--border, #e5e7eb); border-radius: 8px;
+                     background: var(--bg-surface, #fff); font-size: 0.82rem; cursor: pointer; transition: all 0.15s; }
+        .scope-btn.selected { background: var(--primary, #1B4332); color: #fff; border-color: var(--primary, #1B4332); }
+        .scope-btn:active { opacity: 0.8; }
+        .exam-lesson-accordion { margin-top: 10px; border: 1px solid var(--border, #e5e7eb); border-radius: 8px; overflow: hidden; }
+        .exam-lesson-pill { padding: 4px 10px; border: 1.5px solid var(--border, #e5e7eb);
+                            border-radius: 20px; font-size: 0.78rem; cursor: pointer; transition: all 0.15s; background: var(--bg-surface, #fff); }
+        .exam-lesson-pill.active { background: var(--primary, #1B4332); color: #fff; border-color: var(--primary, #1B4332); }
+        .arabic-opt { font-family: 'Amiri', serif; font-size: 1.25rem; direction: rtl; 
+                      min-height: 50px; display: flex; align-items: center; justify-content: center; }
+
         /* ── Mobile-first: no side-scroll, no zoom ── */
         html, body { overflow-x: hidden; max-width: 100vw; -webkit-text-size-adjust: 100%; }
         * { box-sizing: border-box; }
@@ -74906,19 +74920,25 @@ window.PWA_BOOK_DATA = {
     let examCurrentQ = 0;
     let examBreakdown = {};
     let examHistory = [];
-    let matchingArabicSel = null; // currently selected arabic item in matching
+    let matchingArabicSel = null;
+    let examScopeMode = 'current'; // 'current' | 'stage' | 'custom' | 'starred'
+    let examScopeSelection = new Set();
+    let examStarredOnlyFilter = false;
+    let examSelectedCount = 20;
 
-    // Load history
-    try { examHistory = JSON.parse(localStorage.getItem('muallim_exam_history') || '[]'); } catch(e) { examHistory = []; }
+    // Load history safely
+    try { examHistory = JSON.parse(lsGet('muallim_exam_history', '[]') || '[]'); } catch(e) { examHistory = []; }
 
     App.openExam = function() {
       examState = 'setup';
       renderExamView();
-      document.getElementById('exam-modal').showModal();
+      const modal = document.getElementById('exam-modal');
+      if (modal && modal.showModal) modal.showModal();
     };
 
     App.closeExam = function() {
-      document.getElementById('exam-modal').close();
+      const modal = document.getElementById('exam-modal');
+      if (modal && modal.close) modal.close();
       examState = 'idle';
     };
 
@@ -74931,185 +74951,370 @@ window.PWA_BOOK_DATA = {
       else if (examState === 'review') body.innerHTML = buildReviewHTML();
     }
 
-    function buildExamSetupHTML() {
-      return `
-        <h3 style="margin:0 0 16px; font-size:1rem; font-weight:700; color:var(--accent-emerald);">Exam Setup</h3>
-
-        <div class="exam-setup-section">
-          <div class="exam-setup-label">Lesson Scope (current: Stage ${currentStage}, Lesson ${currentLesson})</div>
-          <div style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:8px;">Exam will use vocab from the <strong>current lesson</strong> plus random distractor words from other lessons.</div>
-        </div>
-
-        <div class="exam-setup-section">
-          <div class="exam-setup-label">Question Types</div>
-          <div class="exam-type-checkboxes">
-            <label class="exam-type-checkbox-label"><input type="checkbox" name="exam-type" value="mcq" checked> MCQ</label>
-            <label class="exam-type-checkbox-label"><input type="checkbox" name="exam-type" value="truefalse" checked> True/False</label>
-            <label class="exam-type-checkbox-label"><input type="checkbox" name="exam-type" value="matching" checked> Matching</label>
-            <label class="exam-type-checkbox-label"><input type="checkbox" name="exam-type" value="fillin"> Fill-in-blank</label>
-            <label class="exam-type-checkbox-label"><input type="checkbox" name="exam-type" value="sequence"> Sequence</label>
-          </div>
-        </div>
-
-        <div class="exam-setup-section">
-          <div class="exam-setup-label">Number of Questions</div>
-          <div class="exam-count-btns">
-            <button class="exam-count-btn selected" onclick="selectExamCount(this, 10)">10</button>
-            <button class="exam-count-btn" onclick="selectExamCount(this, 20)">20</button>
-            <button class="exam-count-btn" onclick="selectExamCount(this, 30)">30</button>
-          </div>
-        </div>
-
-        <div style="margin-top:20px; display:flex; gap:10px;">
-          <button class="btn-secondary" style="flex:1;" onclick="App.closeExam()">Cancel</button>
-          <button class="btn-primary" style="flex:2;" onclick="App.startExam()">▶ Start Exam</button>
-        </div>
-
-        ${examHistory.length > 0 ? buildHistoryPreviewHTML() : ''}
-      `;
-    }
-
-    function buildHistoryPreviewHTML() {
-      const recent = examHistory.slice(-3).reverse();
-      return `
-        <div style="margin-top:20px; border-top:1px solid var(--divider-light); padding-top:14px;">
-          <div class="exam-setup-label">Recent Scores</div>
-          <table class="exam-breakdown-table">
-            <tr><th>Date</th><th>Score</th><th>Grade</th></tr>
-            ${recent.map(h => `<tr>
-              <td style="color:var(--text-muted); font-size:0.78rem;">${new Date(h.date).toLocaleDateString()}</td>
-              <td class="score-pct">${h.score}%</td>
-              <td>${h.grade}</td>
-            </tr>`).join('')}
-          </table>
-          <div style="font-size:0.75rem; color:var(--text-muted);">Best: ${Math.max(...examHistory.map(h=>h.score))}%</div>
-        </div>`;
-    }
-
-    let examQuestionCount = 10;
-    function selectExamCount(btn, n) {
-      document.querySelectorAll('.exam-count-btn').forEach(b => b.classList.remove('selected'));
-      btn.classList.add('selected');
-      examQuestionCount = n;
-    }
-
-    App.startExam = function() {
-      const types = [...document.querySelectorAll('input[name="exam-type"]:checked')].map(i => i.value);
-      if (types.length === 0) { showToast('Select at least one question type'); return; }
-      examQuestions = generateExamQuestions(types, examQuestionCount);
-      if (examQuestions.length === 0) { showToast('Not enough vocab in this lesson'); return; }
-      examAnswers = new Array(examQuestions.length).fill(null);
-      examScores = new Array(examQuestions.length).fill(null); // null=unanswered, true=correct, false=wrong
-      examCurrentQ = 0;
-      matchingArabicSel = null;
-      examState = 'running';
+    App.setExamScope = function(mode) {
+      examScopeMode = mode;
+      if (mode !== 'custom') examScopeSelection.clear();
       renderExamView();
     };
 
-    // ── Question Generation ──
-    function getAllVocabItems() {
-      const all = [];
+    App.toggleExamStarredFilter = function(checked) {
+      examStarredOnlyFilter = !!checked;
+      renderExamView();
+    };
+
+    App.toggleStageExamBody = function(stageNum) {
+      const el = document.getElementById(`exam-stage-body-${stageNum}`);
+      if (!el) return;
+      el.style.display = el.style.display === 'none' ? 'flex' : 'none';
+    };
+
+    App.selectAllInStage = function(stageNum, selectAll) {
       const stages = window.PWA_BOOK_DATA?.stages || {};
+      const lessons = (stages[`Stage${stageNum}`] || []).filter(l => l.status !== 'template');
+      lessons.forEach(l => {
+        const lkey = l.lesson_key || `S${stageNum}L${l.lesson_id}`;
+        if (selectAll) examScopeSelection.add(lkey);
+        else examScopeSelection.delete(lkey);
+      });
+      renderExamView();
+    };
+
+    App.toggleExamLessonPill = function(lkey) {
+      if (examScopeSelection.has(lkey)) examScopeSelection.delete(lkey);
+      else examScopeSelection.add(lkey);
+      renderExamView();
+    };
+
+    App.selectExamCount = function(cnt) {
+      examSelectedCount = cnt;
+      document.querySelectorAll('.count-btn').forEach(btn => {
+        btn.classList.toggle('selected', parseInt(btn.dataset.count) === cnt);
+      });
+    };
+
+    function buildExamScopeAccordionHTML() {
+      const stages = window.PWA_BOOK_DATA?.stages || {};
+      let html = `<div class="exam-lesson-accordion" style="margin-top:10px; border:1px solid var(--border,#e5e7eb); border-radius:8px; max-height:220px; overflow-y:auto; padding:6px; background:var(--bg-surface-elevated,#f9fafb);">`;
+      
       for (let s = 1; s <= 7; s++) {
-        (stages[`Stage${s}`] || []).forEach(l => {
-          (l.sections || []).forEach(sec => {
-            (sec.data?.items || []).forEach(it => {
-              if (it.arabic && it.hinglish && !it.arabic.includes('----')) {
-                all.push({ arabic: it.arabic, hinglish: it.hinglish, stage: s, lesson: l.lesson_id });
-              }
+        const stageKey = `Stage${s}`;
+        const lessons = (stages[stageKey] || []).filter(l => l.status !== 'template');
+        const selectedInStage = lessons.filter(l => examScopeSelection.has(l.lesson_key || `S${s}L${l.lesson_id}`)).length;
+        
+        html += `
+          <div style="margin-bottom:6px; border:1px solid var(--border,#e5e7eb); border-radius:6px; background:var(--bg-surface,#fff); overflow:hidden;">
+            <div style="display:flex; justify-content:space-between; align-items:center; padding:7px 10px; cursor:pointer; font-size:0.82rem; font-weight:700; background:var(--bg-surface-elevated,#f3f4f6);" onclick="App.toggleStageExamBody(${s})">
+              <span>Unit ${s} (${lessons.length} lessons)</span>
+              <span style="font-size:0.75rem; color:var(--primary,#1B4332);">${selectedInStage ? selectedInStage + ' selected' : '▾'}</span>
+            </div>
+            <div id="exam-stage-body-${s}" style="display:${s === currentStage ? 'flex' : 'none'}; flex-wrap:wrap; gap:4px; padding:6px;">
+              <button type="button" class="btn-ghost" style="padding:2px 8px; font-size:0.72rem; cursor:pointer;" onclick="App.selectAllInStage(${s}, true)">All</button>
+              <button type="button" class="btn-ghost" style="padding:2px 8px; font-size:0.72rem; cursor:pointer;" onclick="App.selectAllInStage(${s}, false)">None</button>
+              ${lessons.map(l => {
+                const lkey = l.lesson_key || `S${s}L${l.lesson_id}`;
+                const isSel = examScopeSelection.has(lkey);
+                return `<button type="button" class="exam-lesson-pill ${isSel ? 'active' : ''}" onclick="App.toggleExamLessonPill('${lkey}')">L-${l.lesson_id}</button>`;
+              }).join('')}
+            </div>
+          </div>
+        `;
+      }
+      html += `</div>`;
+      return html;
+    }
+
+    function buildExamSetupHTML() {
+      return `
+        <h3 style="margin:0 0 16px; font-size:1.1rem; font-weight:800; color:var(--primary,#1B4332); display:flex; align-items:center; gap:8px;">
+          <span>🎓</span> Exam Setup
+        </h3>
+
+        <!-- Scope Selection -->
+        <div class="exam-setup-section" style="margin-bottom:16px;">
+          <div class="exam-setup-label" style="font-weight:700; font-size:0.88rem; margin-bottom:8px; color:var(--text-primary);">
+            Exam Scope
+          </div>
+          <div class="exam-scope-btns" style="display:flex; flex-wrap:wrap; gap:6px;">
+            <button type="button" class="scope-btn ${examScopeMode === 'current' ? 'selected' : ''}" onclick="App.setExamScope('current')">
+              📌 Current Lesson (Unit ${currentStage} L-${currentLesson})
+            </button>
+            <button type="button" class="scope-btn ${examScopeMode === 'stage' ? 'selected' : ''}" onclick="App.setExamScope('stage')">
+              📚 Entire Unit ${currentStage}
+            </button>
+            <button type="button" class="scope-btn ${examScopeMode === 'custom' ? 'selected' : ''}" onclick="App.setExamScope('custom')">
+              🎛 Custom Selection (${examScopeSelection.size} lessons)
+            </button>
+            <button type="button" class="scope-btn ${examScopeMode === 'starred' ? 'selected' : ''}" onclick="App.setExamScope('starred')">
+              ⭐ Starred Words Only (${favourites.length})
+            </button>
+          </div>
+
+          ${examScopeMode === 'custom' ? buildExamScopeAccordionHTML() : ''}
+
+          ${examScopeMode !== 'starred' ? `
+            <div style="margin-top:10px;">
+              <label style="display:flex; align-items:center; gap:8px; font-size:0.85rem; color:var(--text-secondary); cursor:pointer;">
+                <input type="checkbox" id="exam-starred-only-cb" ${examStarredOnlyFilter ? 'checked' : ''} onchange="App.toggleExamStarredFilter(this.checked)">
+                <span>⭐ Only include starred words from selected scope</span>
+              </label>
+            </div>
+          ` : ''}
+        </div>
+
+        <!-- Question Types -->
+        <div class="exam-setup-section" style="margin-bottom:16px;">
+          <div class="exam-setup-label" style="font-weight:700; font-size:0.88rem; margin-bottom:8px; color:var(--text-primary);">
+            Question Types
+          </div>
+          <div class="exam-type-checkboxes" style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
+            <label class="exam-type-checkbox-label" style="font-size:0.85rem; display:flex; align-items:center; gap:6px; cursor:pointer;">
+              <input type="checkbox" name="exam-type" value="mcq" checked> 📝 MCQ (Sahi Jawab)
+            </label>
+            <label class="exam-type-checkbox-label" style="font-size:0.85rem; display:flex; align-items:center; gap:6px; cursor:pointer;">
+              <input type="checkbox" name="exam-type" value="fillin" checked> ✍️ Fill in Blank
+            </label>
+            <label class="exam-type-checkbox-label" style="font-size:0.85rem; display:flex; align-items:center; gap:6px; cursor:pointer;">
+              <input type="checkbox" name="exam-type" value="truefalse" checked> ⚖️ True / False
+            </label>
+            <label class="exam-type-checkbox-label" style="font-size:0.85rem; display:flex; align-items:center; gap:6px; cursor:pointer;">
+              <input type="checkbox" name="exam-type" value="matching" checked> 🔗 Matching Pairs
+            </label>
+            <label class="exam-type-checkbox-label" style="font-size:0.85rem; display:flex; align-items:center; gap:6px; cursor:pointer; grid-column:span 2;">
+              <input type="checkbox" name="exam-type" value="arabic_writing" checked> ★ Arabic Pehchanen (Arabic Writing)
+            </label>
+          </div>
+        </div>
+
+        <!-- Question Count -->
+        <div class="exam-setup-section" style="margin-bottom:16px;">
+          <div class="exam-setup-label" style="font-weight:700; font-size:0.88rem; margin-bottom:8px; color:var(--text-primary);">
+            Number of Questions
+          </div>
+          <div class="exam-count-btns" style="display:flex; gap:8px;">
+            <button type="button" class="count-btn ${examSelectedCount === 10 ? 'selected' : ''}" data-count="10" onclick="App.selectExamCount(10)">10</button>
+            <button type="button" class="count-btn ${examSelectedCount === 20 ? 'selected' : ''}" data-count="20" onclick="App.selectExamCount(20)">20</button>
+            <button type="button" class="count-btn ${examSelectedCount === 30 ? 'selected' : ''}" data-count="30" onclick="App.selectExamCount(30)">30</button>
+          </div>
+        </div>
+
+        <button class="btn-primary" style="width:100%; padding:12px; font-size:1rem; font-weight:700;" onclick="App.startExam()">
+          ▶ Exam Shuru Karein (Start Exam)
+        </button>
+      `;
+    }
+
+    function buildExamPool() {
+      const stages = window.PWA_BOOK_DATA?.stages || {};
+      const pool = [];
+      const starredSet = new Set(favourites);
+
+      if (examScopeMode === 'starred') {
+        favourites.forEach(key => {
+          const match = key.match(/^S(\d+)L(\d+)_s(\d+)_(\d+)$/);
+          if (!match) return;
+          const [, s, l, si, ii] = match.map(Number);
+          const stageKey = `Stage${s}`;
+          const lesson = (stages[stageKey] || []).find(x => x.lesson_id === l);
+          if (!lesson) return;
+          const sec = lesson.sections?.[si];
+          const item = sec?.data?.items?.[ii] || sec?.data?.verses?.[ii];
+          if (item?.arabic && item?.hinglish && !item.arabic.includes('----')) {
+            pool.push({
+              arabic: item.arabic,
+              hinglish: customAnswers[key] || item.hinglish,
+              stage: s,
+              lesson: l,
+              lessonKey: `S${s}L${l}`,
+              sectionType: sec.type,
+              sectionId: `S${s}L${l}_s${si}`,
+              key
+            });
+          }
+        });
+        return pool;
+      }
+
+      for (let s = 1; s <= 7; s++) {
+        const stageKey = `Stage${s}`;
+        (stages[stageKey] || []).forEach(l => {
+          if (l.status === 'template') return;
+          const lkey = l.lesson_key || `S${s}L${l.lesson_id}`;
+          
+          let include = false;
+          if (examScopeMode === 'current') {
+            include = (s === currentStage && l.lesson_id === currentLesson);
+          } else if (examScopeMode === 'stage') {
+            include = (s === currentStage);
+          } else if (examScopeMode === 'custom') {
+            include = examScopeSelection.has(lkey);
+          }
+
+          if (!include) return;
+
+          (l.sections || []).forEach((sec, si) => {
+            const items = (sec.data && sec.data.items) || (sec.data && sec.data.verses) || [];
+            items.forEach((it, ii) => {
+              if (!it.arabic || !it.hinglish || it.arabic.includes('----')) return;
+              const itemKey = `${lkey}_s${si}_${ii}`;
+              if (examStarredOnlyFilter && !starredSet.has(itemKey)) return;
+
+              pool.push({
+                arabic: it.arabic,
+                hinglish: customAnswers[itemKey] || it.hinglish,
+                stage: s,
+                lesson: l.lesson_id,
+                lessonKey: lkey,
+                sectionType: sec.type,
+                sectionId: `${lkey}_s${si}`,
+                key: itemKey
+              });
             });
           });
         });
       }
-      return all;
-    }
-
-    function getCurrentLessonVocab() {
-      const stageKey = `Stage${currentStage}`;
-      const lesson = (window.PWA_BOOK_DATA?.stages?.[stageKey] || []).find(l => l.lesson_id === currentLesson);
-      const pool = [];
-      (lesson?.sections || []).forEach(sec => {
-        (sec.data?.items || []).forEach(it => {
-          if (it.arabic && it.hinglish && !it.arabic.includes('----')) pool.push({ arabic: it.arabic, hinglish: it.hinglish });
-        });
-      });
       return pool;
     }
 
-    function getDistractors(correctHinglish, allVocab, count) {
-      // Try to get semantically plausible distractors (from same stage first)
-      const sameStage = allVocab.filter(v => v.stage === currentStage && v.hinglish !== correctHinglish);
-      const others = allVocab.filter(v => v.hinglish !== correctHinglish);
-      const pool = sameStage.length >= count ? sameStage : others;
-      const shuffled = shuffleArray(pool);
-      const seen = new Set([correctHinglish]);
+    function getSmartDistractors(correctItem, allPool, count) {
+      const sameSection = allPool.filter(v => v.sectionId === correctItem.sectionId && v.hinglish !== correctItem.hinglish);
+      const sameLesson = allPool.filter(v => v.lessonKey === correctItem.lessonKey && v.hinglish !== correctItem.hinglish);
+      const sameStage = allPool.filter(v => v.stage === correctItem.stage && v.hinglish !== correctItem.hinglish);
+      const anyPool = allPool.filter(v => v.hinglish !== correctItem.hinglish);
+
+      const candidatePool = sameSection.length >= count ? sameSection :
+                            sameLesson.length >= count ? sameLesson :
+                            sameStage.length >= count ? sameStage : anyPool;
+
+      const shuffled = shuffleArray([...candidatePool]);
+      const seen = new Set([correctItem.hinglish.trim().toLowerCase()]);
       const result = [];
+
       for (const v of shuffled) {
-        if (!seen.has(v.hinglish)) { seen.add(v.hinglish); result.push(v.hinglish); }
+        const norm = v.hinglish.trim().toLowerCase();
+        if (!seen.has(norm)) {
+          seen.add(norm);
+          result.push(v.hinglish);
+        }
         if (result.length >= count) break;
       }
-      // Pad if needed
-      while (result.length < count) result.push(`Option ${result.length + 1}`);
+      while (result.length < count) {
+        result.push(`Option ${result.length + 1}`);
+      }
       return result;
     }
 
+    function getSmartArabicDistractors(correctItem, allPool, count) {
+      const sameLesson = allPool.filter(v => v.lessonKey === correctItem.lessonKey && v.arabic !== correctItem.arabic);
+      const sameStage = allPool.filter(v => v.stage === correctItem.stage && v.arabic !== correctItem.arabic);
+      const anyPool = allPool.filter(v => v.arabic !== correctItem.arabic);
+
+      const candidatePool = sameLesson.length >= count ? sameLesson :
+                            sameStage.length >= count ? sameStage : anyPool;
+
+      const shuffled = shuffleArray([...candidatePool]);
+      const seen = new Set([correctItem.arabic.trim()]);
+      const result = [];
+
+      for (const v of shuffled) {
+        const norm = v.arabic.trim();
+        if (!seen.has(norm)) {
+          seen.add(norm);
+          result.push(v.arabic);
+        }
+        if (result.length >= count) break;
+      }
+      while (result.length < count) {
+        result.push('—');
+      }
+      return result;
+    }
+
+    App.startExam = function() {
+      const types = Array.from(document.querySelectorAll('input[name="exam-type"]:checked')).map(cb => cb.value);
+      if (types.length === 0) { showToast('Kam se kam ek question type chunein'); return; }
+
+      if (examScopeMode === 'custom' && examScopeSelection.size === 0) {
+        showToast('Kam se kam ek lesson chunein accordion se'); return;
+      }
+
+      examQuestions = generateExamQuestions(types, examSelectedCount);
+      if (examQuestions.length === 0) return;
+
+      examAnswers = new Array(examQuestions.length).fill(null);
+      examScores = new Array(examQuestions.length).fill(null);
+      examCurrentQ = 0;
+      examBreakdown = {};
+      types.forEach(t => examBreakdown[t] = { correct: 0, total: 0 });
+
+      examState = 'running';
+      renderExamView();
+    };
+
     function generateExamQuestions(types, count) {
-      const lessonVocab = shuffleArray(getCurrentLessonVocab());
-      const allVocab = getAllVocabItems();
-      if (lessonVocab.length < 4) return [];
+      const pool = buildExamPool();
+      if (pool.length < 4) {
+        showToast('Is scope mein kam se kam 4 alfaaz chahiye exam ke liye');
+        return [];
+      }
 
       const questions = [];
-      const typeRotation = shuffleArray([...types]);
-      let tIdx = 0;
+      const shuffledPool = shuffleArray([...pool]);
 
-      // For matching: group into sets of 4-6 pairs
-      let matchPairsUsed = [];
-
-      while (questions.length < count && lessonVocab.length > 0) {
-        const type = typeRotation[tIdx % typeRotation.length];
-        tIdx++;
+      let qIdx = 0;
+      while (questions.length < count && qIdx < shuffledPool.length * 3) {
+        const type = types[questions.length % types.length];
+        const item = shuffledPool[qIdx % shuffledPool.length];
+        qIdx++;
 
         if (type === 'mcq') {
-          const item = lessonVocab[questions.length % lessonVocab.length];
-          const distractors = getDistractors(item.hinglish, allVocab, 3);
+          const distractors = getSmartDistractors(item, pool, 3);
           const options = shuffleArray([item.hinglish, ...distractors]);
           questions.push({ type: 'mcq', arabic: item.arabic, correct: item.hinglish, options });
 
+        } else if (type === 'arabic_writing') {
+          const wrongArabics = getSmartArabicDistractors(item, pool, 3);
+          const options = shuffleArray([item.arabic, ...wrongArabics]);
+          questions.push({ type: 'arabic_writing', hinglish: item.hinglish, correct: item.arabic, options });
+
         } else if (type === 'truefalse') {
-          const item = lessonVocab[questions.length % lessonVocab.length];
-          // 60% chance of false statement
-          const isTrue = Math.random() > 0.6;
+          const isTrue = Math.random() > 0.45;
           let statement;
           if (isTrue) {
             statement = item.hinglish;
           } else {
-            const distractor = getDistractors(item.hinglish, allVocab, 1)[0];
-            statement = distractor;
+            const dist = getSmartDistractors(item, pool, 1)[0];
+            statement = dist;
           }
-          questions.push({ type: 'truefalse', arabic: item.arabic, statement, correct: isTrue ? 'true' : 'false', isTrue });
-
-        } else if (type === 'matching') {
-          // Add a group of 4 pairs as one "question" (multi-scored)
-          const pairsCount = Math.min(4, lessonVocab.length);
-          const pairs = shuffleArray(lessonVocab).slice(0, pairsCount).map(v => ({ arabic: v.arabic, hinglish: v.hinglish }));
-          const shuffledHinglish = shuffleArray(pairs.map(p => p.hinglish));
-          questions.push({ type: 'matching', pairs, shuffledHinglish, pairScores: new Array(pairsCount).fill(null), pairAnswers: new Array(pairsCount).fill(null) });
-          // Matching counts as pairsCount questions for scoring
-          break; // Replace 1 slot with all matching pairs, continue with other types
+          questions.push({
+            type: 'truefalse',
+            arabic: item.arabic,
+            statement,
+            correct: isTrue ? 'true' : 'false',
+            isTrue,
+            correctHinglish: item.hinglish
+          });
 
         } else if (type === 'fillin') {
-          // Use harder/less common words (pick from end of list since they tend to be more complex)
-          const idx = Math.max(0, lessonVocab.length - 1 - (questions.length % lessonVocab.length));
-          const item = lessonVocab[idx];
           questions.push({ type: 'fillin', arabic: item.arabic, correct: item.hinglish });
 
-        } else if (type === 'sequence') {
-          // Arrange 5 verse fragments in order
-          const pool = lessonVocab.filter(v => v.arabic.split(' ').length >= 3).slice(0, 5);
-          if (pool.length >= 3) {
-            const shuffled = shuffleArray([...pool]);
-            questions.push({ type: 'sequence', items: pool, shuffledItems: shuffled, correct: pool.map((_, i) => i) });
-          }
+        } else if (type === 'matching') {
+          const bySec = {};
+          pool.forEach(it => {
+            if (!bySec[it.sectionId]) bySec[it.sectionId] = [];
+            bySec[it.sectionId].push(it);
+          });
+          const viable = Object.values(bySec).filter(list => list.length >= 4);
+          const chosenList = viable.length > 0 ? viable[Math.floor(Math.random() * viable.length)] : pool;
+          const pairCount = Math.min(5, chosenList.length);
+          const pairs = shuffleArray([...chosenList]).slice(0, pairCount).map(p => ({ arabic: p.arabic, hinglish: p.hinglish }));
+          const shuffledHinglish = shuffleArray(pairs.map(p => p.hinglish));
+          questions.push({
+            type: 'matching',
+            pairs,
+            shuffledHinglish,
+            pairScores: new Array(pairCount).fill(null),
+            pairAnswers: new Array(pairCount).fill(null)
+          });
         }
       }
 
@@ -75120,16 +75325,22 @@ window.PWA_BOOK_DATA = {
     function buildQuestionHTML() {
       const q = examQuestions[examCurrentQ];
       const pct = Math.round((examCurrentQ / examQuestions.length) * 100);
-      const student = localStorage.getItem('muallim_student_name') || '';
+      const student = lsGet('muallim_student_name', '') || '';
 
       let content = '';
       if (q.type === 'mcq') content = buildMCQHTML(q, examCurrentQ);
+      else if (q.type === 'arabic_writing') content = buildArabicWritingHTML(q, examCurrentQ);
       else if (q.type === 'truefalse') content = buildTFHTML(q, examCurrentQ);
       else if (q.type === 'matching') content = buildMatchingHTML(q, examCurrentQ);
       else if (q.type === 'fillin') content = buildFillinHTML(q, examCurrentQ);
-      else if (q.type === 'sequence') content = buildSequenceHTML(q, examCurrentQ);
 
-      const typeLabels = { mcq: 'Multiple Choice', truefalse: 'True / False', matching: 'Match Pairs', fillin: 'Fill in Blank', sequence: 'Put in Order' };
+      const typeLabels = {
+        mcq: 'Multiple Choice',
+        arabic_writing: '★ Arabic Pehchanen',
+        truefalse: 'True / False',
+        matching: 'Match Pairs',
+        fillin: 'Fill in Blank'
+      };
 
       return `
         <div class="exam-progress-bar-wrap"><div class="exam-progress-bar" style="width:${pct}%"></div></div>
@@ -75142,7 +75353,7 @@ window.PWA_BOOK_DATA = {
     function buildMCQHTML(q, qIdx) {
       const locked = examScores[qIdx] !== null;
       return `
-        <div class="exam-q-arabic">${q.arabic}</div>
+        <div class="exam-q-arabic" style="font-family:'Amiri',serif; font-size:1.6rem; direction:rtl; text-align:center; margin:16px 0;">${q.arabic}</div>
         <div class="mcq-options">
           ${q.options.map(opt => {
             let cls = 'mcq-opt';
@@ -75153,6 +75364,33 @@ window.PWA_BOOK_DATA = {
             }
             const icon = locked ? (opt === q.correct ? '✓' : (opt === examAnswers[qIdx] ? '✗' : '')) : '';
             return `<button class="${cls}" onclick="App.answerMCQ(${qIdx}, '${opt.replace(/'/g,"&#39;")}')">
+              ${opt} ${icon ? `<span class="opt-icon">${icon}</span>` : ''}
+            </button>`;
+          }).join('')}
+        </div>
+        ${locked ? nextOrFinishBtn(qIdx) : ''}
+      `;
+    }
+
+    function buildArabicWritingHTML(q, qIdx) {
+      const locked = examScores[qIdx] !== null;
+      return `
+        <div class="exam-q-hinglish" style="font-size:1.15rem; font-weight:700; color:var(--text-primary); margin:12px 0 16px; text-align:center; padding:14px; background:var(--bg-surface-elevated,#f3f4f6); border-radius:8px; line-height:1.5;">
+          "${q.hinglish}"
+        </div>
+        <div style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:10px; text-align:center;">
+          Is ka sahi Arabic lafz chunein:
+        </div>
+        <div class="mcq-options">
+          ${q.options.map(opt => {
+            let cls = 'mcq-opt arabic-opt';
+            if (locked) {
+              cls += ' locked';
+              if (opt === q.correct) cls += ' correct';
+              else if (opt === examAnswers[qIdx]) cls += ' wrong';
+            }
+            const icon = locked ? (opt === q.correct ? '✓' : (opt === examAnswers[qIdx] ? '✗' : '')) : '';
+            return `<button class="${cls}" style="font-family:'Amiri',serif; font-size:1.35rem; direction:rtl; min-height:48px;" onclick="App.answerArabicWriting(${qIdx}, '${opt.replace(/'/g,"&#39;")}')">
               ${opt} ${icon ? `<span class="opt-icon">${icon}</span>` : ''}
             </button>`;
           }).join('')}
@@ -75173,12 +75411,13 @@ window.PWA_BOOK_DATA = {
         return c;
       }
       return `
-        <div class="exam-q-arabic">${q.arabic}</div>
+        <div class="exam-q-arabic" style="font-family:'Amiri',serif; font-size:1.6rem; direction:rtl; text-align:center; margin:16px 0;">${q.arabic}</div>
         <div class="tf-statement">Does this mean: <strong>"${q.statement}"</strong>?</div>
         <div class="tf-options">
           <button class="${tfCls('true')}" onclick="App.answerTF(${qIdx}, 'true')">✅ True</button>
           <button class="${tfCls('false')}" onclick="App.answerTF(${qIdx}, 'false')">❌ False</button>
         </div>
+        ${locked && !q.isTrue ? `<div class="fillin-feedback wrong" style="margin-top:10px; text-align:center;">Sahi matlab: <strong>${q.correctHinglish}</strong></div>` : ''}
         ${locked ? nextOrFinishBtn(qIdx) : ''}
       `;
     }
@@ -75199,14 +75438,13 @@ window.PWA_BOOK_DATA = {
               else if (score === false) cls += ' wrong';
               else if (score === null && matchingArabicSel === i) cls += ' selected';
               const locked = score !== null;
-              return `<div class="${cls}${locked ? ' locked' : ''}" 
+              return `<div class="${cls}${locked ? ' locked' : ''}" style="font-family:'Amiri',serif; font-size:1.25rem; direction:rtl;"
                 onclick="${locked ? '' : `App.selectMatchArabic(${qIdx}, ${i})`}">${p.arabic}</div>`;
             }).join('')}
           </div>
           <div class="match-col">
             <div class="match-legend">Meaning</div>
             ${q.shuffledHinglish.map((hi, i) => {
-              // Find if this hinglish was matched correctly/wrongly
               const pairIdx = q.pairs.findIndex(p => p.hinglish === hi);
               const score = q.pairScores[pairIdx];
               let cls = 'match-item';
@@ -75226,7 +75464,7 @@ window.PWA_BOOK_DATA = {
       const locked = examScores[qIdx] !== null;
       const wasCorrect = examScores[qIdx] === true;
       return `
-        <div class="exam-q-arabic">${q.arabic}</div>
+        <div class="exam-q-arabic" style="font-family:'Amiri',serif; font-size:1.6rem; direction:rtl; text-align:center; margin:16px 0;">${q.arabic}</div>
         <div style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:10px;">Type the Hinglish/Roman Urdu meaning:</div>
         <input type="text" class="fillin-input${locked ? (wasCorrect ? ' correct' : ' wrong') : ''}"
           id="fillin-input-${qIdx}"
@@ -75237,35 +75475,7 @@ window.PWA_BOOK_DATA = {
           <div class="fillin-feedback ${wasCorrect ? 'correct' : 'wrong'}">
             ${wasCorrect ? '✅ Correct!' : `❌ Wrong. Correct answer: <strong>${q.correct}</strong>`}
           </div>
-        ` : `<button class="btn-primary" style="width:100%;" onclick="App.submitFillin(${qIdx})">Submit</button>`}
-        ${locked ? nextOrFinishBtn(qIdx) : ''}
-      `;
-    }
-
-    function buildSequenceHTML(q, qIdx) {
-      const locked = examScores[qIdx] !== null;
-      const correct = examScores[qIdx] === true;
-      return `
-        <div style="font-size:0.88rem; color:var(--text-secondary); margin-bottom:12px;">
-          Drag to arrange these fragments in the correct order:
-        </div>
-        <div class="sequence-items" id="seq-list-${qIdx}">
-          ${q.shuffledItems.map((item, i) => `
-            <div class="seq-item${locked ? (correct ? ' correct' : ' wrong') : ''}"
-              draggable="${!locked}"
-              data-seq-idx="${i}"
-              ondragstart="App.seqDragStart(event, ${i})"
-              ondragover="App.seqDragOver(event)"
-              ondrop="App.seqDrop(event, ${qIdx})">
-              <span class="seq-handle">☰</span>
-              <span>${item.arabic}</span>
-            </div>`).join('')}
-        </div>
-        ${locked ? `
-          <div style="margin-top:10px; padding:8px; border-radius:var(--radius-sm); background:${correct ? 'rgba(16,185,129,0.10)' : 'rgba(239,68,68,0.08)'}; font-size:0.85rem; color:${correct ? '#047857' : '#B91C1C'};">
-            ${correct ? '✅ Correct order!' : '❌ Incorrect. The correct order was the original sequence.'}
-          </div>
-        ` : `<button class="seq-submit-btn btn-primary" onclick="App.submitSequence(${qIdx})">Check Order</button>`}
+        ` : `<button class="btn-primary" style="width:100%; margin-top:8px;" onclick="App.submitFillin(${qIdx})">Submit</button>`}
         ${locked ? nextOrFinishBtn(qIdx) : ''}
       `;
     }
@@ -75273,15 +75483,15 @@ window.PWA_BOOK_DATA = {
     function nextOrFinishBtn(qIdx) {
       const isLast = qIdx >= examQuestions.length - 1;
       return `<div style="margin-top:14px;">
-        <button class="btn-primary" style="width:100%;" onclick="${isLast ? 'App.finishExam()' : 'App.nextQuestion()'}">
+        <button class="btn-primary" style="width:100%; padding:10px; font-weight:700;" onclick="${isLast ? 'App.finishExam()' : 'App.nextQuestion()'}">
           ${isLast ? '📋 See Results' : 'Next Question →'}
         </button>
       </div>`;
     }
 
-    // ── Answer Handlers ──
+    // ── Answer Handlers (1st attempt locked) ──
     App.answerMCQ = function(qIdx, answer) {
-      if (examScores[qIdx] !== null) return; // already answered
+      if (examScores[qIdx] !== null) return;
       examAnswers[qIdx] = answer;
       const q = examQuestions[qIdx];
       const correct = answer === q.correct;
@@ -75289,6 +75499,18 @@ window.PWA_BOOK_DATA = {
       if (!examBreakdown.mcq) examBreakdown.mcq = { correct: 0, total: 0 };
       examBreakdown.mcq.total++;
       if (correct) examBreakdown.mcq.correct++;
+      renderExamView();
+    };
+
+    App.answerArabicWriting = function(qIdx, answer) {
+      if (examScores[qIdx] !== null) return;
+      examAnswers[qIdx] = answer;
+      const q = examQuestions[qIdx];
+      const correct = answer === q.correct;
+      examScores[qIdx] = correct;
+      if (!examBreakdown.arabic_writing) examBreakdown.arabic_writing = { correct: 0, total: 0 };
+      examBreakdown.arabic_writing.total++;
+      if (correct) examBreakdown.arabic_writing.correct++;
       renderExamView();
     };
 
@@ -75322,8 +75544,6 @@ window.PWA_BOOK_DATA = {
       examBreakdown.matching.total++;
       if (correct) examBreakdown.matching.correct++;
       matchingArabicSel = null;
-      // If wrong, mark the correct pair visible (revealed)
-      // pairScores drives the UI state — false = red + correct shown
       renderExamView();
     };
 
@@ -75333,7 +75553,6 @@ window.PWA_BOOK_DATA = {
       const answer = input.value.trim();
       if (!answer) { showToast('Please type an answer'); return; }
       const q = examQuestions[qIdx];
-      // Fuzzy match: levenshtein distance ≤ 2
       const correct = fuzzyMatch(answer.toLowerCase(), q.correct.toLowerCase());
       examAnswers[qIdx] = answer;
       examScores[qIdx] = correct;
@@ -75345,9 +75564,7 @@ window.PWA_BOOK_DATA = {
 
     function fuzzyMatch(a, b) {
       if (a === b) return true;
-      // Check if answer is contained in correct or vice versa (partial match)
       if (b.includes(a) && a.length >= 3) return true;
-      // Levenshtein distance ≤ 2
       return levenshtein(a, b) <= 2;
     }
 
@@ -75359,33 +75576,6 @@ window.PWA_BOOK_DATA = {
       }
       return dp[m][n];
     }
-
-    let _seqDragSrcIdx = null;
-    App.seqDragStart = function(e, idx) { _seqDragSrcIdx = idx; e.dataTransfer.effectAllowed = 'move'; };
-    App.seqDragOver = function(e) { e.preventDefault(); e.dataTransfer.dropEffect = 'move'; };
-    App.seqDrop = function(e, qIdx) {
-      e.preventDefault();
-      const q = examQuestions[qIdx];
-      const target = e.currentTarget?.dataset?.seqIdx;
-      if (_seqDragSrcIdx === null || target === undefined) return;
-      const tIdx = parseInt(target);
-      const sIdx = _seqDragSrcIdx;
-      [q.shuffledItems[sIdx], q.shuffledItems[tIdx]] = [q.shuffledItems[tIdx], q.shuffledItems[sIdx]];
-      _seqDragSrcIdx = null;
-      renderExamView();
-    };
-
-    App.submitSequence = function(qIdx) {
-      const q = examQuestions[qIdx];
-      // Check if shuffledItems matches original order
-      const correct = q.shuffledItems.every((item, i) => item.arabic === q.items[i].arabic);
-      examScores[qIdx] = correct;
-      examAnswers[qIdx] = q.shuffledItems.map(i => i.arabic).join(' → ');
-      if (!examBreakdown.sequence) examBreakdown.sequence = { correct: 0, total: 0 };
-      examBreakdown.sequence.total++;
-      if (correct) examBreakdown.sequence.correct++;
-      renderExamView();
-    };
 
     App.nextQuestion = function() {
       if (examCurrentQ < examQuestions.length - 1) {
@@ -75401,7 +75591,6 @@ window.PWA_BOOK_DATA = {
     };
 
     function calcExamScore() {
-      // Each question worth 2 marks. Matching: each pair = 1 question
       let total = 0, correct = 0;
       examQuestions.forEach((q, i) => {
         if (q.type === 'matching') {
@@ -75450,14 +75639,27 @@ window.PWA_BOOK_DATA = {
     function buildSummaryHTML() {
       const { pct, correct, total } = calcExamScore();
       const grade = calcGrade(pct);
-      const student = localStorage.getItem('muallim_student_name') || '';
+      const student = lsGet('muallim_student_name', '') || '';
       const date = new Date().toLocaleString();
 
       const gradeColors = { 'A+': '#059669', 'A': '#10B981', 'B': '#0EA5E9', 'C': '#F59E0B', 'D': '#F97316', 'F': '#EF4444' };
       const color = gradeColors[grade] || '#10B981';
 
+      const scopeDesc = {
+        current: `Unit ${currentStage} Lesson ${currentLesson}`,
+        stage: `Entire Unit ${currentStage}`,
+        custom: `${examScopeSelection.size} Lessons Selected`,
+        starred: `⭐ Starred Words (${favourites.length})`
+      }[examScopeMode] || `Unit ${currentStage}`;
+
       const breakdownRows = Object.entries(examBreakdown).map(([type, bd]) => {
-        const labels = { mcq: 'MCQ', truefalse: 'True/False', matching: 'Matching', fillin: 'Fill-in-blank', sequence: 'Sequence' };
+        const labels = {
+          mcq: 'MCQ (Sahi Jawab)',
+          arabic_writing: '★ Arabic Pehchanen',
+          truefalse: 'True / False',
+          matching: 'Matching Pairs',
+          fillin: 'Fill in Blank'
+        };
         const typePct = bd.total > 0 ? Math.round((bd.correct / bd.total) * 100) : 0;
         return `<tr>
           <td>${labels[type] || type}</td>
@@ -75471,18 +75673,19 @@ window.PWA_BOOK_DATA = {
           <div class="exam-grade-badge" style="color:${color};">${grade}</div>
           <div class="exam-score-num">${pct}% — ${correct} / ${total} correct</div>
           ${student ? `<div class="exam-score-student">👤 ${student}</div>` : ''}
-          <div class="exam-score-date">📅 ${date} · Stage ${currentStage} Lesson ${currentLesson}</div>
+          <div class="exam-score-date">📅 ${date} · ${scopeDesc}</div>
         </div>
 
         ${breakdownRows ? `
           <table class="exam-breakdown-table">
-            <tr><th>Type</th><th>Score</th><th>%</th></tr>
+            <tr><th>Question Type</th><th>Score</th><th>%</th></tr>
             ${breakdownRows}
           </table>
         ` : ''}
 
         <div class="exam-action-btns">
-          <button class="btn-primary" onclick="App.printExamResults(2)">📄 Print / Download PDF</button>
+          <button class="btn-primary" onclick="App.printExamResults('student')">📄 Print / Download Exam Paper</button>
+          <button class="btn-secondary" onclick="App.printExamResults('key')">🔑 Print Teacher Answer Key</button>
           <button class="btn-secondary" onclick="App.reviewExam()">🔍 Review All Answers</button>
           <button class="btn-secondary" onclick="App.retakeExam()">🔁 Retake Exam</button>
           <button class="btn-secondary" onclick="App.closeExam()">✓ Close</button>
@@ -75505,15 +75708,15 @@ window.PWA_BOOK_DATA = {
             <span class="review-q-num">Q${i + 1} · ${q.type.toUpperCase()}</span>
             <span class="review-q-result ${correct ? 'correct' : 'wrong'}">${correct ? '✅ Correct' : '❌ Wrong'}</span>
           </div>
-          <div class="review-q-arabic">${q.arabic || (q.pairs?.map(p => p.arabic).join(' / ') || '')}</div>
+          <div class="review-q-arabic" style="font-family:'Amiri',serif; font-size:1.3rem; direction:rtl;">${q.arabic || (q.pairs?.map(p => p.arabic).join(' / ') || q.hinglish)}</div>
           <div class="review-answer-row">
             <span style="color:var(--text-muted);">Correct: </span>
-            <span style="color:#10B981;">${q.correct || q.pairs?.map(p => p.hinglish).join(', ') || (q.items?.map(i => i.arabic).join(' → '))}</span>
+            <span style="color:#10B981; font-weight:600;">${q.correct || q.pairs?.map(p => p.hinglish).join(', ')}</span>
           </div>
           ${examAnswers[i] && examAnswers[i] !== q.correct ? `
             <div class="review-answer-row">
               <span style="color:var(--text-muted);">Your answer: </span>
-              <span style="color:#EF4444;">${examAnswers[i]}</span>
+              <span style="color:#EF4444; font-weight:600;">${examAnswers[i]}</span>
             </div>` : ''}
         </div>`;
       });
@@ -75526,70 +75729,172 @@ window.PWA_BOOK_DATA = {
       renderExamView();
     };
 
-    // ── Exam Print / PDF ──
-    App.printExamResults = async function(cols) {
-      cols = cols || 2;
-      // Create printable content
+    // ── Professional A4 Exam Print / PDF (Student Paper & Answer Key) ──
+    App.printExamResults = async function(edition) {
+      edition = edition || 'student';
+      const isKey = (edition === 'key');
+
       const { pct, correct, total } = calcExamScore();
       const grade = calcGrade(pct);
-      const student = localStorage.getItem('muallim_student_name') || 'Student';
-      const date = new Date().toLocaleString();
+      const student = lsGet('muallim_student_name', 'Student') || 'Student';
+      const date = new Date().toLocaleDateString();
 
-      // Build print HTML
-      const printWin = window.open('', '_blank', 'width=900,height=700');
-      if (!printWin) { showToast('Please allow popups for printing'); return; }
+      const scopeDesc = {
+        current: `Unit ${currentStage} Lesson ${currentLesson}`,
+        stage: `Unit ${currentStage} Comprehensive`,
+        custom: `${examScopeSelection.size} Lessons Custom Exam`,
+        starred: `⭐ Starred Vocabulary Exam`
+      }[examScopeMode] || `Unit ${currentStage}`;
 
-      let qRows = '';
-      examQuestions.forEach((q, i) => {
-        const score = examScores[i];
-        const icon = score === true ? '✅' : score === false ? '❌' : '—';
-        const ans = examAnswers[i] || '—';
-        const correct_ans = q.correct || q.pairs?.map(p=>p.hinglish).join(', ') || '—';
-        qRows += `<tr style="break-inside:avoid;">
-          <td style="padding:5px; border:1px solid #ddd; font-family:serif; font-size:1.1rem; direction:rtl;">${q.arabic || ''}</td>
-          <td style="padding:5px; border:1px solid #ddd; font-size:0.85rem;">${ans}</td>
-          <td style="padding:5px; border:1px solid #ddd; font-size:0.85rem; color:#059669;">${correct_ans}</td>
-          <td style="padding:5px; border:1px solid #ddd; text-align:center;">${icon}</td>
-        </tr>`;
-      });
+      const mcqs = examQuestions.filter(q => q.type === 'mcq');
+      const fills = examQuestions.filter(q => q.type === 'fillin');
+      const matchings = examQuestions.filter(q => q.type === 'matching');
+      const tfs = examQuestions.filter(q => q.type === 'truefalse');
+      const writings = examQuestions.filter(q => q.type === 'arabic_writing');
 
-      printWin.document.write(`<!DOCTYPE html>
-<html><head><meta charset="utf-8">
-<title>Muallim Exam Results</title>
-<style>
-  body { font-family: Arial, sans-serif; margin: 20px; font-size: 13px; }
-  h1 { color: #1B4332; font-size: 1.3rem; }
-  .header { display: flex; justify-content: space-between; margin-bottom: 16px; }
-  .grade { font-size: 2.5rem; font-weight: 900; color: #1B4332; }
-  table { width: 100%; border-collapse: collapse; margin-top: 12px; }
-  th { background: #1B4332; color: white; padding: 6px 8px; text-align: left; }
-  td { padding: 5px; border: 1px solid #ddd; }
-  .arabic-cell { font-family: serif; font-size: 1.1rem; direction: rtl; }
-  @media print { .no-print { display: none; } }
-</style>
-</head><body>
-<div class="header">
-  <div>
-    <h1>📖 Muallim ul-Qur'an — Exam Results</h1>
-    <div><strong>Student:</strong> ${student}</div>
-    <div><strong>Date:</strong> ${date}</div>
-    <div><strong>Lesson:</strong> Stage ${currentStage}, Lesson ${currentLesson}</div>
-  </div>
-  <div style="text-align:right;">
-    <div class="grade">${grade}</div>
-    <div style="font-size:1.2rem; font-weight:700;">${pct}%</div>
-    <div>${correct} / ${total} correct</div>
-  </div>
-</div>
-<table>
-  <tr><th>Arabic</th><th>Your Answer</th><th>Correct Answer</th><th>Result</th></tr>
-  ${qRows}
-</table>
-<div class="no-print" style="margin-top:20px; text-align:center;">
-  <button onclick="window.print()" style="padding:10px 24px; background:#1B4332; color:white; border:none; border-radius:6px; font-size:1rem; cursor:pointer; margin-right:10px;">🖨 Print</button>
-  <button onclick="window.close()" style="padding:10px 20px; background:#eee; border:none; border-radius:6px; font-size:1rem; cursor:pointer;">Close</button>
-</div>
-</body></html>`);
+      const printWin = window.open('', '_blank', 'width=920,height=750');
+      if (!printWin) {
+        showToast('Please allow popups to open the printable exam sheet');
+        return;
+      }
+
+      const keyBtnHtml = !isKey ? '<button onclick="window.opener.App.printExamResults(\'key\'); window.close();" style="padding:10px 20px; background:#0EA5E9; color:#fff; border:none; border-radius:6px; font-size:1rem; cursor:pointer; font-weight:700;">🔑 Open Teacher Key</button>' : '';
+
+      const summaryCardHtml = isKey ? `<div class="score-card">
+        <div>
+          <div style="font-weight:800; font-size:11pt; color:#1B4332;">Result Summary</div>
+          <div style="font-size:9.5pt; color:#4b5563;">Score: ${correct} / ${total} (${pct}%)</div>
+        </div>
+        <div class="score-badge">${grade}</div>
+      </div>` : '';
+
+      let pageHtml = '<!DOCTYPE html><html lang="ur" dir="ltr"><head><meta charset="utf-8">';
+      pageHtml += '<title>Muallim ul-Qur\'an — ' + (isKey ? 'Answer Key' : 'Exam Paper') + '</title>';
+      pageHtml += '<link rel="preconnect" href="https://fonts.googleapis.com">';
+      pageHtml += '<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap" rel="stylesheet">';
+      pageHtml += '<style>';
+      pageHtml += '* { box-sizing: border-box; margin: 0; padding: 0; }';
+      pageHtml += 'body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; font-size: 11pt; margin: 15mm; color: #111; line-height: 1.4; }';
+      pageHtml += '.exam-header { border-bottom: 2.5px solid #1B4332; padding-bottom: 10px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: flex-start; }';
+      pageHtml += '.exam-title { font-size: 16pt; font-weight: 900; color: #1B4332; }';
+      pageHtml += '.exam-sub { font-size: 9.5pt; color: #4b5563; margin-top: 3px; }';
+      pageHtml += '.exam-meta { margin-top: 8px; font-size: 9pt; display: flex; gap: 16px; }';
+      pageHtml += '.meta-item strong { color: #1B4332; }';
+      pageHtml += '.badge-edition { padding: 4px 12px; border-radius: 4px; font-size: 9.5pt; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; }';
+      pageHtml += '.badge-student { background: #e5e7eb; color: #111827; }';
+      pageHtml += '.badge-key { background: #1B4332; color: #fff; }';
+      pageHtml += '.section-hdr { background: #1B4332; color: #fff; padding: 5px 12px; font-size: 9.5pt; font-weight: 700; margin: 16px 0 10px; display: flex; justify-content: space-between; border-radius: 3px; page-break-after: avoid; -webkit-print-color-adjust: exact; print-color-adjust: exact; }';
+      pageHtml += '.mcq-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }';
+      pageHtml += '.mcq-card { border: 0.5pt solid #d1d5db; border-radius: 4px; padding: 8px 10px; page-break-inside: avoid; }';
+      pageHtml += '.mcq-qnum { font-weight: 700; font-size: 8.5pt; color: #1B4332; }';
+      pageHtml += '.q-ar { font-family: "Amiri", serif; font-size: 15pt; direction: rtl; text-align: right; margin: 4px 0 6px; color: #000; }';
+      pageHtml += '.mcq-opts { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; font-size: 8.5pt; }';
+      pageHtml += '.mcq-opt { padding: 2px 4px; border-radius: 2px; }';
+      pageHtml += '.ans-highlight { background: #d1fae5; font-weight: 700; color: #065f46; }';
+      pageHtml += '.fill-row { display: flex; align-items: baseline; gap: 12px; margin-bottom: 8px; padding: 4px 0; border-bottom: 0.5pt dashed #e5e7eb; page-break-inside: avoid; }';
+      pageHtml += '.fill-blank { flex: 1; border-bottom: 1.5pt solid #333; min-height: 1.5em; font-weight: 700; color: #065f46; }';
+      pageHtml += '.match-table { width: 100%; border-collapse: collapse; margin-top: 6px; page-break-inside: avoid; }';
+      pageHtml += '.match-table th { background: #f3f4f6; padding: 4px 8px; font-size: 8.5pt; text-align: left; border: 0.5pt solid #d1d5db; }';
+      pageHtml += '.match-table td { padding: 5px 8px; border: 0.5pt solid #d1d5db; font-size: 9pt; }';
+      pageHtml += '.tf-row { display: flex; justify-content: space-between; align-items: center; padding: 4px 0; border-bottom: 0.5pt dotted #d1d5db; page-break-inside: avoid; }';
+      pageHtml += '.tf-box { border: 1pt solid #333; width: 45px; height: 20px; text-align: center; font-size: 8.5pt; font-weight: 700; line-height: 18px; }';
+      pageHtml += '.ar-write-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }';
+      pageHtml += '.ar-write-card { border: 0.5pt solid #d1d5db; border-radius: 4px; padding: 8px 10px; page-break-inside: avoid; }';
+      pageHtml += '.score-card { border: 1.5pt solid #1B4332; border-radius: 6px; padding: 12px; margin-top: 18px; display: flex; justify-content: space-between; align-items: center; }';
+      pageHtml += '.score-badge { font-size: 2.2rem; font-weight: 900; color: #1B4332; }';
+      pageHtml += '@media print { .no-print { display: none !important; } body { margin: 10mm; } }';
+      pageHtml += '</style></head><body>';
+
+      pageHtml += `<div class="exam-header">
+        <div>
+          <div class="exam-title">📖 Muallim ul-Qur'an</div>
+          <div class="exam-sub">Hinglish Qur'anic Arabic Curriculum — ${scopeDesc}</div>
+          <div class="exam-meta">
+            <div class="meta-item">Student: <strong>${isKey ? student : '___________________________'}</strong></div>
+            <div class="meta-item">Date: <strong>${date}</strong></div>
+            <div class="meta-item">Total Questions: <strong>${examQuestions.length}</strong></div>
+          </div>
+        </div>
+        <div>
+          <span class="badge-edition ${isKey ? 'badge-key' : 'badge-student'}">${isKey ? '🔑 Teacher Key' : 'Student Paper'}</span>
+        </div>
+      </div>`;
+
+      if (mcqs.length > 0) {
+        pageHtml += `<div class="section-hdr"><span>Section A — Multiple Choice (Sahi Jawab)</span><span>${mcqs.length} Marks</span></div>`;
+        pageHtml += '<div class="mcq-grid">';
+        mcqs.forEach((q, idx) => {
+          pageHtml += `<div class="mcq-card"><div class="mcq-qnum">Q${idx + 1}.</div><div class="q-ar">${q.arabic}</div><div class="mcq-opts">`;
+          q.options.forEach((opt, oi) => {
+            const hl = isKey && opt === q.correct ? ' ans-highlight' : '';
+            pageHtml += `<div class="mcq-opt${hl}">${'ABCD'[oi]}. ${opt}</div>`;
+          });
+          pageHtml += '</div></div>';
+        });
+        pageHtml += '</div>';
+      }
+
+      if (fills.length > 0) {
+        pageHtml += `<div class="section-hdr"><span>Section B — Fill in the Blank (Khaali Jagah Bharein)</span><span>${fills.length * 2} Marks</span></div>`;
+        fills.forEach((q, idx) => {
+          pageHtml += `<div class="fill-row"><span style="font-weight:700; font-size:8.5pt; color:#1B4332;">Q${idx + 1}.</span>`;
+          pageHtml += `<span class="q-ar" style="margin:0; min-width:120px;">${q.arabic}</span>`;
+          pageHtml += `<div class="fill-blank">${isKey ? q.correct : ''}</div></div>`;
+        });
+      }
+
+      if (matchings.length > 0) {
+        const mMarks = matchings.reduce((sum, m) => sum + m.pairs.length, 0);
+        pageHtml += `<div class="section-hdr"><span>Section C — Matching Pairs (Jori Milayen)</span><span>${mMarks} Marks</span></div>`;
+        matchings.forEach((q) => {
+          pageHtml += '<table class="match-table"><tr><th>#</th><th>Arabic Phrase</th><th>Matching Meaning</th><th>Letter</th></tr>';
+          q.pairs.forEach((p, pi) => {
+            const letter = String.fromCharCode(65 + pi);
+            const ansLetter = isKey ? String.fromCharCode(65 + q.shuffledHinglish.indexOf(p.hinglish)) : '____';
+            pageHtml += `<tr><td style="width:30px;">${pi + 1}</td><td style="font-family:'Amiri',serif; font-size:13pt; direction:rtl; text-align:right;">${p.arabic}</td>`;
+            pageHtml += `<td>${letter}. ${isKey ? p.hinglish : q.shuffledHinglish[pi]}</td><td style="width:50px; text-align:center; font-weight:700;">${ansLetter}</td></tr>`;
+          });
+          pageHtml += '</table>';
+        });
+      }
+
+      if (tfs.length > 0) {
+        pageHtml += `<div class="section-hdr"><span>Section D — True or False (Sahi ya Ghalat)</span><span>${tfs.length} Marks</span></div>`;
+        tfs.forEach((q, idx) => {
+          const hl = isKey ? ' ans-highlight' : '';
+          const tfVal = isKey ? (q.correct === 'true' ? 'TRUE' : 'FALSE') : '';
+          pageHtml += `<div class="tf-row"><div><span style="font-weight:700; font-size:8.5pt; color:#1B4332;">Q${idx + 1}.</span>`;
+          pageHtml += `<span class="q-ar" style="margin:0 8px;">${q.arabic}</span><span>means: <strong>"${q.statement}"</strong></span></div>`;
+          pageHtml += `<div class="tf-box${hl}">${tfVal}</div></div>`;
+        });
+      }
+
+      if (writings.length > 0) {
+        pageHtml += `<div class="section-hdr"><span>Section E — Arabic Writing (Arabic Pehchanen)</span><span>${writings.length * 2} Marks</span></div>`;
+        pageHtml += '<div class="ar-write-grid">';
+        writings.forEach((q, idx) => {
+          pageHtml += `<div class="ar-write-card"><div style="font-weight:700; font-size:8.5pt; color:#1B4332; margin-bottom:4px;">Q${idx + 1}. "${q.hinglish}"</div>`;
+          pageHtml += '<div style="font-size:8pt; color:#6b7280; margin-bottom:4px;">Chunein sahi Arabic:</div><div class="mcq-opts" style="direction:rtl;">';
+          q.options.forEach((opt, oi) => {
+            const hl = isKey && opt === q.correct ? ' ans-highlight' : '';
+            pageHtml += `<div class="mcq-opt${hl}" style="font-family:'Amiri',serif; font-size:12pt; text-align:right;">${'ABCD'[oi]}. ${opt}</div>`;
+          });
+          pageHtml += '</div></div>';
+        });
+        pageHtml += '</div>';
+      }
+
+      pageHtml += summaryCardHtml;
+
+      pageHtml += `<div class="no-print" style="margin-top:24px; display:flex; justify-content:center; gap:10px;">
+        <button onclick="window.print()" style="padding:10px 24px; background:#1B4332; color:#fff; border:none; border-radius:6px; font-size:1rem; cursor:pointer; font-weight:700;">🖨 Print / Save PDF</button>
+        ${keyBtnHtml}
+        <button onclick="window.close()" style="padding:10px 20px; background:#eee; border:none; border-radius:6px; font-size:1rem; cursor:pointer;">Close</button>
+      </div>`;
+
+      pageHtml += '</body></html>';
+
+      printWin.document.write(pageHtml);
       printWin.document.close();
       printWin.focus();
     };
