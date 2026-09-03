@@ -2,7 +2,7 @@
 <html lang="ur" dir="ltr" data-theme="light" data-mode="teacher">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Muallim ul-Qur'an — Unit 1 Lesson 1</title>
   <meta name="description" content="Offline-first interactive Muallim ul-Qur'an Arabic workbook with Hinglish translations, audio recitation, custom notes, and spaced repetition.">
   <meta name="theme-color" content="#1B4332">
@@ -1552,16 +1552,20 @@
     </div>
 
     <div class="header-right">
-      <button id="btn-open-search" class="icon-btn" title="Search Vocabulary & Verses">🔍</button>
-      <button id="btn-open-spinner" class="icon-btn" title="Spaced-Repetition Spinner">🔀</button>
-      <button id="btn-open-favs" class="icon-btn" title="View Favourites">★</button>
-      <button id="btn-open-exam" class="icon-btn" title="Take Exam" onclick="App.openExam()">🎓</button>
       <button id="btn-menu" class="icon-btn" popovertarget="settings-popover" title="Settings Menu">☰</button>
     </div>
   </header>
 
   <!-- Settings Popover Menu (Native HTML Popover API) -->
   <div id="settings-popover" class="popover-menu" popover>
+      <!-- Quick Actions (moved from header) -->
+      <div class="quick-actions-row">
+        <button class="quick-action-btn" id="menu-btn-search">🔍 Search</button>
+        <button class="quick-action-btn" id="menu-btn-drill">🔀 Drill</button>
+        <button class="quick-action-btn" id="menu-btn-favs">★ Starred</button>
+        <button class="quick-action-btn" id="menu-btn-exam">🎓 Exam</button>
+      </div>
+
     <div class="menu-group">
       <div class="menu-label">Theme</div>
       <div class="toggle-btn-group">
@@ -1901,7 +1905,20 @@
       function init() {
         setupEventListeners();
         setAudioSpeed(audioSpeed, false);
-        loadLesson(1, 1);
+        // Auto-resume bookmark on every app open
+        var _bmAutoRaw = null;
+        try { _bmAutoRaw = localStorage.getItem('muallim_bookmark'); } catch(e) {}
+        var _bmLoaded = false;
+        if (_bmAutoRaw) {
+          try {
+            var _bmAuto = JSON.parse(_bmAutoRaw);
+            if (_bmAuto && _bmAuto.stage && _bmAuto.lesson) {
+              loadLesson(_bmAuto.stage, _bmAuto.lesson);
+              _bmLoaded = true;
+            }
+          } catch(e) {}
+        }
+        if (!_bmLoaded) loadLesson(1, 1);
         populateStageTabs();
         updateStarredCountBadge();
         if (typeof debouncedSync === "function") debouncedSync();
@@ -1911,8 +1928,8 @@
         document.getElementById('btn-lesson-picker').addEventListener('click', () => {
           document.getElementById('lesson-picker-modal').showModal();
         });
-        document.getElementById('btn-open-search').addEventListener('click', openSearchModal);
-        document.getElementById('btn-open-spinner').addEventListener('click', function() {
+        var _bs = document.getElementById('btn-open-search'); if(_bs) _bs.addEventListener('click', openSearchModal);
+        var _bsp = document.getElementById('btn-open-spinner'); if(_bsp) _bsp.addEventListener('click', function() {
           // Reset drill to setup view
           const sv = document.getElementById('drill-setup-view');
           const cv = document.getElementById('drill-card-view');
@@ -1928,7 +1945,7 @@
           if (cp) cp.style.display = 'none';
           document.getElementById('spinner-modal').showModal();
         });
-        document.getElementById('btn-open-favs').addEventListener('click', openFavourites);
+        var _bf = document.getElementById('btn-open-favs'); if(_bf) _bf.addEventListener('click', openFavourites);
       }
 
       function setTheme(theme) {
@@ -2130,6 +2147,7 @@
               html += `
                 <div class="vocab-card" style="${it.full_width ? 'grid-column: 1 / -1;' : ''}">
                   <div class="card-top">
+                    ${it.id ? `<span class="card-number">${it.id}</span>` : ''}
                     <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
                     <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">★</button>
                   </div>
@@ -2389,25 +2407,28 @@
         if (favourites.length === 0) {
           favsHtml = '<p style="text-align:center; color:var(--text-muted); padding:20px;">No starred items yet. Tap the ★ button on any card to save it here!</p>';
         } else {
-          favsHtml = '<div class="bidi-grid cols-1">';
-          favourites.forEach((f) => {
-            const escAr = (f.arabic || '').replace(/'/g, "\\'");
-            const escHi = (f.hinglish || '').replace(/'/g, "\\'");
-            favsHtml += `
-              <div class="vocab-card">
-                <div class="card-top">
-                  <span style="font-size:0.8rem; color:var(--text-muted);">Unit ${f.stage} Lesson ${f.lesson}</span>
-                  <div class="card-actions">
-                    <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
-                    <button class="card-action-btn starred" onclick="App.toggleStarInPlace(this, '${f.key}', '${escAr}', '${escHi}'); App.openFavourites();">★</button>
-                  </div>
-                </div>
-                <div class="arabic-text">${f.arabic}</div>
-                ${renderDualAnswerHtml(f.key, f.arabic, f.hinglish)}
-              </div>
-            `;
+          // Group by Stage + Lesson, sorted
+          const favGroups = {};
+          favourites.forEach(function(f) {
+            const gk = 'S' + f.stage + 'L' + f.lesson;
+            if (!favGroups[gk]) favGroups[gk] = { stage: f.stage, lesson: f.lesson, items: [] };
+            favGroups[gk].items.push(f);
           });
-          favsHtml += '</div>';
+          const favKeys = Object.keys(favGroups).sort(function(a, b) {
+            const ga = favGroups[a], gb = favGroups[b];
+            return ga.stage !== gb.stage ? ga.stage - gb.stage : ga.lesson - gb.lesson;
+          });
+          favKeys.forEach(function(gk) {
+            const g = favGroups[gk];
+            favsHtml += '<div class="starred-group-header">⭐ Stage ' + g.stage + ' • Lesson ' + g.lesson + ' <span class="starred-count">(' + g.items.length + ')</span></div>';
+            favsHtml += '<div class="bidi-grid cols-1">';
+            g.items.forEach(function(f) {
+              const escAr = (f.arabic || '').replace(/'/g, "\'");
+              const escHi = (f.hinglish || '').replace(/'/g, "\'");
+              favsHtml += '<div class="vocab-card"><div class="card-top"><span style="font-size:0.75rem;color:var(--text-muted);">S' + f.stage + 'L' + f.lesson + '</span><div class="card-actions"><button class="card-action-btn" onclick="App.speakArabic(\'' + escAr + '\')">🔊</button><button class="card-action-btn starred" onclick="App.toggleStarInPlace(this,\'' + f.key + '\',\'' + escAr + '\',\'' + escHi + '\');App.openFavourites();">★</button></div></div><div class="arabic-text">' + f.arabic + '</div>' + renderDualAnswerHtml(f.key, f.arabic, f.hinglish) + '</div>';
+            });
+            favsHtml += '</div>';
+          });
         }
         document.getElementById('favs-list-mount').innerHTML = favsHtml;
         document.getElementById('favs-modal').showModal();
@@ -3614,7 +3635,62 @@
   table { width: 100%; border-collapse: collapse; margin-top: 12px; }
   th { background: #1B4332; color: white; padding: 6px 8px; text-align: left; }
   @media print { .no-print { display: none; } }
-</style>
+
+        /* ── Mobile-first: no side-scroll, no zoom ── */
+        html, body { overflow-x: hidden; max-width: 100vw; -webkit-text-size-adjust: 100%; }
+        * { box-sizing: border-box; }
+        body { touch-action: pan-y; }
+
+        /* ── Card number badge ── */
+        .card-number {
+          font-size: 0.68rem; font-weight: 700; color: var(--text-muted, #9ca3af);
+          background: var(--bg-surface-elevated, #f3f4f6); border-radius: 4px;
+          padding: 1px 5px; min-width: 18px; text-align: center;
+          line-height: 1.5; flex-shrink: 0; font-variant-numeric: tabular-nums;
+        }
+
+        /* ── Quick actions row in hamburger menu ── */
+        .quick-actions-row {
+          display: grid; grid-template-columns: 1fr 1fr;
+          gap: 8px; padding: 12px 0 4px; border-bottom: 1px solid var(--border, #e5e7eb);
+          margin-bottom: 10px;
+        }
+        .quick-action-btn {
+          display: flex; align-items: center; justify-content: center; gap: 6px;
+          background: var(--bg-surface-elevated, #f3f4f6);
+          border: 1px solid var(--border, #e5e7eb); border-radius: 8px;
+          padding: 10px 6px; font-size: 0.82rem; font-weight: 600;
+          color: var(--text-primary, #111827); cursor: pointer; transition: all 0.15s;
+        }
+        .quick-action-btn:active { background: var(--primary, #1B4332); color: #fff; }
+
+        /* ── Starred group headings ── */
+        .starred-group-header {
+          font-size: 0.82rem; font-weight: 700; color: var(--primary, #1B4332);
+          padding: 10px 8px 4px; border-bottom: 1px solid var(--border, #e5e7eb);
+          position: sticky; top: 0; background: var(--bg-surface, #fff); z-index: 2;
+          margin-top: 4px;
+        }
+        .starred-count { font-weight: 400; color: var(--text-muted, #9ca3af); font-size: 0.78rem; }
+
+        /* ── Onboarding modal ── */
+        .onboard-modal {
+          border: none; border-radius: 16px; padding: 0;
+          max-width: 340px; width: 90vw;
+          box-shadow: 0 20px 60px rgba(0,0,0,0.18);
+          background: var(--bg-surface, #fff);
+        }
+        .onboard-modal::backdrop { background: rgba(0,0,0,0.45); }
+        .onboard-body { padding: 24px 20px 20px; text-align: center; }
+        .onboard-icon { font-size: 2.4rem; margin-bottom: 10px; }
+        .onboard-title { font-size: 1.05rem; font-weight: 700; margin-bottom: 6px; color: var(--text-primary, #111827); }
+        .onboard-desc { font-size: 0.84rem; color: var(--text-secondary, #4b5563); margin-bottom: 18px; line-height: 1.5; }
+        .onboard-actions { display: flex; gap: 8px; }
+        .onboard-actions .btn-primary { flex: 2; }
+        .onboard-actions .btn-ghost { flex: 1; background: none; border: 1px solid var(--border, #e5e7eb); border-radius: 8px; padding: 10px; font-size: 0.82rem; color: var(--text-muted, #9ca3af); cursor: pointer; }
+        .onboard-name-input { width: 100%; border: 1.5px solid var(--border, #e5e7eb); border-radius: 8px; padding: 10px 12px; font-size: 0.95rem; margin-bottom: 14px; outline: none; text-align: center; background: var(--bg-surface-elevated, #f9fafb); }
+        .onboard-name-input:focus { border-color: var(--primary, #1B4332); }
+      </style>
 </head><body>
 <div class="header">
   <div>
@@ -3637,6 +3713,24 @@
   <button onclick="window.print()" style="padding:10px 24px; background:#1B4332; color:white; border:none; border-radius:6px; font-size:1rem; cursor:pointer; margin-right:10px;">🖨 Print</button>
   <button onclick="window.close()" style="padding:10px 20px; background:#eee; border:none; border-radius:6px; font-size:1rem; cursor:pointer;">Close</button>
 </div>
+<script>
+    // Wire quick-action buttons (moved from header to ☰ menu)
+    document.addEventListener('DOMContentLoaded', function() {
+      function qb(id, fn) {
+        var el = document.getElementById(id);
+        if (el) el.addEventListener('click', function() {
+          // Close popover first
+          var pop = document.getElementById('settings-popover');
+          if (pop && pop.hidePopover) pop.hidePopover();
+          fn();
+        });
+      }
+      qb('menu-btn-search', function() { if(window.App&&App.openSearch) App.openSearch(); });
+      qb('menu-btn-drill', function() { if(window.App&&App.openDrillSpinner) App.openDrillSpinner(); });
+      qb('menu-btn-favs', function() { if(window.App&&App.openFavourites) App.openFavourites(); });
+      qb('menu-btn-exam', function() { if(window.App&&App.openExam) App.openExam(); });
+    });
+</script>
 </body></html>`);
       printWin.document.close();
       printWin.focus();
@@ -4063,6 +4157,78 @@
         if (window.App && typeof window.App.loadBookmark === 'function') window.App.loadBookmark();
       }, 100);
     });
+  
+    // ── Smart Onboarding Prompts ────────────────────────────────────────────
+    (function() {
+      function _ls(k) { try { return localStorage.getItem(k); } catch(e) { return null; } }
+      function _lsSet(k, v) { try { localStorage.setItem(k, v); } catch(e) {} }
+
+      function showOnboard(type) {
+        var modal = document.getElementById('onboard-modal');
+        var body = document.getElementById('onboard-body');
+        if (!modal || !body) return;
+
+        if (type === 'name') {
+          body.innerHTML = '<div class="onboard-icon">✏️</div>'
+            + '<div class="onboard-title">Aapka naam kya hai?</div>'
+            + '<div class="onboard-desc">Apna naam likhen taake aapki progress save ho sake.</div>'
+            + '<input class="onboard-name-input" id="ob-name-in" type="text" placeholder="Apna naam yahan likhen..." maxlength="40">'
+            + '<div class="onboard-actions">'
+            + '<button class="btn-ghost" onclick="document.getElementById('onboard-modal').close();'
+            + 'localStorage.setItem('muallim_onboard_name_done','skipped');">Skip</button>'
+            + '<button class="btn-primary" onclick="var n=document.getElementById('ob-name-in').value.trim();'
+            + 'if(!n)return;localStorage.setItem('muallim_student_name',n);'
+            + 'localStorage.setItem('muallim_onboard_name_done','done');'
+            + 'document.getElementById('onboard-modal').close();'
+            + 'if(window.App&&App.initStudentName)App.initStudentName();">Save Name</button>'
+            + '</div>';
+        } else if (type === 'notification') {
+          body.innerHTML = '<div class="onboard-icon">🔔</div>'
+            + '<div class="onboard-title">Notifications allow karein?</div>'
+            + '<div class="onboard-desc">Ustaad ke important paighaam aur reminders milenge.</div>'
+            + '<div class="onboard-actions">'
+            + '<button class="btn-ghost" onclick="document.getElementById('onboard-modal').close();'
+            + 'localStorage.setItem('muallim_onboard_notif_done','denied');">Skip</button>'
+            + '<button class="btn-primary" onclick="document.getElementById('onboard-modal').close();'
+            + 'localStorage.setItem('muallim_onboard_notif_done','done');'
+            + 'if(window.App&&App.enablePushNotifications)App.enablePushNotifications();">Allow</button>'
+            + '</div>';
+        } else if (type === 'install') {
+          body.innerHTML = '<div class="onboard-icon">📲</div>'
+            + '<div class="onboard-title">App install karein?</div>'
+            + '<div class="onboard-desc">Home screen par add karein — internet ke baghair bhi chalega!</div>'
+            + '<div class="onboard-actions">'
+            + '<button class="btn-ghost" onclick="document.getElementById('onboard-modal').close();'
+            + 'localStorage.setItem('muallim_onboard_install_done','denied');">Skip</button>'
+            + '<button class="btn-primary" onclick="document.getElementById('onboard-modal').close();'
+            + 'localStorage.setItem('muallim_onboard_install_done','done');'
+            + 'if(window.App&&App.promptInstall)App.promptInstall();">Install</button>'
+            + '</div>';
+        }
+        modal.showModal();
+      }
+
+      document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(function() {
+          var count = parseInt(_ls('muallim_session_count') || '0') + 1;
+          _lsSet('muallim_session_count', String(count));
+
+          if (!_ls('muallim_onboard_name_done') && !_ls('muallim_student_name')) {
+            showOnboard('name'); return;
+          }
+          if (count >= 2 && !_ls('muallim_onboard_notif_done')
+              && typeof Notification !== 'undefined' && Notification.permission === 'default') {
+            showOnboard('notification'); return;
+          }
+          if (count >= 3 && !_ls('muallim_onboard_install_done')) {
+            var hasDeferredPrompt = false;
+            try { hasDeferredPrompt = !!window._deferredInstallPrompt; } catch(e) {}
+            if (hasDeferredPrompt) { showOnboard('install'); }
+          }
+        }, 1800);
+      });
+    })();
+
   </script>
   <div id="sync-indicator" class="sync-indicator">☁ Synced</div>
   <!-- Toast Notification -->
@@ -4080,5 +4246,12 @@
   </dialog>
 
 
+
+  <!-- Onboarding modal (smart prompts: name → notification → install) -->
+  <dialog id="onboard-modal" class="onboard-modal">
+    <div class="onboard-body" id="onboard-body">
+      <!-- Content injected by JS -->
+    </div>
+  </dialog>
 </body>
 </html>
