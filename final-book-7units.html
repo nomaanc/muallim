@@ -1775,25 +1775,39 @@
 
     <hr class="menu-divider">
 
-    <!-- P3: Admin Access -->
+    <!-- User Account & Teacher Access -->
     <div class="menu-group" id="admin-access-group">
-      <div class="menu-label">🔐 Teacher Access</div>
-      <div id="admin-locked-view">
-        <input type="password" id="admin-pin-input"
-          class="menu-text-input"
-          placeholder="Enter teacher PIN..."
-          maxlength="20"
-          autocomplete="off"
-          onkeydown="if(event.key==='Enter')App.tryAdminUnlock()">
-        <button class="btn-secondary" style="width:100%; margin-top:6px; padding:7px; font-size:0.85rem;" onclick="App.tryAdminUnlock()">
-          Unlock Admin Panel
+      <div class="menu-label">👤 Account &amp; Teacher Access</div>
+      
+      <!-- Logged Out View -->
+      <div id="auth-logged-out-view">
+        <p style="font-size:0.8rem; color:var(--text-muted); margin:0 0 8px; line-height:1.4;">
+          Teacher admin panel aur cloud sync ke liye ID &amp; Password se login karein.
+        </p>
+        <button class="btn-secondary" style="width:100%; padding:8px; font-size:0.85rem; font-weight:600;" onclick="App.openLoginModal()">
+          🔑 Login (Teacher / Student)
         </button>
       </div>
+
+      <!-- Logged In View -->
+      <div id="auth-logged-in-view" style="display:none;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; padding:8px 10px; background:var(--bg-surface, #f8f9fa); border-radius:8px; border:1px solid var(--border-color, #ddd);">
+          <div>
+            <div id="auth-user-display" style="font-weight:700; font-size:0.85rem;">User</div>
+            <div id="auth-user-role" style="font-size:0.72rem; color:var(--text-muted);">student</div>
+          </div>
+          <div style="display:flex; gap:4px;">
+            <button class="btn-secondary" style="padding:4px 8px; font-size:0.75rem;" onclick="App.changePassword()">🔑 Password</button>
+            <button class="btn-secondary" style="padding:4px 8px; font-size:0.75rem;" onclick="App.doLogout()">🚪 Logout</button>
+          </div>
+        </div>
+      </div>
+
       <div id="admin-unlocked-view" style="display:none;" class="admin-panel">
         <!-- Header row -->
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-          <span style="font-weight:700; font-size:0.88rem;">Admin Panel <span class="admin-badge">UNLOCKED</span></span>
-          <button class="btn-secondary" style="padding:4px 10px; font-size:0.78rem;" onclick="App.lockAdmin()">🔒 Lock</button>
+          <span style="font-weight:700; font-size:0.88rem;">Teacher Admin Panel <span class="admin-badge">ACTIVE</span></span>
+          <button class="btn-secondary" style="padding:4px 10px; font-size:0.78rem;" onclick="App.doLogout()">🚪 Logout</button>
         </div>
 
         <!-- Firebase status + config -->
@@ -1822,7 +1836,7 @@
 
         <!-- Admin controls -->
         <div class="menu-btn-row" style="margin-bottom:8px;">
-          <button class="btn-secondary" onclick="App.changeAdminPin()" style="flex:1; padding:5px; font-size:0.78rem;">🔑 Change PIN</button>
+          <button class="btn-secondary" onclick="App.changePassword()" style="flex:1; padding:5px; font-size:0.78rem;">🔑 Password</button>
           <button class="btn-secondary" onclick="App.refreshAdminStudents()" style="flex:1; padding:5px; font-size:0.78rem;">↺ Refresh</button>
         </div>
 
@@ -74840,6 +74854,37 @@ window.PWA_BOOK_DATA = {
       }
     };
 
+    App.openLoginModal = function() {
+      const pop = document.getElementById('settings-popover');
+      if (pop && pop.hidePopover) {
+        try { pop.hidePopover(); } catch(e) {}
+      }
+      const lm = document.getElementById('login-modal');
+      if (lm && lm.showModal) {
+        try { lm.showModal(); } catch(e) {}
+      }
+    };
+
+    App.closeLoginModal = function() {
+      sessionStorage.setItem('muallim_guest_mode', '1');
+      const lm = document.getElementById('login-modal');
+      if (lm && lm.open) {
+        try { lm.close(); } catch(e) {}
+      }
+    };
+
+    App.openAdminDashboard = function() {
+      const pop = document.getElementById('settings-popover');
+      if (pop && pop.showPopover) {
+        try { pop.showPopover(); } catch(e) {}
+      }
+      const grp = document.getElementById('admin-access-group');
+      if (grp) {
+        setTimeout(() => grp.scrollIntoView({ behavior: 'smooth' }), 100);
+      }
+      if (typeof App.refreshAdminStudents === 'function') App.refreshAdminStudents();
+    };
+
     // ─── Keep old refreshAdminStudents for backward compat ─────
     App.refreshAdminStudents = function() {
       const mount = document.getElementById('admin-students-mount');
@@ -76085,11 +76130,14 @@ window.PWA_BOOK_DATA = {
       // ── Auth state observer ──
       onAuthStateChanged(_auth, async (user) => {
         if (!user) {
-          // Show login modal — block app
-          const lm = document.getElementById('login-modal');
-          if (lm && lm.showModal) { try { lm.showModal(); } catch(e) {} }
           App.currentUser = null;
           _hideAdminTab();
+          _updateAccountUI(null);
+          // Show login modal unless guest mode was chosen for this session
+          if (!sessionStorage.getItem('muallim_guest_mode')) {
+            const lm = document.getElementById('login-modal');
+            if (lm && lm.showModal) { try { lm.showModal(); } catch(e) {} }
+          }
         } else {
           // Close login modal
           const lm = document.getElementById('login-modal');
@@ -76113,6 +76161,8 @@ window.PWA_BOOK_DATA = {
           if (role === 'admin') _showAdminTab();
           else _hideAdminTab();
 
+          _updateAccountUI(App.currentUser);
+
           // Load user data from user_data/{uid}
           _loadUserDataFromFirestore(user.uid);
         }
@@ -76128,6 +76178,32 @@ window.PWA_BOOK_DATA = {
     function _hideAdminTab() {
       const t = document.getElementById('admin-nav-tab');
       if (t) t.style.display = 'none';
+    }
+
+    function _updateAccountUI(user) {
+      const loggedOutView = document.getElementById('auth-logged-out-view');
+      const loggedInView  = document.getElementById('auth-logged-in-view');
+      const userDisplay   = document.getElementById('auth-user-display');
+      const userRole      = document.getElementById('auth-user-role');
+      const adminPanel    = document.getElementById('admin-unlocked-view');
+
+      if (!user) {
+        if (loggedOutView) loggedOutView.style.display = 'block';
+        if (loggedInView)  loggedInView.style.display = 'none';
+        if (adminPanel)    adminPanel.style.display = 'none';
+      } else {
+        if (loggedOutView) loggedOutView.style.display = 'none';
+        if (loggedInView)  loggedInView.style.display = 'block';
+        if (userDisplay)   userDisplay.textContent = (user.name || user.email);
+        if (userRole)      userRole.textContent = user.role === 'admin' ? 'Role: Teacher / Admin 🛡' : 'Role: Student';
+
+        if (user.role === 'admin') {
+          if (adminPanel) adminPanel.style.display = 'block';
+          if (typeof App.refreshAdminStudents === 'function') App.refreshAdminStudents();
+        } else {
+          if (adminPanel) adminPanel.style.display = 'none';
+        }
+      }
     }
 
     async function _loadUserDataFromFirestore(uid) {
@@ -76196,24 +76272,34 @@ window.PWA_BOOK_DATA = {
       }
     };
 
-    // ── Initialize Firebase on load (if config saved) ──
+    const DEFAULT_FIREBASE_CONFIG = {
+      apiKey: "AIzaSyAjBnuLSADlXBZ7OY7daQ7mOta3VaHXVNg",
+      authDomain: "muallim-123.firebaseapp.com",
+      projectId: "muallim-123",
+      storageBucket: "muallim-123.firebasestorage.app",
+      messagingSenderId: "226964645326",
+      appId: "1:226964645326:web:0a219c95dad277b4cd379f"
+    };
+
+    // ── Initialize Firebase on load (default or saved config) ──
     App.initFirebase = async function() {
+      let config = null;
       const savedConfig = localStorage.getItem('muallim_firebase_config');
-      if (!savedConfig) return;
+      if (savedConfig) {
+        try { config = JSON.parse(savedConfig); } catch(e) {}
+      }
+      if (!config) {
+        config = DEFAULT_FIREBASE_CONFIG;
+      }
+      _fbConfig = config;
       try {
-        _fbConfig = JSON.parse(savedConfig);
         showSyncIndicator('Connecting…');
         await loadFirebase(_fbConfig);
         updateFirebaseStatusBadge(true);
-        showToast('☁ Firebase connected');
-        // Push local data up, then pull any newer remote data
-        await syncAllToFirestore();
-        showSyncIndicator('Synced ✓');
-        console.log('[Firebase] Connected and synced');
+        console.log('[Firebase] Connected successfully');
       } catch(e) {
         updateFirebaseStatusBadge(false);
         console.warn('[Firebase] Init failed:', e);
-        showToast('Firebase error: ' + e.message);
       }
     };
 
@@ -76493,6 +76579,9 @@ window.PWA_BOOK_DATA = {
         forgotPassword: App.forgotPassword || function(){},
         changePassword: App.changePassword || function(){},
         refreshAdminStudents: App.refreshAdminStudents || function(){},
+        openLoginModal: App.openLoginModal || function(){},
+        closeLoginModal: App.closeLoginModal || function(){},
+        openAdminDashboard: App.openAdminDashboard || function(){},
         currentUser: null
       });
       return App;
@@ -76637,7 +76726,9 @@ window.PWA_BOOK_DATA = {
   </dialog>
 <!-- ── Firebase Auth Login Modal ──────────────────────────── -->
 <dialog id="login-modal" class="login-modal">
-  <div class="login-body">
+  <div class="login-body" style="position:relative;">
+    <button type="button" onclick="App.closeLoginModal()" title="Band karein (Guest Mode)"
+      style="position:absolute; top:12px; right:14px; background:none; border:none; font-size:1.3rem; cursor:pointer; color:var(--text-muted, #888); line-height:1; padding:4px;">✕</button>
     <div class="login-logo">📖</div>
     <h2 class="login-title">Muallim ul-Qur'an</h2>
     <p class="login-subtitle">Apna account mein login karein</p>
@@ -76654,11 +76745,14 @@ window.PWA_BOOK_DATA = {
     </div>
     <p id="login-error" class="login-error" style="display:none"></p>
     <button class="btn-primary login-submit" onclick="App.doLogin()">Login</button>
-    <button class="btn-ghost" type="button" onclick="App.forgotPassword()" style="width:100%; margin-top:4px; font-size:0.85rem;">Password bhool gaye?</button>
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-top:6px;">
+      <button class="btn-ghost" type="button" onclick="App.forgotPassword()" style="font-size:0.82rem; padding:4px; background:none; border:none; color:var(--text-muted, #666); cursor:pointer;">Password bhool gaye?</button>
+      <button class="btn-ghost" type="button" onclick="App.closeLoginModal()" style="font-size:0.82rem; padding:4px; background:none; border:none; color:var(--text-muted, #666); cursor:pointer;">Guest Mode</button>
+    </div>
   </div>
 </dialog>
 <!-- ── Admin nav tab (hidden until role===admin) ──────────── -->
-<button id="admin-nav-tab" class="nav-tab" onclick="App.openAdminDashboard ? App.openAdminDashboard() : App.refreshAdminStudents()"
+<button id="admin-nav-tab" class="nav-tab" onclick="App.openAdminDashboard()"
   style="display:none; position:fixed; bottom:16px; right:16px; z-index:200; background:var(--accent,#1B4332); color:#fff; border:none; border-radius:12px; padding:10px 18px; font-size:0.85rem; font-weight:700; cursor:pointer; box-shadow:0 4px 16px rgba(0,0,0,0.25);">
   🛡 Admin
 </button>
