@@ -2,7 +2,7 @@
 <html lang="ur" dir="ltr" data-theme="light" data-mode="teacher">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
   <title>Muallim ul-Qur'an — Unit 1 Lesson 1</title>
   <meta name="description" content="Offline-first interactive Muallim ul-Qur'an Arabic workbook with Hinglish translations, audio recitation, custom notes, and spaced repetition.">
   <meta name="theme-color" content="#1B4332">
@@ -144,8 +144,10 @@
     @layer components {
       /* Top Header Bar */
       .app-header {
+        position: -webkit-sticky;
         position: sticky;
         top: 0;
+        top: env(safe-area-inset-top, 0);
         z-index: 100;
         height: var(--header-height);
         background-color: var(--bg-surface);
@@ -589,6 +591,19 @@
         overflow-y: auto;
         max-height: calc(85vh - 110px);
       }
+      /* F1 — Starred items group header */
+      .favs-group-header {
+        font-size: 0.78rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: var(--text-muted);
+        padding: 14px 4px 6px;
+        border-bottom: 1px solid var(--border-color, #ddd);
+        margin-bottom: 8px;
+      }
+      .favs-group-header:first-child { padding-top: 4px; }
+
       .stage-tabs {
         display: flex;
         gap: 6px;
@@ -809,6 +824,14 @@
       0%   { box-shadow: 0 0 0 0 rgba(27,67,50,0.5); }
       50%  { box-shadow: 0 0 0 8px rgba(27,67,50,0.2); }
       100% { box-shadow: 0 0 0 0 rgba(27,67,50,0); }
+    }
+    .highlight-flash {
+      animation: hlFlash 1.8s ease;
+    }
+    @keyframes hlFlash {
+      0%   { background-color: var(--bg-surface); }
+      20%  { background-color: rgba(27,67,50,0.15); }
+      100% { background-color: var(--bg-surface); }
     }
 
     /* ═══════════════════════════════════════
@@ -1606,6 +1629,56 @@
         .onboard-actions .btn-ghost { flex: 1; background: none; border: 1px solid var(--border, #e5e7eb); border-radius: 8px; padding: 10px; font-size: 0.82rem; color: var(--text-muted, #9ca3af); cursor: pointer; }
         .onboard-name-input { width: 100%; border: 1.5px solid var(--border, #e5e7eb); border-radius: 8px; padding: 10px 12px; font-size: 0.95rem; margin-bottom: 14px; outline: none; text-align: center; background: var(--bg-surface-elevated, #f9fafb); }
         .onboard-name-input:focus { border-color: var(--primary, #1B4332); }
+        /* ── Login Modal ─────────────────────────────────────────── */
+        .login-modal {
+          position: fixed; inset: 0; width: calc(100% - 32px); max-width: 400px; margin: auto;
+          border: none; border-radius: 18px; padding: 0; overflow: hidden;
+          box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+        }
+        .login-modal::backdrop {
+          background: rgba(0,0,0,0.72);
+          backdrop-filter: blur(6px);
+          -webkit-backdrop-filter: blur(6px);
+        }
+        .login-body {
+          padding: 32px 24px 24px;
+          display: flex; flex-direction: column; gap: 14px;
+          background: var(--bg-surface-elevated, #ffffff);
+          color: var(--text-primary, #111827);
+        }
+        .login-logo { font-size: 48px; text-align: center; line-height: 1; }
+        .login-title {
+          margin: 0; text-align: center; font-size: 1.3rem; font-weight: 800;
+          color: var(--text-primary, #111827);
+        }
+        .login-subtitle {
+          margin: 0; text-align: center;
+          color: var(--text-muted, #6b7280); font-size: 0.85rem;
+        }
+        .login-field { display: flex; flex-direction: column; gap: 5px; }
+        .login-field label { font-size: 0.8rem; font-weight: 700; color: var(--text-secondary, #374151); }
+        .login-field input {
+          padding: 11px 14px; border: 1.5px solid var(--border, #d1d5db);
+          border-radius: 8px; font-size: 0.95rem; width: 100%; box-sizing: border-box;
+          background: var(--bg-surface, #f9fafb); color: var(--text-primary, #111827);
+          outline: none; transition: border-color 0.15s;
+        }
+        .login-field input:focus { border-color: var(--primary, #1B4332); }
+        .show-password-btn {
+          position: absolute; right: 10px; bottom: 8px;
+          background: none; border: none; cursor: pointer;
+          font-size: 18px; padding: 0; opacity: 0.6;
+        }
+        .show-password-btn:hover { opacity: 1; }
+        .login-error {
+          color: #dc2626; font-size: 0.82rem; margin: 0;
+          padding: 8px 12px; background: #fef2f2; border-radius: 6px;
+          border-left: 3px solid #dc2626;
+        }
+        .login-submit {
+          width: 100%; padding: 13px; font-size: 1rem; font-weight: 700;
+          margin-top: 4px;
+        }
       </style>
 </head>
 <body>
@@ -74346,27 +74419,37 @@ window.PWA_BOOK_DATA = {
       function openFavourites() {
         let favsHtml = '';
         if (favourites.length === 0) {
-          favsHtml = '<p style="text-align:center; color:var(--text-muted); padding:20px;">No starred items yet. Tap the ★ button on any card to save it here!</p>';
+          favsHtml = '<p style="text-align:center; color:var(--text-muted); padding:20px;">Abhi koi starred item nahi hai. Kisi bhi card par ★ tap karein!</p>';
         } else {
-          // Group by Stage + Lesson, sorted
-          const favGroups = {};
-          favourites.forEach(function(f) {
-            const gk = 'S' + f.stage + 'L' + f.lesson;
-            if (!favGroups[gk]) favGroups[gk] = { stage: f.stage, lesson: f.lesson, items: [] };
-            favGroups[gk].items.push(f);
+          // Group by stage+lesson, sort groups ascending
+          const groups = {};
+          favourites.forEach(f => {
+            const gk = `${f.stage}_${f.lesson}`;
+            if (!groups[gk]) groups[gk] = { stage: f.stage, lesson: f.lesson, items: [] };
+            groups[gk].items.push(f);
           });
-          const favKeys = Object.keys(favGroups).sort(function(a, b) {
-            const ga = favGroups[a], gb = favGroups[b];
-            return ga.stage !== gb.stage ? ga.stage - gb.stage : ga.lesson - gb.lesson;
-          });
-          favKeys.forEach(function(gk) {
-            const g = favGroups[gk];
-            favsHtml += '<div class="starred-group-header">⭐ Stage ' + g.stage + ' • Lesson ' + g.lesson + ' <span class="starred-count">(' + g.items.length + ')</span></div>';
+          const sortedGroups = Object.values(groups).sort((a, b) =>
+            a.stage !== b.stage ? a.stage - b.stage : a.lesson - b.lesson
+          );
+          favsHtml = '';
+          sortedGroups.forEach(group => {
+            favsHtml += `<div class="starred-group-header">⭐ Stage ${group.stage} &bull; Lesson ${group.lesson} <span class="starred-count">(${group.items.length})</span></div>`;
             favsHtml += '<div class="bidi-grid cols-1">';
-            g.items.forEach(function(f) {
-              const escAr = (f.arabic || '').replace(/'/g, "\'");
-              const escHi = (f.hinglish || '').replace(/'/g, "\'");
-              favsHtml += '<div class="vocab-card"><div class="card-top"><span style="font-size:0.75rem;color:var(--text-muted);">S' + f.stage + 'L' + f.lesson + '</span><div class="card-actions"><button class="card-action-btn" onclick="App.speakArabic(\'' + escAr + '\')">🔊</button><button class="card-action-btn starred" onclick="App.toggleStarInPlace(this,\'' + f.key + '\',\'' + escAr + '\',\'' + escHi + '\');App.openFavourites();">★</button></div></div><div class="arabic-text">' + f.arabic + '</div>' + renderDualAnswerHtml(f.key, f.arabic, f.hinglish) + '</div>';
+            group.items.forEach(f => {
+              const escAr = (f.arabic || '').replace(/'/g, "\\'");
+              const escHi = (f.hinglish || '').replace(/'/g, "\\'");
+              favsHtml += `
+                <div class="vocab-card">
+                  <div class="card-top">
+                    <div class="card-actions">
+                      <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
+                      <button class="card-action-btn starred" onclick="App.toggleStarInPlace(this, '${f.key}', '${escAr}', '${escHi}'); App.openFavourites();">★</button>
+                    </div>
+                  </div>
+                  <div class="arabic-text">${f.arabic}</div>
+                  ${renderDualAnswerHtml(f.key, f.arabic, f.hinglish)}
+                </div>
+              `;
             });
             favsHtml += '</div>';
           });
@@ -74600,12 +74683,17 @@ window.PWA_BOOK_DATA = {
       if (!_bookmark) return;
       if (_bookmark.stage !== currentStage || _bookmark.lesson !== currentLesson) return;
       setTimeout(() => {
-        const el = document.querySelector(`[data-bm-id="${_bookmark.itemId}"]`);
-        if (el) {
-          el.closest('.vocab-card, .verse-card')?.classList.add('bookmark-highlight');
-          el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        }
-      }, 300);
+        requestAnimationFrame(() => {
+          const card = document.querySelector(`[data-item-id="${_bookmark.itemId}"]`) ||
+                       document.querySelector(`[data-bm-id="${_bookmark.itemId}"]`);
+          if (card) {
+            card.closest('.vocab-card, .verse-card')?.classList.add('bookmark-highlight');
+            card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            card.classList.add('highlight-flash');
+            setTimeout(() => card.classList.remove('highlight-flash'), 1800);
+          }
+        });
+      }, 800);
     }
 
     // ─── P2: Student Name ─────────────────────────────────
@@ -74672,51 +74760,90 @@ window.PWA_BOOK_DATA = {
       return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
     }
 
-    App.tryAdminUnlock = async function() {
-      const input = document.getElementById('admin-pin-input');
-      if (!input) return;
-      const pin = input.value.trim();
-      if (!pin) return;
-      const inputHash = await sha256(pin);
-      const stored = localStorage.getItem('muallim_admin_pin_hash') || await sha256('786');
-      if (inputHash === stored) {
-        _adminUnlocked = true;
-        document.getElementById('admin-locked-view').style.display = 'none';
-        document.getElementById('admin-unlocked-view').style.display = 'block';
-        input.value = '';
-        showToast('🔓 Admin panel unlocked');
-        App.refreshAdminStudents();
-      } else {
-        input.classList.add('shake');
-        setTimeout(() => input.classList.remove('shake'), 500);
-        showToast('Wrong PIN');
+    // ─── Firebase Auth: Login / Logout / Password ───────────────
+    App.doLogin = async function() {
+      const emailEl = document.getElementById('login-email');
+      const passEl  = document.getElementById('login-password');
+      const errEl   = document.getElementById('login-error');
+      if (!emailEl || !passEl) return;
+      const email = emailEl.value.trim();
+      const pass  = passEl.value;
+      if (!email || !pass) {
+        if (errEl) { errEl.textContent = 'Email aur password dono darruri hain'; errEl.style.display = 'block'; }
+        return;
+      }
+      if (!window._FA || !window._AUTH) {
+        if (errEl) { errEl.textContent = 'Firebase connect ho raha hai — thodi der mein dobara koshish karein'; errEl.style.display = 'block'; }
+        return;
+      }
+      try {
+        if (errEl) errEl.style.display = 'none';
+        const submitBtn = document.querySelector('.login-submit');
+        if (submitBtn) { submitBtn.disabled = true; submitBtn.textContent = 'Logging in…'; }
+        await window._FA.signInWithEmailAndPassword(window._AUTH, email, pass);
+        // onAuthStateChanged will close the modal
+      } catch(e) {
+        const msgs = {
+          'auth/user-not-found':  'Yeh email registered nahi hai',
+          'auth/wrong-password':  'Password ghalat hai',
+          'auth/invalid-email':   'Email ka format sahi nahi',
+          'auth/too-many-requests': 'Bohot zyada koshishein — kuch der baad try karein',
+          'auth/network-request-failed': 'Internet connection check karein',
+          'auth/invalid-credential': 'Email ya password ghalat hai',
+        };
+        if (errEl) {
+          errEl.textContent = msgs[e.code] || ('Login error: ' + e.message);
+          errEl.style.display = 'block';
+        }
+        const submitBtn = document.querySelector('.login-submit');
+        if (submitBtn) { submitBtn.disabled = false; submitBtn.textContent = 'Login'; }
       }
     };
 
-    App.lockAdmin = function() {
-      _adminUnlocked = false;
-      document.getElementById('admin-locked-view').style.display = 'block';
-      document.getElementById('admin-unlocked-view').style.display = 'none';
+    App.doLogout = async function() {
+      if (!window._FA || !window._AUTH) return;
+      if (!confirm('Logout karna chahte hain?')) return;
+      try {
+        await window._FA.signOut(window._AUTH);
+        App.currentUser = null;
+        showToast('Logged out');
+        // onAuthStateChanged will show login modal
+      } catch(e) {
+        showToast('Logout error: ' + e.message);
+      }
     };
 
-    App.changeAdminPin = async function() {
-      const current = prompt('Enter current PIN:');
-      if (current === null) return;
-      const currentHash = await sha256(current.trim());
-      const stored = localStorage.getItem('muallim_admin_pin_hash') || await sha256('786');
-      if (currentHash !== stored) { showToast('Wrong current PIN'); return; }
-      const newPin = prompt('Enter new PIN (min 4 characters):');
-      if (!newPin || newPin.trim().length < 4) { showToast('PIN too short (min 4 chars)'); return; }
-      const confirm = prompt('Confirm new PIN:');
-      if (newPin !== confirm) { showToast('PINs do not match'); return; }
-      localStorage.setItem('muallim_admin_pin_hash', await sha256(newPin.trim()));
-      showToast('✅ PIN changed successfully');
+    App.forgotPassword = async function() {
+      const emailEl = document.getElementById('login-email');
+      const email = emailEl ? emailEl.value.trim() : prompt('Apna registered email darj karein:');
+      if (!email) return;
+      if (!window._FA || !window._AUTH) { showToast('Firebase not ready'); return; }
+      try {
+        await window._FA.sendPasswordResetEmail(window._AUTH, email);
+        showToast('✅ Password reset email bhej di gayi — inbox check karein');
+      } catch(e) {
+        showToast('Error: ' + e.message);
+      }
     };
 
+    App.changePassword = async function() {
+      if (!window._AUTH?.currentUser) { showToast('Pehle login karein'); return; }
+      const newPw = prompt('Naya password darruj karein (min 8 characters):');
+      if (!newPw || newPw.length < 8) { showToast('Password kam az kam 8 characters ka hona chahiye'); return; }
+      const confirm2 = prompt('Dobara confirm karein:');
+      if (newPw !== confirm2) { showToast('Password match nahi kiya'); return; }
+      try {
+        await window._FA.updatePassword(window._AUTH.currentUser, newPw);
+        showToast('✅ Password kamyabi se badal diya gaya');
+      } catch(e) {
+        showToast('Error: ' + e.message);
+      }
+    };
+
+    // ─── Keep old refreshAdminStudents for backward compat ─────
     App.refreshAdminStudents = function() {
       const mount = document.getElementById('admin-students-mount');
       if (!mount) return;
-      // Firebase Firestore integration: show local data as fallback
       const examHistory = JSON.parse(localStorage.getItem('muallim_exam_history') || '[]');
       const studentName = localStorage.getItem('muallim_student_name') || 'Anonymous';
       if (examHistory.length === 0) {
@@ -75925,6 +76052,7 @@ window.PWA_BOOK_DATA = {
     const FIREBASE_MODULES = {
       app:       'https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js',
       firestore: 'https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js',
+      auth:      'https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js',
     };
 
     // ── Load + init Firebase ──
@@ -75934,16 +76062,98 @@ window.PWA_BOOK_DATA = {
         getFirestore, doc, setDoc, getDoc, getDocs,
         collection, updateDoc, serverTimestamp, onSnapshot
       } = await import(FIREBASE_MODULES.firestore);
+      const {
+        getAuth, signInWithEmailAndPassword, signOut,
+        onAuthStateChanged, createUserWithEmailAndPassword,
+        sendPasswordResetEmail, updatePassword
+      } = await import(FIREBASE_MODULES.auth);
 
       // Prevent double-init
       const apps = getApps();
       _fbApp = apps.length > 0 ? apps[0] : initializeApp(config);
       _db = getFirestore(_fbApp);
+      const _auth = getAuth(_fbApp);
 
       // Expose Firestore helpers on module scope
       window._FS = { doc, setDoc, getDoc, getDocs, collection, updateDoc, serverTimestamp, onSnapshot };
       window._FSDB = _db;
+      // Expose Auth helpers
+      window._FA = { getAuth, signInWithEmailAndPassword, signOut, onAuthStateChanged,
+                     createUserWithEmailAndPassword, sendPasswordResetEmail, updatePassword };
+      window._AUTH = _auth;
+
+      // ── Auth state observer ──
+      onAuthStateChanged(_auth, async (user) => {
+        if (!user) {
+          // Show login modal — block app
+          const lm = document.getElementById('login-modal');
+          if (lm && lm.showModal) { try { lm.showModal(); } catch(e) {} }
+          App.currentUser = null;
+          _hideAdminTab();
+        } else {
+          // Close login modal
+          const lm = document.getElementById('login-modal');
+          if (lm && lm.open) lm.close();
+
+          // Fetch role from Firestore
+          let role = 'student', displayName = user.email;
+          try {
+            const { doc: d2, getDoc: gd2 } = window._FS;
+            const userSnap = await gd2(d2(_db, 'users', user.uid));
+            if (userSnap.exists()) {
+              const ud = userSnap.data();
+              role = ud.role || 'student';
+              displayName = ud.name || user.email;
+            }
+          } catch(e) { console.warn('[Auth] Could not fetch user doc:', e); }
+
+          App.currentUser = { uid: user.uid, email: user.email, role, name: displayName };
+
+          // Show/hide admin tab
+          if (role === 'admin') _showAdminTab();
+          else _hideAdminTab();
+
+          // Load user data from user_data/{uid}
+          _loadUserDataFromFirestore(user.uid);
+        }
+      });
+
       return true;
+    }
+
+    function _showAdminTab() {
+      const t = document.getElementById('admin-nav-tab');
+      if (t) t.style.display = '';
+    }
+    function _hideAdminTab() {
+      const t = document.getElementById('admin-nav-tab');
+      if (t) t.style.display = 'none';
+    }
+
+    async function _loadUserDataFromFirestore(uid) {
+      if (!_db || !window._FS) return;
+      try {
+        const { doc, getDoc } = window._FS;
+        const snap = await getDoc(doc(_db, 'user_data', uid));
+        if (snap.exists()) {
+          const data = snap.data();
+          // Restore starred
+          if (Array.isArray(data.starred)) {
+            favourites = data.starred;
+            try { localStorage.setItem('muallim_favs', JSON.stringify(favourites)); } catch(e) {}
+            updateStarredCountBadge();
+          }
+          // Restore custom answers
+          if (data.customAnswers && typeof data.customAnswers === 'object') {
+            customAnswers = data.customAnswers;
+            try { localStorage.setItem('muallim_custom_answers', JSON.stringify(customAnswers)); } catch(e) {}
+          }
+          // Restore bookmark
+          if (data.bookmark) {
+            try { localStorage.setItem('muallim_bookmark', JSON.stringify(data.bookmark)); } catch(e) {}
+          }
+        }
+      } catch(e) { console.warn('[Auth] Could not load user_data:', e); }
     }
 
     // ── Firebase Config: Save / Clear / Toggle panel ──
@@ -76271,7 +76481,19 @@ window.PWA_BOOK_DATA = {
         doExport,
         importDataBackup,
         loadBookmark,
-        initStudentName
+        initStudentName,
+        // backward-compat aliases (Fix 1b)
+        openSearch: openSearchModal,
+        openDrillSpinner: openSpinner,
+        openExam: App.openExam || function(){},
+        openExamConfig: App.openExam || function(){},
+        // Firebase Auth exports (Phase 4)
+        doLogin: App.doLogin || function(){},
+        doLogout: App.doLogout || function(){},
+        forgotPassword: App.forgotPassword || function(){},
+        changePassword: App.changePassword || function(){},
+        refreshAdminStudents: App.refreshAdminStudents || function(){},
+        currentUser: null
       });
       return App;
     })();
@@ -76294,10 +76516,10 @@ window.PWA_BOOK_DATA = {
           fn();
         });
       }
-      qb('menu-btn-search', function() { if(window.App&&App.openSearch) App.openSearch(); });
-      qb('menu-btn-drill', function() { if(window.App&&App.openDrillSpinner) App.openDrillSpinner(); });
-      qb('menu-btn-favs', function() { if(window.App&&App.openFavourites) App.openFavourites(); });
-      qb('menu-btn-exam', function() { if(window.App&&App.openExam) App.openExam(); });
+      qb('menu-btn-search', function() { if(window.App&&App.openSearchModal) App.openSearchModal(); });
+      qb('menu-btn-drill',  function() { if(window.App&&App.openSpinner) App.openSpinner(); });
+      qb('menu-btn-favs',   function() { if(window.App&&App.openFavourites) App.openFavourites(); });
+      qb('menu-btn-exam',   function() { if(window.App&&App.openExam) App.openExam(); });
 
       // Auto-init Firebase
       if (typeof initFirebaseOnLoad === 'function') initFirebaseOnLoad();
@@ -76413,5 +76635,32 @@ window.PWA_BOOK_DATA = {
       <!-- Content injected by JS -->
     </div>
   </dialog>
+<!-- ── Firebase Auth Login Modal ──────────────────────────── -->
+<dialog id="login-modal" class="login-modal">
+  <div class="login-body">
+    <div class="login-logo">📖</div>
+    <h2 class="login-title">Muallim ul-Qur'an</h2>
+    <p class="login-subtitle">Apna account mein login karein</p>
+    <div class="login-field">
+      <label for="login-email">Email</label>
+      <input type="email" id="login-email" placeholder="email@example.com" autocomplete="email">
+    </div>
+    <div class="login-field" style="position:relative;">
+      <label for="login-password">Password</label>
+      <input type="password" id="login-password" placeholder="Password" autocomplete="current-password"
+             onkeydown="if(event.key==='Enter') App.doLogin()">
+      <button class="show-password-btn" type="button"
+        onclick="(function(){var i=document.getElementById('login-password');i.type=i.type==='password'?'text':'password';})()">👁</button>
+    </div>
+    <p id="login-error" class="login-error" style="display:none"></p>
+    <button class="btn-primary login-submit" onclick="App.doLogin()">Login</button>
+    <button class="btn-ghost" type="button" onclick="App.forgotPassword()" style="width:100%; margin-top:4px; font-size:0.85rem;">Password bhool gaye?</button>
+  </div>
+</dialog>
+<!-- ── Admin nav tab (hidden until role===admin) ──────────── -->
+<button id="admin-nav-tab" class="nav-tab" onclick="App.openAdminDashboard ? App.openAdminDashboard() : App.refreshAdminStudents()"
+  style="display:none; position:fixed; bottom:16px; right:16px; z-index:200; background:var(--accent,#1B4332); color:#fff; border:none; border-radius:12px; padding:10px 18px; font-size:0.85rem; font-weight:700; cursor:pointer; box-shadow:0 4px 16px rgba(0,0,0,0.25);">
+  🛡 Admin
+</button>
 </body>
 </html>
