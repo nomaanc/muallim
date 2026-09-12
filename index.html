@@ -1576,7 +1576,7 @@
                       min-height: 50px; display: flex; align-items: center; justify-content: center; }
 
         /* ── Mobile-first: no side-scroll, no zoom ── */
-        html, body { overflow-x: hidden; max-width: 100vw; -webkit-text-size-adjust: 100%; }
+        html, body { overflow-x: clip; max-width: 100vw; -webkit-text-size-adjust: 100%; }
         * { box-sizing: border-box; }
         body { touch-action: pan-y; }
 
@@ -74110,7 +74110,7 @@ window.PWA_BOOK_DATA = {
         let html = `
           <div class="lesson-banner">
             <div class="lesson-banner-title">${lesson.title}</div>
-            <div class="lesson-banner-meta">Stage ${currentStage} • Page ${lesson.page_start || 1}</div>
+            <div class="lesson-banner-meta">Unit ${currentStage} • Page ${lesson.page_start || 1}</div>
           </div>
         `;
 
@@ -74147,6 +74147,7 @@ window.PWA_BOOK_DATA = {
                     <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
                     <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">★</button>
                     ${bmSvgHtml(itemKey)}
+                    ${bmSvgHtml(itemKey)}
                   </div>
                   <div class="arabic-text" style="overflow-wrap:break-word;">${it.arabic}</div>
                   ${renderDualAnswerHtml(itemKey, it.arabic, it.hinglish)}
@@ -74164,9 +74165,10 @@ window.PWA_BOOK_DATA = {
               html += `
                 <div class="vocab-card" style="${it.full_width ? 'grid-column: 1 / -1;' : ''}">
                   <div class="card-top">
-                    ${it.id ? `<span class="card-number">${it.id}</span>` : ''}
+                    ${it.id ? `<span class="card-number">${iIdx + 1}</span>` : ''}
                     <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
                     <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">★</button>
+                    ${bmSvgHtml(itemKey)}
                   </div>
                   <div class="arabic-text">${it.arabic}</div>
                   ${renderDualAnswerHtml(itemKey, it.arabic, it.hinglish)}
@@ -74189,6 +74191,7 @@ window.PWA_BOOK_DATA = {
                   <div class="card-top">
                     <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
                     <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">★</button>
+                    ${bmSvgHtml(itemKey)}
                   </div>
                   <div class="arabic-text" style="font-size:calc(var(--arabic-scale)*1.1);">${v.arabic}</div>
                   ${v.hinglish ? renderDualAnswerHtml(itemKey, v.arabic, v.hinglish) : ''}
@@ -74279,7 +74282,7 @@ window.PWA_BOOK_DATA = {
       function populateStageTabs() {
         let tabsHtml = '';
         for (let s = 1; s <= 7; s++) {
-          tabsHtml += `<button class="stage-tab ${s === currentStage ? 'active' : ''}" onclick="App.selectPickerStage(${s})">Stage ${s}</button>`;
+          tabsHtml += `<button class="stage-tab ${s === currentStage ? 'active' : ''}" onclick="App.selectPickerStage(${s})">Unit ${s}</button>`;
         }
         const stm = document.getElementById('stage-tabs-mount'); if (stm) stm.innerHTML = tabsHtml;
         populateStageLessons(currentStage);
@@ -74430,7 +74433,76 @@ window.PWA_BOOK_DATA = {
         }
       }
 
-      function openFavourites() {
+      
+    function openCustomAnswersModal() {
+      closeSidebar();
+      const modal = document.getElementById('custom-answers-modal');
+      const body = document.getElementById('custom-answers-body');
+      let customAnswers = {};
+      try {
+        customAnswers = JSON.parse(localStorage.getItem('muallim_custom_answers') || '{}');
+      } catch(e) {}
+      
+      let html = '';
+      const keys = Object.keys(customAnswers);
+      if (keys.length === 0) {
+        html = '<div style="text-align:center; color:#666; padding:20px;">No custom answers yet.</div>';
+      } else {
+        const groups = {};
+        keys.forEach(k => {
+          const m = k.match(/^S(\d+)L(\d+)/);
+          if (m) {
+            const groupKey = `Unit ${m[1]} • Lesson ${m[2]}`;
+            if (!groups[groupKey]) groups[groupKey] = [];
+            groups[groupKey].push({ key: k, answer: customAnswers[k], stage: m[1], lesson: m[2] });
+          }
+        });
+        
+        for (const [gName, items] of Object.entries(groups)) {
+          html += `<div style="font-weight:bold; margin-top:16px; margin-bottom:8px; border-bottom:1px solid #eee; padding-bottom:4px;">📝 ${gName} <span style="color:#888; font-size:0.85em;">(${items.length})</span></div>`;
+          items.forEach(item => {
+            let originalAr = '';
+            let originalHi = '';
+            
+            // Lookup original text
+            try {
+              const stageData = window.PWA_BOOK_DATA.stages[`stage_${item.stage}`];
+              if (stageData) {
+                const lessonData = stageData.find(l => l.lesson_number == item.lesson);
+                if (lessonData && lessonData.sections) {
+                  for (const sec of lessonData.sections) {
+                    if (sec.items) {
+                      const found = sec.items.find(i => i.id == item.key.split('_num_')[1] || `${item.key.split('_')[0]}_num_${i.id}` === item.key);
+                      if (found) {
+                        originalAr = found.arabic || '';
+                        originalHi = found.hinglish || '';
+                        break;
+                      }
+                    }
+                  }
+                }
+              }
+            } catch(e) {}
+            
+            html += `
+              <div style="background:#f9f9f9; padding:12px; border-radius:8px; margin-bottom:12px; border:1px solid #e0e0e0;">
+                <div style="font-size:1.1rem; color:#1B4332; margin-bottom:6px; font-weight:bold; text-align:right; font-family:'Amiri', serif;">${originalAr}</div>
+                <div style="font-size:0.9rem; color:#666; margin-bottom:6px; font-style:italic;">Original: ${originalHi}</div>
+                <div style="font-size:0.95rem; color:#0ea5e9; font-weight:500;">Custom: ${item.answer}</div>
+              </div>
+            `;
+          });
+        }
+      }
+      body.innerHTML = html;
+      modal.showModal();
+    }
+    
+    function closeCustomAnswersModal() {
+      document.getElementById('custom-answers-modal').close();
+    }
+
+    function openFavourites() {
         let favsHtml = '';
         if (favourites.length === 0) {
           favsHtml = '<p style="text-align:center; color:var(--text-muted); padding:20px;">Abhi koi starred item nahi hai. Kisi bhi card par ★ tap karein!</p>';
@@ -74447,7 +74519,7 @@ window.PWA_BOOK_DATA = {
           );
           favsHtml = '';
           sortedGroups.forEach(group => {
-            favsHtml += `<div class="starred-group-header">⭐ Stage ${group.stage} &bull; Lesson ${group.lesson} <span class="starred-count">(${group.items.length})</span></div>`;
+            favsHtml += `<div class="starred-group-header">⭐ Unit ${group.stage} &bull; Lesson ${group.lesson} <span class="starred-count">(${group.items.length})</span></div>`;
             favsHtml += '<div class="bidi-grid cols-1">';
             group.items.forEach(f => {
               const escAr = (f.arabic || '').replace(/'/g, "\\'");
@@ -74699,7 +74771,7 @@ window.PWA_BOOK_DATA = {
       setTimeout(() => {
         requestAnimationFrame(() => {
           const card = document.querySelector(`[data-item-id="${_bookmark.itemId}"]`) ||
-                       document.querySelector(`[data-bm-id="${_bookmark.itemId}"]`);
+                       document.querySelector(`[data-item-id="${_bookmark.itemId}"]`);
           if (card) {
             card.closest('.vocab-card, .verse-card')?.classList.add('bookmark-highlight');
             card.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -74943,7 +75015,7 @@ window.PWA_BOOK_DATA = {
         const lessons = stages[key] || [];
         if (!lessons.length) continue;
         html += `<div class="accordion-stage-header" onclick="toggleStageAccordion(${s})" id="stage-acc-hdr-${s}">
-          <span>Stage ${s}</span>
+          <span>Unit ${s}</span>
           <span class="accordion-stage-count" id="stage-acc-count-${s}">0/${lessons.length}</span>
           <span class="arrow">▶</span>
         </div>
