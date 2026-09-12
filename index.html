@@ -1705,7 +1705,8 @@
         <button class="quick-action-btn" id="menu-btn-search">🔍 Search</button>
         <button class="quick-action-btn" id="menu-btn-drill">🔀 Drill</button>
         <button class="quick-action-btn" id="menu-btn-favs">★ Starred</button>
-        <button class="quick-action-btn" id="menu-btn-exam">🎓 Exam</button>
+        <button class="quick-action-btn" id="menu-btn-exam">🎓 Ustaad ki Exam</button>
+        <button class="quick-action-btn" id="menu-btn-custom">📝 My Answers</button>
       </div>
 
     <div class="menu-group">
@@ -1933,6 +1934,15 @@
       </div>
 
     </div>
+  </dialog>
+
+  <!-- Custom Answers Dialog -->
+  <dialog id="custom-answers-modal" class="modal-dialog" style="max-width:480px; width:94vw; max-height:80vh; overflow-y:auto; border-radius:16px; padding:0; border:none;">
+    <div class="modal-header" style="display:flex; align-items:center; justify-content:space-between; padding:16px 16px 12px; border-bottom:1px solid var(--divider-light);">
+      <div class="modal-title">📝 Custom Answers</div>
+      <button class="icon-btn" onclick="App.closeCustomAnswersModal()" style="font-size:1.2rem;">✕</button>
+    </div>
+    <div id="custom-answers-body" style="padding:12px 16px 20px;"></div>
   </dialog>
 
   <!-- Favourites Dialog -->
@@ -74116,6 +74126,12 @@ window.PWA_BOOK_DATA = {
 
         (lesson.sections || []).forEach((sec, sIdx) => {
           const secType = sec.type;
+          // Skip exercise sections entirely per user request
+          if (secType === 'exercise_header' || secType === 'exercise_verses' || 
+              secType === 'exercise_fill_blank' || secType === 'exercise_mcq' ||
+              (sec.data && sec.data.q_number && String(sec.data.q_number).match(/^(Exercise|QQ)/i))) {
+            return;
+          }
           const d = sec.data || {};
 
           if (secType === 'hero_header') {
@@ -74147,7 +74163,6 @@ window.PWA_BOOK_DATA = {
                     <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
                     <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">★</button>
                     ${bmSvgHtml(itemKey)}
-                    ${bmSvgHtml(itemKey)}
                   </div>
                   <div class="arabic-text" style="overflow-wrap:break-word;">${it.arabic}</div>
                   ${renderDualAnswerHtml(itemKey, it.arabic, it.hinglish)}
@@ -74164,7 +74179,7 @@ window.PWA_BOOK_DATA = {
               const escHi = (it.hinglish || '').replace(/'/g, "\\'");
               html += `
                 <div class="vocab-card" style="${it.full_width ? 'grid-column: 1 / -1;' : ''}">
-                  <div class="card-top">
+                  <div class="card-top" data-item-id="${itemKey}">
                     ${it.id ? `<span class="card-number">${iIdx + 1}</span>` : ''}
                     <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
                     <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">★</button>
@@ -75173,6 +75188,39 @@ window.PWA_BOOK_DATA = {
     // Load history safely
     try { examHistory = JSON.parse(lsGet('muallim_exam_history', '[]') || '[]'); } catch(e) { examHistory = []; }
 
+    App.printExamAsPDF = function() {
+      // Build pool first
+      const pool = buildExamPool();
+      if (!pool.length) { alert('Koi items nahi mile! Pehle scope select karein.'); return; }
+      const shuffle = arr => arr.sort(() => Math.random() - 0.5);
+      const selected = shuffle(pool).slice(0, examSelectedCount || 20);
+      
+      const rows = selected.map((item, i) => `
+        <div style="margin-bottom:18px; padding-bottom:14px; border-bottom:1px solid #ddd;">
+          <div style="font-weight:700; margin-bottom:6px;">${i+1}. <span style="font-family:'Amiri',serif; font-size:1.1em;">${item.arabic}</span></div>
+          <div style="color:#555; font-size:0.85em; margin-bottom:8px;">${item.hinglish || ''}</div>
+          <div style="border-bottom:1px solid #aaa; margin-top:16px; height:1px;"></div>
+          <div style="font-size:0.75em; color:#aaa; margin-top:2px;">Jawab / Answer</div>
+        </div>
+      `).join('');
+      
+      const win = window.open('', '_blank');
+      win.document.write(`<!DOCTYPE html><html><head><title>Muallim Exam</title>
+        <style>body{font-family:sans-serif;max-width:700px;margin:40px auto;padding:20px;}
+        h1{text-align:center;font-size:1.3em;}
+        .meta{text-align:center;color:#666;margin-bottom:30px;}
+        @media print{button{display:none!important;}}
+        </style></head><body>
+        <h1>🎓 Muallim ul-Qur'an — Ustaad ki Exam</h1>
+        <div class="meta">Naam / Name: _________________________ &nbsp;&nbsp; Tarikh / Date: _____________</div>
+        ${rows}
+        <div style="text-align:center;margin-top:30px;">
+          <button onclick="window.print()" style="padding:10px 24px;background:#1B4332;color:#fff;border:none;border-radius:6px;font-size:1rem;cursor:pointer;font-weight:700;">🖨 Print / Save PDF</button>
+        </div>
+      </body></html>`);
+      win.document.close();
+    };
+
     App.openExam = function() {
       examState = 'setup';
       renderExamView();
@@ -75270,7 +75318,7 @@ window.PWA_BOOK_DATA = {
     function buildExamSetupHTML() {
       return `
         <h3 style="margin:0 0 16px; font-size:1.1rem; font-weight:800; color:var(--primary,#1B4332); display:flex; align-items:center; gap:8px;">
-          <span>🎓</span> Exam Setup
+          <span>🎓</span> Ustaad ki Exam Setup
         </h3>
 
         <!-- Scope Selection -->
@@ -75341,9 +75389,14 @@ window.PWA_BOOK_DATA = {
           </div>
         </div>
 
-        <button class="btn-primary" style="width:100%; padding:12px; font-size:1rem; font-weight:700;" onclick="App.startExam()">
-          ▶ Exam Shuru Karein (Start Exam)
-        </button>
+        <div style="display:flex; flex-direction:column; gap:10px; margin-top:4px;">
+          <button class="btn-secondary" style="width:100%; padding:12px; font-size:1rem; font-weight:700;" onclick="App.printExamAsPDF()">
+            📄 PDF Exam Paper Download / Print
+          </button>
+          <button class="btn-primary" style="width:100%; padding:12px; font-size:1rem; font-weight:700;" onclick="App.startExam()">
+            ▶ Exam Shuru Karein (Live Exam)
+          </button>
+        </div>
       `;
     }
 
@@ -76610,6 +76663,8 @@ window.PWA_BOOK_DATA = {
     }
 
       Object.assign(App, {
+        openCustomAnswersModal,
+        closeCustomAnswersModal,
         init,
         setTheme,
         setMode,
@@ -76680,6 +76735,7 @@ window.PWA_BOOK_DATA = {
       qb('menu-btn-search', function() { if(window.App&&App.openSearchModal) App.openSearchModal(); });
       qb('menu-btn-drill',  function() { if(window.App&&App.openSpinner) App.openSpinner(); });
       qb('menu-btn-favs',   function() { if(window.App&&App.openFavourites) App.openFavourites(); });
+      qb('menu-btn-custom', function() { if(window.App&&App.openCustomAnswersModal) App.openCustomAnswersModal(); });
       qb('menu-btn-exam',   function() { if(window.App&&App.openExam) App.openExam(); });
 
       // Auto-init Firebase
@@ -76780,7 +76836,7 @@ window.PWA_BOOK_DATA = {
   <!-- Exam Modal -->
   <dialog id="exam-modal" class="app-modal" style="max-width:700px; width:95vw; max-height:92vh;">
     <div class="modal-header">
-      <div class="modal-title">🎓 Exam</div>
+      <div class="modal-title">🎓 Ustaad ki Exam</div>
       <button class="icon-btn" onclick="App.closeExam()">✕</button>
     </div>
     <div class="modal-body" id="exam-modal-body">
