@@ -76709,6 +76709,7 @@ window.PWA_BOOK_DATA = {
         openLoginModal: App.openLoginModal || function(){},
         closeLoginModal: App.closeLoginModal || function(){},
         openAdminDashboard: App.openAdminDashboard || function(){},
+        initFirebaseOnLoad,
         currentUser: null
       });
       return App;
@@ -76738,8 +76739,8 @@ window.PWA_BOOK_DATA = {
       qb('menu-btn-custom', function() { if(window.App&&App.openCustomAnswersModal) App.openCustomAnswersModal(); });
       qb('menu-btn-exam',   function() { if(window.App&&App.openExam) App.openExam(); });
 
-      // Auto-init Firebase
-      if (typeof initFirebaseOnLoad === 'function') initFirebaseOnLoad();
+      // Auto-init Firebase (App.initFirebaseOnLoad is exported from the IIFE)
+      if (window.App && typeof App.initFirebaseOnLoad === 'function') App.initFirebaseOnLoad();
     });
 
     // Best-effort flush on unload
