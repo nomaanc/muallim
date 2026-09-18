@@ -1,0 +1,503 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muallim ul-Qur'an — Developer Documentation</title>
+<style>
+  :root {
+    --bg: #faf8f3;
+    --card: #ffffff;
+    --primary: #5c4a2a;
+    --accent: #8b6c3e;
+    --text: #2c2c2c;
+    --muted: #6b6b6b;
+    --border: #e0d9cc;
+    --code-bg: #f0ece4;
+    --success: #2d7a4a;
+    --warning: #b35c00;
+    --danger: #c0392b;
+    --sidebar-w: 260px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 15px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Layout */
+  .layout { display: flex; min-height: 100vh; }
+  .sidebar {
+    width: var(--sidebar-w);
+    background: var(--primary);
+    color: #f0e8d8;
+    padding: 24px 0;
+    position: fixed;
+    top: 0; left: 0; bottom: 0;
+    overflow-y: auto;
+    flex-shrink: 0;
+  }
+  .sidebar-logo {
+    padding: 0 20px 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    margin-bottom: 12px;
+  }
+  .sidebar-logo h2 { font-size: 1.1rem; line-height: 1.3; }
+  .sidebar-logo span { font-size: 0.75rem; opacity: 0.7; }
+  .nav-section { padding: 8px 20px 4px; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px; opacity: 0.5; }
+  .nav-link {
+    display: block;
+    padding: 7px 20px;
+    color: #f0e8d8;
+    font-size: 0.875rem;
+    border-left: 3px solid transparent;
+    transition: background 0.15s;
+  }
+  .nav-link:hover { background: rgba(255,255,255,0.1); text-decoration: none; }
+  .nav-link.active { border-left-color: #e0a94b; background: rgba(255,255,255,0.08); }
+
+  .main { margin-left: var(--sidebar-w); padding: 40px; max-width: 900px; }
+
+  /* Typography */
+  h1 { font-size: 2rem; color: var(--primary); margin-bottom: 8px; }
+  h2 { font-size: 1.4rem; color: var(--primary); margin: 48px 0 16px; padding-top: 16px; border-top: 2px solid var(--border); }
+  h3 { font-size: 1.1rem; color: var(--accent); margin: 28px 0 12px; }
+  h4 { font-size: 0.95rem; color: var(--text); margin: 20px 0 8px; font-weight: 600; }
+  p { margin-bottom: 12px; }
+  ul, ol { margin: 8px 0 12px 24px; }
+  li { margin-bottom: 4px; }
+
+  /* Code */
+  code {
+    background: var(--code-bg);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Cascadia Code', 'Fira Code', monospace;
+    font-size: 0.875em;
+    color: var(--danger);
+  }
+  pre {
+    background: #2c2417;
+    color: #e8dcc8;
+    padding: 16px 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 12px 0 20px;
+    font-family: 'Cascadia Code', 'Fira Code', monospace;
+    font-size: 0.85em;
+    line-height: 1.6;
+  }
+  pre code { background: none; padding: 0; color: inherit; font-size: inherit; }
+
+  /* Cards */
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+  .card h3 { margin-top: 0; }
+
+  /* Tables */
+  table { width: 100%; border-collapse: collapse; margin: 12px 0 20px; }
+  th { background: var(--code-bg); text-align: left; padding: 8px 12px; font-size: 0.875rem; border-bottom: 2px solid var(--border); }
+  td { padding: 8px 12px; border-bottom: 1px solid var(--border); font-size: 0.875rem; vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: rgba(140, 108, 62, 0.04); }
+
+  /* Alerts */
+  .alert {
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin: 12px 0;
+    border-left: 4px solid;
+    font-size: 0.9rem;
+  }
+  .alert-info { background: #e8f0fe; border-color: #4285f4; }
+  .alert-warning { background: #fff3e0; border-color: #fb8c00; }
+  .alert-danger { background: #fce4ec; border-color: #e53935; }
+  .alert-success { background: #e8f5e9; border-color: #43a047; }
+
+  /* Badge */
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+  .badge-green { background: #d4edda; color: #155724; }
+  .badge-yellow { background: #fff3cd; color: #856404; }
+  .badge-red { background: #f8d7da; color: #721c24; }
+  .badge-blue { background: #cce5ff; color: #004085; }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, var(--primary) 0%, #7a5c32 100%);
+    color: white;
+    padding: 40px;
+    border-radius: 12px;
+    margin-bottom: 32px;
+  }
+  .hero h1 { color: white; font-size: 1.8rem; }
+  .hero p { opacity: 0.85; margin: 8px 0 0; }
+
+  /* Feature grid */
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+    margin: 16px 0;
+  }
+  .feature-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+  }
+  .feature-icon { font-size: 1.5rem; margin-bottom: 8px; }
+  .feature-card h4 { margin: 0 0 4px; }
+  .feature-card p { font-size: 0.85rem; color: var(--muted); margin: 0; }
+
+  /* Arch diagram */
+  .arch-box {
+    display: inline-block;
+    border: 2px solid var(--accent);
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin: 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    background: var(--card);
+  }
+  .arch-arrow { display: block; text-align: center; font-size: 1.2rem; color: var(--muted); margin: 2px 0; }
+
+  /* Mobile */
+  @media (max-width: 768px) {
+    .sidebar { display: none; }
+    .main { margin-left: 0; padding: 20px; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.2rem; }
+    .feature-grid { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="layout">
+
+<!-- Sidebar -->
+<nav class="sidebar">
+  <div class="sidebar-logo">
+    <h2>📖 Muallim ul-Qur'an</h2>
+    <span>Developer Documentation</span>
+  </div>
+  <div class="nav-section">Overview</div>
+  <a href="#intro" class="nav-link">Introduction</a>
+  <a href="#features" class="nav-link">Features</a>
+  <a href="#architecture" class="nav-link">Architecture</a>
+  <div class="nav-section">Development</div>
+  <a href="#dev-guide" class="nav-link">Developer Guide</a>
+  <a href="#file-structure" class="nav-link">File Structure</a>
+  <a href="#data-schema" class="nav-link">Data Schema</a>
+  <div class="nav-section">Firebase</div>
+  <a href="#firebase-guide" class="nav-link">Firebase Guide</a>
+  <a href="#auth" class="nav-link">Auth & Roles</a>
+  <a href="#firestore" class="nav-link">Firestore</a>
+  <div class="nav-section">Admin</div>
+  <a href="#admin-panel" class="nav-link">Admin Panel</a>
+  <a href="#commits" class="nav-link">Recent Commits</a>
+  <a href="#pending" class="nav-link">Pending Features</a>
+</nav>
+
+<!-- Main -->
+<main class="main">
+
+<!-- Hero -->
+<section id="intro">
+<div class="hero">
+  <h1>📖 Muallim ul-Qur'an PWA</h1>
+  <p>A standalone Progressive Web App for learning Qur'anic Arabic vocabulary via Hinglish (Hindi in Roman script). 7 Units, multiple lessons per unit, offline-capable.</p>
+</div>
+
+<p><strong>Live URL:</strong> <a href="https://nomaanc.github.io/muallim/" target="_blank">https://nomaanc.github.io/muallim/</a></p>
+<p><strong>Admin Dashboard:</strong> <a href="https://nomaanc.github.io/muallim/admin" target="_blank">https://nomaanc.github.io/muallim/admin</a></p>
+<p><strong>Repository:</strong> <a href="https://github.com/nomaanc/muallim" target="_blank">github.com/nomaanc/muallim</a></p>
+</section>
+
+<!-- Features -->
+<h2 id="features">Features</h2>
+<div class="feature-grid">
+  <div class="feature-card"><div class="feature-icon">📚</div><h4>7-Unit Book</h4><p>Full Arabic vocabulary textbook with Hinglish translations across 7 units.</p></div>
+  <div class="feature-card"><div class="feature-icon">✏️</div><h4>Custom Answers</h4><p>Edit any translation with your own Hinglish answer, saved locally.</p></div>
+  <div class="feature-card"><div class="feature-icon">⭐</div><h4>Starred Items</h4><p>Star vocabulary words for drill and review.</p></div>
+  <div class="feature-card"><div class="feature-icon">🔀</div><h4>Vocabulary Drill</h4><p>Flashcard drill from starred items or selected lessons.</p></div>
+  <div class="feature-card"><div class="feature-icon">🔍</div><h4>Full-Text Search</h4><p>Search across all Arabic and Hinglish text in the book.</p></div>
+  <div class="feature-card"><div class="feature-icon">🎓</div><h4>Exam Engine</h4><p>Self-practice exam with configurable scope and PDF export.</p></div>
+  <div class="feature-card"><div class="feature-icon">🔖</div><h4>Bookmarks</h4><p>Bookmark any card. Resume from exact position with highlight animation.</p></div>
+  <div class="feature-card"><div class="feature-icon">🌙</div><h4>Themes</h4><p>Parchment, Night, and system themes. Teacher/Student display modes.</p></div>
+  <div class="feature-card"><div class="feature-icon">🔊</div><h4>Audio</h4><p>Text-to-speech for Arabic words via Web Speech API.</p></div>
+  <div class="feature-card"><div class="feature-icon">📱</div><h4>PWA / Offline</h4><p>Installable as a PWA. Service Worker caches content for offline use.</p></div>
+  <div class="feature-card"><div class="feature-icon">🔐</div><h4>Firebase Auth</h4><p>Optional login with email/password. Role-based access (student/admin).</p></div>
+  <div class="feature-card"><div class="feature-icon">👨‍🏫</div><h4>Admin Panel</h4><p>Teacher dashboard for student analytics, pushed exams, and broadcasts.</p></div>
+</div>
+
+<!-- Architecture -->
+<h2 id="architecture">Architecture</h2>
+
+<div class="card">
+  <h3>Single-File PWA</h3>
+  <p>The entire application lives in a single HTML file: <code>pwa/index.html</code> (~4.2 MB, ~77k lines). This includes all CSS, JavaScript, and inline book data (window.PWA_BOOK_DATA).</p>
+  <div class="alert alert-warning">⚠️ <strong>No build tools.</strong> There is zero npm, no Vite, no Webpack. Edit the HTML file directly. No compilation step.</div>
+</div>
+
+<h3>Technology Stack</h3>
+<table>
+  <tr><th>Layer</th><th>Technology</th></tr>
+  <tr><td>Frontend</td><td>Vanilla HTML5, CSS3, JavaScript (ES6+) — no frameworks</td></tr>
+  <tr><td>Data</td><td>Inline JSON (<code>window.PWA_BOOK_DATA</code>) in index.html</td></tr>
+  <tr><td>Hosting</td><td>GitHub Pages (static, from <code>pwa/</code> folder)</td></tr>
+  <tr><td>Backend</td><td>Firebase Auth + Firestore</td></tr>
+  <tr><td>Offline</td><td>Service Worker (<code>sw.js</code>)</td></tr>
+  <tr><td>Push Notifications</td><td>Firebase Cloud Messaging (<code>firebase-messaging-sw.js</code>)</td></tr>
+</table>
+
+<h3>Internal Structure of index.html</h3>
+<table>
+  <tr><th>Section</th><th>Lines (approx)</th><th>Description</th></tr>
+  <tr><td>CSS styles</td><td>1 – 1,580</td><td>Custom properties, all component styles</td></tr>
+  <tr><td>HTML structure</td><td>1,580 – 2,010</td><td>Header, hamburger popover, all dialogs/modals</td></tr>
+  <tr><td>window.PWA_BOOK_DATA</td><td>2,010 – 73,850</td><td>Inline book data JSON (book content)</td></tr>
+  <tr><td>App IIFE</td><td>73,850 – 76,716</td><td>All app JavaScript (single function closure)</td></tr>
+  <tr><td>DOMContentLoaded</td><td>76,717 – 76,750</td><td>Event listeners and qb() button wiring</td></tr>
+  <tr><td>Firebase dialog HTML</td><td>76,750 – 76,890</td><td>Login modal HTML, admin floating button</td></tr>
+</table>
+
+<!-- Dev Guide -->
+<h2 id="dev-guide">Developer Guide</h2>
+
+<h3>Setup</h3>
+<ol>
+  <li>Clone the repository: <code>git clone https://github.com/nomaanc/muallim.git</code></li>
+  <li>Working directory: <code>e:\AIPROJECTS\PROJECTS\translate-hinglish-skill\pwa\</code></li>
+  <li>Open <code>index.html</code> in a browser — no local server needed for basic testing</li>
+  <li>For Firebase features: need to be online (or use emulators)</li>
+</ol>
+
+<div class="alert alert-info">ℹ️ The .git folder lives inside <code>pwa/</code>, not the project root. Run all git commands from within the <code>pwa/</code> directory.</div>
+
+<h3>Edit Workflow</h3>
+<pre><code># 1. Edit pwa/index.html
+# 2. Sync to mirror file:
+Copy-Item index.html final-book-7units.html -Force
+
+# 3. Commit and push:
+git add -A
+git commit -m "feat(pwa): description of change"
+git push origin main
+
+# GitHub Pages deploys automatically in ~30 seconds</code></pre>
+
+<h3>PowerShell Rules</h3>
+<ul>
+  <li>Use <code>;</code> not <code>&amp;&amp;</code> to chain commands in PowerShell</li>
+  <li>Set <code>$env:PYTHONIOENCODING='utf-8'</code> before running Python scripts</li>
+  <li>Use <code>Select-String</code> to search within index.html (not grep)</li>
+</ul>
+
+<h3>Searching index.html</h3>
+<pre><code># Find a function or pattern:
+Select-String -Path "index.html" -Pattern "functionName" | Select-Object -First 10
+
+# Count lines:
+(Get-Content "index.html").Count
+
+# Find and check the App exports:
+Select-String -Path "index.html" -Pattern "Object.assign\(App" | Select-Object -First 5</code></pre>
+
+<h3>JavaScript Syntax Validation</h3>
+<pre><code>$env:PYTHONIOENCODING='utf-8'
+python -c "
+import re
+content = open('index.html', encoding='utf-8').read()
+scripts = re.findall(r'&lt;script(?:\s[^&gt;]*)?>(.+?)&lt;/script>', content, re.DOTALL)
+for i, s in enumerate(scripts):
+    with open(f'_tmp_s{i}.js', 'w', encoding='utf-8') as f: f.write(s)
+print(f'Extracted {len(scripts)} blocks')
+"
+node --check _tmp_s0.js  # Check each extracted block</code></pre>
+
+<h3>Critical Invariants</h3>
+<div class="alert alert-danger">🚫 NEVER translate "Exercise" to "Mashq" — it stays as "Exercise" in all Hinglish text.</div>
+<div class="alert alert-danger">🚫 NEVER strip or alter Arabic harakat (diacritics). Preserve them exactly as-is.</div>
+<div class="alert alert-warning">⚠️ Always show "Unit" not "Stage" in UI labels (internal data uses stage_id).</div>
+<div class="alert alert-info">ℹ️ All Hinglish follows SOV syntax (Subject-Object-Verb), not English SVO.</div>
+
+<!-- File Structure -->
+<h2 id="file-structure">File Structure</h2>
+<pre><code>pwa/
+  index.html               ← Main PWA (4.2 MB, single-file source of truth)
+  final-book-7units.html   ← Mirror — always sync after editing index.html
+  admin.html               ← [TODO] Admin dashboard
+  sw.js                    ← Service Worker
+  manifest.json            ← PWA manifest
+  firebase-messaging-sw.js ← FCM push notification handler
+  firestore.rules          ← Firestore security rules
+  firebase.json            ← Firebase hosting config
+  api.key.txt              ← API key reference (do not commit secrets)
+  images/                  ← 465 textbook scan images (moved from project root)
+  icons/                   ← PWA icons (192x192, 512x512, etc.)
+  docs/
+    FIREBASE_SETUP.html    ← Firebase project setup guide
+    documentation.html     ← This file
+  SKILL.md                 ← Project-local AI assistant skill
+  context.md               ← Quick context for new AI sessions
+  third-major-prompt.md    ← Full spec for next major dev session</code></pre>
+
+<!-- Data Schema -->
+<h2 id="data-schema">Data Schema</h2>
+
+<h3>PWA_BOOK_DATA (inline JSON)</h3>
+<pre><code>window.PWA_BOOK_DATA = {
+  stages: {
+    "Stage1": {              // Key: "Stage1" through "Stage7"
+      "S1L1": {              // Key: S{stage}L{lesson}
+        title: "Lesson Title",
+        sections: [
+          {
+            type: "two_col_text",
+            items: [ { arabic: "...", hinglish: "..." }, ... ]
+          },
+          {
+            type: "two_col_numbered_list",
+            items: [ { id: 1, arabic: "...", hinglish: "..." }, ... ]
+          },
+          // ... other section types
+        ]
+      }
+    }
+  }
+};</code></pre>
+
+<h3>Section Types</h3>
+<table>
+  <tr><th>Type</th><th>Description</th></tr>
+  <tr><td><code>two_col_text</code></td><td>Two column layout: Arabic left, Hinglish right</td></tr>
+  <tr><td><code>two_col_numbered_list</code></td><td>Numbered list with Arabic/Hinglish pairs (has data-item-id)</td></tr>
+  <tr><td><code>section_header</code></td><td>Bold section title</td></tr>
+  <tr><td><code>exercise_header</code></td><td>Exercise section header (to be removed — QQ1)</td></tr>
+  <tr><td><code>qn_label</code></td><td>Question label for exercises (to be removed — QQ1)</td></tr>
+  <tr><td><code>verse_block</code></td><td>Quranic verse with translation</td></tr>
+  <tr><td><code>grammar_note</code></td><td>Highlighted grammar explanation box</td></tr>
+  <tr><td><code>table_section</code></td><td>Tabular layout</td></tr>
+</table>
+
+<h3>data-item-id Format</h3>
+<p>Added to <code>.card-top</code> elements in the <code>two_col_numbered_list</code> renderer:</p>
+<pre><code>S{stage}L{lesson}_{type}_{index}
+// Example: "S1L5_num_3"</code></pre>
+
+<h3>localStorage Keys</h3>
+<table>
+  <tr><th>Key</th><th>Value Format</th><th>Purpose</th></tr>
+  <tr><td><code>muallim_custom_translations</code></td><td><code>{ "S1L5_num_3": "custom text" }</code></td><td>User's custom Hinglish answers</td></tr>
+  <tr><td><code>muallim_favourites</code></td><td><code>[{ arabic, hinglish, key, lesson }]</code></td><td>Starred items</td></tr>
+  <tr><td><code>muallim_bookmark</code></td><td><code>{ lessonKey, itemKey }</code></td><td>Last bookmark</td></tr>
+  <tr><td><code>muallim_theme</code></td><td><code>"parchment" | "dark" | "light"</code></td><td>Active theme</td></tr>
+  <tr><td><code>muallim_mode</code></td><td><code>"teacher" | "student"</code></td><td>Display mode</td></tr>
+</table>
+
+<!-- Firebase Guide -->
+<h2 id="firebase-guide">Firebase Guide</h2>
+
+<h3>Config</h3>
+<pre><code>const FIREBASE_CONFIG = {
+  apiKey:      "AIzaSyAjBnuLSADlXBZ7OY7daQ7mOta3VaHXVNg",
+  authDomain:  "muallim-123.firebaseapp.com",
+  projectId:   "muallim-123",
+  appId:       "1:226964645326:web:0a219c95dad277b4cd379f"
+};</code></pre>
+
+<h3 id="auth">Authentication &amp; Roles</h3>
+<p>Firebase Auth (email/password). On login, the app reads the Firestore document at <code>/users/{uid}</code>:</p>
+<table>
+  <tr><th>Role</th><th>Access</th></tr>
+  <tr><td><code>student</code></td><td>Normal app access. Can star, bookmark, save custom answers, take exams.</td></tr>
+  <tr><td><code>admin</code></td><td>All student access plus: admin nav tab visible, admin panel accessible at /admin.</td></tr>
+</table>
+
+<div class="alert alert-info">Admin credentials: <code>ustaad@muallim.app</code> / <code>Ustaad123</code> — Admin UID: <code>ME1GchntFqZDLhs23DKzarZE6QC2</code></div>
+
+<h3>Known Firebase Scope Bug (FIXED — commit 8b0a871)</h3>
+<p><code>initFirebaseOnLoad()</code> was defined inside the App IIFE but called from outside the IIFE in the DOMContentLoaded listener. The function was invisible to code outside the IIFE.</p>
+<p><strong>Fix:</strong> Added <code>initFirebaseOnLoad</code> to <code>Object.assign(App, {...})</code> to export it. DOMContentLoaded now calls <code>App.initFirebaseOnLoad()</code> instead of bare <code>initFirebaseOnLoad()</code>.</p>
+
+<h3 id="firestore">Firestore Collections</h3>
+<table>
+  <tr><th>Collection</th><th>Document</th><th>Fields</th></tr>
+  <tr><td><code>/users/{uid}</code></td><td>One per user</td><td>name, email, role, createdAt</td></tr>
+  <tr><td><code>/user_data/{uid}</code></td><td>One per user</td><td>starredItems, customTranslations, examResults, lastBookmark, lessonTime</td></tr>
+  <tr><td><code>/pushed_exams/{examId}</code></td><td>Admin-created exams</td><td>title, createdAt, createdBy, scope, status</td></tr>
+  <tr><td><code>/muallim_broadcasts/{broadcastId}</code></td><td>Broadcast messages</td><td>message, createdAt, authorUid</td></tr>
+  <tr><td><code>/muallim_students/{deviceId}</code></td><td>Guest device tracking</td><td>name, deviceId, joinedAt</td></tr>
+</table>
+
+<h3>Deploying Firestore Rules</h3>
+<pre><code>firebase deploy --only firestore:rules</code></pre>
+<p>Rules file: <code>pwa/firestore.rules</code></p>
+
+<!-- Admin Panel -->
+<h2 id="admin-panel">Admin Panel</h2>
+<div class="alert alert-warning">⚠️ <code>admin.html</code> does not exist yet — it is the next major feature to build.</div>
+
+<p>The admin dashboard will be a separate static HTML page at <code>pwa/admin.html</code>, served at <code>https://nomaanc.github.io/muallim/admin</code>.</p>
+
+<h3>Planned Sections</h3>
+<table>
+  <tr><th>Section</th><th>Data Source</th><th>Functionality</th></tr>
+  <tr><td>Student Analytics</td><td>/users/, /user_data/</td><td>Sortable table of students with stars, exams, last bookmark, time spent</td></tr>
+  <tr><td>Admin Exams (Ustaad ki Exam)</td><td>/pushed_exams/</td><td>List, create, delete admin-pushed exams</td></tr>
+  <tr><td>Broadcasts</td><td>/muallim_broadcasts/</td><td>Send messages to all students</td></tr>
+  <tr><td>Student Management</td><td>/users/</td><td>View all users, change roles, delete students</td></tr>
+</table>
+
+<!-- Recent Commits -->
+<h2 id="commits">Recent Commits</h2>
+<table>
+  <tr><th>Hash</th><th>Description</th></tr>
+  <tr><td><code>8b0a871</code></td><td>fix(pwa): Firebase auto-init scope bug — admin panel now accessible after login</td></tr>
+  <tr><td><code>114e9f9</code></td><td>chore: remove accidental validate.js scratch file from repo</td></tr>
+  <tr><td><code>10132d1</code></td><td>fix(pwa): complete remaining fixes — custom answers modal, exam label, exercise removal, exam PDF, bookmark scroll</td></tr>
+  <tr><td><code>d282126</code></td><td>fix(pwa): sticky header, login, bookmark scroll, exam PDF, Stage-&gt;Unit rename</td></tr>
+  <tr><td><code>44911c6</code></td><td>feat(pwa): integrate full-stack Firebase Auth, embedded default config, guest mode</td></tr>
+</table>
+
+<!-- Pending Features -->
+<h2 id="pending">Pending Features</h2>
+<table>
+  <tr><th>Priority</th><th>Feature</th><th>Effort</th></tr>
+  <tr><td><span class="badge badge-red">P1</span></td><td>Remove QQ1 exercise sections permanently from JSON data</td><td>Medium</td></tr>
+  <tr><td><span class="badge badge-red">P1</span></td><td>Fix "My Answers" modal grouping and display</td><td>Medium</td></tr>
+  <tr><td><span class="badge badge-red">P1</span></td><td>Hamburger menu redesign (section groups, icons, scrollable)</td><td>High</td></tr>
+  <tr><td><span class="badge badge-yellow">P2</span></td><td>Create admin.html (admin dashboard)</td><td>High</td></tr>
+  <tr><td><span class="badge badge-yellow">P2</span></td><td>Session time tracking (lessonTime in Firestore)</td><td>Medium</td></tr>
+  <tr><td><span class="badge badge-yellow">P2</span></td><td>Student exam result history</td><td>Medium</td></tr>
+  <tr><td><span class="badge badge-blue">P3</span></td><td>Firebase Cloud Messaging for exam push notifications</td><td>Medium</td></tr>
+  <tr><td><span class="badge badge-blue">P3</span></td><td>PWA install prompt (beforeinstallprompt)</td><td>Low</td></tr>
+  <tr><td><span class="badge badge-blue">P3</span></td><td>Lesson completion indicators</td><td>Low</td></tr>
+</table>
+
+<p style="margin-top: 48px; color: var(--muted); font-size: 0.85rem;">Generated: September 2026 — Muallim ul-Qur'an PWA Developer Documentation</p>
+
+</main>
+</div>
+
+</body>
+</html>
