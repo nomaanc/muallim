@@ -1,0 +1,509 @@
+{
+  "units": [
+    {
+      "id": "Stage1",
+      "label": "Unit 1",
+      "lessonCount": 19,
+      "lessons": [
+        {
+          "number": 1,
+          "title": "Unit 1 Lesson 1"
+        },
+        {
+          "number": 2,
+          "title": "Unit 1 Lesson 2"
+        },
+        {
+          "number": 3,
+          "title": "Unit 1 Lesson 3"
+        },
+        {
+          "number": 4,
+          "title": "Unit 1 Lesson 4"
+        },
+        {
+          "number": 5,
+          "title": "Unit 1 Lesson 5"
+        },
+        {
+          "number": 6,
+          "title": "Unit 1 Lesson 6"
+        },
+        {
+          "number": 7,
+          "title": "Unit 1 Lesson 7"
+        },
+        {
+          "number": 8,
+          "title": "Unit 1 Lesson 8"
+        },
+        {
+          "number": 9,
+          "title": "Unit 1 Lesson 9"
+        },
+        {
+          "number": 10,
+          "title": "Unit 1 Lesson 10"
+        },
+        {
+          "number": 11,
+          "title": "Unit 1 Lesson 11"
+        },
+        {
+          "number": 12,
+          "title": "Unit 1 Lesson 12"
+        },
+        {
+          "number": 13,
+          "title": "Unit 1 Lesson 13"
+        },
+        {
+          "number": 14,
+          "title": "Unit 1 Lesson 14"
+        },
+        {
+          "number": 15,
+          "title": "Unit 1 Lesson 15"
+        },
+        {
+          "number": 16,
+          "title": "Unit 1 Lesson 16"
+        },
+        {
+          "number": 17,
+          "title": "Unit 1 Lesson 17"
+        },
+        {
+          "number": 18,
+          "title": "Unit 1 Lesson 18"
+        },
+        {
+          "number": 19,
+          "title": "Unit 1 Lesson 19"
+        }
+      ]
+    },
+    {
+      "id": "Stage2",
+      "label": "Unit 2",
+      "lessonCount": 13,
+      "lessons": [
+        {
+          "number": 1,
+          "title": "Unit 2 Lesson 1"
+        },
+        {
+          "number": 2,
+          "title": "Unit 2 Lesson 2"
+        },
+        {
+          "number": 3,
+          "title": "Unit 2 Lesson 3"
+        },
+        {
+          "number": 4,
+          "title": "Unit 2 Lesson 4"
+        },
+        {
+          "number": 5,
+          "title": "Unit 2 Lesson 5"
+        },
+        {
+          "number": 6,
+          "title": "Unit 2 Lesson 6"
+        },
+        {
+          "number": 7,
+          "title": "Unit 2 Lesson 7"
+        },
+        {
+          "number": 8,
+          "title": "Unit 2 Lesson 8"
+        },
+        {
+          "number": 9,
+          "title": "Unit 2 Lesson 9"
+        },
+        {
+          "number": 10,
+          "title": "Unit 2 Lesson 10"
+        },
+        {
+          "number": 11,
+          "title": "Unit 2 Lesson 11"
+        },
+        {
+          "number": 12,
+          "title": "Unit 2 Lesson 12"
+        },
+        {
+          "number": 13,
+          "title": "Unit 2 Lesson 13"
+        }
+      ]
+    },
+    {
+      "id": "Stage3",
+      "label": "Unit 3",
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "number": 1,
+          "title": "Unit 3 Lesson 1"
+        },
+        {
+          "number": 2,
+          "title": "Unit 3 Lesson 2"
+        },
+        {
+          "number": 3,
+          "title": "Unit 3 Lesson 3"
+        },
+        {
+          "number": 4,
+          "title": "Unit 3 Lesson 4"
+        },
+        {
+          "number": 5,
+          "title": "Unit 3 Lesson 5"
+        },
+        {
+          "number": 6,
+          "title": "Unit 3 Lesson 6"
+        },
+        {
+          "number": 7,
+          "title": "Unit 3 Lesson 7"
+        },
+        {
+          "number": 8,
+          "title": "Unit 3 Lesson 8"
+        },
+        {
+          "number": 9,
+          "title": "Unit 3 Lesson 9"
+        },
+        {
+          "number": 10,
+          "title": "Unit 3 Lesson 10"
+        }
+      ]
+    },
+    {
+      "id": "Stage4",
+      "label": "Unit 4",
+      "lessonCount": 18,
+      "lessons": [
+        {
+          "number": 1,
+          "title": "Unit 4 Lesson 1"
+        },
+        {
+          "number": 2,
+          "title": "Unit 4 Lesson 2"
+        },
+        {
+          "number": 3,
+          "title": "Unit 4 Lesson 3"
+        },
+        {
+          "number": 4,
+          "title": "Unit 4 Lesson 4"
+        },
+        {
+          "number": 5,
+          "title": "Unit 4 Lesson 5"
+        },
+        {
+          "number": 6,
+          "title": "Unit 4 Lesson 6"
+        },
+        {
+          "number": 7,
+          "title": "Unit 4 Lesson 7"
+        },
+        {
+          "number": 8,
+          "title": "Unit 4 Lesson 8"
+        },
+        {
+          "number": 9,
+          "title": "Unit 4 Lesson 9"
+        },
+        {
+          "number": 10,
+          "title": "Unit 4 Lesson 10"
+        },
+        {
+          "number": 11,
+          "title": "Unit 4 Lesson 11"
+        },
+        {
+          "number": 12,
+          "title": "Unit 4 Lesson 12"
+        },
+        {
+          "number": 13,
+          "title": "Unit 4 Lesson 13"
+        },
+        {
+          "number": 14,
+          "title": "Unit 4 Lesson 14"
+        },
+        {
+          "number": 15,
+          "title": "Unit 4 Lesson 15"
+        },
+        {
+          "number": 16,
+          "title": "Unit 4 Lesson 16"
+        },
+        {
+          "number": 17,
+          "title": "Unit 4 Lesson 17"
+        },
+        {
+          "number": 18,
+          "title": "Unit 4 Lesson 18"
+        }
+      ]
+    },
+    {
+      "id": "Stage5",
+      "label": "Unit 5",
+      "lessonCount": 23,
+      "lessons": [
+        {
+          "number": 1,
+          "title": "Unit 5 Lesson 1"
+        },
+        {
+          "number": 2,
+          "title": "Unit 5 Lesson 2"
+        },
+        {
+          "number": 3,
+          "title": "Unit 5 Lesson 3"
+        },
+        {
+          "number": 4,
+          "title": "Unit 5 Lesson 4"
+        },
+        {
+          "number": 5,
+          "title": "Unit 5 Lesson 5"
+        },
+        {
+          "number": 6,
+          "title": "Unit 5 Lesson 6"
+        },
+        {
+          "number": 7,
+          "title": "Unit 5 Lesson 7"
+        },
+        {
+          "number": 8,
+          "title": "Unit 5 Lesson 8"
+        },
+        {
+          "number": 9,
+          "title": "Unit 5 Lesson 9"
+        },
+        {
+          "number": 10,
+          "title": "Unit 5 Lesson 10"
+        },
+        {
+          "number": 11,
+          "title": "Unit 5 Lesson 11"
+        },
+        {
+          "number": 12,
+          "title": "Unit 5 Lesson 12"
+        },
+        {
+          "number": 13,
+          "title": "Unit 5 Lesson 13"
+        },
+        {
+          "number": 14,
+          "title": "Unit 5 Lesson 14"
+        },
+        {
+          "number": 15,
+          "title": "Unit 5 Lesson 15"
+        },
+        {
+          "number": 16,
+          "title": "Unit 5 Lesson 16"
+        },
+        {
+          "number": 17,
+          "title": "Unit 5 Lesson 17"
+        },
+        {
+          "number": 18,
+          "title": "Unit 5 Lesson 18"
+        },
+        {
+          "number": 19,
+          "title": "Unit 5 Lesson 19"
+        },
+        {
+          "number": 20,
+          "title": "Unit 5 Lesson 20"
+        },
+        {
+          "number": 21,
+          "title": "Unit 5 Lesson 21"
+        },
+        {
+          "number": 22,
+          "title": "Unit 5 Lesson 22"
+        },
+        {
+          "number": 23,
+          "title": "Unit 5 Lesson 23"
+        }
+      ]
+    },
+    {
+      "id": "Stage6",
+      "label": "Unit 6",
+      "lessonCount": 21,
+      "lessons": [
+        {
+          "number": 1,
+          "title": "Unit 6 Lesson 1"
+        },
+        {
+          "number": 2,
+          "title": "Unit 6 Lesson 2"
+        },
+        {
+          "number": 3,
+          "title": "Unit 6 Lesson 3"
+        },
+        {
+          "number": 4,
+          "title": "Unit 6 Lesson 4"
+        },
+        {
+          "number": 5,
+          "title": "Unit 6 Lesson 5"
+        },
+        {
+          "number": 6,
+          "title": "Unit 6 Lesson 6"
+        },
+        {
+          "number": 7,
+          "title": "Unit 6 Lesson 7"
+        },
+        {
+          "number": 8,
+          "title": "Unit 6 Lesson 8"
+        },
+        {
+          "number": 9,
+          "title": "Unit 6 Lesson 9"
+        },
+        {
+          "number": 10,
+          "title": "Unit 6 Lesson 10"
+        },
+        {
+          "number": 11,
+          "title": "Unit 6 Lesson 11"
+        },
+        {
+          "number": 12,
+          "title": "Unit 6 Lesson 12"
+        },
+        {
+          "number": 13,
+          "title": "Unit 6 Lesson 13"
+        },
+        {
+          "number": 14,
+          "title": "Unit 6 Lesson 14"
+        },
+        {
+          "number": 15,
+          "title": "Unit 6 Lesson 15"
+        },
+        {
+          "number": 16,
+          "title": "Unit 6 Lesson 16"
+        },
+        {
+          "number": 17,
+          "title": "Unit 6 Lesson 17"
+        },
+        {
+          "number": 18,
+          "title": "Unit 6 Lesson 18"
+        },
+        {
+          "number": 19,
+          "title": "Unit 6 Lesson 19"
+        },
+        {
+          "number": 20,
+          "title": "Unit 6 Lesson 20"
+        },
+        {
+          "number": 21,
+          "title": "Unit 6 Lesson 21"
+        }
+      ]
+    },
+    {
+      "id": "Stage7",
+      "label": "Unit 7",
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "number": 1,
+          "title": "Unit 7 Lesson 1"
+        },
+        {
+          "number": 2,
+          "title": "Unit 7 Lesson 2"
+        },
+        {
+          "number": 3,
+          "title": "Unit 7 Lesson 3"
+        },
+        {
+          "number": 4,
+          "title": "Unit 7 Lesson 4"
+        },
+        {
+          "number": 5,
+          "title": "Unit 7 Lesson 5"
+        },
+        {
+          "number": 6,
+          "title": "Unit 7 Lesson 6"
+        },
+        {
+          "number": 7,
+          "title": "Unit 7 Lesson 7"
+        },
+        {
+          "number": 8,
+          "title": "Unit 7 Lesson 8"
+        },
+        {
+          "number": 9,
+          "title": "Unit 7 Lesson 9"
+        },
+        {
+          "number": 10,
+          "title": "Unit 7 Lesson 10"
+        }
+      ]
+    }
+  ]
+}
