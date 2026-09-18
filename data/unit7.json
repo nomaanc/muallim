@@ -2984,26 +2984,6 @@
               }
             ]
           }
-        },
-        {
-          "id": "ex_header",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "qn1",
-          "type": "qn_label",
-          "data": {
-            "q_number": "1",
-            "instruction": "Darj zail ka tarjuma karein:"
-          }
-        },
-        {
-          "id": "ex_list",
-          "type": "two_col_numbered_list",
-          "data": {
-            "items": []
-          }
         }
       ],
       "status": "complete"
@@ -3176,69 +3156,6 @@
                 "hinglish": "aur usne hamare liye misal bayan ki aur apni paidaish ko bhool gaya, usne kaha kaun inn haddiyon ko zinda karega jabke woh bosida hain",
                 "is_filled": false,
                 "sentence_number": 19
-              }
-            ]
-          }
-        },
-        {
-          "id": "ex_header",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "qn_1",
-          "type": "qn_label",
-          "data": {
-            "q_number": "1",
-            "instruction": "Darj zail ka Hinglish mein tarjuma karein:"
-          }
-        },
-        {
-          "id": "list_ex",
-          "type": "two_col_numbered_list",
-          "data": {
-            "items": [
-              {
-                "id": 1,
-                "arabic": "فَكَذَّبَ وَعَصَى ثُمَّ أَدْبَرَ يَسْعَىٰ فَحَشَرَ فَنَادَىٰ فَقَالَ أَنَا رَبُّكُمُ الْأَعْلَىٰ",
-                "hinglish": "toh usne jhutlaya aur naafarmani ki, phir woh peeth phera daudta hua, phir usne jam'a kiya aur pukara aur kaha main tumhara sabse bada Rabb hoon",
-                "is_filled": false,
-                "sentence_number": 1
-              },
-              {
-                "id": 2,
-                "arabic": "ثُمَّ نَظَرَ ثُمَّ عَبَسَ وَبَسَرَ ثُمَّ أَدْبَرَ وَاسْتَكْبَرَ فَقَالَ",
-                "hinglish": "phir usne dekha, phir tewri chadhai aur munh banaya, phir peeth phera aur takabbur kiya aur kaha",
-                "is_filled": false,
-                "sentence_number": 2
-              },
-              {
-                "id": 3,
-                "arabic": "فَمَا أَغْنَىٰ عَنْهُمْ سَمْعُهُمْ وَلَا أَبْصَارُهُمْ وَلَا أَفْئِدَتُهُمْ مِنْ شَيْءٍ",
-                "hinglish": "toh unke kaan aur unki aankhein aur unke dil unke kisi kaam na aaye",
-                "is_filled": false,
-                "sentence_number": 3
-              },
-              {
-                "id": 4,
-                "arabic": "وَدَخَلَ الْمَدِينَةَ عَلَىٰ حِينِ غَفْلَةٍ مِنْ أَهْلِهَا فَوَجَدَ فِيهَا رَجُلَيْنِ",
-                "hinglish": "aur woh shahar mein dakhil hua logon ki ghaflat ke waqt, toh usne usmein do mardon ko paya",
-                "is_filled": false,
-                "sentence_number": 4
-              },
-              {
-                "id": 5,
-                "arabic": "وَنَادَىٰ أَصْحَابُ الْأَعْرَافِ رِجَالًا يَعْرِفُونَهُمْ بِسِيمَاهُمْ",
-                "hinglish": "aur A'raaf wale unn mardon ko pukarenge jinhein woh unke chehron se pehchante hain",
-                "is_filled": false,
-                "sentence_number": 5
-              },
-              {
-                "id": 6,
-                "arabic": "الَّذِينَ ضَلَّ سَعْيُهُمْ فِي الْحَيَاةِ الدُّنْيَا وَهُمْ يَحْسَبُونَ أَنَّهُمْ يُحْسِنُونَ صُنْعًا",
-                "hinglish": "yeh woh log hain jin ki koshish duniya ki zindagi mein zaaye ho gayi aur woh guman karte hain ke woh acha kaam kar rahe hain",
-                "is_filled": false,
-                "sentence_number": 6
               }
             ]
           }
@@ -3417,69 +3334,6 @@
               }
             ]
           }
-        },
-        {
-          "id": "ex_header",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "qn_1",
-          "type": "qn_label",
-          "data": {
-            "q_number": "1",
-            "instruction": "Darj zail ka Hinglish mein tarjuma karein:"
-          }
-        },
-        {
-          "id": "list_ex",
-          "type": "two_col_numbered_list",
-          "data": {
-            "items": [
-              {
-                "id": 1,
-                "arabic": "وَلَقَدْ آتَيْنَا مُوسَى الْكِتَابَ وَوَفَّيْنَا مِنْ بَعْدِهِ بِالرُّسُلِ",
-                "hinglish": "aur yaqeenan hamne Musa (A.S.) ko kitab di aur unke baad lagataar Rasool bheje",
-                "is_filled": false,
-                "sentence_number": 1
-              },
-              {
-                "id": 2,
-                "arabic": "إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ",
-                "hinglish": "beshak jin logon ne inkar kiya unke liye barabar hai chahe tumne unhein daraya ho ya na daraya ho woh iman nahin laayenge",
-                "is_filled": false,
-                "sentence_number": 2
-              },
-              {
-                "id": 3,
-                "arabic": "قَالُوا يَا وَيْلَنَا مَنْ بَعَثَنَا مِنْ مَرْقَدِنَا هَٰذَا مَا وَعَدَ الرَّحْمَنُ وَصَدَقَ الْمُرْسَلُونَ",
-                "hinglish": "unhon ne kaha haye hamari tabahi! kisne hamein hamari khwab-gah se uthaya, yeh wohi hai jiska Rahman ne waada kiya tha aur Rasoolon ne sach kaha tha",
-                "is_filled": false,
-                "sentence_number": 3
-              },
-              {
-                "id": 4,
-                "arabic": "فَلَمَّا آسَفُونَا انْتَقَمْنَا مِنْهُمْ فَأَغْرَقْنَاهُمْ أَجْمَعِينَ",
-                "hinglish": "toh jab unhon ne hamein ghussa dilaya toh hamne unse badla liya aur un sab ko gharq kar diya",
-                "is_filled": false,
-                "sentence_number": 4
-              },
-              {
-                "id": 5,
-                "arabic": "قُلْ يَا أَيُّهَا النَّاسُ إِنِّي رَسُولُ اللَّهِ إِلَيْكُمْ جَمِيعًا الَّذِي لَهُ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ",
-                "hinglish": "kaho aye logon! main tum sab ki taraf Allah ka Rasool hoon jiske liye aasmanon aur zameen ki badshahat hai",
-                "is_filled": false,
-                "sentence_number": 5
-              },
-              {
-                "id": 6,
-                "arabic": "إِنَّ الَّذِينَ اتَّقَوْا إِذَا مَسَّهُمْ طَائِفٌ مِنَ الشَّيْطَانِ تَذَكَّرُوا فَإِذَا هُمْ مُبْصِرُونَ",
-                "hinglish": "beshak jo log bache jab unhein Shaytan ki taraf se koi khayal chhoot jata hai toh woh yaad karte hain toh achanak woh dekhne wale ho jaate hain",
-                "is_filled": false,
-                "sentence_number": 6
-              }
-            ]
-          }
         }
       ],
       "status": "complete"
@@ -3638,62 +3492,6 @@
                 "hinglish": "toh agar woh phir jayein toh kaho mujhe Allah kaafi hai uske siwa koi mabood nahin",
                 "is_filled": false,
                 "sentence_number": 17
-              }
-            ]
-          }
-        },
-        {
-          "id": "ex_header",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "qn_1",
-          "type": "qn_label",
-          "data": {
-            "q_number": "1",
-            "instruction": "Darj zail ka Hinglish mein tarjuma karein:"
-          }
-        },
-        {
-          "id": "list_ex",
-          "type": "two_col_numbered_list",
-          "data": {
-            "items": [
-              {
-                "id": 1,
-                "arabic": "وَإِن تَوَلَّوْا فَإِنِّي أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ كَبِيرٍ",
-                "hinglish": "aur agar woh phir jayein toh beshak main tum par ek bade din ke azab se darta hoon",
-                "is_filled": false,
-                "sentence_number": 1
-              },
-              {
-                "id": 2,
-                "arabic": "وَإِن تَوَلَّوْا فَإِنِّي أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ كَبِيرٍ إِلَى اللَّهِ مَرْجِعُكُمْ وَهُوَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
-                "hinglish": "aur agar woh phir jayein toh beshak main tum par ek bade din ke azab se darta hoon Allah hi ki taraf tum sab ko laut kar jaana hai aur woh har cheez par qadir hai",
-                "is_filled": false,
-                "sentence_number": 2
-              },
-              {
-                "id": 3,
-                "arabic": "فَإِن تَابُوا وَأَقَامُوا الصَّلَاةَ وَآتَوُا الزَّكَاةَ فَإِخْوَانُكُمْ فِي الدَّينِ وَنُفَصِّلُ الْآيَاتِ لِقَوْمٍ يَعْلَمُونَ",
-                "hinglish": "toh agar woh tauba kar lein aur namaz qaim karein aur zakat dein toh woh deen mein tumhare bhai hain aur ham jaanne wali qom ke liye aayat khol kar bayan karte hain",
-                "is_filled": false,
-                "sentence_number": 3
-              },
-              {
-                "id": 4,
-                "arabic": "فَإِنْ أَسْلَمُوا فَقَدِ اهْتَدَوا وَّإِن تَوَلَّوْا فَإِنَّمَا عَلَيْكَ الْبَلَاغُ وَاللَّهُ بَصِيرٌ بِالْعِبَادِ",
-                "hinglish": "toh agar woh islam le aayein toh hidayat pa gaye aur agar woh phir jayein toh bas tere zimme paigham pahunchana hai aur Allah bandon ko dekhne wala Hai",
-                "is_filled": false,
-                "sentence_number": 4
-              },
-              {
-                "id": 5,
-                "arabic": "إِنَّ هَٰذَا لَهُوَ الْقَصَصُ الْحَقُّ وَمَا مِنْ إِلَٰهٍ إِلَّا اللَّهُ وَإِنَّ اللَّهَ لَهُوَ الْعَزِيزُ الْحَكِيمُ فَإِن تَوَلَّوْا فَإِنَّ اللَّهَ عَلِيمٌ بِالْمُفْسِدِينَ",
-                "hinglish": "beshak yeh sach'cha qissa hai aur Allah ke siwa koi mabood nahin aur beshak Allah ghalib hikmat wala Hai toh agar woh phir jayein toh beshak Allah fasaadiyon ko jaanne wala Hai",
-                "is_filled": false,
-                "sentence_number": 5
               }
             ]
           }
@@ -4642,11 +4440,6 @@
               }
             ]
           }
-        },
-        {
-          "id": "s7l5_ex_header",
-          "type": "exercise_header",
-          "data": {}
         },
         {
           "id": "s7l5_ex_list",
@@ -6831,167 +6624,6 @@
               }
             ]
           }
-        },
-        {
-          "id": "ex_header",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "qn_label_ex",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q1",
-            "instruction": "Darj zail jumloon ka tarjuma karein:"
-          }
-        },
-        {
-          "id": "list_ex",
-          "type": "two_col_numbered_list",
-          "data": {
-            "items": [
-              {
-                "id": 1,
-                "arabic": "قَالَ لَقَدْ كُنْتُمْ أَنْتُمْ وَآبَاؤُكُمْ فِي ضَلَالٍ مُبِينٍ",
-                "hinglish": "Ibrahim (A.S.) ne kaha yaqeenan tum aur tumhare baap-dada khuli gumrahi mein theh",
-                "is_filled": false,
-                "sentence_number": 1
-              },
-              {
-                "id": 2,
-                "arabic": "كَذٰلِكَ كُنْتُمْ مِنْ قَبْلُ / فَمَنَّ اللَّهُ عَلَيْكُمْ",
-                "hinglish": "Issi tarah tum pehle theh toh Allah ne tum par ehsan kiya",
-                "is_filled": false,
-                "sentence_number": 2
-              },
-              {
-                "id": 3,
-                "arabic": "قَالُوا فِيمَ كُنْتُمْ / قَالُوا كُنَّا مُسْتَضْعَفِينَ فِي الْأَرْضِ",
-                "hinglish": "Farishte kahenge tum kis haal mein theh woh kahenge ham zameen mein kamzor bana kar rakhe gaye theh",
-                "is_filled": false,
-                "sentence_number": 3
-              },
-              {
-                "id": 4,
-                "arabic": "أَمْ كُنْتُمْ شُهَدَاءَ إِذْ حَضَرَ يَعْقُوبَ الْمَوْتُ / إِذْ قَالَ لِبَنِيهِ / مَا تَعْبُدُونَ مِنْ بَعْدِي / قَالُوا نَعْبُدُ إِلٰهَكَ وَإِلٰهَ آبَائِكَ إِبْرَاهِيمَ وَإِسْمَاعِيلَ وَإِسْحَاقَ / إِلٰهًا وَاحِدًا / وَنَحْنُ لَهُ مُسْلِمُونَ",
-                "hinglish": "Ya kya tum uss waqt moojud theh jab Yaqoob (A.S.) ke paas maut aayi jab unhon ne apne beton se kaha tum mere baad kis ki ibaadat karoge unhon ne kaha ham aap ke mabood aur aap ke baap-dadaon ke mabood Ibrahim (A.S.) aur Ismail (A.S.) aur Is'haq (A.S.) ke mabood ki ibaadat karein ge jo ek hi mabood hai aur ham uske farmabardar hain",
-                "is_filled": false,
-                "sentence_number": 4
-              },
-              {
-                "id": 5,
-                "arabic": "وَيَوْمَ نَحْشُرُهُمْ جَمِيعًا / ثُمَّ نَقُولُ لِلَّذِينَ أَشْرَكُوا / مَكَانَكُمْ أَنْتُمْ وَشُرَكَاؤُكُمْ / فَزَيَّلْنَا بَيْنَهُمْ / وَقَالَ شُرَكَاؤُهُمْ / مَا كُنْتُمْ إِيَّانَا تَعْبُدُونَ / فَكَفَى بِاللَّهِ شَهِيدًا بَيْنَنَا وَبَيْنَكُمْ / إِنْ كُنَّا عَنْ عِبَادَتِكُمْ لَغَافِلِينَ",
-                "hinglish": "Aur uss din jab ham un sab ko ikatha karein ge phir ham un logon se kahenge jinhon ne shirk kiya tha apni jagah thehre raho tum aur tumhare shareek phir ham unke darmiyan judai daal dein ge aur unke shareek kahenge tum hamari ibaadat nahin karte theh toh Allah hamare aur tumhare darmiyan gawah ke tor par kafi hai beshak ham tumhari ibaadat se be-khabar theh",
-                "is_filled": false,
-                "sentence_number": 5
-              },
-              {
-                "id": 6,
-                "arabic": "إِنْ كُنْتُمْ صَادِقِينَ",
-                "hinglish": "agar tum sach'che ho",
-                "is_filled": false,
-                "sentence_number": 6
-              },
-              {
-                "id": 7,
-                "arabic": "إِنْ كُنْتُمْ فَاعِلِينَ",
-                "hinglish": "agar tum karne wale ho",
-                "is_filled": false,
-                "sentence_number": 7
-              },
-              {
-                "id": 8,
-                "arabic": "إِنْ كُنْتُمْ مُؤْمِنِينَ",
-                "hinglish": "agar tum momin ho",
-                "is_filled": false,
-                "sentence_number": 8
-              },
-              {
-                "id": 9,
-                "arabic": "إِنْ كُنْتُمْ كَاذِبِينَ",
-                "hinglish": "agar tum jhoote ho",
-                "is_filled": false,
-                "sentence_number": 9
-              },
-              {
-                "id": 10,
-                "arabic": "إِنْ كُنْتُمْ تُؤْمِنُونَ",
-                "hinglish": "agar tum imaan rakhte ho",
-                "is_filled": false,
-                "sentence_number": 10
-              },
-              {
-                "id": 11,
-                "arabic": "إِنْ كُنْتُمْ تَعْلَمُونَ",
-                "hinglish": "agar tum jaante ho",
-                "is_filled": false,
-                "sentence_number": 11
-              },
-              {
-                "id": 12,
-                "arabic": "إِنْ كُنْتُمْ لَا تَعْلَمُونَ",
-                "hinglish": "agar tum nahin jaante",
-                "is_filled": false,
-                "sentence_number": 12
-              },
-              {
-                "id": 13,
-                "arabic": "إِنْ كُنْتُمْ تُحِبُّونَ",
-                "hinglish": "agar tum muhabbat karte ho",
-                "is_filled": false,
-                "sentence_number": 13
-              },
-              {
-                "id": 14,
-                "arabic": "إِنْ كُنْتُمْ خَرَجْتُمْ",
-                "hinglish": "agar tum nikle ho",
-                "is_filled": false,
-                "sentence_number": 14
-              },
-              {
-                "id": 15,
-                "arabic": "إِنْ كُنْتُمْ فِي شَكٍّ",
-                "hinglish": "agar tum shakk mein ho",
-                "is_filled": false,
-                "sentence_number": 15
-              },
-              {
-                "id": 16,
-                "arabic": "وَإِنْ كُنْتُمْ فِي رَيْبٍ",
-                "hinglish": "aur agar tum shakk mein ho",
-                "is_filled": false,
-                "sentence_number": 16
-              },
-              {
-                "id": 17,
-                "arabic": "وَإِذْ كُنْتُمْ مَرْضَى",
-                "hinglish": "aur agar tum bimaar ho",
-                "is_filled": false,
-                "sentence_number": 17
-              },
-              {
-                "id": 18,
-                "arabic": "إِنْ كُنْتُمْ تُؤْمِنُونَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ",
-                "hinglish": "agar tum imaan rakhte ho Allah par aur aakhirat ke din par",
-                "is_filled": false,
-                "sentence_number": 18
-              },
-              {
-                "id": 19,
-                "arabic": "إِنْ كُنْتُمْ لِلرُّؤْيَا تَعْبُرُونَ",
-                "hinglish": "agar tum khwab ki ta'beer dete ho",
-                "is_filled": false,
-                "sentence_number": 19
-              },
-              {
-                "id": 20,
-                "arabic": "إِنْ كُنْتُمْ إِيَّاهُ تَعْبُدُونَ",
-                "hinglish": "agar tum ussi ki ibaadat karte ho",
-                "is_filled": false,
-                "sentence_number": 20
-              }
-            ]
-          }
         }
       ],
       "status": "complete"
@@ -9071,11 +8703,6 @@
               }
             ]
           }
-        },
-        {
-          "id": "s7l7_ex_header",
-          "type": "exercise_header",
-          "data": {}
         },
         {
           "id": "s7l7_ex_list",

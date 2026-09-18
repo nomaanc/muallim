@@ -41,7 +41,18 @@ var App = (function() {
       let favourites = [];
       try { favourites = JSON.parse(lsGet('muallim_favs', '[]') || '[]'); } catch(e) { favourites = []; }
       let customAnswers = {};
-      try { customAnswers = JSON.parse(lsGet('muallim_custom_answers', '{}') || '{}'); } catch(e) { customAnswers = {}; }
+      try {
+        const raw = lsGet('muallim_custom_translations', null);
+        if (raw) {
+          customAnswers = JSON.parse(raw);
+        } else {
+          const old = lsGet('muallim_custom_answers', null);
+          if (old) {
+            customAnswers = JSON.parse(old);
+            lsSet('muallim_custom_translations', old);
+          }
+        }
+      } catch(e) { customAnswers = {}; }
       let activeEditKey = null;
       let spinnerMode = 'starred'; // 'starred' or 'lesson'
       let spinnerPool = [];
@@ -143,15 +154,24 @@ var App = (function() {
 
       function toggleStarInPlace(btnElement, itemKey, arabic, defaultHinglish) {
         const idx = favourites.findIndex(f => f.key === itemKey);
-        if (idx >= 0) {
-          favourites.splice(idx, 1);
-          if (btnElement) btnElement.classList.remove('starred');
+        const isNowStarred = idx < 0;
+        if (isNowStarred) {
+          const km = (itemKey || '').match(/^S(\d+)L(\d+)/);
+          const st = km ? parseInt(km[1]) : currentStage;
+          const ls = km ? parseInt(km[2]) : currentLesson;
+          favourites.push({ key: itemKey, arabic, hinglish: defaultHinglish, stage: st, lesson: ls });
         } else {
-          favourites.push({ key: itemKey, arabic, hinglish: defaultHinglish, stage: currentStage, lesson: currentLesson });
-          if (btnElement) btnElement.classList.add('starred');
+          favourites.splice(idx, 1);
+        }
+        if (btnElement) {
+          btnElement.classList.toggle('starred', isNowStarred);
+          btnElement.setAttribute('aria-pressed', isNowStarred ? 'true' : 'false');
+          btnElement.setAttribute('aria-label', isNowStarred ? 'Starred' : 'Star this item');
+          btnElement.innerHTML = isNowStarred ? '★' : '☆';
         }
         localStorage.setItem('muallim_favs', JSON.stringify(favourites));
         updateStarredCountBadge();
+        if (typeof debouncedSync === 'function') debouncedSync();
       }
 
       function isStarred(itemKey) {
@@ -185,29 +205,47 @@ var App = (function() {
         } else {
           delete customAnswers[activeEditKey];
         }
-        lsSet('muallim_custom_answers', JSON.stringify(customAnswers));
+        lsSet('muallim_custom_translations', JSON.stringify(customAnswers));
         const modal = document.getElementById('custom-edit-modal');
         if (modal && modal.close) modal.close();
         renderCurrentLesson();
         if (typeof debouncedSync === 'function') debouncedSync(500);
+        const customModal = document.getElementById('custom-answers-modal');
+        if (customModal && customModal.open && typeof renderCustomAnswersList === 'function') {
+          renderCustomAnswersList();
+        }
       }
 
-      function deleteCustomAnswer() {
-        if (!activeEditKey) return;
-        delete customAnswers[activeEditKey];
-        lsSet('muallim_custom_answers', JSON.stringify(customAnswers));
-        const modal = document.getElementById('custom-edit-modal');
-        if (modal && modal.close) modal.close();
+      function deleteCustomAnswer(targetKey) {
+        const keyToDelete = targetKey || activeEditKey;
+        if (!keyToDelete) return;
+        delete customAnswers[keyToDelete];
+        lsSet('muallim_custom_translations', JSON.stringify(customAnswers));
+        if (!targetKey) {
+          const modal = document.getElementById('custom-edit-modal');
+          if (modal && modal.close) modal.close();
+        }
         renderCurrentLesson();
         if (typeof debouncedSync === 'function') debouncedSync(500);
+        const customModal = document.getElementById('custom-answers-modal');
+        if (customModal && customModal.open && typeof renderCustomAnswersList === 'function') {
+          renderCustomAnswersList();
+        }
       }
 
-      function loadLesson(stageId, lessonId) {
+      async function loadLesson(stageId, lessonId) {
+        stageId = parseInt(stageId) || 1;
+        lessonId = parseInt(lessonId) || 1;
         currentStage = stageId;
         currentLesson = lessonId;
+        const stageKey = `Stage${stageId}`;
+        if (!bookData.stages[stageKey]) {
+          await loadUnit(stageId);
+        }
         loadBookmark();
         renderCurrentLesson();
-        document.getElementById('current-lesson-label').textContent = `Unit ${stageId} Lesson ${lessonId}`;
+        const lbl = document.getElementById('current-lesson-label');
+        if (lbl) lbl.textContent = `Unit ${stageId} Lesson ${lessonId}`;
         document.title = `Muallim ul-Qur'an — Unit ${stageId} Lesson ${lessonId}`;
         window.scrollTo({ top: 0, behavior: 'smooth' });
       }
@@ -257,12 +295,6 @@ var App = (function() {
 
         (lesson.sections || []).forEach((sec, sIdx) => {
           const secType = sec.type;
-          // Skip exercise sections entirely per user request
-          if (secType === 'exercise_header' || secType === 'exercise_verses' || 
-              secType === 'exercise_fill_blank' || secType === 'exercise_mcq' ||
-              (sec.data && sec.data.q_number && String(sec.data.q_number).match(/^(Exercise|QQ)/i))) {
-            return;
-          }
           const d = sec.data || {};
 
           if (secType === 'hero_header') {
@@ -292,7 +324,7 @@ var App = (function() {
                 <div class="vocab-card">
                   <div class="card-top" data-item-id="${itemKey}">
                     <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
-                    <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">★</button>
+                    <button class="card-action-btn ${starred ? 'starred' : ''}" aria-pressed="${starred ? 'true' : 'false'}" aria-label="${starred ? 'Starred' : 'Star this item'}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">${starred ? '★' : '☆'}</button>
                     ${bmSvgHtml(itemKey)}
                   </div>
                   <div class="arabic-text" style="overflow-wrap:break-word;">${it.arabic}</div>
@@ -313,7 +345,7 @@ var App = (function() {
                   <div class="card-top" data-item-id="${itemKey}">
                     ${it.id ? `<span class="card-number">${iIdx + 1}</span>` : ''}
                     <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
-                    <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">★</button>
+                    <button class="card-action-btn ${starred ? 'starred' : ''}" aria-pressed="${starred ? 'true' : 'false'}" aria-label="${starred ? 'Starred' : 'Star this item'}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">${starred ? '★' : '☆'}</button>
                     ${bmSvgHtml(itemKey)}
                   </div>
                   <div class="arabic-text">${it.arabic}</div>
@@ -334,9 +366,9 @@ var App = (function() {
               const escHi = (v.hinglish || '').replace(/'/g, "\\'");
               html += `
                 <div class="verse-card">
-                  <div class="card-top">
+                  <div class="card-top" data-item-id="${itemKey}">
                     <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
-                    <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">★</button>
+                    <button class="card-action-btn ${starred ? 'starred' : ''}" aria-pressed="${starred ? 'true' : 'false'}" aria-label="${starred ? 'Starred' : 'Star this item'}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">${starred ? '★' : '☆'}</button>
                     ${bmSvgHtml(itemKey)}
                   </div>
                   <div class="arabic-text" style="font-size:calc(var(--arabic-scale)*1.1);">${v.arabic}</div>
@@ -364,9 +396,9 @@ var App = (function() {
                 const starredEx = isStarred(itemKey);
                 const escArEx = (ex.arabic || '').replace(/'/g, "\'");
                 const escHiEx = (ex.hinglish || '').replace(/'/g, "\'");
-                html += '<div class="vocab-card example-row"><div class="card-top">' +
+                html += '<div class="vocab-card example-row"><div class="card-top" data-item-id="' + itemKey + '">' +
                   '<button class="card-action-btn" onclick="App.speakArabic(\'' + escArEx + '\')">&#128362;</button>' +
-                  '<button class="card-action-btn ' + (starredEx ? 'starred' : '') + '" onclick="App.toggleStarInPlace(this,\'' + itemKey + '\',\'' + escArEx + '\',\'' + escHiEx + '\')">&#9733;</button>' +
+                  '<button class="card-action-btn ' + (starredEx ? 'starred' : '') + '" aria-pressed="' + (starredEx ? 'true' : 'false') + '" aria-label="' + (starredEx ? 'Starred' : 'Star this item') + '" onclick="App.toggleStarInPlace(this,\'' + itemKey + '\',\'' + escArEx + '\',\'' + escHiEx + '\')">' + (starredEx ? '★' : '☆') + '</button>' +
                   '</div><div class="arabic-text">' + (ex.arabic || '') + '</div>' +
                   (ex.hinglish ? renderDualAnswerHtml(itemKey, ex.arabic, ex.hinglish) : '') +
                   '</div>';
@@ -388,9 +420,9 @@ var App = (function() {
                 const starredTb = isStarred(itemKey);
                 const escArTb = (it.arabic || '').replace(/'/g, "\'");
                 const escHiTb = (it.hinglish || '').replace(/'/g, "\'");
-                html += '<div class="vocab-card"><div class="card-top">' +
+                html += '<div class="vocab-card"><div class="card-top" data-item-id="' + itemKey + '">' +
                   '<button class="card-action-btn" onclick="App.speakArabic(\'' + escArTb + '\')">&#128362;</button>' +
-                  '<button class="card-action-btn ' + (starredTb ? 'starred' : '') + '" onclick="App.toggleStarInPlace(this,\'' + itemKey + '\',\'' + escArTb + '\',\'' + escHiTb + '\')">&#9733;</button>' +
+                  '<button class="card-action-btn ' + (starredTb ? 'starred' : '') + '" aria-pressed="' + (starredTb ? 'true' : 'false') + '" aria-label="' + (starredTb ? 'Starred' : 'Star this item') + '" onclick="App.toggleStarInPlace(this,\'' + itemKey + '\',\'' + escArTb + '\',\'' + escHiTb + '\')">' + (starredTb ? '★' : '☆') + '</button>' +
                   '</div><div class="arabic-text">' + (it.arabic || '') + '</div>' +
                   (it.hinglish ? renderDualAnswerHtml(itemKey, it.arabic, it.hinglish) : '') +
                   '</div>';
@@ -441,39 +473,73 @@ var App = (function() {
         populateStageLessons(stageNum);
       }
 
-      function populateStageLessons(stageNum) {
-        const stageKey = `Stage${stageNum}`;
-        const lessons = bookData.stages[stageKey] || [];
+      async function populateStageLessons(stageNum) {
+        stageNum = parseInt(stageNum) || 1;
+        let lessonNumbers = [];
+        if (metadata && metadata.units) {
+          const u = metadata.units.find(x => x.id === `Stage${stageNum}` || x.id === stageNum || x.id === `stage_${stageNum}`);
+          if (u && u.lessons) {
+            lessonNumbers = u.lessons.map(l => (l.number !== undefined ? l.number : (l.lesson_id !== undefined ? l.lesson_id : l.id)));
+          } else if (u && u.lessonCount) {
+            for (let i = 1; i <= u.lessonCount; i++) lessonNumbers.push(i);
+          }
+        }
+        if (lessonNumbers.length === 0) {
+          const stageKey = `Stage${stageNum}`;
+          if (!bookData.stages[stageKey]) {
+            await loadUnit(stageNum);
+          }
+          const lessons = bookData.stages[stageKey] || [];
+          lessonNumbers = lessons.map(l => l.lesson_id);
+        }
         let lessonsHtml = '';
-        lessons.forEach(l => {
-          const isAct = (stageNum === currentStage && l.lesson_id === currentLesson);
-          lessonsHtml += `<button class="lesson-chip ${isAct ? 'active' : ''}" onclick="App.pickLesson(${stageNum}, ${l.lesson_id})">${l.lesson_id}</button>`;
+        lessonNumbers.forEach(num => {
+          const isAct = (stageNum === currentStage && num === currentLesson);
+          lessonsHtml += `<button class="lesson-chip ${isAct ? 'active' : ''}" onclick="App.pickLesson(${stageNum}, ${num})">${num}</button>`;
         });
-        const slm = document.getElementById('stage-lessons-mount'); if (slm) slm.innerHTML = lessonsHtml;
+        const slm = document.getElementById('stage-lessons-mount');
+        if (slm) slm.innerHTML = lessonsHtml;
       }
 
-      function pickLesson(stageNum, lessonId) {
-        loadLesson(stageNum, lessonId);
-        document.getElementById('lesson-picker-modal').close();
+      async function pickLesson(stageNum, lessonId) {
+        await loadLesson(stageNum, lessonId);
+        const modal = document.getElementById('lesson-picker-modal');
+        if (modal && modal.close) modal.close();
       }
 
-      function navigatePrevLesson() {
+      async function navigatePrevLesson() {
         if (currentLesson > 1) {
-          loadLesson(currentStage, currentLesson - 1);
+          await loadLesson(currentStage, currentLesson - 1);
         } else if (currentStage > 1) {
-          const prevStageKey = `Stage${currentStage - 1}`;
-          const prevLessons = bookData.stages[prevStageKey] || [];
-          loadLesson(currentStage - 1, prevLessons.length);
+          const prevStageNum = currentStage - 1;
+          let count = 0;
+          if (metadata && metadata.units) {
+            const u = metadata.units.find(x => x.id === `Stage${prevStageNum}` || x.id === prevStageNum);
+            if (u) count = u.lessonCount || (u.lessons && u.lessons.length) || 0;
+          }
+          if (!count) {
+            const prevLessons = await loadUnit(prevStageNum);
+            count = prevLessons ? prevLessons.length : 1;
+          }
+          await loadLesson(prevStageNum, count);
         }
       }
 
-      function navigateNextLesson() {
-        const currentStageKey = `Stage${currentStage}`;
-        const currentLessons = bookData.stages[currentStageKey] || [];
-        if (currentLesson < currentLessons.length) {
-          loadLesson(currentStage, currentLesson + 1);
+      async function navigateNextLesson() {
+        let currentLessonsCount = 0;
+        if (metadata && metadata.units) {
+          const u = metadata.units.find(x => x.id === `Stage${currentStage}` || x.id === currentStage);
+          if (u) currentLessonsCount = u.lessonCount || (u.lessons && u.lessons.length) || 0;
+        }
+        if (!currentLessonsCount) {
+          const currentStageKey = `Stage${currentStage}`;
+          const currentLessons = bookData.stages[currentStageKey] || [];
+          currentLessonsCount = currentLessons.length;
+        }
+        if (currentLesson < currentLessonsCount) {
+          await loadLesson(currentStage, currentLesson + 1);
         } else if (currentStage < 7) {
-          loadLesson(currentStage + 1, 1);
+          await loadLesson(currentStage + 1, 1);
         }
       }
 
@@ -580,46 +646,161 @@ var App = (function() {
       }
 
       
-    function openCustomAnswersModal() {
-      closeSidebar();
+    let currentCustomFilter = '';
+    let _customRenderId = 0;
+
+    async function openCustomAnswersModal() {
+      const pop = document.getElementById('settings-popover');
+      if (pop && pop.hidePopover) {
+        try { if (!pop.matches || pop.matches(':popover-open')) pop.hidePopover(); } catch(e) {}
+      }
       const modal = document.getElementById('custom-answers-modal');
+      currentCustomFilter = '';
+      const searchInput = document.getElementById('custom-answers-search');
+      if (searchInput) searchInput.value = '';
+      await renderCustomAnswersList();
+      if (modal && modal.showModal) modal.showModal();
+    }
+
+    async function filterCustomAnswers(query) {
+      currentCustomFilter = (query || '').trim().toLowerCase();
+      return await renderCustomAnswersList();
+    }
+
+    async function renderCustomAnswersList() {
+      const renderId = ++_customRenderId;
       const body = document.getElementById('custom-answers-body');
-      let customAnswers = {};
+      if (!body) return;
+
+      // Migrate / read custom translations
+      let customTranslations = {};
       try {
-        customAnswers = JSON.parse(localStorage.getItem('muallim_custom_answers') || '{}');
-      } catch(e) {}
-      
-      let html = '';
-      const keys = Object.keys(customAnswers);
-      if (keys.length === 0) {
-        html = '<div style="text-align:center; color:#666; padding:20px;">No custom answers yet.</div>';
-      } else {
-        const groups = {};
-        keys.forEach(k => {
-          const m = k.match(/^S(\d+)L(\d+)/);
-          if (m) {
-            const groupKey = `Unit ${m[1]} • Lesson ${m[2]}`;
-            if (!groups[groupKey]) groups[groupKey] = [];
-            groups[groupKey].push({ key: k, answer: customAnswers[k], stage: m[1], lesson: m[2] });
+        const raw = localStorage.getItem('muallim_custom_translations');
+        if (raw) {
+          customTranslations = JSON.parse(raw);
+        } else {
+          const old = localStorage.getItem('muallim_custom_answers');
+          if (old) {
+            customTranslations = JSON.parse(old);
+            localStorage.setItem('muallim_custom_translations', old);
           }
-        });
-        
-        for (const [gName, items] of Object.entries(groups)) {
-          html += `<div style="font-weight:bold; margin-top:16px; margin-bottom:8px; border-bottom:1px solid #eee; padding-bottom:4px;">📝 ${gName} <span style="color:#888; font-size:0.85em;">(${items.length})</span></div>`;
-          items.forEach(item => {
-            let originalAr = '';
-            let originalHi = '';
-            
-            // Lookup original text
-            try {
-              const stageData = bookData.stages[`stage_${item.stage}`];
-              if (stageData) {
-                const lessonData = stageData.find(l => l.lesson_number == item.lesson);
-                if (lessonData && lessonData.sections) {
-                  for (const sec of lessonData.sections) {
-                    if (sec.items) {
-                      const found = sec.items.find(i => i.id == item.key.split('_num_')[1] || `${item.key.split('_')[0]}_num_${i.id}` === item.key);
-                      if (found) {
+        }
+      } catch(e) { customTranslations = {}; }
+      customAnswers = customTranslations; // keep App's customAnswers in sync
+
+      const keys = Object.keys(customTranslations);
+      if (keys.length === 0) {
+        body.innerHTML = '<div style="text-align:center; color:var(--text-muted); padding:32px 16px; font-size:0.95rem;">Aapne abhi koi custom jawab nahi save kiya.</div>';
+        return;
+      }
+
+      // Pre-load any units needed for keys
+      const stagesNeeded = [...new Set(keys.map(k => {
+        const m = k.match(/^S(\d+)L/);
+        return m ? parseInt(m[1]) : null;
+      }).filter(Boolean))];
+
+      await Promise.all(stagesNeeded.map(s => {
+        if (!bookData.stages[`Stage${s}`]) return loadUnit(s).catch(() => {});
+        return Promise.resolve();
+      }));
+
+      if (renderId !== _customRenderId) return; // Discard stale render
+
+      // Group keys by Unit & Lesson
+      const groups = {};
+      keys.forEach(k => {
+        const m = k.match(/^S(\d+)L(\d+)/);
+        if (m) {
+          const sNum = parseInt(m[1]);
+          const lNum = parseInt(m[2]);
+          const groupKey = `Stage${sNum}_Lesson${lNum}`;
+          if (!groups[groupKey]) {
+            groups[groupKey] = {
+              stage: sNum,
+              lesson: lNum,
+              title: `Unit ${sNum} • Lesson ${lNum}`,
+              items: []
+            };
+          }
+          groups[groupKey].items.push({
+            key: k,
+            answer: customTranslations[k],
+            stage: sNum,
+            lesson: lNum
+          });
+        }
+      });
+
+      // Sort groups in book order (Unit 1 Lesson 1 first)
+      const sortedGroupKeys = Object.keys(groups).sort((a, b) => {
+        const ga = groups[a];
+        const gb = groups[b];
+        if (ga.stage !== gb.stage) return ga.stage - gb.stage;
+        return ga.lesson - gb.lesson;
+      });
+
+      let html = '';
+      let matchCount = 0;
+
+      sortedGroupKeys.forEach(gKey => {
+        const g = groups[gKey];
+        const matchedItems = [];
+
+        g.items.forEach(item => {
+          let originalAr = '';
+          let originalHi = '';
+
+          // Look up original text in bookData
+          try {
+            const stageData = bookData.stages[`Stage${item.stage}`];
+            if (stageData) {
+              const lessonData = stageData.find(l => l.lesson_id === item.lesson);
+              if (lessonData && lessonData.sections) {
+                for (let sIdx = 0; sIdx < lessonData.sections.length; sIdx++) {
+                  const sec = lessonData.sections[sIdx];
+                  const d = sec.data || {};
+                  const secItems = d.items || d.verses || d.examples || sec.items || [];
+                  for (let iIdx = 0; iIdx < secItems.length; iIdx++) {
+                    const it = secItems[iIdx];
+                    if (`S${item.stage}L${item.lesson}_num_${it.id || iIdx}` === item.key ||
+                        `S${item.stage}L${item.lesson}_s${sIdx}_${iIdx}` === item.key ||
+                        `S${item.stage}L${item.lesson}_v_${iIdx}` === item.key ||
+                        `S${item.stage}L${item.lesson}_ex${sIdx}_${iIdx}` === item.key ||
+                        `S${item.stage}L${item.lesson}_tb${sIdx}_${iIdx}` === item.key ||
+                        (it.id && `${item.stage}L${item.lesson}_num_${it.id}` === item.key)) {
+                      originalAr = it.arabic || '';
+                      originalHi = it.hinglish || '';
+                      break;
+                    }
+                  }
+                  if (originalAr || originalHi) break;
+                }
+
+                // Fallback: If section index shifted across revisions, check by item index / id in this lesson
+                if (!originalAr && !originalHi) {
+                  const sMatch = item.key.match(/_s\d+_(\d+)$/);
+                  const numMatch = item.key.match(/_num_(\d+)$/);
+                  if (sMatch) {
+                    const targetIdx = parseInt(sMatch[1]);
+                    for (let sIdx = 0; sIdx < lessonData.sections.length; sIdx++) {
+                      const sec = lessonData.sections[sIdx];
+                      const d = sec.data || {};
+                      const secItems = d.items || d.verses || d.examples || sec.items || [];
+                      if (secItems[targetIdx] && (secItems[targetIdx].arabic || secItems[targetIdx].hinglish)) {
+                        originalAr = secItems[targetIdx].arabic || '';
+                        originalHi = secItems[targetIdx].hinglish || '';
+                        break;
+                      }
+                    }
+                  } else if (numMatch) {
+                    const targetId = parseInt(numMatch[1]);
+                    for (let sIdx = 0; sIdx < lessonData.sections.length; sIdx++) {
+                      const sec = lessonData.sections[sIdx];
+                      const d = sec.data || {};
+                      const secItems = d.items || d.verses || d.examples || sec.items || [];
+                      const found = secItems.find(it => it.id === targetId);
+                      if (found && (found.arabic || found.hinglish)) {
                         originalAr = found.arabic || '';
                         originalHi = found.hinglish || '';
                         break;
@@ -628,24 +809,61 @@ var App = (function() {
                   }
                 }
               }
-            } catch(e) {}
-            
-            html += `
-              <div style="background:#f9f9f9; padding:12px; border-radius:8px; margin-bottom:12px; border:1px solid #e0e0e0;">
-                <div style="font-size:1.1rem; color:#1B4332; margin-bottom:6px; font-weight:bold; text-align:right; font-family:'Amiri', serif;">${originalAr}</div>
-                <div style="font-size:0.9rem; color:#666; margin-bottom:6px; font-style:italic;">Original: ${originalHi}</div>
-                <div style="font-size:0.95rem; color:#0ea5e9; font-weight:500;">Custom: ${item.answer}</div>
-              </div>
-            `;
+            }
+          } catch(e) {}
+
+          // Apply search filter
+          if (currentCustomFilter) {
+            const textToSearch = `${g.title} ${originalAr} ${originalHi} ${item.answer}`.toLowerCase();
+            if (!textToSearch.includes(currentCustomFilter)) return;
+          }
+
+          matchedItems.push({
+            ...item,
+            originalAr,
+            originalHi
           });
-        }
+        });
+
+        if (matchedItems.length === 0) return;
+        matchCount += matchedItems.length;
+
+        html += `
+          <div class="custom-answers-group" style="margin-top:14px; margin-bottom:10px;">
+            <div style="font-weight:700; font-size:0.85rem; color:var(--primary, #1B4332); padding-bottom:4px; border-bottom:1px solid var(--divider-light, rgba(0,0,0,0.08)); display:flex; justify-content:space-between; align-items:center;">
+              <span>📝 ${g.title}</span>
+              <span style="font-size:0.75rem; color:var(--text-muted); font-weight:400;">${matchedItems.length} saved</span>
+            </div>
+        `;
+
+        matchedItems.forEach(item => {
+          const escKey = item.key.replace(/'/g, "\\'");
+          html += `
+            <div class="custom-answer-card" style="background:var(--bg-surface-elevated, #f9f9f9); padding:10px 12px; border-radius:8px; margin-top:8px; border:1px solid var(--border, #e0e0e0); position:relative;">
+              <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:4px;">
+                <div style="font-size:0.75rem; color:var(--text-muted); font-family:monospace;">${item.key}</div>
+                <button class="icon-btn" onclick="App.deleteCustomAnswer('${escKey}')" title="Delete custom answer" style="color:var(--danger, #dc2626); font-size:0.9rem; padding:2px 6px; border-radius:4px; background:none; border:none; cursor:pointer;" aria-label="Delete">🗑</button>
+              </div>
+              ${item.originalAr ? `<div style="font-size:1.15rem; color:var(--primary, #1B4332); margin-bottom:4px; font-weight:bold; text-align:right; font-family:'Amiri', serif; direction:rtl;">${item.originalAr}</div>` : ''}
+              ${item.originalHi ? `<div style="font-size:0.82rem; color:var(--text-muted); margin-bottom:4px;"><span style="font-weight:600;">Original:</span> ${item.originalHi}</div>` : ''}
+              <div style="font-size:0.88rem; color:var(--accent, #0284c7); font-weight:600;"><span style="font-size:0.75rem; background:rgba(2,132,199,0.12); color:#0284c7; padding:1px 6px; border-radius:4px; margin-right:4px;">custom</span> ${item.answer}</div>
+            </div>
+          `;
+        });
+
+        html += `</div>`;
+      });
+
+      if (keys.length > 0 && matchCount === 0) {
+        body.innerHTML = '<div style="text-align:center; color:var(--text-muted); padding:24px 16px; font-size:0.9rem;">Koi natija nahi mila.</div>';
+      } else {
+        body.innerHTML = html;
       }
-      body.innerHTML = html;
-      modal.showModal();
     }
-    
+
     function closeCustomAnswersModal() {
-      document.getElementById('custom-answers-modal').close();
+      const m = document.getElementById('custom-answers-modal');
+      if (m && m.close) m.close();
     }
 
     function openFavourites() {
@@ -693,14 +911,25 @@ var App = (function() {
       function openSearchModal() {
         document.getElementById('search-modal').showModal();
         setTimeout(() => document.getElementById('search-input').focus(), 100);
+        for (let s = 2; s <= 7; s++) {
+          if (!bookData.stages[`Stage${s}`]) {
+            loadUnit(s).catch(() => {});
+          }
+        }
       }
 
-      function performSearch(query) {
+      async function performSearch(query) {
         const q = query.trim().toLowerCase();
         const resultsMount = document.getElementById('search-results-mount');
         if (q.length < 2) {
           resultsMount.innerHTML = '<p style="text-align:center; color:var(--text-muted); padding:20px;">Type at least 2 characters to search all 114 lessons.</p>';
           return;
+        }
+
+        for (let s = 1; s <= 7; s++) {
+          if (!bookData.stages[`Stage${s}`]) {
+            await loadUnit(s).catch(() => {});
+          }
         }
 
         const results = [];
@@ -752,9 +981,9 @@ var App = (function() {
         resultsMount.innerHTML = out;
       }
 
-      function jumpToSearchLesson(stageNum, lessonId) {
+      async function jumpToSearchLesson(stageNum, lessonId) {
         document.getElementById('search-modal').close();
-        loadLesson(stageNum, lessonId);
+        await loadLesson(stageNum, lessonId);
       }
 
       function openExportDialog() {
@@ -820,14 +1049,15 @@ var App = (function() {
               localStorage.setItem('muallim_favs', JSON.stringify(favourites));
             }
 
-            if (imported.customAnswers && typeof imported.customAnswers === 'object') {
-              Object.keys(imported.customAnswers).forEach(k => {
-                customAnswers[k] = imported.customAnswers[k];
+            const customSrc = imported.customTranslations || imported.customAnswers || imported.muallim_custom_translations;
+            if (customSrc && typeof customSrc === 'object') {
+              Object.keys(customSrc).forEach(k => {
+                customAnswers[k] = customSrc[k];
                 customCount++;
               });
             }
 
-            localStorage.setItem('muallim_custom_answers', JSON.stringify(customAnswers));
+            localStorage.setItem('muallim_custom_translations', JSON.stringify(customAnswers));
             updateStarredCountBadge();
             alert(`Backup successfully restored!
 - Starred items imported: ${favCount}
@@ -898,9 +1128,12 @@ var App = (function() {
         // Set new bookmark
         const card = svgEl.closest('[data-item-id]') || svgEl.closest('.vocab-card') || svgEl.closest('.verse-card');
         const arabic = card ? (card.querySelector('.arabic-text') || {}).textContent || '' : '';
+        const bmM = (itemId || '').match(/^S(\d+)L(\d+)/);
+        const bmStage = bmM ? parseInt(bmM[1]) : currentStage;
+        const bmLesson = bmM ? parseInt(bmM[2]) : currentLesson;
         saveBookmark({
-          stage: currentStage,
-          lesson: currentLesson,
+          stage: bmStage,
+          lesson: bmLesson,
           itemId: itemId,
           arabic: arabic.trim(),
           savedAt: Date.now()
@@ -1126,7 +1359,7 @@ var App = (function() {
 
     App.clearAllLocalData = function() {
       if (!confirm('This will clear all local data (starred items, custom answers, exam history). Are you sure?')) return;
-      ['muallim_favs','muallim_custom_answers','muallim_exam_history','muallim_bookmark'].forEach(k => localStorage.removeItem(k));
+      ['muallim_favs','muallim_custom_translations','muallim_custom_answers','muallim_exam_history','muallim_bookmark'].forEach(k => localStorage.removeItem(k));
       favourites = [];
       customAnswers = {};
       examHistory = [];
@@ -2470,19 +2703,20 @@ var App = (function() {
         if (snap.exists()) {
           const data = snap.data();
           // Restore starred
-          if (Array.isArray(data.starred)) {
-            favourites = data.starred;
+          if (Array.isArray(data.starred) || Array.isArray(data.starredItems)) {
+            favourites = data.starred || data.starredItems;
             try { localStorage.setItem('muallim_favs', JSON.stringify(favourites)); } catch(e) {}
             updateStarredCountBadge();
           }
           // Restore custom answers
-          if (data.customAnswers && typeof data.customAnswers === 'object') {
-            customAnswers = data.customAnswers;
-            try { localStorage.setItem('muallim_custom_answers', JSON.stringify(customAnswers)); } catch(e) {}
+          const customData = data.customTranslations || data.customAnswers;
+          if (customData && typeof customData === 'object') {
+            customAnswers = customData;
+            try { localStorage.setItem('muallim_custom_translations', JSON.stringify(customAnswers)); } catch(e) {}
           }
           // Restore bookmark
-          if (data.bookmark) {
-            try { localStorage.setItem('muallim_bookmark', JSON.stringify(data.bookmark)); } catch(e) {}
+          if (data.bookmark || data.lastBookmark) {
+            try { localStorage.setItem('muallim_bookmark', JSON.stringify(data.bookmark || data.lastBookmark)); } catch(e) {}
           }
         }
       } catch(e) { console.warn('[Auth] Could not load user_data:', e); }
@@ -2596,7 +2830,7 @@ var App = (function() {
         // Write student profile + all data in one document
         const examHistory = JSON.parse(localStorage.getItem('muallim_exam_history') || '[]');
         const favs = JSON.parse(localStorage.getItem('muallim_favs') || '[]');
-        const custom = JSON.parse(localStorage.getItem('muallim_custom_answers') || '{}');
+        const custom = JSON.parse(localStorage.getItem('muallim_custom_translations') || localStorage.getItem('muallim_custom_answers') || '{}');
 
         const payload = {
           deviceId,
@@ -2615,6 +2849,20 @@ var App = (function() {
         };
 
         await setDoc(doc(_db, studentDocPath()), payload, { merge: true });
+
+        // If logged in, also sync to user_data/{uid} for admin dashboard analytics
+        if (App.currentUser && App.currentUser.uid) {
+          await setDoc(doc(_db, 'user_data', App.currentUser.uid), {
+            starredItems: favs,
+            customTranslations: custom,
+            lastBookmark: _bookmark,
+            lastSeen: serverTimestamp(),
+            currentStage,
+            currentLesson,
+            updatedAt: serverTimestamp()
+          }, { merge: true });
+        }
+
         showSyncIndicator('☁ Synced');
       } catch(e) {
         console.warn('[Firebase] syncAll error:', e);
@@ -2673,7 +2921,7 @@ var App = (function() {
       const name = localStorage.getItem('muallim_student_name') || 'Anonymous';
       const examHistory = JSON.parse(localStorage.getItem('muallim_exam_history') || '[]');
       const favs = JSON.parse(localStorage.getItem('muallim_favs') || '[]');
-      const custom = JSON.parse(localStorage.getItem('muallim_custom_answers') || '{}');
+      const custom = JSON.parse(localStorage.getItem('muallim_custom_translations') || localStorage.getItem('muallim_custom_answers') || '{}');
       const best = examHistory.length > 0 ? Math.max(...examHistory.map(h => h.score)) : null;
 
       const student = {
@@ -2826,11 +3074,16 @@ var App = (function() {
         importDataBackup,
         loadBookmark,
         initStudentName,
+        populateStageLessons,
+        populateStageTabs,
         // backward-compat aliases (Fix 1b)
         openSearch: openSearchModal,
         openDrillSpinner: openSpinner,
         openExam: App.openExam || function(){},
         openExamConfig: App.openExam || function(){},
+        openPracticeExam: App.openExam || function(){},
+        openUstaadExam: App.openUstaadExam || function(){},
+        filterCustomAnswers,
         // Firebase Auth exports (Phase 4)
         doLogin: App.doLogin || function(){},
         doLogout: App.doLogout || function(){},
@@ -2845,6 +3098,52 @@ var App = (function() {
       });
       return App;
     })();
+    window.App = App;
+
+    App.openUstaadExam = async function() {
+      const pop = document.getElementById('settings-popover');
+      if (pop && pop.hidePopover) {
+        try { if (!pop.matches || pop.matches(':popover-open')) pop.hidePopover(); } catch(e) {}
+      }
+
+      if (!App.currentUser) {
+        if (typeof showToast === 'function') {
+          showToast('Ustaad ki exam dekhne ke liye pehle login karein.');
+        }
+        if (typeof App.openLoginModal === 'function') App.openLoginModal();
+        return;
+      }
+
+      if (_db && window._FS) {
+        try {
+          const { collection, getDocs, query, where } = window._FS;
+          const q = query(collection(_db, 'pushed_exams'), where('status', '==', 'active'));
+          const snap = await getDocs(q);
+          const exams = [];
+          snap.forEach(d => exams.push({ id: d.id, ...d.data() }));
+
+          if (exams.length === 0) {
+            if (typeof showToast === 'function') {
+              showToast('Filhaal koi active exam ustaad ki taraf se nahi aayi.');
+            }
+            return;
+          }
+
+          const activeExam = exams[0];
+          if (typeof showToast === 'function') {
+            showToast(`Exam: ${activeExam.title || 'Ustaad ki Exam'}`);
+          }
+          if (typeof App.openExam === 'function') App.openExam();
+          return;
+        } catch(e) {
+          console.warn('[Muallim] Could not fetch pushed exams:', e);
+        }
+      }
+
+      if (typeof showToast === 'function') {
+        showToast('Filhaal koi active exam ustaad ki taraf se nahi aayi.');
+      }
+    };
 
     document.addEventListener('DOMContentLoaded', async function() {
       try {
@@ -2866,10 +3165,120 @@ var App = (function() {
         var el = document.getElementById(id);
         if (el) el.addEventListener('click', function() {
           var pop = document.getElementById('settings-popover');
-          if (pop && pop.hidePopover) pop.hidePopover();
+          if (pop && pop.hidePopover) {
+            try { if (!pop.matches || pop.matches(':popover-open')) pop.hidePopover(); } catch(e) {}
+          }
           fn();
         });
-if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
+      }
+      qb('menu-btn-search', function() { if(window.App&&App.openSearchModal) App.openSearchModal(); });
+      qb('menu-btn-drill',  function() { if(window.App&&App.openSpinner) App.openSpinner(); });
+      qb('menu-btn-favs',   function() { if(window.App&&App.openFavourites) App.openFavourites(); });
+      qb('menu-btn-custom', function() { if(window.App&&App.openCustomAnswersModal) App.openCustomAnswersModal(); });
+      qb('menu-btn-exam',   function() { if(window.App&&App.openExam) App.openExam(); });
+      qb('menu-btn-ustaad-exam', function() { if(window.App&&App.openUstaadExam) App.openUstaadExam(); });
+
+      // Auto-init Firebase (App.initFirebaseOnLoad is exported from the IIFE)
+      if (window.App && typeof App.initFirebaseOnLoad === 'function') App.initFirebaseOnLoad();
+    });
+
+    // Best-effort flush on unload
+    window.addEventListener('beforeunload', function() {
+      if (typeof _syncDebounceTimer !== 'undefined' && _syncDebounceTimer) {
+        clearTimeout(_syncDebounceTimer);
+        if (typeof syncAllToFirestore === 'function') syncAllToFirestore();
+      }
+    });
+
+    // Escape key closes settings popover for accessibility
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        var pop = document.getElementById('settings-popover');
+        if (pop && pop.hidePopover && pop.matches(':popover-open')) {
+          pop.hidePopover();
+        }
+      }
+    });
+
+    // ── Smart Onboarding Prompts ────────────────────────────────────────────
+    (function() {
+      function _ls(k) { try { return localStorage.getItem(k); } catch(e) { return null; } }
+      function _lsSet(k, v) { try { localStorage.setItem(k, v); } catch(e) {} }
+
+      window._closeOnboard = function(key, val) {
+        var modal = document.getElementById('onboard-modal');
+        if (modal && modal.close) modal.close();
+        if (key) _lsSet(key, val || 'done');
+      };
+
+      window._saveOnboardName = function() {
+        var input = document.getElementById('ob-name-in');
+        var n = input ? input.value.trim() : '';
+        if (!n) return;
+        _lsSet('muallim_student_name', n);
+        _lsSet('muallim_onboard_name_done', 'done');
+        var modal = document.getElementById('onboard-modal');
+        if (modal && modal.close) modal.close();
+        if (window.App && typeof window.App.initStudentName === 'function') window.App.initStudentName();
+        if (typeof debouncedSync === 'function') debouncedSync(500);
+      };
+
+      function showOnboard(type) {
+        var modal = document.getElementById('onboard-modal');
+        var body = document.getElementById('onboard-body');
+        if (!modal || !body) return;
+
+        if (type === 'name') {
+          body.innerHTML = '<div class="onboard-icon">✏️</div>'
+            + '<div class="onboard-title">Aapka naam kya hai?</div>'
+            + '<div class="onboard-desc">Apna naam likhen taake aapki progress save ho sake.</div>'
+            + '<input class="onboard-name-input" id="ob-name-in" type="text" placeholder="Apna naam yahan likhen..." maxlength="40">'
+            + '<div class="onboard-actions">'
+            + '<button class="btn-ghost" onclick="window._closeOnboard(\'muallim_onboard_name_done\', \'skipped\')">Skip</button>'
+            + '<button class="btn-primary" onclick="window._saveOnboardName()">Save Name</button>'
+            + '</div>';
+        } else if (type === 'notification') {
+          body.innerHTML = '<div class="onboard-icon">🔔</div>'
+            + '<div class="onboard-title">Notifications allow karein?</div>'
+            + '<div class="onboard-desc">Ustaad ke important paighaam aur reminders milenge.</div>'
+            + '<div class="onboard-actions">'
+            + '<button class="btn-ghost" onclick="window._closeOnboard(\'muallim_onboard_notif_done\', \'denied\')">Skip</button>'
+            + '<button class="btn-primary" onclick="window._closeOnboard(\'muallim_onboard_notif_done\', \'done\'); if(window.App&&App.enablePushNotifications) App.enablePushNotifications();">Allow</button>'
+            + '</div>';
+        } else if (type === 'install') {
+          body.innerHTML = '<div class="onboard-icon">📲</div>'
+            + '<div class="onboard-title">App install karein?</div>'
+            + '<div class="onboard-desc">Home screen par add karein — internet ke baghair bhi chalega!</div>'
+            + '<div class="onboard-actions">'
+            + '<button class="btn-ghost" onclick="window._closeOnboard(\'muallim_onboard_install_done\', \'denied\')">Skip</button>'
+            + '<button class="btn-primary" onclick="window._closeOnboard(\'muallim_onboard_install_done\', \'done\'); if(window.App&&App.promptInstall) App.promptInstall();">Install</button>'
+            + '</div>';
+        }
+        if (modal.showModal) modal.showModal();
+      }
+
+      document.addEventListener('DOMContentLoaded', function() {
+        setTimeout(function() {
+          var count = parseInt(_ls('muallim_session_count') || '0') + 1;
+          _lsSet('muallim_session_count', String(count));
+
+          if (!_ls('muallim_onboard_name_done') && !_ls('muallim_student_name')) {
+            showOnboard('name'); return;
+          }
+          if (count >= 2 && !_ls('muallim_onboard_notif_done')
+              && typeof Notification !== 'undefined' && Notification.permission === 'default') {
+            showOnboard('notification'); return;
+          }
+          if (count >= 3 && !_ls('muallim_onboard_install_done')) {
+            var hasDeferredPrompt = false;
+            try { hasDeferredPrompt = !!window._deferredInstallPrompt; } catch(e) {}
+            if (hasDeferredPrompt) { showOnboard('install'); }
+          }
+        }, 1800);
+      });
+    })();
+
+    if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
       navigator.serviceWorker.register('./sw.js').catch(function(err) {
         console.warn('[Muallim] ServiceWorker registration failed:', err);
       });

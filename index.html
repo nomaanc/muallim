@@ -63,15 +63,35 @@
   </header>
 
   <!-- Settings Popover Menu (Native HTML Popover API) -->
-  <div id="settings-popover" class="popover-menu" popover>
-      <!-- Quick Actions (moved from header) -->
-      <div class="quick-actions-row">
-        <button class="quick-action-btn" id="menu-btn-search">🔍 Search</button>
-        <button class="quick-action-btn" id="menu-btn-drill">🔀 Drill</button>
-        <button class="quick-action-btn" id="menu-btn-favs">★ Starred</button>
-        <button class="quick-action-btn" id="menu-btn-exam">🎓 Ustaad ki Exam</button>
-        <button class="quick-action-btn" id="menu-btn-custom">📝 My Answers</button>
-      </div>
+  <div id="settings-popover" class="popover-menu" popover role="dialog" aria-modal="true" aria-label="Settings Menu">
+    <!-- Header: Muallim with close button -->
+    <div class="popover-header">
+      <div class="popover-title">Muallim ul-Qur'an</div>
+      <button class="icon-btn" onclick="var p=document.getElementById('settings-popover'); if(p&&p.hidePopover){try{if(!p.matches||p.matches(':popover-open'))p.hidePopover();}catch(e){}}" aria-label="Close menu" style="font-size:1.2rem; padding:4px 8px; line-height:1;">✕</button>
+    </div>
+
+    <!-- QUICK ACTIONS (2-col grid) -->
+    <div class="menu-section-header">QUICK ACTIONS</div>
+    <div class="quick-actions-row">
+      <button class="quick-action-btn" id="menu-btn-search">🔍 Search</button>
+      <button class="quick-action-btn" id="menu-btn-drill">🔀 Drill</button>
+      <button class="quick-action-btn" id="menu-btn-favs">★ Starred</button>
+      <button class="quick-action-btn" id="menu-btn-custom">📝 My Answers</button>
+    </div>
+
+    <hr class="menu-divider">
+
+    <!-- EXAM -->
+    <div class="menu-section-header">EXAM</div>
+    <div class="exam-actions-row">
+      <button class="quick-action-btn" id="menu-btn-exam">🎓 Practice Exam</button>
+      <button class="quick-action-btn" id="menu-btn-ustaad-exam">📋 Ustaad ki Exam</button>
+    </div>
+
+    <hr class="menu-divider">
+
+    <!-- APPEARANCE -->
+    <div class="menu-section-header">APPEARANCE</div>
 
     <div class="menu-group">
       <div class="menu-label">Theme</div>
@@ -102,130 +122,77 @@
       <input type="range" id="arabic-size-slider" min="20" max="38" value="26" style="width:100%;" oninput="App.setFontSize('arabic', this.value)">
     </div>
 
+    <hr class="menu-divider">
+
+    <!-- DATA -->
+    <div class="menu-section-header">DATA</div>
     <div class="menu-group">
-      <div class="menu-label">Data Backup (JSON)</div>
       <div style="display:flex; gap:6px;">
-        <button class="btn-secondary" style="flex:1; padding:6px; font-size:0.8rem;" onclick="App.openExportDialog()">Export JSON</button>
-        <button class="btn-secondary" style="flex:1; padding:6px; font-size:0.8rem;" onclick="document.getElementById('import-data-input').click()">Import</button>
+        <button class="btn-secondary" style="flex:1; padding:8px 6px; font-size:0.82rem; font-weight:600;" onclick="App.openExportDialog()">📤 Export JSON</button>
+        <button class="btn-secondary" style="flex:1; padding:8px 6px; font-size:0.82rem; font-weight:600;" onclick="document.getElementById('import-data-input').click()">📥 Import JSON</button>
         <input type="file" id="import-data-input" accept=".json" style="display:none;" onchange="App.importDataBackup(this.files[0])">
       </div>
     </div>
 
     <hr class="menu-divider">
 
-    <!-- P2: Student Name -->
-    <div class="menu-group">
-      <div class="menu-label">👤 My Name</div>
-      <input type="text" id="student-name-input" class="menu-text-input"
-        placeholder="Enter your name..." maxlength="50"
-        onchange="App.saveStudentName(this.value)">
-    </div>
-
-    <!-- P2: Install App -->
-    <div class="menu-group" id="install-app-group" style="display:none;">
-      <div class="menu-label">📲 Install App</div>
-      <button id="install-app-btn" class="btn-secondary" style="width:100%; padding:7px; font-size:0.85rem;" onclick="App.promptInstall()">
-        Add to Home Screen
-      </button>
-    </div>
-
-    <!-- P2: Notifications -->
-    <div class="menu-group">
-      <div class="menu-label">🔔 Teacher Alerts</div>
-      <button id="notif-btn" class="btn-secondary" style="width:100%; padding:7px; font-size:0.85rem;" onclick="App.enablePushNotifications()">
-        Allow Notifications
-      </button>
-      <div id="notif-status" style="font-size:0.75rem; color:var(--text-muted); margin-top:4px;"></div>
-    </div>
-
-    <hr class="menu-divider">
-
-    <!-- User Account & Teacher Access -->
+    <!-- ACCOUNT -->
+    <div class="menu-section-header">ACCOUNT</div>
     <div class="menu-group" id="admin-access-group">
-      <div class="menu-label">👤 Account &amp; Teacher Access</div>
-      
-      <!-- Logged Out View -->
+      <!-- Logged Out View (Guest) -->
       <div id="auth-logged-out-view">
         <p style="font-size:0.8rem; color:var(--text-muted); margin:0 0 8px; line-height:1.4;">
-          Teacher admin panel aur cloud sync ke liye ID &amp; Password se login karein.
+          Guest Mode • Cloud sync aur exam features ke liye login karein.
         </p>
         <button class="btn-secondary" style="width:100%; padding:8px; font-size:0.85rem; font-weight:600;" onclick="App.openLoginModal()">
           🔑 Login (Teacher / Student)
         </button>
       </div>
 
-      <!-- Logged In View -->
+      <!-- Logged In View (Student / Teacher) -->
       <div id="auth-logged-in-view" style="display:none;">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; padding:8px 10px; background:var(--bg-surface, #f8f9fa); border-radius:8px; border:1px solid var(--border-color, #ddd);">
-          <div>
-            <div id="auth-user-display" style="font-weight:700; font-size:0.85rem;">User</div>
-            <div id="auth-user-role" style="font-size:0.72rem; color:var(--text-muted);">student</div>
+        <div style="padding:10px 12px; background:var(--bg-surface-elevated, #f8f9fa); border-radius:8px; border:1px solid var(--border-color, #ddd);">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+            <div>
+              <div id="auth-user-display" style="font-weight:700; font-size:0.88rem;">User</div>
+              <div id="auth-user-role" style="font-size:0.75rem; color:var(--text-muted);">student</div>
+            </div>
+            <div style="display:flex; gap:4px;">
+              <button class="btn-secondary" style="padding:4px 8px; font-size:0.75rem;" onclick="App.changePassword()">🔑 Password</button>
+              <button class="btn-secondary" style="padding:4px 8px; font-size:0.75rem;" onclick="App.doLogout()">🚪 Logout</button>
+            </div>
           </div>
-          <div style="display:flex; gap:4px;">
-            <button class="btn-secondary" style="padding:4px 8px; font-size:0.75rem;" onclick="App.changePassword()">🔑 Password</button>
-            <button class="btn-secondary" style="padding:4px 8px; font-size:0.75rem;" onclick="App.doLogout()">🚪 Logout</button>
+          <!-- Admin Panel link (shown only for role === 'admin') -->
+          <div id="admin-unlocked-view" style="display:none; margin-top:8px; padding-top:8px; border-top:1px solid var(--border, #eee);">
+            <a href="./admin.html" class="btn-primary" style="display:flex; align-items:center; justify-content:center; gap:6px; width:100%; box-sizing:border-box; padding:8px; text-decoration:none; font-size:0.82rem; font-weight:600; text-align:center;">
+              ⚙️ Admin Dashboard ↗
+            </a>
           </div>
         </div>
       </div>
+    </div>
 
-      <div id="admin-unlocked-view" style="display:none;" class="admin-panel">
-        <!-- Header row -->
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-          <span style="font-weight:700; font-size:0.88rem;">Teacher Admin Panel <span class="admin-badge">ACTIVE</span></span>
-          <button class="btn-secondary" style="padding:4px 10px; font-size:0.78rem;" onclick="App.doLogout()">🚪 Logout</button>
-        </div>
+    <hr class="menu-divider">
 
-        <!-- Firebase status + config -->
-        <div id="firebase-status-row" style="margin-bottom:8px;">
-          <div id="firebase-status-badge" class="firebase-status disconnected">⚡ Firebase not configured</div>
-          <button id="firebase-config-toggle-btn" class="btn-secondary"
-            style="width:100%; padding:5px; font-size:0.78rem; margin-bottom:4px;"
-            onclick="App.toggleFirebaseConfigPanel()">
-            ⚙ Configure Firebase
-          </button>
-          <div id="firebase-config-panel" style="display:none; margin-bottom:8px;">
-            <div style="font-size:0.72rem; color:var(--text-muted); margin-bottom:4px;">
-              Paste your Firebase config object (from Firebase Console → Project Settings):
-            </div>
-            <textarea id="firebase-config-input" class="firebase-config-area"
-              rows="5"
-              placeholder='{ "apiKey": "...", "authDomain": "...", "projectId": "...", "storageBucket": "...", "messagingSenderId": "...", "appId": "..." }'></textarea>
-            <div style="display:flex; gap:6px; margin-top:5px;">
-              <button class="btn-secondary" style="flex:1; padding:5px; font-size:0.78rem;"
-                onclick="App.saveFirebaseConfig()">💾 Save &amp; Connect</button>
-              <button class="btn-secondary" style="flex:1; padding:5px; font-size:0.78rem;"
-                onclick="App.clearFirebaseConfig()">🗑 Remove Config</button>
-            </div>
-          </div>
-        </div>
+    <!-- NOTIFICATIONS -->
+    <div class="menu-section-header">NOTIFICATIONS</div>
+    <div class="menu-group">
+      <button id="notif-btn" class="btn-secondary" style="width:100%; padding:8px; font-size:0.85rem; font-weight:600;" onclick="App.enablePushNotifications()">
+        🔔 Allow Notifications
+      </button>
+      <div id="notif-status" style="font-size:0.75rem; color:var(--text-muted); margin-top:4px; text-align:center;"></div>
+    </div>
 
-        <!-- Admin controls -->
-        <div class="menu-btn-row" style="margin-bottom:8px;">
-          <button class="btn-secondary" onclick="App.changePassword()" style="flex:1; padding:5px; font-size:0.78rem;">🔑 Password</button>
-          <button class="btn-secondary" onclick="App.refreshAdminStudents()" style="flex:1; padding:5px; font-size:0.78rem;">↺ Refresh</button>
-        </div>
+    <!-- INSTALL APP (if available) -->
+    <div class="menu-group" id="install-app-group" style="display:none;">
+      <button id="install-app-btn" class="btn-secondary" style="width:100%; padding:8px; font-size:0.85rem; font-weight:600;" onclick="App.promptInstall()">
+        📲 Install App
+      </button>
+    </div>
 
-        <!-- Broadcast notification -->
-        <div style="margin-bottom:8px;">
-          <div style="font-size:0.72rem; color:var(--text-muted); font-weight:700; margin-bottom:4px;">📢 BROADCAST TO STUDENTS</div>
-          <textarea id="broadcast-msg-input" class="admin-broadcast-textarea"
-            placeholder="Type message to send to all students..."></textarea>
-          <button class="btn-secondary" style="width:100%; padding:5px; font-size:0.78rem;"
-            onclick="App.sendBroadcast()">📤 Send Broadcast</button>
-        </div>
-
-        <!-- Student data view -->
-        <div style="font-size:0.72rem; color:var(--text-muted); font-weight:700; margin-bottom:6px;">👥 STUDENT DATA</div>
-        <div id="admin-students-mount" style="font-size:0.8rem; color:var(--text-muted); text-align:center; padding:10px;">
-          Configure Firebase to see student data
-        </div>
-
-        <!-- Danger zone -->
-        <div class="admin-danger-zone">
-          <div style="font-size:0.72rem; color:var(--text-muted); font-weight:700; margin-bottom:4px;">⚠ DANGER ZONE</div>
-          <button class="btn-danger" onclick="App.clearAllLocalData()">🗑 Clear All Local Data</button>
-        </div>
-      </div>
+    <!-- Version Footer -->
+    <div class="menu-version-footer">
+      Muallim v2.0.0
     </div>
   </div>
 
@@ -303,10 +270,13 @@
   <!-- Custom Answers Dialog -->
   <dialog id="custom-answers-modal" class="modal-dialog" style="max-width:480px; width:94vw; max-height:80vh; overflow-y:auto; border-radius:16px; padding:0; border:none;">
     <div class="modal-header" style="display:flex; align-items:center; justify-content:space-between; padding:16px 16px 12px; border-bottom:1px solid var(--divider-light);">
-      <div class="modal-title">📝 Custom Answers</div>
-      <button class="icon-btn" onclick="App.closeCustomAnswersModal()" style="font-size:1.2rem;">✕</button>
+      <div class="modal-title">📝 My Answers</div>
+      <button class="icon-btn" onclick="App.closeCustomAnswersModal()" style="font-size:1.2rem;" aria-label="Close">✕</button>
     </div>
-    <div id="custom-answers-body" style="padding:12px 16px 20px;"></div>
+    <div style="padding:10px 16px 4px;">
+      <input type="text" id="custom-answers-search" class="search-box" placeholder="Search custom answers or lessons..." oninput="App.filterCustomAnswers(this.value)" style="width:100%; box-sizing:border-box; margin:0; padding:8px 12px; border-radius:8px; border:1px solid var(--border,#ccc); font-size:0.9rem;">
+    </div>
+    <div id="custom-answers-body" style="padding:8px 16px 20px;"></div>
   </dialog>
 
   <!-- Favourites Dialog -->

@@ -3983,11 +3983,6 @@
           }
         },
         {
-          "id": "s_4",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
           "id": "s_5",
           "type": "two_col_numbered_list",
           "data": {
@@ -4415,11 +4410,6 @@
           }
         },
         {
-          "id": "s_4",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
           "id": "s_5",
           "type": "two_col_numbered_list",
           "data": {
@@ -4654,11 +4644,6 @@
               }
             ]
           }
-        },
-        {
-          "id": "s_7",
-          "type": "exercise_header",
-          "data": {}
         },
         {
           "id": "s_8",
@@ -5346,11 +5331,6 @@
           }
         },
         {
-          "id": "s_4",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
           "id": "s_5",
           "type": "two_col_numbered_list",
           "data": {
@@ -5813,11 +5793,6 @@
               }
             ]
           }
-        },
-        {
-          "id": "s_3",
-          "type": "exercise_header",
-          "data": {}
         },
         {
           "id": "s_4",
@@ -6456,39 +6431,6 @@
               }
             ]
           }
-        },
-        {
-          "id": "ex_hdr",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "qn_1",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q1",
-            "instruction": "Tarjuma karein:"
-          }
-        },
-        {
-          "id": "ex_list",
-          "type": "two_col_numbered_list",
-          "data": {
-            "items": [
-              {
-                "id": 1,
-                "arabic": "بَيْتٌ",
-                "hinglish": "ghar",
-                "is_filled": true
-              },
-              {
-                "id": 2,
-                "arabic": "بَيْتُهَا",
-                "hinglish": "us (muannath) ka ghar",
-                "is_filled": true
-              }
-            ]
-          }
         }
       ],
       "status": "complete"
@@ -6901,39 +6843,6 @@
                 "hinglish": "aur uski biwi eendhan uthane wali uski gardan mein baan ki rassi hai",
                 "is_filled": false,
                 "sentence_number": 13
-              }
-            ]
-          }
-        },
-        {
-          "id": "ex_hdr",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "qn_1",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q1",
-            "instruction": "Tarjuma karein:"
-          }
-        },
-        {
-          "id": "ex_list",
-          "type": "two_col_numbered_list",
-          "data": {
-            "items": [
-              {
-                "id": 1,
-                "arabic": "بَيْتُهَا",
-                "hinglish": "uska ghar",
-                "is_filled": true
-              },
-              {
-                "id": 2,
-                "arabic": "إِلَىٰ بَيْتِهَا",
-                "hinglish": "uske ghar ki taraf",
-                "is_filled": true
               }
             ]
           }
@@ -7617,39 +7526,6 @@
               }
             ]
           }
-        },
-        {
-          "id": "ex_hdr",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "qn_1",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q1",
-            "instruction": "Tarjuma karein:"
-          }
-        },
-        {
-          "id": "ex_list",
-          "type": "two_col_numbered_list",
-          "data": {
-            "items": [
-              {
-                "id": 1,
-                "arabic": "قَلَمٌ",
-                "hinglish": "qalam",
-                "is_filled": true
-              },
-              {
-                "id": 2,
-                "arabic": "قَلَمُهَا",
-                "hinglish": "uska qalam",
-                "is_filled": true
-              }
-            ]
-          }
         }
       ],
       "status": "complete"
@@ -7867,39 +7743,6 @@
                 "hinglish": "main hi bakhshne wala meharban hoon",
                 "is_filled": false,
                 "sentence_number": 10
-              }
-            ]
-          }
-        },
-        {
-          "id": "ex_hdr",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "qn_1",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q1",
-            "instruction": "Tarjuma karein:"
-          }
-        },
-        {
-          "id": "ex_list",
-          "type": "two_col_numbered_list",
-          "data": {
-            "items": [
-              {
-                "id": 1,
-                "arabic": "يُوسُفُ",
-                "hinglish": "Yusuf",
-                "is_filled": true
-              },
-              {
-                "id": 2,
-                "arabic": "أَنَا يُوسُفُ",
-                "hinglish": "Main Yusuf hoon",
-                "is_filled": true
               }
             ]
           }
@@ -8572,182 +8415,6 @@
           }
         },
         {
-          "id": "s2",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "s3",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Exercise",
-            "instruction": "Darj zail jumloon ka tarjuma karein:"
-          }
-        },
-        {
-          "id": "s4",
-          "type": "two_col_numbered_list",
-          "data": {
-            "has_hinglish": false,
-            "items": [
-              {
-                "id": 1,
-                "arabic": "هَذَا رَبِّي",
-                "hinglish": "Yeh mera Rabb hai",
-                "is_filled": true,
-                "sentence_number": 1
-              },
-              {
-                "id": 2,
-                "arabic": "هُوَ رَبِّي",
-                "hinglish": "Woh mera Rabb hai",
-                "is_filled": true,
-                "sentence_number": 2
-              },
-              {
-                "id": 3,
-                "arabic": "أَنْتَ وَلِيِّي",
-                "hinglish": "Tu mera karsaz hai",
-                "is_filled": true,
-                "sentence_number": 3
-              },
-              {
-                "id": 4,
-                "arabic": "وَهَذَا بَعْلِي",
-                "hinglish": "Aur yeh mera shohar hai",
-                "is_filled": false,
-                "sentence_number": 4
-              },
-              {
-                "id": 5,
-                "arabic": "وَهَذَا أَخِي",
-                "hinglish": "Aur yeh mera bhai hai",
-                "is_filled": false,
-                "sentence_number": 5
-              },
-              {
-                "id": 6,
-                "arabic": "إِنَّ هَذَا أَخِي",
-                "hinglish": "Beshak yeh mera bhai hai",
-                "is_filled": false,
-                "sentence_number": 6
-              },
-              {
-                "id": 7,
-                "arabic": "رَبِّي أَعْلَمُ",
-                "hinglish": "Mera Rabb zyada ba-ilm hai",
-                "is_filled": false,
-                "sentence_number": 7
-              },
-              {
-                "id": 8,
-                "arabic": "هُوَ اللَّهُ رَبِّي",
-                "hinglish": "Woh Allah mera Rabb hai",
-                "is_filled": false,
-                "sentence_number": 8
-              },
-              {
-                "id": 9,
-                "arabic": "حَسْبِيَ اللَّهُ",
-                "hinglish": "Allah mera sahara hai",
-                "is_filled": false,
-                "sentence_number": 9
-              },
-              {
-                "id": 10,
-                "arabic": "هِيَ عَصَايَ",
-                "hinglish": "Woh meri lathi hai",
-                "is_filled": false,
-                "sentence_number": 10
-              },
-              {
-                "id": 11,
-                "arabic": "وَإِنَّ عَلَيْكَ لَعْنَتِي",
-                "hinglish": "Aur beshak tujh par meri la'nat hai",
-                "is_filled": false,
-                "sentence_number": 11
-              },
-              {
-                "id": 12,
-                "arabic": "هَذَا رَبِّي / هَذَا أَكْبَرُ",
-                "hinglish": "Yeh mera Rabb hai yeh sab se bada hai",
-                "is_filled": false,
-                "sentence_number": 12
-              },
-              {
-                "id": 13,
-                "arabic": "أَنَا يُوسُفُ / وَهَذَا أَخِي",
-                "hinglish": "Main Yusuf hoon aur yeh mera bhai hai",
-                "is_filled": false,
-                "sentence_number": 13
-              },
-              {
-                "id": 14,
-                "arabic": "وَأَنَا عَجُوزٌ / وَهَذَا بَعْلِي",
-                "hinglish": "Aur main budhiya hoon aur yeh mera shohar hai",
-                "is_filled": false,
-                "sentence_number": 14
-              },
-              {
-                "id": 15,
-                "arabic": "أَنْتَ وَلِيِّي / فِي الدُّنْيَا وَالْآخِرَةِ",
-                "hinglish": "Tu mera karsaz hai duniya aur aakhirat mein",
-                "is_filled": false,
-                "sentence_number": 15
-              },
-              {
-                "id": 16,
-                "arabic": "وَأَنَّ هَذَا صِرَاطِي مُسْتَقِيمًا",
-                "hinglish": "Aur beshak yeh mera rasta seedha hai",
-                "is_filled": false,
-                "sentence_number": 16
-              },
-              {
-                "id": 17,
-                "arabic": "وَإِنَّ عَلَيْكَ لَعْنَتِي إِلَى يَوْمِ الدِّينِ",
-                "hinglish": "Aur beshak tujh par meri la'nat hai badle ke din tak",
-                "is_filled": false,
-                "sentence_number": 17
-              },
-              {
-                "id": 18,
-                "arabic": "عِنْدِي / خَزَائِنُ اللَّهِ",
-                "hinglish": "Mere paas Allah ke khazane hain",
-                "is_filled": false,
-                "sentence_number": 18
-              },
-              {
-                "id": 19,
-                "arabic": "إِنَّ مَعِيَ / رَبِّي",
-                "hinglish": "Beshak mere saath mera Rabb hai",
-                "is_filled": false,
-                "sentence_number": 19
-              },
-              {
-                "id": 20,
-                "arabic": "ذَلِكَ بَيْنِي وَبَيْنَكَ",
-                "hinglish": "Yeh mere aur tere darmiyan hai",
-                "is_filled": false,
-                "sentence_number": 20
-              },
-              {
-                "id": 21,
-                "arabic": "وَأَنَا عَجُوزٌ / وَهَذَا بَعْلِي شَيْخًا / إِنَّ هَذَا لَشَيْءٌ عَجِيبٌ",
-                "hinglish": "Aur main budhiya hoon aur yeh mera shohar budhape ki halat mein hai beshak yeh ajeeb cheez hai",
-                "is_filled": false,
-                "sentence_number": 21
-              },
-              {
-                "id": 22,
-                "arabic": "يَا لَيْتَ / بَيْنِي وَبَيْنَكَ / بُعْدَ الْمَشْرِقَيْنِ",
-                "hinglish": "Haye kash mere aur tere darmiyan mashriq aur maghrib ki doori hoti",
-                "is_filled": false,
-                "sentence_number": 22
-              }
-            ]
-          }
-        },
-        {
           "id": "s5",
           "type": "two_col_numbered_list",
           "data": {
@@ -8782,63 +8449,6 @@
                 "arabic": "عِقَابِ",
                 "hinglish": "Meri pakad Meri saza",
                 "is_filled": false
-              }
-            ]
-          }
-        },
-        {
-          "id": "s6",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "s7",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Exercise",
-            "instruction": "Darj zail jumloon ka tarjuma karein:"
-          }
-        },
-        {
-          "id": "s8",
-          "type": "two_col_numbered_list",
-          "data": {
-            "has_hinglish": false,
-            "items": [
-              {
-                "id": 1,
-                "arabic": "فَكَيْفَ كَانَ عِقَابِ",
-                "hinglish": "To meri saza kaisi thi",
-                "is_filled": true,
-                "sentence_number": 23
-              },
-              {
-                "id": 2,
-                "arabic": "فَكَيْفَ كَانَ نَكِيرِ",
-                "hinglish": "To meri pakad kaisi thi",
-                "is_filled": true,
-                "sentence_number": 24
-              },
-              {
-                "id": 3,
-                "arabic": "فَكَيْفَ كَانَ نَذِيرِ",
-                "hinglish": "To mera darawa kaisa tha",
-                "is_filled": true,
-                "sentence_number": 25
-              },
-              {
-                "id": 4,
-                "arabic": "وَيَا قَوْمِ / هَذِهِ نَاقَةُ اللَّهِ",
-                "hinglish": "Aur ae meri qom yeh Allah ki oontni hai",
-                "is_filled": false,
-                "sentence_number": 26
-              },
-              {
-                "id": 5,
-                "arabic": "يَا قَوْمِ / إِنَّمَا هَذِهِ الْحَيَاةُ الدُّنْيَا مَتَاعٌ / وَإِنَّ الْآخِرَةَ هِيَ دَارُ الْقَرَارِ",
-                "hinglish": "Ae meri qom sirf yeh duniya ki zindagi faida hai aur beshak aakhirat hi hamesha rehne ka ghar hai",
-                "is_filled": false,
-                "sentence_number": 27
               }
             ]
           }
@@ -9071,161 +8681,6 @@
                 "arabic": "إِنَّ وَلِيِّيْ",
                 "hinglish": "beshak mera karsaz",
                 "is_filled": false
-              }
-            ]
-          }
-        },
-        {
-          "id": "s3",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "s4",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Exercise",
-            "instruction": "Darj zail jumloon ka tarjuma karein:"
-          }
-        },
-        {
-          "id": "s5",
-          "type": "two_col_numbered_list",
-          "data": {
-            "has_hinglish": false,
-            "items": [
-              {
-                "id": 1,
-                "arabic": "إِنَّ وَلِيِّيَ / اللهُ",
-                "hinglish": "Beshak mera karsaz Allah hai",
-                "is_filled": true,
-                "sentence_number": 1
-              },
-              {
-                "id": 2,
-                "arabic": "إِنَّ أَرْضِيْ / وَاسِعَةٌ",
-                "hinglish": "Beshak meri zameen wus'at wali hai",
-                "is_filled": true,
-                "sentence_number": 2
-              },
-              {
-                "id": 3,
-                "arabic": "إِنَّ رَبِّيْ / قَرِيْبٌ مُّجِيْبٌ",
-                "hinglish": "Beshak mera Rabb qareeb qabool farmane wala hai",
-                "is_filled": true,
-                "sentence_number": 3
-              },
-              {
-                "id": 4,
-                "arabic": "إِنَّ كَيْدِيْ / مَتِيْنٌ",
-                "hinglish": "Beshak meri tadbeer mazboot hai",
-                "is_filled": false,
-                "sentence_number": 4
-              },
-              {
-                "id": 5,
-                "arabic": "عِلْمُهَا / عِنْدَ رَبِّيْ",
-                "hinglish": "Uska ilm mere Rabb ke paas hai",
-                "is_filled": false,
-                "sentence_number": 5
-              },
-              {
-                "id": 6,
-                "arabic": "إِنَّ ابْنِيْ / مِنْ أَهْلِيْ",
-                "hinglish": "Beshak mera beta mere gharane se hai",
-                "is_filled": false,
-                "sentence_number": 6
-              },
-              {
-                "id": 7,
-                "arabic": "إِنَّ رَبِّيْ / غَفُوْرٌ رَّحِيْمٌ",
-                "hinglish": "Beshak mera Rabb bakhshne wala meharban hai",
-                "is_filled": false,
-                "sentence_number": 7
-              },
-              {
-                "id": 8,
-                "arabic": "إِنَّ رَبِّيْ / لَطِيْفٌ",
-                "hinglish": "Beshak mera Rabb lateef hai",
-                "is_filled": false,
-                "sentence_number": 8
-              },
-              {
-                "id": 9,
-                "arabic": "فَإِنَّ رَبِّيْ / غَنِيٌّ كَرِيْمٌ",
-                "hinglish": "To beshak mera Rabb beniyaaz karam wala hai",
-                "is_filled": false,
-                "sentence_number": 9
-              },
-              {
-                "id": 10,
-                "arabic": "إِنَّ رَبِّيْ / رَحِيْمٌ وَدُوْدٌ",
-                "hinglish": "Beshak mera Rabb meharban muhabbat karne wala hai",
-                "is_filled": false,
-                "sentence_number": 10
-              },
-              {
-                "id": 11,
-                "arabic": "إِنَّ عَذَابِيْ / لَشَدِيْدٌ",
-                "hinglish": "Beshak mera azab yaqeenan sakht hai",
-                "is_filled": false,
-                "sentence_number": 11
-              },
-              {
-                "id": 12,
-                "arabic": "إِنَّ رَبِّيْ / لَغَفُوْرٌ رَّحِيْمٌ",
-                "hinglish": "Beshak mera Rabb yaqeenan bakhshne wala meharban hai",
-                "is_filled": false,
-                "sentence_number": 12
-              },
-              {
-                "id": 13,
-                "arabic": "إِنَّ رَبِّيْ / لَسَمِيْعُ الدُّعَاءِ",
-                "hinglish": "Beshak mera Rabb yaqeenan dua sunne wala hai",
-                "is_filled": false,
-                "sentence_number": 13
-              },
-              {
-                "id": 14,
-                "arabic": "إِنَّ رَبِّيْ / عَلَىٰ كُلِّ شَيْءٍ حَفِيْظٌ",
-                "hinglish": "Beshak mera Rabb har cheez par nigehbaan hai",
-                "is_filled": false,
-                "sentence_number": 14
-              },
-              {
-                "id": 15,
-                "arabic": "إِنَّ رَبِّيْ / عَلَىٰ صِرَاطٍ مُّسْتَقِيْمٍ",
-                "hinglish": "Beshak mera Rabb seedhe raste par hai",
-                "is_filled": false,
-                "sentence_number": 15
-              },
-              {
-                "id": 16,
-                "arabic": "عِلْمُهَا / عِنْدَ رَبِّيْ / فِيْ كِتَابٍ",
-                "hinglish": "Uska ilm mere Rabb ke paas hai kitab mein",
-                "is_filled": false,
-                "sentence_number": 16
-              },
-              {
-                "id": 17,
-                "arabic": "وَأَنَّ عَذَابِيْ هُوَ الْعَذَابُ الْأَلِيْمُ",
-                "hinglish": "Aur beshak mera azab hi dardnaak azab hai",
-                "is_filled": false,
-                "sentence_number": 17
-              },
-              {
-                "id": 18,
-                "arabic": "رَبِّ / إِنَّ ابْنِيْ مِنْ أَهْلِيْ / وَإِنَّ وَعْدَكَ الْحَقُّ",
-                "hinglish": "Mere Rabb beshak mera beta mere gharane se hai aur beshak tera waada haq hai",
-                "is_filled": false,
-                "sentence_number": 18
-              },
-              {
-                "id": 19,
-                "arabic": "إِنَّ صَلَاتِيْ وَنُسُكِيْ وَمَحْيَايَ وَمَمَاتِيْ / لِلّٰهِ رَبِّ الْعَالَمِيْنَ. لَا شَرِيْكَ لَهُ",
-                "hinglish": "Beshak meri namaz aur meri qurbani aur meri zindagi aur meri maut Allah ke liye hai jo tamaam jahanon ka Rabb hai. uska koi shareek nahin",
-                "is_filled": false,
-                "sentence_number": 19
               }
             ]
           }

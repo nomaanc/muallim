@@ -544,19 +544,6 @@
           }
         },
         {
-          "id": "s17",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "s18",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q-1",
-            "instruction": "Samjho aur neeche di gayi aasaan Quranic ibaarat ka khud tarjuma karo."
-          }
-        },
-        {
           "id": "s19",
           "type": "exercise_verses",
           "data": {
@@ -1320,92 +1307,6 @@
                 "sentence_number": 6
               }
             ]
-          }
-        },
-        {
-          "id": "s16",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "s17",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q-1",
-            "instruction": "Neeche di gayi Quranic ibaarat mein 'Li' (لِ) aur iske baad aane wale lafz ko underline karo aur khud samjho."
-          }
-        },
-        {
-          "id": "s18",
-          "type": "two_col_numbered_list",
-          "data": {
-            "has_hinglish": true,
-            "items": [
-              {
-                "id": 1,
-                "arabic": "وَالَّذِينَ هُمْ لِلزَّكَاةِ فَاعِلُونَ",
-                "hinglish": "Aur woh log jo zakat dene wale hain",
-                "is_filled": false,
-                "sentence_number": 1
-              },
-              {
-                "id": 2,
-                "arabic": "وَأَنْ لَيْسَ لِلْإِنْسَانِ إِلَّا مَا سَعَى",
-                "hinglish": "Aur yeh ke insaan ke liye kuch nahi magar jo usne koshish ki",
-                "is_filled": false,
-                "sentence_number": 2
-              },
-              {
-                "id": 3,
-                "arabic": "لَا تَسْجُدُوا لِلشَّمْسِ وَلَا لِلْقَمَرِ",
-                "hinglish": "Suraj ko sajda mat karo aur na chand ko",
-                "is_filled": false,
-                "sentence_number": 3
-              },
-              {
-                "id": 4,
-                "arabic": "إِنِّي نَذَرْتُ لِلرَّحْمَنِ صَوْمًا",
-                "hinglish": "Beshak maine Rahman ke liye roza ki mannat maangi hai",
-                "is_filled": false,
-                "sentence_number": 4
-              },
-              {
-                "id": 5,
-                "arabic": "وَفِي أَمْوَالِهِمْ حَقٌّ لِلسَّائِلِ وَالْمَحْرُومِ",
-                "hinglish": "Aur unke maalon mein maangne wale aur mahroom ka haq hai",
-                "is_filled": false,
-                "sentence_number": 5
-              },
-              {
-                "id": 6,
-                "arabic": "إِنَّ الشَّيْطَانَ لِلْإِنْسَانِ عَدُوٌّ مُبِينٌ",
-                "hinglish": "Beshak Shaytan insaan ke liye khula dushman hai",
-                "is_filled": false,
-                "sentence_number": 6
-              },
-              {
-                "id": 7,
-                "arabic": "لَا تُبْقِي وَلَا تَذَرُ لَوَّاحَةٌ لِلْبَشَرِ",
-                "hinglish": "Woh na baqi rakhti hai na chhorti hai, insaan ko jala dene wali hai",
-                "is_filled": false,
-                "sentence_number": 7
-              },
-              {
-                "id": 8,
-                "arabic": "أَوْقَدُوا نَارًا لِلْحَرْبِ",
-                "hinglish": "Unhon ne jung ke liye aag bhadkayi",
-                "is_filled": false,
-                "sentence_number": 8
-              }
-            ]
-          }
-        },
-        {
-          "id": "s19",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q-2",
-            "instruction": "Neeche di gayi Quranic ibaarat ka tarjuma karo jo 'Li' (لِ) aur iske baad ke lafz se bani hai."
           }
         },
         {
@@ -2283,91 +2184,6 @@
               }
             ]
           }
-        },
-        {
-          "id": "s16",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "s17",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q-1",
-            "instruction": "Neeche di gayi Quranic ibaarat mein 'Fi' (فِي) aur iske baad aane wale lafz ko underline karo aur khud samjho."
-          }
-        },
-        {
-          "id": "s18",
-          "type": "two_col_numbered_list",
-          "data": {
-            "has_hinglish": false,
-            "items": [
-              {
-                "id": 1,
-                "arabic": "وَفِي الْعَذَابِ هُمْ خَالِدُونَ",
-                "hinglish": "Aur azab mein woh hamesha rehne wale hain",
-                "is_filled": false,
-                "sentence_number": 1
-              },
-              {
-                "id": 2,
-                "arabic": "مَنْ كَانَ فِي الضَّلَالَةِ",
-                "hinglish": "Jo koi gumraahi mein tha",
-                "is_filled": false,
-                "sentence_number": 2
-              },
-              {
-                "id": 3,
-                "arabic": "اقْذِفِيهِ فِي التَّابُوتِ",
-                "hinglish": "Usey sandook mein daal do",
-                "is_filled": false,
-                "sentence_number": 3
-              },
-              {
-                "id": 4,
-                "arabic": "لَهُمْ طَرِيقًا فِي الْبَحْرِ",
-                "hinglish": "Unke liye samundar mein rasta hai",
-                "is_filled": false,
-                "sentence_number": 4
-              },
-              {
-                "id": 5,
-                "arabic": "يَعْلَمُ الْقَوْلَ فِي السَّمَاءِ",
-                "hinglish": "Woh aasman mein baat ko jaanta hai",
-                "is_filled": false,
-                "sentence_number": 5
-              },
-              {
-                "id": 6,
-                "arabic": "وَجَعَلْنَا فِي الْأَرْضِ رَوَاسِيَ",
-                "hinglish": "Aur humne zameen mein pahaad banaye",
-                "is_filled": false,
-                "sentence_number": 6
-              },
-              {
-                "id": 7,
-                "arabic": "لَهُ فِي الدُّنْيَا خِزْيٌ",
-                "hinglish": "Uske liye duniya mein ruswai hai",
-                "is_filled": false,
-                "sentence_number": 7
-              },
-              {
-                "id": 8,
-                "arabic": "يُولِجُ اللَّيْلَ فِي النَّهَارِ",
-                "hinglish": "Woh raat ko din mein daakhil karta hai",
-                "is_filled": false,
-                "sentence_number": 8
-              },
-              {
-                "id": 9,
-                "arabic": "عَلَيْكُمْ فِي الدِّينِ مِنْ حَرَجٍ",
-                "hinglish": "Tum par deen mein koi tangi nahi hai",
-                "is_filled": false,
-                "sentence_number": 9
-              }
-            ]
-          }
         }
       ],
       "qc": {
@@ -3004,19 +2820,6 @@
           }
         },
         {
-          "id": "s15",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "s16",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q-1",
-            "instruction": "Neeche di gayi Quranic ayaat mein sirf woh hissa highlight karo jahan عَلَى aur agle lafz milkar ek phrase banaate hain jo tum samjhte ho."
-          }
-        },
-        {
           "id": "s17",
           "type": "verse_block",
           "data": {
@@ -3090,112 +2893,6 @@
                 "hinglish": "Woh log apne Rabb ki taraf se hidayat par hain",
                 "is_filled": false,
                 "sentence_number": 10
-              }
-            ]
-          }
-        },
-        {
-          "id": "s18",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q-2",
-            "instruction": "عَلَى ke saath آلـ ki maujoodgi ya ghairamoojoodgi ko zehn mein rakh kar neeche di gayi Quranic ibaarat ka tarjuma karo."
-          }
-        },
-        {
-          "id": "s19",
-          "type": "two_col_numbered_list",
-          "data": {
-            "items": [
-              {
-                "id": 1,
-                "arabic": "عَلَى الْإِثْمِ",
-                "hinglish": "Gunah par",
-                "is_filled": false
-              },
-              {
-                "id": 2,
-                "arabic": "عَلَى هُدًى",
-                "hinglish": "Kisi hidayat par",
-                "is_filled": false
-              },
-              {
-                "id": 3,
-                "arabic": "عَلَى الْقَرْيَةِ",
-                "hinglish": "Basti par",
-                "is_filled": false
-              },
-              {
-                "id": 4,
-                "arabic": "عَلَى قَوْمٍ",
-                "hinglish": "Kisi qaum par",
-                "is_filled": false
-              },
-              {
-                "id": 5,
-                "arabic": "عَلَى الْغَيْبِ",
-                "hinglish": "Ghaib par",
-                "is_filled": false
-              },
-              {
-                "id": 6,
-                "arabic": "عَلَى حَيَاةٍ",
-                "hinglish": "Kisi zindagi par",
-                "is_filled": false
-              },
-              {
-                "id": 7,
-                "arabic": "عَلَى الدِّينِ",
-                "hinglish": "Deen par",
-                "is_filled": false
-              },
-              {
-                "id": 8,
-                "arabic": "عَلَى الْحَقِّ",
-                "hinglish": "Haq par",
-                "is_filled": false
-              },
-              {
-                "id": 9,
-                "arabic": "عَلَى رَجُلٍ",
-                "hinglish": "Kisi mard par",
-                "is_filled": false
-              },
-              {
-                "id": 10,
-                "arabic": "عَلَى الْبَاطِلِ",
-                "hinglish": "Baatil par",
-                "is_filled": false
-              },
-              {
-                "id": 11,
-                "arabic": "عَلَى بَشَرٍ",
-                "hinglish": "Kisi insaan par",
-                "is_filled": false
-              },
-              {
-                "id": 12,
-                "arabic": "عَلَى الْإِيمَانِ",
-                "hinglish": "Eemaan par",
-                "is_filled": false
-              },
-              {
-                "id": 13,
-                "arabic": "عَلَى أُمَّةٍ",
-                "hinglish": "Kisi ummat par",
-                "is_filled": false
-              },
-              {
-                "id": 14,
-                "arabic": "عَلَى الْقِتَالِ",
-                "hinglish": "Jung par",
-                "is_filled": false
-              },
-              {
-                "id": 15,
-                "arabic": "عَلَى تِجَارَةٍ",
-                "hinglish": "Kisi tijarat par",
-                "is_filled": false
               }
             ]
           }
@@ -3863,19 +3560,6 @@
           }
         },
         {
-          "id": "s15",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "s16",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q-1",
-            "instruction": "In Quranic Jumlon mein se us hisse ko nishaan-zad karo jahaan (مِنْ) aur uske saath wala lafz mil kar aisa fiqra banaate hain jise tum khud samajh sakte ho."
-          }
-        },
-        {
           "id": "s17",
           "type": "exercise_verses",
           "data": {
@@ -3945,14 +3629,6 @@
                 "sentence_number": 7
               }
             ]
-          }
-        },
-        {
-          "id": "s18",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q-2",
-            "instruction": "In Quranic fiqron ka zabaani Tarjuma karo, (ال) ke hone ya na hone par dhyaan dete hue."
           }
         },
         {
@@ -4576,120 +4252,6 @@
               }
             ]
           }
-        },
-        {
-          "id": "s12",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "s13",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q-1",
-            "instruction": "Darj zail Quranic ayaat mein se (إِلَى) aur uske baad aane wale lafz ka phrase nishan-zad karein jo aap samajh sakte hain."
-          }
-        },
-        {
-          "id": "s14",
-          "type": "two_col_numbered_list",
-          "data": {
-            "items": [
-              {
-                "id": 1,
-                "arabic": "يَدْعُونَ إِلَى الْخَيْرِ",
-                "hinglish": "Woh bhalai ki taraf pukaarte hain",
-                "is_filled": false,
-                "sentence_number": 1
-              },
-              {
-                "id": 2,
-                "arabic": "أُولَئِكَ يَدْعُونَ إِلَى النَّارِ",
-                "hinglish": "Woh log aag ki taraf pukaarte hain",
-                "is_filled": false,
-                "sentence_number": 2
-              },
-              {
-                "id": 3,
-                "arabic": "وَاللَّهُ يَدْعُو إِلَى الْجَنَّةِ وَالْمَغْفِرَةِ",
-                "hinglish": "Aur Allah jannat aur maghfeerat ki taraf pukaarta Hai",
-                "is_filled": false,
-                "sentence_number": 3
-              },
-              {
-                "id": 4,
-                "arabic": "كَمَا أَوْحَيْنَا إِلَى نُوحٍ",
-                "hinglish": "jiss tarah humne Nooh (A.S.) ki taraf wahi ki",
-                "is_filled": false,
-                "sentence_number": 4
-              },
-              {
-                "id": 5,
-                "arabic": "وَكَلِمَتُهُ أَلْقَاهَا إِلَى مَرْيَمَ",
-                "hinglish": "Aur Uska kalima jise Usne Maryam ki taraf daala",
-                "is_filled": false,
-                "sentence_number": 5
-              },
-              {
-                "id": 6,
-                "arabic": "فَأَوْحَيْنَا إِلَى مُوسَى",
-                "hinglish": "To humne Musa (A.S.) ki taraf wahi ki",
-                "is_filled": false,
-                "sentence_number": 6
-              },
-              {
-                "id": 7,
-                "arabic": "وَرُدُّوا إِلَى اللَّهِ",
-                "hinglish": "Aur woh Allah ki taraf lautaaye gaye",
-                "is_filled": false,
-                "sentence_number": 7
-              },
-              {
-                "id": 8,
-                "arabic": "مَنْ يَهْدِي إِلَى الْحَقِّ",
-                "hinglish": "Kaun haq ki taraf hidayat deta hai?",
-                "is_filled": false,
-                "sentence_number": 8
-              },
-              {
-                "id": 9,
-                "arabic": "أَدْعُو إِلَى اللَّهِ عَلَى بَصِيرَةٍ",
-                "hinglish": "Main Allah ki taraf wazeh daleel par pukaarta hoon",
-                "is_filled": false,
-                "sentence_number": 9
-              }
-            ]
-          }
-        },
-        {
-          "id": "s15",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q-2",
-            "instruction": "Darj zail Quranic ayaat mein, pehle sawal ki pehli misaal ki tarah, (إِلَى) aur uske baad aane wale lafz ke gird box banaein."
-          }
-        },
-        {
-          "id": "s16",
-          "type": "two_col_numbered_list",
-          "data": {
-            "items": [
-              {
-                "id": 1,
-                "arabic": "أَفَلَا يَنْظُرُونَ إِلَى الْإِبِلِ كَيْفَ خُلِقَتْ. وَإِلَى السَّمَاءِ كَيْفَ رُفِعَتْ. وَإِلَى الْجِبَالِ كَيْفَ نُصِبَتْ. وَإِلَى الْأَرْضِ كَيْفَ سُطِحَتْ",
-                "hinglish": "Kya woh oonton ki taraf nahi dekhte ke kaise paida kiye gaye? Aur aasman ki taraf ke kaise buland kiya gaya? Aur pahaadon ki taraf ke kaise nasb kiye gaye? Aur zameen ki taraf ke kaise bichhayi gayi?",
-                "is_filled": false,
-                "sentence_number": 1
-              },
-              {
-                "id": 2,
-                "arabic": "أَدْعُوكُمْ إِلَى النَّجَاةِ وَتَدْعُونَنِي إِلَى النَّارِ",
-                "hinglish": "Main tumhein najaat ki taraf pukaarta hoon aur tum mujhe aag ki taraf pukaarte ho",
-                "is_filled": false,
-                "sentence_number": 2
-              }
-            ]
-          }
         }
       ],
       "qc": {
@@ -5300,98 +4862,6 @@
           }
         },
         {
-          "id": "s13",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "s14",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q-1",
-            "instruction": "Darj zail Quranic ayaat mein se (بِـ) aur uske baad aane wale lafz ka phrase nishan-zad karein jo aap khud samajh rahe hain."
-          }
-        },
-        {
-          "id": "s15",
-          "type": "two_col_numbered_list",
-          "data": {
-            "items": [
-              {
-                "id": 1,
-                "arabic": "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ",
-                "hinglish": "Woh log jo ghaib par eemaan laate hain",
-                "is_filled": false,
-                "sentence_number": 1
-              },
-              {
-                "id": 2,
-                "arabic": "آمَنَّا بِاللَّهِ وَبِالْيَوْمِ الْآخِرِ",
-                "hinglish": "Hum Allah aur aakhirat ke din par eemaan laaye",
-                "is_filled": false,
-                "sentence_number": 2
-              },
-              {
-                "id": 3,
-                "arabic": "اشْتَرَوُا الضَّلَالَةَ بِالْهُدَى",
-                "hinglish": "Unhon ne hidayat ke badle gumraahi khareed li",
-                "is_filled": false,
-                "sentence_number": 3
-              },
-              {
-                "id": 4,
-                "arabic": "وَلَا تَلْبِسُوا الْحَقَّ بِالْبَاطِلِ",
-                "hinglish": "Aur haq ko baatil ke saath mat milao",
-                "is_filled": false,
-                "sentence_number": 4
-              },
-              {
-                "id": 5,
-                "arabic": "أَتَأْمُرُونَ النَّاسَ بِالْبِرِّ",
-                "hinglish": "Kya tum logon ko neki ka hukm dete ho?",
-                "is_filled": false,
-                "sentence_number": 5
-              },
-              {
-                "id": 6,
-                "arabic": "وَاسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ",
-                "hinglish": "Aur sabr aur namaz ke saath madad chaho",
-                "is_filled": false,
-                "sentence_number": 6
-              },
-              {
-                "id": 7,
-                "arabic": "الْآنَ جِئْتَ بِالْحَقِّ",
-                "hinglish": "Ab tum haq ke saath aaye ho",
-                "is_filled": false,
-                "sentence_number": 7
-              },
-              {
-                "id": 8,
-                "arabic": "اشْتَرَوُا الْحَيَاةَ الدُّنْيَا بِالْآخِرَةِ",
-                "hinglish": "Unhon ne aakhirat ke badle duniya ki zindagi khareed li",
-                "is_filled": false,
-                "sentence_number": 8
-              },
-              {
-                "id": 9,
-                "arabic": "جَاءَكُمْ مُوسَى بِالْبَيِّنَاتِ",
-                "hinglish": "Tumhare paas Musa (A.S.) wazeh nishaniyon ke saath aaye",
-                "is_filled": false,
-                "sentence_number": 9
-              }
-            ]
-          }
-        },
-        {
-          "id": "s16",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q-2",
-            "instruction": "(بِـ) ke baad (اَلْ) ki maujoodgi ya ghair-maujoodgi ko madde-nazar rakhte hue, darj zail Quranic fiqron ka zabaani tarjuma karein."
-          }
-        },
-        {
           "id": "s17",
           "type": "grid",
           "data": {
@@ -5819,19 +5289,6 @@
           }
         },
         {
-          "id": "s11",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "s12",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q-1",
-            "instruction": "Darj zail Quranic ayaat mein se (لَا) aur uske baad aane wale lafz ko nishan-zad karein jahan (لَا) mukammal inkaar karta hai, aur aap use khud samajh rahe hain."
-          }
-        },
-        {
           "id": "s13",
           "type": "verse_block",
           "data": {
@@ -5921,14 +5378,6 @@
                 "sentence_number": 14
               }
             ]
-          }
-        },
-        {
-          "id": "s14",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q-2",
-            "instruction": "Darj zail alfaaz ke aage (لَا) lagaakar mukammal inkaar karein aur dubara likhein."
           }
         },
         {
@@ -6591,19 +6040,6 @@
           }
         },
         {
-          "id": "s15",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "s16",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q-1",
-            "instruction": "Darj zail Quranic ayaat mein se (إِلَّا) aur uske baad aane wale lafz ka phrase nishan-zad karein jo aap samajh sakte hain."
-          }
-        },
-        {
           "id": "s17",
           "type": "verse_block",
           "data": {
@@ -6993,19 +6429,6 @@
                 "sentence_number": 1
               }
             ]
-          }
-        },
-        {
-          "id": "s11",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "s12",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q-1",
-            "instruction": "Darj zail Quranic ayaat mein kis cheez ki qasam khaai gayi hai? Pehle sawal ki pehli misaal ki tarah, har qasam aur jis cheez ki qasam khaai gayi use nishan-zad karein."
           }
         },
         {
@@ -8016,19 +7439,6 @@
                 "id": 12
               }
             ]
-          }
-        },
-        {
-          "id": "s10",
-          "type": "exercise_header",
-          "data": {}
-        },
-        {
-          "id": "s11",
-          "type": "qn_label",
-          "data": {
-            "q_number": "Q-1",
-            "instruction": "Neeche ki Quranic ayaat se woh hissa highlight karo jahan kisi ko pukara ja raha hai."
           }
         },
         {
