@@ -1,0 +1,18 @@
+# Local-only reference files (not for GitHub)
+images/
+context.md
+SKILL.md
+docs/documentation.html
+
+# Sensitive files
+api.key.txt
+
+# Backup and temp files
+*.bak
+muallim_backup_*.json
+scratch/
+
+# Old prompt files (keep third-major-prompt.md only)
+data-audit-prompt.md
+feature-enhancements-prompt.md
+html-update.md
