@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muallim ul-Qur'an — Developer Documentation (v2.0.0)</title>
+<style>
+  :root {
+    --bg: #faf8f3;
+    --card: #ffffff;
+    --primary: #1B4332;
+    --accent: #2D6A4F;
+    --text: #2c2c2c;
+    --muted: #6b6b6b;
+    --border: #e0d9cc;
+    --code-bg: #f0ece4;
+    --success: #2d7a4a;
+    --warning: #b35c00;
+    --danger: #c0392b;
+    --sidebar-w: 260px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 15px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* Layout */
+  .layout { display: flex; min-height: 100vh; }
+  .sidebar {
+    width: var(--sidebar-w);
+    background: var(--primary);
+    color: #f0e8d8;
+    padding: 24px 0;
+    position: fixed;
+    top: 0; left: 0; bottom: 0;
+    overflow-y: auto;
+    flex-shrink: 0;
+  }
+  .sidebar-logo {
+    padding: 0 20px 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+    margin-bottom: 12px;
+  }
+  .sidebar-logo h2 { font-size: 1.1rem; line-height: 1.3; }
+  .sidebar-logo span { font-size: 0.75rem; opacity: 0.7; }
+  .nav-section { padding: 8px 20px 4px; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1px; opacity: 0.5; }
+  .nav-link {
+    display: block;
+    padding: 7px 20px;
+    color: #f0e8d8;
+    font-size: 0.875rem;
+    border-left: 3px solid transparent;
+    transition: background 0.15s;
+  }
+  .nav-link:hover { background: rgba(255,255,255,0.1); text-decoration: none; }
+  .nav-link.active { border-left-color: #52B788; background: rgba(255,255,255,0.08); }
+
+  .main { margin-left: var(--sidebar-w); padding: 40px; max-width: 960px; }
+
+  /* Typography */
+  h1 { font-size: 2rem; color: var(--primary); margin-bottom: 8px; }
+  h2 { font-size: 1.4rem; color: var(--primary); margin: 48px 0 16px; padding-top: 16px; border-top: 2px solid var(--border); }
+  h3 { font-size: 1.1rem; color: var(--accent); margin: 28px 0 12px; }
+  h4 { font-size: 0.95rem; color: var(--text); margin: 20px 0 8px; font-weight: 600; }
+  p { margin-bottom: 12px; }
+  ul, ol { margin: 8px 0 12px 24px; }
+  li { margin-bottom: 4px; }
+
+  /* Code */
+  code {
+    background: var(--code-bg);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Cascadia Code', 'Fira Code', monospace;
+    font-size: 0.875em;
+    color: var(--danger);
+  }
+  pre {
+    background: #1B261D;
+    color: #e8dcc8;
+    padding: 16px 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+    margin: 12px 0 20px;
+    font-family: 'Cascadia Code', 'Fira Code', monospace;
+    font-size: 0.85em;
+    line-height: 1.6;
+  }
+  pre code { background: none; padding: 0; color: inherit; font-size: inherit; }
+
+  /* Cards */
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+  .card h3 { margin-top: 0; }
+
+  /* Tables */
+  table { width: 100%; border-collapse: collapse; margin: 12px 0 20px; }
+  th { background: var(--code-bg); text-align: left; padding: 8px 12px; font-size: 0.875rem; border-bottom: 2px solid var(--border); }
+  td { padding: 8px 12px; border-bottom: 1px solid var(--border); font-size: 0.875rem; vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:hover td { background: rgba(45, 106, 79, 0.04); }
+
+  /* Alerts */
+  .alert {
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin: 12px 0;
+    border-left: 4px solid;
+    font-size: 0.9rem;
+  }
+  .alert-info { background: #e8f0fe; border-color: #4285f4; }
+  .alert-warning { background: #fff3e0; border-color: #fb8c00; }
+  .alert-danger { background: #fce4ec; border-color: #e53935; }
+  .alert-success { background: #e8f5e9; border-color: #43a047; }
+
+  /* Badges */
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+  .badge-green { background: #d4edda; color: #155724; }
+  .badge-yellow { background: #fff3cd; color: #856404; }
+  .badge-red { background: #f8d7da; color: #721c24; }
+  .badge-blue { background: #cce5ff; color: #004085; }
+
+  /* Hero */
+  .hero {
+    background: linear-gradient(135deg, var(--primary) 0%, #2D6A4F 100%);
+    color: white;
+    padding: 40px;
+    border-radius: 12px;
+    margin-bottom: 32px;
+  }
+  .hero h1 { color: white; font-size: 1.8rem; }
+  .hero p { opacity: 0.85; margin: 8px 0 0; }
+
+  /* Feature grid */
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 16px;
+    margin: 16px 0;
+  }
+  .feature-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 16px;
+  }
+  .feature-icon { font-size: 1.5rem; margin-bottom: 8px; }
+  .feature-card h4 { margin: 0 0 4px; }
+  .feature-card p { font-size: 0.85rem; color: var(--muted); margin: 0; }
+
+  /* Mobile */
+  @media (max-width: 768px) {
+    .sidebar { display: none; }
+    .main { margin-left: 0; padding: 20px; }
+    h1 { font-size: 1.5rem; }
+    h2 { font-size: 1.2rem; }
+    .feature-grid { grid-template-columns: 1fr 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<div class="layout">
+
+<!-- Sidebar -->
+<nav class="sidebar">
+  <div class="sidebar-logo">
+    <h2>📖 Muallim ul-Qur'an</h2>
+    <span>Developer Docs (v2.0.0)</span>
+  </div>
+  <div class="nav-section">Overview</div>
+  <a href="#intro" class="nav-link">Introduction</a>
+  <a href="#features" class="nav-link">Features</a>
+  <a href="#architecture" class="nav-link">Architecture (v2.0.0)</a>
+  <div class="nav-section">Development</div>
+  <a href="#dev-guide" class="nav-link">Developer Guide</a>
+  <a href="#file-structure" class="nav-link">File Structure</a>
+  <a href="#data-schema" class="nav-link">Data Schema</a>
+  <div class="nav-section">Firebase</div>
+  <a href="#firebase-guide" class="nav-link">Firebase Guide</a>
+  <a href="#auth" class="nav-link">Auth &amp; Roles</a>
+  <a href="#firestore" class="nav-link">Firestore Schema</a>
+  <div class="nav-section">Admin</div>
+  <a href="#admin-panel" class="nav-link">Admin Dashboard</a>
+  <a href="#session-tracking" class="nav-link">Session Tracking</a>
+  <a href="#commits" class="nav-link">Release History</a>
+</nav>
+
+<!-- Main Content -->
+<main class="main">
+
+<!-- Hero -->
+<section id="intro">
+<div class="hero">
+  <h1>📖 Muallim ul-Qur'an PWA (v2.0.0)</h1>
+  <p>An interactive, offline-first Progressive Web App for learning Qur'anic Arabic vocabulary via Hinglish (Hindi written in Roman script). 7 Units, 114 lessons, lazy loading, and teacher administration.</p>
+</div>
+
+<p><strong>Live PWA Application:</strong> <a href="https://nomaanc.github.io/muallim/" target="_blank">https://nomaanc.github.io/muallim/</a></p>
+<p><strong>Dedicated Admin Dashboard:</strong> <a href="https://nomaanc.github.io/muallim/admin.html" target="_blank">https://nomaanc.github.io/muallim/admin.html</a></p>
+<p><strong>GitHub Repository:</strong> <a href="https://github.com/nomaanc/muallim" target="_blank">github.com/nomaanc/muallim</a></p>
+</section>
+
+<!-- Features -->
+<h2 id="features">Core Features</h2>
+<div class="feature-grid">
+  <div class="feature-card"><div class="feature-icon">📚</div><h4>7-Unit Book</h4><p>Complete Arabic vocabulary textbook across 7 units and 114 lessons with authentic harakat.</p></div>
+  <div class="feature-card"><div class="feature-icon">⚡</div><h4>Lazy-Loaded Data</h4><p>Lightweight shell with on-demand fetching of individual unit payloads.</p></div>
+  <div class="feature-card"><div class="feature-icon">📝</div><h4>My Answers</h4><p>Save personal translation notes with live search filter, book-ordered grouping, and delete actions.</p></div>
+  <div class="feature-card"><div class="feature-icon">⭐</div><h4>Starred Items</h4><p>Visual gold star toggle with tactile glow feedback and lesson attribution.</p></div>
+  <div class="feature-card"><div class="feature-icon">🔀</div><h4>Vocabulary Drill</h4><p>Interactive flashcard drill sourced from starred vocabulary or custom lesson selections.</p></div>
+  <div class="feature-card"><div class="feature-icon">🔍</div><h4>Full-Text Search</h4><p>Real-time search across all Arabic and Hinglish vocabulary cards.</p></div>
+  <div class="feature-card"><div class="feature-icon">🎓</div><h4>Dual Exam Engine</h4><p>Self-practice exam generator and teacher-assigned "Ustaad ki Exam" mode.</p></div>
+  <div class="feature-card"><div class="feature-icon">⏱️</div><h4>Study Time Tracking</h4><p>Active session time tracking synced to Firestore and localStorage.</p></div>
+  <div class="feature-card"><div class="feature-icon">🌙</div><h4>Zero-FOUC Themes</h4><p>Instant light parchment and night dark modes without layout flash.</p></div>
+  <div class="feature-card"><div class="feature-icon">📱</div><h4>PWA Offline Cache</h4><p>Service Worker caching assets and unit data for complete offline functionality.</p></div>
+  <div class="feature-card"><div class="feature-icon">🔐</div><h4>Firebase Auth</h4><p>Secure login with role detection (student vs. admin) and guest mode fallback.</p></div>
+  <div class="feature-card"><div class="feature-icon">👨‍🏫</div><h4>Admin Dashboard</h4><p>Standalone portal with student analytics, exam pushing, broadcasts, and user management.</p></div>
+</div>
+
+<!-- Architecture -->
+<h2 id="architecture">Architecture (v2.0.0 Modular Split)</h2>
+
+<div class="card">
+  <h3>Modern Modular Production Architecture</h3>
+  <p>In Version 2.0.0, the monolithic 4.2 MB <code>index.html</code> was refactored into a high-performance modular system:</p>
+  <ul>
+    <li><strong><code>index.html</code></strong> (404 lines): A lean shell containing HTML layout, 10 native <code>&lt;dialog&gt;</code> modals, and the native HTML popover hamburger menu. Zero inline book data.</li>
+    <li><strong><code>css/styles.css</code></strong> (978 KB): Clean standalone stylesheet for themes, typography, and responsive layouts.</li>
+    <li><strong><code>js/app.js</code></strong> (135 KB): Modular JavaScript application encapsulated in an IIFE and exported to <code>window.App</code>.</li>
+    <li><strong><code>data/metadata.json</code></strong> (10 KB): Lightweight index loaded on boot.</li>
+    <li><strong><code>data/unit1.json</code> – <code>unit7.json</code></strong>: Split unit datasets loaded on demand.</li>
+    <li><strong><code>admin.html</code></strong> (1,534 lines): Standalone dashboard served at <code>/admin.html</code>.</li>
+  </ul>
+  <div class="alert alert-success">✅ <strong>No build step required:</strong> Runs as pure vanilla web standards directly on GitHub Pages with zero npm or bundler dependencies.</div>
+</div>
+
+<h3>Technology Stack</h3>
+<table>
+  <tr><th>Layer</th><th>Implementation</th></tr>
+  <tr><td>Frontend Shell</td><td>Vanilla HTML5, semantic <code>&lt;dialog&gt;</code> modals, native Popover API</td></tr>
+  <tr><td>Styling</td><td>CSS3 Custom Properties (variables), Flexbox, CSS Grid</td></tr>
+  <tr><td>Application Logic</td><td>Modular vanilla ES6+ JavaScript, <code>window.App</code> exports</td></tr>
+  <tr><td>Data Tier</td><td>JSON payloads (<code>data/unit*.json</code>) fetched asynchronously via Fetch API</td></tr>
+  <tr><td>Authentication &amp; DB</td><td>Firebase Auth &amp; Firestore v11 Compat SDK</td></tr>
+  <tr><td>Offline PWA</td><td>Service Worker (<code>sw.js</code>) with Cache-First asset strategy</td></tr>
+  <tr><td>Hosting</td><td>GitHub Pages static deployment</td></tr>
+</table>
+
+<!-- Dev Guide -->
+<h2 id="dev-guide">Developer Guide</h2>
+
+<h3>Setup &amp; Running</h3>
+<ol>
+  <li>Clone the repository: <code>git clone https://github.com/nomaanc/muallim.git</code></li>
+  <li>Working directory: <code>pwa/</code></li>
+  <li>Open <code>index.html</code> in any modern browser.</li>
+  <li>Verify JavaScript syntax anytime:
+    <pre><code>node --check js/app.js</code></pre>
+  </li>
+</ol>
+
+<h3>Git Workflow</h3>
+<pre><code># 1. Edit code
+# 2. Check syntax:
+node --check js/app.js
+
+# 3. Stage, commit, and push:
+git add -A
+git commit -m "feat: description of changes"
+git push origin main
+
+# GitHub Pages automatically publishes updates within seconds!</code></pre>
+
+<h3>Critical Invariants</h3>
+<div class="alert alert-danger">🚫 <strong>NEVER</strong> translate "Exercise" to "Mashq" — it remains "Exercise" everywhere in Hinglish.</div>
+<div class="alert alert-danger">🚫 <strong>NEVER</strong> strip, alter, or normalize Arabic harakat (diacritics). Preserve all 100,115 vowels intact.</div>
+<div class="alert alert-warning">⚠️ Always display "Unit" in UI labels (internal schema retains <code>stage_id</code>).</div>
+<div class="alert alert-info">ℹ️ Hinglish text strictly adheres to Subject-Object-Verb (SOV) order matching spoken Urdu.</div>
+
+<!-- File Structure -->
+<h2 id="file-structure">File Structure</h2>
+<pre><code>pwa/
+  index.html              ← Slim PWA shell (404 lines)
+  admin.html              ← Dedicated Admin Dashboard (1,534 lines)
+  css/
+    styles.css            ← Standalone stylesheet (978 KB)
+  js/
+    app.js                ← Core application logic &amp; exports (135 KB)
+  data/
+    metadata.json         ← Lesson outline and unit index (10 KB)
+    unit1.json .. unit7.json ← Cleaned unit book datasets
+  sw.js                   ← Service Worker v2.0.0
+  manifest.json           ← Web App Manifest
+  firebase-messaging-sw.js← Push notification handler
+  firestore.rules         ← Firestore security rules
+  context.md              ← AI session context
+  SKILL.md                ← Project-local developer skill
+  CHANGELOG.md            ← Release history
+  docs/
+    documentation.html    ← This developer documentation</code></pre>
+
+<!-- Data Schema -->
+<h2 id="data-schema">Data Schema</h2>
+
+<h3>Unit JSON Structure (`data/unitN.json`)</h3>
+<pre><code>{
+  "stage_id": 1,
+  "stage_title": "Kalimaat wa Jumal",
+  "lessons": [
+    {
+      "lesson_id": 1,
+      "title": "Al-Mufradaat",
+      "sections": [
+        {
+          "type": "two_col_text",
+          "data": {
+            "items": [
+              { "arabic": "الْإِسْلَامُ", "hinglish": "Islam" }
+            ]
+          }
+        },
+        {
+          "type": "two_col_numbered_list",
+          "data": {
+            "items": [
+              { "id": 1, "arabic": "كِتَابٌ", "hinglish": "Kitab (Ek kitaab)" }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}</code></pre>
+
+<h3>localStorage Keys</h3>
+<table>
+  <tr><th>Key</th><th>Type</th><th>Purpose</th></tr>
+  <tr><td><code>muallim_custom_translations</code></td><td>Object <code>{ [itemKey]: string }</code></td><td>User's personal translations/notes</td></tr>
+  <tr><td><code>muallim_starred</code></td><td>Object <code>{ [itemKey]: boolean }</code></td><td>Fast star lookup</td></tr>
+  <tr><td><code>muallim_favourites</code></td><td>Array <code>[ { arabic, hinglish, key, stage, lesson } ]</code></td><td>Starred items pool for drill</td></tr>
+  <tr><td><code>muallim_bookmark</code></td><td>Object <code>{ lessonKey, itemId, stage, lesson }</code></td><td>Last bookmark position</td></tr>
+  <tr><td><code>muallim_lesson_time</code></td><td>Object <code>{ [lessonKey]: number }</code></td><td>Active seconds spent per lesson</td></tr>
+  <tr><td><code>muallim_theme</code></td><td>String <code>"light" | "dark"</code></td><td>Active UI theme</td></tr>
+  <tr><td><code>muallim_mode</code></td><td>String <code>"teacher" | "student"</code></td><td>Display mode</td></tr>
+</table>
+
+<!-- Firebase Guide -->
+<h2 id="firebase-guide">Firebase &amp; Firestore Integration</h2>
+
+<h3>Configuration</h3>
+<pre><code>const FIREBASE_CONFIG = {
+  apiKey:      "AIzaSyAjBnuLSADlXBZ7OY7daQ7mOta3VaHXVNg",
+  authDomain:  "muallim-123.firebaseapp.com",
+  projectId:   "muallim-123",
+  storageBucket: "muallim-123.firebasestorage.app",
+  messagingSenderId: "226964645326",
+  appId:       "1:226964645326:web:0a219c95dad277b4cd379f"
+};</code></pre>
+
+<h3 id="firestore">Firestore Collections</h3>
+<table>
+  <tr><th>Collection</th><th>Document ID</th><th>Key Fields</th></tr>
+  <tr><td><code>/users/{uid}</code></td><td>Firebase Auth UID</td><td><code>name</code>, <code>email</code>, <code>role ("admin" | "student")</code>, <code>createdAt</code></td></tr>
+  <tr><td><code>/user_data/{uid}</code></td><td>Firebase Auth UID</td><td><code>starredItems</code>, <code>customTranslations</code>, <code>examResults</code>, <code>lastBookmark</code>, <code>lessonTime</code></td></tr>
+  <tr><td><code>/pushed_exams/{examId}</code></td><td>Auto/timestamped ID</td><td><code>title</code>, <code>createdAt</code>, <code>createdBy</code>, <code>scope</code>, <code>status</code></td></tr>
+  <tr><td><code>/muallim_broadcasts/{id}</code></td><td>Auto ID</td><td><code>message</code>, <code>createdAt</code>, <code>authorUid</code></td></tr>
+  <tr><td><code>/muallim_students/{deviceId}</code></td><td>Hardware/random ID</td><td><code>name</code>, <code>deviceId</code>, <code>joinedAt</code></td></tr>
+</table>
+
+<!-- Admin Panel -->
+<h2 id="admin-panel">Admin Dashboard (`admin.html`)</h2>
+<p>Served at <code>https://nomaanc.github.io/muallim/admin.html</code> as a dedicated, secure administration environment:</p>
+<ul>
+  <li><strong>Auth Guard</strong>: Checks <code>onAuthStateChanged</code> and verifies <code>/users/{uid}.role === 'admin'</code>. Unauthorized users are immediately redirected.</li>
+  <li><strong>Overview</strong>: Displays metrics cards (Total Users, Active Students, Exam Results, Broadcasts) and live recent activity feed.</li>
+  <li><strong>Students Table</strong>: Sortable by Name, Last Active, Stars Count, Exam Count. Clicking a row expands detailed exam history and last bookmark.</li>
+  <li><strong>Exam Manager</strong>: Create new "Ustaad ki Exam" by selecting units and lesson numbers; delete expired exams.</li>
+  <li><strong>Broadcasts</strong>: Live message broadcaster with character limit counter and past broadcasts audit log.</li>
+  <li><strong>User Management</strong>: Toggle user roles between Student and Admin; delete user records.</li>
+  <li><strong>Responsive Design</strong>: Sidebar navigation on desktop, sticky tab bar on mobile.</li>
+</ul>
+
+<!-- Session Tracking -->
+<h2 id="session-tracking">Study Session Time Tracking</h2>
+<p>Integrated directly in <code>js/app.js</code> via <code>flushSessionTime()</code>:</p>
+<ol>
+  <li>When a student navigates to a lesson, <code>_sessionStart</code> records the timestamp and <code>_sessionLessonKey</code>.</li>
+  <li>Upon navigating to another lesson or closing the tab (<code>beforeunload</code>), elapsed time is calculated.</li>
+  <li>If elapsed time &gt; 10 seconds and user is logged in, Firestore increments the lesson's total study seconds via <code>firebase.firestore.FieldValue.increment(elapsed)</code> in <code>/user_data/{uid}.lessonTime.{lessonKey}</code>.</li>
+  <li>Accumulated time is also stored locally in <code>localStorage['muallim_lesson_time']</code>.</li>
+</ol>
+
+<!-- Commits -->
+<h2 id="commits">Release History</h2>
+<table>
+  <tr><th>Commit</th><th>Phase</th><th>Description</th></tr>
+  <tr><td><code>0a711e2</code></td><td>Phase 4</td><td>feat: Phase 4 — admin dashboard, session tracking, Firestore sync</td></tr>
+  <tr><td><code>3bdfeff</code></td><td>Phase 2 &amp; 3</td><td>feat: complete Phase 2 (data cleanup &amp; bug fixes) and Phase 3 (hamburger redesign)</td></tr>
+  <tr><td><code>cc12d5a</code></td><td>Phase 1</td><td>feat: modular architecture split — index.html into css/js/data modules</td></tr>
+  <tr><td><code>244e4d3</code></td><td>Phase 1</td><td>chore: add .gitignore, untrack local-only files</td></tr>
+  <tr><td><code>f779a40</code></td><td>Docs</td><td>docs(pwa): add context.md, SKILL.md, and docs/documentation.html for new session onboarding</td></tr>
+  <tr><td><code>8b0a871</code></td><td>Fix</td><td>fix(pwa): fix Firebase auto-init scope bug — admin panel now accessible after login</td></tr>
+</table>
+
+<p style="margin-top: 48px; color: var(--muted); font-size: 0.85rem;">Generated: September 2026 — Muallim ul-Qur'an PWA v2.0.0 Documentation</p>
+
+</main>
+</div>
+
+</body>
+</html>
