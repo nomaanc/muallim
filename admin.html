@@ -1,0 +1,1533 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Muallim Admin Dashboard</title>
+  <meta name="description" content="Admin dashboard for Muallim ul-Qur'an PWA">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Zero-FOUC theme loader -->
+  <script>
+    (function() {
+      try {
+        var t = localStorage.getItem('muallim_theme') || 'light';
+        document.documentElement.setAttribute('data-theme', t);
+      } catch(e) {}
+    })();
+  </script>
+
+  <!-- Firebase CDN v11 compat -->
+  <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore-compat.js"></script>
+
+  <style>
+    /* ─── CSS Custom Properties ─── */
+    :root {
+      --bg-base:        #f5f0e8;
+      --bg-surface:     #fff;
+      --bg-sidebar:     #1B4332;
+      --text-main:      #1a1a1a;
+      --text-muted:     #6b7280;
+      --text-sidebar:   #d1fae5;
+      --text-sidebar-active: #fff;
+      --accent:         #1B4332;
+      --accent-light:   #d1fae5;
+      --accent-btn:     #2d6a4f;
+      --border:         #e5e7eb;
+      --danger:         #dc2626;
+      --warning:        #d97706;
+      --success:        #16a34a;
+      --badge-admin:    #7c3aed;
+      --badge-student:  #0284c7;
+      --sidebar-w:      220px;
+      --header-h:       56px;
+      --font:           'Inter', system-ui, sans-serif;
+      --font-arabic:    'Amiri', serif;
+      --shadow-sm:      0 1px 3px rgba(0,0,0,0.1);
+      --shadow-md:      0 4px 12px rgba(0,0,0,0.12);
+      --radius:         10px;
+    }
+    [data-theme="dark"] {
+      --bg-base:        #1a1a2e;
+      --bg-surface:     #16213e;
+      --bg-sidebar:     #0f172a;
+      --text-main:      #e2e8f0;
+      --text-muted:     #94a3b8;
+      --text-sidebar:   #94a3b8;
+      --text-sidebar-active: #fff;
+      --accent:         #2d6a4f;
+      --accent-light:   #064e3b;
+      --accent-btn:     #065f46;
+      --border:         #334155;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font);
+      background: var(--bg-base);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ─── Header ─── */
+    .admin-header {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      height: var(--header-h);
+      background: var(--accent);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      padding: 0 16px;
+      gap: 12px;
+      z-index: 100;
+      box-shadow: var(--shadow-md);
+    }
+    .admin-header .brand { font-size: 1.1rem; font-weight: 700; flex: 1; }
+    .admin-header .header-actions { display: flex; gap: 8px; align-items: center; }
+    .theme-toggle-btn {
+      background: rgba(255,255,255,0.15);
+      border: none; border-radius: 8px;
+      color: #fff; cursor: pointer;
+      padding: 6px 10px; font-size: 0.85rem;
+    }
+    .theme-toggle-btn:hover { background: rgba(255,255,255,0.25); }
+
+    /* ─── Layout Wrapper ─── */
+    .admin-layout {
+      display: flex;
+      margin-top: var(--header-h);
+      min-height: calc(100vh - var(--header-h));
+    }
+
+    /* ─── Sidebar (desktop) ─── */
+    .admin-sidebar {
+      position: fixed;
+      top: var(--header-h);
+      left: 0;
+      width: var(--sidebar-w);
+      height: calc(100vh - var(--header-h));
+      background: var(--bg-sidebar);
+      overflow-y: auto;
+      padding: 16px 0;
+      z-index: 90;
+    }
+    .sidebar-nav { display: flex; flex-direction: column; gap: 2px; }
+    .sidebar-link {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 11px 20px;
+      color: var(--text-sidebar);
+      font-size: 0.88rem;
+      font-weight: 500;
+      cursor: pointer;
+      border: none;
+      background: none;
+      text-align: left;
+      width: 100%;
+      transition: background 0.15s, color 0.15s;
+      border-radius: 0;
+    }
+    .sidebar-link:hover { background: rgba(255,255,255,0.07); color: #fff; }
+    .sidebar-link.active {
+      background: rgba(255,255,255,0.15);
+      color: var(--text-sidebar-active);
+      font-weight: 700;
+    }
+    .sidebar-link .nav-icon { font-size: 1.1rem; width: 22px; }
+
+    /* ─── Main Content ─── */
+    .admin-main {
+      margin-left: var(--sidebar-w);
+      flex: 1;
+      padding: 24px;
+      overflow-x: hidden;
+    }
+
+    /* ─── Section Visibility ─── */
+    .admin-section { display: none; }
+    .admin-section.active { display: block; }
+
+    /* ─── Cards ─── */
+    .card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+      box-shadow: var(--shadow-sm);
+    }
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .stat-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 18px 20px;
+      box-shadow: var(--shadow-sm);
+    }
+    .stat-card .stat-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 6px;
+    }
+    .stat-card .stat-value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    /* ─── Page Title ─── */
+    .section-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* ─── Tables ─── */
+    .table-wrapper { overflow-x: auto; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+    }
+    thead th {
+      background: var(--bg-base);
+      padding: 10px 12px;
+      text-align: left;
+      font-weight: 600;
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+    thead th.sortable { cursor: pointer; user-select: none; }
+    thead th.sortable:hover { color: var(--accent); }
+    thead th.sorted-asc::after { content: ' ▲'; }
+    thead th.sorted-desc::after { content: ' ▼'; }
+    tbody tr { border-bottom: 1px solid var(--border); transition: background 0.1s; }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: var(--bg-base); }
+    tbody td { padding: 10px 12px; vertical-align: middle; }
+
+    /* ─── Badges ─── */
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 99px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .badge-admin    { background: #ede9fe; color: var(--badge-admin); }
+    .badge-student  { background: #e0f2fe; color: var(--badge-student); }
+    .badge-active   { background: #dcfce7; color: #16a34a; }
+    .badge-expired  { background: #fee2e2; color: var(--danger); }
+
+    /* ─── Buttons ─── */
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center;
+      gap: 6px; padding: 8px 16px;
+      border: none; border-radius: 8px;
+      font-size: 0.85rem; font-weight: 600;
+      cursor: pointer; transition: opacity 0.15s, background 0.15s;
+      text-decoration: none;
+    }
+    .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+    .btn-primary  { background: var(--accent-btn); color: #fff; }
+    .btn-primary:hover:not(:disabled) { background: var(--accent); }
+    .btn-secondary { background: var(--bg-base); color: var(--text-main); border: 1px solid var(--border); }
+    .btn-secondary:hover:not(:disabled) { background: var(--border); }
+    .btn-danger   { background: #fee2e2; color: var(--danger); border: 1px solid #fca5a5; }
+    .btn-danger:hover:not(:disabled) { background: #fecaca; }
+    .btn-sm { padding: 5px 10px; font-size: 0.78rem; }
+
+    /* ─── Form elements ─── */
+    .form-group { margin-bottom: 16px; }
+    .form-label { display: block; font-size: 0.83rem; font-weight: 600; margin-bottom: 6px; color: var(--text-muted); }
+    .form-input, .form-textarea, .form-select {
+      width: 100%;
+      padding: 9px 12px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.88rem;
+      font-family: var(--font);
+      background: var(--bg-surface);
+      color: var(--text-main);
+      transition: border-color 0.15s;
+    }
+    .form-input:focus, .form-textarea:focus, .form-select:focus {
+      outline: none;
+      border-color: var(--accent-btn);
+    }
+    .form-textarea { min-height: 100px; resize: vertical; }
+    .char-count { font-size: 0.75rem; color: var(--text-muted); text-align: right; margin-top: 4px; }
+    .char-count.warn { color: var(--danger); }
+
+    /* ─── Modal ─── */
+    .modal-backdrop {
+      display: none;
+      position: fixed; inset: 0;
+      background: rgba(0,0,0,0.45);
+      z-index: 200;
+      align-items: center; justify-content: center;
+    }
+    .modal-backdrop.open { display: flex; }
+    .modal-box {
+      background: var(--bg-surface);
+      border-radius: 14px;
+      padding: 24px;
+      width: 90vw; max-width: 560px;
+      max-height: 88vh; overflow-y: auto;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+    }
+    .modal-header {
+      display: flex; align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .modal-title { font-size: 1.1rem; font-weight: 700; }
+    .modal-close {
+      background: none; border: none; cursor: pointer;
+      font-size: 1.3rem; color: var(--text-muted);
+      padding: 4px 8px; border-radius: 6px;
+    }
+    .modal-close:hover { background: var(--border); color: var(--text-main); }
+    .modal-footer { display: flex; gap: 10px; justify-content: flex-end; margin-top: 20px; }
+
+    /* ─── Loading / Error states ─── */
+    .state-center {
+      text-align: center;
+      padding: 48px 24px;
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+    .spinner { display: inline-block; animation: spin 1s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ─── Activity feed ─── */
+    .activity-feed { display: flex; flex-direction: column; gap: 8px; }
+    .activity-item {
+      display: flex; gap: 10px; align-items: flex-start;
+      padding: 10px; background: var(--bg-base);
+      border-radius: 8px; font-size: 0.83rem;
+    }
+    .activity-icon { font-size: 1.1rem; flex-shrink: 0; }
+    .activity-time { color: var(--text-muted); font-size: 0.75rem; margin-top: 2px; }
+
+    /* ─── Broadcast list ─── */
+    .broadcast-list { display: flex; flex-direction: column; gap: 10px; margin-top: 20px; }
+    .broadcast-item {
+      background: var(--bg-base);
+      border-radius: 8px; padding: 12px;
+      display: flex; gap: 10px; align-items: flex-start;
+      border: 1px solid var(--border);
+    }
+    .broadcast-item .bc-body { flex: 1; }
+    .broadcast-item .bc-time { font-size: 0.74rem; color: var(--text-muted); margin-bottom: 4px; }
+    .broadcast-item .bc-text { font-size: 0.87rem; }
+
+    /* ─── Expand row ─── */
+    .expand-row { display: none; }
+    .expand-row.open { display: table-row; }
+    .expand-content {
+      background: var(--bg-base);
+      padding: 14px 16px;
+      border-radius: 8px;
+      font-size: 0.82rem;
+    }
+
+    /* ─── Unit checkboxes ─── */
+    .unit-block {
+      border: 1px solid var(--border);
+      border-radius: 8px; padding: 12px;
+      margin-bottom: 10px;
+    }
+    .unit-label {
+      display: flex; align-items: center; gap: 8px;
+      font-weight: 600; cursor: pointer; font-size: 0.9rem;
+    }
+    .unit-lessons-input {
+      margin-top: 8px; padding-left: 26px;
+    }
+    .unit-lessons-input .form-input { margin-top: 4px; }
+
+    /* ─── Toast ─── */
+    .admin-toast {
+      position: fixed;
+      bottom: 80px; left: 50%;
+      transform: translateX(-50%);
+      background: #1a1a1a;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 99px;
+      font-size: 0.87rem;
+      font-weight: 600;
+      z-index: 9999;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.3s;
+      white-space: nowrap;
+      box-shadow: var(--shadow-md);
+    }
+    .admin-toast.show { opacity: 1; }
+
+    /* ─── Bottom Nav (mobile) ─── */
+    .admin-bottom-nav {
+      display: none;
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      height: 60px;
+      background: var(--bg-sidebar);
+      border-top: 1px solid rgba(255,255,255,0.1);
+      z-index: 100;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .bottom-nav-btn {
+      display: flex; flex-direction: column; align-items: center;
+      gap: 2px; color: var(--text-sidebar);
+      background: none; border: none; cursor: pointer;
+      font-size: 0.62rem; font-weight: 600;
+      padding: 4px 8px; border-radius: 8px;
+      transition: color 0.15s;
+      min-width: 48px;
+    }
+    .bottom-nav-btn .bn-icon { font-size: 1.25rem; }
+    .bottom-nav-btn.active { color: var(--text-sidebar-active); }
+
+    /* ─── Responsive ─── */
+    @media (max-width: 768px) {
+      .admin-sidebar { display: none; }
+      .admin-main { margin-left: 0; padding: 16px 14px 80px; }
+      .admin-bottom-nav { display: flex; }
+      .stat-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+      .stat-card .stat-value { font-size: 1.5rem; }
+      thead th, tbody td { font-size: 0.78rem; padding: 8px 8px; }
+    }
+    @media (max-width: 420px) {
+      .stat-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
+    }
+
+    /* ─── Settings Section ─── */
+    .settings-info-card {
+      display: flex; align-items: center; gap: 14px;
+      padding: 18px; background: var(--bg-surface);
+      border: 1px solid var(--border); border-radius: var(--radius);
+      margin-bottom: 20px;
+    }
+    .settings-avatar {
+      width: 52px; height: 52px;
+      border-radius: 50%;
+      background: var(--accent);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.5rem; color: #fff; font-weight: 700;
+      flex-shrink: 0;
+    }
+    .settings-actions { display: flex; flex-direction: column; gap: 10px; }
+
+    /* ─── Toolbar ─── */
+    .section-toolbar {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 10px; margin-bottom: 16px; flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ─── Toast ─── -->
+  <div id="admin-toast" class="admin-toast"></div>
+
+  <!-- ─── Header ─── -->
+  <header class="admin-header">
+    <span class="brand">⚙️ Muallim Admin</span>
+    <div class="header-actions">
+      <button class="theme-toggle-btn" id="theme-toggle-btn" onclick="adminToggleTheme()">🌙 Dark</button>
+    </div>
+  </header>
+
+  <!-- ─── Layout ─── -->
+  <div class="admin-layout">
+
+    <!-- Sidebar (desktop) -->
+    <nav class="admin-sidebar" id="admin-sidebar">
+      <div class="sidebar-nav">
+        <button class="sidebar-link active" data-section="overview"   onclick="adminNav('overview')">
+          <span class="nav-icon">📊</span> Overview
+        </button>
+        <button class="sidebar-link" data-section="students"  onclick="adminNav('students')">
+          <span class="nav-icon">👥</span> Students
+        </button>
+        <button class="sidebar-link" data-section="exams"     onclick="adminNav('exams')">
+          <span class="nav-icon">📋</span> Exams
+        </button>
+        <button class="sidebar-link" data-section="broadcasts" onclick="adminNav('broadcasts')">
+          <span class="nav-icon">📢</span> Broadcasts
+        </button>
+        <button class="sidebar-link" data-section="users"     onclick="adminNav('users')">
+          <span class="nav-icon">👤</span> Users
+        </button>
+        <button class="sidebar-link" data-section="settings"  onclick="adminNav('settings')">
+          <span class="nav-icon">⚙️</span> Settings
+        </button>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="admin-main">
+
+      <!-- ── Section: Overview ── -->
+      <section id="section-overview" class="admin-section active">
+        <div class="section-title">📊 Overview</div>
+        <div class="stat-grid">
+          <div class="stat-card">
+            <div class="stat-label">Total Users</div>
+            <div class="stat-value" id="stat-total-users">—</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Active (7d)</div>
+            <div class="stat-value" id="stat-active-users">—</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Exam Results</div>
+            <div class="stat-value" id="stat-total-exams">—</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Broadcasts</div>
+            <div class="stat-value" id="stat-total-broadcasts">—</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div style="font-weight:700; margin-bottom:14px; font-size:0.95rem;">🕐 Recent Activity</div>
+          <div id="overview-activity" class="activity-feed">
+            <div class="state-center"><span class="spinner">⏳</span> Loading...</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Section: Students ── -->
+      <section id="section-students" class="admin-section">
+        <div class="section-title">👥 Student Analytics</div>
+        <div id="students-loading" class="state-center"><span class="spinner">⏳</span> Loading students...</div>
+        <div id="students-error"  class="state-center" style="display:none;">❌ Data load karein mein masla hua. Please refresh.</div>
+        <div id="students-table-wrap" style="display:none;" class="card table-wrapper">
+          <table id="students-table">
+            <thead>
+              <tr>
+                <th class="sortable" data-col="name"         onclick="studentsSort('name')">Name</th>
+                <th>Email / UID</th>
+                <th>Role</th>
+                <th class="sortable" data-col="lastActive"   onclick="studentsSort('lastActive')">Last Active</th>
+                <th class="sortable" data-col="starsCount"   onclick="studentsSort('starsCount')">Stars</th>
+                <th>Custom Ans.</th>
+                <th class="sortable" data-col="examCount"    onclick="studentsSort('examCount')">Exam Results</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="students-tbody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ── Section: Exams ── -->
+      <section id="section-exams" class="admin-section">
+        <div class="section-toolbar">
+          <div class="section-title" style="margin-bottom:0;">📋 Ustaad ki Exam</div>
+          <button class="btn btn-primary" onclick="openExamModal()">＋ Create New Exam</button>
+        </div>
+        <div id="exams-loading" class="state-center"><span class="spinner">⏳</span> Loading exams...</div>
+        <div id="exams-error"   class="state-center" style="display:none;">❌ Data load karein mein masla hua. Please refresh.</div>
+        <div id="exams-table-wrap" style="display:none;" class="card table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Created</th>
+                <th>Scope</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="exams-tbody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ── Section: Broadcasts ── -->
+      <section id="section-broadcasts" class="admin-section">
+        <div class="section-title">📢 Broadcast Messages</div>
+        <div class="card" style="margin-bottom:20px;">
+          <div class="form-group">
+            <label class="form-label">Message (max 500 chars)</label>
+            <textarea id="broadcast-input" class="form-textarea" maxlength="500"
+              placeholder="Type your broadcast message here..."
+              oninput="updateBroadcastCount(this)"></textarea>
+            <div class="char-count" id="broadcast-char-count">0 / 500</div>
+          </div>
+          <button class="btn btn-primary" id="broadcast-send-btn" onclick="sendBroadcast()">
+            📤 Send to All Students
+          </button>
+        </div>
+
+        <div class="section-title" style="font-size:1rem; margin-bottom:10px;">Recent Broadcasts</div>
+        <div id="broadcasts-loading" class="state-center"><span class="spinner">⏳</span> Loading...</div>
+        <div id="broadcasts-error"   class="state-center" style="display:none;">❌ Data load karein mein masla hua. Please refresh.</div>
+        <div id="broadcasts-list"    class="broadcast-list" style="display:none;"></div>
+      </section>
+
+      <!-- ── Section: Users ── -->
+      <section id="section-users" class="admin-section">
+        <div class="section-title">👤 User Management</div>
+        <div id="users-loading" class="state-center"><span class="spinner">⏳</span> Loading users...</div>
+        <div id="users-error"   class="state-center" style="display:none;">❌ Data load karein mein masla hua. Please refresh.</div>
+        <div id="users-table-wrap" style="display:none;" class="card table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Joined</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="users-tbody"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- ── Section: Settings ── -->
+      <section id="section-settings" class="admin-section">
+        <div class="section-title">⚙️ Settings</div>
+
+        <div class="settings-info-card">
+          <div class="settings-avatar" id="settings-avatar">A</div>
+          <div>
+            <div style="font-weight:700; font-size:1rem;" id="settings-name">Admin</div>
+            <div style="color:var(--text-muted); font-size:0.85rem;" id="settings-email">—</div>
+            <div><span class="badge badge-admin">admin</span></div>
+          </div>
+        </div>
+
+        <div class="settings-actions">
+          <button class="btn btn-secondary" onclick="window.location.href='./index.html'">
+            ↗ Go to Main App
+          </button>
+          <button class="btn btn-danger" onclick="adminLogout()">
+            🚪 Logout
+          </button>
+        </div>
+
+        <div style="margin-top:24px; font-size:0.78rem; color:var(--text-muted);">
+          Muallim Admin Panel v2.0.0
+        </div>
+      </section>
+
+    </main>
+  </div><!-- /.admin-layout -->
+
+  <!-- ─── Bottom Nav (mobile) ─── -->
+  <nav class="admin-bottom-nav" id="admin-bottom-nav">
+    <button class="bottom-nav-btn active" data-section="overview"    onclick="adminNav('overview')">
+      <span class="bn-icon">📊</span>Overview
+    </button>
+    <button class="bottom-nav-btn" data-section="students"   onclick="adminNav('students')">
+      <span class="bn-icon">👥</span>Students
+    </button>
+    <button class="bottom-nav-btn" data-section="exams"      onclick="adminNav('exams')">
+      <span class="bn-icon">📋</span>Exams
+    </button>
+    <button class="bottom-nav-btn" data-section="broadcasts" onclick="adminNav('broadcasts')">
+      <span class="bn-icon">📢</span>Msgs
+    </button>
+    <button class="bottom-nav-btn" data-section="users"      onclick="adminNav('users')">
+      <span class="bn-icon">👤</span>Users
+    </button>
+    <button class="bottom-nav-btn" data-section="settings"   onclick="adminNav('settings')">
+      <span class="bn-icon">⚙️</span>Settings
+    </button>
+  </nav>
+
+  <!-- ─── Create Exam Modal ─── -->
+  <div class="modal-backdrop" id="exam-modal-backdrop" onclick="closeExamModalIfBackdrop(event)">
+    <div class="modal-box">
+      <div class="modal-header">
+        <div class="modal-title">📋 Create New Ustaad ki Exam</div>
+        <button class="modal-close" onclick="closeExamModal()">✕</button>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Exam Title</label>
+        <input type="text" id="exam-title-input" class="form-input" placeholder="e.g. Unit 1 Final Exam">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Scope — Select Units &amp; Lessons</label>
+        <div id="exam-units-container">
+          <!-- Injected by JS -->
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Expiry Date (optional)</label>
+        <input type="date" id="exam-expiry-input" class="form-input">
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeExamModal()">Cancel</button>
+        <button class="btn btn-primary"   id="push-exam-btn" onclick="pushExam()">📤 Push Exam</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── Firebase Init ─── -->
+  <script>
+    firebase.initializeApp({
+      apiKey:            "AIzaSyAjBnuLSADlXBZ7OY7daQ7mOta3VaHXVNg",
+      authDomain:        "muallim-123.firebaseapp.com",
+      projectId:         "muallim-123",
+      storageBucket:     "muallim-123.firebasestorage.app",
+      messagingSenderId: "226964645326",
+      appId:             "1:226964645326:web:0a219c95dad277b4cd379f"
+    });
+    var auth = firebase.auth();
+    var db   = firebase.firestore();
+  </script>
+
+  <!-- ─── Main Admin JS ─── -->
+  <script>
+    'use strict';
+
+    /* ═══════════════════════════════════════════════
+       AUTH GUARD
+    ═══════════════════════════════════════════════ */
+    var _adminUser = null;
+
+    auth.onAuthStateChanged(function(user) {
+      if (!user) {
+        // Not logged in → redirect
+        window.location.replace('./index.html');
+        return;
+      }
+      // Check role in Firestore
+      db.collection('users').doc(user.uid).get().then(function(snap) {
+        var role = '';
+        if (snap.exists) {
+          role = (snap.data() || {}).role || '';
+        }
+        if (role !== 'admin') {
+          adminToast('⛔ Access Denied — Admin only');
+          setTimeout(function() { window.location.replace('./index.html'); }, 2000);
+          return;
+        }
+        // Authorised
+        _adminUser = {
+          uid:         user.uid,
+          email:       user.email,
+          displayName: user.displayName || snap.data().name || user.email,
+          role:        role
+        };
+        onAdminReady();
+      }).catch(function(err) {
+        console.error('[Admin] Role check failed:', err);
+        adminToast('❌ Auth error — redirecting…');
+        setTimeout(function() { window.location.replace('./index.html'); }, 2500);
+      });
+    });
+
+    function onAdminReady() {
+      // Populate settings
+      var nm = _adminUser.displayName || _adminUser.email;
+      var el = document.getElementById('settings-name');
+      if (el) el.textContent = nm;
+      var ee = document.getElementById('settings-email');
+      if (ee) ee.textContent = _adminUser.email;
+      var av = document.getElementById('settings-avatar');
+      if (av) av.textContent = (nm || 'A')[0].toUpperCase();
+
+      // Theme button state
+      _syncThemeBtn();
+
+      // Build exam unit checkboxes
+      buildExamUnits();
+
+      // Load the default section
+      loadSectionData('overview');
+    }
+
+    /* ═══════════════════════════════════════════════
+       NAVIGATION
+    ═══════════════════════════════════════════════ */
+    var _sectionLoaded = {};
+    var _activeSection = 'overview';
+
+    function adminNav(section) {
+      _activeSection = section;
+
+      // Sections
+      document.querySelectorAll('.admin-section').forEach(function(s) {
+        s.classList.toggle('active', s.id === 'section-' + section);
+      });
+
+      // Sidebar links
+      document.querySelectorAll('.sidebar-link').forEach(function(b) {
+        b.classList.toggle('active', b.getAttribute('data-section') === section);
+      });
+
+      // Bottom nav buttons
+      document.querySelectorAll('.bottom-nav-btn').forEach(function(b) {
+        b.classList.toggle('active', b.getAttribute('data-section') === section);
+      });
+
+      // Load data if not already loaded (or always reload)
+      loadSectionData(section);
+    }
+
+    function loadSectionData(section) {
+      if (section === 'overview')    loadOverview();
+      else if (section === 'students')   loadStudents();
+      else if (section === 'exams')      loadExams();
+      else if (section === 'broadcasts') loadBroadcasts();
+      else if (section === 'users')      loadUsers();
+    }
+
+    /* ═══════════════════════════════════════════════
+       THEME
+    ═══════════════════════════════════════════════ */
+    function adminToggleTheme() {
+      var html  = document.documentElement;
+      var cur   = html.getAttribute('data-theme');
+      var next  = cur === 'dark' ? 'light' : 'dark';
+      html.setAttribute('data-theme', next);
+      try { localStorage.setItem('muallim_theme', next); } catch(e) {}
+      _syncThemeBtn();
+    }
+
+    function _syncThemeBtn() {
+      var btn  = document.getElementById('theme-toggle-btn');
+      var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+      if (btn) btn.textContent = dark ? '☀️ Light' : '🌙 Dark';
+    }
+
+    /* ═══════════════════════════════════════════════
+       TOAST
+    ═══════════════════════════════════════════════ */
+    var _toastTimer = null;
+    function adminToast(msg, ms) {
+      var el = document.getElementById('admin-toast');
+      if (!el) return;
+      clearTimeout(_toastTimer);
+      el.textContent = msg;
+      el.classList.add('show');
+      _toastTimer = setTimeout(function() { el.classList.remove('show'); }, ms || 3000);
+    }
+
+    /* ═══════════════════════════════════════════════
+       HELPERS
+    ═══════════════════════════════════════════════ */
+    function fmtDate(ts) {
+      if (!ts) return '—';
+      var d = ts.toDate ? ts.toDate() : new Date(ts);
+      if (isNaN(d)) return '—';
+      return d.toLocaleDateString('en-GB', { day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit' });
+    }
+    function shortDate(ts) {
+      if (!ts) return '—';
+      var d = ts.toDate ? ts.toDate() : new Date(ts);
+      if (isNaN(d)) return '—';
+      return d.toLocaleDateString('en-GB', { day:'2-digit', month:'short', year:'numeric' });
+    }
+    function relTime(ts) {
+      if (!ts) return '—';
+      var d = ts.toDate ? ts.toDate() : new Date(ts);
+      if (isNaN(d)) return '—';
+      var sec = Math.floor((Date.now() - d) / 1000);
+      if (sec < 60)   return sec + 's ago';
+      if (sec < 3600) return Math.floor(sec/60) + 'm ago';
+      if (sec < 86400)return Math.floor(sec/3600) + 'h ago';
+      return Math.floor(sec/86400) + 'd ago';
+    }
+    function escHtml(s) {
+      if (!s) return '';
+      return String(s)
+        .replace(/&/g,'&amp;')
+        .replace(/</g,'&lt;')
+        .replace(/>/g,'&gt;')
+        .replace(/"/g,'&quot;');
+    }
+    function truncate(s, n) {
+      s = String(s || '');
+      return s.length > n ? s.slice(0, n) + '…' : s;
+    }
+
+    /* ═══════════════════════════════════════════════
+       SECTION: OVERVIEW
+    ═══════════════════════════════════════════════ */
+    function loadOverview() {
+      // Load in parallel
+      _loadStatUsers();
+      _loadStatBroadcasts();
+      _loadOverviewActivity();
+    }
+
+    function _loadStatUsers() {
+      db.collection('users').get().then(function(snap) {
+        var total = snap.size;
+        var sevenDaysAgo = new Date(Date.now() - 7 * 86400000);
+        var active = 0;
+        var examTotal = 0;
+        snap.forEach(function(d) {
+          var data = d.data() || {};
+          // active in last 7 days
+          if (data.lastSeen) {
+            var ls = data.lastSeen.toDate ? data.lastSeen.toDate() : new Date(data.lastSeen);
+            if (!isNaN(ls) && ls > sevenDaysAgo) active++;
+          }
+        });
+        _setStatEl('stat-total-users', total);
+        _setStatEl('stat-active-users', active);
+
+        // Exam results — from user_data
+        db.collection('user_data').get().then(function(udSnap) {
+          udSnap.forEach(function(d) {
+            var data = d.data() || {};
+            var eh = data.examResults || data.examHistory || [];
+            if (Array.isArray(eh)) examTotal += eh.length;
+          });
+          _setStatEl('stat-total-exams', examTotal);
+        }).catch(function(e) {
+          console.error('[Admin] user_data fetch failed:', e);
+          _setStatEl('stat-total-exams', '—');
+        });
+      }).catch(function(e) {
+        console.error('[Admin] users fetch failed:', e);
+        _setStatEl('stat-total-users', '?');
+        _setStatEl('stat-active-users', '?');
+      });
+    }
+
+    function _loadStatBroadcasts() {
+      db.collection('muallim_broadcasts').get().then(function(snap) {
+        _setStatEl('stat-total-broadcasts', snap.size);
+      }).catch(function(e) {
+        console.error('[Admin] broadcasts stat failed:', e);
+        _setStatEl('stat-total-broadcasts', '?');
+      });
+    }
+
+    function _setStatEl(id, val) {
+      var el = document.getElementById(id);
+      if (el) el.textContent = val;
+    }
+
+    function _loadOverviewActivity() {
+      var mount = document.getElementById('overview-activity');
+      if (!mount) return;
+
+      // Query last 10 user_data docs by updatedAt desc
+      db.collection('user_data')
+        .orderBy('updatedAt', 'desc')
+        .limit(10)
+        .get()
+        .then(function(snap) {
+          if (snap.empty) {
+            mount.innerHTML = '<div class="state-center">No recent activity yet.</div>';
+            return;
+          }
+          var html = '';
+          snap.forEach(function(d) {
+            var data = d.data() || {};
+            var uid  = d.id;
+            var name = data.name || data.studentName || uid.slice(0, 8);
+            var ts   = data.updatedAt;
+            var icon = '📝';
+            var detail = 'Synced data';
+            if (data.lastBookmark) {
+              var bm = data.lastBookmark;
+              detail = 'Bookmark: ' + (bm.lessonKey || (bm.stage ? 'S'+bm.stage+'L'+bm.lesson : ''));
+              icon   = '🔖';
+            }
+            html += '<div class="activity-item">' +
+              '<span class="activity-icon">' + icon + '</span>' +
+              '<div><div style="font-weight:600;">' + escHtml(name) + '</div>' +
+              '<div class="activity-time">' + detail + ' • ' + relTime(ts) + '</div></div>' +
+              '</div>';
+          });
+          mount.innerHTML = html;
+        })
+        .catch(function(e) {
+          console.error('[Admin] activity feed failed:', e);
+          mount.innerHTML = '<div class="state-center">❌ Data load karein mein masla hua. Please refresh.</div>';
+        });
+    }
+
+    /* ═══════════════════════════════════════════════
+       SECTION: STUDENTS
+    ═══════════════════════════════════════════════ */
+    var _studentsData  = [];
+    var _studentsSortCol = 'lastActive';
+    var _studentsSortAsc = false;
+
+    function loadStudents() {
+      _showStudentsLoading(true);
+      Promise.all([
+        db.collection('users').get(),
+        db.collection('user_data').get()
+      ]).then(function(results) {
+        var usersSnap    = results[0];
+        var userDataSnap = results[1];
+
+        // Build a map of user_data by uid
+        var udMap = {};
+        userDataSnap.forEach(function(d) { udMap[d.id] = d.data() || {}; });
+
+        _studentsData = [];
+        usersSnap.forEach(function(d) {
+          var u  = d.data() || {};
+          var ud = udMap[d.id] || {};
+          var starredItems = ud.starredItems || ud.starred || [];
+          var customTrans  = ud.customTranslations || ud.customAnswers || {};
+          var examResults  = ud.examResults || ud.examHistory || [];
+
+          _studentsData.push({
+            uid:         d.id,
+            name:        u.name || u.displayName || '—',
+            email:       u.email || '—',
+            role:        u.role || 'student',
+            lastActive:  ud.lastSeen || ud.updatedAt || u.lastSeen || null,
+            starsCount:  Array.isArray(starredItems) ? starredItems.length : Object.keys(starredItems).length,
+            customCount: Object.keys(customTrans).length,
+            examCount:   Array.isArray(examResults) ? examResults.length : 0,
+            examResults: Array.isArray(examResults) ? examResults : [],
+            lastBookmark:ud.lastBookmark || null,
+            starredItems:starredItems
+          });
+        });
+
+        _renderStudentsTable();
+        _showStudentsLoading(false);
+      }).catch(function(e) {
+        console.error('[Admin] loadStudents error:', e);
+        _showStudentsError(true);
+        _showStudentsLoading(false);
+      });
+    }
+
+    function _showStudentsLoading(show) {
+      document.getElementById('students-loading').style.display     = show ? 'block' : 'none';
+      document.getElementById('students-table-wrap').style.display  = show ? 'none'  : 'block';
+      document.getElementById('students-error').style.display       = 'none';
+    }
+    function _showStudentsError(show) {
+      document.getElementById('students-error').style.display      = show ? 'block' : 'none';
+      document.getElementById('students-table-wrap').style.display  = 'none';
+      document.getElementById('students-loading').style.display     = 'none';
+    }
+
+    function studentsSort(col) {
+      if (_studentsSortCol === col) {
+        _studentsSortAsc = !_studentsSortAsc;
+      } else {
+        _studentsSortCol = col;
+        _studentsSortAsc = (col === 'name');
+      }
+      _renderStudentsTable();
+    }
+
+    function _renderStudentsTable() {
+      // Sort
+      var sorted = _studentsData.slice().sort(function(a, b) {
+        var av = a[_studentsSortCol], bv = b[_studentsSortCol];
+        if (_studentsSortCol === 'name') {
+          av = (av || '').toLowerCase(); bv = (bv || '').toLowerCase();
+          return _studentsSortAsc ? av.localeCompare(bv) : bv.localeCompare(av);
+        }
+        if (_studentsSortCol === 'lastActive') {
+          var at = av ? (av.toDate ? av.toDate() : new Date(av)) : new Date(0);
+          var bt = bv ? (bv.toDate ? bv.toDate() : new Date(bv)) : new Date(0);
+          return _studentsSortAsc ? at - bt : bt - at;
+        }
+        // numeric
+        av = av || 0; bv = bv || 0;
+        return _studentsSortAsc ? av - bv : bv - av;
+      });
+
+      // Update sort indicators
+      document.querySelectorAll('#students-table thead th.sortable').forEach(function(th) {
+        th.classList.remove('sorted-asc','sorted-desc');
+        if (th.getAttribute('data-col') === _studentsSortCol) {
+          th.classList.add(_studentsSortAsc ? 'sorted-asc' : 'sorted-desc');
+        }
+      });
+
+      var tbody = document.getElementById('students-tbody');
+      if (!tbody) return;
+
+      if (sorted.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="8" style="text-align:center;color:var(--text-muted);padding:24px;">No students found.</td></tr>';
+        return;
+      }
+
+      var html = '';
+      sorted.forEach(function(s, i) {
+        var roleB = s.role === 'admin'
+          ? '<span class="badge badge-admin">admin</span>'
+          : '<span class="badge badge-student">student</span>';
+
+        var uidShort = s.uid.length > 12 ? s.uid.slice(0,12)+'…' : s.uid;
+
+        html += '<tr id="student-row-' + i + '">' +
+          '<td style="font-weight:600;">'  + escHtml(s.name) + '</td>' +
+          '<td><div style="font-size:0.8rem;color:var(--text-muted);">' + escHtml(s.email) + '</div>' +
+               '<div style="font-size:0.72rem;font-family:monospace;color:var(--text-muted);">' + uidShort + '</div></td>' +
+          '<td>' + roleB + '</td>' +
+          '<td>' + relTime(s.lastActive) + '</td>' +
+          '<td>' + s.starsCount + '</td>' +
+          '<td>' + s.customCount + '</td>' +
+          '<td>' + s.examCount + '</td>' +
+          '<td><button class="btn btn-secondary btn-sm" onclick="toggleStudentDetail(' + i + ')">View Details</button></td>' +
+          '</tr>' +
+          '<tr class="expand-row" id="student-expand-' + i + '">' +
+          '<td colspan="8">' +
+            '<div class="expand-content">' + _buildStudentDetail(s) + '</div>' +
+          '</td></tr>';
+      });
+      tbody.innerHTML = html;
+    }
+
+    function toggleStudentDetail(i) {
+      var row = document.getElementById('student-expand-' + i);
+      if (!row) return;
+      row.classList.toggle('open');
+    }
+
+    function _buildStudentDetail(s) {
+      var html = '';
+
+      // Last bookmark
+      var bm = s.lastBookmark;
+      if (bm) {
+        var bmKey = bm.lessonKey || (bm.stage ? 'Stage' + bm.stage + ' Lesson ' + bm.lesson : '—');
+        html += '<div style="margin-bottom:10px;"><strong>📖 Last Bookmark:</strong> ' + escHtml(bmKey) + '</div>';
+      }
+
+      // Exam history
+      if (s.examResults && s.examResults.length > 0) {
+        html += '<div style="margin-bottom:8px;font-weight:600;">🎓 Exam History (' + s.examResults.length + ')</div>';
+        html += '<div style="display:flex;flex-direction:column;gap:4px;">';
+        var shown = s.examResults.slice(-10).reverse();
+        shown.forEach(function(r) {
+          var score = r.score !== undefined ? r.score : '?';
+          var total = r.total !== undefined ? r.total : '?';
+          var scope = r.scope || r.examScope || '—';
+          var date  = shortDate(r.date || r.createdAt || r.timestamp);
+          html += '<div style="font-size:0.8rem;padding:5px 8px;background:var(--bg-surface);border-radius:6px;border:1px solid var(--border);">' +
+            '📅 ' + date + ' &nbsp; Score: <strong>' + score + '/' + total + '</strong> &nbsp; Scope: ' + escHtml(String(scope)) +
+          '</div>';
+        });
+        html += '</div>';
+      } else {
+        html += '<div style="color:var(--text-muted);font-size:0.85rem;">No exam history.</div>';
+      }
+
+      // Stars distribution
+      var stars = s.starredItems;
+      if (Array.isArray(stars) && stars.length > 0) {
+        var stageDist = {};
+        stars.forEach(function(item) {
+          var key = item.stage ? 'Unit ' + item.stage : (item.key ? item.key.split('L')[0] : '?');
+          stageDist[key] = (stageDist[key] || 0) + 1;
+        });
+        html += '<div style="margin-top:10px;font-weight:600;">⭐ Stars by Unit</div>';
+        html += '<div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:4px;">';
+        Object.keys(stageDist).forEach(function(k) {
+          html += '<span class="badge badge-student">' + escHtml(k) + ': ' + stageDist[k] + '</span>';
+        });
+        html += '</div>';
+      }
+
+      return html || '<div style="color:var(--text-muted);">No data available.</div>';
+    }
+
+    /* ═══════════════════════════════════════════════
+       SECTION: EXAMS
+    ═══════════════════════════════════════════════ */
+    function loadExams() {
+      var loading = document.getElementById('exams-loading');
+      var errEl   = document.getElementById('exams-error');
+      var wrap    = document.getElementById('exams-table-wrap');
+      loading.style.display = 'block';
+      errEl.style.display   = 'none';
+      wrap.style.display    = 'none';
+
+      db.collection('pushed_exams').orderBy('createdAt', 'desc').get().then(function(snap) {
+        loading.style.display = 'none';
+        wrap.style.display    = 'block';
+        var tbody = document.getElementById('exams-tbody');
+        if (!tbody) return;
+
+        if (snap.empty) {
+          tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;color:var(--text-muted);padding:24px;">No exams created yet.</td></tr>';
+          return;
+        }
+
+        var html = '';
+        snap.forEach(function(d) {
+          var data   = d.data() || {};
+          var title  = data.title || '(Untitled)';
+          var created= fmtDate(data.createdAt);
+          var status = data.status || 'active';
+          var scope  = _fmtExamScope(data.scope);
+          var statusB = status === 'active'
+            ? '<span class="badge badge-active">active</span>'
+            : '<span class="badge badge-expired">expired</span>';
+
+          html += '<tr>' +
+            '<td style="font-weight:600;">' + escHtml(title) + '</td>' +
+            '<td>' + created + '</td>' +
+            '<td style="font-size:0.78rem;max-width:200px;word-break:break-word;">' + escHtml(scope) + '</td>' +
+            '<td>' + statusB + '</td>' +
+            '<td><button class="btn btn-danger btn-sm" onclick="deleteExam(\'' + d.id + '\')">🗑 Delete</button></td>' +
+          '</tr>';
+        });
+        tbody.innerHTML = html;
+      }).catch(function(e) {
+        console.error('[Admin] loadExams error:', e);
+        loading.style.display = 'none';
+        errEl.style.display   = 'block';
+      });
+    }
+
+    function _fmtExamScope(scope) {
+      if (!scope) return '—';
+      var parts = [];
+      if (Array.isArray(scope.unitKeys))  parts = parts.concat(scope.unitKeys);
+      if (Array.isArray(scope.lessonKeys))parts = parts.concat(scope.lessonKeys);
+      if (typeof scope === 'string')       return scope;
+      return parts.join(', ') || JSON.stringify(scope);
+    }
+
+    function deleteExam(examId) {
+      if (!confirm('Delete this exam? Students will no longer see it.')) return;
+      db.collection('pushed_exams').doc(examId).delete().then(function() {
+        adminToast('✅ Exam deleted');
+        loadExams();
+      }).catch(function(e) {
+        console.error('[Admin] deleteExam error:', e);
+        adminToast('❌ Delete failed: ' + e.message);
+      });
+    }
+
+    /* — Create Exam Modal — */
+    function buildExamUnits() {
+      var container = document.getElementById('exam-units-container');
+      if (!container) return;
+      var html = '';
+      for (var u = 1; u <= 7; u++) {
+        html += '<div class="unit-block">' +
+          '<label class="unit-label">' +
+            '<input type="checkbox" id="unit-cb-' + u + '" value="' + u + '" onchange="toggleUnitLessons(' + u + ')"> ' +
+            'Unit ' + u +
+          '</label>' +
+          '<div class="unit-lessons-input" id="unit-lessons-wrap-' + u + '" style="display:none;">' +
+            '<label style="font-size:0.78rem;color:var(--text-muted);">Specific lessons (e.g. 1,2,3 — leave blank for all)</label>' +
+            '<input type="text" id="unit-lessons-' + u + '" class="form-input" placeholder="e.g. 1,2,3">' +
+          '</div>' +
+        '</div>';
+      }
+      container.innerHTML = html;
+    }
+
+    function toggleUnitLessons(u) {
+      var cb   = document.getElementById('unit-cb-' + u);
+      var wrap = document.getElementById('unit-lessons-wrap-' + u);
+      if (!cb || !wrap) return;
+      wrap.style.display = cb.checked ? 'block' : 'none';
+    }
+
+    function openExamModal() {
+      document.getElementById('exam-modal-backdrop').classList.add('open');
+      // Reset form
+      var ti = document.getElementById('exam-title-input');
+      if (ti) ti.value = '';
+      var ei = document.getElementById('exam-expiry-input');
+      if (ei) ei.value = '';
+      for (var u = 1; u <= 7; u++) {
+        var cb = document.getElementById('unit-cb-' + u);
+        if (cb) cb.checked = false;
+        var wrap = document.getElementById('unit-lessons-wrap-' + u);
+        if (wrap) wrap.style.display = 'none';
+        var li = document.getElementById('unit-lessons-' + u);
+        if (li) li.value = '';
+      }
+    }
+
+    function closeExamModal() {
+      document.getElementById('exam-modal-backdrop').classList.remove('open');
+    }
+
+    function closeExamModalIfBackdrop(e) {
+      if (e.target === document.getElementById('exam-modal-backdrop')) closeExamModal();
+    }
+
+    function pushExam() {
+      var title = (document.getElementById('exam-title-input').value || '').trim();
+      if (!title) { adminToast('⚠️ Please enter an exam title'); return; }
+
+      var unitKeys   = [];
+      var lessonKeys = [];
+
+      for (var u = 1; u <= 7; u++) {
+        var cb = document.getElementById('unit-cb-' + u);
+        if (!cb || !cb.checked) continue;
+        var stageKey = 'Stage' + u;
+        unitKeys.push(stageKey);
+
+        // Parse lesson numbers
+        var li = document.getElementById('unit-lessons-' + u);
+        var lessonsRaw = li ? li.value.trim() : '';
+        if (lessonsRaw) {
+          lessonsRaw.split(',').forEach(function(num) {
+            var n = parseInt(num.trim());
+            if (!isNaN(n)) lessonKeys.push('S' + u + 'L' + n);
+          });
+        }
+      }
+
+      if (unitKeys.length === 0) { adminToast('⚠️ Select at least one unit'); return; }
+
+      var examData = {
+        title:     title,
+        createdAt: firebase.firestore.FieldValue.serverTimestamp(),
+        createdBy: _adminUser ? _adminUser.uid : '',
+        scope:     { unitKeys: unitKeys, lessonKeys: lessonKeys },
+        status:    'active'
+      };
+
+      var expiry = document.getElementById('exam-expiry-input').value;
+      if (expiry) examData.expiresAt = new Date(expiry);
+
+      var btn = document.getElementById('push-exam-btn');
+      if (btn) { btn.disabled = true; btn.textContent = 'Pushing…'; }
+
+      var examId = 'exam_' + Date.now();
+      db.collection('pushed_exams').doc(examId).set(examData).then(function() {
+        adminToast('✅ Exam pushed successfully!');
+        closeExamModal();
+        loadExams();
+      }).catch(function(e) {
+        console.error('[Admin] pushExam error:', e);
+        adminToast('❌ Push failed: ' + e.message);
+      }).finally(function() {
+        if (btn) { btn.disabled = false; btn.textContent = '📤 Push Exam'; }
+      });
+    }
+
+    /* ═══════════════════════════════════════════════
+       SECTION: BROADCASTS
+    ═══════════════════════════════════════════════ */
+    function updateBroadcastCount(ta) {
+      var len   = ta.value.length;
+      var count = document.getElementById('broadcast-char-count');
+      if (!count) return;
+      count.textContent = len + ' / 500';
+      count.classList.toggle('warn', len > 450);
+    }
+
+    function sendBroadcast() {
+      var ta  = document.getElementById('broadcast-input');
+      var msg = ta ? ta.value.trim() : '';
+      if (!msg) { adminToast('⚠️ Please type a message'); return; }
+
+      var btn = document.getElementById('broadcast-send-btn');
+      if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
+
+      db.collection('muallim_broadcasts').add({
+        message:   msg,
+        createdAt: firebase.firestore.FieldValue.serverTimestamp(),
+        authorUid: _adminUser ? _adminUser.uid : ''
+      }).then(function() {
+        adminToast('✅ Broadcast sent!');
+        if (ta) ta.value = '';
+        updateBroadcastCount(ta || {value:''});
+        loadBroadcasts();
+        _setStatEl('stat-total-broadcasts', '…');
+        _loadStatBroadcasts();
+      }).catch(function(e) {
+        console.error('[Admin] sendBroadcast error:', e);
+        adminToast('❌ Send failed: ' + e.message);
+      }).finally(function() {
+        if (btn) { btn.disabled = false; btn.textContent = '📤 Send to All Students'; }
+      });
+    }
+
+    function loadBroadcasts() {
+      var loading = document.getElementById('broadcasts-loading');
+      var errEl   = document.getElementById('broadcasts-error');
+      var list    = document.getElementById('broadcasts-list');
+      loading.style.display = 'block';
+      errEl.style.display   = 'none';
+      list.style.display    = 'none';
+
+      db.collection('muallim_broadcasts')
+        .orderBy('createdAt', 'desc')
+        .limit(10)
+        .get()
+        .then(function(snap) {
+          loading.style.display = 'none';
+          list.style.display    = 'block';
+
+          if (snap.empty) {
+            list.innerHTML = '<div class="state-center" style="padding:20px;">No broadcasts yet.</div>';
+            return;
+          }
+
+          var html = '';
+          snap.forEach(function(d) {
+            var data = d.data() || {};
+            html += '<div class="broadcast-item">' +
+              '<div class="bc-body">' +
+                '<div class="bc-time">' + fmtDate(data.createdAt) + '</div>' +
+                '<div class="bc-text">' + escHtml(truncate(data.message, 100)) + '</div>' +
+              '</div>' +
+              '<button class="btn btn-danger btn-sm" onclick="deleteBroadcast(\'' + d.id + '\')">🗑</button>' +
+            '</div>';
+          });
+          list.innerHTML = html;
+        }).catch(function(e) {
+          console.error('[Admin] loadBroadcasts error:', e);
+          loading.style.display = 'none';
+          errEl.style.display   = 'block';
+        });
+    }
+
+    function deleteBroadcast(bcId) {
+      if (!confirm('Delete this broadcast?')) return;
+      db.collection('muallim_broadcasts').doc(bcId).delete().then(function() {
+        adminToast('✅ Broadcast deleted');
+        loadBroadcasts();
+      }).catch(function(e) {
+        console.error('[Admin] deleteBroadcast error:', e);
+        adminToast('❌ Delete failed: ' + e.message);
+      });
+    }
+
+    /* ═══════════════════════════════════════════════
+       SECTION: USERS
+    ═══════════════════════════════════════════════ */
+    function loadUsers() {
+      var loading = document.getElementById('users-loading');
+      var errEl   = document.getElementById('users-error');
+      var wrap    = document.getElementById('users-table-wrap');
+      loading.style.display = 'block';
+      errEl.style.display   = 'none';
+      wrap.style.display    = 'none';
+
+      db.collection('users').get().then(function(snap) {
+        loading.style.display = 'none';
+        wrap.style.display    = 'block';
+        var tbody = document.getElementById('users-tbody');
+        if (!tbody) return;
+
+        if (snap.empty) {
+          tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;color:var(--text-muted);padding:24px;">No users found.</td></tr>';
+          return;
+        }
+
+        var html = '';
+        snap.forEach(function(d) {
+          var data     = d.data() || {};
+          var uid      = d.id;
+          var name     = data.name || data.displayName || '—';
+          var email    = data.email || '—';
+          var role     = data.role || 'student';
+          var joined   = shortDate(data.createdAt || data.joinedAt);
+          var roleB = role === 'admin'
+            ? '<span class="badge badge-admin">admin</span>'
+            : '<span class="badge badge-student">student</span>';
+          var toggleLabel = role === 'admin' ? '→ Student' : '→ Admin';
+
+          html += '<tr>' +
+            '<td style="font-weight:600;">'  + escHtml(name) + '</td>' +
+            '<td style="font-size:0.82rem;">' + escHtml(email) + '</td>' +
+            '<td>' + roleB + '</td>' +
+            '<td>' + joined + '</td>' +
+            '<td style="display:flex;gap:6px;flex-wrap:wrap;">' +
+              '<button class="btn btn-secondary btn-sm" onclick="toggleUserRole(\'' + uid + '\',\'' + role + '\')">⇄ ' + toggleLabel + '</button>' +
+              '<button class="btn btn-danger btn-sm"   onclick="deleteUser(\'' + uid + '\',\'' + escHtml(name) + '\')">🗑 Delete</button>' +
+            '</td>' +
+          '</tr>';
+        });
+        tbody.innerHTML = html;
+      }).catch(function(e) {
+        console.error('[Admin] loadUsers error:', e);
+        loading.style.display = 'none';
+        errEl.style.display   = 'block';
+      });
+    }
+
+    function toggleUserRole(uid, currentRole) {
+      if (uid === (_adminUser && _adminUser.uid)) {
+        adminToast('⚠️ Cannot change your own role'); return;
+      }
+      var newRole = currentRole === 'admin' ? 'student' : 'admin';
+      if (!confirm('Change ' + uid.slice(0,8) + '… role to "' + newRole + '"?')) return;
+
+      db.collection('users').doc(uid).update({ role: newRole }).then(function() {
+        adminToast('✅ Role updated to ' + newRole);
+        loadUsers();
+      }).catch(function(e) {
+        console.error('[Admin] toggleRole error:', e);
+        adminToast('❌ Role update failed: ' + e.message);
+      });
+    }
+
+    function deleteUser(uid, name) {
+      if (uid === (_adminUser && _adminUser.uid)) {
+        adminToast('⚠️ Cannot delete your own account'); return;
+      }
+      if (!confirm('Delete user "' + name + '"? This removes their /users document only.')) return;
+
+      db.collection('users').doc(uid).delete().then(function() {
+        adminToast('✅ User document deleted');
+        loadUsers();
+      }).catch(function(e) {
+        console.error('[Admin] deleteUser error:', e);
+        adminToast('❌ Delete failed: ' + e.message);
+      });
+    }
+
+    /* ═══════════════════════════════════════════════
+       SETTINGS — LOGOUT
+    ═══════════════════════════════════════════════ */
+    function adminLogout() {
+      auth.signOut().then(function() {
+        window.location.replace('./index.html');
+      }).catch(function(e) {
+        console.error('[Admin] logout error:', e);
+        adminToast('❌ Logout failed');
+      });
+    }
+  </script>
+</body>
+</html>

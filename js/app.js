@@ -58,6 +58,8 @@ var App = (function() {
       let spinnerPool = [];
       let spinnerIndex = 0;
       let isSpinnerRevealed = false;
+      var _sessionStart = 0;
+      var _sessionLessonKey = '';
 
       function init() {
         setupEventListeners();
@@ -236,6 +238,8 @@ var App = (function() {
       async function loadLesson(stageId, lessonId) {
         stageId = parseInt(stageId) || 1;
         lessonId = parseInt(lessonId) || 1;
+        // Flush previous lesson session time before switching
+        flushSessionTime();
         currentStage = stageId;
         currentLesson = lessonId;
         const stageKey = `Stage${stageId}`;
@@ -248,6 +252,9 @@ var App = (function() {
         if (lbl) lbl.textContent = `Unit ${stageId} Lesson ${lessonId}`;
         document.title = `Muallim ul-Qur'an — Unit ${stageId} Lesson ${lessonId}`;
         window.scrollTo({ top: 0, behavior: 'smooth' });
+        // Record session start for this lesson
+        _sessionStart = Date.now();
+        _sessionLessonKey = 'S' + stageId + 'L' + lessonId;
       }
 
       function renderDualAnswerHtml(itemKey, itArabic, origHinglish) {
@@ -2594,7 +2601,7 @@ var App = (function() {
       const { initializeApp, getApps } = await import(FIREBASE_MODULES.app);
       const {
         getFirestore, doc, setDoc, getDoc, getDocs,
-        collection, updateDoc, serverTimestamp, onSnapshot
+        collection, updateDoc, serverTimestamp, onSnapshot, increment
       } = await import(FIREBASE_MODULES.firestore);
       const {
         getAuth, signInWithEmailAndPassword, signOut,
@@ -2609,7 +2616,7 @@ var App = (function() {
       const _auth = getAuth(_fbApp);
 
       // Expose Firestore helpers on module scope
-      window._FS = { doc, setDoc, getDoc, getDocs, collection, updateDoc, serverTimestamp, onSnapshot };
+      window._FS = { doc, setDoc, getDoc, getDocs, collection, updateDoc, serverTimestamp, onSnapshot, increment };
       window._FSDB = _db;
       // Expose Auth helpers
       window._FA = { getAuth, signInWithEmailAndPassword, signOut, onAuthStateChanged,
@@ -2817,6 +2824,29 @@ var App = (function() {
     // ── Firestore document paths ──
     function studentDocPath() {
       return `muallim_students/${getDeviceId()}`;
+    }
+
+    // ── Session time flush ──
+    function flushSessionTime() {
+      if (!_sessionLessonKey || !App.currentUser) return;
+      var elapsed = Math.round((Date.now() - _sessionStart) / 1000);
+      if (elapsed <= 10) return;
+      // Update local storage
+      try {
+        var lt = {};
+        try { lt = JSON.parse(localStorage.getItem('muallim_lesson_time') || '{}'); } catch(e2) {}
+        lt[_sessionLessonKey] = (lt[_sessionLessonKey] || 0) + elapsed;
+        localStorage.setItem('muallim_lesson_time', JSON.stringify(lt));
+      } catch(e) {}
+      // Update Firestore (fire-and-forget)
+      if (_db && window._FS && window._FS.increment) {
+        var incUpdate = {};
+        incUpdate['lessonTime.' + _sessionLessonKey] = window._FS.increment(elapsed);
+        var fsDoc = window._FS.doc(_db, 'user_data', App.currentUser.uid);
+        window._FS.setDoc(fsDoc, incUpdate, { merge: true }).catch(console.error);
+      }
+      _sessionStart = 0;
+      _sessionLessonKey = '';
     }
 
     // ── Full sync: push local → Firestore ──
@@ -3094,6 +3124,7 @@ var App = (function() {
         closeLoginModal: App.closeLoginModal || function(){},
         openAdminDashboard: App.openAdminDashboard || function(){},
         initFirebaseOnLoad,
+        flushSessionTime,
         currentUser: null
       });
       return App;
@@ -3184,6 +3215,8 @@ var App = (function() {
 
     // Best-effort flush on unload
     window.addEventListener('beforeunload', function() {
+      // Flush session time for current lesson
+      if (typeof flushSessionTime === 'function') flushSessionTime();
       if (typeof _syncDebounceTimer !== 'undefined' && _syncDebounceTimer) {
         clearTimeout(_syncDebounceTimer);
         if (typeof syncAllToFirestore === 'function') syncAllToFirestore();
