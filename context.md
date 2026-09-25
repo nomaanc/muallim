@@ -23,10 +23,11 @@ The application was modularized from a 4.2 MB monolithic file into a clean, lazy
 | `index.html` | **Slim HTML shell (~404 lines)**. Contains head meta, early zero-FOUC theme script, app header, lesson content mount, all 10 native `<dialog>` modals, and `#settings-popover`. Zero inline book data. |
 | `css/styles.css` | Extracted standalone styling (~978 KB). Supports Parchment (light) and Night Dark themes, CSS variables, responsive typography, popovers, dialogs, and animations. |
 | `js/app.js` | Core application logic (~135 KB). Encapsulated in an IIFE and exported to `window.App`. Handles data loading, DOM rendering, star toggling, custom translations, search, drill, exams, Firebase integration, and session time tracking. |
-| `data/metadata.json` | Index of all 7 units, lesson IDs, titles, and lesson counts (~10 KB) loaded on application boot. |
+| `data/metadata.json` | Index of all 7 units, lesson IDs, titles, and lesson counts (~10 KB) loaded on application boot. Unit 4 has 17 lessons. |
 | `data/unit1.json` – `unit7.json` | On-demand lazy-loaded unit datasets (332 KB – 644 KB each). Cleaned of all QQ1 exercise headers and question blanks; 100,115 Arabic harakat 100% preserved. |
-| `admin.html` | **Standalone Admin Dashboard (1,534 lines)**. Served at `/admin.html`. Equipped with Firebase Auth guard, Overview analytics, Students progress table, Exam manager, Broadcast composer, and User management. |
-| `sw.js` | Service Worker with Cache-First strategy for static assets and on-demand caching for `data/unit*.json`. |
+| `data/search-index.json` | Dedicated multi-dimensional search index (~800 KB, 5,928 entries) mapping Arabic words with harakat, Roman transliteration, English meanings, and root letters. |
+| `admin.html` | **Standalone Admin Dashboard**. Served at `/admin.html`. Equipped with Firebase Auth guard, Overview analytics, Students progress dossier, Exam results & submissions manager, Broadcast composer, and User management. |
+| `sw.js` | Service Worker (v2.1.0) with Cache-First strategy for static assets and on-demand caching for `data/unit*.json` and `data/search-index.json`. |
 | `docs/documentation.html` | Comprehensive developer and architecture documentation page. |
 
 ---
@@ -92,9 +93,10 @@ const FIREBASE_CONFIG = {
 /user_data/{uid}
   starredItems: { [itemKey]: boolean }
   customTranslations: { [itemKey]: string }
-  examResults: [ { date, score, total, scope, lessonKeys[] } ]
+  examResults: [ { date, score, total, correct, grade, isUstaadExam, examTitle, scope } ]
   lastBookmark: { lessonKey, itemKey, stage, lesson }
   lessonTime: { [lessonKey]: number }   // Seconds spent per lesson (incremented via FieldValue.increment)
+  weakWords: { [cleanKey]: { arabic: string, count: number, lesson: string } }
 
 /pushed_exams/{examId}
   title: string
@@ -104,9 +106,23 @@ const FIREBASE_CONFIG = {
   status: "active" | "expired"
   expiresAt: timestamp (optional)
 
+/exam_results/{examId}/submissions/{uid}
+  uid: string
+  name: string
+  email: string
+  score: number (percentage)
+  grade: string ("A+", "A", "B", "C", "D", "F")
+  correct: number
+  total: number
+  submittedAt: timestamp
+  examId: string
+  examTitle: string
+
 /muallim_broadcasts/{broadcastId}
   message: string
+  sentAt: timestamp
   createdAt: timestamp
+  sentBy: string
   authorUid: string
 
 /muallim_students/{deviceId}
@@ -121,13 +137,14 @@ const FIREBASE_CONFIG = {
 
 | Key | Format | Purpose |
 |---|---|---|
-| `muallim_custom_translations` | `{ [itemKey]: string }` | User's personal translations/notes (migrates automatically from legacy `muallim_custom_answers`) |
+| `muallim_custom_translations` | `{ [itemKey]: string }` | User's personal translations/notes |
 | `muallim_starred` | `{ [itemKey]: boolean }` | Starred items lookup |
 | `muallim_favourites` | `[ { arabic, hinglish, key, stage, lesson } ]` | Starred items array for drill |
 | `muallim_bookmark` | `{ lessonKey, itemId, stage, lesson }` | Active bookmark position |
 | `muallim_theme` | `'light' | 'dark'` | Active theme |
 | `muallim_mode` | `'teacher' | 'student'` | Display mode (student hides Hinglish) |
 | `muallim_lesson_time` | `{ [lessonKey]: number }` | Cumulative study seconds spent per lesson |
+| `muallim_weak_words` | `{ [arabic]: { count, lesson, arabic } }` | Repeatedly missed exam vocabulary words |
 | `muallim_ar_scale` | `'26'` (number string) | Arabic font size scale (px) |
 | `muallim_lat_scale` | `'15'` (number string) | Hinglish font size scale (px) |
 

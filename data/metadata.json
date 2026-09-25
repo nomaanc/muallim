@@ -192,7 +192,7 @@
     {
       "id": "Stage4",
       "label": "Unit 4",
-      "lessonCount": 18,
+      "lessonCount": 17,
       "lessons": [
         {
           "number": 1,
@@ -261,10 +261,6 @@
         {
           "number": 17,
           "title": "Unit 4 Lesson 17"
-        },
-        {
-          "number": 18,
-          "title": "Unit 4 Lesson 18"
         }
       ]
     },

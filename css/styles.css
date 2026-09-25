@@ -1164,7 +1164,7 @@
       align-items: center;
       justify-content: center;
     }
-    .match-item.arabic-side { font-family: var(--font-arabic); font-size: 1.1rem; direction: rtl; }
+    .match-item.arabic-side { font-family: var(--font-arabic); font-size: var(--arabic-scale, 26px); direction: rtl; }
     .match-item.selected { border-color: var(--accent-emerald); background: rgba(27,67,50,0.08); }
     .match-item.correct { border-color: #10B981; background: rgba(16,185,129,0.12); cursor: default; }
     .match-item.wrong { border-color: #EF4444; background: rgba(239,68,68,0.10); cursor: default; }
@@ -1205,7 +1205,7 @@
       background: var(--bg-surface-elevated);
       cursor: grab;
       font-family: var(--font-arabic);
-      font-size: 1.05rem;
+      font-size: var(--arabic-scale, 26px);
       direction: rtl;
       text-align: right;
       user-select: none;

@@ -22,6 +22,7 @@
   <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-functions-compat.js"></script>
 
   <style>
     /* ─── CSS Custom Properties ─── */
@@ -175,6 +176,26 @@
       border-radius: var(--radius);
       padding: 18px 20px;
       box-shadow: var(--shadow-sm);
+    }
+    .stat-card[onclick] {
+      cursor: pointer;
+      transition: transform 0.15s, box-shadow 0.15s, border-color 0.15s;
+    }
+    .stat-card[onclick]:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--accent);
+    }
+    .exam-expand-row {
+      display: none;
+    }
+    .exam-expand-row.open {
+      display: table-row;
+    }
+    .exam-expand-cell {
+      padding: 16px 20px !important;
+      background: var(--bg-surface-elevated, #fbf9f5);
+      border-bottom: 2px solid var(--accent);
     }
     .stat-card .stat-label {
       font-size: 0.75rem;
@@ -450,6 +471,53 @@
       display: flex; align-items: center; justify-content: space-between;
       gap: 10px; margin-bottom: 16px; flex-wrap: wrap;
     }
+
+    /* ─── Analytics & Submissions Enhancements ─── */
+    .activity-item.clickable { cursor: pointer; transition: background 0.15s, transform 0.1s; }
+    .activity-item.clickable:hover { background: var(--border); transform: translateX(3px); }
+    .analytics-metric-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 10px; margin-bottom: 14px;
+    }
+    .metric-tile {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: 8px; padding: 10px 12px;
+      text-align: center;
+    }
+    .metric-tile .tile-val { font-size: 1.25rem; font-weight: 700; color: var(--accent); }
+    .metric-tile .tile-lbl { font-size: 0.72rem; color: var(--text-muted); text-transform: uppercase; margin-top: 2px; }
+    .detail-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: 8px; padding: 12px 14px; margin-bottom: 10px;
+    }
+    .detail-card-title {
+      font-weight: 700; font-size: 0.88rem; margin-bottom: 8px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .weak-word-chip {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: #fee2e2; color: #991b1b;
+      padding: 4px 10px; border-radius: 6px;
+      font-size: 0.85rem; border: 1px solid #fca5a5;
+    }
+    .weak-word-arabic {
+      font-family: var(--font-arabic, 'UthmanicHafs', 'Amiri', 'Traditional Arabic', serif);
+      font-size: 1.3rem; line-height: 1.2; direction: rtl;
+    }
+    .lesson-time-pill {
+      display: inline-block; background: var(--bg-base);
+      border: 1px solid var(--border); border-radius: 6px;
+      padding: 3px 8px; font-size: 0.78rem; font-weight: 600;
+    }
+    .exam-subs-table {
+      width: 100%; border-collapse: collapse; font-size: 0.8rem; margin-top: 8px;
+    }
+    .exam-subs-table th, .exam-subs-table td {
+      padding: 6px 10px; border-bottom: 1px solid var(--border); text-align: left;
+    }
+    .exam-subs-table th { background: var(--bg-surface); font-weight: 600; }
   </style>
 </head>
 <body>
@@ -499,20 +567,20 @@
       <section id="section-overview" class="admin-section active">
         <div class="section-title">📊 Overview</div>
         <div class="stat-grid">
-          <div class="stat-card">
-            <div class="stat-label">Total Users</div>
+          <div class="stat-card" style="cursor:pointer;" onclick="adminNav('users')" title="Click to view all users">
+            <div class="stat-label">Total Users ↗</div>
             <div class="stat-value" id="stat-total-users">—</div>
           </div>
-          <div class="stat-card">
-            <div class="stat-label">Active (7d)</div>
+          <div class="stat-card" style="cursor:pointer;" onclick="adminNav('students')" title="Click to view student analytics">
+            <div class="stat-label">Active (7d) ↗</div>
             <div class="stat-value" id="stat-active-users">—</div>
           </div>
-          <div class="stat-card">
-            <div class="stat-label">Exam Results</div>
+          <div class="stat-card" style="cursor:pointer;" onclick="adminNav('exams')" title="Click to view exams & scores">
+            <div class="stat-label">Exam Results ↗</div>
             <div class="stat-value" id="stat-total-exams">—</div>
           </div>
-          <div class="stat-card">
-            <div class="stat-label">Broadcasts</div>
+          <div class="stat-card" style="cursor:pointer;" onclick="adminNav('broadcasts')" title="Click to view broadcast history">
+            <div class="stat-label">Broadcasts ↗</div>
             <div class="stat-value" id="stat-total-broadcasts">—</div>
           </div>
         </div>
@@ -565,6 +633,7 @@
                 <th>Created</th>
                 <th>Scope</th>
                 <th>Status</th>
+                <th>Scores / Submissions</th>
                 <th>Actions</th>
               </tr>
             </thead>
@@ -597,7 +666,10 @@
 
       <!-- ── Section: Users ── -->
       <section id="section-users" class="admin-section">
-        <div class="section-title">👤 User Management</div>
+        <div class="section-toolbar">
+          <div class="section-title" style="margin-bottom:0;">👤 User Management</div>
+          <button class="btn btn-primary" onclick="openAddStudentModal()">＋ Add Student</button>
+        </div>
         <div id="users-loading" class="state-center"><span class="spinner">⏳</span> Loading users...</div>
         <div id="users-error"   class="state-center" style="display:none;">❌ Data load karein mein masla hua. Please refresh.</div>
         <div id="users-table-wrap" style="display:none;" class="card table-wrapper">
@@ -632,6 +704,9 @@
         <div class="settings-actions">
           <button class="btn btn-secondary" onclick="window.location.href='./index.html'">
             ↗ Go to Main App
+          </button>
+          <button class="btn btn-secondary" onclick="adminChangePassword()">
+            🔑 Change Admin Password
           </button>
           <button class="btn btn-danger" onclick="adminLogout()">
             🚪 Logout
@@ -696,6 +771,34 @@
       <div class="modal-footer">
         <button class="btn btn-secondary" onclick="closeExamModal()">Cancel</button>
         <button class="btn btn-primary"   id="push-exam-btn" onclick="pushExam()">📤 Push Exam</button>
+      </div>
+    </div>
+  <!-- ─── Add Student Modal ─── -->
+  <div class="modal-backdrop" id="add-student-modal-backdrop" onclick="closeAddStudentModalIfBackdrop(event)">
+    <div class="modal-box">
+      <div class="modal-header">
+        <div class="modal-title">👤 Add New Student</div>
+        <button class="modal-close" onclick="closeAddStudentModal()">✕</button>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Student Name</label>
+        <input type="text" id="new-student-name" class="form-input" placeholder="e.g. Ahmed Khan">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Email (Username for Login)</label>
+        <input type="email" id="new-student-email" class="form-input" placeholder="e.g. ahmed@muallim.app">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Password (min 8 characters)</label>
+        <input type="password" id="new-student-password" class="form-input" placeholder="Set initial password">
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeAddStudentModal()">Cancel</button>
+        <button class="btn btn-primary" id="btn-save-new-student" onclick="createStudentManual()">＋ Create Student</button>
       </div>
     </div>
   </div>
@@ -967,9 +1070,9 @@
               detail = 'Bookmark: ' + (bm.lessonKey || (bm.stage ? 'S'+bm.stage+'L'+bm.lesson : ''));
               icon   = '🔖';
             }
-            html += '<div class="activity-item">' +
+            html += '<div class="activity-item clickable" onclick="jumpToStudentDetail(\'' + uid + '\')" title="Click to view ' + escHtml(name) + '\'s analytics">' +
               '<span class="activity-icon">' + icon + '</span>' +
-              '<div><div style="font-weight:600;">' + escHtml(name) + '</div>' +
+              '<div style="flex:1;"><div style="font-weight:600; display:flex; justify-content:space-between; align-items:center;"><span>' + escHtml(name) + '</span><span style="font-size:0.75rem; color:var(--accent);">View Analytics ↗</span></div>' +
               '<div class="activity-time">' + detail + ' • ' + relTime(ts) + '</div></div>' +
               '</div>';
           });
@@ -979,6 +1082,30 @@
           console.error('[Admin] activity feed failed:', e);
           mount.innerHTML = '<div class="state-center">❌ Data load karein mein masla hua. Please refresh.</div>';
         });
+    }
+
+    function jumpToStudentDetail(uid) {
+      adminNav('students');
+      function tryOpen() {
+        var idx = _studentsData.findIndex(function(s) { return s.uid === uid; });
+        if (idx !== -1) {
+          var expandRow = document.getElementById('student-expand-' + idx);
+          if (expandRow && !expandRow.classList.contains('open')) {
+            toggleStudentDetail(idx);
+          }
+          var mainRow = document.getElementById('student-row-' + idx);
+          if (mainRow) mainRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          return true;
+        }
+        return false;
+      }
+      if (!tryOpen()) {
+        var count = 0;
+        var checkTimer = setInterval(function() {
+          count++;
+          if (tryOpen() || count > 15) clearInterval(checkTimer);
+        }, 200);
+      }
     }
 
     /* ═══════════════════════════════════════════════
@@ -1008,6 +1135,13 @@
           var starredItems = ud.starredItems || ud.starred || [];
           var customTrans  = ud.customTranslations || ud.customAnswers || {};
           var examResults  = ud.examResults || ud.examHistory || [];
+          var lessonTime   = ud.lessonTime || {};
+          var weakWords    = ud.weakWords || {};
+
+          var totalSec = 0;
+          Object.keys(lessonTime).forEach(function(k) {
+            totalSec += Number(lessonTime[k]) || 0;
+          });
 
           _studentsData.push({
             uid:         d.id,
@@ -1020,7 +1154,11 @@
             examCount:   Array.isArray(examResults) ? examResults.length : 0,
             examResults: Array.isArray(examResults) ? examResults : [],
             lastBookmark:ud.lastBookmark || null,
-            starredItems:starredItems
+            starredItems:starredItems,
+            customTranslations: customTrans,
+            lessonTime:  lessonTime,
+            totalStudySec: totalSec,
+            weakWords:   weakWords
           });
         });
 
@@ -1124,49 +1262,141 @@
     function _buildStudentDetail(s) {
       var html = '';
 
-      // Last bookmark
-      var bm = s.lastBookmark;
-      if (bm) {
-        var bmKey = bm.lessonKey || (bm.stage ? 'Stage' + bm.stage + ' Lesson ' + bm.lesson : '—');
-        html += '<div style="margin-bottom:10px;"><strong>📖 Last Bookmark:</strong> ' + escHtml(bmKey) + '</div>';
-      }
+      var totalMinutes = Math.round((s.totalStudySec || 0) / 60);
+      var timeDisplay = totalMinutes >= 60
+        ? Math.floor(totalMinutes / 60) + 'h ' + (totalMinutes % 60) + 'm'
+        : totalMinutes + ' mins';
 
-      // Exam history
-      if (s.examResults && s.examResults.length > 0) {
-        html += '<div style="margin-bottom:8px;font-weight:600;">🎓 Exam History (' + s.examResults.length + ')</div>';
-        html += '<div style="display:flex;flex-direction:column;gap:4px;">';
-        var shown = s.examResults.slice(-10).reverse();
-        shown.forEach(function(r) {
-          var score = r.score !== undefined ? r.score : '?';
-          var total = r.total !== undefined ? r.total : '?';
-          var scope = r.scope || r.examScope || '—';
-          var date  = shortDate(r.date || r.createdAt || r.timestamp);
-          html += '<div style="font-size:0.8rem;padding:5px 8px;background:var(--bg-surface);border-radius:6px;border:1px solid var(--border);">' +
-            '📅 ' + date + ' &nbsp; Score: <strong>' + score + '/' + total + '</strong> &nbsp; Scope: ' + escHtml(String(scope)) +
-          '</div>';
+      var ustaadExams = s.examResults.filter(function(r) { return r.isUstaadExam; });
+      var practiceExams = s.examResults.filter(function(r) { return !r.isUstaadExam; });
+      var lastUstaad = ustaadExams.length > 0 ? ustaadExams[ustaadExams.length - 1] : null;
+
+      var weakList = Object.keys(s.weakWords || {}).map(function(k) {
+        var w = s.weakWords[k];
+        return typeof w === 'object' ? w : { count: w, arabic: k };
+      }).sort(function(a, b) { return (b.count || 0) - (a.count || 0); });
+
+      html += '<div class="analytics-metric-grid">' +
+        '<div class="metric-tile"><div class="tile-val">' + timeDisplay + '</div><div class="tile-lbl">Study Time</div></div>' +
+        '<div class="metric-tile"><div class="tile-val">' + ustaadExams.length + '</div><div class="tile-lbl">Ustaad Exams</div></div>' +
+        '<div class="metric-tile"><div class="tile-val">' + practiceExams.length + '</div><div class="tile-lbl">Practice Exams</div></div>' +
+        '<div class="metric-tile"><div class="tile-val" style="color:var(--danger);">' + weakList.length + '</div><div class="tile-lbl">Weak Words</div></div>' +
+        '<div class="metric-tile"><div class="tile-val">' + s.starsCount + '</div><div class="tile-lbl">Starred</div></div>' +
+        '<div class="metric-tile"><div class="tile-val">' + s.customCount + '</div><div class="tile-lbl">Custom Ans.</div></div>' +
+      '</div>';
+
+      // 1. Study Time per lesson
+      html += '<div class="detail-card">' +
+        '<div class="detail-card-title"><span>⏱ Study Time Per Lesson (Minutes)</span>';
+      if (s.lastBookmark) {
+        var bmKey = s.lastBookmark.lessonKey || (s.lastBookmark.stage ? 'Stage' + s.lastBookmark.stage + ' Lesson ' + s.lastBookmark.lesson : '—');
+        html += '<span style="font-size:0.78rem; font-weight:normal; color:var(--text-muted);">🔖 Bookmark: <strong>' + escHtml(bmKey) + '</strong></span>';
+      }
+      html += '</div>';
+
+      var lessonKeys = Object.keys(s.lessonTime || {});
+      if (lessonKeys.length > 0) {
+        lessonKeys.sort(function(a, b) {
+          return a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' });
+        });
+        html += '<div style="display:flex; flex-wrap:wrap; gap:6px;">';
+        lessonKeys.forEach(function(lk) {
+          var m = Math.round((Number(s.lessonTime[lk]) || 0) / 60);
+          html += '<span class="lesson-time-pill">' + escHtml(lk) + ': ' + m + 'm</span>';
         });
         html += '</div>';
       } else {
-        html += '<div style="color:var(--text-muted);font-size:0.85rem;">No exam history.</div>';
+        html += '<div style="color:var(--text-muted); font-size:0.8rem;">No lesson time tracked yet for this user.</div>';
       }
+      html += '</div>';
 
-      // Stars distribution
-      var stars = s.starredItems;
-      if (Array.isArray(stars) && stars.length > 0) {
-        var stageDist = {};
-        stars.forEach(function(item) {
-          var key = item.stage ? 'Unit ' + item.stage : (item.key ? item.key.split('L')[0] : '?');
-          stageDist[key] = (stageDist[key] || 0) + 1;
-        });
-        html += '<div style="margin-top:10px;font-weight:600;">⭐ Stars by Unit</div>';
-        html += '<div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:4px;">';
-        Object.keys(stageDist).forEach(function(k) {
-          html += '<span class="badge badge-student">' + escHtml(k) + ': ' + stageDist[k] + '</span>';
+      // 2. Weak words
+      html += '<div class="detail-card">' +
+        '<div class="detail-card-title"><span>⚠️ Weak / Repeatedly Failed Words (' + weakList.length + ')</span>' +
+        '<span style="font-size:0.75rem; color:var(--text-muted);">Auto-tracked from wrong exam attempts</span></div>';
+      if (weakList.length > 0) {
+        html += '<div style="display:flex; flex-wrap:wrap; gap:8px;">';
+        weakList.forEach(function(w) {
+          var ar = w.arabic || w.cleanKey || '—';
+          var count = w.count || 1;
+          var les = w.lesson ? ' (' + w.lesson + ')' : '';
+          html += '<div class="weak-word-chip">' +
+            '<span class="weak-word-arabic">' + escHtml(ar) + '</span>' +
+            '<span>❌ ' + count + 'x' + escHtml(les) + '</span>' +
+            '</div>';
         });
         html += '</div>';
+      } else {
+        html += '<div style="color:var(--text-muted); font-size:0.8rem;">No weak words recorded — high exam accuracy!</div>';
+      }
+      html += '</div>';
+
+      // 3. Exam History
+      html += '<div class="detail-card">' +
+        '<div class="detail-card-title"><span>🎓 Exam History (' + s.examResults.length + ')</span>';
+      if (lastUstaad) {
+        html += '<span style="font-size:0.78rem; font-weight:normal;">Last Ustaad Exam: <strong style="color:var(--accent);">' + (lastUstaad.score !== undefined ? lastUstaad.score + '%' : '') + ' (' + (lastUstaad.grade || '') + ')</strong></span>';
+      }
+      html += '</div>';
+
+      if (s.examResults && s.examResults.length > 0) {
+        html += '<div style="display:flex; flex-direction:column; gap:6px;">';
+        var shown = s.examResults.slice().reverse();
+        shown.forEach(function(r) {
+          var score = r.score !== undefined ? r.score : '?';
+          var total = r.total !== undefined ? r.total : '?';
+          var correct = r.correct !== undefined ? r.correct : '?';
+          var grade = r.grade ? (' (' + r.grade + ')') : '';
+          var title = r.examTitle || (r.isUstaadExam ? 'Ustaad ki Exam' : 'Practice Exam');
+          var badge = r.isUstaadExam
+            ? '<span class="badge badge-active">Ustaad Exam</span>'
+            : '<span class="badge badge-student">Practice</span>';
+          var date = shortDate(r.date || r.createdAt || r.timestamp);
+          html += '<div style="font-size:0.8rem; padding:8px 10px; background:var(--bg-base); border-radius:6px; border:1px solid var(--border); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:6px;">' +
+            '<div>' + badge + ' <strong>' + escHtml(title) + '</strong> &nbsp; Score: <strong>' + score + '%' + grade + '</strong> (' + correct + '/' + total + ')</div>' +
+            '<div style="color:var(--text-muted); font-size:0.75rem;">📅 ' + date + '</div>' +
+            '</div>';
+        });
+        html += '</div>';
+      } else {
+        html += '<div style="color:var(--text-muted); font-size:0.8rem;">No exam attempts recorded.</div>';
+      }
+      html += '</div>';
+
+      // 4. Starred Words
+      if (Array.isArray(s.starredItems) && s.starredItems.length > 0) {
+        html += '<div class="detail-card">' +
+          '<div class="detail-card-title">⭐ Starred Vocabulary (' + s.starredItems.length + ')</div>' +
+          '<div style="display:flex; flex-wrap:wrap; gap:6px;">';
+        s.starredItems.slice(0, 30).forEach(function(st) {
+          var ar = st.arabic || st.ar || '';
+          var hi = st.hinglish || st.hi || '';
+          html += '<span class="badge badge-student" style="font-size:0.8rem; padding:4px 8px;">' +
+            (ar ? '<span style="font-family:var(--font-arabic); direction:rtl; font-size:1rem; margin-right:4px;">' + escHtml(ar) + '</span>' : '') +
+            escHtml(hi || st.key || 'Word') +
+            '</span>';
+        });
+        if (s.starredItems.length > 30) {
+          html += '<span style="font-size:0.75rem; color:var(--text-muted); align-self:center;">+' + (s.starredItems.length - 30) + ' more</span>';
+        }
+        html += '</div></div>';
       }
 
-      return html || '<div style="color:var(--text-muted);">No data available.</div>';
+      // 5. Custom Answers
+      var customEntries = Object.entries(s.customTranslations || {});
+      if (customEntries.length > 0) {
+        html += '<div class="detail-card">' +
+          '<div class="detail-card-title">✏️ Custom Translations (' + customEntries.length + ')</div>' +
+          '<div style="display:flex; flex-direction:column; gap:4px; max-height:160px; overflow-y:auto;">';
+        customEntries.forEach(function(pair) {
+          html += '<div style="font-size:0.78rem; padding:4px 6px; background:var(--bg-base); border-radius:4px;">' +
+            '<code>' + escHtml(pair[0]) + '</code>: ' + escHtml(pair[1]) +
+            '</div>';
+        });
+        html += '</div></div>';
+      }
+
+      return html;
     }
 
     /* ═══════════════════════════════════════════════
@@ -1187,13 +1417,17 @@
         if (!tbody) return;
 
         if (snap.empty) {
-          tbody.innerHTML = '<tr><td colspan="5" style="text-align:center;color:var(--text-muted);padding:24px;">No exams created yet.</td></tr>';
+          tbody.innerHTML = '<tr><td colspan="6" style="text-align:center;color:var(--text-muted);padding:24px;">No exams created yet.</td></tr>';
           return;
         }
 
         var html = '';
-        snap.forEach(function(d) {
-          var data   = d.data() || {};
+        var examList = [];
+        snap.forEach(function(d) { examList.push({ id: d.id, data: d.data() || {} }); });
+
+        examList.forEach(function(item, i) {
+          var dId    = item.id;
+          var data   = item.data;
           var title  = data.title || '(Untitled)';
           var created= fmtDate(data.createdAt);
           var status = data.status || 'active';
@@ -1202,12 +1436,20 @@
             ? '<span class="badge badge-active">active</span>'
             : '<span class="badge badge-expired">expired</span>';
 
-          html += '<tr>' +
+          html += '<tr id="exam-row-' + i + '">' +
             '<td style="font-weight:600;">' + escHtml(title) + '</td>' +
             '<td>' + created + '</td>' +
             '<td style="font-size:0.78rem;max-width:200px;word-break:break-word;">' + escHtml(scope) + '</td>' +
             '<td>' + statusB + '</td>' +
-            '<td><button class="btn btn-danger btn-sm" onclick="deleteExam(\'' + d.id + '\')">🗑 Delete</button></td>' +
+            '<td><button class="btn btn-secondary btn-sm" onclick="toggleExamScores(\'' + dId + '\', ' + i + ')">📊 View Scores</button></td>' +
+            '<td><button class="btn btn-danger btn-sm" onclick="deleteExam(\'' + dId + '\')">🗑 Delete</button></td>' +
+          '</tr>' +
+          '<tr class="expand-row" id="exam-expand-' + i + '">' +
+            '<td colspan="6">' +
+              '<div class="expand-content" id="exam-scores-wrap-' + i + '">' +
+                '<div class="state-center" style="padding:14px;"><span class="spinner">⏳</span> Click to load scores...</div>' +
+              '</div>' +
+            '</td>' +
           '</tr>';
         });
         tbody.innerHTML = html;
@@ -1215,6 +1457,123 @@
         console.error('[Admin] loadExams error:', e);
         loading.style.display = 'none';
         errEl.style.display   = 'block';
+      });
+    }
+
+    function toggleExamScores(examId, idx) {
+      var row = document.getElementById('exam-expand-' + idx);
+      if (!row) return;
+      var isOpen = row.classList.toggle('open');
+      if (!isOpen) return;
+
+      var mount = document.getElementById('exam-scores-wrap-' + idx);
+      if (!mount) return;
+      mount.innerHTML = '<div class="state-center" style="padding:16px;"><span class="spinner">⏳</span> Fetching student submissions...</div>';
+
+      Promise.all([
+        db.collection('exam_results').doc(examId).collection('submissions').get().catch(function() { return { docs: [] }; }),
+        db.collection('user_data').get().catch(function() { return { docs: [] }; })
+      ]).then(function(results) {
+        var subSnap = results[0];
+        var udSnap  = results[1];
+
+        var submissionsMap = {};
+
+        // 1. Direct submissions subcollection
+        if (subSnap && subSnap.docs) {
+          subSnap.docs.forEach(function(doc) {
+            var data = doc.data() || {};
+            submissionsMap[doc.id] = {
+              uid: doc.id,
+              name: data.name || data.studentName || 'Student',
+              email: data.email || '—',
+              score: data.score !== undefined ? data.score : 0,
+              grade: data.grade || '—',
+              correct: data.correct,
+              total: data.total,
+              submittedAt: data.submittedAt || data.date || null
+            };
+          });
+        }
+
+        // 2. Fallback check from user_data exam history
+        if (udSnap && udSnap.docs) {
+          udSnap.docs.forEach(function(udDoc) {
+            var ud = udDoc.data() || {};
+            var hist = ud.examResults || ud.examHistory || [];
+            if (Array.isArray(hist)) {
+              hist.forEach(function(h) {
+                if (h.pushedExamId === examId || (h.isUstaadExam && (h.examId === examId || h.title === examId))) {
+                  if (!submissionsMap[udDoc.id]) {
+                    submissionsMap[udDoc.id] = {
+                      uid: udDoc.id,
+                      name: ud.name || ud.displayName || 'Student',
+                      email: ud.email || '—',
+                      score: h.score !== undefined ? h.score : 0,
+                      grade: h.grade || '—',
+                      correct: h.correct,
+                      total: h.total,
+                      submittedAt: h.date || h.createdAt || null
+                    };
+                  }
+                }
+              });
+            }
+          });
+        }
+
+        var list = Object.values(submissionsMap);
+        if (list.length === 0) {
+          mount.innerHTML = '<div style="padding:16px; text-align:center; color:var(--text-muted);">' +
+            'No student submissions recorded yet for this exam. When students complete this pushed exam, their scores will appear here.</div>';
+          return;
+        }
+
+        list.sort(function(a, b) { return (b.score || 0) - (a.score || 0); });
+
+        var totalSubs = list.length;
+        var sumScores = 0;
+        var passedCount = 0;
+        var maxScore = 0;
+
+        list.forEach(function(s) {
+          var sc = Number(s.score) || 0;
+          sumScores += sc;
+          if (sc >= 50) passedCount++;
+          if (sc > maxScore) maxScore = sc;
+        });
+
+        var avgScore = Math.round(sumScores / totalSubs);
+        var passRate = Math.round((passedCount / totalSubs) * 100);
+
+        var html = '<div class="analytics-metric-grid">' +
+          '<div class="metric-tile"><div class="tile-val">' + totalSubs + '</div><div class="tile-lbl">Submissions</div></div>' +
+          '<div class="metric-tile"><div class="tile-val">' + avgScore + '%</div><div class="tile-lbl">Average Score</div></div>' +
+          '<div class="metric-tile"><div class="tile-val">' + passRate + '%</div><div class="tile-lbl">Pass Rate (≥50%)</div></div>' +
+          '<div class="metric-tile"><div class="tile-val">' + maxScore + '%</div><div class="tile-lbl">Highest Score</div></div>' +
+          '</div>';
+
+        html += '<table class="exam-subs-table"><thead><tr>' +
+          '<th>Student Name</th><th>Email / UID</th><th>Score</th><th>Grade</th><th>Questions</th><th>Submitted</th>' +
+          '</tr></thead><tbody>';
+
+        list.forEach(function(s) {
+          var qDetail = (s.correct !== undefined && s.total !== undefined) ? (s.correct + ' / ' + s.total) : '—';
+          html += '<tr>' +
+            '<td style="font-weight:600;">' + escHtml(s.name) + '</td>' +
+            '<td style="color:var(--text-muted); font-size:0.75rem;">' + escHtml(s.email) + '</td>' +
+            '<td><strong style="color:var(--accent);">' + s.score + '%</strong></td>' +
+            '<td><span class="badge badge-active">' + escHtml(s.grade) + '</span></td>' +
+            '<td>' + qDetail + '</td>' +
+            '<td>' + shortDate(s.submittedAt) + '</td>' +
+            '</tr>';
+        });
+
+        html += '</tbody></table>';
+        mount.innerHTML = html;
+      }).catch(function(e) {
+        console.error('[Admin] toggleExamScores error:', e);
+        mount.innerHTML = '<div style="color:var(--danger); padding:10px;">❌ Error loading submissions: ' + escHtml(e.message) + '</div>';
       });
     }
 
@@ -1364,7 +1723,9 @@
 
       db.collection('muallim_broadcasts').add({
         message:   msg,
+        sentAt:    firebase.firestore.FieldValue.serverTimestamp(),
         createdAt: firebase.firestore.FieldValue.serverTimestamp(),
+        sentBy:    _adminUser ? (_adminUser.displayName || 'Teacher') : 'Teacher',
         authorUid: _adminUser ? _adminUser.uid : ''
       }).then(function() {
         adminToast('✅ Broadcast sent!');
@@ -1390,8 +1751,6 @@
       list.style.display    = 'none';
 
       db.collection('muallim_broadcasts')
-        .orderBy('createdAt', 'desc')
-        .limit(10)
         .get()
         .then(function(snap) {
           loading.style.display = 'none';
@@ -1402,15 +1761,31 @@
             return;
           }
 
-          var html = '';
+          var docs = [];
           snap.forEach(function(d) {
             var data = d.data() || {};
+            data.id = d.id;
+            docs.push(data);
+          });
+
+          // Sort client-side by sentAt or createdAt descending
+          docs.sort(function(a, b) {
+            var at = a.sentAt || a.createdAt;
+            var bt = b.sentAt || b.createdAt;
+            var ad = at ? (at.toDate ? at.toDate() : new Date(at)) : new Date(0);
+            var bd = bt ? (bt.toDate ? bt.toDate() : new Date(bt)) : new Date(0);
+            return bd - ad;
+          });
+
+          var html = '';
+          docs.slice(0, 25).forEach(function(data) {
+            var ts = data.sentAt || data.createdAt;
             html += '<div class="broadcast-item">' +
               '<div class="bc-body">' +
-                '<div class="bc-time">' + fmtDate(data.createdAt) + '</div>' +
-                '<div class="bc-text">' + escHtml(truncate(data.message, 100)) + '</div>' +
+                '<div class="bc-time">' + fmtDate(ts) + (data.sentBy ? ' • by ' + escHtml(data.sentBy) : '') + '</div>' +
+                '<div class="bc-text">' + escHtml(truncate(data.message, 150)) + '</div>' +
               '</div>' +
-              '<button class="btn btn-danger btn-sm" onclick="deleteBroadcast(\'' + d.id + '\')">🗑</button>' +
+              '<button class="btn btn-danger btn-sm" onclick="deleteBroadcast(\'' + data.id + '\')">🗑</button>' +
             '</div>';
           });
           list.innerHTML = html;
@@ -1473,6 +1848,7 @@
             '<td>' + roleB + '</td>' +
             '<td>' + joined + '</td>' +
             '<td style="display:flex;gap:6px;flex-wrap:wrap;">' +
+              '<button class="btn btn-secondary btn-sm" onclick="adminChangeStudentPassword(\'' + uid + '\',\'' + escHtml(email) + '\',\'' + escHtml(name) + '\')">🔑 Change Pass</button>' +
               '<button class="btn btn-secondary btn-sm" onclick="toggleUserRole(\'' + uid + '\',\'' + role + '\')">⇄ ' + toggleLabel + '</button>' +
               '<button class="btn btn-danger btn-sm"   onclick="deleteUser(\'' + uid + '\',\'' + escHtml(name) + '\')">🗑 Delete</button>' +
             '</td>' +
@@ -1514,6 +1890,164 @@
       }).catch(function(e) {
         console.error('[Admin] deleteUser error:', e);
         adminToast('❌ Delete failed: ' + e.message);
+      });
+    }
+
+    /* ═══════════════════════════════════════════════
+       MANUAL STUDENT CREATION & PASSWORD MANAGEMENT
+    ═══════════════════════════════════════════════ */
+    function openAddStudentModal() {
+      document.getElementById('add-student-modal-backdrop').classList.add('open');
+      var n = document.getElementById('new-student-name');
+      var em = document.getElementById('new-student-email');
+      var pw = document.getElementById('new-student-password');
+      if (n) n.value = '';
+      if (em) em.value = '';
+      if (pw) pw.value = '';
+      if (n) n.focus();
+    }
+
+    function closeAddStudentModal() {
+      document.getElementById('add-student-modal-backdrop').classList.remove('open');
+    }
+
+    function closeAddStudentModalIfBackdrop(e) {
+      if (e.target === document.getElementById('add-student-modal-backdrop')) {
+        closeAddStudentModal();
+      }
+    }
+
+    function createStudentManual() {
+      var name = (document.getElementById('new-student-name').value || '').trim();
+      var email = (document.getElementById('new-student-email').value || '').trim();
+      var pass = (document.getElementById('new-student-password').value || '').trim();
+
+      if (!name || name.length < 2) {
+        adminToast('⚠️ Please enter student name (at least 2 characters)');
+        return;
+      }
+      if (!email || !email.includes('@')) {
+        adminToast('⚠️ Please enter a valid email address');
+        return;
+      }
+      if (!pass || pass.length < 6) {
+        adminToast('⚠️ Password must be at least 6 characters');
+        return;
+      }
+
+      var btn = document.getElementById('btn-save-new-student');
+      if (btn) { btn.disabled = true; btn.textContent = 'Creating…'; }
+
+      var cfg = {
+        apiKey:            "AIzaSyAjBnuLSADlXBZ7OY7daQ7mOta3VaHXVNg",
+        authDomain:        "muallim-123.firebaseapp.com",
+        projectId:         "muallim-123",
+        storageBucket:     "muallim-123.firebasestorage.app",
+        messagingSenderId: "226964645326",
+        appId:             "1:226964645326:web:0a219c95dad277b4cd379f"
+      };
+
+      var secAppName = 'SecondaryAuthApp_' + Date.now();
+      var secApp = firebase.initializeApp(cfg, secAppName);
+
+      secApp.auth().createUserWithEmailAndPassword(email, pass).then(function(userCred) {
+        var newUid = userCred.user.uid;
+
+        // 1. Create /users doc
+        return db.collection('users').doc(newUid).set({
+          name: name,
+          displayName: name,
+          email: email,
+          role: 'student',
+          createdAt: firebase.firestore.FieldValue.serverTimestamp()
+        }).then(function() {
+          // 2. Initialize /user_data doc
+          return db.collection('user_data').doc(newUid).set({
+            name: name,
+            email: email,
+            updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
+            examHistory: [],
+            starredItems: [],
+            customTranslations: {},
+            weakWords: {},
+            lessonTime: {}
+          }, { merge: true });
+        }).then(function() {
+          adminToast('✅ Student "' + name + '" created successfully!');
+          closeAddStudentModal();
+          loadUsers();
+          if (_activeSection === 'students') loadStudents();
+        });
+      }).catch(function(err) {
+        console.error('[Admin] createStudent error:', err);
+        adminToast('❌ Error creating student: ' + err.message);
+      }).finally(function() {
+        if (btn) { btn.disabled = false; btn.textContent = '＋ Create Student'; }
+        try { secApp.delete(); } catch(e) {}
+      });
+    }
+
+    function adminChangeStudentPassword(uid, email, name) {
+      var newPass = prompt('Enter new password for student ' + (name || email) + ' (min 6 characters):');
+      if (!newPass) return;
+      if (newPass.length < 6) { adminToast('⚠️ Password must be at least 6 characters'); return; }
+
+      adminToast('⏳ Updating password...');
+
+      // Try Cloud Function first if deployed
+      try {
+        if (firebase.functions) {
+          var setPassFn = firebase.functions().httpsCallable('setStudentPassword');
+          setPassFn({ uid: uid, newPassword: newPass }).then(function(res) {
+            adminToast('✅ Password changed successfully for ' + (name || email));
+          }).catch(function(fnErr) {
+            console.warn('[Admin] Cloud Function note:', fnErr.message);
+            _promptPasswordResetFallback(email);
+          });
+          return;
+        }
+      } catch(e) {}
+
+      _promptPasswordResetFallback(email);
+    }
+
+    function _promptPasswordResetFallback(email) {
+      if (confirm('Direct password change requires Cloud Function (Blaze plan).\n\nWould you like to send a Password Reset Email to ' + email + ' right now?')) {
+        auth.sendPasswordResetEmail(email).then(function() {
+          adminToast('📧 Password reset link sent to ' + email);
+        }).catch(function(resetErr) {
+          adminToast('❌ Reset email failed: ' + resetErr.message);
+        });
+      }
+    }
+
+    function adminChangePassword() {
+      var p1 = prompt('Enter new admin password (min 8 characters):');
+      if (!p1) return;
+      if (p1.length < 8) { adminToast('⚠️ Password must be at least 8 characters'); return; }
+      var p2 = prompt('Confirm new admin password:');
+      if (p1 !== p2) { adminToast('⚠️ Passwords do not match'); return; }
+
+      var curUser = auth.currentUser;
+      if (!curUser) { adminToast('❌ Not logged in'); return; }
+
+      curUser.updatePassword(p1).then(function() {
+        adminToast('✅ Admin password updated successfully!');
+      }).catch(function(err) {
+        if (err.code === 'auth/requires-recent-login') {
+          var oldPass = prompt('For security, please enter your CURRENT admin password:');
+          if (!oldPass) return;
+          var cred = firebase.auth.EmailAuthProvider.credential(curUser.email, oldPass);
+          curUser.reauthenticateWithCredential(cred).then(function() {
+            return curUser.updatePassword(p1);
+          }).then(function() {
+            adminToast('✅ Admin password updated successfully!');
+          }).catch(function(err2) {
+            adminToast('❌ Re-auth failed: ' + err2.message);
+          });
+        } else {
+          adminToast('❌ Password update failed: ' + err.message);
+        }
       });
     }
 

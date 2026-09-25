@@ -9609,19 +9609,9 @@
               }
             ]
           }
-        }
-      ],
-      "status": "complete"
-    },
-    {
-      "lesson_key": "S4L18",
-      "stage_id": 4,
-      "lesson_id": 18,
-      "page_start": 39,
-      "title": "Unit 4 Lesson 18",
-      "sections": [
+        },
         {
-          "id": "s1",
+          "id": "s2",
           "type": "two_col_numbered_list",
           "data": {
             "has_hinglish": false,

@@ -61,7 +61,61 @@ var App = (function() {
       var _sessionStart = 0;
       var _sessionLessonKey = '';
 
+      function migrateS4L18Keys() {
+        try {
+          if (lsGet('muallim_s4l18_migrated', 'false') === 'true') return;
+          let changedFavs = false;
+          favourites = favourites.map(f => {
+            if (f && f.key && f.key.startsWith('S4L18_')) {
+              changedFavs = true;
+              const newKey = f.key.replace('S4L18_s0_', 'S4L17_s1_').replace('S4L18_s1_', 'S4L17_s1_').replace('S4L18_num_', 'S4L17_s1_num_');
+              return { ...f, key: newKey, stage: 4, lesson: 17 };
+            }
+            if (f && f.stage === 4 && f.lesson === 18) {
+              changedFavs = true;
+              return { ...f, lesson: 17 };
+            }
+            return f;
+          });
+          if (changedFavs) {
+            lsSet('muallim_favs', JSON.stringify(favourites));
+          }
+
+          let changedCustom = false;
+          const newCustom = {};
+          for (const k in customAnswers) {
+            if (k.startsWith('S4L18_')) {
+              changedCustom = true;
+              const newKey = k.replace('S4L18_s0_', 'S4L17_s1_').replace('S4L18_s1_', 'S4L17_s1_').replace('S4L18_num_', 'S4L17_s1_num_');
+              newCustom[newKey] = customAnswers[k];
+            } else {
+              newCustom[k] = customAnswers[k];
+            }
+          }
+          if (changedCustom) {
+            customAnswers = newCustom;
+            lsSet('muallim_custom_translations', JSON.stringify(customAnswers));
+          }
+
+          const bmRaw = lsGet('muallim_bookmark', null);
+          if (bmRaw) {
+            try {
+              const bm = JSON.parse(bmRaw);
+              if (bm && bm.stage === 4 && bm.lesson === 18) {
+                bm.lesson = 17;
+                lsSet('muallim_bookmark', JSON.stringify(bm));
+              }
+            } catch(e) {}
+          }
+
+          lsSet('muallim_s4l18_migrated', 'true');
+        } catch(e) {
+          console.warn('[Muallim] S4L18 migration error:', e);
+        }
+      }
+
       function init() {
+        migrateS4L18Keys();
         setupEventListeners();
         setAudioSpeed(audioSpeed, false);
         // Auto-resume bookmark on every app open
@@ -915,9 +969,43 @@ var App = (function() {
         document.getElementById('favs-modal').showModal();
       }
 
+      var _searchIndexData = null;
+      var _searchIndexLoading = false;
+
+      async function loadSearchIndex() {
+        if (_searchIndexData) return _searchIndexData;
+        if (_searchIndexLoading) return [];
+        _searchIndexLoading = true;
+        try {
+          const res = await fetch('./data/search-index.json');
+          if (res.ok) {
+            _searchIndexData = await res.json();
+          }
+        } catch(e) {
+          console.warn('[Muallim] Could not load search-index.json:', e);
+        } finally {
+          _searchIndexLoading = false;
+        }
+        return _searchIndexData || [];
+      }
+
+      function normalizeSearchStr(s) {
+        if (!s) return '';
+        return String(s).toLowerCase()
+          .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+          .replace(/[\u064B-\u0652\u0670\u0640]/g, '')
+          .replace(/[\u0622\u0623\u0625\u0671]/g, 'ا')
+          .replace(/[\u0649]/g, 'ي')
+          .replace(/[\u0629]/g, 'ه')
+          .replace(/[-_.,;:'"`’‘!?()\[\]]/g, ' ')
+          .replace(/\s+/g, ' ')
+          .trim();
+      }
+
       function openSearchModal() {
         document.getElementById('search-modal').showModal();
         setTimeout(() => document.getElementById('search-input').focus(), 100);
+        loadSearchIndex().catch(() => {});
         for (let s = 2; s <= 7; s++) {
           if (!bookData.stages[`Stage${s}`]) {
             loadUnit(s).catch(() => {});
@@ -926,20 +1014,64 @@ var App = (function() {
       }
 
       async function performSearch(query) {
-        const q = query.trim().toLowerCase();
+        const rawQ = query.trim();
+        const qNorm = normalizeSearchStr(rawQ);
         const resultsMount = document.getElementById('search-results-mount');
-        if (q.length < 2) {
-          resultsMount.innerHTML = '<p style="text-align:center; color:var(--text-muted); padding:20px;">Type at least 2 characters to search all 114 lessons.</p>';
+        if (qNorm.length < 2 && rawQ.length < 2) {
+          resultsMount.innerHTML = '<p style="text-align:center; color:var(--text-muted); padding:20px;">Type at least 2 characters to search all lessons.</p>';
           return;
         }
 
+        // Ensure units are loaded
         for (let s = 1; s <= 7; s++) {
           if (!bookData.stages[`Stage${s}`]) {
             await loadUnit(s).catch(() => {});
           }
         }
 
+        const sIndex = await loadSearchIndex();
+
         const results = [];
+        const seenKeys = new Set();
+
+        // 1. Search search-index.json (Arabic, Transliteration, English, Root)
+        if (Array.isArray(sIndex) && sIndex.length > 0) {
+          for (let i = 0; i < sIndex.length; i++) {
+            const item = sIndex[i];
+            const arNorm = normalizeSearchStr(item.ar);
+            const trNorm = normalizeSearchStr(item.tr);
+            const enNorm = normalizeSearchStr(item.en);
+            const rootNorm = normalizeSearchStr(item.root);
+
+            let matched = false;
+            let matchType = '';
+
+            if (item.ar && item.ar.includes(rawQ)) { matched = true; matchType = 'Arabic'; }
+            else if (arNorm && arNorm.includes(qNorm)) { matched = true; matchType = 'Arabic'; }
+            else if (trNorm && (trNorm.includes(qNorm) || qNorm.includes(trNorm))) { matched = true; matchType = 'Transliteration'; }
+            else if (enNorm && enNorm.includes(qNorm)) { matched = true; matchType = 'English'; }
+            else if (rootNorm && rootNorm.replace(/\s+/g, '').includes(qNorm.replace(/\s+/g, ''))) { matched = true; matchType = 'Root'; }
+
+            if (matched) {
+              const ukey = `${item.s}_${item.l}_${item.ar}`;
+              if (!seenKeys.has(ukey)) {
+                seenKeys.add(ukey);
+                results.push({
+                  stage: item.s,
+                  lesson: item.l,
+                  arabic: item.ar,
+                  transliteration: item.tr || '',
+                  english: item.en || '',
+                  hinglish: '',
+                  root: item.root || '',
+                  matchType
+                });
+              }
+            }
+          }
+        }
+
+        // 2. Search loaded stage lesson data (Arabic and Hinglish translations)
         for (let s = 1; s <= 7; s++) {
           const stageKey = `Stage${s}`;
           const lessons = bookData.stages[stageKey] || [];
@@ -948,15 +1080,30 @@ var App = (function() {
               const items = (sec.data && sec.data.items) || [];
               items.forEach(it => {
                 if (it.arabic && it.hinglish) {
-                  const arMatch = it.arabic.includes(q);
-                  const hiMatch = it.hinglish.toLowerCase().includes(q);
+                  const arNorm = normalizeSearchStr(it.arabic);
+                  const hiNorm = normalizeSearchStr(it.hinglish);
+
+                  const arMatch = it.arabic.includes(rawQ) || (arNorm && arNorm.includes(qNorm));
+                  const hiMatch = hiNorm.includes(qNorm) || it.hinglish.toLowerCase().includes(rawQ.toLowerCase());
+
                   if (arMatch || hiMatch) {
-                    results.push({
-                      stage: s,
-                      lesson: l.lesson_id,
-                      arabic: it.arabic,
-                      hinglish: it.hinglish
-                    });
+                    const ukey = `${s}_${l.lesson_id}_${it.arabic}`;
+                    if (seenKeys.has(ukey)) {
+                      const existing = results.find(r => r.stage === s && r.lesson === l.lesson_id && r.arabic === it.arabic);
+                      if (existing && !existing.hinglish) existing.hinglish = it.hinglish;
+                    } else {
+                      seenKeys.add(ukey);
+                      results.push({
+                        stage: s,
+                        lesson: l.lesson_id,
+                        arabic: it.arabic,
+                        transliteration: '',
+                        english: '',
+                        hinglish: it.hinglish,
+                        root: '',
+                        matchType: arMatch ? 'Arabic' : 'Hinglish'
+                      });
+                    }
                   }
                 }
               });
@@ -964,8 +1111,29 @@ var App = (function() {
           });
         }
 
+        // Enrich any results that came from search-index with hinglish if available in loaded lessons
+        results.forEach(r => {
+          if (!r.hinglish) {
+            const stageLessons = bookData.stages[`Stage${r.stage}`] || [];
+            const les = stageLessons.find(l => l.lesson_id === r.lesson);
+            if (les) {
+              for (const sec of (les.sections || [])) {
+                const found = ((sec.data && sec.data.items) || []).find(it => it.arabic === r.arabic);
+                if (found && found.hinglish) {
+                  r.hinglish = found.hinglish;
+                  break;
+                }
+              }
+            }
+          }
+        });
+
+        function escSearchHtml(s) {
+          return String(s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }
+
         if (results.length === 0) {
-          resultsMount.innerHTML = `<p style="text-align:center; color:var(--text-muted); padding:20px;">No results found for "${query}".</p>`;
+          resultsMount.innerHTML = `<p style="text-align:center; color:var(--text-muted); padding:20px;">No results found for "${escSearchHtml(query)}". Try searching in English, Hinglish, Arabic, or Transliteration.</p>`;
           return;
         }
 
@@ -973,12 +1141,19 @@ var App = (function() {
         results.slice(0, 50).forEach(r => {
           out += `
             <div class="search-result-item" onclick="App.jumpToSearchLesson(${r.stage}, ${r.lesson})">
-              <div>
-                <span style="font-size:0.75rem; color:var(--accent-emerald); font-weight:700;">Unit ${r.stage} Lesson ${r.lesson}</span>
-                <div style="font-family:var(--font-arabic); font-size:1.1rem; color:var(--text-primary);">${r.arabic}</div>
-                <div style="font-size:0.85rem; color:var(--text-secondary);">${r.hinglish}</div>
+              <div style="flex:1;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:4px;">
+                  <span style="font-size:0.75rem; color:var(--accent-emerald); font-weight:700;">Unit ${r.stage} Lesson ${r.lesson}</span>
+                  ${r.matchType ? `<span style="font-size:0.68rem; background:rgba(27,67,50,0.08); color:var(--accent-emerald); padding:1px 6px; border-radius:10px; font-weight:600;">${r.matchType}</span>` : ''}
+                </div>
+                <div style="font-family:var(--font-arabic); font-size:var(--arabic-scale, 26px); line-height:1.4; color:var(--text-primary); direction:rtl; text-align:right;">${r.arabic}</div>
+                <div style="font-size:0.85rem; color:var(--text-secondary); margin-top:4px;">
+                  ${r.transliteration ? `<span style="display:inline-block; font-style:italic; color:var(--accent-emerald); margin-right:6px; font-weight:600;">[${escSearchHtml(r.transliteration)}]</span>` : ''}
+                  ${r.hinglish ? `<span>${escSearchHtml(r.hinglish)}</span>` : ''}
+                  ${r.english && r.english !== r.hinglish ? `<span style="color:var(--text-muted); font-size:0.8rem; margin-left:6px;">(${escSearchHtml(r.english)})</span>` : ''}
+                </div>
               </div>
-              <span style="color:var(--divider-gold); font-size:1.2rem;">→</span>
+              <span style="color:var(--divider-gold); font-size:1.2rem; margin-left:10px;">→</span>
             </div>
           `;
         });
@@ -1555,6 +1730,7 @@ var App = (function() {
     let examScopeSelection = new Set();
     let examStarredOnlyFilter = false;
     let examSelectedCount = 20;
+    let currentActivePushedExam = null;
 
     // Load history safely
     try { examHistory = JSON.parse(lsGet('muallim_exam_history', '[]') || '[]'); } catch(e) { examHistory = []; }
@@ -1592,7 +1768,16 @@ var App = (function() {
       win.document.close();
     };
 
-    App.openExam = function() {
+    App.openExam = function(forcePractice) {
+      if (forcePractice) currentActivePushedExam = null;
+      examState = 'setup';
+      renderExamView();
+      const modal = document.getElementById('exam-modal');
+      if (modal && modal.showModal) modal.showModal();
+    };
+
+    App.startPushedExam = function(pushedExam) {
+      currentActivePushedExam = pushedExam;
       examState = 'setup';
       renderExamView();
       const modal = document.getElementById('exam-modal');
@@ -1687,9 +1872,51 @@ var App = (function() {
     }
 
     function buildExamSetupHTML() {
+      if (currentActivePushedExam) {
+        const title = currentActivePushedExam.title || 'Ustaad ki Exam';
+        const scope = currentActivePushedExam.scope || {};
+        let scopeStr = '';
+        if (Array.isArray(scope.unitKeys) && scope.unitKeys.length) {
+          scopeStr += scope.unitKeys.map(k => 'Unit ' + k.replace(/\D/g,'')).join(', ');
+        }
+        if (Array.isArray(scope.lessonKeys) && scope.lessonKeys.length) {
+          scopeStr += ' (Lessons: ' + scope.lessonKeys.join(', ') + ')';
+        }
+        if (!scopeStr) scopeStr = 'All Lessons';
+
+        return `
+          <h3 style="margin:0 0 16px; font-size:1.15rem; font-weight:800; color:var(--primary,#1B4332); display:flex; align-items:center; gap:8px;">
+            <span>🎓</span> ${title}
+          </h3>
+          <div style="background:var(--bg-surface-elevated,#f3f4f6); border-radius:8px; padding:14px; margin-bottom:16px; border:1px solid var(--border,#e5e7eb);">
+            <div style="font-size:0.75rem; text-transform:uppercase; font-weight:700; color:var(--accent-emerald,#1B4332); letter-spacing:0.05em; margin-bottom:4px;">Official Exam Scope</div>
+            <div style="font-weight:700; color:var(--text-primary); font-size:0.95rem;">${scopeStr}</div>
+            <div style="font-size:0.8rem; color:var(--text-secondary); margin-top:4px;">Yeh exam aapke Ustaad ne assign kiya hai. Result submit hone ke baad teacher panel mein save ho jayega.</div>
+          </div>
+
+          <!-- Question Count -->
+          <div class="exam-setup-section" style="margin-bottom:16px;">
+            <div class="exam-setup-label" style="font-weight:700; font-size:0.88rem; margin-bottom:8px; color:var(--text-primary);">
+              Number of Questions
+            </div>
+            <div class="exam-count-btns" style="display:flex; gap:8px;">
+              <button type="button" class="count-btn ${examSelectedCount === 10 ? 'selected' : ''}" data-count="10" onclick="App.selectExamCount(10)">10</button>
+              <button type="button" class="count-btn ${examSelectedCount === 20 ? 'selected' : ''}" data-count="20" onclick="App.selectExamCount(20)">20</button>
+              <button type="button" class="count-btn ${examSelectedCount === 30 ? 'selected' : ''}" data-count="30" onclick="App.selectExamCount(30)">30</button>
+            </div>
+          </div>
+
+          <div style="display:flex; flex-direction:column; gap:10px; margin-top:8px;">
+            <button class="btn-primary" style="width:100%; padding:14px; font-size:1.05rem; font-weight:700;" onclick="App.startExam()">
+              🚀 Bismillah — Start Exam
+            </button>
+          </div>
+        `;
+      }
+
       return `
         <h3 style="margin:0 0 16px; font-size:1.1rem; font-weight:800; color:var(--primary,#1B4332); display:flex; align-items:center; gap:8px;">
-          <span>🎓</span> Ustaad ki Exam Setup
+          <span>📝</span> Practice Exam Setup
         </h3>
 
         <!-- Scope Selection -->
@@ -1809,7 +2036,17 @@ var App = (function() {
           const lkey = l.lesson_key || `S${s}L${l.lesson_id}`;
           
           let include = false;
-          if (examScopeMode === 'current') {
+          if (currentActivePushedExam) {
+            const scope = currentActivePushedExam.scope || {};
+            const unitKeys = Array.isArray(scope.unitKeys) ? scope.unitKeys : [];
+            const lessonKeys = Array.isArray(scope.lessonKeys) ? scope.lessonKeys : [];
+            const stageMatches = unitKeys.length === 0 || unitKeys.includes(`Stage${s}`);
+            if (lessonKeys.length > 0) {
+              include = lessonKeys.includes(lkey) || lessonKeys.includes(`S${s}L${l.lesson_id}`);
+            } else {
+              include = stageMatches;
+            }
+          } else if (examScopeMode === 'current') {
             include = (s === currentStage && l.lesson_id === currentLesson);
           } else if (examScopeMode === 'stage') {
             include = (s === currentStage);
@@ -1824,7 +2061,7 @@ var App = (function() {
             items.forEach((it, ii) => {
               if (!it.arabic || !it.hinglish || it.arabic.includes('----')) return;
               const itemKey = `${lkey}_s${si}_${ii}`;
-              if (examStarredOnlyFilter && !starredSet.has(itemKey)) return;
+              if (!currentActivePushedExam && examStarredOnlyFilter && !starredSet.has(itemKey)) return;
 
               pool.push({
                 arabic: it.arabic,
@@ -1898,10 +2135,12 @@ var App = (function() {
     }
 
     App.startExam = function() {
-      const types = Array.from(document.querySelectorAll('input[name="exam-type"]:checked')).map(cb => cb.value);
-      if (types.length === 0) { showToast('Kam se kam ek question type chunein'); return; }
+      let types = Array.from(document.querySelectorAll('input[name="exam-type"]:checked')).map(cb => cb.value);
+      if (types.length === 0) {
+        types = ['mcq', 'fillin', 'truefalse', 'matching', 'arabic_writing'];
+      }
 
-      if (examScopeMode === 'custom' && examScopeSelection.size === 0) {
+      if (!currentActivePushedExam && examScopeMode === 'custom' && examScopeSelection.size === 0) {
         showToast('Kam se kam ek lesson chunein accordion se'); return;
       }
 
@@ -2021,7 +2260,7 @@ var App = (function() {
     function buildMCQHTML(q, qIdx) {
       const locked = examScores[qIdx] !== null;
       return `
-        <div class="exam-q-arabic" style="font-family:'Amiri',serif; font-size:1.6rem; direction:rtl; text-align:center; margin:16px 0;">${q.arabic}</div>
+        <div class="exam-q-arabic" style="font-family:var(--font-arabic); font-size:var(--arabic-scale, 26px); direction:rtl; text-align:center; margin:16px 0; line-height:1.4;">${q.arabic}</div>
         <div class="mcq-options">
           ${q.options.map(opt => {
             let cls = 'mcq-opt';
@@ -2058,7 +2297,7 @@ var App = (function() {
               else if (opt === examAnswers[qIdx]) cls += ' wrong';
             }
             const icon = locked ? (opt === q.correct ? '✓' : (opt === examAnswers[qIdx] ? '✗' : '')) : '';
-            return `<button class="${cls}" style="font-family:'Amiri',serif; font-size:1.35rem; direction:rtl; min-height:48px;" onclick="App.answerArabicWriting(${qIdx}, '${opt.replace(/'/g,"&#39;")}')">
+            return `<button class="${cls}" style="font-family:var(--font-arabic); font-size:var(--arabic-scale, 26px); direction:rtl; min-height:48px; line-height:1.4;" onclick="App.answerArabicWriting(${qIdx}, '${opt.replace(/'/g,"&#39;")}')">
               ${opt} ${icon ? `<span class="opt-icon">${icon}</span>` : ''}
             </button>`;
           }).join('')}
@@ -2079,7 +2318,7 @@ var App = (function() {
         return c;
       }
       return `
-        <div class="exam-q-arabic" style="font-family:'Amiri',serif; font-size:1.6rem; direction:rtl; text-align:center; margin:16px 0;">${q.arabic}</div>
+        <div class="exam-q-arabic" style="font-family:var(--font-arabic); font-size:var(--arabic-scale, 26px); direction:rtl; text-align:center; margin:16px 0; line-height:1.4;">${q.arabic}</div>
         <div class="tf-statement">Does this mean: <strong>"${q.statement}"</strong>?</div>
         <div class="tf-options">
           <button class="${tfCls('true')}" onclick="App.answerTF(${qIdx}, 'true')">✅ True</button>
@@ -2106,7 +2345,7 @@ var App = (function() {
               else if (score === false) cls += ' wrong';
               else if (score === null && matchingArabicSel === i) cls += ' selected';
               const locked = score !== null;
-              return `<div class="${cls}${locked ? ' locked' : ''}" style="font-family:'Amiri',serif; font-size:1.25rem; direction:rtl;"
+              return `<div class="${cls}${locked ? ' locked' : ''}" style="font-family:var(--font-arabic); font-size:var(--arabic-scale, 26px); direction:rtl; line-height:1.3;"
                 onclick="${locked ? '' : `App.selectMatchArabic(${qIdx}, ${i})`}">${p.arabic}</div>`;
             }).join('')}
           </div>
@@ -2132,7 +2371,7 @@ var App = (function() {
       const locked = examScores[qIdx] !== null;
       const wasCorrect = examScores[qIdx] === true;
       return `
-        <div class="exam-q-arabic" style="font-family:'Amiri',serif; font-size:1.6rem; direction:rtl; text-align:center; margin:16px 0;">${q.arabic}</div>
+        <div class="exam-q-arabic" style="font-family:var(--font-arabic); font-size:var(--arabic-scale, 26px); direction:rtl; text-align:center; margin:16px 0; line-height:1.4;">${q.arabic}</div>
         <div style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:10px;">Type the Hinglish/Roman Urdu meaning:</div>
         <input type="text" class="fillin-input${locked ? (wasCorrect ? ' correct' : ' wrong') : ''}"
           id="fillin-input-${qIdx}"
@@ -2157,6 +2396,33 @@ var App = (function() {
       </div>`;
     }
 
+    function trackWrongExamWord(arWord, lessonKey) {
+      if (!arWord) return;
+      try {
+        const ar = String(arWord).trim();
+        let weak = {};
+        try { weak = JSON.parse(lsGet('muallim_weak_words', '{}') || '{}'); } catch(e) { weak = {}; }
+        if (!weak[ar]) weak[ar] = { count: 0, lesson: lessonKey || '', arabic: ar };
+        weak[ar].count = (weak[ar].count || 0) + 1;
+        if (lessonKey) weak[ar].lesson = lessonKey;
+        lsSet('muallim_weak_words', JSON.stringify(weak));
+
+        if (typeof _db !== 'undefined' && _db && window._FS && window._AUTH && window._AUTH.currentUser) {
+          const { doc, updateDoc, increment } = window._FS;
+          const uid = window._AUTH.currentUser.uid;
+          const ref = doc(_db, 'user_data', uid);
+          const cleanKey = ar.replace(/[\.\/\[\]~*#$]/g, '_');
+          updateDoc(ref, {
+            [`weakWords.${cleanKey}.count`]: increment(1),
+            [`weakWords.${cleanKey}.arabic`]: ar,
+            [`weakWords.${cleanKey}.lesson`]: lessonKey || ''
+          }).catch(() => {});
+        }
+      } catch(e) {
+        console.warn('[Muallim] trackWrongExamWord error:', e);
+      }
+    }
+
     // ── Answer Handlers (1st attempt locked) ──
     App.answerMCQ = function(qIdx, answer) {
       if (examScores[qIdx] !== null) return;
@@ -2164,6 +2430,7 @@ var App = (function() {
       const q = examQuestions[qIdx];
       const correct = answer === q.correct;
       examScores[qIdx] = correct;
+      if (!correct) trackWrongExamWord(q.arabic || (q.item ? q.item.arabic : ''), q.lessonKey || `S${currentStage}L${currentLesson}`);
       if (!examBreakdown.mcq) examBreakdown.mcq = { correct: 0, total: 0 };
       examBreakdown.mcq.total++;
       if (correct) examBreakdown.mcq.correct++;
@@ -2176,6 +2443,7 @@ var App = (function() {
       const q = examQuestions[qIdx];
       const correct = answer === q.correct;
       examScores[qIdx] = correct;
+      if (!correct) trackWrongExamWord(q.correct, q.lessonKey || `S${currentStage}L${currentLesson}`);
       if (!examBreakdown.arabic_writing) examBreakdown.arabic_writing = { correct: 0, total: 0 };
       examBreakdown.arabic_writing.total++;
       if (correct) examBreakdown.arabic_writing.correct++;
@@ -2188,6 +2456,7 @@ var App = (function() {
       const q = examQuestions[qIdx];
       const correct = answer === q.correct;
       examScores[qIdx] = correct;
+      if (!correct) trackWrongExamWord(q.arabic || (q.item ? q.item.arabic : ''), q.lessonKey || `S${currentStage}L${currentLesson}`);
       if (!examBreakdown.truefalse) examBreakdown.truefalse = { correct: 0, total: 0 };
       examBreakdown.truefalse.total++;
       if (correct) examBreakdown.truefalse.correct++;
@@ -2208,6 +2477,7 @@ var App = (function() {
       const correct = hinglish === correctHinglish;
       q.pairScores[arPairIdx] = correct;
       q.pairAnswers[arPairIdx] = hinglish;
+      if (!correct) trackWrongExamWord(q.pairs[arPairIdx].arabic, q.lessonKey || `S${currentStage}L${currentLesson}`);
       if (!examBreakdown.matching) examBreakdown.matching = { correct: 0, total: 0 };
       examBreakdown.matching.total++;
       if (correct) examBreakdown.matching.correct++;
@@ -2224,6 +2494,7 @@ var App = (function() {
       const correct = fuzzyMatch(answer.toLowerCase(), q.correct.toLowerCase());
       examAnswers[qIdx] = answer;
       examScores[qIdx] = correct;
+      if (!correct) trackWrongExamWord(q.arabic || (q.item ? q.item.arabic : ''), q.lessonKey || `S${currentStage}L${currentLesson}`);
       if (!examBreakdown.fillin) examBreakdown.fillin = { correct: 0, total: 0 };
       examBreakdown.fillin.total++;
       if (correct) examBreakdown.fillin.correct++;
@@ -2287,6 +2558,7 @@ var App = (function() {
     function saveExamResult() {
       const { pct, correct, total } = calcExamScore();
       const grade = calcGrade(pct);
+      const isUstaad = !!currentActivePushedExam;
       const result = {
         id: `exam_${Date.now()}`,
         studentName: lsGet('muallim_student_name', 'Anonymous') || 'Anonymous',
@@ -2297,11 +2569,40 @@ var App = (function() {
         grade,
         correct,
         total,
+        isUstaadExam: isUstaad,
+        pushedExamId: isUstaad ? currentActivePushedExam.id : null,
+        examTitle: isUstaad ? (currentActivePushedExam.title || 'Ustaad ki Exam') : 'Practice Exam',
+        scope: isUstaad ? (currentActivePushedExam.scopeDesc || currentActivePushedExam.title) : examScopeMode,
         breakdown: { ...examBreakdown }
       };
       examHistory.push(result);
       lsSet('muallim_exam_history', JSON.stringify(examHistory));
       if (typeof debouncedSync === 'function') debouncedSync(500);
+
+      // Record in exam_results if Ustaad exam and online
+      if (isUstaad && window._FS && window._AUTH && window._AUTH.currentUser && typeof _db !== 'undefined' && _db) {
+        try {
+          const { doc, setDoc, serverTimestamp } = window._FS;
+          const uid = window._AUTH.currentUser.uid;
+          const userEmail = window._AUTH.currentUser.email || '';
+          const sName = lsGet('muallim_student_name', userEmail.split('@')[0]) || userEmail;
+          const ref = doc(_db, 'exam_results', currentActivePushedExam.id, 'submissions', uid);
+          setDoc(ref, {
+            uid,
+            name: sName,
+            email: userEmail,
+            score: pct,
+            grade,
+            correct,
+            total,
+            submittedAt: serverTimestamp(),
+            examId: currentActivePushedExam.id,
+            examTitle: currentActivePushedExam.title || 'Ustaad ki Exam'
+          }).catch(e => {
+            console.log('[Muallim] Direct submission write note:', e.message);
+          });
+        } catch(e) {}
+      }
     }
 
     function buildSummaryHTML() {
@@ -2313,12 +2614,14 @@ var App = (function() {
       const gradeColors = { 'A+': '#059669', 'A': '#10B981', 'B': '#0EA5E9', 'C': '#F59E0B', 'D': '#F97316', 'F': '#EF4444' };
       const color = gradeColors[grade] || '#10B981';
 
-      const scopeDesc = {
-        current: `Unit ${currentStage} Lesson ${currentLesson}`,
-        stage: `Entire Unit ${currentStage}`,
-        custom: `${examScopeSelection.size} Lessons Selected`,
-        starred: `⭐ Starred Words (${favourites.length})`
-      }[examScopeMode] || `Unit ${currentStage}`;
+      const scopeDesc = currentActivePushedExam 
+        ? `🎓 ${currentActivePushedExam.title || 'Ustaad ki Exam'}`
+        : ({
+            current: `Unit ${currentStage} Lesson ${currentLesson}`,
+            stage: `Entire Unit ${currentStage}`,
+            custom: `${examScopeSelection.size} Lessons Selected`,
+            starred: `⭐ Starred Words (${favourites.length})`
+          }[examScopeMode] || `Unit ${currentStage}`);
 
       const breakdownRows = Object.entries(examBreakdown).map(([type, bd]) => {
         const labels = {
@@ -3113,6 +3416,7 @@ var App = (function() {
         openExamConfig: App.openExam || function(){},
         openPracticeExam: App.openExam || function(){},
         openUstaadExam: App.openUstaadExam || function(){},
+        startPushedExam: App.startPushedExam || function(){},
         filterCustomAnswers,
         // Firebase Auth exports (Phase 4)
         doLogin: App.doLogin || function(){},
@@ -3161,10 +3465,21 @@ var App = (function() {
           }
 
           const activeExam = exams[0];
-          if (typeof showToast === 'function') {
-            showToast(`Exam: ${activeExam.title || 'Ustaad ki Exam'}`);
+          // Preload units in activeExam.scope if needed
+          if (activeExam.scope && Array.isArray(activeExam.scope.unitKeys)) {
+            for (const uk of activeExam.scope.unitKeys) {
+              const uNum = parseInt(String(uk).replace(/\D/g, ''));
+              if (uNum && !bookData.stages[`Stage${uNum}`]) {
+                await loadUnit(uNum).catch(() => {});
+              }
+            }
           }
-          if (typeof App.openExam === 'function') App.openExam();
+
+          if (typeof App.startPushedExam === 'function') {
+            App.startPushedExam(activeExam);
+          } else if (typeof App.openExam === 'function') {
+            App.openExam();
+          }
           return;
         } catch(e) {
           console.warn('[Muallim] Could not fetch pushed exams:', e);

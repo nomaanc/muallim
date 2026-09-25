@@ -4,6 +4,45 @@ All notable changes to the Muallim ul-Qur'an PWA are documented in this file.
 
 ---
 
+## [2.1.0] — 2026-09-25
+
+### 🌟 Ustaad ki Exam, Analytics & Multi-Dimensional Search Update
+
+#### 1. Ustaad ki Exam & Submissions Visibility (Admin & Student)
+- **Exam Results Architecture**: Submissions record `isUstaadExam`, `pushedExamId`, `examTitle`, `score` (percentage), `grade`, `correct`, `total`, and timestamp.
+- **Admin Exam Scores Viewer**: Added **"Scores / Submissions"** column to `admin.html` with expandable details row showing:
+  - Aggregate statistics: Total Submissions, Average Score (%), Pass Rate (≥50%), Highest Score.
+  - Submissions table: Student Name, Email / UID, Score %, Grade badge, Questions correct/total, and Submitted Date.
+- **Student Exam Flow**: Pushed official Ustaad exams display an official banner in the exam setup view, filter questions strictly by the pushed scope, and automatically push submissions to Firestore `/exam_results/{examId}/submissions/{uid}` and sync to `user_data/{uid}.examHistory`.
+
+#### 2. Deep Student Analytics (`admin.html`)
+- **Lesson Study Time**: Displays active study duration per lesson in minutes (`S1L1: 15m`, `S1L2: 20m`...) calculated from Firestore `user_data/{uid}.lessonTime`.
+- **Weak / Repeatedly Failed Words**: Added auto-tracking on wrong exam attempts to Firestore `user_data/{uid}.weakWords`. Admin view highlights repeated mistake words in Arabic script with failure count badges (`❌ 3x`) and lesson tags.
+- **Exam Breakdown**: Clear distinction between official Ustaad Exams and self-practice attempts with grade badges and dates.
+- **Starred Vocabulary & Custom Answers**: Visual badges for starred Arabic vocabulary and student-submitted custom translation corrections.
+
+#### 3. Menu Refactor & User Management
+- **Hamburger Menu Cleanup**: Removed Password and Logout buttons from the student hamburger menu in `index.html`. Replaced with a subtle "Sign Out" link.
+- **Admin Settings Hub**: Centralized admin password changes and logout in `admin.html` Settings.
+- **Manual Student Creation**: Added "＋ Add Student" modal in User Management allowing admins to register students with custom email and password via an isolated secondary Firebase App instance.
+- **Password Reset / Change**: Added "🔑 Change Pass" action per user with support for Firebase Cloud Functions (`setStudentPassword`) and fallback password reset emails.
+
+#### 4. Overview Section Deep Links
+- **Interactive Stat Cards**: Clicking "Total Users", "Active (7d)", "Exam Results", or "Broadcasts" immediately navigates to their respective admin sections.
+- **Direct Activity Navigation**: Recent activity feed items are clickable (`jumpToStudentDetail`), opening and scrolling directly to that student's expanded analytics dossier.
+
+#### 5. Multi-Dimensional Arabic Search & Universal Typography
+- **Dedicated Search Index (`data/search-index.json`)**: Built a deduplicated corpus of 5,928 verified Quranic vocabulary entries mapping Arabic with preserved harakat, Roman transliteration (e.g. *Ash-Shams*), English meaning (*Sun*), and root letters.
+- **5-Way Search Matching**: Search query matches across Arabic (with/without diacritics), Transliteration, English, Root, and Hinglish.
+- **Universal Arabic Font Slider**: Font scale slider (`--arabic-scale`) in hamburger menu applies consistently across workbook lessons, search results, drill cards, exam questions, and exam review.
+
+#### 6. Unit 4 Consolidation & Integrity
+- **Merged Lesson 18 into 17**: S4L18 (Page 39) merged into S4L17 as section `s2`. Updated Unit 4 count from 18 to 17 in `data/unit4.json` and `data/metadata.json`. Image renamed to `images/S4L17p2.png`.
+- **Transparent Key Migration**: Implemented `migrateS4L18Keys()` in `js/app.js` to migrate legacy `S4L18_*` keys to `S4L17_*` in bookmarks, stars, and custom answers.
+- **Firestore Rules & Broadcast Fix**: Fixed broadcast timestamp synchronization (`sentAt` & `createdAt`) and deployed Firestore rules supporting submissions subcollection and admin delete.
+
+---
+
 ## [2.0.0] — 2026-09-18
 
 ### 🚀 Major Architectural Transformation (Phases 1–4)

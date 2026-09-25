@@ -157,9 +157,8 @@
               <div id="auth-user-display" style="font-weight:700; font-size:0.88rem;">User</div>
               <div id="auth-user-role" style="font-size:0.75rem; color:var(--text-muted);">student</div>
             </div>
-            <div style="display:flex; gap:4px;">
-              <button class="btn-secondary" style="padding:4px 8px; font-size:0.75rem;" onclick="App.changePassword()">🔑 Password</button>
-              <button class="btn-secondary" style="padding:4px 8px; font-size:0.75rem;" onclick="App.doLogout()">🚪 Logout</button>
+            <div style="display:flex; gap:6px; align-items:center;">
+              <a href="#" onclick="App.doLogout(); return false;" style="font-size:0.75rem; color:var(--text-muted); text-decoration:underline; cursor:pointer;">Sign Out</a>
             </div>
           </div>
           <!-- Admin Panel link (shown only for role === 'admin') -->
@@ -297,9 +296,9 @@
       <button class="icon-btn" onclick="document.getElementById('search-modal').close()">✕</button>
     </div>
     <div class="modal-body">
-      <input type="text" id="search-input" class="search-box" placeholder="Search Arabic, Hinglish, or keywords..." oninput="App.performSearch(this.value)">
+      <input type="text" id="search-input" class="search-box" placeholder="Search Arabic, Transliteration, English, or Hinglish..." oninput="App.performSearch(this.value)">
       <div id="search-results-mount" class="search-results-list">
-        <p style="text-align:center; color:var(--text-muted); padding:20px;">Type at least 2 characters to search all 114 lessons.</p>
+        <p style="text-align:center; color:var(--text-muted); padding:20px;">Type at least 2 characters to search across Arabic, Transliteration, English, and Hinglish.</p>
       </div>
     </div>
   </dialog>
