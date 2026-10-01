@@ -46,6 +46,11 @@
         --shadow-md: 0 4px 12px rgba(45,36,30,0.08);
         --shadow-lg: 0 10px 25px rgba(45,36,30,0.12);
         --header-height: 60px;
+        --root-color: #2D241E;
+        --nonroot-color: #c0392b;
+        --nonroot-bg: #fdf2f0;
+        --quran-gold: #C5A880;
+        --quran-glow: rgba(197, 168, 128, 0.22);
       }
       [data-theme="dark"] {
         --bg-parchment: #121316;
@@ -67,6 +72,9 @@
         --shadow-sm: 0 1px 3px rgba(0,0,0,0.5);
         --shadow-md: 0 4px 12px rgba(0,0,0,0.6);
         --shadow-lg: 0 10px 25px rgba(0,0,0,0.7);
+        --root-color: #F3F4F6;
+        --nonroot-color: #e57373;
+        --nonroot-bg: #2a1a1a;
       }
     }
 
@@ -1688,3 +1696,147 @@
           width: 100%; padding: 13px; font-size: 1rem; font-weight: 700;
           margin-top: 4px;
         }
+
+/* === Paired Vocabulary Cards === */
+.paired-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-surface);
+  border: 1px solid var(--divider-light);
+  border-radius: var(--radius-md);
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 0.75rem;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.paired-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.paired-card__arabic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  font-family: var(--font-arabic);
+  font-size: calc(var(--arabic-scale) * 1.1);
+  line-height: 1.6;
+  direction: rtl;
+}
+
+.arabic-root {
+  color: var(--root-color);
+  font-weight: 700;
+}
+.arabic-root-part {
+  color: var(--root-color);
+}
+.arabic-derived {
+  /* container for root-part + nonroot suffix */
+}
+.nonroot {
+  color: var(--nonroot-color);
+  font-weight: 400;
+}
+
+/* SVG Arrow */
+.morph-arrow {
+  flex-shrink: 0;
+}
+@keyframes draw-arrow {
+  to { stroke-dashoffset: 0; }
+}
+@keyframes fade-in-arrow {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.morph-arrow.animate .arrow-track {
+  animation: draw-arrow 0.4s ease-out 0.1s forwards;
+}
+.morph-arrow.animate .arrow-head {
+  opacity: 0;
+  animation: fade-in-arrow 0.2s ease-out 0.4s both;
+}
+
+/* Suffix animation */
+@keyframes suffix-arrive {
+  from { opacity: 0; transform: translateY(10px) scale(0.7); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+.nonroot.animate {
+  animation: suffix-arrive 0.35s cubic-bezier(0.34, 1.56, 0.64, 1) 0.5s both;
+}
+
+.paired-card__hinglish {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-family: var(--font-latin);
+  font-size: var(--hinglish-scale);
+  color: var(--text-secondary);
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--divider-light);
+}
+.hin-arrow {
+  color: var(--divider-gold);
+  font-weight: 600;
+}
+
+.paired-card__badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+.grammar-tag {
+  font-family: var(--font-arabic);
+  font-size: 0.85rem;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-surface-elevated);
+  color: var(--divider-gold);
+}
+.suffix-chip {
+  font-size: 0.8rem;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  background: var(--nonroot-bg);
+  color: var(--nonroot-color);
+}
+
+/* Rule paragraph Hinglish */
+.rule-block-hinglish {
+  background: var(--bg-surface-elevated);
+  border-left: 4px solid var(--divider-gold);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.25rem;
+  font-family: var(--font-latin);
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text-primary);
+}
+.rule-block-hinglish .rule-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--divider-gold);
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .morph-arrow.animate .arrow-track,
+  .morph-arrow.animate .arrow-head,
+  .nonroot.animate {
+    animation: none;
+    opacity: 1;
+    stroke-dashoffset: 0;
+  }
+  .paired-card:hover {
+    transform: none;
+  }
+}

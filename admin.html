@@ -777,12 +777,12 @@
   <div class="modal-backdrop" id="add-student-modal-backdrop" onclick="closeAddStudentModalIfBackdrop(event)">
     <div class="modal-box">
       <div class="modal-header">
-        <div class="modal-title">👤 Add New Student</div>
+        <div class="modal-title">👤 Add New User</div>
         <button class="modal-close" onclick="closeAddStudentModal()">✕</button>
       </div>
 
       <div class="form-group">
-        <label class="form-label">Student Name</label>
+        <label class="form-label">Name</label>
         <input type="text" id="new-student-name" class="form-input" placeholder="e.g. Ahmed Khan">
       </div>
 
@@ -796,9 +796,17 @@
         <input type="password" id="new-student-password" class="form-input" placeholder="Set initial password">
       </div>
 
+      <div class="form-group">
+        <label class="form-label">Role</label>
+        <div style="display:flex;gap:12px;">
+          <label style="cursor:pointer;"><input type="radio" name="new-user-role" value="student" checked> Student</label>
+          <label style="cursor:pointer;"><input type="radio" name="new-user-role" value="admin"> Admin</label>
+        </div>
+      </div>
+
       <div class="modal-footer">
         <button class="btn btn-secondary" onclick="closeAddStudentModal()">Cancel</button>
-        <button class="btn btn-primary" id="btn-save-new-student" onclick="createStudentManual()">＋ Create Student</button>
+        <button class="btn btn-primary" id="btn-save-new-student" onclick="createStudentManual()">＋ Create User</button>
       </div>
     </div>
   </div>
@@ -1863,6 +1871,10 @@
     }
 
     function toggleUserRole(uid, currentRole) {
+      if (uid === (firebase.auth().currentUser && firebase.auth().currentUser.uid) && currentRole === 'admin') {
+        adminToast('⚠️ You cannot demote yourself');
+        return;
+      }
       if (uid === (_adminUser && _adminUser.uid)) {
         adminToast('⚠️ Cannot change your own role'); return;
       }
@@ -1921,6 +1933,7 @@
       var name = (document.getElementById('new-student-name').value || '').trim();
       var email = (document.getElementById('new-student-email').value || '').trim();
       var pass = (document.getElementById('new-student-password').value || '').trim();
+      var role = (document.querySelector('input[name="new-user-role"]:checked') || {}).value || 'student';
 
       if (!name || name.length < 2) {
         adminToast('⚠️ Please enter student name (at least 2 characters)');
@@ -1953,13 +1966,15 @@
       secApp.auth().createUserWithEmailAndPassword(email, pass).then(function(userCred) {
         var newUid = userCred.user.uid;
 
-        // 1. Create /users doc
-        return db.collection('users').doc(newUid).set({
-          name: name,
-          displayName: name,
-          email: email,
-          role: 'student',
-          createdAt: firebase.firestore.FieldValue.serverTimestamp()
+        return secApp.auth().signOut().then(function() {
+          // 1. Create /users doc
+          return db.collection('users').doc(newUid).set({
+            name: name,
+            displayName: name,
+            email: email,
+            role: role,
+            createdAt: firebase.firestore.FieldValue.serverTimestamp()
+          });
         }).then(function() {
           // 2. Initialize /user_data doc
           return db.collection('user_data').doc(newUid).set({
@@ -1973,16 +1988,16 @@
             lessonTime: {}
           }, { merge: true });
         }).then(function() {
-          adminToast('✅ Student "' + name + '" created successfully!');
+          adminToast('✅ ' + role.charAt(0).toUpperCase() + role.slice(1) + ' "' + name + '" created successfully!');
           closeAddStudentModal();
           loadUsers();
           if (_activeSection === 'students') loadStudents();
         });
       }).catch(function(err) {
         console.error('[Admin] createStudent error:', err);
-        adminToast('❌ Error creating student: ' + err.message);
+        adminToast('❌ Error creating user: ' + err.message);
       }).finally(function() {
-        if (btn) { btn.disabled = false; btn.textContent = '＋ Create Student'; }
+        if (btn) { btn.disabled = false; btn.textContent = '＋ Create User'; }
         try { secApp.delete(); } catch(e) {}
       });
     }

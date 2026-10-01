@@ -371,6 +371,11 @@ var App = (function() {
             }
           } else if (secType === 'rule_paragraph') {
             html += `<div class="rule-card">${d.text}</div>`;
+          } else if (secType === 'rule_paragraph_hinglish') {
+            html += `<div class="rule-block-hinglish">`;
+            if (d.title) html += `<div class="rule-title">${d.title}</div>`;
+            if (d.text) html += `<div class="rule-text">${d.text}</div>`;
+            html += `</div>`;
           } else if (secType === 'grace_box') {
             html += `<div class="grace-card">✨ ${d.text}</div>`;
           } else if (secType === 'grid' || secType === 'three_col_list' || secType === 'waw_grid') {
@@ -396,24 +401,78 @@ var App = (function() {
             html += `</div>`;
           } else if (secType === 'two_col_numbered_list') {
             html += `<div class="bidi-grid cols-2">`;
-            (d.items || []).forEach((it, iIdx) => {
-              const itemKey = `S${currentStage}L${currentLesson}_num_${it.id || iIdx}`;
-              const starred = isStarred(itemKey);
-              const escAr = (it.arabic || '').replace(/'/g, "\\'");
-              const escHi = (it.hinglish || '').replace(/'/g, "\\'");
-              html += `
-                <div class="vocab-card" style="${it.full_width ? 'grid-column: 1 / -1;' : ''}">
-                  <div class="card-top" data-item-id="${itemKey}">
-                    ${it.id ? `<span class="card-number">${iIdx + 1}</span>` : ''}
-                    <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
-                    <button class="card-action-btn ${starred ? 'starred' : ''}" aria-pressed="${starred ? 'true' : 'false'}" aria-label="${starred ? 'Starred' : 'Star this item'}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">${starred ? '★' : '☆'}</button>
-                    ${bmSvgHtml(itemKey)}
+            const items = d.items || [];
+            let i = 0;
+            while (i < items.length) {
+              const it = items[i];
+              if (it.display_mode === 'paired' && it.pair_role === 'root' && items[i + 1]?.pair_role === 'derived') {
+                const rootItem = it;
+                const derivedItem = items[i + 1];
+                const rootKey = `S${currentStage}L${currentLesson}_num_${rootItem.id || i}`;
+                const derivedKey = `S${currentStage}L${currentLesson}_num_${derivedItem.id || (i + 1)}`;
+                const rootStarred = isStarred(rootKey);
+                const derivedStarred = isStarred(derivedKey);
+                const rootEscAr = (rootItem.arabic || '').replace(/'/g, "\\'");
+                const rootEscHi = (rootItem.hinglish || '').replace(/'/g, "\\'");
+                const derivedEscAr = (derivedItem.arabic || '').replace(/'/g, "\\'");
+                const derivedEscHi = (derivedItem.hinglish || '').replace(/'/g, "\\'");
+                
+                let suffixHtml = '';
+                if (derivedItem.arabic_suffix) {
+                  suffixHtml = `<span class="arabic-root-part">${derivedItem.arabic_root || ''}</span><span class="nonroot animate">${derivedItem.arabic_suffix}</span>`;
+                } else {
+                  suffixHtml = `<span class="arabic-root-part">${derivedItem.arabic}</span>`;
+                }
+                
+                html += `
+                  <div class="paired-card" style="${rootItem.full_width ? 'grid-column: 1 / -1;' : ''}">
+                    <div class="paired-card__arabic" dir="rtl">
+                      <span class="arabic-root">${rootItem.arabic}</span>
+                      <svg class="morph-arrow animate" viewBox="0 0 80 24" width="80" height="24" aria-hidden="true">
+                        <path class="arrow-track" d="M70,12 L10,12" stroke="var(--divider-gold)" stroke-width="2" fill="none" stroke-dasharray="60" stroke-dashoffset="60"/>
+                        <polygon class="arrow-head" points="18,7 8,12 18,17" fill="var(--divider-gold)"/>
+                      </svg>
+                      <span class="arabic-derived">${suffixHtml}</span>
+                    </div>
+                    <div class="paired-card__hinglish">
+                      <span>${rootItem.hinglish || ''}</span>
+                      <span class="hin-arrow">➜</span>
+                      <span>${derivedItem.hinglish || ''}</span>
+                    </div>
+                    <div class="card-top" style="position: relative; margin-top: 1rem; border-top: 1px solid var(--divider-light); padding-top: 0.5rem; display: flex; justify-content: space-between;">
+                      <div style="display:flex; gap:0.5rem; align-items:center;">
+                        <button class="card-action-btn" onclick="App.speakArabic('${rootEscAr}')">🔊</button>
+                        <button class="card-action-btn ${rootStarred ? 'starred' : ''}" aria-pressed="${rootStarred ? 'true' : 'false'}" aria-label="${rootStarred ? 'Starred' : 'Star this item'}" onclick="App.toggleStarInPlace(this, '${rootKey}', '${rootEscAr}', '${rootEscHi}')">${rootStarred ? '★' : '☆'}</button>
+                      </div>
+                      <div style="display:flex; gap:0.5rem; align-items:center;">
+                        <button class="card-action-btn" onclick="App.speakArabic('${derivedEscAr}')">🔊</button>
+                        <button class="card-action-btn ${derivedStarred ? 'starred' : ''}" aria-pressed="${derivedStarred ? 'true' : 'false'}" aria-label="${derivedStarred ? 'Starred' : 'Star this item'}" onclick="App.toggleStarInPlace(this, '${derivedKey}', '${derivedEscAr}', '${derivedEscHi}')">${derivedStarred ? '★' : '☆'}</button>
+                      </div>
+                    </div>
                   </div>
-                  <div class="arabic-text">${it.arabic}</div>
-                  ${renderDualAnswerHtml(itemKey, it.arabic, it.hinglish)}
-                </div>
-              `;
-            });
+                `;
+                i += 2;
+              } else {
+                const iIdx = i;
+                const itemKey = `S${currentStage}L${currentLesson}_num_${it.id || iIdx}`;
+                const starred = isStarred(itemKey);
+                const escAr = (it.arabic || '').replace(/'/g, "\\'");
+                const escHi = (it.hinglish || '').replace(/'/g, "\\'");
+                html += `
+                  <div class="vocab-card" style="${it.full_width ? 'grid-column: 1 / -1;' : ''}">
+                    <div class="card-top" data-item-id="${itemKey}">
+                      ${it.id ? `<span class="card-number">${iIdx + 1}</span>` : ''}
+                      <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
+                      <button class="card-action-btn ${starred ? 'starred' : ''}" aria-pressed="${starred ? 'true' : 'false'}" aria-label="${starred ? 'Starred' : 'Star this item'}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">${starred ? '★' : '☆'}</button>
+                      ${bmSvgHtml(itemKey)}
+                    </div>
+                    <div class="arabic-text">${it.arabic}</div>
+                    ${renderDualAnswerHtml(itemKey, it.arabic, it.hinglish)}
+                  </div>
+                `;
+                i += 1;
+              }
+            }
             html += `</div>`;
           } else if (secType === 'exercise_header') {
             html += `<div class="section-exercise-divider"><span>Exercise</span></div>`;

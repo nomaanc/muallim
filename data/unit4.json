@@ -7758,6 +7758,15 @@
       "title": "Unit 4 Lesson 14",
       "sections": [
         {
+          "id": "rule_hinglish_s4l14",
+          "type": "rule_paragraph_hinglish",
+          "data": {
+            "text": "Kisi bhi ism (noun) ke aakhir mein Yaa-e Mutakallim (ي) laga dein to uska matlab hoga 'mera / meri'. Jaise: بَيْتُ (ghar) + ي = بَيْتِي (mera ghar)",
+            "underline": false,
+            "font_size": 10
+          }
+        },
+        {
           "id": "s1",
           "type": "two_col_numbered_list",
           "data": {
@@ -7767,649 +7776,1027 @@
                 "id": 1,
                 "arabic": "بَيْتٌ",
                 "hinglish": "ghar",
-                "is_filled": true
+                "is_filled": true,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 2,
                 "arabic": "بَيْتِي",
                 "hinglish": "mera ghar",
-                "is_filled": true
+                "is_filled": true,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "بَيْت",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 3,
                 "arabic": "رَبٌّ",
                 "hinglish": "Rabb",
-                "is_filled": true
+                "is_filled": true,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 4,
                 "arabic": "رَبِّي",
                 "hinglish": "mera Rabb",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "رَبِّ",
+                "arabic_suffix": "ي"
               },
               {
                 "id": 5,
                 "arabic": "رَحْمَةٌ",
                 "hinglish": "rahmat",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 6,
                 "arabic": "رَحْمَتِي",
                 "hinglish": "meri rahmat",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "رَحْمَت",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 7,
                 "arabic": "رَبٌّ",
                 "hinglish": "Rabb",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 8,
                 "arabic": "رَبِّي",
                 "hinglish": "mera Rabb",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "رَبِّ",
+                "arabic_suffix": "ي"
               },
               {
                 "id": 9,
                 "arabic": "صَلَاةٌ",
                 "hinglish": "namaz",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 10,
                 "arabic": "صَلَاتِي",
                 "hinglish": "meri namaz",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "صَلَات",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 11,
                 "arabic": "قَلْبٌ",
                 "hinglish": "dil",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 12,
                 "arabic": "قَلْبِي",
                 "hinglish": "mera dil",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "قَلْب",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 13,
                 "arabic": "أَرْضٌ",
                 "hinglish": "zameen",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 14,
                 "arabic": "أَرْضِي",
                 "hinglish": "meri zameen",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "أَرْض",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 15,
                 "arabic": "غَضَبٌ",
                 "hinglish": "ghussa",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 16,
                 "arabic": "غَضَبِي",
                 "hinglish": "mera ghussa",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "غَضَب",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 17,
                 "arabic": "بَيْتٌ",
                 "hinglish": "ghar",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 18,
                 "arabic": "بَيْتِي",
                 "hinglish": "mera ghar",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "بَيْت",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 19,
                 "arabic": "أَخٌ",
                 "hinglish": "bhai",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 20,
                 "arabic": "أَخِي",
                 "hinglish": "mera bhai",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "أَخ",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 21,
                 "arabic": "أُمٌّ",
                 "hinglish": "maa",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 22,
                 "arabic": "أُمِّي",
                 "hinglish": "meri maa",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "أُمِّ",
+                "arabic_suffix": "ي"
               },
               {
                 "id": 23,
                 "arabic": "رَحْمَةٌ",
                 "hinglish": "rahmat",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 24,
                 "arabic": "رَحْمَتِي",
                 "hinglish": "meri rahmat",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "رَحْمَت",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 25,
                 "arabic": "صِرَاطٌ",
                 "hinglish": "rasta",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 26,
                 "arabic": "صِرَاطِي",
                 "hinglish": "mera rasta",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "صِرَاط",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 27,
                 "arabic": "لِسَانٌ",
                 "hinglish": "zaban",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 28,
                 "arabic": "لِسَانِي",
                 "hinglish": "meri zaban",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "لِسَان",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 29,
                 "arabic": "رَأْسٌ",
                 "hinglish": "sar",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 30,
                 "arabic": "رَأْسِي",
                 "hinglish": "mera sar",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "رَأْس",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 31,
                 "arabic": "وَلِيٌّ",
                 "hinglish": "karsaz",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 32,
                 "arabic": "وَلِيِّي",
                 "hinglish": "mera karsaz",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "وَلِيِّ",
+                "arabic_suffix": "ي"
               },
               {
                 "id": 33,
                 "arabic": "رَسُولٌ",
                 "hinglish": "Rasool",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 34,
                 "arabic": "رَسُولِي",
                 "hinglish": "mera Rasool",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "رَسُول",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 35,
                 "arabic": "ذِكْرٌ",
                 "hinglish": "zikr",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 36,
                 "arabic": "ذِكْرِي",
                 "hinglish": "mera zikr",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "ذِكْر",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 37,
                 "arabic": "نَفْسٌ",
                 "hinglish": "nafs",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 38,
                 "arabic": "نَفْسِي",
                 "hinglish": "mera nafs",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "نَفْس",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 39,
                 "arabic": "قَوْمٌ",
                 "hinglish": "qom",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 40,
                 "arabic": "قَوْمِي",
                 "hinglish": "meri qom",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "قَوْم",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 41,
                 "arabic": "عَذَابٌ",
                 "hinglish": "azab",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 42,
                 "arabic": "عَذَابِي",
                 "hinglish": "mera azab",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "عَذَاب",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 43,
                 "arabic": "أَهْلٌ",
                 "hinglish": "ghar-wale",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 44,
                 "arabic": "أَهْلِي",
                 "hinglish": "mere ghar-wale",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "أَهْل",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 45,
                 "arabic": "أَبٌ",
                 "hinglish": "baap",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 46,
                 "arabic": "أَبِي",
                 "hinglish": "mere baap",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "أَب",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 47,
                 "arabic": "بَعْلٌ",
                 "hinglish": "shohar",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 48,
                 "arabic": "بَعْلِي",
                 "hinglish": "mera shohar",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "بَعْل",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 49,
                 "arabic": "نِعْمَةٌ",
                 "hinglish": "ne'mat",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 50,
                 "arabic": "نِعْمَتِي",
                 "hinglish": "meri ne'mat",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "نِعْمَت",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 51,
                 "arabic": "سَبِيلٌ",
                 "hinglish": "rasta",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 52,
                 "arabic": "سَبِيلِي",
                 "hinglish": "mera rasta",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "سَبِيل",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 53,
                 "arabic": "بَطْنٌ",
                 "hinglish": "pet",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 54,
                 "arabic": "بَطْنِي",
                 "hinglish": "mera pet",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "بَطْن",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 55,
                 "arabic": "وَجْهٌ",
                 "hinglish": "chehra",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 56,
                 "arabic": "وَجْهِي",
                 "hinglish": "mera chehra",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "وَجْه",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 57,
                 "arabic": "عَدُوٌّ",
                 "hinglish": "dushman",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 58,
                 "arabic": "عَدُوِّي",
                 "hinglish": "mera dushman",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "عَدُوِّ",
+                "arabic_suffix": "ي"
               },
               {
                 "id": 59,
                 "arabic": "دِينٌ",
                 "hinglish": "deen",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 60,
                 "arabic": "دِينِي",
                 "hinglish": "mera deen",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "دِين",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 61,
                 "arabic": "عِبَادَةٌ",
                 "hinglish": "ibadat",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 62,
                 "arabic": "عِبَادَتِي",
                 "hinglish": "meri ibadat",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "عِبَادَت",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 63,
                 "arabic": "رُوحٌ",
                 "hinglish": "rooh",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 64,
                 "arabic": "رُوحِي",
                 "hinglish": "meri rooh",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "رُوح",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 65,
                 "arabic": "أَمْرٌ",
                 "hinglish": "hukm",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 66,
                 "arabic": "أَمْرِي",
                 "hinglish": "mera hukm",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "أَمْر",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 67,
                 "arabic": "لَعْنَةٌ",
                 "hinglish": "la'nat",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 68,
                 "arabic": "لَعْنَتِي",
                 "hinglish": "meri la'nat",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "لَعْنَت",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 69,
                 "arabic": "ذُرِّيَّةٌ",
                 "hinglish": "aulad",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 70,
                 "arabic": "ذُرِّيَّتِي",
                 "hinglish": "meri aulad",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "ذُرِّيَّت",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 71,
                 "arabic": "ابْنٌ",
                 "hinglish": "beta",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 72,
                 "arabic": "ابْنِي",
                 "hinglish": "mera beta",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "ابْن",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 73,
                 "arabic": "إِثْمٌ",
                 "hinglish": "gunah",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 74,
                 "arabic": "إِثْمِي",
                 "hinglish": "mera gunah",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "إِثْم",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 75,
                 "arabic": "جَنَّةٌ",
                 "hinglish": "jannat",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 76,
                 "arabic": "جَنَّتِي",
                 "hinglish": "meri jannat",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "جَنَّت",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 77,
                 "arabic": "كَيْدٌ",
                 "hinglish": "tadbeer",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 78,
                 "arabic": "كَيْدِي",
                 "hinglish": "meri tadbeer",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "كَيْد",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 79,
                 "arabic": "عَيْنٌ",
                 "hinglish": "aankh",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 80,
                 "arabic": "عَيْنِي",
                 "hinglish": "meri aankh",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "عَيْن",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 81,
                 "arabic": "يَدٌ",
                 "hinglish": "haath",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 82,
                 "arabic": "يَدِي",
                 "hinglish": "mera haath",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "يَد",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 83,
                 "arabic": "حَسْبٌ",
                 "hinglish": "sahara",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 84,
                 "arabic": "حَسْبِي",
                 "hinglish": "mera sahara",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "حَسْب",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 85,
                 "arabic": "رُؤْيَا",
                 "hinglish": "khwab",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 86,
                 "arabic": "رُؤْيَايَ",
                 "hinglish": "mera khwab",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "رُؤْيَايَ",
+                "arabic_suffix": ""
               },
               {
                 "id": 87,
                 "arabic": "كِتَابٌ",
                 "hinglish": "kitab",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 88,
                 "arabic": "كِتَابِي",
                 "hinglish": "meri kitab",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "كِتَاب",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 89,
                 "arabic": "عَمَلٌ",
                 "hinglish": "amal",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 90,
                 "arabic": "عَمَلِي",
                 "hinglish": "mera amal",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "عَمَل",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 91,
                 "arabic": "نُصْحٌ",
                 "hinglish": "naseehat",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 92,
                 "arabic": "نُصْحِي",
                 "hinglish": "meri naseehat",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "نُصْح",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 93,
                 "arabic": "عَصَا",
                 "hinglish": "lathi",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 94,
                 "arabic": "عَصَايَ",
                 "hinglish": "meri lathi",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "عَصَايَ",
+                "arabic_suffix": ""
               },
               {
                 "id": 95,
                 "arabic": "رِسَالَةٌ",
                 "hinglish": "paigham",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 96,
                 "arabic": "رِسَالَاتِي",
                 "hinglish": "mere paighamaat",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "رِسَالَات",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 97,
                 "arabic": "قَوْلٌ",
                 "hinglish": "baat",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 98,
                 "arabic": "قَوْلِي",
                 "hinglish": "meri baat",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "قَوْل",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 99,
                 "arabic": "تَذْكِيرٌ",
                 "hinglish": "yaad-dihani",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 100,
                 "arabic": "تَذْكِيرِي",
                 "hinglish": "meri yaad-dihani",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "تَذْكِير",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 101,
                 "arabic": "حَيَاةٌ",
                 "hinglish": "zindagi",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 102,
                 "arabic": "حَيَاتِي",
                 "hinglish": "meri zindagi",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "حَيَات",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 103,
                 "arabic": "آيَاتٌ",
                 "hinglish": "nishaniyan",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 104,
                 "arabic": "آيَاتِي",
                 "hinglish": "meri nishaniyan",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "آيَات",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 105,
                 "arabic": "كَلَامٌ",
                 "hinglish": "kalaam",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 106,
                 "arabic": "كَلَامِي",
                 "hinglish": "mera kalaam",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "كَلَام",
+                "arabic_suffix": "ِي"
               },
               {
                 "id": 107,
                 "arabic": "إِجْرَامٌ",
                 "hinglish": "jurm",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 108,
                 "arabic": "إِجْرَامِي",
                 "hinglish": "mera jurm",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "إِجْرَام",
+                "arabic_suffix": "ِي"
               }
             ]
           }
@@ -8464,6 +8851,15 @@
       "title": "Unit 4 Lesson 15",
       "sections": [
         {
+          "id": "rule_hinglish_s4l15",
+          "type": "rule_paragraph_hinglish",
+          "data": {
+            "text": "Harf-e-Jarr (Preposition) ke baad aane wale ism mein Yaa-e Mutakallim (ي) lagane ka tariqa.",
+            "underline": false,
+            "font_size": 10
+          }
+        },
+        {
           "id": "s1",
           "type": "two_col_numbered_list",
           "data": {
@@ -8473,37 +8869,58 @@
                 "id": 1,
                 "arabic": "بَيْتِيْ",
                 "hinglish": "mera ghar",
-                "is_filled": true
+                "is_filled": true,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 2,
                 "arabic": "إِلَى بَيْتِيْ",
                 "hinglish": "mere ghar ki taraf",
-                "is_filled": true
+                "is_filled": true,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "بَيْتِيْ",
+                "arabic_suffix": "إِلَى "
               },
               {
                 "id": 3,
                 "arabic": "رَبِّيْ",
                 "hinglish": "mera Rabb",
-                "is_filled": true
+                "is_filled": true,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 4,
                 "arabic": "مِنْ رَّبِّيْ",
                 "hinglish": "mere Rabb se",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": " رَّبِّيْ",
+                "arabic_suffix": "مِنْ"
               },
               {
                 "id": 5,
                 "arabic": "رَحْمَتِيْ",
                 "hinglish": "meri rahmat",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 6,
                 "arabic": "فِيْ رَحْمَتِيْ",
                 "hinglish": "meri rahmat mein",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_root": "رَحْمَتِيْ",
+                "arabic_suffix": "فِيْ "
               }
             ]
           }
@@ -8696,6 +9113,15 @@
       "title": "Unit 4 Lesson 16",
       "sections": [
         {
+          "id": "rule_hinglish_s4l16",
+          "type": "rule_paragraph_hinglish",
+          "data": {
+            "text": "Mukhtalif alfaaz ke sath Yaa-e Mutakallim (ي) ka istemaal.",
+            "underline": false,
+            "font_size": 10
+          }
+        },
+        {
           "id": "s1",
           "type": "two_col_numbered_list",
           "data": {
@@ -8723,109 +9149,172 @@
                 "id": 4,
                 "arabic": "قَلَمٌ",
                 "hinglish": "qalam",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 5,
                 "arabic": "قَلَمِي",
                 "hinglish": "mera qalam",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_suffix": "ِي",
+                "arabic_root": "قَلَم"
               },
               {
                 "id": 6,
                 "arabic": "إِنَّ",
                 "hinglish": "beshak",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 7,
                 "arabic": "إِنِّي / إِنَّنِي",
                 "hinglish": "beshak main",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_suffix": "ِي / إِنَّنِي",
+                "arabic_root": "إِنّ"
               },
               {
                 "id": 8,
                 "arabic": "أَنَّ",
                 "hinglish": "ke",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 9,
                 "arabic": "أَنِّي / أَنَّنِي",
                 "hinglish": "ke main",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_suffix": "ِي / أَنَّنِي",
+                "arabic_root": "أَنّ"
               },
               {
                 "id": 10,
                 "arabic": "مِنْ",
                 "hinglish": "se",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 11,
                 "arabic": "مِنِّي",
                 "hinglish": "mujh se",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_suffix": "ِّي",
+                "arabic_root": "مِن"
               },
               {
                 "id": 12,
                 "arabic": "لِ",
                 "hinglish": "ke liye",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 13,
                 "arabic": "لِي",
                 "hinglish": "mere liye",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_suffix": "ي",
+                "arabic_root": "لِ"
               },
               {
                 "id": 14,
                 "arabic": "إِلَى",
                 "hinglish": "ki taraf",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 15,
                 "arabic": "إِلَيَّ",
                 "hinglish": "meri taraf",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_suffix": "يَّ",
+                "arabic_root": "إِلَ"
               },
               {
                 "id": 16,
                 "arabic": "عَلَى",
                 "hinglish": "par",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 17,
                 "arabic": "عَلَيَّ",
                 "hinglish": "mujh par",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_suffix": "يَّ",
+                "arabic_root": "عَلَ"
               },
               {
                 "id": 18,
                 "arabic": "فِي",
                 "hinglish": "mein",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 19,
                 "arabic": "فِيَّ",
                 "hinglish": "mujh mein",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_suffix": "َّ",
+                "arabic_root": "فِي"
               },
               {
                 "id": 20,
                 "arabic": "عَنْ",
                 "hinglish": "bare mein se",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "root",
+                "arabic_suffix": ""
               },
               {
                 "id": 21,
                 "arabic": "عَنِّي",
                 "hinglish": "mere bare mein",
-                "is_filled": false
+                "is_filled": false,
+                "display_mode": "paired",
+                "pair_role": "derived",
+                "arabic_suffix": "ِّي",
+                "arabic_root": "عَن"
               },
               {
                 "id": 22,
