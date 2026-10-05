@@ -102,6 +102,20 @@
     </div>
 
     <div class="menu-group">
+      <div class="menu-label">Language / Zaban</div>
+      <select id="setting-lang-select" class="lang-picker-select" onchange="App.setLang(this.value)">
+        <option value="hinglish">Roman Urdu (Hinglish)</option>
+        <option value="en">English</option>
+        <option value="ur">Urdu (اردو)</option>
+        <option value="hi">Hindi (हिंदी)</option>
+        <option value="bn">Bengali (বাংলা)</option>
+        <option value="ko">Korean (한국어)</option>
+        <option value="zh">Chinese (中文)</option>
+        <option value="es">Spanish (Español)</option>
+      </select>
+    </div>
+
+    <div class="menu-group">
       <div class="menu-label">Workbook Mode</div>
       <div class="toggle-btn-group">
         <button id="mode-teacher-btn" class="toggle-opt selected" onclick="App.setMode('teacher')">Teacher</button>

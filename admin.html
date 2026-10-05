@@ -261,8 +261,29 @@
     }
     .badge-admin    { background: #ede9fe; color: var(--badge-admin); }
     .badge-student  { background: #e0f2fe; color: var(--badge-student); }
+    .badge-guest    { background: #f1f5f9; color: #475569; }
     .badge-active   { background: #dcfce7; color: #16a34a; }
     .badge-expired  { background: #fee2e2; color: var(--danger); }
+
+    .role-filter-btn {
+      padding: 5px 14px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      background: var(--bg-surface);
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .role-filter-btn:hover { border-color: var(--accent); color: var(--text-main); }
+    .role-filter-btn.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+      font-weight: 600;
+    }
+
 
     /* ─── Buttons ─── */
     .btn {
@@ -545,6 +566,9 @@
         <button class="sidebar-link" data-section="students"  onclick="adminNav('students')">
           <span class="nav-icon">👥</span> Students
         </button>
+        <button class="sidebar-link" data-section="curriculum" onclick="adminNav('curriculum')">
+          <span class="nav-icon">🧠</span> Curriculum Intelligence
+        </button>
         <button class="sidebar-link" data-section="exams"     onclick="adminNav('exams')">
           <span class="nav-icon">📋</span> Exams
         </button>
@@ -595,7 +619,15 @@
 
       <!-- ── Section: Students ── -->
       <section id="section-students" class="admin-section">
-        <div class="section-title">👥 Student Analytics</div>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px; flex-wrap:wrap; gap:10px;">
+          <div class="section-title" style="margin-bottom:0;">👥 Student Analytics</div>
+          <div style="display:flex; gap:8px;" id="students-role-filters">
+            <button class="role-filter-btn active" data-role="all" onclick="setStudentsRoleFilter('all')">All</button>
+            <button class="role-filter-btn" data-role="student" onclick="setStudentsRoleFilter('student')">Students</button>
+            <button class="role-filter-btn" data-role="guest" onclick="setStudentsRoleFilter('guest')">Guests</button>
+            <button class="role-filter-btn" data-role="admin" onclick="setStudentsRoleFilter('admin')">Admins</button>
+          </div>
+        </div>
         <div id="students-loading" class="state-center"><span class="spinner">⏳</span> Loading students...</div>
         <div id="students-error"  class="state-center" style="display:none;">❌ Data load karein mein masla hua. Please refresh.</div>
         <div id="students-table-wrap" style="display:none;" class="card table-wrapper">
@@ -614,6 +646,91 @@
             </thead>
             <tbody id="students-tbody"></tbody>
           </table>
+        </div>
+      </section>
+
+      <!-- ── Section: Curriculum Intelligence ── -->
+      <section id="section-curriculum" class="admin-section">
+        <div class="section-toolbar">
+          <div class="section-title" style="margin-bottom:0;">🧠 Curriculum Intelligence</div>
+          <button class="btn btn-primary btn-sm" id="btn-refresh-curriculum" onclick="recalculateCurriculumIntelligence()">🔄 Refresh Intelligence</button>
+        </div>
+
+        <div class="stat-grid">
+          <div class="stat-card">
+            <div class="stat-label">Registered Students</div>
+            <div class="stat-value" id="stat-curriculum-students">—</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Anonymous Guests</div>
+            <div class="stat-value" id="stat-curriculum-guests">—</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Hard Words Tracked</div>
+            <div class="stat-value" id="stat-curriculum-hard-words">—</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">Ambiguous Translations</div>
+            <div class="stat-value" id="stat-curriculum-ambiguous">—</div>
+          </div>
+        </div>
+
+        <div id="curriculum-loading" class="state-center"><span class="spinner">⏳</span> Loading curriculum intelligence...</div>
+        <div id="curriculum-content" style="display:none; flex-direction:column; gap:20px;">
+          <!-- Hard Words Heatmap -->
+          <div class="card">
+            <div style="margin-bottom:12px;">
+              <div style="font-weight:700; font-size:1rem;">🔥 Hard Words Heatmap</div>
+              <div style="font-size:0.8rem; color:var(--text-muted);">Words and phrases most frequently starred by students and guests for revision.</div>
+            </div>
+            <div class="table-wrapper">
+              <table id="curriculum-heatmap-table">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Arabic</th>
+                    <th>Hinglish Translation</th>
+                    <th>Lesson</th>
+                    <th>Student Stars</th>
+                    <th>Guest Stars</th>
+                    <th>Total Stars</th>
+                  </tr>
+                </thead>
+                <tbody id="curriculum-heatmap-tbody"></tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Translation Ambiguity & Corrections -->
+          <div class="card">
+            <div style="margin-bottom:12px;">
+              <div style="font-weight:700; font-size:1rem;">✏️ Translation Ambiguity &amp; Corrections</div>
+              <div style="font-size:0.8rem; color:var(--text-muted);">Items where learners submitted customized answers, identifying potentially confusing original translations.</div>
+            </div>
+            <div class="table-wrapper">
+              <table id="curriculum-corrections-table">
+                <thead>
+                  <tr>
+                    <th>Arabic</th>
+                    <th>Original Translation</th>
+                    <th>Lesson</th>
+                    <th>Edits Count</th>
+                    <th>Sample Learner Translations</th>
+                  </tr>
+                </thead>
+                <tbody id="curriculum-corrections-tbody"></tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Weak Words from Drills -->
+          <div class="card">
+            <div style="margin-bottom:12px;">
+              <div style="font-weight:700; font-size:1rem;">📉 Common Weak Words (Drill Failures)</div>
+              <div style="font-size:0.8rem; color:var(--text-muted);">Vocabulary repeatedly failed during revision tests and practice quizzes.</div>
+            </div>
+            <div id="curriculum-weak-chips" style="display:flex; flex-wrap:wrap; gap:8px;"></div>
+          </div>
         </div>
       </section>
 
@@ -728,6 +845,9 @@
     </button>
     <button class="bottom-nav-btn" data-section="students"   onclick="adminNav('students')">
       <span class="bn-icon">👥</span>Students
+    </button>
+    <button class="bottom-nav-btn" data-section="curriculum" onclick="adminNav('curriculum')">
+      <span class="bn-icon">🧠</span>Curric
     </button>
     <button class="bottom-nav-btn" data-section="exams"      onclick="adminNav('exams')">
       <span class="bn-icon">📋</span>Exams
@@ -915,8 +1035,9 @@
     }
 
     function loadSectionData(section) {
-      if (section === 'overview')    loadOverview();
+      if (section === 'overview')        loadOverview();
       else if (section === 'students')   loadStudents();
+      else if (section === 'curriculum') loadCurriculum();
       else if (section === 'exams')      loadExams();
       else if (section === 'broadcasts') loadBroadcasts();
       else if (section === 'users')      loadUsers();
@@ -1119,25 +1240,39 @@
     /* ═══════════════════════════════════════════════
        SECTION: STUDENTS
     ═══════════════════════════════════════════════ */
-    var _studentsData  = [];
+    var _studentsData    = [];
     var _studentsSortCol = 'lastActive';
     var _studentsSortAsc = false;
+    var _studentsRoleFilter = 'all';
+
+    function setStudentsRoleFilter(role) {
+      _studentsRoleFilter = role;
+      document.querySelectorAll('#students-role-filters .role-filter-btn').forEach(function(b) {
+        b.classList.toggle('active', b.getAttribute('data-role') === role);
+      });
+      _renderStudentsTable();
+    }
 
     function loadStudents() {
       _showStudentsLoading(true);
       Promise.all([
         db.collection('users').get(),
-        db.collection('user_data').get()
+        db.collection('user_data').get(),
+        db.collection('guest_data').get()
       ]).then(function(results) {
-        var usersSnap    = results[0];
-        var userDataSnap = results[1];
+        var usersSnap     = results[0];
+        var userDataSnap  = results[1];
+        var guestDataSnap = results[2];
 
         // Build a map of user_data by uid
         var udMap = {};
         userDataSnap.forEach(function(d) { udMap[d.id] = d.data() || {}; });
 
+        var handledUids = new Set();
         _studentsData = [];
+
         usersSnap.forEach(function(d) {
+          handledUids.add(d.id);
           var u  = d.data() || {};
           var ud = udMap[d.id] || {};
           var starredItems = ud.starredItems || ud.starred || [];
@@ -1162,6 +1297,40 @@
             examCount:   Array.isArray(examResults) ? examResults.length : 0,
             examResults: Array.isArray(examResults) ? examResults : [],
             lastBookmark:ud.lastBookmark || null,
+            starredItems:starredItems,
+            customTranslations: customTrans,
+            lessonTime:  lessonTime,
+            totalStudySec: totalSec,
+            weakWords:   weakWords
+          });
+        });
+
+        // Add anonymous guests from guest_data
+        guestDataSnap.forEach(function(d) {
+          if (handledUids.has(d.id)) return;
+          var gd = d.data() || {};
+          var starredItems = gd.starredItems || gd.starred || [];
+          var customTrans  = gd.customTranslations || gd.customAnswers || {};
+          var examResults  = gd.examResults || gd.examHistory || [];
+          var lessonTime   = gd.lessonTime || {};
+          var weakWords    = gd.weakWords || {};
+
+          var totalSec = 0;
+          Object.keys(lessonTime).forEach(function(k) {
+            totalSec += Number(lessonTime[k]) || 0;
+          });
+
+          _studentsData.push({
+            uid:         d.id,
+            name:        'Guest ' + d.id.slice(0, 6),
+            email:       '— (Guest Session)',
+            role:        'guest',
+            lastActive:  gd.lastSeen || gd.updatedAt || null,
+            starsCount:  Array.isArray(starredItems) ? starredItems.length : Object.keys(starredItems).length,
+            customCount: Object.keys(customTrans).length,
+            examCount:   Array.isArray(examResults) ? examResults.length : 0,
+            examResults: Array.isArray(examResults) ? examResults : [],
+            lastBookmark:gd.lastBookmark || null,
             starredItems:starredItems,
             customTranslations: customTrans,
             lessonTime:  lessonTime,
@@ -1201,8 +1370,14 @@
     }
 
     function _renderStudentsTable() {
+      // Filter by role
+      var filtered = _studentsData.filter(function(s) {
+        if (_studentsRoleFilter === 'all') return true;
+        return s.role === _studentsRoleFilter;
+      });
+
       // Sort
-      var sorted = _studentsData.slice().sort(function(a, b) {
+      var sorted = filtered.slice().sort(function(a, b) {
         var av = a[_studentsSortCol], bv = b[_studentsSortCol];
         if (_studentsSortCol === 'name') {
           av = (av || '').toLowerCase(); bv = (bv || '').toLowerCase();
@@ -1230,7 +1405,7 @@
       if (!tbody) return;
 
       if (sorted.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="8" style="text-align:center;color:var(--text-muted);padding:24px;">No students found.</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="8" style="text-align:center;color:var(--text-muted);padding:24px;">No learners found for this filter.</td></tr>';
         return;
       }
 
@@ -1238,7 +1413,9 @@
       sorted.forEach(function(s, i) {
         var roleB = s.role === 'admin'
           ? '<span class="badge badge-admin">admin</span>'
-          : '<span class="badge badge-student">student</span>';
+          : (s.role === 'guest'
+              ? '<span class="badge badge-guest">guest</span>'
+              : '<span class="badge badge-student">student</span>');
 
         var uidShort = s.uid.length > 12 ? s.uid.slice(0,12)+'…' : s.uid;
 
@@ -1405,6 +1582,278 @@
       }
 
       return html;
+    }
+
+    /* ═══════════════════════════════════════════════
+       SECTION: CURRICULUM INTELLIGENCE
+    ═══════════════════════════════════════════════ */
+    function loadCurriculum() {
+      var loadingEl = document.getElementById('curriculum-loading');
+      var contentEl = document.getElementById('curriculum-content');
+      if (loadingEl) loadingEl.style.display = 'block';
+      if (contentEl) contentEl.style.display = 'none';
+
+      db.collection('curriculum_analytics').doc('aggregated').get().then(function(doc) {
+        if (doc.exists && doc.data()) {
+          _renderCurriculumData(doc.data());
+        } else {
+          recalculateCurriculumIntelligence(false);
+        }
+      }).catch(function(err) {
+        console.warn('[Admin] Failed to load aggregated curriculum doc, running fallback:', err);
+        recalculateCurriculumIntelligence(false);
+      });
+    }
+
+    function recalculateCurriculumIntelligence(showFeedback) {
+      if (showFeedback !== false) {
+        adminToast('⏳ Recalculating curriculum intelligence…');
+        var btn = document.getElementById('btn-refresh-curriculum');
+        if (btn) btn.disabled = true;
+      }
+
+      var loadingEl = document.getElementById('curriculum-loading');
+      var contentEl = document.getElementById('curriculum-content');
+      if (loadingEl) loadingEl.style.display = 'block';
+
+      // Perform aggregation from user_data and guest_data directly
+      Promise.all([
+        db.collection('user_data').get(),
+        db.collection('guest_data').get()
+      ]).then(function(results) {
+        var userDataSnap = results[0];
+        var guestDataSnap = results[1];
+
+        var starMap = {};
+        var customTransMap = {};
+        var weakWordsMap = {};
+
+        userDataSnap.forEach(function(d) {
+          var data = d.data() || {};
+          var starred = data.starredItems || data.starred || [];
+          var custom = data.customTranslations || data.customAnswers || {};
+          var weak = data.weakWords || {};
+
+          if (Array.isArray(starred)) {
+            starred.forEach(function(it) {
+              var k = it.key || it.id;
+              if (!k) return;
+              if (!starMap[k]) {
+                starMap[k] = {
+                  key: k,
+                  arabic: it.arabic || '',
+                  hinglish: it.hinglish || '',
+                  lesson: it.stage && it.lesson ? ('S'+it.stage+'L'+it.lesson) : (k.split('_')[0] || ''),
+                  stars_student: 0,
+                  stars_guest: 0,
+                  stars_total: 0
+                };
+              }
+              starMap[k].stars_student++;
+              starMap[k].stars_total++;
+            });
+          }
+
+          if (typeof custom === 'object') {
+            Object.keys(custom).forEach(function(k) {
+              var trans = custom[k];
+              if (!trans || typeof trans !== 'string') return;
+              if (!customTransMap[k]) {
+                customTransMap[k] = {
+                  key: k,
+                  arabic: '',
+                  original_hinglish: '',
+                  lesson: k.split('_')[0] || '',
+                  edits: {}
+                };
+              }
+              customTransMap[k].edits[trans.trim()] = true;
+            });
+          }
+
+          if (typeof weak === 'object') {
+            Object.keys(weak).forEach(function(k) {
+              var w = weak[k];
+              if (!w) return;
+              if (!weakWordsMap[k]) {
+                weakWordsMap[k] = {
+                  key: k,
+                  arabic: w.arabic || '',
+                  lesson: w.lesson || '',
+                  count: 0
+                };
+              }
+              weakWordsMap[k].count += (Number(w.count) || 1);
+            });
+          }
+        });
+
+        guestDataSnap.forEach(function(d) {
+          var data = d.data() || {};
+          var starred = data.starredItems || data.starred || [];
+          var custom = data.customTranslations || data.customAnswers || {};
+
+          if (Array.isArray(starred)) {
+            starred.forEach(function(it) {
+              var k = it.key || it.id;
+              if (!k) return;
+              if (!starMap[k]) {
+                starMap[k] = {
+                  key: k,
+                  arabic: it.arabic || '',
+                  hinglish: it.hinglish || '',
+                  lesson: it.stage && it.lesson ? ('S'+it.stage+'L'+it.lesson) : (k.split('_')[0] || ''),
+                  stars_student: 0,
+                  stars_guest: 0,
+                  stars_total: 0
+                };
+              }
+              starMap[k].stars_guest++;
+              starMap[k].stars_total++;
+            });
+          }
+
+          if (typeof custom === 'object') {
+            Object.keys(custom).forEach(function(k) {
+              var trans = custom[k];
+              if (!trans || typeof trans !== 'string') return;
+              if (!customTransMap[k]) {
+                customTransMap[k] = {
+                  key: k,
+                  arabic: '',
+                  original_hinglish: '',
+                  lesson: k.split('_')[0] || '',
+                  edits: {}
+                };
+              }
+              customTransMap[k].edits[trans.trim()] = true;
+            });
+          }
+        });
+
+        var mostStarred = Object.keys(starMap).map(function(k) { return starMap[k]; })
+          .sort(function(a, b) { return b.stars_total - a.stars_total; })
+          .slice(0, 100);
+
+        var customCorrections = Object.keys(customTransMap).map(function(k) {
+          var c = customTransMap[k];
+          var editList = Object.keys(c.edits);
+          return {
+            key: c.key,
+            arabic: c.arabic,
+            original_hinglish: c.original_hinglish,
+            lesson: c.lesson,
+            edit_count: editList.length,
+            sample_edits: editList.slice(0, 5)
+          };
+        }).sort(function(a, b) { return b.edit_count - a.edit_count; })
+          .slice(0, 50);
+
+        var weakestWords = Object.keys(weakWordsMap).map(function(k) { return weakWordsMap[k]; })
+          .sort(function(a, b) { return b.count - a.count; })
+          .slice(0, 100);
+
+        var payload = {
+          updatedAt: new Date().toISOString(),
+          studentCount: userDataSnap.size,
+          guestCount: guestDataSnap.size,
+          most_starred_items: mostStarred,
+          custom_corrections_needed: customCorrections,
+          weakest_words: weakestWords
+        };
+
+        // Cache back to Firestore
+        db.collection('curriculum_analytics').doc('aggregated').set(payload, { merge: true }).catch(function(e) {
+          console.warn('[Admin] Failed saving aggregated doc:', e);
+        });
+
+        _renderCurriculumData(payload);
+        if (showFeedback !== false) adminToast('✅ Curriculum Intelligence updated!');
+      }).catch(function(err) {
+        console.error('[Admin] Aggregation failed:', err);
+        if (showFeedback !== false) adminToast('❌ Aggregation failed.');
+      }).finally(function() {
+        var btn = document.getElementById('btn-refresh-curriculum');
+        if (btn) btn.disabled = false;
+      });
+    }
+
+    function _renderCurriculumData(data) {
+      var loadingEl = document.getElementById('curriculum-loading');
+      var contentEl = document.getElementById('curriculum-content');
+      if (loadingEl) loadingEl.style.display = 'none';
+      if (contentEl) contentEl.style.display = 'flex';
+
+      _setStatEl('stat-curriculum-students', data.studentCount || 0);
+      _setStatEl('stat-curriculum-guests', data.guestCount || 0);
+      _setStatEl('stat-curriculum-hard-words', (data.most_starred_items || []).length);
+      _setStatEl('stat-curriculum-ambiguous', (data.custom_corrections_needed || []).length);
+
+      // Render Heatmap
+      var heatmapTbody = document.getElementById('curriculum-heatmap-tbody');
+      if (heatmapTbody) {
+        var starredItems = data.most_starred_items || [];
+        if (starredItems.length === 0) {
+          heatmapTbody.innerHTML = '<tr><td colspan="7" style="text-align:center;color:var(--text-muted);padding:18px;">No starred words recorded yet.</td></tr>';
+        } else {
+          var hHtml = '';
+          starredItems.forEach(function(item, idx) {
+            hHtml += '<tr>' +
+              '<td>' + (idx + 1) + '</td>' +
+              '<td style="font-family:var(--font-arabic, \'UthmanicHafs\', serif);font-size:1.25rem;direction:rtl;">' + escHtml(item.arabic || item.key) + '</td>' +
+              '<td>' + escHtml(item.hinglish || '—') + '</td>' +
+              '<td><span class="lesson-time-pill">' + escHtml(item.lesson || '—') + '</span></td>' +
+              '<td>' + (item.stars_student || 0) + '</td>' +
+              '<td>' + (item.stars_guest || 0) + '</td>' +
+              '<td style="font-weight:700;color:var(--accent);">' + (item.stars_total || 0) + '</td>' +
+              '</tr>';
+          });
+          heatmapTbody.innerHTML = hHtml;
+        }
+      }
+
+      // Render Corrections
+      var correctionsTbody = document.getElementById('curriculum-corrections-tbody');
+      if (correctionsTbody) {
+        var corrItems = data.custom_corrections_needed || [];
+        if (corrItems.length === 0) {
+          correctionsTbody.innerHTML = '<tr><td colspan="5" style="text-align:center;color:var(--text-muted);padding:18px;">No custom translations submitted yet.</td></tr>';
+        } else {
+          var cHtml = '';
+          corrItems.forEach(function(item) {
+            var samples = (item.sample_edits || []).map(function(s) {
+              return '<span style="display:inline-block;background:var(--bg-base);padding:2px 8px;border-radius:4px;margin:2px;border:1px solid var(--border);font-size:0.75rem;">' + escHtml(s) + '</span>';
+            }).join(' ');
+
+            cHtml += '<tr>' +
+              '<td style="font-family:var(--font-arabic, \'UthmanicHafs\', serif);font-size:1.25rem;direction:rtl;">' + escHtml(item.arabic || item.key) + '</td>' +
+              '<td>' + escHtml(item.original_hinglish || '—') + '</td>' +
+              '<td><span class="lesson-time-pill">' + escHtml(item.lesson || '—') + '</span></td>' +
+              '<td style="font-weight:700;color:var(--accent);">' + item.edit_count + '</td>' +
+              '<td>' + (samples || '—') + '</td>' +
+              '</tr>';
+          });
+          correctionsTbody.innerHTML = cHtml;
+        }
+      }
+
+      // Render Weak Chips
+      var weakContainer = document.getElementById('curriculum-weak-chips');
+      if (weakContainer) {
+        var weakWords = data.weakest_words || [];
+        if (weakWords.length === 0) {
+          weakContainer.innerHTML = '<div style="color:var(--text-muted);font-size:0.85rem;">No drill failure data recorded yet.</div>';
+        } else {
+          var wHtml = '';
+          weakWords.forEach(function(w) {
+            wHtml += '<div class="weak-word-chip">' +
+              '<span class="weak-word-arabic">' + escHtml(w.arabic || w.key) + '</span>' +
+              '<span style="font-size:0.75rem;opacity:0.8;">' + escHtml(w.lesson) + ' (' + w.count + ' fails)</span>' +
+              '</div>';
+          });
+          weakContainer.innerHTML = wHtml;
+        }
+      }
     }
 
     /* ═══════════════════════════════════════════════

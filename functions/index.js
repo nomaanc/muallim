@@ -67,3 +67,12 @@ exports.setStudentPassword = functions.https.onCall(async (data, context) => {
     );
   }
 });
+
+const {
+  scheduledAggregateCurriculum,
+  triggerCurriculumAggregation
+} = require('./aggregateCurriculum');
+
+exports.scheduledAggregateCurriculum = scheduledAggregateCurriculum;
+exports.triggerCurriculumAggregation = triggerCurriculumAggregation;
+

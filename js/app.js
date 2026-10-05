@@ -61,6 +61,40 @@ var App = (function() {
       var _sessionStart = 0;
       var _sessionLessonKey = '';
 
+      // ── i18n Engine ──
+      let currentLang = lsGet('muallim_lang', 'hinglish') || 'hinglish';
+
+      const LANG_FALLBACK = {
+        hinglish: [], en: ['hinglish'], ur: ['hinglish'], hi: ['hinglish'],
+        bn: ['en','hinglish'], ko: ['en','hinglish'], zh: ['en','hinglish'], es: ['en','hinglish']
+      };
+
+      function getTranslation(item) {
+        if (!item) return '';
+        if (item.translations && item.translations[currentLang]) {
+          return item.translations[currentLang];
+        }
+        const chain = LANG_FALLBACK[currentLang] || ['hinglish'];
+        for (const fb of chain) {
+          if (item.translations && item.translations[fb]) return item.translations[fb];
+        }
+        if (typeof item === 'string') return item;
+        return item.hinglish || '';
+      }
+
+      function setLang(lang) {
+        currentLang = lang;
+        App.currentLang = lang;
+        lsSet('muallim_lang', lang);
+        const sel = document.getElementById('setting-lang-select');
+        if (sel) sel.value = lang;
+        renderCurrentLesson();
+      }
+
+      App.getTranslation = getTranslation;
+      App.currentLang = currentLang;
+      App.setLang = setLang;
+
       function migrateS4L18Keys() {
         try {
           if (lsGet('muallim_s4l18_migrated', 'false') === 'true') return;
@@ -134,6 +168,8 @@ var App = (function() {
         if (!_bmLoaded) loadLesson(1, 1);
         populateStageTabs();
         updateStarredCountBadge();
+        const langSel = document.getElementById('setting-lang-select');
+        if (langSel) langSel.value = currentLang;
         if (typeof debouncedSync === "function") debouncedSync();
       }
 
@@ -311,13 +347,13 @@ var App = (function() {
         _sessionLessonKey = 'S' + stageId + 'L' + lessonId;
       }
 
-      function renderDualAnswerHtml(itemKey, itArabic, origHinglish) {
+      function renderDualAnswerHtml(itemKey, itArabic, origTranslation) {
         const customVal = customAnswers[itemKey];
         const hasCustom = !!customVal;
-        const escAr = itArabic.replace(/'/g, "\\'");
-        const escHi = (origHinglish || '').replace(/'/g, "\\'");
+        const escAr = (itArabic || '').replace(/'/g, "\\'");
+        const escHi = (origTranslation || '').replace(/'/g, "\\'");
 
-        let rowsHtml = `<div class="answer-row orig-text">${origHinglish || ''}</div>`;
+        let rowsHtml = `<div class="answer-row orig-text">${origTranslation || ''}</div>`;
         if (hasCustom) {
           rowsHtml += `
             <div class="answer-row custom-text">
@@ -350,7 +386,7 @@ var App = (function() {
         let html = `
           <div class="lesson-banner">
             <div class="lesson-banner-title">${lesson.title}</div>
-            <div class="lesson-banner-meta">Unit ${currentStage} • Page ${lesson.page_start || 1}</div>
+            <div class="lesson-banner-meta">Unit ${currentStage} • Page ${lesson.book_page || lesson.page_start || 1}</div>
           </div>
         `;
 
@@ -360,7 +396,7 @@ var App = (function() {
 
           if (secType === 'hero_header') {
             const heroAr = d.arabic_combined || d.after_arabic || d.arabic_after || d.transformed_word || d.arabic || d.title_ar || d.arabic_word || d.before_arabic || d.arabic_before || d.word || '';
-            const heroHi = d.hinglish_combined || d.after_hinglish || d.hinglish_after || d.transformed_meaning || d.hinglish || d.title_en || d.hinglish_word || d.before_hinglish || d.hinglish_before || d.meaning || d.subtitle || '';
+            const heroHi = getTranslation(d) || d.hinglish_combined || d.after_hinglish || d.hinglish_after || d.transformed_meaning || d.hinglish || d.title_en || d.hinglish_word || d.before_hinglish || d.hinglish_before || d.meaning || d.subtitle || '';
             if (heroAr || heroHi) {
               html += `
                 <div class="hero-section">
@@ -370,7 +406,7 @@ var App = (function() {
               `;
             }
           } else if (secType === 'rule_paragraph') {
-            html += `<div class="rule-card">${d.text}</div>`;
+            html += `<div class="rule-card">${d.title ? `<div class="rule-title">${d.title}</div>` : ''}${d.text || ''}</div>`;
           } else if (secType === 'rule_paragraph_hinglish') {
             html += `<div class="rule-block-hinglish">`;
             if (d.title) html += `<div class="rule-title">${d.title}</div>`;
@@ -378,6 +414,39 @@ var App = (function() {
             html += `</div>`;
           } else if (secType === 'grace_box') {
             html += `<div class="grace-card">✨ ${d.text}</div>`;
+          } else if (secType === 'intro_table') {
+            const tbl = d;
+            let tableHtml = '<div class="intro-table-wrap"><table class="intro-table">';
+            if (tbl.caption) tableHtml += '<caption>' + tbl.caption + '</caption>';
+            if (tbl.headers && tbl.headers.length) {
+              tableHtml += '<thead><tr>' + tbl.headers.map(h => '<th>' + h + '</th>').join('') + '</tr></thead>';
+            }
+            tableHtml += '<tbody>';
+            (tbl.rows || []).forEach(row => {
+              const cells = Array.isArray(row) ? row : Object.values(row);
+              tableHtml += '<tr>' + cells.map(c => '<td>' + c + '</td>').join('') + '</tr>';
+            });
+            tableHtml += '</tbody></table></div>';
+            html += tableHtml;
+          } else if (secType === 'fill_in_exercise') {
+            html += '<div class="fill-exercise-wrap">';
+            if (d.title) html += '<h3 class="fill-title">' + d.title + '</h3>';
+            if (d.instructions) html += '<p class="fill-instructions">' + d.instructions + '</p>';
+            (d.items || []).forEach((it, iIdx) => {
+              const itemKey = `S${currentStage}L${currentLesson}_fill_${it.id || iIdx}`;
+              const starred = isStarred(itemKey);
+              const escAr = (it.arabic || '').replace(/'/g, "\\'");
+              const origHi = getTranslation(it);
+              const escHi = origHi.replace(/'/g, "\\'");
+              const answerHtml = renderDualAnswerHtml(itemKey, it.arabic || '', origHi);
+              html += `<div class="fill-card">
+                <div class="fill-num">${it.sentence_number || (iIdx+1)}</div>
+                <div class="fill-arabic" dir="rtl">${it.arabic_markup || it.arabic || ''}</div>
+                ${answerHtml}
+                <button class="card-action-btn ${starred ? 'starred' : ''}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">${starred ? '★' : '☆'}</button>
+              </div>`;
+            });
+            html += '</div>';
           } else if (secType === 'grid' || secType === 'three_col_list' || secType === 'waw_grid') {
             const cols = d.columns || 3;
             html += `<div class="bidi-grid cols-${cols}">`;
@@ -385,7 +454,8 @@ var App = (function() {
               const itemKey = `S${currentStage}L${currentLesson}_s${sIdx}_${iIdx}`;
               const starred = isStarred(itemKey);
               const escAr = (it.arabic || '').replace(/'/g, "\\'");
-              const escHi = (it.hinglish || '').replace(/'/g, "\\'");
+              const itemHi = getTranslation(it);
+              const escHi = itemHi.replace(/'/g, "\\'");
               html += `
                 <div class="vocab-card">
                   <div class="card-top" data-item-id="${itemKey}">
@@ -393,8 +463,8 @@ var App = (function() {
                     <button class="card-action-btn ${starred ? 'starred' : ''}" aria-pressed="${starred ? 'true' : 'false'}" aria-label="${starred ? 'Starred' : 'Star this item'}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">${starred ? '★' : '☆'}</button>
                     ${bmSvgHtml(itemKey)}
                   </div>
-                  <div class="arabic-text" style="overflow-wrap:break-word;">${it.arabic}</div>
-                  ${renderDualAnswerHtml(itemKey, it.arabic, it.hinglish)}
+                  <div class="arabic-text" style="overflow-wrap:break-word;">${it.arabic_markup || it.arabic || ''}</div>
+                  ${renderDualAnswerHtml(itemKey, it.arabic, itemHi)}
                 </div>
               `;
             });
@@ -413,21 +483,25 @@ var App = (function() {
                 const rootStarred = isStarred(rootKey);
                 const derivedStarred = isStarred(derivedKey);
                 const rootEscAr = (rootItem.arabic || '').replace(/'/g, "\\'");
-                const rootEscHi = (rootItem.hinglish || '').replace(/'/g, "\\'");
+                const rootHi = getTranslation(rootItem);
+                const rootEscHi = rootHi.replace(/'/g, "\\'");
                 const derivedEscAr = (derivedItem.arabic || '').replace(/'/g, "\\'");
-                const derivedEscHi = (derivedItem.hinglish || '').replace(/'/g, "\\'");
+                const derivedHi = getTranslation(derivedItem);
+                const derivedEscHi = derivedHi.replace(/'/g, "\\'");
                 
                 let suffixHtml = '';
-                if (derivedItem.arabic_suffix) {
+                if (derivedItem.arabic_markup) {
+                  suffixHtml = derivedItem.arabic_markup;
+                } else if (derivedItem.arabic_suffix) {
                   suffixHtml = `<span class="arabic-root-part">${derivedItem.arabic_root || ''}</span><span class="nonroot animate">${derivedItem.arabic_suffix}</span>`;
                 } else {
-                  suffixHtml = `<span class="arabic-root-part">${derivedItem.arabic}</span>`;
+                  suffixHtml = `<span class="arabic-root-part">${derivedItem.arabic || ''}</span>`;
                 }
                 
                 html += `
                   <div class="paired-card" style="${rootItem.full_width ? 'grid-column: 1 / -1;' : ''}">
                     <div class="paired-card__arabic" dir="rtl">
-                      <span class="arabic-root">${rootItem.arabic}</span>
+                      <span class="arabic-root">${rootItem.arabic_markup || rootItem.arabic || ''}</span>
                       <svg class="morph-arrow animate" viewBox="0 0 80 24" width="80" height="24" aria-hidden="true">
                         <path class="arrow-track" d="M70,12 L10,12" stroke="var(--divider-gold)" stroke-width="2" fill="none" stroke-dasharray="60" stroke-dashoffset="60"/>
                         <polygon class="arrow-head" points="18,7 8,12 18,17" fill="var(--divider-gold)"/>
@@ -435,9 +509,9 @@ var App = (function() {
                       <span class="arabic-derived">${suffixHtml}</span>
                     </div>
                     <div class="paired-card__hinglish">
-                      <span>${rootItem.hinglish || ''}</span>
+                      <span>${rootHi}</span>
                       <span class="hin-arrow">➜</span>
-                      <span>${derivedItem.hinglish || ''}</span>
+                      <span>${derivedHi}</span>
                     </div>
                     <div class="card-top" style="position: relative; margin-top: 1rem; border-top: 1px solid var(--divider-light); padding-top: 0.5rem; display: flex; justify-content: space-between;">
                       <div style="display:flex; gap:0.5rem; align-items:center;">
@@ -457,7 +531,8 @@ var App = (function() {
                 const itemKey = `S${currentStage}L${currentLesson}_num_${it.id || iIdx}`;
                 const starred = isStarred(itemKey);
                 const escAr = (it.arabic || '').replace(/'/g, "\\'");
-                const escHi = (it.hinglish || '').replace(/'/g, "\\'");
+                const itemHi = getTranslation(it);
+                const escHi = itemHi.replace(/'/g, "\\'");
                 html += `
                   <div class="vocab-card" style="${it.full_width ? 'grid-column: 1 / -1;' : ''}">
                     <div class="card-top" data-item-id="${itemKey}">
@@ -466,8 +541,8 @@ var App = (function() {
                       <button class="card-action-btn ${starred ? 'starred' : ''}" aria-pressed="${starred ? 'true' : 'false'}" aria-label="${starred ? 'Starred' : 'Star this item'}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">${starred ? '★' : '☆'}</button>
                       ${bmSvgHtml(itemKey)}
                     </div>
-                    <div class="arabic-text">${it.arabic}</div>
-                    ${renderDualAnswerHtml(itemKey, it.arabic, it.hinglish)}
+                    <div class="arabic-text">${it.arabic_markup || it.arabic || ''}</div>
+                    ${renderDualAnswerHtml(itemKey, it.arabic, itemHi)}
                   </div>
                 `;
                 i += 1;
@@ -483,7 +558,8 @@ var App = (function() {
               const itemKey = `S${currentStage}L${currentLesson}_v_${vIdx}`;
               const starred = isStarred(itemKey);
               const escAr = (v.arabic || '').replace(/'/g, "\\'");
-              const escHi = (v.hinglish || '').replace(/'/g, "\\'");
+              const verseHi = getTranslation(v);
+              const escHi = verseHi.replace(/'/g, "\\'");
               html += `
                 <div class="verse-card">
                   <div class="card-top" data-item-id="${itemKey}">
@@ -491,8 +567,8 @@ var App = (function() {
                     <button class="card-action-btn ${starred ? 'starred' : ''}" aria-pressed="${starred ? 'true' : 'false'}" aria-label="${starred ? 'Starred' : 'Star this item'}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">${starred ? '★' : '☆'}</button>
                     ${bmSvgHtml(itemKey)}
                   </div>
-                  <div class="arabic-text" style="font-size:calc(var(--arabic-scale)*1.1);">${v.arabic}</div>
-                  ${v.hinglish ? renderDualAnswerHtml(itemKey, v.arabic, v.hinglish) : ''}
+                  <div class="arabic-text" style="font-size:calc(var(--arabic-scale)*1.1);">${v.arabic_markup || v.arabic || ''}</div>
+                  ${verseHi ? renderDualAnswerHtml(itemKey, v.arabic, verseHi) : ''}
                 </div>
               `;
             });
@@ -515,12 +591,13 @@ var App = (function() {
                 const itemKey = 'S'+currentStage+'L'+currentLesson+'_ex'+sIdx+'_'+eIdx;
                 const starredEx = isStarred(itemKey);
                 const escArEx = (ex.arabic || '').replace(/'/g, "\'");
-                const escHiEx = (ex.hinglish || '').replace(/'/g, "\'");
+                const exHi = getTranslation(ex);
+                const escHiEx = exHi.replace(/'/g, "\'");
                 html += '<div class="vocab-card example-row"><div class="card-top" data-item-id="' + itemKey + '">' +
                   '<button class="card-action-btn" onclick="App.speakArabic(\'' + escArEx + '\')">&#128362;</button>' +
                   '<button class="card-action-btn ' + (starredEx ? 'starred' : '') + '" aria-pressed="' + (starredEx ? 'true' : 'false') + '" aria-label="' + (starredEx ? 'Starred' : 'Star this item') + '" onclick="App.toggleStarInPlace(this,\'' + itemKey + '\',\'' + escArEx + '\',\'' + escHiEx + '\')">' + (starredEx ? '★' : '☆') + '</button>' +
-                  '</div><div class="arabic-text">' + (ex.arabic || '') + '</div>' +
-                  (ex.hinglish ? renderDualAnswerHtml(itemKey, ex.arabic, ex.hinglish) : '') +
+                  '</div><div class="arabic-text">' + (ex.arabic_markup || ex.arabic || '') + '</div>' +
+                  (exHi ? renderDualAnswerHtml(itemKey, ex.arabic, exHi) : '') +
                   '</div>';
               });
               html += '</div>';
@@ -539,12 +616,13 @@ var App = (function() {
                 const itemKey = 'S'+currentStage+'L'+currentLesson+'_tb'+sIdx+'_'+iIdx;
                 const starredTb = isStarred(itemKey);
                 const escArTb = (it.arabic || '').replace(/'/g, "\'");
-                const escHiTb = (it.hinglish || '').replace(/'/g, "\'");
+                const tbHi = getTranslation(it);
+                const escHiTb = tbHi.replace(/'/g, "\'");
                 html += '<div class="vocab-card"><div class="card-top" data-item-id="' + itemKey + '">' +
                   '<button class="card-action-btn" onclick="App.speakArabic(\'' + escArTb + '\')">&#128362;</button>' +
                   '<button class="card-action-btn ' + (starredTb ? 'starred' : '') + '" aria-pressed="' + (starredTb ? 'true' : 'false') + '" aria-label="' + (starredTb ? 'Starred' : 'Star this item') + '" onclick="App.toggleStarInPlace(this,\'' + itemKey + '\',\'' + escArTb + '\',\'' + escHiTb + '\')">' + (starredTb ? '★' : '☆') + '</button>' +
-                  '</div><div class="arabic-text">' + (it.arabic || '') + '</div>' +
-                  (it.hinglish ? renderDualAnswerHtml(itemKey, it.arabic, it.hinglish) : '') +
+                  '</div><div class="arabic-text">' + (it.arabic_markup || it.arabic || '') + '</div>' +
+                  (tbHi ? renderDualAnswerHtml(itemKey, it.arabic, tbHi) : '') +
                   '</div>';
               });
               html += '</div>';
@@ -2963,12 +3041,12 @@ var App = (function() {
       const { initializeApp, getApps } = await import(FIREBASE_MODULES.app);
       const {
         getFirestore, doc, setDoc, getDoc, getDocs,
-        collection, updateDoc, serverTimestamp, onSnapshot, increment
+        collection, updateDoc, serverTimestamp, onSnapshot, increment, deleteDoc
       } = await import(FIREBASE_MODULES.firestore);
       const {
         getAuth, signInWithEmailAndPassword, signOut,
         onAuthStateChanged, createUserWithEmailAndPassword,
-        sendPasswordResetEmail, updatePassword
+        sendPasswordResetEmail, updatePassword, signInAnonymously
       } = await import(FIREBASE_MODULES.auth);
 
       // Prevent double-init
@@ -2978,28 +3056,54 @@ var App = (function() {
       const _auth = getAuth(_fbApp);
 
       // Expose Firestore helpers on module scope
-      window._FS = { doc, setDoc, getDoc, getDocs, collection, updateDoc, serverTimestamp, onSnapshot, increment };
+      window._FS = { doc, setDoc, getDoc, getDocs, collection, updateDoc, serverTimestamp, onSnapshot, increment, deleteDoc };
       window._FSDB = _db;
       // Expose Auth helpers
       window._FA = { getAuth, signInWithEmailAndPassword, signOut, onAuthStateChanged,
-                     createUserWithEmailAndPassword, sendPasswordResetEmail, updatePassword };
+                     createUserWithEmailAndPassword, sendPasswordResetEmail, updatePassword, signInAnonymously };
       window._AUTH = _auth;
 
       // ── Auth state observer ──
       onAuthStateChanged(_auth, async (user) => {
         if (!user) {
-          App.currentUser = null;
-          _hideAdminTab();
-          _updateAccountUI(null);
-          // Show login modal unless guest mode was chosen for this session
-          if (!sessionStorage.getItem('muallim_guest_mode')) {
-            const lm = document.getElementById('login-modal');
-            if (lm && lm.showModal) { try { lm.showModal(); } catch(e) {} }
+          // If no user is authenticated, sign in anonymously for guest telemetry
+          try {
+            await signInAnonymously(_auth);
+            return;
+          } catch(err) {
+            console.warn('[Auth] Anonymous sign-in fallback:', err);
+            App.currentUser = null;
+            _hideAdminTab();
+            _updateAccountUI(null);
+            if (!sessionStorage.getItem('muallim_guest_mode')) {
+              const lm = document.getElementById('login-modal');
+              if (lm && lm.showModal) { try { lm.showModal(); } catch(e) {} }
+            }
           }
+        } else if (user.isAnonymous) {
+          // Anonymous Guest User
+          sessionStorage.setItem('muallim_guest_uid', user.uid);
+          App.currentUser = {
+            uid: user.uid,
+            email: 'guest@muallim.app',
+            role: 'guest',
+            name: localStorage.getItem('muallim_student_name') || 'Guest Learner',
+            isAnonymous: true
+          };
+          _hideAdminTab();
+          _updateAccountUI(App.currentUser);
+          _loadUserDataFromFirestore(user.uid, 'guest_data');
         } else {
-          // Close login modal
+          // Logged in user (Student / Admin)
           const lm = document.getElementById('login-modal');
           if (lm && lm.open) lm.close();
+
+          // Merge previous guest data if user just logged in from an anonymous session
+          const prevGuestUid = sessionStorage.getItem('muallim_guest_uid');
+          if (prevGuestUid && prevGuestUid !== user.uid) {
+            _mergeGuestDataToUser(prevGuestUid, user.uid);
+            sessionStorage.removeItem('muallim_guest_uid');
+          }
 
           // Fetch role from Firestore
           let role = 'student', displayName = user.email;
@@ -3013,7 +3117,7 @@ var App = (function() {
             }
           } catch(e) { console.warn('[Auth] Could not fetch user doc:', e); }
 
-          App.currentUser = { uid: user.uid, email: user.email, role, name: displayName };
+          App.currentUser = { uid: user.uid, email: user.email, role, name: displayName, isAnonymous: false };
 
           // Show/hide admin tab
           if (role === 'admin') _showAdminTab();
@@ -3022,7 +3126,7 @@ var App = (function() {
           _updateAccountUI(App.currentUser);
 
           // Load user data from user_data/{uid}
-          _loadUserDataFromFirestore(user.uid);
+          _loadUserDataFromFirestore(user.uid, 'user_data');
         }
       });
 
@@ -3064,11 +3168,11 @@ var App = (function() {
       }
     }
 
-    async function _loadUserDataFromFirestore(uid) {
+    async function _loadUserDataFromFirestore(uid, collectionName) {
       if (!_db || !window._FS) return;
       try {
         const { doc, getDoc } = window._FS;
-        const snap = await getDoc(doc(_db, 'user_data', uid));
+        const snap = await getDoc(doc(_db, collectionName || 'user_data', uid));
         if (snap.exists()) {
           const data = snap.data();
           // Restore starred
@@ -3089,6 +3193,29 @@ var App = (function() {
           }
         }
       } catch(e) { console.warn('[Auth] Could not load user_data:', e); }
+    }
+
+    async function _mergeGuestDataToUser(guestUid, userUid) {
+      if (!_db || !window._FS) return;
+      try {
+        const { doc, getDoc, setDoc, deleteDoc } = window._FS;
+        const snap = await getDoc(doc(_db, 'guest_data', guestUid));
+        if (snap.exists()) {
+          const gData = snap.data();
+          await setDoc(doc(_db, 'user_data', userUid), {
+            starredItems: gData.starredItems || [],
+            customTranslations: gData.customTranslations || {},
+            examHistory: gData.examHistory || [],
+            mergedFromGuest: guestUid
+          }, { merge: true });
+          if (typeof deleteDoc === 'function') {
+            await deleteDoc(doc(_db, 'guest_data', guestUid)).catch(() => {});
+          }
+          console.log('[Auth] Successfully merged guest telemetry to user:', userUid);
+        }
+      } catch(e) {
+        console.warn('[Auth] Failed to merge guest data:', e);
+      }
     }
 
     // ── Firebase Config: Save / Clear / Toggle panel ──
@@ -3204,7 +3331,8 @@ var App = (function() {
       if (_db && window._FS && window._FS.increment) {
         var incUpdate = {};
         incUpdate['lessonTime.' + _sessionLessonKey] = window._FS.increment(elapsed);
-        var fsDoc = window._FS.doc(_db, 'user_data', App.currentUser.uid);
+        var colName = (App.currentUser.isAnonymous) ? 'guest_data' : 'user_data';
+        var fsDoc = window._FS.doc(_db, colName, App.currentUser.uid);
         window._FS.setDoc(fsDoc, incUpdate, { merge: true }).catch(console.error);
       }
       _sessionStart = 0;
@@ -3242,9 +3370,13 @@ var App = (function() {
 
         await setDoc(doc(_db, studentDocPath()), payload, { merge: true });
 
-        // If logged in, also sync to user_data/{uid} for admin dashboard analytics
+        // If logged in or guest, sync to user_data or guest_data for curriculum analytics
         if (App.currentUser && App.currentUser.uid) {
-          await setDoc(doc(_db, 'user_data', App.currentUser.uid), {
+          const colName = App.currentUser.isAnonymous ? 'guest_data' : 'user_data';
+          await setDoc(doc(_db, colName, App.currentUser.uid), {
+            role: App.currentUser.role || (App.currentUser.isAnonymous ? 'guest' : 'student'),
+            deviceId,
+            name: studentName,
             starredItems: favs,
             customTranslations: custom,
             lastBookmark: _bookmark,
@@ -3488,7 +3620,10 @@ var App = (function() {
         openAdminDashboard: App.openAdminDashboard || function(){},
         initFirebaseOnLoad,
         flushSessionTime,
-        currentUser: null
+        currentUser: null,
+        getTranslation,
+        setLang,
+        currentLang
       });
       return App;
     })();
