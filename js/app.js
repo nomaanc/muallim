@@ -400,6 +400,11 @@ var App = (function() {
             <div class="lesson-banner-meta">Unit ${currentStage} • Page ${lesson.book_page || lesson.page_start || 1}</div>
           </div>
           <div id="grammar-visual-mount"></div>
+          <div style="display:flex; justify-content:center; margin:-4px 0 16px;">
+            <button class="btn-primary" style="padding:6px 16px; font-size:0.82rem; border-radius:20px; font-weight:700; box-shadow:0 2px 8px rgba(27,67,50,0.18); cursor:pointer;" onclick="App.openGrammarExerciseModal()">
+              ⚡ Practice Lesson Exercises (5 Sawalat)
+            </button>
+          </div>
         `;
 
         (lesson.sections || []).forEach((sec, sIdx) => {
@@ -759,6 +764,7 @@ var App = (function() {
 
       function openSpinner() {
         setSpinnerPool(spinnerMode);
+        renderSrsStats();
         document.getElementById('spinner-modal').showModal();
       }
 
@@ -814,17 +820,40 @@ var App = (function() {
         const sAr = document.getElementById('spinner-arabic');
         const sHi = document.getElementById('spinner-hinglish');
         const sHint = document.getElementById('spinner-hint');
+        const sRating = document.getElementById('drill-srs-rating-row');
+        const sBoxBadge = document.getElementById('drill-srs-box-badge');
+        const progressLabel = document.getElementById('drill-progress-label');
+
+        if (sRating) sRating.style.display = 'none';
+
         if (spinnerPool.length === 0) {
-          if (sAr) sAr.textContent = spinnerMode === 'starred' ? 'No Starred Items Yet' : 'No Items in Current Lesson';
+          if (sAr) sAr.textContent = spinnerMode === 'starred' ? 'No Starred Items Yet' : (spinnerMode === 'srs' ? 'No Due Cards Right Now' : 'No Items in Current Lesson');
           if (sHi) {
-            sHi.innerHTML = spinnerMode === 'starred' ? 'Tap ★ on any word to star it!' : '';
+            sHi.innerHTML = spinnerMode === 'starred' ? 'Tap ★ on any word to star it!' : (spinnerMode === 'srs' ? 'Sub cards up to date! Naye sabaq padhein.' : '');
             sHi.style.display = 'block';
           }
           if (sHint) sHint.style.display = 'none';
+          if (progressLabel) progressLabel.textContent = 'Card 0 of 0';
+          if (sBoxBadge) sBoxBadge.style.display = 'none';
           return;
         }
+
+        if (progressLabel) progressLabel.textContent = `Card ${spinnerIndex + 1} of ${spinnerPool.length}`;
+
         const it = spinnerPool[spinnerIndex];
         if (sAr) sAr.textContent = it.arabic;
+
+        // SRS Box Badge
+        if (sBoxBadge) {
+          const srsItem = getSrsItem(it.arabic);
+          if (srsItem && srsItem.box) {
+            sBoxBadge.textContent = srsItem.box === 5 ? '🌟 Box 5' : `📦 Box ${srsItem.box}`;
+            sBoxBadge.style.display = 'inline-block';
+          } else {
+            sBoxBadge.textContent = '📦 Box 1 (New)';
+            sBoxBadge.style.display = 'inline-block';
+          }
+        }
 
         let displayHtml = `<div style="color:var(--fill-teacher);">${it.origHinglish}</div>`;
         if (it.customHinglish) {
@@ -843,8 +872,10 @@ var App = (function() {
         isSpinnerRevealed = !isSpinnerRevealed;
         const sHi = document.getElementById('spinner-hinglish');
         const sHint = document.getElementById('spinner-hint');
+        const sRating = document.getElementById('drill-srs-rating-row');
         if (sHi) sHi.style.display = isSpinnerRevealed ? 'block' : 'none';
         if (sHint) sHint.style.display = isSpinnerRevealed ? 'none' : 'block';
+        if (sRating) sRating.style.display = isSpinnerRevealed ? 'block' : 'none';
       }
 
       function nextSpinnerCard() {
@@ -1602,6 +1633,23 @@ var App = (function() {
       }
     };
 
+    App.doGoogleLogin = async function() {
+      if (!window._FA || !window._AUTH) {
+        showToast('Firebase connect ho raha hai — thodi der mein koshish karein');
+        return;
+      }
+      try {
+        const provider = new window._FA.GoogleAuthProvider();
+        provider.setCustomParameters({ prompt: 'select_account' });
+        showToast('Google Sign-In khul raha hai…');
+        await window._FA.signInWithPopup(window._AUTH, provider);
+        showToast('✅ Google login kamyab!');
+      } catch(e) {
+        if (e.code === 'auth/popup-closed-by-user') return;
+        showToast('Google login error: ' + (e.message || e.code));
+      }
+    };
+
     App.doLogout = async function() {
       if (!window._FA || !window._AUTH) return;
       if (!confirm('Logout karna chahte hain?')) return;
@@ -1716,9 +1764,16 @@ var App = (function() {
     App.switchDrillTab = function(tab) {
       document.getElementById('drill-tab-starred').classList.toggle('active', tab === 'starred');
       document.getElementById('drill-tab-custom').classList.toggle('active', tab === 'custom');
+      const srsTab = document.getElementById('drill-tab-srs');
+      if (srsTab) srsTab.classList.toggle('active', tab === 'srs');
+
       document.getElementById('drill-starred-panel').style.display = tab === 'starred' ? 'block' : 'none';
       document.getElementById('drill-custom-panel').style.display = tab === 'custom' ? 'block' : 'none';
+      const srsPanel = document.getElementById('drill-srs-panel');
+      if (srsPanel) srsPanel.style.display = tab === 'srs' ? 'block' : 'none';
+
       if (tab === 'custom') buildAccordion();
+      if (tab === 'srs') renderSrsStats();
     };
 
     function buildAccordion() {
@@ -1870,6 +1925,474 @@ var App = (function() {
     App.endDrill = function() {
       document.getElementById('drill-setup-view').style.display = 'block';
       document.getElementById('drill-card-view').style.display = 'none';
+      renderSrsStats();
+    };
+
+    // ─── SRS ENGINE (Leitner 5-Box Model) ─────────────────
+    const SRS_INTERVALS = [
+      0,                        // Box 1: Immediate / 10m
+      3 * 24 * 60 * 60 * 1000,  // Box 2: 3 days
+      7 * 24 * 60 * 60 * 1000,  // Box 3: 7 days
+      14 * 24 * 60 * 60 * 1000, // Box 4: 14 days
+      30 * 24 * 60 * 60 * 1000  // Box 5: 30 days (Mastered!)
+    ];
+
+    function getSrsState() {
+      try {
+        return JSON.parse(localStorage.getItem('muallim_srs_state') || '{}');
+      } catch(e) {
+        return {};
+      }
+    }
+
+    function saveSrsState(state) {
+      try {
+        localStorage.setItem('muallim_srs_state', JSON.stringify(state));
+      } catch(e) {}
+      syncSrsToCloud(state);
+    }
+
+    function syncSrsToCloud(state) {
+      if (typeof db !== 'undefined' && db && currentUser && currentUser.uid) {
+        try {
+          db.collection('user_data').doc(currentUser.uid).set({
+            srs: state,
+            last_srs_sync: firebase.firestore.FieldValue.serverTimestamp()
+          }, { merge: true }).catch(function(){});
+        } catch(e) {}
+      }
+    }
+
+    function getSrsItem(arabic) {
+      const state = getSrsState();
+      return state[arabic] || null;
+    }
+
+    function updateSrsItem(arabic, rating) {
+      const state = getSrsState();
+      const now = Date.now();
+      const current = state[arabic] || { box: 1, reps: 0, lapses: 0, lastReview: 0, nextReview: now };
+      let newBox = current.box || 1;
+
+      if (rating === 'again') {
+        newBox = 1;
+        current.lapses = (current.lapses || 0) + 1;
+        current.nextReview = now + (10 * 60 * 1000); // 10 minutes
+      } else if (rating === 'hard') {
+        current.nextReview = now + (24 * 60 * 60 * 1000); // 1 day
+      } else if (rating === 'good') {
+        newBox = Math.min(5, (current.box || 1) + 1);
+        current.nextReview = now + (SRS_INTERVALS[newBox - 1] || (24 * 60 * 60 * 1000));
+      } else if (rating === 'easy') {
+        newBox = Math.min(5, (current.box || 1) + 2);
+        current.nextReview = now + (SRS_INTERVALS[newBox - 1] || (3 * 24 * 60 * 60 * 1000));
+      }
+
+      current.box = newBox;
+      current.reps = (current.reps || 0) + 1;
+      current.lastReview = now;
+      state[arabic] = current;
+      saveSrsState(state);
+      renderSrsStats();
+      return current;
+    }
+
+    function renderSrsStats() {
+      const state = getSrsState();
+      const now = Date.now();
+      const boxes = [0, 0, 0, 0, 0];
+      let dueCount = 0;
+      let totalCount = 0;
+
+      Object.keys(state).forEach(k => {
+        const item = state[k];
+        if (!item) return;
+        totalCount++;
+        const bIdx = Math.max(1, Math.min(5, item.box || 1)) - 1;
+        boxes[bIdx]++;
+        if ((item.nextReview || 0) <= now) {
+          dueCount++;
+        }
+      });
+
+      for (let i = 1; i <= 5; i++) {
+        const el = document.getElementById(`srs-box-${i}-count`);
+        if (el) el.textContent = boxes[i - 1];
+      }
+
+      const badge = document.getElementById('srs-due-badge');
+      if (badge) badge.textContent = dueCount;
+
+      const totalEl = document.getElementById('srs-total-tracked');
+      if (totalEl) totalEl.textContent = `${totalCount} tracked`;
+
+      const summary = document.getElementById('srs-due-summary');
+      if (summary) {
+        summary.textContent = dueCount > 0
+          ? `${dueCount} cards review ke liye tayyar hain!`
+          : `MashaAllah! Sabhi cards up-to-date hain.`;
+      }
+    }
+
+    function buildSrsDrillPool() {
+      const state = getSrsState();
+      const now = Date.now();
+      const dueList = [];
+      const newPool = [];
+
+      const stages = bookData ? bookData.stages : {};
+      for (let s = 1; s <= 7; s++) {
+        const lessons = stages[`Stage${s}`] || [];
+        lessons.forEach(l => {
+          const lkey = l.lesson_key || `S${s}L${l.lesson_id}`;
+          (l.sections || []).forEach(sec => {
+            (sec.data?.items || []).forEach(it => {
+              if (!it.arabic || !it.hinglish || it.arabic.includes('----')) return;
+              const entry = state[it.arabic];
+              const card = {
+                arabic: it.arabic,
+                origHinglish: it.hinglish,
+                customHinglish: (typeof customAnswers !== 'undefined' && customAnswers[it.arabic]) || '',
+                key: lkey
+              };
+              if (entry) {
+                if ((entry.nextReview || 0) <= now) {
+                  dueList.push({ card: card, nextReview: entry.nextReview || 0, box: entry.box || 1 });
+                }
+              } else {
+                newPool.push(card);
+              }
+            });
+          });
+        });
+      }
+
+      dueList.sort((a, b) => a.nextReview - b.nextReview);
+      const result = dueList.map(d => d.card);
+
+      if (result.length < 20 && newPool.length > 0) {
+        shuffleArray(newPool);
+        const needed = 20 - result.length;
+        result.push(...newPool.slice(0, needed));
+      }
+
+      return result;
+    }
+
+    App.startSrsDrill = function() {
+      const pool = buildSrsDrillPool();
+      if (pool.length === 0) {
+        showToast('Koi cards due nahi hain! Sabaq padhte rahein.');
+        return;
+      }
+      spinnerMode = 'srs';
+      startDrillWithPool(pool);
+    };
+
+    App.rateCurrentCard = function(rating) {
+      if (spinnerPool.length === 0) return;
+      const it = spinnerPool[spinnerIndex];
+      if (!it || !it.arabic) return;
+      updateSrsItem(it.arabic, rating);
+      if (window.AudioFX) {
+        window.AudioFX.play(rating === 'again' ? 'whoosh' : 'pop');
+      }
+      nextSpinnerCard();
+    };
+
+    // ─── INTERACTIVE GRAMMAR EXERCISE ENGINE ──────────────
+    let exerciseQuestions = [];
+    let exerciseCurrentIdx = 0;
+    let exerciseScore = 0;
+
+    function generateGrammarExercisesForLesson(lesson, stageNum) {
+      const qs = [];
+      const secItems = (lesson.sections || []).flatMap(s => (s.data && s.data.items) || []);
+      const validItems = secItems.filter(it => it.arabic && it.hinglish && !it.arabic.includes('----'));
+      const stage = stageNum || currentStage || 1;
+      const lId = lesson.lesson_id || currentLesson || 1;
+
+      // Q1: Core Lesson Topic Concept Question
+      if (stage === 1) {
+        if (lId === 1) {
+          qs.push({
+            prompt: "Is lafz ki noiyat pehchaniye (Khaas / The ya Aam / A)?",
+            arabic: "الْكِتَابُ",
+            options: [
+              { text: "Khaas Lafz (Definite — The Book)", isCorrect: true, explanation: "Shuru mein 'الْـ' aane se lafz Khaas (Ma'rifah) ho jata hai aur aakhir se Tanween khatam ho kar ek Pesh bachta hai." },
+              { text: "Aam Lafz (Indefinite — Any Book)", isCorrect: false, explanation: "Aam lafz par Tanween ( ٌ ) aati hai, jaise 'كِتَابٌ'." },
+              { text: "Fe'l (Verb)", isCorrect: false, explanation: "'الْكِتَابُ' ek Isim (Noun) hai, Fe'l nahi." },
+              { text: "Harf (Particle)", isCorrect: false, explanation: "'الْكِتَابُ' ek Isim hai." }
+            ]
+          });
+        } else if (lId === 2) {
+          qs.push({
+            prompt: "Is lafz ki Jins (Gender) kya hai?",
+            arabic: "مُؤْمِنَةٌ",
+            options: [
+              { text: "Muannas (Female)", isCorrect: true, explanation: "Aakhir mein Gol Taa ( ـَةٌ ) aane ki wajah se yeh lafz Muannas (Female) hai." },
+              { text: "Muzakkar (Male)", isCorrect: false, explanation: "Muzakkar 'مُؤْمِنٌ' hota hai jisme Gol Taa nahi hoti." },
+              { text: "Jama (Plural)", isCorrect: false, explanation: "Yeh waahid (singular) muannas hai." },
+              { text: "Tasniyah (Dual)", isCorrect: false, explanation: "Tasniyah mein 'ـَانِ' ya 'ـَيْنِ' aata hai." }
+            ]
+          });
+        }
+      } else if (stage === 2) {
+        if (lId === 1) {
+          qs.push({
+            prompt: "Lafz 'إِنَّ' ke aane se baad wale Ism par kya asar padta hai?",
+            arabic: "إِنَّ اللَّهَ",
+            options: [
+              { text: "Ism Mansoob (Zabar َ) ho jata hai", isCorrect: true, explanation: "Beshak! 'إِنَّ' ta'keed ke liye aata hai aur apne baad wale Ism ko Zabar (Mansoob) deta hai." },
+              { text: "Ism Majroor (Zer ِ) ho jata hai", isCorrect: false, explanation: "Zer sirf Huroof-e-Jarr dete hain, 'إِنَّ' nahi." },
+              { text: "Ism par Pesh rehta hai", isCorrect: false, explanation: "'إِنَّ' ke aane ke baad Pesh Zabar mein tabdeel ho jata hai." },
+              { text: "Koi tabdeeli nahi hoti", isCorrect: false, explanation: "'إِنَّ' lafz ki aakhri harakat ko badal deta hai." }
+            ]
+          });
+        } else {
+          qs.push({
+            prompt: "Huroof-e-Jarr (jaise فِي, مِنْ, عَلَى, بِـ) aane se aakhri harf par kya asar hota hai?",
+            arabic: "فِي الْبَيْتِ",
+            options: [
+              { text: "Aakhir mein Zer (Kasrah ِ) aati hai", isCorrect: true, explanation: "Sahi jawab! Harf-e-Jarr apne baad wale lafz ko Majroor (Zer) kar deta hai." },
+              { text: "Aakhir mein Pesh (Dammah ُ) aati hai", isCorrect: false, explanation: "Pesh aam haalat hoti hai, Harf-e-Jarr ke baad nahi." },
+              { text: "Aakhir mein do Zabar aate hain", isCorrect: false, explanation: "Harf-e-Jarr Zer deta hai, Zabar nahi." },
+              { text: "Lafz par Sukoon (Jazm) lag jata hai", isCorrect: false, explanation: "Isim par Zer aati hai, Sukoon nahi." }
+            ]
+          });
+        }
+      } else if (stage === 3) {
+        qs.push({
+          prompt: "Is murakkab ki qisam pehchaniye:",
+          arabic: "كِتَابُ اللَّهِ",
+          options: [
+            { text: "Murakkab-e-Izaafi (Mudaaf + Mudaaf-Ilaih)", isCorrect: true, explanation: "Durust! 'كِتَابُ' Mudaaf hai (bina Al aur Tanween ke) aur 'اللَّهِ' Mudaaf-Ilaih hai (Majroor Zer ke saath) — maana: Allah ki kitaab." },
+            { text: "Murakkab-e-Tawseefi (Mawsoof + Sifat)", isCorrect: false, explanation: "Tawseefi mein dono lafz ek jaisi harakat aur Alif-Laam mein barabar hote hain." },
+            { text: "Jumla Fe'liyyah", isCorrect: false, explanation: "Yeh jumla nahi balke murakkab (phrase) hai." },
+            { text: "Harf-e-Nida", isCorrect: false, explanation: "Yahan koi Harf-e-Nida (Yaa) nahi hai." }
+          ]
+        });
+      } else if (stage === 4) {
+        qs.push({
+          prompt: "Is lafz mein jurti hui zameer (attached pronoun) ka kya maana hai?",
+          arabic: "رَبُّهُ",
+          options: [
+            { text: "Uska Rabb (His Lord)", isCorrect: true, explanation: "Lafz ke aakhir mein 'ـهُ' zameer-e-muttasil hai jiska maana 'uska / uski' hota hai." },
+            { text: "Mera Rabb (My Lord)", isCorrect: false, explanation: "Mera Rabb ke liye 'رَبِّي' aata hai." },
+            { text: "Aapka Rabb (Your Lord)", isCorrect: false, explanation: "Aapke liye 'رَبُّكَ' aata hai." },
+            { text: "Un sab ka Rabb (Their Lord)", isCorrect: false, explanation: "Un sab ke liye 'رَبُّهُمْ' aata hai." }
+          ]
+        });
+      } else if (stage === 5) {
+        qs.push({
+          prompt: "Lafz 'عَالِمٌ' ki jama (Broken Plural) kya aati hai?",
+          arabic: "عَالِمٌ",
+          options: [
+            { text: "عُلَمَاءُ (Ulama / Scholars)", isCorrect: true, explanation: "Beshak! Jama Mukassar (Broken Plural) mein lafz ke andar tabdeeli hoti hai: Aalim se Ulama." },
+            { text: "عَالِمُونَ", isCorrect: false, explanation: "Quran-e-Kareem mein aalim ki jama 'عُلَمَاء' aati hai." },
+            { text: "عَالِمَات", isCorrect: false, explanation: "Yeh muannas jama hai." },
+            { text: "مَعَالِم", isCorrect: false, explanation: "Ma'alim doosre lafz ki jama hai." }
+          ]
+        });
+      } else if (stage === 6) {
+        qs.push({
+          prompt: "Fe'l Mazi 'فَعَلُوا' kis zameer (pronoun) ke liye istemaal hota hai?",
+          arabic: "فَعَلُوا",
+          options: [
+            { text: "هُمْ (Woh sab mard / They)", isCorrect: true, explanation: "Aakhir mein 'ـُوا' aana Jama Muzakkar Gaayib (هُمْ) ki aalaamat hai." },
+            { text: "هُوَ (Woh 1 mard)", isCorrect: false, explanation: "Woh 1 mard ke liye baghair suffix ke 'فَعَلَ' aata hai." },
+            { text: "أَنْتَ (Aap 1 mard)", isCorrect: false, explanation: "Aap 1 ke liye 'فَعَلْتَ' aata hai." },
+            { text: "نَحْنُ (Hum sab)", isCorrect: false, explanation: "Hum sab ke liye 'فَعَلْنَا' aata hai." }
+          ]
+        });
+      } else {
+        qs.push({
+          prompt: "Is Fe'l ki awaz (Voice) kya hai?",
+          arabic: "عُبِدَ",
+          options: [
+            { text: "Majhool (Passive — Uski ibadat ki gayi)", isCorrect: true, explanation: "Pehle harf par Pesh ( ُ ) aur doosre par Zer ( ِ ) aane se Fe'l Majhool (Passive Voice) banta hai." },
+            { text: "Ma'roof (Active — Usne ibadat ki)", isCorrect: false, explanation: "Ma'roof 'عَبَدَ' hota hai jisme pehle harf par Zabar hota hai." },
+            { text: "Amr (Order / Command)", isCorrect: false, explanation: "Yeh Mazi Majhool hai, Amr nahi." },
+            { text: "Nahi (Prohibition)", isCorrect: false, explanation: "Yeh Majhool past tense hai." }
+          ]
+        });
+      }
+
+      // Q2 to Q5: Dynamic questions extracted directly from valid items in this lesson!
+      const shuffled = shuffleArray([...validItems]);
+      let itemIdx = 0;
+
+      while (qs.length < 5 && itemIdx < shuffled.length) {
+        const target = shuffled[itemIdx++];
+        const correctTrans = target.hinglish || target.urdu || '';
+        if (!correctTrans) continue;
+
+        const otherItems = validItems.filter(it => it.arabic !== target.arabic && it.hinglish && it.hinglish !== correctTrans);
+        if (otherItems.length < 3) break;
+        const dists = shuffleArray(otherItems).slice(0, 3).map(d => d.hinglish);
+
+        const opts = [
+          { text: correctTrans, isCorrect: true, explanation: `Sahi jawab! '${target.arabic}' ka sahi maana '${correctTrans}' hai.` },
+          { text: dists[0], isCorrect: false, explanation: `Ghalat. '${target.arabic}' ka sahi maana '${correctTrans}' hai.` },
+          { text: dists[1], isCorrect: false, explanation: `Ghalat. '${target.arabic}' ka sahi maana '${correctTrans}' hai.` },
+          { text: dists[2], isCorrect: false, explanation: `Ghalat. '${target.arabic}' ka sahi maana '${correctTrans}' hai.` }
+        ];
+
+        qs.push({
+          prompt: "Is lafz ka sahi maana (translation) muntakhab karein:",
+          arabic: target.arabic,
+          options: shuffleArray(opts)
+        });
+      }
+
+      if (qs.length < 5) {
+        qs.push({
+          prompt: "Quran-e-Kareem mein aam taur par lafz ki default haalat kya hoti hai?",
+          arabic: "الْأَصْلُ فِي الْأَسْمَاءِ",
+          options: [
+            { text: "Marfoo (Pesh / Dammah ُ)", isCorrect: true, explanation: "Har Ism ki asal haalat Marfoo (Pesh) hoti hai jab tak koi asar daalne wala harf na aaye." },
+            { text: "Mansoob (Zabar / Fathah َ)", isCorrect: false, explanation: "Zabar 'إِنَّ' ya Maf'ool banne par aata hai." },
+            { text: "Majroor (Zer / Kasrah ِ)", isCorrect: false, explanation: "Zer Harf-e-Jarr ya Mudaaf-Ilaih hone par aati hai." },
+            { text: "Majzoom (Sukoon ْ)", isCorrect: false, explanation: "Ism par Sukoon aam taur par nahi aata." }
+          ]
+        });
+      }
+
+      return qs.slice(0, 5);
+    }
+
+    App.openGrammarExerciseModal = function() {
+      const stageKey = `Stage${currentStage}`;
+      const stageData = (bookData && bookData.stages && bookData.stages[stageKey]) || [];
+      const lesson = stageData.find(l => l.lesson_id === currentLesson) || stageData[0] || {};
+      const titleEl = document.getElementById('exercise-lesson-title');
+      if (titleEl) titleEl.textContent = `Unit ${currentStage} Lesson ${currentLesson}`;
+
+      exerciseQuestions = generateGrammarExercisesForLesson(lesson, currentStage);
+      exerciseCurrentIdx = 0;
+      exerciseScore = 0;
+
+      document.getElementById('exercise-quiz-view').style.display = 'block';
+      document.getElementById('exercise-scorecard-view').style.display = 'none';
+
+      renderExerciseQuestion();
+
+      const modal = document.getElementById('grammar-exercise-modal');
+      if (modal && modal.showModal) modal.showModal();
+    };
+
+    function renderExerciseQuestion() {
+      const q = exerciseQuestions[exerciseCurrentIdx];
+      if (!q) return;
+
+      const prog = document.getElementById('exercise-q-progress');
+      if (prog) prog.textContent = `Sawal ${exerciseCurrentIdx + 1} of ${exerciseQuestions.length}`;
+
+      const scoreEl = document.getElementById('exercise-q-score');
+      if (scoreEl) scoreEl.textContent = `Score: ${exerciseScore} / ${exerciseCurrentIdx}`;
+
+      const promptEl = document.getElementById('exercise-prompt-text');
+      if (promptEl) promptEl.textContent = q.prompt;
+
+      const arBox = document.getElementById('exercise-arabic-box');
+      if (arBox) arBox.textContent = q.arabic;
+
+      const expBox = document.getElementById('exercise-explanation-box');
+      if (expBox) expBox.style.display = 'none';
+
+      const nextBtn = document.getElementById('exercise-next-btn');
+      if (nextBtn) nextBtn.style.display = 'none';
+
+      const mount = document.getElementById('exercise-options-mount');
+      if (!mount) return;
+
+      mount.innerHTML = q.options.map((opt, idx) => `
+        <button class="exercise-option-btn" id="opt-btn-${idx}" onclick="App.submitExerciseAnswer(${idx})">
+          <span>${opt.text}</span>
+          <span style="opacity:0.4; font-size:0.8rem;">●</span>
+        </button>
+      `).join('');
+    }
+
+    App.submitExerciseAnswer = function(optIdx) {
+      const q = exerciseQuestions[exerciseCurrentIdx];
+      if (!q) return;
+
+      const mount = document.getElementById('exercise-options-mount');
+      if (!mount) return;
+
+      const buttons = mount.querySelectorAll('.exercise-option-btn');
+      buttons.forEach(btn => btn.disabled = true);
+
+      const chosen = q.options[optIdx];
+      const chosenBtn = document.getElementById(`opt-btn-${optIdx}`);
+
+      const expBox = document.getElementById('exercise-explanation-box');
+      const nextBtn = document.getElementById('exercise-next-btn');
+
+      if (chosen.isCorrect) {
+        exerciseScore++;
+        if (chosenBtn) chosenBtn.classList.add('correct');
+        if (window.AudioFX) window.AudioFX.play('pop');
+        if (expBox) {
+          expBox.style.display = 'block';
+          expBox.style.background = 'rgba(5, 150, 105, 0.12)';
+          expBox.style.color = '#059669';
+          expBox.innerHTML = `<strong>✓ Sahi Jawab!</strong> ${chosen.explanation}`;
+        }
+      } else {
+        if (chosenBtn) chosenBtn.classList.add('wrong');
+        if (window.AudioFX) window.AudioFX.play('whoosh');
+        q.options.forEach((opt, idx) => {
+          if (opt.isCorrect) {
+            const correctBtn = document.getElementById(`opt-btn-${idx}`);
+            if (correctBtn) correctBtn.classList.add('correct');
+          }
+        });
+        if (expBox) {
+          expBox.style.display = 'block';
+          expBox.style.background = 'rgba(220, 38, 38, 0.12)';
+          expBox.style.color = '#dc2626';
+          expBox.innerHTML = `<strong>✗ Ghalat Jawab.</strong> ${chosen.explanation}`;
+        }
+      }
+
+      const scoreEl = document.getElementById('exercise-q-score');
+      if (scoreEl) scoreEl.textContent = `Score: ${exerciseScore} / ${exerciseCurrentIdx + 1}`;
+
+      if (nextBtn) {
+        nextBtn.style.display = 'block';
+        nextBtn.textContent = exerciseCurrentIdx + 1 < exerciseQuestions.length ? 'Agla Sawal (Next Question) ➔' : 'Nateeja Dekhein (See Results) ➔';
+      }
+    };
+
+    App.nextExerciseQuestion = function() {
+      if (exerciseCurrentIdx + 1 < exerciseQuestions.length) {
+        exerciseCurrentIdx++;
+        renderExerciseQuestion();
+      } else {
+        document.getElementById('exercise-quiz-view').style.display = 'none';
+        const card = document.getElementById('exercise-scorecard-view');
+        card.style.display = 'block';
+        const icon = document.getElementById('exercise-score-icon');
+        const text = document.getElementById('exercise-final-score-text');
+        const pct = Math.round((exerciseScore / exerciseQuestions.length) * 100);
+
+        if (pct >= 80) {
+          icon.textContent = '🏆';
+          text.innerHTML = `Aala tareen! Aapne ${exerciseQuestions.length} mein se <strong>${exerciseScore}</strong> (${pct}%) sahi kiye!`;
+        } else if (pct >= 50) {
+          icon.textContent = '⭐';
+          text.innerHTML = `Achhi koshish! Aapne ${exerciseQuestions.length} mein se <strong>${exerciseScore}</strong> (${pct}%) sahi kiye. Sabaq dobara revise karein!`;
+        } else {
+          icon.textContent = '📖';
+          text.innerHTML = `Aapne ${exerciseQuestions.length} mein se <strong>${exerciseScore}</strong> (${pct}%) sahi kiye. Sabaq ko dobara dhyan se padhein!`;
+        }
+      }
+    };
+
+    App.restartGrammarExercise = function() {
+      App.openGrammarExerciseModal();
     };
 
     // ─── EXAM ENGINE ─────────────────────────────────────
@@ -3064,7 +3587,8 @@ var App = (function() {
       const {
         getAuth, signInWithEmailAndPassword, signOut,
         onAuthStateChanged, createUserWithEmailAndPassword,
-        sendPasswordResetEmail, updatePassword, signInAnonymously
+        sendPasswordResetEmail, updatePassword, signInAnonymously,
+        GoogleAuthProvider, signInWithPopup
       } = await import(FIREBASE_MODULES.auth);
 
       // Prevent double-init
@@ -3078,7 +3602,8 @@ var App = (function() {
       window._FSDB = _db;
       // Expose Auth helpers
       window._FA = { getAuth, signInWithEmailAndPassword, signOut, onAuthStateChanged,
-                     createUserWithEmailAndPassword, sendPasswordResetEmail, updatePassword, signInAnonymously };
+                     createUserWithEmailAndPassword, sendPasswordResetEmail, updatePassword,
+                     signInAnonymously, GoogleAuthProvider, signInWithPopup };
       window._AUTH = _auth;
 
       // ── Auth state observer ──
@@ -3092,6 +3617,7 @@ var App = (function() {
             console.warn('[Auth] Anonymous sign-in fallback:', err);
             App.currentUser = null;
             _hideAdminTab();
+            _hideTeacherTab();
             _updateAccountUI(null);
             if (!sessionStorage.getItem('muallim_guest_mode')) {
               const lm = document.getElementById('login-modal');
@@ -3109,10 +3635,11 @@ var App = (function() {
             isAnonymous: true
           };
           _hideAdminTab();
+          _hideTeacherTab();
           _updateAccountUI(App.currentUser);
           _loadUserDataFromFirestore(user.uid, 'guest_data');
         } else {
-          // Logged in user (Student / Admin)
+          // Logged in user (Student / Teacher / Admin)
           const lm = document.getElementById('login-modal');
           if (lm && lm.open) lm.close();
 
@@ -3123,23 +3650,47 @@ var App = (function() {
             sessionStorage.removeItem('muallim_guest_uid');
           }
 
-          // Fetch role from Firestore
-          let role = 'student', displayName = user.email;
+          // Super-admin hardcoded check
+          const SUPER_ADMINS = ['nomaan.cha@gmail.com'];
+          let role = 'student', displayName = user.displayName || user.email;
+          if (user.email && SUPER_ADMINS.includes(user.email.toLowerCase())) {
+            role = 'admin';
+          }
+
+          // Fetch or initialize role from Firestore
           try {
-            const { doc: d2, getDoc: gd2 } = window._FS;
+            const { doc: d2, getDoc: gd2, setDoc: sd2, serverTimestamp: st2 } = window._FS;
             const userSnap = await gd2(d2(_db, 'users', user.uid));
             if (userSnap.exists()) {
               const ud = userSnap.data();
-              role = ud.role || 'student';
-              displayName = ud.name || user.email;
+              if (role !== 'admin') role = ud.role || 'student';
+              displayName = ud.name || user.displayName || user.email;
+              await sd2(d2(_db, 'users', user.uid), { lastSeen: st2() }, { merge: true });
+            } else {
+              await sd2(d2(_db, 'users', user.uid), {
+                uid: user.uid,
+                email: user.email,
+                name: displayName,
+                role: role,
+                createdAt: st2(),
+                lastSeen: st2()
+              }, { merge: true });
             }
-          } catch(e) { console.warn('[Auth] Could not fetch user doc:', e); }
+          } catch(e) { console.warn('[Auth] Could not fetch/sync user doc:', e); }
 
           App.currentUser = { uid: user.uid, email: user.email, role, name: displayName, isAnonymous: false };
 
-          // Show/hide admin tab
-          if (role === 'admin') _showAdminTab();
-          else _hideAdminTab();
+          // Show/hide admin and teacher tabs
+          if (role === 'admin') {
+            _showAdminTab();
+            _showTeacherTab();
+          } else if (role === 'teacher') {
+            _hideAdminTab();
+            _showTeacherTab();
+          } else {
+            _hideAdminTab();
+            _hideTeacherTab();
+          }
 
           _updateAccountUI(App.currentUser);
 
@@ -3159,6 +3710,14 @@ var App = (function() {
       const t = document.getElementById('admin-nav-tab');
       if (t) t.style.display = 'none';
     }
+    function _showTeacherTab() {
+      const t = document.getElementById('teacher-nav-tab');
+      if (t) t.style.display = 'block';
+    }
+    function _hideTeacherTab() {
+      const t = document.getElementById('teacher-nav-tab');
+      if (t) t.style.display = 'none';
+    }
 
     function _updateAccountUI(user) {
       const loggedOutView = document.getElementById('auth-logged-out-view');
@@ -3175,7 +3734,12 @@ var App = (function() {
         if (loggedOutView) loggedOutView.style.display = 'none';
         if (loggedInView)  loggedInView.style.display = 'block';
         if (userDisplay)   userDisplay.textContent = (user.name || user.email);
-        if (userRole)      userRole.textContent = user.role === 'admin' ? 'Role: Teacher / Admin 🛡' : 'Role: Student';
+        if (userRole) {
+          if (user.role === 'admin') userRole.textContent = 'Role: Super Admin 🛡';
+          else if (user.role === 'teacher') userRole.textContent = 'Role: Ustaad / Teacher 👨‍🏫';
+          else if (user.role === 'student') userRole.textContent = 'Role: Student / Taalib-e-Ilm 🎓';
+          else userRole.textContent = 'Role: Guest Learner';
+        }
 
         if (user.role === 'admin') {
           if (adminPanel) adminPanel.style.display = 'block';
@@ -3629,6 +4193,7 @@ var App = (function() {
         filterCustomAnswers,
         // Firebase Auth exports (Phase 4)
         doLogin: App.doLogin || function(){},
+        doGoogleLogin: App.doGoogleLogin || function(){},
         doLogout: App.doLogout || function(){},
         forgotPassword: App.forgotPassword || function(){},
         changePassword: App.changePassword || function(){},
@@ -3731,6 +4296,7 @@ var App = (function() {
       }
       qb('menu-btn-search', function() { if(window.App&&App.openSearchModal) App.openSearchModal(); });
       qb('menu-btn-drill',  function() { if(window.App&&App.openSpinner) App.openSpinner(); });
+      qb('menu-btn-exercise', function() { if(window.App&&App.openGrammarExerciseModal) App.openGrammarExerciseModal(); });
       qb('menu-btn-favs',   function() { if(window.App&&App.openFavourites) App.openFavourites(); });
       qb('menu-btn-custom', function() { if(window.App&&App.openCustomAnswersModal) App.openCustomAnswersModal(); });
       qb('menu-btn-exam',   function() { if(window.App&&App.openExam) App.openExam(); });

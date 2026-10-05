@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Muallim — Ustaad Portal (Teacher Dashboard)</title>
+  <meta name="description" content="Dedicated Teacher Portal for Muallim ul-Qur'an madrasa companion app">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: ['class', '[data-theme="dark"]'],
+      theme: {
+        extend: {
+          colors: {
+            emerald: {
+              50: '#ecfdf5', 100: '#d1fae5', 500: '#10b981', 600: '#059669', 700: '#047857', 800: '#065f46', 900: '#1b4332'
+            },
+            amber: { 500: '#d97706', 600: '#b45309' }
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            arabic: ['Amiri', 'serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Zero-FOUC theme loader -->
+  <script>
+    (function() {
+      try {
+        var t = localStorage.getItem('muallim_theme') || 'light';
+        document.documentElement.setAttribute('data-theme', t);
+        if (t === 'dark') document.documentElement.classList.add('dark');
+        else document.documentElement.classList.remove('dark');
+      } catch(e) {}
+    })();
+  </script>
+
+  <!-- Firebase v11 compat SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/11.0.2/firebase-firestore-compat.js"></script>
+
+  <style>
+    body { font-family: 'Inter', system-ui, sans-serif; }
+    .font-arabic { font-family: 'Amiri', serif; }
+  </style>
+</head>
+<body class="bg-stone-50 dark:bg-slate-900 text-slate-800 dark:text-slate-100 min-h-screen flex flex-col antialiased transition-colors duration-200">
+
+  <!-- Top Navigation Bar -->
+  <header class="sticky top-0 z-40 bg-emerald-900 text-white shadow-md border-b border-emerald-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <span class="text-2xl">👨‍🏫</span>
+        <div>
+          <h1 class="font-bold text-lg leading-tight tracking-wide flex items-center gap-2">
+            Muallim ul-Qur'an <span class="bg-amber-500/20 text-amber-300 text-xs px-2 py-0.5 rounded-full border border-amber-400/30 uppercase tracking-wider font-extrabold">Ustaad Portal</span>
+          </h1>
+          <p class="text-xs text-emerald-200">Madrasa Classroom Companion</p>
+        </div>
+      </div>
+
+      <div class="flex items-center space-x-2 sm:space-x-3">
+        <a href="index.html" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/10 hover:bg-white/20 text-xs font-semibold tracking-wide transition">
+          <span>📖</span> <span class="hidden sm:inline">Student App</span>
+        </a>
+        <a id="admin-link-btn" href="admin.html" style="display:none;" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-amber-600/80 hover:bg-amber-600 text-xs font-semibold text-white tracking-wide transition">
+          <span>🛡</span> <span class="hidden sm:inline">Admin</span>
+        </a>
+        <button onclick="toggleTheme()" class="p-1.5 rounded-lg bg-white/10 hover:bg-white/20 text-sm transition" title="Toggle Theme">
+          <span id="theme-icon">🌙</span>
+        </button>
+        <div id="user-chip" class="hidden items-center gap-2 pl-2 border-l border-emerald-700/60 text-xs">
+          <span id="user-name" class="font-medium hidden md:inline truncate max-w-[150px]">Teacher</span>
+          <button onclick="handleLogout()" class="px-2.5 py-1 rounded bg-red-600/80 hover:bg-red-600 text-white font-semibold transition text-xs">
+            Logout
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+
+    <!-- Auth Guard Gate (Shown if logged out or unauthorized) -->
+    <div id="auth-gate" class="max-w-md mx-auto my-12 bg-white dark:bg-slate-800 p-8 rounded-2xl shadow-xl border border-stone-200 dark:border-slate-700 text-center">
+      <div class="text-5xl mb-3">🔒</div>
+      <h2 class="text-2xl font-bold mb-2">Ustaad Portal Login</h2>
+      <p class="text-sm text-stone-600 dark:text-slate-400 mb-6">
+        Yeh safah sirf Asaatiza (Teachers) aur Admins ke liye makhsoos hai.
+      </p>
+
+      <div id="auth-gate-error" class="hidden mb-4 p-3 bg-red-50 dark:bg-red-950/40 text-red-600 dark:text-red-400 rounded-lg text-xs font-medium text-left"></div>
+
+      <div class="space-y-3 mb-4 text-left">
+        <div>
+          <label class="block text-xs font-semibold uppercase tracking-wider text-stone-500 dark:text-slate-400 mb-1">Email</label>
+          <input type="email" id="gate-email" class="w-full px-3 py-2 rounded-lg border border-stone-300 dark:border-slate-600 bg-stone-50 dark:bg-slate-900 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500" placeholder="teacher@madrasa.org">
+        </div>
+        <div>
+          <label class="block text-xs font-semibold uppercase tracking-wider text-stone-500 dark:text-slate-400 mb-1">Password</label>
+          <input type="password" id="gate-password" class="w-full px-3 py-2 rounded-lg border border-stone-300 dark:border-slate-600 bg-stone-50 dark:bg-slate-900 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500" placeholder="••••••••">
+        </div>
+      </div>
+
+      <button onclick="loginWithGateEmail()" class="w-full py-2.5 px-4 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white font-semibold text-sm shadow transition">
+        Login as Ustaad
+      </button>
+
+      <div class="my-4 flex items-center gap-3">
+        <hr class="flex-1 border-stone-200 dark:border-slate-700">
+        <span class="text-xs text-stone-400 uppercase">Ya Phir</span>
+        <hr class="flex-1 border-stone-200 dark:border-slate-700">
+      </div>
+
+      <button onclick="loginWithGateGoogle()" class="w-full py-2.5 px-4 rounded-xl border border-stone-300 dark:border-slate-600 hover:bg-stone-50 dark:hover:bg-slate-700 text-stone-700 dark:text-slate-200 font-semibold text-sm flex items-center justify-center gap-3 transition shadow-sm">
+        <svg class="w-4 h-4" viewBox="0 0 18 18"><path fill="#4285F4" d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844c-.209 1.125-.843 2.078-1.796 2.717v2.258h2.908c1.702-1.567 2.684-3.874 2.684-6.616z"/><path fill="#34A853" d="M9 18c2.43 0 4.467-.806 5.956-2.184l-2.908-2.258c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332C2.438 15.983 5.482 18 9 18z"/><path fill="#FBBC05" d="M3.964 10.707c-.18-.54-.282-1.117-.282-1.707s.102-1.167.282-1.707V4.961H.957C.347 6.175 0 7.55 0 9s.348 2.825.957 4.039l3.007-2.332z"/><path fill="#EA4335" d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0 5.482 0 2.438 2.017.957 4.961L3.964 7.293C4.672 5.166 6.656 3.58 9 3.58z"/></svg>
+        <span>Continue with Google</span>
+      </button>
+
+      <div class="mt-6 pt-4 border-t border-stone-200 dark:border-slate-700 text-xs text-stone-500">
+        <a href="index.html" class="hover:underline text-emerald-600 dark:text-emerald-400 font-semibold">← Return to Student App</a>
+      </div>
+    </div>
+
+    <!-- Teacher Dashboard View (Shown after authentication with teacher/admin role) -->
+    <div id="teacher-dashboard" class="hidden space-y-6">
+
+      <!-- Stats Overview Row -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+        <div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-stone-200 dark:border-slate-700 shadow-sm flex items-center space-x-3">
+          <div class="p-3 bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 rounded-xl text-xl">👥</div>
+          <div>
+            <div id="stat-students-count" class="text-xl font-bold leading-tight">0</div>
+            <div class="text-xs text-stone-500 dark:text-slate-400">Total Students</div>
+          </div>
+        </div>
+
+        <div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-stone-200 dark:border-slate-700 shadow-sm flex items-center space-x-3">
+          <div class="p-3 bg-blue-50 dark:bg-blue-950/50 text-blue-600 dark:text-blue-400 rounded-xl text-xl">⏱️</div>
+          <div>
+            <div id="stat-study-hours" class="text-xl font-bold leading-tight">0h</div>
+            <div class="text-xs text-stone-500 dark:text-slate-400">Class Study Time</div>
+          </div>
+        </div>
+
+        <div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-stone-200 dark:border-slate-700 shadow-sm flex items-center space-x-3">
+          <div class="p-3 bg-amber-50 dark:bg-amber-950/50 text-amber-600 dark:text-amber-400 rounded-xl text-xl">📝</div>
+          <div>
+            <div id="stat-exams-pushed" class="text-xl font-bold leading-tight">0</div>
+            <div class="text-xs text-stone-500 dark:text-slate-400">Pushed Exams</div>
+          </div>
+        </div>
+
+        <div class="bg-white dark:bg-slate-800 p-4 rounded-xl border border-stone-200 dark:border-slate-700 shadow-sm flex items-center space-x-3">
+          <div class="p-3 bg-purple-50 dark:bg-purple-950/50 text-purple-600 dark:text-purple-400 rounded-xl text-xl">📢</div>
+          <div>
+            <div id="stat-broadcasts-count" class="text-xl font-bold leading-tight">0</div>
+            <div class="text-xs text-stone-500 dark:text-slate-400">Broadcasts Sent</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <div class="flex border-b border-stone-200 dark:border-slate-700 space-x-4">
+        <button onclick="switchTab('students')" id="tab-btn-students" class="py-2.5 px-4 font-semibold text-sm border-b-2 border-emerald-600 text-emerald-700 dark:text-emerald-400 flex items-center gap-2">
+          <span>👨‍🎓</span> Talaba (My Students)
+        </button>
+        <button onclick="switchTab('exams')" id="tab-btn-exams" class="py-2.5 px-4 font-medium text-sm text-stone-500 dark:text-slate-400 hover:text-stone-800 dark:hover:text-slate-200 flex items-center gap-2">
+          <span>📤</span> Push Exam (Imtihan)
+        </button>
+        <button onclick="switchTab('broadcasts')" id="tab-btn-broadcasts" class="py-2.5 px-4 font-medium text-sm text-stone-500 dark:text-slate-400 hover:text-stone-800 dark:hover:text-slate-200 flex items-center gap-2">
+          <span>📢</span> Announcements (Ilaan)
+        </button>
+      </div>
+
+      <!-- TAB 1: Students Section -->
+      <div id="tab-students" class="space-y-4">
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 bg-white dark:bg-slate-800 p-4 rounded-xl border border-stone-200 dark:border-slate-700 shadow-sm">
+          <div class="relative w-full sm:w-80">
+            <span class="absolute inset-y-0 left-0 flex items-center pl-3 text-stone-400 text-sm">🔍</span>
+            <input type="text" id="students-search" oninput="filterStudentsList()" placeholder="Talib-e-Ilm ka naam ya email..." class="w-full pl-9 pr-3 py-2 text-sm rounded-lg border border-stone-300 dark:border-slate-600 bg-stone-50 dark:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+          </div>
+          <div class="flex items-center gap-3">
+            <label class="flex items-center gap-2 text-xs text-stone-600 dark:text-slate-400 cursor-pointer">
+              <input type="checkbox" id="toggle-all-students" onchange="loadStudentsData()" class="rounded text-emerald-600 focus:ring-emerald-500">
+              <span>Show all registered students</span>
+            </label>
+            <button onclick="loadStudentsData()" class="px-3 py-1.5 rounded-lg bg-stone-100 dark:bg-slate-700 hover:bg-stone-200 text-xs font-semibold transition">
+              🔄 Refresh
+            </button>
+          </div>
+        </div>
+
+        <!-- Students Table -->
+        <div class="bg-white dark:bg-slate-800 rounded-xl border border-stone-200 dark:border-slate-700 shadow-sm overflow-hidden">
+          <div class="overflow-x-auto">
+            <table class="w-full text-left text-sm">
+              <thead class="bg-stone-100/75 dark:bg-slate-700/50 text-stone-600 dark:text-slate-300 text-xs uppercase tracking-wider">
+                <tr>
+                  <th class="px-4 py-3">Student</th>
+                  <th class="px-4 py-3">Current Lesson</th>
+                  <th class="px-4 py-3">⭐ Starred</th>
+                  <th class="px-4 py-3">✏️ Custom</th>
+                  <th class="px-4 py-3">🎓 Best Exam</th>
+                  <th class="px-4 py-3">⏱️ Study Time</th>
+                  <th class="px-4 py-3">Last Active</th>
+                  <th class="px-4 py-3 text-right">Action</th>
+                </tr>
+              </thead>
+              <tbody id="students-tbody" class="divide-y divide-stone-200 dark:divide-slate-700">
+                <tr>
+                  <td colspan="8" class="text-center py-8 text-stone-400">Loading student records...</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 2: Push Exam Section -->
+      <div id="tab-exams" class="hidden space-y-6">
+        <!-- New Exam Form -->
+        <div class="bg-white dark:bg-slate-800 p-6 rounded-xl border border-stone-200 dark:border-slate-700 shadow-sm">
+          <h3 class="text-lg font-bold mb-1 flex items-center gap-2">
+            <span>📝</span> Naya Imtihan Push Karein (Create & Push Exam)
+          </h3>
+          <p class="text-xs text-stone-500 dark:text-slate-400 mb-6">
+            Apne talaba ke liye targeted quiz set karein jo seedha unke app mein zahir hoga.
+          </p>
+
+          <form id="create-exam-form" onsubmit="handleCreateExam(event)" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="md:col-span-3">
+              <label class="block text-xs font-semibold uppercase tracking-wider text-stone-500 dark:text-slate-400 mb-1">Exam Title</label>
+              <input type="text" id="exam-title" required class="w-full px-3 py-2 text-sm rounded-lg border border-stone-300 dark:border-slate-600 bg-stone-50 dark:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500" placeholder="e.g. Unit 3 Murakkabat Special Quiz">
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold uppercase tracking-wider text-stone-500 dark:text-slate-400 mb-1">Target Unit / Stage</label>
+              <select id="exam-stage" class="w-full px-3 py-2 text-sm rounded-lg border border-stone-300 dark:border-slate-600 bg-stone-50 dark:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                <option value="1">Unit 1: Mufradaat & Asmaa (19 Lessons)</option>
+                <option value="2">Unit 2: Huroof-e-Jarr & Murakkabat (13 Lessons)</option>
+                <option value="3">Unit 3: Sifat & Izaafat (10 Lessons)</option>
+                <option value="4">Unit 4: Zama'ir & Asmaa-e-Isharah (17 Lessons)</option>
+                <option value="5">Unit 5: Jumla Ismiyyah & Inna (23 Lessons)</option>
+                <option value="6">Unit 6: Fe'l Mazi Baab (21 Lessons)</option>
+                <option value="7">Unit 7: Fe'l Muzari & Advanced (10 Lessons)</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold uppercase tracking-wider text-stone-500 dark:text-slate-400 mb-1">Target Lesson</label>
+              <input type="number" id="exam-lesson" min="1" max="23" value="1" required class="w-full px-3 py-2 text-sm rounded-lg border border-stone-300 dark:border-slate-600 bg-stone-50 dark:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold uppercase tracking-wider text-stone-500 dark:text-slate-400 mb-1">Total Sawalat (Count)</label>
+              <select id="exam-qcount" class="w-full px-3 py-2 text-sm rounded-lg border border-stone-300 dark:border-slate-600 bg-stone-50 dark:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                <option value="5">5 Sawalat (Quick Drill)</option>
+                <option value="10" selected>10 Sawalat (Standard)</option>
+                <option value="15">15 Sawalat (Comprehensive)</option>
+                <option value="20">20 Sawalat (Full Assessment)</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold uppercase tracking-wider text-stone-500 dark:text-slate-400 mb-1">Passing Score (%)</label>
+              <input type="number" id="exam-pass" min="50" max="100" value="70" required class="w-full px-3 py-2 text-sm rounded-lg border border-stone-300 dark:border-slate-600 bg-stone-50 dark:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold uppercase tracking-wider text-stone-500 dark:text-slate-400 mb-1">Time Limit (Minutes)</label>
+              <select id="exam-duration" class="w-full px-3 py-2 text-sm rounded-lg border border-stone-300 dark:border-slate-600 bg-stone-50 dark:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500">
+                <option value="5">5 Minutes</option>
+                <option value="10" selected>10 Minutes</option>
+                <option value="15">15 Minutes</option>
+                <option value="0">No Time Limit</option>
+              </select>
+            </div>
+
+            <div class="md:col-span-3 flex justify-end">
+              <button type="submit" id="exam-submit-btn" class="px-5 py-2.5 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white font-semibold text-sm shadow transition flex items-center gap-2">
+                <span>🚀</span> Imtihan Talaba ko Bhejein (Push Exam)
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Active Pushed Exams List -->
+        <div class="bg-white dark:bg-slate-800 p-6 rounded-xl border border-stone-200 dark:border-slate-700 shadow-sm">
+          <h4 class="font-bold text-base mb-4 flex items-center gap-2">
+            <span>📋</span> Active & Recent Pushed Exams
+          </h4>
+          <div id="pushed-exams-list" class="space-y-3">
+            <div class="text-stone-400 text-xs py-4 text-center">Loading exams list...</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 3: Broadcasts Section -->
+      <div id="tab-broadcasts" class="hidden space-y-6">
+        <div class="bg-white dark:bg-slate-800 p-6 rounded-xl border border-stone-200 dark:border-slate-700 shadow-sm">
+          <h3 class="text-lg font-bold mb-1 flex items-center gap-2">
+            <span>📢</span> Naya Ilaan Bhejein (Send Broadcast)
+          </h3>
+          <p class="text-xs text-stone-500 dark:text-slate-400 mb-4">
+            Tamam talaba ke screen par notification/toast foran numaya hoga.
+          </p>
+
+          <form onsubmit="handleSendBroadcast(event)" class="space-y-3">
+            <textarea id="broadcast-msg" rows="3" maxlength="500" required placeholder="e.g. Kal subah Unit 3 ka imtihan hoga, tamam talaba tayyari karein..." class="w-full px-3 py-2 text-sm rounded-lg border border-stone-300 dark:border-slate-600 bg-stone-50 dark:bg-slate-900 focus:outline-none focus:ring-2 focus:ring-emerald-500"></textarea>
+            <div class="flex justify-between items-center">
+              <span id="broadcast-counter" class="text-xs text-stone-400">0 / 500</span>
+              <button type="submit" id="broadcast-submit-btn" class="px-5 py-2 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white font-semibold text-sm shadow transition flex items-center gap-2">
+                <span>📤</span> Send Broadcast
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Broadcasts History List -->
+        <div class="bg-white dark:bg-slate-800 p-6 rounded-xl border border-stone-200 dark:border-slate-700 shadow-sm">
+          <h4 class="font-bold text-base mb-4 flex items-center gap-2">
+            <span>📜</span> Recent Announcements History
+          </h4>
+          <div id="broadcasts-history-list" class="space-y-3">
+            <div class="text-stone-400 text-xs py-4 text-center">Loading announcements...</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Student Detail Modal -->
+    <div id="student-modal" class="hidden fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
+      <div class="bg-white dark:bg-slate-800 rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto border border-stone-200 dark:border-slate-700 shadow-2xl p-6 relative">
+        <button onclick="closeStudentModal()" class="absolute top-4 right-4 text-stone-400 hover:text-stone-600 dark:hover:text-stone-200 text-xl font-bold p-1">✖</button>
+        <div id="student-modal-content">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="mt-auto py-4 text-center text-xs text-stone-500 dark:text-slate-400 border-t border-stone-200 dark:border-slate-800">
+    Muallim ul-Qur'an Ustaad Portal · Madrasa Companion System
+  </footer>
+
+  <script>
+    // --- Firebase Initialization ---
+    const FB_CONFIG = {
+      apiKey: "AIzaSyAjBnuLSADlXBZ7OY7daQ7mOta3VaHXVNg",
+      authDomain: "muallim-123.firebaseapp.com",
+      projectId: "muallim-123",
+      storageBucket: "muallim-123.firebasestorage.app",
+      messagingSenderId: "226964645326",
+      appId: "1:226964645326:web:0a219c95dad277b4cd379f"
+    };
+
+    if (!firebase.apps.length) {
+      firebase.initializeApp(FB_CONFIG);
+    }
+    const auth = firebase.auth();
+    const db = firebase.firestore();
+
+    const SUPER_ADMINS = ['nomaan.cha@gmail.com'];
+    let currentTeacherUser = null;
+    let cachedStudents = [];
+
+    // --- Theme Control ---
+    function toggleTheme() {
+      const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+      const newTheme = isDark ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', newTheme);
+      if (newTheme === 'dark') document.documentElement.classList.add('dark');
+      else document.documentElement.classList.remove('dark');
+      localStorage.setItem('muallim_theme', newTheme);
+      updateThemeIcon(newTheme);
+    }
+
+    function updateThemeIcon(t) {
+      const el = document.getElementById('theme-icon');
+      if (el) el.textContent = t === 'dark' ? '☀️' : '🌙';
+    }
+    updateThemeIcon(document.documentElement.getAttribute('data-theme') || 'light');
+
+    // --- Tab Navigation ---
+    function switchTab(tabId) {
+      ['students', 'exams', 'broadcasts'].forEach(t => {
+        const view = document.getElementById('tab-' + t);
+        const btn = document.getElementById('tab-btn-' + t);
+        if (view) view.classList.toggle('hidden', t !== tabId);
+        if (btn) {
+          btn.classList.toggle('border-b-2', t === tabId);
+          btn.classList.toggle('border-emerald-600', t === tabId);
+          btn.classList.toggle('text-emerald-700', t === tabId);
+          btn.classList.toggle('dark:text-emerald-400', t === tabId);
+          btn.classList.toggle('text-stone-500', t !== tabId);
+        }
+      });
+      if (tabId === 'exams') loadPushedExams();
+      if (tabId === 'broadcasts') loadBroadcastsHistory();
+    }
+
+    // --- Auth Observer ---
+    auth.onAuthStateChanged(async user => {
+      const gate = document.getElementById('auth-gate');
+      const dash = document.getElementById('teacher-dashboard');
+      const userChip = document.getElementById('user-chip');
+      const adminBtn = document.getElementById('admin-link-btn');
+
+      if (!user) {
+        currentTeacherUser = null;
+        gate.classList.remove('hidden');
+        dash.classList.add('hidden');
+        userChip.classList.add('hidden');
+        if (adminBtn) adminBtn.style.display = 'none';
+        return;
+      }
+
+      // Check role
+      let role = 'student';
+      const isSuper = user.email && SUPER_ADMINS.includes(user.email.toLowerCase());
+      if (isSuper) {
+        role = 'admin';
+      } else {
+        try {
+          const docSnap = await db.collection('users').doc(user.uid).get();
+          if (docSnap.exists) {
+            role = docSnap.data().role || 'student';
+          }
+        } catch(e) {
+          console.warn('[TeacherPortal] Error reading user doc:', e);
+        }
+      }
+
+      // Authorization Gate: Only 'teacher' or 'admin' allowed
+      if (role !== 'teacher' && role !== 'admin') {
+        gate.classList.remove('hidden');
+        dash.classList.add('hidden');
+        userChip.classList.remove('hidden');
+        document.getElementById('user-name').textContent = user.displayName || user.email;
+        showGateError('Aapka account student role par hai. Ustaad portal tak rasai ke liye apne Admin se rabta karein.');
+        return;
+      }
+
+      // Authorized!
+      currentTeacherUser = { uid: user.uid, email: user.email, name: user.displayName || user.email.split('@')[0], role };
+      gate.classList.add('hidden');
+      dash.classList.remove('hidden');
+      userChip.classList.remove('hidden');
+      document.getElementById('user-name').textContent = currentTeacherUser.name + ' (' + role + ')';
+
+      if (adminBtn && role === 'admin') adminBtn.style.display = 'inline-flex';
+
+      loadStudentsData();
+      loadPushedExams();
+      loadBroadcastsHistory();
+    });
+
+    // --- Auth Actions ---
+    function showGateError(msg) {
+      const err = document.getElementById('auth-gate-error');
+      if (err) {
+        err.textContent = msg;
+        err.classList.remove('hidden');
+      }
+    }
+
+    async function loginWithGateEmail() {
+      const email = document.getElementById('gate-email').value.trim();
+      const pass = document.getElementById('gate-password').value;
+      if (!email || !pass) { showGateError('Email aur password dono darruri hain'); return; }
+      try {
+        await auth.signInWithEmailAndPassword(email, pass);
+      } catch(e) {
+        showGateError('Login error: ' + e.message);
+      }
+    }
+
+    async function loginWithGateGoogle() {
+      try {
+        const provider = new firebase.auth.GoogleAuthProvider();
+        await auth.signInWithPopup(provider);
+      } catch(e) {
+        showGateError('Google sign in error: ' + e.message);
+      }
+    }
+
+    async function handleLogout() {
+      if (!confirm('Logout karna chahte hain?')) return;
+      await auth.signOut();
+    }
+
+    // --- Load Students Data ---
+    async function loadStudentsData() {
+      const tbody = document.getElementById('students-tbody');
+      tbody.innerHTML = '<tr><td colspan="8" class="text-center py-8 text-stone-400">Loading student records...</td></tr>';
+
+      try {
+        const showAll = document.getElementById('toggle-all-students').checked;
+        const [usersSnap, dataSnap] = await Promise.all([
+          db.collection('users').get(),
+          db.collection('user_data').get()
+        ]);
+
+        const dataMap = {};
+        dataSnap.forEach(d => { dataMap[d.id] = d.data(); });
+
+        let students = [];
+        let totalSeconds = 0;
+
+        usersSnap.forEach(d => {
+          const u = d.data();
+          if (u.role === 'admin' || u.role === 'teacher') return; // exclude teachers/admins from students table
+
+          // Filter by assigned teacher if not toggled to show all
+          if (!showAll && u.assignedTeacher && u.assignedTeacher !== currentTeacherUser.uid) {
+            return;
+          }
+
+          const ud = dataMap[d.id] || {};
+          const starred = ud.starredItems || ud.starred || [];
+          const custom = ud.customTranslations || ud.customAnswers || {};
+          const exams = ud.examResults || ud.examHistory || [];
+          const lessonTime = ud.lessonTime || {};
+
+          let sSec = 0;
+          Object.values(lessonTime).forEach(val => { sSec += (Number(val) || 0); });
+          totalSeconds += sSec;
+
+          const bestScore = exams.length > 0 ? Math.max(...exams.map(e => e.score || 0)) : null;
+
+          students.push({
+            uid: d.id,
+            name: u.name || u.displayName || 'Unnamed Student',
+            email: u.email || '—',
+            currentStage: ud.currentStage || 1,
+            currentLesson: ud.currentLesson || 1,
+            starredCount: Array.isArray(starred) ? starred.length : 0,
+            starredItems: starred,
+            customCount: Object.keys(custom).length,
+            customAnswers: custom,
+            examCount: exams.length,
+            bestScore: bestScore,
+            examHistory: exams,
+            studySeconds: sSec,
+            lastSeen: ud.lastSeen || u.lastSeen || null
+          });
+        });
+
+        cachedStudents = students;
+        document.getElementById('stat-students-count').textContent = students.length;
+        document.getElementById('stat-study-hours').textContent = Math.round(totalSeconds / 3600) + 'h';
+
+        renderStudentsTable(students);
+      } catch(e) {
+        console.error('[TeacherPortal] loadStudents error:', e);
+        tbody.innerHTML = `<tr><td colspan="8" class="text-center py-6 text-red-500 font-medium">Data load karne mein khata aayi: ${e.message}</td></tr>`;
+      }
+    }
+
+    function renderStudentsTable(students) {
+      const tbody = document.getElementById('students-tbody');
+      if (students.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="8" class="text-center py-8 text-stone-400">Koi talib-e-ilm nahi mila.</td></tr>';
+        return;
+      }
+
+      tbody.innerHTML = students.map(s => {
+        const lastActive = s.lastSeen?.toDate ? s.lastSeen.toDate().toLocaleDateString() : '—';
+        const studyHours = Math.round(s.studySeconds / 60) + ' mins';
+        const best = s.bestScore != null ? `<span class="font-bold ${s.bestScore >= 80 ? 'text-emerald-600' : 'text-amber-600'}">${s.bestScore}%</span>` : '—';
+
+        return `
+          <tr class="hover:bg-stone-50 dark:hover:bg-slate-700/40 transition">
+            <td class="px-4 py-3">
+              <div class="font-semibold text-stone-900 dark:text-white">${esc(s.name)}</div>
+              <div class="text-xs text-stone-400">${esc(s.email)}</div>
+            </td>
+            <td class="px-4 py-3 text-stone-600 dark:text-stone-300">
+              <span class="inline-block px-2 py-0.5 bg-emerald-50 dark:bg-emerald-950/60 text-emerald-700 dark:text-emerald-300 rounded font-medium text-xs">
+                Unit ${s.currentStage} · L${s.currentLesson}
+              </span>
+            </td>
+            <td class="px-4 py-3 font-semibold text-amber-600">${s.starredCount}</td>
+            <td class="px-4 py-3 font-semibold text-blue-600">${s.customCount}</td>
+            <td class="px-4 py-3">${best}</td>
+            <td class="px-4 py-3 text-xs text-stone-500">${studyHours}</td>
+            <td class="px-4 py-3 text-xs text-stone-400">${lastActive}</td>
+            <td class="px-4 py-3 text-right">
+              <button onclick="viewStudentDetails('${s.uid}')" class="px-2.5 py-1 bg-emerald-700 hover:bg-emerald-800 text-white rounded-lg text-xs font-medium transition shadow-sm">
+                View Progress
+              </button>
+            </td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    function filterStudentsList() {
+      const q = (document.getElementById('students-search')?.value || '').toLowerCase().trim();
+      if (!q) { renderStudentsTable(cachedStudents); return; }
+      const filtered = cachedStudents.filter(s =>
+        (s.name || '').toLowerCase().includes(q) || (s.email || '').toLowerCase().includes(q)
+      );
+      renderStudentsTable(filtered);
+    }
+
+    // --- Student Details Modal ---
+    function viewStudentDetails(uid) {
+      const s = cachedStudents.find(x => x.uid === uid);
+      if (!s) return;
+
+      const modal = document.getElementById('student-modal');
+      const content = document.getElementById('student-modal-content');
+
+      content.innerHTML = `
+        <div class="border-b border-stone-200 dark:border-slate-700 pb-4 mb-4">
+          <h3 class="text-xl font-bold text-stone-900 dark:text-white flex items-center gap-2">
+            <span>👤</span> ${esc(s.name)}
+          </h3>
+          <p class="text-xs text-stone-400">${esc(s.email)} · Device ID: ${s.uid.slice(0,8)}</p>
+        </div>
+
+        <div class="grid grid-cols-3 gap-3 mb-6">
+          <div class="bg-stone-50 dark:bg-slate-700/50 p-3 rounded-xl text-center">
+            <div class="text-lg font-bold text-emerald-600">${s.currentStage} / Lesson ${s.currentLesson}</div>
+            <div class="text-xs text-stone-400">Current Progress</div>
+          </div>
+          <div class="bg-stone-50 dark:bg-slate-700/50 p-3 rounded-xl text-center">
+            <div class="text-lg font-bold text-amber-600">${s.starredCount}</div>
+            <div class="text-xs text-stone-400">Starred Words</div>
+          </div>
+          <div class="bg-stone-50 dark:bg-slate-700/50 p-3 rounded-xl text-center">
+            <div class="text-lg font-bold text-blue-600">${s.bestScore ? s.bestScore + '%' : '—'}</div>
+            <div class="text-xs text-stone-400">Best Exam Score</div>
+          </div>
+        </div>
+
+        <!-- Starred Words List -->
+        <div class="mb-6">
+          <h4 class="font-bold text-sm mb-2 text-stone-700 dark:text-stone-300">⭐ Starred Vocabulary (${s.starredCount})</h4>
+          <div class="max-h-40 overflow-y-auto bg-stone-50 dark:bg-slate-900/50 p-3 rounded-xl border border-stone-200 dark:border-slate-700 flex flex-wrap gap-2">
+            ${(s.starredItems || []).map(it => `
+              <span class="inline-flex items-center gap-1.5 px-2.5 py-1 bg-white dark:bg-slate-800 border border-amber-200 dark:border-amber-900/50 rounded-lg text-xs">
+                <span class="font-arabic font-bold text-base text-stone-900 dark:text-white">${it.arabic || ''}</span>
+                <span class="text-stone-500 text-[11px]">${it.hinglish || ''}</span>
+              </span>
+            `).join('') || '<span class="text-stone-400 text-xs">Koi starred lafz nahi hai.</span>'}
+          </div>
+        </div>
+
+        <!-- Exam History -->
+        <div>
+          <h4 class="font-bold text-sm mb-2 text-stone-700 dark:text-stone-300">🎓 Exam History (${s.examCount})</h4>
+          <div class="max-h-40 overflow-y-auto bg-stone-50 dark:bg-slate-900/50 rounded-xl border border-stone-200 dark:border-slate-700 divide-y divide-stone-200 dark:divide-slate-700">
+            ${(s.examHistory || []).map(ex => `
+              <div class="p-2.5 flex justify-between items-center text-xs">
+                <div>
+                  <span class="font-semibold">Unit ${ex.stage || 1} Lesson ${ex.lesson || 1}</span>
+                  <span class="text-stone-400 ml-2">${new Date(ex.date || Date.now()).toLocaleDateString()}</span>
+                </div>
+                <div class="font-bold ${ex.score >= 70 ? 'text-emerald-600' : 'text-red-500'}">
+                  ${ex.score || 0}% (${ex.grade || '—'})
+                </div>
+              </div>
+            `).join('') || '<div class="p-4 text-center text-stone-400 text-xs">Abhi tak koi imtihan nahi diya.</div>'}
+          </div>
+        </div>
+      `;
+
+      modal.classList.remove('hidden');
+    }
+
+    function closeStudentModal() {
+      document.getElementById('student-modal').classList.add('hidden');
+    }
+
+    // --- Pushed Exams Management ---
+    async function loadPushedExams() {
+      const container = document.getElementById('pushed-exams-list');
+      try {
+        const snap = await db.collection('pushed_exams').orderBy('createdAt', 'desc').limit(20).get();
+        document.getElementById('stat-exams-pushed').textContent = snap.size;
+
+        if (snap.empty) {
+          container.innerHTML = '<div class="text-center text-stone-400 text-xs py-4">Abhi tak koi imtihan push nahi kiya gaya.</div>';
+          return;
+        }
+
+        const exams = [];
+        snap.forEach(d => { exams.push({ id: d.id, ...d.data() }); });
+
+        container.innerHTML = exams.map(e => `
+          <div class="p-4 bg-stone-50 dark:bg-slate-700/40 rounded-xl border border-stone-200 dark:border-slate-700 flex justify-between items-center text-xs">
+            <div>
+              <div class="font-bold text-sm text-stone-900 dark:text-white">${esc(e.title)}</div>
+              <div class="text-stone-400 mt-0.5">
+                Unit ${e.stage} · Lesson ${e.lesson} · ${e.questionCount || 10} Questions · Pass: ${e.passPercent || 70}% · ${e.duration ? e.duration + 'm' : 'Untimed'}
+              </div>
+              <div class="text-[11px] text-stone-400 mt-1">Pushed by: ${esc(e.authorName || 'Teacher')}</div>
+            </div>
+            <button onclick="deletePushedExam('${e.id}')" class="px-3 py-1 bg-red-100 hover:bg-red-200 text-red-700 dark:bg-red-950/60 dark:text-red-400 rounded-lg text-xs font-semibold transition">
+              Delete
+            </button>
+          </div>
+        `).join('');
+      } catch(e) {
+        console.error('[TeacherPortal] loadPushedExams error:', e);
+        container.innerHTML = `<div class="text-red-500 text-xs py-2">Error: ${e.message}</div>`;
+      }
+    }
+
+    async function handleCreateExam(ev) {
+      ev.preventDefault();
+      const btn = document.getElementById('exam-submit-btn');
+      btn.disabled = true;
+      btn.textContent = 'Pushing…';
+
+      try {
+        const title = document.getElementById('exam-title').value.trim();
+        const stage = parseInt(document.getElementById('exam-stage').value);
+        const lesson = parseInt(document.getElementById('exam-lesson').value);
+        const qCount = parseInt(document.getElementById('exam-qcount').value);
+        const pass = parseInt(document.getElementById('exam-pass').value);
+        const dur = parseInt(document.getElementById('exam-duration').value);
+
+        const examId = 'exam_' + Date.now();
+        await db.collection('pushed_exams').doc(examId).set({
+          title,
+          stage,
+          lesson,
+          questionCount: qCount,
+          passPercent: pass,
+          duration: dur,
+          status: 'active',
+          authorUid: currentTeacherUser.uid,
+          authorName: currentTeacherUser.name,
+          createdAt: firebase.firestore.FieldValue.serverTimestamp()
+        });
+
+        alert('✅ Exam kamyabi se push kar diya gaya!');
+        document.getElementById('create-exam-form').reset();
+        loadPushedExams();
+      } catch(e) {
+        alert('❌ Error: ' + e.message);
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = '<span>🚀</span> Imtihan Talaba ko Bhejein (Push Exam)';
+      }
+    }
+
+    async function deletePushedExam(id) {
+      if (!confirm('Kya aap waqai is exam ko hatana chahte hain?')) return;
+      try {
+        await db.collection('pushed_exams').doc(id).delete();
+        loadPushedExams();
+      } catch(e) {
+        alert('Error: ' + e.message);
+      }
+    }
+
+    // --- Broadcasts Management ---
+    async function loadBroadcastsHistory() {
+      const container = document.getElementById('broadcasts-history-list');
+      try {
+        const snap = await db.collection('muallim_broadcasts').get();
+        document.getElementById('stat-broadcasts-count').textContent = snap.size;
+
+        if (snap.empty) {
+          container.innerHTML = '<div class="text-center text-stone-400 text-xs py-4">Koi ilaan nahi bheja gaya.</div>';
+          return;
+        }
+
+        const list = [];
+        snap.forEach(d => { list.push({ id: d.id, ...d.data() }); });
+        list.sort((a,b) => {
+          const at = a.sentAt?.toMillis?.() || 0;
+          const bt = b.sentAt?.toMillis?.() || 0;
+          return bt - at;
+        });
+
+        container.innerHTML = list.slice(0, 15).map(b => `
+          <div class="p-3 bg-stone-50 dark:bg-slate-700/40 rounded-xl border border-stone-200 dark:border-slate-700 flex justify-between items-start text-xs">
+            <div class="flex-1 pr-3">
+              <div class="text-stone-800 dark:text-stone-200 font-medium">${esc(b.message)}</div>
+              <div class="text-[11px] text-stone-400 mt-1">By: ${esc(b.sentBy || 'Teacher')} · ${b.sentAt?.toDate ? b.sentAt.toDate().toLocaleString() : 'Just now'}</div>
+            </div>
+            <button onclick="deleteBroadcastItem('${b.id}')" class="text-stone-400 hover:text-red-500 text-sm p-1">🗑</button>
+          </div>
+        `).join('');
+      } catch(e) {
+        console.error('[TeacherPortal] loadBroadcasts error:', e);
+        container.innerHTML = `<div class="text-red-500 text-xs py-2">Error: ${e.message}</div>`;
+      }
+    }
+
+    async function handleSendBroadcast(ev) {
+      ev.preventDefault();
+      const ta = document.getElementById('broadcast-msg');
+      const msg = ta.value.trim();
+      if (!msg) return;
+
+      const btn = document.getElementById('broadcast-submit-btn');
+      btn.disabled = true;
+      btn.textContent = 'Sending…';
+
+      try {
+        await db.collection('muallim_broadcasts').add({
+          message: msg,
+          sentBy: currentTeacherUser.name,
+          authorUid: currentTeacherUser.uid,
+          sentAt: firebase.firestore.FieldValue.serverTimestamp(),
+          createdAt: firebase.firestore.FieldValue.serverTimestamp()
+        });
+        ta.value = '';
+        document.getElementById('broadcast-counter').textContent = '0 / 500';
+        alert('📢 Ilaan sabhi talaba ko bhej diya gaya!');
+        loadBroadcastsHistory();
+      } catch(e) {
+        alert('Error: ' + e.message);
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = '<span>📤</span> Send Broadcast';
+      }
+    }
+
+    async function deleteBroadcastItem(id) {
+      if (!confirm('Is announcement ko delete karein?')) return;
+      try {
+        await db.collection('muallim_broadcasts').doc(id).delete();
+        loadBroadcastsHistory();
+      } catch(e) {
+        alert('Error: ' + e.message);
+      }
+    }
+
+    // Broadcast textarea character counter
+    document.getElementById('broadcast-msg')?.addEventListener('input', function() {
+      document.getElementById('broadcast-counter').textContent = this.value.length + ' / 500';
+    });
+
+    function esc(str) {
+      return (str || '').replace(/[&<>"']/g, m => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[m]));
+    }
+  </script>
+</body>
+</html>

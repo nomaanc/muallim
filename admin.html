@@ -550,6 +550,8 @@
   <header class="admin-header">
     <span class="brand">⚙️ Muallim Admin</span>
     <div class="header-actions">
+      <a href="teacher.html" style="color:#d1fae5; text-decoration:none; font-size:0.82rem; font-weight:600; padding:6px 12px; background:rgba(255,255,255,0.12); border-radius:6px; display:inline-flex; align-items:center; gap:4px;">👨‍🏫 Teacher Portal</a>
+      <a href="index.html" style="color:#d1fae5; text-decoration:none; font-size:0.82rem; font-weight:600; padding:6px 12px; background:rgba(255,255,255,0.12); border-radius:6px; display:inline-flex; align-items:center; gap:4px;">📖 App</a>
       <button class="theme-toggle-btn" id="theme-toggle-btn" onclick="adminToggleTheme()">🌙 Dark</button>
     </div>
   </header>
@@ -2296,8 +2298,11 @@
           var joined   = shortDate(data.createdAt || data.joinedAt);
           var roleB = role === 'admin'
             ? '<span class="badge badge-admin">admin</span>'
-            : '<span class="badge badge-student">student</span>';
-          var toggleLabel = role === 'admin' ? '→ Student' : '→ Admin';
+            : (role === 'teacher'
+                ? '<span class="badge" style="background:#2563eb; color:#fff;">teacher</span>'
+                : '<span class="badge badge-student">student</span>');
+          var cycleRole = role === 'student' ? 'teacher' : (role === 'teacher' ? 'admin' : 'student');
+          var toggleLabel = '→ ' + cycleRole.charAt(0).toUpperCase() + cycleRole.slice(1);
 
           html += '<tr>' +
             '<td style="font-weight:600;">'  + escHtml(name) + '</td>' +
@@ -2327,7 +2332,7 @@
       if (uid === (_adminUser && _adminUser.uid)) {
         adminToast('⚠️ Cannot change your own role'); return;
       }
-      var newRole = currentRole === 'admin' ? 'student' : 'admin';
+      var newRole = currentRole === 'student' ? 'teacher' : (currentRole === 'teacher' ? 'admin' : 'student');
       if (!confirm('Change ' + uid.slice(0,8) + '… role to "' + newRole + '"?')) return;
 
       db.collection('users').doc(uid).update({ role: newRole }).then(function() {

@@ -1961,3 +1961,47 @@
   border-color: var(--divider-gold);
   outline: none;
 }
+
+/* ── Interactive Grammar Exercises & SRS Styles ── */
+.exercise-option-btn {
+  background: var(--bg-surface);
+  border: 1.5px solid var(--border-color, #e5e7eb);
+  border-radius: 10px;
+  padding: 12px 14px;
+  text-align: left;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.exercise-option-btn:hover:not(:disabled) {
+  border-color: var(--accent-emerald, #1B4332);
+  background: var(--bg-surface-elevated, #f9fafb);
+  transform: translateY(-1px);
+}
+.exercise-option-btn.correct {
+  background: rgba(5, 150, 105, 0.12) !important;
+  border-color: #059669 !important;
+  color: #059669 !important;
+}
+.exercise-option-btn.wrong {
+  background: rgba(220, 38, 38, 0.12) !important;
+  border-color: #dc2626 !important;
+  color: #dc2626 !important;
+}
+.exercise-btn-arabic {
+  font-family: var(--font-arabic, 'Amiri', serif);
+  font-size: 1.25rem;
+  direction: rtl;
+}
+#drill-srs-rating-row button:hover {
+  filter: brightness(0.95);
+  transform: translateY(-1px);
+}
+#drill-srs-rating-row button:active {
+  transform: translateY(1px);
+}

@@ -74,9 +74,10 @@
     <div class="menu-section-header">QUICK ACTIONS</div>
     <div class="quick-actions-row">
       <button class="quick-action-btn" id="menu-btn-search">🔍 Search</button>
-      <button class="quick-action-btn" id="menu-btn-drill">🔀 Drill</button>
+      <button class="quick-action-btn" id="menu-btn-drill">🔀 Drill & SRS</button>
+      <button class="quick-action-btn" id="menu-btn-exercise">⚡ Exercises</button>
       <button class="quick-action-btn" id="menu-btn-favs">★ Starred</button>
-      <button class="quick-action-btn" id="menu-btn-custom">📝 My Answers</button>
+      <button class="quick-action-btn" id="menu-btn-custom" style="grid-column: span 2;">📝 My Custom Answers</button>
     </div>
 
     <hr class="menu-divider">
@@ -240,6 +241,7 @@
         <div class="drill-pool-tabs">
           <button class="drill-pool-tab active" id="drill-tab-starred" onclick="App.switchDrillTab('starred')">⭐ Starred (<span id="starred-count-badge">0</span>)</button>
           <button class="drill-pool-tab" id="drill-tab-custom" onclick="App.switchDrillTab('custom')">📚 Select Lessons</button>
+          <button class="drill-pool-tab" id="drill-tab-srs" onclick="App.switchDrillTab('srs')">🧠 Smart SRS (<span id="srs-due-badge">0</span>)</button>
         </div>
 
         <!-- Custom lesson selection accordion -->
@@ -258,12 +260,47 @@
         <div id="drill-starred-panel">
           <button class="btn-primary" style="width:100%; margin-bottom:8px;" onclick="App.startStarredDrill()">▶ Start Starred Drill</button>
         </div>
+
+        <!-- SRS Leitner 5-Box Panel -->
+        <div id="drill-srs-panel" style="display:none;">
+          <div style="background:var(--bg-surface-elevated, #f9fafb); border:1px solid var(--border-color, #e5e7eb); border-radius:12px; padding:12px; margin-bottom:12px;">
+            <div style="font-size:0.85rem; font-weight:700; margin-bottom:8px; color:var(--accent-emerald, #1B4332); display:flex; justify-content:space-between; align-items:center;">
+              <span>Leitner 5-Box Spaced Repetition</span>
+              <span style="font-size:0.75rem; color:#d97706; font-weight:800;" id="srs-total-tracked">0 tracked</span>
+            </div>
+            <div style="display:grid; grid-template-columns:repeat(5, 1fr); gap:4px; text-align:center;">
+              <div style="background:var(--bg-surface, #fff); padding:6px 2px; border-radius:8px; border:1px solid var(--border-color, #e5e7eb);">
+                <div style="font-weight:800; font-size:0.9rem; color:#dc2626;" id="srs-box-1-count">0</div>
+                <div style="font-size:0.65rem; color:var(--text-muted); font-weight:600;">Box 1<br>(1d)</div>
+              </div>
+              <div style="background:var(--bg-surface, #fff); padding:6px 2px; border-radius:8px; border:1px solid var(--border-color, #e5e7eb);">
+                <div style="font-weight:800; font-size:0.9rem; color:#d97706;" id="srs-box-2-count">0</div>
+                <div style="font-size:0.65rem; color:var(--text-muted); font-weight:600;">Box 2<br>(3d)</div>
+              </div>
+              <div style="background:var(--bg-surface, #fff); padding:6px 2px; border-radius:8px; border:1px solid var(--border-color, #e5e7eb);">
+                <div style="font-weight:800; font-size:0.9rem; color:#2563eb;" id="srs-box-3-count">0</div>
+                <div style="font-size:0.65rem; color:var(--text-muted); font-weight:600;">Box 3<br>(7d)</div>
+              </div>
+              <div style="background:var(--bg-surface, #fff); padding:6px 2px; border-radius:8px; border:1px solid var(--border-color, #e5e7eb);">
+                <div style="font-weight:800; font-size:0.9rem; color:#7c3aed;" id="srs-box-4-count">0</div>
+                <div style="font-size:0.65rem; color:var(--text-muted); font-weight:600;">Box 4<br>(14d)</div>
+              </div>
+              <div style="background:var(--bg-surface, #fff); padding:6px 2px; border-radius:8px; border:1px solid var(--border-color, #e5e7eb);">
+                <div style="font-weight:800; font-size:0.9rem; color:#059669;" id="srs-box-5-count">0</div>
+                <div style="font-size:0.65rem; color:var(--text-muted); font-weight:600;">Box 5 🌟<br>(30d)</div>
+              </div>
+            </div>
+            <div style="font-size:0.75rem; color:var(--text-muted); margin-top:8px; text-align:center;" id="srs-due-summary">Aaj ke liye due cards check ho rahe hain...</div>
+          </div>
+          <button class="btn-primary" style="width:100%; margin-bottom:8px;" onclick="App.startSrsDrill()">🧠 Start Smart SRS Review</button>
+        </div>
       </div>
 
       <!-- DRILL VIEW (card) -->
       <div id="drill-card-view" style="display:none;">
-        <div class="spinner-pool-toggle" style="display:flex; gap:4px; margin-bottom:10px;">
+        <div class="spinner-pool-toggle" style="display:flex; gap:4px; margin-bottom:10px; align-items:center;">
           <span style="flex:1; font-size:0.8rem; color:var(--text-muted); display:flex; align-items:center;" id="drill-progress-label">Card 1 of 0</span>
+          <span id="drill-srs-box-badge" style="font-size:0.72rem; font-weight:700; padding:2px 8px; border-radius:10px; background:rgba(217,119,6,0.15); color:#d97706; margin-right:6px;">📦 Box 1</span>
           <button class="btn-secondary" style="padding:5px 10px; font-size:0.8rem;" onclick="App.endDrill()">✕ End</button>
         </div>
         <div id="spinner-card" class="spinner-card" onclick="App.toggleSpinnerReveal()">
@@ -271,12 +308,65 @@
           <div id="spinner-hinglish" class="spinner-hinglish" style="display:none;">...</div>
           <div id="spinner-hint" class="spinner-hint">(tap card to reveal translation)</div>
         </div>
+
+        <!-- SRS Rating Row (Shown when card is revealed) -->
+        <div id="drill-srs-rating-row" style="display:none; margin-bottom:12px;">
+          <div style="font-size:0.75rem; color:var(--text-muted); text-align:center; margin-bottom:6px; font-weight:600;">Yaad-daasht ki taaqat rate karein:</div>
+          <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:6px;">
+            <button class="btn-secondary" style="border:1.5px solid #dc2626; color:#dc2626; padding:8px 2px; font-size:0.75rem; font-weight:700; border-radius:8px;" onclick="App.rateCurrentCard('again')">🔴 Again<br><span style="font-size:0.65rem; font-weight:normal; opacity:0.85;">Box 1</span></button>
+            <button class="btn-secondary" style="border:1.5px solid #d97706; color:#d97706; padding:8px 2px; font-size:0.75rem; font-weight:700; border-radius:8px;" onclick="App.rateCurrentCard('hard')">🟡 Hard<br><span style="font-size:0.65rem; font-weight:normal; opacity:0.85;">Same Box</span></button>
+            <button class="btn-secondary" style="border:1.5px solid #2563eb; color:#2563eb; padding:8px 2px; font-size:0.75rem; font-weight:700; border-radius:8px;" onclick="App.rateCurrentCard('good')">🟢 Good<br><span style="font-size:0.65rem; font-weight:normal; opacity:0.85;">+1 Box</span></button>
+            <button class="btn-secondary" style="border:1.5px solid #059669; color:#059669; padding:8px 2px; font-size:0.75rem; font-weight:700; border-radius:8px;" onclick="App.rateCurrentCard('easy')">🔵 Easy<br><span style="font-size:0.65rem; font-weight:normal; opacity:0.85;">+2 Boxes</span></button>
+          </div>
+        </div>
+
         <div class="spinner-controls">
           <button class="btn-secondary" onclick="App.playCurrentSpinnerAudio()">🔊 Hear</button>
           <button class="btn-primary" onclick="App.nextSpinnerCard()">Next Card →</button>
         </div>
       </div>
 
+    </div>
+  </dialog>
+
+  <!-- Interactive Grammar Exercise Modal -->
+  <dialog id="grammar-exercise-modal" class="app-modal" style="max-width:540px; width:94vw; border-radius:16px;">
+    <div class="modal-header">
+      <div class="modal-title">⚡ Grammar Exercises — <span id="exercise-lesson-title">Lesson</span></div>
+      <button class="icon-btn" onclick="document.getElementById('grammar-exercise-modal').close()">✕</button>
+    </div>
+    <div class="modal-body" style="padding:16px;">
+      <!-- ACTIVE QUIZ VIEW -->
+      <div id="exercise-quiz-view">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; font-size:0.82rem; color:var(--text-muted);">
+          <span id="exercise-q-progress">Question 1 of 5</span>
+          <span id="exercise-q-score" style="font-weight:700; color:var(--accent-emerald, #1B4332);">Score: 0 / 0</span>
+        </div>
+        <div id="exercise-prompt-text" style="font-size:0.95rem; font-weight:700; color:var(--text-primary); margin-bottom:10px; text-align:center;">
+          ...
+        </div>
+        <div id="exercise-arabic-box" style="font-family:var(--font-arabic, 'Amiri', serif); font-size:2.4rem; text-align:center; color:var(--accent-emerald, #1B4332); background:var(--bg-surface-elevated, #fdfbf7); padding:16px; border-radius:12px; border:1px solid var(--border-color, #e5e7eb); margin-bottom:14px; direction:rtl;">
+          ...
+        </div>
+        <div id="exercise-options-mount" style="display:grid; grid-template-columns:1fr; gap:8px; margin-bottom:14px;">
+          <!-- Option buttons generated by JS -->
+        </div>
+        <div id="exercise-explanation-box" style="display:none; padding:10px 14px; border-radius:8px; font-size:0.85rem; line-height:1.4; margin-bottom:12px;">
+          ...
+        </div>
+        <button id="exercise-next-btn" class="btn-primary" style="display:none; width:100%;" onclick="App.nextExerciseQuestion()">Agla Sawal (Next Question) ➔</button>
+      </div>
+
+      <!-- SCORECARD VIEW -->
+      <div id="exercise-scorecard-view" style="display:none; text-align:center; padding:16px 0;">
+        <div style="font-size:2.8rem; margin-bottom:8px;" id="exercise-score-icon">🏆</div>
+        <div style="font-size:1.2rem; font-weight:700; color:var(--accent-emerald, #1B4332); margin-bottom:4px;">MashaAllah! Exercise Complete!</div>
+        <div style="font-size:0.9rem; color:var(--text-muted); margin-bottom:16px;" id="exercise-final-score-text">Aapne 5 mein se 5 sahi jawabat diye</div>
+        <div style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap;">
+          <button class="btn-secondary" onclick="App.restartGrammarExercise()">🔄 Dobara Koshish Karein</button>
+          <button class="btn-primary" onclick="document.getElementById('grammar-exercise-modal').close()">📖 Sabaq par Wapas Jayein</button>
+        </div>
+      </div>
     </div>
   </dialog>
 
@@ -399,17 +489,33 @@
       </div>
       <p id="login-error" class="login-error" style="display:none"></p>
       <button class="btn-primary login-submit" onclick="App.doLogin()">Login</button>
-      <div style="display:flex; justify-content:space-between; align-items:center; margin-top:6px;">
+      <div style="display:flex; align-items:center; gap:8px; margin: 12px 0 8px;">
+        <hr style="flex:1; border:none; border-top:1px solid var(--border,#e2d9cc);">
+        <span style="font-size:0.75rem; color:var(--text-muted,#888); text-transform:uppercase;">Ya Phir</span>
+        <hr style="flex:1; border:none; border-top:1px solid var(--border,#e2d9cc);">
+      </div>
+      <button class="btn-secondary google-signin-btn" type="button" onclick="App.doGoogleLogin()"
+        style="width:100%; display:flex; align-items:center; justify-content:center; gap:10px; padding:10px; border-radius:10px; border:1px solid var(--border,#e2d9cc); background:var(--surface,#fff); font-weight:600; cursor:pointer; font-size:0.9rem; color:var(--text,#1f2937); box-shadow:0 1px 3px rgba(0,0,0,0.06);">
+        <svg width="18" height="18" viewBox="0 0 18 18"><path fill="#4285F4" d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844c-.209 1.125-.843 2.078-1.796 2.717v2.258h2.908c1.702-1.567 2.684-3.874 2.684-6.616z"/><path fill="#34A853" d="M9 18c2.43 0 4.467-.806 5.956-2.184l-2.908-2.258c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332C2.438 15.983 5.482 18 9 18z"/><path fill="#FBBC05" d="M3.964 10.707c-.18-.54-.282-1.117-.282-1.707s.102-1.167.282-1.707V4.961H.957C.347 6.175 0 7.55 0 9s.348 2.825.957 4.039l3.007-2.332z"/><path fill="#EA4335" d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0 5.482 0 2.438 2.017.957 4.961L3.964 7.293C4.672 5.166 6.656 3.58 9 3.58z"/></svg>
+        <span>Google se Login Karein</span>
+      </button>
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-top:8px;">
         <button class="btn-ghost" type="button" onclick="App.forgotPassword()" style="font-size:0.82rem; padding:4px; background:none; border:none; color:var(--text-muted, #666); cursor:pointer;">Password bhool gaye?</button>
         <button class="btn-ghost" type="button" onclick="App.closeLoginModal()" style="font-size:0.82rem; padding:4px; background:none; border:none; color:var(--text-muted, #666); cursor:pointer;">Guest Mode</button>
       </div>
     </div>
   </dialog>
 
+  <!-- Teacher nav tab (hidden until role===teacher or admin) -->
+  <a id="teacher-nav-tab" href="teacher.html" class="nav-tab"
+    style="display:none; position:fixed; bottom:68px; right:16px; z-index:200; background:#1d4ed8; color:#fff; text-decoration:none; border-radius:12px; padding:10px 18px; font-size:0.85rem; font-weight:700; cursor:pointer; box-shadow:0 4px 16px rgba(0,0,0,0.25);">
+    👨‍🏫 Ustaad Portal
+  </a>
+
   <!-- Admin nav tab (hidden until role===admin) -->
   <button id="admin-nav-tab" class="nav-tab" onclick="App.openAdminDashboard()"
     style="display:none; position:fixed; bottom:16px; right:16px; z-index:200; background:var(--accent,#1B4332); color:#fff; border:none; border-radius:12px; padding:10px 18px; font-size:0.85rem; font-weight:700; cursor:pointer; box-shadow:0 4px 16px rgba(0,0,0,0.25);">
-    🢭 Admin
+    🛡 Admin
   </button>
 
   <script src="js/grammar-visuals.js"></script>

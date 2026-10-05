@@ -1,13 +1,14 @@
 # Muallim ul-Qur'an (معلم القرآن) — Interactive Qur'anic Arabic PWA
 
 [![Live App](https://img.shields.io/badge/Live_App-Muallim_PWA-1B4332?style=for-the-badge&logo=pwa&logoColor=white)](https://nomaanc.github.io/muallim/)
+[![Ustaad Portal](https://img.shields.io/badge/Ustaad-Teacher_Portal-2563EB?style=for-the-badge&logo=googleclassroom&logoColor=white)](https://nomaanc.github.io/muallim/teacher.html)
 [![Admin Dashboard](https://img.shields.io/badge/Admin-Dashboard-D97706?style=for-the-badge&logo=firebase&logoColor=white)](https://nomaanc.github.io/muallim/admin.html)
 [![PWA Ready](https://img.shields.io/badge/PWA-Offline_First-2D6A4F?style=for-the-badge&logo=googlechrome&logoColor=white)](https://nomaanc.github.io/muallim/)
 [![Curriculum](https://img.shields.io/badge/Curriculum-7_Units_·_113_Lessons_·_8871_Items-0284C7?style=for-the-badge)](https://nomaanc.github.io/muallim/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 [![Zero npm Dependencies](https://img.shields.io/badge/Dependencies-Zero_npm-black?style=for-the-badge&logo=javascript&logoColor=white)](https://nomaanc.github.io/muallim/)
 
-> **Muallim ul-Qur'an** is an offline-first Progressive Web Application (PWA) designed to teach Qur'anic Arabic vocabulary and syntax through authentic Roman Urdu (Hinglish) translations, interactive animated SVG grammar diagrams, and spaced-repetition drills.
+> **Muallim ul-Qur'an** is an offline-first Progressive Web Application (PWA) designed to teach Qur'anic Arabic vocabulary and syntax through authentic Roman Urdu (Hinglish) translations, interactive animated SVG grammar diagrams, Leitner 5-box spaced repetition drills, and interactive exercises.
 
 ---
 
@@ -15,7 +16,7 @@
 
 Based on the classical curriculum *Muallim ul-Qur'an*, this application presents **7 complete Units containing 113 lessons**, digitizing **8,871 Qur'anic vocabulary entries, phrases, and verses** while preserving **100% of authentic Arabic diacritics (harakat/tashkeel)**.
 
-The platform pairs classical Arabic pedagogy with web engineering standards: students learn through interactive visual breakdowns, phonetic Roman Urdu translations following Subject-Object-Verb (SOV) order, and instant self-assessment tools.
+The platform pairs classical Arabic pedagogy with web engineering standards: students learn through interactive visual breakdowns, phonetic Roman Urdu translations following Subject-Object-Verb (SOV) order, Leitner 5-box memory drills, and instant self-assessment tools.
 
 ---
 
@@ -60,33 +61,40 @@ The application enforces four non-negotiable architectural standards across all 
 ## ✨ Features
 
 ### ⚡ Interactive SVG Grammar Visualizer (`js/grammar-visuals.js`)
-- Context-aware animated SVG diagrams positioned at the head of lessons.
-- Dynamic visual explanations of grammatical changes:
-  - Definite article (*Alif-Laam*) attachment and Tanween cancellation.
-  - Feminine marker (*Ta-Marbuta*) morphing animations.
-  - Accusative case shift triggered by *Inna* and *Kaana*.
-  - Broken plural vowel transformations (*Alim* ➔ *Ulamaa*).
+- Context-aware animated SVG diagrams positioned at the head of every lesson.
+- Interactive, multi-state visual demonstrations:
+  - **Unit 1**: Definite article (*Alif-Laam*) attachment and Tanween cancellation morpher.
+  - **Unit 2**: Preposition (*Huroof-e-Jarr*: *Fii*, *Alaa*, *Min*, *Ilaa*, *Bi*) container & platform force visualizers.
+  - **Unit 3**: Noun-Adjective (*Tawseefi*) 4-attribute harmony scale & *Mudaaf-o-Mudaaf Ilaih* connector chains.
+  - **Unit 4**: Attached and detached pronouns (*Damair*) morphological connectors.
+  - **Unit 5**: *Inna* & Nominal Sentence dynamic balance beam scale.
+  - **Unit 6**: *Fe'l Mazi* 14-form morphological conjugation wheel.
+  - **Unit 7**: Active (*Ma'roof*) to Passive (*Majhool*) vowel shift morpher & Conditional (*Shart wa Jaza*) scale.
 - Zero external dependencies: constructed with pure vanilla ES6, CSS `@keyframes`, and procedural Web Audio API sound synthesis.
+
+### 🧠 Adaptive Spaced-Repetition System (Leitner 5-Box SRS)
+- Evidence-based Leitner 5-box memory scheduling built directly into the vocabulary drill.
+- Interval expansion: Box 1 (1d) ➔ Box 2 (3d) ➔ Box 3 (7d) ➔ Box 4 (14d) ➔ Box 5 (30d 🌟 Mastered).
+- Multi-grade memory ratings (`🔴 Again`, `🟡 Hard`, `🟢 Good`, `🔵 Easy`) with automated sync to Cloud Firestore.
+
+### 📝 Interactive Grammar Multiple-Choice Exercises
+- 5-question targeted drills per lesson with instant Roman Urdu feedback explanations.
+- Grammatical voice identification, I'raab detection, and dynamic vocabulary distractor options.
+
+### 👨‍🏫 Ustaad / Teacher Portal (`teacher.html`)
+- Dedicated teacher dashboard built with Tailwind CSS:
+  - Track assigned students' progress, study hours, starred vocabulary, and exam history.
+  - Push custom timed exams to students with configurable question counts and passing scores.
+  - Broadcast instant notifications to active student sessions.
 
 ### 📱 Offline-First Progressive Web App (PWA)
 - Installable on Android, iOS, Windows, macOS, and Linux.
-- Service Worker (`sw.js`) with Cache-First asset caching and on-demand JSON dataset storage.
+- Service Worker (`sw.js` v2.7.0) with Cache-First asset caching and on-demand JSON dataset storage.
 - Operates without internet connectivity after initial load.
 
 ### 🔍 Multi-Dimensional Instant Search
 - Instant search index with 5,900+ terms (`data/search-index.json`).
-- Search across:
-  - Arabic text with or without diacritics (orthographic normalization).
-  - Roman Urdu transliterations (e.g., `kitaab`, `rahmaan`, `qalam`).
-  - English translations.
-  - Three-letter Arabic root consonants.
-
-### 🎓 Student & Instructor Learning Tools
-- **Flashcard Drill**: Interactive flip-card mode for memorizing vocabulary and plurals.
-- **Custom Translations**: Personal translation notebook allowing students to save custom reflections.
-- **Star & Favorites**: Bookmark challenging words for targeted drill sessions.
-- **Self-Practice & Assigned Exams**: Timed assessments with automated grading and weak-word identification.
-- **Teacher Dashboard (`admin.html`)**: Real-time student progress tracking, cohort exam distribution, and announcement broadcasting via Cloud Firestore.
+- Search across Arabic (with/without tashkeel), Roman Urdu transliterations, and English meanings.
 
 ---
 
@@ -96,14 +104,15 @@ Zero build tools or package managers required. The application runs natively in 
 
 ```
 muallim/
-├── index.html               # Main PWA application shell (~404 lines)
-├── admin.html               # Instructor & Admin analytics dashboard
+├── index.html               # Main PWA application shell (~508 lines)
+├── teacher.html             # Dedicated Ustaad / Teacher Portal
+├── admin.html               # Super Admin analytics dashboard
 ├── manifest.json            # PWA manifest with standalone display configuration
-├── sw.js                    # Service Worker (v2.1.0) with cache-first routing
+├── sw.js                    # Service Worker (v2.7.0) with cache-first routing
 ├── css/
-│   └── styles.css           # Extracted styles, parchment/night themes, dialogs
+│   └── styles.css           # Sovereign design system, emerald/amber themes, dialogs
 ├── js/
-│   ├── app.js               # Core app state, UI rendering, drills, and exams (~135 KB)
+│   ├── app.js               # Core app state, Leitner SRS engine, drill spinner, exercises
 │   └── grammar-visuals.js   # Interactive SVG Grammar Engine & Web Audio synthesizer
 └── data/
     ├── metadata.json        # Fast-loading table of contents and curriculum index

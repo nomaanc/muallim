@@ -7475,18 +7475,18 @@
           }
         },
         {
-          "id": "label_1",
-          "type": "section_label",
-          "data": {
-            "text": "Darj zail Quranic fiqron aur aayaton ka tarjuma khud kijiye."
-          }
-        },
-        {
           "id": "rule_1",
           "type": "rule_paragraph_hinglish",
           "data": {
             "title": "Qaa'ida: Fe'l Mazi — Jama Muzakkar Ghaib (عَبَدُوا)",
             "text": "Fe'l Mazi wahid ghaib (عَبَدَ) ke aakhir mein waw aur alif 'ـُوا' lagane se jama muzakkar ghaib (un sab mardon ne kiya) ka seegha banta hai: عَبَدُوا (unhon ne ibadat ki), كَفَرُوا (unhon ne kufr kiya), آمَنُوا (woh imaan laaye), عَمِلُوا (unhon ne nek amal kiye)."
+          }
+        },
+        {
+          "id": "label_1",
+          "type": "section_label",
+          "data": {
+            "text": "Darj zail Quranic fiqron aur aayaton ka tarjuma khud kijiye."
           }
         },
         {
@@ -7864,18 +7864,18 @@
           }
         },
         {
-          "id": "label_1",
-          "type": "section_label",
-          "data": {
-            "text": "Darj zail Quranic fiqron aur aayaton ka tarjuma khud kijiye."
-          }
-        },
-        {
           "id": "rule_1",
           "type": "rule_paragraph_hinglish",
           "data": {
             "title": "Qaa'ida: Mazi Jama Ghaib ke Murakkabat (الَّذِينَ كَفَرُوا)",
             "text": "'عَبَدُوا / كَفَرُوا / آمَنُوا' ke seeghon ke saath Quran Majeed mein kasrat se aane wale usloob: الَّذِينَ كَفَرُوا (jin logon ne inkar kiya), كَانُوا يَعْمَلُونَ (woh kiya karte theh), إِذَا جَاءُوا (jab woh aaye). Inhein samajhne se lambi aayat ka tarjuma aasan ho jata hai."
+          }
+        },
+        {
+          "id": "label_1",
+          "type": "section_label",
+          "data": {
+            "text": "Darj zail Quranic fiqron aur aayaton ka tarjuma khud kijiye."
           }
         },
         {
@@ -8253,18 +8253,18 @@
           }
         },
         {
-          "id": "label_1",
-          "type": "section_label",
-          "data": {
-            "text": "Darj zail Quranic fiqron aur aayaton ka tarjuma khud kijiye."
-          }
-        },
-        {
           "id": "rule_1",
           "type": "rule_paragraph_hinglish",
           "data": {
             "title": "Qaa'ida: Fe'l Mazi Jama ke sath Mukhtalif Quranic Waqiaat",
             "text": "Fe'l Mazi jama seeghon ke sath mukhtalif tareekhi waqiaat aur aayat: فَأَتَوْا عَلَىٰ قَوْمٍ (toh woh ek qaum par aaye), اتَّخَذُوا آلِهَةً (unhon ne doosre ma'bood bana liye). Har fe'l ke fa'il aur maf'ool par ghaur karke tarjuma kijiye."
+          }
+        },
+        {
+          "id": "label_1",
+          "type": "section_label",
+          "data": {
+            "text": "Darj zail Quranic fiqron aur aayaton ka tarjuma khud kijiye."
           }
         },
         {

@@ -1,6 +1,6 @@
-const CACHE_NAME = 'muallim-v2.5.0-cache';
+const CACHE_NAME = 'muallim-v2.7.0-cache';
 const ASSETS = [
-  './', './index.html', './css/styles.css',
+  './', './index.html', './teacher.html', './admin.html', './css/styles.css',
   './js/app.js', './js/grammar-visuals.js',
   './data/metadata.json', './manifest.json', './icons/icon.svg'
 ];
