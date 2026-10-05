@@ -11,6 +11,8 @@ context.md
 muallim_backup_*.json
 scratch/
 .firebase/
+functions/node_modules/
+functions/package-lock.json
 
 # Old prompt files
 data-audit-prompt.md
