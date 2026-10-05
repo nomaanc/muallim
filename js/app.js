@@ -102,7 +102,7 @@ var App = (function() {
           favourites = favourites.map(f => {
             if (f && f.key && f.key.startsWith('S4L18_')) {
               changedFavs = true;
-              const newKey = f.key.replace('S4L18_s0_', 'S4L17_s1_').replace('S4L18_s1_', 'S4L17_s1_').replace('S4L18_num_', 'S4L17_s1_num_');
+              const newKey = f.key.replace('S4L18_s0_', 'S4L17_s0_').replace('S4L18_s1_', 'S4L17_s1_').replace('S4L18_num_', 'S4L17_s1_num_');
               return { ...f, key: newKey, stage: 4, lesson: 17 };
             }
             if (f && f.stage === 4 && f.lesson === 18) {
@@ -120,7 +120,7 @@ var App = (function() {
           for (const k in customAnswers) {
             if (k.startsWith('S4L18_')) {
               changedCustom = true;
-              const newKey = k.replace('S4L18_s0_', 'S4L17_s1_').replace('S4L18_s1_', 'S4L17_s1_').replace('S4L18_num_', 'S4L17_s1_num_');
+              const newKey = k.replace('S4L18_s0_', 'S4L17_s0_').replace('S4L18_s1_', 'S4L17_s1_').replace('S4L18_num_', 'S4L17_s1_num_');
               newCustom[newKey] = customAnswers[k];
             } else {
               newCustom[k] = customAnswers[k];
@@ -591,7 +591,7 @@ var App = (function() {
             });
             html += `</div>`;
           } else if (secType === 'section_label') {
-            html += `<div class="section-label-divider"><span>${d.text || ''}</span></div>`;
+            html += `<div class="section-label-divider"><span>${d.text || d.title || ''}</span></div>`;
 
           } else if (secType === 'qn_label') {
             const qNum = d.q_number ? `<span class="qn-number">Q${d.q_number}.</span>` : '';
@@ -845,7 +845,7 @@ var App = (function() {
 
         // SRS Box Badge
         if (sBoxBadge) {
-          const srsItem = getSrsItem(it.arabic);
+          const srsItem = getSrsItem(it.key);
           if (srsItem && srsItem.box) {
             sBoxBadge.textContent = srsItem.box === 5 ? '🌟 Box 5' : `📦 Box ${srsItem.box}`;
             sBoxBadge.style.display = 'inline-block';
@@ -1518,7 +1518,7 @@ var App = (function() {
       setTimeout(() => {
         requestAnimationFrame(() => {
           const card = document.querySelector(`[data-item-id="${_bookmark.itemId}"]`) ||
-                       document.querySelector(`[data-item-id="${_bookmark.itemId}"]`);
+                       document.querySelector(`[data-id="${_bookmark.itemId}"]`);
           if (card) {
             card.closest('.vocab-card, .verse-card')?.classList.add('bookmark-highlight');
             card.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -1882,7 +1882,8 @@ var App = (function() {
           if (!drillSelectedLessons.has(lkey)) return;
           (l.sections || []).forEach(sec => {
             (sec.data?.items || []).forEach(it => {
-              if (it.arabic && it.hinglish) pool.push({ arabic: it.arabic, origHinglish: it.hinglish, customHinglish: '', key: lkey });
+              const display = getTranslation(it) || it.hinglish;
+              if (it.arabic && display) pool.push({ arabic: it.arabic, origHinglish: display, customHinglish: '', key: lkey });
             });
           });
         });
@@ -1953,25 +1954,26 @@ var App = (function() {
     }
 
     function syncSrsToCloud(state) {
-      if (typeof db !== 'undefined' && db && currentUser && currentUser.uid) {
+      if (typeof _db !== 'undefined' && _db && window._FS && App.currentUser && App.currentUser.uid) {
         try {
-          db.collection('user_data').doc(currentUser.uid).set({
+          const { doc, setDoc, serverTimestamp } = window._FS;
+          setDoc(doc(_db, 'user_data', App.currentUser.uid), {
             srs: state,
-            last_srs_sync: firebase.firestore.FieldValue.serverTimestamp()
+            last_srs_sync: serverTimestamp()
           }, { merge: true }).catch(function(){});
         } catch(e) {}
       }
     }
 
-    function getSrsItem(arabic) {
+    function getSrsItem(srsKey) {
       const state = getSrsState();
-      return state[arabic] || null;
+      return state[srsKey] || null;
     }
 
-    function updateSrsItem(arabic, rating) {
+    function updateSrsItem(srsKey, rating) {
       const state = getSrsState();
       const now = Date.now();
-      const current = state[arabic] || { box: 1, reps: 0, lapses: 0, lastReview: 0, nextReview: now };
+      const current = state[srsKey] || { box: 1, reps: 0, lapses: 0, lastReview: 0, nextReview: now };
       let newBox = current.box || 1;
 
       if (rating === 'again') {
@@ -1991,7 +1993,7 @@ var App = (function() {
       current.box = newBox;
       current.reps = (current.reps || 0) + 1;
       current.lastReview = now;
-      state[arabic] = current;
+      state[srsKey] = current;
       saveSrsState(state);
       renderSrsStats();
       return current;
@@ -2047,13 +2049,15 @@ var App = (function() {
           const lkey = l.lesson_key || `S${s}L${l.lesson_id}`;
           (l.sections || []).forEach(sec => {
             (sec.data?.items || []).forEach(it => {
-              if (!it.arabic || !it.hinglish || it.arabic.includes('----')) return;
-              const entry = state[it.arabic];
+              const display = getTranslation(it) || it.hinglish;
+              if (!it.arabic || !display || it.arabic.includes('----')) return;
+              const srsKey = `${lkey}_${it.id}`;
+              const entry = state[srsKey];
               const card = {
                 arabic: it.arabic,
-                origHinglish: it.hinglish,
-                customHinglish: (typeof customAnswers !== 'undefined' && customAnswers[it.arabic]) || '',
-                key: lkey
+                origHinglish: display,
+                customHinglish: (typeof customAnswers !== 'undefined' && customAnswers[srsKey]) || '',
+                key: srsKey
               };
               if (entry) {
                 if ((entry.nextReview || 0) <= now) {
@@ -2093,7 +2097,7 @@ var App = (function() {
       if (spinnerPool.length === 0) return;
       const it = spinnerPool[spinnerIndex];
       if (!it || !it.arabic) return;
-      updateSrsItem(it.arabic, rating);
+      updateSrsItem(it.key, rating);
       if (window.AudioFX) {
         window.AudioFX.play(rating === 'again' ? 'whoosh' : 'pop');
       }
@@ -3598,7 +3602,7 @@ var App = (function() {
       const _auth = getAuth(_fbApp);
 
       // Expose Firestore helpers on module scope
-      window._FS = { doc, setDoc, getDoc, getDocs, collection, updateDoc, serverTimestamp, onSnapshot, increment, deleteDoc };
+      window._FS = { doc, setDoc, getDoc, getDocs, collection, updateDoc, serverTimestamp, onSnapshot, increment, deleteDoc, query, where };
       window._FSDB = _db;
       // Expose Auth helpers
       window._FA = { getAuth, signInWithEmailAndPassword, signOut, onAuthStateChanged,

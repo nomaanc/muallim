@@ -8,8 +8,8 @@
   "orientation": "portrait-primary",
   "background_color": "#FDFBF7",
   "theme_color": "#1B4332",
-  "lang": "ur",
-  "dir": "rtl",
+  "lang": "ur-Latn",
+  "dir": "ltr",
   "categories": ["education", "books", "religion"],
   "prefer_related_applications": false,
   "icons": [

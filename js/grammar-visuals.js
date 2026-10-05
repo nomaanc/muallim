@@ -507,6 +507,7 @@ window.GrammarVisuals = (function() {
       const sub = document.getElementById('s2l3-sub');
       const status = document.getElementById('s2l3-status');
       const area = container.querySelector('.s2l3-area');
+      const initialStem = stem.textContent;
 
       let activeWord = 0;
       function applyFi(wordStem, wordMeaning, btnId) {
@@ -531,7 +532,7 @@ window.GrammarVisuals = (function() {
           pref.style.width = '0px';
           pref.style.opacity = '0';
           vowel.textContent = 'ُ';
-          sub.textContent = `${stem.textContent}u (Baghair فِي ke Pesh ُ)`;
+          sub.textContent = `${initialStem}u (Baghair فِي ke Pesh ُ)`;
           status.innerHTML = `Halat: <span style="color: #6b7280;">Aam Pesh ( ُ )</span>`;
         } else {
           applyFi(stem.textContent, 'Andar dakhil hone par Zer ِ', '');
@@ -581,6 +582,7 @@ window.GrammarVisuals = (function() {
       const sub = document.getElementById('s2l4-sub');
       const status = document.getElementById('s2l4-status');
       const area = container.querySelector('.s2l4-area');
+      const initialStem = stem.textContent;
 
       function applyAlaa(wStem, wMeaning) {
         AudioFX.play('pop');
@@ -603,7 +605,7 @@ window.GrammarVisuals = (function() {
           pref.style.width = '0px';
           pref.style.opacity = '0';
           vowel.textContent = 'ُ';
-          sub.textContent = `${stem.textContent}u (Baghair عَلَى ke Pesh ُ)`;
+          sub.textContent = `${initialStem}u (Baghair عَلَى ke Pesh ُ)`;
           status.innerHTML = `Halat: <span style="color: #6b7280;">Aam Pesh ( ُ )</span>`;
         } else {
           applyAlaa(stem.textContent, 'Platform par aane se Zer ِ');
@@ -654,6 +656,7 @@ window.GrammarVisuals = (function() {
       const sub = document.getElementById('s2l5-sub');
       const status = document.getElementById('s2l5-status');
       const area = container.querySelector('.s2l5-area');
+      const initialStem = stem.textContent;
 
       function applyMin(wStem, wMeaning) {
         AudioFX.play('pop');
@@ -676,7 +679,7 @@ window.GrammarVisuals = (function() {
           pref.style.width = '0px';
           pref.style.opacity = '0';
           vowel.textContent = 'ُ';
-          sub.textContent = `${stem.textContent}u (Baghair مِنْ ke Pesh ُ)`;
+          sub.textContent = `${initialStem}u (Baghair مِنْ ke Pesh ُ)`;
           status.innerHTML = `Halat: <span style="color: #6b7280;">Aam Pesh ( ُ )</span>`;
         } else {
           applyMin(stem.textContent, 'Ibtida zahir karne par Zer ِ');
@@ -726,6 +729,7 @@ window.GrammarVisuals = (function() {
       const sub = document.getElementById('s2l6-sub');
       const status = document.getElementById('s2l6-status');
       const area = container.querySelector('.s2l6-area');
+      const initialStem = stem.textContent;
 
       function applyIla(wStem, wMeaning) {
         AudioFX.play('pop');
@@ -748,7 +752,7 @@ window.GrammarVisuals = (function() {
           pref.style.width = '0px';
           pref.style.opacity = '0';
           vowel.textContent = 'ُ';
-          sub.textContent = `${stem.textContent}u (Baghair إِلَى ke Pesh ُ)`;
+          sub.textContent = `${initialStem}u (Baghair إِلَى ke Pesh ُ)`;
           status.innerHTML = `Halat: <span style="color: #6b7280;">Aam Pesh ( ُ )</span>`;
         } else {
           applyIla(stem.textContent, 'Manzil ki taraf jaane par Zer ِ');
@@ -798,6 +802,7 @@ window.GrammarVisuals = (function() {
       const sub = document.getElementById('s2l7-sub');
       const status = document.getElementById('s2l7-status');
       const area = container.querySelector('.s2l7-area');
+      const initialStem = stem.textContent;
 
       function applyBi(wStem, wMeaning) {
         AudioFX.play('pop');
@@ -820,7 +825,7 @@ window.GrammarVisuals = (function() {
           pref.style.width = '0px';
           pref.style.opacity = '0';
           vowel.textContent = 'ُ';
-          sub.textContent = `${stem.textContent}u (Baghair بِـ ke Pesh ُ)`;
+          sub.textContent = `${initialStem}u (Baghair بِـ ke Pesh ُ)`;
           status.innerHTML = `Halat: <span style="color: #6b7280;">Aam Pesh ( ُ )</span>`;
         } else {
           applyBi(stem.textContent, 'Taalluq jodne par Zer ِ');
