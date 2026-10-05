@@ -3,11 +3,14 @@ images/
 
 # Sensitive files
 api.key.txt
+context.md
+
 
 # Backup and temp files
 *.bak
 muallim_backup_*.json
 scratch/
+.firebase/
 
 # Old prompt files
 data-audit-prompt.md

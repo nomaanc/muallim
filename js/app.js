@@ -152,18 +152,29 @@ var App = (function() {
         migrateS4L18Keys();
         setupEventListeners();
         setAudioSpeed(audioSpeed, false);
-        // Auto-resume bookmark on every app open
-        var _bmAutoRaw = null;
-        try { _bmAutoRaw = localStorage.getItem('muallim_bookmark'); } catch(e) {}
+        // URL parameter support for direct lesson deep-linking (?unit=X&lesson=Y or ?u=X&l=Y)
+        var urlParams = new URLSearchParams(window.location.search);
+        var urlUnit = parseInt(urlParams.get('unit') || urlParams.get('u'), 10);
+        var urlLesson = parseInt(urlParams.get('lesson') || urlParams.get('l'), 10);
         var _bmLoaded = false;
-        if (_bmAutoRaw) {
-          try {
-            var _bmAuto = JSON.parse(_bmAutoRaw);
-            if (_bmAuto && _bmAuto.stage && _bmAuto.lesson) {
-              loadLesson(_bmAuto.stage, _bmAuto.lesson);
-              _bmLoaded = true;
-            }
-          } catch(e) {}
+        if (urlUnit && urlLesson) {
+          loadLesson(urlUnit, urlLesson);
+          _bmLoaded = true;
+        }
+
+        // Auto-resume bookmark on app open if no URL parameter
+        if (!_bmLoaded) {
+          var _bmAutoRaw = null;
+          try { _bmAutoRaw = localStorage.getItem('muallim_bookmark'); } catch(e) {}
+          if (_bmAutoRaw) {
+            try {
+              var _bmAuto = JSON.parse(_bmAutoRaw);
+              if (_bmAuto && _bmAuto.stage && _bmAuto.lesson) {
+                loadLesson(_bmAuto.stage, _bmAuto.lesson);
+                _bmLoaded = true;
+              }
+            } catch(e) {}
+          }
         }
         if (!_bmLoaded) loadLesson(1, 1);
         populateStageTabs();
@@ -388,6 +399,7 @@ var App = (function() {
             <div class="lesson-banner-title">${lesson.title}</div>
             <div class="lesson-banner-meta">Unit ${currentStage} • Page ${lesson.book_page || lesson.page_start || 1}</div>
           </div>
+          <div id="grammar-visual-mount"></div>
         `;
 
         (lesson.sections || []).forEach((sec, sIdx) => {
@@ -536,7 +548,7 @@ var App = (function() {
                 html += `
                   <div class="vocab-card" style="${it.full_width ? 'grid-column: 1 / -1;' : ''}">
                     <div class="card-top" data-item-id="${itemKey}">
-                      ${it.id ? `<span class="card-number">${iIdx + 1}</span>` : ''}
+                      ${(it.sentence_number || it.display_number) ? `<span class="card-number sentence-badge">${it.sentence_number || it.display_number}</span>` : ''}
                       <button class="card-action-btn" onclick="App.speakArabic('${escAr}')">🔊</button>
                       <button class="card-action-btn ${starred ? 'starred' : ''}" aria-pressed="${starred ? 'true' : 'false'}" aria-label="${starred ? 'Starred' : 'Star this item'}" onclick="App.toggleStarInPlace(this, '${itemKey}', '${escAr}', '${escHi}')">${starred ? '★' : '☆'}</button>
                       ${bmSvgHtml(itemKey)}
@@ -631,6 +643,10 @@ var App = (function() {
         });
 
         if (mount) mount.innerHTML = html;
+        if (window.GrammarVisuals) {
+          const lKey = lesson.lesson_key || `S${currentStage}L${currentLesson}`;
+          window.GrammarVisuals.mount(lKey, 'grammar-visual-mount');
+        }
         renderBottomNavigation();
         scrollToBookmark();
       }
@@ -1107,23 +1123,25 @@ var App = (function() {
       }
 
       var _searchIndexData = null;
-      var _searchIndexLoading = false;
+      var _searchIndexPromise = null;
 
       async function loadSearchIndex() {
         if (_searchIndexData) return _searchIndexData;
-        if (_searchIndexLoading) return [];
-        _searchIndexLoading = true;
-        try {
-          const res = await fetch('./data/search-index.json');
-          if (res.ok) {
-            _searchIndexData = await res.json();
+        if (_searchIndexPromise) return _searchIndexPromise;
+        _searchIndexPromise = (async () => {
+          try {
+            const res = await fetch('./data/search-index.json');
+            if (res.ok) {
+              _searchIndexData = await res.json();
+            }
+          } catch(e) {
+            console.warn('[Muallim] Could not load search-index.json:', e);
+          } finally {
+            _searchIndexPromise = null;
           }
-        } catch(e) {
-          console.warn('[Muallim] Could not load search-index.json:', e);
-        } finally {
-          _searchIndexLoading = false;
-        }
-        return _searchIndexData || [];
+          return _searchIndexData || [];
+        })();
+        return _searchIndexPromise;
       }
 
       function normalizeSearchStr(s) {
