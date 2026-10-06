@@ -777,9 +777,10 @@ var App = (function() {
         if (mode === 'starred') {
           favourites.forEach(f => {
             const customVal = customAnswers[f.key];
+            const display = getTranslation(f) || f.hinglish;
             spinnerPool.push({
               arabic: f.arabic,
-              origHinglish: f.hinglish,
+              origHinglish: display,
               customHinglish: customVal || '',
               key: f.key
             });
@@ -792,12 +793,13 @@ var App = (function() {
             (lesson.sections || []).forEach((sec, sIdx) => {
               const items = (sec.data && sec.data.items) || [];
               items.forEach((it, iIdx) => {
-                if (it.arabic && it.hinglish && !it.arabic.includes('----')) {
+                const display = getTranslation(it) || it.hinglish;
+                if (it.arabic && display && !it.arabic.includes('----')) {
                   const itemKey = `S${currentStage}L${currentLesson}_s${sIdx}_${iIdx}`;
                   const customVal = customAnswers[itemKey];
                   spinnerPool.push({
                     arabic: it.arabic,
-                    origHinglish: it.hinglish,
+                    origHinglish: display,
                     customHinglish: customVal || '',
                     key: itemKey
                   });
@@ -1908,7 +1910,7 @@ var App = (function() {
 
     App.startStarredDrill = function() {
       const pool = favourites.map(f => ({
-        arabic: f.arabic, origHinglish: f.hinglish,
+        arabic: f.arabic, origHinglish: getTranslation(f) || f.hinglish,
         customHinglish: customAnswers[f.key] || '', key: f.key
       }));
       if (pool.length === 0) { showToast('No starred items yet. Tap ★ on any card!'); return; }
