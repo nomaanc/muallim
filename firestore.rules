@@ -132,10 +132,15 @@ service cloud.firestore {
       allow delete: if isAdmin();
     }
 
+    // ── Guest data collection (anonymous user cloud sync) ────────
+    match /guest_data/{userId} {
+      allow read, write: if isOwner(userId) || isAdmin();
+    }
+
     // ── Legacy: muallim_students (device-based) ────────────────
-    // Public read; write only with valid self-referential deviceId + name fields
+    // Authenticated read; write only with valid self-referential deviceId + name fields
     match /muallim_students/{deviceId} {
-      allow read: if true;
+      allow read: if isAuthenticated() || isAdmin();
       allow write: if
         request.resource.data.deviceId == deviceId
         && request.resource.data.keys().hasAll(['deviceId', 'name'])
@@ -144,11 +149,11 @@ service cloud.firestore {
     }
 
     // ── Legacy: broadcast messages ─────────────────────────────
-    // Public read; only AUTHENTICATED users can create (prevents anonymous spam)
+    // Authenticated read; only ADMINS can create broadcasts (prevents anonymous spam)
     // Admin can delete broadcasts
     match /muallim_broadcasts/{broadcastId} {
-      allow read: if true;
-      allow create: if isAuthenticated()
+      allow read: if isAuthenticated() || isAdmin();
+      allow create: if isAdmin()
         && request.resource.data.message is string
         && request.resource.data.message.size() > 0
         && request.resource.data.message.size() <= 500;

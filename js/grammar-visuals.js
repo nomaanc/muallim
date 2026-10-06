@@ -187,13 +187,85 @@ window.GrammarVisuals = (function() {
         margin-top: 8px;
         color: #374151;
       }
+      .gv-speaker-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 1.05rem;
+        padding: 2px 6px;
+        border-radius: 6px;
+        transition: transform 0.15s, background 0.15s;
+        margin-left: auto;
+        margin-right: 8px;
+        opacity: 0.85;
+      }
+      .gv-speaker-btn:hover {
+        transform: scale(1.18);
+        opacity: 1;
+        background: rgba(0,0,0,0.06);
+      }
+      .gv-speaker-btn:active {
+        transform: scale(0.92);
+      }
+      @keyframes vowel-land {
+        0% { transform: translateY(-16px) scale(0.5); opacity: 0; }
+        60% { transform: translateY(4px) scale(1.25); opacity: 1; }
+        100% { transform: translateY(0) scale(1); opacity: 1; }
+      }
+      .vowel-fly {
+        display: inline-block !important;
+        animation: vowel-land 0.38s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+      }
     `;
     document.head.appendChild(style);
   }
 
-  // Particle explosion effect on vowel/affix change
+  function speakArabicFromEl(el) {
+    if (!el) return;
+    const txt = el.innerText || el.textContent || '';
+    const clean = txt.replace(/[a-zA-Z0-9_():+\-=\[\]\/\\]/g, '').trim();
+    if (clean && window.App && typeof window.App.speakArabic === 'function') {
+      window.App.speakArabic(clean);
+    }
+  }
+
+  function attachVisualInteractions(container) {
+    if (!container) return;
+    const headers = container.querySelectorAll('.gv-header');
+    headers.forEach(h => {
+      if (!h.querySelector('.gv-speaker-btn')) {
+        const btn = document.createElement('button');
+        btn.className = 'gv-speaker-btn';
+        btn.title = 'Sunen (Listen to Arabic)';
+        btn.setAttribute('aria-label', 'Listen to Arabic');
+        btn.innerHTML = '🔊';
+        btn.onclick = (e) => {
+          e.stopPropagation();
+          const w = container.querySelector('.gv-word-display');
+          if (w) speakArabicFromEl(w);
+        };
+        const badge = h.querySelector('.gv-badge');
+        if (badge) h.insertBefore(btn, badge);
+        else h.appendChild(btn);
+      }
+    });
+
+    const displays = container.querySelectorAll('.gv-word-display');
+    displays.forEach(d => {
+      d.title = (d.title ? d.title + ' | ' : '') + 'Tap to listen';
+      d.addEventListener('click', () => {
+        setTimeout(() => speakArabicFromEl(d), 40);
+      });
+    });
+  }
+
+  // Particle explosion effect on vowel/affix change with spring fly-in
   function particleBurst(el, container) {
     if (!el || !container) return;
+    el.classList.remove('vowel-fly');
+    void el.offsetWidth;
+    el.classList.add('vowel-fly');
+
     const rect = el.getBoundingClientRect();
     const cRect = container.getBoundingClientRect();
     const x = rect.left - cRect.left + rect.width / 2;
@@ -962,6 +1034,12 @@ window.GrammarVisuals = (function() {
           </div>
           <div class="gv-body">
             <div class="gv-interactive-area s3l1-area">
+              <svg viewBox="0 0 220 40" class="gv-connecting-arc s3l1-arc-svg" style="width: 180px; height: 36px; overflow: visible; margin-bottom: -4px;">
+                <path id="s3l1-arc" d="M 45,30 Q 110,6 175,30" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="140" stroke-dashoffset="0" style="transition: stroke-dashoffset 0.4s ease;"/>
+                <circle cx="45" cy="30" r="3.5" fill="#1a1a1a"/>
+                <circle cx="175" cy="30" r="3.5" fill="#dc2626"/>
+                <text x="110" y="16" font-size="10" fill="#dc2626" text-anchor="middle" font-weight="700">Tawseefi Arc (مطابقت)</text>
+              </svg>
               <div class="gv-word-display" id="s3l1-word">
                 <span class="mawsoof" style="color: #1a1a1a; margin-left: 12px; transition: all 0.3s;">شَيْءٌ</span>
                 <span class="sifat" style="color: #dc2626; transition: all 0.3s;">عَظِيمٌ</span>
@@ -986,25 +1064,25 @@ window.GrammarVisuals = (function() {
       const mawsoof = container.querySelector('.mawsoof');
       const sifat = container.querySelector('.sifat');
       const sub = document.getElementById('s3l1-sub');
+      const arc = container.querySelector('#s3l1-arc');
 
-      container.querySelector('#s3l1-btn-1').onclick = () => {
-        AudioFX.play('pop');
-        mawsoof.textContent = 'شَيْءٌ';
-        sifat.textContent = 'عَظِيمٌ';
-        sub.textContent = 'Ek badi cheez (Bada maamla)';
-      };
-      container.querySelector('#s3l1-btn-2').onclick = () => {
-        AudioFX.play('whoosh');
-        mawsoof.textContent = 'عَذَابٌ';
-        sifat.textContent = 'شَدِيدٌ';
-        sub.textContent = 'Sakht azaab (Severe punishment)';
-      };
-      container.querySelector('#s3l1-btn-3').onclick = () => {
-        AudioFX.play('whoosh');
-        mawsoof.textContent = 'فَوْزٌ';
-        sifat.textContent = 'كَبِيرٌ';
-        sub.textContent = 'Badi kamyabi (Great success)';
-      };
+      function triggerTawseefi(mTxt, sTxt, subTxt) {
+        AudioFX.play('chime');
+        mawsoof.textContent = mTxt;
+        sifat.textContent = sTxt;
+        sub.textContent = subTxt;
+        particleBurst(sifat, container.querySelector('.s3l1-area'));
+        if (arc) {
+          arc.style.strokeDashoffset = '140';
+          requestAnimationFrame(() => {
+            requestAnimationFrame(() => { arc.style.strokeDashoffset = '0'; });
+          });
+        }
+      }
+
+      container.querySelector('#s3l1-btn-1').onclick = () => triggerTawseefi('شَيْءٌ', 'عَظِيمٌ', 'Ek badi cheez (Bada maamla)');
+      container.querySelector('#s3l1-btn-2').onclick = () => triggerTawseefi('عَذَابٌ', 'شَدِيدٌ', 'Sakht azaab (Severe punishment)');
+      container.querySelector('#s3l1-btn-3').onclick = () => triggerTawseefi('فَوْزٌ', 'كَبِيرٌ', 'Badi kamyabi (Great success)');
     },
 
     's3l2'(container) {
@@ -1078,6 +1156,12 @@ window.GrammarVisuals = (function() {
           </div>
           <div class="gv-body">
             <div class="gv-interactive-area s3l4-area">
+              <svg viewBox="0 0 220 40" class="gv-connecting-arc s3l4-arc-svg" style="width: 180px; height: 36px; overflow: visible; margin-bottom: -4px;">
+                <path id="s3l4-arc" d="M 45,30 Q 110,6 175,30" fill="none" stroke="#d97706" stroke-width="2.5" stroke-dasharray="140" stroke-dashoffset="0" style="transition: stroke-dashoffset 0.4s ease;"/>
+                <circle cx="45" cy="30" r="3.5" fill="#dc2626"/>
+                <circle cx="175" cy="30" r="3.5" fill="#1a1a1a"/>
+                <text x="110" y="16" font-size="10" fill="#d97706" text-anchor="middle" font-weight="700">Izaafat Bond (تعلق)</text>
+              </svg>
               <div class="gv-word-display" id="s3l4-word">
                 <span class="mudaaf" style="color: #dc2626; margin-left: 12px; transition: all 0.3s;">رَبُّ</span>
                 <span class="mudaaf-ilaih" style="color: #1a1a1a; transition: all 0.3s;">الْعَرْشِ</span>
@@ -1102,25 +1186,25 @@ window.GrammarVisuals = (function() {
       const m = container.querySelector('.mudaaf');
       const mi = container.querySelector('.mudaaf-ilaih');
       const sub = document.getElementById('s3l4-sub');
+      const arc = container.querySelector('#s3l4-arc');
 
-      container.querySelector('#s3l4-btn-1').onclick = () => {
-        AudioFX.play('pop');
-        m.textContent = 'رَبُّ';
-        mi.textContent = 'الْعَرْشِ';
-        sub.textContent = 'Arsh ka Rabb (Lord of the Throne)';
-      };
-      container.querySelector('#s3l4-btn-2').onclick = () => {
-        AudioFX.play('whoosh');
-        m.textContent = 'كِتَابُ';
-        mi.textContent = 'اللَّهِ';
-        sub.textContent = 'Allah ki kitaab (Book of Allah)';
-      };
-      container.querySelector('#s3l4-btn-3').onclick = () => {
-        AudioFX.play('whoosh');
-        m.textContent = 'يَوْمُ';
-        mi.textContent = 'الْقِيَامَةِ';
-        sub.textContent = 'Qiyamat ka din (Day of Resurrection)';
-      };
+      function triggerIzaafat(mTxt, miTxt, subTxt) {
+        AudioFX.play('chime');
+        m.textContent = mTxt;
+        mi.textContent = miTxt;
+        sub.textContent = subTxt;
+        particleBurst(m, container.querySelector('.s3l4-area'));
+        if (arc) {
+          arc.style.strokeDashoffset = '140';
+          requestAnimationFrame(() => {
+            requestAnimationFrame(() => { arc.style.strokeDashoffset = '0'; });
+          });
+        }
+      }
+
+      container.querySelector('#s3l4-btn-1').onclick = () => triggerIzaafat('رَبُّ', 'الْعَرْشِ', 'Arsh ka Rabb (Lord of the Throne)');
+      container.querySelector('#s3l4-btn-2').onclick = () => triggerIzaafat('كِتَابُ', 'اللَّهِ', 'Allah ki kitaab (Book of Allah)');
+      container.querySelector('#s3l4-btn-3').onclick = () => triggerIzaafat('يَوْمُ', 'الْقِيَامَةِ', 'Qiyamat ka din (Day of Resurrection)');
     },
 
     's3l5'(container) {
@@ -1627,11 +1711,33 @@ window.GrammarVisuals = (function() {
       container.innerHTML = `
         <div class="gv-card">
           <div class="gv-header">
-            <span>✨ Visual Samajh: Fe'l Mazi (Past Tense) Conjugation Wheel</span>
+            <span>✨ Visual Samajh: Fe'l Mazi (Past Tense) Conjugation Dial</span>
             <span class="gv-badge">Interactive</span>
           </div>
           <div class="gv-body">
-            <div class="gv-interactive-area s6l1-area" style="min-height: 180px;">
+            <div class="gv-interactive-area s6l1-area" style="min-height: 200px;">
+              <!-- Semicircular Radial Dial SVG -->
+              <div style="position: relative; width: 220px; height: 95px; margin-bottom: 4px;">
+                <svg id="s6l1-dial-svg" viewBox="0 0 240 115" style="width: 100%; height: 100%; overflow: visible;">
+                  <path d="M 25,100 A 95,95 0 0,1 215,100" fill="none" stroke="#e5e7eb" stroke-width="12" stroke-linecap="round"/>
+                  <path d="M 25,100 A 95,95 0 0,1 55,50" fill="none" stroke="#d97706" stroke-width="8" stroke-linecap="round"/>
+                  <path d="M 55,50 A 95,95 0 0,1 98,18" fill="none" stroke="#881337" stroke-width="8"/>
+                  <path d="M 98,18 A 95,95 0 0,1 142,18" fill="none" stroke="#1e40af" stroke-width="8"/>
+                  <path d="M 142,18 A 95,95 0 0,1 185,50" fill="none" stroke="#5a8249" stroke-width="8"/>
+                  <path d="M 185,50 A 95,95 0 0,1 215,100" fill="none" stroke="#4b5563" stroke-width="8" stroke-linecap="round"/>
+                  <text x="24" y="114" font-size="10" font-weight="700" fill="#d97706" style="cursor:pointer;" class="dial-lbl" data-p="huwa">هُوَ</text>
+                  <text x="46" y="44" font-size="10" font-weight="700" fill="#881337" style="cursor:pointer;" class="dial-lbl" data-p="hum">هُمْ</text>
+                  <text x="120" y="14" font-size="11" font-weight="800" fill="#1e40af" style="cursor:pointer;" class="dial-lbl" data-p="anta" text-anchor="middle">أَنْتَ</text>
+                  <text x="194" y="44" font-size="10" font-weight="700" fill="#5a8249" style="cursor:pointer;" class="dial-lbl" data-p="ana">أَنَا</text>
+                  <text x="216" y="114" font-size="10" font-weight="700" fill="#4b5563" style="cursor:pointer;" class="dial-lbl" data-p="nahnu" text-anchor="end">نَحْنُ</text>
+                  <g id="s6l1-needle" style="transform-origin: 120px 100px; transform: rotate(-60deg); transition: transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);">
+                    <line x1="120" y1="100" x2="120" y2="28" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+                    <polygon points="120,20 115,30 125,30" fill="#dc2626"/>
+                    <circle cx="120" cy="100" r="7" fill="#1f2937"/>
+                    <circle cx="120" cy="100" r="3" fill="#ffffff"/>
+                  </g>
+                </svg>
+              </div>
               <!-- Central Morphological Display -->
               <div class="gv-word-display" id="s6l1-display" style="gap: 2px; font-size: 2.5rem;">
                 <span class="r-root" id="s6l1-root" style="color: #111827; letter-spacing: 2px;">فَعَلَ</span>
@@ -1666,25 +1772,25 @@ window.GrammarVisuals = (function() {
       let currentVerb = 'faal'; // 'faal' | 'abad' | 'nasar'
       const verbForms = {
         faal: {
-          huwa:  { root: 'فَعَلَ', suff: '', meaning: 'Us 1 mard ne kiya (He did)', zam: 'هُوَ (Default)' },
-          hum:   { root: 'فَعَل', suff: 'ُوا', meaning: 'Un sab ne kiya (They did)', zam: 'هُمْ' },
-          anta:  { root: 'فَعَلْ', suff: 'تَ', meaning: 'Aap ne kiya (You did)', zam: 'أَنْتَ' },
-          ana:   { root: 'فَعَلْ', suff: 'تُ', meaning: 'Maine kiya (I did)', zam: 'أَنَا' },
-          nahnu: { root: 'فَعَلْ', suff: 'نَا', meaning: 'Humne kiya (We did)', zam: 'نَحْنُ' }
+          huwa:  { root: 'فَعَلَ', suff: '', meaning: 'Us 1 mard ne kiya (He did)', zam: 'هُوَ (Default)', deg: -60 },
+          hum:   { root: 'فَعَل', suff: 'ُوا', meaning: 'Un sab ne kiya (They did)', zam: 'هُمْ', deg: -30 },
+          anta:  { root: 'فَعَلْ', suff: 'تَ', meaning: 'Aap ne kiya (You did)', zam: 'أَنْتَ', deg: 0 },
+          ana:   { root: 'فَعَلْ', suff: 'تُ', meaning: 'Maine kiya (I did)', zam: 'أَنَا', deg: 30 },
+          nahnu: { root: 'فَعَلْ', suff: 'نَا', meaning: 'Humne kiya (We did)', zam: 'نَحْنُ', deg: 60 }
         },
         abad: {
-          huwa:  { root: 'عَبَدَ', suff: '', meaning: 'Usne ibadat ki (He worshipped)', zam: 'هُوَ (Default)' },
-          hum:   { root: 'عَبَد', suff: 'ُوا', meaning: 'Unhon ne ibadat ki (They worshipped)', zam: 'هُمْ' },
-          anta:  { root: 'عَبَدْ', suff: 'تَ', meaning: 'Aapne ibadat ki (You worshipped)', zam: 'أَنْتَ' },
-          ana:   { root: 'عَبَدْ', suff: 'تُ', meaning: 'Maine ibadat ki (I worshipped)', zam: 'أَنَا' },
-          nahnu: { root: 'عَبَدْ', suff: 'نَا', meaning: 'Humne ibadat ki (We worshipped)', zam: 'نَحْنُ' }
+          huwa:  { root: 'عَبَدَ', suff: '', meaning: 'Usne ibadat ki (He worshipped)', zam: 'هُوَ (Default)', deg: -60 },
+          hum:   { root: 'عَبَد', suff: 'ُوا', meaning: 'Unhon ne ibadat ki (They worshipped)', zam: 'هُمْ', deg: -30 },
+          anta:  { root: 'عَبَدْ', suff: 'تَ', meaning: 'Aapne ibadat ki (You worshipped)', zam: 'أَنْتَ', deg: 0 },
+          ana:   { root: 'عَبَدْ', suff: 'تُ', meaning: 'Maine ibadat ki (I worshipped)', zam: 'أَنَا', deg: 30 },
+          nahnu: { root: 'عَبَدْ', suff: 'نَا', meaning: 'Humne ibadat ki (We worshipped)', zam: 'نَحْنُ', deg: 60 }
         },
         nasar: {
-          huwa:  { root: 'نَصَرَ', suff: '', meaning: 'Usne madad ki (He helped)', zam: 'هُوَ (Default)' },
-          hum:   { root: 'نَصَر', suff: 'ُوا', meaning: 'Unhon ne madad ki (They helped)', zam: 'هُمْ' },
-          anta:  { root: 'نَصَرْ', suff: 'تَ', meaning: 'Aapne madad ki (You helped)', zam: 'أَنْتَ' },
-          ana:   { root: 'نَصَرْ', suff: 'تُ', meaning: 'Maine madad ki (I helped)', zam: 'أَنَا' },
-          nahnu: { root: 'نَصَرْ', suff: 'نَا', meaning: 'Humne madad ki (We helped)', zam: 'نَحْنُ' }
+          huwa:  { root: 'نَصَرَ', suff: '', meaning: 'Usne madad ki (He helped)', zam: 'هُوَ (Default)', deg: -60 },
+          hum:   { root: 'نَصَر', suff: 'ُوا', meaning: 'Unhon ne madad ki (They helped)', zam: 'هُمْ', deg: -30 },
+          anta:  { root: 'نَصَرْ', suff: 'تَ', meaning: 'Aapne madad ki (You helped)', zam: 'أَنْتَ', deg: 0 },
+          ana:   { root: 'نَصَرْ', suff: 'تُ', meaning: 'Maine madad ki (I helped)', zam: 'أَنَا', deg: 30 },
+          nahnu: { root: 'نَصَرْ', suff: 'نَا', meaning: 'Humne madad ki (We helped)', zam: 'نَحْنُ', deg: 60 }
         }
       };
 
@@ -1693,6 +1799,7 @@ window.GrammarVisuals = (function() {
       const suffEl = container.querySelector('#s6l1-suffix');
       const subEl = document.getElementById('s6l1-sub');
       const tagEl = document.getElementById('s6l1-pronoun-tag');
+      const needle = container.querySelector('#s6l1-needle');
       const area = container.querySelector('.s6l1-area');
 
       function applyConjugation(pKey) {
@@ -1704,6 +1811,9 @@ window.GrammarVisuals = (function() {
         suffEl.textContent = data.suff;
         subEl.textContent = data.meaning;
         tagEl.textContent = `Zameer: ${data.zam}`;
+        if (needle) {
+          needle.style.transform = `rotate(${data.deg}deg)`;
+        }
       }
 
       container.querySelector('#s6l1-btn-huwa').onclick = () => applyConjugation('huwa');
@@ -1711,6 +1821,13 @@ window.GrammarVisuals = (function() {
       container.querySelector('#s6l1-btn-anta').onclick = () => applyConjugation('anta');
       container.querySelector('#s6l1-btn-ana').onclick = () => applyConjugation('ana');
       container.querySelector('#s6l1-btn-nahnu').onclick = () => applyConjugation('nahnu');
+
+      container.querySelectorAll('.dial-lbl').forEach(lbl => {
+        lbl.onclick = () => {
+          const p = lbl.getAttribute('data-p');
+          if (p) applyConjugation(p);
+        };
+      });
 
       container.querySelector('#s6l1-root-faala').onclick = () => { currentVerb = 'faal'; applyConjugation(currentPronoun); };
       container.querySelector('#s6l1-root-abada').onclick = () => { currentVerb = 'abad'; applyConjugation(currentPronoun); };
@@ -1895,11 +2012,7 @@ window.GrammarVisuals = (function() {
       const key = (lessonKey || '').toLowerCase();
       if (Registry[key]) {
         Registry[key](container);
-        return;
-      }
-
-      // Context-aware stage fallback routing so 100% of lessons have an active interactive model
-      if (key.startsWith('s6') && Registry['s6l1']) {
+      } else if (key.startsWith('s6') && Registry['s6l1']) {
         Registry['s6l1'](container);
       } else if (key.startsWith('s5') && Registry['s5l1']) {
         Registry['s5l1'](container);
@@ -1916,6 +2029,7 @@ window.GrammarVisuals = (function() {
       } else {
         genericVisual(key, container);
       }
+      attachVisualInteractions(container);
     },
     has(lessonKey) {
       return true; // All lessons have either explicit or stage-based interactive models
