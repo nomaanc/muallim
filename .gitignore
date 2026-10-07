@@ -19,4 +19,9 @@ data-audit-prompt.md
 feature-enhancements-prompt.md
 html-update.md
 MUALLIM_OVERHAUL_PLAN.md
+MUALLIM_OVERHAUL_PLAN_v9.5.md
 update-app/
+
+# Node and test artifacts
+node_modules/
+test-results/

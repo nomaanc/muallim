@@ -1,0 +1,4622 @@
+[
+  {
+    "lessonId": "s6l1",
+    "questions": [
+      {
+        "id": "s6l1-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What morphological rule is taught in Fe'l Muzare (يَفْعَلُ)?",
+          "ur": "Fe'l Muzare (يَفْعَلُ) میں کون سا صَرفی و نحوی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Fe'l Muzare (يَفْعَلُ) में कौन सा सरफ़ी व नहवी क़ायदा सिखाया गया है?",
+          "hinglish": "Fe'l Muzare ('يَفْعَلُ') mein kaun sa sarfi wa nahwi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transforms the verb into 'يَعْبُدُ'",
+            "Changes word into an inactive noun",
+            "Permanently removes all prefixes",
+            "Replaces the root letters"
+          ],
+          "ur": [
+            "فعل بدل کر 'يَعْبُدُ' بن جاتا ہے",
+            "لفظ کو اسم جامد بنا دیتا ہے",
+            "تمام سابقے مستقل گرا دیتا ہے",
+            "حروف اصلیہ تبدیل کر دیتا ہے"
+          ],
+          "hi": [
+            "फेल बदल कर 'يَعْبُدُ' बन जाता है",
+            "लफ़्ज़ को इस्म जामिद बना देता है",
+            "तमाम साबिक़े मुस्तक़िल गिरा देता है",
+            "हुरूफ़ अस्लिया तब्दील कर देता है"
+          ],
+          "hinglish": [
+            "Fe'l badal kar 'يَعْبُدُ' ban jaata hai",
+            "Lafz ko ism jaamid bana deta hai",
+            "Tamaam saabiqe mustaqil gira deta hai",
+            "Huroof-e-asliyah tabdeel kar deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation creates 'يَعْبُدُ'.",
+          "ur": "گردان کے نتیجے میں 'يَعْبُدُ' بنتا ہے۔",
+          "hi": "गर्दान के नतीजे में 'يَعْبُدُ' बनता है।",
+          "hinglish": "Gardan ke nateeje mein 'يَعْبُدُ' banta hai."
+        }
+      },
+      {
+        "id": "s6l1-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which verb form correctly demonstrates Fe'l Muzare (يَفْعَلُ)?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Fe'l Muzare (يَفْعَلُ) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Fe'l Muzare (يَفْعَلُ) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Fe'l Muzare ('يَفْعَلُ') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "يَعْبُدُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "ur": [
+            "يَعْبُدُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hi": [
+            "يَعْبُدُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hinglish": [
+            "يَعْبُدُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ]
+        },
+        "explanation": {
+          "en": "'يَعْبُدُ' correctly represents this verbal pattern.",
+          "ur": "'يَعْبُدُ' اس فعلی سانچے کی درست مثال ہے۔",
+          "hi": "'يَعْبُدُ' इस फेली सांचे की सही मिसाल है।",
+          "hinglish": "'يَعْبُدُ' is fe'li saanche ki sahi misaal hai."
+        }
+      },
+      {
+        "id": "s6l1-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'يَعْبُدُ', identify the base verbal stem:",
+          "ur": "'يَعْبُدُ' کی اصل بنیادی حالت کیا ہے؟",
+          "hi": "'يَعْبُدُ' की असल बुनियादी हालत क्या है?",
+          "hinglish": "'يَعْبُدُ' ki asal bunyadi halat kya hai?"
+        },
+        "options": {
+          "en": [
+            "عَبَدَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "ur": [
+            "عَبَدَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hi": [
+            "عَبَدَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hinglish": [
+            "عَبَدَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting verbal form is 'عَبَدَ'.",
+          "ur": "اس کی اصل صورت 'عَبَدَ' ہے۔",
+          "hi": "इसकी असल सूरत 'عَبَدَ' है।",
+          "hinglish": "Iski asal soorat 'عَبَدَ' hai."
+        }
+      },
+      {
+        "id": "s6l1-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ'?",
+          "ur": "قرآنی لفظ 'يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'يَعْلَمُ 'مَا' بَيْنَ أَيْدِيهِمْ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "He knows",
+            "He knows what is in the heavens and the earth",
+            "He knows what is before them and what will be after them",
+            "He knows what you conceal and what you declare"
+          ],
+          "ur": [
+            "وہ جانتا ہے",
+            "وہ جانتا ہے جو آسمانوں اور زمین میں ہے",
+            "وہ جانتا ہے جو ان کے آگے ہے اور جو ان کے پیچھے ہے",
+            "وہ جانتا ہے جو تم چھپاتے ہو اور جو تم ظاہر کرتے ہو"
+          ],
+          "hi": [
+            "वह जानता है",
+            "वह जानता है जो आसमानों और ज़मीन में है",
+            "वह जानता है जो उनके आगे है और जो उनके पीछे है",
+            "वह जानता है जो तुम छुपाते हो और जो तुम ज़ाहिर करते हो"
+          ],
+          "hinglish": [
+            "woh jaanta hai jo unke aage hai",
+            "woh jaanta hai jo tum zaahir karte ho",
+            "woh jaanta hai bhed aur us se zyaada posheeda baat",
+            "woh jaanta hai aankhon ki khayanat"
+          ]
+        },
+        "explanation": {
+          "en": "'يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ' translates to 'He knows'.",
+          "ur": "'يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ' کا معنی 'وہ جانتا ہے' ہے۔",
+          "hi": "'يَعْلَمُ مَا بَيْنَ أَيْدِيهِمْ' का मतलब 'वह जानता है' है।",
+          "hinglish": "'يَعْلَمُ 'مَا' بَيْنَ أَيْدِيهِمْ' ka matlab 'woh jaanta hai jo unke aage hai' hai."
+        }
+      },
+      {
+        "id": "s6l1-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'يَعْلَمُ مَا تُسِرُّونَ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'يَعْلَمُ مَا تُسِرُّونَ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'يَعْلَمُ مَا تُسِرُّونَ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'يَعْلَمُ 'مَا' تُسِرُّونَ'"
+        },
+        "options": {
+          "en": [
+            "He knows what is in the heavens and the earth",
+            "He knows what penetrates into the earth and what comes forth from it",
+            "He knows what is before them and what will be after them",
+            "He knows what you conceal and what you declare"
+          ],
+          "ur": [
+            "وہ جانتا ہے جو آسمانوں اور زمین میں ہے",
+            "وہ جانتا ہے جو داخل ہوتا ہے زمین میں اور جو نکلتا ہے اس سے",
+            "وہ جانتا ہے جو ان کے آگے ہے اور جو ان کے پیچھے ہے",
+            "وہ جانتا ہے جو تم چھپاتے ہو اور جو تم ظاہر کرتے ہو"
+          ],
+          "hi": [
+            "वह जानता है जो आसमानों और ज़मीन में है",
+            "वह जानता है जो ज़मीन में दाख़िल होता है और जो उससे निकलता है",
+            "वह जानता है जो उनके आगे है और जो उनके पीछे है",
+            "वह जानता है जो तुम छुपाते हो और जो तुम ज़ाहिर करते हो"
+          ],
+          "hinglish": [
+            "woh jaanta hai jo tum zaahir karte ho",
+            "woh jaanta hai jo tum chupate ho",
+            "woh jaanta hai bhed aur us se zyaada posheeda baat",
+            "woh jaanta hai aankhon ki khayanat"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'يَعْلَمُ مَا تُسِرُّونَ' means 'He knows what penetrates into the earth and what comes forth from it'.",
+          "ur": "'يَعْلَمُ مَا تُسِرُّونَ' کا مفہوم 'وہ جانتا ہے جو داخل ہوتا ہے زمین میں اور جو نکلتا ہے اس سے' ہے۔",
+          "hi": "'يَعْلَمُ مَا تُسِرُّونَ' का मतलब 'वह जानता है जो ज़मीन में दाख़िल होता है और जो उससे निकलता है' है।",
+          "hinglish": "'يَعْلَمُ 'مَا' تُسِرُّونَ' ka matlab 'woh jaanta hai jo tum chupate ho' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s6l2",
+    "questions": [
+      {
+        "id": "s6l2-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What morphological rule is taught in Muzare + Alfaaz?",
+          "ur": "Muzare + Alfaaz میں کون سا صَرفی و نحوی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Muzare + Alfaaz में कौन सा सरफ़ी व नहवी क़ायदा सिखाया गया है?",
+          "hinglish": "Muzare + Alfaaz mein kaun sa sarfi wa nahwi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transforms the verb into 'لَا يَعْبُدُ / الَّذِي يَعْلَمُ'",
+            "Changes word into an inactive noun",
+            "Permanently removes all prefixes",
+            "Replaces the root letters"
+          ],
+          "ur": [
+            "فعل بدل کر 'لَا يَعْبُدُ / الَّذِي يَعْلَمُ' بن جاتا ہے",
+            "لفظ کو اسم جامد بنا دیتا ہے",
+            "تمام سابقے مستقل گرا دیتا ہے",
+            "حروف اصلیہ تبدیل کر دیتا ہے"
+          ],
+          "hi": [
+            "फेल बदल कर 'لَا يَعْبُدُ / الَّذِي يَعْلَمُ' बन जाता है",
+            "लफ़्ज़ को इस्म जामिद बना देता है",
+            "तमाम साबिक़े मुस्तक़िल गिरा देता है",
+            "हुरूफ़ अस्लिया तब्दील कर देता है"
+          ],
+          "hinglish": [
+            "Fe'l badal kar 'لَا يَعْبُدُ / الَّذِي يَعْلَمُ' ban jaata hai",
+            "Lafz ko ism jaamid bana deta hai",
+            "Tamaam saabiqe mustaqil gira deta hai",
+            "Huroof-e-asliyah tabdeel kar deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation creates 'لَا يَعْبُدُ / الَّذِي يَعْلَمُ'.",
+          "ur": "گردان کے نتیجے میں 'لَا يَعْبُدُ / الَّذِي يَعْلَمُ' بنتا ہے۔",
+          "hi": "गर्दान के नतीजे में 'لَا يَعْبُدُ / الَّذِي يَعْلَمُ' बनता है।",
+          "hinglish": "Gardan ke nateeje mein 'لَا 'يَعْبُدُ' / 'الَّذِي' يَعْلَمُ' banta hai."
+        }
+      },
+      {
+        "id": "s6l2-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which verb form correctly demonstrates Muzare + Alfaaz?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Muzare + Alfaaz کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Muzare + Alfaaz की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Muzare + Alfaaz ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "لَا يَعْبُدُ / الَّذِي يَعْلَمُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "ur": [
+            "لَا يَعْبُدُ / الَّذِي يَعْلَمُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hi": [
+            "لَا يَعْبُدُ / الَّذِي يَعْلَمُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hinglish": [
+            "لَا يَعْبُدُ / الَّذِي يَعْلَمُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ]
+        },
+        "explanation": {
+          "en": "'لَا يَعْبُدُ / الَّذِي يَعْلَمُ' correctly represents this verbal pattern.",
+          "ur": "'لَا يَعْبُدُ / الَّذِي يَعْلَمُ' اس فعلی سانچے کی درست مثال ہے۔",
+          "hi": "'لَا يَعْبُدُ / الَّذِي يَعْلَمُ' इस फेली सांचे की सही मिसाल है।",
+          "hinglish": "'لَا 'يَعْبُدُ' / 'الَّذِي' يَعْلَمُ' is fe'li saanche ki sahi misaal hai."
+        }
+      },
+      {
+        "id": "s6l2-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'لَا يَعْبُدُ / الَّذِي يَعْلَمُ', identify the base verbal stem:",
+          "ur": "'لَا يَعْبُدُ / الَّذِي يَعْلَمُ' کی اصل بنیادی حالت کیا ہے؟",
+          "hi": "'لَا يَعْبُدُ / الَّذِي يَعْلَمُ' की असल बुनियादी हालत क्या है?",
+          "hinglish": "'لَا 'يَعْبُدُ' / 'الَّذِي' يَعْلَمُ' ki asal bunyadi halat kya hai?"
+        },
+        "options": {
+          "en": [
+            "يَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "ur": [
+            "يَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hi": [
+            "يَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hinglish": [
+            "يَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting verbal form is 'يَعْبُدُ'.",
+          "ur": "اس کی اصل صورت 'يَعْبُدُ' ہے۔",
+          "hi": "इसकी असल सूरत 'يَعْبُدُ' है।",
+          "hinglish": "Iski asal soorat 'يَعْبُدُ' hai."
+        }
+      },
+      {
+        "id": "s6l2-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'وَمَنْ يَعْمَلْ مِنَ الصَّالِحَاتِ'?",
+          "ur": "قرآنی لفظ 'وَمَنْ يَعْمَلْ مِنَ الصَّالِحَاتِ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'وَمَنْ يَعْمَلْ مِنَ الصَّالِحَاتِ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'وَمَنْ 'يَعْمَلْ' مِنَ الصَّالِحَاتِ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "And whoever does righteous deeds",
+            "And Allah is Seeing of what you do",
+            "Indeed, Allah is Aware of what you do",
+            "He earns"
+          ],
+          "ur": [
+            "اور جو کوئی نیک اعمال کرے گا",
+            "اور اللہ دیکھنے والا ہے جو تم کرتے ہو",
+            "بیشک اللہ خبر رکھنے والا ہے جو تم کرتے ہو",
+            "وہ کماتا ہے"
+          ],
+          "hi": [
+            "और जो कोई नेक आमाल करेगा",
+            "और अल्लाह देखने वाला है जो तुम करते हो",
+            "बेशक अल्लाह ख़बर रखने वाला है जो तुम करते हो",
+            "वह कमाता है"
+          ],
+          "hinglish": [
+            "Aur jo koi nek ek'maal karega",
+            "Aur Allah dekhne wala hai jo tum karte ho",
+            "Beshak Allah khabar rakhne wala hai jo tum karte ho",
+            "woh kamata hai"
+          ]
+        },
+        "explanation": {
+          "en": "'وَمَنْ يَعْمَلْ مِنَ الصَّالِحَاتِ' translates to 'And whoever does righteous deeds'.",
+          "ur": "'وَمَنْ يَعْمَلْ مِنَ الصَّالِحَاتِ' کا معنی 'اور جو کوئی نیک اعمال کرے گا' ہے۔",
+          "hi": "'وَمَنْ يَعْمَلْ مِنَ الصَّالِحَاتِ' का मतलब 'और जो कोई नेक आमाल करेगा' है।",
+          "hinglish": "'وَمَنْ 'يَعْمَلْ' مِنَ الصَّالِحَاتِ' ka matlab 'Aur jo koi nek ek'maal karega' hai."
+        }
+      },
+      {
+        "id": "s6l2-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'وَمَنْ يَعْمَلْ سُوءًا أَوْ يَظْلِمْ نَفْسَهُ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'وَمَنْ يَعْمَلْ سُوءًا أَوْ يَظْلِمْ نَفْسَهُ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'وَمَنْ يَعْمَلْ سُوءًا أَوْ يَظْلِمْ نَفْسَهُ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'وَمَنْ 'يَعْمَلْ' سُوءًا 'أَوْ' يَظْلِمْ نَفْسَهُ'"
+        },
+        "options": {
+          "en": [
+            "And Allah is Seeing of what you do",
+            "And whoever does evil or wrongs himself",
+            "Indeed, Allah is Aware of what you do",
+            "He earns"
+          ],
+          "ur": [
+            "اور اللہ دیکھنے والا ہے جو تم کرتے ہو",
+            "اور جو کوئی برا کام کرے یا اپنی جان پر ظلم کرے",
+            "بیشک اللہ خبر رکھنے والا ہے جو تم کرتے ہو",
+            "وہ کماتا ہے"
+          ],
+          "hi": [
+            "और अल्लाह देखने वाला है जो तुम करते हो",
+            "और जो कोई बुरा काम करे या अपनी जान पर ज़ुल्म करे",
+            "बेशक अल्लाह ख़बर रखने वाला है जो तुम करते हो",
+            "वह कमाता है"
+          ],
+          "hinglish": [
+            "Aur Allah dekhne wala hai jo tum karte ho",
+            "Aur jo koi bura kaam kare ya apni jaan par zulm kare",
+            "Beshak Allah khabar rakhne wala hai jo tum karte ho",
+            "woh kamata hai"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'وَمَنْ يَعْمَلْ سُوءًا أَوْ يَظْلِمْ نَفْسَهُ' means 'And whoever does evil or wrongs himself'.",
+          "ur": "'وَمَنْ يَعْمَلْ سُوءًا أَوْ يَظْلِمْ نَفْسَهُ' کا مفہوم 'اور جو کوئی برا کام کرے یا اپنی جان پر ظلم کرے' ہے۔",
+          "hi": "'وَمَنْ يَعْمَلْ سُوءًا أَوْ يَظْلِمْ نَفْسَهُ' का मतलब 'और जो कोई बुरा काम करे या अपनी जान पर ज़ुल्म करे' है।",
+          "hinglish": "'وَمَنْ 'يَعْمَلْ' سُوءًا 'أَوْ' يَظْلِمْ نَفْسَهُ' ka matlab 'Aur jo koi bura kaam kare ya apni jaan par zulm kare' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s6l3",
+    "questions": [
+      {
+        "id": "s6l3-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What morphological rule is taught in Faa'il & Maf'ool?",
+          "ur": "Faa'il & Maf'ool میں کون سا صَرفی و نحوی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Faa'il & Maf'ool में कौन सा सरफ़ी व नहवी क़ायदा सिखाया गया है?",
+          "hinglish": "Faa'il & Maf'ool mein kaun sa sarfi wa nahwi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transforms the verb into 'يَغْفِرُ اللَّهُ'",
+            "Changes word into an inactive noun",
+            "Permanently removes all prefixes",
+            "Replaces the root letters"
+          ],
+          "ur": [
+            "فعل بدل کر 'يَغْفِرُ اللَّهُ' بن جاتا ہے",
+            "لفظ کو اسم جامد بنا دیتا ہے",
+            "تمام سابقے مستقل گرا دیتا ہے",
+            "حروف اصلیہ تبدیل کر دیتا ہے"
+          ],
+          "hi": [
+            "फेल बदल कर 'يَغْفِرُ اللَّهُ' बन जाता है",
+            "लफ़्ज़ को इस्म जामिद बना देता है",
+            "तमाम साबिक़े मुस्तक़िल गिरा देता है",
+            "हुरूफ़ अस्लिया तब्दील कर देता है"
+          ],
+          "hinglish": [
+            "Fe'l badal kar 'يَغْفِرُ اللَّهُ' ban jaata hai",
+            "Lafz ko ism jaamid bana deta hai",
+            "Tamaam saabiqe mustaqil gira deta hai",
+            "Huroof-e-asliyah tabdeel kar deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation creates 'يَغْفِرُ اللَّهُ'.",
+          "ur": "گردان کے نتیجے میں 'يَغْفِرُ اللَّهُ' بنتا ہے۔",
+          "hi": "गर्दान के नतीजे में 'يَغْفِرُ اللَّهُ' बनता है।",
+          "hinglish": "Gardan ke nateeje mein 'يَغْفِرُ اللَّهُ' banta hai."
+        }
+      },
+      {
+        "id": "s6l3-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which verb form correctly demonstrates Faa'il & Maf'ool?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Faa'il & Maf'ool کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Faa'il & Maf'ool की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Faa'il & Maf'ool ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "يَغْفِرُ اللَّهُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "ur": [
+            "يَغْفِرُ اللَّهُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hi": [
+            "يَغْفِرُ اللَّهُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hinglish": [
+            "يَغْفِرُ اللَّهُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ]
+        },
+        "explanation": {
+          "en": "'يَغْفِرُ اللَّهُ' correctly represents this verbal pattern.",
+          "ur": "'يَغْفِرُ اللَّهُ' اس فعلی سانچے کی درست مثال ہے۔",
+          "hi": "'يَغْفِرُ اللَّهُ' इस फेली सांचे की सही मिसाल है।",
+          "hinglish": "'يَغْفِرُ اللَّهُ' is fe'li saanche ki sahi misaal hai."
+        }
+      },
+      {
+        "id": "s6l3-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'يَغْفِرُ اللَّهُ', identify the base verbal stem:",
+          "ur": "'يَغْفِرُ اللَّهُ' کی اصل بنیادی حالت کیا ہے؟",
+          "hi": "'يَغْفِرُ اللَّهُ' की असल बुनियादी हालत क्या है?",
+          "hinglish": "'يَغْفِرُ اللَّهُ' ki asal bunyadi halat kya hai?"
+        },
+        "options": {
+          "en": [
+            "يَغْفِرُ + اللَّهُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "ur": [
+            "يَغْفِرُ + اللَّهُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hi": [
+            "يَغْفِرُ + اللَّهُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hinglish": [
+            "يَغْفِرُ + اللَّهُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting verbal form is 'يَغْفِرُ + اللَّهُ'.",
+          "ur": "اس کی اصل صورت 'يَغْفِرُ + اللَّهُ' ہے۔",
+          "hi": "इसकी असल सूरत 'يَغْفِرُ + اللَّهُ' है।",
+          "hinglish": "Iski asal soorat 'يَغْفِرُ + اللَّهُ' hai."
+        }
+      },
+      {
+        "id": "s6l3-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'يَهْدِي مَنْ يَشَاءُ إِلَى صِرَاطٍ مُسْتَقِيمٍ'?",
+          "ur": "قرآنی لفظ 'يَهْدِي مَنْ يَشَاءُ إِلَى صِرَاطٍ مُسْتَقِيمٍ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'يَهْدِي مَنْ يَشَاءُ إِلَى صِرَاطٍ مُسْتَقِيمٍ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'يَهْدِي 'مَنْ' يَشَاءُ 'إِلَى' صِرَاطٍ مُسْتَقِيمٍ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "He guides whom He wills to a straight path",
+            "Indeed, you do not guide whom you like",
+            "But Allah guides whom He wills",
+            "He sends astray"
+          ],
+          "ur": [
+            "وہ ہدایت دیتا ہے جسے چاہتا ہے سیدھے راستے کی طرف",
+            "بیشک آپ ہدایت نہیں دے سکتے جسے آپ پسند کریں",
+            "لیکن اللہ ہدایت دیتا ہے جسے چاہتا ہے",
+            "وہ گمراہ کرتا ہے"
+          ],
+          "hi": [
+            "वह हिदायत देता है जिसे चाहता है सीधे रास्ते की तरफ़",
+            "बेशक आप हिदायत नहीं दे सकते जिसे आप पसंद करें",
+            "लेकिन अल्लाह हिदायत देता है जिसे चाहता है",
+            "वह गुमराह करता है"
+          ],
+          "hinglish": [
+            "Woh hidayat deta hai jise chahata hai seedhe raste ki taraf",
+            "Beshak aap hidayat nahi de sakte jise aap pasand karein",
+            "Lekin Allah hidayat deta hai jise chahata hai",
+            "woh gumrah karta hai"
+          ]
+        },
+        "explanation": {
+          "en": "'يَهْدِي مَنْ يَشَاءُ إِلَى صِرَاطٍ مُسْتَقِيمٍ' translates to 'He guides whom He wills to a straight path'.",
+          "ur": "'يَهْدِي مَنْ يَشَاءُ إِلَى صِرَاطٍ مُسْتَقِيمٍ' کا معنی 'وہ ہدایت دیتا ہے جسے چاہتا ہے سیدھے راستے کی طرف' ہے۔",
+          "hi": "'يَهْدِي مَنْ يَشَاءُ إِلَى صِرَاطٍ مُسْتَقِيمٍ' का मतलब 'वह हिदायत देता है जिसे चाहता है सीधे रास्ते की तरफ़' है।",
+          "hinglish": "'يَهْدِي 'مَنْ' يَشَاءُ 'إِلَى' صِرَاطٍ مُسْتَقِيمٍ' ka matlab 'Woh hidayat deta hai jise chahata hai seedhe raste ki taraf' hai."
+        }
+      },
+      {
+        "id": "s6l3-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'إِنَّ اللَّهَ يَهْدِي مَنْ يَشَاءُ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'إِنَّ اللَّهَ يَهْدِي مَنْ يَشَاءُ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'إِنَّ اللَّهَ يَهْدِي مَنْ يَشَاءُ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'إِنَّ 'اللَّهَ' يَهْدِي 'مَنْ' يَشَاءُ'"
+        },
+        "options": {
+          "en": [
+            "Indeed, you do not guide whom you like",
+            "Indeed, Allah guides whom He wills",
+            "But Allah guides whom He wills",
+            "He sends astray"
+          ],
+          "ur": [
+            "بیشک آپ ہدایت نہیں دے سکتے جسے آپ پسند کریں",
+            "بیشک اللہ ہدایت دیتا ہے جسے چاہتا ہے",
+            "لیکن اللہ ہدایت دیتا ہے جسے چاہتا ہے",
+            "وہ گمراہ کرتا ہے"
+          ],
+          "hi": [
+            "बेशक आप हिदायत नहीं दे सकते जिसे आप पसंद करें",
+            "बेशक अल्लाह हिदायत देता है जिसे चाहता है",
+            "लेकिन अल्लाह हिदायत देता है जिसे चाहता है",
+            "वह गुमराह करता है"
+          ],
+          "hinglish": [
+            "Beshak aap hidayat nahi de sakte jise aap pasand karein",
+            "Beshak Allah hidayat deta hai jise chahata hai",
+            "Lekin Allah hidayat deta hai jise chahata hai",
+            "woh gumrah karta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'إِنَّ اللَّهَ يَهْدِي مَنْ يَشَاءُ' means 'Indeed, Allah guides whom He wills'.",
+          "ur": "'إِنَّ اللَّهَ يَهْدِي مَنْ يَشَاءُ' کا مفہوم 'بیشک اللہ ہدایت دیتا ہے جسے چاہتا ہے' ہے۔",
+          "hi": "'إِنَّ اللَّهَ يَهْدِي مَنْ يَشَاءُ' का मतलब 'बेशक अल्लाह हिदायत देता है जिसे चाहता है' है।",
+          "hinglish": "'إِنَّ 'اللَّهَ' يَهْدِي 'مَنْ' يَشَاءُ' ka matlab 'Beshak Allah hidayat deta hai jise chahata hai' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s6l4",
+    "questions": [
+      {
+        "id": "s6l4-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What morphological rule is taught in Man Yashaa'u?",
+          "ur": "Man Yashaa'u میں کون سا صَرفی و نحوی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Man Yashaa'u में कौन सा सरफ़ी व नहवी क़ायदा सिखाया गया है?",
+          "hinglish": "Man Yashaa'u mein kaun sa sarfi wa nahwi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transforms the verb into 'مَنْ يَشَاءُ'",
+            "Changes word into an inactive noun",
+            "Permanently removes all prefixes",
+            "Replaces the root letters"
+          ],
+          "ur": [
+            "فعل بدل کر 'مَنْ يَشَاءُ' بن جاتا ہے",
+            "لفظ کو اسم جامد بنا دیتا ہے",
+            "تمام سابقے مستقل گرا دیتا ہے",
+            "حروف اصلیہ تبدیل کر دیتا ہے"
+          ],
+          "hi": [
+            "फेल बदल कर 'مَنْ يَشَاءُ' बन जाता है",
+            "लफ़्ज़ को इस्म जामिद बना देता है",
+            "तमाम साबिक़े मुस्तक़िल गिरा देता है",
+            "हुरूफ़ अस्लिया तब्दील कर देता है"
+          ],
+          "hinglish": [
+            "Fe'l badal kar 'مَنْ يَشَاءُ' ban jaata hai",
+            "Lafz ko ism jaamid bana deta hai",
+            "Tamaam saabiqe mustaqil gira deta hai",
+            "Huroof-e-asliyah tabdeel kar deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation creates 'مَنْ يَشَاءُ'.",
+          "ur": "گردان کے نتیجے میں 'مَنْ يَشَاءُ' بنتا ہے۔",
+          "hi": "गर्दान के नतीजे में 'مَنْ يَشَاءُ' बनता है।",
+          "hinglish": "Gardan ke nateeje mein 'مَنْ يَشَاءُ' banta hai."
+        }
+      },
+      {
+        "id": "s6l4-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which verb form correctly demonstrates Man Yashaa'u?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Man Yashaa'u کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Man Yashaa'u की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Man Yashaa'u ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "مَنْ يَشَاءُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "ur": [
+            "مَنْ يَشَاءُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hi": [
+            "مَنْ يَشَاءُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hinglish": [
+            "مَنْ يَشَاءُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ]
+        },
+        "explanation": {
+          "en": "'مَنْ يَشَاءُ' correctly represents this verbal pattern.",
+          "ur": "'مَنْ يَشَاءُ' اس فعلی سانچے کی درست مثال ہے۔",
+          "hi": "'مَنْ يَشَاءُ' इस फेली सांचे की सही मिसाल है।",
+          "hinglish": "'مَنْ يَشَاءُ' is fe'li saanche ki sahi misaal hai."
+        }
+      },
+      {
+        "id": "s6l4-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'مَنْ يَشَاءُ', identify the base verbal stem:",
+          "ur": "'مَنْ يَشَاءُ' کی اصل بنیادی حالت کیا ہے؟",
+          "hi": "'مَنْ يَشَاءُ' की असल बुनियादी हालत क्या है?",
+          "hinglish": "'مَنْ يَشَاءُ' ki asal bunyadi halat kya hai?"
+        },
+        "options": {
+          "en": [
+            "يَشَاءُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "ur": [
+            "يَشَاءُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hi": [
+            "يَشَاءُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hinglish": [
+            "يَشَاءُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting verbal form is 'يَشَاءُ'.",
+          "ur": "اس کی اصل صورت 'يَشَاءُ' ہے۔",
+          "hi": "इसकी असल सूरत 'يَشَاءُ' है।",
+          "hinglish": "Iski asal soorat 'يَشَاءُ' hai."
+        }
+      },
+      {
+        "id": "s6l4-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'يَوْمَ يَأْتِي بَعْضُ آيَاتِ رَبِّكَ'?",
+          "ur": "قرآنی لفظ 'يَوْمَ يَأْتِي بَعْضُ آيَاتِ رَبِّكَ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'يَوْمَ يَأْتِي بَعْضُ آيَاتِ رَبِّكَ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'يَوْمَ 'يَأْتِي' بَعْضُ 'آيَاتِ' رَبِّكَ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "The Day that some of the signs of your Lord will come",
+            "Then Allah will bring forth a people",
+            "Indeed, Allah brings up the sun from the east",
+            "He/It comes out"
+          ],
+          "ur": [
+            "جس دن آپ کے رب کی بعض نشانیاں آئیں گی",
+            "تو عنقریب اللہ ایسی قوم کو لائے گا",
+            "تو بیشک اللہ سورج کو مشرق سے لاتا ہے",
+            "وہ نکلتا ہے"
+          ],
+          "hi": [
+            "जिस दिन आपके रब की बाज़ निशानियाँ आएँगी",
+            "तो अनक़रीब अल्लाह ऐसी क़ौम को लाएगा",
+            "तो बेशक अल्लाह सूरज को मशरिक़ से लाता है",
+            "वह निकलता है"
+          ],
+          "hinglish": [
+            "Jis din aap ke Rabb ki ba'az nishaniyan aayengi",
+            "Toh anqareeb Allah aisi qaum ko layega",
+            "Toh beshak Allah suraj ko mashriq se laata hai",
+            "woh nikalta hai"
+          ]
+        },
+        "explanation": {
+          "en": "'يَوْمَ يَأْتِي بَعْضُ آيَاتِ رَبِّكَ' translates to 'The Day that some of the signs of your Lord will come'.",
+          "ur": "'يَوْمَ يَأْتِي بَعْضُ آيَاتِ رَبِّكَ' کا معنی 'جس دن آپ کے رب کی بعض نشانیاں آئیں گی' ہے۔",
+          "hi": "'يَوْمَ يَأْتِي بَعْضُ آيَاتِ رَبِّكَ' का मतलब 'जिस दिन आपके रब की बाज़ निशानियाँ आएँगी' है।",
+          "hinglish": "'يَوْمَ 'يَأْتِي' بَعْضُ 'آيَاتِ' رَبِّكَ' ka matlab 'Jis din aap ke Rabb ki ba'az nishaniyan aayengi' hai."
+        }
+      },
+      {
+        "id": "s6l4-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'يَأْتِي مِنْ بَعْدِي اسْمُهُ أَحْمَدُ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'يَأْتِي مِنْ بَعْدِي اسْمُهُ أَحْمَدُ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'يَأْتِي مِنْ بَعْدِي اسْمُهُ أَحْمَدُ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'يَأْتِي 'مِنْ' بَعْدِي 'اسْمُهُ' أَحْمَدُ'"
+        },
+        "options": {
+          "en": [
+            "Then Allah will bring forth a people",
+            "[He will] come after me, whose name is Ahmad",
+            "Indeed, Allah brings up the sun from the east",
+            "He/It comes out"
+          ],
+          "ur": [
+            "تو عنقریب اللہ ایسی قوم کو لائے گا",
+            "وہ میرے بعد آئے گا اس کا نام احمد ہے",
+            "تو بیشک اللہ سورج کو مشرق سے لاتا ہے",
+            "وہ نکلتا ہے"
+          ],
+          "hi": [
+            "तो अनक़रीब अल्लाह ऐसी क़ौम को लाएगा",
+            "वह मेरे बाद आएगा उसका नाम अहमद है",
+            "तो बेशक अल्लाह सूरज को मशरिक़ से लाता है",
+            "वह निकलता है"
+          ],
+          "hinglish": [
+            "Toh anqareeb Allah aisi qaum ko layega",
+            "Woh mere baad aayega uska naam Ahmad hai",
+            "Toh beshak Allah suraj ko mashriq se laata hai",
+            "woh nikalta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'يَأْتِي مِنْ بَعْدِي اسْمُهُ أَحْمَدُ' means '[He will] come after me, whose name is Ahmad'.",
+          "ur": "'يَأْتِي مِنْ بَعْدِي اسْمُهُ أَحْمَدُ' کا مفہوم 'وہ میرے بعد آئے گا اس کا نام احمد ہے' ہے۔",
+          "hi": "'يَأْتِي مِنْ بَعْدِي اسْمُهُ أَحْمَدُ' का मतलब 'वह मेरे बाद आएगा उसका नाम अहमद है' है।",
+          "hinglish": "'يَأْتِي 'مِنْ' بَعْدِي 'اسْمُهُ' أَحْمَدُ' ka matlab 'Woh mere baad aayega uska naam Ahmad hai' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s6l5",
+    "questions": [
+      {
+        "id": "s6l5-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What morphological rule is taught in Muzare + Zameer?",
+          "ur": "Muzare + Zameer میں کون سا صَرفی و نحوی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Muzare + Zameer में कौन सा सरफ़ी व नहवी क़ायदा सिखाया गया है?",
+          "hinglish": "Muzare + Zameer mein kaun sa sarfi wa nahwi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transforms the verb into 'يَأْمُرُكُمْ'",
+            "Changes word into an inactive noun",
+            "Permanently removes all prefixes",
+            "Replaces the root letters"
+          ],
+          "ur": [
+            "فعل بدل کر 'يَأْمُرُكُمْ' بن جاتا ہے",
+            "لفظ کو اسم جامد بنا دیتا ہے",
+            "تمام سابقے مستقل گرا دیتا ہے",
+            "حروف اصلیہ تبدیل کر دیتا ہے"
+          ],
+          "hi": [
+            "फेल बदल कर 'يَأْمُرُكُمْ' बन जाता है",
+            "लफ़्ज़ को इस्म जामिद बना देता है",
+            "तमाम साबिक़े मुस्तक़िल गिरा देता है",
+            "हुरूफ़ अस्लिया तब्दील कर देता है"
+          ],
+          "hinglish": [
+            "Fe'l badal kar 'يَأْمُرُكُمْ' ban jaata hai",
+            "Lafz ko ism jaamid bana deta hai",
+            "Tamaam saabiqe mustaqil gira deta hai",
+            "Huroof-e-asliyah tabdeel kar deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation creates 'يَأْمُرُكُمْ'.",
+          "ur": "گردان کے نتیجے میں 'يَأْمُرُكُمْ' بنتا ہے۔",
+          "hi": "गर्दान के नतीजे में 'يَأْمُرُكُمْ' बनता है।",
+          "hinglish": "Gardan ke nateeje mein 'يَأْمُرُكُمْ' banta hai."
+        }
+      },
+      {
+        "id": "s6l5-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which verb form correctly demonstrates Muzare + Zameer?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Muzare + Zameer کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Muzare + Zameer की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Muzare + Zameer ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "يَأْمُرُكُمْ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "ur": [
+            "يَأْمُرُكُمْ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hi": [
+            "يَأْمُرُكُمْ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hinglish": [
+            "يَأْمُرُكُمْ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ]
+        },
+        "explanation": {
+          "en": "'يَأْمُرُكُمْ' correctly represents this verbal pattern.",
+          "ur": "'يَأْمُرُكُمْ' اس فعلی سانچے کی درست مثال ہے۔",
+          "hi": "'يَأْمُرُكُمْ' इस फेली सांचे की सही मिसाल है।",
+          "hinglish": "'يَأْمُرُكُمْ' is fe'li saanche ki sahi misaal hai."
+        }
+      },
+      {
+        "id": "s6l5-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'يَأْمُرُكُمْ', identify the base verbal stem:",
+          "ur": "'يَأْمُرُكُمْ' کی اصل بنیادی حالت کیا ہے؟",
+          "hi": "'يَأْمُرُكُمْ' की असल बुनियादी हालत क्या है?",
+          "hinglish": "'يَأْمُرُكُمْ' ki asal bunyadi halat kya hai?"
+        },
+        "options": {
+          "en": [
+            "يَأْمُرُ + كُمْ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "ur": [
+            "يَأْمُرُ + كُمْ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hi": [
+            "يَأْمُرُ + كُمْ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hinglish": [
+            "يَأْمُرُ + كُمْ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting verbal form is 'يَأْمُرُ + كُمْ'.",
+          "ur": "اس کی اصل صورت 'يَأْمُرُ + كُمْ' ہے۔",
+          "hi": "इसकी असल सूरत 'يَأْمُرُ + كُمْ' है।",
+          "hinglish": "Iski asal soorat 'يَأْمُرُ + كُمْ' hai."
+        }
+      },
+      {
+        "id": "s6l5-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'يَكْفُرُ بِالرَّحْمَنِ'?",
+          "ur": "قرآنی لفظ 'يَكْفُرُ بِالرَّحْمَنِ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'يَكْفُرُ بِالرَّحْمَنِ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'يَكْفُرُ بِالرَّحْمَنِ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "He disbelieves in the Most Merciful",
+            "He denies / belies",
+            "He denies Our verses",
+            "Have you seen the one who denies the Recompense?"
+          ],
+          "ur": [
+            "وہ رحمن کا کفر کرتا ہے",
+            "وہ جھٹلاتا ہے",
+            "وہ ہماری آیتوں کو جھٹلاتا ہے",
+            "کیا آپ نے اسے دیکھا جو بدلے کے دن کو جھٹلاتا ہے؟"
+          ],
+          "hi": [
+            "वह रहमान का कुफ़्र करता है",
+            "वह झुटलाता है",
+            "वह हमारी आयतों को झुटलाता है",
+            "क्या आपने उसे देखा जो बदले के दिन को झुटलाता है?"
+          ],
+          "hinglish": [
+            "woh Rahman ka kufr karta hai",
+            "woh jhutlaata hai",
+            "woh humari aayaton ko jhutlaata hai",
+            "Kya aap ne usey dekha jo deen ko jhutlaata hai"
+          ]
+        },
+        "explanation": {
+          "en": "'يَكْفُرُ بِالرَّحْمَنِ' translates to 'He disbelieves in the Most Merciful'.",
+          "ur": "'يَكْفُرُ بِالرَّحْمَنِ' کا معنی 'وہ رحمن کا کفر کرتا ہے' ہے۔",
+          "hi": "'يَكْفُرُ بِالرَّحْمَنِ' का मतलब 'वह रहमान का कुफ़्र करता है' है।",
+          "hinglish": "'يَكْفُرُ بِالرَّحْمَنِ' ka matlab 'woh Rahman ka kufr karta hai' hai."
+        }
+      },
+      {
+        "id": "s6l5-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'يَكْفُرُ بِاللَّهِ وَمَلَائِكَتِهِ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'يَكْفُرُ بِاللَّهِ وَمَلَائِكَتِهِ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'يَكْفُرُ بِاللَّهِ وَمَلَائِكَتِهِ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'يَكْفُرُ 'بِاللَّهِ' وَمَلَائِكَتِهِ'"
+        },
+        "options": {
+          "en": [
+            "He denies / belies",
+            "He disbelieves in Allah and His angels",
+            "He denies Our verses",
+            "Have you seen the one who denies the Recompense?"
+          ],
+          "ur": [
+            "وہ جھٹلاتا ہے",
+            "وہ اللہ اور اس کے فرشتوں کا کفر کرتا ہے",
+            "وہ ہماری آیتوں کو جھٹلاتا ہے",
+            "کیا آپ نے اسے دیکھا جو بدلے کے دن کو جھٹلاتا ہے؟"
+          ],
+          "hi": [
+            "वह झुटलाता है",
+            "वह अल्लाह और उसके फ़रिश्तों का कुफ़्र करता है",
+            "वह हमारी आयतों को झुटलाता है",
+            "क्या आपने उसे देखा जो बदले के दिन को झुटलाता है?"
+          ],
+          "hinglish": [
+            "woh jhutlaata hai",
+            "woh Allah aur uske farishton ka kufr karta hai",
+            "woh humari aayaton ko jhutlaata hai",
+            "Kya aap ne usey dekha jo deen ko jhutlaata hai"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'يَكْفُرُ بِاللَّهِ وَمَلَائِكَتِهِ' means 'He disbelieves in Allah and His angels'.",
+          "ur": "'يَكْفُرُ بِاللَّهِ وَمَلَائِكَتِهِ' کا مفہوم 'وہ اللہ اور اس کے فرشتوں کا کفر کرتا ہے' ہے۔",
+          "hi": "'يَكْفُرُ بِاللَّهِ وَمَلَائِكَتِهِ' का मतलब 'वह अल्लाह और उसके फ़रिश्तों का कुफ़्र करता है' है।",
+          "hinglish": "'يَكْفُرُ 'بِاللَّهِ' وَمَلَائِكَتِهِ' ka matlab 'woh Allah aur uske farishton ka kufr karta hai' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s6l6",
+    "questions": [
+      {
+        "id": "s6l6-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What morphological rule is taught in Muzare Plural (ـُونَ)?",
+          "ur": "Muzare Plural (ـُونَ) میں کون سا صَرفی و نحوی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Muzare Plural (ـُونَ) में कौन सा सरफ़ी व नहवी क़ायदा सिखाया गया है?",
+          "hinglish": "Muzare Plural ('ـُونَ') mein kaun sa sarfi wa nahwi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transforms the verb into 'يَعْبُدُونَ'",
+            "Changes word into an inactive noun",
+            "Permanently removes all prefixes",
+            "Replaces the root letters"
+          ],
+          "ur": [
+            "فعل بدل کر 'يَعْبُدُونَ' بن جاتا ہے",
+            "لفظ کو اسم جامد بنا دیتا ہے",
+            "تمام سابقے مستقل گرا دیتا ہے",
+            "حروف اصلیہ تبدیل کر دیتا ہے"
+          ],
+          "hi": [
+            "फेल बदल कर 'يَعْبُدُونَ' बन जाता है",
+            "लफ़्ज़ को इस्म जामिद बना देता है",
+            "तमाम साबिक़े मुस्तक़िल गिरा देता है",
+            "हुरूफ़ अस्लिया तब्दील कर देता है"
+          ],
+          "hinglish": [
+            "Fe'l badal kar 'يَعْبُدُونَ' ban jaata hai",
+            "Lafz ko ism jaamid bana deta hai",
+            "Tamaam saabiqe mustaqil gira deta hai",
+            "Huroof-e-asliyah tabdeel kar deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation creates 'يَعْبُدُونَ'.",
+          "ur": "گردان کے نتیجے میں 'يَعْبُدُونَ' بنتا ہے۔",
+          "hi": "गर्दान के नतीजे में 'يَعْبُدُونَ' बनता है।",
+          "hinglish": "Gardan ke nateeje mein 'يَعْبُدُونَ' banta hai."
+        }
+      },
+      {
+        "id": "s6l6-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which verb form correctly demonstrates Muzare Plural (ـُونَ)?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Muzare Plural (ـُونَ) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Muzare Plural (ـُونَ) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Muzare Plural ('ـُونَ') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "يَعْبُدُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "ur": [
+            "يَعْبُدُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hi": [
+            "يَعْبُدُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hinglish": [
+            "يَعْبُدُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ]
+        },
+        "explanation": {
+          "en": "'يَعْبُدُونَ' correctly represents this verbal pattern.",
+          "ur": "'يَعْبُدُونَ' اس فعلی سانچے کی درست مثال ہے۔",
+          "hi": "'يَعْبُدُونَ' इस फेली सांचे की सही मिसाल है।",
+          "hinglish": "'يَعْبُدُونَ' is fe'li saanche ki sahi misaal hai."
+        }
+      },
+      {
+        "id": "s6l6-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'يَعْبُدُونَ', identify the base verbal stem:",
+          "ur": "'يَعْبُدُونَ' کی اصل بنیادی حالت کیا ہے؟",
+          "hi": "'يَعْبُدُونَ' की असल बुनियादी हालत क्या है?",
+          "hinglish": "'يَعْبُدُونَ' ki asal bunyadi halat kya hai?"
+        },
+        "options": {
+          "en": [
+            "يَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "ur": [
+            "يَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hi": [
+            "يَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hinglish": [
+            "يَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting verbal form is 'يَعْبُدُ'.",
+          "ur": "اس کی اصل صورت 'يَعْبُدُ' ہے۔",
+          "hi": "इसकी असल सूरत 'يَعْبُدُ' है।",
+          "hinglish": "Iski asal soorat 'يَعْبُدُ' hai."
+        }
+      },
+      {
+        "id": "s6l6-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'مَنْ يَشَاءُ'?",
+          "ur": "قرآنی لفظ 'مَنْ يَشَاءُ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'مَنْ يَشَاءُ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'مَنْ يَشَاءُ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "whom He wills",
+            "That is the guidance of Allah with which He guides whomever He wills of His servants",
+            "For indeed, Allah leaves astray whom He wills and guides whom He wills",
+            "He punishes whom He wills and has mercy upon whom He wills"
+          ],
+          "ur": [
+            "جسے وہ چاہتا ہے",
+            "یہ اللہ کی ہدایت ہے وہ اس سے اپنے بندوں میں سے جسے چاہتا ہے ہدایت دیتا ہے",
+            "تو بیشک اللہ گمراہ کرتا ہے جسے چاہتا ہے اور ہدایت دیتا ہے جسے چاہتا ہے",
+            "وہ عذاب دیتا ہے جسے چاہتا ہے اور رحم کرتا ہے جسے چاہتا ہے"
+          ],
+          "hi": [
+            "जिसे वह चाहता है",
+            "यह अल्लाह की हिदायत है वो उससे अपने बंदों में से जिसे चाहता है हिदायत देता है",
+            "तो बेशक अल्लाह गुमराह करता है जिसे चाहता है और हिदायत देता है जिसे चाहता है",
+            "वह अज़ाब देता है जिसे चाहता है और रहम करता है जिसे चाहता है"
+          ],
+          "hinglish": [
+            "jise woh chahata hai",
+            "Yeh Allah ki hidayat hai woh us se apne bandon mein se jise chahata hai hidayat deta hai",
+            "Toh beshak Allah gumrah karta hai jise chahata hai aur hidayat deta hai jise chahata hai",
+            "Woh 'azaab deta hai jise chahata hai aur rehmat karta hai jise chahata hai"
+          ]
+        },
+        "explanation": {
+          "en": "'مَنْ يَشَاءُ' translates to 'whom He wills'.",
+          "ur": "'مَنْ يَشَاءُ' کا معنی 'جسے وہ چاہتا ہے' ہے۔",
+          "hi": "'مَنْ يَشَاءُ' का मतलब 'जिसे वह चाहता है' है।",
+          "hinglish": "'مَنْ يَشَاءُ' ka matlab 'jise woh chahata hai' hai."
+        }
+      },
+      {
+        "id": "s6l6-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'وَاللَّهُ يَهْدِي مَنْ يَشَاءُ إِلَى صِرَاطٍ مُسْتَقِيمٍ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'وَاللَّهُ يَهْدِي مَنْ يَشَاءُ إِلَى صِرَاطٍ مُسْتَقِيمٍ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'وَاللَّهُ يَهْدِي مَنْ يَشَاءُ إِلَى صِرَاطٍ مُسْتَقِيمٍ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'وَاللَّهُ 'يَهْدِي' مَنْ 'يَشَاءُ' إِلَى 'صِرَاطٍ' مُسْتَقِيمٍ'"
+        },
+        "options": {
+          "en": [
+            "That is the guidance of Allah with which He guides whomever He wills of His servants",
+            "And Allah guides whom He wills to a straight path",
+            "For indeed, Allah leaves astray whom He wills and guides whom He wills",
+            "He punishes whom He wills and has mercy upon whom He wills"
+          ],
+          "ur": [
+            "یہ اللہ کی ہدایت ہے وہ اس سے اپنے بندوں میں سے جسے چاہتا ہے ہدایت دیتا ہے",
+            "اور اللہ ہدایت دیتا ہے جسے چاہتا ہے سیدھے راستے کی طرف",
+            "تو بیشک اللہ گمراہ کرتا ہے جسے چاہتا ہے اور ہدایت دیتا ہے جسے چاہتا ہے",
+            "وہ عذاب دیتا ہے جسے چاہتا ہے اور رحم کرتا ہے جسے چاہتا ہے"
+          ],
+          "hi": [
+            "यह अल्लाह की हिदायत है वो उससे अपने बंदों में से जिसे चाहता है हिदायत देता है",
+            "और अल्लाह हिदायत देता है जिसे चाहता है सीधे रास्ते की तरफ़",
+            "तो बेशक अल्लाह गुमराह करता है जिसे चाहता है और हिदायत देता है जिसे चाहता है",
+            "वह अज़ाब देता है जिसे चाहता है और रहम करता है जिसे चाहता है"
+          ],
+          "hinglish": [
+            "Yeh Allah ki hidayat hai woh us se apne bandon mein se jise chahata hai hidayat deta hai",
+            "Aur Allah hidayat deta hai jise chahata hai seedhe raste ki taraf",
+            "Toh beshak Allah gumrah karta hai jise chahata hai aur hidayat deta hai jise chahata hai",
+            "Woh 'azaab deta hai jise chahata hai aur rehmat karta hai jise chahata hai"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'وَاللَّهُ يَهْدِي مَنْ يَشَاءُ إِلَى صِرَاطٍ مُسْتَقِيمٍ' means 'And Allah guides whom He wills to a straight path'.",
+          "ur": "'وَاللَّهُ يَهْدِي مَنْ يَشَاءُ إِلَى صِرَاطٍ مُسْتَقِيمٍ' کا مفہوم 'اور اللہ ہدایت دیتا ہے جسے چاہتا ہے سیدھے راستے کی طرف' ہے۔",
+          "hi": "'وَاللَّهُ يَهْدِي مَنْ يَشَاءُ إِلَى صِرَاطٍ مُسْتَقِيمٍ' का मतलब 'और अल्लाह हिदायत देता है जिसे चाहता है सीधे रास्ते की तरफ़' है।",
+          "hinglish": "'وَاللَّهُ 'يَهْدِي' مَنْ 'يَشَاءُ' إِلَى 'صِرَاطٍ' مُسْتَقِيمٍ' ka matlab 'Aur Allah hidayat deta hai jise chahata hai seedhe raste ki taraf' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s6l7",
+    "questions": [
+      {
+        "id": "s6l7-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What morphological rule is taught in Muhaware Jama?",
+          "ur": "Muhaware Jama میں کون سا صَرفی و نحوی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Muhaware Jama में कौन सा सरफ़ी व नहवी क़ायदा सिखाया गया है?",
+          "hinglish": "Muhaware Jama mein kaun sa sarfi wa nahwi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transforms the verb into 'لَا يَعْلَمُونَ'",
+            "Changes word into an inactive noun",
+            "Permanently removes all prefixes",
+            "Replaces the root letters"
+          ],
+          "ur": [
+            "فعل بدل کر 'لَا يَعْلَمُونَ' بن جاتا ہے",
+            "لفظ کو اسم جامد بنا دیتا ہے",
+            "تمام سابقے مستقل گرا دیتا ہے",
+            "حروف اصلیہ تبدیل کر دیتا ہے"
+          ],
+          "hi": [
+            "फेल बदल कर 'لَا يَعْلَمُونَ' बन जाता है",
+            "लफ़्ज़ को इस्म जामिद बना देता है",
+            "तमाम साबिक़े मुस्तक़िल गिरा देता है",
+            "हुरूफ़ अस्लिया तब्दील कर देता है"
+          ],
+          "hinglish": [
+            "Fe'l badal kar 'لَا يَعْلَمُونَ' ban jaata hai",
+            "Lafz ko ism jaamid bana deta hai",
+            "Tamaam saabiqe mustaqil gira deta hai",
+            "Huroof-e-asliyah tabdeel kar deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation creates 'لَا يَعْلَمُونَ'.",
+          "ur": "گردان کے نتیجے میں 'لَا يَعْلَمُونَ' بنتا ہے۔",
+          "hi": "गर्दान के नतीजे में 'لَا يَعْلَمُونَ' बनता है।",
+          "hinglish": "Gardan ke nateeje mein 'لَا يَعْلَمُونَ' banta hai."
+        }
+      },
+      {
+        "id": "s6l7-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which verb form correctly demonstrates Muhaware Jama?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Muhaware Jama کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Muhaware Jama की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Muhaware Jama ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "لَا يَعْلَمُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "ur": [
+            "لَا يَعْلَمُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hi": [
+            "لَا يَعْلَمُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hinglish": [
+            "لَا يَعْلَمُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ]
+        },
+        "explanation": {
+          "en": "'لَا يَعْلَمُونَ' correctly represents this verbal pattern.",
+          "ur": "'لَا يَعْلَمُونَ' اس فعلی سانچے کی درست مثال ہے۔",
+          "hi": "'لَا يَعْلَمُونَ' इस फेली सांचे की सही मिसाल है।",
+          "hinglish": "'لَا يَعْلَمُونَ' is fe'li saanche ki sahi misaal hai."
+        }
+      },
+      {
+        "id": "s6l7-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'لَا يَعْلَمُونَ', identify the base verbal stem:",
+          "ur": "'لَا يَعْلَمُونَ' کی اصل بنیادی حالت کیا ہے؟",
+          "hi": "'لَا يَعْلَمُونَ' की असल बुनियादी हालत क्या है?",
+          "hinglish": "'لَا يَعْلَمُونَ' ki asal bunyadi halat kya hai?"
+        },
+        "options": {
+          "en": [
+            "يَعْلَمُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "ur": [
+            "يَعْلَمُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hi": [
+            "يَعْلَمُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hinglish": [
+            "يَعْلَمُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting verbal form is 'يَعْلَمُونَ'.",
+          "ur": "اس کی اصل صورت 'يَعْلَمُونَ' ہے۔",
+          "hi": "इसकी असल सूरत 'يَعْلَمُونَ' है।",
+          "hinglish": "Iski asal soorat 'يَعْلَمُونَ' hai."
+        }
+      },
+      {
+        "id": "s6l7-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'إِنَّ اللَّهَ يَأْمُرُكُمْ'?",
+          "ur": "قرآنی لفظ 'إِنَّ اللَّهَ يَأْمُرُكُمْ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'إِنَّ اللَّهَ يَأْمُرُكُمْ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'إِنَّ 'اللَّهَ' يَأْمُرُكُمْ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Indeed, Allah commands you",
+            "While Allah promises you forgiveness from Him",
+            "Satan promises you poverty",
+            "And Satan does not promise them except delusion"
+          ],
+          "ur": [
+            "بیشک اللہ تمہیں حکم دیتا ہے",
+            "اور اللہ تم سے اپنی طرف سے مغفرت کا وعدہ کرتا ہے",
+            "شیطان تمہیں فقیری کا خوف دلاتا ہے",
+            "اور شیطان ان سے جو وعدہ کرتا ہے وہ صرف دھوکہ ہے"
+          ],
+          "hi": [
+            "बेशक अल्लाह तुम्हें हुक्म देता है",
+            "और अल्लाह तुमसे अपनी तरफ़ से मग़फ़िरत का वादा करता है",
+            "शैतान तुम्हें फ़क़ीरी से डराता है",
+            "और शैतान उनसे जो वादा करता है वह सिर्फ़ धोखा है"
+          ],
+          "hinglish": [
+            "Beshak Allah tumhein hukm deta hai",
+            "Aur Allah tum se apni taraf se maghfirat ka wa'da karta hai",
+            "Shaitan tumhein faqiri se darata hai",
+            "Aur Shaitan un se jo wa'da karta hai woh sirf dhoka hai"
+          ]
+        },
+        "explanation": {
+          "en": "'إِنَّ اللَّهَ يَأْمُرُكُمْ' translates to 'Indeed, Allah commands you'.",
+          "ur": "'إِنَّ اللَّهَ يَأْمُرُكُمْ' کا معنی 'بیشک اللہ تمہیں حکم دیتا ہے' ہے۔",
+          "hi": "'إِنَّ اللَّهَ يَأْمُرُكُمْ' का मतलब 'बेशक अल्लाह तुम्हें हुक्म देता है' है।",
+          "hinglish": "'إِنَّ 'اللَّهَ' يَأْمُرُكُمْ' ka matlab 'Beshak Allah tumhein hukm deta hai' hai."
+        }
+      },
+      {
+        "id": "s6l7-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'إِنَّمَا يَأْمُرُكُمْ بِالسُّوءِ وَالْفَحْشَاءِ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'إِنَّمَا يَأْمُرُكُمْ بِالسُّوءِ وَالْفَحْشَاءِ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'إِنَّمَا يَأْمُرُكُمْ بِالسُّوءِ وَالْفَحْشَاءِ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'إِنَّمَا 'يَأْمُرُكُمْ' بِالسُّوءِ وَالْفَحْشَاءِ'"
+        },
+        "options": {
+          "en": [
+            "While Allah promises you forgiveness from Him",
+            "He only orders you to evil and immorality",
+            "Satan promises you poverty",
+            "And Satan does not promise them except delusion"
+          ],
+          "ur": [
+            "اور اللہ تم سے اپنی طرف سے مغفرت کا وعدہ کرتا ہے",
+            "وہ تو بس تمہیں برائی اور بےحیائی کا حکم دیتا ہے",
+            "شیطان تمہیں فقیری کا خوف دلاتا ہے",
+            "اور شیطان ان سے جو وعدہ کرتا ہے وہ صرف دھوکہ ہے"
+          ],
+          "hi": [
+            "और अल्लाह तुमसे अपनी तरफ़ से मग़फ़िरत का वादा करता है",
+            "वह तो बस तुम्हें बुराई और बेहयाई का हुक्म देता है",
+            "शैतान तुम्हें फ़क़ीरी से डराता है",
+            "और शैतान उनसे जो वादा करता है वह सिर्फ़ धोखा है"
+          ],
+          "hinglish": [
+            "Aur Allah tum se apni taraf se maghfirat ka wa'da karta hai",
+            "Woh toh bas tumhein burai aur be-hayai ka hukm deta hai",
+            "Shaitan tumhein faqiri se darata hai",
+            "Aur Shaitan un se jo wa'da karta hai woh sirf dhoka hai"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'إِنَّمَا يَأْمُرُكُمْ بِالسُّوءِ وَالْفَحْشَاءِ' means 'He only orders you to evil and immorality'.",
+          "ur": "'إِنَّمَا يَأْمُرُكُمْ بِالسُّوءِ وَالْفَحْشَاءِ' کا مفہوم 'وہ تو بس تمہیں برائی اور بےحیائی کا حکم دیتا ہے' ہے۔",
+          "hi": "'إِنَّمَا يَأْمُرُكُمْ بِالسُّوءِ وَالْفَحْشَاءِ' का मतलब 'वह तो बस तुम्हें बुराई और बेहयाई का हुक्म देता है' है।",
+          "hinglish": "'إِنَّمَا 'يَأْمُرُكُمْ' بِالسُّوءِ وَالْفَحْشَاءِ' ka matlab 'Woh toh bas tumhein burai aur be-hayai ka hukm deta hai' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s6l8",
+    "questions": [
+      {
+        "id": "s6l8-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What morphological rule is taught in Allazeena + Muzare?",
+          "ur": "Allazeena + Muzare میں کون سا صَرفی و نحوی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Allazeena + Muzare में कौन सा सरफ़ी व नहवी क़ायदा सिखाया गया है?",
+          "hinglish": "Allazeena + Muzare mein kaun sa sarfi wa nahwi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transforms the verb into 'الَّذِينَ يُؤْمِنُونَ'",
+            "Changes word into an inactive noun",
+            "Permanently removes all prefixes",
+            "Replaces the root letters"
+          ],
+          "ur": [
+            "فعل بدل کر 'الَّذِينَ يُؤْمِنُونَ' بن جاتا ہے",
+            "لفظ کو اسم جامد بنا دیتا ہے",
+            "تمام سابقے مستقل گرا دیتا ہے",
+            "حروف اصلیہ تبدیل کر دیتا ہے"
+          ],
+          "hi": [
+            "फेल बदल कर 'الَّذِينَ يُؤْمِنُونَ' बन जाता है",
+            "लफ़्ज़ को इस्म जामिद बना देता है",
+            "तमाम साबिक़े मुस्तक़िल गिरा देता है",
+            "हुरूफ़ अस्लिया तब्दील कर देता है"
+          ],
+          "hinglish": [
+            "Fe'l badal kar 'الَّذِينَ يُؤْمِنُونَ' ban jaata hai",
+            "Lafz ko ism jaamid bana deta hai",
+            "Tamaam saabiqe mustaqil gira deta hai",
+            "Huroof-e-asliyah tabdeel kar deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation creates 'الَّذِينَ يُؤْمِنُونَ'.",
+          "ur": "گردان کے نتیجے میں 'الَّذِينَ يُؤْمِنُونَ' بنتا ہے۔",
+          "hi": "गर्दान के नतीजे में 'الَّذِينَ يُؤْمِنُونَ' बनता है।",
+          "hinglish": "Gardan ke nateeje mein 'الَّذِينَ يُؤْمِنُونَ' banta hai."
+        }
+      },
+      {
+        "id": "s6l8-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which verb form correctly demonstrates Allazeena + Muzare?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Allazeena + Muzare کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Allazeena + Muzare की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Allazeena + Muzare ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "الَّذِينَ يُؤْمِنُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "ur": [
+            "الَّذِينَ يُؤْمِنُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hi": [
+            "الَّذِينَ يُؤْمِنُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hinglish": [
+            "الَّذِينَ يُؤْمِنُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ]
+        },
+        "explanation": {
+          "en": "'الَّذِينَ يُؤْمِنُونَ' correctly represents this verbal pattern.",
+          "ur": "'الَّذِينَ يُؤْمِنُونَ' اس فعلی سانچے کی درست مثال ہے۔",
+          "hi": "'الَّذِينَ يُؤْمِنُونَ' इस फेली सांचे की सही मिसाल है।",
+          "hinglish": "'الَّذِينَ يُؤْمِنُونَ' is fe'li saanche ki sahi misaal hai."
+        }
+      },
+      {
+        "id": "s6l8-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'الَّذِينَ يُؤْمِنُونَ', identify the base verbal stem:",
+          "ur": "'الَّذِينَ يُؤْمِنُونَ' کی اصل بنیادی حالت کیا ہے؟",
+          "hi": "'الَّذِينَ يُؤْمِنُونَ' की असल बुनियादी हालत क्या है?",
+          "hinglish": "'الَّذِينَ يُؤْمِنُونَ' ki asal bunyadi halat kya hai?"
+        },
+        "options": {
+          "en": [
+            "يُؤْمِنُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "ur": [
+            "يُؤْمِنُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hi": [
+            "يُؤْمِنُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hinglish": [
+            "يُؤْمِنُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting verbal form is 'يُؤْمِنُونَ'.",
+          "ur": "اس کی اصل صورت 'يُؤْمِنُونَ' ہے۔",
+          "hi": "इसकी असल सूरत 'يُؤْمِنُونَ' है।",
+          "hinglish": "Iski asal soorat 'يُؤْمِنُونَ' hai."
+        }
+      },
+      {
+        "id": "s6l8-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'يَأْمُرُونَ بِالْقِسْطِ'?",
+          "ur": "قرآنی لفظ 'يَأْمُرُونَ بِالْقِسْطِ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'يَأْمُرُونَ بِالْقِسْطِ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'يَأْمُرُونَ بِالْقِسْطِ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "They enjoin justice",
+            "They enjoin stinginess upon people",
+            "They enjoin what is wrong",
+            "And they forbid what is wrong"
+          ],
+          "ur": [
+            "وہ انصاف کا حکم دیتے ہیں",
+            "وہ لوگوں کو کنجوسی کا حکم دیتے ہیں",
+            "وہ برائی کا حکم دیتے ہیں",
+            "اور وہ برائی سے روکتے ہیں"
+          ],
+          "hi": [
+            "वह इंसाफ़ का हुक्म देते हैं",
+            "वह लोगों को कंजूसी का हुक्م देते हैं",
+            "वह बुराई का हुक्م देते हैं",
+            "और वह बुराई से रोकते हैं"
+          ],
+          "hinglish": [
+            "Woh insaf ka hukm dete hain",
+            "Woh logon ko kanjoosi ka hukm dete hain",
+            "Woh burai ka hukm dete hain",
+            "Aur woh burai se rokte hain"
+          ]
+        },
+        "explanation": {
+          "en": "'يَأْمُرُونَ بِالْقِسْطِ' translates to 'They enjoin justice'.",
+          "ur": "'يَأْمُرُونَ بِالْقِسْطِ' کا معنی 'وہ انصاف کا حکم دیتے ہیں' ہے۔",
+          "hi": "'يَأْمُرُونَ بِالْقِسْطِ' का मतलब 'वह इंसाफ़ का हुक्म देते हैं' है।",
+          "hinglish": "'يَأْمُرُونَ بِالْقِسْطِ' ka matlab 'Woh insaf ka hukm dete hain' hai."
+        }
+      },
+      {
+        "id": "s6l8-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'يَأْمُرُونَ بِالْمَعْرُوفِ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'يَأْمُرُونَ بِالْمَعْرُوفِ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'يَأْمُرُونَ بِالْمَعْرُوفِ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'يَأْمُرُونَ بِالْمَعْرُوفِ'"
+        },
+        "options": {
+          "en": [
+            "They enjoin stinginess upon people",
+            "They enjoin what is right",
+            "They enjoin what is wrong",
+            "And they forbid what is wrong"
+          ],
+          "ur": [
+            "وہ لوگوں کو کنجوسی کا حکم دیتے ہیں",
+            "وہ بھلائی کا حکم دیتے ہیں",
+            "وہ برائی کا حکم دیتے ہیں",
+            "اور وہ برائی سے روکتے ہیں"
+          ],
+          "hi": [
+            "वह लोगों को कंजूसी का हुक्م देते हैं",
+            "वह भलाई का हुक्म देते हैं",
+            "वह बुराई का हुक्م देते हैं",
+            "और वह बुराई से रोकते हैं"
+          ],
+          "hinglish": [
+            "Woh logon ko kanjoosi ka hukm dete hain",
+            "Woh bhalai ka hukm dete hain",
+            "Woh burai ka hukm dete hain",
+            "Aur woh burai se rokte hain"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'يَأْمُرُونَ بِالْمَعْرُوفِ' means 'They enjoin what is right'.",
+          "ur": "'يَأْمُرُونَ بِالْمَعْرُوفِ' کا مفہوم 'وہ بھلائی کا حکم دیتے ہیں' ہے۔",
+          "hi": "'يَأْمُرُونَ بِالْمَعْرُوفِ' का मतलब 'वह भलाई का हुक्म देते हैं' है।",
+          "hinglish": "'يَأْمُرُونَ بِالْمَعْرُوفِ' ka matlab 'Woh bhalai ka hukm dete hain' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s6l9",
+    "questions": [
+      {
+        "id": "s6l9-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What morphological rule is taught in Muzare Mukhatab (تَـ)?",
+          "ur": "Muzare Mukhatab (تَـ) میں کون سا صَرفی و نحوی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Muzare Mukhatab (تَـ) में कौन सा सरफ़ी व नहवी क़ायदा सिखाया गया है?",
+          "hinglish": "Muzare Mukhatab ('تَـ') mein kaun sa sarfi wa nahwi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transforms the verb into 'تَعْبُدُ'",
+            "Changes word into an inactive noun",
+            "Permanently removes all prefixes",
+            "Replaces the root letters"
+          ],
+          "ur": [
+            "فعل بدل کر 'تَعْبُدُ' بن جاتا ہے",
+            "لفظ کو اسم جامد بنا دیتا ہے",
+            "تمام سابقے مستقل گرا دیتا ہے",
+            "حروف اصلیہ تبدیل کر دیتا ہے"
+          ],
+          "hi": [
+            "फेल बदल कर 'تَعْبُدُ' बन जाता है",
+            "लफ़्ज़ को इस्म जामिद बना देता है",
+            "तमाम साबिक़े मुस्तक़िल गिरा देता है",
+            "हुरूफ़ अस्लिया तब्दील कर देता है"
+          ],
+          "hinglish": [
+            "Fe'l badal kar 'تَعْبُدُ' ban jaata hai",
+            "Lafz ko ism jaamid bana deta hai",
+            "Tamaam saabiqe mustaqil gira deta hai",
+            "Huroof-e-asliyah tabdeel kar deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation creates 'تَعْبُدُ'.",
+          "ur": "گردان کے نتیجے میں 'تَعْبُدُ' بنتا ہے۔",
+          "hi": "गर्दान के नतीजे में 'تَعْبُدُ' बनता है।",
+          "hinglish": "Gardan ke nateeje mein 'تَعْبُدُ' banta hai."
+        }
+      },
+      {
+        "id": "s6l9-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which verb form correctly demonstrates Muzare Mukhatab (تَـ)?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Muzare Mukhatab (تَـ) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Muzare Mukhatab (تَـ) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Muzare Mukhatab ('تَـ') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "تَعْبُدُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "ur": [
+            "تَعْبُدُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hi": [
+            "تَعْبُدُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hinglish": [
+            "تَعْبُدُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ]
+        },
+        "explanation": {
+          "en": "'تَعْبُدُ' correctly represents this verbal pattern.",
+          "ur": "'تَعْبُدُ' اس فعلی سانچے کی درست مثال ہے۔",
+          "hi": "'تَعْبُدُ' इस फेली सांचे की सही मिसाल है।",
+          "hinglish": "'تَعْبُدُ' is fe'li saanche ki sahi misaal hai."
+        }
+      },
+      {
+        "id": "s6l9-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'تَعْبُدُ', identify the base verbal stem:",
+          "ur": "'تَعْبُدُ' کی اصل بنیادی حالت کیا ہے؟",
+          "hi": "'تَعْبُدُ' की असल बुनियादी हालत क्या है?",
+          "hinglish": "'تَعْبُدُ' ki asal bunyadi halat kya hai?"
+        },
+        "options": {
+          "en": [
+            "يَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "ur": [
+            "يَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hi": [
+            "يَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hinglish": [
+            "يَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting verbal form is 'يَعْبُدُ'.",
+          "ur": "اس کی اصل صورت 'يَعْبُدُ' ہے۔",
+          "hi": "इसकी असल सूरत 'يَعْبُدُ' है।",
+          "hinglish": "Iski asal soorat 'يَعْبُدُ' hai."
+        }
+      },
+      {
+        "id": "s6l9-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'يَفْتَرُونَ عَلَى اللهِ الْكَذِبَ / وَأَكْثَرُهُمْ لَا يَعْقِلُونَ'?",
+          "ur": "قرآنی لفظ 'يَفْتَرُونَ عَلَى اللهِ الْكَذِبَ / وَأَكْثَرُهُمْ لَا يَعْقِلُونَ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'يَفْتَرُونَ عَلَى اللهِ الْكَذِبَ / وَأَكْثَرُهُمْ لَا يَعْقِلُونَ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'يَفْتَرُونَ 'عَلَى' اللهِ 'الْكَذِبَ' / 'وَأَكْثَرُهُمْ' لَا يَعْقِلُونَ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "They invent falsehood about Allah, and most of them do not reason",
+            "While they dispute about Allah; and He is severe in strike",
+            "They have hearts with which they do not understand, and they have eyes with which they do not see",
+            "A party of them used to hear the words of Allah"
+          ],
+          "ur": [
+            "وہ اللہ پر جھوٹ گھڑتے ہیں اور ان میں سے اکثر عقل سے کام نہیں لیتے",
+            "اور وہ اللہ کے بارے میں جھگڑتے ہیں، حالانکہ وہ سخت پکڑ والا ہے",
+            "ان کے دل ہیں جن سے وہ سمجھتے نہیں، اور ان کی آنکھیں ہیں جن سے وہ دیکھتے نہیں",
+            "ان میں سے ایک گروہ اللہ کا کلام سنتا تھا"
+          ],
+          "hi": [
+            "वह अल्लाह पर झूठ गढ़ते हैं और उनमें से अक्सर अक़्ल से काम नहीं लेते",
+            "और वह अल्लाह के बारे में झगड़ा करते हैं, हालांकि वह सख़्त पकड़ वाला है",
+            "उनके दिल हैं जिनसे वह समझते नहीं, और उनकी आँखें हैं जिनसे वह देखते नहीं",
+            "उनमें से एक गिरोह अल्लाह का कलाम सुनता था"
+          ],
+          "hinglish": [
+            "Woh Allah par jhoot baandhte hain aur un mein se aksar samajhte nahin",
+            "Aur woh jhagadte hain Allah ke baare mein aur woh sakht pakad wala hai",
+            "Unke liye dil hain jin se woh samajhte nahin aur unke liye aankhein hain jin se woh dekhte nahin",
+            "Un mein se ek giroh Allah ka kalaam sunta tha"
+          ]
+        },
+        "explanation": {
+          "en": "'يَفْتَرُونَ عَلَى اللهِ الْكَذِبَ / وَأَكْثَرُهُمْ لَا يَعْقِلُونَ' translates to 'They invent falsehood about Allah, and most of them do not reason'.",
+          "ur": "'يَفْتَرُونَ عَلَى اللهِ الْكَذِبَ / وَأَكْثَرُهُمْ لَا يَعْقِلُونَ' کا معنی 'وہ اللہ پر جھوٹ گھڑتے ہیں اور ان میں سے اکثر عقل سے کام نہیں لیتے' ہے۔",
+          "hi": "'يَفْتَرُونَ عَلَى اللهِ الْكَذِبَ / وَأَكْثَرُهُمْ لَا يَعْقِلُونَ' का मतलब 'वह अल्लाह पर झूठ गढ़ते हैं और उनमें से अक्सर अक़्ल से काम नहीं लेते' है।",
+          "hinglish": "'يَفْتَرُونَ 'عَلَى' اللهِ 'الْكَذِبَ' / 'وَأَكْثَرُهُمْ' لَا يَعْقِلُونَ' ka matlab 'Woh Allah par jhoot baandhte hain aur un mein se aksar samajhte nahin' hai."
+        }
+      },
+      {
+        "id": "s6l9-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'وَيَصُدُّونَ عَنْ سَبِيلِ اللهِ وَالْمَسْجِدِ الْحَرَامِ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'وَيَصُدُّونَ عَنْ سَبِيلِ اللهِ وَالْمَسْجِدِ الْحَرَامِ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'وَيَصُدُّونَ عَنْ سَبِيلِ اللهِ وَالْمَسْجِدِ الْحَرَامِ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'وَيَصُدُّونَ 'عَنْ' سَبِيلِ 'اللهِ' وَالْمَسْجِدِ الْحَرَامِ'"
+        },
+        "options": {
+          "en": [
+            "While they dispute about Allah; and He is severe in strike",
+            "And they avert [people] from the way of Allah and al-Masjid al-Haram",
+            "They have hearts with which they do not understand, and they have eyes with which they do not see",
+            "A party of them used to hear the words of Allah"
+          ],
+          "ur": [
+            "اور وہ اللہ کے بارے میں جھگڑتے ہیں، حالانکہ وہ سخت پکڑ والا ہے",
+            "اور وہ اللہ کے راستے سے اور مسجدِ حرام سے روکتے ہیں",
+            "ان کے دل ہیں جن سے وہ سمجھتے نہیں، اور ان کی آنکھیں ہیں جن سے وہ دیکھتے نہیں",
+            "ان میں سے ایک گروہ اللہ کا کلام سنتا تھا"
+          ],
+          "hi": [
+            "और वह अल्लाह के बारे में झगड़ा करते हैं, हालांकि वह सख़्त पकड़ वाला है",
+            "और वह अल्लाह के रास्ते से और मस्जिदे हराम से रोकते हैं",
+            "उनके दिल हैं जिनसे वह समझते नहीं, और उनकी आँखें हैं जिनसे वह देखते नहीं",
+            "उनमें से एक गिरोह अल्लाह का कलाम सुनता था"
+          ],
+          "hinglish": [
+            "Aur woh jhagadte hain Allah ke baare mein aur woh sakht pakad wala hai",
+            "Aur woh rokte hain Allah ke raaste se aur Masjid-e-Haram se",
+            "Unke liye dil hain jin se woh samajhte nahin aur unke liye aankhein hain jin se woh dekhte nahin",
+            "Un mein se ek giroh Allah ka kalaam sunta tha"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'وَيَصُدُّونَ عَنْ سَبِيلِ اللهِ وَالْمَسْجِدِ الْحَرَامِ' means 'And they avert [people] from the way of Allah and al-Masjid al-Haram'.",
+          "ur": "'وَيَصُدُّونَ عَنْ سَبِيلِ اللهِ وَالْمَسْجِدِ الْحَرَامِ' کا مفہوم 'اور وہ اللہ کے راستے سے اور مسجدِ حرام سے روکتے ہیں' ہے۔",
+          "hi": "'وَيَصُدُّونَ عَنْ سَبِيلِ اللهِ وَالْمَسْجِدِ الْحَرَامِ' का मतलब 'और वह अल्लाह के रास्ते से और मस्जिदे हराम से रोकते हैं' है।",
+          "hinglish": "'وَيَصُدُّونَ 'عَنْ' سَبِيلِ 'اللهِ' وَالْمَسْجِدِ الْحَرَامِ' ka matlab 'Aur woh rokte hain Allah ke raaste se aur Masjid-e-Haram se' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s6l10",
+    "questions": [
+      {
+        "id": "s6l10-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What morphological rule is taught in Mukhatab Plural (تَـ...ـُونَ)?",
+          "ur": "Mukhatab Plural (تَـ...ـُونَ) میں کون سا صَرفی و نحوی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Mukhatab Plural (تَـ...ـُونَ) में कौन सा सरफ़ी व नहवी क़ायदा सिखाया गया है?",
+          "hinglish": "Mukhatab Plural ('تَـ'...'ـُونَ') mein kaun sa sarfi wa nahwi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transforms the verb into 'تَعْبُدُونَ'",
+            "Changes word into an inactive noun",
+            "Permanently removes all prefixes",
+            "Replaces the root letters"
+          ],
+          "ur": [
+            "فعل بدل کر 'تَعْبُدُونَ' بن جاتا ہے",
+            "لفظ کو اسم جامد بنا دیتا ہے",
+            "تمام سابقے مستقل گرا دیتا ہے",
+            "حروف اصلیہ تبدیل کر دیتا ہے"
+          ],
+          "hi": [
+            "फेल बदल कर 'تَعْبُدُونَ' बन जाता है",
+            "लफ़्ज़ को इस्म जामिद बना देता है",
+            "तमाम साबिक़े मुस्तक़िल गिरा देता है",
+            "हुरूफ़ अस्लिया तब्दील कर देता है"
+          ],
+          "hinglish": [
+            "Fe'l badal kar 'تَعْبُدُونَ' ban jaata hai",
+            "Lafz ko ism jaamid bana deta hai",
+            "Tamaam saabiqe mustaqil gira deta hai",
+            "Huroof-e-asliyah tabdeel kar deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation creates 'تَعْبُدُونَ'.",
+          "ur": "گردان کے نتیجے میں 'تَعْبُدُونَ' بنتا ہے۔",
+          "hi": "गर्दान के नतीजे में 'تَعْبُدُونَ' बनता है।",
+          "hinglish": "Gardan ke nateeje mein 'تَعْبُدُونَ' banta hai."
+        }
+      },
+      {
+        "id": "s6l10-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which verb form correctly demonstrates Mukhatab Plural (تَـ...ـُونَ)?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Mukhatab Plural (تَـ...ـُونَ) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Mukhatab Plural (تَـ...ـُونَ) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Mukhatab Plural ('تَـ'...'ـُونَ') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "تَعْبُدُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "ur": [
+            "تَعْبُدُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hi": [
+            "تَعْبُدُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hinglish": [
+            "تَعْبُدُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ]
+        },
+        "explanation": {
+          "en": "'تَعْبُدُونَ' correctly represents this verbal pattern.",
+          "ur": "'تَعْبُدُونَ' اس فعلی سانچے کی درست مثال ہے۔",
+          "hi": "'تَعْبُدُونَ' इस फेली सांचे की सही मिसाल है।",
+          "hinglish": "'تَعْبُدُونَ' is fe'li saanche ki sahi misaal hai."
+        }
+      },
+      {
+        "id": "s6l10-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'تَعْبُدُونَ', identify the base verbal stem:",
+          "ur": "'تَعْبُدُونَ' کی اصل بنیادی حالت کیا ہے؟",
+          "hi": "'تَعْبُدُونَ' की असल बुनियादी हालत क्या है?",
+          "hinglish": "'تَعْبُدُونَ' ki asal bunyadi halat kya hai?"
+        },
+        "options": {
+          "en": [
+            "تَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "ur": [
+            "تَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hi": [
+            "تَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hinglish": [
+            "تَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting verbal form is 'تَعْبُدُ'.",
+          "ur": "اس کی اصل صورت 'تَعْبُدُ' ہے۔",
+          "hi": "इसकी असल सूरत 'تَعْبُدُ' है।",
+          "hinglish": "Iski asal soorat 'تَعْبُدُ' hai."
+        }
+      },
+      {
+        "id": "s6l10-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'كَذَٰلِكَ يُبَيِّنُ اللَّهُ آيَاتِهِ لِلنَّاسِ / لَعَلَّهُمْ يَتَّقُونَ'?",
+          "ur": "قرآنی لفظ 'كَذَٰلِكَ يُبَيِّنُ اللَّهُ آيَاتِهِ لِلنَّاسِ / لَعَلَّهُمْ يَتَّقُونَ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'كَذَٰلِكَ يُبَيِّنُ اللَّهُ آيَاتِهِ لِلنَّاسِ / لَعَلَّهُمْ يَتَّقُونَ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'كَذَٰلِكَ 'يُبَيِّنُ' اللَّهُ 'آيَاتِهِ' لِلنَّاسِ / 'لَعَلَّهُمْ' يَتَّقُونَ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Thus does Allah make clear His verses to the people that they may become righteous",
+            "And Allah presents examples for the people that perhaps they will take reminder",
+            "And Allah invites to Paradise and to forgiveness by His permission, and He makes clear His verses to the people that perhaps they will take reminder",
+            "And the garment of righteousness - that is best. That is from the signs of Allah that perhaps they will take reminder"
+          ],
+          "ur": [
+            "اسی طرح اللہ اپنی آیات لوگوں کے لیے بیان کرتا ہے تاکہ وہ پرہیزگار بن جائیں",
+            "اور اللہ لوگوں کے لیے مثالیں بیان کرتا ہے تاکہ وہ نصیحت حاصل کریں",
+            "اور اللہ جنت اور مغفرت کی طرف اپنے حکم سے بلاتا ہے اور اپنی آیات لوگوں کے لیے بیان کرتا ہے تاکہ وہ نصیحت حاصل کریں",
+            "اور پرہیزگاری کا لباس وہی بہتر ہے، یہ اللہ کی نشانیوں میں سے ہے تاکہ وہ نصیحت حاصل کریں"
+          ],
+          "hi": [
+            "इसी तरह अल्लाह अपनी आयतें लोगों के लिए बयान करता है ताकि वो परहेज़गार बन जाएँ",
+            "और अल्लाह लोगों के लिए मिसालें बयान करता है ताकि वो नसीहत हासिल करें",
+            "और अल्लाह जन्नत और मग़फ़िरत की तरफ़ अपने हुक्म से बुलाता है और अपनी आयतें लोगों के लिए बयान करता है ताकि वो नसीहत हासिल करें",
+            "और परहेज़गारी का लिबास वही बेहतर है, यह अल्लाह की निशानियों में से है ताकि वो नसीहत हासिल करें"
+          ],
+          "hinglish": [
+            "Isi tarah Allah apni aayat logon ke liye bayan karta hai taake woh parhezgar ban jaayein",
+            "Aur Allah logon ke liye misalein bayan karta hai taake woh naseehat haasil karein",
+            "Aur Allah jannat aur maghfirat ki taraf apne hukm se pukaarta hai aur apni aayat logon ke liye bayan karta hai taake woh naseehat haasil karein",
+            "Aur parhezgari ka libas wohi behtar hai yeh Allah ki aayat mein se hai taake woh naseehat haasil karein"
+          ]
+        },
+        "explanation": {
+          "en": "'كَذَٰلِكَ يُبَيِّنُ اللَّهُ آيَاتِهِ لِلنَّاسِ / لَعَلَّهُمْ يَتَّقُونَ' translates to 'Thus does Allah make clear His verses to the people that they may become righteous'.",
+          "ur": "'كَذَٰلِكَ يُبَيِّنُ اللَّهُ آيَاتِهِ لِلنَّاسِ / لَعَلَّهُمْ يَتَّقُونَ' کا معنی 'اسی طرح اللہ اپنی آیات لوگوں کے لیے بیان کرتا ہے تاکہ وہ پرہیزگار بن جائیں' ہے۔",
+          "hi": "'كَذَٰلِكَ يُبَيِّنُ اللَّهُ آيَاتِهِ لِلنَّاسِ / لَعَلَّهُمْ يَتَّقُونَ' का मतलब 'इसी तरह अल्लाह अपनी आयतें लोगों के लिए बयान करता है ताकि वो परहेज़गार बन जाएँ' है।",
+          "hinglish": "'كَذَٰلِكَ 'يُبَيِّنُ' اللَّهُ 'آيَاتِهِ' لِلنَّاسِ / 'لَعَلَّهُمْ' يَتَّقُونَ' ka matlab 'Isi tarah Allah apni aayat logon ke liye bayan karta hai taake woh parhezgar ban jaayein' hai."
+        }
+      },
+      {
+        "id": "s6l10-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'لَيْسَ لَهُمْ مِنْ دُونِهِ وَلِيٌّ وَلَا شَفِيعٌ / لَعَلَّهُمْ يَتَّقُونَ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'لَيْسَ لَهُمْ مِنْ دُونِهِ وَلِيٌّ وَلَا شَفِيعٌ / لَعَلَّهُمْ يَتَّقُونَ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'لَيْسَ لَهُمْ مِنْ دُونِهِ وَلِيٌّ وَلَا شَفِيعٌ / لَعَلَّهُمْ يَتَّقُونَ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'لَيْسَ 'لَهُمْ' مِنْ 'دُونِهِ' وَلِيٌّ 'وَلَا' شَفِيعٌ / 'لَعَلَّهُمْ' يَتَّقُونَ'"
+        },
+        "options": {
+          "en": [
+            "And Allah presents examples for the people that perhaps they will take reminder",
+            "There is for them besides Him no protector and no intercessor, that they might fear Him",
+            "And Allah invites to Paradise and to forgiveness by His permission, and He makes clear His verses to the people that perhaps they will take reminder",
+            "And the garment of righteousness - that is best. That is from the signs of Allah that perhaps they will take reminder"
+          ],
+          "ur": [
+            "اور اللہ لوگوں کے لیے مثالیں بیان کرتا ہے تاکہ وہ نصیحت حاصل کریں",
+            "ان کے لیے اس کے سوا کوئی دوست نہیں اور نہ کوئی سفارشی تاکہ وہ پرہیزگار بن جائیں",
+            "اور اللہ جنت اور مغفرت کی طرف اپنے حکم سے بلاتا ہے اور اپنی آیات لوگوں کے لیے بیان کرتا ہے تاکہ وہ نصیحت حاصل کریں",
+            "اور پرہیزگاری کا لباس وہی بہتر ہے، یہ اللہ کی نشانیوں میں سے ہے تاکہ وہ نصیحت حاصل کریں"
+          ],
+          "hi": [
+            "और अल्लाह लोगों के लिए मिसालें बयान करता है ताकि वो नसीहत हासिल करें",
+            "उनके लिए उसके सिवा कोई दोस्त नहीं और न कोई सिफ़ारिशी ताकि वो परहेज़गार बन जाएँ",
+            "और अल्लाह जन्नत और मग़फ़िरत की तरफ़ अपने हुक्म से बुलाता है और अपनी आयतें लोगों के लिए बयान करता है ताकि वो नसीहत हासिल करें",
+            "और परहेज़गारी का लिबास वही बेहतर है, यह अल्लाह की निशानियों में से है ताकि वो नसीहत हासिल करें"
+          ],
+          "hinglish": [
+            "Aur Allah logon ke liye misalein bayan karta hai taake woh naseehat haasil karein",
+            "Un ke liye us ke siwa koi dost nahin aur na koi sifarishi taake woh parhezgar ban jaayein",
+            "Aur Allah jannat aur maghfirat ki taraf apne hukm se pukaarta hai aur apni aayat logon ke liye bayan karta hai taake woh naseehat haasil karein",
+            "Aur parhezgari ka libas wohi behtar hai yeh Allah ki aayat mein se hai taake woh naseehat haasil karein"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'لَيْسَ لَهُمْ مِنْ دُونِهِ وَلِيٌّ وَلَا شَفِيعٌ / لَعَلَّهُمْ يَتَّقُونَ' means 'There is for them besides Him no protector and no intercessor, that they might fear Him'.",
+          "ur": "'لَيْسَ لَهُمْ مِنْ دُونِهِ وَلِيٌّ وَلَا شَفِيعٌ / لَعَلَّهُمْ يَتَّقُونَ' کا مفہوم 'ان کے لیے اس کے سوا کوئی دوست نہیں اور نہ کوئی سفارشی تاکہ وہ پرہیزگار بن جائیں' ہے۔",
+          "hi": "'لَيْسَ لَهُمْ مِنْ دُونِهِ وَلِيٌّ وَلَا شَفِيعٌ / لَعَلَّهُمْ يَتَّقُونَ' का मतलब 'उनके लिए उसके सिवा कोई दोस्त नहीं और न कोई सिफ़ारिशी ताकि वो परहेज़गार बन जाएँ' है।",
+          "hinglish": "'لَيْسَ 'لَهُمْ' مِنْ 'دُونِهِ' وَلِيٌّ 'وَلَا' شَفِيعٌ / 'لَعَلَّهُمْ' يَتَّقُونَ' ka matlab 'Un ke liye us ke siwa koi dost nahin aur na koi sifarishi taake woh parhezgar ban jaayein' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s6l11",
+    "questions": [
+      {
+        "id": "s6l11-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What morphological rule is taught in Ta'budoona Muhaware?",
+          "ur": "Ta'budoona Muhaware میں کون سا صَرفی و نحوی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Ta'budoona Muhaware में कौन सा सरफ़ी व नहवी क़ायदा सिखाया गया है?",
+          "hinglish": "Ta'budoona Muhaware mein kaun sa sarfi wa nahwi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transforms the verb into 'وَأَنْتُمْ تَعْلَمُونَ'",
+            "Changes word into an inactive noun",
+            "Permanently removes all prefixes",
+            "Replaces the root letters"
+          ],
+          "ur": [
+            "فعل بدل کر 'وَأَنْتُمْ تَعْلَمُونَ' بن جاتا ہے",
+            "لفظ کو اسم جامد بنا دیتا ہے",
+            "تمام سابقے مستقل گرا دیتا ہے",
+            "حروف اصلیہ تبدیل کر دیتا ہے"
+          ],
+          "hi": [
+            "फेल बदल कर 'وَأَنْتُمْ تَعْلَمُونَ' बन जाता है",
+            "लफ़्ज़ को इस्म जामिद बना देता है",
+            "तमाम साबिक़े मुस्तक़िल गिरा देता है",
+            "हुरूफ़ अस्लिया तब्दील कर देता है"
+          ],
+          "hinglish": [
+            "Fe'l badal kar 'وَأَنْتُمْ تَعْلَمُونَ' ban jaata hai",
+            "Lafz ko ism jaamid bana deta hai",
+            "Tamaam saabiqe mustaqil gira deta hai",
+            "Huroof-e-asliyah tabdeel kar deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation creates 'وَأَنْتُمْ تَعْلَمُونَ'.",
+          "ur": "گردان کے نتیجے میں 'وَأَنْتُمْ تَعْلَمُونَ' بنتا ہے۔",
+          "hi": "गर्दान के नतीजे में 'وَأَنْتُمْ تَعْلَمُونَ' बनता है।",
+          "hinglish": "Gardan ke nateeje mein 'وَأَنْتُمْ تَعْلَمُونَ' banta hai."
+        }
+      },
+      {
+        "id": "s6l11-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which verb form correctly demonstrates Ta'budoona Muhaware?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Ta'budoona Muhaware کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Ta'budoona Muhaware की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Ta'budoona Muhaware ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "وَأَنْتُمْ تَعْلَمُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "ur": [
+            "وَأَنْتُمْ تَعْلَمُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hi": [
+            "وَأَنْتُمْ تَعْلَمُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hinglish": [
+            "وَأَنْتُمْ تَعْلَمُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ]
+        },
+        "explanation": {
+          "en": "'وَأَنْتُمْ تَعْلَمُونَ' correctly represents this verbal pattern.",
+          "ur": "'وَأَنْتُمْ تَعْلَمُونَ' اس فعلی سانچے کی درست مثال ہے۔",
+          "hi": "'وَأَنْتُمْ تَعْلَمُونَ' इस फेली सांचे की सही मिसाल है।",
+          "hinglish": "'وَأَنْتُمْ تَعْلَمُونَ' is fe'li saanche ki sahi misaal hai."
+        }
+      },
+      {
+        "id": "s6l11-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'وَأَنْتُمْ تَعْلَمُونَ', identify the base verbal stem:",
+          "ur": "'وَأَنْتُمْ تَعْلَمُونَ' کی اصل بنیادی حالت کیا ہے؟",
+          "hi": "'وَأَنْتُمْ تَعْلَمُونَ' की असल बुनियादी हालत क्या है?",
+          "hinglish": "'وَأَنْتُمْ تَعْلَمُونَ' ki asal bunyadi halat kya hai?"
+        },
+        "options": {
+          "en": [
+            "تَعْلَمُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "ur": [
+            "تَعْلَمُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hi": [
+            "تَعْلَمُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hinglish": [
+            "تَعْلَمُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting verbal form is 'تَعْلَمُونَ'.",
+          "ur": "اس کی اصل صورت 'تَعْلَمُونَ' ہے۔",
+          "hi": "इसकी असल सूरत 'تَعْلَمُونَ' है।",
+          "hinglish": "Iski asal soorat 'تَعْلَمُونَ' hai."
+        }
+      },
+      {
+        "id": "s6l11-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'يَعْبُدُ - تَعْبُدُ'?",
+          "ur": "قرآنی لفظ 'يَعْبُدُ - تَعْبُدُ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'يَعْبُدُ - تَعْبُدُ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'يَعْبُدُ - تَعْبُدُ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "He worships - you worship",
+            "He asks - you ask",
+            "He knows : you know",
+            "He worships : you worship"
+          ],
+          "ur": [
+            "وہ عبادت کرتا ہے - تم عبادت کرتے ہو",
+            "وہ سوال کرتا ہے - تم سوال کرتے ہو",
+            "وہ جانتا ہے : تم جانتے ہو",
+            "وہ عبادت کرتا ہے : تم عبادت کرتے ہو"
+          ],
+          "hi": [
+            "वह इबादत करता है - तुम इबादत करते हो",
+            "वह सवाल करता है - तुम सवाल करते हो",
+            "वह जानता है : तुम जानते हो",
+            "वह इबादत करता है : तुम इबादत करते हो"
+          ],
+          "hinglish": [
+            "woh ibadat karta hai - tum ibadat karte ho",
+            "woh sawal karta hai - tum sawal karte ho",
+            "woh jaanta hai : tum jaante ho",
+            "woh ibadat karta hai : tum ibadat karte ho"
+          ]
+        },
+        "explanation": {
+          "en": "'يَعْبُدُ - تَعْبُدُ' translates to 'He worships - you worship'.",
+          "ur": "'يَعْبُدُ - تَعْبُدُ' کا معنی 'وہ عبادت کرتا ہے - تم عبادت کرتے ہو' ہے۔",
+          "hi": "'يَعْبُدُ - تَعْبُدُ' का मतलब 'वह इबादत करता है - तुम इबादत करते हो' है।",
+          "hinglish": "'يَعْبُدُ - تَعْبُدُ' ka matlab 'woh ibadat karta hai - tum ibadat karte ho' hai."
+        }
+      },
+      {
+        "id": "s6l11-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'يَسْتَغْفِرُ - تَسْتَغْفِرُ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'يَسْتَغْفِرُ - تَسْتَغْفِرُ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'يَسْتَغْفِرُ - تَسْتَغْفِرُ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'يَسْتَغْفِرُ - تَسْتَغْفِرُ'"
+        },
+        "options": {
+          "en": [
+            "He asks - you ask",
+            "He seeks forgiveness - you seek forgiveness",
+            "He knows : you know",
+            "He worships : you worship"
+          ],
+          "ur": [
+            "وہ سوال کرتا ہے - تم سوال کرتے ہو",
+            "وہ استغفار کرتا ہے - تم استغفار کرتے ہو",
+            "وہ جانتا ہے : تم جانتے ہو",
+            "وہ عبادت کرتا ہے : تم عبادت کرتے ہو"
+          ],
+          "hi": [
+            "वह सवाल करता है - तुम सवाल करते हो",
+            "वह इस्तिग़फ़ार करता है - तुम इस्तिग़फ़ार करते हो",
+            "वह जानता है : तुम जानते हो",
+            "वह इबादत करता है : तुम इबादत करते हो"
+          ],
+          "hinglish": [
+            "woh sawal karta hai - tum sawal karte ho",
+            "woh istighfar karta hai - tum istighfar karte ho",
+            "woh jaanta hai : tum jaante ho",
+            "woh ibadat karta hai : tum ibadat karte ho"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'يَسْتَغْفِرُ - تَسْتَغْفِرُ' means 'He seeks forgiveness - you seek forgiveness'.",
+          "ur": "'يَسْتَغْفِرُ - تَسْتَغْفِرُ' کا مفہوم 'وہ استغفار کرتا ہے - تم استغفار کرتے ہو' ہے۔",
+          "hi": "'يَسْتَغْفِرُ - تَسْتَغْفِرُ' का मतलब 'वह इस्तिग़फ़ार करता है - तुम इस्तिग़फ़ार करते हो' है।",
+          "hinglish": "'يَسْتَغْفِرُ - تَسْتَغْفِرُ' ka matlab 'woh istighfar karta hai - tum istighfar karte ho' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s6l12",
+    "questions": [
+      {
+        "id": "s6l12-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What morphological rule is taught in Muzare Mutakallim (أَ)?",
+          "ur": "Muzare Mutakallim (أَ) میں کون سا صَرفی و نحوی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Muzare Mutakallim (أَ) में कौन सा सरफ़ी व नहवी क़ायदा सिखाया गया है?",
+          "hinglish": "Muzare Mutakallim ('أَ') mein kaun sa sarfi wa nahwi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transforms the verb into 'أَعْبُدُ'",
+            "Changes word into an inactive noun",
+            "Permanently removes all prefixes",
+            "Replaces the root letters"
+          ],
+          "ur": [
+            "فعل بدل کر 'أَعْبُدُ' بن جاتا ہے",
+            "لفظ کو اسم جامد بنا دیتا ہے",
+            "تمام سابقے مستقل گرا دیتا ہے",
+            "حروف اصلیہ تبدیل کر دیتا ہے"
+          ],
+          "hi": [
+            "फेल बदल कर 'أَعْبُدُ' बन जाता है",
+            "लफ़्ज़ को इस्म जामिद बना देता है",
+            "तमाम साबिक़े मुस्तक़िल गिरा देता है",
+            "हुरूफ़ अस्लिया तब्दील कर देता है"
+          ],
+          "hinglish": [
+            "Fe'l badal kar 'أَعْبُدُ' ban jaata hai",
+            "Lafz ko ism jaamid bana deta hai",
+            "Tamaam saabiqe mustaqil gira deta hai",
+            "Huroof-e-asliyah tabdeel kar deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation creates 'أَعْبُدُ'.",
+          "ur": "گردان کے نتیجے میں 'أَعْبُدُ' بنتا ہے۔",
+          "hi": "गर्दान के नतीजे में 'أَعْبُدُ' बनता है।",
+          "hinglish": "Gardan ke nateeje mein 'أَعْبُدُ' banta hai."
+        }
+      },
+      {
+        "id": "s6l12-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which verb form correctly demonstrates Muzare Mutakallim (أَ)?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Muzare Mutakallim (أَ) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Muzare Mutakallim (أَ) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Muzare Mutakallim ('أَ') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "أَعْبُدُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "ur": [
+            "أَعْبُدُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hi": [
+            "أَعْبُدُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hinglish": [
+            "أَعْبُدُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ]
+        },
+        "explanation": {
+          "en": "'أَعْبُدُ' correctly represents this verbal pattern.",
+          "ur": "'أَعْبُدُ' اس فعلی سانچے کی درست مثال ہے۔",
+          "hi": "'أَعْبُدُ' इस फेली सांचे की सही मिसाल है।",
+          "hinglish": "'أَعْبُدُ' is fe'li saanche ki sahi misaal hai."
+        }
+      },
+      {
+        "id": "s6l12-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'أَعْبُدُ', identify the base verbal stem:",
+          "ur": "'أَعْبُدُ' کی اصل بنیادی حالت کیا ہے؟",
+          "hi": "'أَعْبُدُ' की असल बुनियादी हालत क्या है?",
+          "hinglish": "'أَعْبُدُ' ki asal bunyadi halat kya hai?"
+        },
+        "options": {
+          "en": [
+            "يَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "ur": [
+            "يَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hi": [
+            "يَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hinglish": [
+            "يَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting verbal form is 'يَعْبُدُ'.",
+          "ur": "اس کی اصل صورت 'يَعْبُدُ' ہے۔",
+          "hi": "इसकी असल सूरत 'يَعْبُدُ' है।",
+          "hinglish": "Iski asal soorat 'يَعْبُدُ' hai."
+        }
+      },
+      {
+        "id": "s6l12-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'تُؤْمِنُوْنَ بِاللهِ وَالْيَوْمِ الْآخِرِ'?",
+          "ur": "قرآنی لفظ 'تُؤْمِنُوْنَ بِاللهِ وَالْيَوْمِ الْآخِرِ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'تُؤْمِنُوْنَ بِاللهِ وَالْيَوْمِ الْآخِرِ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'تُؤْمِنُوْنَ 'بِاللهِ' وَالْيَوْمِ الْآخِرِ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "You believe in Allah and the Last Day",
+            "You do not believe in Allah",
+            "So do you believe in part of the Scripture?",
+            "You believe in the Scripture, all of it"
+          ],
+          "ur": [
+            "تم اللہ پر اور آخرت کے دن پر ایمان رکھتے ہو",
+            "تم اللہ پر ایمان نہیں رکھتے ہو",
+            "کیا پھر تم کتاب کے بعض حصے پر ایمان رکھتے ہو؟",
+            "تم پوری کتاب پر ایمان رکھتے ہو"
+          ],
+          "hi": [
+            "तुम अल्लाह पर और आख़िरत के दिन पर ईमान रखते हो",
+            "तुम अल्लाह पर ईमान नहीं रखते हो",
+            "क्या फिर तुम किताब के बाज़ हिस्से पर ईमान रखते हो?",
+            "तुम पूरी किताब पर ईमान रखते हो"
+          ],
+          "hinglish": [
+            "Tum log Allah par aur aakhirat ke din par iman rakhte ho",
+            "Tum log Allah par iman nahi rakhte ho",
+            "Kya phir tum log kitab ke ba'dh hisse par iman rakhte ho?",
+            "Tum log poori kitab par iman rakhte ho"
+          ]
+        },
+        "explanation": {
+          "en": "'تُؤْمِنُوْنَ بِاللهِ وَالْيَوْمِ الْآخِرِ' translates to 'You believe in Allah and the Last Day'.",
+          "ur": "'تُؤْمِنُوْنَ بِاللهِ وَالْيَوْمِ الْآخِرِ' کا معنی 'تم اللہ پر اور آخرت کے دن پر ایمان رکھتے ہو' ہے۔",
+          "hi": "'تُؤْمِنُوْنَ بِاللهِ وَالْيَوْمِ الْآخِرِ' का मतलब 'तुम अल्लाह पर और आख़िरत के दिन पर ईमान रखते हो' है।",
+          "hinglish": "'تُؤْمِنُوْنَ 'بِاللهِ' وَالْيَوْمِ الْآخِرِ' ka matlab 'Tum log Allah par aur aakhirat ke din par iman rakhte ho' hai."
+        }
+      },
+      {
+        "id": "s6l12-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'تُؤْمِنُوْنَ بِاللهِ وَرَسُولِهِ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'تُؤْمِنُوْنَ بِاللهِ وَرَسُولِهِ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'تُؤْمِنُوْنَ بِاللهِ وَرَسُولِهِ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'تُؤْمِنُوْنَ 'بِاللهِ' وَرَسُولِهِ'"
+        },
+        "options": {
+          "en": [
+            "You do not believe in Allah",
+            "You believe in Allah and His Messenger",
+            "So do you believe in part of the Scripture?",
+            "You believe in the Scripture, all of it"
+          ],
+          "ur": [
+            "تم اللہ پر ایمان نہیں رکھتے ہو",
+            "تم اللہ پر اور اس کے رسول پر ایمان رکھتے ہو",
+            "کیا پھر تم کتاب کے بعض حصے پر ایمان رکھتے ہو؟",
+            "تم پوری کتاب پر ایمان رکھتے ہو"
+          ],
+          "hi": [
+            "तुम अल्लाह पर ईमान नहीं रखते हो",
+            "तुम अल्लाह पर और उसके रसूल पर ईमान रखते हो",
+            "क्या फिर तुम किताब के बाज़ हिस्से पर ईमान रखते हो?",
+            "तुम पूरी किताब पर ईमान रखते हो"
+          ],
+          "hinglish": [
+            "Tum log Allah par iman nahi rakhte ho",
+            "Tum log Allah par aur uske Rasool par iman rakhte ho",
+            "Kya phir tum log kitab ke ba'dh hisse par iman rakhte ho?",
+            "Tum log poori kitab par iman rakhte ho"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'تُؤْمِنُوْنَ بِاللهِ وَرَسُولِهِ' means 'You believe in Allah and His Messenger'.",
+          "ur": "'تُؤْمِنُوْنَ بِاللهِ وَرَسُولِهِ' کا مفہوم 'تم اللہ پر اور اس کے رسول پر ایمان رکھتے ہو' ہے۔",
+          "hi": "'تُؤْمِنُوْنَ بِاللهِ وَرَسُولِهِ' का मतलब 'तुम अल्लाह पर और उसके रसूल पर ईमान रखते हो' है।",
+          "hinglish": "'تُؤْمِنُوْنَ 'بِاللهِ' وَرَسُولِهِ' ka matlab 'Tum log Allah par aur uske Rasool par iman rakhte ho' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s6l13",
+    "questions": [
+      {
+        "id": "s6l13-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What morphological rule is taught in Muzare Mutakallim (نَـ)?",
+          "ur": "Muzare Mutakallim (نَـ) میں کون سا صَرفی و نحوی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Muzare Mutakallim (نَـ) में कौन सा सरफ़ी व नहवी क़ायदा सिखाया गया है?",
+          "hinglish": "Muzare Mutakallim ('نَـ') mein kaun sa sarfi wa nahwi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transforms the verb into 'نَعْبُدُ'",
+            "Changes word into an inactive noun",
+            "Permanently removes all prefixes",
+            "Replaces the root letters"
+          ],
+          "ur": [
+            "فعل بدل کر 'نَعْبُدُ' بن جاتا ہے",
+            "لفظ کو اسم جامد بنا دیتا ہے",
+            "تمام سابقے مستقل گرا دیتا ہے",
+            "حروف اصلیہ تبدیل کر دیتا ہے"
+          ],
+          "hi": [
+            "फेल बदल कर 'نَعْبُدُ' बन जाता है",
+            "लफ़्ज़ को इस्म जामिद बना देता है",
+            "तमाम साबिक़े मुस्तक़िल गिरा देता है",
+            "हुरूफ़ अस्लिया तब्दील कर देता है"
+          ],
+          "hinglish": [
+            "Fe'l badal kar 'نَعْبُدُ' ban jaata hai",
+            "Lafz ko ism jaamid bana deta hai",
+            "Tamaam saabiqe mustaqil gira deta hai",
+            "Huroof-e-asliyah tabdeel kar deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation creates 'نَعْبُدُ'.",
+          "ur": "گردان کے نتیجے میں 'نَعْبُدُ' بنتا ہے۔",
+          "hi": "गर्दान के नतीजे में 'نَعْبُدُ' बनता है।",
+          "hinglish": "Gardan ke nateeje mein 'نَعْبُدُ' banta hai."
+        }
+      },
+      {
+        "id": "s6l13-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which verb form correctly demonstrates Muzare Mutakallim (نَـ)?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Muzare Mutakallim (نَـ) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Muzare Mutakallim (نَـ) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Muzare Mutakallim ('نَـ') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "نَعْبُدُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "ur": [
+            "نَعْبُدُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hi": [
+            "نَعْبُدُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hinglish": [
+            "نَعْبُدُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ]
+        },
+        "explanation": {
+          "en": "'نَعْبُدُ' correctly represents this verbal pattern.",
+          "ur": "'نَعْبُدُ' اس فعلی سانچے کی درست مثال ہے۔",
+          "hi": "'نَعْبُدُ' इस फेली सांचे की सही मिसाल है।",
+          "hinglish": "'نَعْبُدُ' is fe'li saanche ki sahi misaal hai."
+        }
+      },
+      {
+        "id": "s6l13-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'نَعْبُدُ', identify the base verbal stem:",
+          "ur": "'نَعْبُدُ' کی اصل بنیادی حالت کیا ہے؟",
+          "hi": "'نَعْبُدُ' की असल बुनियादी हालत क्या है?",
+          "hinglish": "'نَعْبُدُ' ki asal bunyadi halat kya hai?"
+        },
+        "options": {
+          "en": [
+            "يَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "ur": [
+            "يَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hi": [
+            "يَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hinglish": [
+            "يَعْبُدُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting verbal form is 'يَعْبُدُ'.",
+          "ur": "اس کی اصل صورت 'يَعْبُدُ' ہے۔",
+          "hi": "इसकी असल सूरत 'يَعْبُدُ' है।",
+          "hinglish": "Iski asal soorat 'يَعْبُدُ' hai."
+        }
+      },
+      {
+        "id": "s6l13-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'وَأَنَّ اللَّهَ/ بِمَا تَعْمَلُونَ/ خَبِيرٌ'?",
+          "ur": "قرآنی لفظ 'وَأَنَّ اللَّهَ/ بِمَا تَعْمَلُونَ/ خَبِيرٌ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'وَأَنَّ اللَّهَ/ بِمَا تَعْمَلُونَ/ خَبِيرٌ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'وَأَنَّ 'اللَّهَ'/ 'بِمَا' تَعْمَلُونَ/ خَبِيرٌ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "And indeed Allah, of what you do, is Acquainted",
+            "And to Allah belongs the heritage of the heavens and the earth, and Allah, of what you do, is Acquainted",
+            "Each running for a specified term, and indeed Allah, of what you do, is Acquainted",
+            "And Allah gives life and causes death, and Allah is Seeing of what you do"
+          ],
+          "ur": [
+            "اور بیشک اللہ اس سے جو تم کرتے ہو باخبر ہے",
+            "اور اللہ ہی کے لیے ہے آسمانوں اور زمین کی میراث اور اللہ اس سے جو تم کرتے ہو باخبر ہے",
+            "ہر ایک چل رہا ہے ایک مقررہ مدت تک اور بیشک اللہ اس سے جو تم کرتے ہو باخبر ہے",
+            "اور اللہ زندہ کرتا ہے اور مارتا ہے اور اللہ اس سے جو تم کرتے ہو خوب دیکھنے والا ہے"
+          ],
+          "hi": [
+            "और बेशक अल्लाह उससे जो तुम करते हो बाख़बर है",
+            "और अल्लाह ही के लिए है आसमानों और ज़मीन की मीरास और अल्लाह उससे जो तुम करते हो बाख़बर है",
+            "हर एक चल रहा है एक मुक़र्ररह मुद्दत तक और बेशक अल्लाह उससे जो तुम करते हो बाख़बर है",
+            "और अल्लाह ज़िंदा करता है और मारता है और अल्लाह उससे जो तुम करते हो खूब देखने वाला है"
+          ],
+          "hinglish": [
+            "Aur beshak Allah us se jo tum karte ho khabardaar hai",
+            "Aur Allah hi ke liye hai aasmanon aur zameen ki meeraas aur Allah us se jo tum karte ho khabardaar hai",
+            "Har ek chal raha hai ek muqarrarah muddat tak aur beshak Allah us se jo tum karte ho khabardaar hai",
+            "Aur Allah zinda karta hai aur maarta hai aur Allah us se jo tum karte ho dekhne wala hai"
+          ]
+        },
+        "explanation": {
+          "en": "'وَأَنَّ اللَّهَ/ بِمَا تَعْمَلُونَ/ خَبِيرٌ' translates to 'And indeed Allah, of what you do, is Acquainted'.",
+          "ur": "'وَأَنَّ اللَّهَ/ بِمَا تَعْمَلُونَ/ خَبِيرٌ' کا معنی 'اور بیشک اللہ اس سے جو تم کرتے ہو باخبر ہے' ہے۔",
+          "hi": "'وَأَنَّ اللَّهَ/ بِمَا تَعْمَلُونَ/ خَبِيرٌ' का मतलब 'और बेशक अल्लाह उससे जो तुम करते हो बाख़बर है' है।",
+          "hinglish": "'وَأَنَّ 'اللَّهَ'/ 'بِمَا' تَعْمَلُونَ/ خَبِيرٌ' ka matlab 'Aur beshak Allah us se jo tum karte ho khabardaar hai' hai."
+        }
+      },
+      {
+        "id": "s6l13-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'وَكَانَ اللَّهُ/ بِمَا تَعْمَلُونَ/ بَصِيرًا'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'وَكَانَ اللَّهُ/ بِمَا تَعْمَلُونَ/ بَصِيرًا'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'وَكَانَ اللَّهُ/ بِمَا تَعْمَلُونَ/ بَصِيرًا'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'وَكَانَ 'اللَّهُ'/ 'بِمَا' تَعْمَلُونَ/ بَصِيرًا'"
+        },
+        "options": {
+          "en": [
+            "And to Allah belongs the heritage of the heavens and the earth, and Allah, of what you do, is Acquainted",
+            "And ever is Allah, of what you do, Seeing",
+            "Each running for a specified term, and indeed Allah, of what you do, is Acquainted",
+            "And Allah gives life and causes death, and Allah is Seeing of what you do"
+          ],
+          "ur": [
+            "اور اللہ ہی کے لیے ہے آسمانوں اور زمین کی میراث اور اللہ اس سے جو تم کرتے ہو باخبر ہے",
+            "اور اللہ اس سے جو تم کرتے ہو خوب دیکھنے والا ہے",
+            "ہر ایک چل رہا ہے ایک مقررہ مدت تک اور بیشک اللہ اس سے جو تم کرتے ہو باخبر ہے",
+            "اور اللہ زندہ کرتا ہے اور مارتا ہے اور اللہ اس سے جو تم کرتے ہو خوب دیکھنے والا ہے"
+          ],
+          "hi": [
+            "और अल्लाह ही के लिए है आसमानों और ज़मीन की मीरास और अल्लाह उससे जो तुम करते हो बाख़बर है",
+            "और अल्लाह उससे जो तुम करते हो खूब देखने वाला है",
+            "हर एक चल रहा है एक मुक़र्ररह मुद्दत तक और बेशक अल्लाह उससे जो तुम करते हो बाख़बर है",
+            "और अल्लाह ज़िंदा करता है और मारता है और अल्लाह उससे जो तुम करते हो खूब देखने वाला है"
+          ],
+          "hinglish": [
+            "Aur Allah hi ke liye hai aasmanon aur zameen ki meeraas aur Allah us se jo tum karte ho khabardaar hai",
+            "Aur Allah us se jo tum karte ho dekhne wala Hai",
+            "Har ek chal raha hai ek muqarrarah muddat tak aur beshak Allah us se jo tum karte ho khabardaar hai",
+            "Aur Allah zinda karta hai aur maarta hai aur Allah us se jo tum karte ho dekhne wala hai"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'وَكَانَ اللَّهُ/ بِمَا تَعْمَلُونَ/ بَصِيرًا' means 'And ever is Allah, of what you do, Seeing'.",
+          "ur": "'وَكَانَ اللَّهُ/ بِمَا تَعْمَلُونَ/ بَصِيرًا' کا مفہوم 'اور اللہ اس سے جو تم کرتے ہو خوب دیکھنے والا ہے' ہے۔",
+          "hi": "'وَكَانَ اللَّهُ/ بِمَا تَعْمَلُونَ/ بَصِيرًا' का मतलब 'और अल्लाह उससे जो तुम करते हो खूब देखने वाला है' है।",
+          "hinglish": "'وَكَانَ 'اللَّهُ'/ 'بِمَا' تَعْمَلُونَ/ بَصِيرًا' ka matlab 'Aur Allah us se jo tum karte ho dekhne wala Hai' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s6l14",
+    "questions": [
+      {
+        "id": "s6l14-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What morphological rule is taught in Fe'l Nahi (لَا تَـ...ـُوا)?",
+          "ur": "Fe'l Nahi (لَا تَـ...ـُوا) میں کون سا صَرفی و نحوی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Fe'l Nahi (لَا تَـ...ـُوا) में कौन सा सरफ़ी व नहवी क़ायदा सिखाया गया है?",
+          "hinglish": "Fe'l Nahi ('لَا' تَـ...'ـُوا') mein kaun sa sarfi wa nahwi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transforms the verb into 'لَا تَقْتُلُوا'",
+            "Changes word into an inactive noun",
+            "Permanently removes all prefixes",
+            "Replaces the root letters"
+          ],
+          "ur": [
+            "فعل بدل کر 'لَا تَقْتُلُوا' بن جاتا ہے",
+            "لفظ کو اسم جامد بنا دیتا ہے",
+            "تمام سابقے مستقل گرا دیتا ہے",
+            "حروف اصلیہ تبدیل کر دیتا ہے"
+          ],
+          "hi": [
+            "फेल बदल कर 'لَا تَقْتُلُوا' बन जाता है",
+            "लफ़्ज़ को इस्म जामिद बना देता है",
+            "तमाम साबिक़े मुस्तक़िल गिरा देता है",
+            "हुरूफ़ अस्लिया तब्दील कर देता है"
+          ],
+          "hinglish": [
+            "Fe'l badal kar 'لَا تَقْتُلُوا' ban jaata hai",
+            "Lafz ko ism jaamid bana deta hai",
+            "Tamaam saabiqe mustaqil gira deta hai",
+            "Huroof-e-asliyah tabdeel kar deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation creates 'لَا تَقْتُلُوا'.",
+          "ur": "گردان کے نتیجے میں 'لَا تَقْتُلُوا' بنتا ہے۔",
+          "hi": "गर्दान के नतीजे में 'لَا تَقْتُلُوا' बनता है।",
+          "hinglish": "Gardan ke nateeje mein 'لَا تَقْتُلُوا' banta hai."
+        }
+      },
+      {
+        "id": "s6l14-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which verb form correctly demonstrates Fe'l Nahi (لَا تَـ...ـُوا)?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Fe'l Nahi (لَا تَـ...ـُوا) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Fe'l Nahi (لَا تَـ...ـُوا) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Fe'l Nahi ('لَا' تَـ...'ـُوا') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "لَا تَقْتُلُوا",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "ur": [
+            "لَا تَقْتُلُوا",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hi": [
+            "لَا تَقْتُلُوا",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hinglish": [
+            "لَا تَقْتُلُوا",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ]
+        },
+        "explanation": {
+          "en": "'لَا تَقْتُلُوا' correctly represents this verbal pattern.",
+          "ur": "'لَا تَقْتُلُوا' اس فعلی سانچے کی درست مثال ہے۔",
+          "hi": "'لَا تَقْتُلُوا' इस फेली सांचे की सही मिसाल है।",
+          "hinglish": "'لَا تَقْتُلُوا' is fe'li saanche ki sahi misaal hai."
+        }
+      },
+      {
+        "id": "s6l14-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'لَا تَقْتُلُوا', identify the base verbal stem:",
+          "ur": "'لَا تَقْتُلُوا' کی اصل بنیادی حالت کیا ہے؟",
+          "hi": "'لَا تَقْتُلُوا' की असल बुनियादी हालत क्या है?",
+          "hinglish": "'لَا تَقْتُلُوا' ki asal bunyadi halat kya hai?"
+        },
+        "options": {
+          "en": [
+            "تَقْتُلُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "ur": [
+            "تَقْتُلُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hi": [
+            "تَقْتُلُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hinglish": [
+            "تَقْتُلُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting verbal form is 'تَقْتُلُونَ'.",
+          "ur": "اس کی اصل صورت 'تَقْتُلُونَ' ہے۔",
+          "hi": "इसकी असल सूरत 'تَقْتُلُونَ' है।",
+          "hinglish": "Iski asal soorat 'تَقْتُلُونَ' hai."
+        }
+      },
+      {
+        "id": "s6l14-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'وَمَا لَكُمْ / لَا تُؤْمِنُونَ بِاللهِ'?",
+          "ur": "قرآنی لفظ 'وَمَا لَكُمْ / لَا تُؤْمِنُونَ بِاللهِ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'وَمَا لَكُمْ / لَا تُؤْمِنُونَ بِاللهِ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'وَمَا 'لَكُمْ' / 'لَا' تُؤْمِنُونَ بِاللهِ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "And what is [the matter] with you that you do not believe in Allah?",
+            "What is [the matter] with you? How do you judge?",
+            "What is [the matter] with you that you do not attribute to Allah [due] grandeur?",
+            "What is [the matter] with you? How do you judge? Then will you not be reminded?"
+          ],
+          "ur": [
+            "اور تمہیں کیا ہوا ہے کہ تم اللہ پر ایمان نہیں لاتے؟",
+            "تمہیں کیا ہوا ہے، تم کیسا فیصلہ کرتے ہو؟",
+            "تمہیں کیا ہوا ہے کہ تم اللہ کی عظمت کا خیال نہیں رکھتے؟",
+            "تمہیں کیا ہوا ہے، تم کیسا فیصلہ کرتے ہو، کیا پھر تم نصیحت حاصل نہیں کرتے؟"
+          ],
+          "hi": [
+            "और तुम्हें क्या हुआ है कि तुम अल्लाह पर ईमान नहीं लाते?",
+            "तुम्हें क्या हुआ है, तुम कैसा फ़ैसला करते हो?",
+            "तुम्हें क्या हुआ है कि तुम अल्लाह की अज़्मत का ख़याल नहीं रखते?",
+            "तुम्हें क्या हुआ है, तुम कैसा फ़ैसला करते हो, क्या फिर तुम नसीहत हासिल नहीं करते?"
+          ],
+          "hinglish": [
+            "Aur tumhein kya hua hai tum Allah par imaan nahin laate",
+            "Tumhein kya hua hai tum kaisa faisla karte ho",
+            "Tumhein kya hua hai tum Allah ki azmat ka khayal nahin rakhte",
+            "Tumhein kya hua hai tum kaisa faisla karte ho kya phir tum naseehat haasil nahin karte"
+          ]
+        },
+        "explanation": {
+          "en": "'وَمَا لَكُمْ / لَا تُؤْمِنُونَ بِاللهِ' translates to 'And what is [the matter] with you that you do not believe in Allah?'.",
+          "ur": "'وَمَا لَكُمْ / لَا تُؤْمِنُونَ بِاللهِ' کا معنی 'اور تمہیں کیا ہوا ہے کہ تم اللہ پر ایمان نہیں لاتے؟' ہے۔",
+          "hi": "'وَمَا لَكُمْ / لَا تُؤْمِنُونَ بِاللهِ' का मतलब 'और तुम्हें क्या हुआ है कि तुम अल्लाह पर ईमान नहीं लाते?' है।",
+          "hinglish": "'وَمَا 'لَكُمْ' / 'لَا' تُؤْمِنُونَ بِاللهِ' ka matlab 'Aur tumhein kya hua hai tum Allah par imaan nahin laate' hai."
+        }
+      },
+      {
+        "id": "s6l14-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'وَمَا لَكُمْ / لَا تُقَاتِلُونَ فِي سَبِيلِ اللهِ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'وَمَا لَكُمْ / لَا تُقَاتِلُونَ فِي سَبِيلِ اللهِ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'وَمَا لَكُمْ / لَا تُقَاتِلُونَ فِي سَبِيلِ اللهِ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'وَمَا 'لَكُمْ' / 'لَا' تُقَاتِلُونَ 'فِي' سَبِيلِ اللهِ'"
+        },
+        "options": {
+          "en": [
+            "What is [the matter] with you? How do you judge?",
+            "And what is [the matter] with you that you fight not in the cause of Allah?",
+            "What is [the matter] with you that you do not attribute to Allah [due] grandeur?",
+            "What is [the matter] with you? How do you judge? Then will you not be reminded?"
+          ],
+          "ur": [
+            "تمہیں کیا ہوا ہے، تم کیسا فیصلہ کرتے ہو؟",
+            "اور تمہیں کیا ہوا ہے کہ تم اللہ کے راستے میں نہیں لڑتے؟",
+            "تمہیں کیا ہوا ہے کہ تم اللہ کی عظمت کا خیال نہیں رکھتے؟",
+            "تمہیں کیا ہوا ہے، تم کیسا فیصلہ کرتے ہو، کیا پھر تم نصیحت حاصل نہیں کرتے؟"
+          ],
+          "hi": [
+            "तुम्हें क्या हुआ है, तुम कैसा फ़ैसला करते हो?",
+            "और तुम्हें क्या हुआ है कि तुम अल्लाह के रास्ते में नहीं लड़ते?",
+            "तुम्हें क्या हुआ है कि तुम अल्लाह की अज़्मत का ख़याल नहीं रखते?",
+            "तुम्हें क्या हुआ है, तुम कैसा फ़ैसला करते हो, क्या फिर तुम नसीहत हासिल नहीं करते?"
+          ],
+          "hinglish": [
+            "Tumhein kya hua hai tum kaisa faisla karte ho",
+            "Aur tumhein kya hua hai tum Allah ke raaste mein nahin larte",
+            "Tumhein kya hua hai tum Allah ki azmat ka khayal nahin rakhte",
+            "Tumhein kya hua hai tum kaisa faisla karte ho kya phir tum naseehat haasil nahin karte"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'وَمَا لَكُمْ / لَا تُقَاتِلُونَ فِي سَبِيلِ اللهِ' means 'And what is [the matter] with you that you fight not in the cause of Allah?'.",
+          "ur": "'وَمَا لَكُمْ / لَا تُقَاتِلُونَ فِي سَبِيلِ اللهِ' کا مفہوم 'اور تمہیں کیا ہوا ہے کہ تم اللہ کے راستے میں نہیں لڑتے؟' ہے۔",
+          "hi": "'وَمَا لَكُمْ / لَا تُقَاتِلُونَ فِي سَبِيلِ اللهِ' का मतलब 'और तुम्हें क्या हुआ है कि तुम अल्लाह के रास्ते में नहीं लड़ते?' है।",
+          "hinglish": "'وَمَا 'لَكُمْ' / 'لَا' تُقَاتِلُونَ 'فِي' سَبِيلِ اللهِ' ka matlab 'Aur tumhein kya hua hai tum Allah ke raaste mein nahin larte' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s6l15",
+    "questions": [
+      {
+        "id": "s6l15-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What morphological rule is taught in Nahi + Zameer?",
+          "ur": "Nahi + Zameer میں کون سا صَرفی و نحوی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Nahi + Zameer में कौन सा सरफ़ी व नहवी क़ायदा सिखाया गया है?",
+          "hinglish": "Nahi + Zameer mein kaun sa sarfi wa nahwi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transforms the verb into 'تَنْصُرُونَهُ'",
+            "Changes word into an inactive noun",
+            "Permanently removes all prefixes",
+            "Replaces the root letters"
+          ],
+          "ur": [
+            "فعل بدل کر 'تَنْصُرُونَهُ' بن جاتا ہے",
+            "لفظ کو اسم جامد بنا دیتا ہے",
+            "تمام سابقے مستقل گرا دیتا ہے",
+            "حروف اصلیہ تبدیل کر دیتا ہے"
+          ],
+          "hi": [
+            "फेल बदल कर 'تَنْصُرُونَهُ' बन जाता है",
+            "लफ़्ज़ को इस्म जामिद बना देता है",
+            "तमाम साबिक़े मुस्तक़िल गिरा देता है",
+            "हुरूफ़ अस्लिया तब्दील कर देता है"
+          ],
+          "hinglish": [
+            "Fe'l badal kar 'تَنْصُرُونَهُ' ban jaata hai",
+            "Lafz ko ism jaamid bana deta hai",
+            "Tamaam saabiqe mustaqil gira deta hai",
+            "Huroof-e-asliyah tabdeel kar deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation creates 'تَنْصُرُونَهُ'.",
+          "ur": "گردان کے نتیجے میں 'تَنْصُرُونَهُ' بنتا ہے۔",
+          "hi": "गर्दान के नतीजे में 'تَنْصُرُونَهُ' बनता है।",
+          "hinglish": "Gardan ke nateeje mein 'تَنْصُرُونَهُ' banta hai."
+        }
+      },
+      {
+        "id": "s6l15-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which verb form correctly demonstrates Nahi + Zameer?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Nahi + Zameer کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Nahi + Zameer की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Nahi + Zameer ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "تَنْصُرُونَهُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "ur": [
+            "تَنْصُرُونَهُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hi": [
+            "تَنْصُرُونَهُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hinglish": [
+            "تَنْصُرُونَهُ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ]
+        },
+        "explanation": {
+          "en": "'تَنْصُرُونَهُ' correctly represents this verbal pattern.",
+          "ur": "'تَنْصُرُونَهُ' اس فعلی سانچے کی درست مثال ہے۔",
+          "hi": "'تَنْصُرُونَهُ' इस फेली सांचे की सही मिसाल है।",
+          "hinglish": "'تَنْصُرُونَهُ' is fe'li saanche ki sahi misaal hai."
+        }
+      },
+      {
+        "id": "s6l15-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'تَنْصُرُونَهُ', identify the base verbal stem:",
+          "ur": "'تَنْصُرُونَهُ' کی اصل بنیادی حالت کیا ہے؟",
+          "hi": "'تَنْصُرُونَهُ' की असल बुनियादी हालत क्या है?",
+          "hinglish": "'تَنْصُرُونَهُ' ki asal bunyadi halat kya hai?"
+        },
+        "options": {
+          "en": [
+            "تَنْصُرُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "ur": [
+            "تَنْصُرُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hi": [
+            "تَنْصُرُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hinglish": [
+            "تَنْصُرُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting verbal form is 'تَنْصُرُونَ'.",
+          "ur": "اس کی اصل صورت 'تَنْصُرُونَ' ہے۔",
+          "hi": "इसकी असल सूरत 'تَنْصُرُونَ' है।",
+          "hinglish": "Iski asal soorat 'تَنْصُرُونَ' hai."
+        }
+      },
+      {
+        "id": "s6l15-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'تَنْصُرُونَ + هُ ← تَنْصُرُونَهُ'?",
+          "ur": "قرآنی لفظ 'تَنْصُرُونَ + هُ ← تَنْصُرُونَهُ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'تَنْصُرُونَ + هُ ← تَنْصُرُونَهُ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'تَنْصُرُونَ + 'هُ' ← تَنْصُرُونَهُ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "You help him",
+            "They help us",
+            "They help you",
+            "They help you [all]"
+          ],
+          "ur": [
+            "تم اس کی مدد کرتے ہو",
+            "وہ ہماری مدد کرتے ہیں",
+            "وہ آپ کی مدد کرتے ہیں",
+            "وہ تم سب کی مدد کرتے ہیں"
+          ],
+          "hi": [
+            "तुम उसकी मदद करते हो",
+            "वह हमारी मदद करते हैं",
+            "वह आपकी मदद करते हैं",
+            "वह तुम सब की मदद करते हैं"
+          ],
+          "hinglish": [
+            "Tum uski madad karte ho",
+            "Wo hamaari madad karte hain",
+            "Wo aap ki madad karte hain",
+            "Wo tum sab ki madad karte hain"
+          ]
+        },
+        "explanation": {
+          "en": "'تَنْصُرُونَ + هُ ← تَنْصُرُونَهُ' translates to 'You help him'.",
+          "ur": "'تَنْصُرُونَ + هُ ← تَنْصُرُونَهُ' کا معنی 'تم اس کی مدد کرتے ہو' ہے۔",
+          "hi": "'تَنْصُرُونَ + هُ ← تَنْصُرُونَهُ' का मतलब 'तुम उसकी मदद करते हो' है।",
+          "hinglish": "'تَنْصُرُونَ + 'هُ' ← تَنْصُرُونَهُ' ka matlab 'Tum uski madad karte ho' hai."
+        }
+      },
+      {
+        "id": "s6l15-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'تَنْصُرُونَ + هُمْ ← تَنْصُرُونَهُمْ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'تَنْصُرُونَ + هُمْ ← تَنْصُرُونَهُمْ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'تَنْصُرُونَ + هُمْ ← تَنْصُرُونَهُمْ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'تَنْصُرُونَ + 'هُمْ' ← تَنْصُرُونَهُمْ'"
+        },
+        "options": {
+          "en": [
+            "They help us",
+            "You help them",
+            "They help you",
+            "They help you [all]"
+          ],
+          "ur": [
+            "وہ ہماری مدد کرتے ہیں",
+            "تم ان کی مدد کرتے ہو",
+            "وہ آپ کی مدد کرتے ہیں",
+            "وہ تم سب کی مدد کرتے ہیں"
+          ],
+          "hi": [
+            "वह हमारी मदद करते हैं",
+            "तुम उनकी मदद करते हो",
+            "वह आपकी मदद करते हैं",
+            "वह तुम सब की मदद करते हैं"
+          ],
+          "hinglish": [
+            "Wo hamaari madad karte hain",
+            "Tum unki madad karte ho",
+            "Wo aap ki madad karte hain",
+            "Wo tum sab ki madad karte hain"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'تَنْصُرُونَ + هُمْ ← تَنْصُرُونَهُمْ' means 'You help them'.",
+          "ur": "'تَنْصُرُونَ + هُمْ ← تَنْصُرُونَهُمْ' کا مفہوم 'تم ان کی مدد کرتے ہو' ہے۔",
+          "hi": "'تَنْصُرُونَ + هُمْ ← تَنْصُرُونَهُمْ' का मतलब 'तुम उनकी मदद करते हो' है।",
+          "hinglish": "'تَنْصُرُونَ + 'هُمْ' ← تَنْصُرُونَهُمْ' ka matlab 'Tum unki madad karte ho' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s6l16",
+    "questions": [
+      {
+        "id": "s6l16-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What morphological rule is taught in Lan Naasibah (لَنْ)?",
+          "ur": "Lan Naasibah (لَنْ) میں کون سا صَرفی و نحوی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Lan Naasibah (لَنْ) में कौन सा सरफ़ी व नहवी क़ायदा सिखाया गया है?",
+          "hinglish": "Lan Naasibah ('لَنْ') mein kaun sa sarfi wa nahwi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transforms the verb into 'لَنْ تَنَالُوا'",
+            "Changes word into an inactive noun",
+            "Permanently removes all prefixes",
+            "Replaces the root letters"
+          ],
+          "ur": [
+            "فعل بدل کر 'لَنْ تَنَالُوا' بن جاتا ہے",
+            "لفظ کو اسم جامد بنا دیتا ہے",
+            "تمام سابقے مستقل گرا دیتا ہے",
+            "حروف اصلیہ تبدیل کر دیتا ہے"
+          ],
+          "hi": [
+            "फेल बदल कर 'لَنْ تَنَالُوا' बन जाता है",
+            "लफ़्ज़ को इस्म जामिद बना देता है",
+            "तमाम साबिक़े मुस्तक़िल गिरा देता है",
+            "हुरूफ़ अस्लिया तब्दील कर देता है"
+          ],
+          "hinglish": [
+            "Fe'l badal kar 'لَنْ تَنَالُوا' ban jaata hai",
+            "Lafz ko ism jaamid bana deta hai",
+            "Tamaam saabiqe mustaqil gira deta hai",
+            "Huroof-e-asliyah tabdeel kar deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation creates 'لَنْ تَنَالُوا'.",
+          "ur": "گردان کے نتیجے میں 'لَنْ تَنَالُوا' بنتا ہے۔",
+          "hi": "गर्दान के नतीजे में 'لَنْ تَنَالُوا' बनता है।",
+          "hinglish": "Gardan ke nateeje mein 'لَنْ تَنَالُوا' banta hai."
+        }
+      },
+      {
+        "id": "s6l16-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which verb form correctly demonstrates Lan Naasibah (لَنْ)?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Lan Naasibah (لَنْ) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Lan Naasibah (لَنْ) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Lan Naasibah ('لَنْ') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "لَنْ تَنَالُوا",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "ur": [
+            "لَنْ تَنَالُوا",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hi": [
+            "لَنْ تَنَالُوا",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hinglish": [
+            "لَنْ تَنَالُوا",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ]
+        },
+        "explanation": {
+          "en": "'لَنْ تَنَالُوا' correctly represents this verbal pattern.",
+          "ur": "'لَنْ تَنَالُوا' اس فعلی سانچے کی درست مثال ہے۔",
+          "hi": "'لَنْ تَنَالُوا' इस फेली सांचे की सही मिसाल है।",
+          "hinglish": "'لَنْ تَنَالُوا' is fe'li saanche ki sahi misaal hai."
+        }
+      },
+      {
+        "id": "s6l16-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'لَنْ تَنَالُوا', identify the base verbal stem:",
+          "ur": "'لَنْ تَنَالُوا' کی اصل بنیادی حالت کیا ہے؟",
+          "hi": "'لَنْ تَنَالُوا' की असल बुनियादी हालत क्या है?",
+          "hinglish": "'لَنْ تَنَالُوا' ki asal bunyadi halat kya hai?"
+        },
+        "options": {
+          "en": [
+            "تَنَالُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "ur": [
+            "تَنَالُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hi": [
+            "تَنَالُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hinglish": [
+            "تَنَالُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting verbal form is 'تَنَالُونَ'.",
+          "ur": "اس کی اصل صورت 'تَنَالُونَ' ہے۔",
+          "hi": "इसकी असल सूरत 'تَنَالُونَ' है।",
+          "hinglish": "Iski asal soorat 'تَنَالُونَ' hai."
+        }
+      },
+      {
+        "id": "s6l16-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'تَنَالُوا ← لَنْ تَنَالُوا'?",
+          "ur": "قرآنی لفظ 'تَنَالُوا ← لَنْ تَنَالُوا' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'تَنَالُوا ← لَنْ تَنَالُوا' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'تَنَالُوا ← 'لَنْ' تَنَالُوا' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "You will not attain -> You will never attain",
+            "He will never frustrate [Allah's plan]",
+            "He will never fail",
+            "He will never forgive"
+          ],
+          "ur": [
+            "تم نہیں پاؤ گے ← تم ہرگز نہیں پاؤ گے",
+            "وہ ہرگز عاجز نہیں کرے گا",
+            "وہ ہرگز خلاف نہیں کرے گا",
+            "وہ ہرگز معاف نہیں کرے گا"
+          ],
+          "hi": [
+            "तुम नहीं पाओगे -> तुम हरगिज़ नहीं पाओगे",
+            "वह हरगिज़ आजिज़ नहीं करेगा",
+            "वह हरगिज़ ख़िलाफ़ नहीं करेगा",
+            "वह हरगिज़ माफ़ नहीं करेगा"
+          ],
+          "hinglish": [
+            "Tum nahi paoge -> Tum hargiz nahi paoge",
+            "Wo hargiz aajiz nahi karega",
+            "Wo hargiz khilaf nahi karega",
+            "Wo hargiz maaf nahi karega"
+          ]
+        },
+        "explanation": {
+          "en": "'تَنَالُوا ← لَنْ تَنَالُوا' translates to 'You will not attain -> You will never attain'.",
+          "ur": "'تَنَالُوا ← لَنْ تَنَالُوا' کا معنی 'تم نہیں پاؤ گے ← تم ہرگز نہیں پاؤ گے' ہے۔",
+          "hi": "'تَنَالُوا ← لَنْ تَنَالُوا' का मतलब 'तुम नहीं पाओगे -> तुम हरगिज़ नहीं पाओगे' है।",
+          "hinglish": "'تَنَالُوا ← 'لَنْ' تَنَالُوا' ka matlab 'Tum nahi paoge -> Tum hargiz nahi paoge' hai."
+        }
+      },
+      {
+        "id": "s6l16-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'تَكُونُوا ← لَنْ تَكُونُوا'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'تَكُونُوا ← لَنْ تَكُونُوا'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'تَكُونُوا ← لَنْ تَكُونُوا'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'تَكُونُوا ← 'لَنْ' تَكُونُوا'"
+        },
+        "options": {
+          "en": [
+            "He will never frustrate [Allah's plan]",
+            "You will not be -> You will never be",
+            "He will never fail",
+            "He will never forgive"
+          ],
+          "ur": [
+            "وہ ہرگز عاجز نہیں کرے گا",
+            "تم نہیں ہو گے ← تم ہرگز نہیں ہو گے",
+            "وہ ہرگز خلاف نہیں کرے گا",
+            "وہ ہرگز معاف نہیں کرے گا"
+          ],
+          "hi": [
+            "वह हरगिज़ आजिज़ नहीं करेगा",
+            "तुम नहीं होगे -> तुम हरगिज़ नहीं होगे",
+            "वह हरगिज़ ख़िलाफ़ नहीं करेगा",
+            "वह हरगिज़ माफ़ नहीं करेगा"
+          ],
+          "hinglish": [
+            "Wo hargiz aajiz nahi karega",
+            "Tum nahi hoge -> Tum hargiz nahi hoge",
+            "Wo hargiz khilaf nahi karega",
+            "Wo hargiz maaf nahi karega"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'تَكُونُوا ← لَنْ تَكُونُوا' means 'You will not be -> You will never be'.",
+          "ur": "'تَكُونُوا ← لَنْ تَكُونُوا' کا مفہوم 'تم نہیں ہو گے ← تم ہرگز نہیں ہو گے' ہے۔",
+          "hi": "'تَكُونُوا ← لَنْ تَكُونُوا' का मतलब 'तुम नहीं होगे -> तुम हरगिज़ नहीं होगे' है।",
+          "hinglish": "'تَكُونُوا ← 'لَنْ' تَكُونُوا' ka matlab 'Tum nahi hoge -> Tum hargiz nahi hoge' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s6l17",
+    "questions": [
+      {
+        "id": "s6l17-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What morphological rule is taught in An Naasibah (أَنْ)?",
+          "ur": "An Naasibah (أَنْ) میں کون سا صَرفی و نحوی قاعدہ سکھایا گیا ہے؟",
+          "hi": "An Naasibah (أَنْ) में कौन सा सरफ़ी व नहवी क़ायदा सिखाया गया है?",
+          "hinglish": "An Naasibah ('أَنْ') mein kaun sa sarfi wa nahwi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transforms the verb into 'أَنْ يَتُوبَ'",
+            "Changes word into an inactive noun",
+            "Permanently removes all prefixes",
+            "Replaces the root letters"
+          ],
+          "ur": [
+            "فعل بدل کر 'أَنْ يَتُوبَ' بن جاتا ہے",
+            "لفظ کو اسم جامد بنا دیتا ہے",
+            "تمام سابقے مستقل گرا دیتا ہے",
+            "حروف اصلیہ تبدیل کر دیتا ہے"
+          ],
+          "hi": [
+            "फेल बदल कर 'أَنْ يَتُوبَ' बन जाता है",
+            "लफ़्ज़ को इस्म जामिद बना देता है",
+            "तमाम साबिक़े मुस्तक़िल गिरा देता है",
+            "हुरूफ़ अस्लिया तब्दील कर देता है"
+          ],
+          "hinglish": [
+            "Fe'l badal kar 'أَنْ يَتُوبَ' ban jaata hai",
+            "Lafz ko ism jaamid bana deta hai",
+            "Tamaam saabiqe mustaqil gira deta hai",
+            "Huroof-e-asliyah tabdeel kar deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation creates 'أَنْ يَتُوبَ'.",
+          "ur": "گردان کے نتیجے میں 'أَنْ يَتُوبَ' بنتا ہے۔",
+          "hi": "गर्दान के नतीजे में 'أَنْ يَتُوبَ' बनता है।",
+          "hinglish": "Gardan ke nateeje mein 'أَنْ يَتُوبَ' banta hai."
+        }
+      },
+      {
+        "id": "s6l17-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which verb form correctly demonstrates An Naasibah (أَنْ)?",
+          "ur": "درج ذیل میں سے کون سا صیغہ An Naasibah (أَنْ) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा An Naasibah (أَنْ) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha An Naasibah ('أَنْ') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "أَنْ يَتُوبَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "ur": [
+            "أَنْ يَتُوبَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hi": [
+            "أَنْ يَتُوبَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hinglish": [
+            "أَنْ يَتُوبَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ]
+        },
+        "explanation": {
+          "en": "'أَنْ يَتُوبَ' correctly represents this verbal pattern.",
+          "ur": "'أَنْ يَتُوبَ' اس فعلی سانچے کی درست مثال ہے۔",
+          "hi": "'أَنْ يَتُوبَ' इस फेली सांचे की सही मिसाल है।",
+          "hinglish": "'أَنْ يَتُوبَ' is fe'li saanche ki sahi misaal hai."
+        }
+      },
+      {
+        "id": "s6l17-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'أَنْ يَتُوبَ', identify the base verbal stem:",
+          "ur": "'أَنْ يَتُوبَ' کی اصل بنیادی حالت کیا ہے؟",
+          "hi": "'أَنْ يَتُوبَ' की असल बुनियादी हालत क्या है?",
+          "hinglish": "'أَنْ يَتُوبَ' ki asal bunyadi halat kya hai?"
+        },
+        "options": {
+          "en": [
+            "يَتُوبُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "ur": [
+            "يَتُوبُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hi": [
+            "يَتُوبُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hinglish": [
+            "يَتُوبُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting verbal form is 'يَتُوبُ'.",
+          "ur": "اس کی اصل صورت 'يَتُوبُ' ہے۔",
+          "hi": "इसकी असल सूरत 'يَتُوبُ' है।",
+          "hinglish": "Iski asal soorat 'يَتُوبُ' hai."
+        }
+      },
+      {
+        "id": "s6l17-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'یَغْفِرُ ← أَنْ یَغْفِرَ'?",
+          "ur": "قرآنی لفظ 'یَغْفِرُ ← أَنْ یَغْفِرَ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'یَغْفِرُ ← أَنْ یَغْفِرَ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'یَغْفِرُ ← 'أَنْ' یَغْفِرَ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "He forgives -> That he forgive",
+            "It is -> That it be",
+            "That he repent -> Perhaps he will accept repentance",
+            "It is not befitting for Allah that He should take a son"
+          ],
+          "ur": [
+            "وہ معاف کرتا ہے ← کہ وہ معاف کرے",
+            "وہ ہوتا ہے ← کہ وہ ہو",
+            "کہ وہ توبہ کرے ← قریب ہے کہ وہ توبہ قبول کرے",
+            "اللہ کی شایانِ شان نہیں کہ وہ کسی کو بیٹا بنائے"
+          ],
+          "hi": [
+            "वह माफ़ करता है -> कि वह माफ़ करे",
+            "वह होता है -> कि वह हो",
+            "कि वह तौबा करे -> क़रीब है कि वह तौबा क़बूल करे",
+            "अल्लाह के शायाने-शान नहीं कि वह किसी को बेटा बनाए"
+          ],
+          "hinglish": [
+            "Wo maaf karta hai -> Ke wo maaf kare",
+            "Wo hota hai -> Ke wo ho",
+            "Ke wo tauba kare -> Kareeb hai ke wo tauba kabool kare",
+            "Allah ke shayan-e-shan nahi tha ke wo kisi ko beta banaye"
+          ]
+        },
+        "explanation": {
+          "en": "'یَغْفِرُ ← أَنْ یَغْفِرَ' translates to 'He forgives -> That he forgive'.",
+          "ur": "'یَغْفِرُ ← أَنْ یَغْفِرَ' کا معنی 'وہ معاف کرتا ہے ← کہ وہ معاف کرے' ہے۔",
+          "hi": "'یَغْفِرُ ← أَنْ یَغْفِرَ' का मतलब 'वह माफ़ करता है -> कि वह माफ़ करे' है।",
+          "hinglish": "'یَغْفِرُ ← 'أَنْ' یَغْفِرَ' ka matlab 'Wo maaf karta hai -> Ke wo maaf kare' hai."
+        }
+      },
+      {
+        "id": "s6l17-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'یَأْكُلُ ← أَنْ یَأْكُلَ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'یَأْكُلُ ← أَنْ یَأْكُلَ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'یَأْكُلُ ← أَنْ یَأْكُلَ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'یَأْكُلُ ← 'أَنْ' یَأْكُلَ'"
+        },
+        "options": {
+          "en": [
+            "It is -> That it be",
+            "He eats -> That he eat",
+            "That he repent -> Perhaps he will accept repentance",
+            "It is not befitting for Allah that He should take a son"
+          ],
+          "ur": [
+            "وہ ہوتا ہے ← کہ وہ ہو",
+            "وہ کھاتا ہے ← کہ وہ کھائے",
+            "کہ وہ توبہ کرے ← قریب ہے کہ وہ توبہ قبول کرے",
+            "اللہ کی شایانِ شان نہیں کہ وہ کسی کو بیٹا بنائے"
+          ],
+          "hi": [
+            "वह होता है -> कि वह हो",
+            "वह खाता है -> कि वह खाए",
+            "कि वह तौबा करे -> क़रीब है कि वह तौबा क़बूल करे",
+            "अल्लाह के शायाने-शान नहीं कि वह किसी को बेटा बनाए"
+          ],
+          "hinglish": [
+            "Wo hota hai -> Ke wo ho",
+            "Wo khata hai -> Ke wo khaye",
+            "Ke wo tauba kare -> Kareeb hai ke wo tauba kabool kare",
+            "Allah ke shayan-e-shan nahi tha ke wo kisi ko beta banaye"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'یَأْكُلُ ← أَنْ یَأْكُلَ' means 'He eats -> That he eat'.",
+          "ur": "'یَأْكُلُ ← أَنْ یَأْكُلَ' کا مفہوم 'وہ کھاتا ہے ← کہ وہ کھائے' ہے۔",
+          "hi": "'یَأْكُلُ ← أَنْ یَأْكُلَ' का मतलब 'वह खाता है -> कि वह खाए' है।",
+          "hinglish": "'یَأْكُلُ ← 'أَنْ' یَأْكُلَ' ka matlab 'Wo khata hai -> Ke wo khaye' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s6l18",
+    "questions": [
+      {
+        "id": "s6l18-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What morphological rule is taught in Laam Ta'leel (لِـ)?",
+          "ur": "Laam Ta'leel (لِـ) میں کون سا صَرفی و نحوی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Laam Ta'leel (لِـ) में कौन सा सरफ़ी व नहवी क़ायदा सिखाया गया है?",
+          "hinglish": "Laam Ta'leel ('لِـ') mein kaun sa sarfi wa nahwi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transforms the verb into 'لِيَغْفِرَ'",
+            "Changes word into an inactive noun",
+            "Permanently removes all prefixes",
+            "Replaces the root letters"
+          ],
+          "ur": [
+            "فعل بدل کر 'لِيَغْفِرَ' بن جاتا ہے",
+            "لفظ کو اسم جامد بنا دیتا ہے",
+            "تمام سابقے مستقل گرا دیتا ہے",
+            "حروف اصلیہ تبدیل کر دیتا ہے"
+          ],
+          "hi": [
+            "फेल बदल कर 'لِيَغْفِرَ' बन जाता है",
+            "लफ़्ज़ को इस्म जामिद बना देता है",
+            "तमाम साबिक़े मुस्तक़िल गिरा देता है",
+            "हुरूफ़ अस्लिया तब्दील कर देता है"
+          ],
+          "hinglish": [
+            "Fe'l badal kar 'لِيَغْفِرَ' ban jaata hai",
+            "Lafz ko ism jaamid bana deta hai",
+            "Tamaam saabiqe mustaqil gira deta hai",
+            "Huroof-e-asliyah tabdeel kar deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation creates 'لِيَغْفِرَ'.",
+          "ur": "گردان کے نتیجے میں 'لِيَغْفِرَ' بنتا ہے۔",
+          "hi": "गर्दान के नतीजे में 'لِيَغْفِرَ' बनता है।",
+          "hinglish": "Gardan ke nateeje mein 'لِيَغْفِرَ' banta hai."
+        }
+      },
+      {
+        "id": "s6l18-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which verb form correctly demonstrates Laam Ta'leel (لِـ)?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Laam Ta'leel (لِـ) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Laam Ta'leel (لِـ) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Laam Ta'leel ('لِـ') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "لِيَغْفِرَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "ur": [
+            "لِيَغْفِرَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hi": [
+            "لِيَغْفِرَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hinglish": [
+            "لِيَغْفِرَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ]
+        },
+        "explanation": {
+          "en": "'لِيَغْفِرَ' correctly represents this verbal pattern.",
+          "ur": "'لِيَغْفِرَ' اس فعلی سانچے کی درست مثال ہے۔",
+          "hi": "'لِيَغْفِرَ' इस फेली सांचे की सही मिसाल है।",
+          "hinglish": "'لِيَغْفِرَ' is fe'li saanche ki sahi misaal hai."
+        }
+      },
+      {
+        "id": "s6l18-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'لِيَغْفِرَ', identify the base verbal stem:",
+          "ur": "'لِيَغْفِرَ' کی اصل بنیادی حالت کیا ہے؟",
+          "hi": "'لِيَغْفِرَ' की असल बुनियादी हालत क्या है?",
+          "hinglish": "'لِيَغْفِرَ' ki asal bunyadi halat kya hai?"
+        },
+        "options": {
+          "en": [
+            "يَغْفِرُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "ur": [
+            "يَغْفِرُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hi": [
+            "يَغْفِرُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hinglish": [
+            "يَغْفِرُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting verbal form is 'يَغْفِرُ'.",
+          "ur": "اس کی اصل صورت 'يَغْفِرُ' ہے۔",
+          "hi": "इसकी असल सूरत 'يَغْفِرُ' है।",
+          "hinglish": "Iski asal soorat 'يَغْفِرُ' hai."
+        }
+      },
+      {
+        "id": "s6l18-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'یَجْعَلُ ← لِیَجْعَلَ'?",
+          "ur": "قرآنی لفظ 'یَجْعَلُ ← لِیَجْعَلَ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'یَجْعَلُ ← لِیَجْعَلَ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'یَجْعَلُ ← لِیَجْعَلَ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "He makes -> So that he make",
+            "So that He may reward",
+            "So that He may make clear",
+            "So that He may forgive"
+          ],
+          "ur": [
+            "وہ بناتا ہے ← تاکہ وہ بنائے",
+            "تاکہ وہ بدلہ دے",
+            "تاکہ وہ بیان کرے",
+            "تاکہ وہ معاف کرے"
+          ],
+          "hi": [
+            "वह बनाता है -> ताकि वह बनाए",
+            "ताकि वह बदला दे",
+            "ताकि वह बयान करे",
+            "ताकि वह माफ़ करे"
+          ],
+          "hinglish": [
+            "Wo banata hai -> Taake wo banaye",
+            "Taake wo badla de",
+            "Taake wo bayan kare",
+            "Taake wo maaf kare"
+          ]
+        },
+        "explanation": {
+          "en": "'یَجْعَلُ ← لِیَجْعَلَ' translates to 'He makes -> So that he make'.",
+          "ur": "'یَجْعَلُ ← لِیَجْعَلَ' کا معنی 'وہ بناتا ہے ← تاکہ وہ بنائے' ہے۔",
+          "hi": "'یَجْعَلُ ← لِیَجْعَلَ' का मतलब 'वह बनाता है -> ताकि वह बनाए' है।",
+          "hinglish": "'یَجْعَلُ ← لِیَجْعَلَ' ka matlab 'Wo banata hai -> Taake wo banaye' hai."
+        }
+      },
+      {
+        "id": "s6l18-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'یَكُونُ ← لِیَكُونَ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'یَكُونُ ← لِیَكُونَ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'یَكُونُ ← لِیَكُونَ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'یَكُونُ ← لِیَكُونَ'"
+        },
+        "options": {
+          "en": [
+            "So that He may reward",
+            "He is -> So that he may become",
+            "So that He may make clear",
+            "So that He may forgive"
+          ],
+          "ur": [
+            "تاکہ وہ بدلہ دے",
+            "وہ ہوتا ہے ← تاکہ وہ ہو جائے",
+            "تاکہ وہ بیان کرے",
+            "تاکہ وہ معاف کرے"
+          ],
+          "hi": [
+            "ताकि वह बदला दे",
+            "वह होता है -> ताकि वह हो जाए",
+            "ताकि वह बयान करे",
+            "ताकि वह माफ़ करे"
+          ],
+          "hinglish": [
+            "Taake wo badla de",
+            "Wo hota hai -> Taake wo ho jaye",
+            "Taake wo bayan kare",
+            "Taake wo maaf kare"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'یَكُونُ ← لِیَكُونَ' means 'He is -> So that he may become'.",
+          "ur": "'یَكُونُ ← لِیَكُونَ' کا مفہوم 'وہ ہوتا ہے ← تاکہ وہ ہو جائے' ہے۔",
+          "hi": "'یَكُونُ ← لِیَكُونَ' का मतलब 'वह होता है -> ताकि वह हो जाए' है।",
+          "hinglish": "'یَكُونُ ← لِیَكُونَ' ka matlab 'Wo hota hai -> Taake wo ho jaye' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s6l19",
+    "questions": [
+      {
+        "id": "s6l19-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What morphological rule is taught in Lam Jaazimah (لَمْ)?",
+          "ur": "Lam Jaazimah (لَمْ) میں کون سا صَرفی و نحوی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Lam Jaazimah (لَمْ) में कौन सा सरफ़ी व नहवी क़ायदा सिखाया गया है?",
+          "hinglish": "Lam Jaazimah ('لَمْ') mein kaun sa sarfi wa nahwi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transforms the verb into 'لَمْ يَجْعَلْ'",
+            "Changes word into an inactive noun",
+            "Permanently removes all prefixes",
+            "Replaces the root letters"
+          ],
+          "ur": [
+            "فعل بدل کر 'لَمْ يَجْعَلْ' بن جاتا ہے",
+            "لفظ کو اسم جامد بنا دیتا ہے",
+            "تمام سابقے مستقل گرا دیتا ہے",
+            "حروف اصلیہ تبدیل کر دیتا ہے"
+          ],
+          "hi": [
+            "फेल बदल कर 'لَمْ يَجْعَلْ' बन जाता है",
+            "लफ़्ज़ को इस्म जामिद बना देता है",
+            "तमाम साबिक़े मुस्तक़िल गिरा देता है",
+            "हुरूफ़ अस्लिया तब्दील कर देता है"
+          ],
+          "hinglish": [
+            "Fe'l badal kar 'لَمْ يَجْعَلْ' ban jaata hai",
+            "Lafz ko ism jaamid bana deta hai",
+            "Tamaam saabiqe mustaqil gira deta hai",
+            "Huroof-e-asliyah tabdeel kar deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation creates 'لَمْ يَجْعَلْ'.",
+          "ur": "گردان کے نتیجے میں 'لَمْ يَجْعَلْ' بنتا ہے۔",
+          "hi": "गर्दान के नतीजे में 'لَمْ يَجْعَلْ' बनता है।",
+          "hinglish": "Gardan ke nateeje mein 'لَمْ يَجْعَلْ' banta hai."
+        }
+      },
+      {
+        "id": "s6l19-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which verb form correctly demonstrates Lam Jaazimah (لَمْ)?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Lam Jaazimah (لَمْ) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Lam Jaazimah (لَمْ) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Lam Jaazimah ('لَمْ') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "لَمْ يَجْعَلْ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "ur": [
+            "لَمْ يَجْعَلْ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hi": [
+            "لَمْ يَجْعَلْ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hinglish": [
+            "لَمْ يَجْعَلْ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ]
+        },
+        "explanation": {
+          "en": "'لَمْ يَجْعَلْ' correctly represents this verbal pattern.",
+          "ur": "'لَمْ يَجْعَلْ' اس فعلی سانچے کی درست مثال ہے۔",
+          "hi": "'لَمْ يَجْعَلْ' इस फेली सांचे की सही मिसाल है।",
+          "hinglish": "'لَمْ يَجْعَلْ' is fe'li saanche ki sahi misaal hai."
+        }
+      },
+      {
+        "id": "s6l19-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'لَمْ يَجْعَلْ', identify the base verbal stem:",
+          "ur": "'لَمْ يَجْعَلْ' کی اصل بنیادی حالت کیا ہے؟",
+          "hi": "'لَمْ يَجْعَلْ' की असल बुनियादी हालत क्या है?",
+          "hinglish": "'لَمْ يَجْعَلْ' ki asal bunyadi halat kya hai?"
+        },
+        "options": {
+          "en": [
+            "يَجْعَلُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "ur": [
+            "يَجْعَلُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hi": [
+            "يَجْعَلُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hinglish": [
+            "يَجْعَلُ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting verbal form is 'يَجْعَلُ'.",
+          "ur": "اس کی اصل صورت 'يَجْعَلُ' ہے۔",
+          "hi": "इसकी असल सूरत 'يَجْعَلُ' है।",
+          "hinglish": "Iski asal soorat 'يَجْعَلُ' hai."
+        }
+      },
+      {
+        "id": "s6l19-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'یُؤْمِنُ ← لَمْ یُؤْمِنْ'?",
+          "ur": "قرآنی لفظ 'یُؤْمِنُ ← لَمْ یُؤْمِنْ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'یُؤْمِنُ ← لَمْ یُؤْمِنْ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'یُؤْمِنُ ← 'لَمْ' یُؤْمِنْ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "He believes -> He did not believe",
+            "He did not know -> Did he not know?",
+            "He did not find -> Whoever does not find",
+            "He did not know"
+          ],
+          "ur": [
+            "وہ ایمان لاتا ہے ← اس نے ایمان نہیں لایا",
+            "اس نے نہیں جانا ← کیا اس نے نہیں جانا؟",
+            "اس نے نہیں پایا ← جس نے نہیں پایا",
+            "اس نے نہیں جانا"
+          ],
+          "hi": [
+            "वह ईमान लाता है -> उसने ईमान नहीं लाया",
+            "उसने नहीं जाना -> क्या उसने नहीं जाना?",
+            "उसने नहीं पाया -> जिसने नहीं पाया",
+            "उसने नहीं जाना"
+          ],
+          "hinglish": [
+            "Wo imaan lata hai -> Us ne imaan nahi laya",
+            "Us ne nahi jana -> Kya us ne nahi jana",
+            "Us ne nahi paaya -> Jiss ne nahi paaya",
+            "Us ne nahi jana"
+          ]
+        },
+        "explanation": {
+          "en": "'یُؤْمِنُ ← لَمْ یُؤْمِنْ' translates to 'He believes -> He did not believe'.",
+          "ur": "'یُؤْمِنُ ← لَمْ یُؤْمِنْ' کا معنی 'وہ ایمان لاتا ہے ← اس نے ایمان نہیں لایا' ہے۔",
+          "hi": "'یُؤْمِنُ ← لَمْ یُؤْمِنْ' का मतलब 'वह ईमान लाता है -> उसने ईमान नहीं लाया' है।",
+          "hinglish": "'یُؤْمِنُ ← 'لَمْ' یُؤْمِنْ' ka matlab 'Wo imaan lata hai -> Us ne imaan nahi laya' hai."
+        }
+      },
+      {
+        "id": "s6l19-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'یُنَزِّلُ ← لَمْ یُنَزِّلْ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'یُنَزِّلُ ← لَمْ یُنَزِّلْ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'یُنَزِّلُ ← لَمْ یُنَزِّلْ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'یُنَزِّلُ ← 'لَمْ' یُنَزِّلْ'"
+        },
+        "options": {
+          "en": [
+            "He did not know -> Did he not know?",
+            "He sends down -> He did not send down",
+            "He did not find -> Whoever does not find",
+            "He did not know"
+          ],
+          "ur": [
+            "اس نے نہیں جانا ← کیا اس نے نہیں جانا؟",
+            "وہ نازل کرتا ہے ← اس نے نازل نہیں کیا",
+            "اس نے نہیں پایا ← جس نے نہیں پایا",
+            "اس نے نہیں جانا"
+          ],
+          "hi": [
+            "उसने नहीं जाना -> क्या उसने नहीं जाना?",
+            "वह नाज़िल करता है -> उसने नाज़िल नहीं किया",
+            "उसने नहीं पाया -> जिसने नहीं पाया",
+            "उसने नहीं जाना"
+          ],
+          "hinglish": [
+            "Us ne nahi jana -> Kya us ne nahi jana",
+            "Wo nazil karta hai -> Us ne nazil nahi kiya",
+            "Us ne nahi paaya -> Jiss ne nahi paaya",
+            "Us ne nahi jana"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'یُنَزِّلُ ← لَمْ یُنَزِّلْ' means 'He sends down -> He did not send down'.",
+          "ur": "'یُنَزِّلُ ← لَمْ یُنَزِّلْ' کا مفہوم 'وہ نازل کرتا ہے ← اس نے نازل نہیں کیا' ہے۔",
+          "hi": "'یُنَزِّلُ ← لَمْ یُنَزِّلْ' का मतलब 'वह नाज़िल करता है -> उसने नाज़िल नहीं किया' है।",
+          "hinglish": "'یُنَزِّلُ ← 'لَمْ' یُنَزِّلْ' ka matlab 'Wo nazil karta hai -> Us ne nazil nahi kiya' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s6l20",
+    "questions": [
+      {
+        "id": "s6l20-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What morphological rule is taught in Muzare + Ka?",
+          "ur": "Muzare + Ka میں کون سا صَرفی و نحوی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Muzare + Ka में कौन सा सरफ़ी व नहवी क़ायदा सिखाया गया है?",
+          "hinglish": "Muzare + Ka mein kaun sa sarfi wa nahwi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transforms the verb into 'يَسْأَلُونَكَ'",
+            "Changes word into an inactive noun",
+            "Permanently removes all prefixes",
+            "Replaces the root letters"
+          ],
+          "ur": [
+            "فعل بدل کر 'يَسْأَلُونَكَ' بن جاتا ہے",
+            "لفظ کو اسم جامد بنا دیتا ہے",
+            "تمام سابقے مستقل گرا دیتا ہے",
+            "حروف اصلیہ تبدیل کر دیتا ہے"
+          ],
+          "hi": [
+            "फेल बदल कर 'يَسْأَلُونَكَ' बन जाता है",
+            "लफ़्ज़ को इस्म जामिद बना देता है",
+            "तमाम साबिक़े मुस्तक़िल गिरा देता है",
+            "हुरूफ़ अस्लिया तब्दील कर देता है"
+          ],
+          "hinglish": [
+            "Fe'l badal kar 'يَسْأَلُونَكَ' ban jaata hai",
+            "Lafz ko ism jaamid bana deta hai",
+            "Tamaam saabiqe mustaqil gira deta hai",
+            "Huroof-e-asliyah tabdeel kar deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation creates 'يَسْأَلُونَكَ'.",
+          "ur": "گردان کے نتیجے میں 'يَسْأَلُونَكَ' بنتا ہے۔",
+          "hi": "गर्दान के नतीजे में 'يَسْأَلُونَكَ' बनता है।",
+          "hinglish": "Gardan ke nateeje mein 'يَسْأَلُونَكَ' banta hai."
+        }
+      },
+      {
+        "id": "s6l20-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which verb form correctly demonstrates Muzare + Ka?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Muzare + Ka کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Muzare + Ka की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Muzare + Ka ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "يَسْأَلُونَكَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "ur": [
+            "يَسْأَلُونَكَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hi": [
+            "يَسْأَلُونَكَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hinglish": [
+            "يَسْأَلُونَكَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ]
+        },
+        "explanation": {
+          "en": "'يَسْأَلُونَكَ' correctly represents this verbal pattern.",
+          "ur": "'يَسْأَلُونَكَ' اس فعلی سانچے کی درست مثال ہے۔",
+          "hi": "'يَسْأَلُونَكَ' इस फेली सांचे की सही मिसाल है।",
+          "hinglish": "'يَسْأَلُونَكَ' is fe'li saanche ki sahi misaal hai."
+        }
+      },
+      {
+        "id": "s6l20-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'يَسْأَلُونَكَ', identify the base verbal stem:",
+          "ur": "'يَسْأَلُونَكَ' کی اصل بنیادی حالت کیا ہے؟",
+          "hi": "'يَسْأَلُونَكَ' की असल बुनियादी हालत क्या है?",
+          "hinglish": "'يَسْأَلُونَكَ' ki asal bunyadi halat kya hai?"
+        },
+        "options": {
+          "en": [
+            "يَسْأَلُونَ + كَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "ur": [
+            "يَسْأَلُونَ + كَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hi": [
+            "يَسْأَلُونَ + كَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hinglish": [
+            "يَسْأَلُونَ + كَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting verbal form is 'يَسْأَلُونَ + كَ'.",
+          "ur": "اس کی اصل صورت 'يَسْأَلُونَ + كَ' ہے۔",
+          "hi": "इसकी असल सूरत 'يَسْأَلُونَ + كَ' है।",
+          "hinglish": "Iski asal soorat 'يَسْأَلُونَ + كَ' hai."
+        }
+      },
+      {
+        "id": "s6l20-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'یَسْأَلُونَ + كَ ← یَسْأَلُونَكَ'?",
+          "ur": "قرآنی لفظ 'یَسْأَلُونَ + كَ ← یَسْأَلُونَكَ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'یَسْأَلُونَ + كَ ← یَسْأَلُونَكَ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'یَسْأَلُونَ + 'كَ' ← یَسْأَلُونَكَ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "They ask you",
+            "They ask him",
+            "They ask them",
+            "They deny you"
+          ],
+          "ur": [
+            "وہ آپ سے پوچھتے ہیں",
+            "وہ اس سے پوچھتے ہیں",
+            "وہ ان لوگوں سے پوچھتے ہیں",
+            "وہ آپ کو جھوٹا ٹھہراتے ہیں"
+          ],
+          "hi": [
+            "वह आपसे पूछते हैं",
+            "वह उससे पूछते हैं",
+            "वह उन लोगों से पूछते हैं",
+            "वह आपको झूठा ठहराते हैं"
+          ],
+          "hinglish": [
+            "Wo aap se poochhte hain",
+            "Wo us se poochhte hain",
+            "Wo un logon se poochhte hain",
+            "Wo aap ko jhoota thahrate hain"
+          ]
+        },
+        "explanation": {
+          "en": "'یَسْأَلُونَ + كَ ← یَسْأَلُونَكَ' translates to 'They ask you'.",
+          "ur": "'یَسْأَلُونَ + كَ ← یَسْأَلُونَكَ' کا معنی 'وہ آپ سے پوچھتے ہیں' ہے۔",
+          "hi": "'یَسْأَلُونَ + كَ ← یَسْأَلُونَكَ' का मतलब 'वह आपसे पूछते हैं' है।",
+          "hinglish": "'یَسْأَلُونَ + 'كَ' ← یَسْأَلُونَكَ' ka matlab 'Wo aap se poochhte hain' hai."
+        }
+      },
+      {
+        "id": "s6l20-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'یَسْأَلُونَ + كُمْ ← یَسْأَلُونَكُمْ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'یَسْأَلُونَ + كُمْ ← یَسْأَلُونَكُمْ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'یَسْأَلُونَ + كُمْ ← یَسْأَلُونَكُمْ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'یَسْأَلُونَ + 'كُمْ' ← یَسْأَلُونَكُمْ'"
+        },
+        "options": {
+          "en": [
+            "They ask him",
+            "They ask you [all]",
+            "They ask them",
+            "They deny you"
+          ],
+          "ur": [
+            "وہ اس سے پوچھتے ہیں",
+            "وہ تم سب سے پوچھتے ہیں",
+            "وہ ان لوگوں سے پوچھتے ہیں",
+            "وہ آپ کو جھوٹا ٹھہراتے ہیں"
+          ],
+          "hi": [
+            "वह उससे पूछते हैं",
+            "वह तुम सब से पूछते हैं",
+            "वह उन लोगों से पूछते हैं",
+            "वह आपको झूठा ठहराते हैं"
+          ],
+          "hinglish": [
+            "Wo us se poochhte hain",
+            "Wo tum sab se poochhte hain",
+            "Wo un logon se poochhte hain",
+            "Wo aap ko jhoota thahrate hain"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'یَسْأَلُونَ + كُمْ ← یَسْأَلُونَكُمْ' means 'They ask you [all]'.",
+          "ur": "'یَسْأَلُونَ + كُمْ ← یَسْأَلُونَكُمْ' کا مفہوم 'وہ تم سب سے پوچھتے ہیں' ہے۔",
+          "hi": "'یَسْأَلُونَ + كُمْ ← یَسْأَلُونَكُمْ' का मतलब 'वह तुम सब से पूछते हैं' है।",
+          "hinglish": "'یَسْأَلُونَ + 'كُمْ' ← یَسْأَلُونَكُمْ' ka matlab 'Wo tum sab se poochhte hain' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s6l21",
+    "questions": [
+      {
+        "id": "s6l21-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What morphological rule is taught in Fe'l Majhool (يُفْعَلُ)?",
+          "ur": "Fe'l Majhool (يُفْعَلُ) میں کون سا صَرفی و نحوی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Fe'l Majhool (يُفْعَلُ) में कौन सा सरफ़ी व नहवी क़ायदा सिखाया गया है?",
+          "hinglish": "Fe'l Majhool ('يُفْعَلُ') mein kaun sa sarfi wa nahwi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transforms the verb into 'يُرْزَقُونَ'",
+            "Changes word into an inactive noun",
+            "Permanently removes all prefixes",
+            "Replaces the root letters"
+          ],
+          "ur": [
+            "فعل بدل کر 'يُرْزَقُونَ' بن جاتا ہے",
+            "لفظ کو اسم جامد بنا دیتا ہے",
+            "تمام سابقے مستقل گرا دیتا ہے",
+            "حروف اصلیہ تبدیل کر دیتا ہے"
+          ],
+          "hi": [
+            "फेल बदल कर 'يُرْزَقُونَ' बन जाता है",
+            "लफ़्ज़ को इस्म जामिद बना देता है",
+            "तमाम साबिक़े मुस्तक़िल गिरा देता है",
+            "हुरूफ़ अस्लिया तब्दील कर देता है"
+          ],
+          "hinglish": [
+            "Fe'l badal kar 'يُرْزَقُونَ' ban jaata hai",
+            "Lafz ko ism jaamid bana deta hai",
+            "Tamaam saabiqe mustaqil gira deta hai",
+            "Huroof-e-asliyah tabdeel kar deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation creates 'يُرْزَقُونَ'.",
+          "ur": "گردان کے نتیجے میں 'يُرْزَقُونَ' بنتا ہے۔",
+          "hi": "गर्दान के नतीजे में 'يُرْزَقُونَ' बनता है।",
+          "hinglish": "Gardan ke nateeje mein 'يُرْزَقُونَ' banta hai."
+        }
+      },
+      {
+        "id": "s6l21-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which verb form correctly demonstrates Fe'l Majhool (يُفْعَلُ)?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Fe'l Majhool (يُفْعَلُ) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Fe'l Majhool (يُفْعَلُ) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Fe'l Majhool ('يُفْعَلُ') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "يُرْزَقُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "ur": [
+            "يُرْزَقُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hi": [
+            "يُرْزَقُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ],
+          "hinglish": [
+            "يُرْزَقُونَ",
+            "كَتَبَ",
+            "عَلِمَ",
+            "سَمِعَ"
+          ]
+        },
+        "explanation": {
+          "en": "'يُرْزَقُونَ' correctly represents this verbal pattern.",
+          "ur": "'يُرْزَقُونَ' اس فعلی سانچے کی درست مثال ہے۔",
+          "hi": "'يُرْزَقُونَ' इस फेली सांचे की सही मिसाल है।",
+          "hinglish": "'يُرْزَقُونَ' is fe'li saanche ki sahi misaal hai."
+        }
+      },
+      {
+        "id": "s6l21-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'يُرْزَقُونَ', identify the base verbal stem:",
+          "ur": "'يُرْزَقُونَ' کی اصل بنیادی حالت کیا ہے؟",
+          "hi": "'يُرْزَقُونَ' की असल बुनियादी हालत क्या है?",
+          "hinglish": "'يُرْزَقُونَ' ki asal bunyadi halat kya hai?"
+        },
+        "options": {
+          "en": [
+            "يَرْزُقُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "ur": [
+            "يَرْزُقُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hi": [
+            "يَرْزُقُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ],
+          "hinglish": [
+            "يَرْزُقُونَ",
+            "قَالَ",
+            "فَعَلَ",
+            "ذَهَبَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting verbal form is 'يَرْزُقُونَ'.",
+          "ur": "اس کی اصل صورت 'يَرْزُقُونَ' ہے۔",
+          "hi": "इसकी असल सूरत 'يَرْزُقُونَ' है।",
+          "hinglish": "Iski asal soorat 'يَرْزُقُونَ' hai."
+        }
+      },
+      {
+        "id": "s6l21-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'یَنْصُرُ ← یُنْصَرُ'?",
+          "ur": "قرآنی لفظ 'یَنْصُرُ ← یُنْصَرُ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'یَنْصُرُ ← یُنْصَرُ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'یَنْصُرُ ← یُنْصَرُ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "He helps -> He is helped",
+            "He is worshipped : They are worshipped",
+            "He is wronged : They are wronged",
+            "He is provided for : They are provided for"
+          ],
+          "ur": [
+            "وہ مدد کرتا ہے ← اس کی مدد کی جاتی ہے",
+            "اس کی عبادت کی جاتی ہے : ان کی عبادت کی جاتی ہے",
+            "اس پر ظلم کیا جاتا ہے : ان پر ظلم کیا جاتا ہے",
+            "اس کو رزق دیا جاتا ہے : انہیں رزق دیا جاتا ہے"
+          ],
+          "hi": [
+            "वह मदद करता है -> उसकी मदद की जाती है",
+            "उसकी इबादत की जाती है : उनकी इबादत की जाती है",
+            "उस पर ज़ुल्म किया जाता है : उन पर ज़ुल्म किया जाता है",
+            "उसको रिज़्क़ दिया जाता है : उन्हें रिज़्क़ दिया जाता है"
+          ],
+          "hinglish": [
+            "Wo madad karta hai -> uski madad ki jati hai",
+            "uski ibaadat ki jati hai : unki ibaadat ki jati hai",
+            "Us par zulm kiya jata hai : Un par zulm kiya jata hai",
+            "Us ko rizk diya jata hai : Unhen rizk diya jata hai"
+          ]
+        },
+        "explanation": {
+          "en": "'یَنْصُرُ ← یُنْصَرُ' translates to 'He helps -> He is helped'.",
+          "ur": "'یَنْصُرُ ← یُنْصَرُ' کا معنی 'وہ مدد کرتا ہے ← اس کی مدد کی جاتی ہے' ہے۔",
+          "hi": "'یَنْصُرُ ← یُنْصَرُ' का मतलब 'वह मदद करता है -> उसकी मदद की जाती है' है।",
+          "hinglish": "'یَنْصُرُ ← یُنْصَرُ' ka matlab 'Wo madad karta hai -> uski madad ki jati hai' hai."
+        }
+      },
+      {
+        "id": "s6l21-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'یَرْزُقُ ← یُرْزَقُ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'یَرْزُقُ ← یُرْزَقُ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'یَرْزُقُ ← یُرْزَقُ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'یَرْزُقُ ← یُرْزَقُ'"
+        },
+        "options": {
+          "en": [
+            "He is worshipped : They are worshipped",
+            "He provides -> He is provided for",
+            "He is wronged : They are wronged",
+            "He is provided for : They are provided for"
+          ],
+          "ur": [
+            "اس کی عبادت کی جاتی ہے : ان کی عبادت کی جاتی ہے",
+            "وہ رزق دیتا ہے ← اس کو رزق دیا جاتا ہے",
+            "اس پر ظلم کیا جاتا ہے : ان پر ظلم کیا جاتا ہے",
+            "اس کو رزق دیا جاتا ہے : انہیں رزق دیا جاتا ہے"
+          ],
+          "hi": [
+            "उसकी इबादत की जाती है : उनकी इबादत की जाती है",
+            "वह रिज़्क़ देता है -> उसको रिज़्क़ दिया जाता है",
+            "उस पर ज़ुल्म किया जाता है : उन पर ज़ुल्म किया जाता है",
+            "उसको रिज़्क़ दिया जाता है : उन्हें रिज़्क़ दिया जाता है"
+          ],
+          "hinglish": [
+            "uski ibaadat ki jati hai : unki ibaadat ki jati hai",
+            "Wo rizk deta hai -> Us ko rizk diya jata hai",
+            "Us par zulm kiya jata hai : Un par zulm kiya jata hai",
+            "Us ko rizk diya jata hai : Unhen rizk diya jata hai"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'یَرْزُقُ ← یُرْزَقُ' means 'He provides -> He is provided for'.",
+          "ur": "'یَرْزُقُ ← یُرْزَقُ' کا مفہوم 'وہ رزق دیتا ہے ← اس کو رزق دیا جاتا ہے' ہے۔",
+          "hi": "'یَرْزُقُ ← یُرْزَقُ' का मतलब 'वह रिज़्क़ देता है -> उसको रिज़्क़ दिया जाता है' है।",
+          "hinglish": "'یَرْزُقُ ← یُرْزَقُ' ka matlab 'Wo rizk deta hai -> Us ko rizk diya jata hai' hai."
+        }
+      }
+    ]
+  }
+]

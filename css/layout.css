@@ -1,0 +1,212 @@
+/* css/layout.css - Responsive baseline for 390px mobile & reduced motion */
+
+/* All interactive content must fit within 390px without horizontal scroll */
+.lesson-card {
+  max-width: 390px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.chip-row {
+  display: flex;
+  overflow-x: auto;
+  gap: 8px;
+  padding: 6px 2px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+
+.anatomy-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 14px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  border: 1px solid transparent;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.anatomy-chip:hover,
+.anatomy-chip:focus {
+  transform: scale(1.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.anatomy-chip.chip-root {
+  background: rgba(37, 99, 235, 0.12);
+  color: #1d4ed8;
+  border-color: rgba(37, 99, 235, 0.25);
+}
+
+.anatomy-chip.chip-suffix {
+  background: rgba(234, 88, 12, 0.12);
+  color: #c2410c;
+  border-color: rgba(234, 88, 12, 0.25);
+}
+
+.anatomy-chip.chip-vowel {
+  background: rgba(220, 38, 38, 0.12);
+  color: #b91c1c;
+  border-color: rgba(220, 38, 38, 0.25);
+}
+
+/* Prediction accordion styling on 390px mobile */
+.kya-hoga-box {
+  background: var(--bg-surface-elevated, #f9fafb);
+  border: 1.5px solid var(--border-color, #e5e7eb);
+  border-radius: 12px;
+  margin-top: 10px;
+  padding: 10px 14px;
+}
+
+.kya-hoga-toggle {
+  background: none;
+  border: none;
+  font-weight: 700;
+  color: var(--accent, #1B4332);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 6px 0;
+  font-size: 0.88rem;
+  text-align: left;
+}
+
+.kya-hoga-body {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--border-color, #e5e7eb);
+}
+
+.kya-hoga-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 6px 0;
+  cursor: pointer;
+  font-size: 0.85rem;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color, #e5e7eb);
+  transition: background 0.15s ease;
+}
+
+.kya-hoga-option:hover {
+  background: rgba(27, 67, 50, 0.05);
+}
+
+.kya-hoga-btn {
+  background: var(--accent, #1B4332);
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 18px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 8px;
+  display: inline-block;
+}
+
+/* Before / After toggle button */
+.compare-toggle-btn {
+  background: var(--bg-surface, #ffffff);
+  border: 1px solid var(--border-color, #d1d5db);
+  border-radius: 20px;
+  padding: 4px 12px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  cursor: pointer;
+  color: var(--text, #374151);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.compare-toggle-btn.active {
+  background: var(--accent, #1B4332);
+  color: #ffffff;
+  border-color: var(--accent, #1B4332);
+}
+
+/* Respect OS motion setting — animations are OFF by default */
+.animated {
+  animation: none;
+  transition: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .animated {
+    animation: var(--anim, none);
+    transition: var(--trans, all 0.2s ease);
+  }
+}
+
+/* Quiz indicator for migrated legacy users */
+.legacy-update-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(217, 119, 6, 0.12);
+  color: #b45309;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 12px;
+  margin-left: 6px;
+}
+
+/* Grammar Visual Card Styles (v2.0) */
+.gv-card {
+  background: var(--bg-surface, #ffffff);
+  border: 1.5px solid var(--border-color, #e5e7eb);
+  border-radius: 16px;
+  margin: 0 0 1.25rem 0;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.gv-card:hover {
+  box-shadow: 0 6px 20px rgba(0,0,0,0.07);
+}
+.gv-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background: var(--bg-surface-elevated, #f9fafb);
+  border-bottom: 1px solid var(--border-color, #e5e7eb);
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--accent, #1B4332);
+  letter-spacing: 0.5px;
+}
+.gv-badge {
+  background: rgba(217, 119, 6, 0.12);
+  color: #d97706;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.gv-body {
+  padding: 16px;
+}
+.gv-interactive-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 140px;
+}
+

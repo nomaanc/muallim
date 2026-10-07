@@ -1,0 +1,4182 @@
+[
+  {
+    "lessonId": "s1l1",
+    "questions": [
+      {
+        "id": "s1l1-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What happens when 'الْـ' is added to an indefinite noun?",
+          "ur": "جب کسی اسم کے شروع میں 'الْـ' داخل ہوتا ہے تو کیا ہوتا ہے؟",
+          "hi": "जब किसी इस्म के शुरू में 'الْـ' दाखिल होता है तो क्या होता है?",
+          "hinglish": "Jab kisi ism ke shuru mein 'الْـ' dakhil hota hai toh kya hota hai?"
+        },
+        "options": {
+          "en": [
+            "Tanween drops and only one vowel remains",
+            "The noun becomes plural",
+            "The noun gets double sukoon",
+            "The last letter drops"
+          ],
+          "ur": [
+            "تنوین ختم ہو کر ایک حرکت رہ جاتی ہے",
+            "اسم جمع بن جاتا ہے",
+            "اسم پر دو سکون آ جاتے ہیں",
+            "آخری حرف گر جاتا ہے"
+          ],
+          "hi": [
+            "तनवीन खत्म होकर एक हरकत रह जाती है",
+            "इस्म जमा बन जाता है",
+            "इस्म पर दो सुकून आ जाते हैं",
+            "आखिरी हर्फ गिर जाता है"
+          ],
+          "hinglish": [
+            "Tanween khatam ho kar ek harkat reh jaati hai",
+            "Ism jama ban jaata hai",
+            "Ism par do sukoon aa jaate hain",
+            "Aakhiri harf gir jaata hai"
+          ]
+        },
+        "explanation": {
+          "en": "The definite article 'الْـ' removes the indefinite Tanween.",
+          "ur": "'الْـ' تنوین کو ساقط کر کے اسم کو معرفہ بناتا ہے۔",
+          "hi": "'الْـ' तनवीन को साक़ित करके इस्म को मारिफ़ा बनाता है।",
+          "hinglish": "'الْـ' tanween ko gira kar ism ko ma'rifah banata hai."
+        }
+      },
+      {
+        "id": "s1l1-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "What is the definite (Ma'rifah) form of 'بَيْتٌ' (Baytun)?",
+          "ur": "'بَيْتٌ' کی معرفہ شکل کیا ہے؟",
+          "hi": "'بَيْتٌ' की मारिफ़ा शक्ल क्या है?",
+          "hinglish": "'بَيْتٌ' ki ma'rifah shakl kya hai?"
+        },
+        "options": {
+          "en": [
+            "الْبَيْتُ (Al-Baytu)",
+            "الْبَيْتٌ (Al-Baytun)",
+            "بُيُوتٌ (Buyootun)",
+            "بَيْتَانِ (Baytaani)"
+          ],
+          "ur": [
+            "الْبَيْتُ",
+            "الْبَيْتٌ",
+            "بُيُوتٌ",
+            "بَيْتَانِ"
+          ],
+          "hi": [
+            "الْبَيْتُ (अल-बैतु)",
+            "الْبَيْتٌ (अल-बैतुन)",
+            "بُيُوتٌ (बुयूतुन)",
+            "بَيْتَانِ (बैताने)"
+          ],
+          "hinglish": [
+            "الْبَيْتُ (Al-Baytu)",
+            "الْبَيْتٌ (Al-Baytun)",
+            "بُيُوتٌ (Buyootun)",
+            "بَيْتَانِ (Baytaani)"
+          ]
+        },
+        "explanation": {
+          "en": "Adding 'الْـ' removes Tanween: الْبَيْتُ.",
+          "ur": "'الْـ' لگانے سے تنوین ختم ہو جاتی ہے: الْبَيْتُ۔",
+          "hi": "'الْـ' लगाने से तनवीन खत्म हो जाती है: الْبَيْتُ।",
+          "hinglish": "'الْـ' lagane se tanween khatam ho jaati hai: 'الْبَيْتُ'."
+        }
+      },
+      {
+        "id": "s1l1-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following is an indefinite noun (Nakirah)?",
+          "ur": "درج ذیل میں سے اسم نکرہ کون سا ہے؟",
+          "hi": "दर्ज जेल में से इस्म नकिरा कौन सा है?",
+          "hinglish": "Darj zail mein se ism-e-nakirah kaun sa hai?"
+        },
+        "options": {
+          "en": [
+            "قَلَمٌ (Qalamun)",
+            "الْقَلَمُ (Al-Qalamu)",
+            "الْكِتَابُ (Al-Kitaabu)",
+            "الْمَسْجِدُ (Al-Masjidu)"
+          ],
+          "ur": [
+            "قَلَمٌ",
+            "الْقَلَمُ",
+            "الْكِتَابُ",
+            "الْمَسْجِدُ"
+          ],
+          "hi": [
+            "قَلَمٌ (क़लमून)",
+            "الْقَلَمُ (अल-क़लमु)",
+            "الْكِتَابُ (अल-किताबु)",
+            "الْمَسْجِدُ (अल-मस्जिदु)"
+          ],
+          "hinglish": [
+            "قَلَمٌ (Qalamun)",
+            "الْقَلَمُ (Al-Qalamu)",
+            "الْكِتَابُ (Al-Kitaabu)",
+            "الْمَسْجِدُ (Al-Masjidu)"
+          ]
+        },
+        "explanation": {
+          "en": "'قَلَمٌ' has Tanween and lacks 'الْـ', making it Nakirah.",
+          "ur": "'قَلَمٌ' پر تنوین ہے اور 'الْـ' نہیں ہے، اس لیے یہ نکرہ ہے۔",
+          "hi": "'قَلَمٌ' पर तनवीन है और 'الْـ' नहीं है, इसलिए यह नकिरा है।",
+          "hinglish": "'قَلَمٌ' par tanween hai aur 'الْـ' nahi hai, isliye yeh nakirah hai."
+        }
+      },
+      {
+        "id": "s1l1-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'الْإِسْلَام'?",
+          "ur": "قرآنی لفظ 'الْإِسْلَام' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'الْإِسْلَام' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'الْإِسْلَام' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Islam / Submission (to Allah)",
+            "Allah",
+            "Paradise / The Garden",
+            "The Ka'bah"
+          ],
+          "ur": [
+            "اسلام",
+            "اللہ",
+            "جنت",
+            "کعبہ"
+          ],
+          "hi": [
+            "इस्लाम",
+            "अल्लाह",
+            "जन्नत / स्वर्ग",
+            "काबा"
+          ],
+          "hinglish": [
+            "Islam",
+            "Allah",
+            "Jannat",
+            "Ka'bah"
+          ]
+        },
+        "explanation": {
+          "en": "'الْإِسْلَام' translates to 'Islam / Submission (to Allah)'.",
+          "ur": "'الْإِسْلَام' کا معنی 'اسلام' ہے۔",
+          "hi": "'الْإِسْلَام' का मतलब 'इस्लाम' है।",
+          "hinglish": "'الْإِسْلَام' ka matlab 'Islam' hai."
+        }
+      },
+      {
+        "id": "s1l1-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'مُحَمَّدٌ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'مُحَمَّدٌ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'مُحَمَّدٌ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'مُحَمَّدٌ'"
+        },
+        "options": {
+          "en": [
+            "Allah",
+            "Muhammad ﷺ",
+            "Paradise / The Garden",
+            "The Ka'bah"
+          ],
+          "ur": [
+            "اللہ",
+            "محمد ﷺ",
+            "جنت",
+            "کعبہ"
+          ],
+          "hi": [
+            "अल्लाह",
+            "मुहम्मद ﷺ",
+            "जन्नत / स्वर्ग",
+            "काबा"
+          ],
+          "hinglish": [
+            "Allah",
+            "Muhammad ﷺ",
+            "Jannat",
+            "Ka'bah"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'مُحَمَّدٌ' means 'Muhammad ﷺ'.",
+          "ur": "'مُحَمَّدٌ' کا مفہوم 'محمد ﷺ' ہے۔",
+          "hi": "'مُحَمَّدٌ' का मतलब 'मुहम्मद ﷺ' है।",
+          "hinglish": "'مُحَمَّدٌ' ka matlab 'Muhammad ﷺ' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s1l2",
+    "questions": [
+      {
+        "id": "s1l2-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What is the primary indicator of a feminine noun in Arabic?",
+          "ur": "عربی میں اسم مونث کی سب سے عام علامت کیا ہے؟",
+          "hi": "अरबी में इस्म मुअन्नस की सबसे आम अलामत क्या है?",
+          "hinglish": "Arabi mein ism-e-muannas ki sabse aam alamat kya hai?"
+        },
+        "options": {
+          "en": [
+            "Taa Marbutah (ة) at the end",
+            "Alif-Laam at the start",
+            "Tanween on the first letter",
+            "Sukoon on the last letter"
+          ],
+          "ur": [
+            "آخر میں گول تا (ة)",
+            "شروع میں الف لام",
+            "پہلے حرف پر تنوین",
+            "آخری حرف پر سکون"
+          ],
+          "hi": [
+            "आखिर में गोल ता (ة)",
+            "शुरू में अलिफ़ लाम",
+            "पहले हर्फ पर तनवीन",
+            "आखिरी हर्फ पर सुकून"
+          ],
+          "hinglish": [
+            "Aakhir mein gol ta (ة)",
+            "Shuru mein Alif-Laam",
+            "Pehle harf par tanween",
+            "Aakhiri harf par sukoon"
+          ]
+        },
+        "explanation": {
+          "en": "Taa Marbutah (ة) is the standard suffix denoting feminine gender.",
+          "ur": "گول تا (ة) تانیث کی بنیادی علامت ہے۔",
+          "hi": "गोल ता (ة) तानीस की बुनियादी अलामत है।",
+          "hinglish": "Gol ta ('ة') tanees (muannas) ki bunyadi alamat hai."
+        }
+      },
+      {
+        "id": "s1l2-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "What is the feminine form of 'صَالِحٌ' (Saalihun)?",
+          "ur": "'صَالِحٌ' کی مونث شکل کیا ہوگی؟",
+          "hi": "'صَالِحٌ' की मुअन्नस शक्ल क्या होगी?",
+          "hinglish": "'صَالِحٌ' ki muannas shakl kya hogi?"
+        },
+        "options": {
+          "en": [
+            "صَالِحَةٌ (Saalihatun)",
+            "صَالِحُونَ (Saalihoona)",
+            "صَالِحَاتٍ (Saalihaatin)",
+            "صِلَاحٌ (Silaahun)"
+          ],
+          "ur": [
+            "صَالِحَةٌ",
+            "صَالِحُونَ",
+            "صَالِحَاتٍ",
+            "صِلَاحٌ"
+          ],
+          "hi": [
+            "صَالِحَةٌ (सालिहातुन)",
+            "صَالِحُونَ (सालिहूना)",
+            "صَالِحَاتٍ (सालिहातिन)",
+            "صِلَاحٌ (सिलाहुन)"
+          ],
+          "hinglish": [
+            "صَالِحَةٌ (Saalihatun)",
+            "صَالِحُونَ (Saalihoona)",
+            "صَالِحَاتٍ (Saalihaatin)",
+            "صِلَاحٌ (Silaahun)"
+          ]
+        },
+        "explanation": {
+          "en": "Adding Taa Marbutah produces 'صَالِحَةٌ'.",
+          "ur": "'صَالِحٌ' کے آخر میں گول تا لگانے سے 'صَالِحَةٌ' بنتا ہے۔",
+          "hi": "'صَالِحٌ' के आखिर में गोल ता लगाने से 'صَالِحَةٌ' बनता है।",
+          "hinglish": "'صَالِحٌ' ke aakhir mein gol ta lagane se 'صَالِحَةٌ' banta hai."
+        }
+      },
+      {
+        "id": "s1l2-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following words is feminine (Muannas)?",
+          "ur": "ان میں سے کون سا لفظ مونث ہے؟",
+          "hi": "इनमें से कौन सा लफ़्ज़ मुअन्नस है?",
+          "hinglish": "In mein se kaun sa lafz muannas hai?"
+        },
+        "options": {
+          "en": [
+            "جَنَّةٌ (Jannatun)",
+            "كِتَابٌ (Kitaabun)",
+            "بَيْتٌ (Baytun)",
+            "قَلَمٌ (Qalamun)"
+          ],
+          "ur": [
+            "جَنَّةٌ",
+            "كِتَابٌ",
+            "بَيْتٌ",
+            "قَلَمٌ"
+          ],
+          "hi": [
+            "جَنَّةٌ (जन्नातुन)",
+            "كِتَابٌ (किताबुन)",
+            "بَيْتٌ (बैतुन)",
+            "قَلَمٌ (क़लमून)"
+          ],
+          "hinglish": [
+            "جَنَّةٌ (Jannatun)",
+            "كِتَابٌ (Kitaabun)",
+            "بَيْتٌ (Baytun)",
+            "قَلَمٌ (Qalamun)"
+          ]
+        },
+        "explanation": {
+          "en": "'جَنَّةٌ' ends with Taa Marbutah, indicating it is feminine.",
+          "ur": "'جَنَّةٌ' کے آخر میں تائے مربوطہ ہے اس لیے یہ مونث ہے۔",
+          "hi": "'جَنَّةٌ' के आखिर में ताये मरबूता है इसलिए यह मुअन्नस है।",
+          "hinglish": "'جَنَّةٌ' ke aakhir mein taa marbutah hai isliye yeh muannas hai."
+        }
+      },
+      {
+        "id": "s1l2-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'الْجَوَاب'?",
+          "ur": "قرآنی لفظ 'الْجَوَاب' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'الْجَوَاب' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'الْجَوَاب' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "The Answer / Reply",
+            "The Pilgrimage / Hajj",
+            "The Emigrant",
+            "The Fighter / One who strives"
+          ],
+          "ur": [
+            "جواب",
+            "حج",
+            "مہاجر / ہجرت کرنے والا",
+            "مجاہد / جہاد کرنے والا"
+          ],
+          "hi": [
+            "जवाब / उत्तर",
+            "हज",
+            "मुहाजिर / हिजरत करने वाला",
+            "मुजाहिद / जिहाद करने वाला"
+          ],
+          "hinglish": [
+            "Jawab",
+            "Hajj",
+            "Muhajir/Hijrat karne wala",
+            "Mujahid"
+          ]
+        },
+        "explanation": {
+          "en": "'الْجَوَاب' translates to 'The Answer / Reply'.",
+          "ur": "'الْجَوَاب' کا معنی 'جواب' ہے۔",
+          "hi": "'الْجَوَاب' का मतलब 'जवाब / उत्तर' है।",
+          "hinglish": "'الْجَوَاب' ka matlab 'Jawab' hai."
+        }
+      },
+      {
+        "id": "s1l2-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'الْجِهَاد'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'الْجِهَاد'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'الْجِهَاد'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'الْجِهَاد'"
+        },
+        "options": {
+          "en": [
+            "The Pilgrimage / Hajj",
+            "Striving / Jihad",
+            "The Emigrant",
+            "The Fighter / One who strives"
+          ],
+          "ur": [
+            "حج",
+            "جہاد / کوشش",
+            "مہاجر / ہجرت کرنے والا",
+            "مجاہد / جہاد کرنے والا"
+          ],
+          "hi": [
+            "हज",
+            "जिहाद / कोशिश",
+            "मुहाजिर / हिजरत करने वाला",
+            "मुजाहिद / जिहाद करने वाला"
+          ],
+          "hinglish": [
+            "Hajj",
+            "Jihad/Koshish",
+            "Muhajir/Hijrat karne wala",
+            "Mujahid"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'الْجِهَاد' means 'Striving / Jihad'.",
+          "ur": "'الْجِهَاد' کا مفہوم 'جہاد / کوشش' ہے۔",
+          "hi": "'الْجِهَاد' का मतलब 'जिहाद / कोशिश' है।",
+          "hinglish": "'الْجِهَاد' ka matlab 'Jihad/Koshish' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s1l3",
+    "questions": [
+      {
+        "id": "s1l3-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "Which demonstrative pronoun is used for near masculine singular objects?",
+          "ur": "قریب کے مذکر واحد کے لیے کون سا اسم اشارہ استعمال ہوتا ہے؟",
+          "hi": "क़रीब के मुज़क्कर वाहिद के लिए कौन सा इस्म इशारा इस्तेमाल होता है?",
+          "hinglish": "Qareeb ke muzakkar wahid ke liye kaun sa ism-e-isharah istemal hota hai?"
+        },
+        "options": {
+          "en": [
+            "هَذَا (Haaza)",
+            "هَذِهِ (Haazihi)",
+            "ذَلِكَ (Zaalika)",
+            "تِلْكَ (Tilka)"
+          ],
+          "ur": [
+            "هَذَا",
+            "هَذِهِ",
+            "ذَلِكَ",
+            "تِلْكَ"
+          ],
+          "hi": [
+            "هَذَا (हाज़ा)",
+            "هَذِهِ (हाज़िही)",
+            "ذَلِكَ (ज़ालिका)",
+            "تِلْكَ (तिलका)"
+          ],
+          "hinglish": [
+            "هَذَا (Haaza)",
+            "هَذِهِ (Haazihi)",
+            "ذَلِكَ (Zaalika)",
+            "تِلْكَ (Tilka)"
+          ]
+        },
+        "explanation": {
+          "en": "'هَذَا' points to a near masculine singular object.",
+          "ur": "'هَذَا' قریب کے مذکر کے لیے آتا ہے۔",
+          "hi": "'هَذَا' क़रीब के मुज़क्कर के लिए आता है।",
+          "hinglish": "'هَذَا' qareeb ke muzakkar ke liye aata hai."
+        }
+      },
+      {
+        "id": "s1l3-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Fill in the blank: '____ نَاقَةٌ' (This is a she-camel)",
+          "ur": "خالی جگہ پر کریں: '____ نَاقَةٌ'",
+          "hi": "खाली जगह भरें: '____ نَاقَةٌ'",
+          "hinglish": "Khaali jagah bharein: '____ نَاقَةٌ'"
+        },
+        "options": {
+          "en": [
+            "هَذِهِ (Haazihi)",
+            "هَذَا (Haaza)",
+            "ذَلِكَ (Zaalika)",
+            "هُوَ (Huwa)"
+          ],
+          "ur": [
+            "هَذِهِ",
+            "هَذَا",
+            "ذَلِكَ",
+            "هُوَ"
+          ],
+          "hi": [
+            "هَذِهِ (हाज़िही)",
+            "هَذَا (हाज़ा)",
+            "ذَلِكَ (ज़ालिका)",
+            "هُوَ (हुवा)"
+          ],
+          "hinglish": [
+            "هَذِهِ (Haazihi)",
+            "هَذَا (Haaza)",
+            "ذَلِكَ (Zaalika)",
+            "هُوَ (Huwa)"
+          ]
+        },
+        "explanation": {
+          "en": "Because 'نَاقَةٌ' is feminine (has ة), 'هَذِهِ' is required.",
+          "ur": "چونکہ 'نَاقَةٌ' مونث ہے، اس لیے 'هَذِهِ' استعمال ہوگا۔",
+          "hi": "चूँकि 'نَاقَةٌ' मुअन्नस है, इसलिए 'هَذِهِ' इस्तेमाल होगा।",
+          "hinglish": "Chunke 'نَاقَةٌ' muannas hai, isliye 'هَذِهِ' istemal hoga."
+        }
+      },
+      {
+        "id": "s1l3-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "What does 'هَذَا بَيْتٌ' mean?",
+          "ur": "'هَذَا بَيْتٌ' کا کیا معنی ہے؟",
+          "hi": "'هَذَا بَيْتٌ' का क्या मतलब है?",
+          "hinglish": "'هَذَا بَيْتٌ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "This is a house",
+            "That is a house",
+            "The house is big",
+            "In the house"
+          ],
+          "ur": [
+            "یہ ایک گھر ہے",
+            "وہ ایک گھر ہے",
+            "گھر بڑا ہے",
+            "گھر میں"
+          ],
+          "hi": [
+            "यह एक घर है",
+            "वह एक घर है",
+            "घर बड़ा है",
+            "घर में"
+          ],
+          "hinglish": [
+            "Yeh ek ghar hai",
+            "Woh ek ghar hai",
+            "Ghar bada hai",
+            "Ghar mein"
+          ]
+        },
+        "explanation": {
+          "en": "'هَذَا' = This (near), 'بَيْتٌ' = a house.",
+          "ur": "'هَذَا' = یہ، 'بَيْتٌ' = ایک گھر۔",
+          "hi": "'هَذَا' = यह, 'بَيْتٌ' = एक घर।",
+          "hinglish": "'هَذَا' = Yeh, 'بَيْتٌ' = ek ghar."
+        }
+      },
+      {
+        "id": "s1l3-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'الْقِبْلَة'?",
+          "ur": "قرآنی لفظ 'الْقِبْلَة' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'الْقِبْلَة' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'الْقِبْلَة' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "The Direction of Prayer / Qiblah",
+            "Faith / Belief",
+            "The Swift / Quick",
+            "Arabic"
+          ],
+          "ur": [
+            "قبلہ",
+            "ایمان",
+            "تیز / جلدی کرنے والا",
+            "عربی"
+          ],
+          "hi": [
+            "क़िबला",
+            "ईमान",
+            "तेज़ / जल्दी करने वाला",
+            "अरबी"
+          ],
+          "hinglish": [
+            "Qiblah",
+            "Iman",
+            "Teez/Jaldee karne wala (Swift/Quick)",
+            "Arabi"
+          ]
+        },
+        "explanation": {
+          "en": "'الْقِبْلَة' translates to 'The Direction of Prayer / Qiblah'.",
+          "ur": "'الْقِبْلَة' کا معنی 'قبلہ' ہے۔",
+          "hi": "'الْقِبْلَة' का मतलब 'क़िबला' है।",
+          "hinglish": "'الْقِبْلَة' ka matlab 'Qiblah' hai."
+        }
+      },
+      {
+        "id": "s1l3-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'الظُّلْم'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'الظُّلْم'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'الظُّلْم'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'الظُّلْم'"
+        },
+        "options": {
+          "en": [
+            "Faith / Belief",
+            "Injustice / Wrongdoing / Oppression",
+            "The Swift / Quick",
+            "Arabic"
+          ],
+          "ur": [
+            "ایمان",
+            "ظلم / نا انصافی",
+            "تیز / جلدی کرنے والا",
+            "عربی"
+          ],
+          "hi": [
+            "ईमान",
+            "ज़ुल्म / अन्याय",
+            "तेज़ / जल्दी करने वाला",
+            "अरबी"
+          ],
+          "hinglish": [
+            "Iman",
+            "Zulm",
+            "Teez/Jaldee karne wala (Swift/Quick)",
+            "Arabi"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'الظُّلْم' means 'Injustice / Wrongdoing / Oppression'.",
+          "ur": "'الظُّلْم' کا مفہوم 'ظلم / نا انصافی' ہے۔",
+          "hi": "'الظُّلْم' का मतलब 'ज़ुल्म / अन्याय' है।",
+          "hinglish": "'الظُّلْم' ka matlab 'Zulm' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s1l4",
+    "questions": [
+      {
+        "id": "s1l4-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "Which demonstrative pronoun is used for distant masculine objects?",
+          "ur": "دور کے مذکر کے لیے کون سا اسم اشارہ آتا ہے؟",
+          "hi": "दूर के मुज़क्कर के लिए कौन सा इस्म इशारा आता है?",
+          "hinglish": "Door ke muzakkar ke liye kaun sa ism-e-isharah aata hai?"
+        },
+        "options": {
+          "en": [
+            "ذَلِكَ (Zaalika)",
+            "هَذَا (Haaza)",
+            "تِلْكَ (Tilka)",
+            "هَذِهِ (Haazihi)"
+          ],
+          "ur": [
+            "ذَلِكَ",
+            "هَذَا",
+            "تِلْكَ",
+            "هَذِهِ"
+          ],
+          "hi": [
+            "ذَلِكَ (ज़ालिका)",
+            "هَذَا (हाज़ा)",
+            "تِلْكَ (तिलका)",
+            "هَذِهِ (हाज़िही)"
+          ],
+          "hinglish": [
+            "ذَلِكَ (Zaalika)",
+            "هَذَا (Haaza)",
+            "تِلْكَ (Tilka)",
+            "هَذِهِ (Haazihi)"
+          ]
+        },
+        "explanation": {
+          "en": "'ذَلِكَ' means 'That' for distant masculine singular.",
+          "ur": "'ذَلِكَ' دور کے مذکر کے لیے استعمال ہوتا ہے۔",
+          "hi": "'ذَلِكَ' दूर के मुज़क्कर के लिए इस्तेमाल होता है।",
+          "hinglish": "'ذَلِكَ' door ke muzakkar ke liye istemal hota hai."
+        }
+      },
+      {
+        "id": "s1l4-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Complete the famous Quranic phrase: '____ الْكِتَابُ لَا رَيْبَ فِيهِ'",
+          "ur": "قرآنی آیت مکمل کریں: '____ الْكِتَابُ لَا رَيْبَ فِيهِ'",
+          "hi": "क़ुरआनी आयत मुकम्मल करें: '____ الْكِتَابُ لَا رَيْبَ فِيهِ'",
+          "hinglish": "Qur'ani aayat mukammal karein: '____ 'الْكِتَابُ' لَا 'رَيْبَ' فِيهِ'"
+        },
+        "options": {
+          "en": [
+            "ذَٰلِكَ (Zaalika)",
+            "هَٰذَا (Haaza)",
+            "تِلْكَ (Tilka)",
+            "أُولَٰئِكَ (Ulaa'ika)"
+          ],
+          "ur": [
+            "ذَٰلِكَ",
+            "هَٰذَا",
+            "تِلْكَ",
+            "أُولَٰئِكَ"
+          ],
+          "hi": [
+            "ذَٰلِكَ (ज़ालिका)",
+            "هَٰذَا (हाज़ा)",
+            "تِلْكَ (तिलका)",
+            "أُولَٰئِكَ (उलाइका)"
+          ],
+          "hinglish": [
+            "ذَٰلِكَ (Zaalika)",
+            "هَٰذَا (Haaza)",
+            "تِلْكَ (Tilka)",
+            "أُولَٰئِكَ (Ulaa'ika)"
+          ]
+        },
+        "explanation": {
+          "en": "Surah Al-Baqarah begins with 'ذَٰلِكَ الْكِتَابُ'.",
+          "ur": "سورۃ البقرہ کا آغاز 'ذَٰلِكَ الْكِتَابُ' سے ہوتا ہے۔",
+          "hi": "सूरह अल-बक़रह का आगाज़ 'ذَٰلِكَ الْكِتَابُ' से होता है।",
+          "hinglish": "Surah Al-Baqarah ka aaghaz 'ذَٰلِكَ الْكِتَابُ' se hota hai."
+        }
+      },
+      {
+        "id": "s1l4-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "What does 'تِلْكَ' refer to?",
+          "ur": "'تِلْكَ' کس کی طرف اشارہ کرتا ہے؟",
+          "hi": "'تِلْكَ' किस की तरफ इशारा करता है?",
+          "hinglish": "'تِلْكَ' kis ki taraf isharah karta hai?"
+        },
+        "options": {
+          "en": [
+            "Distant feminine singular (That)",
+            "Near masculine singular (This)",
+            "Near plural (These)",
+            "Distant masculine (That)"
+          ],
+          "ur": [
+            "دور کی مونث واحد (وہ)",
+            "قریب کا مذکر واحد (یہ)",
+            "قریب کی جمع (یہ سب)",
+            "دور کا مذکر (وہ)"
+          ],
+          "hi": [
+            "दूर की मुअन्नस वाहिद (वह)",
+            "क़रीब का मुज़क्कर वाहिद (यह)",
+            "क़रीब की जमा (यह सब)",
+            "दूर का मुज़क्कर (वह)"
+          ],
+          "hinglish": [
+            "Door ki muannas wahid (Woh)",
+            "Qareeb ka muzakkar wahid (Yeh)",
+            "Qareeb ki jama (Yeh sab)",
+            "Door ka muzakkar (Woh)"
+          ]
+        },
+        "explanation": {
+          "en": "'تِلْكَ' is the feminine distant demonstrative pronoun.",
+          "ur": "'تِلْكَ' دور کی مونث کے لیے اسم اشارہ ہے۔",
+          "hi": "'تِلْكَ' दूर की मुअन्नस के लिए इस्म इशारा है।",
+          "hinglish": "'تِلْكَ' door ki muannas ke liye ism-e-isharah hai."
+        }
+      },
+      {
+        "id": "s1l4-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'الصِّدْق'?",
+          "ur": "قرآنی لفظ 'الصِّدْق' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'الصِّدْق' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'الصِّدْق' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Truth / Truthfulness",
+            "Owner / Master",
+            "Creation / Creatures",
+            "People / Nation"
+          ],
+          "ur": [
+            "سچ / سچائی",
+            "مالک",
+            "مخلوق / پیدائش",
+            "قوم / لوگ"
+          ],
+          "hi": [
+            "सच / सच्चाई",
+            "मालिक",
+            "रचना / सृष्टि / मख़लूक़",
+            "क़ौम / लोग"
+          ],
+          "hinglish": [
+            "Sach / Sachai",
+            "Malik / Maalik",
+            "Makhlooq / Paidaish",
+            "Qom / Log"
+          ]
+        },
+        "explanation": {
+          "en": "'الصِّدْق' translates to 'Truth / Truthfulness'.",
+          "ur": "'الصِّدْق' کا معنی 'سچ / سچائی' ہے۔",
+          "hi": "'الصِّدْق' का मतलब 'सच / सच्चाई' है।",
+          "hinglish": "'الصِّدْق' ka matlab 'Sach / Sachai' hai."
+        }
+      },
+      {
+        "id": "s1l4-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'التَّابُوت'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'التَّابُوت'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'التَّابُوت'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'التَّابُوت'"
+        },
+        "options": {
+          "en": [
+            "Owner / Master",
+            "Chest / Ark",
+            "Creation / Creatures",
+            "People / Nation"
+          ],
+          "ur": [
+            "مالک",
+            "تابوت / صندوق",
+            "مخلوق / پیدائش",
+            "قوم / لوگ"
+          ],
+          "hi": [
+            "मालिक",
+            "ताबूत / संदूक",
+            "रचना / सृष्टि / मख़लूक़",
+            "क़ौम / लोग"
+          ],
+          "hinglish": [
+            "Malik / Maalik",
+            "Taboot / Sandook",
+            "Makhlooq / Paidaish",
+            "Qom / Log"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'التَّابُوت' means 'Chest / Ark'.",
+          "ur": "'التَّابُوت' کا مفہوم 'تابوت / صندوق' ہے۔",
+          "hi": "'التَّابُوت' का मतलब 'ताबूत / संदूक' है।",
+          "hinglish": "'التَّابُوت' ka matlab 'Taboot / Sandook' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s1l5",
+    "questions": [
+      {
+        "id": "s1l5-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "Which plural demonstrative pronoun points to near entities (These)?",
+          "ur": "قریب کی جمع کے لیے کون سا اسم اشارہ آتا ہے؟",
+          "hi": "क़रीब की जमा के लिए कौन सा इस्म इशारा आता है?",
+          "hinglish": "Qareeb ki jama ke liye kaun sa ism-e-isharah aata hai?"
+        },
+        "options": {
+          "en": [
+            "هَٰؤُلَاءِ (Haa'ulaa'i)",
+            "أُولَٰئِكَ (Ulaa'ika)",
+            "هَٰذَا (Haaza)",
+            "ذَٰلِكَ (Zaalika)"
+          ],
+          "ur": [
+            "هَٰؤُلَاءِ",
+            "أُولَٰئِكَ",
+            "هَٰذَا",
+            "ذَٰلِكَ"
+          ],
+          "hi": [
+            "هَٰؤُلَاءِ (हाउलाइ)",
+            "أُولَٰئِكَ (उलाइका)",
+            "هَٰذَا (हाज़ा)",
+            "ذَٰلِكَ (ज़ालिका)"
+          ],
+          "hinglish": [
+            "هَٰؤُلَاءِ (Haa'ulaa'i)",
+            "أُولَٰئِكَ (Ulaa'ika)",
+            "هَٰذَا (Haaza)",
+            "ذَٰلِكَ (Zaalika)"
+          ]
+        },
+        "explanation": {
+          "en": "'هَٰؤُلَاءِ' means 'These' for both masculine and feminine near plurals.",
+          "ur": "'هَٰؤُلَاءِ' قریب کی جمع (مذکر و مونث دونوں) کے لیے آتا ہے۔",
+          "hi": "'هَٰؤُلَاءِ' क़रीब की जमा (मुज़क्कर और मुअन्नस दोनों) के लिए आता है।",
+          "hinglish": "'هَٰؤُلَاءِ' qareeb ki jama (muzakkar aur muannas dono) ke liye aata hai."
+        }
+      },
+      {
+        "id": "s1l5-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "What does 'أُولَٰئِكَ' mean in Quranic Arabic?",
+          "ur": "قرآن میں 'أُولَٰئِكَ' کا کیا مفہوم ہے؟",
+          "hi": "क़ुरआन में 'أُولَٰئِكَ' का क्या मतलब है?",
+          "hinglish": "Qur'an mein 'أُولَٰئِكَ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Those (distant plural)",
+            "These (near plural)",
+            "That one man",
+            "This one woman"
+          ],
+          "ur": [
+            "وہ سب لوگ (دور کی جمع)",
+            "یہ سب لوگ (قریب کی جمع)",
+            "وہ ایک مرد",
+            "یہ ایک عورت"
+          ],
+          "hi": [
+            "वह सब लोग (दूर की जमा)",
+            "यह सब लोग (क़रीब की जमा)",
+            "वह एक मर्द",
+            "यह एक औरत"
+          ],
+          "hinglish": [
+            "Woh sab log (door ki jama)",
+            "Yeh sab log (qareeb ki jama)",
+            "Woh ek mard",
+            "Yeh ek aurat"
+          ]
+        },
+        "explanation": {
+          "en": "'أُولَٰئِكَ' is the distant plural demonstrative pronoun (Those).",
+          "ur": "'أُولَٰئِكَ' دور کی جمع کے لیے اسم اشارہ ہے۔",
+          "hi": "'أُولَٰئِكَ' दूर की जमा के लिए इस्म इशारा है।",
+          "hinglish": "'أُولَٰئِكَ' door ki jama ke liye ism-e-isharah hai."
+        }
+      },
+      {
+        "id": "s1l5-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "Do 'هَٰؤُلَاءِ' and 'أُولَٰئِكَ' distinguish between masculine and feminine?",
+          "ur": "کیا 'هَٰؤُلَاءِ' اور 'أُولَٰئِكَ' مذکر اور مونث میں فرق کرتے ہیں؟",
+          "hi": "क्या 'هَٰؤُلَاءِ' और 'أُولَٰئِكَ' मुज़क्कर और मुअन्नस में फर्क करते हैं?",
+          "hinglish": "Kya 'هَٰؤُلَاءِ' aur 'أُولَٰئِكَ' muzakkar aur muannas mein farq karte hain?"
+        },
+        "options": {
+          "en": [
+            "No, they are used for both masculine and feminine persons",
+            "Yes, they are masculine only",
+            "Yes, they are feminine only",
+            "They are only used for animals"
+          ],
+          "ur": [
+            "نہیں، یہ مذکر اور مونث دونوں کے لیے مشترک ہیں",
+            "ہاں، یہ صرف مذکر کے لیے ہیں",
+            "ہاں، یہ صرف مونث کے لیے ہیں",
+            "یہ صرف غیر جانداروں کے لیے ہیں"
+          ],
+          "hi": [
+            "नहीं, यह मुज़क्कर और मुअन्नस दोनों के लिए मुश्तरक हैं",
+            "हाँ, यह सिर्फ मुज़क्कर के लिए हैं",
+            "हाँ, यह सिर्फ मुअन्नस के लिए हैं",
+            "यह सिर्फ गैर जानदारों के लिए हैं"
+          ],
+          "hinglish": [
+            "Nahi, yeh muzakkar aur muannas dono ke liye mushtarak hain",
+            "Haan, yeh sirf muzakkar ke liye hain",
+            "Haan, yeh sirf muannas ke liye hain",
+            "Yeh sirf ghair jaandaro ke liye hain"
+          ]
+        },
+        "explanation": {
+          "en": "Both plural demonstratives apply to human plurals of either gender.",
+          "ur": "یہ دونوں اسم اشارہ عاقل مذکر اور مونث دونوں کے لیے استعمال ہوتے ہیں۔",
+          "hi": "यह दोनों इस्म इशारा आक़िल मुज़क्कर और मुअन्नस दोनों के लिए इस्तेमाल होते हैं।",
+          "hinglish": "Yeh dono ism-e-isharah aaqil muzakkar aur muannas dono ke liye istemal hote hain."
+        }
+      },
+      {
+        "id": "s1l5-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'الْأَجْر'?",
+          "ur": "قرآنی لفظ 'الْأَجْر' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'الْأَجْر' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'الْأَجْر' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Reward / Recompense",
+            "Fear",
+            "Poor / Needy",
+            "The World / Universe"
+          ],
+          "ur": [
+            "اجر / ثواب / انعام",
+            "ڈر / خوف",
+            "مسکین / غریب",
+            "جہان / دنیا"
+          ],
+          "hi": [
+            "अज्र / सवाब / इनाम",
+            "डर / ख़ौफ़",
+            "मिस्कीन / ग़रीब",
+            "जहान / संसार"
+          ],
+          "hinglish": [
+            "Ajr / Sawaab / mein'am",
+            "Dar / Khawf",
+            "Miskeen / Gareeb",
+            "Jahan / Dunya"
+          ]
+        },
+        "explanation": {
+          "en": "'الْأَجْر' translates to 'Reward / Recompense'.",
+          "ur": "'الْأَجْر' کا معنی 'اجر / ثواب / انعام' ہے۔",
+          "hi": "'الْأَجْر' का मतलब 'अज्र / सवाब / इनाम' है।",
+          "hinglish": "'الْأَجْر' ka matlab 'Ajr / Sawaab / mein'am' hai."
+        }
+      },
+      {
+        "id": "s1l5-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'الْبَيْت'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'الْبَيْت'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'الْبَيْت'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'الْبَيْت'"
+        },
+        "options": {
+          "en": [
+            "Fear",
+            "The House",
+            "Poor / Needy",
+            "The World / Universe"
+          ],
+          "ur": [
+            "ڈر / خوف",
+            "گھر / بیت",
+            "مسکین / غریب",
+            "جہان / دنیا"
+          ],
+          "hi": [
+            "डर / ख़ौफ़",
+            "घर",
+            "मिस्कीन / ग़रीब",
+            "जहान / संसार"
+          ],
+          "hinglish": [
+            "Dar / Khawf",
+            "Ghar",
+            "Miskeen / Gareeb",
+            "Jahan / Dunya"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'الْبَيْت' means 'The House'.",
+          "ur": "'الْبَيْت' کا مفہوم 'گھر / بیت' ہے۔",
+          "hi": "'الْبَيْت' का मतलब 'घर' है।",
+          "hinglish": "'الْبَيْت' ka matlab 'Ghar' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s1l6",
+    "questions": [
+      {
+        "id": "s1l6-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What is the core rule taught in Huroof-e-Tahajji & Harakaat?",
+          "ur": "Huroof-e-Tahajji & Harakaat میں کیا بنیادی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Huroof-e-Tahajji & Harakaat में क्या बुनियादी क़ायदा सिखाया गया है?",
+          "hinglish": "Huroof-e-Tahajji & Harakaat mein kya bunyadi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transformation to 'بَنْ - بٍ - بٌ' occurs",
+            "No grammatical change takes place",
+            "Word becomes a past verb",
+            "Vowels are completely omitted"
+          ],
+          "ur": [
+            "لفظ بدل کر 'بَنْ - بٍ - بٌ' بن جاتا ہے",
+            "کوئی نحوی تبدیلی نہیں ہوتی",
+            "لفظ فعل ماضی بن جاتا ہے",
+            "اعراب مکمل ختم ہو جاتے ہیں"
+          ],
+          "hi": [
+            "लफ़्ज़ बदल कर 'بَنْ - بٍ - بٌ' बन जाता है",
+            "कोई नहवी तब्दीली नहीं होती",
+            "लफ़्ज़ फेल माज़ी बन जाता है",
+            "एराब मुकम्मल खत्म हो जाते हैं"
+          ],
+          "hinglish": [
+            "Lafz badal kar 'بَنْ - بٍ - بٌ' ban jaata hai",
+            "Koi nahwi tabdeeli nahi hoti",
+            "Lafz fe'l mazi ban jaata hai",
+            "I'raab mukammal khatam ho jaate hain"
+          ]
+        },
+        "explanation": {
+          "en": "The rule governs the form and pronunciation of 'بَنْ - بٍ - بٌ'.",
+          "ur": "یہ قاعدہ 'بَنْ - بٍ - بٌ' کی ساخت اور اعراب کو بیان کرتا ہے۔",
+          "hi": "यह क़ायदा 'بَنْ - بٍ - بٌ' की साख्त और एराब को बयान करता है।",
+          "hinglish": "Yeh qaaida 'بَنْ - 'بٍ' - بٌ' ki saakht aur i'raab ko bayan karta hai."
+        }
+      },
+      {
+        "id": "s1l6-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following demonstrates the rule of Harakat & Aswaat?",
+          "ur": "درج ذیل میں سے کس پر Harakat & Aswaat کا قاعدہ لاگو ہوتا ہے؟",
+          "hi": "दर्ज जेल में से किस पर Harakat & Aswaat का क़ायदा लागू होता है?",
+          "hinglish": "Darj zail mein se kis par Harakat & Aswaat ka qaaida laagu hota hai?"
+        },
+        "options": {
+          "en": [
+            "بَنْ - بٍ - بٌ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "ur": [
+            "بَنْ - بٍ - بٌ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hi": [
+            "بَنْ - بٍ - بٌ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hinglish": [
+            "بَنْ - بٍ - بٌ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ]
+        },
+        "explanation": {
+          "en": "'بَنْ - بٍ - بٌ' illustrates the specific transformation.",
+          "ur": "'بَنْ - بٍ - بٌ' اس تبدیلی کی واضح مثال ہے۔",
+          "hi": "'بَنْ - بٍ - بٌ' इस तब्दीली की वाज़ेह मिसाल है।",
+          "hinglish": "'بَنْ - 'بٍ' - بٌ' is tabdeeli ki wazeh misaal hai."
+        }
+      },
+      {
+        "id": "s1l6-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "What is the base (Asal) form corresponding to 'بَنْ - بٍ - بٌ'?",
+          "ur": "'بَنْ - بٍ - بٌ' کی اصل صورت کیا ہے؟",
+          "hi": "'بَنْ - بٍ - بٌ' की असल सूरत क्या है?",
+          "hinglish": "'بَنْ - 'بٍ' - بٌ' ki asal soorat kya hai?"
+        },
+        "options": {
+          "en": [
+            "بَ - بِ - بُ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "بَ - بِ - بُ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "بَ - بِ - بُ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "بَ - بِ - بُ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting base form is 'بَ - بِ - بُ'.",
+          "ur": "اس کی اصل بنیادی صورت 'بَ - بِ - بُ' ہے۔",
+          "hi": "इसकी असल बुनियादी सूरत 'بَ - بِ - بُ' है।",
+          "hinglish": "Iski asal bunyadi soorat 'بَ - 'بِ' - بُ' hai."
+        }
+      },
+      {
+        "id": "s1l6-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'الْكَبِير'?",
+          "ur": "قرآنی لفظ 'الْكَبِير' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'الْكَبِير' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'الْكَبِير' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "The Great / Large",
+            "Wealth / Possessions",
+            "Ramadan",
+            "Reformation / Improvement"
+          ],
+          "ur": [
+            "بڑا / کبیر",
+            "مال / دولت",
+            "رمضان",
+            "اصلاح / سدھار"
+          ],
+          "hi": [
+            "बड़ा",
+            "माल / धन-दौलत",
+            "रमज़ान",
+            "इस्लाह / सुधार"
+          ],
+          "hinglish": [
+            "Bada",
+            "Maal / Daulat",
+            "Ramazan",
+            "Islaah / Sudhaar"
+          ]
+        },
+        "explanation": {
+          "en": "'الْكَبِير' translates to 'The Great / Large'.",
+          "ur": "'الْكَبِير' کا معنی 'بڑا / کبیر' ہے۔",
+          "hi": "'الْكَبِير' का मतलब 'बड़ा' है।",
+          "hinglish": "'الْكَبِير' ka matlab 'Bada' hai."
+        }
+      },
+      {
+        "id": "s1l6-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'الْعِلْم'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'الْعِلْم'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'الْعِلْم'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'الْعِلْم'"
+        },
+        "options": {
+          "en": [
+            "Wealth / Possessions",
+            "Knowledge",
+            "Ramadan",
+            "Reformation / Improvement"
+          ],
+          "ur": [
+            "مال / دولت",
+            "علم / معلومات",
+            "رمضان",
+            "اصلاح / سدھار"
+          ],
+          "hi": [
+            "माल / धन-दौलत",
+            "इल्म / ज्ञान",
+            "रमज़ान",
+            "इस्लाह / सुधार"
+          ],
+          "hinglish": [
+            "Maal / Daulat",
+            "Ilm / Jankaari",
+            "Ramazan",
+            "Islaah / Sudhaar"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'الْعِلْم' means 'Knowledge'.",
+          "ur": "'الْعِلْم' کا مفہوم 'علم / معلومات' ہے۔",
+          "hi": "'الْعِلْم' का मतलब 'इल्म / ज्ञान' है।",
+          "hinglish": "'الْعِلْم' ka matlab 'Ilm / Jankaari' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s1l7",
+    "questions": [
+      {
+        "id": "s1l7-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What is the core rule taught in Sukoon & Jazm?",
+          "ur": "Sukoon & Jazm میں کیا بنیادی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Sukoon & Jazm में क्या बुनियादी क़ायदा सिखाया गया है?",
+          "hinglish": "Sukoon & Jazm mein kya bunyadi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transformation to 'قُلْ' occurs",
+            "No grammatical change takes place",
+            "Word becomes a past verb",
+            "Vowels are completely omitted"
+          ],
+          "ur": [
+            "لفظ بدل کر 'قُلْ' بن جاتا ہے",
+            "کوئی نحوی تبدیلی نہیں ہوتی",
+            "لفظ فعل ماضی بن جاتا ہے",
+            "اعراب مکمل ختم ہو جاتے ہیں"
+          ],
+          "hi": [
+            "लफ़्ज़ बदल कर 'قُلْ' बन जाता है",
+            "कोई नहवी तब्दीली नहीं होती",
+            "लफ़्ज़ फेल माज़ी बन जाता है",
+            "एराब मुकम्मल खत्म हो जाते हैं"
+          ],
+          "hinglish": [
+            "Lafz badal kar 'قُلْ' ban jaata hai",
+            "Koi nahwi tabdeeli nahi hoti",
+            "Lafz fe'l mazi ban jaata hai",
+            "I'raab mukammal khatam ho jaate hain"
+          ]
+        },
+        "explanation": {
+          "en": "The rule governs the form and pronunciation of 'قُلْ'.",
+          "ur": "یہ قاعدہ 'قُلْ' کی ساخت اور اعراب کو بیان کرتا ہے۔",
+          "hi": "यह क़ायदा 'قُلْ' की साख्त और एराब को बयान करता है।",
+          "hinglish": "Yeh qaaida 'قُلْ' ki saakht aur i'raab ko bayan karta hai."
+        }
+      },
+      {
+        "id": "s1l7-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following demonstrates the rule of Sukoon (Sakin)?",
+          "ur": "درج ذیل میں سے کس پر Sukoon (Sakin) کا قاعدہ لاگو ہوتا ہے؟",
+          "hi": "दर्ज जेल में से किस पर Sukoon (Sakin) का क़ायदा लागू होता है?",
+          "hinglish": "Darj zail mein se kis par Sukoon (Sakin) ka qaaida laagu hota hai?"
+        },
+        "options": {
+          "en": [
+            "قُلْ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "ur": [
+            "قُلْ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hi": [
+            "قُلْ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hinglish": [
+            "قُلْ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ]
+        },
+        "explanation": {
+          "en": "'قُلْ' illustrates the specific transformation.",
+          "ur": "'قُلْ' اس تبدیلی کی واضح مثال ہے۔",
+          "hi": "'قُلْ' इस तब्दीली की वाज़ेह मिसाल है।",
+          "hinglish": "'قُلْ' is tabdeeli ki wazeh misaal hai."
+        }
+      },
+      {
+        "id": "s1l7-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "What is the base (Asal) form corresponding to 'قُلْ'?",
+          "ur": "'قُلْ' کی اصل صورت کیا ہے؟",
+          "hi": "'قُلْ' की असल सूरत क्या है?",
+          "hinglish": "'قُلْ' ki asal soorat kya hai?"
+        },
+        "options": {
+          "en": [
+            "مَنْ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "مَنْ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "مَنْ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "مَنْ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting base form is 'مَنْ'.",
+          "ur": "اس کی اصل بنیادی صورت 'مَنْ' ہے۔",
+          "hi": "इसकी असल बुनियादी सूरत 'مَنْ' है।",
+          "hinglish": "Iski asal bunyadi soorat 'مَنْ' hai."
+        }
+      },
+      {
+        "id": "s1l7-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'الْاِخْتِلَاف'?",
+          "ur": "قرآنی لفظ 'الْاِخْتِلَاف' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'الْاِخْتِلَاف' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'الْاِخْتِلَاف' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Difference / Alternation",
+            "Disobedient / Sinner / Transgressor",
+            "Treachery / Betrayal",
+            "Rich / Self-Sufficient / Free of need"
+          ],
+          "ur": [
+            "اختلاف / فرق",
+            "نافرمان / گناہگار",
+            "خیانت / دھوکہ",
+            "مالدار / بے نیاز / غنی"
+          ],
+          "hi": [
+            "इख़्तिलाफ़ / फ़र्क़",
+            "नाफ़रमान / गुनहगार",
+            "ख़ियानत / धोखा",
+            "मालदार / बेनियाज़ / ग़नी"
+          ],
+          "hinglish": [
+            "Ikhtilaaf / Faraq",
+            "Naafarman / Gunaahgar",
+            "Khiyaanat / Dhoka",
+            "Maaldaar / Beniyaaz / Ghani"
+          ]
+        },
+        "explanation": {
+          "en": "'الْاِخْتِلَاف' translates to 'Difference / Alternation'.",
+          "ur": "'الْاِخْتِلَاف' کا معنی 'اختلاف / فرق' ہے۔",
+          "hi": "'الْاِخْتِلَاف' का मतलब 'इख़्तिलाफ़ / फ़र्क़' है।",
+          "hinglish": "'الْاِخْتِلَاف' ka matlab 'Ikhtilaaf / Faraq' hai."
+        }
+      },
+      {
+        "id": "s1l7-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'الْاِسْتِغْفَار'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'الْاِسْتِغْفَار'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'الْاِسْتِغْفَار'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'الْاِسْتِغْفَار'"
+        },
+        "options": {
+          "en": [
+            "Disobedient / Sinner / Transgressor",
+            "Seeking forgiveness / Istighfar",
+            "Treachery / Betrayal",
+            "Rich / Self-Sufficient / Free of need"
+          ],
+          "ur": [
+            "نافرمان / گناہگار",
+            "معافی مانگنا / استغفار",
+            "خیانت / دھوکہ",
+            "مالدار / بے نیاز / غنی"
+          ],
+          "hi": [
+            "नाफ़रमान / गुनहगार",
+            "माफ़ी माँगना / इस्तिग़फ़ार",
+            "ख़ियानत / धोखा",
+            "मालदार / बेनियाज़ / ग़नी"
+          ],
+          "hinglish": [
+            "Naafarman / Gunaahgar",
+            "Maafi maangna / Istighfaar",
+            "Khiyaanat / Dhoka",
+            "Maaldaar / Beniyaaz / Ghani"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'الْاِسْتِغْفَار' means 'Seeking forgiveness / Istighfar'.",
+          "ur": "'الْاِسْتِغْفَار' کا مفہوم 'معافی مانگنا / استغفار' ہے۔",
+          "hi": "'الْاِسْتِغْفَار' का मतलब 'माफ़ी माँगना / इस्तिग़फ़ार' है।",
+          "hinglish": "'الْاِسْتِغْفَار' ka matlab 'Maafi maangna / Istighfaar' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s1l8",
+    "questions": [
+      {
+        "id": "s1l8-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What is the core rule taught in Tashdeed / Shaddah?",
+          "ur": "Tashdeed / Shaddah میں کیا بنیادی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Tashdeed / Shaddah में क्या बुनियादी क़ायदा सिखाया गया है?",
+          "hinglish": "Tashdeed / Shaddah mein kya bunyadi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transformation to 'رَبَّ' occurs",
+            "No grammatical change takes place",
+            "Word becomes a past verb",
+            "Vowels are completely omitted"
+          ],
+          "ur": [
+            "لفظ بدل کر 'رَبَّ' بن جاتا ہے",
+            "کوئی نحوی تبدیلی نہیں ہوتی",
+            "لفظ فعل ماضی بن جاتا ہے",
+            "اعراب مکمل ختم ہو جاتے ہیں"
+          ],
+          "hi": [
+            "लफ़्ज़ बदल कर 'رَبَّ' बन जाता है",
+            "कोई नहवी तब्दीली नहीं होती",
+            "लफ़्ज़ फेल माज़ी बन जाता है",
+            "एराब मुकम्मल खत्म हो जाते हैं"
+          ],
+          "hinglish": [
+            "Lafz badal kar 'رَبَّ' ban jaata hai",
+            "Koi nahwi tabdeeli nahi hoti",
+            "Lafz fe'l mazi ban jaata hai",
+            "I'raab mukammal khatam ho jaate hain"
+          ]
+        },
+        "explanation": {
+          "en": "The rule governs the form and pronunciation of 'رَبَّ'.",
+          "ur": "یہ قاعدہ 'رَبَّ' کی ساخت اور اعراب کو بیان کرتا ہے۔",
+          "hi": "यह क़ायदा 'رَبَّ' की साख्त और एराब को बयान करता है।",
+          "hinglish": "Yeh qaaida 'رَبَّ' ki saakht aur i'raab ko bayan karta hai."
+        }
+      },
+      {
+        "id": "s1l8-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following demonstrates the rule of Shaddah (Musheddad)?",
+          "ur": "درج ذیل میں سے کس پر Shaddah (Musheddad) کا قاعدہ لاگو ہوتا ہے؟",
+          "hi": "दर्ज जेल में से किस पर Shaddah (Musheddad) का क़ायदा लागू होता है?",
+          "hinglish": "Darj zail mein se kis par Shaddah (Musheddad) ka qaaida laagu hota hai?"
+        },
+        "options": {
+          "en": [
+            "رَبَّ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "ur": [
+            "رَبَّ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hi": [
+            "رَبَّ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hinglish": [
+            "رَبَّ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ]
+        },
+        "explanation": {
+          "en": "'رَبَّ' illustrates the specific transformation.",
+          "ur": "'رَبَّ' اس تبدیلی کی واضح مثال ہے۔",
+          "hi": "'رَبَّ' इस तब्दीली की वाज़ेह मिसाल है।",
+          "hinglish": "'رَبَّ' is tabdeeli ki wazeh misaal hai."
+        }
+      },
+      {
+        "id": "s1l8-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "What is the base (Asal) form corresponding to 'رَبَّ'?",
+          "ur": "'رَبَّ' کی اصل صورت کیا ہے؟",
+          "hi": "'رَبَّ' की असल सूरत क्या है?",
+          "hinglish": "'رَبَّ' ki asal soorat kya hai?"
+        },
+        "options": {
+          "en": [
+            "رَبْ + بَ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "رَبْ + بَ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "رَبْ + بَ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "رَبْ + بَ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting base form is 'رَبْ + بَ'.",
+          "ur": "اس کی اصل بنیادی صورت 'رَبْ + بَ' ہے۔",
+          "hi": "इसकी असल बुनियादी सूरत 'رَبْ + بَ' है।",
+          "hinglish": "Iski asal bunyadi soorat 'رَبْ + بَ' hai."
+        }
+      },
+      {
+        "id": "s1l8-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'الْغُرُور'?",
+          "ur": "قرآنی لفظ 'الْغُرُور' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'الْغُرُور' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'الْغُرُور' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Delusion / Deception",
+            "Anger / Wrath",
+            "Example / Likeness / Model",
+            "Loan / Credit"
+          ],
+          "ur": [
+            "دھوکہ / فریب",
+            "غصہ / غضب",
+            "مثال / نمونہ",
+            "قرض / ادھار"
+          ],
+          "hi": [
+            "धोखा / फ़रेब",
+            "गुस्सा / ग़ज़ब",
+            "मिसाल / नमूना",
+            "क़र्ज़ / उधार"
+          ],
+          "hinglish": [
+            "Dhoka / Fareb",
+            "Gussa / Ghazab",
+            "Misaal / Namoona",
+            "Qarz / Udhaar"
+          ]
+        },
+        "explanation": {
+          "en": "'الْغُرُور' translates to 'Delusion / Deception'.",
+          "ur": "'الْغُرُور' کا معنی 'دھوکہ / فریب' ہے۔",
+          "hi": "'الْغُرُور' का मतलब 'धोखा / फ़रेब' है।",
+          "hinglish": "'الْغُرُور' ka matlab 'Dhoka / Fareb' hai."
+        }
+      },
+      {
+        "id": "s1l8-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'الْبَشَر'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'الْبَشَر'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'الْبَشَر'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'الْبَشَر'"
+        },
+        "options": {
+          "en": [
+            "Anger / Wrath",
+            "Human being / Mankind",
+            "Example / Likeness / Model",
+            "Loan / Credit"
+          ],
+          "ur": [
+            "غصہ / غضب",
+            "انسان / بشر",
+            "مثال / نمونہ",
+            "قرض / ادھار"
+          ],
+          "hi": [
+            "गुस्सा / ग़ज़ब",
+            "इंसान / बशर",
+            "मिसाल / नमूना",
+            "क़र्ज़ / उधार"
+          ],
+          "hinglish": [
+            "Gussa / Ghazab",
+            "Insaan / Bashar",
+            "Misaal / Namoona",
+            "Qarz / Udhaar"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'الْبَشَر' means 'Human being / Mankind'.",
+          "ur": "'الْبَشَر' کا مفہوم 'انسان / بشر' ہے۔",
+          "hi": "'الْبَشَر' का मतलब 'इंसान / बशर' है।",
+          "hinglish": "'الْبَشَر' ka matlab 'Insaan / Bashar' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s1l9",
+    "questions": [
+      {
+        "id": "s1l9-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What is the core rule taught in Asma-ul-Husna & Tanween?",
+          "ur": "Asma-ul-Husna & Tanween میں کیا بنیادی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Asma-ul-Husna & Tanween में क्या बुनियादी क़ायदा सिखाया गया है?",
+          "hinglish": "Asma-ul-Husna & Tanween mein kya bunyadi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transformation to 'الْغَفُورُ' occurs",
+            "No grammatical change takes place",
+            "Word becomes a past verb",
+            "Vowels are completely omitted"
+          ],
+          "ur": [
+            "لفظ بدل کر 'الْغَفُورُ' بن جاتا ہے",
+            "کوئی نحوی تبدیلی نہیں ہوتی",
+            "لفظ فعل ماضی بن جاتا ہے",
+            "اعراب مکمل ختم ہو جاتے ہیں"
+          ],
+          "hi": [
+            "लफ़्ज़ बदल कर 'الْغَفُورُ' बन जाता है",
+            "कोई नहवी तब्दीली नहीं होती",
+            "लफ़्ज़ फेल माज़ी बन जाता है",
+            "एराब मुकम्मल खत्म हो जाते हैं"
+          ],
+          "hinglish": [
+            "Lafz badal kar 'الْغَفُورُ' ban jaata hai",
+            "Koi nahwi tabdeeli nahi hoti",
+            "Lafz fe'l mazi ban jaata hai",
+            "I'raab mukammal khatam ho jaate hain"
+          ]
+        },
+        "explanation": {
+          "en": "The rule governs the form and pronunciation of 'الْغَفُورُ'.",
+          "ur": "یہ قاعدہ 'الْغَفُورُ' کی ساخت اور اعراب کو بیان کرتا ہے۔",
+          "hi": "यह क़ायदा 'الْغَفُورُ' की साख्त और एराब को बयान करता है।",
+          "hinglish": "Yeh qaaida 'الْغَفُورُ' ki saakht aur i'raab ko bayan karta hai."
+        }
+      },
+      {
+        "id": "s1l9-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following demonstrates the rule of Sifaat-e-Ilaahi?",
+          "ur": "درج ذیل میں سے کس پر Sifaat-e-Ilaahi کا قاعدہ لاگو ہوتا ہے؟",
+          "hi": "दर्ज जेल में से किस पर Sifaat-e-Ilaahi का क़ायदा लागू होता है?",
+          "hinglish": "Darj zail mein se kis par Sifaat-e-Ilaahi ka qaaida laagu hota hai?"
+        },
+        "options": {
+          "en": [
+            "الْغَفُورُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "ur": [
+            "الْغَفُورُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hi": [
+            "الْغَفُورُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hinglish": [
+            "الْغَفُورُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ]
+        },
+        "explanation": {
+          "en": "'الْغَفُورُ' illustrates the specific transformation.",
+          "ur": "'الْغَفُورُ' اس تبدیلی کی واضح مثال ہے۔",
+          "hi": "'الْغَفُورُ' इस तब्दीली की वाज़ेह मिसाल है।",
+          "hinglish": "'الْغَفُورُ' is tabdeeli ki wazeh misaal hai."
+        }
+      },
+      {
+        "id": "s1l9-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "What is the base (Asal) form corresponding to 'الْغَفُورُ'?",
+          "ur": "'الْغَفُورُ' کی اصل صورت کیا ہے؟",
+          "hi": "'الْغَفُورُ' की असल सूरत क्या है?",
+          "hinglish": "'الْغَفُورُ' ki asal soorat kya hai?"
+        },
+        "options": {
+          "en": [
+            "غَفُورٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "غَفُورٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "غَفُورٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "غَفُورٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting base form is 'غَفُورٌ'.",
+          "ur": "اس کی اصل بنیادی صورت 'غَفُورٌ' ہے۔",
+          "hi": "इसकी असल बुनियादी सूरत 'غَفُورٌ' है।",
+          "hinglish": "Iski asal bunyadi soorat 'غَفُورٌ' hai."
+        }
+      },
+      {
+        "id": "s1l9-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'الْقَادِر'?",
+          "ur": "قرآنی لفظ 'الْقَادِر' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'الْقَادِر' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'الْقَادِر' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "The Capable / The All-Able",
+            "The Creator",
+            "The Predominant / The Victorious",
+            "The Guide"
+          ],
+          "ur": [
+            "قدرت والا",
+            "پیدا کرنے والا / خالق",
+            "غالب / حاوی",
+            "ہدایت دینے والا / راستہ دکھانے والا"
+          ],
+          "hi": [
+            "क़ुदरत वाला",
+            "पैदा करने वाला / ख़ालिक़",
+            "ग़ालिब / हावी",
+            "हिदायत देने वाला / रास्ता दिखाने वाला"
+          ],
+          "hinglish": [
+            "Qudrat wala",
+            "Paida karne wala / Khaliq",
+            "Ghaalib / Haawi",
+            "Hidaayat dene wala / Rasta dikhane wala"
+          ]
+        },
+        "explanation": {
+          "en": "'الْقَادِر' translates to 'The Capable / The All-Able'.",
+          "ur": "'الْقَادِر' کا معنی 'قدرت والا' ہے۔",
+          "hi": "'الْقَادِر' का मतलब 'क़ुदरत वाला' है।",
+          "hinglish": "'الْقَادِر' ka matlab 'Qudrat wala' hai."
+        }
+      },
+      {
+        "id": "s1l9-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'الْمَالِك'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'الْمَالِك'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'الْمَالِك'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'الْمَالِك'"
+        },
+        "options": {
+          "en": [
+            "The Creator",
+            "The Sovereign / The Owner",
+            "The Predominant / The Victorious",
+            "The Guide"
+          ],
+          "ur": [
+            "پیدا کرنے والا / خالق",
+            "مالک / بادشاہ",
+            "غالب / حاوی",
+            "ہدایت دینے والا / راستہ دکھانے والا"
+          ],
+          "hi": [
+            "पैदा करने वाला / ख़ालिक़",
+            "मालिक / बादशाह",
+            "ग़ालिब / हावी",
+            "हिदायत देने वाला / रास्ता दिखाने वाला"
+          ],
+          "hinglish": [
+            "Paida karne wala / Khaliq",
+            "Maalik / Badshah",
+            "Ghaalib / Haawi",
+            "Hidaayat dene wala / Rasta dikhane wala"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'الْمَالِك' means 'The Sovereign / The Owner'.",
+          "ur": "'الْمَالِك' کا مفہوم 'مالک / بادشاہ' ہے۔",
+          "hi": "'الْمَالِك' का मतलब 'मालिक / बादशाह' है।",
+          "hinglish": "'الْمَالِك' ka matlab 'Maalik / Badshah' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s1l10",
+    "questions": [
+      {
+        "id": "s1l10-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What is the core rule taught in Jama Muzakkar Salim (ـُونَ)?",
+          "ur": "Jama Muzakkar Salim (ـُونَ) میں کیا بنیادی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Jama Muzakkar Salim (ـُونَ) में क्या बुनियादी क़ायदा सिखाया गया है?",
+          "hinglish": "Jama Muzakkar Salim ('ـُونَ') mein kya bunyadi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transformation to 'مُسْلِمُونَ' occurs",
+            "No grammatical change takes place",
+            "Word becomes a past verb",
+            "Vowels are completely omitted"
+          ],
+          "ur": [
+            "لفظ بدل کر 'مُسْلِمُونَ' بن جاتا ہے",
+            "کوئی نحوی تبدیلی نہیں ہوتی",
+            "لفظ فعل ماضی بن جاتا ہے",
+            "اعراب مکمل ختم ہو جاتے ہیں"
+          ],
+          "hi": [
+            "लफ़्ज़ बदल कर 'مُسْلِمُونَ' बन जाता है",
+            "कोई नहवी तब्दीली नहीं होती",
+            "लफ़्ज़ फेल माज़ी बन जाता है",
+            "एराब मुकम्मल खत्म हो जाते हैं"
+          ],
+          "hinglish": [
+            "Lafz badal kar 'مُسْلِمُونَ' ban jaata hai",
+            "Koi nahwi tabdeeli nahi hoti",
+            "Lafz fe'l mazi ban jaata hai",
+            "I'raab mukammal khatam ho jaate hain"
+          ]
+        },
+        "explanation": {
+          "en": "The rule governs the form and pronunciation of 'مُسْلِمُونَ'.",
+          "ur": "یہ قاعدہ 'مُسْلِمُونَ' کی ساخت اور اعراب کو بیان کرتا ہے۔",
+          "hi": "यह क़ायदा 'مُسْلِمُونَ' की साख्त और एराब को बयान करता है।",
+          "hinglish": "Yeh qaaida 'مُسْلِمُونَ' ki saakht aur i'raab ko bayan karta hai."
+        }
+      },
+      {
+        "id": "s1l10-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following demonstrates the rule of Jama Salim?",
+          "ur": "درج ذیل میں سے کس پر Jama Salim کا قاعدہ لاگو ہوتا ہے؟",
+          "hi": "दर्ज जेल में से किस पर Jama Salim का क़ायदा लागू होता है?",
+          "hinglish": "Darj zail mein se kis par Jama Salim ka qaaida laagu hota hai?"
+        },
+        "options": {
+          "en": [
+            "مُسْلِمُونَ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "ur": [
+            "مُسْلِمُونَ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hi": [
+            "مُسْلِمُونَ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hinglish": [
+            "مُسْلِمُونَ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ]
+        },
+        "explanation": {
+          "en": "'مُسْلِمُونَ' illustrates the specific transformation.",
+          "ur": "'مُسْلِمُونَ' اس تبدیلی کی واضح مثال ہے۔",
+          "hi": "'مُسْلِمُونَ' इस तब्दीली की वाज़ेह मिसाल है।",
+          "hinglish": "'مُسْلِمُونَ' is tabdeeli ki wazeh misaal hai."
+        }
+      },
+      {
+        "id": "s1l10-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "What is the base (Asal) form corresponding to 'مُسْلِمُونَ'?",
+          "ur": "'مُسْلِمُونَ' کی اصل صورت کیا ہے؟",
+          "hi": "'مُسْلِمُونَ' की असल सूरत क्या है?",
+          "hinglish": "'مُسْلِمُونَ' ki asal soorat kya hai?"
+        },
+        "options": {
+          "en": [
+            "مُسْلِمٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "مُسْلِمٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "مُسْلِمٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "مُسْلِمٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting base form is 'مُسْلِمٌ'.",
+          "ur": "اس کی اصل بنیادی صورت 'مُسْلِمٌ' ہے۔",
+          "hi": "इसकी असल बुनियादी सूरत 'مُسْلِمٌ' है।",
+          "hinglish": "Iski asal bunyadi soorat 'مُسْلِمٌ' hai."
+        }
+      },
+      {
+        "id": "s1l10-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'قَلَم : أَقْلَام'?",
+          "ur": "قرآنی لفظ 'قَلَم : أَقْلَام' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'قَلَم : أَقْلَام' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'قَلَم : أَقْلَام' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Pen : Pens",
+            "River : Rivers",
+            "Body : Bodies",
+            "Deed / Action : Deeds / Actions"
+          ],
+          "ur": [
+            "قلم : قلمیں",
+            "نہر : نہریں / دریا",
+            "جسم : اجسام",
+            "عمل : اعمال"
+          ],
+          "hi": [
+            "क़लम : क़लमें",
+            "नहर : नहरें / नदियाँ",
+            "जिस्म : अजसाम (शरीर)",
+            "अमल : आमाल (कर्म)"
+          ],
+          "hinglish": [
+            "Qalam : Qalamein",
+            "Nahr : Nahrein / Dariya",
+            "Jism : Ajsaam",
+            "Amal : ek'maal"
+          ]
+        },
+        "explanation": {
+          "en": "'قَلَم : أَقْلَام' translates to 'Pen : Pens'.",
+          "ur": "'قَلَم : أَقْلَام' کا معنی 'قلم : قلمیں' ہے۔",
+          "hi": "'قَلَم : أَقْلَام' का मतलब 'क़लम : क़लमें' है।",
+          "hinglish": "'قَلَم : أَقْلَام' ka matlab 'Qalam : Qalamein' hai."
+        }
+      },
+      {
+        "id": "s1l10-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'مَال : أَمْوَال'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'مَال : أَمْوَال'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'مَال : أَمْوَال'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'مَال : أَمْوَال'"
+        },
+        "options": {
+          "en": [
+            "River : Rivers",
+            "Wealth : Wealths / Possessions",
+            "Body : Bodies",
+            "Deed / Action : Deeds / Actions"
+          ],
+          "ur": [
+            "نہر : نہریں / دریا",
+            "مال : اموال",
+            "جسم : اجسام",
+            "عمل : اعمال"
+          ],
+          "hi": [
+            "नहर : नहरें / नदियाँ",
+            "माल : अमवाल (धन-दौलत)",
+            "जिस्म : अजसाम (शरीर)",
+            "अमल : आमाल (कर्म)"
+          ],
+          "hinglish": [
+            "Nahr : Nahrein / Dariya",
+            "Maal : Amwaal",
+            "Jism : Ajsaam",
+            "Amal : ek'maal"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'مَال : أَمْوَال' means 'Wealth : Wealths / Possessions'.",
+          "ur": "'مَال : أَمْوَال' کا مفہوم 'مال : اموال' ہے۔",
+          "hi": "'مَال : أَمْوَال' का मतलब 'माल : अमवाल (धन-दौलत)' है।",
+          "hinglish": "'مَال : أَمْوَال' ka matlab 'Maal : Amwaal' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s1l11",
+    "questions": [
+      {
+        "id": "s1l11-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What is the core rule taught in Jama Muannas Salim (ـَاتٌ)?",
+          "ur": "Jama Muannas Salim (ـَاتٌ) میں کیا بنیادی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Jama Muannas Salim (ـَاتٌ) में क्या बुनियादी क़ायदा सिखाया गया है?",
+          "hinglish": "Jama Muannas Salim ('ـَاتٌ') mein kya bunyadi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transformation to 'مُسْلِمَاتٌ' occurs",
+            "No grammatical change takes place",
+            "Word becomes a past verb",
+            "Vowels are completely omitted"
+          ],
+          "ur": [
+            "لفظ بدل کر 'مُسْلِمَاتٌ' بن جاتا ہے",
+            "کوئی نحوی تبدیلی نہیں ہوتی",
+            "لفظ فعل ماضی بن جاتا ہے",
+            "اعراب مکمل ختم ہو جاتے ہیں"
+          ],
+          "hi": [
+            "लफ़्ज़ बदल कर 'مُسْلِمَاتٌ' बन जाता है",
+            "कोई नहवी तब्दीली नहीं होती",
+            "लफ़्ज़ फेल माज़ी बन जाता है",
+            "एराब मुकम्मल खत्म हो जाते हैं"
+          ],
+          "hinglish": [
+            "Lafz badal kar 'مُسْلِمَاتٌ' ban jaata hai",
+            "Koi nahwi tabdeeli nahi hoti",
+            "Lafz fe'l mazi ban jaata hai",
+            "I'raab mukammal khatam ho jaate hain"
+          ]
+        },
+        "explanation": {
+          "en": "The rule governs the form and pronunciation of 'مُسْلِمَاتٌ'.",
+          "ur": "یہ قاعدہ 'مُسْلِمَاتٌ' کی ساخت اور اعراب کو بیان کرتا ہے۔",
+          "hi": "यह क़ायदा 'مُسْلِمَاتٌ' की साख्त और एराब को बयान करता है।",
+          "hinglish": "Yeh qaaida 'مُسْلِمَاتٌ' ki saakht aur i'raab ko bayan karta hai."
+        }
+      },
+      {
+        "id": "s1l11-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following demonstrates the rule of Jama Muannas?",
+          "ur": "درج ذیل میں سے کس پر Jama Muannas کا قاعدہ لاگو ہوتا ہے؟",
+          "hi": "दर्ज जेल में से किस पर Jama Muannas का क़ायदा लागू होता है?",
+          "hinglish": "Darj zail mein se kis par Jama Muannas ka qaaida laagu hota hai?"
+        },
+        "options": {
+          "en": [
+            "مُسْلِمَاتٌ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "ur": [
+            "مُسْلِمَاتٌ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hi": [
+            "مُسْلِمَاتٌ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hinglish": [
+            "مُسْلِمَاتٌ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ]
+        },
+        "explanation": {
+          "en": "'مُسْلِمَاتٌ' illustrates the specific transformation.",
+          "ur": "'مُسْلِمَاتٌ' اس تبدیلی کی واضح مثال ہے۔",
+          "hi": "'مُسْلِمَاتٌ' इस तब्दीली की वाज़ेह मिसाल है।",
+          "hinglish": "'مُسْلِمَاتٌ' is tabdeeli ki wazeh misaal hai."
+        }
+      },
+      {
+        "id": "s1l11-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "What is the base (Asal) form corresponding to 'مُسْلِمَاتٌ'?",
+          "ur": "'مُسْلِمَاتٌ' کی اصل صورت کیا ہے؟",
+          "hi": "'مُسْلِمَاتٌ' की असल सूरत क्या है?",
+          "hinglish": "'مُسْلِمَاتٌ' ki asal soorat kya hai?"
+        },
+        "options": {
+          "en": [
+            "مُسْلِمَةٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "مُسْلِمَةٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "مُسْلِمَةٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "مُسْلِمَةٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting base form is 'مُسْلِمَةٌ'.",
+          "ur": "اس کی اصل بنیادی صورت 'مُسْلِمَةٌ' ہے۔",
+          "hi": "इसकी असल बुनियादी सूरत 'مُسْلِمَةٌ' है।",
+          "hinglish": "Iski asal bunyadi soorat 'مُسْلِمَةٌ' hai."
+        }
+      },
+      {
+        "id": "s1l11-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'الْجَنَّاتُ'?",
+          "ur": "قرآنی لفظ 'الْجَنَّاتُ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'الْجَنَّاتُ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'الْجَنَّاتُ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "The Gardens / Paradises",
+            "The verses / signs",
+            "The blessings",
+            "The prayers / supplications"
+          ],
+          "ur": [
+            "جنتیں / باغات",
+            "آیات / نشانیاں",
+            "برکتیں",
+            "نمازیں / دعائیں"
+          ],
+          "hi": [
+            "जन्नतें / बाग़",
+            "आयात / निशानियां",
+            "बरकतें (आशीर्वाद)",
+            "नमाज़ें / दुआएं"
+          ],
+          "hinglish": [
+            "Jannatein / Baagh",
+            "Aayaat / Nishaniyan",
+            "Barkatein",
+            "Namazein / Duayein"
+          ]
+        },
+        "explanation": {
+          "en": "'الْجَنَّاتُ' translates to 'The Gardens / Paradises'.",
+          "ur": "'الْجَنَّاتُ' کا معنی 'جنتیں / باغات' ہے۔",
+          "hi": "'الْجَنَّاتُ' का मतलब 'जन्नतें / बाग़' है।",
+          "hinglish": "'الْجَنَّاتُ' ka matlab 'Jannatein / Baagh' hai."
+        }
+      },
+      {
+        "id": "s1l11-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'الْعَلَامَاتُ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'الْعَلَامَاتُ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'الْعَلَامَاتُ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'الْعَلَامَاتُ'"
+        },
+        "options": {
+          "en": [
+            "The verses / signs",
+            "The signs / landmarks",
+            "The blessings",
+            "The prayers / supplications"
+          ],
+          "ur": [
+            "آیات / نشانیاں",
+            "علامات / نشانیاں",
+            "برکتیں",
+            "نمازیں / دعائیں"
+          ],
+          "hi": [
+            "आयात / निशानियां",
+            "निशानियां / संकेत",
+            "बरकतें (आशीर्वाद)",
+            "नमाज़ें / दुआएं"
+          ],
+          "hinglish": [
+            "Aayaat / Nishaniyan",
+            "Nishaniyan",
+            "Barkatein",
+            "Namazein / Duayein"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'الْعَلَامَاتُ' means 'The signs / landmarks'.",
+          "ur": "'الْعَلَامَاتُ' کا مفہوم 'علامات / نشانیاں' ہے۔",
+          "hi": "'الْعَلَامَاتُ' का मतलब 'निशानियां / संकेत' है।",
+          "hinglish": "'الْعَلَامَاتُ' ka matlab 'Nishaniyan' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s1l12",
+    "questions": [
+      {
+        "id": "s1l12-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What is the core rule taught in Harf-e-Atf 'Waw' (Al-Kitabu wal-Qalamu)?",
+          "ur": "Harf-e-Atf 'Waw' (Al-Kitabu wal-Qalamu) میں کیا بنیادی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Harf-e-Atf 'Waw' (Al-Kitabu wal-Qalamu) में क्या बुनियादी क़ायदा सिखाया गया है?",
+          "hinglish": "Harf-e-Atf 'Waw' (Al-Kitabu wal-Qalamu) mein kya bunyadi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transformation to 'الْكِتَابُ وَالْقَلَمُ' occurs",
+            "No grammatical change takes place",
+            "Word becomes a past verb",
+            "Vowels are completely omitted"
+          ],
+          "ur": [
+            "لفظ بدل کر 'الْكِتَابُ وَالْقَلَمُ' بن جاتا ہے",
+            "کوئی نحوی تبدیلی نہیں ہوتی",
+            "لفظ فعل ماضی بن جاتا ہے",
+            "اعراب مکمل ختم ہو جاتے ہیں"
+          ],
+          "hi": [
+            "लफ़्ज़ बदल कर 'الْكِتَابُ وَالْقَلَمُ' बन जाता है",
+            "कोई नहवी तब्दीली नहीं होती",
+            "लफ़्ज़ फेल माज़ी बन जाता है",
+            "एराब मुकम्मल खत्म हो जाते हैं"
+          ],
+          "hinglish": [
+            "Lafz badal kar 'الْكِتَابُ وَالْقَلَمُ' ban jaata hai",
+            "Koi nahwi tabdeeli nahi hoti",
+            "Lafz fe'l mazi ban jaata hai",
+            "I'raab mukammal khatam ho jaate hain"
+          ]
+        },
+        "explanation": {
+          "en": "The rule governs the form and pronunciation of 'الْكِتَابُ وَالْقَلَمُ'.",
+          "ur": "یہ قاعدہ 'الْكِتَابُ وَالْقَلَمُ' کی ساخت اور اعراب کو بیان کرتا ہے۔",
+          "hi": "यह क़ायदा 'الْكِتَابُ وَالْقَلَمُ' की साख्त और एराब को बयान करता है।",
+          "hinglish": "Yeh qaaida 'الْكِتَابُ وَالْقَلَمُ' ki saakht aur i'raab ko bayan karta hai."
+        }
+      },
+      {
+        "id": "s1l12-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following demonstrates the rule of Atf (Waw)?",
+          "ur": "درج ذیل میں سے کس پر Atf (Waw) کا قاعدہ لاگو ہوتا ہے؟",
+          "hi": "दर्ज जेल में से किस पर Atf (Waw) का क़ायदा लागू होता है?",
+          "hinglish": "Darj zail mein se kis par Atf (Waw) ka qaaida laagu hota hai?"
+        },
+        "options": {
+          "en": [
+            "الْكِتَابُ وَالْقَلَمُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "ur": [
+            "الْكِتَابُ وَالْقَلَمُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hi": [
+            "الْكِتَابُ وَالْقَلَمُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hinglish": [
+            "الْكِتَابُ وَالْقَلَمُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ]
+        },
+        "explanation": {
+          "en": "'الْكِتَابُ وَالْقَلَمُ' illustrates the specific transformation.",
+          "ur": "'الْكِتَابُ وَالْقَلَمُ' اس تبدیلی کی واضح مثال ہے۔",
+          "hi": "'الْكِتَابُ وَالْقَلَمُ' इस तब्दीली की वाज़ेह मिसाल है।",
+          "hinglish": "'الْكِتَابُ وَالْقَلَمُ' is tabdeeli ki wazeh misaal hai."
+        }
+      },
+      {
+        "id": "s1l12-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "What is the base (Asal) form corresponding to 'الْكِتَابُ وَالْقَلَمُ'?",
+          "ur": "'الْكِتَابُ وَالْقَلَمُ' کی اصل صورت کیا ہے؟",
+          "hi": "'الْكِتَابُ وَالْقَلَمُ' की असल सूरत क्या है?",
+          "hinglish": "'الْكِتَابُ وَالْقَلَمُ' ki asal soorat kya hai?"
+        },
+        "options": {
+          "en": [
+            "الْكِتَابُ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "الْكِتَابُ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "الْكِتَابُ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "الْكِتَابُ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting base form is 'الْكِتَابُ'.",
+          "ur": "اس کی اصل بنیادی صورت 'الْكِتَابُ' ہے۔",
+          "hi": "इसकी असल बुनियादी सूरत 'الْكِتَابُ' है।",
+          "hinglish": "Iski asal bunyadi soorat 'الْكِتَابُ' hai."
+        }
+      },
+      {
+        "id": "s1l12-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'الْحَقُّ وَالْبَاطِلُ'?",
+          "ur": "قرآنی لفظ 'الْحَقُّ وَالْبَاطِلُ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'الْحَقُّ وَالْبَاطِلُ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'الْحَقُّ وَالْبَاطِلُ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "The truth and falsehood",
+            "Paradise and forgiveness",
+            "The Book and wisdom",
+            "This world and the Hereafter"
+          ],
+          "ur": [
+            "حق اور باطل",
+            "جنت اور مغفرت",
+            "کتاب اور حکمت",
+            "دنیا اور آخرت"
+          ],
+          "hi": [
+            "हक़ और बातिल (सत्य और असत्य)",
+            "जन्नत और मग़फ़िरत",
+            "किताब और हिकमत (बुद्धिमत्ता)",
+            "दुनिया और आख़िरत"
+          ],
+          "hinglish": [
+            "Haq aur Baatil",
+            "Jannat aur Maghfirat",
+            "Kitaab aur Hikmat",
+            "Dunya aur Aakhirat"
+          ]
+        },
+        "explanation": {
+          "en": "'الْحَقُّ وَالْبَاطِلُ' translates to 'The truth and falsehood'.",
+          "ur": "'الْحَقُّ وَالْبَاطِلُ' کا معنی 'حق اور باطل' ہے۔",
+          "hi": "'الْحَقُّ وَالْبَاطِلُ' का मतलब 'हक़ और बातिल (सत्य और असत्य)' है।",
+          "hinglish": "'الْحَقُّ وَالْبَاطِلُ' ka matlab 'Haq aur Baatil' hai."
+        }
+      },
+      {
+        "id": "s1l12-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'الْعِلْمُ وَالْجِسْمُ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'الْعِلْمُ وَالْجِسْمُ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'الْعِلْمُ وَالْجِسْمُ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'الْعِلْمُ وَالْجِسْمُ'"
+        },
+        "options": {
+          "en": [
+            "Paradise and forgiveness",
+            "Knowledge and physique / body",
+            "The Book and wisdom",
+            "This world and the Hereafter"
+          ],
+          "ur": [
+            "جنت اور مغفرت",
+            "علم اور جسم",
+            "کتاب اور حکمت",
+            "دنیا اور آخرت"
+          ],
+          "hi": [
+            "जन्नत और मग़फ़िरत",
+            "इल्म और जिस्म (ज्ञान और शरीर)",
+            "किताब और हिकमत (बुद्धिमत्ता)",
+            "दुनिया और आख़िरत"
+          ],
+          "hinglish": [
+            "Jannat aur Maghfirat",
+            "Ilm aur Jism",
+            "Kitaab aur Hikmat",
+            "Dunya aur Aakhirat"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'الْعِلْمُ وَالْجِسْمُ' means 'Knowledge and physique / body'.",
+          "ur": "'الْعِلْمُ وَالْجِسْمُ' کا مفہوم 'علم اور جسم' ہے۔",
+          "hi": "'الْعِلْمُ وَالْجِسْمُ' का मतलब 'इल्म और जिस्म (ज्ञान और शरीर)' है।",
+          "hinglish": "'الْعِلْمُ وَالْجِسْمُ' ka matlab 'Ilm aur Jism' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s1l13",
+    "questions": [
+      {
+        "id": "s1l13-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What is the core rule taught in Nakirah se Ma'rifah: Kitaabun se Al-Kitaabu?",
+          "ur": "Nakirah se Ma'rifah: Kitaabun se Al-Kitaabu میں کیا بنیادی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Nakirah se Ma'rifah: Kitaabun se Al-Kitaabu में क्या बुनियादी क़ायदा सिखाया गया है?",
+          "hinglish": "Nakirah se Ma'rifah: Kitaabun se Al-Kitaabu mein kya bunyadi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transformation to 'الرَّسُولُ' occurs",
+            "No grammatical change takes place",
+            "Word becomes a past verb",
+            "Vowels are completely omitted"
+          ],
+          "ur": [
+            "لفظ بدل کر 'الرَّسُولُ' بن جاتا ہے",
+            "کوئی نحوی تبدیلی نہیں ہوتی",
+            "لفظ فعل ماضی بن جاتا ہے",
+            "اعراب مکمل ختم ہو جاتے ہیں"
+          ],
+          "hi": [
+            "लफ़्ज़ बदल कर 'الرَّسُولُ' बन जाता है",
+            "कोई नहवी तब्दीली नहीं होती",
+            "लफ़्ज़ फेल माज़ी बन जाता है",
+            "एराब मुकम्मल खत्म हो जाते हैं"
+          ],
+          "hinglish": [
+            "Lafz badal kar 'الرَّسُولُ' ban jaata hai",
+            "Koi nahwi tabdeeli nahi hoti",
+            "Lafz fe'l mazi ban jaata hai",
+            "I'raab mukammal khatam ho jaate hain"
+          ]
+        },
+        "explanation": {
+          "en": "The rule governs the form and pronunciation of 'الرَّسُولُ'.",
+          "ur": "یہ قاعدہ 'الرَّسُولُ' کی ساخت اور اعراب کو بیان کرتا ہے۔",
+          "hi": "यह क़ायदा 'الرَّسُولُ' की साख्त और एराब को बयान करता है।",
+          "hinglish": "Yeh qaaida 'الرَّسُولُ' ki saakht aur i'raab ko bayan karta hai."
+        }
+      },
+      {
+        "id": "s1l13-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following demonstrates the rule of Tanween Drop?",
+          "ur": "درج ذیل میں سے کس پر Tanween Drop کا قاعدہ لاگو ہوتا ہے؟",
+          "hi": "दर्ज जेल में से किस पर Tanween Drop का क़ायदा लागू होता है?",
+          "hinglish": "Darj zail mein se kis par Tanween Drop ka qaaida laagu hota hai?"
+        },
+        "options": {
+          "en": [
+            "الرَّسُولُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "ur": [
+            "الرَّسُولُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hi": [
+            "الرَّسُولُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hinglish": [
+            "الرَّسُولُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ]
+        },
+        "explanation": {
+          "en": "'الرَّسُولُ' illustrates the specific transformation.",
+          "ur": "'الرَّسُولُ' اس تبدیلی کی واضح مثال ہے۔",
+          "hi": "'الرَّسُولُ' इस तब्दीली की वाज़ेह मिसाल है।",
+          "hinglish": "'الرَّسُولُ' is tabdeeli ki wazeh misaal hai."
+        }
+      },
+      {
+        "id": "s1l13-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "What is the base (Asal) form corresponding to 'الرَّسُولُ'?",
+          "ur": "'الرَّسُولُ' کی اصل صورت کیا ہے؟",
+          "hi": "'الرَّسُولُ' की असल सूरत क्या है?",
+          "hinglish": "'الرَّسُولُ' ki asal soorat kya hai?"
+        },
+        "options": {
+          "en": [
+            "رَسُولٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "رَسُولٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "رَسُولٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "رَسُولٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting base form is 'رَسُولٌ'.",
+          "ur": "اس کی اصل بنیادی صورت 'رَسُولٌ' ہے۔",
+          "hi": "इसकी असल बुनियादी सूरत 'رَسُولٌ' है।",
+          "hinglish": "Iski asal bunyadi soorat 'رَسُولٌ' hai."
+        }
+      },
+      {
+        "id": "s1l13-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'مَغْفِرَةٌ'?",
+          "ur": "قرآنی لفظ 'مَغْفِرَةٌ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'مَغْفِرَةٌ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'مَغْفِرَةٌ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "A forgiveness / Any forgiveness",
+            "A Quran / Any Quran",
+            "A Messenger / Any Messenger",
+            "A truth / Right"
+          ],
+          "ur": [
+            "ایک مغفرت / بخشش",
+            "ایک قرآن / کوئی قرآن",
+            "ایک رسول / کوئی رسول",
+            "ایک حق / سچ"
+          ],
+          "hi": [
+            "एक मग़फ़िरत / बख़्शिश",
+            "एक क़ुरआन / कोई क़ुरआन",
+            "एक रसूल / कोई रसूल",
+            "एक हक़ / सच"
+          ],
+          "hinglish": [
+            "Ek maghfirat / Bakhshish",
+            "Ek Quran / Koi Quran",
+            "Ek Rasool / Koi Rasool",
+            "Ek haq / Sach"
+          ]
+        },
+        "explanation": {
+          "en": "'مَغْفِرَةٌ' translates to 'A forgiveness / Any forgiveness'.",
+          "ur": "'مَغْفِرَةٌ' کا معنی 'ایک مغفرت / بخشش' ہے۔",
+          "hi": "'مَغْفِرَةٌ' का मतलब 'एक मग़फ़िरत / बख़्शिश' है।",
+          "hinglish": "'مَغْفِرَةٌ' ka matlab 'Ek maghfirat / Bakhshish' hai."
+        }
+      },
+      {
+        "id": "s1l13-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'رَحْمَةٌ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'رَحْمَةٌ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'رَحْمَةٌ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'رَحْمَةٌ'"
+        },
+        "options": {
+          "en": [
+            "A Quran / Any Quran",
+            "A mercy / Any mercy",
+            "A Messenger / Any Messenger",
+            "A truth / Right"
+          ],
+          "ur": [
+            "ایک قرآن / کوئی قرآن",
+            "ایک رحمت / کوئی رحمت",
+            "ایک رسول / کوئی رسول",
+            "ایک حق / سچ"
+          ],
+          "hi": [
+            "एक क़ुरआन / कोई क़ुरआन",
+            "एक रेहमत / कोई रेहमत",
+            "एक रसूल / कोई रसूल",
+            "एक हक़ / सच"
+          ],
+          "hinglish": [
+            "Ek Quran / Koi Quran",
+            "Ek rehmat / Koi rehmat",
+            "Ek Rasool / Koi Rasool",
+            "Ek haq / Sach"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'رَحْمَةٌ' means 'A mercy / Any mercy'.",
+          "ur": "'رَحْمَةٌ' کا مفہوم 'ایک رحمت / کوئی رحمت' ہے۔",
+          "hi": "'رَحْمَةٌ' का मतलब 'एक रेहमत / कोई रेहमत' है।",
+          "hinglish": "'رَحْمَةٌ' ka matlab 'Ek rehmat / Koi rehmat' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s1l14",
+    "questions": [
+      {
+        "id": "s1l14-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What is the core rule taught in Huroof Shamsiyyah & Qamariyyah?",
+          "ur": "Huroof Shamsiyyah & Qamariyyah میں کیا بنیادی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Huroof Shamsiyyah & Qamariyyah में क्या बुनियादी क़ायदा सिखाया गया है?",
+          "hinglish": "Huroof Shamsiyyah & Qamariyyah mein kya bunyadi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transformation to 'الْقَمَرُ' occurs",
+            "No grammatical change takes place",
+            "Word becomes a past verb",
+            "Vowels are completely omitted"
+          ],
+          "ur": [
+            "لفظ بدل کر 'الْقَمَرُ' بن جاتا ہے",
+            "کوئی نحوی تبدیلی نہیں ہوتی",
+            "لفظ فعل ماضی بن جاتا ہے",
+            "اعراب مکمل ختم ہو جاتے ہیں"
+          ],
+          "hi": [
+            "लफ़्ज़ बदल कर 'الْقَمَرُ' बन जाता है",
+            "कोई नहवी तब्दीली नहीं होती",
+            "लफ़्ज़ फेल माज़ी बन जाता है",
+            "एराब मुकम्मल खत्म हो जाते हैं"
+          ],
+          "hinglish": [
+            "Lafz badal kar 'الْقَمَرُ' ban jaata hai",
+            "Koi nahwi tabdeeli nahi hoti",
+            "Lafz fe'l mazi ban jaata hai",
+            "I'raab mukammal khatam ho jaate hain"
+          ]
+        },
+        "explanation": {
+          "en": "The rule governs the form and pronunciation of 'الْقَمَرُ'.",
+          "ur": "یہ قاعدہ 'الْقَمَرُ' کی ساخت اور اعراب کو بیان کرتا ہے۔",
+          "hi": "यह क़ायदा 'الْقَمَرُ' की साख्त और एराब को बयान करता है।",
+          "hinglish": "Yeh qaaida 'الْقَمَرُ' ki saakht aur i'raab ko bayan karta hai."
+        }
+      },
+      {
+        "id": "s1l14-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following demonstrates the rule of Shamsi & Qamari?",
+          "ur": "درج ذیل میں سے کس پر Shamsi & Qamari کا قاعدہ لاگو ہوتا ہے؟",
+          "hi": "दर्ज जेल में से किस पर Shamsi & Qamari का क़ायदा लागू होता है?",
+          "hinglish": "Darj zail mein se kis par Shamsi & Qamari ka qaaida laagu hota hai?"
+        },
+        "options": {
+          "en": [
+            "الْقَمَرُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "ur": [
+            "الْقَمَرُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hi": [
+            "الْقَمَرُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hinglish": [
+            "الْقَمَرُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ]
+        },
+        "explanation": {
+          "en": "'الْقَمَرُ' illustrates the specific transformation.",
+          "ur": "'الْقَمَرُ' اس تبدیلی کی واضح مثال ہے۔",
+          "hi": "'الْقَمَرُ' इस तब्दीली की वाज़ेह मिसाल है।",
+          "hinglish": "'الْقَمَرُ' is tabdeeli ki wazeh misaal hai."
+        }
+      },
+      {
+        "id": "s1l14-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "What is the base (Asal) form corresponding to 'الْقَمَرُ'?",
+          "ur": "'الْقَمَرُ' کی اصل صورت کیا ہے؟",
+          "hi": "'الْقَمَرُ' की असल सूरत क्या है?",
+          "hinglish": "'الْقَمَرُ' ki asal soorat kya hai?"
+        },
+        "options": {
+          "en": [
+            "الشَّمْسُ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "الشَّمْسُ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "الشَّمْسُ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "الشَّمْسُ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting base form is 'الشَّمْسُ'.",
+          "ur": "اس کی اصل بنیادی صورت 'الشَّمْسُ' ہے۔",
+          "hi": "इसकी असल बुनियादी सूरत 'الشَّمْسُ' है।",
+          "hinglish": "Iski asal bunyadi soorat 'الشَّمْسُ' hai."
+        }
+      },
+      {
+        "id": "s1l14-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'ظُلْمٌ'?",
+          "ur": "قرآنی لفظ 'ظُلْمٌ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'ظُلْمٌ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'ظُلْمٌ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Is injustice",
+            "Is near",
+            "Is much / Many",
+            "Is little / Few"
+          ],
+          "ur": [
+            "ظلم ہے",
+            "قریب ہے",
+            "بہت ہے / زیادہ ہے",
+            "تھوڑا ہے / کم ہے"
+          ],
+          "hi": [
+            "ज़ुल्म है",
+            "क़रीब है",
+            "ज़्यादा है / बहुत है",
+            "कम है / थोड़ा है"
+          ],
+          "hinglish": [
+            "Zulm hai",
+            "Qareeb hai",
+            "Zyada hai / Bahut hai",
+            "Kam hai / Thoda hai"
+          ]
+        },
+        "explanation": {
+          "en": "'ظُلْمٌ' translates to 'Is injustice'.",
+          "ur": "'ظُلْمٌ' کا معنی 'ظلم ہے' ہے۔",
+          "hi": "'ظُلْمٌ' का मतलब 'ज़ुल्म है' है।",
+          "hinglish": "'ظُلْمٌ' ka matlab 'Zulm hai' hai."
+        }
+      },
+      {
+        "id": "s1l14-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'حَقٌّ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'حَقٌّ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'حَقٌّ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'حَقٌّ'"
+        },
+        "options": {
+          "en": [
+            "Is near",
+            "Is true / Right",
+            "Is much / Many",
+            "Is little / Few"
+          ],
+          "ur": [
+            "قریب ہے",
+            "حق ہے / سچ ہے",
+            "بہت ہے / زیادہ ہے",
+            "تھوڑا ہے / کم ہے"
+          ],
+          "hi": [
+            "क़रीब है",
+            "हक़ है / सच है",
+            "ज़्यादा है / बहुत है",
+            "कम है / थोड़ा है"
+          ],
+          "hinglish": [
+            "Qareeb hai",
+            "Haq hai / Sach hai",
+            "Zyada hai / Bahut hai",
+            "Kam hai / Thoda hai"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'حَقٌّ' means 'Is true / Right'.",
+          "ur": "'حَقٌّ' کا مفہوم 'حق ہے / سچ ہے' ہے۔",
+          "hi": "'حَقٌّ' का मतलब 'हक़ है / सच है' है।",
+          "hinglish": "'حَقٌّ' ka matlab 'Haq hai / Sach hai' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s1l15",
+    "questions": [
+      {
+        "id": "s1l15-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What is the core rule taught in Ism-e-Ishaarah: Haaza Kitaabun (Jumla)?",
+          "ur": "Ism-e-Ishaarah: Haaza Kitaabun (Jumla) میں کیا بنیادی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Ism-e-Ishaarah: Haaza Kitaabun (Jumla) में क्या बुनियादी क़ायदा सिखाया गया है?",
+          "hinglish": "Ism-e-Ishaarah: Haaza Kitaabun (Jumla) mein kya bunyadi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transformation to 'هَٰذَا الْكِتَابُ' occurs",
+            "No grammatical change takes place",
+            "Word becomes a past verb",
+            "Vowels are completely omitted"
+          ],
+          "ur": [
+            "لفظ بدل کر 'هَٰذَا الْكِتَابُ' بن جاتا ہے",
+            "کوئی نحوی تبدیلی نہیں ہوتی",
+            "لفظ فعل ماضی بن جاتا ہے",
+            "اعراب مکمل ختم ہو جاتے ہیں"
+          ],
+          "hi": [
+            "लफ़्ज़ बदल कर 'هَٰذَا الْكِتَابُ' बन जाता है",
+            "कोई नहवी तब्दीली नहीं होती",
+            "लफ़्ज़ फेल माज़ी बन जाता है",
+            "एराब मुकम्मल खत्म हो जाते हैं"
+          ],
+          "hinglish": [
+            "Lafz badal kar 'هَٰذَا الْكِتَابُ' ban jaata hai",
+            "Koi nahwi tabdeeli nahi hoti",
+            "Lafz fe'l mazi ban jaata hai",
+            "I'raab mukammal khatam ho jaate hain"
+          ]
+        },
+        "explanation": {
+          "en": "The rule governs the form and pronunciation of 'هَٰذَا الْكِتَابُ'.",
+          "ur": "یہ قاعدہ 'هَٰذَا الْكِتَابُ' کی ساخت اور اعراب کو بیان کرتا ہے۔",
+          "hi": "यह क़ायदा 'هَٰذَا الْكِتَابُ' की साख्त और एराब को बयान करता है।",
+          "hinglish": "Yeh qaaida 'هَٰذَا الْكِتَابُ' ki saakht aur i'raab ko bayan karta hai."
+        }
+      },
+      {
+        "id": "s1l15-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following demonstrates the rule of Jumla Isharah?",
+          "ur": "درج ذیل میں سے کس پر Jumla Isharah کا قاعدہ لاگو ہوتا ہے؟",
+          "hi": "दर्ज जेल में से किस पर Jumla Isharah का क़ायदा लागू होता है?",
+          "hinglish": "Darj zail mein se kis par Jumla Isharah ka qaaida laagu hota hai?"
+        },
+        "options": {
+          "en": [
+            "هَٰذَا الْكِتَابُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "ur": [
+            "هَٰذَا الْكِتَابُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hi": [
+            "هَٰذَا الْكِتَابُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hinglish": [
+            "هَٰذَا الْكِتَابُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ]
+        },
+        "explanation": {
+          "en": "'هَٰذَا الْكِتَابُ' illustrates the specific transformation.",
+          "ur": "'هَٰذَا الْكِتَابُ' اس تبدیلی کی واضح مثال ہے۔",
+          "hi": "'هَٰذَا الْكِتَابُ' इस तब्दीली की वाज़ेह मिसाल है।",
+          "hinglish": "'هَٰذَا الْكِتَابُ' is tabdeeli ki wazeh misaal hai."
+        }
+      },
+      {
+        "id": "s1l15-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "What is the base (Asal) form corresponding to 'هَٰذَا الْكِتَابُ'?",
+          "ur": "'هَٰذَا الْكِتَابُ' کی اصل صورت کیا ہے؟",
+          "hi": "'هَٰذَا الْكِتَابُ' की असल सूरत क्या है?",
+          "hinglish": "'هَٰذَا الْكِتَابُ' ki asal soorat kya hai?"
+        },
+        "options": {
+          "en": [
+            "هَٰذَا كِتَابٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "هَٰذَا كِتَابٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "هَٰذَا كِتَابٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "هَٰذَا كِتَابٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting base form is 'هَٰذَا كِتَابٌ'.",
+          "ur": "اس کی اصل بنیادی صورت 'هَٰذَا كِتَابٌ' ہے۔",
+          "hi": "इसकी असल बुनियादी सूरत 'هَٰذَا كِتَابٌ' है।",
+          "hinglish": "Iski asal bunyadi soorat 'هَٰذَا كِتَابٌ' hai."
+        }
+      },
+      {
+        "id": "s1l15-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'بَيَانٌ : هٰذَا بَيَانٌ'?",
+          "ur": "قرآنی لفظ 'بَيَانٌ : هٰذَا بَيَانٌ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'بَيَانٌ : هٰذَا بَيَانٌ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'بَيَانٌ : 'هٰذَا' بَيَانٌ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "This is a clear explanation",
+            "This is lawful",
+            "This is unlawful / forbidden",
+            "This is magic"
+          ],
+          "ur": [
+            "یہ بیان ہے",
+            "یہ حلال ہے",
+            "یہ حرام ہے",
+            "یہ جادو ہے"
+          ],
+          "hi": [
+            "यह बयान है",
+            "यह हलाल है",
+            "यह हराम है",
+            "यह जादू है"
+          ],
+          "hinglish": [
+            "Yeh bayaan hai",
+            "Yeh halaal hai",
+            "Yeh haraam hai",
+            "Yeh jaadoo hai"
+          ]
+        },
+        "explanation": {
+          "en": "'بَيَانٌ : هٰذَا بَيَانٌ' translates to 'This is a clear explanation'.",
+          "ur": "'بَيَانٌ : هٰذَا بَيَانٌ' کا معنی 'یہ بیان ہے' ہے۔",
+          "hi": "'بَيَانٌ : هٰذَا بَيَانٌ' का मतलब 'यह बयान है' है।",
+          "hinglish": "'بَيَانٌ : 'هٰذَا' بَيَانٌ' ka matlab 'Yeh bayaan hai' hai."
+        }
+      },
+      {
+        "id": "s1l15-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'كِتَابٌ : هٰذَا كِتَابٌ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'كِتَابٌ : هٰذَا كِتَابٌ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'كِتَابٌ : هٰذَا كِتَابٌ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'كِتَابٌ : 'هٰذَا' كِتَابٌ'"
+        },
+        "options": {
+          "en": [
+            "This is lawful",
+            "This is a book",
+            "This is unlawful / forbidden",
+            "This is magic"
+          ],
+          "ur": [
+            "یہ حلال ہے",
+            "یہ ایک کتاب ہے",
+            "یہ حرام ہے",
+            "یہ جادو ہے"
+          ],
+          "hi": [
+            "यह हलाल है",
+            "यह एक किताब है",
+            "यह हराम है",
+            "यह जादू है"
+          ],
+          "hinglish": [
+            "Yeh halaal hai",
+            "Yeh ek kitaab hai",
+            "Yeh haraam hai",
+            "Yeh jaadoo hai"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'كِتَابٌ : هٰذَا كِتَابٌ' means 'This is a book'.",
+          "ur": "'كِتَابٌ : هٰذَا كِتَابٌ' کا مفہوم 'یہ ایک کتاب ہے' ہے۔",
+          "hi": "'كِتَابٌ : هٰذَا كِتَابٌ' का मतलब 'यह एक किताब है' है।",
+          "hinglish": "'كِتَابٌ : 'هٰذَا' كِتَابٌ' ka matlab 'Yeh ek kitaab hai' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s1l16",
+    "questions": [
+      {
+        "id": "s1l16-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What is the core rule taught in Ism-e-Ishaarah: Zaalika Kitaabun?",
+          "ur": "Ism-e-Ishaarah: Zaalika Kitaabun میں کیا بنیادی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Ism-e-Ishaarah: Zaalika Kitaabun में क्या बुनियादी क़ायदा सिखाया गया है?",
+          "hinglish": "Ism-e-Ishaarah: Zaalika Kitaabun mein kya bunyadi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transformation to 'ذَٰلِكَ الْكِتَابُ' occurs",
+            "No grammatical change takes place",
+            "Word becomes a past verb",
+            "Vowels are completely omitted"
+          ],
+          "ur": [
+            "لفظ بدل کر 'ذَٰلِكَ الْكِتَابُ' بن جاتا ہے",
+            "کوئی نحوی تبدیلی نہیں ہوتی",
+            "لفظ فعل ماضی بن جاتا ہے",
+            "اعراب مکمل ختم ہو جاتے ہیں"
+          ],
+          "hi": [
+            "लफ़्ज़ बदल कर 'ذَٰلِكَ الْكِتَابُ' बन जाता है",
+            "कोई नहवी तब्दीली नहीं होती",
+            "लफ़्ज़ फेल माज़ी बन जाता है",
+            "एराब मुकम्मल खत्म हो जाते हैं"
+          ],
+          "hinglish": [
+            "Lafz badal kar 'ذَٰلِكَ الْكِتَابُ' ban jaata hai",
+            "Koi nahwi tabdeeli nahi hoti",
+            "Lafz fe'l mazi ban jaata hai",
+            "I'raab mukammal khatam ho jaate hain"
+          ]
+        },
+        "explanation": {
+          "en": "The rule governs the form and pronunciation of 'ذَٰلِكَ الْكِتَابُ'.",
+          "ur": "یہ قاعدہ 'ذَٰلِكَ الْكِتَابُ' کی ساخت اور اعراب کو بیان کرتا ہے۔",
+          "hi": "यह क़ायदा 'ذَٰلِكَ الْكِتَابُ' की साख्त और एराब को बयान करता है।",
+          "hinglish": "Yeh qaaida 'ذَٰلِكَ الْكِتَابُ' ki saakht aur i'raab ko bayan karta hai."
+        }
+      },
+      {
+        "id": "s1l16-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following demonstrates the rule of Baeed Jumla?",
+          "ur": "درج ذیل میں سے کس پر Baeed Jumla کا قاعدہ لاگو ہوتا ہے؟",
+          "hi": "दर्ज जेल में से किस पर Baeed Jumla का क़ायदा लागू होता है?",
+          "hinglish": "Darj zail mein se kis par Baeed Jumla ka qaaida laagu hota hai?"
+        },
+        "options": {
+          "en": [
+            "ذَٰلِكَ الْكِتَابُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "ur": [
+            "ذَٰلِكَ الْكِتَابُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hi": [
+            "ذَٰلِكَ الْكِتَابُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hinglish": [
+            "ذَٰلِكَ الْكِتَابُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ]
+        },
+        "explanation": {
+          "en": "'ذَٰلِكَ الْكِتَابُ' illustrates the specific transformation.",
+          "ur": "'ذَٰلِكَ الْكِتَابُ' اس تبدیلی کی واضح مثال ہے۔",
+          "hi": "'ذَٰلِكَ الْكِتَابُ' इस तब्दीली की वाज़ेह मिसाल है।",
+          "hinglish": "'ذَٰلِكَ الْكِتَابُ' is tabdeeli ki wazeh misaal hai."
+        }
+      },
+      {
+        "id": "s1l16-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "What is the base (Asal) form corresponding to 'ذَٰلِكَ الْكِتَابُ'?",
+          "ur": "'ذَٰلِكَ الْكِتَابُ' کی اصل صورت کیا ہے؟",
+          "hi": "'ذَٰلِكَ الْكِتَابُ' की असल सूरत क्या है?",
+          "hinglish": "'ذَٰلِكَ الْكِتَابُ' ki asal soorat kya hai?"
+        },
+        "options": {
+          "en": [
+            "ذَٰلِكَ كِتَابٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "ذَٰلِكَ كِتَابٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "ذَٰلِكَ كِتَابٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "ذَٰلِكَ كِتَابٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting base form is 'ذَٰلِكَ كِتَابٌ'.",
+          "ur": "اس کی اصل بنیادی صورت 'ذَٰلِكَ كِتَابٌ' ہے۔",
+          "hi": "इसकी असल बुनियादी सूरत 'ذَٰلِكَ كِتَابٌ' है।",
+          "hinglish": "Iski asal bunyadi soorat 'ذَٰلِكَ كِتَابٌ' hai."
+        }
+      },
+      {
+        "id": "s1l16-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'ذٰلِكَ عِيسَىٰ'?",
+          "ur": "قرآنی لفظ 'ذٰلِكَ عِيسَىٰ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'ذٰلِكَ عِيسَىٰ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'ذٰلِكَ عِيسَىٰ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "That is Jesus (peace be upon him)",
+            "That is a gathering / crowding together",
+            "That is an alleviation / concession",
+            "That is a reminder"
+          ],
+          "ur": [
+            "وہ عیسیٰ (علیہ السلام) ہیں",
+            "وہ اکٹھا کرنا / حشر ہے",
+            "وہ آسانی / رعایت ہے",
+            "وہ نصیحت ہے"
+          ],
+          "hi": [
+            "वह ईसा (अलैहिस्सलाम) हैं",
+            "वह इकट्ठा करना / हश्र है",
+            "वह आसानी / रियायत है",
+            "वह नसीहत है"
+          ],
+          "hinglish": [
+            "Woh Isa (Alaihis Salam) hain",
+            "Woh ikhatta karna / hashr hai",
+            "Woh aasaani / ri'aayat hai",
+            "Woh naseehat hai"
+          ]
+        },
+        "explanation": {
+          "en": "'ذٰلِكَ عِيسَىٰ' translates to 'That is Jesus (peace be upon him)'.",
+          "ur": "'ذٰلِكَ عِيسَىٰ' کا معنی 'وہ عیسیٰ (علیہ السلام) ہیں' ہے۔",
+          "hi": "'ذٰلِكَ عِيسَىٰ' का मतलब 'वह ईसा (अलैहिस्सलाम) हैं' है।",
+          "hinglish": "'ذٰلِكَ عِيسَىٰ' ka matlab 'Woh Isa (Alaihis Salam) hain' hai."
+        }
+      },
+      {
+        "id": "s1l16-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'ذٰلِكَ خَيْرٌ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'ذٰلِكَ خَيْرٌ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'ذٰلِكَ خَيْرٌ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'ذٰلِكَ خَيْرٌ'"
+        },
+        "options": {
+          "en": [
+            "That is a gathering / crowding together",
+            "That is better",
+            "That is an alleviation / concession",
+            "That is a reminder"
+          ],
+          "ur": [
+            "وہ اکٹھا کرنا / حشر ہے",
+            "وہ بہتر ہے",
+            "وہ آسانی / رعایت ہے",
+            "وہ نصیحت ہے"
+          ],
+          "hi": [
+            "वह इकट्ठा करना / हश्र है",
+            "वह बेहतर है",
+            "वह आसानी / रियायत है",
+            "वह नसीहत है"
+          ],
+          "hinglish": [
+            "Woh ikhatta karna / hashr hai",
+            "Woh behtar hai",
+            "Woh aasaani / ri'aayat hai",
+            "Woh naseehat hai"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'ذٰلِكَ خَيْرٌ' means 'That is better'.",
+          "ur": "'ذٰلِكَ خَيْرٌ' کا مفہوم 'وہ بہتر ہے' ہے۔",
+          "hi": "'ذٰلِكَ خَيْرٌ' का मतलब 'वह बेहतर है' है।",
+          "hinglish": "'ذٰلِكَ خَيْرٌ' ka matlab 'Woh behtar hai' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s1l17",
+    "questions": [
+      {
+        "id": "s1l17-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What is the core rule taught in Ism-e-Ishaarah Muannath: Haazihi Aayatun?",
+          "ur": "Ism-e-Ishaarah Muannath: Haazihi Aayatun میں کیا بنیادی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Ism-e-Ishaarah Muannath: Haazihi Aayatun में क्या बुनियादी क़ायदा सिखाया गया है?",
+          "hinglish": "Ism-e-Ishaarah Muannath: Haazihi Aayatun mein kya bunyadi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transformation to 'هَٰذِهِ الْآيَةُ' occurs",
+            "No grammatical change takes place",
+            "Word becomes a past verb",
+            "Vowels are completely omitted"
+          ],
+          "ur": [
+            "لفظ بدل کر 'هَٰذِهِ الْآيَةُ' بن جاتا ہے",
+            "کوئی نحوی تبدیلی نہیں ہوتی",
+            "لفظ فعل ماضی بن جاتا ہے",
+            "اعراب مکمل ختم ہو جاتے ہیں"
+          ],
+          "hi": [
+            "लफ़्ज़ बदल कर 'هَٰذِهِ الْآيَةُ' बन जाता है",
+            "कोई नहवी तब्दीली नहीं होती",
+            "लफ़्ज़ फेल माज़ी बन जाता है",
+            "एराब मुकम्मल खत्म हो जाते हैं"
+          ],
+          "hinglish": [
+            "Lafz badal kar 'هَٰذِهِ الْآيَةُ' ban jaata hai",
+            "Koi nahwi tabdeeli nahi hoti",
+            "Lafz fe'l mazi ban jaata hai",
+            "I'raab mukammal khatam ho jaate hain"
+          ]
+        },
+        "explanation": {
+          "en": "The rule governs the form and pronunciation of 'هَٰذِهِ الْآيَةُ'.",
+          "ur": "یہ قاعدہ 'هَٰذِهِ الْآيَةُ' کی ساخت اور اعراب کو بیان کرتا ہے۔",
+          "hi": "यह क़ायदा 'هَٰذِهِ الْآيَةُ' की साख्त और एराब को बयान करता है।",
+          "hinglish": "Yeh qaaida 'هَٰذِهِ الْآيَةُ' ki saakht aur i'raab ko bayan karta hai."
+        }
+      },
+      {
+        "id": "s1l17-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following demonstrates the rule of Muannas Jumla?",
+          "ur": "درج ذیل میں سے کس پر Muannas Jumla کا قاعدہ لاگو ہوتا ہے؟",
+          "hi": "दर्ज जेल में से किस पर Muannas Jumla का क़ायदा लागू होता है?",
+          "hinglish": "Darj zail mein se kis par Muannas Jumla ka qaaida laagu hota hai?"
+        },
+        "options": {
+          "en": [
+            "هَٰذِهِ الْآيَةُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "ur": [
+            "هَٰذِهِ الْآيَةُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hi": [
+            "هَٰذِهِ الْآيَةُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hinglish": [
+            "هَٰذِهِ الْآيَةُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ]
+        },
+        "explanation": {
+          "en": "'هَٰذِهِ الْآيَةُ' illustrates the specific transformation.",
+          "ur": "'هَٰذِهِ الْآيَةُ' اس تبدیلی کی واضح مثال ہے۔",
+          "hi": "'هَٰذِهِ الْآيَةُ' इस तब्दीली की वाज़ेह मिसाल है।",
+          "hinglish": "'هَٰذِهِ الْآيَةُ' is tabdeeli ki wazeh misaal hai."
+        }
+      },
+      {
+        "id": "s1l17-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "What is the base (Asal) form corresponding to 'هَٰذِهِ الْآيَةُ'?",
+          "ur": "'هَٰذِهِ الْآيَةُ' کی اصل صورت کیا ہے؟",
+          "hi": "'هَٰذِهِ الْآيَةُ' की असल सूरत क्या है?",
+          "hinglish": "'هَٰذِهِ الْآيَةُ' ki asal soorat kya hai?"
+        },
+        "options": {
+          "en": [
+            "هَٰذِهِ آيَةٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "هَٰذِهِ آيَةٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "هَٰذِهِ آيَةٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "هَٰذِهِ آيَةٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting base form is 'هَٰذِهِ آيَةٌ'.",
+          "ur": "اس کی اصل بنیادی صورت 'هَٰذِهِ آيَةٌ' ہے۔",
+          "hi": "इसकी असल बुनियादी सूरत 'هَٰذِهِ آيَةٌ' है।",
+          "hinglish": "Iski asal bunyadi soorat 'هَٰذِهِ آيَةٌ' hai."
+        }
+      },
+      {
+        "id": "s1l17-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'هٰذِهِ تَذْكِرَةٌ'?",
+          "ur": "قرآنی لفظ 'هٰذِهِ تَذْكِرَةٌ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'هٰذِهِ تَذْكِرَةٌ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'هٰذِهِ تَذْكِرَةٌ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "This is a reminder",
+            "This is a she-camel",
+            "That is a blessing / favor",
+            "That is a community / nation"
+          ],
+          "ur": [
+            "یہ ایک نصیحت ہے",
+            "یہ اونٹنی ہے",
+            "وہ ایک نعمت ہے",
+            "وہ ایک امت ہے"
+          ],
+          "hi": [
+            "यह एक नसीहत है",
+            "यह ऊँटनी है",
+            "वह एक नेअमत है",
+            "वह एक उम्मत है"
+          ],
+          "hinglish": [
+            "Yeh ek naseehat hai",
+            "Yeh oontni hai",
+            "Woh ek ne'mat hai",
+            "Woh ek ummat hai"
+          ]
+        },
+        "explanation": {
+          "en": "'هٰذِهِ تَذْكِرَةٌ' translates to 'This is a reminder'.",
+          "ur": "'هٰذِهِ تَذْكِرَةٌ' کا معنی 'یہ ایک نصیحت ہے' ہے۔",
+          "hi": "'هٰذِهِ تَذْكِرَةٌ' का मतलब 'यह एक नसीहत है' है।",
+          "hinglish": "'هٰذِهِ تَذْكِرَةٌ' ka matlab 'Yeh ek naseehat hai' hai."
+        }
+      },
+      {
+        "id": "s1l17-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'هٰذِهِ جَهَنَّمُ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'هٰذِهِ جَهَنَّمُ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'هٰذِهِ جَهَنَّمُ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'هٰذِهِ جَهَنَّمُ'"
+        },
+        "options": {
+          "en": [
+            "This is a she-camel",
+            "This is Hell",
+            "That is a blessing / favor",
+            "That is a community / nation"
+          ],
+          "ur": [
+            "یہ اونٹنی ہے",
+            "یہ جہنم ہے",
+            "وہ ایک نعمت ہے",
+            "وہ ایک امت ہے"
+          ],
+          "hi": [
+            "यह ऊँटनी है",
+            "यह जहन्नम है",
+            "वह एक नेअमत है",
+            "वह एक उम्मत है"
+          ],
+          "hinglish": [
+            "Yeh oontni hai",
+            "Yeh jahannum hai",
+            "Woh ek ne'mat hai",
+            "Woh ek ummat hai"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'هٰذِهِ جَهَنَّمُ' means 'This is Hell'.",
+          "ur": "'هٰذِهِ جَهَنَّمُ' کا مفہوم 'یہ جہنم ہے' ہے۔",
+          "hi": "'هٰذِهِ جَهَنَّمُ' का मतलब 'यह जहन्नम है' है।",
+          "hinglish": "'هٰذِهِ جَهَنَّمُ' ka matlab 'Yeh jahannum hai' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s1l18",
+    "questions": [
+      {
+        "id": "s1l18-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What is the core rule taught in Laam-e-Ta'keed: La-kitaabun?",
+          "ur": "Laam-e-Ta'keed: La-kitaabun میں کیا بنیادی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Laam-e-Ta'keed: La-kitaabun में क्या बुनियादी क़ायदा सिखाया गया है?",
+          "hinglish": "Laam-e-Ta'keed: La-kitaabun mein kya bunyadi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transformation to 'لَكِتَابٌ' occurs",
+            "No grammatical change takes place",
+            "Word becomes a past verb",
+            "Vowels are completely omitted"
+          ],
+          "ur": [
+            "لفظ بدل کر 'لَكِتَابٌ' بن جاتا ہے",
+            "کوئی نحوی تبدیلی نہیں ہوتی",
+            "لفظ فعل ماضی بن جاتا ہے",
+            "اعراب مکمل ختم ہو جاتے ہیں"
+          ],
+          "hi": [
+            "लफ़्ज़ बदल कर 'لَكِتَابٌ' बन जाता है",
+            "कोई नहवी तब्दीली नहीं होती",
+            "लफ़्ज़ फेल माज़ी बन जाता है",
+            "एराब मुकम्मल खत्म हो जाते हैं"
+          ],
+          "hinglish": [
+            "Lafz badal kar 'لَكِتَابٌ' ban jaata hai",
+            "Koi nahwi tabdeeli nahi hoti",
+            "Lafz fe'l mazi ban jaata hai",
+            "I'raab mukammal khatam ho jaate hain"
+          ]
+        },
+        "explanation": {
+          "en": "The rule governs the form and pronunciation of 'لَكِتَابٌ'.",
+          "ur": "یہ قاعدہ 'لَكِتَابٌ' کی ساخت اور اعراب کو بیان کرتا ہے۔",
+          "hi": "यह क़ायदा 'لَكِتَابٌ' की साख्त और एराब को बयान करता है।",
+          "hinglish": "Yeh qaaida 'لَكِتَابٌ' ki saakht aur i'raab ko bayan karta hai."
+        }
+      },
+      {
+        "id": "s1l18-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following demonstrates the rule of Ta'keed (Laam)?",
+          "ur": "درج ذیل میں سے کس پر Ta'keed (Laam) کا قاعدہ لاگو ہوتا ہے؟",
+          "hi": "दर्ज जेल में से किस पर Ta'keed (Laam) का क़ायदा लागू होता है?",
+          "hinglish": "Darj zail mein se kis par Ta'keed (Laam) ka qaaida laagu hota hai?"
+        },
+        "options": {
+          "en": [
+            "لَكِتَابٌ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "ur": [
+            "لَكِتَابٌ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hi": [
+            "لَكِتَابٌ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hinglish": [
+            "لَكِتَابٌ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ]
+        },
+        "explanation": {
+          "en": "'لَكِتَابٌ' illustrates the specific transformation.",
+          "ur": "'لَكِتَابٌ' اس تبدیلی کی واضح مثال ہے۔",
+          "hi": "'لَكِتَابٌ' इस तब्दीली की वाज़ेह मिसाल है।",
+          "hinglish": "'لَكِتَابٌ' is tabdeeli ki wazeh misaal hai."
+        }
+      },
+      {
+        "id": "s1l18-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "What is the base (Asal) form corresponding to 'لَكِتَابٌ'?",
+          "ur": "'لَكِتَابٌ' کی اصل صورت کیا ہے؟",
+          "hi": "'لَكِتَابٌ' की असल सूरत क्या है?",
+          "hinglish": "'لَكِتَابٌ' ki asal soorat kya hai?"
+        },
+        "options": {
+          "en": [
+            "كِتَابٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "كِتَابٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "كِتَابٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "كِتَابٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting base form is 'كِتَابٌ'.",
+          "ur": "اس کی اصل بنیادی صورت 'كِتَابٌ' ہے۔",
+          "hi": "इसकी असल बुनियादी सूरत 'كِتَابٌ' है।",
+          "hinglish": "Iski asal bunyadi soorat 'كِتَابٌ' hai."
+        }
+      },
+      {
+        "id": "s1l18-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'لَقُرْآنٌ'?",
+          "ur": "قرآنی لفظ 'لَقُرْآنٌ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'لَقُرْآنٌ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'لَقُرْآنٌ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Truly it is a Quran",
+            "Truly it is the truth",
+            "Truly it is knowledge",
+            "Truly it is a reminder"
+          ],
+          "ur": [
+            "یقیناً قرآن ہے",
+            "یقیناً حق ہے",
+            "یقیناً علم ہے",
+            "یقیناً ذکر ہے"
+          ],
+          "hi": [
+            "यक़ीनन क़ुरआन है",
+            "यक़ीनन हक़ है",
+            "यक़ीनन इल्म है",
+            "यक़ीनन ज़िक्र है"
+          ],
+          "hinglish": [
+            "Yaqeenan Quran hai",
+            "Yaqeenan haq hai",
+            "Yaqeenan ilm hai",
+            "Yaqeenan zikr hai"
+          ]
+        },
+        "explanation": {
+          "en": "'لَقُرْآنٌ' translates to 'Truly it is a Quran'.",
+          "ur": "'لَقُرْآنٌ' کا معنی 'یقیناً قرآن ہے' ہے۔",
+          "hi": "'لَقُرْآنٌ' का मतलब 'यक़ीनन क़ुरआन है' है।",
+          "hinglish": "'لَقُرْآنٌ' ka matlab 'Yaqeenan Quran hai' hai."
+        }
+      },
+      {
+        "id": "s1l18-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'لَكِتَابٌ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'لَكِتَابٌ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'لَكِتَابٌ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'لَكِتَابٌ'"
+        },
+        "options": {
+          "en": [
+            "Truly it is the truth",
+            "Truly it is a book",
+            "Truly it is knowledge",
+            "Truly it is a reminder"
+          ],
+          "ur": [
+            "یقیناً حق ہے",
+            "یقیناً کتاب ہے",
+            "یقیناً علم ہے",
+            "یقیناً ذکر ہے"
+          ],
+          "hi": [
+            "यक़ीनन हक़ है",
+            "यक़ीनन किताब है",
+            "यक़ीनन इल्म है",
+            "यक़ीनन ज़िक्र है"
+          ],
+          "hinglish": [
+            "Yaqeenan haq hai",
+            "Yaqeenan kitaab hai",
+            "Yaqeenan ilm hai",
+            "Yaqeenan zikr hai"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'لَكِتَابٌ' means 'Truly it is a book'.",
+          "ur": "'لَكِتَابٌ' کا مفہوم 'یقیناً کتاب ہے' ہے۔",
+          "hi": "'لَكِتَابٌ' का मतलब 'यक़ीनन किताब है' है।",
+          "hinglish": "'لَكِتَابٌ' ka matlab 'Yaqeenan kitaab hai' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s1l19",
+    "questions": [
+      {
+        "id": "s1l19-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What is the core rule taught in Ism-e-Tafzeel: Kabeerun se Akbaru?",
+          "ur": "Ism-e-Tafzeel: Kabeerun se Akbaru میں کیا بنیادی قاعدہ سکھایا گیا ہے؟",
+          "hi": "Ism-e-Tafzeel: Kabeerun se Akbaru में क्या बुनियादी क़ायदा सिखाया गया है?",
+          "hinglish": "Ism-e-Tafzeel: Kabeerun se Akbaru mein kya bunyadi qaaida sikhaya gaya hai?"
+        },
+        "options": {
+          "en": [
+            "Transformation to 'أَكْبَرُ' occurs",
+            "No grammatical change takes place",
+            "Word becomes a past verb",
+            "Vowels are completely omitted"
+          ],
+          "ur": [
+            "لفظ بدل کر 'أَكْبَرُ' بن جاتا ہے",
+            "کوئی نحوی تبدیلی نہیں ہوتی",
+            "لفظ فعل ماضی بن جاتا ہے",
+            "اعراب مکمل ختم ہو جاتے ہیں"
+          ],
+          "hi": [
+            "लफ़्ज़ बदल कर 'أَكْبَرُ' बन जाता है",
+            "कोई नहवी तब्दीली नहीं होती",
+            "लफ़्ज़ फेल माज़ी बन जाता है",
+            "एराब मुकम्मल खत्म हो जाते हैं"
+          ],
+          "hinglish": [
+            "Lafz badal kar 'أَكْبَرُ' ban jaata hai",
+            "Koi nahwi tabdeeli nahi hoti",
+            "Lafz fe'l mazi ban jaata hai",
+            "I'raab mukammal khatam ho jaate hain"
+          ]
+        },
+        "explanation": {
+          "en": "The rule governs the form and pronunciation of 'أَكْبَرُ'.",
+          "ur": "یہ قاعدہ 'أَكْبَرُ' کی ساخت اور اعراب کو بیان کرتا ہے۔",
+          "hi": "यह क़ायदा 'أَكْبَرُ' की साख्त और एराब को बयान करता है।",
+          "hinglish": "Yeh qaaida 'أَكْبَرُ' ki saakht aur i'raab ko bayan karta hai."
+        }
+      },
+      {
+        "id": "s1l19-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following demonstrates the rule of Tafzeel (Af'alu)?",
+          "ur": "درج ذیل میں سے کس پر Tafzeel (Af'alu) کا قاعدہ لاگو ہوتا ہے؟",
+          "hi": "दर्ज जेल में से किस पर Tafzeel (Af'alu) का क़ायदा लागू होता है?",
+          "hinglish": "Darj zail mein se kis par Tafzeel (Af'alu) ka qaaida laagu hota hai?"
+        },
+        "options": {
+          "en": [
+            "أَكْبَرُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "ur": [
+            "أَكْبَرُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hi": [
+            "أَكْبَرُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ],
+          "hinglish": [
+            "أَكْبَرُ",
+            "كَلِمَةٌ",
+            "قَوْلٌ",
+            "فِعْلٌ"
+          ]
+        },
+        "explanation": {
+          "en": "'أَكْبَرُ' illustrates the specific transformation.",
+          "ur": "'أَكْبَرُ' اس تبدیلی کی واضح مثال ہے۔",
+          "hi": "'أَكْبَرُ' इस तब्दीली की वाज़ेह मिसाल है।",
+          "hinglish": "'أَكْبَرُ' is tabdeeli ki wazeh misaal hai."
+        }
+      },
+      {
+        "id": "s1l19-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "What is the base (Asal) form corresponding to 'أَكْبَرُ'?",
+          "ur": "'أَكْبَرُ' کی اصل صورت کیا ہے؟",
+          "hi": "'أَكْبَرُ' की असल सूरत क्या है?",
+          "hinglish": "'أَكْبَرُ' ki asal soorat kya hai?"
+        },
+        "options": {
+          "en": [
+            "كَبِيرٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "كَبِيرٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "كَبِيرٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "كَبِيرٌ",
+            "شَيْءٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting base form is 'كَبِيرٌ'.",
+          "ur": "اس کی اصل بنیادی صورت 'كَبِيرٌ' ہے۔",
+          "hi": "इसकी असल बुनियादी सूरत 'كَبِيرٌ' है।",
+          "hinglish": "Iski asal bunyadi soorat 'كَبِيرٌ' hai."
+        }
+      },
+      {
+        "id": "s1l19-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'أَعْلَمُ'?",
+          "ur": "قرآنی لفظ 'أَعْلَمُ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'أَعْلَمُ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'أَعْلَمُ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Best knowing / Most knowledgeable",
+            "Greatest / Greater",
+            "Best / Most beautiful",
+            "Most unjust / Greatest wrongdoer"
+          ],
+          "ur": [
+            "سب سے زیادہ جاننے والا",
+            "سب سے بڑا",
+            "سب سے اچھا",
+            "سب سے بڑا ظالم"
+          ],
+          "hi": [
+            "सबसे ज़्यादा जानने वाला",
+            "सबसे बड़ा",
+            "सबसे अच्छा",
+            "सबसे बड़ा ज़ालिम"
+          ],
+          "hinglish": [
+            "Sabse zyada jaanne wala",
+            "Sabse bada",
+            "Sabse achha",
+            "Sabse bada zalim"
+          ]
+        },
+        "explanation": {
+          "en": "'أَعْلَمُ' translates to 'Best knowing / Most knowledgeable'.",
+          "ur": "'أَعْلَمُ' کا معنی 'سب سے زیادہ جاننے والا' ہے۔",
+          "hi": "'أَعْلَمُ' का मतलब 'सबसे ज़्यादा जानने वाला' है।",
+          "hinglish": "'أَعْلَمُ' ka matlab 'Sabse zyada jaanne wala' hai."
+        }
+      },
+      {
+        "id": "s1l19-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'أَصْغَرُ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'أَصْغَرُ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'أَصْغَرُ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'أَصْغَرُ'"
+        },
+        "options": {
+          "en": [
+            "Greatest / Greater",
+            "Smallest / Smaller",
+            "Best / Most beautiful",
+            "Most unjust / Greatest wrongdoer"
+          ],
+          "ur": [
+            "سب سے بڑا",
+            "سب سے چھوٹا",
+            "سب سے اچھا",
+            "سب سے بڑا ظالم"
+          ],
+          "hi": [
+            "सबसे बड़ा",
+            "सबसे छोटा",
+            "सबसे अच्छा",
+            "सबसे बड़ा ज़ालिम"
+          ],
+          "hinglish": [
+            "Sabse bada",
+            "Sabse chhota",
+            "Sabse achha",
+            "Sabse bada zalim"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'أَصْغَرُ' means 'Smallest / Smaller'.",
+          "ur": "'أَصْغَرُ' کا مفہوم 'سب سے چھوٹا' ہے۔",
+          "hi": "'أَصْغَرُ' का मतलब 'सबसे छोटा' है।",
+          "hinglish": "'أَصْغَرُ' ka matlab 'Sabse chhota' hai."
+        }
+      }
+    ]
+  }
+]

@@ -4871,11 +4871,11 @@
               {
                 "id": 75,
                 "arabic": "وَيَقْتُلُونَ النَّبِيِّينَ بِغَيْرِ الْحَقِّ",
-                "hinglish": "Aur woh nabiyon ko na-haq قتل karte hain",
+                "hinglish": "Aur woh nabiyon ko na-haq qatl karte hain",
                 "is_filled": false,
                 "sentence_number": 75,
                 "translations": {
-                  "hinglish": "Aur woh nabiyon ko na-haq قتل karte hain",
+                  "hinglish": "Aur woh nabiyon ko na-haq qatl karte hain",
                   "en": "And they kill the prophets without right",
                   "ur": "اور وہ نبیوں کو ناحق قتل کرتے ہیں",
                   "hi": "और वह नबियों को नाहक़ क़त्ल करते हैं",
@@ -4889,11 +4889,11 @@
               {
                 "id": 76,
                 "arabic": "وَيَقْتُلُونَ الْأَنْبِيَاءَ بِغَيْرِ حَقٍّ",
-                "hinglish": "Aur woh anbiya ko na-haq قتل karte hain",
+                "hinglish": "Aur woh anbiya ko na-haq qatl karte hain",
                 "is_filled": false,
                 "sentence_number": 76,
                 "translations": {
-                  "hinglish": "Aur woh anbiya ko na-haq قتل karte hain",
+                  "hinglish": "Aur woh anbiya ko na-haq qatl karte hain",
                   "en": "And they kill the prophets without right",
                   "ur": "اور وہ انبیاء کو ناحق قتل کرتے ہیں",
                   "hi": "और वह अम्बिया को नाहक़ क़त्ल करते हैं",
@@ -5645,11 +5645,11 @@
               {
                 "id": 118,
                 "arabic": "يَكْفُرُونَ بِآيَاتِ اللَّهِ/ وَيَقْتُلُونَ الْأَنْبِيَاءَ بِغَيْرِ حَقٍّ",
-                "hinglish": "Woh Allah ki aayaton ka inkaar karte hain aur anbiya ko na-haq قتل karte hain",
+                "hinglish": "Woh Allah ki aayaton ka inkaar karte hain aur anbiya ko na-haq qatl karte hain",
                 "is_filled": false,
                 "sentence_number": 118,
                 "translations": {
-                  "hinglish": "Woh Allah ki aayaton ka inkaar karte hain aur anbiya ko na-haq قتل karte hain",
+                  "hinglish": "Woh Allah ki aayaton ka inkaar karte hain aur anbiya ko na-haq qatl karte hain",
                   "en": "They disbelieved in the signs of Allah and killed the prophets without right",
                   "ur": "وہ اللہ کی آیات کا انکار کرتے ہیں اور انبیاء کو ناحق قتل کرتے ہیں",
                   "hi": "वह अल्लाह की आयात का इंकार करते हैं और अम्बिया को नाहक़ क़त्ल करते हैं",
@@ -6596,11 +6596,11 @@
               {
                 "id": 32,
                 "arabic": "وَكَانَ فِي الْمَدِينَةِ تِسْعَةُ رَهْطٍ / يُفْسِدُونَ فِي الْأَرْضِ وَلَا يُصْلِحُونَ",
-                "hinglish": "Aur shahar mein nau afraad yeh jo zameen mein fasaad phailate yeh aur اصلاح nahin karte yeh",
+                "hinglish": "Aur shahar mein nau afraad yeh jo zameen mein fasaad phailate yeh aur islaah nahin karte yeh",
                 "is_filled": false,
                 "sentence_number": 32,
                 "translations": {
-                  "hinglish": "Aur shahar mein nau afraad yeh jo zameen mein fasaad phailate yeh aur اصلاح nahin karte yeh",
+                  "hinglish": "Aur shahar mein nau afraad yeh jo zameen mein fasaad phailate yeh aur islaah nahin karte yeh",
                   "en": "And there were in the city nine family heads causing corruption in the land and not reforming",
                   "ur": "اور شہر میں نو افراد کا ایک گروہ تھا جو زمین میں فساد پھیلاتے تھے اور اصلاح نہیں کرتے تھے",
                   "hi": "और शहर में नौ अफ़राद का एक गिरोह था जो ज़मीन में फ़साद फैलाते थे और इसलाह नहीं करते थे",

@@ -1,0 +1,2202 @@
+[
+  {
+    "lessonId": "s7l1",
+    "questions": [
+      {
+        "id": "s7l1-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Mazi Wahid (فَعَلَ) teach regarding Arabic verbs?",
+          "ur": "Mazi Wahid (فَعَلَ) عربی افعال کے متعلق کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Mazi Wahid (فَعَلَ) अरबी अफआल के मुताल्लिक़ क्या क़ायदा सिखाता है?",
+          "hinglish": "Mazi Wahid ('فَعَلَ') Arabi af'aal ke mutalliq kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms the past verbal pattern 'عَلِمَ / أَنْزَلَ'",
+            "Creates a command imperative directly",
+            "Converts word into present participle noun",
+            "Forces future continuous meaning"
+          ],
+          "ur": [
+            "ماضی کا صیغہ 'عَلِمَ / أَنْزَلَ' بناتا ہے",
+            "براہ راست امر حاضر بنا دیتا ہے",
+            "لفظ کو اسم فاعل میں بدل دیتا ہے",
+            "لازمی مستقبل کا معنی دیتا ہے"
+          ],
+          "hi": [
+            "माज़ी का सीग़ा 'عَلِمَ / أَنْزَلَ' बनाता है",
+            "सीधे अम्र हाज़िर बना देता है",
+            "लफ़्ज़ को इस्म फायल में बदल देता है",
+            "लाज़मी मुस्तक़बिल का मानी देता है"
+          ],
+          "hinglish": [
+            "Mazi ka seegha 'عَلِمَ / أَنْزَلَ' banata hai",
+            "Barah-e-raast amr haazir bana deta hai",
+            "Lafz ko ism faa'il mein badal deta hai",
+            "Laazmi mustaqbil ka maani deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation produces 'عَلِمَ / أَنْزَلَ'.",
+          "ur": "گردان سے 'عَلِمَ / أَنْزَلَ' وجود میں آتا ہے۔",
+          "hi": "गर्दान से 'عَلِمَ / أَنْزَلَ' वजूद में आता है।",
+          "hinglish": "Gardan se 'عَلِمَ / أَنْزَلَ' wajood mein aata hai."
+        }
+      },
+      {
+        "id": "s7l1-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following is an example of Mazi Wahid (فَعَلَ)?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Mazi Wahid (فَعَلَ) کی مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Mazi Wahid (فَعَلَ) की मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Mazi Wahid ('فَعَلَ') ki misaal hai?"
+        },
+        "options": {
+          "en": [
+            "عَلِمَ / أَنْزَلَ",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "ur": [
+            "عَلِمَ / أَنْزَلَ",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "hi": [
+            "عَلِمَ / أَنْزَلَ",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "hinglish": [
+            "عَلِمَ / أَنْزَلَ",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ]
+        },
+        "explanation": {
+          "en": "'عَلِمَ / أَنْزَلَ' directly matches this verbal form.",
+          "ur": "'عَلِمَ / أَنْزَلَ' اس فعلی صیغے سے مطابقت رکھتا ہے۔",
+          "hi": "'عَلِمَ / أَنْزَلَ' इस फेली सीग़े से मुताबिक़त रखता है।",
+          "hinglish": "'عَلِمَ / أَنْزَلَ' is fe'li seeghe se mutabiqat rakhta hai."
+        }
+      },
+      {
+        "id": "s7l1-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'عَلِمَ / أَنْزَلَ', identify the base stem/root:",
+          "ur": "'عَلِمَ / أَنْزَلَ' کا بنیادی مادہ یا مصدر کیا ہے؟",
+          "hi": "'عَلِمَ / أَنْزَلَ' का बुनियादी माद्दा या मस्तर क्या है?",
+          "hinglish": "'عَلِمَ / أَنْزَلَ' ka bunyadi maaddah ya masdar kya hai?"
+        },
+        "options": {
+          "en": [
+            "عِلْمٌ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "ur": [
+            "عِلْمٌ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "hi": [
+            "عِلْمٌ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "hinglish": [
+            "عِلْمٌ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting form is 'عِلْمٌ'.",
+          "ur": "اس کا بنیادی مصدر/کلمہ 'عِلْمٌ' ہے۔",
+          "hi": "इसका बुनियादी मस्तर/कलमा 'عِلْمٌ' है।",
+          "hinglish": "Iska bunyadi masdar/kalimah 'عِلْمٌ' hai."
+        }
+      },
+      {
+        "id": "s7l1-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'خَلَقَ'?",
+          "ur": "قرآنی لفظ 'خَلَقَ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'خَلَقَ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'خَلَقَ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "He created",
+            "He knew",
+            "He said",
+            "He took / seized"
+          ],
+          "ur": [
+            "اس نے پیدا کیا",
+            "اس نے جانا",
+            "اس نے کہا",
+            "اس نے پکڑا / لیا"
+          ],
+          "hi": [
+            "उसने पैदा किया",
+            "उसने जाना",
+            "उसने कहा",
+            "उसने पकड़ा / लिया"
+          ],
+          "hinglish": [
+            "peda kiya",
+            "jaana",
+            "kaha",
+            "pakda / liya"
+          ]
+        },
+        "explanation": {
+          "en": "'خَلَقَ' translates to 'He created'.",
+          "ur": "'خَلَقَ' کا معنی 'اس نے پیدا کیا' ہے۔",
+          "hi": "'خَلَقَ' का मतलब 'उसने पैदा किया' है।",
+          "hinglish": "'خَلَقَ' ka matlab 'peda kiya' hai."
+        }
+      },
+      {
+        "id": "s7l1-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'جَعَلَ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'جَعَلَ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'جَعَلَ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'جَعَلَ'"
+        },
+        "options": {
+          "en": [
+            "He knew",
+            "He made / appointed",
+            "He said",
+            "He took / seized"
+          ],
+          "ur": [
+            "اس نے جانا",
+            "اس نے بنایا / قرار دیا",
+            "اس نے کہا",
+            "اس نے پکڑا / لیا"
+          ],
+          "hi": [
+            "उसने जाना",
+            "उसने बनाया / ठहराया",
+            "उसने कहा",
+            "उसने पकड़ा / लिया"
+          ],
+          "hinglish": [
+            "jaana",
+            "banaya / qaraar diya",
+            "kaha",
+            "pakda / liya"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'جَعَلَ' means 'He made / appointed'.",
+          "ur": "'جَعَلَ' کا مفہوم 'اس نے بنایا / قرار دیا' ہے۔",
+          "hi": "'جَعَلَ' का मतलब 'उसने बनाया / ठहराया' है।",
+          "hinglish": "'جَعَلَ' ka matlab 'banaya / qaraar diya' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s7l2",
+    "questions": [
+      {
+        "id": "s7l2-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Mazi Jama (ـُوا) teach regarding Arabic verbs?",
+          "ur": "Mazi Jama (ـُوا) عربی افعال کے متعلق کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Mazi Jama (ـُوا) अरबी अफआल के मुताल्लिक़ क्या क़ायदा सिखाता है?",
+          "hinglish": "Mazi Jama ('ـُوا') Arabi af'aal ke mutalliq kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms the past verbal pattern 'عَبَدُوا'",
+            "Creates a command imperative directly",
+            "Converts word into present participle noun",
+            "Forces future continuous meaning"
+          ],
+          "ur": [
+            "ماضی کا صیغہ 'عَبَدُوا' بناتا ہے",
+            "براہ راست امر حاضر بنا دیتا ہے",
+            "لفظ کو اسم فاعل میں بدل دیتا ہے",
+            "لازمی مستقبل کا معنی دیتا ہے"
+          ],
+          "hi": [
+            "माज़ी का सीग़ा 'عَبَدُوا' बनाता है",
+            "सीधे अम्र हाज़िर बना देता है",
+            "लफ़्ज़ को इस्म फायल में बदल देता है",
+            "लाज़मी मुस्तक़बिल का मानी देता है"
+          ],
+          "hinglish": [
+            "Mazi ka seegha 'عَبَدُوا' banata hai",
+            "Barah-e-raast amr haazir bana deta hai",
+            "Lafz ko ism faa'il mein badal deta hai",
+            "Laazmi mustaqbil ka maani deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation produces 'عَبَدُوا'.",
+          "ur": "گردان سے 'عَبَدُوا' وجود میں آتا ہے۔",
+          "hi": "गर्दान से 'عَبَدُوا' वजूद में आता है।",
+          "hinglish": "Gardan se 'عَبَدُوا' wajood mein aata hai."
+        }
+      },
+      {
+        "id": "s7l2-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following is an example of Mazi Jama (ـُوا)?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Mazi Jama (ـُوا) کی مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Mazi Jama (ـُوا) की मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Mazi Jama ('ـُوا') ki misaal hai?"
+        },
+        "options": {
+          "en": [
+            "عَبَدُوا",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "ur": [
+            "عَبَدُوا",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "hi": [
+            "عَبَدُوا",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "hinglish": [
+            "عَبَدُوا",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ]
+        },
+        "explanation": {
+          "en": "'عَبَدُوا' directly matches this verbal form.",
+          "ur": "'عَبَدُوا' اس فعلی صیغے سے مطابقت رکھتا ہے۔",
+          "hi": "'عَبَدُوا' इस फेली सीग़े से मुताबिक़त रखता है।",
+          "hinglish": "'عَبَدُوا' is fe'li seeghe se mutabiqat rakhta hai."
+        }
+      },
+      {
+        "id": "s7l2-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'عَبَدُوا', identify the base stem/root:",
+          "ur": "'عَبَدُوا' کا بنیادی مادہ یا مصدر کیا ہے؟",
+          "hi": "'عَبَدُوا' का बुनियादी माद्दा या मस्तर क्या है?",
+          "hinglish": "'عَبَدُوا' ka bunyadi maaddah ya masdar kya hai?"
+        },
+        "options": {
+          "en": [
+            "عَبَدَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "ur": [
+            "عَبَدَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "hi": [
+            "عَبَدَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "hinglish": [
+            "عَبَدَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting form is 'عَبَدَ'.",
+          "ur": "اس کا بنیادی مصدر/کلمہ 'عَبَدَ' ہے۔",
+          "hi": "इसका बुनियादी मस्तर/कलमा 'عَبَدَ' है।",
+          "hinglish": "Iska bunyadi masdar/kalimah 'عَبَدَ' hai."
+        }
+      },
+      {
+        "id": "s7l2-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'وَلَا تَقْتُلُوا النَّفْسَ الَّتِي حَرَّمَ اللَّهُ إِلَّا بِالْحَقِّ'?",
+          "ur": "قرآنی لفظ 'وَلَا تَقْتُلُوا النَّفْسَ الَّتِي حَرَّمَ اللَّهُ إِلَّا بِالْحَقِّ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'وَلَا تَقْتُلُوا النَّفْسَ الَّتِي حَرَّمَ اللَّهُ إِلَّا بِالْحَقِّ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'وَلَا 'تَقْتُلُوا' النَّفْسَ 'الَّتِي' حَرَّمَ 'اللَّهُ' إِلَّا بِالْحَقِّ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "And do not kill the soul which Allah has forbidden, except by right",
+            "Allah presents an example: a slave [who is] owned and unable to do anything",
+            "Allah presents an example: a man subservient to several quarreling partners",
+            "Say, 'I hold not for myself [the power of] harm or benefit except what Allah has willed'"
+          ],
+          "ur": [
+            "اور اس جان کو قتل نہ کرو جسے اللہ نے حرام کیا ہے مگر حق کے ساتھ",
+            "اللہ نے ایک مملوک غلام کی مثال بیان فرمائی جو کسی چیز پر اختیار نہیں رکھتا",
+            "اللہ نے ایک ایسے شخص کی مثال بیان فرمائی جس میں کئی جھگڑالو شریک ہیں",
+            "آپ فرما دیجیے کہ میں اپنی جان کے لیے کسی نفع اور نقصان کا اختیار نہیں رکھتا مگر جتنا اللہ چاہے"
+          ],
+          "hi": [
+            "और उस जान को क़त्ल न करो जिसे अल्लाह ने हराम किया है मगर हक़ के साथ",
+            "अल्लाह ने एक ऐसे ग़ुलाम की मिसाल बयान फ़रमाई जो किसी चीज़ पर इख़्तियार नहीं रखता",
+            "अल्लाह ने एक ऐसे आदमी की मिसाल बयान फ़रमाई जिसमें कई झगड़ालू साझीदार हैं",
+            "आप फ़रमा दीजिए कि मैं अपनी जान के लिए किसी नफ़े और नुक़सान का इख़्तियार नहीं रखता मगर जितना अल्लाह चाहे"
+          ],
+          "hinglish": [
+            "aur na qatal karo us jaan ko jise Allah ne haram kiya magar haq ke saath",
+            "Allah ne misal bayan ki ek ghulam ki jo kisi cheez par qudrat nahin rakhta",
+            "Allah ne misal bayan ki ek mard ki jismein jhagadne wale shareek hain",
+            "kaho main apne nafs ke liye kisi nuqsan aur kisi nafa ka malik nahin magar jo Allah chahe"
+          ]
+        },
+        "explanation": {
+          "en": "'وَلَا تَقْتُلُوا النَّفْسَ الَّتِي حَرَّمَ اللَّهُ إِلَّا بِالْحَقِّ' translates to 'And do not kill the soul which Allah has forbidden, except by right'.",
+          "ur": "'وَلَا تَقْتُلُوا النَّفْسَ الَّتِي حَرَّمَ اللَّهُ إِلَّا بِالْحَقِّ' کا معنی 'اور اس جان کو قتل نہ کرو جسے اللہ نے حرام کیا ہے مگر حق کے ساتھ' ہے۔",
+          "hi": "'وَلَا تَقْتُلُوا النَّفْسَ الَّتِي حَرَّمَ اللَّهُ إِلَّا بِالْحَقِّ' का मतलब 'और उस जान को क़त्ल न करो जिसे अल्लाह ने हराम किया है मगर हक़ के साथ' है।",
+          "hinglish": "'وَلَا 'تَقْتُلُوا' النَّفْسَ 'الَّتِي' حَرَّمَ 'اللَّهُ' إِلَّا بِالْحَقِّ' ka matlab 'aur na qatal karo us jaan ko jise Allah ne haram kiya magar haq ke saath' hai."
+        }
+      },
+      {
+        "id": "s7l2-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'مَا كَانَ عَلَى النَّبِيِّ مِنْ حَرَجٍ فِيمَا فَرَضَ اللَّهُ لَهُ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'مَا كَانَ عَلَى النَّبِيِّ مِنْ حَرَجٍ فِيمَا فَرَضَ اللَّهُ لَهُ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'مَا كَانَ عَلَى النَّبِيِّ مِنْ حَرَجٍ فِيمَا فَرَضَ اللَّهُ لَهُ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'مَا 'كَانَ' عَلَى 'النَّبِيِّ' مِنْ 'حَرَجٍ' فِيمَا 'فَرَضَ' اللَّهُ لَهُ'"
+        },
+        "options": {
+          "en": [
+            "Allah presents an example: a slave [who is] owned and unable to do anything",
+            "There is not to be upon the Prophet any discomfort concerning that which Allah has imposed upon him",
+            "Allah presents an example: a man subservient to several quarreling partners",
+            "Say, 'I hold not for myself [the power of] harm or benefit except what Allah has willed'"
+          ],
+          "ur": [
+            "اللہ نے ایک مملوک غلام کی مثال بیان فرمائی جو کسی چیز پر اختیار نہیں رکھتا",
+            "نبی پر اس بات میں کوئی تنگی نہیں جو اللہ نے ان کے لیے مقرر فرمائی ہے",
+            "اللہ نے ایک ایسے شخص کی مثال بیان فرمائی جس میں کئی جھگڑالو شریک ہیں",
+            "آپ فرما دیجیے کہ میں اپنی جان کے لیے کسی نفع اور نقصان کا اختیار نہیں رکھتا مگر جتنا اللہ چاہے"
+          ],
+          "hi": [
+            "अल्लाह ने एक ऐसे ग़ुलाम की मिसाल बयान फ़रमाई जो किसी चीज़ पर इख़्तियार नहीं रखता",
+            "नबी पर उस बात में कोई तंगी नहीं जो अल्लाह ने उनके लिए मुक़र्रर फ़रमाई है",
+            "अल्लाह ने एक ऐसे आदमी की मिसाल बयान फ़रमाई जिसमें कई झगड़ालू साझीदार हैं",
+            "आप फ़रमा दीजिए कि मैं अपनी जान के लिए किसी नफ़े और नुक़सान का इख़्तियार नहीं रखता मगर जितना अल्लाह चाहे"
+          ],
+          "hinglish": [
+            "Allah ne misal bayan ki ek ghulam ki jo kisi cheez par qudrat nahin rakhta",
+            "Nabi par koi tangi nahin us mein jo Allah ne unke liye farz kiya",
+            "Allah ne misal bayan ki ek mard ki jismein jhagadne wale shareek hain",
+            "kaho main apne nafs ke liye kisi nuqsan aur kisi nafa ka malik nahin magar jo Allah chahe"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'مَا كَانَ عَلَى النَّبِيِّ مِنْ حَرَجٍ فِيمَا فَرَضَ اللَّهُ لَهُ' means 'There is not to be upon the Prophet any discomfort concerning that which Allah has imposed upon him'.",
+          "ur": "'مَا كَانَ عَلَى النَّبِيِّ مِنْ حَرَجٍ فِيمَا فَرَضَ اللَّهُ لَهُ' کا مفہوم 'نبی پر اس بات میں کوئی تنگی نہیں جو اللہ نے ان کے لیے مقرر فرمائی ہے' ہے۔",
+          "hi": "'مَا كَانَ عَلَى النَّبِيِّ مِنْ حَرَجٍ فِيمَا فَرَضَ اللَّهُ لَهُ' का मतलब 'नबी पर उस बात में कोई तंगी नहीं जो अल्लाह ने उनके लिए मुक़र्रर फ़रमाई है' है।",
+          "hinglish": "'مَا 'كَانَ' عَلَى 'النَّبِيِّ' مِنْ 'حَرَجٍ' فِيمَا 'فَرَضَ' اللَّهُ لَهُ' ka matlab 'Nabi par koi tangi nahin us mein jo Allah ne unke liye farz kiya' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s7l3",
+    "questions": [
+      {
+        "id": "s7l3-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Mawsool + Mazi teach regarding Arabic verbs?",
+          "ur": "Mawsool + Mazi عربی افعال کے متعلق کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Mawsool + Mazi अरबी अफआल के मुताल्लिक़ क्या क़ायदा सिखाता है?",
+          "hinglish": "Mawsool + Mazi Arabi af'aal ke mutalliq kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms the past verbal pattern 'الَّذِينَ كَفَرُوا'",
+            "Creates a command imperative directly",
+            "Converts word into present participle noun",
+            "Forces future continuous meaning"
+          ],
+          "ur": [
+            "ماضی کا صیغہ 'الَّذِينَ كَفَرُوا' بناتا ہے",
+            "براہ راست امر حاضر بنا دیتا ہے",
+            "لفظ کو اسم فاعل میں بدل دیتا ہے",
+            "لازمی مستقبل کا معنی دیتا ہے"
+          ],
+          "hi": [
+            "माज़ी का सीग़ा 'الَّذِينَ كَفَرُوا' बनाता है",
+            "सीधे अम्र हाज़िर बना देता है",
+            "लफ़्ज़ को इस्म फायल में बदल देता है",
+            "लाज़मी मुस्तक़बिल का मानी देता है"
+          ],
+          "hinglish": [
+            "Mazi ka seegha 'الَّذِينَ كَفَرُوا' banata hai",
+            "Barah-e-raast amr haazir bana deta hai",
+            "Lafz ko ism faa'il mein badal deta hai",
+            "Laazmi mustaqbil ka maani deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation produces 'الَّذِينَ كَفَرُوا'.",
+          "ur": "گردان سے 'الَّذِينَ كَفَرُوا' وجود میں آتا ہے۔",
+          "hi": "गर्दान से 'الَّذِينَ كَفَرُوا' वजूद में आता है।",
+          "hinglish": "Gardan se 'الَّذِينَ كَفَرُوا' wajood mein aata hai."
+        }
+      },
+      {
+        "id": "s7l3-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following is an example of Mawsool + Mazi?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Mawsool + Mazi کی مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Mawsool + Mazi की मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Mawsool + Mazi ki misaal hai?"
+        },
+        "options": {
+          "en": [
+            "الَّذِينَ كَفَرُوا",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "ur": [
+            "الَّذِينَ كَفَرُوا",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "hi": [
+            "الَّذِينَ كَفَرُوا",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "hinglish": [
+            "الَّذِينَ كَفَرُوا",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ]
+        },
+        "explanation": {
+          "en": "'الَّذِينَ كَفَرُوا' directly matches this verbal form.",
+          "ur": "'الَّذِينَ كَفَرُوا' اس فعلی صیغے سے مطابقت رکھتا ہے۔",
+          "hi": "'الَّذِينَ كَفَرُوا' इस फेली सीग़े से मुताबिक़त रखता है।",
+          "hinglish": "'الَّذِينَ كَفَرُوا' is fe'li seeghe se mutabiqat rakhta hai."
+        }
+      },
+      {
+        "id": "s7l3-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'الَّذِينَ كَفَرُوا', identify the base stem/root:",
+          "ur": "'الَّذِينَ كَفَرُوا' کا بنیادی مادہ یا مصدر کیا ہے؟",
+          "hi": "'الَّذِينَ كَفَرُوا' का बुनियादी माद्दा या मस्तर क्या है?",
+          "hinglish": "'الَّذِينَ كَفَرُوا' ka bunyadi maaddah ya masdar kya hai?"
+        },
+        "options": {
+          "en": [
+            "كَفَرُوا",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "ur": [
+            "كَفَرُوا",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "hi": [
+            "كَفَرُوا",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "hinglish": [
+            "كَفَرُوا",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting form is 'كَفَرُوا'.",
+          "ur": "اس کا بنیادی مصدر/کلمہ 'كَفَرُوا' ہے۔",
+          "hi": "इसका बुनियादी मस्तर/कलमा 'كَفَرُوا' है।",
+          "hinglish": "Iska bunyadi masdar/kalimah 'كَفَرُوا' hai."
+        }
+      },
+      {
+        "id": "s7l3-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'إِنَّ الَّذِينَ كَفَرُوا وَصَدُّوا عَنْ سَبِيلِ اللَّهِ قَدْ ضَلُّوا ضَلَالًا بَعِيدًا'?",
+          "ur": "قرآنی لفظ 'إِنَّ الَّذِينَ كَفَرُوا وَصَدُّوا عَنْ سَبِيلِ اللَّهِ قَدْ ضَلُّوا ضَلَالًا بَعِيدًا' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'إِنَّ الَّذِينَ كَفَرُوا وَصَدُّوا عَنْ سَبِيلِ اللَّهِ قَدْ ضَلُّوا ضَلَالًا بَعِيدًا' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'إِنَّ 'الَّذِينَ' كَفَرُوا 'وَصَدُّوا' عَنْ 'سَبِيلِ' اللَّهِ 'قَدْ' ضَلُّوا 'ضَلَالًا' بَعِيدًا' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Then when the Horn is blown with one blast",
+            "Then when there comes the greatest Overwhelming Calamity",
+            "So when vision is dazzled",
+            "And when the heaven is split and becomes rose-colored like murky oil"
+          ],
+          "ur": [
+            "پھر جب صور میں ایک بار پھونک ماری جائے گی",
+            "پھر جب سب سے بڑی آفت آئے گی",
+            "پھر جب آنکھیں پتھرا جائیں گی",
+            "پھر جب آسمان پھٹ جائے گا اور تیل کی تلچھٹ کی طرح لال گلاب ہو جائے گا"
+          ],
+          "hi": [
+            "फिर जब सूर में एक बार फूँक मारी जाएगी",
+            "फिर जब सबसे बड़ी आफ़त आएगी",
+            "फिर जब आँखें पथरा जाएँगी",
+            "फिर जब आसमान फट जाएगा और तेल की तरह लाल गुलाब हो जाएगा"
+          ],
+          "hinglish": [
+            "beshak jin logon ne inkar kiya aur Allah ke raste se roka woh door ki gumraahi mein bhatak gaye",
+            "aur jo inkar kare Allah ka aur uske farishton ka aur uski kitabon ka aur uske Rasoolon ka aur aakhirat ke din ka toh woh door ki gumraahi mein bhatak gaya",
+            "beshak jin logon ne inkar kiya aur zulm kiya Allah unhein bakhshne wala nahin aur na unhein rasta dikhane wala hai",
+            "aur unhon ne kaha ke yahoodi ya nasrani ho jao toh hidayat paoge"
+          ]
+        },
+        "explanation": {
+          "en": "'إِنَّ الَّذِينَ كَفَرُوا وَصَدُّوا عَنْ سَبِيلِ اللَّهِ قَدْ ضَلُّوا ضَلَالًا بَعِيدًا' translates to 'Then when the Horn is blown with one blast'.",
+          "ur": "'إِنَّ الَّذِينَ كَفَرُوا وَصَدُّوا عَنْ سَبِيلِ اللَّهِ قَدْ ضَلُّوا ضَلَالًا بَعِيدًا' کا معنی 'پھر جب صور میں ایک بار پھونک ماری جائے گی' ہے۔",
+          "hi": "'إِنَّ الَّذِينَ كَفَرُوا وَصَدُّوا عَنْ سَبِيلِ اللَّهِ قَدْ ضَلُّوا ضَلَالًا بَعِيدًا' का मतलब 'फिर जब सूर में एक बार फूँक मारी जाएगी' है।",
+          "hinglish": "'إِنَّ 'الَّذِينَ' كَفَرُوا 'وَصَدُّوا' عَنْ 'سَبِيلِ' اللَّهِ 'قَدْ' ضَلُّوا 'ضَلَالًا' بَعِيدًا' ka matlab 'beshak jin logon ne inkar kiya aur Allah ke raste se roka woh door ki gumraahi mein bhatak gaye' hai."
+        }
+      },
+      {
+        "id": "s7l3-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ كَانَتْ لَهُمْ جَنَّاتُ الْفِرْدَوْسِ نُزُلًا'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ كَانَتْ لَهُمْ جَنَّاتُ الْفِرْدَوْسِ نُزُلًا'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ كَانَتْ لَهُمْ جَنَّاتُ الْفِرْدَوْسِ نُزُلًا'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'إِنَّ 'الَّذِينَ' آمَنُوا 'وَعَمِلُوا' الصَّالِحَاتِ 'كَانَتْ' لَهُمْ 'جَنَّاتُ' الْفِرْدَوْسِ نُزُلًا'"
+        },
+        "options": {
+          "en": [
+            "Then when there comes the greatest Overwhelming Calamity",
+            "Then when there comes the Deafening Blast",
+            "So when vision is dazzled",
+            "And when the heaven is split and becomes rose-colored like murky oil"
+          ],
+          "ur": [
+            "پھر جب سب سے بڑی آفت آئے گی",
+            "پھر جب کان بہرے کر دینے والی چنگھاڑ آئے گی",
+            "پھر جب آنکھیں پتھرا جائیں گی",
+            "پھر جب آسمان پھٹ جائے گا اور تیل کی تلچھٹ کی طرح لال گلاب ہو جائے گا"
+          ],
+          "hi": [
+            "फिर जब सबसे बड़ी आफ़त आएगी",
+            "फिर जब कान बहरे कर देने वाली आवाज़ आएगी",
+            "फिर जब आँखें पथरा जाएँगी",
+            "फिर जब आसमान फट जाएगा और तेल की तरह लाल गुलाब हो जाएगा"
+          ],
+          "hinglish": [
+            "aur jo inkar kare Allah ka aur uske farishton ka aur uski kitabon ka aur uske Rasoolon ka aur aakhirat ke din ka toh woh door ki gumraahi mein bhatak gaya",
+            "beshak jo log iman laaye aur unhon ne nek ek'maal kiye unke liye firdaus ke baghaat mehmaan-nawazi theh",
+            "beshak jin logon ne inkar kiya aur zulm kiya Allah unhein bakhshne wala nahin aur na unhein rasta dikhane wala hai",
+            "aur unhon ne kaha ke yahoodi ya nasrani ho jao toh hidayat paoge"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ كَانَتْ لَهُمْ جَنَّاتُ الْفِرْدَوْسِ نُزُلًا' means 'Then when there comes the Deafening Blast'.",
+          "ur": "'إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ كَانَتْ لَهُمْ جَنَّاتُ الْفِرْدَوْسِ نُزُلًا' کا مفہوم 'پھر جب کان بہرے کر دینے والی چنگھاڑ آئے گی' ہے۔",
+          "hi": "'إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ كَانَتْ لَهُمْ جَنَّاتُ الْفِرْدَوْسِ نُزُلًا' का मतलब 'फिर जब कान बहरे कर देने वाली आवाज़ आएगी' है।",
+          "hinglish": "'إِنَّ 'الَّذِينَ' آمَنُوا 'وَعَمِلُوا' الصَّالِحَاتِ 'كَانَتْ' لَهُمْ 'جَنَّاتُ' الْفِرْدَوْسِ نُزُلًا' ka matlab 'beshak jo log iman laaye aur unhon ne nek ek'maal kiye unke liye firdaus ke baghaat mehmaan-nawazi theh' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s7l4",
+    "questions": [
+      {
+        "id": "s7l4-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Mazi Waqiaat teach regarding Arabic verbs?",
+          "ur": "Mazi Waqiaat عربی افعال کے متعلق کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Mazi Waqiaat अरबी अफआल के मुताल्लिक़ क्या क़ायदा सिखाता है?",
+          "hinglish": "Mazi Waqiaat Arabi af'aal ke mutalliq kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms the past verbal pattern 'اتَّخَذُوا'",
+            "Creates a command imperative directly",
+            "Converts word into present participle noun",
+            "Forces future continuous meaning"
+          ],
+          "ur": [
+            "ماضی کا صیغہ 'اتَّخَذُوا' بناتا ہے",
+            "براہ راست امر حاضر بنا دیتا ہے",
+            "لفظ کو اسم فاعل میں بدل دیتا ہے",
+            "لازمی مستقبل کا معنی دیتا ہے"
+          ],
+          "hi": [
+            "माज़ी का सीग़ा 'اتَّخَذُوا' बनाता है",
+            "सीधे अम्र हाज़िर बना देता है",
+            "लफ़्ज़ को इस्म फायल में बदल देता है",
+            "लाज़मी मुस्तक़बिल का मानी देता है"
+          ],
+          "hinglish": [
+            "Mazi ka seegha 'اتَّخَذُوا' banata hai",
+            "Barah-e-raast amr haazir bana deta hai",
+            "Lafz ko ism faa'il mein badal deta hai",
+            "Laazmi mustaqbil ka maani deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation produces 'اتَّخَذُوا'.",
+          "ur": "گردان سے 'اتَّخَذُوا' وجود میں آتا ہے۔",
+          "hi": "गर्दान से 'اتَّخَذُوا' वजूद में आता है।",
+          "hinglish": "Gardan se 'اتَّخَذُوا' wajood mein aata hai."
+        }
+      },
+      {
+        "id": "s7l4-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following is an example of Mazi Waqiaat?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Mazi Waqiaat کی مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Mazi Waqiaat की मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Mazi Waqiaat ki misaal hai?"
+        },
+        "options": {
+          "en": [
+            "اتَّخَذُوا",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "ur": [
+            "اتَّخَذُوا",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "hi": [
+            "اتَّخَذُوا",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "hinglish": [
+            "اتَّخَذُوا",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ]
+        },
+        "explanation": {
+          "en": "'اتَّخَذُوا' directly matches this verbal form.",
+          "ur": "'اتَّخَذُوا' اس فعلی صیغے سے مطابقت رکھتا ہے۔",
+          "hi": "'اتَّخَذُوا' इस फेली सीग़े से मुताबिक़त रखता है।",
+          "hinglish": "'اتَّخَذُوا' is fe'li seeghe se mutabiqat rakhta hai."
+        }
+      },
+      {
+        "id": "s7l4-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'اتَّخَذُوا', identify the base stem/root:",
+          "ur": "'اتَّخَذُوا' کا بنیادی مادہ یا مصدر کیا ہے؟",
+          "hi": "'اتَّخَذُوا' का बुनियादी माद्दा या मस्तर क्या है?",
+          "hinglish": "'اتَّخَذُوا' ka bunyadi maaddah ya masdar kya hai?"
+        },
+        "options": {
+          "en": [
+            "اتَّخَذَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "ur": [
+            "اتَّخَذَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "hi": [
+            "اتَّخَذَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "hinglish": [
+            "اتَّخَذَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting form is 'اتَّخَذَ'.",
+          "ur": "اس کا بنیادی مصدر/کلمہ 'اتَّخَذَ' ہے۔",
+          "hi": "इसका बुनियादी मस्तर/कलमा 'اتَّخَذَ' है।",
+          "hinglish": "Iska bunyadi masdar/kalimah 'اتَّخَذَ' hai."
+        }
+      },
+      {
+        "id": "s7l4-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'فَأَتَوْا عَلَىٰ قَوْمٍ يَعْكُفُونَ عَلَىٰ أَصْنَامٍ لَّهُمْ'?",
+          "ur": "قرآنی لفظ 'فَأَتَوْا عَلَىٰ قَوْمٍ يَعْكُفُونَ عَلَىٰ أَصْنَامٍ لَّهُمْ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'فَأَتَوْا عَلَىٰ قَوْمٍ يَعْكُفُونَ عَلَىٰ أَصْنَامٍ لَّهُمْ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'فَأَتَوْا 'عَلَىٰ' قَوْمٍ 'يَعْكُفُونَ' عَلَىٰ 'أَصْنَامٍ' لَّهُمْ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "So they came upon a people devoted to idols they had",
+            "When they stood up and said, 'Our Lord is the Lord of the heavens and the earth. Never will we invoke besides Him any deity'",
+            "Indeed, the hypocrites try to deceive Allah, but He is deceiving them. And when they stand for prayer, they stand lazily, showing [themselves to] the people and not remembering Allah except a little",
+            "And when they opened their baggage, they found their merchandise returned to them"
+          ],
+          "ur": [
+            "تو وہ ایسی قوم پر آئے جو اپنے بتوں پر اعتکاف کرتے تھے",
+            "جب وہ کھڑے ہوئے تو انہوں نے کہا ہمارا رب آسمانوں اور زمین کا رب ہے ہم اس کے سوا کسی معبود کو ہرگز نہیں پکاریں گے",
+            "بیشک منافقین اللہ کو دھوکہ دیتے ہیں اور وہ انہیں دھوکہ دینے والا ہے اور جب وہ نماز کے لیے کھڑے ہوتے ہیں تو سست ہو کر کھڑے ہوتے ہیں لوگوں کو دکھاوا کرتے ہیں اور اللہ کو یاد نہیں کرتے مگر بہت کم",
+            "اور جب انہوں نے اپنا سامان کھولا تو انہوں نے اپنا مال پا لیا"
+          ],
+          "hi": [
+            "तो वो ऐसी क़ौम पर आए जो अपने बुतों पर ऐतकाफ़ करते थे",
+            "जब वो खड़े हुए तो उन्होंने कहा हमारा रब आसमानों और ज़मीन का रब है हम उसके सिवा किसी माबूद को हरगिज़ नहीं पुकारेंगे",
+            "बेशक मुनाफ़िक़ीन अल्लाह को धोखा देते हैं और वह उन्हें धोखा देने वाला है और जब वो नमाज़ के लिए खड़े होते हैं तो सुस्त होकर खड़े होते हैं लोगों को दिखावा करते हैं और अल्लाह को याद नहीं करते मगर बहुत कम",
+            "और जब उन्होंने अपना सामान खोला तो उन्होंने अपना माल पा लिया"
+          ],
+          "hinglish": [
+            "toh woh aise qom par aaye jo apne buton par aetekaf karte theh",
+            "jab woh khade hue toh unhon ne kaha hamara Rabb aasmanon aur zameen ka Rabb hai ham uske siwa kisi mabood ko hargiz nahin pukarein ge",
+            "beshak munafiqin Allah ko dhoka dete hain aur woh unhein dhoka dene wala hai aur jab woh namaz ke liye khade hote hain toh sust hokar khade hote hain logon ko dikhava karte hain aur Allah ko yaad nahin karte magar bahut kam",
+            "aur jab unhon ne apna saman khola toh unhon ne apna maal pa liya"
+          ]
+        },
+        "explanation": {
+          "en": "'فَأَتَوْا عَلَىٰ قَوْمٍ يَعْكُفُونَ عَلَىٰ أَصْنَامٍ لَّهُمْ' translates to 'So they came upon a people devoted to idols they had'.",
+          "ur": "'فَأَتَوْا عَلَىٰ قَوْمٍ يَعْكُفُونَ عَلَىٰ أَصْنَامٍ لَّهُمْ' کا معنی 'تو وہ ایسی قوم پر آئے جو اپنے بتوں پر اعتکاف کرتے تھے' ہے۔",
+          "hi": "'فَأَتَوْا عَلَىٰ قَوْمٍ يَعْكُفُونَ عَلَىٰ أَصْنَامٍ لَّهُمْ' का मतलब 'तो वो ऐसी क़ौम पर आए जो अपने बुतों पर ऐतकाफ़ करते थे' है।",
+          "hinglish": "'فَأَتَوْا 'عَلَىٰ' قَوْمٍ 'يَعْكُفُونَ' عَلَىٰ 'أَصْنَامٍ' لَّهُمْ' ka matlab 'toh woh aise qom par aaye jo apne buton par aetekaf karte theh' hai."
+        }
+      },
+      {
+        "id": "s7l4-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'حَتَّىٰ إِذَا أَتَوْا عَلَىٰ وَادِ النَّمْلِ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'حَتَّىٰ إِذَا أَتَوْا عَلَىٰ وَادِ النَّمْلِ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'حَتَّىٰ إِذَا أَتَوْا عَلَىٰ وَادِ النَّمْلِ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'حَتَّىٰ 'إِذَا' أَتَوْا 'عَلَىٰ' وَادِ النَّمْلِ'"
+        },
+        "options": {
+          "en": [
+            "When they stood up and said, 'Our Lord is the Lord of the heavens and the earth. Never will we invoke besides Him any deity'",
+            "Until, when they came upon the valley of the ants",
+            "Indeed, the hypocrites try to deceive Allah, but He is deceiving them. And when they stand for prayer, they stand lazily, showing [themselves to] the people and not remembering Allah except a little",
+            "And when they opened their baggage, they found their merchandise returned to them"
+          ],
+          "ur": [
+            "جب وہ کھڑے ہوئے تو انہوں نے کہا ہمارا رب آسمانوں اور زمین کا رب ہے ہم اس کے سوا کسی معبود کو ہرگز نہیں پکاریں گے",
+            "یہاں تک کہ جب وہ چیونٹیوں کی وادی پر آئے",
+            "بیشک منافقین اللہ کو دھوکہ دیتے ہیں اور وہ انہیں دھوکہ دینے والا ہے اور جب وہ نماز کے لیے کھڑے ہوتے ہیں تو سست ہو کر کھڑے ہوتے ہیں لوگوں کو دکھاوا کرتے ہیں اور اللہ کو یاد نہیں کرتے مگر بہت کم",
+            "اور جب انہوں نے اپنا سامان کھولا تو انہوں نے اپنا مال پا لیا"
+          ],
+          "hi": [
+            "जब वो खड़े हुए तो उन्होंने कहा हमारा रब आसमानों और ज़मीन का रब है हम उसके सिवा किसी माबूद को हरगिज़ नहीं पुकारेंगे",
+            "यहाँ तक कि जब वो चींटियों की वादी पर आए",
+            "बेशक मुनाफ़िक़ीन अल्लाह को धोखा देते हैं और वह उन्हें धोखा देने वाला है और जब वो नमाज़ के लिए खड़े होते हैं तो सुस्त होकर खड़े होते हैं लोगों को दिखावा करते हैं और अल्लाह को याद नहीं करते मगर बहुत कम",
+            "और जब उन्होंने अपना सामान खोला तो उन्होंने अपना माल पा लिया"
+          ],
+          "hinglish": [
+            "jab woh khade hue toh unhon ne kaha hamara Rabb aasmanon aur zameen ka Rabb hai ham uske siwa kisi mabood ko hargiz nahin pukarein ge",
+            "yahan tak ke jab woh cheontiyon ki waadi par aaye",
+            "beshak munafiqin Allah ko dhoka dete hain aur woh unhein dhoka dene wala hai aur jab woh namaz ke liye khade hote hain toh sust hokar khade hote hain logon ko dikhava karte hain aur Allah ko yaad nahin karte magar bahut kam",
+            "aur jab unhon ne apna saman khola toh unhon ne apna maal pa liya"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'حَتَّىٰ إِذَا أَتَوْا عَلَىٰ وَادِ النَّمْلِ' means 'Until, when they came upon the valley of the ants'.",
+          "ur": "'حَتَّىٰ إِذَا أَتَوْا عَلَىٰ وَادِ النَّمْلِ' کا مفہوم 'یہاں تک کہ جب وہ چیونٹیوں کی وادی پر آئے' ہے۔",
+          "hi": "'حَتَّىٰ إِذَا أَتَوْا عَلَىٰ وَادِ النَّمْلِ' का मतलब 'यहाँ तक कि जब वो चींटियों की वादी पर आए' है।",
+          "hinglish": "'حَتَّىٰ 'إِذَا' أَتَوْا 'عَلَىٰ' وَادِ النَّمْلِ' ka matlab 'yahan tak ke jab woh cheontiyon ki waadi par aaye' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s7l5",
+    "questions": [
+      {
+        "id": "s7l5-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Mazi Mutakallim (ـنَا) teach regarding Arabic verbs?",
+          "ur": "Mazi Mutakallim (ـنَا) عربی افعال کے متعلق کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Mazi Mutakallim (ـنَا) अरबी अफआल के मुताल्लिक़ क्या क़ायदा सिखाता है?",
+          "hinglish": "Mazi Mutakallim ('ـنَا') Arabi af'aal ke mutalliq kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms the past verbal pattern 'أَغْرَقْنَا / نَجَّيْنَا'",
+            "Creates a command imperative directly",
+            "Converts word into present participle noun",
+            "Forces future continuous meaning"
+          ],
+          "ur": [
+            "ماضی کا صیغہ 'أَغْرَقْنَا / نَجَّيْنَا' بناتا ہے",
+            "براہ راست امر حاضر بنا دیتا ہے",
+            "لفظ کو اسم فاعل میں بدل دیتا ہے",
+            "لازمی مستقبل کا معنی دیتا ہے"
+          ],
+          "hi": [
+            "माज़ी का सीग़ा 'أَغْرَقْنَا / نَجَّيْنَا' बनाता है",
+            "सीधे अम्र हाज़िर बना देता है",
+            "लफ़्ज़ को इस्म फायल में बदल देता है",
+            "लाज़मी मुस्तक़बिल का मानी देता है"
+          ],
+          "hinglish": [
+            "Mazi ka seegha 'أَغْرَقْنَا / نَجَّيْنَا' banata hai",
+            "Barah-e-raast amr haazir bana deta hai",
+            "Lafz ko ism faa'il mein badal deta hai",
+            "Laazmi mustaqbil ka maani deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation produces 'أَغْرَقْنَا / نَجَّيْنَا'.",
+          "ur": "گردان سے 'أَغْرَقْنَا / نَجَّيْنَا' وجود میں آتا ہے۔",
+          "hi": "गर्दान से 'أَغْرَقْنَا / نَجَّيْنَا' वजूद में आता है।",
+          "hinglish": "Gardan se 'أَغْرَقْنَا / نَجَّيْنَا' wajood mein aata hai."
+        }
+      },
+      {
+        "id": "s7l5-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following is an example of Mazi Mutakallim (ـنَا)?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Mazi Mutakallim (ـنَا) کی مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Mazi Mutakallim (ـنَا) की मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Mazi Mutakallim ('ـنَا') ki misaal hai?"
+        },
+        "options": {
+          "en": [
+            "أَغْرَقْنَا / نَجَّيْنَا",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "ur": [
+            "أَغْرَقْنَا / نَجَّيْنَا",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "hi": [
+            "أَغْرَقْنَا / نَجَّيْنَا",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "hinglish": [
+            "أَغْرَقْنَا / نَجَّيْنَا",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ]
+        },
+        "explanation": {
+          "en": "'أَغْرَقْنَا / نَجَّيْنَا' directly matches this verbal form.",
+          "ur": "'أَغْرَقْنَا / نَجَّيْنَا' اس فعلی صیغے سے مطابقت رکھتا ہے۔",
+          "hi": "'أَغْرَقْنَا / نَجَّيْنَا' इस फेली सीग़े से मुताबिक़त रखता है।",
+          "hinglish": "'أَغْرَقْنَا / نَجَّيْنَا' is fe'li seeghe se mutabiqat rakhta hai."
+        }
+      },
+      {
+        "id": "s7l5-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'أَغْرَقْنَا / نَجَّيْنَا', identify the base stem/root:",
+          "ur": "'أَغْرَقْنَا / نَجَّيْنَا' کا بنیادی مادہ یا مصدر کیا ہے؟",
+          "hi": "'أَغْرَقْنَا / نَجَّيْنَا' का बुनियादी माद्दा या मस्तर क्या है?",
+          "hinglish": "'أَغْرَقْنَا / نَجَّيْنَا' ka bunyadi maaddah ya masdar kya hai?"
+        },
+        "options": {
+          "en": [
+            "أَغْرَقَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "ur": [
+            "أَغْرَقَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "hi": [
+            "أَغْرَقَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "hinglish": [
+            "أَغْرَقَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting form is 'أَغْرَقَ'.",
+          "ur": "اس کا بنیادی مصدر/کلمہ 'أَغْرَقَ' ہے۔",
+          "hi": "इसका बुनियादी मस्तर/कलमा 'أَغْرَقَ' है।",
+          "hinglish": "Iska bunyadi masdar/kalimah 'أَغْرَقَ' hai."
+        }
+      },
+      {
+        "id": "s7l5-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'أَغْرَقَ / أَعْرَقْنَا'?",
+          "ur": "قرآنی لفظ 'أَغْرَقَ / أَعْرَقْنَا' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'أَغْرَقَ / أَعْرَقْنَا' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'أَغْرَقَ / أَعْرَقْنَا' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "He drowned / We drowned",
+            "He blessed / We blessed",
+            "He obeyed / We obeyed",
+            "He came / We came"
+          ],
+          "ur": [
+            "اس نے غرق کیا / ہم نے غرق کیا",
+            "اس نے برکت دی / ہم نے برکت دی",
+            "اس نے اطاعت کی / ہم نے اطاعت کی",
+            "وہ آیا / ہم آئے"
+          ],
+          "hi": [
+            "उसने ग़र्क़ किया / हमने ग़र्क़ किया",
+            "उसने बरकत दी / हमने बरकत दी",
+            "उसने इताअत की / हमने इताअत की",
+            "वह आया / हम आए"
+          ],
+          "hinglish": [
+            "gharq kiya hum ne gharq kiya",
+            "barakat di hum ne barakat di",
+            "ita'at ki hum ne ita'at ki",
+            "woh aaya hum aaye"
+          ]
+        },
+        "explanation": {
+          "en": "'أَغْرَقَ / أَعْرَقْنَا' translates to 'He drowned / We drowned'.",
+          "ur": "'أَغْرَقَ / أَعْرَقْنَا' کا معنی 'اس نے غرق کیا / ہم نے غرق کیا' ہے۔",
+          "hi": "'أَغْرَقَ / أَعْرَقْنَا' का मतलब 'उसने ग़र्क़ किया / हमने ग़र्क़ किया' है।",
+          "hinglish": "'أَغْرَقَ / أَعْرَقْنَا' ka matlab 'gharq kiya hum ne gharq kiya' hai."
+        }
+      },
+      {
+        "id": "s7l5-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'نَجَّى / نَجَّيْنَا'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'نَجَّى / نَجَّيْنَا'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'نَجَّى / نَجَّيْنَا'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'نَجَّى / نَجَّيْنَا'"
+        },
+        "options": {
+          "en": [
+            "He blessed / We blessed",
+            "He delivered / We delivered",
+            "He obeyed / We obeyed",
+            "He came / We came"
+          ],
+          "ur": [
+            "اس نے برکت دی / ہم نے برکت دی",
+            "اس نے نجات دی / ہم نے نجات دی",
+            "اس نے اطاعت کی / ہم نے اطاعت کی",
+            "وہ آیا / ہم آئے"
+          ],
+          "hi": [
+            "उसने बरकत दी / हमने बरकत दी",
+            "उसने निजात दी / हमने निजात दी",
+            "उसने इताअत की / हमने इताअत की",
+            "वह आया / हम आए"
+          ],
+          "hinglish": [
+            "barakat di hum ne barakat di",
+            "najat di hum ne najat di",
+            "ita'at ki hum ne ita'at ki",
+            "woh aaya hum aaye"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'نَجَّى / نَجَّيْنَا' means 'He delivered / We delivered'.",
+          "ur": "'نَجَّى / نَجَّيْنَا' کا مفہوم 'اس نے نجات دی / ہم نے نجات دی' ہے۔",
+          "hi": "'نَجَّى / نَجَّيْنَا' का मतलब 'उसने निजात दी / हमने निजात दी' है।",
+          "hinglish": "'نَجَّى / نَجَّيْنَا' ka matlab 'najat di hum ne najat di' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s7l6",
+    "questions": [
+      {
+        "id": "s7l6-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Mazi Mukhatab (ـْتَ) teach regarding Arabic verbs?",
+          "ur": "Mazi Mukhatab (ـْتَ) عربی افعال کے متعلق کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Mazi Mukhatab (ـْتَ) अरबी अफआल के मुताल्लिक़ क्या क़ायदा सिखाता है?",
+          "hinglish": "Mazi Mukhatab ('ـْتَ') Arabi af'aal ke mutalliq kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms the past verbal pattern 'عَبَدْتَ'",
+            "Creates a command imperative directly",
+            "Converts word into present participle noun",
+            "Forces future continuous meaning"
+          ],
+          "ur": [
+            "ماضی کا صیغہ 'عَبَدْتَ' بناتا ہے",
+            "براہ راست امر حاضر بنا دیتا ہے",
+            "لفظ کو اسم فاعل میں بدل دیتا ہے",
+            "لازمی مستقبل کا معنی دیتا ہے"
+          ],
+          "hi": [
+            "माज़ी का सीग़ा 'عَبَدْتَ' बनाता है",
+            "सीधे अम्र हाज़िर बना देता है",
+            "लफ़्ज़ को इस्म फायल में बदल देता है",
+            "लाज़मी मुस्तक़बिल का मानी देता है"
+          ],
+          "hinglish": [
+            "Mazi ka seegha 'عَبَدْتَ' banata hai",
+            "Barah-e-raast amr haazir bana deta hai",
+            "Lafz ko ism faa'il mein badal deta hai",
+            "Laazmi mustaqbil ka maani deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation produces 'عَبَدْتَ'.",
+          "ur": "گردان سے 'عَبَدْتَ' وجود میں آتا ہے۔",
+          "hi": "गर्दान से 'عَبَدْتَ' वजूद में आता है।",
+          "hinglish": "Gardan se 'عَبَدْتَ' wajood mein aata hai."
+        }
+      },
+      {
+        "id": "s7l6-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following is an example of Mazi Mukhatab (ـْتَ)?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Mazi Mukhatab (ـْتَ) کی مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Mazi Mukhatab (ـْتَ) की मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Mazi Mukhatab ('ـْتَ') ki misaal hai?"
+        },
+        "options": {
+          "en": [
+            "عَبَدْتَ",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "ur": [
+            "عَبَدْتَ",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "hi": [
+            "عَبَدْتَ",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "hinglish": [
+            "عَبَدْتَ",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ]
+        },
+        "explanation": {
+          "en": "'عَبَدْتَ' directly matches this verbal form.",
+          "ur": "'عَبَدْتَ' اس فعلی صیغے سے مطابقت رکھتا ہے۔",
+          "hi": "'عَبَدْتَ' इस फेली सीग़े से मुताबिक़त रखता है।",
+          "hinglish": "'عَبَدْتَ' is fe'li seeghe se mutabiqat rakhta hai."
+        }
+      },
+      {
+        "id": "s7l6-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'عَبَدْتَ', identify the base stem/root:",
+          "ur": "'عَبَدْتَ' کا بنیادی مادہ یا مصدر کیا ہے؟",
+          "hi": "'عَبَدْتَ' का बुनियादी माद्दा या मस्तर क्या है?",
+          "hinglish": "'عَبَدْتَ' ka bunyadi maaddah ya masdar kya hai?"
+        },
+        "options": {
+          "en": [
+            "عَبَدَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "ur": [
+            "عَبَدَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "hi": [
+            "عَبَدَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "hinglish": [
+            "عَبَدَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting form is 'عَبَدَ'.",
+          "ur": "اس کا بنیادی مصدر/کلمہ 'عَبَدَ' ہے۔",
+          "hi": "इसका बुनियादी मस्तर/कलमा 'عَبَدَ' है।",
+          "hinglish": "Iska bunyadi masdar/kalimah 'عَبَدَ' hai."
+        }
+      },
+      {
+        "id": "s7l6-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'قَالُوا آمَنَّا بِهِ / إِنَّهُ الْحَقُّ مِنْ رَبِّنَا / إِنَّا كُنَّا مِنْ قَبْلِهِ مُسْلِمِينَ'?",
+          "ur": "قرآنی لفظ 'قَالُوا آمَنَّا بِهِ / إِنَّهُ الْحَقُّ مِنْ رَبِّنَا / إِنَّا كُنَّا مِنْ قَبْلِهِ مُسْلِمِينَ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'قَالُوا آمَنَّا بِهِ / إِنَّهُ الْحَقُّ مِنْ رَبِّنَا / إِنَّا كُنَّا مِنْ قَبْلِهِ مُسْلِمِينَ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'قَالُوا 'آمَنَّا' بِهِ / 'إِنَّهُ' الْحَقُّ 'مِنْ' رَبِّنَا / 'إِنَّا' كُنَّا 'مِنْ' قَبْلِهِ مُسْلِمِينَ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "They say, 'We have believed in it; indeed, it is the truth from our Lord; indeed we were, [even] before it, Muslims [submitting to Allah].'",
+            "Indeed, we aspire that our Lord will forgive us our sins because we were the first of the believers.",
+            "Indeed, we used to call upon Him before. Indeed, it is He who is the Beneficent, the Merciful.",
+            "And We have created above you seven paths, and never have We been unaware of the creation."
+          ],
+          "ur": [
+            "انہوں نے کہا ہم اس پر ایمان لائے، بے شک یہ ہمارے رب کی طرف سے حق ہے، بے شک ہم اس سے پہلے بھی فرماں بردار تھے",
+            "بے شک ہم امید رکھتے ہیں کہ ہمارا رب ہمارے لیے ہماری خطاؤں کو بخش دے کہ ہم سب سے پہلے ایمان لانے والے تھے",
+            "بے شک ہم پہلے بھی اسی کو پکارتے تھے، بے شک وہی احسان کرنے والا مہربان ہے",
+            "اور یقیناً ہم نے تمہارے اوپر سات راستے بنائے اور ہم مخلوق سے بے خبر نہیں تھے"
+          ],
+          "hi": [
+            "उन्होंने कहा हम इस पर ईमान लाए, बेशक यह हमारे रब की तरफ़ से हक़ है, बेशक हम इससे पहले भी फ़रमांबरदार थे",
+            "बेशक हम उम्मीद रखते हैं कि हमारा रब हमारे लिए हमारी ख़ताओं को बख़्श दे कि हम सबसे पहले ईमान लाने वाले थे",
+            "बेशक हम पहले भी उसी को पुकारते थे, बेशक वही एहसान करने वाला मेहरबान है",
+            "और यक़ीनन हमने तुम्हारे ऊपर सात रास्ते बनाए और हम मख़लूक़ से बे-ख़बर नहीं थे"
+          ],
+          "hinglish": [
+            "Unhon ne kaha ham iss par imaan laye beshak yeh hamare Rabb ki taraf se haq hai beshak ham iss se pehle bhi farmabardar theh",
+            "Beshak ham umeed rakhte hain ke hamara Rabb hamare liye hamari khataon ko bakhsh de ke ham sab se pehle imaan lane wale theh",
+            "Beshak ham pehle bhi usse pukarte theh beshak woh hi ehsan karne wala meharban Hai",
+            "Aur yaqeenan hamne banaye tumhare upar saat raaste aur ham makhluq se be-khabar nahin theh"
+          ]
+        },
+        "explanation": {
+          "en": "'قَالُوا آمَنَّا بِهِ / إِنَّهُ الْحَقُّ مِنْ رَبِّنَا / إِنَّا كُنَّا مِنْ قَبْلِهِ مُسْلِمِينَ' translates to 'They say, 'We have believed in it; indeed, it is the truth from our Lord; indeed we were, [even] before it, Muslims [submitting to Allah].''.",
+          "ur": "'قَالُوا آمَنَّا بِهِ / إِنَّهُ الْحَقُّ مِنْ رَبِّنَا / إِنَّا كُنَّا مِنْ قَبْلِهِ مُسْلِمِينَ' کا معنی 'انہوں نے کہا ہم اس پر ایمان لائے، بے شک یہ ہمارے رب کی طرف سے حق ہے، بے شک ہم اس سے پہلے بھی فرماں بردار تھے' ہے۔",
+          "hi": "'قَالُوا آمَنَّا بِهِ / إِنَّهُ الْحَقُّ مِنْ رَبِّنَا / إِنَّا كُنَّا مِنْ قَبْلِهِ مُسْلِمِينَ' का मतलब 'उन्होंने कहा हम इस पर ईमान लाए, बेशक यह हमारे रब की तरफ़ से हक़ है, बेशक हम इससे पहले भी फ़रमांबरदार थे' है।",
+          "hinglish": "'قَالُوا 'آمَنَّا' بِهِ / 'إِنَّهُ' الْحَقُّ 'مِنْ' رَبِّنَا / 'إِنَّا' كُنَّا 'مِنْ' قَبْلِهِ مُسْلِمِينَ' ka matlab 'Unhon ne kaha ham iss par imaan laye beshak yeh hamare Rabb ki taraf se haq hai beshak ham iss se pehle bhi farmabardar theh' hai."
+        }
+      },
+      {
+        "id": "s7l6-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'قَالُوا إِنَّا كُنَّا قَبْلُ فِي أَهْلِنَا مُشْفِقِينَ / فَمَنَّ اللَّهُ عَلَيْنَا'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'قَالُوا إِنَّا كُنَّا قَبْلُ فِي أَهْلِنَا مُشْفِقِينَ / فَمَنَّ اللَّهُ عَلَيْنَا'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'قَالُوا إِنَّا كُنَّا قَبْلُ فِي أَهْلِنَا مُشْفِقِينَ / فَمَنَّ اللَّهُ عَلَيْنَا'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'قَالُوا 'إِنَّا' كُنَّا 'قَبْلُ' فِي 'أَهْلِنَا' مُشْفِقِينَ / 'فَمَنَّ' اللَّهُ عَلَيْنَا'"
+        },
+        "options": {
+          "en": [
+            "Indeed, we aspire that our Lord will forgive us our sins because we were the first of the believers.",
+            "They will say, 'Indeed, we were previously among our people fearful [of displeasing Allah], so Allah conferred favor upon us'",
+            "Indeed, we used to call upon Him before. Indeed, it is He who is the Beneficent, the Merciful.",
+            "And We have created above you seven paths, and never have We been unaware of the creation."
+          ],
+          "ur": [
+            "بے شک ہم امید رکھتے ہیں کہ ہمارا رب ہمارے لیے ہماری خطاؤں کو بخش دے کہ ہم سب سے پہلے ایمان لانے والے تھے",
+            "انہوں نے کہا بے شک ہم اس سے پہلے اپنے گھر والوں میں ڈرنے والے تھے، تو اللہ نے ہم پر احسان کیا",
+            "بے شک ہم پہلے بھی اسی کو پکارتے تھے، بے شک وہی احسان کرنے والا مہربان ہے",
+            "اور یقیناً ہم نے تمہارے اوپر سات راستے بنائے اور ہم مخلوق سے بے خبر نہیں تھے"
+          ],
+          "hi": [
+            "बेशक हम उम्मीद रखते हैं कि हमारा रब हमारे लिए हमारी ख़ताओं को बख़्श दे कि हम सबसे पहले ईमान लाने वाले थे",
+            "उन्होंने कहा बेशक हम इससे पहले अपने घर वालों में डरने वाले थे, तो अल्लाह ने हम पर एहसान किया",
+            "बेशक हम पहले भी उसी को पुकारते थे, बेशक वही एहसान करने वाला मेहरबान है",
+            "और यक़ीनन हमने तुम्हारे ऊपर सात रास्ते बनाए और हम मख़लूक़ से बे-ख़बर नहीं थे"
+          ],
+          "hinglish": [
+            "Beshak ham umeed rakhte hain ke hamara Rabb hamare liye hamari khataon ko bakhsh de ke ham sab se pehle imaan lane wale theh",
+            "Unhon ne kaha beshak ham iss se pehle apne ghar walon mein darne wale theh toh Allah ne ham par ehsan kiya",
+            "Beshak ham pehle bhi usse pukarte theh beshak woh hi ehsan karne wala meharban Hai",
+            "Aur yaqeenan hamne banaye tumhare upar saat raaste aur ham makhluq se be-khabar nahin theh"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'قَالُوا إِنَّا كُنَّا قَبْلُ فِي أَهْلِنَا مُشْفِقِينَ / فَمَنَّ اللَّهُ عَلَيْنَا' means 'They will say, 'Indeed, we were previously among our people fearful [of displeasing Allah], so Allah conferred favor upon us''.",
+          "ur": "'قَالُوا إِنَّا كُنَّا قَبْلُ فِي أَهْلِنَا مُشْفِقِينَ / فَمَنَّ اللَّهُ عَلَيْنَا' کا مفہوم 'انہوں نے کہا بے شک ہم اس سے پہلے اپنے گھر والوں میں ڈرنے والے تھے، تو اللہ نے ہم پر احسان کیا' ہے۔",
+          "hi": "'قَالُوا إِنَّا كُنَّا قَبْلُ فِي أَهْلِنَا مُشْفِقِينَ / فَمَنَّ اللَّهُ عَلَيْنَا' का मतलब 'उन्होंने कहा बेशक हम इससे पहले अपने घर वालों में डरने वाले थे, तो अल्लाह ने हम पर एहसान किया' है।",
+          "hinglish": "'قَالُوا 'إِنَّا' كُنَّا 'قَبْلُ' فِي 'أَهْلِنَا' مُشْفِقِينَ / 'فَمَنَّ' اللَّهُ عَلَيْنَا' ka matlab 'Unhon ne kaha beshak ham iss se pehle apne ghar walon mein darne wale theh toh Allah ne ham par ehsan kiya' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s7l7",
+    "questions": [
+      {
+        "id": "s7l7-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Usloob Shart (إِنْ) teach regarding Arabic verbs?",
+          "ur": "Usloob Shart (إِنْ) عربی افعال کے متعلق کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Usloob Shart (إِنْ) अरबी अफआल के मुताल्लिक़ क्या क़ायदा सिखाता है?",
+          "hinglish": "Usloob Shart ('إِنْ') Arabi af'aal ke mutalliq kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms the past verbal pattern 'إِنْ كُنْتُمْ مُؤْمِنِينَ'",
+            "Creates a command imperative directly",
+            "Converts word into present participle noun",
+            "Forces future continuous meaning"
+          ],
+          "ur": [
+            "ماضی کا صیغہ 'إِنْ كُنْتُمْ مُؤْمِنِينَ' بناتا ہے",
+            "براہ راست امر حاضر بنا دیتا ہے",
+            "لفظ کو اسم فاعل میں بدل دیتا ہے",
+            "لازمی مستقبل کا معنی دیتا ہے"
+          ],
+          "hi": [
+            "माज़ी का सीग़ा 'إِنْ كُنْتُمْ مُؤْمِنِينَ' बनाता है",
+            "सीधे अम्र हाज़िर बना देता है",
+            "लफ़्ज़ को इस्म फायल में बदल देता है",
+            "लाज़मी मुस्तक़बिल का मानी देता है"
+          ],
+          "hinglish": [
+            "Mazi ka seegha 'إِنْ كُنْتُمْ مُؤْمِنِينَ' banata hai",
+            "Barah-e-raast amr haazir bana deta hai",
+            "Lafz ko ism faa'il mein badal deta hai",
+            "Laazmi mustaqbil ka maani deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation produces 'إِنْ كُنْتُمْ مُؤْمِنِينَ'.",
+          "ur": "گردان سے 'إِنْ كُنْتُمْ مُؤْمِنِينَ' وجود میں آتا ہے۔",
+          "hi": "गर्दान से 'إِنْ كُنْتُمْ مُؤْمِنِينَ' वजूद में आता है।",
+          "hinglish": "Gardan se 'إِنْ 'كُنْتُمْ' مُؤْمِنِينَ' wajood mein aata hai."
+        }
+      },
+      {
+        "id": "s7l7-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following is an example of Usloob Shart (إِنْ)?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Usloob Shart (إِنْ) کی مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Usloob Shart (إِنْ) की मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Usloob Shart ('إِنْ') ki misaal hai?"
+        },
+        "options": {
+          "en": [
+            "إِنْ كُنْتُمْ مُؤْمِنِينَ",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "ur": [
+            "إِنْ كُنْتُمْ مُؤْمِنِينَ",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "hi": [
+            "إِنْ كُنْتُمْ مُؤْمِنِينَ",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "hinglish": [
+            "إِنْ كُنْتُمْ مُؤْمِنِينَ",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ]
+        },
+        "explanation": {
+          "en": "'إِنْ كُنْتُمْ مُؤْمِنِينَ' directly matches this verbal form.",
+          "ur": "'إِنْ كُنْتُمْ مُؤْمِنِينَ' اس فعلی صیغے سے مطابقت رکھتا ہے۔",
+          "hi": "'إِنْ كُنْتُمْ مُؤْمِنِينَ' इस फेली सीग़े से मुताबिक़त रखता है।",
+          "hinglish": "'إِنْ 'كُنْتُمْ' مُؤْمِنِينَ' is fe'li seeghe se mutabiqat rakhta hai."
+        }
+      },
+      {
+        "id": "s7l7-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'إِنْ كُنْتُمْ مُؤْمِنِينَ', identify the base stem/root:",
+          "ur": "'إِنْ كُنْتُمْ مُؤْمِنِينَ' کا بنیادی مادہ یا مصدر کیا ہے؟",
+          "hi": "'إِنْ كُنْتُمْ مُؤْمِنِينَ' का बुनियादी माद्दा या मस्तर क्या है?",
+          "hinglish": "'إِنْ 'كُنْتُمْ' مُؤْمِنِينَ' ka bunyadi maaddah ya masdar kya hai?"
+        },
+        "options": {
+          "en": [
+            "كُنْتُمْ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "ur": [
+            "كُنْتُمْ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "hi": [
+            "كُنْتُمْ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "hinglish": [
+            "كُنْتُمْ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting form is 'كُنْتُمْ'.",
+          "ur": "اس کا بنیادی مصدر/کلمہ 'كُنْتُمْ' ہے۔",
+          "hi": "इसका बुनियादी मस्तर/कलमा 'كُنْتُمْ' है।",
+          "hinglish": "Iska bunyadi masdar/kalimah 'كُنْتُمْ' hai."
+        }
+      },
+      {
+        "id": "s7l7-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'إِنْ كُنْتُمْ مُؤْمِنِينَ'?",
+          "ur": "قرآنی لفظ 'إِنْ كُنْتُمْ مُؤْمِنِينَ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'إِنْ كُنْتُمْ مُؤْمِنِينَ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'إِنْ 'كُنْتُمْ' مُؤْمِنِينَ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "if you should be believers",
+            "They said, 'Then what would be its penalty if you should be liars?'",
+            "And they say, 'When is this promise, if you should be truthful?'",
+            "Is it other than Allah you call upon, if you should be truthful?"
+          ],
+          "ur": [
+            "اگر تم مومن ہو",
+            "انہوں نے کہا تو کیا سزا ہے اس کی اگر تم جھوٹے ہو؟",
+            "اور وہ کہتے ہیں کب ہوگا یہ وعدہ اگر تم سچے ہو؟",
+            "کیا تم اللہ کے سوا کسی اور کو پکارتے ہو اگر تم سچے ہو؟"
+          ],
+          "hi": [
+            "अगर तुम मोमिन हो",
+            "उन्होंने कहा तो क्या सज़ा है उसकी अगर तुम झूठे हो?",
+            "और वह कहते हैं कब होगा यह वादा अगर तुम सच्चे हो?",
+            "क्या तुम अल्लाह के सिवा किसी और को पुकारते हो अगर तुम सच्चे हो?"
+          ],
+          "hinglish": [
+            "Agar tum momin ho",
+            "Unhon ne kaha toh kya hai uski saza agar tum jhoote ho",
+            "Aur woh kehte hain kab hoga yeh waada agar tum sach'che ho",
+            "Kya Allah ke siwa kisi aur ko tum pukarte ho agar tum sach'che ho"
+          ]
+        },
+        "explanation": {
+          "en": "'إِنْ كُنْتُمْ مُؤْمِنِينَ' translates to 'if you should be believers'.",
+          "ur": "'إِنْ كُنْتُمْ مُؤْمِنِينَ' کا معنی 'اگر تم مومن ہو' ہے۔",
+          "hi": "'إِنْ كُنْتُمْ مُؤْمِنِينَ' का मतलब 'अगर तुम मोमिन हो' है।",
+          "hinglish": "'إِنْ 'كُنْتُمْ' مُؤْمِنِينَ' ka matlab 'Agar tum momin ho' hai."
+        }
+      },
+      {
+        "id": "s7l7-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'وَأَنْتُمُ الْأَعْلَوْنَ إِنْ كُنْتُمْ مُؤْمِنِينَ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'وَأَنْتُمُ الْأَعْلَوْنَ إِنْ كُنْتُمْ مُؤْمِنِينَ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'وَأَنْتُمُ الْأَعْلَوْنَ إِنْ كُنْتُمْ مُؤْمِنِينَ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'وَأَنْتُمُ 'الْأَعْلَوْنَ' إِنْ 'كُنْتُمْ' مُؤْمِنِينَ'"
+        },
+        "options": {
+          "en": [
+            "They said, 'Then what would be its penalty if you should be liars?'",
+            "And you will be superior if you should be [true] believers",
+            "And they say, 'When is this promise, if you should be truthful?'",
+            "Is it other than Allah you call upon, if you should be truthful?"
+          ],
+          "ur": [
+            "انہوں نے کہا تو کیا سزا ہے اس کی اگر تم جھوٹے ہو؟",
+            "اور تم ہی غالب رہو گے اگر تم مومن ہو",
+            "اور وہ کہتے ہیں کب ہوگا یہ وعدہ اگر تم سچے ہو؟",
+            "کیا تم اللہ کے سوا کسی اور کو پکارتے ہو اگر تم سچے ہو؟"
+          ],
+          "hi": [
+            "उन्होंने कहा तो क्या सज़ा है उसकी अगर तुम झूठे हो?",
+            "और तुम ही ग़ालिब रहोगे अगर तुम मोमिन हो",
+            "और वह कहते हैं कब होगा यह वादा अगर तुम सच्चे हो?",
+            "क्या तुम अल्लाह के सिवा किसी और को पुकारते हो अगर तुम सच्चे हो?"
+          ],
+          "hinglish": [
+            "Unhon ne kaha toh kya hai uski saza agar tum jhoote ho",
+            "Aur tum hi ghalib rahoge agar tum momin ho",
+            "Aur woh kehte hain kab hoga yeh waada agar tum sach'che ho",
+            "Kya Allah ke siwa kisi aur ko tum pukarte ho agar tum sach'che ho"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'وَأَنْتُمُ الْأَعْلَوْنَ إِنْ كُنْتُمْ مُؤْمِنِينَ' means 'And you will be superior if you should be [true] believers'.",
+          "ur": "'وَأَنْتُمُ الْأَعْلَوْنَ إِنْ كُنْتُمْ مُؤْمِنِينَ' کا مفہوم 'اور تم ہی غالب رہو گے اگر تم مومن ہو' ہے۔",
+          "hi": "'وَأَنْتُمُ الْأَعْلَوْنَ إِنْ كُنْتُمْ مُؤْمِنِينَ' का मतलब 'और तुम ही ग़ालिब रहोगे अगर तुम मोमिन हो' है।",
+          "hinglish": "'وَأَنْتُمُ 'الْأَعْلَوْنَ' إِنْ 'كُنْتُمْ' مُؤْمِنِينَ' ka matlab 'Aur tum hi ghalib rahoge agar tum momin ho' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s7l8",
+    "questions": [
+      {
+        "id": "s7l8-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Mazi Majhool (فُعِلَ) teach regarding Arabic verbs?",
+          "ur": "Mazi Majhool (فُعِلَ) عربی افعال کے متعلق کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Mazi Majhool (فُعِلَ) अरबी अफआल के मुताल्लिक़ क्या क़ायदा सिखाता है?",
+          "hinglish": "Mazi Majhool ('فُعِلَ') Arabi af'aal ke mutalliq kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms the past verbal pattern 'أُنْزِلَ'",
+            "Creates a command imperative directly",
+            "Converts word into present participle noun",
+            "Forces future continuous meaning"
+          ],
+          "ur": [
+            "ماضی کا صیغہ 'أُنْزِلَ' بناتا ہے",
+            "براہ راست امر حاضر بنا دیتا ہے",
+            "لفظ کو اسم فاعل میں بدل دیتا ہے",
+            "لازمی مستقبل کا معنی دیتا ہے"
+          ],
+          "hi": [
+            "माज़ी का सीग़ा 'أُنْزِلَ' बनाता है",
+            "सीधे अम्र हाज़िर बना देता है",
+            "लफ़्ज़ को इस्म फायल में बदल देता है",
+            "लाज़मी मुस्तक़बिल का मानी देता है"
+          ],
+          "hinglish": [
+            "Mazi ka seegha 'أُنْزِلَ' banata hai",
+            "Barah-e-raast amr haazir bana deta hai",
+            "Lafz ko ism faa'il mein badal deta hai",
+            "Laazmi mustaqbil ka maani deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation produces 'أُنْزِلَ'.",
+          "ur": "گردان سے 'أُنْزِلَ' وجود میں آتا ہے۔",
+          "hi": "गर्दान से 'أُنْزِلَ' वजूद में आता है।",
+          "hinglish": "Gardan se 'أُنْزِلَ' wajood mein aata hai."
+        }
+      },
+      {
+        "id": "s7l8-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following is an example of Mazi Majhool (فُعِلَ)?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Mazi Majhool (فُعِلَ) کی مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Mazi Majhool (فُعِلَ) की मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Mazi Majhool ('فُعِلَ') ki misaal hai?"
+        },
+        "options": {
+          "en": [
+            "أُنْزِلَ",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "ur": [
+            "أُنْزِلَ",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "hi": [
+            "أُنْزِلَ",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "hinglish": [
+            "أُنْزِلَ",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ]
+        },
+        "explanation": {
+          "en": "'أُنْزِلَ' directly matches this verbal form.",
+          "ur": "'أُنْزِلَ' اس فعلی صیغے سے مطابقت رکھتا ہے۔",
+          "hi": "'أُنْزِلَ' इस फेली सीग़े से मुताबिक़त रखता है।",
+          "hinglish": "'أُنْزِلَ' is fe'li seeghe se mutabiqat rakhta hai."
+        }
+      },
+      {
+        "id": "s7l8-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'أُنْزِلَ', identify the base stem/root:",
+          "ur": "'أُنْزِلَ' کا بنیادی مادہ یا مصدر کیا ہے؟",
+          "hi": "'أُنْزِلَ' का बुनियादी माद्दा या मस्तर क्या है?",
+          "hinglish": "'أُنْزِلَ' ka bunyadi maaddah ya masdar kya hai?"
+        },
+        "options": {
+          "en": [
+            "أَنْزَلَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "ur": [
+            "أَنْزَلَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "hi": [
+            "أَنْزَلَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "hinglish": [
+            "أَنْزَلَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting form is 'أَنْزَلَ'.",
+          "ur": "اس کا بنیادی مصدر/کلمہ 'أَنْزَلَ' ہے۔",
+          "hi": "इसका बुनियादी मस्तर/कलमा 'أَنْزَلَ' है।",
+          "hinglish": "Iska bunyadi masdar/kalimah 'أَنْزَلَ' hai."
+        }
+      },
+      {
+        "id": "s7l8-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'أَأَنْذَرْتَهُمْ ← أَنْذَرْتَهُمْ'?",
+          "ur": "قرآنی لفظ 'أَأَنْذَرْتَهُمْ ← أَنْذَرْتَهُمْ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'أَأَنْذَرْتَهُمْ ← أَنْذَرْتَهُمْ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'أَأَنْذَرْتَهُمْ ← أَنْذَرْتَهُمْ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Did you warn them? -> You warned them",
+            "And it is all the same for them whether you warn them or do not warn them - they will not believe",
+            "They said, 'It is all the same to us whether you advise or are not of the advisors'",
+            "Whatever is in the heavens and whatever is on the earth exalts Allah, and He is the Exalted in Might, the Wise"
+          ],
+          "ur": [
+            "کیا آپ نے انہیں ڈرایا ← آپ نے انہیں ڈرایا",
+            "اور ان پر برابر ہے چاہے آپ انہیں ڈرائیں یا نہ ڈرائیں وہ ایمان نہیں لائیں گے",
+            "انہوں نے کہا ہمارے لیے برابر ہے چاہے آپ نصیحت کریں یا نصیحت کرنے والوں میں سے نہ ہوں",
+            "اللہ کی تسبیح کرتی ہے ہر وہ چیز جو آسمانوں میں ہے اور جو زمین میں ہے اور وہی زبردست حکمت والا ہے"
+          ],
+          "hi": [
+            "क्या आपने उन्हें डराया -> आपने उन्हें डराया",
+            "और उन पर बराबर है चाहे आप उन्हें डराएँ या न डराएँ वह ईमान नहीं लाएँगे",
+            "उन्होंने कहा हमारे लिए बराबर है चाहे आप नसीहत करें या नसीहत करने वालों में से न हों",
+            "अल्लाह की तस्बीह करती है हर वह चीज़ जो आसमानों में है और जो ज़मीन में है और वही ज़बरदस्त हिकमत वाला है"
+          ],
+          "hinglish": [
+            "Kya tu ne unhein daraya -> Tu ne unhein daraya",
+            "Aur barabar hai un par chahe aap unhein darayein ya na darayein woh imaan nahin layenge",
+            "Unhon ne kaha barabar hai ham par chahe aap naseehat karein ya naseehat karne walon mein se na hon",
+            "Allah ki tasbeeh karti hai har woh cheez jo aasmanon mein hai aur jo zameen mein hai aur woh zabardast hikmat wala Hai"
+          ]
+        },
+        "explanation": {
+          "en": "'أَأَنْذَرْتَهُمْ ← أَنْذَرْتَهُمْ' translates to 'Did you warn them? -> You warned them'.",
+          "ur": "'أَأَنْذَرْتَهُمْ ← أَنْذَرْتَهُمْ' کا معنی 'کیا آپ نے انہیں ڈرایا ← آپ نے انہیں ڈرایا' ہے۔",
+          "hi": "'أَأَنْذَرْتَهُمْ ← أَنْذَرْتَهُمْ' का मतलब 'क्या आपने उन्हें डराया -> आपने उन्हें डराया' है।",
+          "hinglish": "'أَأَنْذَرْتَهُمْ ← أَنْذَرْتَهُمْ' ka matlab 'Kya tu ne unhein daraya -> Tu ne unhein daraya' hai."
+        }
+      },
+      {
+        "id": "s7l8-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'إِنَّ 'الَّذِينَ' كَفَرُوا 'سَوَاءٌ' عَلَيْهِمْ 'أَأَنْذَرْتَهُمْ' أَمْ 'لَمْ' تُنْذِرْهُمْ 'لَا' يُؤْمِنُونَ'"
+        },
+        "options": {
+          "en": [
+            "And it is all the same for them whether you warn them or do not warn them - they will not believe",
+            "Indeed, those who disbelieve - it is all the same for them whether you warn them or do not warn them - they will not believe",
+            "They said, 'It is all the same to us whether you advise or are not of the advisors'",
+            "Whatever is in the heavens and whatever is on the earth exalts Allah, and He is the Exalted in Might, the Wise"
+          ],
+          "ur": [
+            "اور ان پر برابر ہے چاہے آپ انہیں ڈرائیں یا نہ ڈرائیں وہ ایمان نہیں لائیں گے",
+            "بیشک جن لوگوں نے کفر کیا ان پر برابر ہے چاہے آپ انہیں ڈرائیں یا نہ ڈرائیں وہ ایمان نہیں لائیں گے",
+            "انہوں نے کہا ہمارے لیے برابر ہے چاہے آپ نصیحت کریں یا نصیحت کرنے والوں میں سے نہ ہوں",
+            "اللہ کی تسبیح کرتی ہے ہر وہ چیز جو آسمانوں میں ہے اور جو زمین میں ہے اور وہی زبردست حکمت والا ہے"
+          ],
+          "hi": [
+            "और उन पर बराबर है चाहे आप उन्हें डराएँ या न डराएँ वह ईमान नहीं लाएँगे",
+            "बेशक जिन लोगों ने कुफ़्र किया उन पर बराबर है चाहे आप उन्हें डराएँ या न डराएँ वह ईमान नहीं लाएँगे",
+            "उन्होंने कहा हमारे लिए बराबर है चाहे आप नसीहत करें या नसीहत करने वालों में से न हों",
+            "अल्लाह की तस्बीह करती है हर वह चीज़ जो आसमानों में है और जो ज़मीन में है और वही ज़बरदस्त हिकमत वाला है"
+          ],
+          "hinglish": [
+            "Aur barabar hai un par chahe aap unhein darayein ya na darayein woh imaan nahin layenge",
+            "Beshak jin logon ne kufr kiya barabar hai un par chahe aap unhein darayein ya na darayein woh imaan nahin layenge",
+            "Unhon ne kaha barabar hai ham par chahe aap naseehat karein ya naseehat karne walon mein se na hon",
+            "Allah ki tasbeeh karti hai har woh cheez jo aasmanon mein hai aur jo zameen mein hai aur woh zabardast hikmat wala Hai"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ' means 'Indeed, those who disbelieve - it is all the same for them whether you warn them or do not warn them - they will not believe'.",
+          "ur": "'إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ' کا مفہوم 'بیشک جن لوگوں نے کفر کیا ان پر برابر ہے چاہے آپ انہیں ڈرائیں یا نہ ڈرائیں وہ ایمان نہیں لائیں گے' ہے۔",
+          "hi": "'إِنَّ الَّذِينَ كَفَرُوا سَوَاءٌ عَلَيْهِمْ أَأَنْذَرْتَهُمْ أَمْ لَمْ تُنْذِرْهُمْ لَا يُؤْمِنُونَ' का मतलब 'बेशक जिन लोगों ने कुफ़्र किया उन पर बराबर है चाहे आप उन्हें डराएँ या न डराएँ वह ईमान नहीं लाएँगे' है।",
+          "hinglish": "'إِنَّ 'الَّذِينَ' كَفَرُوا 'سَوَاءٌ' عَلَيْهِمْ 'أَأَنْذَرْتَهُمْ' أَمْ 'لَمْ' تُنْذِرْهُمْ 'لَا' يُؤْمِنُونَ' ka matlab 'Beshak jin logon ne kufr kiya barabar hai un par chahe aap unhein darayein ya na darayein woh imaan nahin layenge' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s7l9",
+    "questions": [
+      {
+        "id": "s7l9-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Majhool Jama (فُعِلُوا) teach regarding Arabic verbs?",
+          "ur": "Majhool Jama (فُعِلُوا) عربی افعال کے متعلق کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Majhool Jama (فُعِلُوا) अरबी अफआल के मुताल्लिक़ क्या क़ायदा सिखाता है?",
+          "hinglish": "Majhool Jama ('فُعِلُوا') Arabi af'aal ke mutalliq kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms the past verbal pattern 'أُخْرِجُوا'",
+            "Creates a command imperative directly",
+            "Converts word into present participle noun",
+            "Forces future continuous meaning"
+          ],
+          "ur": [
+            "ماضی کا صیغہ 'أُخْرِجُوا' بناتا ہے",
+            "براہ راست امر حاضر بنا دیتا ہے",
+            "لفظ کو اسم فاعل میں بدل دیتا ہے",
+            "لازمی مستقبل کا معنی دیتا ہے"
+          ],
+          "hi": [
+            "माज़ी का सीग़ा 'أُخْرِجُوا' बनाता है",
+            "सीधे अम्र हाज़िर बना देता है",
+            "लफ़्ज़ को इस्म फायल में बदल देता है",
+            "लाज़मी मुस्तक़बिल का मानी देता है"
+          ],
+          "hinglish": [
+            "Mazi ka seegha 'أُخْرِجُوا' banata hai",
+            "Barah-e-raast amr haazir bana deta hai",
+            "Lafz ko ism faa'il mein badal deta hai",
+            "Laazmi mustaqbil ka maani deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation produces 'أُخْرِجُوا'.",
+          "ur": "گردان سے 'أُخْرِجُوا' وجود میں آتا ہے۔",
+          "hi": "गर्दान से 'أُخْرِجُوا' वजूद में आता है।",
+          "hinglish": "Gardan se 'أُخْرِجُوا' wajood mein aata hai."
+        }
+      },
+      {
+        "id": "s7l9-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following is an example of Majhool Jama (فُعِلُوا)?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Majhool Jama (فُعِلُوا) کی مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Majhool Jama (فُعِلُوا) की मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Majhool Jama ('فُعِلُوا') ki misaal hai?"
+        },
+        "options": {
+          "en": [
+            "أُخْرِجُوا",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "ur": [
+            "أُخْرِجُوا",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "hi": [
+            "أُخْرِجُوا",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "hinglish": [
+            "أُخْرِجُوا",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ]
+        },
+        "explanation": {
+          "en": "'أُخْرِجُوا' directly matches this verbal form.",
+          "ur": "'أُخْرِجُوا' اس فعلی صیغے سے مطابقت رکھتا ہے۔",
+          "hi": "'أُخْرِجُوا' इस फेली सीग़े से मुताबिक़त रखता है।",
+          "hinglish": "'أُخْرِجُوا' is fe'li seeghe se mutabiqat rakhta hai."
+        }
+      },
+      {
+        "id": "s7l9-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'أُخْرِجُوا', identify the base stem/root:",
+          "ur": "'أُخْرِجُوا' کا بنیادی مادہ یا مصدر کیا ہے؟",
+          "hi": "'أُخْرِجُوا' का बुनियादी माद्दा या मस्तर क्या है?",
+          "hinglish": "'أُخْرِجُوا' ka bunyadi maaddah ya masdar kya hai?"
+        },
+        "options": {
+          "en": [
+            "أُخْرِجَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "ur": [
+            "أُخْرِجَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "hi": [
+            "أُخْرِجَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "hinglish": [
+            "أُخْرِجَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting form is 'أُخْرِجَ'.",
+          "ur": "اس کا بنیادی مصدر/کلمہ 'أُخْرِجَ' ہے۔",
+          "hi": "इसका बुनियादी मस्तर/कलमा 'أُخْرِجَ' है।",
+          "hinglish": "Iska bunyadi masdar/kalimah 'أُخْرِجَ' hai."
+        }
+      },
+      {
+        "id": "s7l9-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِنْ قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ'?",
+          "ur": "قرآنی لفظ 'يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِنْ قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِنْ قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'يَا 'أَيُّهَا' الَّذِينَ 'آمَنُوا' كُتِبَ 'عَلَيْكُمُ' الصِّيَامُ 'كَمَا' كُتِبَ 'عَلَى' الَّذِينَ 'مِنْ' قَبْلِكُمْ 'لَعَلَّكُمْ' تَتَّقُونَ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "O you who have believed, decreed upon you is fasting as it was decreed upon those before you that you may become righteous",
+            "Prescribed for you when death approaches [any] one of you if he leaves wealth [is that he should make] a bequest for the parents and near relatives according to acceptable terms - a duty upon the righteous",
+            "Prescribed for you is legal retribution for those murdered - the free for the free, the slave for the slave, and the female for the female",
+            "But whoever overlooks from his brother [i.e., the killer] anything, then there should be a suitable follow-up and payment to him with good conduct"
+          ],
+          "ur": [
+            "اے ایمان والو! تم پر روزے فرض کیے گئے جیسے تم سے پہلے لوگوں پر فرض کیے گئے تھے تاکہ تم پرہیزگار بنو",
+            "تم پر فرض کیا گیا جب تم میں سے کسی کو موت آنے لگے اگر وہ کوئی مال چھوڑ جائے تو والدین اور رشتہ داروں کے لیے دستور کے مطابق وصیت کرنا، یہ پرہیزگاروں پر حق ہے",
+            "تم پر برابری کا بدلہ لینا مقتولوں کے بارے میں فرض کیا گیا، آزاد کے بدلے آزاد اور غلام کے بدلے غلام اور عورت کے بدلے عورت",
+            "تو جس کو اس کے بھائی کی طرف سے کچھ معاف کر دیا جائے تو دستور کے مطابق پیروی کرنی چاہیے اور اچھے طریقے سے اسے ادا کرنا چاہیے"
+          ],
+          "hi": [
+            "ऐ ईमान वालो! तुम पर रोज़े फ़र्ज़ किए गए जैसे तुमसे पहले लोगों पर फ़र्ज़ किए गए थे ताकि तुम परहेज़गार बनो",
+            "तुम पर फ़र्ज़ किया गया जब तुम में से किसी को मौत आने लगे अगर वह कोई माल छोड़ जाए तो वालिदैन और रिश्तेदारों के लिए दस्तूर के मुताबिक़ वसीयत करना, यह परहेज़गारों पर हक़ है",
+            "तुम पर बराबरी का बदला लेना मक़तूलों के बारे में फ़र्ज़ किया गया, आज़ाद के बदले आज़ाद और ग़ुलाम के बदले ग़ुलाम और औरत के बदले औरत",
+            "तो जिसको उसके भाई की तरफ़ से कुछ माफ कर दिया जाए तो दस्तूर के मुताबिक़ पैरवी करनी चाहिए और अच्छे तरीक़े से उसे अदा करना चाहिए"
+          ],
+          "hinglish": [
+            "Ae imaan wale logon farz kiya gaya tum par roze rakhna jiss tarah farz kiye gaye theh un logon par jo tumse pehle theh taake tum darrne wale bano",
+            "Farz kiya gaya tum par jab tum mein se kisi ko maut aane lage agar woh koi maal chhod jaye toh wasiyyat karna maap-baap aur rishtedaron ke liye dastoor ke mutabiq, yeh haq hai parhezgaron par",
+            "Farz kiya gaya tum par barabari ka badla lena qatl ke muamle mein, azaad ke badle azaad aur ghulam ke badle ghulam aur aurat ke badle aurat",
+            "Toh jisse uske bhai ki taraf se kuch maaf kar diya jaye toh dastoor ke mutabiq pairwi karni chahiye aur bhale tarike se usse adayege karni chahiye"
+          ]
+        },
+        "explanation": {
+          "en": "'يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِنْ قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ' translates to 'O you who have believed, decreed upon you is fasting as it was decreed upon those before you that you may become righteous'.",
+          "ur": "'يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِنْ قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ' کا معنی 'اے ایمان والو! تم پر روزے فرض کیے گئے جیسے تم سے پہلے لوگوں پر فرض کیے گئے تھے تاکہ تم پرہیزگار بنو' ہے۔",
+          "hi": "'يَا أَيُّهَا الَّذِينَ آمَنُوا كُتِبَ عَلَيْكُمُ الصِّيَامُ كَمَا كُتِبَ عَلَى الَّذِينَ مِنْ قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ' का मतलब 'ऐ ईमान वालो! तुम पर रोज़े फ़र्ज़ किए गए जैसे तुमसे पहले लोगों पर फ़र्ज़ किए गए थे ताकि तुम परहेज़गार बनो' है।",
+          "hinglish": "'يَا 'أَيُّهَا' الَّذِينَ 'آمَنُوا' كُتِبَ 'عَلَيْكُمُ' الصِّيَامُ 'كَمَا' كُتِبَ 'عَلَى' الَّذِينَ 'مِنْ' قَبْلِكُمْ 'لَعَلَّكُمْ' تَتَّقُونَ' ka matlab 'Ae imaan wale logon farz kiya gaya tum par roze rakhna jiss tarah farz kiye gaye theh un logon par jo tumse pehle theh taake tum darrne wale bano' hai."
+        }
+      },
+      {
+        "id": "s7l9-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'كُتِبَ عَلَيْكُمُ الْقِتَالُ وَهُوَ كُرْهٌ لَكُمْ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'كُتِبَ عَلَيْكُمُ الْقِتَالُ وَهُوَ كُرْهٌ لَكُمْ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'كُتِبَ عَلَيْكُمُ الْقِتَالُ وَهُوَ كُرْهٌ لَكُمْ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'كُتِبَ 'عَلَيْكُمُ' الْقِتَالُ 'وَهُوَ' كُرْهٌ لَكُمْ'"
+        },
+        "options": {
+          "en": [
+            "Prescribed for you when death approaches [any] one of you if he leaves wealth [is that he should make] a bequest for the parents and near relatives according to acceptable terms - a duty upon the righteous",
+            "Fighting has been enjoined upon you while it is hateful to you",
+            "Prescribed for you is legal retribution for those murdered - the free for the free, the slave for the slave, and the female for the female",
+            "But whoever overlooks from his brother [i.e., the killer] anything, then there should be a suitable follow-up and payment to him with good conduct"
+          ],
+          "ur": [
+            "تم پر فرض کیا گیا جب تم میں سے کسی کو موت آنے لگے اگر وہ کوئی مال چھوڑ جائے تو والدین اور رشتہ داروں کے لیے دستور کے مطابق وصیت کرنا، یہ پرہیزگاروں پر حق ہے",
+            "تم پر جہاد فرض کیا گیا جبکہ وہ تمہیں ناپسند ہے",
+            "تم پر برابری کا بدلہ لینا مقتولوں کے بارے میں فرض کیا گیا، آزاد کے بدلے آزاد اور غلام کے بدلے غلام اور عورت کے بدلے عورت",
+            "تو جس کو اس کے بھائی کی طرف سے کچھ معاف کر دیا جائے تو دستور کے مطابق پیروی کرنی چاہیے اور اچھے طریقے سے اسے ادا کرنا چاہیے"
+          ],
+          "hi": [
+            "तुम पर फ़र्ज़ किया गया जब तुम में से किसी को मौत आने लगे अगर वह कोई माल छोड़ जाए तो वालिदैन और रिश्तेदारों के लिए दस्तूर के मुताबिक़ वसीयत करना, यह परहेज़गारों पर हक़ है",
+            "तुम पर जिहाद फ़र्ज़ किया गया जबकि वह तुम्हें नापसंद है",
+            "तुम पर बराबरी का बदला लेना मक़तूलों के बारे में फ़र्ज़ किया गया, आज़ाद के बदले आज़ाद और ग़ुलाम के बदले ग़ुलाम और औरत के बदले औरत",
+            "तो जिसको उसके भाई की तरफ़ से कुछ माफ कर दिया जाए तो दस्तूर के मुताबिक़ पैरवी करनी चाहिए और अच्छे तरीक़े से उसे अदा करना चाहिए"
+          ],
+          "hinglish": [
+            "Farz kiya gaya tum par jab tum mein se kisi ko maut aane lage agar woh koi maal chhod jaye toh wasiyyat karna maap-baap aur rishtedaron ke liye dastoor ke mutabiq, yeh haq hai parhezgaron par",
+            "Farz kiya gaya tum par jihaad karna jabke woh tumhein na-pasand hai",
+            "Farz kiya gaya tum par barabari ka badla lena qatl ke muamle mein, azaad ke badle azaad aur ghulam ke badle ghulam aur aurat ke badle aurat",
+            "Toh jisse uske bhai ki taraf se kuch maaf kar diya jaye toh dastoor ke mutabiq pairwi karni chahiye aur bhale tarike se usse adayege karni chahiye"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'كُتِبَ عَلَيْكُمُ الْقِتَالُ وَهُوَ كُرْهٌ لَكُمْ' means 'Fighting has been enjoined upon you while it is hateful to you'.",
+          "ur": "'كُتِبَ عَلَيْكُمُ الْقِتَالُ وَهُوَ كُرْهٌ لَكُمْ' کا مفہوم 'تم پر جہاد فرض کیا گیا جبکہ وہ تمہیں ناپسند ہے' ہے۔",
+          "hi": "'كُتِبَ عَلَيْكُمُ الْقِتَالُ وَهُوَ كُرْهٌ لَكُمْ' का मतलब 'तुम पर जिहाद फ़र्ज़ किया गया जबकि वह तुम्हें नापसंद है' है।",
+          "hinglish": "'كُتِبَ 'عَلَيْكُمُ' الْقِتَالُ 'وَهُوَ' كُرْهٌ لَكُمْ' ka matlab 'Farz kiya gaya tum par jihaad karna jabke woh tumhein na-pasand hai' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s7l10",
+    "questions": [
+      {
+        "id": "s7l10-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Master Capstone teach regarding Arabic verbs?",
+          "ur": "Master Capstone عربی افعال کے متعلق کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Master Capstone अरबी अफआल के मुताल्लिक़ क्या क़ायदा सिखाता है?",
+          "hinglish": "Master Capstone Arabi af'aal ke mutalliq kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms the past verbal pattern 'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ'",
+            "Creates a command imperative directly",
+            "Converts word into present participle noun",
+            "Forces future continuous meaning"
+          ],
+          "ur": [
+            "ماضی کا صیغہ 'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ' بناتا ہے",
+            "براہ راست امر حاضر بنا دیتا ہے",
+            "لفظ کو اسم فاعل میں بدل دیتا ہے",
+            "لازمی مستقبل کا معنی دیتا ہے"
+          ],
+          "hi": [
+            "माज़ी का सीग़ा 'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ' बनाता है",
+            "सीधे अम्र हाज़िर बना देता है",
+            "लफ़्ज़ को इस्म फायल में बदल देता है",
+            "लाज़मी मुस्तक़बिल का मानी देता है"
+          ],
+          "hinglish": [
+            "Mazi ka seegha 'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ' banata hai",
+            "Barah-e-raast amr haazir bana deta hai",
+            "Lafz ko ism faa'il mein badal deta hai",
+            "Laazmi mustaqbil ka maani deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The conjugation produces 'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ'.",
+          "ur": "گردان سے 'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ' وجود میں آتا ہے۔",
+          "hi": "गर्दान से 'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ' वजूद में आता है।",
+          "hinglish": "Gardan se 'فَأَمَّا 'مَنْ' أُوتِيَ كِتَابَهُ' wajood mein aata hai."
+        }
+      },
+      {
+        "id": "s7l10-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which of the following is an example of Master Capstone?",
+          "ur": "درج ذیل میں سے کون سا صیغہ Master Capstone کی مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सा सीग़ा Master Capstone की मिसाल है?",
+          "hinglish": "Darj zail mein se kaun sa seegha Master Capstone ki misaal hai?"
+        },
+        "options": {
+          "en": [
+            "فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "ur": [
+            "فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "hi": [
+            "فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ],
+          "hinglish": [
+            "فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ",
+            "يَعْلَمُونَ",
+            "اعْبُدُوا",
+            "مُسْلِمُونَ"
+          ]
+        },
+        "explanation": {
+          "en": "'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ' directly matches this verbal form.",
+          "ur": "'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ' اس فعلی صیغے سے مطابقت رکھتا ہے۔",
+          "hi": "'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ' इस फेली सीग़े से मुताबिक़त रखता है।",
+          "hinglish": "'فَأَمَّا 'مَنْ' أُوتِيَ كِتَابَهُ' is fe'li seeghe se mutabiqat rakhta hai."
+        }
+      },
+      {
+        "id": "s7l10-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ', identify the base stem/root:",
+          "ur": "'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ' کا بنیادی مادہ یا مصدر کیا ہے؟",
+          "hi": "'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ' का बुनियादी माद्दा या मस्तर क्या है?",
+          "hinglish": "'فَأَمَّا 'مَنْ' أُوتِيَ كِتَابَهُ' ka bunyadi maaddah ya masdar kya hai?"
+        },
+        "options": {
+          "en": [
+            "أُوتِيَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "ur": [
+            "أُوتِيَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "hi": [
+            "أُوتِيَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ],
+          "hinglish": [
+            "أُوتِيَ",
+            "ضَرَبَ",
+            "نَصَرَ",
+            "فَتَحَ"
+          ]
+        },
+        "explanation": {
+          "en": "The starting form is 'أُوتِيَ'.",
+          "ur": "اس کا بنیادی مصدر/کلمہ 'أُوتِيَ' ہے۔",
+          "hi": "इसका बुनियादी मस्तर/कलमा 'أُوتِيَ' है।",
+          "hinglish": "Iska bunyadi masdar/kalimah 'أُوتِيَ' hai."
+        }
+      },
+      {
+        "id": "s7l10-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا'?",
+          "ur": "قرآنی لفظ 'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'فَأَمَّا 'مَنْ' أُوتِيَ 'كِتَابَهُ' بِيَمِينِهِ 'فَسَوْفَ' يُحَاسَبُ 'حِسَابًا' يَسِيرًا' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Then as for he who is given his record in his right hand, he will be judged with an easy account",
+            "But as for he who is given his record behind his back, he will invoke destruction",
+            "So whoever is given his record in his right hand - those will read their records",
+            "And whoever is killed unjustly - We have given his heir authority"
+          ],
+          "ur": [
+            "تو جس کسی کو اس کا نامۂ اعمال اس کے دائیں ہاتھ میں دیا گیا تو عنقریب اس سے آسان حساب لیا جائے گا",
+            "اور جس کسی کو اس کا نامۂ اعمال اس کی پیٹھ کے پیچھے سے دیا گیا تو عنقریب وہ موت کو پکارے گا",
+            "تو جس کسی کو اس کا نامۂ اعمال اس کے دائیں ہاتھ میں دیا گیا تو وہ لوگ اپنا نامۂ اعمال پڑھیں گے",
+            "اور جو کوئی ناحق قتل کیا گیا تو یقیناً ہم نے اس کے وارث کو اختیار دیا ہے"
+          ],
+          "hi": [
+            "तो जिस किसी को उसका नाम-ए-आमाल उसके दाएँ हाथ में दिया गया तो अनक़रीब उससे आसान हिसाब लिया जाएगा",
+            "और जिस किसी को उसका नाम-ए-आमाल उसकी पीठ के पीछे से दिया गया तो अनक़रीब वह मौत को पुकारेगा",
+            "तो जिस किसी को उसका नाम-ए-आमाल उसके दाएँ हाथ में दिया गया तो वो लोग अपना नाम-ए-आमाल पढ़ेंगे",
+            "और जो कोई नाहक़ क़त्ल किया गया तो यक़ीनन हमने उसके वारिस को इख़्तियार दिया है"
+          ],
+          "hinglish": [
+            "Toh jis kisi ko uska ek'maal-nama uske daayein haath mein diya gaya toh anqareeb us se aasan hisab liya jayega",
+            "Aur jis kisi ko uska ek'maal-nama uski peeth ke peeche se diya gaya toh anqareeb woh maut ko pukarega",
+            "Toh jis kisi ko uska ek'maal-nama uske daayein haath mein diya gaya toh woh log apna ek'maal-nama padhenge",
+            "Aur jo koi na-haq qatl kiya gaya toh yaqeenan hamne uske waris ko ikhtiyar diya hai"
+          ]
+        },
+        "explanation": {
+          "en": "'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا' translates to 'Then as for he who is given his record in his right hand, he will be judged with an easy account'.",
+          "ur": "'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا' کا معنی 'تو جس کسی کو اس کا نامۂ اعمال اس کے دائیں ہاتھ میں دیا گیا تو عنقریب اس سے آسان حساب لیا جائے گا' ہے۔",
+          "hi": "'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا' का मतलब 'तो जिस किसी को उसका नाम-ए-आमाल उसके दाएँ हाथ में दिया गया तो अनक़रीब उससे आसान हिसाब लिया जाएगा' है।",
+          "hinglish": "'فَأَمَّا 'مَنْ' أُوتِيَ 'كِتَابَهُ' بِيَمِينِهِ 'فَسَوْفَ' يُحَاسَبُ 'حِسَابًا' يَسِيرًا' ka matlab 'Toh jis kisi ko uska ek'maal-nama uske daayein haath mein diya gaya toh anqareeb us se aasan hisab liya jayega' hai."
+        }
+      },
+      {
+        "id": "s7l10-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَيَقُولُ هَاؤُمُ اقْرَءُوا كِتَابِيَهْ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَيَقُولُ هَاؤُمُ اقْرَءُوا كِتَابِيَهْ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَيَقُولُ هَاؤُمُ اقْرَءُوا كِتَابِيَهْ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'فَأَمَّا 'مَنْ' أُوتِيَ 'كِتَابَهُ' بِيَمِينِهِ 'فَيَقُولُ' هَاؤُمُ 'اقْرَءُوا' كِتَابِيَهْ'"
+        },
+        "options": {
+          "en": [
+            "But as for he who is given his record behind his back, he will invoke destruction",
+            "So as for he who is given his record in his right hand, he will say, 'Here, read my record!'",
+            "So whoever is given his record in his right hand - those will read their records",
+            "And whoever is killed unjustly - We have given his heir authority"
+          ],
+          "ur": [
+            "اور جس کسی کو اس کا نامۂ اعمال اس کی پیٹھ کے پیچھے سے دیا گیا تو عنقریب وہ موت کو پکارے گا",
+            "تو جس کسی کو اس کا نامۂ اعمال اس کے دائیں ہاتھ میں دیا گیا تو وہ کہے گا آؤ میرا نامۂ اعمال پڑھو",
+            "تو جس کسی کو اس کا نامۂ اعمال اس کے دائیں ہاتھ میں دیا گیا تو وہ لوگ اپنا نامۂ اعمال پڑھیں گے",
+            "اور جو کوئی ناحق قتل کیا گیا تو یقیناً ہم نے اس کے وارث کو اختیار دیا ہے"
+          ],
+          "hi": [
+            "और जिस किसी को उसका नाम-ए-आमाल उसकी पीठ के पीछे से दिया गया तो अनक़रीब वह मौत को पुकारेगा",
+            "तो जिस किसी को उसका नाम-ए-आमाल उसके दाएँ हाथ में दिया गया तो वह कहेगा आओ मेरा नाम-ए-आमाल पढ़ो",
+            "तो जिस किसी को उसका नाम-ए-आमाल उसके दाएँ हाथ में दिया गया तो वो लोग अपना नाम-ए-आमाल पढ़ेंगे",
+            "और जो कोई नाहक़ क़त्ल किया गया तो यक़ीनन हमने उसके वारिस को इख़्तियार दिया है"
+          ],
+          "hinglish": [
+            "Aur jis kisi ko uska ek'maal-nama uski peeth ke peeche se diya gaya toh anqareeb woh maut ko pukarega",
+            "Toh jis kisi ko uska ek'maal-nama uske daayein haath mein diya gaya toh woh kahega aao mera ek'maal-nama padho",
+            "Toh jis kisi ko uska ek'maal-nama uske daayein haath mein diya gaya toh woh log apna ek'maal-nama padhenge",
+            "Aur jo koi na-haq qatl kiya gaya toh yaqeenan hamne uske waris ko ikhtiyar diya hai"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَيَقُولُ هَاؤُمُ اقْرَءُوا كِتَابِيَهْ' means 'So as for he who is given his record in his right hand, he will say, 'Here, read my record!''.",
+          "ur": "'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَيَقُولُ هَاؤُمُ اقْرَءُوا كِتَابِيَهْ' کا مفہوم 'تو جس کسی کو اس کا نامۂ اعمال اس کے دائیں ہاتھ میں دیا گیا تو وہ کہے گا آؤ میرا نامۂ اعمال پڑھو' ہے۔",
+          "hi": "'فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَيَقُولُ هَاؤُمُ اقْرَءُوا كِتَابِيَهْ' का मतलब 'तो जिस किसी को उसका नाम-ए-आमाल उसके दाएँ हाथ में दिया गया तो वह कहेगा आओ मेरा नाम-ए-आमाल पढ़ो' है।",
+          "hinglish": "'فَأَمَّا 'مَنْ' أُوتِيَ 'كِتَابَهُ' بِيَمِينِهِ 'فَيَقُولُ' هَاؤُمُ 'اقْرَءُوا' كِتَابِيَهْ' ka matlab 'Toh jis kisi ko uska ek'maal-nama uske daayein haath mein diya gaya toh woh kahega aao mera ek'maal-nama padho' hai."
+        }
+      }
+    ]
+  }
+]

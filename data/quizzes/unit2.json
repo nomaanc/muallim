@@ -1,0 +1,2862 @@
+[
+  {
+    "lessonId": "s2l1",
+    "questions": [
+      {
+        "id": "s2l1-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What grammatical case does Harf-e-Ta'keed (إِنَّ) impose on the following noun?",
+          "ur": "Harf-e-Ta'keed (إِنَّ) اپنے بعد آنے والے اسم پر کون سا اعراب لاتا ہے؟",
+          "hi": "Harf-e-Ta'keed (إِنَّ) अपने बाद आने वाले इस्म पर कौन सा एराब लाता है?",
+          "hinglish": "Harf-e-Ta'keed ('إِنَّ') apne baad aane wale ism par kaun sa i'raab laata hai?"
+        },
+        "options": {
+          "en": [
+            "Changes to 'إِنَّ الْكِتَابَ'",
+            "Leaves the noun unchanged in Pesh",
+            "Converts the noun to plural",
+            "Drops the first letter"
+          ],
+          "ur": [
+            "اسم بدل کر 'إِنَّ الْكِتَابَ' بن جاتا ہے",
+            "اسم پر کوئی اثر نہیں ڈالتا",
+            "اسم کو جمع بنا دیتا ہے",
+            "پہلا حرف گرا دیتا ہے"
+          ],
+          "hi": [
+            "इस्म बदल कर 'إِنَّ الْكِتَابَ' बन जाता है",
+            "इस्म पर कोई असर नहीं डालता",
+            "इस्म को जमा बना देता है",
+            "पहला हर्फ गिरा देता है"
+          ],
+          "hinglish": [
+            "Ism badal kar 'إِنَّ الْكِتَابَ' ban jaata hai",
+            "Ism par koi asar nahi daalta",
+            "Ism ko jama bana deta hai",
+            "Pehla harf gira deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The particle transforms 'الْكِتَابُ' into 'إِنَّ الْكِتَابَ'.",
+          "ur": "یہ حرف 'الْكِتَابُ' کو بدل کر 'إِنَّ الْكِتَابَ' بنا دیتا ہے۔",
+          "hi": "यह हर्फ 'الْكِتَابُ' को बदल कर 'إِنَّ الْكِتَابَ' बना देता है।",
+          "hinglish": "Yeh harf 'الْكِتَابُ' ko badal kar 'إِنَّ الْكِتَابَ' bana deta hai."
+        }
+      },
+      {
+        "id": "s2l1-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "What is the correct form when applied to 'الْكِتَابُ'?",
+          "ur": "'الْكِتَابُ' پر قاعدہ لاگو کرنے سے درست شکل کیا بنے گی؟",
+          "hi": "'الْكِتَابُ' पर क़ायदा लागू करने से सही शक्ल क्या बनेगी?",
+          "hinglish": "'الْكِتَابُ' par qaaida laagu karne se sahi shakl kya banegi?"
+        },
+        "options": {
+          "en": [
+            "إِنَّ الْكِتَابَ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "ur": [
+            "إِنَّ الْكِتَابَ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hi": [
+            "إِنَّ الْكِتَابَ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hinglish": [
+            "إِنَّ الْكِتَابَ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The rule produces 'إِنَّ الْكِتَابَ'.",
+          "ur": "قاعدے کے مطابق درست شکل 'إِنَّ الْكِتَابَ' ہے۔",
+          "hi": "क़ायदे के मुताबिक सही शक्ल 'إِنَّ الْكِتَابَ' है।",
+          "hinglish": "Qaaide ke mutabiq sahi shakl 'إِنَّ الْكِتَابَ' hai."
+        }
+      },
+      {
+        "id": "s2l1-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In the phrase 'إِنَّ الْكِتَابَ', what is the base noun before modification?",
+          "ur": "'إِنَّ الْكِتَابَ' میں تبدیلی سے پہلے اصل اسم کیا تھا؟",
+          "hi": "'إِنَّ الْكِتَابَ' में तब्दीली से पहले असल इस्म क्या था?",
+          "hinglish": "'إِنَّ الْكِتَابَ' mein tabdeeli se pehle asal ism kya tha?"
+        },
+        "options": {
+          "en": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "ur": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hi": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hinglish": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The original unmodified noun was 'الْكِتَابُ'.",
+          "ur": "تبدیلی سے قبل اصل اسم 'الْكِتَابُ' تھا۔",
+          "hi": "तब्दीली से पहले असल इस्म 'الْكِتَابُ' था।",
+          "hinglish": "Tabdeeli se pehle asal ism 'الْكِتَابُ' tha."
+        }
+      },
+      {
+        "id": "s2l1-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'إِنَّ الْبَاطِلَ'?",
+          "ur": "قرآنی لفظ 'إِنَّ الْبَاطِلَ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'إِنَّ الْبَاطِلَ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'إِنَّ الْبَاطِلَ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Indeed, falsehood",
+            "Indeed, the religion",
+            "Indeed, Allah",
+            "Indeed, all honor"
+          ],
+          "ur": [
+            "بیشک باطل",
+            "بیشک دین",
+            "بیشک اللہ",
+            "بیشک عزت"
+          ],
+          "hi": [
+            "बेशक बातिल",
+            "बेशक दीन",
+            "बेशक अल्लाह",
+            "बेशक इज़्ज़त"
+          ],
+          "hinglish": [
+            "Beshak baatil",
+            "Beshak deen",
+            "Beshak Allah",
+            "Beshak izzat"
+          ]
+        },
+        "explanation": {
+          "en": "'إِنَّ الْبَاطِلَ' translates to 'Indeed, falsehood'.",
+          "ur": "'إِنَّ الْبَاطِلَ' کا معنی 'بیشک باطل' ہے۔",
+          "hi": "'إِنَّ الْبَاطِلَ' का मतलब 'बेशक बातिल' है।",
+          "hinglish": "'إِنَّ الْبَاطِلَ' ka matlab 'Beshak baatil' hai."
+        }
+      },
+      {
+        "id": "s2l1-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'إِنَّ الشِّرْكَ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'إِنَّ الشِّرْكَ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'إِنَّ الشِّرْكَ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'إِنَّ الشِّرْكَ'"
+        },
+        "options": {
+          "en": [
+            "Indeed, the religion",
+            "Indeed, polytheism",
+            "Indeed, Allah",
+            "Indeed, all honor"
+          ],
+          "ur": [
+            "بیشک دین",
+            "بیشک شرک",
+            "بیشک اللہ",
+            "بیشک عزت"
+          ],
+          "hi": [
+            "बेशक दीन",
+            "बेशक शिर्क",
+            "बेशक अल्लाह",
+            "बेशक इज़्ज़त"
+          ],
+          "hinglish": [
+            "Beshak deen",
+            "Beshak shirk",
+            "Beshak Allah",
+            "Beshak izzat"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'إِنَّ الشِّرْكَ' means 'Indeed, polytheism'.",
+          "ur": "'إِنَّ الشِّرْكَ' کا مفہوم 'بیشک شرک' ہے۔",
+          "hi": "'إِنَّ الشِّرْكَ' का मतलब 'बेशक शिर्क' है।",
+          "hinglish": "'إِنَّ الشِّرْكَ' ka matlab 'Beshak shirk' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s2l2",
+    "questions": [
+      {
+        "id": "s2l2-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What grammatical case does Harf-e-Jarr (لِـ) impose on the following noun?",
+          "ur": "Harf-e-Jarr (لِـ) اپنے بعد آنے والے اسم پر کون سا اعراب لاتا ہے؟",
+          "hi": "Harf-e-Jarr (لِـ) अपने बाद आने वाले इस्म पर कौन सा एराब लाता है?",
+          "hinglish": "Harf-e-Jarr ('لِـ') apne baad aane wale ism par kaun sa i'raab laata hai?"
+        },
+        "options": {
+          "en": [
+            "Changes to 'لِلْكِتَابِ'",
+            "Leaves the noun unchanged in Pesh",
+            "Converts the noun to plural",
+            "Drops the first letter"
+          ],
+          "ur": [
+            "اسم بدل کر 'لِلْكِتَابِ' بن جاتا ہے",
+            "اسم پر کوئی اثر نہیں ڈالتا",
+            "اسم کو جمع بنا دیتا ہے",
+            "پہلا حرف گرا دیتا ہے"
+          ],
+          "hi": [
+            "इस्म बदल कर 'لِلْكِتَابِ' बन जाता है",
+            "इस्म पर कोई असर नहीं डालता",
+            "इस्म को जमा बना देता है",
+            "पहला हर्फ गिरा देता है"
+          ],
+          "hinglish": [
+            "Ism badal kar 'لِلْكِتَابِ' ban jaata hai",
+            "Ism par koi asar nahi daalta",
+            "Ism ko jama bana deta hai",
+            "Pehla harf gira deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The particle transforms 'الْكِتَابُ' into 'لِلْكِتَابِ'.",
+          "ur": "یہ حرف 'الْكِتَابُ' کو بدل کر 'لِلْكِتَابِ' بنا دیتا ہے۔",
+          "hi": "यह हर्फ 'الْكِتَابُ' को बदल कर 'لِلْكِتَابِ' बना देता है।",
+          "hinglish": "Yeh harf 'الْكِتَابُ' ko badal kar 'لِلْكِتَابِ' bana deta hai."
+        }
+      },
+      {
+        "id": "s2l2-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "What is the correct form when applied to 'الْكِتَابُ'?",
+          "ur": "'الْكِتَابُ' پر قاعدہ لاگو کرنے سے درست شکل کیا بنے گی؟",
+          "hi": "'الْكِتَابُ' पर क़ायदा लागू करने से सही शक्ल क्या बनेगी?",
+          "hinglish": "'الْكِتَابُ' par qaaida laagu karne se sahi shakl kya banegi?"
+        },
+        "options": {
+          "en": [
+            "لِلْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "ur": [
+            "لِلْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hi": [
+            "لِلْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hinglish": [
+            "لِلْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The rule produces 'لِلْكِتَابِ'.",
+          "ur": "قاعدے کے مطابق درست شکل 'لِلْكِتَابِ' ہے۔",
+          "hi": "क़ायदे के मुताबिक सही शक्ल 'لِلْكِتَابِ' है।",
+          "hinglish": "Qaaide ke mutabiq sahi shakl 'لِلْكِتَابِ' hai."
+        }
+      },
+      {
+        "id": "s2l2-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In the phrase 'لِلْكِتَابِ', what is the base noun before modification?",
+          "ur": "'لِلْكِتَابِ' میں تبدیلی سے پہلے اصل اسم کیا تھا؟",
+          "hi": "'لِلْكِتَابِ' में तब्दीली से पहले असल इस्म क्या था?",
+          "hinglish": "'لِلْكِتَابِ' mein tabdeeli se pehle asal ism kya tha?"
+        },
+        "options": {
+          "en": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "ur": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hi": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hinglish": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The original unmodified noun was 'الْكِتَابُ'.",
+          "ur": "تبدیلی سے قبل اصل اسم 'الْكِتَابُ' تھا۔",
+          "hi": "तब्दीली से पहले असल इस्म 'الْكِتَابُ' था।",
+          "hinglish": "Tabdeeli se pehle asal ism 'الْكِتَابُ' tha."
+        }
+      },
+      {
+        "id": "s2l2-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'لِلدِّينِ'?",
+          "ur": "قرآنی لفظ 'لِلدِّينِ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'لِلدِّينِ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'لِلدِّينِ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "For the religion",
+            "For the Most Merciful",
+            "For Allah",
+            "For faith"
+          ],
+          "ur": [
+            "دین کے لیے",
+            "رحمن کے لیے",
+            "اللہ کے لیے",
+            "ایمان کے لیے"
+          ],
+          "hi": [
+            "दीन के लिए",
+            "रहमान के लिए",
+            "अल्लाह के लिए",
+            "ईमान के लिए"
+          ],
+          "hinglish": [
+            "Deen ke liye",
+            "Rahman ke liye",
+            "Allah ke liye",
+            "Eemaan ke liye"
+          ]
+        },
+        "explanation": {
+          "en": "'لِلدِّينِ' translates to 'For the religion'.",
+          "ur": "'لِلدِّينِ' کا معنی 'دین کے لیے' ہے۔",
+          "hi": "'لِلدِّينِ' का मतलब 'दीन के लिए' है।",
+          "hinglish": "'لِلدِّينِ' ka matlab 'Deen ke liye' hai."
+        }
+      },
+      {
+        "id": "s2l2-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'لِلنَّبِيِّ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'لِلنَّبِيِّ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'لِلنَّبِيِّ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'لِلنَّبِيِّ'"
+        },
+        "options": {
+          "en": [
+            "For the Most Merciful",
+            "For the Prophet",
+            "For Allah",
+            "For faith"
+          ],
+          "ur": [
+            "رحمن کے لیے",
+            "نبی کے لیے",
+            "اللہ کے لیے",
+            "ایمان کے لیے"
+          ],
+          "hi": [
+            "रहमान के लिए",
+            "नबी के लिए",
+            "अल्लाह के लिए",
+            "ईमान के लिए"
+          ],
+          "hinglish": [
+            "Rahman ke liye",
+            "Nabi ke liye",
+            "Allah ke liye",
+            "Eemaan ke liye"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'لِلنَّبِيِّ' means 'For the Prophet'.",
+          "ur": "'لِلنَّبِيِّ' کا مفہوم 'نبی کے لیے' ہے۔",
+          "hi": "'لِلنَّبِيِّ' का मतलब 'नबी के लिए' है।",
+          "hinglish": "'لِلنَّبِيِّ' ka matlab 'Nabi ke liye' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s2l3",
+    "questions": [
+      {
+        "id": "s2l3-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What grammatical case does Harf-e-Jarr (فِي) impose on the following noun?",
+          "ur": "Harf-e-Jarr (فِي) اپنے بعد آنے والے اسم پر کون سا اعراب لاتا ہے؟",
+          "hi": "Harf-e-Jarr (فِي) अपने बाद आने वाले इस्म पर कौन सा एराब लाता है?",
+          "hinglish": "Harf-e-Jarr ('فِي') apne baad aane wale ism par kaun sa i'raab laata hai?"
+        },
+        "options": {
+          "en": [
+            "Changes to 'فِي الْكِتَابِ'",
+            "Leaves the noun unchanged in Pesh",
+            "Converts the noun to plural",
+            "Drops the first letter"
+          ],
+          "ur": [
+            "اسم بدل کر 'فِي الْكِتَابِ' بن جاتا ہے",
+            "اسم پر کوئی اثر نہیں ڈالتا",
+            "اسم کو جمع بنا دیتا ہے",
+            "پہلا حرف گرا دیتا ہے"
+          ],
+          "hi": [
+            "इस्म बदल कर 'فِي الْكِتَابِ' बन जाता है",
+            "इस्म पर कोई असर नहीं डालता",
+            "इस्म को जमा बना देता है",
+            "पहला हर्फ गिरा देता है"
+          ],
+          "hinglish": [
+            "Ism badal kar 'فِي الْكِتَابِ' ban jaata hai",
+            "Ism par koi asar nahi daalta",
+            "Ism ko jama bana deta hai",
+            "Pehla harf gira deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The particle transforms 'الْكِتَابُ' into 'فِي الْكِتَابِ'.",
+          "ur": "یہ حرف 'الْكِتَابُ' کو بدل کر 'فِي الْكِتَابِ' بنا دیتا ہے۔",
+          "hi": "यह हर्फ 'الْكِتَابُ' को बदल कर 'فِي الْكِتَابِ' बना देता है।",
+          "hinglish": "Yeh harf 'الْكِتَابُ' ko badal kar 'فِي الْكِتَابِ' bana deta hai."
+        }
+      },
+      {
+        "id": "s2l3-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "What is the correct form when applied to 'الْكِتَابُ'?",
+          "ur": "'الْكِتَابُ' پر قاعدہ لاگو کرنے سے درست شکل کیا بنے گی؟",
+          "hi": "'الْكِتَابُ' पर क़ायदा लागू करने से सही शक्ल क्या बनेगी?",
+          "hinglish": "'الْكِتَابُ' par qaaida laagu karne se sahi shakl kya banegi?"
+        },
+        "options": {
+          "en": [
+            "فِي الْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "ur": [
+            "فِي الْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hi": [
+            "فِي الْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hinglish": [
+            "فِي الْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The rule produces 'فِي الْكِتَابِ'.",
+          "ur": "قاعدے کے مطابق درست شکل 'فِي الْكِتَابِ' ہے۔",
+          "hi": "क़ायदे के मुताबिक सही शक्ल 'فِي الْكِتَابِ' है।",
+          "hinglish": "Qaaide ke mutabiq sahi shakl 'فِي الْكِتَابِ' hai."
+        }
+      },
+      {
+        "id": "s2l3-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In the phrase 'فِي الْكِتَابِ', what is the base noun before modification?",
+          "ur": "'فِي الْكِتَابِ' میں تبدیلی سے پہلے اصل اسم کیا تھا؟",
+          "hi": "'فِي الْكِتَابِ' में तब्दीली से पहले असल इस्म क्या था?",
+          "hinglish": "'فِي الْكِتَابِ' mein tabdeeli se pehle asal ism kya tha?"
+        },
+        "options": {
+          "en": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "ur": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hi": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hinglish": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The original unmodified noun was 'الْكِتَابُ'.",
+          "ur": "تبدیلی سے قبل اصل اسم 'الْكِتَابُ' تھا۔",
+          "hi": "तब्दीली से पहले असल इस्म 'الْكِتَابُ' था।",
+          "hinglish": "Tabdeeli se pehle asal ism 'الْكِتَابُ' tha."
+        }
+      },
+      {
+        "id": "s2l3-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'فِي الدِّينِ'?",
+          "ur": "قرآنی لفظ 'فِي الدِّينِ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'فِي الدِّينِ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'فِي الدِّينِ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "In religion / In the religion",
+            "In the Book",
+            "In the Quran",
+            "In Paradise / In the Garden"
+          ],
+          "ur": [
+            "دین میں",
+            "کتاب میں",
+            "قرآن میں",
+            "جنت میں"
+          ],
+          "hi": [
+            "दीन में / धर्म में",
+            "किताब में",
+            "क़ुरआन में",
+            "जन्नत में / स्वर्ग में"
+          ],
+          "hinglish": [
+            "Deen mein",
+            "Kitaab mein",
+            "Qur'ek mein",
+            "Jannat mein"
+          ]
+        },
+        "explanation": {
+          "en": "'فِي الدِّينِ' translates to 'In religion / In the religion'.",
+          "ur": "'فِي الدِّينِ' کا معنی 'دین میں' ہے۔",
+          "hi": "'فِي الدِّينِ' का मतलब 'दीन में / धर्म में' है।",
+          "hinglish": "'فِي الدِّينِ' ka matlab 'Deen mein' hai."
+        }
+      },
+      {
+        "id": "s2l3-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'فِي الْعِلْمِ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'فِي الْعِلْمِ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'فِي الْعِلْمِ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'فِي الْعِلْمِ'"
+        },
+        "options": {
+          "en": [
+            "In the Book",
+            "In knowledge",
+            "In the Quran",
+            "In Paradise / In the Garden"
+          ],
+          "ur": [
+            "کتاب میں",
+            "علم میں",
+            "قرآن میں",
+            "جنت میں"
+          ],
+          "hi": [
+            "किताब में",
+            "इल्म में / ज्ञान में",
+            "क़ुरआन में",
+            "जन्नत में / स्वर्ग में"
+          ],
+          "hinglish": [
+            "Kitaab mein",
+            "Ilm mein",
+            "Qur'ek mein",
+            "Jannat mein"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'فِي الْعِلْمِ' means 'In knowledge'.",
+          "ur": "'فِي الْعِلْمِ' کا مفہوم 'علم میں' ہے۔",
+          "hi": "'فِي الْعِلْمِ' का मतलब 'इल्म में / ज्ञान में' है।",
+          "hinglish": "'فِي الْعِلْمِ' ka matlab 'Ilm mein' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s2l4",
+    "questions": [
+      {
+        "id": "s2l4-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What grammatical case does Harf-e-Jarr (عَلَى) impose on the following noun?",
+          "ur": "Harf-e-Jarr (عَلَى) اپنے بعد آنے والے اسم پر کون سا اعراب لاتا ہے؟",
+          "hi": "Harf-e-Jarr (عَلَى) अपने बाद आने वाले इस्म पर कौन सा एराब लाता है?",
+          "hinglish": "Harf-e-Jarr ('عَلَى') apne baad aane wale ism par kaun sa i'raab laata hai?"
+        },
+        "options": {
+          "en": [
+            "Changes to 'عَلَى الْكِتَابِ'",
+            "Leaves the noun unchanged in Pesh",
+            "Converts the noun to plural",
+            "Drops the first letter"
+          ],
+          "ur": [
+            "اسم بدل کر 'عَلَى الْكِتَابِ' بن جاتا ہے",
+            "اسم پر کوئی اثر نہیں ڈالتا",
+            "اسم کو جمع بنا دیتا ہے",
+            "پہلا حرف گرا دیتا ہے"
+          ],
+          "hi": [
+            "इस्म बदल कर 'عَلَى الْكِتَابِ' बन जाता है",
+            "इस्म पर कोई असर नहीं डालता",
+            "इस्म को जमा बना देता है",
+            "पहला हर्फ गिरा देता है"
+          ],
+          "hinglish": [
+            "Ism badal kar 'عَلَى الْكِتَابِ' ban jaata hai",
+            "Ism par koi asar nahi daalta",
+            "Ism ko jama bana deta hai",
+            "Pehla harf gira deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The particle transforms 'الْكِتَابُ' into 'عَلَى الْكِتَابِ'.",
+          "ur": "یہ حرف 'الْكِتَابُ' کو بدل کر 'عَلَى الْكِتَابِ' بنا دیتا ہے۔",
+          "hi": "यह हर्फ 'الْكِتَابُ' को बदल कर 'عَلَى الْكِتَابِ' बना देता है।",
+          "hinglish": "Yeh harf 'الْكِتَابُ' ko badal kar 'عَلَى الْكِتَابِ' bana deta hai."
+        }
+      },
+      {
+        "id": "s2l4-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "What is the correct form when applied to 'الْكِتَابُ'?",
+          "ur": "'الْكِتَابُ' پر قاعدہ لاگو کرنے سے درست شکل کیا بنے گی؟",
+          "hi": "'الْكِتَابُ' पर क़ायदा लागू करने से सही शक्ल क्या बनेगी?",
+          "hinglish": "'الْكِتَابُ' par qaaida laagu karne se sahi shakl kya banegi?"
+        },
+        "options": {
+          "en": [
+            "عَلَى الْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "ur": [
+            "عَلَى الْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hi": [
+            "عَلَى الْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hinglish": [
+            "عَلَى الْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The rule produces 'عَلَى الْكِتَابِ'.",
+          "ur": "قاعدے کے مطابق درست شکل 'عَلَى الْكِتَابِ' ہے۔",
+          "hi": "क़ायदे के मुताबिक सही शक्ल 'عَلَى الْكِتَابِ' है।",
+          "hinglish": "Qaaide ke mutabiq sahi shakl 'عَلَى الْكِتَابِ' hai."
+        }
+      },
+      {
+        "id": "s2l4-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In the phrase 'عَلَى الْكِتَابِ', what is the base noun before modification?",
+          "ur": "'عَلَى الْكِتَابِ' میں تبدیلی سے پہلے اصل اسم کیا تھا؟",
+          "hi": "'عَلَى الْكِتَابِ' में तब्दीली से पहले असल इस्म क्या था?",
+          "hinglish": "'عَلَى الْكِتَابِ' mein tabdeeli se pehle asal ism kya tha?"
+        },
+        "options": {
+          "en": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "ur": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hi": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hinglish": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The original unmodified noun was 'الْكِتَابُ'.",
+          "ur": "تبدیلی سے قبل اصل اسم 'الْكِتَابُ' تھا۔",
+          "hi": "तब्दीली से पहले असल इस्म 'الْكِتَابُ' था।",
+          "hinglish": "Tabdeeli se pehle asal ism 'الْكِتَابُ' tha."
+        }
+      },
+      {
+        "id": "s2l4-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'عَلَى النَّبِيِّ'?",
+          "ur": "قرآنی لفظ 'عَلَى النَّبِيِّ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'عَلَى النَّبِيِّ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'عَلَى النَّبِيِّ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Upon the Prophet",
+            "Upon the Most Merciful (Ar-Rahman)",
+            "Upon Allah",
+            "Upon mankind / people"
+          ],
+          "ur": [
+            "نبی پر",
+            "رحمن پر",
+            "اللہ پر",
+            "لوگوں پر"
+          ],
+          "hi": [
+            "नबी पर",
+            "रहमान पर",
+            "अल्लाह पर",
+            "लोगों पर"
+          ],
+          "hinglish": [
+            "Nabi par",
+            "Rahman par",
+            "Allah par",
+            "Logon par"
+          ]
+        },
+        "explanation": {
+          "en": "'عَلَى النَّبِيِّ' translates to 'Upon the Prophet'.",
+          "ur": "'عَلَى النَّبِيِّ' کا معنی 'نبی پر' ہے۔",
+          "hi": "'عَلَى النَّبِيِّ' का मतलब 'नबी पर' है।",
+          "hinglish": "'عَلَى النَّبِيِّ' ka matlab 'Nabi par' hai."
+        }
+      },
+      {
+        "id": "s2l4-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'عَلَى الرَّسُولِ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'عَلَى الرَّسُولِ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'عَلَى الرَّسُولِ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'عَلَى الرَّسُولِ'"
+        },
+        "options": {
+          "en": [
+            "Upon the Most Merciful (Ar-Rahman)",
+            "Upon the Messenger",
+            "Upon Allah",
+            "Upon mankind / people"
+          ],
+          "ur": [
+            "رحمن پر",
+            "رسول پر",
+            "اللہ پر",
+            "لوگوں پر"
+          ],
+          "hi": [
+            "रहमान पर",
+            "रसूल पर",
+            "अल्लाह पर",
+            "लोगों पर"
+          ],
+          "hinglish": [
+            "Rahman par",
+            "Rasool par",
+            "Allah par",
+            "Logon par"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'عَلَى الرَّسُولِ' means 'Upon the Messenger'.",
+          "ur": "'عَلَى الرَّسُولِ' کا مفہوم 'رسول پر' ہے۔",
+          "hi": "'عَلَى الرَّسُولِ' का मतलब 'रसूल पर' है।",
+          "hinglish": "'عَلَى الرَّسُولِ' ka matlab 'Rasool par' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s2l5",
+    "questions": [
+      {
+        "id": "s2l5-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What grammatical case does Harf-e-Jarr (مِنْ) impose on the following noun?",
+          "ur": "Harf-e-Jarr (مِنْ) اپنے بعد آنے والے اسم پر کون سا اعراب لاتا ہے؟",
+          "hi": "Harf-e-Jarr (مِنْ) अपने बाद आने वाले इस्म पर कौन सा एराब लाता है?",
+          "hinglish": "Harf-e-Jarr ('مِنْ') apne baad aane wale ism par kaun sa i'raab laata hai?"
+        },
+        "options": {
+          "en": [
+            "Changes to 'مِنَ الْكِتَابِ'",
+            "Leaves the noun unchanged in Pesh",
+            "Converts the noun to plural",
+            "Drops the first letter"
+          ],
+          "ur": [
+            "اسم بدل کر 'مِنَ الْكِتَابِ' بن جاتا ہے",
+            "اسم پر کوئی اثر نہیں ڈالتا",
+            "اسم کو جمع بنا دیتا ہے",
+            "پہلا حرف گرا دیتا ہے"
+          ],
+          "hi": [
+            "इस्म बदल कर 'مِنَ الْكِتَابِ' बन जाता है",
+            "इस्म पर कोई असर नहीं डालता",
+            "इस्म को जमा बना देता है",
+            "पहला हर्फ गिरा देता है"
+          ],
+          "hinglish": [
+            "Ism badal kar 'مِنَ الْكِتَابِ' ban jaata hai",
+            "Ism par koi asar nahi daalta",
+            "Ism ko jama bana deta hai",
+            "Pehla harf gira deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The particle transforms 'الْكِتَابُ' into 'مِنَ الْكِتَابِ'.",
+          "ur": "یہ حرف 'الْكِتَابُ' کو بدل کر 'مِنَ الْكِتَابِ' بنا دیتا ہے۔",
+          "hi": "यह हर्फ 'الْكِتَابُ' को बदल कर 'مِنَ الْكِتَابِ' बना देता है।",
+          "hinglish": "Yeh harf 'الْكِتَابُ' ko badal kar 'مِنَ الْكِتَابِ' bana deta hai."
+        }
+      },
+      {
+        "id": "s2l5-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "What is the correct form when applied to 'الْكِتَابُ'?",
+          "ur": "'الْكِتَابُ' پر قاعدہ لاگو کرنے سے درست شکل کیا بنے گی؟",
+          "hi": "'الْكِتَابُ' पर क़ायदा लागू करने से सही शक्ल क्या बनेगी?",
+          "hinglish": "'الْكِتَابُ' par qaaida laagu karne se sahi shakl kya banegi?"
+        },
+        "options": {
+          "en": [
+            "مِنَ الْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "ur": [
+            "مِنَ الْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hi": [
+            "مِنَ الْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hinglish": [
+            "مِنَ الْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The rule produces 'مِنَ الْكِتَابِ'.",
+          "ur": "قاعدے کے مطابق درست شکل 'مِنَ الْكِتَابِ' ہے۔",
+          "hi": "क़ायदे के मुताबिक सही शक्ल 'مِنَ الْكِتَابِ' है।",
+          "hinglish": "Qaaide ke mutabiq sahi shakl 'مِنَ الْكِتَابِ' hai."
+        }
+      },
+      {
+        "id": "s2l5-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In the phrase 'مِنَ الْكِتَابِ', what is the base noun before modification?",
+          "ur": "'مِنَ الْكِتَابِ' میں تبدیلی سے پہلے اصل اسم کیا تھا؟",
+          "hi": "'مِنَ الْكِتَابِ' में तब्दीली से पहले असल इस्म क्या था?",
+          "hinglish": "'مِنَ الْكِتَابِ' mein tabdeeli se pehle asal ism kya tha?"
+        },
+        "options": {
+          "en": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "ur": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hi": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hinglish": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The original unmodified noun was 'الْكِتَابُ'.",
+          "ur": "تبدیلی سے قبل اصل اسم 'الْكِتَابُ' تھا۔",
+          "hi": "तब्दीली से पहले असल इस्म 'الْكِتَابُ' था।",
+          "hinglish": "Tabdeeli se pehle asal ism 'الْكِتَابُ' tha."
+        }
+      },
+      {
+        "id": "s2l5-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'مِنَ الدِّينِ'?",
+          "ur": "قرآنی لفظ 'مِنَ الدِّينِ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'مِنَ الدِّينِ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'مِنَ الدِّينِ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "From the religion",
+            "From the Book",
+            "From Allah",
+            "From the punishment"
+          ],
+          "ur": [
+            "دین سے",
+            "کتاب سے",
+            "اللہ سے",
+            "عذاب سے"
+          ],
+          "hi": [
+            "दीन से",
+            "किताब से",
+            "अल्लाह से",
+            "अज़ाब से"
+          ],
+          "hinglish": [
+            "Deen se",
+            "Kitaab se",
+            "Allah se",
+            "Azaab se"
+          ]
+        },
+        "explanation": {
+          "en": "'مِنَ الدِّينِ' translates to 'From the religion'.",
+          "ur": "'مِنَ الدِّينِ' کا معنی 'دین سے' ہے۔",
+          "hi": "'مِنَ الدِّينِ' का मतलब 'दीन से' है।",
+          "hinglish": "'مِنَ الدِّينِ' ka matlab 'Deen se' hai."
+        }
+      },
+      {
+        "id": "s2l5-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'مِنَ الْعِلْمِ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'مِنَ الْعِلْمِ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'مِنَ الْعِلْمِ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'مِنَ الْعِلْمِ'"
+        },
+        "options": {
+          "en": [
+            "From the Book",
+            "From knowledge",
+            "From Allah",
+            "From the punishment"
+          ],
+          "ur": [
+            "کتاب سے",
+            "علم سے",
+            "اللہ سے",
+            "عذاب سے"
+          ],
+          "hi": [
+            "किताब से",
+            "इल्म से",
+            "अल्लाह से",
+            "अज़ाब से"
+          ],
+          "hinglish": [
+            "Kitaab se",
+            "Ilm se",
+            "Allah se",
+            "Azaab se"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'مِنَ الْعِلْمِ' means 'From knowledge'.",
+          "ur": "'مِنَ الْعِلْمِ' کا مفہوم 'علم سے' ہے۔",
+          "hi": "'مِنَ الْعِلْمِ' का मतलब 'इल्म से' है।",
+          "hinglish": "'مِنَ الْعِلْمِ' ka matlab 'Ilm se' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s2l6",
+    "questions": [
+      {
+        "id": "s2l6-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What grammatical case does Harf-e-Jarr (إِلَى) impose on the following noun?",
+          "ur": "Harf-e-Jarr (إِلَى) اپنے بعد آنے والے اسم پر کون سا اعراب لاتا ہے؟",
+          "hi": "Harf-e-Jarr (إِلَى) अपने बाद आने वाले इस्म पर कौन सा एराब लाता है?",
+          "hinglish": "Harf-e-Jarr ('إِلَى') apne baad aane wale ism par kaun sa i'raab laata hai?"
+        },
+        "options": {
+          "en": [
+            "Changes to 'إِلَى الْكِتَابِ'",
+            "Leaves the noun unchanged in Pesh",
+            "Converts the noun to plural",
+            "Drops the first letter"
+          ],
+          "ur": [
+            "اسم بدل کر 'إِلَى الْكِتَابِ' بن جاتا ہے",
+            "اسم پر کوئی اثر نہیں ڈالتا",
+            "اسم کو جمع بنا دیتا ہے",
+            "پہلا حرف گرا دیتا ہے"
+          ],
+          "hi": [
+            "इस्म बदल कर 'إِلَى الْكِتَابِ' बन जाता है",
+            "इस्म पर कोई असर नहीं डालता",
+            "इस्म को जमा बना देता है",
+            "पहला हर्फ गिरा देता है"
+          ],
+          "hinglish": [
+            "Ism badal kar 'إِلَى الْكِتَابِ' ban jaata hai",
+            "Ism par koi asar nahi daalta",
+            "Ism ko jama bana deta hai",
+            "Pehla harf gira deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The particle transforms 'الْكِتَابُ' into 'إِلَى الْكِتَابِ'.",
+          "ur": "یہ حرف 'الْكِتَابُ' کو بدل کر 'إِلَى الْكِتَابِ' بنا دیتا ہے۔",
+          "hi": "यह हर्फ 'الْكِتَابُ' को बदल कर 'إِلَى الْكِتَابِ' बना देता है।",
+          "hinglish": "Yeh harf 'الْكِتَابُ' ko badal kar 'إِلَى الْكِتَابِ' bana deta hai."
+        }
+      },
+      {
+        "id": "s2l6-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "What is the correct form when applied to 'الْكِتَابُ'?",
+          "ur": "'الْكِتَابُ' پر قاعدہ لاگو کرنے سے درست شکل کیا بنے گی؟",
+          "hi": "'الْكِتَابُ' पर क़ायदा लागू करने से सही शक्ल क्या बनेगी?",
+          "hinglish": "'الْكِتَابُ' par qaaida laagu karne se sahi shakl kya banegi?"
+        },
+        "options": {
+          "en": [
+            "إِلَى الْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "ur": [
+            "إِلَى الْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hi": [
+            "إِلَى الْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hinglish": [
+            "إِلَى الْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The rule produces 'إِلَى الْكِتَابِ'.",
+          "ur": "قاعدے کے مطابق درست شکل 'إِلَى الْكِتَابِ' ہے۔",
+          "hi": "क़ायदे के मुताबिक सही शक्ल 'إِلَى الْكِتَابِ' है।",
+          "hinglish": "Qaaide ke mutabiq sahi shakl 'إِلَى الْكِتَابِ' hai."
+        }
+      },
+      {
+        "id": "s2l6-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In the phrase 'إِلَى الْكِتَابِ', what is the base noun before modification?",
+          "ur": "'إِلَى الْكِتَابِ' میں تبدیلی سے پہلے اصل اسم کیا تھا؟",
+          "hi": "'إِلَى الْكِتَابِ' में तब्दीली से पहले असल इस्म क्या था?",
+          "hinglish": "'إِلَى الْكِتَابِ' mein tabdeeli se pehle asal ism kya tha?"
+        },
+        "options": {
+          "en": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "ur": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hi": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hinglish": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The original unmodified noun was 'الْكِتَابُ'.",
+          "ur": "تبدیلی سے قبل اصل اسم 'الْكِتَابُ' تھا۔",
+          "hi": "तब्दीली से पहले असल इस्म 'الْكِتَابُ' था।",
+          "hinglish": "Tabdeeli se pehle asal ism 'الْكِتَابُ' tha."
+        }
+      },
+      {
+        "id": "s2l6-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'إِلَى الظُّلُمَاتِ'?",
+          "ur": "قرآنی لفظ 'إِلَى الظُّلُمَاتِ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'إِلَى الظُّلُمَاتِ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'إِلَى الظُّلُمَاتِ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Towards the darknesses",
+            "To the Messenger",
+            "To Allah",
+            "To Paradise"
+          ],
+          "ur": [
+            "اندھیروں کی طرف",
+            "رسول کی طرف",
+            "اللہ کی طرف",
+            "جنت کی طرف"
+          ],
+          "hi": [
+            "अंधेरों की तरफ़",
+            "रसूल की तरफ़",
+            "अल्लाह की तरफ़",
+            "जन्नत की तरफ़"
+          ],
+          "hinglish": [
+            "Andheron ki taraf",
+            "Rasool ki taraf",
+            "Allah ki taraf",
+            "Jannat ki taraf"
+          ]
+        },
+        "explanation": {
+          "en": "'إِلَى الظُّلُمَاتِ' translates to 'Towards the darknesses'.",
+          "ur": "'إِلَى الظُّلُمَاتِ' کا معنی 'اندھیروں کی طرف' ہے۔",
+          "hi": "'إِلَى الظُّلُمَاتِ' का मतलब 'अंधेरों की तरफ़' है।",
+          "hinglish": "'إِلَى الظُّلُمَاتِ' ka matlab 'Andheron ki taraf' hai."
+        }
+      },
+      {
+        "id": "s2l6-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'إِلَى النُّورِ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'إِلَى النُّورِ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'إِلَى النُّورِ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'إِلَى النُّورِ'"
+        },
+        "options": {
+          "en": [
+            "To the Messenger",
+            "Towards the light",
+            "To Allah",
+            "To Paradise"
+          ],
+          "ur": [
+            "رسول کی طرف",
+            "روشنی کی طرف",
+            "اللہ کی طرف",
+            "جنت کی طرف"
+          ],
+          "hi": [
+            "रसूल की तरफ़",
+            "रोशनी की तरफ़",
+            "अल्लाह की तरफ़",
+            "जन्नत की तरफ़"
+          ],
+          "hinglish": [
+            "Rasool ki taraf",
+            "Roshni ki taraf",
+            "Allah ki taraf",
+            "Jannat ki taraf"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'إِلَى النُّورِ' means 'Towards the light'.",
+          "ur": "'إِلَى النُّورِ' کا مفہوم 'روشنی کی طرف' ہے۔",
+          "hi": "'إِلَى النُّورِ' का मतलब 'रोशनी की तरफ़' है।",
+          "hinglish": "'إِلَى النُّورِ' ka matlab 'Roshni ki taraf' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s2l7",
+    "questions": [
+      {
+        "id": "s2l7-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What grammatical case does Harf-e-Jarr (بِـ) impose on the following noun?",
+          "ur": "Harf-e-Jarr (بِـ) اپنے بعد آنے والے اسم پر کون سا اعراب لاتا ہے؟",
+          "hi": "Harf-e-Jarr (بِـ) अपने बाद आने वाले इस्म पर कौन सा एराब लाता है?",
+          "hinglish": "Harf-e-Jarr ('بِـ') apne baad aane wale ism par kaun sa i'raab laata hai?"
+        },
+        "options": {
+          "en": [
+            "Changes to 'بِالْكِتَابِ'",
+            "Leaves the noun unchanged in Pesh",
+            "Converts the noun to plural",
+            "Drops the first letter"
+          ],
+          "ur": [
+            "اسم بدل کر 'بِالْكِتَابِ' بن جاتا ہے",
+            "اسم پر کوئی اثر نہیں ڈالتا",
+            "اسم کو جمع بنا دیتا ہے",
+            "پہلا حرف گرا دیتا ہے"
+          ],
+          "hi": [
+            "इस्म बदल कर 'بِالْكِتَابِ' बन जाता है",
+            "इस्म पर कोई असर नहीं डालता",
+            "इस्म को जमा बना देता है",
+            "पहला हर्फ गिरा देता है"
+          ],
+          "hinglish": [
+            "Ism badal kar 'بِالْكِتَابِ' ban jaata hai",
+            "Ism par koi asar nahi daalta",
+            "Ism ko jama bana deta hai",
+            "Pehla harf gira deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The particle transforms 'الْكِتَابُ' into 'بِالْكِتَابِ'.",
+          "ur": "یہ حرف 'الْكِتَابُ' کو بدل کر 'بِالْكِتَابِ' بنا دیتا ہے۔",
+          "hi": "यह हर्फ 'الْكِتَابُ' को बदल कर 'بِالْكِتَابِ' बना देता है।",
+          "hinglish": "Yeh harf 'الْكِتَابُ' ko badal kar 'بِالْكِتَابِ' bana deta hai."
+        }
+      },
+      {
+        "id": "s2l7-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "What is the correct form when applied to 'الْكِتَابُ'?",
+          "ur": "'الْكِتَابُ' پر قاعدہ لاگو کرنے سے درست شکل کیا بنے گی؟",
+          "hi": "'الْكِتَابُ' पर क़ायदा लागू करने से सही शक्ल क्या बनेगी?",
+          "hinglish": "'الْكِتَابُ' par qaaida laagu karne se sahi shakl kya banegi?"
+        },
+        "options": {
+          "en": [
+            "بِالْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "ur": [
+            "بِالْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hi": [
+            "بِالْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hinglish": [
+            "بِالْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The rule produces 'بِالْكِتَابِ'.",
+          "ur": "قاعدے کے مطابق درست شکل 'بِالْكِتَابِ' ہے۔",
+          "hi": "क़ायदे के मुताबिक सही शक्ल 'بِالْكِتَابِ' है।",
+          "hinglish": "Qaaide ke mutabiq sahi shakl 'بِالْكِتَابِ' hai."
+        }
+      },
+      {
+        "id": "s2l7-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In the phrase 'بِالْكِتَابِ', what is the base noun before modification?",
+          "ur": "'بِالْكِتَابِ' میں تبدیلی سے پہلے اصل اسم کیا تھا؟",
+          "hi": "'بِالْكِتَابِ' में तब्दीली से पहले असल इस्म क्या था?",
+          "hinglish": "'بِالْكِتَابِ' mein tabdeeli se pehle asal ism kya tha?"
+        },
+        "options": {
+          "en": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "ur": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hi": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hinglish": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The original unmodified noun was 'الْكِتَابُ'.",
+          "ur": "تبدیلی سے قبل اصل اسم 'الْكِتَابُ' تھا۔",
+          "hi": "तब्दीली से पहले असल इस्म 'الْكِتَابُ' था।",
+          "hinglish": "Tabdeeli se pehle asal ism 'الْكِتَابُ' tha."
+        }
+      },
+      {
+        "id": "s2l7-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'بِالْبَاطِلِ'?",
+          "ur": "قرآنی لفظ 'بِالْبَاطِلِ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'بِالْبَاطِلِ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'بِالْبَاطِلِ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "With falsehood",
+            "In the Most Merciful",
+            "In Allah / with Allah",
+            "With life"
+          ],
+          "ur": [
+            "باطل کے ساتھ",
+            "رحمٰن پر / رحمٰن کے ساتھ",
+            "اللہ پر / اللہ کے ساتھ",
+            "زندگی کے ساتھ"
+          ],
+          "hi": [
+            "बातिल के साथ",
+            "रहमान पर / रहमान के साथ",
+            "अल्लाह पर / अल्लाह के साथ",
+            "ज़िंदगी के साथ"
+          ],
+          "hinglish": [
+            "Baatil ke saath",
+            "Rahman ke saath",
+            "Allah ke saath / se",
+            "Zindagi ke saath"
+          ]
+        },
+        "explanation": {
+          "en": "'بِالْبَاطِلِ' translates to 'With falsehood'.",
+          "ur": "'بِالْبَاطِلِ' کا معنی 'باطل کے ساتھ' ہے۔",
+          "hi": "'بِالْبَاطِلِ' का मतलब 'बातिल के साथ' है।",
+          "hinglish": "'بِالْبَاطِلِ' ka matlab 'Baatil ke saath' hai."
+        }
+      },
+      {
+        "id": "s2l7-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'بِالْإِيمَانِ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'بِالْإِيمَانِ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'بِالْإِيمَانِ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'بِالْإِيمَانِ'"
+        },
+        "options": {
+          "en": [
+            "In the Most Merciful",
+            "With faith",
+            "In Allah / with Allah",
+            "With life"
+          ],
+          "ur": [
+            "رحمٰن پر / رحمٰن کے ساتھ",
+            "ایمان کے ساتھ",
+            "اللہ پر / اللہ کے ساتھ",
+            "زندگی کے ساتھ"
+          ],
+          "hi": [
+            "रहमान पर / रहमान के साथ",
+            "ईमान के साथ",
+            "अल्लाह पर / अल्लाह के साथ",
+            "ज़िंदगी के साथ"
+          ],
+          "hinglish": [
+            "Rahman ke saath",
+            "Eemaan ke saath",
+            "Allah ke saath / se",
+            "Zindagi ke saath"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'بِالْإِيمَانِ' means 'With faith'.",
+          "ur": "'بِالْإِيمَانِ' کا مفہوم 'ایمان کے ساتھ' ہے۔",
+          "hi": "'بِالْإِيمَانِ' का मतलब 'ईमान के साथ' है।",
+          "hinglish": "'بِالْإِيمَانِ' ka matlab 'Eemaan ke saath' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s2l8",
+    "questions": [
+      {
+        "id": "s2l8-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What grammatical case does Nafy-e-Jins (لَا) impose on the following noun?",
+          "ur": "Nafy-e-Jins (لَا) اپنے بعد آنے والے اسم پر کون سا اعراب لاتا ہے؟",
+          "hi": "Nafy-e-Jins (لَا) अपने बाद आने वाले इस्म पर कौन सा एराब लाता है?",
+          "hinglish": "Nafy-e-Jins ('لَا') apne baad aane wale ism par kaun sa i'raab laata hai?"
+        },
+        "options": {
+          "en": [
+            "Changes to 'لَا كِتَابَ'",
+            "Leaves the noun unchanged in Pesh",
+            "Converts the noun to plural",
+            "Drops the first letter"
+          ],
+          "ur": [
+            "اسم بدل کر 'لَا كِتَابَ' بن جاتا ہے",
+            "اسم پر کوئی اثر نہیں ڈالتا",
+            "اسم کو جمع بنا دیتا ہے",
+            "پہلا حرف گرا دیتا ہے"
+          ],
+          "hi": [
+            "इस्म बदल कर 'لَا كِتَابَ' बन जाता है",
+            "इस्म पर कोई असर नहीं डालता",
+            "इस्म को जमा बना देता है",
+            "पहला हर्फ गिरा देता है"
+          ],
+          "hinglish": [
+            "Ism badal kar 'لَا كِتَابَ' ban jaata hai",
+            "Ism par koi asar nahi daalta",
+            "Ism ko jama bana deta hai",
+            "Pehla harf gira deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The particle transforms 'كِتَابٌ' into 'لَا كِتَابَ'.",
+          "ur": "یہ حرف 'كِتَابٌ' کو بدل کر 'لَا كِتَابَ' بنا دیتا ہے۔",
+          "hi": "यह हर्फ 'كِتَابٌ' को बदल कर 'لَا كِتَابَ' बना देता है।",
+          "hinglish": "Yeh harf 'كِتَابٌ' ko badal kar 'لَا كِتَابَ' bana deta hai."
+        }
+      },
+      {
+        "id": "s2l8-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "What is the correct form when applied to 'كِتَابٌ'?",
+          "ur": "'كِتَابٌ' پر قاعدہ لاگو کرنے سے درست شکل کیا بنے گی؟",
+          "hi": "'كِتَابٌ' पर क़ायदा लागू करने से सही शक्ल क्या बनेगी?",
+          "hinglish": "'كِتَابٌ' par qaaida laagu karne se sahi shakl kya banegi?"
+        },
+        "options": {
+          "en": [
+            "لَا كِتَابَ",
+            "كِتَابٌ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "ur": [
+            "لَا كِتَابَ",
+            "كِتَابٌ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hi": [
+            "لَا كِتَابَ",
+            "كِتَابٌ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hinglish": [
+            "لَا كِتَابَ",
+            "كِتَابٌ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The rule produces 'لَا كِتَابَ'.",
+          "ur": "قاعدے کے مطابق درست شکل 'لَا كِتَابَ' ہے۔",
+          "hi": "क़ायदे के मुताबिक सही शक्ल 'لَا كِتَابَ' है।",
+          "hinglish": "Qaaide ke mutabiq sahi shakl 'لَا كِتَابَ' hai."
+        }
+      },
+      {
+        "id": "s2l8-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In the phrase 'لَا كِتَابَ', what is the base noun before modification?",
+          "ur": "'لَا كِتَابَ' میں تبدیلی سے پہلے اصل اسم کیا تھا؟",
+          "hi": "'لَا كِتَابَ' में तब्दीली से पहले असल इस्म क्या था?",
+          "hinglish": "'لَا كِتَابَ' mein tabdeeli se pehle asal ism kya tha?"
+        },
+        "options": {
+          "en": [
+            "كِتَابٌ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "ur": [
+            "كِتَابٌ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hi": [
+            "كِتَابٌ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hinglish": [
+            "كِتَابٌ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The original unmodified noun was 'كِتَابٌ'.",
+          "ur": "تبدیلی سے قبل اصل اسم 'كِتَابٌ' تھا۔",
+          "hi": "तब्दीली से पहले असल इस्म 'كِتَابٌ' था।",
+          "hinglish": "Tabdeeli se pehle asal ism 'كِتَابٌ' tha."
+        }
+      },
+      {
+        "id": "s2l8-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'لَا ظُلْمَ'?",
+          "ur": "قرآنی لفظ 'لَا ظُلْمَ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'لَا ظُلْمَ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'لَا ظُلْمَ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "No injustice",
+            "No deity",
+            "No partner",
+            "No change"
+          ],
+          "ur": [
+            "کوئی ظلم نہیں",
+            "کوئی معبود نہیں",
+            "کوئی شریک نہیں",
+            "کوئی تبدیلی نہیں"
+          ],
+          "hi": [
+            "कोई ज़ुल्म नहीं",
+            "कोई माबूद नहीं",
+            "कोई शरीक नहीं",
+            "कोई तब्दीली नहीं"
+          ],
+          "hinglish": [
+            "koi zulm nahin",
+            "koi ilah nahin",
+            "koi shareek nahin",
+            "koi tabdeeli nahin"
+          ]
+        },
+        "explanation": {
+          "en": "'لَا ظُلْمَ' translates to 'No injustice'.",
+          "ur": "'لَا ظُلْمَ' کا معنی 'کوئی ظلم نہیں' ہے۔",
+          "hi": "'لَا ظُلْمَ' का मतलब 'कोई ज़ुल्म नहीं' है।",
+          "hinglish": "'لَا ظُلْمَ' ka matlab 'koi zulm nahin' hai."
+        }
+      },
+      {
+        "id": "s2l8-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'لَا عِلْمَ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'لَا عِلْمَ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'لَا عِلْمَ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'لَا عِلْمَ'"
+        },
+        "options": {
+          "en": [
+            "No deity",
+            "No knowledge",
+            "No partner",
+            "No change"
+          ],
+          "ur": [
+            "کوئی معبود نہیں",
+            "کوئی علم نہیں",
+            "کوئی شریک نہیں",
+            "کوئی تبدیلی نہیں"
+          ],
+          "hi": [
+            "कोई माबूद नहीं",
+            "कोई इल्म नहीं",
+            "कोई शरीक नहीं",
+            "कोई तब्दीली नहीं"
+          ],
+          "hinglish": [
+            "koi ilah nahin",
+            "koi ilm nahin",
+            "koi shareek nahin",
+            "koi tabdeeli nahin"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'لَا عِلْمَ' means 'No knowledge'.",
+          "ur": "'لَا عِلْمَ' کا مفہوم 'کوئی علم نہیں' ہے۔",
+          "hi": "'لَا عِلْمَ' का मतलब 'कोई इल्म नहीं' है।",
+          "hinglish": "'لَا عِلْمَ' ka matlab 'koi ilm nahin' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s2l9",
+    "questions": [
+      {
+        "id": "s2l9-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What grammatical case does Istisna (إِلَّا) impose on the following noun?",
+          "ur": "Istisna (إِلَّا) اپنے بعد آنے والے اسم پر کون سا اعراب لاتا ہے؟",
+          "hi": "Istisna (إِلَّا) अपने बाद आने वाले इस्म पर कौन सा एराब लाता है?",
+          "hinglish": "Istisna ('إِلَّا') apne baad aane wale ism par kaun sa i'raab laata hai?"
+        },
+        "options": {
+          "en": [
+            "Changes to 'إِلَّا الْكِتَابَ'",
+            "Leaves the noun unchanged in Pesh",
+            "Converts the noun to plural",
+            "Drops the first letter"
+          ],
+          "ur": [
+            "اسم بدل کر 'إِلَّا الْكِتَابَ' بن جاتا ہے",
+            "اسم پر کوئی اثر نہیں ڈالتا",
+            "اسم کو جمع بنا دیتا ہے",
+            "پہلا حرف گرا دیتا ہے"
+          ],
+          "hi": [
+            "इस्म बदल कर 'إِلَّا الْكِتَابَ' बन जाता है",
+            "इस्म पर कोई असर नहीं डालता",
+            "इस्म को जमा बना देता है",
+            "पहला हर्फ गिरा देता है"
+          ],
+          "hinglish": [
+            "Ism badal kar 'إِلَّا الْكِتَابَ' ban jaata hai",
+            "Ism par koi asar nahi daalta",
+            "Ism ko jama bana deta hai",
+            "Pehla harf gira deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The particle transforms 'الْكِتَابُ' into 'إِلَّا الْكِتَابَ'.",
+          "ur": "یہ حرف 'الْكِتَابُ' کو بدل کر 'إِلَّا الْكِتَابَ' بنا دیتا ہے۔",
+          "hi": "यह हर्फ 'الْكِتَابُ' को बदल कर 'إِلَّا الْكِتَابَ' बना देता है।",
+          "hinglish": "Yeh harf 'الْكِتَابُ' ko badal kar 'إِلَّا الْكِتَابَ' bana deta hai."
+        }
+      },
+      {
+        "id": "s2l9-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "What is the correct form when applied to 'الْكِتَابُ'?",
+          "ur": "'الْكِتَابُ' پر قاعدہ لاگو کرنے سے درست شکل کیا بنے گی؟",
+          "hi": "'الْكِتَابُ' पर क़ायदा लागू करने से सही शक्ल क्या बनेगी?",
+          "hinglish": "'الْكِتَابُ' par qaaida laagu karne se sahi shakl kya banegi?"
+        },
+        "options": {
+          "en": [
+            "إِلَّا الْكِتَابَ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "ur": [
+            "إِلَّا الْكِتَابَ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hi": [
+            "إِلَّا الْكِتَابَ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hinglish": [
+            "إِلَّا الْكِتَابَ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The rule produces 'إِلَّا الْكِتَابَ'.",
+          "ur": "قاعدے کے مطابق درست شکل 'إِلَّا الْكِتَابَ' ہے۔",
+          "hi": "क़ायदे के मुताबिक सही शक्ल 'إِلَّا الْكِتَابَ' है।",
+          "hinglish": "Qaaide ke mutabiq sahi shakl 'إِلَّا الْكِتَابَ' hai."
+        }
+      },
+      {
+        "id": "s2l9-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In the phrase 'إِلَّا الْكِتَابَ', what is the base noun before modification?",
+          "ur": "'إِلَّا الْكِتَابَ' میں تبدیلی سے پہلے اصل اسم کیا تھا؟",
+          "hi": "'إِلَّا الْكِتَابَ' में तब्दीली से पहले असल इस्म क्या था?",
+          "hinglish": "'إِلَّا الْكِتَابَ' mein tabdeeli se pehle asal ism kya tha?"
+        },
+        "options": {
+          "en": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "ur": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hi": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hinglish": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The original unmodified noun was 'الْكِتَابُ'.",
+          "ur": "تبدیلی سے قبل اصل اسم 'الْكِتَابُ' تھا۔",
+          "hi": "तब्दीली से पहले असल इस्म 'الْكِتَابُ' था।",
+          "hinglish": "Tabdeeli se pehle asal ism 'الْكِتَابُ' tha."
+        }
+      },
+      {
+        "id": "s2l9-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'إِلَّا الْبَلَاغُ'?",
+          "ur": "قرآنی لفظ 'إِلَّا الْبَلَاغُ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'إِلَّا الْبَلَاغُ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'إِلَّا الْبَلَاغُ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Except delivering the message / notification",
+            "Except the Most Merciful (Rahman)",
+            "Except Allah",
+            "Except the Fire"
+          ],
+          "ur": [
+            "سوائے پیغام پہنچانے کے / مگر پہنچانا",
+            "سوائے رحمن کے / مگر رحمن",
+            "سوائے اللہ کے / مگر اللہ",
+            "سوائے آگ کے / مگر آگ"
+          ],
+          "hi": [
+            "सिवाय पैग़ाम पहुंचाने के / मगर पैग़ाम पहुंचाना",
+            "सिवाय रहमान के / रहमान के अलावा",
+            "सिवाय अल्लाह के / अल्लाह के सिवा",
+            "सिवाय आग के / आग के सिवा"
+          ],
+          "hinglish": [
+            "Magar paigham pahunchana",
+            "Magar Rahman / Rahman ke siwa",
+            "Magar Allah / Allah ke siwa",
+            "Magar aag / Aag ke siwa"
+          ]
+        },
+        "explanation": {
+          "en": "'إِلَّا الْبَلَاغُ' translates to 'Except delivering the message / notification'.",
+          "ur": "'إِلَّا الْبَلَاغُ' کا معنی 'سوائے پیغام پہنچانے کے / مگر پہنچانا' ہے۔",
+          "hi": "'إِلَّا الْبَلَاغُ' का मतलब 'सिवाय पैग़ाम पहुंचाने के / मगर पैग़ाम पहुंचाना' है।",
+          "hinglish": "'إِلَّا الْبَلَاغُ' ka matlab 'Magar paigham pahunchana' hai."
+        }
+      },
+      {
+        "id": "s2l9-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'إِلَّا الْحَقَّ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'إِلَّا الْحَقَّ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'إِلَّا الْحَقَّ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'إِلَّا الْحَقَّ'"
+        },
+        "options": {
+          "en": [
+            "Except the Most Merciful (Rahman)",
+            "Except the truth",
+            "Except Allah",
+            "Except the Fire"
+          ],
+          "ur": [
+            "سوائے رحمن کے / مگر رحمن",
+            "سوائے حق کے / مگر سچ",
+            "سوائے اللہ کے / مگر اللہ",
+            "سوائے آگ کے / مگر آگ"
+          ],
+          "hi": [
+            "सिवाय रहमान के / रहमान के अलावा",
+            "सिवाय सच के / हक़ के सिवा",
+            "सिवाय अल्लाह के / अल्लाह के सिवा",
+            "सिवाय आग के / आग के सिवा"
+          ],
+          "hinglish": [
+            "Magar Rahman / Rahman ke siwa",
+            "Magar sach / Haq ke siwa",
+            "Magar Allah / Allah ke siwa",
+            "Magar aag / Aag ke siwa"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'إِلَّا الْحَقَّ' means 'Except the truth'.",
+          "ur": "'إِلَّا الْحَقَّ' کا مفہوم 'سوائے حق کے / مگر سچ' ہے۔",
+          "hi": "'إِلَّا الْحَقَّ' का मतलब 'सिवाय सच के / हक़ के सिवा' है।",
+          "hinglish": "'إِلَّا الْحَقَّ' ka matlab 'Magar sach / Haq ke siwa' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s2l10",
+    "questions": [
+      {
+        "id": "s2l10-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What grammatical case does Waw-e-Qasam (وَ) impose on the following noun?",
+          "ur": "Waw-e-Qasam (وَ) اپنے بعد آنے والے اسم پر کون سا اعراب لاتا ہے؟",
+          "hi": "Waw-e-Qasam (وَ) अपने बाद आने वाले इस्म पर कौन सा एराब लाता है?",
+          "hinglish": "Waw-e-Qasam ('وَ') apne baad aane wale ism par kaun sa i'raab laata hai?"
+        },
+        "options": {
+          "en": [
+            "Changes to 'وَالْكِتَابِ'",
+            "Leaves the noun unchanged in Pesh",
+            "Converts the noun to plural",
+            "Drops the first letter"
+          ],
+          "ur": [
+            "اسم بدل کر 'وَالْكِتَابِ' بن جاتا ہے",
+            "اسم پر کوئی اثر نہیں ڈالتا",
+            "اسم کو جمع بنا دیتا ہے",
+            "پہلا حرف گرا دیتا ہے"
+          ],
+          "hi": [
+            "इस्म बदल कर 'وَالْكِتَابِ' बन जाता है",
+            "इस्म पर कोई असर नहीं डालता",
+            "इस्म को जमा बना देता है",
+            "पहला हर्फ गिरा देता है"
+          ],
+          "hinglish": [
+            "Ism badal kar 'وَالْكِتَابِ' ban jaata hai",
+            "Ism par koi asar nahi daalta",
+            "Ism ko jama bana deta hai",
+            "Pehla harf gira deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The particle transforms 'الْكِتَابُ' into 'وَالْكِتَابِ'.",
+          "ur": "یہ حرف 'الْكِتَابُ' کو بدل کر 'وَالْكِتَابِ' بنا دیتا ہے۔",
+          "hi": "यह हर्फ 'الْكِتَابُ' को बदल कर 'وَالْكِتَابِ' बना देता है।",
+          "hinglish": "Yeh harf 'الْكِتَابُ' ko badal kar 'وَالْكِتَابِ' bana deta hai."
+        }
+      },
+      {
+        "id": "s2l10-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "What is the correct form when applied to 'الْكِتَابُ'?",
+          "ur": "'الْكِتَابُ' پر قاعدہ لاگو کرنے سے درست شکل کیا بنے گی؟",
+          "hi": "'الْكِتَابُ' पर क़ायदा लागू करने से सही शक्ल क्या बनेगी?",
+          "hinglish": "'الْكِتَابُ' par qaaida laagu karne se sahi shakl kya banegi?"
+        },
+        "options": {
+          "en": [
+            "وَالْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "ur": [
+            "وَالْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hi": [
+            "وَالْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hinglish": [
+            "وَالْكِتَابِ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The rule produces 'وَالْكِتَابِ'.",
+          "ur": "قاعدے کے مطابق درست شکل 'وَالْكِتَابِ' ہے۔",
+          "hi": "क़ायदे के मुताबिक सही शक्ल 'وَالْكِتَابِ' है।",
+          "hinglish": "Qaaide ke mutabiq sahi shakl 'وَالْكِتَابِ' hai."
+        }
+      },
+      {
+        "id": "s2l10-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In the phrase 'وَالْكِتَابِ', what is the base noun before modification?",
+          "ur": "'وَالْكِتَابِ' میں تبدیلی سے پہلے اصل اسم کیا تھا؟",
+          "hi": "'وَالْكِتَابِ' में तब्दीली से पहले असल इस्म क्या था?",
+          "hinglish": "'وَالْكِتَابِ' mein tabdeeli se pehle asal ism kya tha?"
+        },
+        "options": {
+          "en": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "ur": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hi": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hinglish": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The original unmodified noun was 'الْكِتَابُ'.",
+          "ur": "تبدیلی سے قبل اصل اسم 'الْكِتَابُ' تھا۔",
+          "hi": "तब्दीली से पहले असल इस्म 'الْكِتَابُ' था।",
+          "hinglish": "Tabdeeli se pehle asal ism 'الْكِتَابُ' tha."
+        }
+      },
+      {
+        "id": "s2l10-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'وَالْبَيْتِ'?",
+          "ur": "قرآنی لفظ 'وَالْبَيْتِ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'وَالْبَيْتِ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'وَالْبَيْتِ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "By the House (Ka'bah)",
+            "By the Book",
+            "By the Qur'an",
+            "By Allah"
+          ],
+          "ur": [
+            "بیت (کعبہ) کی قسم",
+            "کتاب کی قسم",
+            "قرآن کی قسم",
+            "اللہ کی قسم"
+          ],
+          "hi": [
+            "घर (काबा) की क़सम",
+            "किताब की क़सम",
+            "क़ुरआन की क़सम",
+            "अल्लाह की क़सम"
+          ],
+          "hinglish": [
+            "Ghar (Ka'bah) ki qasam",
+            "Kitab ki qasam",
+            "Qur'an ki qasam",
+            "Allah ki qasam"
+          ]
+        },
+        "explanation": {
+          "en": "'وَالْبَيْتِ' translates to 'By the House (Ka'bah)'.",
+          "ur": "'وَالْبَيْتِ' کا معنی 'بیت (کعبہ) کی قسم' ہے۔",
+          "hi": "'وَالْبَيْتِ' का मतलब 'घर (काबा) की क़सम' है।",
+          "hinglish": "'وَالْبَيْتِ' ka matlab 'Ghar (Ka'bah) ki qasam' hai."
+        }
+      },
+      {
+        "id": "s2l10-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'وَالْقَلَمِ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'وَالْقَلَمِ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'وَالْقَلَمِ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'وَالْقَلَمِ'"
+        },
+        "options": {
+          "en": [
+            "By the Book",
+            "By the pen",
+            "By the Qur'an",
+            "By Allah"
+          ],
+          "ur": [
+            "کتاب کی قسم",
+            "قلم کی قسم",
+            "قرآن کی قسم",
+            "اللہ کی قسم"
+          ],
+          "hi": [
+            "किताब की क़सम",
+            "क़लम की क़सम",
+            "क़ुरआन की क़सम",
+            "अल्लाह की क़सम"
+          ],
+          "hinglish": [
+            "Kitab ki qasam",
+            "Qalam ki qasam",
+            "Qur'an ki qasam",
+            "Allah ki qasam"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'وَالْقَلَمِ' means 'By the pen'.",
+          "ur": "'وَالْقَلَمِ' کا مفہوم 'قلم کی قسم' ہے۔",
+          "hi": "'وَالْقَلَمِ' का मतलब 'क़लम की क़सम' है।",
+          "hinglish": "'وَالْقَلَمِ' ka matlab 'Qalam ki qasam' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s2l11",
+    "questions": [
+      {
+        "id": "s2l11-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What grammatical case does Harf Masdariyyah (أَنَّ) impose on the following noun?",
+          "ur": "Harf Masdariyyah (أَنَّ) اپنے بعد آنے والے اسم پر کون سا اعراب لاتا ہے؟",
+          "hi": "Harf Masdariyyah (أَنَّ) अपने बाद आने वाले इस्म पर कौन सा एराब लाता है?",
+          "hinglish": "Harf Masdariyyah ('أَنَّ') apne baad aane wale ism par kaun sa i'raab laata hai?"
+        },
+        "options": {
+          "en": [
+            "Changes to 'أَنَّ الْكِتَابَ'",
+            "Leaves the noun unchanged in Pesh",
+            "Converts the noun to plural",
+            "Drops the first letter"
+          ],
+          "ur": [
+            "اسم بدل کر 'أَنَّ الْكِتَابَ' بن جاتا ہے",
+            "اسم پر کوئی اثر نہیں ڈالتا",
+            "اسم کو جمع بنا دیتا ہے",
+            "پہلا حرف گرا دیتا ہے"
+          ],
+          "hi": [
+            "इस्म बदल कर 'أَنَّ الْكِتَابَ' बन जाता है",
+            "इस्म पर कोई असर नहीं डालता",
+            "इस्म को जमा बना देता है",
+            "पहला हर्फ गिरा देता है"
+          ],
+          "hinglish": [
+            "Ism badal kar 'أَنَّ الْكِتَابَ' ban jaata hai",
+            "Ism par koi asar nahi daalta",
+            "Ism ko jama bana deta hai",
+            "Pehla harf gira deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The particle transforms 'الْكِتَابُ' into 'أَنَّ الْكِتَابَ'.",
+          "ur": "یہ حرف 'الْكِتَابُ' کو بدل کر 'أَنَّ الْكِتَابَ' بنا دیتا ہے۔",
+          "hi": "यह हर्फ 'الْكِتَابُ' को बदल कर 'أَنَّ الْكِتَابَ' बना देता है।",
+          "hinglish": "Yeh harf 'الْكِتَابُ' ko badal kar 'أَنَّ الْكِتَابَ' bana deta hai."
+        }
+      },
+      {
+        "id": "s2l11-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "What is the correct form when applied to 'الْكِتَابُ'?",
+          "ur": "'الْكِتَابُ' پر قاعدہ لاگو کرنے سے درست شکل کیا بنے گی؟",
+          "hi": "'الْكِتَابُ' पर क़ायदा लागू करने से सही शक्ल क्या बनेगी?",
+          "hinglish": "'الْكِتَابُ' par qaaida laagu karne se sahi shakl kya banegi?"
+        },
+        "options": {
+          "en": [
+            "أَنَّ الْكِتَابَ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "ur": [
+            "أَنَّ الْكِتَابَ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hi": [
+            "أَنَّ الْكِتَابَ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hinglish": [
+            "أَنَّ الْكِتَابَ",
+            "الْكِتَابُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The rule produces 'أَنَّ الْكِتَابَ'.",
+          "ur": "قاعدے کے مطابق درست شکل 'أَنَّ الْكِتَابَ' ہے۔",
+          "hi": "क़ायदे के मुताबिक सही शक्ल 'أَنَّ الْكِتَابَ' है।",
+          "hinglish": "Qaaide ke mutabiq sahi shakl 'أَنَّ الْكِتَابَ' hai."
+        }
+      },
+      {
+        "id": "s2l11-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In the phrase 'أَنَّ الْكِتَابَ', what is the base noun before modification?",
+          "ur": "'أَنَّ الْكِتَابَ' میں تبدیلی سے پہلے اصل اسم کیا تھا؟",
+          "hi": "'أَنَّ الْكِتَابَ' में तब्दीली से पहले असल इस्म क्या था?",
+          "hinglish": "'أَنَّ الْكِتَابَ' mein tabdeeli se pehle asal ism kya tha?"
+        },
+        "options": {
+          "en": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "ur": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hi": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hinglish": [
+            "الْكِتَابُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The original unmodified noun was 'الْكِتَابُ'.",
+          "ur": "تبدیلی سے قبل اصل اسم 'الْكِتَابُ' تھا۔",
+          "hi": "तब्दीली से पहले असल इस्म 'الْكِتَابُ' था।",
+          "hinglish": "Tabdeeli se pehle asal ism 'الْكِتَابُ' tha."
+        }
+      },
+      {
+        "id": "s2l11-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'أَنَّ الْقُوَّةَ'?",
+          "ur": "قرآنی لفظ 'أَنَّ الْقُوَّةَ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'أَنَّ الْقُوَّةَ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'أَنَّ الْقُوَّةَ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "That power",
+            "That the Messenger",
+            "That Allah",
+            "That the Hour (Resurrection)"
+          ],
+          "ur": [
+            "کہ قوت",
+            "کہ رسول",
+            "کہ اللہ",
+            "کہ قیامت"
+          ],
+          "hi": [
+            "कि क़ुव्वत",
+            "कि रसूल",
+            "कि अल्लाह",
+            "कि क़यामत"
+          ],
+          "hinglish": [
+            "Ke quwwat",
+            "Ke Rasool",
+            "Ke Allah",
+            "Ke qayamat"
+          ]
+        },
+        "explanation": {
+          "en": "'أَنَّ الْقُوَّةَ' translates to 'That power'.",
+          "ur": "'أَنَّ الْقُوَّةَ' کا معنی 'کہ قوت' ہے۔",
+          "hi": "'أَنَّ الْقُوَّةَ' का मतलब 'कि क़ुव्वत' है।",
+          "hinglish": "'أَنَّ الْقُوَّةَ' ka matlab 'Ke quwwat' hai."
+        }
+      },
+      {
+        "id": "s2l11-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'أَنَّ الْحَقَّ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'أَنَّ الْحَقَّ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'أَنَّ الْحَقَّ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'أَنَّ الْحَقَّ'"
+        },
+        "options": {
+          "en": [
+            "That the Messenger",
+            "That the truth",
+            "That Allah",
+            "That the Hour (Resurrection)"
+          ],
+          "ur": [
+            "کہ رسول",
+            "کہ حق",
+            "کہ اللہ",
+            "کہ قیامت"
+          ],
+          "hi": [
+            "कि रसूल",
+            "कि हक़",
+            "कि अल्लाह",
+            "कि क़यामत"
+          ],
+          "hinglish": [
+            "Ke Rasool",
+            "Ke haq",
+            "Ke Allah",
+            "Ke qayamat"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'أَنَّ الْحَقَّ' means 'That the truth'.",
+          "ur": "'أَنَّ الْحَقَّ' کا مفہوم 'کہ حق' ہے۔",
+          "hi": "'أَنَّ الْحَقَّ' का मतलब 'कि हक़' है।",
+          "hinglish": "'أَنَّ الْحَقَّ' ka matlab 'Ke haq' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s2l12",
+    "questions": [
+      {
+        "id": "s2l12-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What grammatical case does Fe'l Naaqis (كَانَ) impose on the following noun?",
+          "ur": "Fe'l Naaqis (كَانَ) اپنے بعد آنے والے اسم پر کون سا اعراب لاتا ہے؟",
+          "hi": "Fe'l Naaqis (كَانَ) अपने बाद आने वाले इस्म पर कौन सा एराब लाता है?",
+          "hinglish": "Fe'l Naaqis ('كَانَ') apne baad aane wale ism par kaun sa i'raab laata hai?"
+        },
+        "options": {
+          "en": [
+            "Changes to 'كَانَ رَسُولًا'",
+            "Leaves the noun unchanged in Pesh",
+            "Converts the noun to plural",
+            "Drops the first letter"
+          ],
+          "ur": [
+            "اسم بدل کر 'كَانَ رَسُولًا' بن جاتا ہے",
+            "اسم پر کوئی اثر نہیں ڈالتا",
+            "اسم کو جمع بنا دیتا ہے",
+            "پہلا حرف گرا دیتا ہے"
+          ],
+          "hi": [
+            "इस्म बदल कर 'كَانَ رَسُولًا' बन जाता है",
+            "इस्म पर कोई असर नहीं डालता",
+            "इस्म को जमा बना देता है",
+            "पहला हर्फ गिरा देता है"
+          ],
+          "hinglish": [
+            "Ism badal kar 'كَانَ رَسُولًا' ban jaata hai",
+            "Ism par koi asar nahi daalta",
+            "Ism ko jama bana deta hai",
+            "Pehla harf gira deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The particle transforms 'رَسُولٌ' into 'كَانَ رَسُولًا'.",
+          "ur": "یہ حرف 'رَسُولٌ' کو بدل کر 'كَانَ رَسُولًا' بنا دیتا ہے۔",
+          "hi": "यह हर्फ 'رَسُولٌ' को बदल कर 'كَانَ رَسُولًا' बना देता है।",
+          "hinglish": "Yeh harf 'رَسُولٌ' ko badal kar 'كَانَ رَسُولًا' bana deta hai."
+        }
+      },
+      {
+        "id": "s2l12-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "What is the correct form when applied to 'رَسُولٌ'?",
+          "ur": "'رَسُولٌ' پر قاعدہ لاگو کرنے سے درست شکل کیا بنے گی؟",
+          "hi": "'رَسُولٌ' पर क़ायदा लागू करने से सही शक्ल क्या बनेगी?",
+          "hinglish": "'رَسُولٌ' par qaaida laagu karne se sahi shakl kya banegi?"
+        },
+        "options": {
+          "en": [
+            "كَانَ رَسُولًا",
+            "رَسُولٌ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "ur": [
+            "كَانَ رَسُولًا",
+            "رَسُولٌ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hi": [
+            "كَانَ رَسُولًا",
+            "رَسُولٌ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hinglish": [
+            "كَانَ رَسُولًا",
+            "رَسُولٌ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The rule produces 'كَانَ رَسُولًا'.",
+          "ur": "قاعدے کے مطابق درست شکل 'كَانَ رَسُولًا' ہے۔",
+          "hi": "क़ायदे के मुताबिक सही शक्ल 'كَانَ رَسُولًا' है।",
+          "hinglish": "Qaaide ke mutabiq sahi shakl 'كَانَ رَسُولًا' hai."
+        }
+      },
+      {
+        "id": "s2l12-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In the phrase 'كَانَ رَسُولًا', what is the base noun before modification?",
+          "ur": "'كَانَ رَسُولًا' میں تبدیلی سے پہلے اصل اسم کیا تھا؟",
+          "hi": "'كَانَ رَسُولًا' में तब्दीली से पहले असल इस्म क्या था?",
+          "hinglish": "'كَانَ رَسُولًا' mein tabdeeli se pehle asal ism kya tha?"
+        },
+        "options": {
+          "en": [
+            "رَسُولٌ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "ur": [
+            "رَسُولٌ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hi": [
+            "رَسُولٌ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hinglish": [
+            "رَسُولٌ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The original unmodified noun was 'رَسُولٌ'.",
+          "ur": "تبدیلی سے قبل اصل اسم 'رَسُولٌ' تھا۔",
+          "hi": "तब्दीली से पहले असल इस्म 'رَسُولٌ' था।",
+          "hinglish": "Tabdeeli se pehle asal ism 'رَسُولٌ' tha."
+        }
+      },
+      {
+        "id": "s2l12-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'كَانَ رَسُولًا'?",
+          "ur": "قرآنی لفظ 'كَانَ رَسُولًا' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'كَانَ رَسُولًا' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'كَانَ رَسُولًا' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "He was a messenger",
+            "He was sick",
+            "He was a believer",
+            "He was truthful"
+          ],
+          "ur": [
+            "وہ رسول تھا",
+            "وہ بیمار تھا",
+            "وہ مومن تھا",
+            "وہ سچا تھا"
+          ],
+          "hi": [
+            "वह रसूल था",
+            "वह बीमार था",
+            "वह मोमिन था",
+            "वह सच्चा था"
+          ],
+          "hinglish": [
+            "Woh rasool tha",
+            "Woh beemar tha",
+            "Woh momin tha",
+            "Woh sachha tha"
+          ]
+        },
+        "explanation": {
+          "en": "'كَانَ رَسُولًا' translates to 'He was a messenger'.",
+          "ur": "'كَانَ رَسُولًا' کا معنی 'وہ رسول تھا' ہے۔",
+          "hi": "'كَانَ رَسُولًا' का मतलब 'वह रसूल था' है।",
+          "hinglish": "'كَانَ رَسُولًا' ka matlab 'Woh rasool tha' hai."
+        }
+      },
+      {
+        "id": "s2l12-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'كَانَ رَسُولًا'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'كَانَ رَسُولًا'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'كَانَ رَسُولًا'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'كَانَ رَسُولًا'"
+        },
+        "options": {
+          "en": [
+            "He was sick",
+            "He was a messenger",
+            "He was a believer",
+            "He was truthful"
+          ],
+          "ur": [
+            "وہ بیمار تھا",
+            "وہ رسول تھا",
+            "وہ مومن تھا",
+            "وہ سچا تھا"
+          ],
+          "hi": [
+            "वह बीमार था",
+            "वह रसूल था",
+            "वह मोमिन था",
+            "वह सच्चा था"
+          ],
+          "hinglish": [
+            "Woh beemar tha",
+            "Woh rasool tha",
+            "Woh momin tha",
+            "Woh sachha tha"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'كَانَ رَسُولًا' means 'He was a messenger'.",
+          "ur": "'كَانَ رَسُولًا' کا مفہوم 'وہ رسول تھا' ہے۔",
+          "hi": "'كَانَ رَسُولًا' का मतलब 'वह रसूल था' है।",
+          "hinglish": "'كَانَ رَسُولًا' ka matlab 'Woh rasool tha' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s2l13",
+    "questions": [
+      {
+        "id": "s2l13-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What grammatical case does Harf-e-Nida (يَا) impose on the following noun?",
+          "ur": "Harf-e-Nida (يَا) اپنے بعد آنے والے اسم پر کون سا اعراب لاتا ہے؟",
+          "hi": "Harf-e-Nida (يَا) अपने बाद आने वाले इस्म पर कौन सा एराब लाता है?",
+          "hinglish": "Harf-e-Nida ('يَا') apne baad aane wale ism par kaun sa i'raab laata hai?"
+        },
+        "options": {
+          "en": [
+            "Changes to 'يَا آدَمُ'",
+            "Leaves the noun unchanged in Pesh",
+            "Converts the noun to plural",
+            "Drops the first letter"
+          ],
+          "ur": [
+            "اسم بدل کر 'يَا آدَمُ' بن جاتا ہے",
+            "اسم پر کوئی اثر نہیں ڈالتا",
+            "اسم کو جمع بنا دیتا ہے",
+            "پہلا حرف گرا دیتا ہے"
+          ],
+          "hi": [
+            "इस्म बदल कर 'يَا آدَمُ' बन जाता है",
+            "इस्म पर कोई असर नहीं डालता",
+            "इस्म को जमा बना देता है",
+            "पहला हर्फ गिरा देता है"
+          ],
+          "hinglish": [
+            "Ism badal kar 'يَا آدَمُ' ban jaata hai",
+            "Ism par koi asar nahi daalta",
+            "Ism ko jama bana deta hai",
+            "Pehla harf gira deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The particle transforms 'آدَمُ' into 'يَا آدَمُ'.",
+          "ur": "یہ حرف 'آدَمُ' کو بدل کر 'يَا آدَمُ' بنا دیتا ہے۔",
+          "hi": "यह हर्फ 'آدَمُ' को बदल कर 'يَا آدَمُ' बना देता है।",
+          "hinglish": "Yeh harf 'آدَمُ' ko badal kar 'يَا آدَمُ' bana deta hai."
+        }
+      },
+      {
+        "id": "s2l13-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "What is the correct form when applied to 'آدَمُ'?",
+          "ur": "'آدَمُ' پر قاعدہ لاگو کرنے سے درست شکل کیا بنے گی؟",
+          "hi": "'آدَمُ' पर क़ायदा लागू करने से सही शक्ल क्या बनेगी?",
+          "hinglish": "'آدَمُ' par qaaida laagu karne se sahi shakl kya banegi?"
+        },
+        "options": {
+          "en": [
+            "يَا آدَمُ",
+            "آدَمُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "ur": [
+            "يَا آدَمُ",
+            "آدَمُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hi": [
+            "يَا آدَمُ",
+            "آدَمُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ],
+          "hinglish": [
+            "يَا آدَمُ",
+            "آدَمُ",
+            "كِتَابَانِ",
+            "كُتُبٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The rule produces 'يَا آدَمُ'.",
+          "ur": "قاعدے کے مطابق درست شکل 'يَا آدَمُ' ہے۔",
+          "hi": "क़ायदे के मुताबिक सही शक्ल 'يَا آدَمُ' है।",
+          "hinglish": "Qaaide ke mutabiq sahi shakl 'يَا آدَمُ' hai."
+        }
+      },
+      {
+        "id": "s2l13-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In the phrase 'يَا آدَمُ', what is the base noun before modification?",
+          "ur": "'يَا آدَمُ' میں تبدیلی سے پہلے اصل اسم کیا تھا؟",
+          "hi": "'يَا آدَمُ' में तब्दीली से पहले असल इस्म क्या था?",
+          "hinglish": "'يَا آدَمُ' mein tabdeeli se pehle asal ism kya tha?"
+        },
+        "options": {
+          "en": [
+            "آدَمُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "ur": [
+            "آدَمُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hi": [
+            "آدَمُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ],
+          "hinglish": [
+            "آدَمُ",
+            "قَلَمٌ",
+            "بَابٌ",
+            "مَسْجِدٌ"
+          ]
+        },
+        "explanation": {
+          "en": "The original unmodified noun was 'آدَمُ'.",
+          "ur": "تبدیلی سے قبل اصل اسم 'آدَمُ' تھا۔",
+          "hi": "तब्दीली से पहले असल इस्म 'آدَمُ' था।",
+          "hinglish": "Tabdeeli se pehle asal ism 'آدَمُ' tha."
+        }
+      },
+      {
+        "id": "s2l13-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'يَا شُعَيْبُ'?",
+          "ur": "قرآنی لفظ 'يَا شُعَيْبُ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'يَا شُعَيْبُ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'يَا شُعَيْبُ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "O Shu'ayb!",
+            "O David!",
+            "O Adam!",
+            "O Moses!"
+          ],
+          "ur": [
+            "اے شعیب!",
+            "اے داؤد!",
+            "اے آدم!",
+            "اے موسیٰ!"
+          ],
+          "hi": [
+            "ऐ शुऐब!",
+            "ऐ दाऊद!",
+            "ऐ आदम!",
+            "ऐ मूसा!"
+          ],
+          "hinglish": [
+            "Ae Shoaib!",
+            "Ae Dawood!",
+            "Ae Adam!",
+            "Ae Moosa!"
+          ]
+        },
+        "explanation": {
+          "en": "'يَا شُعَيْبُ' translates to 'O Shu'ayb!'.",
+          "ur": "'يَا شُعَيْبُ' کا معنی 'اے شعیب!' ہے۔",
+          "hi": "'يَا شُعَيْبُ' का मतलब 'ऐ शुऐब!' है।",
+          "hinglish": "'يَا شُعَيْبُ' ka matlab 'Ae Shoaib!' hai."
+        }
+      },
+      {
+        "id": "s2l13-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'يَا إِبْرَاهِيمُ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'يَا إِبْرَاهِيمُ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'يَا إِبْرَاهِيمُ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'يَا إِبْرَاهِيمُ'"
+        },
+        "options": {
+          "en": [
+            "O David!",
+            "O Abraham!",
+            "O Adam!",
+            "O Moses!"
+          ],
+          "ur": [
+            "اے داؤد!",
+            "اے ابراہیم!",
+            "اے آدم!",
+            "اے موسیٰ!"
+          ],
+          "hi": [
+            "ऐ दाऊद!",
+            "ऐ इब्राहीम!",
+            "ऐ आदम!",
+            "ऐ मूसा!"
+          ],
+          "hinglish": [
+            "Ae Dawood!",
+            "Ae Ibrahim!",
+            "Ae Adam!",
+            "Ae Moosa!"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'يَا إِبْرَاهِيمُ' means 'O Abraham!'.",
+          "ur": "'يَا إِبْرَاهِيمُ' کا مفہوم 'اے ابراہیم!' ہے۔",
+          "hi": "'يَا إِبْرَاهِيمُ' का मतलब 'ऐ इब्राहीम!' है।",
+          "hinglish": "'يَا إِبْرَاهِيمُ' ka matlab 'Ae Ibrahim!' hai."
+        }
+      }
+    ]
+  }
+]

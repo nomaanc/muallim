@@ -1,3 +1,4 @@
+// @ts-check
 /**
  * Muallim ul-Qur'an — Interactive Grammar SVG Visuals Engine (v1.0)
  * 
@@ -2005,6 +2006,7 @@ window.GrammarVisuals = (function() {
   }
 
   return {
+    Registry,
     mount(lessonKey, containerId) {
       injectStyles();
       const container = document.getElementById(containerId);
@@ -2012,27 +2014,13 @@ window.GrammarVisuals = (function() {
       const key = (lessonKey || '').toLowerCase();
       if (Registry[key]) {
         Registry[key](container);
-      } else if (key.startsWith('s6') && Registry['s6l1']) {
-        Registry['s6l1'](container);
-      } else if (key.startsWith('s5') && Registry['s5l1']) {
-        Registry['s5l1'](container);
-      } else if (key.startsWith('s7') && Registry['s7l8']) {
-        Registry['s7l8'](container);
-      } else if (key.startsWith('s4') && Registry['s4l1']) {
-        Registry['s4l1'](container);
-      } else if (key.startsWith('s3') && Registry['s3l4']) {
-        Registry['s3l4'](container);
-      } else if (key.startsWith('s2') && Registry['s2l3']) {
-        Registry['s2l3'](container);
-      } else if (key.startsWith('s1') && Registry['s1l1']) {
-        Registry['s1l1'](container);
       } else {
         genericVisual(key, container);
       }
       attachVisualInteractions(container);
     },
     has(lessonKey) {
-      return true; // All lessons have either explicit or stage-based interactive models
+      return true;
     }
   };
 })();

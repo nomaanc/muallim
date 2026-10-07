@@ -1,3 +1,4 @@
+// @ts-check
 var bookData = { stages: {} };
 var metadata = null;
 
@@ -383,6 +384,17 @@ var App = (function() {
         `;
       }
 
+      function getQuizLegacyBadge(stage, lesson) {
+        try {
+          const scoreKey = `muallim_quiz_scores_s${stage}l${lesson}`;
+          const data = localStorage.getItem(scoreKey);
+          if (data) {
+            return `<span class="badge-new-questions" style="font-size:0.75rem; color:#b45309; background:#fef3c7; border:1px solid #fde68a; border-radius:12px; padding:3px 8px; font-weight:600;">Naye Sawal Uplabdh Hain ✦</span>`;
+          }
+        } catch(e) {}
+        return '';
+      }
+
       function renderCurrentLesson() {
         const stageKey = `Stage${currentStage}`;
         const stageData = bookData.stages[stageKey] || [];
@@ -400,10 +412,11 @@ var App = (function() {
             <div class="lesson-banner-meta">Unit ${currentStage} • Page ${lesson.book_page || lesson.page_start || 1}</div>
           </div>
           <div id="grammar-visual-mount"></div>
-          <div style="display:flex; justify-content:center; margin:-4px 0 16px;">
+          <div style="display:flex; justify-content:center; align-items:center; gap:8px; margin:-4px 0 16px; flex-wrap:wrap;">
             <button class="btn-primary" style="padding:6px 16px; font-size:0.82rem; border-radius:20px; font-weight:700; box-shadow:0 2px 8px rgba(27,67,50,0.18); cursor:pointer;" onclick="App.openGrammarExerciseModal()">
               ⚡ Practice Lesson Exercises (5 Sawalat)
             </button>
+            ${getQuizLegacyBadge(currentStage, currentLesson)}
           </div>
         `;
 
@@ -467,7 +480,15 @@ var App = (function() {
           } else if (secType === 'grid' || secType === 'three_col_list' || secType === 'waw_grid') {
             const cols = d.columns || 3;
             html += `<div class="bidi-grid cols-${cols}">`;
-            (d.items || []).forEach((it, iIdx) => {
+            const rawGrid = d.items || [];
+            const gridItems = rawGrid.some(it => it.displayOrder !== undefined)
+              ? [...rawGrid].sort((a, b) => {
+                  const ordA = a.displayOrder !== undefined ? a.displayOrder : 999999;
+                  const ordB = b.displayOrder !== undefined ? b.displayOrder : 999999;
+                  return ordA - ordB;
+                })
+              : rawGrid;
+            gridItems.forEach((it, iIdx) => {
               const itemKey = `S${currentStage}L${currentLesson}_s${sIdx}_${iIdx}`;
               const starred = isStarred(itemKey);
               const escAr = (it.arabic || '').replace(/'/g, "\\'");
@@ -486,9 +507,18 @@ var App = (function() {
               `;
             });
             html += `</div>`;
-          } else if (secType === 'two_col_numbered_list') {
-            html += `<div class="bidi-grid cols-2">`;
-            const items = d.items || [];
+          } else if (secType === 'two_col_numbered_list' || secType === 'three_col_numbered_list') {
+            const cols = secType === 'three_col_numbered_list' ? 3 : 2;
+            html += `<div class="bidi-grid cols-${cols}">`;
+            const rawItems = d.items || [];
+            const hasDisplayOrder = rawItems.some(it => it.displayOrder !== undefined);
+            const items = hasDisplayOrder
+              ? [...rawItems].sort((a, b) => {
+                  const ordA = a.displayOrder !== undefined ? a.displayOrder : 999999;
+                  const ordB = b.displayOrder !== undefined ? b.displayOrder : 999999;
+                  return ordA - ordB;
+                })
+              : rawItems;
             let i = 0;
             while (i < items.length) {
               const it = items[i];
@@ -648,8 +678,10 @@ var App = (function() {
         });
 
         if (mount) mount.innerHTML = html;
-        if (window.GrammarVisuals) {
-          const lKey = lesson.lesson_key || `S${currentStage}L${currentLesson}`;
+        const lKey = (lesson.lesson_key || `s${currentStage}l${currentLesson}`).toLowerCase();
+        if (window.VisualLoader && typeof window.VisualLoader.loadVisual === 'function') {
+          window.VisualLoader.loadVisual(lKey, 'grammar-visual-mount');
+        } else if (window.GrammarVisuals) {
           window.GrammarVisuals.mount(lKey, 'grammar-visual-mount');
         }
         renderBottomNavigation();
@@ -2267,14 +2299,56 @@ var App = (function() {
       return qs.slice(0, 5);
     }
 
-    App.openGrammarExerciseModal = function() {
+    /** @type {Record<number, any[]>} */
+    const _curatedQuizCache = {};
+
+    App.openGrammarExerciseModal = async function() {
       const stageKey = `Stage${currentStage}`;
       const stageData = (bookData && bookData.stages && bookData.stages[stageKey]) || [];
       const lesson = stageData.find(l => l.lesson_id === currentLesson) || stageData[0] || {};
       const titleEl = document.getElementById('exercise-lesson-title');
       if (titleEl) titleEl.textContent = `Unit ${currentStage} Lesson ${currentLesson}`;
 
-      exerciseQuestions = generateGrammarExercisesForLesson(lesson, currentStage);
+      const lKey = `s${currentStage}l${currentLesson}`;
+      let loadedCurated = false;
+
+      try {
+        if (!_curatedQuizCache[currentStage]) {
+          const res = await fetch(`./data/quizzes/unit${currentStage}.json`);
+          if (res.ok) {
+            _curatedQuizCache[currentStage] = await res.json();
+          }
+        }
+        const unitQuizzes = _curatedQuizCache[currentStage];
+        if (unitQuizzes && Array.isArray(unitQuizzes)) {
+          const lQuiz = unitQuizzes.find(q => (q.lessonId || '').toLowerCase() === lKey);
+          if (lQuiz && lQuiz.questions && lQuiz.questions.length >= 5) {
+            const userLang = (App.currentLanguage || 'hinglish').toLowerCase();
+            const activeLang = ['en', 'ur', 'hi', 'hinglish'].includes(userLang) ? userLang : 'hinglish';
+            exerciseQuestions = lQuiz.questions.map(q => {
+              const prompt = (q.question && q.question[activeLang]) || q.question.hinglish || q.question.en || '';
+              const opts = ((q.options && q.options[activeLang]) || q.options.hinglish || q.options.en || []).map((text, idx) => ({
+                text,
+                isCorrect: idx === q.correct,
+                explanation: (q.explanation && q.explanation[activeLang]) || q.explanation.hinglish || q.explanation.en || ''
+              }));
+              return {
+                prompt,
+                arabic: '',
+                options: opts
+              };
+            });
+            loadedCurated = true;
+          }
+        }
+      } catch (err) {
+        console.warn('[Quiz] Curated quiz load failed, falling back:', err);
+      }
+
+      if (!loadedCurated) {
+        exerciseQuestions = generateGrammarExercisesForLesson(lesson, currentStage);
+      }
+
       exerciseCurrentIdx = 0;
       exerciseScore = 0;
 
@@ -2339,7 +2413,7 @@ var App = (function() {
       if (chosen.isCorrect) {
         exerciseScore++;
         if (chosenBtn) chosenBtn.classList.add('correct');
-        if (window.AudioFX) window.AudioFX.play('pop');
+        if (window.AudioFX) window.AudioFX.play('correct');
         if (expBox) {
           expBox.style.display = 'block';
           expBox.style.background = 'rgba(5, 150, 105, 0.12)';
@@ -2348,7 +2422,7 @@ var App = (function() {
         }
       } else {
         if (chosenBtn) chosenBtn.classList.add('wrong');
-        if (window.AudioFX) window.AudioFX.play('whoosh');
+        if (window.AudioFX) window.AudioFX.play('wrong');
         q.options.forEach((opt, idx) => {
           if (opt.isCorrect) {
             const correctBtn = document.getElementById(`opt-btn-${idx}`);
@@ -2383,6 +2457,29 @@ var App = (function() {
         const icon = document.getElementById('exercise-score-icon');
         const text = document.getElementById('exercise-final-score-text');
         const pct = Math.round((exerciseScore / exerciseQuestions.length) * 100);
+
+        // Save score and migrate legacy format
+        try {
+          const scoreKey = `muallim_quiz_scores_s${currentStage}l${currentLesson}`;
+          const existing = localStorage.getItem(scoreKey);
+          let scoreObj = {
+            scores: [exerciseScore],
+            score: exerciseScore,
+            total: exerciseQuestions.length,
+            legacy_mastered: true,
+            timestamp: Date.now()
+          };
+          if (existing) {
+            try {
+              const parsed = JSON.parse(existing);
+              if (parsed && typeof parsed === 'object') {
+                scoreObj.scores = Array.isArray(parsed.scores) ? [...parsed.scores, exerciseScore] : [exerciseScore];
+                scoreObj.legacy_mastered = true;
+              }
+            } catch (e) {}
+          }
+          localStorage.setItem(scoreKey, JSON.stringify(scoreObj));
+        } catch (e) {}
 
         if (pct >= 80) {
           icon.textContent = '🏆';
@@ -4414,4 +4511,114 @@ var App = (function() {
       navigator.serviceWorker.register('./sw.js').catch(function(err) {
         console.warn('[Muallim] ServiceWorker registration failed:', err);
       });
+      navigator.serviceWorker.addEventListener('message', function(e) {
+        if (e.data && e.data.type === 'SW_UPDATED') {
+          if (typeof showToast === 'function') {
+            showToast('Naya version uplabdh hai! 🔄 Refresh karein.', 6000);
+          }
+        }
+      });
+    }
+
+    // ─── IN-APP DIAGNOSTIC RUNNER (?debug=test) ──────────────────────────
+    async function runInAppDiagnostics() {
+      if (!window.location.search.includes('debug=test')) return;
+      if (window.location.hostname === 'muallim.app' || window.location.hostname === 'muallim-123.web.app' || window.location.hostname.endsWith('github.io')) return; // D8-4: disabled on production domains
+
+      console.log('[Diagnostic] Running Muallim Diagnostic Suite...');
+      let reportEl = document.getElementById('debug-report');
+      if (!reportEl) {
+        reportEl = document.createElement('div');
+        reportEl.id = 'debug-report';
+        reportEl.style.cssText = 'position:fixed; top:12px; right:12px; width:340px; max-height:85vh; overflow-y:auto; background:#0f172a; color:#f8fafc; padding:16px; border-radius:12px; z-index:999999; box-shadow:0 10px 30px rgba(0,0,0,0.6); font-family:monospace; font-size:12px; line-height:1.4; border:1px solid #334155;';
+        document.body.appendChild(reportEl);
+      }
+      reportEl.innerHTML = '<h3 style="margin:0 0 8px; color:#38bdf8; font-size:14px;">Muallim Diagnostic Suite (v10.0)</h3><p style="color:#94a3b8; margin:0 0 8px;">Auditing 113 lessons & 565 quiz questions...</p><div id="debug-log"></div>';
+      const logEl = document.getElementById('debug-log');
+
+      let passedVisuals = 0;
+      let failedVisuals = 0;
+      let passedQuizzes = 0;
+      let failedQuizzes = 0;
+
+      const sandbox = document.createElement('div');
+      sandbox.id = 'diagnostic-visual-sandbox';
+      sandbox.style.cssText = 'position:absolute; width:0; height:0; overflow:hidden; opacity:0; pointer-events:none;';
+      document.body.appendChild(sandbox);
+
+      // 1. Audit all 7 quiz files
+      for (let u = 1; u <= 7; u++) {
+        try {
+          const res = await fetch(`./data/quizzes/unit${u}.json`);
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const list = await res.json();
+          if (!Array.isArray(list)) throw new Error('Root is not an array');
+          list.forEach(lq => {
+            if (!lq.lessonId || !Array.isArray(lq.questions) || lq.questions.length !== 5) {
+              throw new Error(`${lq.lessonId} invalid question count: ${lq.questions?.length}`);
+            }
+            lq.questions.forEach(q => {
+              if (typeof q.correct !== 'number' || q.correct < 0 || q.correct > 3) {
+                throw new Error(`${q.id} invalid correct index: ${q.correct}`);
+              }
+              ['en', 'ur', 'hi', 'hinglish'].forEach(lang => {
+                if (!q.question[lang] || !q.explanation[lang] || !Array.isArray(q.options[lang]) || q.options[lang].length !== 4) {
+                  throw new Error(`${q.id} missing or invalid language data: ${lang}`);
+                }
+              });
+              passedQuizzes++;
+            });
+          });
+        } catch (err) {
+          failedQuizzes++;
+          if (logEl) logEl.innerHTML += `<div style="color:#ef4444;">✗ Quiz Unit ${u}: ${err.message}</div>`;
+        }
+      }
+
+      // 2. Audit all 113 lessons visual mount / destroy
+      const stageCounts = [19, 13, 10, 17, 23, 21, 10];
+      for (let u = 1; u <= 7; u++) {
+        const lCount = stageCounts[u - 1];
+        for (let l = 1; l <= lCount; l++) {
+          const lKey = `s${u}l${l}`;
+          try {
+            if (window.VisualLoader && typeof window.VisualLoader.loadVisual === 'function') {
+              await window.VisualLoader.loadVisual(lKey, 'diagnostic-visual-sandbox');
+              window.VisualLoader.destroyVisual('diagnostic-visual-sandbox');
+            } else if (window.GrammarVisuals && window.GrammarVisuals.Registry && window.GrammarVisuals.Registry[lKey]) {
+              window.GrammarVisuals.Registry[lKey]('diagnostic-visual-sandbox');
+              sandbox.innerHTML = '';
+            }
+            passedVisuals++;
+          } catch (err) {
+            failedVisuals++;
+            if (logEl) logEl.innerHTML += `<div style="color:#ef4444;">✗ Visual ${lKey}: ${err.message}</div>`;
+          }
+        }
+      }
+
+      sandbox.remove();
+
+      const totalStatus = (failedVisuals === 0 && failedQuizzes === 0) 
+        ? '<span style="color:#22c55e; font-weight:bold;">ALL PASS ✓</span>' 
+        : '<span style="color:#ef4444; font-weight:bold;">FAILURES DETECTED ✗</span>';
+
+      reportEl.innerHTML = `
+        <h3 style="margin:0 0 8px; color:#38bdf8; font-size:14px;">Muallim Diagnostic Suite (v10.0)</h3>
+        <div style="margin-bottom:8px;">Verdict: ${totalStatus}</div>
+        <div style="color:#22c55e;">● Visual Lifecycle: ${passedVisuals} / 113 passed</div>
+        <div style="color:#22c55e;">● Multilingual Quizzes: ${passedQuizzes} / 565 questions passed</div>
+        ${failedVisuals > 0 ? `<div style="color:#ef4444;">● Visual Failures: ${failedVisuals}</div>` : ''}
+        ${failedQuizzes > 0 ? `<div style="color:#ef4444;">● Quiz Failures: ${failedQuizzes}</div>` : ''}
+        <div style="margin-top:12px; text-align:right;">
+          <button style="background:#334155; color:#fff; border:none; padding:4px 10px; border-radius:6px; font-size:11px; cursor:pointer;" onclick="document.getElementById('debug-report').remove()">Dismiss</button>
+        </div>
+      `;
+    }
+
+    if (typeof window !== 'undefined') {
+      window.addEventListener('DOMContentLoaded', runInAppDiagnostics);
+      if (document.readyState === 'complete' || document.readyState === 'interactive') {
+        runInAppDiagnostics();
+      }
     }

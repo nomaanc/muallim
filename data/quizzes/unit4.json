@@ -1,0 +1,3742 @@
+[
+  {
+    "lessonId": "s4l1",
+    "questions": [
+      {
+        "id": "s4l1-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Zameer Munfasil (هُوَ) teach regarding pronouns?",
+          "ur": "Zameer Munfasil (هُوَ) ضمائر کے بارے میں کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Zameer Munfasil (هُوَ) ज़माएर के बारे में क्या क़ायदा सिखाता है?",
+          "hinglish": "Zameer Munfasil ('هُوَ') zama'ir ke baare mein kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms 'هُوَ رَسُولٌ' as a complete unit",
+            "Pronoun is completely deleted",
+            "Converts word into plural verb",
+            "Changes meaning to future tense"
+          ],
+          "ur": [
+            "مل کر 'هُوَ رَسُولٌ' بناتا ہے",
+            "ضمیر مکمل ساقط ہو جاتی ہے",
+            "لفظ کو فعل جمع بنا دیتا ہے",
+            "معنی کو مستقبل میں بدل دیتا ہے"
+          ],
+          "hi": [
+            "मिलकर 'هُوَ رَسُولٌ' बनाता है",
+            "ज़मीर मुकम्मल साक़ित हो जाती है",
+            "लफ़्ज़ को फेल जमा बना देता है",
+            "मानी को मुस्तक़बिल में बदल देता है"
+          ],
+          "hinglish": [
+            "Milkar 'هُوَ رَسُولٌ' banata hai",
+            "Zameer mukammal saaqit ho jaati hai",
+            "Lafz ko fe'l jama bana deta hai",
+            "Maani ko mustaqbil mein badal deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The construction creates 'هُوَ رَسُولٌ'.",
+          "ur": "ترکیب کے نتیجے میں 'هُوَ رَسُولٌ' بنتا ہے۔",
+          "hi": "तरकीब के नतीजे में 'هُوَ رَسُولٌ' बनता है।",
+          "hinglish": "Tarkeeb ke nateeje mein 'هُوَ رَسُولٌ' banta hai."
+        }
+      },
+      {
+        "id": "s4l1-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which phrase correctly demonstrates Zameer Munfasil (هُوَ)?",
+          "ur": "درج ذیل میں سے کون سی عبارت Zameer Munfasil (هُوَ) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सी इबारत Zameer Munfasil (هُوَ) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun si ibarat Zameer Munfasil ('هُوَ') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "هُوَ رَسُولٌ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "ur": [
+            "هُوَ رَسُولٌ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hi": [
+            "هُوَ رَسُولٌ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hinglish": [
+            "هُوَ رَسُولٌ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ]
+        },
+        "explanation": {
+          "en": "'هُوَ رَسُولٌ' is the exact application of this pronoun rule.",
+          "ur": "'هُوَ رَسُولٌ' اس قاعدے کی درست تطبیق ہے۔",
+          "hi": "'هُوَ رَسُولٌ' इस क़ायदे की सही मिसाल है।",
+          "hinglish": "'هُوَ رَسُولٌ' is qaaide ki sahi tatbeeq hai."
+        }
+      },
+      {
+        "id": "s4l1-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'هُوَ رَسُولٌ', identify the base stem before the pronoun:",
+          "ur": "'هُوَ رَسُولٌ' میں ضمیر سے پہلے اصل لفظ کیا ہے؟",
+          "hi": "'هُوَ رَسُولٌ' में ज़मीर से पहले असल लफ़्ज़ क्या है?",
+          "hinglish": "'هُوَ رَسُولٌ' mein zameer se pehle asal lafz kya hai?"
+        },
+        "options": {
+          "en": [
+            "رَسُولٌ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "رَسُولٌ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "رَسُولٌ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "رَسُولٌ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The base root/word is 'رَسُولٌ'.",
+          "ur": "اس کی بنیاد 'رَسُولٌ' پر ہے۔",
+          "hi": "इसकी बुनियाद 'رَسُولٌ' पर है।",
+          "hinglish": "Iski bunyad 'رَسُولٌ' par hai."
+        }
+      },
+      {
+        "id": "s4l1-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word '﴿هُوَ اللهُ﴾'?",
+          "ur": "قرآنی لفظ '﴿هُوَ اللهُ﴾' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ '﴿هُوَ اللهُ﴾' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz '﴿'هُوَ' اللهُ﴾' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "He is Allah",
+            "It is good",
+            "He is a poet",
+            "He is a deity"
+          ],
+          "ur": [
+            "وہ اللہ ہے",
+            "وہ بھلائی ہے",
+            "وہ شاعر ہے",
+            "وہ معبود ہے"
+          ],
+          "hi": [
+            "वह अल्लाह है",
+            "वह भलाई है",
+            "वह शायर है",
+            "वह माबूद है"
+          ],
+          "hinglish": [
+            "woh Allah hai",
+            "woh bhalai hai",
+            "woh shayar hai",
+            "woh mabood hai"
+          ]
+        },
+        "explanation": {
+          "en": "'﴿هُوَ اللهُ﴾' translates to 'He is Allah'.",
+          "ur": "'﴿هُوَ اللهُ﴾' کا معنی 'وہ اللہ ہے' ہے۔",
+          "hi": "'﴿هُوَ اللهُ﴾' का मतलब 'वह अल्लाह है' है।",
+          "hinglish": "'﴿'هُوَ' اللهُ﴾' ka matlab 'woh Allah hai' hai."
+        }
+      },
+      {
+        "id": "s4l1-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: '﴿هُوَ شِفَاءٌ﴾'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: '﴿هُوَ شِفَاءٌ﴾'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: '﴿هُوَ شِفَاءٌ﴾'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: '﴿'هُوَ' شِفَاءٌ﴾'"
+        },
+        "options": {
+          "en": [
+            "It is good",
+            "It is a healing",
+            "He is a poet",
+            "He is a deity"
+          ],
+          "ur": [
+            "وہ بھلائی ہے",
+            "وہ شفا ہے",
+            "وہ شاعر ہے",
+            "وہ معبود ہے"
+          ],
+          "hi": [
+            "वह भलाई है",
+            "वह शिफ़ा है",
+            "वह शायर है",
+            "वह माबूद है"
+          ],
+          "hinglish": [
+            "woh bhalai hai",
+            "woh shifa hai",
+            "woh shayar hai",
+            "woh mabood hai"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase '﴿هُوَ شِفَاءٌ﴾' means 'It is a healing'.",
+          "ur": "'﴿هُوَ شِفَاءٌ﴾' کا مفہوم 'وہ شفا ہے' ہے۔",
+          "hi": "'﴿هُوَ شِفَاءٌ﴾' का मतलब 'वह शिफ़ा है' है।",
+          "hinglish": "'﴿'هُوَ' شِفَاءٌ﴾' ka matlab 'woh shifa hai' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s4l2",
+    "questions": [
+      {
+        "id": "s4l2-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Zameer Muttasil (ـهُ) teach regarding pronouns?",
+          "ur": "Zameer Muttasil (ـهُ) ضمائر کے بارے میں کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Zameer Muttasil (ـهُ) ज़माएर के बारे में क्या क़ायदा सिखाता है?",
+          "hinglish": "Zameer Muttasil ('ـهُ') zama'ir ke baare mein kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms 'بَيْتُهُ' as a complete unit",
+            "Pronoun is completely deleted",
+            "Converts word into plural verb",
+            "Changes meaning to future tense"
+          ],
+          "ur": [
+            "مل کر 'بَيْتُهُ' بناتا ہے",
+            "ضمیر مکمل ساقط ہو جاتی ہے",
+            "لفظ کو فعل جمع بنا دیتا ہے",
+            "معنی کو مستقبل میں بدل دیتا ہے"
+          ],
+          "hi": [
+            "मिलकर 'بَيْتُهُ' बनाता है",
+            "ज़मीर मुकम्मल साक़ित हो जाती है",
+            "लफ़्ज़ को फेल जमा बना देता है",
+            "मानी को मुस्तक़बिल में बदल देता है"
+          ],
+          "hinglish": [
+            "Milkar 'بَيْتُهُ' banata hai",
+            "Zameer mukammal saaqit ho jaati hai",
+            "Lafz ko fe'l jama bana deta hai",
+            "Maani ko mustaqbil mein badal deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The construction creates 'بَيْتُهُ'.",
+          "ur": "ترکیب کے نتیجے میں 'بَيْتُهُ' بنتا ہے۔",
+          "hi": "तरकीब के नतीजे में 'بَيْتُهُ' बनता है।",
+          "hinglish": "Tarkeeb ke nateeje mein 'بَيْتُهُ' banta hai."
+        }
+      },
+      {
+        "id": "s4l2-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which phrase correctly demonstrates Zameer Muttasil (ـهُ)?",
+          "ur": "درج ذیل میں سے کون سی عبارت Zameer Muttasil (ـهُ) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सी इबारत Zameer Muttasil (ـهُ) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun si ibarat Zameer Muttasil ('ـهُ') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "بَيْتُهُ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "ur": [
+            "بَيْتُهُ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hi": [
+            "بَيْتُهُ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hinglish": [
+            "بَيْتُهُ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ]
+        },
+        "explanation": {
+          "en": "'بَيْتُهُ' is the exact application of this pronoun rule.",
+          "ur": "'بَيْتُهُ' اس قاعدے کی درست تطبیق ہے۔",
+          "hi": "'بَيْتُهُ' इस क़ायदे की सही मिसाल है।",
+          "hinglish": "'بَيْتُهُ' is qaaide ki sahi tatbeeq hai."
+        }
+      },
+      {
+        "id": "s4l2-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'بَيْتُهُ', identify the base stem before the pronoun:",
+          "ur": "'بَيْتُهُ' میں ضمیر سے پہلے اصل لفظ کیا ہے؟",
+          "hi": "'بَيْتُهُ' में ज़मीर से पहले असल लफ़्ज़ क्या है?",
+          "hinglish": "'بَيْتُهُ' mein zameer se pehle asal lafz kya hai?"
+        },
+        "options": {
+          "en": [
+            "بَيْتٌ + هُوَ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "بَيْتٌ + هُوَ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "بَيْتٌ + هُوَ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "بَيْتٌ + هُوَ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The base root/word is 'بَيْتٌ + هُوَ'.",
+          "ur": "اس کی بنیاد 'بَيْتٌ + هُوَ' پر ہے۔",
+          "hi": "इसकी बुनियाद 'بَيْتٌ + هُوَ' पर है।",
+          "hinglish": "Iski bunyad 'بَيْتٌ + هُوَ' par hai."
+        }
+      },
+      {
+        "id": "s4l2-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'رَبٌّ : رَبُّهُ'?",
+          "ur": "قرآنی لفظ 'رَبٌّ : رَبُّهُ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'رَبٌّ : رَبُّهُ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'رَبٌّ : رَبُّهُ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Lord : His Lord",
+            "People : His people",
+            "Throne : His Throne",
+            "Deed : His deed"
+          ],
+          "ur": [
+            "رب : اس کا رب",
+            "قوم : اس کی قوم",
+            "عرش : اس کا عرش",
+            "عمل : اس کا عمل"
+          ],
+          "hi": [
+            "रब : उसका रब",
+            "क़ौम : उसकी क़ौम",
+            "अर्श : उसका अर्श",
+            "अमल : उसका अमल"
+          ],
+          "hinglish": [
+            "Rabb : uska Rabb",
+            "qom : uski qom",
+            "arsh : uska arsh",
+            "amal : uska amal"
+          ]
+        },
+        "explanation": {
+          "en": "'رَبٌّ : رَبُّهُ' translates to 'Lord : His Lord'.",
+          "ur": "'رَبٌّ : رَبُّهُ' کا معنی 'رب : اس کا رب' ہے۔",
+          "hi": "'رَبٌّ : رَبُّهُ' का मतलब 'रब : उसका रब' है।",
+          "hinglish": "'رَبٌّ : رَبُّهُ' ka matlab 'Rabb : uska Rabb' hai."
+        }
+      },
+      {
+        "id": "s4l2-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'رَسُولٌ : رَسُولُهُ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'رَسُولٌ : رَسُولُهُ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'رَسُولٌ : رَسُولُهُ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'رَسُولٌ : رَسُولُهُ'"
+        },
+        "options": {
+          "en": [
+            "People : His people",
+            "Messenger : His Messenger",
+            "Throne : His Throne",
+            "Deed : His deed"
+          ],
+          "ur": [
+            "قوم : اس کی قوم",
+            "رسول : اس کا رسول",
+            "عرش : اس کا عرش",
+            "عمل : اس کا عمل"
+          ],
+          "hi": [
+            "क़ौम : उसकी क़ौम",
+            "रसूल : उसका रसूल",
+            "अर्श : उसका अर्श",
+            "अमल : उसका अमल"
+          ],
+          "hinglish": [
+            "qom : uski qom",
+            "Rasool : uska Rasool",
+            "arsh : uska arsh",
+            "amal : uska amal"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'رَسُولٌ : رَسُولُهُ' means 'Messenger : His Messenger'.",
+          "ur": "'رَسُولٌ : رَسُولُهُ' کا مفہوم 'رسول : اس کا رسول' ہے۔",
+          "hi": "'رَسُولٌ : رَسُولُهُ' का मतलब 'रसूल : उसका रसूल' है।",
+          "hinglish": "'رَسُولٌ : رَسُولُهُ' ka matlab 'Rasool : uska Rasool' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s4l3",
+    "questions": [
+      {
+        "id": "s4l3-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Vowel Harmony (ـهِ) teach regarding pronouns?",
+          "ur": "Vowel Harmony (ـهِ) ضمائر کے بارے میں کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Vowel Harmony (ـهِ) ज़माएर के बारे में क्या क़ायदा सिखाता है?",
+          "hinglish": "Vowel Harmony ('ـهِ') zama'ir ke baare mein kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms 'فِي بَيْتِهِ' as a complete unit",
+            "Pronoun is completely deleted",
+            "Converts word into plural verb",
+            "Changes meaning to future tense"
+          ],
+          "ur": [
+            "مل کر 'فِي بَيْتِهِ' بناتا ہے",
+            "ضمیر مکمل ساقط ہو جاتی ہے",
+            "لفظ کو فعل جمع بنا دیتا ہے",
+            "معنی کو مستقبل میں بدل دیتا ہے"
+          ],
+          "hi": [
+            "मिलकर 'فِي بَيْتِهِ' बनाता है",
+            "ज़मीर मुकम्मल साक़ित हो जाती है",
+            "लफ़्ज़ को फेल जमा बना देता है",
+            "मानी को मुस्तक़बिल में बदल देता है"
+          ],
+          "hinglish": [
+            "Milkar 'فِي بَيْتِهِ' banata hai",
+            "Zameer mukammal saaqit ho jaati hai",
+            "Lafz ko fe'l jama bana deta hai",
+            "Maani ko mustaqbil mein badal deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The construction creates 'فِي بَيْتِهِ'.",
+          "ur": "ترکیب کے نتیجے میں 'فِي بَيْتِهِ' بنتا ہے۔",
+          "hi": "तरकीब के नतीजे में 'فِي بَيْتِهِ' बनता है।",
+          "hinglish": "Tarkeeb ke nateeje mein 'فِي بَيْتِهِ' banta hai."
+        }
+      },
+      {
+        "id": "s4l3-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which phrase correctly demonstrates Vowel Harmony (ـهِ)?",
+          "ur": "درج ذیل میں سے کون سی عبارت Vowel Harmony (ـهِ) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सी इबारत Vowel Harmony (ـهِ) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun si ibarat Vowel Harmony ('ـهِ') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "فِي بَيْتِهِ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "ur": [
+            "فِي بَيْتِهِ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hi": [
+            "فِي بَيْتِهِ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hinglish": [
+            "فِي بَيْتِهِ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ]
+        },
+        "explanation": {
+          "en": "'فِي بَيْتِهِ' is the exact application of this pronoun rule.",
+          "ur": "'فِي بَيْتِهِ' اس قاعدے کی درست تطبیق ہے۔",
+          "hi": "'فِي بَيْتِهِ' इस क़ायदे की सही मिसाल है।",
+          "hinglish": "'فِي بَيْتِهِ' is qaaide ki sahi tatbeeq hai."
+        }
+      },
+      {
+        "id": "s4l3-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'فِي بَيْتِهِ', identify the base stem before the pronoun:",
+          "ur": "'فِي بَيْتِهِ' میں ضمیر سے پہلے اصل لفظ کیا ہے؟",
+          "hi": "'فِي بَيْتِهِ' में ज़मीर से पहले असल लफ़्ज़ क्या है?",
+          "hinglish": "'فِي بَيْتِهِ' mein zameer se pehle asal lafz kya hai?"
+        },
+        "options": {
+          "en": [
+            "بَيْتُهُ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "بَيْتُهُ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "بَيْتُهُ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "بَيْتُهُ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The base root/word is 'بَيْتُهُ'.",
+          "ur": "اس کی بنیاد 'بَيْتُهُ' پر ہے۔",
+          "hi": "इसकी बुनियाद 'بَيْتُهُ' पर है।",
+          "hinglish": "Iski bunyad 'بَيْتُهُ' par hai."
+        }
+      },
+      {
+        "id": "s4l3-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'عَلَى رَبِّهِ'?",
+          "ur": "قرآنی لفظ 'عَلَى رَبِّهِ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'عَلَى رَبِّهِ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'عَلَى رَبِّهِ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Upon his Lord",
+            "Upon his soul",
+            "Upon His unseen",
+            "Upon his face"
+          ],
+          "ur": [
+            "اس کے رب پر",
+            "اس کی جان پر",
+            "اس کے غیب پر",
+            "اس کے چہرے پر"
+          ],
+          "hi": [
+            "उसके रब पर",
+            "उसकी जान पर",
+            "उसके ग़ैब पर",
+            "उसके चेहरे पर"
+          ],
+          "hinglish": [
+            "uske Rabb par",
+            "uski jaan par",
+            "uske ghaib par",
+            "uske chehre par"
+          ]
+        },
+        "explanation": {
+          "en": "'عَلَى رَبِّهِ' translates to 'Upon his Lord'.",
+          "ur": "'عَلَى رَبِّهِ' کا معنی 'اس کے رب پر' ہے۔",
+          "hi": "'عَلَى رَبِّهِ' का मतलब 'उसके रब पर' है।",
+          "hinglish": "'عَلَى رَبِّهِ' ka matlab 'uske Rabb par' hai."
+        }
+      },
+      {
+        "id": "s4l3-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'عَلَى رَسُولِهِ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'عَلَى رَسُولِهِ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'عَلَى رَسُولِهِ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'عَلَى رَسُولِهِ'"
+        },
+        "options": {
+          "en": [
+            "Upon his soul",
+            "Upon His Messenger",
+            "Upon His unseen",
+            "Upon his face"
+          ],
+          "ur": [
+            "اس کی جان پر",
+            "اس کے رسول پر",
+            "اس کے غیب پر",
+            "اس کے چہرے پر"
+          ],
+          "hi": [
+            "उसकी जान पर",
+            "उसके रसूल पर",
+            "उसके ग़ैब पर",
+            "उसके चेहरे पर"
+          ],
+          "hinglish": [
+            "uski jaan par",
+            "uske Rasool par",
+            "uske ghaib par",
+            "uske chehre par"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'عَلَى رَسُولِهِ' means 'Upon His Messenger'.",
+          "ur": "'عَلَى رَسُولِهِ' کا مفہوم 'اس کے رسول پر' ہے۔",
+          "hi": "'عَلَى رَسُولِهِ' का मतलब 'उसके रसूल पर' है।",
+          "hinglish": "'عَلَى رَسُولِهِ' ka matlab 'uske Rasool par' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s4l4",
+    "questions": [
+      {
+        "id": "s4l4-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Huroof + Zameer teach regarding pronouns?",
+          "ur": "Huroof + Zameer ضمائر کے بارے میں کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Huroof + Zameer ज़माएर के बारे में क्या क़ायदा सिखाता है?",
+          "hinglish": "Huroof + Zameer zama'ir ke baare mein kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms 'لَهُ / مِنْهُ / فِيهِ' as a complete unit",
+            "Pronoun is completely deleted",
+            "Converts word into plural verb",
+            "Changes meaning to future tense"
+          ],
+          "ur": [
+            "مل کر 'لَهُ / مِنْهُ / فِيهِ' بناتا ہے",
+            "ضمیر مکمل ساقط ہو جاتی ہے",
+            "لفظ کو فعل جمع بنا دیتا ہے",
+            "معنی کو مستقبل میں بدل دیتا ہے"
+          ],
+          "hi": [
+            "मिलकर 'لَهُ / مِنْهُ / فِيهِ' बनाता है",
+            "ज़मीर मुकम्मल साक़ित हो जाती है",
+            "लफ़्ज़ को फेल जमा बना देता है",
+            "मानी को मुस्तक़बिल में बदल देता है"
+          ],
+          "hinglish": [
+            "Milkar 'لَهُ / مِنْهُ / فِيهِ' banata hai",
+            "Zameer mukammal saaqit ho jaati hai",
+            "Lafz ko fe'l jama bana deta hai",
+            "Maani ko mustaqbil mein badal deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The construction creates 'لَهُ / مِنْهُ / فِيهِ'.",
+          "ur": "ترکیب کے نتیجے میں 'لَهُ / مِنْهُ / فِيهِ' بنتا ہے۔",
+          "hi": "तरकीब के नतीजे में 'لَهُ / مِنْهُ / فِيهِ' बनता है।",
+          "hinglish": "Tarkeeb ke nateeje mein 'لَهُ / 'مِنْهُ' / فِيهِ' banta hai."
+        }
+      },
+      {
+        "id": "s4l4-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which phrase correctly demonstrates Huroof + Zameer?",
+          "ur": "درج ذیل میں سے کون سی عبارت Huroof + Zameer کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सी इबारत Huroof + Zameer की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun si ibarat Huroof + Zameer ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "لَهُ / مِنْهُ / فِيهِ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "ur": [
+            "لَهُ / مِنْهُ / فِيهِ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hi": [
+            "لَهُ / مِنْهُ / فِيهِ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hinglish": [
+            "لَهُ / مِنْهُ / فِيهِ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ]
+        },
+        "explanation": {
+          "en": "'لَهُ / مِنْهُ / فِيهِ' is the exact application of this pronoun rule.",
+          "ur": "'لَهُ / مِنْهُ / فِيهِ' اس قاعدے کی درست تطبیق ہے۔",
+          "hi": "'لَهُ / مِنْهُ / فِيهِ' इस क़ायदे की सही मिसाल है।",
+          "hinglish": "'لَهُ / 'مِنْهُ' / فِيهِ' is qaaide ki sahi tatbeeq hai."
+        }
+      },
+      {
+        "id": "s4l4-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'لَهُ / مِنْهُ / فِيهِ', identify the base stem before the pronoun:",
+          "ur": "'لَهُ / مِنْهُ / فِيهِ' میں ضمیر سے پہلے اصل لفظ کیا ہے؟",
+          "hi": "'لَهُ / مِنْهُ / فِيهِ' में ज़मीर से पहले असल लफ़्ज़ क्या है?",
+          "hinglish": "'لَهُ / 'مِنْهُ' / فِيهِ' mein zameer se pehle asal lafz kya hai?"
+        },
+        "options": {
+          "en": [
+            "لِـ / مِنْ / فِي",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "لِـ / مِنْ / فِي",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "لِـ / مِنْ / فِي",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "لِـ / مِنْ / فِي",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The base root/word is 'لِـ / مِنْ / فِي'.",
+          "ur": "اس کی بنیاد 'لِـ / مِنْ / فِي' پر ہے۔",
+          "hi": "इसकी बुनियाद 'لِـ / مِنْ / فِي' पर है।",
+          "hinglish": "Iski bunyad 'لِـ / 'مِنْ' / فِي' par hai."
+        }
+      },
+      {
+        "id": "s4l4-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'لَهُ جَنَّةٌ'?",
+          "ur": "قرآنی لفظ 'لَهُ جَنَّةٌ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'لَهُ جَنَّةٌ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'لَهُ جَنَّةٌ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "For him is a garden",
+            "Then for him is his reward",
+            "For him is guidance",
+            "For him is his Lord"
+          ],
+          "ur": [
+            "اس کے لیے جنت ہے",
+            "تو اس کے لیے اس کا اجر ہے",
+            "اس کے لیے ہدایت ہے",
+            "اس کے لیے اس کا رب ہے"
+          ],
+          "hi": [
+            "उसके लिए जन्नत है",
+            "तो उसके लिए उसका अज्र है",
+            "उसके लिए हिदायत है",
+            "उसके लिए उसका रब है"
+          ],
+          "hinglish": [
+            "uske liye jannat hai",
+            "toh uske liye uska ajr hai",
+            "uske liye hidayat hai",
+            "uske liye uska Rabb hai"
+          ]
+        },
+        "explanation": {
+          "en": "'لَهُ جَنَّةٌ' translates to 'For him is a garden'.",
+          "ur": "'لَهُ جَنَّةٌ' کا معنی 'اس کے لیے جنت ہے' ہے۔",
+          "hi": "'لَهُ جَنَّةٌ' का मतलब 'उसके लिए जन्नत है' है।",
+          "hinglish": "'لَهُ جَنَّةٌ' ka matlab 'uske liye jannat hai' hai."
+        }
+      },
+      {
+        "id": "s4l4-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'لَهُ فِي الْآخِرَةِ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'لَهُ فِي الْآخِرَةِ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'لَهُ فِي الْآخِرَةِ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'لَهُ 'فِي' الْآخِرَةِ'"
+        },
+        "options": {
+          "en": [
+            "Then for him is his reward",
+            "For him in the Hereafter",
+            "For him is guidance",
+            "For him is his Lord"
+          ],
+          "ur": [
+            "تو اس کے لیے اس کا اجر ہے",
+            "اس کے لیے آخرت میں",
+            "اس کے لیے ہدایت ہے",
+            "اس کے لیے اس کا رب ہے"
+          ],
+          "hi": [
+            "तो उसके लिए उसका अज्र है",
+            "उसके लिए आख़िरत में",
+            "उसके लिए हिदायत है",
+            "उसके लिए उसका रब है"
+          ],
+          "hinglish": [
+            "toh uske liye uska ajr hai",
+            "uske liye aakhirat mein",
+            "uske liye hidayat hai",
+            "uske liye uska Rabb hai"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'لَهُ فِي الْآخِرَةِ' means 'For him in the Hereafter'.",
+          "ur": "'لَهُ فِي الْآخِرَةِ' کا مفہوم 'اس کے لیے آخرت میں' ہے۔",
+          "hi": "'لَهُ فِي الْآخِرَةِ' का मतलब 'उसके लिए आख़िरत में' है।",
+          "hinglish": "'لَهُ 'فِي' الْآخِرَةِ' ka matlab 'uske liye aakhirat mein' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s4l5",
+    "questions": [
+      {
+        "id": "s4l5-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Zameer Munfasil (أَنْتَ) teach regarding pronouns?",
+          "ur": "Zameer Munfasil (أَنْتَ) ضمائر کے بارے میں کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Zameer Munfasil (أَنْتَ) ज़माएर के बारे में क्या क़ायदा सिखाता है?",
+          "hinglish": "Zameer Munfasil ('أَنْتَ') zama'ir ke baare mein kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms 'أَنْتَ يُوسُفُ' as a complete unit",
+            "Pronoun is completely deleted",
+            "Converts word into plural verb",
+            "Changes meaning to future tense"
+          ],
+          "ur": [
+            "مل کر 'أَنْتَ يُوسُفُ' بناتا ہے",
+            "ضمیر مکمل ساقط ہو جاتی ہے",
+            "لفظ کو فعل جمع بنا دیتا ہے",
+            "معنی کو مستقبل میں بدل دیتا ہے"
+          ],
+          "hi": [
+            "मिलकर 'أَنْتَ يُوسُفُ' बनाता है",
+            "ज़मीर मुकम्मल साक़ित हो जाती है",
+            "लफ़्ज़ को फेल जमा बना देता है",
+            "मानी को मुस्तक़बिल में बदल देता है"
+          ],
+          "hinglish": [
+            "Milkar 'أَنْتَ يُوسُفُ' banata hai",
+            "Zameer mukammal saaqit ho jaati hai",
+            "Lafz ko fe'l jama bana deta hai",
+            "Maani ko mustaqbil mein badal deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The construction creates 'أَنْتَ يُوسُفُ'.",
+          "ur": "ترکیب کے نتیجے میں 'أَنْتَ يُوسُفُ' بنتا ہے۔",
+          "hi": "तरकीब के नतीजे में 'أَنْتَ يُوسُفُ' बनता है।",
+          "hinglish": "Tarkeeb ke nateeje mein 'أَنْتَ يُوسُفُ' banta hai."
+        }
+      },
+      {
+        "id": "s4l5-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which phrase correctly demonstrates Zameer Munfasil (أَنْتَ)?",
+          "ur": "درج ذیل میں سے کون سی عبارت Zameer Munfasil (أَنْتَ) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सी इबारत Zameer Munfasil (أَنْتَ) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun si ibarat Zameer Munfasil ('أَنْتَ') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "أَنْتَ يُوسُفُ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "ur": [
+            "أَنْتَ يُوسُفُ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hi": [
+            "أَنْتَ يُوسُفُ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hinglish": [
+            "أَنْتَ يُوسُفُ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ]
+        },
+        "explanation": {
+          "en": "'أَنْتَ يُوسُفُ' is the exact application of this pronoun rule.",
+          "ur": "'أَنْتَ يُوسُفُ' اس قاعدے کی درست تطبیق ہے۔",
+          "hi": "'أَنْتَ يُوسُفُ' इस क़ायदे की सही मिसाल है।",
+          "hinglish": "'أَنْتَ يُوسُفُ' is qaaide ki sahi tatbeeq hai."
+        }
+      },
+      {
+        "id": "s4l5-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'أَنْتَ يُوسُفُ', identify the base stem before the pronoun:",
+          "ur": "'أَنْتَ يُوسُفُ' میں ضمیر سے پہلے اصل لفظ کیا ہے؟",
+          "hi": "'أَنْتَ يُوسُفُ' में ज़मीर से पहले असल लफ़्ज़ क्या है?",
+          "hinglish": "'أَنْتَ يُوسُفُ' mein zameer se pehle asal lafz kya hai?"
+        },
+        "options": {
+          "en": [
+            "يُوسُفُ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "يُوسُفُ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "يُوسُفُ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "يُوسُفُ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The base root/word is 'يُوسُفُ'.",
+          "ur": "اس کی بنیاد 'يُوسُفُ' پر ہے۔",
+          "hi": "इसकी बुनियाद 'يُوسُفُ' पर है।",
+          "hinglish": "Iski bunyad 'يُوسُفُ' par hai."
+        }
+      },
+      {
+        "id": "s4l5-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'أَنْتَ رَبٌّ'?",
+          "ur": "قرآنی لفظ 'أَنْتَ رَبٌّ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'أَنْتَ رَبٌّ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'أَنْتَ رَبٌّ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "You are a Lord",
+            "You are Yusuf",
+            "You are a warner",
+            "You are Yusuf"
+          ],
+          "ur": [
+            "تم رب ہو",
+            "تم یوسف ہو",
+            "تم ڈرانے والے ہو",
+            "تم یوسف ہو"
+          ],
+          "hi": [
+            "तुम रब हो",
+            "तुम यूसुफ़ हो",
+            "तुम डराने वाले हो",
+            "तुम यूसुफ़ हो"
+          ],
+          "hinglish": [
+            "tum Rabb ho",
+            "tum Yusuf ho",
+            "tum darane wale ho",
+            "tum Yusuf ho"
+          ]
+        },
+        "explanation": {
+          "en": "'أَنْتَ رَبٌّ' translates to 'You are a Lord'.",
+          "ur": "'أَنْتَ رَبٌّ' کا معنی 'تم رب ہو' ہے۔",
+          "hi": "'أَنْتَ رَبٌّ' का मतलब 'तुम रब हो' है।",
+          "hinglish": "'أَنْتَ رَبٌّ' ka matlab 'tum Rabb ho' hai."
+        }
+      },
+      {
+        "id": "s4l5-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'أَنْتَ نَذِيرٌ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'أَنْتَ نَذِيرٌ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'أَنْتَ نَذِيرٌ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'أَنْتَ نَذِيرٌ'"
+        },
+        "options": {
+          "en": [
+            "You are Yusuf",
+            "You are a warner",
+            "You are a warner",
+            "You are Yusuf"
+          ],
+          "ur": [
+            "تم یوسف ہو",
+            "تم ڈرانے والے ہو",
+            "تم ڈرانے والے ہو",
+            "تم یوسف ہو"
+          ],
+          "hi": [
+            "तुम यूसुफ़ हो",
+            "तुम डराने वाले हो",
+            "तुम डराने वाले हो",
+            "तुम यूसुफ़ हो"
+          ],
+          "hinglish": [
+            "tum Yusuf ho",
+            "tum darane wale ho",
+            "tum darane wale ho",
+            "tum Yusuf ho"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'أَنْتَ نَذِيرٌ' means 'You are a warner'.",
+          "ur": "'أَنْتَ نَذِيرٌ' کا مفہوم 'تم ڈرانے والے ہو' ہے۔",
+          "hi": "'أَنْتَ نَذِيرٌ' का मतलब 'तुम डराने वाले हो' है।",
+          "hinglish": "'أَنْتَ نَذِيرٌ' ka matlab 'tum darane wale ho' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s4l6",
+    "questions": [
+      {
+        "id": "s4l6-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Zameer Muttasil (ـكَ) teach regarding pronouns?",
+          "ur": "Zameer Muttasil (ـكَ) ضمائر کے بارے میں کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Zameer Muttasil (ـكَ) ज़माएर के बारे में क्या क़ायदा सिखाता है?",
+          "hinglish": "Zameer Muttasil ('ـكَ') zama'ir ke baare mein kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms 'بَيْتُكَ' as a complete unit",
+            "Pronoun is completely deleted",
+            "Converts word into plural verb",
+            "Changes meaning to future tense"
+          ],
+          "ur": [
+            "مل کر 'بَيْتُكَ' بناتا ہے",
+            "ضمیر مکمل ساقط ہو جاتی ہے",
+            "لفظ کو فعل جمع بنا دیتا ہے",
+            "معنی کو مستقبل میں بدل دیتا ہے"
+          ],
+          "hi": [
+            "मिलकर 'بَيْتُكَ' बनाता है",
+            "ज़मीर मुकम्मल साक़ित हो जाती है",
+            "लफ़्ज़ को फेल जमा बना देता है",
+            "मानी को मुस्तक़बिल में बदल देता है"
+          ],
+          "hinglish": [
+            "Milkar 'بَيْتُكَ' banata hai",
+            "Zameer mukammal saaqit ho jaati hai",
+            "Lafz ko fe'l jama bana deta hai",
+            "Maani ko mustaqbil mein badal deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The construction creates 'بَيْتُكَ'.",
+          "ur": "ترکیب کے نتیجے میں 'بَيْتُكَ' بنتا ہے۔",
+          "hi": "तरकीब के नतीजे में 'بَيْتُكَ' बनता है।",
+          "hinglish": "Tarkeeb ke nateeje mein 'بَيْتُكَ' banta hai."
+        }
+      },
+      {
+        "id": "s4l6-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which phrase correctly demonstrates Zameer Muttasil (ـكَ)?",
+          "ur": "درج ذیل میں سے کون سی عبارت Zameer Muttasil (ـكَ) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सी इबारत Zameer Muttasil (ـكَ) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun si ibarat Zameer Muttasil ('ـكَ') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "بَيْتُكَ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "ur": [
+            "بَيْتُكَ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hi": [
+            "بَيْتُكَ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hinglish": [
+            "بَيْتُكَ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ]
+        },
+        "explanation": {
+          "en": "'بَيْتُكَ' is the exact application of this pronoun rule.",
+          "ur": "'بَيْتُكَ' اس قاعدے کی درست تطبیق ہے۔",
+          "hi": "'بَيْتُكَ' इस क़ायदे की सही मिसाल है।",
+          "hinglish": "'بَيْتُكَ' is qaaide ki sahi tatbeeq hai."
+        }
+      },
+      {
+        "id": "s4l6-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'بَيْتُكَ', identify the base stem before the pronoun:",
+          "ur": "'بَيْتُكَ' میں ضمیر سے پہلے اصل لفظ کیا ہے؟",
+          "hi": "'بَيْتُكَ' में ज़मीर से पहले असल लफ़्ज़ क्या है?",
+          "hinglish": "'بَيْتُكَ' mein zameer se pehle asal lafz kya hai?"
+        },
+        "options": {
+          "en": [
+            "بَيْتٌ + أَنْتَ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "بَيْتٌ + أَنْتَ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "بَيْتٌ + أَنْتَ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "بَيْتٌ + أَنْتَ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The base root/word is 'بَيْتٌ + أَنْتَ'.",
+          "ur": "اس کی بنیاد 'بَيْتٌ + أَنْتَ' پر ہے۔",
+          "hi": "इसकी बुनियाद 'بَيْتٌ + أَنْتَ' पर है।",
+          "hinglish": "Iski bunyad 'بَيْتٌ + أَنْتَ' par hai."
+        }
+      },
+      {
+        "id": "s4l6-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'رَبُّكَ'?",
+          "ur": "قرآنی لفظ 'رَبُّكَ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'رَبُّكَ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'رَبُّكَ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Your Lord",
+            "Your garden",
+            "Your house",
+            "Your station"
+          ],
+          "ur": [
+            "آپ کا رب",
+            "تیری جنت",
+            "تیرا گھر",
+            "آپ کا مقام"
+          ],
+          "hi": [
+            "आपका रब",
+            "तेरी जन्नत",
+            "तेरा घर",
+            "आपका मक़ाम"
+          ],
+          "hinglish": [
+            "aapka Rabb",
+            "teri jannat",
+            "tera ghar",
+            "aapka maqam"
+          ]
+        },
+        "explanation": {
+          "en": "'رَبُّكَ' translates to 'Your Lord'.",
+          "ur": "'رَبُّكَ' کا معنی 'آپ کا رب' ہے۔",
+          "hi": "'رَبُّكَ' का मतलब 'आपका रब' है।",
+          "hinglish": "'رَبُّكَ' ka matlab 'aapka Rabb' hai."
+        }
+      },
+      {
+        "id": "s4l6-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'أَهْلُكَ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'أَهْلُكَ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'أَهْلُكَ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'أَهْلُكَ'"
+        },
+        "options": {
+          "en": [
+            "Your garden",
+            "Your family",
+            "Your house",
+            "Your station"
+          ],
+          "ur": [
+            "تیری جنت",
+            "تیرے گھر والے",
+            "تیرا گھر",
+            "آپ کا مقام"
+          ],
+          "hi": [
+            "तेरी जन्नत",
+            "तेरे घर-वाले",
+            "तेरा घर",
+            "आपका मक़ाम"
+          ],
+          "hinglish": [
+            "teri jannat",
+            "tere ghar-wale",
+            "tera ghar",
+            "aapka maqam"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'أَهْلُكَ' means 'Your family'.",
+          "ur": "'أَهْلُكَ' کا مفہوم 'تیرے گھر والے' ہے۔",
+          "hi": "'أَهْلُكَ' का मतलब 'तेरे घर-वाले' है।",
+          "hinglish": "'أَهْلُكَ' ka matlab 'tere ghar-wale' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s4l7",
+    "questions": [
+      {
+        "id": "s4l7-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Jarr + Baytuka teach regarding pronouns?",
+          "ur": "Jarr + Baytuka ضمائر کے بارے میں کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Jarr + Baytuka ज़माएर के बारे में क्या क़ायदा सिखाता है?",
+          "hinglish": "Jarr + Baytuka zama'ir ke baare mein kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms 'فِي بَيْتِكَ' as a complete unit",
+            "Pronoun is completely deleted",
+            "Converts word into plural verb",
+            "Changes meaning to future tense"
+          ],
+          "ur": [
+            "مل کر 'فِي بَيْتِكَ' بناتا ہے",
+            "ضمیر مکمل ساقط ہو جاتی ہے",
+            "لفظ کو فعل جمع بنا دیتا ہے",
+            "معنی کو مستقبل میں بدل دیتا ہے"
+          ],
+          "hi": [
+            "मिलकर 'فِي بَيْتِكَ' बनाता है",
+            "ज़मीर मुकम्मल साक़ित हो जाती है",
+            "लफ़्ज़ को फेल जमा बना देता है",
+            "मानी को मुस्तक़बिल में बदल देता है"
+          ],
+          "hinglish": [
+            "Milkar 'فِي بَيْتِكَ' banata hai",
+            "Zameer mukammal saaqit ho jaati hai",
+            "Lafz ko fe'l jama bana deta hai",
+            "Maani ko mustaqbil mein badal deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The construction creates 'فِي بَيْتِكَ'.",
+          "ur": "ترکیب کے نتیجے میں 'فِي بَيْتِكَ' بنتا ہے۔",
+          "hi": "तरकीब के नतीजे में 'فِي بَيْتِكَ' बनता है।",
+          "hinglish": "Tarkeeb ke nateeje mein 'فِي بَيْتِكَ' banta hai."
+        }
+      },
+      {
+        "id": "s4l7-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which phrase correctly demonstrates Jarr + Baytuka?",
+          "ur": "درج ذیل میں سے کون سی عبارت Jarr + Baytuka کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सी इबारत Jarr + Baytuka की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun si ibarat Jarr + Baytuka ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "فِي بَيْتِكَ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "ur": [
+            "فِي بَيْتِكَ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hi": [
+            "فِي بَيْتِكَ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hinglish": [
+            "فِي بَيْتِكَ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ]
+        },
+        "explanation": {
+          "en": "'فِي بَيْتِكَ' is the exact application of this pronoun rule.",
+          "ur": "'فِي بَيْتِكَ' اس قاعدے کی درست تطبیق ہے۔",
+          "hi": "'فِي بَيْتِكَ' इस क़ायदे की सही मिसाल है।",
+          "hinglish": "'فِي بَيْتِكَ' is qaaide ki sahi tatbeeq hai."
+        }
+      },
+      {
+        "id": "s4l7-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'فِي بَيْتِكَ', identify the base stem before the pronoun:",
+          "ur": "'فِي بَيْتِكَ' میں ضمیر سے پہلے اصل لفظ کیا ہے؟",
+          "hi": "'فِي بَيْتِكَ' में ज़मीर से पहले असल लफ़्ज़ क्या है?",
+          "hinglish": "'فِي بَيْتِكَ' mein zameer se pehle asal lafz kya hai?"
+        },
+        "options": {
+          "en": [
+            "بَيْتُكَ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "بَيْتُكَ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "بَيْتُكَ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "بَيْتُكَ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The base root/word is 'بَيْتُكَ'.",
+          "ur": "اس کی بنیاد 'بَيْتُكَ' پر ہے۔",
+          "hi": "इसकी बुनियाद 'بَيْتُكَ' पर है।",
+          "hinglish": "Iski bunyad 'بَيْتُكَ' par hai."
+        }
+      },
+      {
+        "id": "s4l7-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'مِنْ رَبِّكَ'?",
+          "ur": "قرآنی لفظ 'مِنْ رَبِّكَ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'مِنْ رَبِّكَ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'مِنْ رَبِّكَ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "From your Lord",
+            "From your people",
+            "From your garden",
+            "From your family"
+          ],
+          "ur": [
+            "آپ کے رب کی طرف سے",
+            "تیری قوم سے",
+            "تیرے باغ (جنت) سے",
+            "تیرے گھر والوں سے"
+          ],
+          "hi": [
+            "आपके रब की तरफ़ से",
+            "तेरी क़ौम से",
+            "तेरे बाग़ (जन्नत) से",
+            "तेरे घर वालों से"
+          ],
+          "hinglish": [
+            "aapke Rabb ki taraf se",
+            "teri qom se",
+            "teri jannat se",
+            "tere ghar-walon se"
+          ]
+        },
+        "explanation": {
+          "en": "'مِنْ رَبِّكَ' translates to 'From your Lord'.",
+          "ur": "'مِنْ رَبِّكَ' کا معنی 'آپ کے رب کی طرف سے' ہے۔",
+          "hi": "'مِنْ رَبِّكَ' का मतलब 'आपके रब की तरफ़ से' है।",
+          "hinglish": "'مِنْ رَبِّكَ' ka matlab 'aapke Rabb ki taraf se' hai."
+        }
+      },
+      {
+        "id": "s4l7-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'مِنْ بَيْتِكَ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'مِنْ بَيْتِكَ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'مِنْ بَيْتِكَ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'مِنْ بَيْتِكَ'"
+        },
+        "options": {
+          "en": [
+            "From your people",
+            "From your house",
+            "From your garden",
+            "From your family"
+          ],
+          "ur": [
+            "تیری قوم سے",
+            "تیرے گھر سے",
+            "تیرے باغ (جنت) سے",
+            "تیرے گھر والوں سے"
+          ],
+          "hi": [
+            "तेरी क़ौम से",
+            "तेरे घर से",
+            "तेरे बाग़ (जन्नत) से",
+            "तेरे घर वालों से"
+          ],
+          "hinglish": [
+            "teri qom se",
+            "tere ghar se",
+            "teri jannat se",
+            "tere ghar-walon se"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'مِنْ بَيْتِكَ' means 'From your house'.",
+          "ur": "'مِنْ بَيْتِكَ' کا مفہوم 'تیرے گھر سے' ہے۔",
+          "hi": "'مِنْ بَيْتِكَ' का मतलब 'तेरे घर से' है।",
+          "hinglish": "'مِنْ بَيْتِكَ' ka matlab 'tere ghar se' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s4l8",
+    "questions": [
+      {
+        "id": "s4l8-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Huroof + Ka teach regarding pronouns?",
+          "ur": "Huroof + Ka ضمائر کے بارے میں کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Huroof + Ka ज़माएर के बारे में क्या क़ायदा सिखाता है?",
+          "hinglish": "Huroof + Ka zama'ir ke baare mein kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms 'لَكَ / مِنْكَ / فِيكَ' as a complete unit",
+            "Pronoun is completely deleted",
+            "Converts word into plural verb",
+            "Changes meaning to future tense"
+          ],
+          "ur": [
+            "مل کر 'لَكَ / مِنْكَ / فِيكَ' بناتا ہے",
+            "ضمیر مکمل ساقط ہو جاتی ہے",
+            "لفظ کو فعل جمع بنا دیتا ہے",
+            "معنی کو مستقبل میں بدل دیتا ہے"
+          ],
+          "hi": [
+            "मिलकर 'لَكَ / مِنْكَ / فِيكَ' बनाता है",
+            "ज़मीर मुकम्मल साक़ित हो जाती है",
+            "लफ़्ज़ को फेल जमा बना देता है",
+            "मानी को मुस्तक़बिल में बदल देता है"
+          ],
+          "hinglish": [
+            "Milkar 'لَكَ / مِنْكَ / فِيكَ' banata hai",
+            "Zameer mukammal saaqit ho jaati hai",
+            "Lafz ko fe'l jama bana deta hai",
+            "Maani ko mustaqbil mein badal deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The construction creates 'لَكَ / مِنْكَ / فِيكَ'.",
+          "ur": "ترکیب کے نتیجے میں 'لَكَ / مِنْكَ / فِيكَ' بنتا ہے۔",
+          "hi": "तरकीब के नतीजे में 'لَكَ / مِنْكَ / فِيكَ' बनता है।",
+          "hinglish": "Tarkeeb ke nateeje mein 'لَكَ / 'مِنْكَ' / فِيكَ' banta hai."
+        }
+      },
+      {
+        "id": "s4l8-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which phrase correctly demonstrates Huroof + Ka?",
+          "ur": "درج ذیل میں سے کون سی عبارت Huroof + Ka کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सी इबारत Huroof + Ka की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun si ibarat Huroof + Ka ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "لَكَ / مِنْكَ / فِيكَ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "ur": [
+            "لَكَ / مِنْكَ / فِيكَ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hi": [
+            "لَكَ / مِنْكَ / فِيكَ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hinglish": [
+            "لَكَ / مِنْكَ / فِيكَ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ]
+        },
+        "explanation": {
+          "en": "'لَكَ / مِنْكَ / فِيكَ' is the exact application of this pronoun rule.",
+          "ur": "'لَكَ / مِنْكَ / فِيكَ' اس قاعدے کی درست تطبیق ہے۔",
+          "hi": "'لَكَ / مِنْكَ / فِيكَ' इस क़ायदे की सही मिसाल है।",
+          "hinglish": "'لَكَ / 'مِنْكَ' / فِيكَ' is qaaide ki sahi tatbeeq hai."
+        }
+      },
+      {
+        "id": "s4l8-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'لَكَ / مِنْكَ / فِيكَ', identify the base stem before the pronoun:",
+          "ur": "'لَكَ / مِنْكَ / فِيكَ' میں ضمیر سے پہلے اصل لفظ کیا ہے؟",
+          "hi": "'لَكَ / مِنْكَ / فِيكَ' में ज़मीर से पहले असल लफ़्ज़ क्या है?",
+          "hinglish": "'لَكَ / 'مِنْكَ' / فِيكَ' mein zameer se pehle asal lafz kya hai?"
+        },
+        "options": {
+          "en": [
+            "لِـ / مِنْ / فِي",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "لِـ / مِنْ / فِي",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "لِـ / مِنْ / فِي",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "لِـ / مِنْ / فِي",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The base root/word is 'لِـ / مِنْ / فِي'.",
+          "ur": "اس کی بنیاد 'لِـ / مِنْ / فِي' پر ہے۔",
+          "hi": "इसकी बुनियाद 'لِـ / مِنْ / فِي' पर है।",
+          "hinglish": "Iski bunyad 'لِـ / 'مِنْ' / فِي' par hai."
+        }
+      },
+      {
+        "id": "s4l8-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'قَلَمٌ'?",
+          "ur": "قرآنی لفظ 'قَلَمٌ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'قَلَمٌ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'قَلَمٌ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "A pen",
+            "That",
+            "From",
+            "For"
+          ],
+          "ur": [
+            "قلم",
+            "کہ",
+            "سے",
+            "کے لیے"
+          ],
+          "hi": [
+            "क़लम",
+            "कि",
+            "से",
+            "के लिए"
+          ],
+          "hinglish": [
+            "qalam",
+            "ke",
+            "se",
+            "liye"
+          ]
+        },
+        "explanation": {
+          "en": "'قَلَمٌ' translates to 'A pen'.",
+          "ur": "'قَلَمٌ' کا معنی 'قلم' ہے۔",
+          "hi": "'قَلَمٌ' का मतलब 'क़लम' है।",
+          "hinglish": "'قَلَمٌ' ka matlab 'qalam' hai."
+        }
+      },
+      {
+        "id": "s4l8-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'إِنَّ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'إِنَّ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'إِنَّ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'إِنَّ'"
+        },
+        "options": {
+          "en": [
+            "That",
+            "Indeed",
+            "From",
+            "For"
+          ],
+          "ur": [
+            "کہ",
+            "بیشک",
+            "سے",
+            "کے لیے"
+          ],
+          "hi": [
+            "कि",
+            "बेशक",
+            "से",
+            "के लिए"
+          ],
+          "hinglish": [
+            "ke",
+            "beshak",
+            "se",
+            "liye"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'إِنَّ' means 'Indeed'.",
+          "ur": "'إِنَّ' کا مفہوم 'بیشک' ہے۔",
+          "hi": "'إِنَّ' का मतलब 'बेशक' है।",
+          "hinglish": "'إِنَّ' ka matlab 'beshak' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s4l9",
+    "questions": [
+      {
+        "id": "s4l9-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Zameer Munfasil (هِيَ) teach regarding pronouns?",
+          "ur": "Zameer Munfasil (هِيَ) ضمائر کے بارے میں کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Zameer Munfasil (هِيَ) ज़माएर के बारे में क्या क़ायदा सिखाता है?",
+          "hinglish": "Zameer Munfasil ('هِيَ') zama'ir ke baare mein kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms 'هِيَ فِتْنَةٌ' as a complete unit",
+            "Pronoun is completely deleted",
+            "Converts word into plural verb",
+            "Changes meaning to future tense"
+          ],
+          "ur": [
+            "مل کر 'هِيَ فِتْنَةٌ' بناتا ہے",
+            "ضمیر مکمل ساقط ہو جاتی ہے",
+            "لفظ کو فعل جمع بنا دیتا ہے",
+            "معنی کو مستقبل میں بدل دیتا ہے"
+          ],
+          "hi": [
+            "मिलकर 'هِيَ فِتْنَةٌ' बनाता है",
+            "ज़मीर मुकम्मल साक़ित हो जाती है",
+            "लफ़्ज़ को फेल जमा बना देता है",
+            "मानी को मुस्तक़बिल में बदल देता है"
+          ],
+          "hinglish": [
+            "Milkar 'هِيَ فِتْنَةٌ' banata hai",
+            "Zameer mukammal saaqit ho jaati hai",
+            "Lafz ko fe'l jama bana deta hai",
+            "Maani ko mustaqbil mein badal deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The construction creates 'هِيَ فِتْنَةٌ'.",
+          "ur": "ترکیب کے نتیجے میں 'هِيَ فِتْنَةٌ' بنتا ہے۔",
+          "hi": "तरकीब के नतीजे में 'هِيَ فِتْنَةٌ' बनता है।",
+          "hinglish": "Tarkeeb ke nateeje mein 'هِيَ فِتْنَةٌ' banta hai."
+        }
+      },
+      {
+        "id": "s4l9-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which phrase correctly demonstrates Zameer Munfasil (هِيَ)?",
+          "ur": "درج ذیل میں سے کون سی عبارت Zameer Munfasil (هِيَ) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सी इबारत Zameer Munfasil (هِيَ) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun si ibarat Zameer Munfasil ('هِيَ') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "هِيَ فِتْنَةٌ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "ur": [
+            "هِيَ فِتْنَةٌ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hi": [
+            "هِيَ فِتْنَةٌ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hinglish": [
+            "هِيَ فِتْنَةٌ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ]
+        },
+        "explanation": {
+          "en": "'هِيَ فِتْنَةٌ' is the exact application of this pronoun rule.",
+          "ur": "'هِيَ فِتْنَةٌ' اس قاعدے کی درست تطبیق ہے۔",
+          "hi": "'هِيَ فِتْنَةٌ' इस क़ायदे की सही मिसाल है।",
+          "hinglish": "'هِيَ فِتْنَةٌ' is qaaide ki sahi tatbeeq hai."
+        }
+      },
+      {
+        "id": "s4l9-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'هِيَ فِتْنَةٌ', identify the base stem before the pronoun:",
+          "ur": "'هِيَ فِتْنَةٌ' میں ضمیر سے پہلے اصل لفظ کیا ہے؟",
+          "hi": "'هِيَ فِتْنَةٌ' में ज़मीर से पहले असल लफ़्ज़ क्या है?",
+          "hinglish": "'هِيَ فِتْنَةٌ' mein zameer se pehle asal lafz kya hai?"
+        },
+        "options": {
+          "en": [
+            "فِتْنَةٌ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "فِتْنَةٌ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "فِتْنَةٌ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "فِتْنَةٌ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The base root/word is 'فِتْنَةٌ'.",
+          "ur": "اس کی بنیاد 'فِتْنَةٌ' پر ہے۔",
+          "hi": "इसकी बुनियाद 'فِتْنَةٌ' पर है।",
+          "hinglish": "Iski bunyad 'فِتْنَةٌ' par hai."
+        }
+      },
+      {
+        "id": "s4l9-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'هِيَ فِتْنَةٌ'?",
+          "ur": "قرآنی لفظ 'هِيَ فِتْنَةٌ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'هِيَ فِتْنَةٌ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'هِيَ فِتْنَةٌ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "It is a trial",
+            "It is greater",
+            "It is a shout",
+            "It is white"
+          ],
+          "ur": [
+            "وہ آزمائش ہے",
+            "وہ سب سے بڑی ہے",
+            "وہ ایک چیخ ہے",
+            "وہ سفید ہے"
+          ],
+          "hi": [
+            "वह आज़माइश है",
+            "वह सबसे बड़ी है",
+            "वह एक चीख़ है",
+            "वह सफ़ेद है"
+          ],
+          "hinglish": [
+            "woh aazmaish hai",
+            "woh sab se badi hai",
+            "woh cheekh hai",
+            "woh safaid hai"
+          ]
+        },
+        "explanation": {
+          "en": "'هِيَ فِتْنَةٌ' translates to 'It is a trial'.",
+          "ur": "'هِيَ فِتْنَةٌ' کا معنی 'وہ آزمائش ہے' ہے۔",
+          "hi": "'هِيَ فِتْنَةٌ' का मतलब 'वह आज़माइश है' है।",
+          "hinglish": "'هِيَ فِتْنَةٌ' ka matlab 'woh aazmaish hai' hai."
+        }
+      },
+      {
+        "id": "s4l9-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'هِيَ ظَالِمَةٌ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'هِيَ ظَالِمَةٌ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'هِيَ ظَالِمَةٌ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'هِيَ ظَالِمَةٌ'"
+        },
+        "options": {
+          "en": [
+            "It is greater",
+            "It is unjust",
+            "It is a shout",
+            "It is white"
+          ],
+          "ur": [
+            "وہ سب سے بڑی ہے",
+            "وہ ظالم ہے",
+            "وہ ایک چیخ ہے",
+            "وہ سفید ہے"
+          ],
+          "hi": [
+            "वह सबसे बड़ी है",
+            "वह ज़ालिम है",
+            "वह एक चीख़ है",
+            "वह सफ़ेद है"
+          ],
+          "hinglish": [
+            "woh sab se badi hai",
+            "woh zalim hai",
+            "woh cheekh hai",
+            "woh safaid hai"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'هِيَ ظَالِمَةٌ' means 'It is unjust'.",
+          "ur": "'هِيَ ظَالِمَةٌ' کا مفہوم 'وہ ظالم ہے' ہے۔",
+          "hi": "'هِيَ ظَالِمَةٌ' का मतलब 'वह ज़ालिम है' है।",
+          "hinglish": "'هِيَ ظَالِمَةٌ' ka matlab 'woh zalim hai' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s4l10",
+    "questions": [
+      {
+        "id": "s4l10-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Zameer Muttasil (ـهَا) teach regarding pronouns?",
+          "ur": "Zameer Muttasil (ـهَا) ضمائر کے بارے میں کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Zameer Muttasil (ـهَا) ज़माएर के बारे में क्या क़ायदा सिखाता है?",
+          "hinglish": "Zameer Muttasil ('ـهَا') zama'ir ke baare mein kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms 'بَيْتُهَا' as a complete unit",
+            "Pronoun is completely deleted",
+            "Converts word into plural verb",
+            "Changes meaning to future tense"
+          ],
+          "ur": [
+            "مل کر 'بَيْتُهَا' بناتا ہے",
+            "ضمیر مکمل ساقط ہو جاتی ہے",
+            "لفظ کو فعل جمع بنا دیتا ہے",
+            "معنی کو مستقبل میں بدل دیتا ہے"
+          ],
+          "hi": [
+            "मिलकर 'بَيْتُهَا' बनाता है",
+            "ज़मीर मुकम्मल साक़ित हो जाती है",
+            "लफ़्ज़ को फेल जमा बना देता है",
+            "मानी को मुस्तक़बिल में बदल देता है"
+          ],
+          "hinglish": [
+            "Milkar 'بَيْتُهَا' banata hai",
+            "Zameer mukammal saaqit ho jaati hai",
+            "Lafz ko fe'l jama bana deta hai",
+            "Maani ko mustaqbil mein badal deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The construction creates 'بَيْتُهَا'.",
+          "ur": "ترکیب کے نتیجے میں 'بَيْتُهَا' بنتا ہے۔",
+          "hi": "तरकीब के नतीजे में 'بَيْتُهَا' बनता है।",
+          "hinglish": "Tarkeeb ke nateeje mein 'بَيْتُهَا' banta hai."
+        }
+      },
+      {
+        "id": "s4l10-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which phrase correctly demonstrates Zameer Muttasil (ـهَا)?",
+          "ur": "درج ذیل میں سے کون سی عبارت Zameer Muttasil (ـهَا) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सी इबारत Zameer Muttasil (ـهَا) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun si ibarat Zameer Muttasil ('ـهَا') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "بَيْتُهَا",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "ur": [
+            "بَيْتُهَا",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hi": [
+            "بَيْتُهَا",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hinglish": [
+            "بَيْتُهَا",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ]
+        },
+        "explanation": {
+          "en": "'بَيْتُهَا' is the exact application of this pronoun rule.",
+          "ur": "'بَيْتُهَا' اس قاعدے کی درست تطبیق ہے۔",
+          "hi": "'بَيْتُهَا' इस क़ायदे की सही मिसाल है।",
+          "hinglish": "'بَيْتُهَا' is qaaide ki sahi tatbeeq hai."
+        }
+      },
+      {
+        "id": "s4l10-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'بَيْتُهَا', identify the base stem before the pronoun:",
+          "ur": "'بَيْتُهَا' میں ضمیر سے پہلے اصل لفظ کیا ہے؟",
+          "hi": "'بَيْتُهَا' में ज़मीर से पहले असल लफ़्ज़ क्या है?",
+          "hinglish": "'بَيْتُهَا' mein zameer se pehle asal lafz kya hai?"
+        },
+        "options": {
+          "en": [
+            "بَيْتٌ + هِيَ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "بَيْتٌ + هِيَ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "بَيْتٌ + هِيَ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "بَيْتٌ + هِيَ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The base root/word is 'بَيْتٌ + هِيَ'.",
+          "ur": "اس کی بنیاد 'بَيْتٌ + هِيَ' پر ہے۔",
+          "hi": "इसकी बुनियाद 'بَيْتٌ + هِيَ' पर है।",
+          "hinglish": "Iski bunyad 'بَيْتٌ + هِيَ' par hai."
+        }
+      },
+      {
+        "id": "s4l10-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'بَيْتٌ'?",
+          "ur": "قرآنی لفظ 'بَيْتٌ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'بَيْتٌ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'بَيْتٌ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "A house",
+            "A Lord",
+            "Her Lord",
+            "A husband"
+          ],
+          "ur": [
+            "ایک گھر",
+            "رب",
+            "اس (عورت) کا رب",
+            "شوہر"
+          ],
+          "hi": [
+            "एक घर",
+            "रब (पालने वाला)",
+            "उस (स्त्री) का रब",
+            "पति (शौहर)"
+          ],
+          "hinglish": [
+            "ghar",
+            "Rabb",
+            "us (muannath) ka Rabb",
+            "shohar"
+          ]
+        },
+        "explanation": {
+          "en": "'بَيْتٌ' translates to 'A house'.",
+          "ur": "'بَيْتٌ' کا معنی 'ایک گھر' ہے۔",
+          "hi": "'بَيْتٌ' का मतलब 'एक घर' है।",
+          "hinglish": "'بَيْتٌ' ka matlab 'ghar' hai."
+        }
+      },
+      {
+        "id": "s4l10-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'بَيْتُهَا'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'بَيْتُهَا'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'بَيْتُهَا'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'بَيْتُهَا'"
+        },
+        "options": {
+          "en": [
+            "A Lord",
+            "Her house",
+            "Her Lord",
+            "A husband"
+          ],
+          "ur": [
+            "رب",
+            "اس (عورت) کا گھر",
+            "اس (عورت) کا رب",
+            "شوہر"
+          ],
+          "hi": [
+            "रब (पालने वाला)",
+            "उस (स्त्री) का घर",
+            "उस (स्त्री) का रब",
+            "पति (शौहर)"
+          ],
+          "hinglish": [
+            "Rabb",
+            "us (muannath) ka ghar",
+            "us (muannath) ka Rabb",
+            "shohar"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'بَيْتُهَا' means 'Her house'.",
+          "ur": "'بَيْتُهَا' کا مفہوم 'اس (عورت) کا گھر' ہے۔",
+          "hi": "'بَيْتُهَا' का मतलब 'उस (स्त्री) का घर' है।",
+          "hinglish": "'بَيْتُهَا' ka matlab 'us (muannath) ka ghar' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s4l11",
+    "questions": [
+      {
+        "id": "s4l11-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Jarr + Baytuhaa teach regarding pronouns?",
+          "ur": "Jarr + Baytuhaa ضمائر کے بارے میں کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Jarr + Baytuhaa ज़माएर के बारे में क्या क़ायदा सिखाता है?",
+          "hinglish": "Jarr + Baytuhaa zama'ir ke baare mein kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms 'فِي بَيْتِهَا' as a complete unit",
+            "Pronoun is completely deleted",
+            "Converts word into plural verb",
+            "Changes meaning to future tense"
+          ],
+          "ur": [
+            "مل کر 'فِي بَيْتِهَا' بناتا ہے",
+            "ضمیر مکمل ساقط ہو جاتی ہے",
+            "لفظ کو فعل جمع بنا دیتا ہے",
+            "معنی کو مستقبل میں بدل دیتا ہے"
+          ],
+          "hi": [
+            "मिलकर 'فِي بَيْتِهَا' बनाता है",
+            "ज़मीर मुकम्मल साक़ित हो जाती है",
+            "लफ़्ज़ को फेल जमा बना देता है",
+            "मानी को मुस्तक़बिल में बदल देता है"
+          ],
+          "hinglish": [
+            "Milkar 'فِي بَيْتِهَا' banata hai",
+            "Zameer mukammal saaqit ho jaati hai",
+            "Lafz ko fe'l jama bana deta hai",
+            "Maani ko mustaqbil mein badal deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The construction creates 'فِي بَيْتِهَا'.",
+          "ur": "ترکیب کے نتیجے میں 'فِي بَيْتِهَا' بنتا ہے۔",
+          "hi": "तरकीब के नतीजे में 'فِي بَيْتِهَا' बनता है।",
+          "hinglish": "Tarkeeb ke nateeje mein 'فِي بَيْتِهَا' banta hai."
+        }
+      },
+      {
+        "id": "s4l11-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which phrase correctly demonstrates Jarr + Baytuhaa?",
+          "ur": "درج ذیل میں سے کون سی عبارت Jarr + Baytuhaa کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सी इबारत Jarr + Baytuhaa की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun si ibarat Jarr + Baytuhaa ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "فِي بَيْتِهَا",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "ur": [
+            "فِي بَيْتِهَا",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hi": [
+            "فِي بَيْتِهَا",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hinglish": [
+            "فِي بَيْتِهَا",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ]
+        },
+        "explanation": {
+          "en": "'فِي بَيْتِهَا' is the exact application of this pronoun rule.",
+          "ur": "'فِي بَيْتِهَا' اس قاعدے کی درست تطبیق ہے۔",
+          "hi": "'فِي بَيْتِهَا' इस क़ायदे की सही मिसाल है।",
+          "hinglish": "'فِي بَيْتِهَا' is qaaide ki sahi tatbeeq hai."
+        }
+      },
+      {
+        "id": "s4l11-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'فِي بَيْتِهَا', identify the base stem before the pronoun:",
+          "ur": "'فِي بَيْتِهَا' میں ضمیر سے پہلے اصل لفظ کیا ہے؟",
+          "hi": "'فِي بَيْتِهَا' में ज़मीर से पहले असल लफ़्ज़ क्या है?",
+          "hinglish": "'فِي بَيْتِهَا' mein zameer se pehle asal lafz kya hai?"
+        },
+        "options": {
+          "en": [
+            "بَيْتُهَا",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "بَيْتُهَا",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "بَيْتُهَا",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "بَيْتُهَا",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The base root/word is 'بَيْتُهَا'.",
+          "ur": "اس کی بنیاد 'بَيْتُهَا' پر ہے۔",
+          "hi": "इसकी बुनियाद 'بَيْتُهَا' पर है।",
+          "hinglish": "Iski bunyad 'بَيْتُهَا' par hai."
+        }
+      },
+      {
+        "id": "s4l11-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'بَيْتُهَا'?",
+          "ur": "قرآنی لفظ 'بَيْتُهَا' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'بَيْتُهَا' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'بَيْتُهَا' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Her house",
+            "Her Lord",
+            "From her Lord",
+            "Her book"
+          ],
+          "ur": [
+            "اس کا گھر",
+            "اس کا رب",
+            "اس کے رب کی طرف سے",
+            "اس کی کتاب"
+          ],
+          "hi": [
+            "उसका घर",
+            "उसका रब",
+            "उसके रब की तरफ़ से",
+            "उसकी किताब"
+          ],
+          "hinglish": [
+            "uska ghar",
+            "uska Rabb",
+            "uske Rabb se",
+            "uski kitab"
+          ]
+        },
+        "explanation": {
+          "en": "'بَيْتُهَا' translates to 'Her house'.",
+          "ur": "'بَيْتُهَا' کا معنی 'اس کا گھر' ہے۔",
+          "hi": "'بَيْتُهَا' का मतलब 'उसका घर' है।",
+          "hinglish": "'بَيْتُهَا' ka matlab 'uska ghar' hai."
+        }
+      },
+      {
+        "id": "s4l11-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'إِلَىٰ بَيْتِهَا'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'إِلَىٰ بَيْتِهَا'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'إِلَىٰ بَيْتِهَا'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'إِلَىٰ بَيْتِهَا'"
+        },
+        "options": {
+          "en": [
+            "Her Lord",
+            "To her house",
+            "From her Lord",
+            "Her book"
+          ],
+          "ur": [
+            "اس کا رب",
+            "اس کے گھر کی طرف",
+            "اس کے رب کی طرف سے",
+            "اس کی کتاب"
+          ],
+          "hi": [
+            "उसका रब",
+            "उसके घर की तरफ़",
+            "उसके रब की तरफ़ से",
+            "उसकी किताब"
+          ],
+          "hinglish": [
+            "uska Rabb",
+            "uske ghar ki taraf",
+            "uske Rabb se",
+            "uski kitab"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'إِلَىٰ بَيْتِهَا' means 'To her house'.",
+          "ur": "'إِلَىٰ بَيْتِهَا' کا مفہوم 'اس کے گھر کی طرف' ہے۔",
+          "hi": "'إِلَىٰ بَيْتِهَا' का मतलब 'उसके घर की तरफ़' है।",
+          "hinglish": "'إِلَىٰ بَيْتِهَا' ka matlab 'uske ghar ki taraf' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s4l12",
+    "questions": [
+      {
+        "id": "s4l12-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Huroof + Haa teach regarding pronouns?",
+          "ur": "Huroof + Haa ضمائر کے بارے میں کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Huroof + Haa ज़माएर के बारे में क्या क़ायदा सिखाता है?",
+          "hinglish": "Huroof + Haa zama'ir ke baare mein kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms 'لَهَا / مِنْهَا / فِيهَا' as a complete unit",
+            "Pronoun is completely deleted",
+            "Converts word into plural verb",
+            "Changes meaning to future tense"
+          ],
+          "ur": [
+            "مل کر 'لَهَا / مِنْهَا / فِيهَا' بناتا ہے",
+            "ضمیر مکمل ساقط ہو جاتی ہے",
+            "لفظ کو فعل جمع بنا دیتا ہے",
+            "معنی کو مستقبل میں بدل دیتا ہے"
+          ],
+          "hi": [
+            "मिलकर 'لَهَا / مِنْهَا / فِيهَا' बनाता है",
+            "ज़मीर मुकम्मल साक़ित हो जाती है",
+            "लफ़्ज़ को फेल जमा बना देता है",
+            "मानी को मुस्तक़बिल में बदल देता है"
+          ],
+          "hinglish": [
+            "Milkar 'لَهَا / مِنْهَا / فِيهَا' banata hai",
+            "Zameer mukammal saaqit ho jaati hai",
+            "Lafz ko fe'l jama bana deta hai",
+            "Maani ko mustaqbil mein badal deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The construction creates 'لَهَا / مِنْهَا / فِيهَا'.",
+          "ur": "ترکیب کے نتیجے میں 'لَهَا / مِنْهَا / فِيهَا' بنتا ہے۔",
+          "hi": "तरकीब के नतीजे में 'لَهَا / مِنْهَا / فِيهَا' बनता है।",
+          "hinglish": "Tarkeeb ke nateeje mein 'لَهَا / 'مِنْهَا' / فِيهَا' banta hai."
+        }
+      },
+      {
+        "id": "s4l12-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which phrase correctly demonstrates Huroof + Haa?",
+          "ur": "درج ذیل میں سے کون سی عبارت Huroof + Haa کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सी इबारत Huroof + Haa की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun si ibarat Huroof + Haa ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "لَهَا / مِنْهَا / فِيهَا",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "ur": [
+            "لَهَا / مِنْهَا / فِيهَا",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hi": [
+            "لَهَا / مِنْهَا / فِيهَا",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hinglish": [
+            "لَهَا / مِنْهَا / فِيهَا",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ]
+        },
+        "explanation": {
+          "en": "'لَهَا / مِنْهَا / فِيهَا' is the exact application of this pronoun rule.",
+          "ur": "'لَهَا / مِنْهَا / فِيهَا' اس قاعدے کی درست تطبیق ہے۔",
+          "hi": "'لَهَا / مِنْهَا / فِيهَا' इस क़ायदे की सही मिसाल है।",
+          "hinglish": "'لَهَا / 'مِنْهَا' / فِيهَا' is qaaide ki sahi tatbeeq hai."
+        }
+      },
+      {
+        "id": "s4l12-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'لَهَا / مِنْهَا / فِيهَا', identify the base stem before the pronoun:",
+          "ur": "'لَهَا / مِنْهَا / فِيهَا' میں ضمیر سے پہلے اصل لفظ کیا ہے؟",
+          "hi": "'لَهَا / مِنْهَا / فِيهَا' में ज़मीर से पहले असल लफ़्ज़ क्या है?",
+          "hinglish": "'لَهَا / 'مِنْهَا' / فِيهَا' mein zameer se pehle asal lafz kya hai?"
+        },
+        "options": {
+          "en": [
+            "لِـ / مِنْ / فِي",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "لِـ / مِنْ / فِي",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "لِـ / مِنْ / فِي",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "لِـ / مِنْ / فِي",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The base root/word is 'لِـ / مِنْ / فِي'.",
+          "ur": "اس کی بنیاد 'لِـ / مِنْ / فِي' پر ہے۔",
+          "hi": "इसकी बुनियाद 'لِـ / مِنْ / فِي' पर है।",
+          "hinglish": "Iski bunyad 'لِـ / 'مِنْ' / فِي' par hai."
+        }
+      },
+      {
+        "id": "s4l12-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'قَلَمٌ'?",
+          "ur": "قرآنی لفظ 'قَلَمٌ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'قَلَمٌ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'قَلَمٌ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "A pen",
+            "Indeed",
+            "Indeed, it is",
+            "That"
+          ],
+          "ur": [
+            "قلم",
+            "بیشک",
+            "بیشک وہ",
+            "کہ"
+          ],
+          "hi": [
+            "क़लम",
+            "बेशक",
+            "बेशक वह",
+            "कि"
+          ],
+          "hinglish": [
+            "qalam",
+            "beshak",
+            "beshak woh",
+            "ke"
+          ]
+        },
+        "explanation": {
+          "en": "'قَلَمٌ' translates to 'A pen'.",
+          "ur": "'قَلَمٌ' کا معنی 'قلم' ہے۔",
+          "hi": "'قَلَمٌ' का मतलब 'क़लम' है।",
+          "hinglish": "'قَلَمٌ' ka matlab 'qalam' hai."
+        }
+      },
+      {
+        "id": "s4l12-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'قَلَمُهَا'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'قَلَمُهَا'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'قَلَمُهَا'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'قَلَمُهَا'"
+        },
+        "options": {
+          "en": [
+            "Indeed",
+            "Her pen",
+            "Indeed, it is",
+            "That"
+          ],
+          "ur": [
+            "بیشک",
+            "اس کا قلم",
+            "بیشک وہ",
+            "کہ"
+          ],
+          "hi": [
+            "बेशक",
+            "उसका क़लम",
+            "बेशक वह",
+            "कि"
+          ],
+          "hinglish": [
+            "beshak",
+            "uska qalam",
+            "beshak woh",
+            "ke"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'قَلَمُهَا' means 'Her pen'.",
+          "ur": "'قَلَمُهَا' کا مفہوم 'اس کا قلم' ہے۔",
+          "hi": "'قَلَمُهَا' का मतलब 'उसका क़लम' है।",
+          "hinglish": "'قَلَمُهَا' ka matlab 'uska qalam' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s4l13",
+    "questions": [
+      {
+        "id": "s4l13-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Zameer Munfasil (أَنَا) teach regarding pronouns?",
+          "ur": "Zameer Munfasil (أَنَا) ضمائر کے بارے میں کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Zameer Munfasil (أَنَا) ज़माएर के बारे में क्या क़ायदा सिखाता है?",
+          "hinglish": "Zameer Munfasil ('أَنَا') zama'ir ke baare mein kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms 'أَنَا يُوسُفُ' as a complete unit",
+            "Pronoun is completely deleted",
+            "Converts word into plural verb",
+            "Changes meaning to future tense"
+          ],
+          "ur": [
+            "مل کر 'أَنَا يُوسُفُ' بناتا ہے",
+            "ضمیر مکمل ساقط ہو جاتی ہے",
+            "لفظ کو فعل جمع بنا دیتا ہے",
+            "معنی کو مستقبل میں بدل دیتا ہے"
+          ],
+          "hi": [
+            "मिलकर 'أَنَا يُوسُفُ' बनाता है",
+            "ज़मीर मुकम्मल साक़ित हो जाती है",
+            "लफ़्ज़ को फेल जमा बना देता है",
+            "मानी को मुस्तक़बिल में बदल देता है"
+          ],
+          "hinglish": [
+            "Milkar 'أَنَا يُوسُفُ' banata hai",
+            "Zameer mukammal saaqit ho jaati hai",
+            "Lafz ko fe'l jama bana deta hai",
+            "Maani ko mustaqbil mein badal deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The construction creates 'أَنَا يُوسُفُ'.",
+          "ur": "ترکیب کے نتیجے میں 'أَنَا يُوسُفُ' بنتا ہے۔",
+          "hi": "तरकीब के नतीजे में 'أَنَا يُوسُفُ' बनता है।",
+          "hinglish": "Tarkeeb ke nateeje mein 'أَنَا يُوسُفُ' banta hai."
+        }
+      },
+      {
+        "id": "s4l13-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which phrase correctly demonstrates Zameer Munfasil (أَنَا)?",
+          "ur": "درج ذیل میں سے کون سی عبارت Zameer Munfasil (أَنَا) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सी इबारत Zameer Munfasil (أَنَا) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun si ibarat Zameer Munfasil ('أَنَا') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "أَنَا يُوسُفُ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "ur": [
+            "أَنَا يُوسُفُ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hi": [
+            "أَنَا يُوسُفُ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hinglish": [
+            "أَنَا يُوسُفُ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ]
+        },
+        "explanation": {
+          "en": "'أَنَا يُوسُفُ' is the exact application of this pronoun rule.",
+          "ur": "'أَنَا يُوسُفُ' اس قاعدے کی درست تطبیق ہے۔",
+          "hi": "'أَنَا يُوسُفُ' इस क़ायदे की सही मिसाल है।",
+          "hinglish": "'أَنَا يُوسُفُ' is qaaide ki sahi tatbeeq hai."
+        }
+      },
+      {
+        "id": "s4l13-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'أَنَا يُوسُفُ', identify the base stem before the pronoun:",
+          "ur": "'أَنَا يُوسُفُ' میں ضمیر سے پہلے اصل لفظ کیا ہے؟",
+          "hi": "'أَنَا يُوسُفُ' में ज़मीर से पहले असल लफ़्ज़ क्या है?",
+          "hinglish": "'أَنَا يُوسُفُ' mein zameer se pehle asal lafz kya hai?"
+        },
+        "options": {
+          "en": [
+            "يُوسُفُ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "يُوسُفُ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "يُوسُفُ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "يُوسُفُ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The base root/word is 'يُوسُفُ'.",
+          "ur": "اس کی بنیاد 'يُوسُفُ' پر ہے۔",
+          "hi": "इसकी बुनियाद 'يُوسُفُ' पर है।",
+          "hinglish": "Iski bunyad 'يُوسُفُ' par hai."
+        }
+      },
+      {
+        "id": "s4l13-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'يُوسُفُ'?",
+          "ur": "قرآنی لفظ 'يُوسُفُ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'يُوسُفُ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'يُوسُفُ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "Joseph",
+            "A warner",
+            "I am a warner",
+            "A human being"
+          ],
+          "ur": [
+            "یوسف",
+            "ڈرانے والا",
+            "میں ڈرانے والا ہوں",
+            "انسان"
+          ],
+          "hi": [
+            "यूसुफ़",
+            "डराने वाला",
+            "मैं डराने वाला हूँ",
+            "इंसान"
+          ],
+          "hinglish": [
+            "Yusuf",
+            "darane wala",
+            "Main darane wala hoon",
+            "insan"
+          ]
+        },
+        "explanation": {
+          "en": "'يُوسُفُ' translates to 'Joseph'.",
+          "ur": "'يُوسُفُ' کا معنی 'یوسف' ہے۔",
+          "hi": "'يُوسُفُ' का मतलब 'यूसुफ़' है।",
+          "hinglish": "'يُوسُفُ' ka matlab 'Yusuf' hai."
+        }
+      },
+      {
+        "id": "s4l13-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'أَنَا يُوسُفُ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'أَنَا يُوسُفُ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'أَنَا يُوسُفُ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'أَنَا يُوسُفُ'"
+        },
+        "options": {
+          "en": [
+            "A warner",
+            "I am Joseph",
+            "I am a warner",
+            "A human being"
+          ],
+          "ur": [
+            "ڈرانے والا",
+            "میں یوسف ہوں",
+            "میں ڈرانے والا ہوں",
+            "انسان"
+          ],
+          "hi": [
+            "डराने वाला",
+            "मैं यूसुफ़ हूँ",
+            "मैं डराने वाला हूँ",
+            "इंसान"
+          ],
+          "hinglish": [
+            "darane wala",
+            "Main Yusuf hoon",
+            "Main darane wala hoon",
+            "insan"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'أَنَا يُوسُفُ' means 'I am Joseph'.",
+          "ur": "'أَنَا يُوسُفُ' کا مفہوم 'میں یوسف ہوں' ہے۔",
+          "hi": "'أَنَا يُوسُفُ' का मतलब 'मैं यूसुफ़ हूँ' है।",
+          "hinglish": "'أَنَا يُوسُفُ' ka matlab 'Main Yusuf hoon' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s4l14",
+    "questions": [
+      {
+        "id": "s4l14-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Yaa-e-Mutakallim (ـِي) teach regarding pronouns?",
+          "ur": "Yaa-e-Mutakallim (ـِي) ضمائر کے بارے میں کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Yaa-e-Mutakallim (ـِي) ज़माएर के बारे में क्या क़ायदा सिखाता है?",
+          "hinglish": "Yaa-e-Mutakallim ('ـِي') zama'ir ke baare mein kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms 'بَيْتِي' as a complete unit",
+            "Pronoun is completely deleted",
+            "Converts word into plural verb",
+            "Changes meaning to future tense"
+          ],
+          "ur": [
+            "مل کر 'بَيْتِي' بناتا ہے",
+            "ضمیر مکمل ساقط ہو جاتی ہے",
+            "لفظ کو فعل جمع بنا دیتا ہے",
+            "معنی کو مستقبل میں بدل دیتا ہے"
+          ],
+          "hi": [
+            "मिलकर 'بَيْتِي' बनाता है",
+            "ज़मीर मुकम्मल साक़ित हो जाती है",
+            "लफ़्ज़ को फेल जमा बना देता है",
+            "मानी को मुस्तक़बिल में बदल देता है"
+          ],
+          "hinglish": [
+            "Milkar 'بَيْتِي' banata hai",
+            "Zameer mukammal saaqit ho jaati hai",
+            "Lafz ko fe'l jama bana deta hai",
+            "Maani ko mustaqbil mein badal deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The construction creates 'بَيْتِي'.",
+          "ur": "ترکیب کے نتیجے میں 'بَيْتِي' بنتا ہے۔",
+          "hi": "तरकीब के नतीजे में 'بَيْتِي' बनता है।",
+          "hinglish": "Tarkeeb ke nateeje mein 'بَيْتِي' banta hai."
+        }
+      },
+      {
+        "id": "s4l14-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which phrase correctly demonstrates Yaa-e-Mutakallim (ـِي)?",
+          "ur": "درج ذیل میں سے کون سی عبارت Yaa-e-Mutakallim (ـِي) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सी इबारत Yaa-e-Mutakallim (ـِي) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun si ibarat Yaa-e-Mutakallim ('ـِي') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "بَيْتِي",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "ur": [
+            "بَيْتِي",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hi": [
+            "بَيْتِي",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hinglish": [
+            "بَيْتِي",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ]
+        },
+        "explanation": {
+          "en": "'بَيْتِي' is the exact application of this pronoun rule.",
+          "ur": "'بَيْتِي' اس قاعدے کی درست تطبیق ہے۔",
+          "hi": "'بَيْتِي' इस क़ायदे की सही मिसाल है।",
+          "hinglish": "'بَيْتِي' is qaaide ki sahi tatbeeq hai."
+        }
+      },
+      {
+        "id": "s4l14-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'بَيْتِي', identify the base stem before the pronoun:",
+          "ur": "'بَيْتِي' میں ضمیر سے پہلے اصل لفظ کیا ہے؟",
+          "hi": "'بَيْتِي' में ज़मीर से पहले असल लफ़्ज़ क्या है?",
+          "hinglish": "'بَيْتِي' mein zameer se pehle asal lafz kya hai?"
+        },
+        "options": {
+          "en": [
+            "بَيْتٌ + أَنَا",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "بَيْتٌ + أَنَا",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "بَيْتٌ + أَنَا",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "بَيْتٌ + أَنَا",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The base root/word is 'بَيْتٌ + أَنَا'.",
+          "ur": "اس کی بنیاد 'بَيْتٌ + أَنَا' پر ہے۔",
+          "hi": "इसकी बुनियाद 'بَيْتٌ + أَنَا' पर है।",
+          "hinglish": "Iski bunyad 'بَيْتٌ + أَنَا' par hai."
+        }
+      },
+      {
+        "id": "s4l14-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'بَيْتٌ'?",
+          "ur": "قرآنی لفظ 'بَيْتٌ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'بَيْتٌ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'بَيْتٌ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "A house",
+            "Lord",
+            "My Lord",
+            "Mercy"
+          ],
+          "ur": [
+            "گھر",
+            "رب",
+            "میرا رب",
+            "رحمت"
+          ],
+          "hi": [
+            "घर",
+            "रब",
+            "मेरा रब",
+            "रहमत"
+          ],
+          "hinglish": [
+            "ghar",
+            "Rabb",
+            "mera Rabb",
+            "rahmat"
+          ]
+        },
+        "explanation": {
+          "en": "'بَيْتٌ' translates to 'A house'.",
+          "ur": "'بَيْتٌ' کا معنی 'گھر' ہے۔",
+          "hi": "'بَيْتٌ' का मतलब 'घर' है।",
+          "hinglish": "'بَيْتٌ' ka matlab 'ghar' hai."
+        }
+      },
+      {
+        "id": "s4l14-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'بَيْتِي'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'بَيْتِي'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'بَيْتِي'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'بَيْتِي'"
+        },
+        "options": {
+          "en": [
+            "Lord",
+            "My house",
+            "My Lord",
+            "Mercy"
+          ],
+          "ur": [
+            "رب",
+            "میرا گھر",
+            "میرا رب",
+            "رحمت"
+          ],
+          "hi": [
+            "रब",
+            "मेरा घर",
+            "मेरा रब",
+            "रहमत"
+          ],
+          "hinglish": [
+            "Rabb",
+            "mera ghar",
+            "mera Rabb",
+            "rahmat"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'بَيْتِي' means 'My house'.",
+          "ur": "'بَيْتِي' کا مفہوم 'میرا گھر' ہے۔",
+          "hi": "'بَيْتِي' का मतलब 'मेरा घर' है।",
+          "hinglish": "'بَيْتِي' ka matlab 'mera ghar' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s4l15",
+    "questions": [
+      {
+        "id": "s4l15-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Jarr + Baytee teach regarding pronouns?",
+          "ur": "Jarr + Baytee ضمائر کے بارے میں کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Jarr + Baytee ज़माएर के बारे में क्या क़ायदा सिखाता है?",
+          "hinglish": "Jarr + Baytee zama'ir ke baare mein kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms 'فِي بَيْتِي' as a complete unit",
+            "Pronoun is completely deleted",
+            "Converts word into plural verb",
+            "Changes meaning to future tense"
+          ],
+          "ur": [
+            "مل کر 'فِي بَيْتِي' بناتا ہے",
+            "ضمیر مکمل ساقط ہو جاتی ہے",
+            "لفظ کو فعل جمع بنا دیتا ہے",
+            "معنی کو مستقبل میں بدل دیتا ہے"
+          ],
+          "hi": [
+            "मिलकर 'فِي بَيْتِي' बनाता है",
+            "ज़मीर मुकम्मल साक़ित हो जाती है",
+            "लफ़्ज़ को फेल जमा बना देता है",
+            "मानी को मुस्तक़बिल में बदल देता है"
+          ],
+          "hinglish": [
+            "Milkar 'فِي بَيْتِي' banata hai",
+            "Zameer mukammal saaqit ho jaati hai",
+            "Lafz ko fe'l jama bana deta hai",
+            "Maani ko mustaqbil mein badal deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The construction creates 'فِي بَيْتِي'.",
+          "ur": "ترکیب کے نتیجے میں 'فِي بَيْتِي' بنتا ہے۔",
+          "hi": "तरकीब के नतीजे में 'فِي بَيْتِي' बनता है।",
+          "hinglish": "Tarkeeb ke nateeje mein 'فِي بَيْتِي' banta hai."
+        }
+      },
+      {
+        "id": "s4l15-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which phrase correctly demonstrates Jarr + Baytee?",
+          "ur": "درج ذیل میں سے کون سی عبارت Jarr + Baytee کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सी इबारत Jarr + Baytee की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun si ibarat Jarr + Baytee ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "فِي بَيْتِي",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "ur": [
+            "فِي بَيْتِي",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hi": [
+            "فِي بَيْتِي",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hinglish": [
+            "فِي بَيْتِي",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ]
+        },
+        "explanation": {
+          "en": "'فِي بَيْتِي' is the exact application of this pronoun rule.",
+          "ur": "'فِي بَيْتِي' اس قاعدے کی درست تطبیق ہے۔",
+          "hi": "'فِي بَيْتِي' इस क़ायदे की सही मिसाल है।",
+          "hinglish": "'فِي بَيْتِي' is qaaide ki sahi tatbeeq hai."
+        }
+      },
+      {
+        "id": "s4l15-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'فِي بَيْتِي', identify the base stem before the pronoun:",
+          "ur": "'فِي بَيْتِي' میں ضمیر سے پہلے اصل لفظ کیا ہے؟",
+          "hi": "'فِي بَيْتِي' में ज़मीर से पहले असल लफ़्ज़ क्या है?",
+          "hinglish": "'فِي بَيْتِي' mein zameer se pehle asal lafz kya hai?"
+        },
+        "options": {
+          "en": [
+            "بَيْتِي",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "بَيْتِي",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "بَيْتِي",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "بَيْتِي",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The base root/word is 'بَيْتِي'.",
+          "ur": "اس کی بنیاد 'بَيْتِي' پر ہے۔",
+          "hi": "इसकी बुनियाद 'بَيْتِي' पर है।",
+          "hinglish": "Iski bunyad 'بَيْتِي' par hai."
+        }
+      },
+      {
+        "id": "s4l15-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'بَيْتِيْ'?",
+          "ur": "قرآنی لفظ 'بَيْتِيْ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'بَيْتِيْ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'بَيْتِيْ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "My house",
+            "My Lord",
+            "From my Lord",
+            "My mercy"
+          ],
+          "ur": [
+            "میرا گھر",
+            "میرا رب",
+            "میرے رب سے",
+            "میری رحمت"
+          ],
+          "hi": [
+            "मेरा घर",
+            "मेरा रब",
+            "मेरे रब से",
+            "मेरी रहमत"
+          ],
+          "hinglish": [
+            "mera ghar",
+            "mera Rabb",
+            "mere Rabb se",
+            "meri rahmat"
+          ]
+        },
+        "explanation": {
+          "en": "'بَيْتِيْ' translates to 'My house'.",
+          "ur": "'بَيْتِيْ' کا معنی 'میرا گھر' ہے۔",
+          "hi": "'بَيْتِيْ' का मतलब 'मेरा घर' है।",
+          "hinglish": "'بَيْتِيْ' ka matlab 'mera ghar' hai."
+        }
+      },
+      {
+        "id": "s4l15-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'إِلَى بَيْتِيْ'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'إِلَى بَيْتِيْ'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'إِلَى بَيْتِيْ'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'إِلَى بَيْتِيْ'"
+        },
+        "options": {
+          "en": [
+            "My Lord",
+            "To my house",
+            "From my Lord",
+            "My mercy"
+          ],
+          "ur": [
+            "میرا رب",
+            "میرے گھر کی طرف",
+            "میرے رب سے",
+            "میری رحمت"
+          ],
+          "hi": [
+            "मेरा रब",
+            "मेरे घर की तरफ़",
+            "मेरे रब से",
+            "मेरी रहमत"
+          ],
+          "hinglish": [
+            "mera Rabb",
+            "mere ghar ki taraf",
+            "mere Rabb se",
+            "meri rahmat"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'إِلَى بَيْتِيْ' means 'To my house'.",
+          "ur": "'إِلَى بَيْتِيْ' کا مفہوم 'میرے گھر کی طرف' ہے۔",
+          "hi": "'إِلَى بَيْتِيْ' का मतलब 'मेरे घर की तरफ़' है।",
+          "hinglish": "'إِلَى بَيْتِيْ' ka matlab 'mere ghar ki taraf' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s4l16",
+    "questions": [
+      {
+        "id": "s4l16-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Huroof + Mutakallim teach regarding pronouns?",
+          "ur": "Huroof + Mutakallim ضمائر کے بارے میں کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Huroof + Mutakallim ज़माएर के बारे में क्या क़ायदा सिखाता है?",
+          "hinglish": "Huroof + Mutakallim zama'ir ke baare mein kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms 'لِي / مِنِّي / عَلَيَّ' as a complete unit",
+            "Pronoun is completely deleted",
+            "Converts word into plural verb",
+            "Changes meaning to future tense"
+          ],
+          "ur": [
+            "مل کر 'لِي / مِنِّي / عَلَيَّ' بناتا ہے",
+            "ضمیر مکمل ساقط ہو جاتی ہے",
+            "لفظ کو فعل جمع بنا دیتا ہے",
+            "معنی کو مستقبل میں بدل دیتا ہے"
+          ],
+          "hi": [
+            "मिलकर 'لِي / مِنِّي / عَلَيَّ' बनाता है",
+            "ज़मीर मुकम्मल साक़ित हो जाती है",
+            "लफ़्ज़ को फेल जमा बना देता है",
+            "मानी को मुस्तक़बिल में बदल देता है"
+          ],
+          "hinglish": [
+            "Milkar 'لِي / مِنِّي / عَلَيَّ' banata hai",
+            "Zameer mukammal saaqit ho jaati hai",
+            "Lafz ko fe'l jama bana deta hai",
+            "Maani ko mustaqbil mein badal deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The construction creates 'لِي / مِنِّي / عَلَيَّ'.",
+          "ur": "ترکیب کے نتیجے میں 'لِي / مِنِّي / عَلَيَّ' بنتا ہے۔",
+          "hi": "तरकीब के नतीजे में 'لِي / مِنِّي / عَلَيَّ' बनता है।",
+          "hinglish": "Tarkeeb ke nateeje mein 'لِي / 'مِنِّي' / عَلَيَّ' banta hai."
+        }
+      },
+      {
+        "id": "s4l16-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which phrase correctly demonstrates Huroof + Mutakallim?",
+          "ur": "درج ذیل میں سے کون سی عبارت Huroof + Mutakallim کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सी इबारत Huroof + Mutakallim की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun si ibarat Huroof + Mutakallim ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "لِي / مِنِّي / عَلَيَّ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "ur": [
+            "لِي / مِنِّي / عَلَيَّ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hi": [
+            "لِي / مِنِّي / عَلَيَّ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hinglish": [
+            "لِي / مِنِّي / عَلَيَّ",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ]
+        },
+        "explanation": {
+          "en": "'لِي / مِنِّي / عَلَيَّ' is the exact application of this pronoun rule.",
+          "ur": "'لِي / مِنِّي / عَلَيَّ' اس قاعدے کی درست تطبیق ہے۔",
+          "hi": "'لِي / مِنِّي / عَلَيَّ' इस क़ायदे की सही मिसाल है।",
+          "hinglish": "'لِي / 'مِنِّي' / عَلَيَّ' is qaaide ki sahi tatbeeq hai."
+        }
+      },
+      {
+        "id": "s4l16-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'لِي / مِنِّي / عَلَيَّ', identify the base stem before the pronoun:",
+          "ur": "'لِي / مِنِّي / عَلَيَّ' میں ضمیر سے پہلے اصل لفظ کیا ہے؟",
+          "hi": "'لِي / مِنِّي / عَلَيَّ' में ज़मीर से पहले असल लफ़्ज़ क्या है?",
+          "hinglish": "'لِي / 'مِنِّي' / عَلَيَّ' mein zameer se pehle asal lafz kya hai?"
+        },
+        "options": {
+          "en": [
+            "لِـ / مِنْ / عَلَى",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "لِـ / مِنْ / عَلَى",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "لِـ / مِنْ / عَلَى",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "لِـ / مِنْ / عَلَى",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The base root/word is 'لِـ / مِنْ / عَلَى'.",
+          "ur": "اس کی بنیاد 'لِـ / مِنْ / عَلَى' پر ہے۔",
+          "hi": "इसकी बुनियाद 'لِـ / مِنْ / عَلَى' पर है।",
+          "hinglish": "Iski bunyad 'لِـ / 'مِنْ' / عَلَى' par hai."
+        }
+      },
+      {
+        "id": "s4l16-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'لِي'?",
+          "ur": "قرآنی لفظ 'لِي' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'لِي' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'لِي' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "For me",
+            "Upon me",
+            "A pen",
+            "My pen"
+          ],
+          "ur": [
+            "میرے لیے",
+            "مجھ پر",
+            "قلم",
+            "میرا قلم"
+          ],
+          "hi": [
+            "मेरे लिए",
+            "मुझ पर",
+            "क़लम",
+            "मेरा क़लम"
+          ],
+          "hinglish": [
+            "mere liye",
+            "mujh par",
+            "qalam",
+            "mera qalam"
+          ]
+        },
+        "explanation": {
+          "en": "'لِي' translates to 'For me'.",
+          "ur": "'لِي' کا معنی 'میرے لیے' ہے۔",
+          "hi": "'لِي' का मतलब 'मेरे लिए' है।",
+          "hinglish": "'لِي' ka matlab 'mere liye' hai."
+        }
+      },
+      {
+        "id": "s4l16-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'مِنِّي'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'مِنِّي'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'مِنِّي'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'مِنِّي'"
+        },
+        "options": {
+          "en": [
+            "Upon me",
+            "From me",
+            "A pen",
+            "My pen"
+          ],
+          "ur": [
+            "مجھ پر",
+            "مجھ سے",
+            "قلم",
+            "میرا قلم"
+          ],
+          "hi": [
+            "मुझ पर",
+            "मुझ से",
+            "क़लम",
+            "मेरा क़लम"
+          ],
+          "hinglish": [
+            "mujh par",
+            "mujh se",
+            "qalam",
+            "mera qalam"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'مِنِّي' means 'From me'.",
+          "ur": "'مِنِّي' کا مفہوم 'مجھ سے' ہے۔",
+          "hi": "'مِنِّي' का मतलब 'मुझ से' है।",
+          "hinglish": "'مِنِّي' ka matlab 'mujh se' hai."
+        }
+      }
+    ]
+  },
+  {
+    "lessonId": "s4l17",
+    "questions": [
+      {
+        "id": "s4l17-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "What rule does Haalat-e-Nasb (ـًا) teach regarding pronouns?",
+          "ur": "Haalat-e-Nasb (ـًا) ضمائر کے بارے میں کیا قاعدہ سکھاتا ہے؟",
+          "hi": "Haalat-e-Nasb (ـًا) ज़माएर के बारे में क्या क़ायदा सिखाता है?",
+          "hinglish": "Haalat-e-Nasb ('ـًا') zama'ir ke baare mein kya qaaida sikhata hai?"
+        },
+        "options": {
+          "en": [
+            "Forms 'مُجْرِمًا' as a complete unit",
+            "Pronoun is completely deleted",
+            "Converts word into plural verb",
+            "Changes meaning to future tense"
+          ],
+          "ur": [
+            "مل کر 'مُجْرِمًا' بناتا ہے",
+            "ضمیر مکمل ساقط ہو جاتی ہے",
+            "لفظ کو فعل جمع بنا دیتا ہے",
+            "معنی کو مستقبل میں بدل دیتا ہے"
+          ],
+          "hi": [
+            "मिलकर 'مُجْرِمًا' बनाता है",
+            "ज़मीर मुकम्मल साक़ित हो जाती है",
+            "लफ़्ज़ को फेल जमा बना देता है",
+            "मानी को मुस्तक़बिल में बदल देता है"
+          ],
+          "hinglish": [
+            "Milkar 'مُجْرِمًا' banata hai",
+            "Zameer mukammal saaqit ho jaati hai",
+            "Lafz ko fe'l jama bana deta hai",
+            "Maani ko mustaqbil mein badal deta hai"
+          ]
+        },
+        "explanation": {
+          "en": "The construction creates 'مُجْرِمًا'.",
+          "ur": "ترکیب کے نتیجے میں 'مُجْرِمًا' بنتا ہے۔",
+          "hi": "तरकीब के नतीजे में 'مُجْرِمًا' बनता है।",
+          "hinglish": "Tarkeeb ke nateeje mein 'مُجْرِمًا' banta hai."
+        }
+      },
+      {
+        "id": "s4l17-q2",
+        "type": "rule-application",
+        "correct": 0,
+        "question": {
+          "en": "Which phrase correctly demonstrates Haalat-e-Nasb (ـًا)?",
+          "ur": "درج ذیل میں سے کون سی عبارت Haalat-e-Nasb (ـًا) کی درست مثال ہے؟",
+          "hi": "दर्ज जेल में से कौन सी इबारत Haalat-e-Nasb (ـًا) की सही मिसाल है?",
+          "hinglish": "Darj zail mein se kaun si ibarat Haalat-e-Nasb ('ـًا') ki sahi misaal hai?"
+        },
+        "options": {
+          "en": [
+            "مُجْرِمًا",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "ur": [
+            "مُجْرِمًا",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hi": [
+            "مُجْرِمًا",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ],
+          "hinglish": [
+            "مُجْرِمًا",
+            "كِتَابٌ كَبِيرٌ",
+            "مِنَ الْمَسْجِدِ",
+            "قَالَ لَهُ"
+          ]
+        },
+        "explanation": {
+          "en": "'مُجْرِمًا' is the exact application of this pronoun rule.",
+          "ur": "'مُجْرِمًا' اس قاعدے کی درست تطبیق ہے۔",
+          "hi": "'مُجْرِمًا' इस क़ायदे की सही मिसाल है।",
+          "hinglish": "'مُجْرِمًا' is qaaide ki sahi tatbeeq hai."
+        }
+      },
+      {
+        "id": "s4l17-q3",
+        "type": "reverse-identification",
+        "correct": 0,
+        "question": {
+          "en": "In 'مُجْرِمًا', identify the base stem before the pronoun:",
+          "ur": "'مُجْرِمًا' میں ضمیر سے پہلے اصل لفظ کیا ہے؟",
+          "hi": "'مُجْرِمًا' में ज़मीर से पहले असल लफ़्ज़ क्या है?",
+          "hinglish": "'مُجْرِمًا' mein zameer se pehle asal lafz kya hai?"
+        },
+        "options": {
+          "en": [
+            "مُجْرِمٌ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "ur": [
+            "مُجْرِمٌ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hi": [
+            "مُجْرِمٌ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ],
+          "hinglish": [
+            "مُجْرِمٌ",
+            "قَلَمٌ",
+            "أَمْرٌ",
+            "حَقٌّ"
+          ]
+        },
+        "explanation": {
+          "en": "The base root/word is 'مُجْرِمٌ'.",
+          "ur": "اس کی بنیاد 'مُجْرِمٌ' پر ہے۔",
+          "hi": "इसकी बुनियाद 'مُجْرِمٌ' पर है।",
+          "hinglish": "Iski bunyad 'مُجْرِمٌ' par hai."
+        }
+      },
+      {
+        "id": "s4l17-q4",
+        "type": "vocabulary-meaning",
+        "correct": 0,
+        "question": {
+          "en": "What is the meaning of the Quranic word 'مُجْرِمٌ'?",
+          "ur": "قرآنی لفظ 'مُجْرِمٌ' کا کیا معنی ہے؟",
+          "hi": "क़ुरआनी लफ़्ज़ 'مُجْرِمٌ' का क्या मतलब है?",
+          "hinglish": "Qur'ani lafz 'مُجْرِمٌ' ka kya matlab hai?"
+        },
+        "options": {
+          "en": [
+            "A criminal",
+            "A mercy",
+            "As a mercy",
+            "Fearful"
+          ],
+          "ur": [
+            "مجرم",
+            "رحمت",
+            "رحمت بن کر",
+            "ڈرنے والا"
+          ],
+          "hi": [
+            "मुजरिम",
+            "रहमत",
+            "रहमत बन कर",
+            "डरने वाला"
+          ],
+          "hinglish": [
+            "mujrim",
+            "rahmat",
+            "rahmat ban kar",
+            "darne wala"
+          ]
+        },
+        "explanation": {
+          "en": "'مُجْرِمٌ' translates to 'A criminal'.",
+          "ur": "'مُجْرِمٌ' کا معنی 'مجرم' ہے۔",
+          "hi": "'مُجْرِمٌ' का मतलब 'मुजरिम' है।",
+          "hinglish": "'مُجْرِمٌ' ka matlab 'mujrim' hai."
+        }
+      },
+      {
+        "id": "s4l17-q5",
+        "type": "contextual-phrase",
+        "correct": 1,
+        "question": {
+          "en": "Identify the correct meaning of this Quranic phrase: 'مُجْرِمًا'",
+          "ur": "اس قرآنی عبارت کا درست مفہوم بتائیں: 'مُجْرِمًا'",
+          "hi": "इस क़ुरआनी इबारत का सही मतलब बताएं: 'مُجْرِمًا'",
+          "hinglish": "Is Qur'ani ibarat ka sahi matlab batayein: 'مُجْرِمًا'"
+        },
+        "options": {
+          "en": [
+            "A mercy",
+            "As a criminal",
+            "As a mercy",
+            "Fearful"
+          ],
+          "ur": [
+            "رحمت",
+            "مجرم بن کر / بحیثیت مجرم",
+            "رحمت بن کر",
+            "ڈرنے والا"
+          ],
+          "hi": [
+            "रहमत",
+            "मुजरिम बन कर / बतौर मुजरिम",
+            "रहमत बन कर",
+            "डरने वाला"
+          ],
+          "hinglish": [
+            "rahmat",
+            "mujrim ban kar bahaiseeyat mujrim",
+            "rahmat ban kar",
+            "darne wala"
+          ]
+        },
+        "explanation": {
+          "en": "The phrase 'مُجْرِمًا' means 'As a criminal'.",
+          "ur": "'مُجْرِمًا' کا مفہوم 'مجرم بن کر / بحیثیت مجرم' ہے۔",
+          "hi": "'مُجْرِمًا' का मतलब 'मुजरिम बन कर / बतौर मुजरिम' है।",
+          "hinglish": "'مُجْرِمًا' ka matlab 'mujrim ban kar bahaiseeyat mujrim' hai."
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,1410 @@
+[
+  {
+    "lesson": "S5L1",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L1p1.png",
+      "S5L1p2.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L2",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L2p1.png",
+      "S5L2p2.png",
+      "S5L2p3.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "FIXED",
+    "da3_result": "PASS",
+    "corrections": [
+      {
+        "item_id": "1-28",
+        "bug": "DA-2",
+        "arabic": "الْمُشْرِکُوْنَ / الضَّالُّوْنَ",
+        "old_hinglish": "Column-first vertical ordering in 2-column vocabulary table",
+        "new_hinglish": "Applied displayOrder for RTL row-first sequence (items 0-27)",
+        "status": "resolved"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L3",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L3p1.png",
+      "S5L3p2.png",
+      "S5L3p3.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L4",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L4p1.png",
+      "S5L4p2.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "FIXED",
+    "da3_result": "PASS",
+    "corrections": [
+      {
+        "item_id": "1-42",
+        "bug": "DA-2",
+        "arabic": "كَافِرٌ / حَاكِمٌ / فَاجِرٌ",
+        "old_hinglish": "Column-first vertical ordering in 3-column broken plurals table",
+        "new_hinglish": "Applied displayOrder for RTL row-first sequence (items 0-41)",
+        "status": "resolved"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L5",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L5p1.png",
+      "S5L5p2.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "FIXED",
+    "da3_result": "PASS",
+    "corrections": [
+      {
+        "item_id": "1-12",
+        "bug": "DA-2",
+        "arabic": "خَالِدُونَ / كَافِرُونَ",
+        "old_hinglish": "Column-first vertical ordering in 2-column paired vocabulary table",
+        "new_hinglish": "Applied displayOrder for RTL row-first sequence (items 0-11)",
+        "status": "resolved"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L6",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L6p1.png",
+      "S5L6p2.png",
+      "S5L6p3.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "FIXED",
+    "da3_result": "FIXED",
+    "corrections": [
+      {
+        "item_id": "76",
+        "bug": "DA-3",
+        "arabic": "صَلَاتُهُمْ عِنْدَ الْبَيْتِ",
+        "old_hinglish": "Unki namaz Bait (Allah) ke paas",
+        "new_hinglish": "Unki namaz Bait (Allah) ke paas",
+        "status": "resolved"
+      },
+      {
+        "item_id": "77",
+        "bug": "DA-3",
+        "arabic": "لِلنَّاسِ حِسَابُهُمْ",
+        "old_hinglish": "Logo ke liye unka hisaab",
+        "new_hinglish": "Logo ke liye unka hisaab",
+        "status": "resolved"
+      },
+      {
+        "item_id": "78",
+        "bug": "DA-3",
+        "arabic": "أَمْوَالُهُمْ وَلَا أَوْلَادُهُمْ",
+        "old_hinglish": "Na unke maal aur na unki aulad",
+        "new_hinglish": "Na unke maal aur na unki aulad",
+        "status": "resolved"
+      },
+      {
+        "item_id": "80",
+        "bug": "DA-3",
+        "arabic": "أَعْمَالُهُمْ فِي الدُّنْيَا وَالْآخِرَةِ",
+        "old_hinglish": "Unke aamaal duniya aur aakhirat mein",
+        "new_hinglish": "Unke aamaal duniya aur aakhirat mein",
+        "status": "resolved"
+      },
+      {
+        "item_id": "81",
+        "bug": "DA-3",
+        "arabic": "عِنْدَهُمْ فِي التَّوْرَاةِ وَالْإِنجِيلِ",
+        "old_hinglish": "Unke paas Taurat aur Injeel mein",
+        "new_hinglish": "Unke paas Taurat aur Injeel mein",
+        "status": "resolved"
+      },
+      {
+        "item_id": "97",
+        "bug": "DA-3",
+        "arabic": "ذٰلِكَ مَثَلُهُمْ فِي التَّوْرَاةِ",
+        "old_hinglish": "Yeh unki misaal Taurat mein hai",
+        "new_hinglish": "Yeh unki misaal Taurat mein hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "108",
+        "bug": "DA-3",
+        "arabic": "وَأَكْثَرُهُمْ لِلْحَقِّ كَارِهُونَ",
+        "old_hinglish": "Aur unme se aksar haq ko napasand karne wale hain",
+        "new_hinglish": "Aur unme se aksar haq ko napasand karne wale hain",
+        "status": "resolved"
+      },
+      {
+        "item_id": "113",
+        "bug": "DA-3",
+        "arabic": "ذٰلِكَ مَثَلُهُمْ فِي التَّوْرَاةِ وَمَثَلُهُمْ فِي الْإِنجِيلِ",
+        "old_hinglish": "Yeh unki misaal Taurat mein hai aur unki misaal Injeel mein hai",
+        "new_hinglish": "Yeh unki misaal Taurat mein hai aur unki misaal Injeel mein hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "115",
+        "bug": "DA-3",
+        "arabic": "الْمُنَافِقُونَ وَالْمُنَافِقَاتُ بَعْضُهُمْ مِنْ بَعْضٍ",
+        "old_hinglish": "Munafiq mard aur munafiq auratein aapas mein ek doosre se hain",
+        "new_hinglish": "Munafiq mard aur munafiq auratein aapas mein ek doosre se hain",
+        "status": "resolved"
+      },
+      {
+        "item_id": "122",
+        "bug": "DA-3",
+        "arabic": "وَإِنَّ الظَّالِمِينَ بَعْضُهُمْ أَوْلِيَاءُ بَعْضٍ وَاللهُ وَلِيُّ الْمُتَّقِينَ",
+        "old_hinglish": "Aur beshak zaalim ek doosre ke madadgar hain aur Allah parhezgaron ka dost hai",
+        "new_hinglish": "Aur beshak zaalim ek doosre ke madadgar hain aur Allah parhezgaron ka dost hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "126",
+        "bug": "DA-3",
+        "arabic": "مُحَمَّدٌ رَسُولُ اللهِ وَالَّذِينَ مَعَهُ أَشِدَّاءُ عَلَى الْكُفَّارِ رُحَمَاءُ بَيْنَهُمْ",
+        "old_hinglish": "Muhammad Allah ke Rasool hain aur jo log unke saath hain woh kaafiron par sakht aur aapas mein rahamdil hain",
+        "new_hinglish": "Muhammad Allah ke Rasool hain aur jo log unke saath hain woh kaafiron par sakht aur aapas mein rahamdil hain",
+        "status": "resolved"
+      },
+      {
+        "item_id": "129",
+        "bug": "DA-3",
+        "arabic": "دَعْوَاهُمْ فِيهَا سُبْحَانَكَ اللَّهُمَّ وَتَحِيَّتُهُمْ فِيهَا سَلَامٌ وَآخِرُ دَعْوَاهُمْ أَنِ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+        "old_hinglish": "Unki dua usme yeh hogi 'Paak hai Tu ae Allah', unka salaam 'salamati' hoga aur unki aakhiri pukaar yeh hogi ke 'Tamaam tareefein Allah hi ke liye hain jo tamaam jahanon ka Rab hai'",
+        "new_hinglish": "Unki dua usme yeh hogi 'Paak hai Tu ae Allah', unka salaam 'salamati' hoga aur unki aakhiri pukaar yeh hogi ke 'Tamaam tareefein Allah hi ke liye hain jo tamaam jahanon ka Rab hai'",
+        "status": "resolved"
+      },
+      {
+        "item_id": "4-62",
+        "bug": "DA-2",
+        "arabic": "رَبٌّ / حِسَابٌ / ظُلْمٌ",
+        "old_hinglish": "Column-first vertical ordering in 3-column vocabulary table",
+        "new_hinglish": "Applied displayOrder for RTL row-first sequence across pages 1 and 2",
+        "status": "resolved"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L7",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L7p1.png",
+      "S5L7p2.png",
+      "S5L7p3.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "FIXED",
+    "corrections": [
+      {
+        "item_id": "3",
+        "bug": "DA-3",
+        "arabic": "رَسُوْلُهُمْ ← مِنْ رَسُوْلِهِمْ",
+        "old_hinglish": "Unka rasool -> Unke rasool se",
+        "new_hinglish": "Unka rasool -> Unke rasool se",
+        "status": "resolved"
+      },
+      {
+        "item_id": "4",
+        "bug": "DA-3",
+        "arabic": "عَلَى صَلَاتِهِمْ",
+        "old_hinglish": "'Alaa salaatihim",
+        "new_hinglish": "Apni namaz par",
+        "status": "resolved"
+      },
+      {
+        "item_id": "9",
+        "bug": "DA-3",
+        "arabic": "عَلَى قُلُوبِهِمْ",
+        "old_hinglish": "Unke dilon par",
+        "new_hinglish": "Unke dilon par",
+        "status": "resolved"
+      },
+      {
+        "item_id": "12",
+        "bug": "DA-3",
+        "arabic": "مِنْ رَبِّهِمْ",
+        "old_hinglish": "Unke Rab ki taraf se",
+        "new_hinglish": "Unke Rab ki taraf se",
+        "status": "resolved"
+      },
+      {
+        "item_id": "16",
+        "bug": "DA-3",
+        "arabic": "مِنْ يَوْمِهِمْ",
+        "old_hinglish": "Unke din se",
+        "new_hinglish": "Unke din se",
+        "status": "resolved"
+      },
+      {
+        "item_id": "28",
+        "bug": "DA-3",
+        "arabic": "فِي مِلَّتِهِمْ",
+        "old_hinglish": "Unke deen mein",
+        "new_hinglish": "Unke deen mein",
+        "status": "resolved"
+      },
+      {
+        "item_id": "48",
+        "bug": "DA-3",
+        "arabic": "نِفَاقًا فِي قُلُوبِهِمْ",
+        "old_hinglish": "Unke dilon mein nifaaq",
+        "new_hinglish": "Unke dilon mein nifaaq",
+        "status": "resolved"
+      },
+      {
+        "item_id": "51",
+        "bug": "DA-3",
+        "arabic": "غَضَبٌ مِنْ رَبِّهِمْ وَذِلَّةٌ فِي الْحَيَاةِ الدُّنْيَا",
+        "old_hinglish": "Unke Rab ka ghazab aur zillat dunyawi zindagi mein",
+        "new_hinglish": "Unke Rab ka ghazab aur zillat dunyawi zindagi mein",
+        "status": "resolved"
+      },
+      {
+        "item_id": "55",
+        "bug": "DA-3",
+        "arabic": "وَالْمُجَاهِدُونَ فِي سَبِيلِ اللهِ بِأَمْوَالِهِمْ وَأَنْفُسِهِمْ",
+        "old_hinglish": "Aur Allah ke raaste mein apne maalon aur apni jaanon se jihad karne wale",
+        "new_hinglish": "Aur Allah ke raaste mein apne maalon aur apni jaanon se jihad karne wale",
+        "status": "resolved"
+      },
+      {
+        "item_id": "57",
+        "bug": "DA-3",
+        "arabic": "الْحَقُّ مِنْ رَبِّهِمْ",
+        "old_hinglish": "Unke Rab ki taraf se haq hai",
+        "new_hinglish": "Unke Rab ki taraf se haq hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "58",
+        "bug": "DA-3",
+        "arabic": "وَهُوَ الْحَقُّ مِنْ رَبِّهِمْ",
+        "old_hinglish": "Aur woh unke Rab ki taraf se sachai hai",
+        "new_hinglish": "Aur woh unke Rab ki taraf se sachai hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "59",
+        "bug": "DA-3",
+        "arabic": "فِي قُلُوبِهِمْ مَرَضٌ",
+        "old_hinglish": "Unke dilon mein bimari hai",
+        "new_hinglish": "Unke dilon mein bimari hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "62",
+        "bug": "DA-3",
+        "arabic": "أَ فِي قُلُوبِهِمْ مَرَضٌ",
+        "old_hinglish": "Kya unke dilon mein bimari hai?",
+        "new_hinglish": "Kya unke dilon mein bimari hai?",
+        "status": "resolved"
+      },
+      {
+        "item_id": "67",
+        "bug": "DA-3",
+        "arabic": "وَاللهُ مِنْ وَرَائِهِمْ مُحِيطٌ",
+        "old_hinglish": "Aur Allah unke peeche se ghere hue hai",
+        "new_hinglish": "Aur Allah unke peeche se ghere hue hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "75",
+        "bug": "DA-3",
+        "arabic": "إِنَّ لِلْمُتَّقِينَ عِنْدَ رَبِّهِمْ جَنَّاتِ النَّعِيمِ",
+        "old_hinglish": "Beshak parhezgaron ke liye unke Rab ke paas ne'maton ke baghaat hain",
+        "new_hinglish": "Beshak parhezgaron ke liye unke Rab ke paas ne'maton ke baghaat hain",
+        "status": "resolved"
+      },
+      {
+        "item_id": "76",
+        "bug": "DA-3",
+        "arabic": "وَفِي أَمْوَالِهِمْ حَقٌّ لِلسَّائِلِ وَالْمَحْرُومِ",
+        "old_hinglish": "Aur unke maalon mein maangne wale aur mehroom ka haq hai",
+        "new_hinglish": "Aur unke maalon mein maangne wale aur mehroom ka haq hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "79",
+        "bug": "DA-3",
+        "arabic": "النَّبِيُّ أَوْلَى بِالْمُؤْمِنِينَ مِنْ أَنْفُسِهِمْ",
+        "old_hinglish": "Nabi mominon ki apni jaanon se bhi zyada unke haqdaar hain",
+        "new_hinglish": "Nabi mominon ki apni jaanon se bhi zyada unke haqdaar hain",
+        "status": "resolved"
+      },
+      {
+        "item_id": "81",
+        "bug": "DA-3",
+        "arabic": "وَاللهُ مِنْ وَرَائِهِمْ مُحِيطٌ بَلْ هُوَ قُرْآنٌ مَجِيدٌ فِي لَوْحٍ مَحْفُوظٍ",
+        "old_hinglish": "Aur Allah unke peeche se ghere hue hai, balke woh badi shaan wala Quran hai jo Lauh-e-Mahfooz mein hai",
+        "new_hinglish": "Aur Allah unke peeche se ghere hue hai, balke woh badi shaan wala Quran hai jo Lauh-e-Mahfooz mein hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "82",
+        "bug": "DA-3",
+        "arabic": "سِيمَاهُمْ فِي وُجُوهِهِمْ مِنْ أَثَرِ السُّجُودِ ذٰلِكَ مَثَلُهُمْ فِي التَّوْرَاةِ وَمَثَلُهُمْ فِي الْإِنجِيلِ",
+        "old_hinglish": "Unki nishaniyan unke chehron par sajdon ke asar se hain, yeh unki misaal Taurat mein hai aur unki misaal Injeel mein hai",
+        "new_hinglish": "Unki nishaniyan unke chehron par sajdon ke asar se hain, yeh unki misaal Taurat mein hai aur unki misaal Injeel mein hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "85",
+        "bug": "DA-3",
+        "arabic": "هُمْ عَلَى صَلَاتِهِمْ دَائِمُونَ",
+        "old_hinglish": "Hum 'alaa salaatihim daaimoon",
+        "new_hinglish": "Woh apni namaz ki pabandi karne wale hain",
+        "status": "resolved"
+      },
+      {
+        "item_id": "96",
+        "bug": "DA-3",
+        "arabic": "الَّذِينَ هُمْ عَلَى صَلَاتِهِمْ دَائِمُونَ",
+        "old_hinglish": "Allazeena hum 'alaa salaatihim daaimoon",
+        "new_hinglish": "Woh log jo apni namaz ki pabandi karne wale hain",
+        "status": "resolved"
+      },
+      {
+        "item_id": "98",
+        "bug": "DA-3",
+        "arabic": "وَالَّذِينَ هُمْ بِشَهَادَاتِهِمْ قَائِمُونَ",
+        "old_hinglish": "Aur woh log jo apni gawaniyon par qaim rehte hain",
+        "new_hinglish": "Aur woh log jo apni gawaniyon par qaim rehte hain",
+        "status": "resolved"
+      },
+      {
+        "item_id": "99",
+        "bug": "DA-3",
+        "arabic": "وَالَّذِينَ هُمْ لِأَمَانَاتِهِمْ وَعَهْدِهِمْ رَاعُونَ",
+        "old_hinglish": "Aur woh log jo apni amanaton aur apne wade ka paas rakhne wale hain",
+        "new_hinglish": "Aur woh log jo apni amanaton aur apne wade ka paas rakhne wale hain",
+        "status": "resolved"
+      },
+      {
+        "item_id": "100",
+        "bug": "DA-3",
+        "arabic": "وَالَّذِينَ هُمْ لِفُرُوجِهِمْ حَافِظُونَ",
+        "old_hinglish": "Aur woh log jo apni sharmgahon ki hifazat karne wale hain",
+        "new_hinglish": "Aur woh log jo apni sharmgahon ki hifazat karne wale hain",
+        "status": "resolved"
+      },
+      {
+        "item_id": "101",
+        "bug": "DA-3",
+        "arabic": "وَالَّذِينَ هُمْ مِنْ عَذَابِ رَبِّهِمْ مُشْفِقُونَ",
+        "old_hinglish": "Aur woh log jo apne Rab ke azaab se khaufzada rehte hain",
+        "new_hinglish": "Aur woh log jo apne Rab ke azaab se khaufzada rehte hain",
+        "status": "resolved"
+      },
+      {
+        "item_id": "103",
+        "bug": "DA-3",
+        "arabic": "فَوَيْلٌ لِلْمُصَلِّينَ الَّذِينَ هُمْ عَنْ صَلَاتِهِمْ سَاهُونَ",
+        "old_hinglish": "Pas kharabi hai un namaziyon ke liye jo apni namaz se ghafil hain",
+        "new_hinglish": "Pas kharabi hai un namaziyon ke liye jo apni namaz se ghafil hain",
+        "status": "resolved"
+      },
+      {
+        "item_id": "104",
+        "bug": "DA-3",
+        "arabic": "وَالَّذِينَ فِي أَمْوَالِهِمْ حَقٌّ مَعْلُومٌ لِلسَّائِلِ وَالْمَحْرُومِ",
+        "old_hinglish": "Aur woh log jinke maalon mein maangne wale aur mehroom ke liye ek tay shuda haq hai",
+        "new_hinglish": "Aur woh log jinke maalon mein maangne wale aur mehroom ke liye ek tay shuda haq hai",
+        "status": "resolved"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L8",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L8p1.png",
+      "S5L8p2.png",
+      "S5L8p3.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L9",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L9p1.png",
+      "S5L9p2.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "FIXED",
+    "corrections": [
+      {
+        "item_id": "45",
+        "bug": "DA-3",
+        "arabic": "وَاللهُ الْغَنِيُّ وَأَنْتُمُ الْفُقَرَاءُ",
+        "old_hinglish": "Aur Allah be-niyaz hai aur tum sab mohtaj ho",
+        "new_hinglish": "Aur Allah be-niyaz hai aur tum sab mohtaj ho",
+        "status": "resolved"
+      },
+      {
+        "item_id": "46",
+        "bug": "DA-3",
+        "arabic": "يَا أَيُّهَا النَّاسُ أَنْتُمُ الْفُقَرَاءُ إِلَى اللهِ وَاللهُ هُوَ الْغَنِيُّ الْحَمِيدُ",
+        "old_hinglish": "Ae logo! Tum sab Allah ke mohtaj ho aur Allah hi be-niyaz aur qabil-e-tareef hai",
+        "new_hinglish": "Ae logo! Tum sab Allah ke mohtaj ho aur Allah hi be-niyaz aur qabil-e-tareef hai",
+        "status": "resolved"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L10",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L10p1.png",
+      "S5L10p2.png",
+      "S5L10p3.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L11",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L11p1.png",
+      "S5L11p2.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L12",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L12p1.png",
+      "S5L12p2.png",
+      "S5L12p3.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L13",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L13p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L14",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L14p1.png",
+      "S5L14p2.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L15",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L15p1.png",
+      "S5L15p2.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L16",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L16p1.png",
+      "S5L16p2.png",
+      "S5L16p3.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L17",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L17p1.png",
+      "S5L17p2.png",
+      "S5L17p3.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "FIXED",
+    "corrections": [
+      {
+        "item_id": "3",
+        "bug": "DA-3",
+        "arabic": "فِي الْعَذَابِ ← أُولَائِكَ فِي الْعَذَابِ",
+        "old_hinglish": "Azaab mein -> Woh log azaab mein hain",
+        "new_hinglish": "Azaab mein -> Woh log azaab mein hain",
+        "status": "resolved"
+      },
+      {
+        "item_id": "9",
+        "bug": "DA-3",
+        "arabic": "فَأُولَائِكَ مَعَ الْمُؤْمِنِينَ",
+        "old_hinglish": "Pas woh log mominon ke saath hain",
+        "new_hinglish": "Pas woh log mominon ke saath hain",
+        "status": "resolved"
+      },
+      {
+        "item_id": "10",
+        "bug": "DA-3",
+        "arabic": "أُولَائِكَ عَلَى هُدًى مِنْ رَبِّهِمْ",
+        "old_hinglish": "Yeh log apne Rab ki taraf se hidayat par hain",
+        "new_hinglish": "Yeh log apne Rab ki taraf se hidayat par hain",
+        "status": "resolved"
+      },
+      {
+        "item_id": "11",
+        "bug": "DA-3",
+        "arabic": "أُولَائِكَ فِي الْأَذَلِّينَ",
+        "old_hinglish": "Yeh log sabse zyada zaleel logon mein se hain",
+        "new_hinglish": "Yeh log sabse zyada zaleel logon mein se hain",
+        "status": "resolved"
+      },
+      {
+        "item_id": "18",
+        "bug": "DA-3",
+        "arabic": "فَأُولَائِكَ فِي الْعَذَابِ مُحْضَرُونَ",
+        "old_hinglish": "Pas woh log azaab mein pesh kiye jayenge",
+        "new_hinglish": "Pas woh log azaab mein pesh kiye jayenge",
+        "status": "resolved"
+      },
+      {
+        "item_id": "42",
+        "bug": "DA-3",
+        "arabic": "أُولَائِكَ لَا خَلَاقَ لَهُمْ فِي الْآخِرَةِ",
+        "old_hinglish": "Yeh woh log hain jinka aakhirat mein koi hissa nahi",
+        "new_hinglish": "Yeh woh log hain jinka aakhirat mein koi hissa nahi",
+        "status": "resolved"
+      },
+      {
+        "item_id": "43",
+        "bug": "DA-3",
+        "arabic": "أُولَائِكَ لَهُمْ عَذَابٌ مِنْ رِجْزٍ أَلِيمٌ",
+        "old_hinglish": "Unke liye sakht dardnaak azaab hai",
+        "new_hinglish": "Unke liye sakht dardnaak azaab hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "47",
+        "bug": "DA-3",
+        "arabic": "أُولَائِكَ عَلَيْهِمْ صَلَوَاتٌ مِنْ رَّبِّهِمْ وَرَحْمَةٌ",
+        "old_hinglish": "Yeh woh log hain jin par unke Rab ki taraf se nawazishein aur rehmat hai",
+        "new_hinglish": "Yeh woh log hain jin par unke Rab ki taraf se nawazishein aur rehmat hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "48",
+        "bug": "DA-3",
+        "arabic": "أُولَائِكَ الَّذِينَ لَيْسَ لَهُمْ فِي الْآخِرَةِ إِلَّا النَّارُ",
+        "old_hinglish": "Yeh woh log hain jinke liye aakhirat mein aag ke siwa kuch nahi",
+        "new_hinglish": "Yeh woh log hain jinke liye aakhirat mein aag ke siwa kuch nahi",
+        "status": "resolved"
+      },
+      {
+        "item_id": "49",
+        "bug": "DA-3",
+        "arabic": "أُولَائِكَ جَزَاؤُهُمْ مَّغْفِرَةٌ مِنْ رَّبِّهِمْ وَجَنَّاتٌ",
+        "old_hinglish": "Unka badla unke Rab ki taraf se maghfirat aur baghaat hain",
+        "new_hinglish": "Unka badla unke Rab ki taraf se maghfirat aur baghaat hain",
+        "status": "resolved"
+      },
+      {
+        "item_id": "51",
+        "bug": "DA-3",
+        "arabic": "أُولَائِكَ عَلَيْهِمْ لَعْنَةُ اللهِ وَالْمَلَائِكَةِ وَالنَّاسِ أَجْمَعِينَ",
+        "old_hinglish": "Un par Allah ki, farishton ki aur tamaam insanon ki laanat hai",
+        "new_hinglish": "Un par Allah ki, farishton ki aur tamaam insanon ki laanat hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "53",
+        "bug": "DA-3",
+        "arabic": "أُولَائِكَ الَّذِينَ لَهُمْ سُوءُ الْعَذَابِ وَهُمْ فِي الْآخِرَةِ هُمُ الْأَخْسَرُونَ",
+        "old_hinglish": "Yeh woh log hain jinke liye bura azaab hai aur woh aakhirat mein sabse zyada nuqsan uthane wale hain",
+        "new_hinglish": "Yeh woh log hain jinke liye bura azaab hai aur woh aakhirat mein sabse zyada nuqsan uthane wale hain",
+        "status": "resolved"
+      },
+      {
+        "item_id": "54",
+        "bug": "DA-3",
+        "arabic": "أُولَائِكَ جَزَاؤُهُمْ أَنَّ عَلَيْهِمْ لَعْنَةَ اللهِ وَالْمَلَائِكَةِ وَالنَّاسِ أَجْمَعِينَ",
+        "old_hinglish": "Unka badla yeh hai ke un par Allah, farishton aur sab logon ki laanat hai",
+        "new_hinglish": "Unka badla yeh hai ke un par Allah, farishton aur sab logon ki laanat hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "91",
+        "bug": "DA-3",
+        "arabic": "أُولَائِكَ عَلَى هُدًى مِنْ رَبِّهِمْ وَأُولَائِكَ هُمُ الْمُفْلِحُونَ",
+        "old_hinglish": "Yahi log apne Rab ki hidayat par hain aur yahi kamyab hone wale hain",
+        "new_hinglish": "Yahi log apne Rab ki hidayat par hain aur yahi kamyab hone wale hain",
+        "status": "resolved"
+      },
+      {
+        "item_id": "93",
+        "bug": "DA-3",
+        "arabic": "أُولَائِكَ عَلَيْهِمْ صَلَوَاتٌ مِنْ رَّبِّهِمْ وَرَحْمَةٌ وَأُولَائِكَ هُمُ الْمُهْتَدُونَ",
+        "old_hinglish": "Yeh woh log hain jin par unke Rab ki meherbaniyan aur rehmat hai aur yahi log raah-e-raast par hain",
+        "new_hinglish": "Yeh woh log hain jin par unke Rab ki meherbaniyan aur rehmat hai aur yahi log raah-e-raast par hain",
+        "status": "resolved"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L18",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L18p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "FIXED",
+    "corrections": [
+      {
+        "item_id": "19",
+        "bug": "DA-3",
+        "arabic": "هَؤُلَاءِ وَآبَاءَهُمْ",
+        "old_hinglish": "Inko aur inke baap-dada ko",
+        "new_hinglish": "Inko aur inke baap-dada ko",
+        "status": "resolved"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L19",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L19p1.png",
+      "S5L19p2.png",
+      "S5L19p3.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "FIXED",
+    "corrections": [
+      {
+        "item_id": "12",
+        "bug": "DA-3",
+        "arabic": "وَمَا صَبْرُكَ إِلَّا بِاللهِ",
+        "old_hinglish": "Aur aapka sabr sirf Allah hi ki taufeeq se hai",
+        "new_hinglish": "Aur aapka sabr sirf Allah hi ki taufeeq se hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "13",
+        "bug": "DA-3",
+        "arabic": "وَمَا تَوْفِيقِي إِلَّا بِاللهِ",
+        "old_hinglish": "Aur meri taufeeq sirf Allah hi ki madad se hai",
+        "new_hinglish": "Aur meri taufeeq sirf Allah hi ki madad se hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "18",
+        "bug": "DA-3",
+        "arabic": "وَمَا هِيَ إِلَّا ذِكْرَى لِلْبَشَرِ",
+        "old_hinglish": "Aur yeh insanon ke liye naseehat ke siwa kuch nahi",
+        "new_hinglish": "Aur yeh insanon ke liye naseehat ke siwa kuch nahi",
+        "status": "resolved"
+      },
+      {
+        "item_id": "22",
+        "bug": "DA-3",
+        "arabic": "وَمَا الْحَيَاةُ الدُّنْيَا فِي الْآخِرَةِ إِلَّا مَتَاعٌ",
+        "old_hinglish": "Aur aakhirat ke muqable mein dunyawi zindagi thode se nafe ke siwa kuch nahi",
+        "new_hinglish": "Aur aakhirat ke muqable mein dunyawi zindagi thode se nafe ke siwa kuch nahi",
+        "status": "resolved"
+      },
+      {
+        "item_id": "23",
+        "bug": "DA-3",
+        "arabic": "فَمَا مَتَاعُ الْحَيَاةِ الدُّنْيَا فِي الْآخِرَةِ إِلَّا قَلِيلٌ",
+        "old_hinglish": "Pas aakhirat ke muqable mein duniya ki zindagi ka fayda bohot thoda hai",
+        "new_hinglish": "Pas aakhirat ke muqable mein duniya ki zindagi ka fayda bohot thoda hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "41",
+        "bug": "DA-3",
+        "arabic": "إِنْ هُوَ إِلَّا ذِكْرٌ لِّلْعَالَمِينَ",
+        "old_hinglish": "Nahi hai yeh magar tamaam jahanon ke liye naseehat",
+        "new_hinglish": "Nahi hai yeh magar tamaam jahanon ke liye naseehat",
+        "status": "resolved"
+      },
+      {
+        "item_id": "44",
+        "bug": "DA-3",
+        "arabic": "إِنِ الْحُكْمُ إِلَّا لِلَّهِ",
+        "old_hinglish": "Hukm sirf Allah hi ke liye hai",
+        "new_hinglish": "Hukm sirf Allah hi ke liye hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "46",
+        "bug": "DA-3",
+        "arabic": "إِنْ حِسَابُهُمْ إِلَّا عَلَى رَبِّي",
+        "old_hinglish": "Unka hisaab sirf mere Rab hi ke zimme hai",
+        "new_hinglish": "Unka hisaab sirf mere Rab hi ke zimme hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "62",
+        "bug": "DA-3",
+        "arabic": "رَبُّ الْمَشْرِقِ وَالْمَغْرِبِ لَا إِلٰهَ إِلَّا هُوَ",
+        "old_hinglish": "Woh mashriq aur maghrib ka Rab hai Uske siwa koi mabood nahi",
+        "new_hinglish": "Woh mashriq aur maghrib ka Rab hai Uske siwa koi mabood nahi",
+        "status": "resolved"
+      },
+      {
+        "item_id": "66",
+        "bug": "DA-3",
+        "arabic": "إِنَّمَا الْغَيْبُ لِلَّهِ",
+        "old_hinglish": "Ghaib to sirf Allah hi ke liye hai",
+        "new_hinglish": "Ghaib to sirf Allah hi ke liye hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "71",
+        "bug": "DA-3",
+        "arabic": "إِنَّمَا الْحُكْمُ لِلَّهِ",
+        "old_hinglish": "Hukm to bas Allah hi ka hai",
+        "new_hinglish": "Hukm to bas Allah hi ka hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "76",
+        "bug": "DA-3",
+        "arabic": "إِنَّمَا وَلِيُّكُمُ اللهُ وَرَسُولُهُ",
+        "old_hinglish": "Tumhara madadgar to sirf Allah aur Uska Rasool hi hai",
+        "new_hinglish": "Tumhara madadgar to sirf Allah aur Uska Rasool hi hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "80",
+        "bug": "DA-3",
+        "arabic": "إِنَّمَا الصَّدَقَاتُ لِلْفُقَرَاءِ وَالْمَسَاكِينِ",
+        "old_hinglish": "Sadqaat to sirf faqiron aur miskeenon ke liye hain",
+        "new_hinglish": "Sadqaat to sirf faqiron aur miskeenon ke liye hain",
+        "status": "resolved"
+      },
+      {
+        "item_id": "98",
+        "bug": "DA-3",
+        "arabic": "فَإِنَّمَا عَلَيْكَ الْبَلَاغُ وَاللهُ بَصِيرٌ بِالْعِبَادِ",
+        "old_hinglish": "Pas aapke zimme sirf paunchana hai aur Allah bandon ko khoob dekh raha hai",
+        "new_hinglish": "Pas aapke zimme sirf paunchana hai aur Allah bandon ko khoob dekh raha hai",
+        "status": "resolved"
+      },
+      {
+        "item_id": "101",
+        "bug": "DA-3",
+        "arabic": "إِنَّمَا أَمْوَالُكُمْ وَأَوْلَادُكُمْ فِتْنَةٌ وَاللهُ عِنْدَهُ أَجْرٌ عَظِيمٌ",
+        "old_hinglish": "Tumhare maal aur tumhari aulad mehaz aazmaish hain aur Allah hi ke paas bohot bada ajar hai",
+        "new_hinglish": "Tumhare maal aur tumhari aulad mehaz aazmaish hain aur Allah hi ke paas bohot bada ajar hai",
+        "status": "resolved"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L20",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L20p1.png",
+      "S5L20p2.png",
+      "S5L20p3.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L21",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L21p1.png",
+      "S5L21p2.png",
+      "S5L21p3.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L22",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L22p1.png",
+      "S5L22p2.png",
+      "S5L22p3.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S5L23",
+    "unit": 5,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S5L23p1.png",
+      "S5L23p2.png",
+      "S5L23p3.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S6L1",
+    "unit": 6,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S6L1p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S6L2",
+    "unit": 6,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S6L2p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S6L3",
+    "unit": 6,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S6L3p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S6L4",
+    "unit": 6,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S6L4p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S6L5",
+    "unit": 6,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S6L5p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S6L6",
+    "unit": 6,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S6L6p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S6L7",
+    "unit": 6,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S6L7p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S6L8",
+    "unit": 6,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S6L8p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S6L9",
+    "unit": 6,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S6L9p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S6L10",
+    "unit": 6,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S6L10p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S6L11",
+    "unit": 6,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S6L11p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S6L12",
+    "unit": 6,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S6L12p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S6L13",
+    "unit": 6,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S6L13p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S6L14",
+    "unit": 6,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S6L14p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S6L15",
+    "unit": 6,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S6L15p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S6L16",
+    "unit": 6,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S6L16p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S6L17",
+    "unit": 6,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S6L17p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S6L18",
+    "unit": 6,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S6L18p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S6L19",
+    "unit": 6,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S6L19p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S6L20",
+    "unit": 6,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S6L20p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S6L21",
+    "unit": 6,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S6L21p1.png"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S7L1",
+    "unit": 7,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S7L1p1.jpg"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S7L2",
+    "unit": 7,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S7L2p1.jpg"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S7L3",
+    "unit": 7,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S7L3p1.jpg"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S7L4",
+    "unit": 7,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S7L4p1.jpg"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S7L5",
+    "unit": 7,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S7L5p1.jpg"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S7L6",
+    "unit": 7,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S7L6p1.jpg"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S7L7",
+    "unit": 7,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S7L7p1.jpg"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S7L8",
+    "unit": 7,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S7L8p1.jpg"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S7L9",
+    "unit": 7,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S7L9p1.jpg"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  },
+  {
+    "lesson": "S7L10",
+    "unit": 7,
+    "audited_date": "2026-10-07",
+    "audited_by": "antigravity-overhaul-master",
+    "pages_viewed": [
+      "S7L10p1.jpg"
+    ],
+    "da1_result": "PASS",
+    "da2_result": "PASS",
+    "da3_result": "PASS",
+    "corrections": [],
+    "status": "complete"
+  }
+]

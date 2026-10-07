@@ -1,0 +1,28 @@
+{
+  "name": "pwa",
+  "version": "1.0.0",
+  "description": "[![Live App](https://img.shields.io/badge/Live_App-Muallim_PWA-1B4332?style=for-the-badge&logo=pwa&logoColor=white)](https://nomaanc.github.io/muallim/) [![Ustaad Portal](https://img.shields.io/badge/Ustaad-Teacher_Portal-2563EB?style=for-the-badge&logo=googleclassroom&logoColor=white)](https://nomaanc.github.io/muallim/teacher.html) [![Admin Dashboard](https://img.shields.io/badge/Admin-Dashboard-D97706?style=for-the-badge&logo=firebase&logoColor=white)](https://nomaanc.github.io/muallim/admin.html) [![PWA Ready](https://img.shields.io/badge/PWA-Offline_First-2D6A4F?style=for-the-badge&logo=googlechrome&logoColor=white)](https://nomaanc.github.io/muallim/) [![Curriculum](https://img.shields.io/badge/Curriculum-7_Units_·_113_Lessons_·_8871_Items-0284C7?style=for-the-badge)](https://nomaanc.github.io/muallim/) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE) [![Zero npm Dependencies](https://img.shields.io/badge/Dependencies-Zero_npm-black?style=for-the-badge&logo=javascript&logoColor=white)](https://nomaanc.github.io/muallim/)",
+  "main": "firebase-messaging-sw.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomaanc/muallim.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nomaanc/muallim/issues"
+  },
+  "homepage": "https://github.com/nomaanc/muallim#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}
