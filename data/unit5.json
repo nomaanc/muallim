@@ -12936,12 +12936,12 @@
               {
                 "id": 93,
                 "arabic": "إِنَّمَا طَائِرُهُمْ عِنْدَ اللهِ",
-                "hinglish": "Innamaa taairuhum 'indal-Laah",
+                "hinglish": "Yaqeenan unki badshugooni/nahoosat Allah ke paas hai",
                 "urdu": "یقیناً ان کی بدشگونی/نحوست اللہ کے پاس ہے",
                 "is_filled": true,
                 "sentence_number": "s5l6_v11",
                 "translations": {
-                  "hinglish": "Innamaa taairuhum 'indal-Laah",
+                  "hinglish": "Yaqeenan unki badshugooni/nahoosat Allah ke paas hai",
                   "en": "Indeed, their bad omen is with Allah",
                   "ur": "یقیناً ان کی بدشگونی / نحوست اللہ کے پاس ہے",
                   "hi": "यक़ीनन उनकी बदशगुनी / मनहूसियत अल्लाह के पास है",
@@ -12955,12 +12955,12 @@
               {
                 "id": 94,
                 "arabic": "إِنَّمَا أَمْرُهُمْ إِلَى اللهِ",
-                "hinglish": "Innamaa amruhum ilal-Laah",
+                "hinglish": "Unka maamla bas Allah hi ke hawale hai",
                 "urdu": "ان کا معاملہ بس اللہ ہی کے حوالے ہے",
                 "is_filled": true,
                 "sentence_number": "s5l6_v12",
                 "translations": {
-                  "hinglish": "Innamaa amruhum ilal-Laah",
+                  "hinglish": "Unka maamla bas Allah hi ke hawale hai",
                   "en": "Their affair is only to Allah",
                   "ur": "ان کا معاملہ بس اللہ ہی کے حوالے ہے",
                   "hi": "उनका मामला बस अल्लाह ही के हवाले है",
@@ -15520,12 +15520,12 @@
               {
                 "id": 91,
                 "arabic": "هُمْ عَنْ صَلَاتِهِمْ سَاهُونَ",
-                "hinglish": "Hum 'ek salaatihim saahoon",
+                "hinglish": "Woh apni namaz se ghafil hain",
                 "urdu": "وہ اپنی نماز سے غافل ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l7_s8",
                 "translations": {
-                  "hinglish": "Hum 'ek salaatihim saahoon",
+                  "hinglish": "Woh apni namaz se ghafil hain",
                   "en": "They are heedless of their prayer",
                   "ur": "وہ اپنی نماز سے غافل ہیں",
                   "hi": "वे अपनी नमाज़ से ग़ाफ़िल हैं",
@@ -15539,12 +15539,12 @@
               {
                 "id": 92,
                 "arabic": "هُمْ عَنْ ذِكْرِ رَبِّهِمْ مُعْرِضُونَ",
-                "hinglish": "Hum 'ek zikri Rabbihim mu'ridoon",
+                "hinglish": "Woh apne Rab ki yaad se munh modne wale hain",
                 "urdu": "وہ اپنے رب کی یاد سے منہ موڑنے والے ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l7_s9",
                 "translations": {
-                  "hinglish": "Hum 'ek zikri Rabbihim mu'ridoon",
+                  "hinglish": "Woh apne Rab ki yaad se munh modne wale hain",
                   "en": "They turn away from the remembrance of their Lord",
                   "ur": "وہ اپنے رب کی یاد سے منہ موڑنے والے ہیں",
                   "hi": "वे अपने रब के ज़िक्र से मुँह मोड़ने वाले हैं",
@@ -18927,12 +18927,12 @@
               {
                 "id": 1,
                 "arabic": "مُسْلِمُوْنَ ← أَنْتُمْ مُسْلِمُوْنَ",
-                "hinglish": "Muslimoon -> Antum muslimoon",
+                "hinglish": "Musalman → Tum log musalman ho",
                 "urdu": "مسلمان ← تم لوگ مسلمان ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_ex1",
                 "translations": {
-                  "hinglish": "Muslimoon -> Antum muslimoon",
+                  "hinglish": "Musalman → Tum log musalman ho",
                   "en": "Muslims -> You are Muslims",
                   "ur": "مسلمان ← تم لوگ مسلمان ہو",
                   "hi": "मुसलमान -> तुम लोग मुसलमान हो",
@@ -18946,12 +18946,12 @@
               {
                 "id": 2,
                 "arabic": "مُجَاهِدُوْنَ ← أَنْتُمْ مُجَاهِدُوْنَ",
-                "hinglish": "Mujaahidoon -> Antum mujaahidoon",
+                "hinglish": "Jihad karne wale → Tum log mujahid ho",
                 "urdu": "جہاد کرنے والے ← تم لوگ مجاہد ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_ex2",
                 "translations": {
-                  "hinglish": "Mujaahidoon -> Antum mujaahidoon",
+                  "hinglish": "Jihad karne wale → Tum log mujahid ho",
                   "en": "Strivers -> You are strivers",
                   "ur": "جہاد کرنے والے ← تم لوگ مجاہد ہو",
                   "hi": "जिहाद करने वाले -> तुम लोग मुजाहिद हो",
@@ -18965,12 +18965,12 @@
               {
                 "id": 3,
                 "arabic": "شَاكِرُوْنَ ← أَنْتُمْ شَاكِرُوْنَ",
-                "hinglish": "Shaakiroon -> Antum shaakiroon",
+                "hinglish": "Shukr guzar log → Tum log shukr guzar ho",
                 "urdu": "شکر گزار لوگ ← تم لوگ شکر گزار ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_ex3",
                 "translations": {
-                  "hinglish": "Shaakiroon -> Antum shaakiroon",
+                  "hinglish": "Shukr guzar log → Tum log shukr guzar ho",
                   "en": "Grateful ones -> You are grateful",
                   "ur": "شکر گزار لوگ ← تم لوگ شکر گزار ہو",
                   "hi": "शुक्रगुज़ार लोग -> तुम लोग शुक्रगुज़ार हो",
@@ -19007,12 +19007,12 @@
               {
                 "id": 4,
                 "arabic": "مُسْلِمُونَ ← أَنْتُمْ مُسْلِمُونَ",
-                "hinglish": "Muslimoon -> Antum muslimoon",
+                "hinglish": "Musalman → Tum musalman ho",
                 "urdu": "مسلمان ← تم مسلمان ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_w1",
                 "translations": {
-                  "hinglish": "Muslimoon -> Antum muslimoon",
+                  "hinglish": "Musalman → Tum musalman ho",
                   "en": "Muslims -> You are Muslims",
                   "ur": "مسلمان ← تم مسلمان ہو",
                   "hi": "मुसलमान -> तुम मुसलमान हो",
@@ -19026,12 +19026,12 @@
               {
                 "id": 5,
                 "arabic": "ظَالِمُونَ ← أَنْتُمْ ظَالِمُونَ",
-                "hinglish": "Zaalimoon -> Antum zaalimoon",
+                "hinglish": "Zalim → Tum zalim ho",
                 "urdu": "ظالم ← تم ظالم ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_w2",
                 "translations": {
-                  "hinglish": "Zaalimoon -> Antum zaalimoon",
+                  "hinglish": "Zalim → Tum zalim ho",
                   "en": "Wrongdoers -> You are wrongdoers",
                   "ur": "ظالم ← تم ظالم ہو",
                   "hi": "ज़ालिम -> तुम ज़ालिम हो",
@@ -19045,12 +19045,12 @@
               {
                 "id": 6,
                 "arabic": "عَابِدُونَ ← أَنْتُمْ عَابِدُونَ",
-                "hinglish": "'Aabidoon -> Antum 'aabidoon",
+                "hinglish": "Ibadat karne wale → Tum ibadat karne wale ho",
                 "urdu": "عبادت کرنے والے ← تم عبادت کرنے والے ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_w3",
                 "translations": {
-                  "hinglish": "'Aabidoon -> Antum 'aabidoon",
+                  "hinglish": "Ibadat karne wale → Tum ibadat karne wale ho",
                   "en": "Worshippers -> You are worshippers",
                   "ur": "عبادت کرنے والے ← تم عبادت کرنے والے ہو",
                   "hi": "इबादत करने वाले -> तुम इबादत करने वाले हो",
@@ -19140,12 +19140,12 @@
               {
                 "id": 11,
                 "arabic": "بَشَرٌ ← أَنْتُمْ بَشَرٌ",
-                "hinglish": "Bashar -> Antum bashar",
+                "hinglish": "Insaan/bashar → Tum bhi insaan hi ho",
                 "urdu": "انسان/بشر ← تم بھی انسان ہی ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_w8",
                 "translations": {
-                  "hinglish": "Bashar -> Antum bashar",
+                  "hinglish": "Insaan/bashar → Tum bhi insaan hi ho",
                   "en": "Human -> You are human",
                   "ur": "انسان/بشر ← تم بھی انسان ہی ہو",
                   "hi": "इंसान -> तुम भी इंसान ही हो",
@@ -19159,12 +19159,12 @@
               {
                 "id": 12,
                 "arabic": "جَاهِلُونَ ← أَنْتُمْ جَاهِلُونَ",
-                "hinglish": "Jaahiloon -> Antum jaahiloon",
+                "hinglish": "Nadaan/jahil → Tum nadaan ho",
                 "urdu": "نادان/جاہل ← تم نادان ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_w9",
                 "translations": {
-                  "hinglish": "Jaahiloon -> Antum jaahiloon",
+                  "hinglish": "Nadaan/jahil → Tum nadaan ho",
                   "en": "Ignorant ones -> You are ignorant",
                   "ur": "نادان/جاہل ← تم نادان ہو",
                   "hi": "नादान/जाहिल -> तुम नादान हो",
@@ -19178,12 +19178,12 @@
               {
                 "id": 13,
                 "arabic": "مُعْرِضُونَ ← أَنْتُمْ مُعْرِضُونَ",
-                "hinglish": "Mu'ridoon -> Antum mu'ridoon",
+                "hinglish": "Munh modne wale → Tum aeraaz karne wale ho",
                 "urdu": "منہ موڑنے والے ← تم اعراض کرنے والے ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_w10",
                 "translations": {
-                  "hinglish": "Mu'ridoon -> Antum mu'ridoon",
+                  "hinglish": "Munh modne wale → Tum aeraaz karne wale ho",
                   "en": "Turning away -> You are turning away",
                   "ur": "منہ موڑنے والے ← تم اعراض کرنے والے ہو",
                   "hi": "मुँह मोड़ने वाले -> तुम मुँह मोड़ने वाले हो",
@@ -19197,12 +19197,12 @@
               {
                 "id": 14,
                 "arabic": "بَرِيئُونَ ← أَنْتُمْ بَرِيئُونَ",
-                "hinglish": "Baree-oon -> Antum baree-oon",
+                "hinglish": "Baree-uz-zimma → Tum bezaar/baree-uz-zimma ho",
                 "urdu": "بری الذمہ ← تم بیزار/بری الذمہ ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_w11",
                 "translations": {
-                  "hinglish": "Baree-oon -> Antum baree-oon",
+                  "hinglish": "Baree-uz-zimma → Tum bezaar/baree-uz-zimma ho",
                   "en": "Free/Innocent -> You are free/innocent",
                   "ur": "بری الذمہ ← تم بیزار/بری الذمہ ہو",
                   "hi": "बरी -> तुम बरी/अलग हो",
@@ -19216,12 +19216,12 @@
               {
                 "id": 15,
                 "arabic": "شَاكِرُونَ ← أَنْتُمْ شَاكِرُونَ",
-                "hinglish": "Shaakiroon -> Antum shaakiroon",
+                "hinglish": "Shukr karne wale → Tum shukr guzar ho",
                 "urdu": "شکر کرنے والے ← تم شکر گزار ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_w12",
                 "translations": {
-                  "hinglish": "Shaakiroon -> Antum shaakiroon",
+                  "hinglish": "Shukr karne wale → Tum shukr guzar ho",
                   "en": "Grateful ones -> You are grateful",
                   "ur": "شکر کرنے والے ← تم شکر گزار ہو",
                   "hi": "शुक्र करने वाले -> तुम शुक्रगुज़ार हो",
@@ -19235,12 +19235,12 @@
               {
                 "id": 16,
                 "arabic": "وَارِدُونَ ← أَنْتُمْ وَارِدُونَ",
-                "hinglish": "Waaridoon -> Antum waaridoon",
+                "hinglish": "Dakhil hone wale → Tum is mein utarne wale ho",
                 "urdu": "داخل ہونے والے ← تم اس میں اترنے والے ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_w13",
                 "translations": {
-                  "hinglish": "Waaridoon -> Antum waaridoon",
+                  "hinglish": "Dakhil hone wale → Tum is mein utarne wale ho",
                   "en": "Entering ones -> You will enter it",
                   "ur": "داخل ہونے والے ← تم اس میں اترنے والے ہو",
                   "hi": "दाखिल होने वाले -> तुम उसमें उतरने वाले हो",
@@ -19254,12 +19254,12 @@
               {
                 "id": 17,
                 "arabic": "مُنْتَهُونَ ← أَنْتُمْ مُنْتَهُونَ",
-                "hinglish": "Muntahoon -> Antum muntahoon",
+                "hinglish": "Baaz aane wale → Tum baaz aane wale ho",
                 "urdu": "باز آنے والے ← تم باز آنے والے ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_w14",
                 "translations": {
-                  "hinglish": "Muntahoon -> Antum muntahoon",
+                  "hinglish": "Baaz aane wale → Tum baaz aane wale ho",
                   "en": "Desisting ones -> You are desisting",
                   "ur": "باز آنے والے ← تم باز آنے والے ہو",
                   "hi": "बाज़ आने वाले -> तुम बाज़ आने वाले हो",
@@ -19273,12 +19273,12 @@
               {
                 "id": 18,
                 "arabic": "فُقَرَاءُ ← أَنْتُمْ فُقَرَاءُ",
-                "hinglish": "Fuqaraau -> Antum fuqaraa",
+                "hinglish": "Muhtaaj → Tum muhtaaj ho",
                 "urdu": "محتاج ← تم محتاج ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_w15",
                 "translations": {
-                  "hinglish": "Fuqaraau -> Antum fuqaraa",
+                  "hinglish": "Muhtaaj → Tum muhtaaj ho",
                   "en": "The poor (in need) -> You are in need",
                   "ur": "محتاج ← تم محتاج ہو",
                   "hi": "मोहताज -> तुम मोहताज हो",
@@ -19292,12 +19292,12 @@
               {
                 "id": 19,
                 "arabic": "قَلِيلٌ ← أَنْتُمْ قَلِيلٌ",
-                "hinglish": "Qaleel -> Antum qaleel",
+                "hinglish": "Thode → Tum thode ho",
                 "urdu": "تھوڑے ← تم تھوڑے ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_w16",
                 "translations": {
-                  "hinglish": "Qaleel -> Antum qaleel",
+                  "hinglish": "Thode → Tum thode ho",
                   "en": "Few -> You are few",
                   "ur": "تھوڑے ← تم تھوڑے ہو",
                   "hi": "थोड़े -> तुम थोड़े हो",
@@ -19334,12 +19334,12 @@
               {
                 "id": 20,
                 "arabic": "فَهَلْ أَنْتُمْ مُسْلِمُونَ",
-                "hinglish": "Fahal antum muslimoon",
+                "hinglish": "Toh kya tum itaat karne wale/musalman ho?",
                 "urdu": "تو کیا تم اطاعت کرنے والے/مسلمان ہو؟",
                 "is_filled": true,
                 "sentence_number": "s5l9_q1",
                 "translations": {
-                  "hinglish": "Fahal antum muslimoon",
+                  "hinglish": "Toh kya tum itaat karne wale/musalman ho?",
                   "en": "So will you be Muslims?",
                   "ur": "تو کیا تم اطاعت کرنے والے/مسلمان ہو؟",
                   "hi": "तो क्या तुम मुसलमान बनते हो?",
@@ -19353,12 +19353,12 @@
               {
                 "id": 21,
                 "arabic": "فَهَلْ أَنْتُمْ شَاكِرُونَ",
-                "hinglish": "Fahal antum shaakiroon",
+                "hinglish": "Toh kya tum shukr ada karne wale ho?",
                 "urdu": "تو کیا تم شکر ادا کرنے والے ہو؟",
                 "is_filled": true,
                 "sentence_number": "s5l9_q2",
                 "translations": {
-                  "hinglish": "Fahal antum shaakiroon",
+                  "hinglish": "Toh kya tum shukr ada karne wale ho?",
                   "en": "So will you be grateful?",
                   "ur": "تو کیا تم شکر ادا کرنے والے ہو؟",
                   "hi": "तो क्या तुम शुक्रगुज़ार बनोगे?",
@@ -19372,12 +19372,12 @@
               {
                 "id": 22,
                 "arabic": "هَلْ أَنْتُمْ مُطَّلِعُونَ",
-                "hinglish": "Hal antum muttali'oon",
+                "hinglish": "Kya tum jhaank kar dekhne wale ho?",
                 "urdu": "کیا تم جھانک کر دیکھنے والے ہو؟",
                 "is_filled": true,
                 "sentence_number": "s5l9_q3",
                 "translations": {
-                  "hinglish": "Hal antum muttali'oon",
+                  "hinglish": "Kya tum jhaank kar dekhne wale ho?",
                   "en": "Will you look down?",
                   "ur": "کیا تم جھانک کر دیکھنے والے ہو؟",
                   "hi": "क्या तुम झाँक कर देखने वाले हो?",
@@ -19391,12 +19391,12 @@
               {
                 "id": 23,
                 "arabic": "فَهَلْ أَنْتُمْ مُنْتَهُونَ",
-                "hinglish": "Fahal antum muntahoon",
+                "hinglish": "Toh kya tum baaz aane wale ho?",
                 "urdu": "تو کیا تم باز آنے والے ہو؟",
                 "is_filled": true,
                 "sentence_number": "s5l9_q4",
                 "translations": {
-                  "hinglish": "Fahal antum muntahoon",
+                  "hinglish": "Toh kya tum baaz aane wale ho?",
                   "en": "So will you desist?",
                   "ur": "تو کیا تم باز آنے والے ہو؟",
                   "hi": "तो क्या तुम बाज़ आने वाले हो?",
@@ -19410,12 +19410,12 @@
               {
                 "id": 24,
                 "arabic": "فَهَلْ أَنْتُمْ مُغْنُونَ",
-                "hinglish": "Fahal antum mughnoon",
+                "hinglish": "Toh kya tum hatane/bachane wale ho?",
                 "urdu": "تو کیا تم ہٹانے/بچانے والے ہو؟",
                 "is_filled": true,
                 "sentence_number": "s5l9_q5",
                 "translations": {
-                  "hinglish": "Fahal antum mughnoon",
+                  "hinglish": "Toh kya tum hatane/bachane wale ho?",
                   "en": "So can you avert (anything) from us?",
                   "ur": "تو کیا تم ہٹانے/بچانے والے ہو؟",
                   "hi": "तो क्या तुम टालने/बचाने वाले हो?",
@@ -19429,12 +19429,12 @@
               {
                 "id": 25,
                 "arabic": "هَلْ أَنْتُمْ مُجْتَمِعُونَ",
-                "hinglish": "Hal antum mujtami'oon",
+                "hinglish": "Kya tum ikatthe hone wale ho?",
                 "urdu": "کیا تم اکٹھے ہونے والے ہو؟",
                 "is_filled": true,
                 "sentence_number": "s5l9_q6",
                 "translations": {
-                  "hinglish": "Hal antum mujtami'oon",
+                  "hinglish": "Kya tum ikatthe hone wale ho?",
                   "en": "Will you assemble?",
                   "ur": "کیا تم اکٹھے ہونے والے ہو؟",
                   "hi": "क्या तुम इकट्ठे होने वाले हो?",
@@ -19471,12 +19471,12 @@
               {
                 "id": 26,
                 "arabic": "وَأَنْتُمْ مُسْلِمُونَ",
-                "hinglish": "Wa antum muslimoon",
+                "hinglish": "Aur tum musalman ho / jabkeh tum musalman ho",
                 "urdu": "اور تم مسلمان ہو / جبکہ تم مسلمان ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_waw1",
                 "translations": {
-                  "hinglish": "Wa antum muslimoon",
+                  "hinglish": "Aur tum musalman ho / jabkeh tum musalman ho",
                   "en": "While you are Muslims",
                   "ur": "اور تم مسلمان ہو / جبکہ تم مسلمان ہو",
                   "hi": "और तुम मुसलमान हो / जबकि तुम मुसलमान हो",
@@ -19490,12 +19490,12 @@
               {
                 "id": 27,
                 "arabic": "وَأَنْتُمْ ظَالِمُونَ",
-                "hinglish": "Wa antum zaalimoon",
+                "hinglish": "Aur tum zalim ho / halankeh tum zalim ho",
                 "urdu": "اور تم ظالم ہو / حالانکہ تم ظالم ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_waw2",
                 "translations": {
-                  "hinglish": "Wa antum zaalimoon",
+                  "hinglish": "Aur tum zalim ho / halankeh tum zalim ho",
                   "en": "While you are wrongdoers",
                   "ur": "اور تم ظالم ہو / حالانکہ تم ظالم ہو",
                   "hi": "और तुम ज़ालिम हो / हालाँकि तुम ज़ालिम हो",
@@ -19509,12 +19509,12 @@
               {
                 "id": 28,
                 "arabic": "وَأَنْتُمْ خَالِدُونَ",
-                "hinglish": "Wa antum khaalidoon",
+                "hinglish": "Aur tum hamesha rehne wale ho",
                 "urdu": "اور تم ہمیشہ رہنے والے ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_waw3",
                 "translations": {
-                  "hinglish": "Wa antum khaalidoon",
+                  "hinglish": "Aur tum hamesha rehne wale ho",
                   "en": "While you abide eternally",
                   "ur": "اور تم ہمیشہ رہنے والے ہو",
                   "hi": "और तुम हमेशा रहने वाले हो",
@@ -19528,12 +19528,12 @@
               {
                 "id": 29,
                 "arabic": "وَأَنْتُمْ كَارِهُونَ",
-                "hinglish": "Wa antum kaarihoon",
+                "hinglish": "Halankeh tum napasand karne wale ho",
                 "urdu": "حالانکہ تم ناپسند کرنے والے ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_waw4",
                 "translations": {
-                  "hinglish": "Wa antum kaarihoon",
+                  "hinglish": "Halankeh tum napasand karne wale ho",
                   "en": "While you are averse (to it)",
                   "ur": "حالانکہ تم ناپسند کرنے والے ہو",
                   "hi": "हालाँकि तुम नापसंद करने वाले हो",
@@ -19547,12 +19547,12 @@
               {
                 "id": 30,
                 "arabic": "وَأَنْتُمْ مُعْرِضُونَ",
-                "hinglish": "Wa antum mu'ridoon",
+                "hinglish": "Aur tum munh modne wale ho",
                 "urdu": "اور تم منہ موڑنے والے ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_waw5",
                 "translations": {
-                  "hinglish": "Wa antum mu'ridoon",
+                  "hinglish": "Aur tum munh modne wale ho",
                   "en": "While you are turning away",
                   "ur": "اور تم منہ موڑنے والے ہو",
                   "hi": "और तुम मुँह मोड़ने वाले हो",
@@ -19566,12 +19566,12 @@
               {
                 "id": 31,
                 "arabic": "وَأَنْتُمْ غَافِلُونَ",
-                "hinglish": "Wa antum ghaafiloon",
+                "hinglish": "Aur tum be-khabar/ghafil ho",
                 "urdu": "اور تم بے خبر/غافل ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_waw6",
                 "translations": {
-                  "hinglish": "Wa antum ghaafiloon",
+                  "hinglish": "Aur tum be-khabar/ghafil ho",
                   "en": "While you are heedless",
                   "ur": "اور تم بے خبر/غافل ہو",
                   "hi": "और तुम बेख़बर/ग़ाफ़िल हो",
@@ -19585,12 +19585,12 @@
               {
                 "id": 32,
                 "arabic": "وَأَنْتُمْ عَاكِفُونَ",
-                "hinglish": "Wa antum 'aakifoon",
+                "hinglish": "Jabkeh tum aetikaaf mein ho",
                 "urdu": "جبکہ تم اعتکاف میں ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_waw7",
                 "translations": {
-                  "hinglish": "Wa antum 'aakifoon",
+                  "hinglish": "Jabkeh tum aetikaaf mein ho",
                   "en": "While you are secluded (in devotion)",
                   "ur": "جبکہ تم اعتکاف میں ہو",
                   "hi": "जबकि तुम एतिकाफ़ में हो",
@@ -19604,12 +19604,12 @@
               {
                 "id": 33,
                 "arabic": "وَأَنْتُمْ أَذِلَّةٌ",
-                "hinglish": "Wa antum azillah",
+                "hinglish": "Halankeh tum kamzor/be-sar-o-samaan thay",
                 "urdu": "حالانکہ تم کمزور/بے سرو سامان تھے",
                 "is_filled": true,
                 "sentence_number": "s5l9_waw8",
                 "translations": {
-                  "hinglish": "Wa antum azillah",
+                  "hinglish": "Halankeh tum kamzor/be-sar-o-samaan thay",
                   "en": "While you were weak",
                   "ur": "حالانکہ تم کمزور/بے سرو سامان تھے",
                   "hi": "हालाँकि तुम कमज़ोर थे",
@@ -19623,12 +19623,12 @@
               {
                 "id": 34,
                 "arabic": "وَأَنْتُمْ شُهَدَاءُ",
-                "hinglish": "Wa antum shuhadaa",
+                "hinglish": "Aur tum gawah ho",
                 "urdu": "اور تم گواہ ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_waw9",
                 "translations": {
-                  "hinglish": "Wa antum shuhadaa",
+                  "hinglish": "Aur tum gawah ho",
                   "en": "While you are witnesses",
                   "ur": "اور تم گواہ ہو",
                   "hi": "और तुम गवाह हो",
@@ -19642,12 +19642,12 @@
               {
                 "id": 35,
                 "arabic": "وَأَنْتُمْ لَهَا كَارِهُونَ",
-                "hinglish": "Wa antum lahaa kaarihoon",
+                "hinglish": "Aur tum isko napasand karne wale ho",
                 "urdu": "اور تم اس کو ناپسند کرنے والے ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_waw10",
                 "translations": {
-                  "hinglish": "Wa antum lahaa kaarihoon",
+                  "hinglish": "Aur tum isko napasand karne wale ho",
                   "en": "While you are averse to it",
                   "ur": "اور تم اس کو ناپسند کرنے والے ہو",
                   "hi": "और तुम उसको नापसंद करने वाले हो",
@@ -19661,12 +19661,12 @@
               {
                 "id": 36,
                 "arabic": "وَأَنْتُمْ عَنْهُ غَافِلُونَ",
-                "hinglish": "Wa antum 'anhu ghaafiloon",
+                "hinglish": "Aur tum is se ghafil ho",
                 "urdu": "اور تم اس سے غافل ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_waw11",
                 "translations": {
-                  "hinglish": "Wa antum 'anhu ghaafiloon",
+                  "hinglish": "Aur tum is se ghafil ho",
                   "en": "While you are heedless of it",
                   "ur": "اور تم اس سے غافل ہو",
                   "hi": "और तुम उससे ग़ाफ़िल हो",
@@ -19680,12 +19680,12 @@
               {
                 "id": 37,
                 "arabic": "وَأَنْتُمْ سُكَارَى",
-                "hinglish": "Wa antum sukaaraa",
+                "hinglish": "Jabkeh tum nashe ki halat mein ho",
                 "urdu": "جبکہ تم نشے کی حالت میں ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_waw12",
                 "translations": {
-                  "hinglish": "Wa antum sukaaraa",
+                  "hinglish": "Jabkeh tum nashe ki halat mein ho",
                   "en": "While you are in a state of intoxication",
                   "ur": "جبکہ تم نشے کی حالت میں ہو",
                   "hi": "जबकि तुम नशे की हालत में हो",
@@ -19722,12 +19722,12 @@
               {
                 "id": 38,
                 "arabic": "أَنْتُمُ الظَّالِمُونَ",
-                "hinglish": "Antumuz-zaalimoon",
+                "hinglish": "Tum hi zalim ho",
                 "urdu": "تم ہی ظالم ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_hasr1",
                 "translations": {
-                  "hinglish": "Antumuz-zaalimoon",
+                  "hinglish": "Tum hi zalim ho",
                   "en": "You are the wrongdoers",
                   "ur": "تم ہی ظالم ہو",
                   "hi": "तुम ही ज़ालिम हो",
@@ -19741,12 +19741,12 @@
               {
                 "id": 39,
                 "arabic": "أَنْتُمُ الْفُقَرَاءُ",
-                "hinglish": "Antumul-fuqaraa",
+                "hinglish": "Tum hi muhtaaj ho",
                 "urdu": "تم ہی محتاج ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_hasr2",
                 "translations": {
-                  "hinglish": "Antumul-fuqaraa",
+                  "hinglish": "Tum hi muhtaaj ho",
                   "en": "You are the poor (in need of Allah)",
                   "ur": "تم ہی محتاج ہو",
                   "hi": "तुम ही मोहताज हो",
@@ -19760,12 +19760,12 @@
               {
                 "id": 40,
                 "arabic": "وَأَنْتُمُ الْأَعْلَوْنَ",
-                "hinglish": "Wa antumul-ek'lawn",
+                "hinglish": "Aur tum hi ghalib/buland raho ge",
                 "urdu": "اور تم ہی غالب/بلند رہو گے",
                 "is_filled": true,
                 "sentence_number": "s5l9_hasr3",
                 "translations": {
-                  "hinglish": "Wa antumul-ek'lawn",
+                  "hinglish": "Aur tum hi ghalib/buland raho ge",
                   "en": "And you will be superior",
                   "ur": "اور تم ہی غالب/بلند رہو گے",
                   "hi": "और तुम ही ग़ालिब/बुलंद रहोगे",
@@ -19802,12 +19802,12 @@
               {
                 "id": 41,
                 "arabic": "بَلْ أَنْتُمْ قَوْمٌ مُسْرِفُونَ",
-                "hinglish": "Bal antum qawmum-musrifoon",
+                "hinglish": "Balkeh tum hadd se badhne wale log ho",
                 "urdu": "بلکہ تم حد سے بڑھنے والے لوگ ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_v1",
                 "translations": {
-                  "hinglish": "Bal antum qawmum-musrifoon",
+                  "hinglish": "Balkeh tum hadd se badhne wale log ho",
                   "en": "Rather, you are a transgressing people",
                   "ur": "بلکہ تم حد سے بڑھنے والے لوگ ہو",
                   "hi": "बल्कि तुम हद से बढ़ने वाले लोग हो",
@@ -19821,12 +19821,12 @@
               {
                 "id": 42,
                 "arabic": "بَلْ أَنْتُمْ قَوْمٌ عَادُونَ",
-                "hinglish": "Bal antum qawmun 'aadoon",
+                "hinglish": "Balkeh tum zyadti karne wale log ho",
                 "urdu": "بلکہ تم زیادتی کرنے والے لوگ ہو",
                 "is_filled": true,
                 "sentence_number": "s5l9_v2",
                 "translations": {
-                  "hinglish": "Bal antum qawmun 'aadoon",
+                  "hinglish": "Balkeh tum zyadti karne wale log ho",
                   "en": "Rather, you are a transgressing people",
                   "ur": "بلکہ تم زیادتی کرنے والے لوگ ہو",
                   "hi": "बल्कि तुम ज़्यादती करने वाले लोग हो",
@@ -19840,12 +19840,12 @@
               {
                 "id": 43,
                 "arabic": "أَفَأَنْتُمْ لَهُ مُنْكِرُونَ",
-                "hinglish": "Afa-antum lahoo munkiroon",
+                "hinglish": "Toh kya tum iska inkaar karne wale ho?",
                 "urdu": "تو کیا تم اس کا انکار کرنے والے ہو؟",
                 "is_filled": true,
                 "sentence_number": "s5l9_v3",
                 "translations": {
-                  "hinglish": "Afa-antum lahoo munkiroon",
+                  "hinglish": "Toh kya tum iska inkaar karne wale ho?",
                   "en": "Do you then deny it?",
                   "ur": "تو کیا تم اس کا انکار کرنے والے ہو؟",
                   "hi": "तो क्या तुम उसका इंकार करने वाले हो?",
@@ -32128,12 +32128,12 @@
               {
                 "id": 1,
                 "arabic": "مُسْلِمُوْنَ ← أُولَائِكَ مُسْلِمُوْنَ",
-                "hinglish": "Muslimoon -> Ulaa'ika muslimoon",
+                "hinglish": "Musalman → Woh log / yeh log musalman hain",
                 "urdu": "مسلمان ← وہ لوگ / یہ لوگ مسلمان ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l17_ex1",
                 "translations": {
-                  "hinglish": "Muslimoon -> Ulaa'ika muslimoon",
+                  "hinglish": "Musalman → Woh log / yeh log musalman hain",
                   "en": "Muslims -> Those are Muslims",
                   "ur": "مسلمان ← وہ لوگ / یہ لوگ مسلمان ہیں",
                   "hi": "मुसलमान ← वह लोग / यह लोग मुसलमान हैं",
@@ -32147,12 +32147,12 @@
               {
                 "id": 2,
                 "arabic": "أَصْحَابُ ← أُولَائِكَ أَصْحَابُ الْجَنَّةِ",
-                "hinglish": "As-haab -> Ulaa'ika as-haabul-jannah",
+                "hinglish": "Saathi/wale → Woh log/yeh log jannat wale hain",
                 "urdu": "ساتھی/والے ← وہ لوگ/یہ لوگ جنت والے ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l17_ex2",
                 "translations": {
-                  "hinglish": "As-haab -> Ulaa'ika as-haabul-jannah",
+                  "hinglish": "Saathi/wale → Woh log/yeh log jannat wale hain",
                   "en": "Companions -> Those are companions of Paradise",
                   "ur": "ساتھی/والے ← وہ لوگ/یہ لوگ جنت والے ہیں",
                   "hi": "साथी/वाले ← वह लोग/यह लोग जन्नत वाले हैं",
@@ -32208,12 +32208,12 @@
               {
                 "id": 4,
                 "arabic": "أُولَائِكَ أَصْحَابُ الْجَنَّةِ",
-                "hinglish": "Ulaa'ika as-haabul-jannah",
+                "hinglish": "Yeh log jannat wale hain",
                 "urdu": "یہ لوگ جنت والے ہیں",
                 "is_filled": true,
                 "sentence_number": 1,
                 "translations": {
-                  "hinglish": "Ulaa'ika as-haabul-jannah",
+                  "hinglish": "Yeh log jannat wale hain",
                   "en": "Those are the companions of Paradise",
                   "ur": "وہی لوگ جنت والے ہیں",
                   "hi": "वही लोग जन्नत वाले हैं",
@@ -32227,12 +32227,12 @@
               {
                 "id": 5,
                 "arabic": "أُولَائِكَ أَصْحَابُ النَّارِ",
-                "hinglish": "Ulaa'ika as-haabun-naar",
+                "hinglish": "Yeh log aag wale hain",
                 "urdu": "یہ لوگ آگ والے ہیں",
                 "is_filled": true,
                 "sentence_number": 2,
                 "translations": {
-                  "hinglish": "Ulaa'ika as-haabun-naar",
+                  "hinglish": "Yeh log aag wale hain",
                   "en": "Those are the companions of the Fire",
                   "ur": "وہی لوگ آگ والے ہیں",
                   "hi": "वही लोग आग वाले हैं",
@@ -32246,12 +32246,12 @@
               {
                 "id": 6,
                 "arabic": "وَأُولَائِكَ أَصْحَابُ النَّارِ",
-                "hinglish": "Wa ulaa'ika as-haabun-naar",
+                "hinglish": "Aur woh log dozaqh wale hain",
                 "urdu": "اور وہ لوگ دوزخ والے ہیں",
                 "is_filled": true,
                 "sentence_number": 3,
                 "translations": {
-                  "hinglish": "Wa ulaa'ika as-haabun-naar",
+                  "hinglish": "Aur woh log dozaqh wale hain",
                   "en": "And those are the companions of the Fire",
                   "ur": "اور وہی لوگ آگ والے ہیں",
                   "hi": "और वही लोग आग वाले हैं",
@@ -32265,12 +32265,12 @@
               {
                 "id": 7,
                 "arabic": "أُولَائِكَ أَصْحَابُ الْجَحِيمِ",
-                "hinglish": "Ulaa'ika as-haabul-jaheem",
+                "hinglish": "Yeh log dehakti aag wale hain",
                 "urdu": "یہ لوگ دہکتی آگ والے ہیں",
                 "is_filled": true,
                 "sentence_number": 4,
                 "translations": {
-                  "hinglish": "Ulaa'ika as-haabul-jaheem",
+                  "hinglish": "Yeh log dehakti aag wale hain",
                   "en": "Those are the companions of Hellfire",
                   "ur": "یہی لوگ دوزخ والے ہیں",
                   "hi": "यही लोग दोज़ख़ वाले हैं",
@@ -32284,12 +32284,12 @@
               {
                 "id": 8,
                 "arabic": "وَأُولَائِكَ مِنَ الصَّالِحِينَ",
-                "hinglish": "Wa ulaa'ika minas-saaliheen",
+                "hinglish": "Aur woh log naiko-karon mein se hain",
                 "urdu": "اور وہ لوگ نیکوکاروں میں سے ہیں",
                 "is_filled": true,
                 "sentence_number": 5,
                 "translations": {
-                  "hinglish": "Wa ulaa'ika minas-saaliheen",
+                  "hinglish": "Aur woh log naiko-karon mein se hain",
                   "en": "And those are among the righteous",
                   "ur": "اور وہ نیک لوگوں میں سے ہیں",
                   "hi": "और वह नेक लोगों में से हैं",
@@ -32360,12 +32360,12 @@
               {
                 "id": 12,
                 "arabic": "أُولَائِكَ فِي ضَلَالٍ بَعِيدٍ",
-                "hinglish": "Ulaa'ika fee dalaalim-ba'eed",
+                "hinglish": "Yeh log parle darje ki gumraahi mein hain",
                 "urdu": "یہ لوگ پرلے درجے کی گمراہی میں ہیں",
                 "is_filled": true,
                 "sentence_number": 9,
                 "translations": {
-                  "hinglish": "Ulaa'ika fee dalaalim-ba'eed",
+                  "hinglish": "Yeh log parle darje ki gumraahi mein hain",
                   "en": "Those are in extreme error",
                   "ur": "یہی لوگ دور کی گمراہی میں ہیں",
                   "hi": "यही लोग दूर की गुमराही में हैं",
@@ -32379,12 +32379,12 @@
               {
                 "id": 13,
                 "arabic": "أُولَائِكَ فِي ضَلَالٍ مُبِينٍ",
-                "hinglish": "Ulaa'ika fee dalaalim-mubeen",
+                "hinglish": "Yeh log sareeh gumraahi mein hain",
                 "urdu": "یہ لوگ صریح گمراہی میں ہیں",
                 "is_filled": true,
                 "sentence_number": 10,
                 "translations": {
-                  "hinglish": "Ulaa'ika fee dalaalim-mubeen",
+                  "hinglish": "Yeh log sareeh gumraahi mein hain",
                   "en": "Those are in clear error",
                   "ur": "یہی لوگ کھلی گمراہی میں ہیں",
                   "hi": "यही लोग खुली गुमराही में हैं",
@@ -32398,12 +32398,12 @@
               {
                 "id": 14,
                 "arabic": "أُولَائِكَ فِي جَنَّاتٍ مُّكْرَمُونَ",
-                "hinglish": "Ulaa'ika fee jannaatim-mukramoon",
+                "hinglish": "Yeh log baghaat mein izzat diye jayenge",
                 "urdu": "یہ لوگ باغات میں عزت دیے جائیں گے",
                 "is_filled": true,
                 "sentence_number": 11,
                 "translations": {
-                  "hinglish": "Ulaa'ika fee jannaatim-mukramoon",
+                  "hinglish": "Yeh log baghaat mein izzat diye jayenge",
                   "en": "Those will be in gardens, honored",
                   "ur": "یہی لوگ باغوں میں عزت دیے جائیں گے",
                   "hi": "यही लोग बाग़ों में इज़्ज़त दिए जाएंगे",
@@ -32417,12 +32417,12 @@
               {
                 "id": 15,
                 "arabic": "أُولَائِكَ أَصْحَابُ الْمَيْمَنَةِ",
-                "hinglish": "Ulaa'ika as-haabul-maymanah",
+                "hinglish": "Yeh log daayen haath wale hain",
                 "urdu": "یہ لوگ دائیں ہاتھ والے ہیں",
                 "is_filled": true,
                 "sentence_number": 12,
                 "translations": {
-                  "hinglish": "Ulaa'ika as-haabul-maymanah",
+                  "hinglish": "Yeh log daayen haath wale hain",
                   "en": "Those are the companions of the right",
                   "ur": "یہی لوگ دائیں ہاتھ والے ہیں",
                   "hi": "यही लोग दाएं हाथ वाले हैं",
@@ -32436,12 +32436,12 @@
               {
                 "id": 16,
                 "arabic": "أُولَائِكَ حِزْبُ اللهِ",
-                "hinglish": "Ulaa'ika hizbul-Laah",
+                "hinglish": "Yeh log Allah ka giroh hain",
                 "urdu": "یہ لوگ اللہ کا گروہ ہیں",
                 "is_filled": true,
                 "sentence_number": 13,
                 "translations": {
-                  "hinglish": "Ulaa'ika hizbul-Laah",
+                  "hinglish": "Yeh log Allah ka giroh hain",
                   "en": "Those are the party of Allah",
                   "ur": "یہی لوگ اللہ کا گروہ ہیں",
                   "hi": "यही लोग अल्लाह का गिरोह हैं",
@@ -32455,12 +32455,12 @@
               {
                 "id": 17,
                 "arabic": "أُولَائِكَ حِزْبُ الشَّيْطَانِ",
-                "hinglish": "Ulaa'ika hizbush-Shaytaan",
+                "hinglish": "Yeh log Shaytaan ka giroh hain",
                 "urdu": "یہ لوگ شیطان کا گروہ ہیں",
                 "is_filled": true,
                 "sentence_number": 14,
                 "translations": {
-                  "hinglish": "Ulaa'ika hizbush-Shaytaan",
+                  "hinglish": "Yeh log Shaytaan ka giroh hain",
                   "en": "Those are the party of Satan",
                   "ur": "یہی لوگ شیطان کا گروہ ہیں",
                   "hi": "यही लोग शैतान का गिरोह हैं",
@@ -32493,12 +32493,12 @@
               {
                 "id": 19,
                 "arabic": "أُولَائِكَ أَصْحَابُ الْجَنَّةِ هُمْ فِيهَا خَالِدُونَ",
-                "hinglish": "Ulaa'ika as-haabul-jannati hum feehaa khaalidoon",
+                "hinglish": "Yeh log jannat wale hain woh is mein hamesha rehne wale hain",
                 "urdu": "یہ لوگ جنت والے ہیں وہ اس میں ہمیشہ رہنے والے ہیں",
                 "is_filled": true,
                 "sentence_number": 16,
                 "translations": {
-                  "hinglish": "Ulaa'ika as-haabul-jannati hum feehaa khaalidoon",
+                  "hinglish": "Yeh log jannat wale hain woh is mein hamesha rehne wale hain",
                   "en": "Those are the companions of Paradise; they will abide eternally therein",
                   "ur": "یہی لوگ جنت والے ہیں، وہ اس میں ہمیشہ رہیں گے",
                   "hi": "यही लोग जन्नत वाले हैं, वह उसमें हमेशा रहेंगे",
@@ -32512,12 +32512,12 @@
               {
                 "id": 20,
                 "arabic": "أُولَائِكَ أَصْحَابُ النَّارِ هُمْ فِيهَا خَالِدُونَ",
-                "hinglish": "Ulaa'ika as-haabun-naari hum feehaa khaalidoon",
+                "hinglish": "Woh log dozaqh wale hain woh is mein hamesha rahenge",
                 "urdu": "وہ لوگ دوزخ والے ہیں وہ اس میں ہمیشہ رہیں گے",
                 "is_filled": true,
                 "sentence_number": 17,
                 "translations": {
-                  "hinglish": "Ulaa'ika as-haabun-naari hum feehaa khaalidoon",
+                  "hinglish": "Woh log dozaqh wale hain woh is mein hamesha rahenge",
                   "en": "Those are the companions of the Fire; they will abide eternally therein",
                   "ur": "یہی لوگ دوزخی ہیں، وہ اس میں ہمیشہ رہیں گے",
                   "hi": "यही लोग दोज़ख़ी हैं, वह उसमें हमेशा रहेंगे",
@@ -32531,12 +32531,12 @@
               {
                 "id": 21,
                 "arabic": "أُولَائِكَ حِزْبُ اللهِ أَلَا إِنَّ حِزْبَ اللهِ هُمُ الْمُفْلِحُونَ",
-                "hinglish": "Ulaa'ika hizbul-Laahi alaa inna hizbal-Laahi humul-muflihoon",
+                "hinglish": "Yeh log Allah ki jamaat hain, sun lo! Allah ki jamaat hi falah paane wali hai",
                 "urdu": "یہ لوگ اللہ کی جماعت ہیں، سن لو! اللہ کی جماعت ہی فلاح پانے والی ہے",
                 "is_filled": true,
                 "sentence_number": 18,
                 "translations": {
-                  "hinglish": "Ulaa'ika hizbul-Laahi alaa inna hizbal-Laahi humul-muflihoon",
+                  "hinglish": "Yeh log Allah ki jamaat hain, sun lo! Allah ki jamaat hi falah paane wali hai",
                   "en": "Those are the party of Allah. Unquestionably, the party of Allah - they are the successful",
                   "ur": "یہی اللہ کی جماعت ہے، خبردار! اللہ کی جماعت ہی فلاح پانے والی ہے",
                   "hi": "यही अल्लाह की जमाअत है, ख़बरदार! अल्लाह की जमाअत ही फ़लाह पाने वाली है",
@@ -32550,12 +32550,12 @@
               {
                 "id": 22,
                 "arabic": "أُولَائِكَ حِزْبُ الشَّيْطَانِ أَلَا إِنَّ حِزْبَ الشَّيْطَانِ هُمُ الْخَاسِرُونَ",
-                "hinglish": "Ulaa'ika hizbush-Shaytaani alaa inna hizbash-Shaytaani humul-khaasiroon",
+                "hinglish": "Yeh Shaytaan ka giroh hain, khabardaar! Shaytaan ka giroh hi khasara uthane wala hai",
                 "urdu": "یہ شیطان کا گروہ ہیں، خبردار! شیطان کا گروہ ہی خسارہ اٹھانے والا ہے",
                 "is_filled": true,
                 "sentence_number": 19,
                 "translations": {
-                  "hinglish": "Ulaa'ika hizbush-Shaytaani alaa inna hizbash-Shaytaani humul-khaasiroon",
+                  "hinglish": "Yeh Shaytaan ka giroh hain, khabardaar! Shaytaan ka giroh hi khasara uthane wala hai",
                   "en": "Those are the party of Satan. Unquestionably, the party of Satan - they are the losers",
                   "ur": "یہی شیطان کی جماعت ہے، سن رکھو! شیطان کی جماعت ہی نقصان اٹھانے والی ہے",
                   "hi": "यही शैतान की जमाअत है, सुन रखो! शैतान की जमाअत ही नुक़सान उठाने वाली है",
@@ -32592,12 +32592,12 @@
               {
                 "id": 23,
                 "arabic": "أُولَائِكَ لَهُمْ عَذَابٌ أَلِيمٌ",
-                "hinglish": "Ulaa'ika lahum 'azaabun aleem",
+                "hinglish": "Aise logon ke liye dardnaak azaab hai",
                 "urdu": "ایسے لوگوں کے لیے دردناک عذاب ہے",
                 "is_filled": true,
                 "sentence_number": 20,
                 "translations": {
-                  "hinglish": "Ulaa'ika lahum 'azaabun aleem",
+                  "hinglish": "Aise logon ke liye dardnaak azaab hai",
                   "en": "Those will have a painful punishment",
                   "ur": "انہی کے لیے دردناک عذاب ہے",
                   "hi": "उन्हीं के लिए दर्दनाक अज़ाब है",
@@ -32611,12 +32611,12 @@
               {
                 "id": 24,
                 "arabic": "أُولَائِكَ لَهُمْ عَذَابٌ مُّهِينٌ",
-                "hinglish": "Ulaa'ika lahum 'azaabum-muheen",
+                "hinglish": "Aise logon ke liye ruswa-kun azaab hai",
                 "urdu": "ایسے لوگوں کے لیے رسوا کن عذاب ہے",
                 "is_filled": true,
                 "sentence_number": 21,
                 "translations": {
-                  "hinglish": "Ulaa'ika lahum 'azaabum-muheen",
+                  "hinglish": "Aise logon ke liye ruswa-kun azaab hai",
                   "en": "Those will have a humiliating punishment",
                   "ur": "انہی کے لیے رسوا کن عذاب ہے",
                   "hi": "उन्हीं के लिए रुसवा-कुन अज़ाब है",
@@ -32630,12 +32630,12 @@
               {
                 "id": 25,
                 "arabic": "وَأُولَائِكَ لَهُمْ عَذَابٌ أَلِيمٌ",
-                "hinglish": "Wa ulaa'ika lahum 'azaabun aleem",
+                "hinglish": "Aur un logon ke liye dardnaak azaab hai",
                 "urdu": "اور ان لوگوں کے لیے دردناک عذاب ہے",
                 "is_filled": true,
                 "sentence_number": 22,
                 "translations": {
-                  "hinglish": "Wa ulaa'ika lahum 'azaabun aleem",
+                  "hinglish": "Aur un logon ke liye dardnaak azaab hai",
                   "en": "And those will have a painful punishment",
                   "ur": "اور انہی کے لیے دردناک عذاب ہے",
                   "hi": "और उन्हीं के लिए दर्दनाक अज़ाब है",
@@ -32649,12 +32649,12 @@
               {
                 "id": 26,
                 "arabic": "وَأُولَائِكَ لَهُمْ عَذَابٌ عَظِيمٌ",
-                "hinglish": "Wa ulaa'ika lahum 'azaabun 'azeem",
+                "hinglish": "Aur un logon ke liye bohot bada azaab hai",
                 "urdu": "اور ان لوگوں کے لیے بہت بڑا عذاب ہے",
                 "is_filled": true,
                 "sentence_number": 23,
                 "translations": {
-                  "hinglish": "Wa ulaa'ika lahum 'azaabun 'azeem",
+                  "hinglish": "Aur un logon ke liye bohot bada azaab hai",
                   "en": "And those will have a great punishment",
                   "ur": "اور انہی کے لیے بہت بڑا عذاب ہے",
                   "hi": "और उन्हीं के लिए बहुत बड़ा अज़ाब है",
@@ -32668,12 +32668,12 @@
               {
                 "id": 27,
                 "arabic": "فَأُولَائِكَ لَهُمْ عَذَابٌ مُّهِينٌ",
-                "hinglish": "Fa-ulaa'ika lahum 'azaabum-muheen",
+                "hinglish": "Pas un logon ke liye zillat-aameez azaab hai",
                 "urdu": "پس ان لوگوں کے لیے ذلت آمیز عذاب ہے",
                 "is_filled": true,
                 "sentence_number": 24,
                 "translations": {
-                  "hinglish": "Fa-ulaa'ika lahum 'azaabum-muheen",
+                  "hinglish": "Pas un logon ke liye zillat-aameez azaab hai",
                   "en": "Then those will have a humiliating punishment",
                   "ur": "تو انہی کے لیے ذلیل کرنے والا عذاب ہے",
                   "hi": "तो उन्हीं के लिए ज़लील करने वाला अज़ाब है",
@@ -32687,12 +32687,12 @@
               {
                 "id": 28,
                 "arabic": "أُولَائِكَ لَهُمْ سُوءُ الْحِسَابِ",
-                "hinglish": "Ulaa'ika lahum sooo-ul-hisaab",
+                "hinglish": "Yeh woh log hain jin ke liye bura hisaab hai",
                 "urdu": "یہ وہ لوگ ہیں جن کے لیے برا حساب ہے",
                 "is_filled": true,
                 "sentence_number": 25,
                 "translations": {
-                  "hinglish": "Ulaa'ika lahum sooo-ul-hisaab",
+                  "hinglish": "Yeh woh log hain jin ke liye bura hisaab hai",
                   "en": "Those will have the worst reckoning",
                   "ur": "انہی کے لیے برا حساب ہے",
                   "hi": "उन्हीं के लिए बुरा हिसाब है",
@@ -32706,12 +32706,12 @@
               {
                 "id": 29,
                 "arabic": "وَأُولَائِكَ لَهُمُ الْخَيْرَاتُ",
-                "hinglish": "Wa ulaa'ika lahumul-khayraat",
+                "hinglish": "Aur yeh woh log hain jin ke liye tamaam bhalaiyan hain",
                 "urdu": "اور یہ وہ لوگ ہیں جن کے لیے تمام بھلائیاں ہیں",
                 "is_filled": true,
                 "sentence_number": 26,
                 "translations": {
-                  "hinglish": "Wa ulaa'ika lahumul-khayraat",
+                  "hinglish": "Aur yeh woh log hain jin ke liye tamaam bhalaiyan hain",
                   "en": "And those will have good things",
                   "ur": "اور انہی کے لیے تمام بھلائیاں ہیں",
                   "hi": "और उन्हीं के लिए तमाम भलाइयां हैं",
@@ -32725,12 +32725,12 @@
               {
                 "id": 30,
                 "arabic": "أُولَائِكَ لَهُمُ اللَّعْنَةُ",
-                "hinglish": "Ulaa'ika lahumul-la'nah",
+                "hinglish": "Yeh woh log hain jin par phitkaar/laanat hai",
                 "urdu": "یہ وہ لوگ ہیں جن پر پھٹکار/لعنت ہے",
                 "is_filled": true,
                 "sentence_number": 27,
                 "translations": {
-                  "hinglish": "Ulaa'ika lahumul-la'nah",
+                  "hinglish": "Yeh woh log hain jin par phitkaar/laanat hai",
                   "en": "Those will have the curse",
                   "ur": "انہی پر لعنت ہے",
                   "hi": "उन्हीं पर लानत है",
@@ -32744,12 +32744,12 @@
               {
                 "id": 31,
                 "arabic": "أُولَائِكَ عَلَيْهِمْ صَلَوَاتٌ",
-                "hinglish": "Ulaa'ika 'alayhim salawaat",
+                "hinglish": "Yeh woh log hain jin par rahmatein hain",
                 "urdu": "یہ وہ لوگ ہیں جن پر رحمتیں ہیں",
                 "is_filled": true,
                 "sentence_number": 28,
                 "translations": {
-                  "hinglish": "Ulaa'ika 'alayhim salawaat",
+                  "hinglish": "Yeh woh log hain jin par rahmatein hain",
                   "en": "Those are the ones upon whom are blessings",
                   "ur": "انہی پر عنایتیں ہیں",
                   "hi": "उन्हीं पर इनायतें हैं",
@@ -32763,12 +32763,12 @@
               {
                 "id": 32,
                 "arabic": "أُولَائِكَ عَلَيْهِمْ لَعْنَةُ اللهِ",
-                "hinglish": "Ulaa'ika 'alayhim la'natul-Laah",
+                "hinglish": "Un logon par Allah ki laanat hai",
                 "urdu": "ان لوگوں پر اللہ کی لعنت ہے",
                 "is_filled": true,
                 "sentence_number": 29,
                 "translations": {
-                  "hinglish": "Ulaa'ika 'alayhim la'natul-Laah",
+                  "hinglish": "Un logon par Allah ki laanat hai",
                   "en": "Those - upon them is the curse of Allah",
                   "ur": "انہی پر اللہ کی لعنت ہے",
                   "hi": "उन्हीं पर अल्लाह की लानत है",
@@ -32782,12 +32782,12 @@
               {
                 "id": 33,
                 "arabic": "أُولَائِكَ لَهُمْ مَّغْفِرَةٌ وَأَجْرٌ كَبِيرٌ",
-                "hinglish": "Ulaa'ika lahum maghfiratunw-wa ajrun kabeer",
+                "hinglish": "Un logon ke liye bakhshish aur bada ajar hai",
                 "urdu": "ان لوگوں کے لیے بخشش اور بڑا اجر ہے",
                 "is_filled": true,
                 "sentence_number": 30,
                 "translations": {
-                  "hinglish": "Ulaa'ika lahum maghfiratunw-wa ajrun kabeer",
+                  "hinglish": "Un logon ke liye bakhshish aur bada ajar hai",
                   "en": "Those will have forgiveness and great reward",
                   "ur": "انہی کے لیے بخشش اور بڑا اجر ہے",
                   "hi": "उन्हीं के लिए बख़्शिश और बड़ा अज्र है",
@@ -32801,12 +32801,12 @@
               {
                 "id": 34,
                 "arabic": "أُولَائِكَ لَهُمْ مَّغْفِرَةٌ وَرِزْقٌ كَرِيمٌ",
-                "hinglish": "Ulaa'ika lahum maghfiratunw-wa rizqun kareem",
+                "hinglish": "Un logon ke liye maghfirat aur izzat ki rozi hai",
                 "urdu": "ان لوگوں کے لیے مغفرت اور عزت کی روزی ہے",
                 "is_filled": true,
                 "sentence_number": 31,
                 "translations": {
-                  "hinglish": "Ulaa'ika lahum maghfiratunw-wa rizqun kareem",
+                  "hinglish": "Un logon ke liye maghfirat aur izzat ki rozi hai",
                   "en": "Those will have forgiveness and noble provision",
                   "ur": "انہی کے لیے مغفرت اور عزت کی روزی ہے",
                   "hi": "उन्हीं के लिए मग़फ़िरत और इज़्ज़त की रोज़ी है",
@@ -32820,12 +32820,12 @@
               {
                 "id": 35,
                 "arabic": "أُولَائِكَ لَهُمْ جَنَّاتُ عَدْنٍ",
-                "hinglish": "Ulaa'ika lahum jannaatu 'adn",
+                "hinglish": "Un ke liye hamesha rehne ke baghaat hain",
                 "urdu": "ان کے لیے ہمیشہ رہنے کے باغات ہیں",
                 "is_filled": true,
                 "sentence_number": 32,
                 "translations": {
-                  "hinglish": "Ulaa'ika lahum jannaatu 'adn",
+                  "hinglish": "Un ke liye hamesha rehne ke baghaat hain",
                   "en": "Those will have gardens of perpetual residence",
                   "ur": "انہی کے لیے ہمیشہ رہنے کے باغات ہیں",
                   "hi": "उन्हीं के लिए हमेशा रहने के बाग़ात हैं",
@@ -32839,12 +32839,12 @@
               {
                 "id": 36,
                 "arabic": "أُولَائِكَ لَهُمْ رِزْقٌ مَّعْلُومٌ",
-                "hinglish": "Ulaa'ika lahum rizqum-ma'loom",
+                "hinglish": "Un logon ke liye ek muayyan o maloom rizq hai",
                 "urdu": "ان لوگوں کے لیے ایک معین و معلوم رزق ہے",
                 "is_filled": true,
                 "sentence_number": 33,
                 "translations": {
-                  "hinglish": "Ulaa'ika lahum rizqum-ma'loom",
+                  "hinglish": "Un logon ke liye ek muayyan o maloom rizq hai",
                   "en": "Those will have a known provision",
                   "ur": "انہی کے لیے معین روزی ہے",
                   "hi": "उन्हीं के लिए मुअय्यन रोज़ी है",
@@ -32858,12 +32858,12 @@
               {
                 "id": 37,
                 "arabic": "فَأُولَائِكَ مَأْوَاهُمْ جَهَنَّمُ",
-                "hinglish": "Fa-ulaa'ika ma'waahum Jahannam",
+                "hinglish": "Pas unka thikana Jahannam hai",
                 "urdu": "پس ان کا ٹھکانہ جہنم ہے",
                 "is_filled": true,
                 "sentence_number": 34,
                 "translations": {
-                  "hinglish": "Fa-ulaa'ika ma'waahum Jahannam",
+                  "hinglish": "Pas unka thikana Jahannam hai",
                   "en": "For those, their refuge is Hell",
                   "ur": "تو ان کا ٹھکانہ جہنم ہے",
                   "hi": "तो उनका ठिकाना जहन्नम है",
@@ -32877,12 +32877,12 @@
               {
                 "id": 38,
                 "arabic": "أُولَائِكَ مَأْوَاهُمُ النَّارُ",
-                "hinglish": "Ulaa'ika ma'waahumun-Naar",
+                "hinglish": "Un logon ka thikana aag hai",
                 "urdu": "ان لوگوں کا ٹھکانہ آگ ہے",
                 "is_filled": true,
                 "sentence_number": 35,
                 "translations": {
-                  "hinglish": "Ulaa'ika ma'waahumun-Naar",
+                  "hinglish": "Un logon ka thikana aag hai",
                   "en": "Those - their refuge is the Fire",
                   "ur": "انہی کا ٹھکانہ آگ ہے",
                   "hi": "उन्हीं का ठिकाना आग है",
@@ -32896,12 +32896,12 @@
               {
                 "id": 39,
                 "arabic": "أُولَائِكَ الَّذِينَ لَهُمْ سُوءُ الْعَذَابِ",
-                "hinglish": "Ulaa'ikal-lazeena lahum sooo-ul-'azaab",
+                "hinglish": "Yeh woh log hain jin ke liye bura azaab hai",
                 "urdu": "یہ وہ لوگ ہیں جن کے لیے برا عذاب ہے",
                 "is_filled": true,
                 "sentence_number": 36,
                 "translations": {
-                  "hinglish": "Ulaa'ikal-lazeena lahum sooo-ul-'azaab",
+                  "hinglish": "Yeh woh log hain jin ke liye bura azaab hai",
                   "en": "Those are the ones for whom is the worst punishment",
                   "ur": "یہی وہ لوگ ہیں جن کے لیے برا عذاب ہے",
                   "hi": "यही वह लोग हैं जिनके लिए बुरा अज़ाब है",
@@ -32915,12 +32915,12 @@
               {
                 "id": 40,
                 "arabic": "أُولَائِكَ لَهُمُ اللَّعْنَةُ وَلَهُمْ سُوءُ الدَّارِ",
-                "hinglish": "Ulaa'ika lahumul-la'natu wa lahum sooo-ud-daar",
+                "hinglish": "Un ke liye laanat hai aur un ke liye bura thikana hai",
                 "urdu": "ان کے لیے لعنت ہے اور ان کے لیے برا ٹھکانہ ہے",
                 "is_filled": true,
                 "sentence_number": 37,
                 "translations": {
-                  "hinglish": "Ulaa'ika lahumul-la'natu wa lahum sooo-ud-daar",
+                  "hinglish": "Un ke liye laanat hai aur un ke liye bura thikana hai",
                   "en": "Those - for them is the curse, and for them is the worst home",
                   "ur": "انہی پر لعنت ہے اور انہی کے لیے برا ٹھکانہ ہے",
                   "hi": "उन्हीं पर लानत है और उन्हीं के लिए बुरा ठिकाना है",
@@ -32934,12 +32934,12 @@
               {
                 "id": 41,
                 "arabic": "فَأُولَائِكَ لَهُمُ الدَّرَجَاتُ الْعُلَى",
-                "hinglish": "Fa-ulaa'ika lahumud-darajaatul-'ulaa",
+                "hinglish": "Pas yahi log hain jin ke liye buland darjaat hain",
                 "urdu": "پس یہی لوگ ہیں جن کے لیے بلند درجات ہیں",
                 "is_filled": true,
                 "sentence_number": 38,
                 "translations": {
-                  "hinglish": "Fa-ulaa'ika lahumud-darajaatul-'ulaa",
+                  "hinglish": "Pas yahi log hain jin ke liye buland darjaat hain",
                   "en": "Then those will have the high ranks",
                   "ur": "تو انہی کے لیے بلند ترین درجات ہیں",
                   "hi": "तो उन्हीं के लिए बुलंद तरीन दरजात हैं",
@@ -32991,12 +32991,12 @@
               {
                 "id": 44,
                 "arabic": "أُولَائِكَ لَهُمُ الْأَمْنُ وَهُمْ مُّهْتَدُونَ",
-                "hinglish": "Ulaa'ika lahumul-amnu wa hum muhtadoon",
+                "hinglish": "Yahi log hain jin ke liye aman hai aur wahi hidayat yaafta hain",
                 "urdu": "یہی لوگ ہیں جن کے لیے امن ہے اور وہی ہدایت یافتہ ہیں",
                 "is_filled": true,
                 "sentence_number": 41,
                 "translations": {
-                  "hinglish": "Ulaa'ika lahumul-amnu wa hum muhtadoon",
+                  "hinglish": "Yahi log hain jin ke liye aman hai aur wahi hidayat yaafta hain",
                   "en": "They will have security, and they are guided",
                   "ur": "انہی کے لیے امن ہے اور وہی ہدایت یافتہ ہیں",
                   "hi": "उन्हीं के लिए अम्न है और वही हिदायत याफ़्ता हैं",
@@ -33010,12 +33010,12 @@
               {
                 "id": 45,
                 "arabic": "وَأُولَائِكَ الْأَغْلَالُ فِي أَعْنَاقِهِمْ",
-                "hinglish": "Wa ulaa'ikal-aghlaalu fee a'naaqihim",
+                "hinglish": "Aur yahi log hain jin ki gardanon mein tauq honge",
                 "urdu": "اور یہی لوگ ہیں جن کی گردنوں میں طوق ہوں گے",
                 "is_filled": true,
                 "sentence_number": 42,
                 "translations": {
-                  "hinglish": "Wa ulaa'ikal-aghlaalu fee a'naaqihim",
+                  "hinglish": "Aur yahi log hain jin ki gardanon mein tauq honge",
                   "en": "And those will have shackles on their necks",
                   "ur": "اور انہی کی گردنوں میں طوق ہوں گے",
                   "hi": "और उन्हीं की गर्दनों में तौक़ होंगे",
@@ -33029,12 +33029,12 @@
               {
                 "id": 46,
                 "arabic": "أُولَائِكَ بَعْضُهُمْ أَوْلِيَاءُ بَعْضٍ",
-                "hinglish": "Ulaa'ika ba'duhum awliyaau ba'd",
+                "hinglish": "Woh ek doosre ke madadgaar hain",
                 "urdu": "وہ ایک دوسرے کے مددگار ہیں",
                 "is_filled": true,
                 "sentence_number": 43,
                 "translations": {
-                  "hinglish": "Ulaa'ika ba'duhum awliyaau ba'd",
+                  "hinglish": "Woh ek doosre ke madadgaar hain",
                   "en": "Those are allies of one another",
                   "ur": "وہ آپس میں ایک دوسرے کے رفیق ہیں",
                   "hi": "वह आपस में एक दूसरे के रफ़ीक़ हैं",
@@ -33105,12 +33105,12 @@
               {
                 "id": 50,
                 "arabic": "أُولَائِكَ لَهُمْ أَجْرُهُمْ عِنْدَ رَبِّهِمْ إِنَّ اللهَ سَرِيعُ الْحِسَابِ",
-                "hinglish": "Ulaa'ika lahum ajruhum 'inda Rabbihim innal-Laaha saree'ul-hisaab",
+                "hinglish": "Un logon ke liye unka ajar unke Rab ke paas hai, beshak Allah jald hisaab lene wala hai",
                 "urdu": "ان لوگوں کے لیے ان کا اجر ان کے رب کے پاس ہے، بے شک اللہ جلد حساب لینے والا ہے",
                 "is_filled": true,
                 "sentence_number": 47,
                 "translations": {
-                  "hinglish": "Ulaa'ika lahum ajruhum 'inda Rabbihim innal-Laaha saree'ul-hisaab",
+                  "hinglish": "Un logon ke liye unka ajar unke Rab ke paas hai, beshak Allah jald hisaab lene wala hai",
                   "en": "Those will have their reward with their Lord; indeed, Allah is swift in account",
                   "ur": "ان کا اجر ان کے رب کے پاس ہے، بیشک اللہ جلد حساب لینے والا ہے",
                   "hi": "उनका अज्र उनके रब के पास है, बेशक अल्लाह जल्द हिसाब लेने वाला है",
@@ -33143,12 +33143,12 @@
               {
                 "id": 52,
                 "arabic": "أُولَائِكَ لَهُمْ سُوءُ الْحِسَابِ وَمَأْوَاهُمْ جَهَنَّمُ وَبِئْسَ الْمِهَادُ",
-                "hinglish": "Ulaa'ika lahum sooo-ul-hisaabi wa ma'waahum Jahannamu wa bi'sal-mihaad",
+                "hinglish": "Un ke liye bura hisaab hai aur unka thikana Jahannam hai aur woh bura bichhona hai",
                 "urdu": "ان کے لیے برا حساب ہے اور ان کا ٹھکانہ جہنم ہے اور وہ برا بچھونا ہے",
                 "is_filled": true,
                 "sentence_number": 49,
                 "translations": {
-                  "hinglish": "Ulaa'ika lahum sooo-ul-hisaabi wa ma'waahum Jahannamu wa bi'sal-mihaad",
+                  "hinglish": "Un ke liye bura hisaab hai aur unka thikana Jahannam hai aur woh bura bichhona hai",
                   "en": "Those will have the worst reckoning, and their refuge is Hell, and wretched is the resting place",
                   "ur": "انہی کے لیے سخت حساب ہے اور ان کا ٹھکانہ جہنم ہے اور وہ برا بچھونا ہے",
                   "hi": "उन्हीं के लिए सख़्त हिसाब है और उनका ठिकाना जहन्नम है और वह बुरा बिछौना है",
@@ -33223,12 +33223,12 @@
               {
                 "id": 55,
                 "arabic": "أُولَائِكَ هُمْ خَيْرُ الْبَرِيَّةِ",
-                "hinglish": "Ulaa'ika hum khayrul-bariyyah",
+                "hinglish": "Yahi log behtareen makhlooq hain",
                 "urdu": "یہی لوگ بہترین مخلوق ہیں",
                 "is_filled": true,
                 "sentence_number": 1,
                 "translations": {
-                  "hinglish": "Ulaa'ika hum khayrul-bariyyah",
+                  "hinglish": "Yahi log behtareen makhlooq hain",
                   "en": "Those are the best of creatures",
                   "ur": "یہی لوگ بہترین مخلوق ہیں",
                   "hi": "यही लोग बेहतरीन मख़्लूक़ हैं",
@@ -33242,12 +33242,12 @@
               {
                 "id": 56,
                 "arabic": "أُولَائِكَ هُمْ شَرُّ الْبَرِيَّةِ",
-                "hinglish": "Ulaa'ika hum sharrul-bariyyah",
+                "hinglish": "Yahi log badtareen makhlooq hain",
                 "urdu": "یہی لوگ بدترین مخلوق ہیں",
                 "is_filled": true,
                 "sentence_number": 2,
                 "translations": {
-                  "hinglish": "Ulaa'ika hum sharrul-bariyyah",
+                  "hinglish": "Yahi log badtareen makhlooq hain",
                   "en": "Those are the worst of creatures",
                   "ur": "یہی لوگ بدترین خلقت ہیں",
                   "hi": "यही लोग बदतरीन ख़िल्क़त हैं",
@@ -33261,12 +33261,12 @@
               {
                 "id": 57,
                 "arabic": "وَأُولَائِكَ هُمْ وَقُودُ النَّارِ",
-                "hinglish": "Wa ulaa'ika hum waqoodun-naar",
+                "hinglish": "Aur wahi log aag ka eendhan hain",
                 "urdu": "اور وہی لوگ آگ کا ایندھن ہیں",
                 "is_filled": true,
                 "sentence_number": 3,
                 "translations": {
-                  "hinglish": "Wa ulaa'ika hum waqoodun-naar",
+                  "hinglish": "Aur wahi log aag ka eendhan hain",
                   "en": "And those are the fuel of the Fire",
                   "ur": "اور وہی لوگ دوزخ کا ایندھن ہیں",
                   "hi": "और वही लोग दोज़ख़ का ईंधन हैं",
@@ -33280,12 +33280,12 @@
               {
                 "id": 58,
                 "arabic": "وَأُولَائِكَ هُمْ أُولُو الْأَلْبَابِ",
-                "hinglish": "Wa ulaa'ika hum ulul-albaab",
+                "hinglish": "Aur wahi log aql wale hain",
                 "urdu": "اور وہی لوگ عقل والے ہیں",
                 "is_filled": true,
                 "sentence_number": 4,
                 "translations": {
-                  "hinglish": "Wa ulaa'ika hum ulul-albaab",
+                  "hinglish": "Aur wahi log aql wale hain",
                   "en": "And those are the people of understanding",
                   "ur": "اور وہی لوگ عقل والے ہیں",
                   "hi": "और वही लोग अक़्ल वाले हैं",
@@ -33299,12 +33299,12 @@
               {
                 "id": 59,
                 "arabic": "أُولَائِكَ هُمْ خَيْرُ الْبَرِيَّةِ جَزَاؤُهُمْ عِنْدَ رَبِّهِمْ جَنَّاتُ عَدْنٍ",
-                "hinglish": "Ulaa'ika hum khayrul-bariyyati jazaauhum 'inda Rabbihim jannaatu 'adn",
+                "hinglish": "Yahi log behtareen makhlooq hain, unka badla unke Rab ke paas hameshgi wale baghaat hain",
                 "urdu": "یہی لوگ بہترین مخلوق ہیں، ان کا بدلہ ان کے رب کے پاس ہمیشگی والے باغات ہیں",
                 "is_filled": true,
                 "sentence_number": 5,
                 "translations": {
-                  "hinglish": "Ulaa'ika hum khayrul-bariyyati jazaauhum 'inda Rabbihim jannaatu 'adn",
+                  "hinglish": "Yahi log behtareen makhlooq hain, unka badla unke Rab ke paas hameshgi wale baghaat hain",
                   "en": "Those are the best of creatures; their reward with their Lord is gardens of perpetual residence",
                   "ur": "یہی لوگ بہترین مخلوق ہیں، ان کا بدلہ ان کے رب کے پاس ہمیشہ کے باغات ہیں",
                   "hi": "यही लोग बेहतरीन मख़्लूक़ हैं, उनका बदला उनके रब के पास हमेशा के बाग़ात हैं",
@@ -33341,12 +33341,12 @@
               {
                 "id": 60,
                 "arabic": "أُولَائِكَ هُمُ الْمُؤْمِنُونَ",
-                "hinglish": "Ulaa'ika humul-mu'minoon",
+                "hinglish": "Darasal aise log hi momin hain",
                 "urdu": "دراصل ایسے لوگ ہی مومن ہیں",
                 "is_filled": true,
                 "sentence_number": 1,
                 "translations": {
-                  "hinglish": "Ulaa'ika humul-mu'minoon",
+                  "hinglish": "Darasal aise log hi momin hain",
                   "en": "Those are the believers",
                   "ur": "یہی لوگ مومن ہیں",
                   "hi": "यही लोग मोमिन हैं",
@@ -33360,12 +33360,12 @@
               {
                 "id": 61,
                 "arabic": "أُولَائِكَ هُمُ الصَّادِقُونَ",
-                "hinglish": "Ulaa'ika humus-saadiqoon",
+                "hinglish": "Yahi log sachche hain",
                 "urdu": "یہی لوگ سچے ہیں",
                 "is_filled": true,
                 "sentence_number": 2,
                 "translations": {
-                  "hinglish": "Ulaa'ika humus-saadiqoon",
+                  "hinglish": "Yahi log sachche hain",
                   "en": "Those are the truthful",
                   "ur": "یہی لوگ سچے ہیں",
                   "hi": "यही लोग सच्चे हैं",
@@ -33379,12 +33379,12 @@
               {
                 "id": 62,
                 "arabic": "أُولَائِكَ هُمُ الْمُتَّقُونَ",
-                "hinglish": "Ulaa'ika humul-muttaqoon",
+                "hinglish": "Yahi log parhezgaar hain",
                 "urdu": "یہی لوگ پرہیزگار ہیں",
                 "is_filled": true,
                 "sentence_number": 3,
                 "translations": {
-                  "hinglish": "Ulaa'ika humul-muttaqoon",
+                  "hinglish": "Yahi log parhezgaar hain",
                   "en": "Those are the righteous",
                   "ur": "یہی لوگ پرہیزگار ہیں",
                   "hi": "यही लोग परहेज़गार हैं",
@@ -33398,12 +33398,12 @@
               {
                 "id": 63,
                 "arabic": "أُولَائِكَ هُمُ الْمُفْلِحُونَ",
-                "hinglish": "Ulaa'ika humul-muflihoon",
+                "hinglish": "Yahi log falah paane wale hain",
                 "urdu": "یہی لوگ فلاح پانے والے ہیں",
                 "is_filled": true,
                 "sentence_number": 4,
                 "translations": {
-                  "hinglish": "Ulaa'ika humul-muflihoon",
+                  "hinglish": "Yahi log falah paane wale hain",
                   "en": "Those are the successful",
                   "ur": "یہی لوگ فلاح پانے والے ہیں",
                   "hi": "यही लोग फ़लाह पाने वाले हैं",
@@ -33417,12 +33417,12 @@
               {
                 "id": 64,
                 "arabic": "أُولَائِكَ هُمُ الْخَاسِرُونَ",
-                "hinglish": "Ulaa'ika humul-khaasiroon",
+                "hinglish": "Yahi log khasara paane wale hain",
                 "urdu": "یہی لوگ خسارہ پانے والے ہیں",
                 "is_filled": true,
                 "sentence_number": 5,
                 "translations": {
-                  "hinglish": "Ulaa'ika humul-khaasiroon",
+                  "hinglish": "Yahi log khasara paane wale hain",
                   "en": "Those are the losers",
                   "ur": "یہی لوگ خسارہ پانے والے ہیں",
                   "hi": "यही लोग ख़सारा पाने वाले हैं",
@@ -33436,12 +33436,12 @@
               {
                 "id": 65,
                 "arabic": "أُولَائِكَ هُمُ الْغَافِلُونَ",
-                "hinglish": "Ulaa'ika humul-ghaafiloon",
+                "hinglish": "Yahi log ghaflat mein pade hue hain",
                 "urdu": "یہی لوگ غفلت میں پڑے ہوئے ہیں",
                 "is_filled": true,
                 "sentence_number": 6,
                 "translations": {
-                  "hinglish": "Ulaa'ika humul-ghaafiloon",
+                  "hinglish": "Yahi log ghaflat mein pade hue hain",
                   "en": "Those are the heedless",
                   "ur": "یہی لوگ غفلت میں پڑے ہوئے ہیں",
                   "hi": "यही लोग ग़फ़लत में पड़े हुए हैं",
@@ -33455,12 +33455,12 @@
               {
                 "id": 66,
                 "arabic": "أُولَائِكَ هُمُ الْوَارِثُونَ",
-                "hinglish": "Ulaa'ika humul-waarisoon",
+                "hinglish": "Yahi log waaris banne wale hain",
                 "urdu": "یہی لوگ وارث بننے والے ہیں",
                 "is_filled": true,
                 "sentence_number": 7,
                 "translations": {
-                  "hinglish": "Ulaa'ika humul-waarisoon",
+                  "hinglish": "Yahi log waaris banne wale hain",
                   "en": "Those are the inheritors",
                   "ur": "یہی لوگ وارث بننے والے ہیں",
                   "hi": "यही लोग वारिस बनने वाले हैं",
@@ -33474,12 +33474,12 @@
               {
                 "id": 67,
                 "arabic": "أُولَائِكَ هُمُ الرَّاشِدُونَ",
-                "hinglish": "Ulaa'ika humur-raashidoon",
+                "hinglish": "Yahi log hidayat yaafta hain",
                 "urdu": "یہی لوگ ہدایت یافتہ ہیں",
                 "is_filled": true,
                 "sentence_number": 8,
                 "translations": {
-                  "hinglish": "Ulaa'ika humur-raashidoon",
+                  "hinglish": "Yahi log hidayat yaafta hain",
                   "en": "Those are the rightly guided",
                   "ur": "یہی لوگ ہدایت یافتہ ہیں",
                   "hi": "यही लोग हिदायत याफ़्ता हैं",
@@ -33493,12 +33493,12 @@
               {
                 "id": 68,
                 "arabic": "أُولَائِكَ هُمُ الصِّدِّيقُونَ",
-                "hinglish": "Ulaa'ika humus-siddeeqoon",
+                "hinglish": "Yahi log sachche hain",
                 "urdu": "یہی لوگ سچے ہیں",
                 "is_filled": true,
                 "sentence_number": 9,
                 "translations": {
-                  "hinglish": "Ulaa'ika humus-siddeeqoon",
+                  "hinglish": "Yahi log sachche hain",
                   "en": "Those are the supporters of truth",
                   "ur": "یہی لوگ سچے ہیں",
                   "hi": "यही लोग सच्चे (सिद्दीक़) हैं",
@@ -33512,12 +33512,12 @@
               {
                 "id": 69,
                 "arabic": "أُولَائِكَ هُمُ الْفَاسِقُونَ",
-                "hinglish": "Ulaa'ika humul-faasiqoon",
+                "hinglish": "Yahi log nafarman hain",
                 "urdu": "یہی لوگ نافرمان ہیں",
                 "is_filled": true,
                 "sentence_number": 10,
                 "translations": {
-                  "hinglish": "Ulaa'ika humul-faasiqoon",
+                  "hinglish": "Yahi log nafarman hain",
                   "en": "Those are the defiantly disobedient",
                   "ur": "یہی لوگ نافرمان ہیں",
                   "hi": "यही लोग नाफ़रमान हैं",
@@ -33531,12 +33531,12 @@
               {
                 "id": 70,
                 "arabic": "وَأُولَائِكَ هُمُ الْمُفْلِحُونَ",
-                "hinglish": "Wa ulaa'ika humul-muflihoon",
+                "hinglish": "Aur wahi log falah paane wale hain",
                 "urdu": "اور وہی لوگ فلاح پانے والے ہیں",
                 "is_filled": true,
                 "sentence_number": 11,
                 "translations": {
-                  "hinglish": "Wa ulaa'ika humul-muflihoon",
+                  "hinglish": "Aur wahi log falah paane wale hain",
                   "en": "And those are the successful",
                   "ur": "اور وہی لوگ فلاح پانے والے ہیں",
                   "hi": "और वही लोग फ़लाह पाने वाले हैं",
@@ -33550,12 +33550,12 @@
               {
                 "id": 71,
                 "arabic": "وَأُولَائِكَ هُمُ الْمُتَّقُونَ",
-                "hinglish": "Wa ulaa'ika humul-muttaqoon",
+                "hinglish": "Aur wahi log parhezgaar hain",
                 "urdu": "اور وہی لوگ پرہیزگار ہیں",
                 "is_filled": true,
                 "sentence_number": 12,
                 "translations": {
-                  "hinglish": "Wa ulaa'ika humul-muttaqoon",
+                  "hinglish": "Aur wahi log parhezgaar hain",
                   "en": "And those are the righteous",
                   "ur": "اور وہی لوگ پرہیزگار ہیں",
                   "hi": "और वही लोग परहेज़गार हैं",
@@ -33569,12 +33569,12 @@
               {
                 "id": 72,
                 "arabic": "وَأُولَائِكَ هُمُ الضَّالُّونَ",
-                "hinglish": "Wa ulaa'ika humud-daalloon",
+                "hinglish": "Aur wahi log gumraah hain",
                 "urdu": "اور وہی لوگ گمراہ ہیں",
                 "is_filled": true,
                 "sentence_number": 13,
                 "translations": {
-                  "hinglish": "Wa ulaa'ika humud-daalloon",
+                  "hinglish": "Aur wahi log gumraah hain",
                   "en": "And those are the astray",
                   "ur": "اور وہی لوگ گمراہ ہیں",
                   "hi": "और वही लोग गुमराह हैं",
@@ -33588,12 +33588,12 @@
               {
                 "id": 73,
                 "arabic": "وَأُولَائِكَ هُمُ الْخَاسِرُونَ",
-                "hinglish": "Wa ulaa'ika humul-khaasiroon",
+                "hinglish": "Aur wahi log nuqsaan uthane wale hain",
                 "urdu": "اور وہی لوگ نقصان اٹھانے والے ہیں",
                 "is_filled": true,
                 "sentence_number": 14,
                 "translations": {
-                  "hinglish": "Wa ulaa'ika humul-khaasiroon",
+                  "hinglish": "Aur wahi log nuqsaan uthane wale hain",
                   "en": "And those are the losers",
                   "ur": "اور وہی لوگ نقصان اٹھانے والے ہیں",
                   "hi": "और वही लोग नुक़सान उठाने वाले हैं",
@@ -33607,12 +33607,12 @@
               {
                 "id": 74,
                 "arabic": "وَأُولَائِكَ هُمُ الْكَاذِبُونَ",
-                "hinglish": "Wa ulaa'ika humul-kaaziboon",
+                "hinglish": "Aur wahi log jhoote hain",
                 "urdu": "اور وہی لوگ جھوٹے ہیں",
                 "is_filled": true,
                 "sentence_number": 15,
                 "translations": {
-                  "hinglish": "Wa ulaa'ika humul-kaaziboon",
+                  "hinglish": "Aur wahi log jhoote hain",
                   "en": "And those are the liars",
                   "ur": "اور وہی لوگ جھوٹے ہیں",
                   "hi": "और वही लोग झूठे हैं",
@@ -33626,12 +33626,12 @@
               {
                 "id": 75,
                 "arabic": "وَأُولَائِكَ هُمُ الْمُعْتَدُونَ",
-                "hinglish": "Wa ulaa'ika humul-mu'tadoon",
+                "hinglish": "Aur wahi log hadd se tajawuz karne wale hain",
                 "urdu": "اور وہی لوگ حد سے تجاوز کرنے والے ہیں",
                 "is_filled": true,
                 "sentence_number": 16,
                 "translations": {
-                  "hinglish": "Wa ulaa'ika humul-mu'tadoon",
+                  "hinglish": "Aur wahi log hadd se tajawuz karne wale hain",
                   "en": "And those are the transgressors",
                   "ur": "اور وہی لوگ حد سے تجاوز کرنے والے ہیں",
                   "hi": "और वही लोग हद से तजावुज़ करने वाले हैं",
@@ -33645,12 +33645,12 @@
               {
                 "id": 76,
                 "arabic": "وَأُولَائِكَ هُمُ الْفَائِزُونَ",
-                "hinglish": "Wa ulaa'ika humul-faaizoon",
+                "hinglish": "Aur wahi log kamyab hone wale hain",
                 "urdu": "اور وہی لوگ کامیاب ہونے والے ہیں",
                 "is_filled": true,
                 "sentence_number": 17,
                 "translations": {
-                  "hinglish": "Wa ulaa'ika humul-faaizoon",
+                  "hinglish": "Aur wahi log kamyab hone wale hain",
                   "en": "And those are the attainers",
                   "ur": "اور وہی لوگ کامیاب ہونے والے ہیں",
                   "hi": "और वही लोग कामयाब होने वाले हैं",
@@ -33664,12 +33664,12 @@
               {
                 "id": 77,
                 "arabic": "وَأُولَائِكَ هُمُ الْغَافِلُونَ",
-                "hinglish": "Wa ulaa'ika humul-ghaafiloon",
+                "hinglish": "Aur wahi log ghafil hain",
                 "urdu": "اور وہی لوگ غافل ہیں",
                 "is_filled": true,
                 "sentence_number": 18,
                 "translations": {
-                  "hinglish": "Wa ulaa'ika humul-ghaafiloon",
+                  "hinglish": "Aur wahi log ghafil hain",
                   "en": "And those are the heedless",
                   "ur": "اور وہی لوگ غافل ہیں",
                   "hi": "और वही लोग ग़ाफ़िल हैं",
@@ -33683,12 +33683,12 @@
               {
                 "id": 78,
                 "arabic": "وَأُولَائِكَ هُمُ الْفَاسِقُونَ",
-                "hinglish": "Wa ulaa'ika humul-faasiqoon",
+                "hinglish": "Aur wahi log nafarman hain",
                 "urdu": "اور وہی لوگ نافرمان ہیں",
                 "is_filled": true,
                 "sentence_number": 19,
                 "translations": {
-                  "hinglish": "Wa ulaa'ika humul-faasiqoon",
+                  "hinglish": "Aur wahi log nafarman hain",
                   "en": "And those are the defiantly disobedient",
                   "ur": "اور وہی لوگ نافرمان ہیں",
                   "hi": "और وہی لوگ ناफ़رمان ہیں",
@@ -33702,12 +33702,12 @@
               {
                 "id": 79,
                 "arabic": "وَأُولَائِكَ هُمُ الْمُهْتَدُونَ",
-                "hinglish": "Wa ulaa'ika humul-muhtadoon",
+                "hinglish": "Aur wahi log hidayat par hain",
                 "urdu": "اور وہی لوگ ہدایت پر ہیں",
                 "is_filled": true,
                 "sentence_number": 20,
                 "translations": {
-                  "hinglish": "Wa ulaa'ika humul-muhtadoon",
+                  "hinglish": "Aur wahi log hidayat par hain",
                   "en": "And those are the [rightly] guided",
                   "ur": "اور وہی لوگ ہدایت پر ہیں",
                   "hi": "और वही लोग हिदायत पर हैं",
@@ -33721,12 +33721,12 @@
               {
                 "id": 80,
                 "arabic": "فَأُولَائِكَ هُمُ الْكَافِرُونَ",
-                "hinglish": "Fa-ulaa'ika humul-kaafiroon",
+                "hinglish": "Toh wahi log kafir hain",
                 "urdu": "تو وہی لوگ کافر ہیں",
                 "is_filled": true,
                 "sentence_number": 21,
                 "translations": {
-                  "hinglish": "Fa-ulaa'ika humul-kaafiroon",
+                  "hinglish": "Toh wahi log kafir hain",
                   "en": "Then those are the disbelievers",
                   "ur": "تو وہی لوگ کافر ہیں",
                   "hi": "तो वही लोग काफ़िर हैं",
@@ -33740,12 +33740,12 @@
               {
                 "id": 81,
                 "arabic": "فَأُولَائِكَ هُمُ الظَّالِمُونَ",
-                "hinglish": "Fa-ulaa'ika humuz-zaalimoon",
+                "hinglish": "Toh wahi log zalim hain",
                 "urdu": "تو وہی لوگ ظالم ہیں",
                 "is_filled": true,
                 "sentence_number": 22,
                 "translations": {
-                  "hinglish": "Fa-ulaa'ika humuz-zaalimoon",
+                  "hinglish": "Toh wahi log zalim hain",
                   "en": "Then those are the wrongdoers",
                   "ur": "تو وہی لوگ ظالم ہیں",
                   "hi": "तो वही लोग ज़ालिम हैं",
@@ -33759,12 +33759,12 @@
               {
                 "id": 82,
                 "arabic": "فَأُولَائِكَ هُمُ الْفَائِزُونَ",
-                "hinglish": "Fa-ulaa'ika humul-faaizoon",
+                "hinglish": "Toh wahi log muraad paane wale hain",
                 "urdu": "تو وہی لوگ مراد پانے والے ہیں",
                 "is_filled": true,
                 "sentence_number": 23,
                 "translations": {
-                  "hinglish": "Fa-ulaa'ika humul-faaizoon",
+                  "hinglish": "Toh wahi log muraad paane wale hain",
                   "en": "Then those are the attainers",
                   "ur": "تو وہی لوگ مراد پانے والے ہیں",
                   "hi": "तो वही लोग मुराद पाने वाले हैं",
@@ -33778,12 +33778,12 @@
               {
                 "id": 83,
                 "arabic": "فَأُولَائِكَ هُمُ الْمُفْلِحُونَ",
-                "hinglish": "Fa-ulaa'ika humul-muflihoon",
+                "hinglish": "Pas wahi log falah paane wale hain",
                 "urdu": "پس وہی لوگ فلاح پانے والے ہیں",
                 "is_filled": true,
                 "sentence_number": 24,
                 "translations": {
-                  "hinglish": "Fa-ulaa'ika humul-muflihoon",
+                  "hinglish": "Pas wahi log falah paane wale hain",
                   "en": "Then those are the successful",
                   "ur": "پس وہی لوگ فلاح پانے والے ہیں",
                   "hi": "पस वही लोग फ़लाह पाने वाले हैं",
@@ -33797,12 +33797,12 @@
               {
                 "id": 84,
                 "arabic": "فَأُولَائِكَ هُمُ الْمُضْعِفُونَ",
-                "hinglish": "Fa-ulaa'ika humul-mud'ifoon",
+                "hinglish": "Toh wahi log apna maal badhane wale (dogna karne wale) hain",
                 "urdu": "تو وہی لوگ اپنا مال بڑھانے والے (دوگنا کرنے والے) ہیں",
                 "is_filled": true,
                 "sentence_number": 25,
                 "translations": {
-                  "hinglish": "Fa-ulaa'ika humul-mud'ifoon",
+                  "hinglish": "Toh wahi log apna maal badhane wale (dogna karne wale) hain",
                   "en": "Then those are the ones who get manifold increase",
                   "ur": "تو وہی لوگ اپنا مال بڑھانے والے (دوگنا کرنے والے) ہیں",
                   "hi": "तो वही लोग अपना माल बढ़ाने वाले (दोगुना करने वाले) हैं",
@@ -33816,12 +33816,12 @@
               {
                 "id": 85,
                 "arabic": "فَأُولَائِكَ هُمُ الْعَادُونَ",
-                "hinglish": "Fa-ulaa'ika humul-'aadoon",
+                "hinglish": "Toh wahi log hadd se nikalne wale hain",
                 "urdu": "تو وہی لوگ حد سے نکلنے والے ہیں",
                 "is_filled": true,
                 "sentence_number": 26,
                 "translations": {
-                  "hinglish": "Fa-ulaa'ika humul-'aadoon",
+                  "hinglish": "Toh wahi log hadd se nikalne wale hain",
                   "en": "Then those are the transgressors",
                   "ur": "تو وہی لوگ حد سے نکلنے والے ہیں",
                   "hi": "तो वही लोग हद से निकलने वाले हैं",
@@ -33835,12 +33835,12 @@
               {
                 "id": 86,
                 "arabic": "أُولَائِكَ هُمُ الْكَافِرُونَ حَقًّا",
-                "hinglish": "Ulaa'ika humul-kaafiroona haqqan",
+                "hinglish": "Darasal yahi log pakke kafir hain",
                 "urdu": "دراصل یہی لوگ پکے کافر ہیں",
                 "is_filled": true,
                 "sentence_number": 27,
                 "translations": {
-                  "hinglish": "Ulaa'ika humul-kaafiroona haqqan",
+                  "hinglish": "Darasal yahi log pakke kafir hain",
                   "en": "Those are the disbelievers, truly",
                   "ur": "دراصل یہی لوگ پکے کافر ہیں",
                   "hi": "दरअसल यही लोग पक्के काफ़िर हैं",
@@ -33854,12 +33854,12 @@
               {
                 "id": 87,
                 "arabic": "أُولَائِكَ هُمُ الْمُؤْمِنُونَ حَقًّا",
-                "hinglish": "Ulaa'ika humul-mu'minoona haqqan",
+                "hinglish": "Darasal yahi log sachche momin hain",
                 "urdu": "دراصل یہی لوگ سچے مومن ہیں",
                 "is_filled": true,
                 "sentence_number": 28,
                 "translations": {
-                  "hinglish": "Ulaa'ika humul-mu'minoona haqqan",
+                  "hinglish": "Darasal yahi log sachche momin hain",
                   "en": "Those are the believers, truly",
                   "ur": "دراصل یہی لوگ سچے مومن ہیں",
                   "hi": "दरअसल यही लोग सच्चे मोमिन हैं",
@@ -33873,12 +33873,12 @@
               {
                 "id": 88,
                 "arabic": "أُولَائِكَ هُمُ الْكَفَرَةُ الْفَجَرَةُ",
-                "hinglish": "Ulaa'ika humul-kafaratul-fajarah",
+                "hinglish": "Yahi log na-shukre aur badkaar hain",
                 "urdu": "یہی لوگ ناشکرے اور بدکار ہیں",
                 "is_filled": true,
                 "sentence_number": 29,
                 "translations": {
-                  "hinglish": "Ulaa'ika humul-kafaratul-fajarah",
+                  "hinglish": "Yahi log na-shukre aur badkaar hain",
                   "en": "Those are the disbelievers, the wicked",
                   "ur": "یہی لوگ ناشکرے اور بدکار ہیں",
                   "hi": "यही लोग नाशुक्रे और बदकार हैं",
@@ -33892,12 +33892,12 @@
               {
                 "id": 89,
                 "arabic": "فَأُولَائِكَ عِنْدَ اللهِ هُمُ الْكَاذِبُونَ",
-                "hinglish": "Fa-ulaa'ika 'indal-Laahi humul-kaaziboon",
+                "hinglish": "Pas wahi log Allah ke nazdeek jhoote hain",
                 "urdu": "پس وہی لوگ اللہ کے نزدیک جھوٹے ہیں",
                 "is_filled": true,
                 "sentence_number": 30,
                 "translations": {
-                  "hinglish": "Fa-ulaa'ika 'indal-Laahi humul-kaaziboon",
+                  "hinglish": "Pas wahi log Allah ke nazdeek jhoote hain",
                   "en": "Then those, with Allah, are the liars",
                   "ur": "پس وہی لوگ اللہ کے نزدیک جھوٹے ہیں",
                   "hi": "पस वही लोग अल्लाह के नजदीक झूठे हैं",
@@ -33934,12 +33934,12 @@
               {
                 "id": 90,
                 "arabic": "وَأُولَائِكَ لَهُمُ الْخَيْرَاتُ وَأُولَائِكَ هُمُ الْمُفْلِحُونَ",
-                "hinglish": "Wa ulaa'ika lahumul-khayraatu wa ulaa'ika humul-muflihoon",
+                "hinglish": "Aur un hi ke liye bhalaiyan hain aur wahi muraad paane wale hain",
                 "urdu": "اور ان ہی کے لیے بھلائیاں ہیں اور وہی مراد پانے والے ہیں",
                 "is_filled": true,
                 "sentence_number": 31,
                 "translations": {
-                  "hinglish": "Wa ulaa'ika lahumul-khayraatu wa ulaa'ika humul-muflihoon",
+                  "hinglish": "Aur un hi ke liye bhalaiyan hain aur wahi muraad paane wale hain",
                   "en": "And those will have good things, and those are the successful",
                   "ur": "اور ان ہی کے لیے بھلائیاں ہیں اور وہی مراد پانے والے ہیں",
                   "hi": "और उन्हीं के लिए भलाइयां हैं और वही मुराद पाने वाले हैं",
@@ -33972,12 +33972,12 @@
               {
                 "id": 92,
                 "arabic": "أُولَائِكَ هُمُ الْمُؤْمِنُونَ حَقًّا لَهُمْ مَّغْفِرَةٌ وَرِزْقٌ كَرِيمٌ",
-                "hinglish": "Ulaa'ika humul-mu'minoona haqqal-lahum maghfiratunw-wa rizqun kareem",
+                "hinglish": "Wahi sachche momin hain, un ke liye bakhshish aur izzat wali rozi hai",
                 "urdu": "وہی سچے مومن ہیں، ان کے لیے بخشش اور عزت والی روزی ہے",
                 "is_filled": true,
                 "sentence_number": 33,
                 "translations": {
-                  "hinglish": "Ulaa'ika humul-mu'minoona haqqal-lahum maghfiratunw-wa rizqun kareem",
+                  "hinglish": "Wahi sachche momin hain, un ke liye bakhshish aur izzat wali rozi hai",
                   "en": "Those are the believers, truly; for them is forgiveness and noble provision",
                   "ur": "وہی سچے مومن ہیں، ان کے لیے بخشش اور عزت والی روزی ہے",
                   "hi": "वही सच्चे मोमिन हैं, उनके लिए बख़्शिश और इज़्ज़त वाली रोज़ी है",
@@ -34010,12 +34010,12 @@
               {
                 "id": 94,
                 "arabic": "أُولَائِكَ هُمُ الصِّدِّيقُونَ وَالشُّهَدَاءُ عِنْدَ رَبِّهِمْ لَهُمْ أَجْرُهُمْ وَنُورُهُمْ",
-                "hinglish": "Ulaa'ika humus-siddeeqoona wash-shuhadaau 'inda Rabbihim lahum ajruhum wa nooruhum",
+                "hinglish": "Wahi apne Rab ke nazdeek sachche aur gawah hain, un ke liye unka ajar aur unka noor hai",
                 "urdu": "وہی اپنے رب کے نزدیک سچے اور گواہ ہیں، ان کے لیے ان کا اجر اور ان کا نور ہے",
                 "is_filled": true,
                 "sentence_number": 35,
                 "translations": {
-                  "hinglish": "Ulaa'ika humus-siddeeqoona wash-shuhadaau 'inda Rabbihim lahum ajruhum wa nooruhum",
+                  "hinglish": "Wahi apne Rab ke nazdeek sachche aur gawah hain, un ke liye unka ajar aur unka noor hai",
                   "en": "Those are the supporters of truth and the martyrs with their Lord; for them is their reward and their light",
                   "ur": "وہی اپنے رب کے نزدیک سچے اور گواہ ہیں، ان کے لیے ان کا اجر اور ان کا نور ہے",
                   "hi": "वही अपने रब के नजदीक सच्चे और गवाह हैं, उनके लिए उनका अज्र और उनका नूर है",
@@ -34029,12 +34029,12 @@
               {
                 "id": 95,
                 "arabic": "أُولَائِكَ كَالْأَنْعَامِ بَلْ هُمْ أَضَلُّ أُولَائِكَ هُمُ الْغَافِلُونَ",
-                "hinglish": "Ulaa'ika kal-an'aami bal hum adall, ulaa'ika humul-ghaafiloon",
+                "hinglish": "Yeh log chaupayon ki tarah hain balkeh un se bhi zyada gumraah hain, yahi log ghafil hain",
                 "urdu": "یہ لوگ چوپایوں کی طرح ہیں بلکہ ان سے بھی زیادہ گمراہ ہیں، یہی لوگ غافل ہیں",
                 "is_filled": true,
                 "sentence_number": 36,
                 "translations": {
-                  "hinglish": "Ulaa'ika kal-an'aami bal hum adall, ulaa'ika humul-ghaafiloon",
+                  "hinglish": "Yeh log chaupayon ki tarah hain balkeh un se bhi zyada gumraah hain, yahi log ghafil hain",
                   "en": "Those are like livestock; rather, they are more astray. It is they who are the heedless",
                   "ur": "یہ لوگ چوپایوں کی طرح ہیں بلکہ ان سے بھی زیادہ گمراہ ہیں، یہی لوگ غافل ہیں",
                   "hi": "यह लोग चौपायों की तरह हैं बल्कि उनसे भी ज़्यादा गुमराह हैं, यही लोग ग़ाफ़िल हैं",
@@ -34048,12 +34048,12 @@
               {
                 "id": 96,
                 "arabic": "أُولَائِكَ هُمُ الْمُؤْمِنُونَ حَقًّا لَهُمْ دَرَجَاتٌ عِنْدَ رَبِّهِمْ وَمَغْفِرَةٌ وَرِزْقٌ كَرِيمٌ",
-                "hinglish": "Ulaa'ika humul-mu'minoona haqqan, lahum darajaatun 'inda Rabbihim wa maghfiratunw-wa rizqun kareem",
+                "hinglish": "Yahi darasal sachche momin hain, un ke liye unke Rab ke paas bade darjaat hain aur maghfirat aur izzat ki rozi hai",
                 "urdu": "یہی دراصل سچے مومن ہیں، ان کے لیے ان کے رب کے پاس بڑے درجات ہیں اور مغفرت اور عزت کی روزی ہے",
                 "is_filled": true,
                 "sentence_number": 37,
                 "translations": {
-                  "hinglish": "Ulaa'ika humul-mu'minoona haqqan, lahum darajaatun 'inda Rabbihim wa maghfiratunw-wa rizqun kareem",
+                  "hinglish": "Yahi darasal sachche momin hain, un ke liye unke Rab ke paas bade darjaat hain aur maghfirat aur izzat ki rozi hai",
                   "en": "Those are the believers, truly; for them are degrees [of high position] with their Lord and forgiveness and noble provision",
                   "ur": "یہی دراصل سچے مومن ہیں، ان کے لیے ان کے رب کے پاس بڑے درجات ہیں اور مغفرت اور عزت کی روزی ہے",
                   "hi": "यही दरअसल सच्चे मोमिन हैं, उनके लिए उनके रब के पास बड़े दरजात हैं और मग़फ़िरत और इज़्ज़त की रोज़ी है",
@@ -34203,12 +34203,12 @@
               {
                 "id": 4,
                 "arabic": "هَؤُلَاءِ آلِهَةٌ",
-                "hinglish": "Haa'ulaa'i aalihah",
+                "hinglish": "Yeh mabood hain",
                 "urdu": "یہ معبود ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l18_w1",
                 "translations": {
-                  "hinglish": "Haa'ulaa'i aalihah",
+                  "hinglish": "Yeh mabood hain",
                   "en": "These are deities",
                   "ur": "یہ معبود ہیں",
                   "hi": "यह माबूद हैं",
@@ -34241,12 +34241,12 @@
               {
                 "id": 6,
                 "arabic": "هَؤُلَاءِ شُرَكَاؤُنَا",
-                "hinglish": "Haa'ulaa'i shurakaaunaa",
+                "hinglish": "Yeh hamare shareek hain",
                 "urdu": "یہ ہمارے شریک ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l18_w3",
                 "translations": {
-                  "hinglish": "Haa'ulaa'i shurakaaunaa",
+                  "hinglish": "Yeh hamare shareek hain",
                   "en": "These are our partners",
                   "ur": "یہ ہمارے شریک ہیں",
                   "hi": "यह हमारे शरीक हैं",
@@ -34260,12 +34260,12 @@
               {
                 "id": 7,
                 "arabic": "هَؤُلَاءِ شُفَعَاؤُنَا",
-                "hinglish": "Haa'ulaa'i shufa'aaunaa",
+                "hinglish": "Yeh hamare sifarishi hain",
                 "urdu": "یہ ہمارے سفارشی ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l18_w4",
                 "translations": {
-                  "hinglish": "Haa'ulaa'i shufa'aaunaa",
+                  "hinglish": "Yeh hamare sifarishi hain",
                   "en": "These are our intercessors",
                   "ur": "یہ ہمارے سفارشی ہیں",
                   "hi": "यह हमारे सिफ़ारिशी हैं",
@@ -34279,12 +34279,12 @@
               {
                 "id": 8,
                 "arabic": "هَؤُلَاءِ بَنَاتِي",
-                "hinglish": "Haa'ulaa'i banaatee",
+                "hinglish": "Yeh meri betiyan hain",
                 "urdu": "یہ میری بیٹیاں ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l18_w5",
                 "translations": {
-                  "hinglish": "Haa'ulaa'i banaatee",
+                  "hinglish": "Yeh meri betiyan hain",
                   "en": "These are my daughters",
                   "ur": "یہ میری بیٹیاں ہیں",
                   "hi": "यह मेरी बेटियां हैं",
@@ -34298,12 +34298,12 @@
               {
                 "id": 9,
                 "arabic": "هَؤُلَاءِ قَوْمُنَا",
-                "hinglish": "Haa'ulaa'i qawmunaa",
+                "hinglish": "Yeh hamari qaum hai",
                 "urdu": "یہ ہماری قوم ہے",
                 "is_filled": true,
                 "sentence_number": "s5l18_w6",
                 "translations": {
-                  "hinglish": "Haa'ulaa'i qawmunaa",
+                  "hinglish": "Yeh hamari qaum hai",
                   "en": "These are our people",
                   "ur": "یہ ہماری قوم ہے",
                   "hi": "यह हमारी क़ौम है",
@@ -34317,12 +34317,12 @@
               {
                 "id": 10,
                 "arabic": "هَؤُلَاءِ قَوْمٌ",
-                "hinglish": "Haa'ulaa'i qawm",
+                "hinglish": "Yeh log qaum hain",
                 "urdu": "یہ لوگ قوم ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l18_w7",
                 "translations": {
-                  "hinglish": "Haa'ulaa'i qawm",
+                  "hinglish": "Yeh log qaum hain",
                   "en": "These people are a nation",
                   "ur": "یہ لوگ قوم ہیں",
                   "hi": "यह लोग क़ौम हैं",
@@ -34336,12 +34336,12 @@
               {
                 "id": 11,
                 "arabic": "هَؤُلَاءِ لَشِرْذِمَةٌ",
-                "hinglish": "Haa'ulaa'i la-shirzimah",
+                "hinglish": "Yeh log ek chhota sa giroh hain",
                 "urdu": "یہ لوگ ایک چھوٹا سا گروہ ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l18_w8",
                 "translations": {
-                  "hinglish": "Haa'ulaa'i la-shirzimah",
+                  "hinglish": "Yeh log ek chhota sa giroh hain",
                   "en": "These are indeed a small band",
                   "ur": "یہ لوگ ایک چھوٹا سا گروہ ہیں",
                   "hi": "यह लोग एक छोटा सा गिरोह हैं",
@@ -34355,12 +34355,12 @@
               {
                 "id": 12,
                 "arabic": "هَؤُلَاءِ ضَيْفِي",
-                "hinglish": "Haa'ulaa'i dayfee",
+                "hinglish": "Yeh mere mehmaan hain",
                 "urdu": "یہ میرے مہمان ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l18_w9",
                 "translations": {
-                  "hinglish": "Haa'ulaa'i dayfee",
+                  "hinglish": "Yeh mere mehmaan hain",
                   "en": "These are my guests",
                   "ur": "یہ میرے مہمان ہیں",
                   "hi": "यह मेरे मेहमान हैं",
@@ -34374,12 +34374,12 @@
               {
                 "id": 13,
                 "arabic": "هَؤُلَاءِ أَهْدَى",
-                "hinglish": "Haa'ulaa'i ahdaa",
+                "hinglish": "Yeh log zyada hidayat par hain",
                 "urdu": "یہ لوگ زیادہ ہدایت پر ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l18_w10",
                 "translations": {
-                  "hinglish": "Haa'ulaa'i ahdaa",
+                  "hinglish": "Yeh log zyada hidayat par hain",
                   "en": "These are better guided",
                   "ur": "یہ لوگ زیادہ ہدایت پر ہیں",
                   "hi": "यह लोग ज़्यादा हिदायत पर हैं",
@@ -34393,12 +34393,12 @@
               {
                 "id": 14,
                 "arabic": "هَؤُلَاءِ قَوْمٌ مُّجْرِمُونَ",
-                "hinglish": "Haa'ulaa'i qawmum-mujrimoon",
+                "hinglish": "Yeh log mujrim qaum hain",
                 "urdu": "یہ لوگ مجرم قوم ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l18_w11",
                 "translations": {
-                  "hinglish": "Haa'ulaa'i qawmum-mujrimoon",
+                  "hinglish": "Yeh log mujrim qaum hain",
                   "en": "These are a criminal people",
                   "ur": "یہ لوگ مجرم قوم ہیں",
                   "hi": "यह लोग मुजरिम क़ौम हैं",
@@ -34492,12 +34492,12 @@
               {
                 "id": 18,
                 "arabic": "هَؤُلَاءِ وَهَؤُلَاءِ",
-                "hinglish": "Haa'ulaa'i wa haa'ulaa'i",
+                "hinglish": "Un ko bhi aur in ko bhi",
                 "urdu": "ان کو بھی اور ان کو بھی",
                 "is_filled": true,
                 "sentence_number": "s5l18_ph4",
                 "translations": {
-                  "hinglish": "Haa'ulaa'i wa haa'ulaa'i",
+                  "hinglish": "Un ko bhi aur in ko bhi",
                   "en": "These and these",
                   "ur": "ان کو بھی اور ان کو بھی",
                   "hi": "इनको भी और इनको भी",
@@ -34629,12 +34629,12 @@
               {
                 "id": 24,
                 "arabic": "هَؤُلَاءِ شُفَعَاؤُنَا عِنْدَ اللهِ",
-                "hinglish": "Haa'ulaa'i shufa'aaunaa 'indal-Laah",
+                "hinglish": "Yeh Allah ke paas hamare sifarishi hain",
                 "urdu": "یہ اللہ کے پاس ہمارے سفارشی ہیں",
                 "is_filled": true,
                 "sentence_number": 4,
                 "translations": {
-                  "hinglish": "Haa'ulaa'i shufa'aaunaa 'indal-Laah",
+                  "hinglish": "Yeh Allah ke paas hamare sifarishi hain",
                   "en": "These are our intercessors with Allah",
                   "ur": "یہ اللہ کے پاس ہمارے سفارشی ہیں",
                   "hi": "यह अल्लाह के पास हमारे सिफ़ारिशी हैं",
@@ -34799,12 +34799,12 @@
               {
                 "id": 2,
                 "arabic": "هٰذَا بَشَرٌ ← مَا هٰذَا إِلَّا بَشَرٌ",
-                "hinglish": "Haaza bashar -> Maa haaza illaa bashar",
+                "hinglish": "Yeh insaan hai → Nahi hai yeh magar ek insaan",
                 "urdu": "یہ انسان ہے ← نہیں ہے یہ مگر ایک انسان",
                 "is_filled": true,
                 "sentence_number": "s5l19_ex2",
                 "translations": {
-                  "hinglish": "Haaza bashar -> Maa haaza illaa bashar",
+                  "hinglish": "Yeh insaan hai → Nahi hai yeh magar ek insaan",
                   "en": "This is a human -> This is not but a human",
                   "ur": "یہ انسان ہے ← نہیں ہے یہ مگر ایک انسان",
                   "hi": "यह इंसान है ← नहीं है यह मगर एक इंसान",
@@ -34818,12 +34818,12 @@
               {
                 "id": 3,
                 "arabic": "هُوَ ذِكْرٌ ← مَا هُوَ إِلَّا ذِكْرٌ",
-                "hinglish": "Huwa zikr -> Maa huwa illaa zikr",
+                "hinglish": "Woh zikr hai → Woh nahi hai magar ek naseehat/zikr",
                 "urdu": "وہ ذکر ہے ← وہ نہیں ہے مگر ایک نصیحت/ذکر",
                 "is_filled": true,
                 "sentence_number": "s5l19_ex3",
                 "translations": {
-                  "hinglish": "Huwa zikr -> Maa huwa illaa zikr",
+                  "hinglish": "Woh zikr hai → Woh nahi hai magar ek naseehat/zikr",
                   "en": "It is a reminder -> It is not but a reminder",
                   "ur": "وہ ذکر ہے ← وہ نہیں ہے مگر ایک نصیحت/ذکر",
                   "hi": "वह ज़िक्र है ← वह नहीं है मगर एक नसीहत/ज़िक्र",
@@ -34856,12 +34856,12 @@
               {
                 "id": 5,
                 "arabic": "مَا هٰذَا إِلَّا سِحْرٌ",
-                "hinglish": "Maa haaza illaa sihr",
+                "hinglish": "Nahi hai yeh magar ek jaadu",
                 "urdu": "نہیں ہے یہ مگر ایک جادو",
                 "is_filled": true,
                 "sentence_number": 2,
                 "translations": {
-                  "hinglish": "Maa haaza illaa sihr",
+                  "hinglish": "Nahi hai yeh magar ek jaadu",
                   "en": "This is not but magic",
                   "ur": "نہیں ہے یہ مگر جادو",
                   "hi": "नहीं है यह मगर जादू",
@@ -34875,12 +34875,12 @@
               {
                 "id": 6,
                 "arabic": "مَا هٰذَا إِلَّا بَشَرٌ",
-                "hinglish": "Maa haaza illaa bashar",
+                "hinglish": "Nahi hai yeh magar ek insaan",
                 "urdu": "نہیں ہے یہ مگر ایک انسان",
                 "is_filled": true,
                 "sentence_number": 3,
                 "translations": {
-                  "hinglish": "Maa haaza illaa bashar",
+                  "hinglish": "Nahi hai yeh magar ek insaan",
                   "en": "This is not but a human",
                   "ur": "نہیں ہے یہ مگر ایک انسان",
                   "hi": "नहीं है यह मगर एक इंसान",
@@ -34894,12 +34894,12 @@
               {
                 "id": 7,
                 "arabic": "مَا أَنْتَ إِلَّا بَشَرٌ",
-                "hinglish": "Maa anta illaa bashar",
+                "hinglish": "Nahi ho tum magar hamare jaise insaan",
                 "urdu": "نہیں ہو تم مگر ہمارے جیسے انسان",
                 "is_filled": true,
                 "sentence_number": 4,
                 "translations": {
-                  "hinglish": "Maa anta illaa bashar",
+                  "hinglish": "Nahi ho tum magar hamare jaise insaan",
                   "en": "You are not but a human",
                   "ur": "نہیں ہیں آپ مگر ایک انسان",
                   "hi": "नहीं हैं आप मगर एक इंसान",
@@ -34913,12 +34913,12 @@
               {
                 "id": 8,
                 "arabic": "مَا هٰذَا إِلَّا رَجُلٌ",
-                "hinglish": "Maa haaza illaa rajul",
+                "hinglish": "Nahi hai yeh magar ek aadmi",
                 "urdu": "نہیں ہے یہ مگر ایک آدمی",
                 "is_filled": true,
                 "sentence_number": 5,
                 "translations": {
-                  "hinglish": "Maa haaza illaa rajul",
+                  "hinglish": "Nahi hai yeh magar ek aadmi",
                   "en": "This is not but a man",
                   "ur": "نہیں ہے یہ مگر ایک آدمی",
                   "hi": "नहीं है यह मगर एक आदमी",
@@ -35259,12 +35259,12 @@
               {
                 "id": 25,
                 "arabic": "إِنْ هٰذَا إِلَّا إِفْكٌ",
-                "hinglish": "In haaza illaa ifk",
+                "hinglish": "Nahi hai yeh magar ek manghadat jhoot",
                 "urdu": "نہیں ہے یہ مگر ایک من گھڑت جھوٹ",
                 "is_filled": true,
                 "sentence_number": 1,
                 "translations": {
-                  "hinglish": "In haaza illaa ifk",
+                  "hinglish": "Nahi hai yeh magar ek manghadat jhoot",
                   "en": "This is not but an invented falsehood",
                   "ur": "نہیں ہے یہ مگر ایک من گھڑت جھوٹ",
                   "hi": "नहीं है यह मगर एक मनघड़ंत झूठ",
@@ -35278,12 +35278,12 @@
               {
                 "id": 26,
                 "arabic": "إِنْ هٰذَا إِلَّا سِحْرٌ",
-                "hinglish": "In haaza illaa sihr",
+                "hinglish": "Nahi hai yeh magar jaadu",
                 "urdu": "نہیں ہے یہ مگر جادو",
                 "is_filled": true,
                 "sentence_number": 2,
                 "translations": {
-                  "hinglish": "In haaza illaa sihr",
+                  "hinglish": "Nahi hai yeh magar jaadu",
                   "en": "This is not but magic",
                   "ur": "نہیں ہے یہ مگر کھلا جادو",
                   "hi": "नहीं है यह मगर खुला जादू",
@@ -35297,12 +35297,12 @@
               {
                 "id": 27,
                 "arabic": "إِنْ هُوَ إِلَّا رَجُلٌ",
-                "hinglish": "In huwa illaa rajul",
+                "hinglish": "Woh nahi hai magar ek aadmi",
                 "urdu": "وہ نہیں ہے مگر ایک آدمی",
                 "is_filled": true,
                 "sentence_number": 3,
                 "translations": {
-                  "hinglish": "In huwa illaa rajul",
+                  "hinglish": "Woh nahi hai magar ek aadmi",
                   "en": "He is not but a man",
                   "ur": "نہیں ہے وہ مگر ایک شخص",
                   "hi": "नहीं है वह मगर एक शख़्स",
@@ -35316,12 +35316,12 @@
               {
                 "id": 28,
                 "arabic": "إِنْ هُوَ إِلَّا عَبْدٌ",
-                "hinglish": "In huwa illaa 'abd",
+                "hinglish": "Woh nahi hai magar ek banda",
                 "urdu": "وہ نہیں ہے مگر ایک بندہ",
                 "is_filled": true,
                 "sentence_number": 4,
                 "translations": {
-                  "hinglish": "In huwa illaa 'abd",
+                  "hinglish": "Woh nahi hai magar ek banda",
                   "en": "He is not but a slave",
                   "ur": "نہیں ہے وہ مگر ایک بندہ",
                   "hi": "नहीं है वह मगर एक बंदा",
@@ -35335,12 +35335,12 @@
               {
                 "id": 29,
                 "arabic": "إِنْ هُوَ إِلَّا نَذِيرٌ",
-                "hinglish": "In huwa illaa nazeer",
+                "hinglish": "Woh nahi hain magar darane wale",
                 "urdu": "وہ نہیں ہیں مگر ڈرانے والے",
                 "is_filled": true,
                 "sentence_number": 5,
                 "translations": {
-                  "hinglish": "In huwa illaa nazeer",
+                  "hinglish": "Woh nahi hain magar darane wale",
                   "en": "He is not but a warner",
                   "ur": "نہیں ہے وہ مگر ایک ڈرانے والا",
                   "hi": "नहीं है वह मगर एक डराने वाला",
@@ -35354,12 +35354,12 @@
               {
                 "id": 30,
                 "arabic": "إِنْ هُوَ إِلَّا وَحْيٌ",
-                "hinglish": "In huwa illaa wahy",
+                "hinglish": "Woh nahi hai magar wahy jo nazil ki jaati hai",
                 "urdu": "وہ نہیں ہے مگر وحی جو نازل کی جاتی ہے",
                 "is_filled": true,
                 "sentence_number": 6,
                 "translations": {
-                  "hinglish": "In huwa illaa wahy",
+                  "hinglish": "Woh nahi hai magar wahy jo nazil ki jaati hai",
                   "en": "It is not but a revelation",
                   "ur": "نہیں ہے وہ مگر ایک وحی",
                   "hi": "नहीं है वह मगर एक वह्य",
@@ -35373,12 +35373,12 @@
               {
                 "id": 31,
                 "arabic": "إِنْ هُوَ إِلَّا ذِكْرَى",
-                "hinglish": "In huwa illaa zikraa",
+                "hinglish": "Nahi hai yeh magar ek naseehat",
                 "urdu": "نہیں ہے یہ مگر ایک نصیحت",
                 "is_filled": true,
                 "sentence_number": 7,
                 "translations": {
-                  "hinglish": "In huwa illaa zikraa",
+                  "hinglish": "Nahi hai yeh magar ek naseehat",
                   "en": "It is not but a reminder",
                   "ur": "نہیں ہے وہ مگر ایک نصیحت",
                   "hi": "नहीं है वह मगर एक نصیحت",
@@ -35392,12 +35392,12 @@
               {
                 "id": 32,
                 "arabic": "إِنْ هِيَ إِلَّا أَسْمَاءٌ",
-                "hinglish": "In hiya illaa asmaa",
+                "hinglish": "Nahi hain woh magar chand manghadat naam",
                 "urdu": "نہیں ہیں وہ مگر چند من گھڑت نام",
                 "is_filled": true,
                 "sentence_number": 8,
                 "translations": {
-                  "hinglish": "In hiya illaa asmaa",
+                  "hinglish": "Nahi hain woh magar chand manghadat naam",
                   "en": "They are not but [mere] names",
                   "ur": "نہیں ہیں یہ مگر چند نام",
                   "hi": "नहीं हैं यह मगर चंद नाम",
@@ -35411,12 +35411,12 @@
               {
                 "id": 33,
                 "arabic": "إِنْ هٰذَا إِلَّا سِحْرٌ مُّبِينٌ",
-                "hinglish": "In haaza illaa sihrum-mubeen",
+                "hinglish": "Nahi hai yeh magar khula jaadu",
                 "urdu": "نہیں ہے یہ مگر کھلا جادو",
                 "is_filled": true,
                 "sentence_number": 9,
                 "translations": {
-                  "hinglish": "In haaza illaa sihrum-mubeen",
+                  "hinglish": "Nahi hai yeh magar khula jaadu",
                   "en": "This is not but clear magic",
                   "ur": "نہیں ہے یہ مگر کھلا جادو",
                   "hi": "नहीं है यह मगर खुला जादू",
@@ -35430,12 +35430,12 @@
               {
                 "id": 34,
                 "arabic": "إِنْ هٰذَا إِلَّا قَوْلُ الْبَشَرِ",
-                "hinglish": "In haaza illaa qawlul-bashar",
+                "hinglish": "Nahi hai yeh magar insaan ka kalaam",
                 "urdu": "نہیں ہے یہ مگر انسان کا کلام",
                 "is_filled": true,
                 "sentence_number": 10,
                 "translations": {
-                  "hinglish": "In haaza illaa qawlul-bashar",
+                  "hinglish": "Nahi hai yeh magar insaan ka kalaam",
                   "en": "This is not but the word of a human",
                   "ur": "نہیں ہے یہ مگر انسان کا کلام",
                   "hi": "नहीं है यह मगर इंसान का कलाम",
@@ -35449,12 +35449,12 @@
               {
                 "id": 35,
                 "arabic": "إِنْ هُوَ إِلَّا نَذِيرٌ مُّبِينٌ",
-                "hinglish": "In huwa illaa nazeerum-mubeen",
+                "hinglish": "Woh nahi hain magar wazeh khabardaar karne wale",
                 "urdu": "وہ نہیں ہیں مگر واضح خبردار کرنے والے",
                 "is_filled": true,
                 "sentence_number": 11,
                 "translations": {
-                  "hinglish": "In huwa illaa nazeerum-mubeen",
+                  "hinglish": "Woh nahi hain magar wazeh khabardaar karne wale",
                   "en": "He is not but a clear warner",
                   "ur": "نہیں ہے وہ مگر کھلا ڈرانے والا",
                   "hi": "नहीं है वह मगर खुला डराने वाला",
@@ -35468,12 +35468,12 @@
               {
                 "id": 36,
                 "arabic": "إِنْ هٰذَا إِلَّا مَلَكٌ كَرِيمٌ",
-                "hinglish": "In haaza illaa malakun kareem",
+                "hinglish": "Nahi hai yeh magar ek moazzaz o shaandaar farishta",
                 "urdu": "نہیں ہے یہ مگر ایک معزز و شاندار فرشتہ",
                 "is_filled": true,
                 "sentence_number": 12,
                 "translations": {
-                  "hinglish": "In haaza illaa malakun kareem",
+                  "hinglish": "Nahi hai yeh magar ek moazzaz o shaandaar farishta",
                   "en": "This is not but a noble angel",
                   "ur": "نہیں ہے یہ مگر ایک معزز فرشتہ",
                   "hi": "नहीं है यह मगर एक मोअज़्ज़ज़ फ़रिश्ता",
@@ -35487,12 +35487,12 @@
               {
                 "id": 37,
                 "arabic": "إِنْ أَنَا إِلَّا نَذِيرٌ مُّبِينٌ",
-                "hinglish": "In ana illaa nazeerum-mubeen",
+                "hinglish": "Nahi hoon main magar saaf saaf darane wala",
                 "urdu": "نہیں ہوں میں مگر صاف صاف ڈرانے والا",
                 "is_filled": true,
                 "sentence_number": 13,
                 "translations": {
-                  "hinglish": "In ana illaa nazeerum-mubeen",
+                  "hinglish": "Nahi hoon main magar saaf saaf darane wala",
                   "en": "I am not but a clear warner",
                   "ur": "نہیں ہوں میں مگر ایک کھلا ڈرانے والا",
                   "hi": "नहीं हूँ मैं मगर एक खुला डराने वाला",
@@ -35506,12 +35506,12 @@
               {
                 "id": 38,
                 "arabic": "إِنْ أَنْتَ إِلَّا نَذِيرٌ",
-                "hinglish": "In anta illaa nazeer",
+                "hinglish": "Nahi hain aap magar darane wale",
                 "urdu": "نہیں ہیں آپ مگر ڈرانے والے",
                 "is_filled": true,
                 "sentence_number": 14,
                 "translations": {
-                  "hinglish": "In anta illaa nazeer",
+                  "hinglish": "Nahi hain aap magar darane wale",
                   "en": "You are not but a warner",
                   "ur": "نہیں ہیں آپ مگر ایک ڈرانے والے",
                   "hi": "नहीं हैं आप मगर एक डराने वाले",
@@ -35525,12 +35525,12 @@
               {
                 "id": 39,
                 "arabic": "إِنْ أَنَا إِلَّا نَذِيرٌ وَبَشِيرٌ",
-                "hinglish": "In ana illaa nazeerunw-wa basheer",
+                "hinglish": "Nahi hoon main magar darane wala aur khushkhabri dene wala",
                 "urdu": "نہیں ہوں میں مگر ڈرانے والا اور خوشخبری دینے والا",
                 "is_filled": true,
                 "sentence_number": 15,
                 "translations": {
-                  "hinglish": "In ana illaa nazeerunw-wa basheer",
+                  "hinglish": "Nahi hoon main magar darane wala aur khushkhabri dene wala",
                   "en": "I am not but a warner and a bringer of good tidings",
                   "ur": "نہیں ہوں میں مگر ڈرانے والا اور خوشخبری دینے والا",
                   "hi": "नहीं हूँ मैं मगर डराने वाला और ख़ुशख़बरी देने वाला",
@@ -35582,12 +35582,12 @@
               {
                 "id": 42,
                 "arabic": "إِنْ هُوَ إِلَّا ذِكْرٌ وَقُرْآنٌ مُّبِينٌ",
-                "hinglish": "In huwa illaa zikrunw-wa Qur'aanum-mubeen",
+                "hinglish": "Nahi hai yeh magar naseehat aur wazeh Quran",
                 "urdu": "نہیں ہے یہ مگر نصیحت اور واضح قرآن",
                 "is_filled": true,
                 "sentence_number": 18,
                 "translations": {
-                  "hinglish": "In huwa illaa zikrunw-wa Qur'aanum-mubeen",
+                  "hinglish": "Nahi hai yeh magar naseehat aur wazeh Quran",
                   "en": "It is not but a reminder and a clear Quran",
                   "ur": "نہیں ہے یہ مگر نصیحت اور واضح قرآن",
                   "hi": "नहीं है यह मगर نصیहत और वाज़ेह क़ुरआन",
@@ -35601,12 +35601,12 @@
               {
                 "id": 43,
                 "arabic": "إِنْ هِيَ إِلَّا فِتْنَتُكَ",
-                "hinglish": "In hiya illaa fitnatuka",
+                "hinglish": "Nahi hai yeh magar Teri hi aazmaish",
                 "urdu": "نہیں ہے یہ مگر تیری ہی آزمائش",
                 "is_filled": true,
                 "sentence_number": 19,
                 "translations": {
-                  "hinglish": "In hiya illaa fitnatuka",
+                  "hinglish": "Nahi hai yeh magar Teri hi aazmaish",
                   "en": "It is not but Your trial",
                   "ur": "نہیں ہے یہ مگر تیری آزمائش",
                   "hi": "नहीं है यह मगर तेरी आज़माइश",
@@ -35734,12 +35734,12 @@
               {
                 "id": 50,
                 "arabic": "إِنْ أَنْتُمْ إِلَّا فِي ضَلَالٍ مُّبِينٍ",
-                "hinglish": "In antum illaa fee dalaalim-mubeen",
+                "hinglish": "Nahi ho tum magar khuli gumraahi mein",
                 "urdu": "نہیں ہو تم مگر کھلی گمراہی میں",
                 "is_filled": true,
                 "sentence_number": 26,
                 "translations": {
-                  "hinglish": "In antum illaa fee dalaalim-mubeen",
+                  "hinglish": "Nahi ho tum magar khuli gumraahi mein",
                   "en": "You are not but in clear error",
                   "ur": "تم کھلی گمراہی ہی میں پڑے ہوئے ہو",
                   "hi": "तुम खुली गुमराही ही में पड़े हुए हो",
@@ -35753,12 +35753,12 @@
               {
                 "id": 51,
                 "arabic": "إِنْ أَنْتُمْ إِلَّا فِي ضَلَالٍ كَبِيرٍ",
-                "hinglish": "In antum illaa fee dalaalin kabeer",
+                "hinglish": "Nahi ho tum magar badi gumraahi mein",
                 "urdu": "نہیں ہو تم مگر بڑی گمراہی میں",
                 "is_filled": true,
                 "sentence_number": 27,
                 "translations": {
-                  "hinglish": "In antum illaa fee dalaalin kabeer",
+                  "hinglish": "Nahi ho tum magar badi gumraahi mein",
                   "en": "You are not but in great error",
                   "ur": "تم بڑی ہی گمراہی میں پڑے ہوئے ہو",
                   "hi": "तुम बड़ी ही गुमराही में पड़े हुए हो",
@@ -35772,12 +35772,12 @@
               {
                 "id": 52,
                 "arabic": "إِنْ أَنْتُمْ إِلَّا مُفْتَرُونَ",
-                "hinglish": "In antum illaa muftaroon",
+                "hinglish": "Nahi ho tum magar jhoot ghadne wale",
                 "urdu": "نہیں ہو تم مگر جھوٹ گھڑنے والے",
                 "is_filled": true,
                 "sentence_number": 28,
                 "translations": {
-                  "hinglish": "In antum illaa muftaroon",
+                  "hinglish": "Nahi ho tum magar jhoot ghadne wale",
                   "en": "You are not but inventors [of falsehood]",
                   "ur": "تم محض جھوٹ گھڑنے والے ہو",
                   "hi": "तुम महज़ झूठ घड़ने वाले हो",
@@ -35791,12 +35791,12 @@
               {
                 "id": 53,
                 "arabic": "إِنْ أَنْتُمْ إِلَّا بَشَرٌ",
-                "hinglish": "In antum illaa bashar",
+                "hinglish": "Nahi ho tum magar bashar",
                 "urdu": "نہیں ہو تم مگر بشر",
                 "is_filled": true,
                 "sentence_number": 29,
                 "translations": {
-                  "hinglish": "In antum illaa bashar",
+                  "hinglish": "Nahi ho tum magar bashar",
                   "en": "You are not but human beings",
                   "ur": "نہیں ہو تم مگر بشر",
                   "hi": "नहीं हो तुम मगर बशर",
@@ -35810,12 +35810,12 @@
               {
                 "id": 54,
                 "arabic": "إِنْ نَحْنُ إِلَّا بَشَرٌ مِّثْلُكُمْ",
-                "hinglish": "In nahnu illaa basharum-mislukum",
+                "hinglish": "Hum nahi hain magar tumhari hi tarah ke insaan",
                 "urdu": "ہم نہیں ہیں مگر تمہاری ہی طرح کے انسان",
                 "is_filled": true,
                 "sentence_number": 30,
                 "translations": {
-                  "hinglish": "In nahnu illaa basharum-mislukum",
+                  "hinglish": "Hum nahi hain magar tumhari hi tarah ke insaan",
                   "en": "We are not but human beings like you",
                   "ur": "ہم نہیں ہیں مگر تمہاری ہی طرح کے انسان",
                   "hi": "हम नहीं हैं मगर तुम्हारी ही तरह के इंसान",
@@ -36065,12 +36065,12 @@
               {
                 "id": 65,
                 "arabic": "إِنَّمَا هُوَ إِلٰهٌ وَاحِدٌ",
-                "hinglish": "Innamaa huwa Ilaahunw-waahid",
+                "hinglish": "Dar-haqeeqat woh akela mabood hi hai",
                 "urdu": "درحقیقت وہ اکیلا معبود ہی ہے",
                 "is_filled": true,
                 "sentence_number": 1,
                 "translations": {
-                  "hinglish": "Innamaa huwa Ilaahunw-waahid",
+                  "hinglish": "Dar-haqeeqat woh akela mabood hi hai",
                   "en": "He is only one God",
                   "ur": "درحقیقت وہ اکیلا معبود ہی ہے",
                   "hi": "दरहक़ीक़त वह अकेला माबूद ही है",
@@ -36103,12 +36103,12 @@
               {
                 "id": 67,
                 "arabic": "إِنَّمَا أَنَا رَسُولُ رَبِّكِ",
-                "hinglish": "Innamaa ana rasoolu Rabbiki",
+                "hinglish": "Main toh sirf tere Rab ka bheja hua qasid hoon",
                 "urdu": "میں تو صرف تیرے رب کا بھیجا ہوا قاصد ہوں",
                 "is_filled": true,
                 "sentence_number": 3,
                 "translations": {
-                  "hinglish": "Innamaa ana rasoolu Rabbiki",
+                  "hinglish": "Main toh sirf tere Rab ka bheja hua qasid hoon",
                   "en": "I am only a messenger of your Lord",
                   "ur": "میں تو صرف تیرے رب کا بھیجا ہوا قاصد ہوں",
                   "hi": "मैं तो सिर्फ़ तेरे रब का भेजा हुआ क़ासिद हूँ",
@@ -36122,12 +36122,12 @@
               {
                 "id": 68,
                 "arabic": "إِنَّمَا أَنْتَ مُذَكِّرٌ",
-                "hinglish": "Innamaa anta muzakkir",
+                "hinglish": "Aap toh bas naseehat karne wale hi hain",
                 "urdu": "آپ تو بس نصیحت کرنے والے ہی ہیں",
                 "is_filled": true,
                 "sentence_number": 4,
                 "translations": {
-                  "hinglish": "Innamaa anta muzakkir",
+                  "hinglish": "Aap toh bas naseehat karne wale hi hain",
                   "en": "You are only a reminder",
                   "ur": "آپ تو بس نصیحت کرنے والے ہی ہیں",
                   "hi": "आप तो बस नसीहत करने वाले ही हैं",
@@ -36141,12 +36141,12 @@
               {
                 "id": 69,
                 "arabic": "إِنَّمَا أَنْتَ نَذِيرٌ",
-                "hinglish": "Innamaa anta nazeer",
+                "hinglish": "Aap toh bas darane wale hi hain",
                 "urdu": "آپ تو بس ڈرانے والے ہی ہیں",
                 "is_filled": true,
                 "sentence_number": 5,
                 "translations": {
-                  "hinglish": "Innamaa anta nazeer",
+                  "hinglish": "Aap toh bas darane wale hi hain",
                   "en": "You are only a warner",
                   "ur": "آپ تو بس ڈرانے والے ہی ہیں",
                   "hi": "आप तो बस डराने वाले ही हैं",
@@ -36160,12 +36160,12 @@
               {
                 "id": 70,
                 "arabic": "إِنَّمَا أَنَا مُنْذِرٌ",
-                "hinglish": "Innamaa ana munzir",
+                "hinglish": "Main toh sirf darane wala hi hoon",
                 "urdu": "میں تو صرف ڈرانے والا ہی ہوں",
                 "is_filled": true,
                 "sentence_number": 6,
                 "translations": {
-                  "hinglish": "Innamaa ana munzir",
+                  "hinglish": "Main toh sirf darane wala hi hoon",
                   "en": "I am only a warner",
                   "ur": "میں تو صرف ڈرانے والا ہی ہوں",
                   "hi": "मैं तो सिर्फ़ डराने वाला ही हूँ",
@@ -36217,12 +36217,12 @@
               {
                 "id": 73,
                 "arabic": "إِنَّمَا ذٰلِكُمُ الشَّيْطَانُ",
-                "hinglish": "Innamaa zaalikumush-Shaytaan",
+                "hinglish": "Woh toh bas Shaytaan hi hai",
                 "urdu": "وہ تو بس شیطان ہی ہے",
                 "is_filled": true,
                 "sentence_number": 9,
                 "translations": {
-                  "hinglish": "Innamaa zaalikumush-Shaytaan",
+                  "hinglish": "Woh toh bas Shaytaan hi hai",
                   "en": "That is only Satan",
                   "ur": "وہ تو بس شیطان ہی ہے",
                   "hi": "वह तो बस शैतान ही है",
@@ -36293,12 +36293,12 @@
               {
                 "id": 77,
                 "arabic": "إِنَّمَا نَحْنُ مُصْلِحُونَ",
-                "hinglish": "Innamaa nahnu muslihoon",
+                "hinglish": "Hum toh bas islaah karne wale hi hain",
                 "urdu": "ہم تو بس اصلاح کرنے والے ہی ہیں",
                 "is_filled": true,
                 "sentence_number": 13,
                 "translations": {
-                  "hinglish": "Innamaa nahnu muslihoon",
+                  "hinglish": "Hum toh bas islaah karne wale hi hain",
                   "en": "We are only reformers",
                   "ur": "ہم تو بس اصلاح کرنے والے ہی ہیں",
                   "hi": "हम तो बस इसलाह करने वाले ही हैं",
@@ -36312,12 +36312,12 @@
               {
                 "id": 78,
                 "arabic": "إِنَّمَا نَحْنُ مُسْتَهْزِئُونَ",
-                "hinglish": "Innamaa nahnu mustahzi-oon",
+                "hinglish": "Hum toh sirf mazaaq udane wale hain",
                 "urdu": "ہم تو صرف مذاق اڑانے والے ہیں",
                 "is_filled": true,
                 "sentence_number": 14,
                 "translations": {
-                  "hinglish": "Innamaa nahnu mustahzi-oon",
+                  "hinglish": "Hum toh sirf mazaaq udane wale hain",
                   "en": "We are only mockers",
                   "ur": "ہم تو صرف مذاق اڑانے والے ہیں",
                   "hi": "हम तो सिर्फ़ मज़ाक़ उड़ाने वाले हैं",
@@ -36331,12 +36331,12 @@
               {
                 "id": 79,
                 "arabic": "إِنَّمَا نَحْنُ فِتْنَةٌ",
-                "hinglish": "Innamaa nahnu fitnah",
+                "hinglish": "Hum toh mehaz aazmaish hain",
                 "urdu": "ہم تو محض آزمائش ہیں",
                 "is_filled": true,
                 "sentence_number": 15,
                 "translations": {
-                  "hinglish": "Innamaa nahnu fitnah",
+                  "hinglish": "Hum toh mehaz aazmaish hain",
                   "en": "We are only a trial",
                   "ur": "ہم تو محض آزمائش ہیں",
                   "hi": "हम तो महज़ आज़माइश हैं",
@@ -36388,12 +36388,12 @@
               {
                 "id": 82,
                 "arabic": "إِنَّمَا أَنَا بَشَرٌ مِّثْلُكُمْ",
-                "hinglish": "Innamaa ana basharum-mislukum",
+                "hinglish": "Main toh tumhari hi tarah ka ek insaan hoon",
                 "urdu": "میں تو تمہاری ہی طرح کا ایک انسان ہوں",
                 "is_filled": true,
                 "sentence_number": 18,
                 "translations": {
-                  "hinglish": "Innamaa ana basharum-mislukum",
+                  "hinglish": "Main toh tumhari hi tarah ka ek insaan hoon",
                   "en": "I am only a human being like you",
                   "ur": "میں تو تمہاری ہی طرح کا ایک انسان ہوں",
                   "hi": "मैं तो तुम्हारी ही तरह का एक इंसान हूँ",
@@ -36464,12 +36464,12 @@
               {
                 "id": 86,
                 "arabic": "فَإِنَّمَا عَلَى رَسُولِنَا الْبَلَاغُ الْمُبِينُ",
-                "hinglish": "Fa-innamaa 'alaa Rasoolinal-balaaghul-mubeen",
+                "hinglish": "Toh hamare Rasool par sirf saaf pahuncha dene ki zimmedari hai",
                 "urdu": "تو ہمارے رسول پر صرف صاف پہنچا دینے کی ذمہ داری ہے",
                 "is_filled": true,
                 "sentence_number": 22,
                 "translations": {
-                  "hinglish": "Fa-innamaa 'alaa Rasoolinal-balaaghul-mubeen",
+                  "hinglish": "Toh hamare Rasool par sirf saaf pahuncha dene ki zimmedari hai",
                   "en": "Then upon Our Messenger is only clear notification",
                   "ur": "تو ہمارے رسول پر صرف صاف پہنچا دینے کی ذمہ داری ہے",
                   "hi": "तो हमारे रसूल पर सिर्फ़ साफ़ पहुंचा देने की ज़िम्मेदारी है",
@@ -36483,12 +36483,12 @@
               {
                 "id": 87,
                 "arabic": "إِنَّمَا أَمْرُهُمْ إِلَى اللهِ",
-                "hinglish": "Innamaa amruhum ilal-Laah",
+                "hinglish": "Unka maamla sirf Allah hi ke supurd hai",
                 "urdu": "ان کا معاملہ صرف اللہ ہی کے سپرد ہے",
                 "is_filled": true,
                 "sentence_number": 23,
                 "translations": {
-                  "hinglish": "Innamaa amruhum ilal-Laah",
+                  "hinglish": "Unka maamla sirf Allah hi ke supurd hai",
                   "en": "Their affair is only to Allah",
                   "ur": "ان کا معاملہ صرف اللہ ہی کے سپرد ہے",
                   "hi": "उनका मामला सिर्फ़ अल्लाह ही के सुपुर्द है",
@@ -36502,12 +36502,12 @@
               {
                 "id": 88,
                 "arabic": "أَلَا إِنَّمَا طَائِرُهُمْ عِنْدَ اللهِ",
-                "hinglish": "Alaa innamaa taairuhum 'indal-Laah",
+                "hinglish": "Khabardaar! Unki nahoosat toh faqat Allah ke paas likhi hai",
                 "urdu": "خبردار! ان کی نحوست تو فقط اللہ کے پاس لکھی ہے",
                 "is_filled": true,
                 "sentence_number": 24,
                 "translations": {
-                  "hinglish": "Alaa innamaa taairuhum 'indal-Laah",
+                  "hinglish": "Khabardaar! Unki nahoosat toh faqat Allah ke paas likhi hai",
                   "en": "Unquestionably, their evil omen is only with Allah",
                   "ur": "خبردار! ان کی نحوست تو فقط اللہ کے پاس لکھی ہے",
                   "hi": "ख़बरदार! उनकी नहूसत तो फ़क़त अल्लाह के पास लिखी है",
@@ -36521,12 +36521,12 @@
               {
                 "id": 89,
                 "arabic": "إِنَّمَا عِلْمُهَا عِنْدَ رَبِّي",
-                "hinglish": "Innamaa 'ilmuhaa 'inda Rabbee",
+                "hinglish": "Iska ilm toh faqat mere Rab ke paas hai",
                 "urdu": "اس کا علم تو فقط میرے رب کے پاس ہے",
                 "is_filled": true,
                 "sentence_number": 25,
                 "translations": {
-                  "hinglish": "Innamaa 'ilmuhaa 'inda Rabbee",
+                  "hinglish": "Iska ilm toh faqat mere Rab ke paas hai",
                   "en": "Its knowledge is only with my Lord",
                   "ur": "اس کا علم تو فقط میرے رب کے پاس ہے",
                   "hi": "उसका इल्म तो फ़क़त मेरे रब के पास है",
@@ -36540,12 +36540,12 @@
               {
                 "id": 90,
                 "arabic": "إِنَّمَا عِلْمُهَا عِنْدَ اللهِ",
-                "hinglish": "Innamaa 'ilmuhaa 'indal-Laah",
+                "hinglish": "Iski asal khabar toh sirf Allah ke paas hai",
                 "urdu": "اس کی اصل خبر تو صرف اللہ کے پاس ہے",
                 "is_filled": true,
                 "sentence_number": 26,
                 "translations": {
-                  "hinglish": "Innamaa 'ilmuhaa 'indal-Laah",
+                  "hinglish": "Iski asal khabar toh sirf Allah ke paas hai",
                   "en": "Its knowledge is only with Allah",
                   "ur": "اس کی اصل خبر تو صرف اللہ کے پاس ہے",
                   "hi": "उसकी असल ख़बर तो सिर्फ़ अल्लाह के पास है",
@@ -36559,12 +36559,12 @@
               {
                 "id": 91,
                 "arabic": "إِنَّمَا مَثَلُ الْحَيَاةِ الدُّنْيَا كَمَاءٍ",
-                "hinglish": "Innamaa masalul-hayaatid-dunyaa kamaaa-in",
+                "hinglish": "Dunyawi zindagi ki misaal toh bas paani jaisi hai",
                 "urdu": "دنیاوی زندگی کی مثال تو بس پانی جیسی ہے",
                 "is_filled": true,
                 "sentence_number": 27,
                 "translations": {
-                  "hinglish": "Innamaa masalul-hayaatid-dunyaa kamaaa-in",
+                  "hinglish": "Dunyawi zindagi ki misaal toh bas paani jaisi hai",
                   "en": "The example of worldly life is only like water",
                   "ur": "دنیاوی زندگی کی مثال تو بس پانی جیسی ہے",
                   "hi": "दुनियावी जिंदगी की मिसाल तो बस पानी जैसी है",
@@ -36578,12 +36578,12 @@
               {
                 "id": 92,
                 "arabic": "فَإِنَّمَا عَلَيْكَ الْبَلَاغُ الْمُبِينُ",
-                "hinglish": "Fa-innamaa 'alaykal-balaaghul-mubeen",
+                "hinglish": "Pas aap ke zimme faqat wazeh pahuncha dena hai",
                 "urdu": "پس آپ کے ذمے فقط واضح پہنچا دینا ہے",
                 "is_filled": true,
                 "sentence_number": 28,
                 "translations": {
-                  "hinglish": "Fa-innamaa 'alaykal-balaaghul-mubeen",
+                  "hinglish": "Pas aap ke zimme faqat wazeh pahuncha dena hai",
                   "en": "Then upon you is only clear notification",
                   "ur": "پس آپ کے ذمے فقط واضح پہنچا دینا ہے",
                   "hi": "पस आपके ज़िम्मे फ़क़त वाज़ेह पहुंचा देना है",
@@ -36597,12 +36597,12 @@
               {
                 "id": 93,
                 "arabic": "إِنَّمَا النَّجْوَى مِنَ الشَّيْطَانِ",
-                "hinglish": "Innaman-najwaa minash-Shaytaan",
+                "hinglish": "Buri sargoshiyan toh faqat Shaytaan ki taraf se hoti hain",
                 "urdu": "بری سرگوشیاں تو فقط شیطان کی طرف سے ہوتی ہیں",
                 "is_filled": true,
                 "sentence_number": 29,
                 "translations": {
-                  "hinglish": "Innaman-najwaa minash-Shaytaan",
+                  "hinglish": "Buri sargoshiyan toh faqat Shaytaan ki taraf se hoti hain",
                   "en": "Private conversation is only from Satan",
                   "ur": "بری سرگوشیاں تو فقط شیطان کی طرف سے ہوتی ہیں",
                   "hi": "बुरी सरगोशियां तो फ़क़त शैतान की तरफ़ से होती हैं",
@@ -36616,12 +36616,12 @@
               {
                 "id": 94,
                 "arabic": "فَإِنَّمَا هُمْ فِي شِقَاقٍ",
-                "hinglish": "Fa-innamaa hum fee shiqaaq",
+                "hinglish": "Toh dar-asal woh zidd aur mukhalifat mein pade hue hain",
                 "urdu": "تو دراصل وہ ضد اور مخالفت میں پڑے ہوئے ہیں",
                 "is_filled": true,
                 "sentence_number": 30,
                 "translations": {
-                  "hinglish": "Fa-innamaa hum fee shiqaaq",
+                  "hinglish": "Toh dar-asal woh zidd aur mukhalifat mein pade hue hain",
                   "en": "Then they are only in dissension",
                   "ur": "تو دراصل وہ ضد اور مخالفت میں پڑے ہوئے ہیں",
                   "hi": "तो दरअसल वह ज़िद और मुख़ालफ़त में पड़े हुए हैं",
