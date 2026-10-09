@@ -1,5 +1,5 @@
 // @ts-check
-const CACHE_NAME = 'muallim-v4.0.0-cache';
+const CACHE_NAME = 'muallim-v4.0.1-cache';
 const ASSETS = [
   './', './index.html', './teacher.html', './admin.html', './css/styles.css', './css/layout.css',
   './js/app.js', './js/grammar-visuals.js', './js/audio-fx.js',
