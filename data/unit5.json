@@ -12647,12 +12647,12 @@
               {
                 "id": 79,
                 "arabic": "مُؤَذِّنٌ بَيْنَهُمْ",
-                "hinglish": "Mu'azzinun baynahum",
+                "hinglish": "Unke darmiyan pukarne wala",
                 "urdu": "ان کے درمیان پکارنے والا",
                 "is_filled": true,
                 "sentence_number": "s5l6_ph4",
                 "translations": {
-                  "hinglish": "Mu'azzinun baynahum",
+                  "hinglish": "Unke darmiyan pukarne wala",
                   "en": "An announcer between them",
                   "ur": "ان کے درمیان پکارنے والا",
                   "hi": "उनके दरमियान पुकारने वाला",
@@ -12704,12 +12704,12 @@
               {
                 "id": 82,
                 "arabic": "قَبْلَهُمْ قَوْمُ نُوحٍ وَعَادٌ وَثَمُودُ وَقَوْمُ إِبْرَاهِيمَ وَقَوْمُ لُوطٍ",
-                "hinglish": "Qablahum qawmu Noohin wa 'Aadun wa Samoodu wa qawmu Ibraaheema wa qawmu Loot",
+                "hinglish": "Unse pehle qaum-e-Nooh aur Aad aur Samood aur qaum-e-Ibrahim aur qaum-e-Loot",
                 "urdu": "ان سے پہلے قوم نوح اور عاد اور ثمود اور قوم ابراہیم اور قوم لوط",
                 "is_filled": true,
                 "sentence_number": "s5l6_ph7",
                 "translations": {
-                  "hinglish": "Qablahum qawmu Noohin wa 'Aadun wa Samoodu wa qawmu Ibraaheema wa qawmu Loot",
+                  "hinglish": "Unse pehle qaum-e-Nooh aur Aad aur Samood aur qaum-e-Ibrahim aur qaum-e-Loot",
                   "en": "Before them the people of Noah and 'Aad and Thamud and the people of Abraham and the people of Lot",
                   "ur": "ان سے پہلے قوم نوح اور عاد اور ثمود اور قوم ابراہیم اور قوم لوط",
                   "hi": "उनसे पहले क़ौमे नूह और आद और समूद और क़ौमे इब्राहीम और क़ौमे लूत",
@@ -12765,12 +12765,12 @@
               {
                 "id": 84,
                 "arabic": "وَمَأْوَاهُمُ النَّارُ",
-                "hinglish": "Wa ma'waahumun-Naar",
+                "hinglish": "Aur unka thikana aag hai",
                 "urdu": "اور ان کا ٹھکانہ آگ ہے",
                 "is_filled": true,
                 "sentence_number": "s5l6_v2",
                 "translations": {
-                  "hinglish": "Wa ma'waahumun-Naar",
+                  "hinglish": "Aur unka thikana aag hai",
                   "en": "And their refuge is the Fire",
                   "ur": "اور ان کا ٹھکانہ آگ ہے",
                   "hi": "और उनका ठिकाना आग है",
@@ -12784,12 +12784,12 @@
               {
                 "id": 85,
                 "arabic": "السَّاعَةُ مَوْعِدُهُمْ",
-                "hinglish": "As-Saa'atu maw'iduhum",
+                "hinglish": "Qayamat unka muqarrara waqt hai",
                 "urdu": "قیامت ان کا مقررہ وقت ہے",
                 "is_filled": true,
                 "sentence_number": "s5l6_v3",
                 "translations": {
-                  "hinglish": "As-Saa'atu maw'iduhum",
+                  "hinglish": "Qayamat unka muqarrara waqt hai",
                   "en": "The Hour is their appointed time",
                   "ur": "قیامت ان کا مقررہ وقت ہے",
                   "hi": "क़यामत उनका मुक़र्रर वक़्त है",
@@ -12822,12 +12822,12 @@
               {
                 "id": 87,
                 "arabic": "قُلُوبُهُمْ مُّنكِرَةٌ",
-                "hinglish": "Quloobuhum munkirah",
+                "hinglish": "Unke dil inkaar karne wale hain",
                 "urdu": "ان کے دل انکار کرنے والے ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l6_v5",
                 "translations": {
-                  "hinglish": "Quloobuhum munkirah",
+                  "hinglish": "Unke dil inkaar karne wale hain",
                   "en": "Their hearts are refusing",
                   "ur": "ان کے دل انکار کرنے والے ہیں",
                   "hi": "उनके दिल इनकार करने वाले हैं",
@@ -12841,12 +12841,12 @@
               {
                 "id": 88,
                 "arabic": "اللهُ مُهْلِكُهُمْ أَوْ مُعَذِّبُهُمْ",
-                "hinglish": "Allaahu muhlikuhum aw mu'azzibuhum",
+                "hinglish": "Allah unko halaak karne wala hai ya unko azaab dene wala",
                 "urdu": "اللہ ان کو ہلاک کرنے والا ہے یا ان کو عذاب دینے والا",
                 "is_filled": true,
                 "sentence_number": "s5l6_v6",
                 "translations": {
-                  "hinglish": "Allaahu muhlikuhum aw mu'azzibuhum",
+                  "hinglish": "Allah unko halaak karne wala hai ya unko azaab dene wala",
                   "en": "Allah will destroy them or punish them",
                   "ur": "اللہ ان کو ہلاک کرنے والا ہے یا ان کو عذاب دینے والا",
                   "hi": "अल्लाह उनको हलाक करने वाला है या उनको अज़ाब देने वाला",
@@ -12879,12 +12879,12 @@
               {
                 "id": 90,
                 "arabic": "وَأَكْثَرُهُمْ كَاذِبُونَ",
-                "hinglish": "Wa aksaruhum kaaziboon",
+                "hinglish": "Aur unke aksar jhoote hain",
                 "urdu": "اور ان کے اکثر جھوٹے ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l6_v8",
                 "translations": {
-                  "hinglish": "Wa aksaruhum kaaziboon",
+                  "hinglish": "Aur unke aksar jhoote hain",
                   "en": "And most of them are liars",
                   "ur": "اور ان کے اکثر جھوٹے ہیں",
                   "hi": "और उनके अक्सर झूठे हैं",
@@ -12898,12 +12898,12 @@
               {
                 "id": 91,
                 "arabic": "بَعْضُهُمْ لِبَعْضٍ عَدُوٌّ",
-                "hinglish": "Ba'duhum li-ba'din 'aduww",
+                "hinglish": "Unke baaz baaz ke dushman hain",
                 "urdu": "ان کے بعض بعض کے دشمن ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l6_v9",
                 "translations": {
-                  "hinglish": "Ba'duhum li-ba'din 'aduww",
+                  "hinglish": "Unke baaz baaz ke dushman hain",
                   "en": "Some of them to others are enemies",
                   "ur": "ان کے بعض بعض کے دشمن ہیں",
                   "hi": "उनके बाज़ बाज़ के दुश्मन हैं",
@@ -12917,12 +12917,12 @@
               {
                 "id": 92,
                 "arabic": "بَعْضُهُمْ أَوْلِيَاءُ بَعْضٍ",
-                "hinglish": "Ba'duhum awliyaau ba'd",
+                "hinglish": "Unke baaz baaz ke dost o kaarsaaz hain",
                 "urdu": "ان کے بعض بعض کے دوست و کارساز ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l6_v10",
                 "translations": {
-                  "hinglish": "Ba'duhum awliyaau ba'd",
+                  "hinglish": "Unke baaz baaz ke dost o kaarsaaz hain",
                   "en": "Some of them are allies of others",
                   "ur": "ان کے بعض بعض کے دوست و کارساز ہیں",
                   "hi": "उनके बाज़ बाज़ के दोस्त व कारसाज़ हैं",
@@ -12974,12 +12974,12 @@
               {
                 "id": 95,
                 "arabic": "حُجَّتُهُمْ دَاحِضَةٌ",
-                "hinglish": "Hujjatuhum daahidah",
+                "hinglish": "Unki daleel baatil/raayegaan hai",
                 "urdu": "ان کی دلیل باطل/رائیگاں ہے",
                 "is_filled": true,
                 "sentence_number": "s5l6_v13",
                 "translations": {
-                  "hinglish": "Hujjatuhum daahidah",
+                  "hinglish": "Unki daleel baatil/raayegaan hai",
                   "en": "Their argument is invalid",
                   "ur": "ان کی دلیل باطل / رائیگاں ہے",
                   "hi": "उनकी दलील बातिल / बेकार है",
@@ -12993,12 +12993,12 @@
               {
                 "id": 96,
                 "arabic": "بَلْ قُلُوبُهُمْ فِي غَمْرَةٍ مِنْ هٰذَا",
-                "hinglish": "Bal quloobuhum fee ghamratim-min haaza",
+                "hinglish": "Balke unke dil is se ghaflat/shak mein hain",
                 "urdu": "بلکہ ان کے دل اس سے غفلت/شک میں ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l6_v14",
                 "translations": {
-                  "hinglish": "Bal quloobuhum fee ghamratim-min haaza",
+                  "hinglish": "Balke unke dil is se ghaflat/shak mein hain",
                   "en": "Rather, their hearts are in confusion about this",
                   "ur": "بلکہ ان کے دل اس سے غفلت / شک میں ہیں",
                   "hi": "बल्कि उनके दिल इससे ग़फ़लत / शक में हैं",
@@ -13031,12 +13031,12 @@
               {
                 "id": 98,
                 "arabic": "ذٰلِكَ مَبْلَغُهُمْ مِنَ الْعِلْمِ",
-                "hinglish": "Zaalika mablaghuhum minal-'ilm",
+                "hinglish": "Yeh unke ilm ki inteha hai",
                 "urdu": "یہ ان کے علم کی انتہا ہے",
                 "is_filled": true,
                 "sentence_number": "s5l6_v16",
                 "translations": {
-                  "hinglish": "Zaalika mablaghuhum minal-'ilm",
+                  "hinglish": "Yeh unke ilm ki inteha hai",
                   "en": "That is their sum of knowledge",
                   "ur": "یہ ان کے علم کی انتہا ہے",
                   "hi": "यह उनके इल्म की इंतहा है",
@@ -13069,12 +13069,12 @@
               {
                 "id": 100,
                 "arabic": "قُلُوبُهُمْ فِي غَمْرَةٍ مِنْ هٰذَا",
-                "hinglish": "Quloobuhum fee ghamratim-min haaza",
+                "hinglish": "Unke dil iski taraf se nashe/ghaflat mein hain",
                 "urdu": "ان کے دل اس کی طرف سے نشے/غفلت میں ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l6_v18",
                 "translations": {
-                  "hinglish": "Quloobuhum fee ghamratim-min haaza",
+                  "hinglish": "Unke dil iski taraf se nashe/ghaflat mein hain",
                   "en": "Their hearts are in confusion about this",
                   "ur": "ان کے دل اس کی طرف سے نشے / غفلت میں ہیں",
                   "hi": "उनके दिल इसकी तरफ़ से नशे / ग़फ़लत में हैं",
@@ -13126,12 +13126,12 @@
               {
                 "id": 103,
                 "arabic": "إِنَّ يَوْمَ الْفَصْلِ مِيقَاتُهُمْ",
-                "hinglish": "Inna yawmal-fasli meeqaatuhum",
+                "hinglish": "Beshak faisle ka din un sab ka muqarrara waqt hai",
                 "urdu": "بے شک فیصلے کا دن ان سب کا مقررہ وقت ہے",
                 "is_filled": true,
                 "sentence_number": "s5l6_v21",
                 "translations": {
-                  "hinglish": "Inna yawmal-fasli meeqaatuhum",
+                  "hinglish": "Beshak faisle ka din un sab ka muqarrara waqt hai",
                   "en": "Indeed, the Day of Judgement is their appointed time",
                   "ur": "بے شک فیصلے کا دن ان سب کا مقررہ وقت ہے",
                   "hi": "बेशक फ़ैसले का दिन उन सबका मुक़र्रर वक़्त है",
@@ -13145,12 +13145,12 @@
               {
                 "id": 104,
                 "arabic": "تِلْكَ أَمَانِيُّهُمْ",
-                "hinglish": "Tilka amaaniyyuhum",
+                "hinglish": "Yeh unki baatil tamannaayein hain",
                 "urdu": "یہ ان کی باطل تمنائیں ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l6_v22",
                 "translations": {
-                  "hinglish": "Tilka amaaniyyuhum",
+                  "hinglish": "Yeh unki baatil tamannaayein hain",
                   "en": "Those are their wishes",
                   "ur": "یہ ان کی باطل تمنائیں ہیں",
                   "hi": "यह उनकी बातिल तमन्नाएँ हैं",
@@ -13164,12 +13164,12 @@
               {
                 "id": 105,
                 "arabic": "وَأَزْوَاجُهُ أُمَّهَاتُهُمْ",
-                "hinglish": "Wa azwaajuhu ummahaatuhum",
+                "hinglish": "Aur aapki biwiyan unki maayein hain",
                 "urdu": "اور آپ کی بیویاں ان کی مائیں ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l6_v23",
                 "translations": {
-                  "hinglish": "Wa azwaajuhu ummahaatuhum",
+                  "hinglish": "Aur aapki biwiyan unki maayein hain",
                   "en": "And his wives are their mothers",
                   "ur": "اور آپ کی بیویاں ان کی مائیں ہیں",
                   "hi": "और आपकी पत्नियां उनकी माएँ हैं",
@@ -13183,12 +13183,12 @@
               {
                 "id": 106,
                 "arabic": "وَعِندَ اللهِ مَكْرُهُمْ",
-                "hinglish": "Wa 'indal-Laahi makruhum",
+                "hinglish": "Aur Allah ke paas unki tadbeer/makr hai",
                 "urdu": "اور اللہ کے پاس ان کی تدبیر/مکر ہے",
                 "is_filled": true,
                 "sentence_number": "s5l6_v24",
                 "translations": {
-                  "hinglish": "Wa 'indal-Laahi makruhum",
+                  "hinglish": "Aur Allah ke paas unki tadbeer/makr hai",
                   "en": "And with Allah is their plot",
                   "ur": "اور اللہ کے پاس ان کی تدبیر / مکر ہے",
                   "hi": "और अल्लाह के पास उनकी तदबीर / मक्कारी है",
@@ -13202,12 +13202,12 @@
               {
                 "id": 107,
                 "arabic": "لَيْسَ عَلَيْكَ هُدَاهُمْ",
-                "hinglish": "Laysa 'alayka hudaahum",
+                "hinglish": "Unko hidayat dena aapke zimme nahi",
                 "urdu": "ان کو ہدایت دینا آپ کے ذمے نہیں",
                 "is_filled": true,
                 "sentence_number": "s5l6_v25",
                 "translations": {
-                  "hinglish": "Laysa 'alayka hudaahum",
+                  "hinglish": "Unko hidayat dena aapke zimme nahi",
                   "en": "Not upon you is their guidance",
                   "ur": "ان کو ہدایت دینا آپ کے ذمے نہیں",
                   "hi": "उनको हिदायत देना आपके ज़िम्मे नहीं",
@@ -13240,12 +13240,12 @@
               {
                 "id": 109,
                 "arabic": "فَتِلْكَ بُيُوتُهُمْ خَاوِيَةً",
-                "hinglish": "Fatilka buyootuhum khaawiyah",
+                "hinglish": "Pas yeh unke ghar khaali aur weeran pade hain",
                 "urdu": "پس یہ ان کے گھر خالی اور ویران پڑے ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l6_v27",
                 "translations": {
-                  "hinglish": "Fatilka buyootuhum khaawiyah",
+                  "hinglish": "Pas yeh unke ghar khaali aur weeran pade hain",
                   "en": "So those are their houses, in ruins",
                   "ur": "پس یہ ان کے گھر خالی اور ویران پڑے ہیں",
                   "hi": "पस यह उनके घर ख़ाली और वीरान पड़े हैं",
@@ -13259,12 +13259,12 @@
               {
                 "id": 110,
                 "arabic": "وَأَمْرُهُمْ شُورَى بَيْنَهُمْ",
-                "hinglish": "Wa amruhum shooraa baynahum",
+                "hinglish": "Aur unka maamla aapas ke mashware se tay hota hai",
                 "urdu": "اور ان کا معاملہ آپس کے مشورے سے طے ہوتا ہے",
                 "is_filled": true,
                 "sentence_number": "s5l6_v28",
                 "translations": {
-                  "hinglish": "Wa amruhum shooraa baynahum",
+                  "hinglish": "Aur unka maamla aapas ke mashware se tay hota hai",
                   "en": "And their affair is [conducted by] mutual consultation",
                   "ur": "اور ان کا معاملہ آپس کے مشورے سے طے ہوتا ہے",
                   "hi": "और उनका मामला आपस के मशवरे से तय होता है",
@@ -13278,12 +13278,12 @@
               {
                 "id": 111,
                 "arabic": "أَنَّ الْمَاءَ قِسْمَةٌ بَيْنَهُمْ",
-                "hinglish": "Annal-maa-ek qismatum-baynahum",
+                "hinglish": "Ke paani unke darmiyan taqseem hai",
                 "urdu": "کہ پانی ان کے درمیان تقسیم ہے",
                 "is_filled": true,
                 "sentence_number": "s5l6_v29",
                 "translations": {
-                  "hinglish": "Annal-maa-ek qismatum-baynahum",
+                  "hinglish": "Ke paani unke darmiyan taqseem hai",
                   "en": "That the water is to be shared between them",
                   "ur": "کہ پانی ان کے درمیان تقسیم ہے",
                   "hi": "कि पानी उनके दरमियान तक़सीम है",
@@ -13297,12 +13297,12 @@
               {
                 "id": 112,
                 "arabic": "أَمْ عِندَهُمُ الْغَيْبُ",
-                "hinglish": "Am 'indahumul-ghayb",
+                "hinglish": "Kya unke paas ghaib ka ilm hai?",
                 "urdu": "کیا ان کے پاس غیب کا علم ہے؟",
                 "is_filled": true,
                 "sentence_number": "s5l6_v30",
                 "translations": {
-                  "hinglish": "Am 'indahumul-ghayb",
+                  "hinglish": "Kya unke paas ghaib ka ilm hai?",
                   "en": "Or have they the knowledge of the unseen?",
                   "ur": "کیا ان کے پاس غیب کا علم ہے؟",
                   "hi": "क्या उनके पास ग़ैब का इल्म है?",
@@ -13358,12 +13358,12 @@
               {
                 "id": 114,
                 "arabic": "ذٰلِكَ مَبْلَغُهُمْ مِنَ الْعِلْمِ إِنَّ رَبَّكَ هُوَ أَعْلَمُ",
-                "hinglish": "Zaalika mablaghuhum minal-'ilmi inna Rabbaka Huwa ek'lam",
+                "hinglish": "Yeh unke ilm ki inteha hai, beshak aapka Rab khoob jaanta hai",
                 "urdu": "یہ ان کے علم کی انتہا ہے، بے شک آپ کا رب خوب جانتا ہے",
                 "is_filled": true,
                 "sentence_number": "s5l6_long2",
                 "translations": {
-                  "hinglish": "Zaalika mablaghuhum minal-'ilmi inna Rabbaka Huwa ek'lam",
+                  "hinglish": "Yeh unke ilm ki inteha hai, beshak aapka Rab khoob jaanta hai",
                   "en": "That is their sum of knowledge. Indeed, your Lord is most knowing",
                   "ur": "یہ ان کے علم کی انتہا ہے، بے شک آپ کا رب خوب جانتا ہے",
                   "hi": "यह उनके इल्म की इंतहा है, बेशक आपका रब ख़ूब जानता है",
@@ -13396,12 +13396,12 @@
               {
                 "id": 116,
                 "arabic": "إِنَّ يَوْمَ الْفَصْلِ مِيقَاتُهُمْ أَجْمَعِينَ",
-                "hinglish": "Inna yawmal-fasli meeqaatuhum ajma'een",
+                "hinglish": "Beshak faisle ka din un tamaam ka muqarrara waqt hai",
                 "urdu": "بے شک فیصلے کا دن ان تمام کا مقررہ وقت ہے",
                 "is_filled": true,
                 "sentence_number": "s5l6_long4",
                 "translations": {
-                  "hinglish": "Inna yawmal-fasli meeqaatuhum ajma'een",
+                  "hinglish": "Beshak faisle ka din un tamaam ka muqarrara waqt hai",
                   "en": "Indeed, the Day of Judgement is the appointed time for them all",
                   "ur": "بے شک فیصلے کا دن ان تمام کا مقررہ وقت ہے",
                   "hi": "बेशक फ़ैसले का दिन उन तमाम का मुक़र्रर वक़्त है",
@@ -13415,12 +13415,12 @@
               {
                 "id": 117,
                 "arabic": "قُلُوبُهُمْ مُّنكِرَةٌ وَهُمْ مُّسْتَكْبِرُونَ",
-                "hinglish": "Quloobuhum munkiratunw-wa hum mustakbiroon",
+                "hinglish": "Unke dil inkaari hain aur woh takabbur karne wale hain",
                 "urdu": "ان کے دل انکاری ہیں اور وہ تکبر کرنے والے ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l6_long5",
                 "translations": {
-                  "hinglish": "Quloobuhum munkiratunw-wa hum mustakbiroon",
+                  "hinglish": "Unke dil inkaari hain aur woh takabbur karne wale hain",
                   "en": "Their hearts are refusing, and they are arrogant",
                   "ur": "ان کے دل انکاری ہیں اور وہ تکبر کرنے والے ہیں",
                   "hi": "उनके दिल इनकार करने वाले हैं और वह तकब्बुर करने वाले हैं",
@@ -13434,12 +13434,12 @@
               {
                 "id": 118,
                 "arabic": "وَمَأْوَاهُمْ جَهَنَّمُ وَبِئْسَ الْمَصِيرُ",
-                "hinglish": "Wa ma'waahum Jahannamu wa bi'sal-maseer",
+                "hinglish": "Aur unka thikana Jahannam hai aur woh bohot hi bura thikana hai",
                 "urdu": "اور ان کا ٹھکانہ جہنم ہے اور وہ بہت ہی برا ٹھکانہ ہے",
                 "is_filled": true,
                 "sentence_number": "s5l6_long6",
                 "translations": {
-                  "hinglish": "Wa ma'waahum Jahannamu wa bi'sal-maseer",
+                  "hinglish": "Aur unka thikana Jahannam hai aur woh bohot hi bura thikana hai",
                   "en": "And their refuge is Hell, and wretched is the destination",
                   "ur": "اور ان کا ٹھکانہ جہنم ہے اور وہ بہت ہی برا ٹھکانہ ہے",
                   "hi": "और उनका ठिकाना जहन्नम है और वह बहुत ही बुरा ठिकाना है",
@@ -13453,12 +13453,12 @@
               {
                 "id": 119,
                 "arabic": "مَتَاعٌ قَلِيلٌ ثُمَّ مَأْوَاهُمْ جَهَنَّمُ وَبِئْسَ الْمِهَادُ",
-                "hinglish": "Mataa'un qaleelun summa ma'waahum Jahannamu wa bi'sal-mihaad",
+                "hinglish": "Thoda sa nafa hai phir unka thikana Jahannam hai aur woh bura bichhona hai",
                 "urdu": "تھوڑا سا نفع ہے پھر ان کا ٹھکانہ جہنم ہے اور وہ برا بچھونا ہے",
                 "is_filled": true,
                 "sentence_number": "s5l6_long7",
                 "translations": {
-                  "hinglish": "Mataa'un qaleelun summa ma'waahum Jahannamu wa bi'sal-mihaad",
+                  "hinglish": "Thoda sa nafa hai phir unka thikana Jahannam hai aur woh bura bichhona hai",
                   "en": "[It is but] a little enjoyment; then their refuge is Hell, and wretched is the resting place",
                   "ur": "تھوڑا سا نفع ہے پھر ان کا ٹھکانہ جہنم ہے اور وہ برا بچھونا ہے",
                   "hi": "थोड़ा सा नफ़ा है फिर उनका ठिकाना जहन्नम है और वह बुरा बिछौना है",
@@ -13472,12 +13472,12 @@
               {
                 "id": 120,
                 "arabic": "هُمْ وَأَزْوَاجُهُمْ فِي ظِلَالٍ عَلَى الْأَرَائِكِ مُتَّكِئُونَ",
-                "hinglish": "Hum wa azwaajuhum fee zilaalin 'alal-araaiki muttaki'oon",
+                "hinglish": "Woh aur unki biwiyan ghane saayon mein takhton par takiya lagaye baithe honge",
                 "urdu": "وہ اور ان کی بیویاں گھنے سایوں میں تختوں پر تکیہ لگائے بیٹھے ہوں گے",
                 "is_filled": true,
                 "sentence_number": "s5l6_long8",
                 "translations": {
-                  "hinglish": "Hum wa azwaajuhum fee zilaalin 'alal-araaiki muttaki'oon",
+                  "hinglish": "Woh aur unki biwiyan ghane saayon mein takhton par takiya lagaye baithe honge",
                   "en": "They and their spouses will be in shade, reclining on couches",
                   "ur": "وہ اور ان کی بیویاں گھنے سایوں میں تختوں پر تکیہ لگائے بیٹھے ہوں گے",
                   "hi": "वह और उनकी पत्नियां घने सायों में तख़्तों पर तकिया लगाए बैठे होंगे",
@@ -13491,12 +13491,12 @@
               {
                 "id": 121,
                 "arabic": "دَعْوَاهُمْ فِيهَا سُبْحَانَكَ اللَّهُمَّ وَتَحِيَّتُهُمْ فِيهَا سَلَامٌ",
-                "hinglish": "Da'waahum feehaa Subhaanakal-laahumma wa tahiyyatuhum feehaa salaam",
+                "hinglish": "Unki dua us mein yeh hogi ke Paak hai Tu ae Allah, aur unki baahami dua salaam hogi",
                 "urdu": "ان کی دعا اس میں یہ ہوگی کہ پاک ہے تو اے اللہ، اور ان کی باہمی دعا سلام ہوگی",
                 "is_filled": true,
                 "sentence_number": "s5l6_long9",
                 "translations": {
-                  "hinglish": "Da'waahum feehaa Subhaanakal-laahumma wa tahiyyatuhum feehaa salaam",
+                  "hinglish": "Unki dua us mein yeh hogi ke Paak hai Tu ae Allah, aur unki baahami dua salaam hogi",
                   "en": "Their call therein will be, 'Exalted are You, O Allah,' and their greeting therein will be, 'Peace'",
                   "ur": "ان کی دعا اس میں یہ ہوگی کہ پاک ہے تو اے اللہ، اور ان کی باہمی دعا سلام ہوگی",
                   "hi": "उनकी दुआ इसमें यह होगी कि पाक है तू ऐ अल्लाह, और उनकी बाहमी दुआ सलाम होगी",
@@ -13529,12 +13529,12 @@
               {
                 "id": 123,
                 "arabic": "أَمْ عِندَهُمْ خَزَائِنُ رَحْمَةِ رَبِّكَ الْعَزِيزِ الْوَهَّابِ",
-                "hinglish": "Am 'indahum khazaainu rahmati Rabbikal-'Azeezil-Wahhaab",
+                "hinglish": "Kya unke paas aapke zabardast, khoob ata karne wale Rab ki rehmat ke khazane hain?",
                 "urdu": "کیا ان کے پاس آپ کے زبردست، خوب عطا کرنے والے رب کی رحمت کے خزانے ہیں؟",
                 "is_filled": true,
                 "sentence_number": "s5l6_long11",
                 "translations": {
-                  "hinglish": "Am 'indahum khazaainu rahmati Rabbikal-'Azeezil-Wahhaab",
+                  "hinglish": "Kya unke paas aapke zabardast, khoob ata karne wale Rab ki rehmat ke khazane hain?",
                   "en": "Or do they have the depositories of the mercy of your Lord, the Exalted in Might, the Bestower?",
                   "ur": "کیا ان کے پاس آپ کے زبردست، خوب عطا کرنے والے رب کی رحمت کے خزانے ہیں؟",
                   "hi": "क्या उनके पास आपके ज़बरदस्त, ख़ूब अता करने वाले रब की रहमत के ख़ज़ाने हैं?",
@@ -13605,12 +13605,12 @@
               {
                 "id": 127,
                 "arabic": "إِنَّ أَصْحَابَ الْجَنَّةِ الْيَوْمَ فِي شُغُلٍ فَاكِهُونَ هُمْ وَأَزْوَاجُهُمْ فِي ظِلَالٍ عَلَى الْأَرَائِكِ مُتَّكِئُونَ",
-                "hinglish": "Inna as-haabal-jannatil-yawma fee shughulin faakihoon, hum wa azwaajuhum fee zilaalin 'alal-araaiki muttaki'oon",
+                "hinglish": "Beshak jannati log aaj maze mein mashghool hain, woh aur unki biwiyan saayon mein sofon par tek lagaye hue hain",
                 "urdu": "بے شک جنتی لوگ آج مزے میں مشغول ہیں، وہ اور ان کی بیویاں سایوں میں صوفوں پر ٹیک لگائے ہوئے ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l6_long15",
                 "translations": {
-                  "hinglish": "Inna as-haabal-jannatil-yawma fee shughulin faakihoon, hum wa azwaajuhum fee zilaalin 'alal-araaiki muttaki'oon",
+                  "hinglish": "Beshak jannati log aaj maze mein mashghool hain, woh aur unki biwiyan saayon mein sofon par tek lagaye hue hain",
                   "en": "Indeed, the companions of Paradise, that Day, will be in joyful occupation - they and their spouses in shade, reclining on couches",
                   "ur": "بے شک جنتی لوگ آج مزے میں مشغول ہیں، وہ اور ان کی بیویاں سایوں میں صوفوں پر ٹیک لگائے ہوئے ہیں",
                   "hi": "बेशक जन्नती लोग आज मज़े में मशग़ूल हैं, वह और उनकी पत्नियां सायों में सोफ़ों पर टेक लगाए हुए हैं",
@@ -13624,12 +13624,12 @@
               {
                 "id": 128,
                 "arabic": "بَلِ السَّاعَةُ مَوْعِدُهُمْ وَالسَّاعَةُ أَدْهَى وَأَمَرُّ إِنَّ الْمُجْرِمِينَ فِي ضَلَالٍ وَسُعُرٍ",
-                "hinglish": "Balis-Saa'atu maw'iduhum tha-Saa'atu ad-haa wa amarr, innal-mujrimeena fee dalaalinw-wa su'ur",
+                "hinglish": "Balke Qayamat unka muqarrara waqt hai aur Qayamat bohot zyada sakht aur kadwi hai, beshak mujrim gumraahi aur deewangi mein hain",
                 "urdu": "بلکہ قیامت ان کا مقررہ وقت ہے اور قیامت بہت زیادہ سخت اور کڑوی ہے، بیشک مجرم گمراہی اور دیوانگی میں ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l6_long16",
                 "translations": {
-                  "hinglish": "Balis-Saa'atu maw'iduhum tha-Saa'atu ad-haa wa amarr, innal-mujrimeena fee dalaalinw-wa su'ur",
+                  "hinglish": "Balke Qayamat unka muqarrara waqt hai aur Qayamat bohot zyada sakht aur kadwi hai, beshak mujrim gumraahi aur deewangi mein hain",
                   "en": "Rather, the Hour is their appointed time, and the Hour is more disastrous and more bitter. Indeed, the criminals are in error and madness",
                   "ur": "بلکہ قیامت ان کا مقررہ وقت ہے اور قیامت بہت زیادہ سخت اور کڑوی ہے، بیشک مجرم گمراہی اور دیوانگی میں ہیں",
                   "hi": "बल्कि क़यामत उनका मुक़र्रर वक़्त है और क़यामत बहुत ज़्यादा सख़्त और कड़वी है, बेशक मुजरिम गुमराही और दीवानगी में हैं",
@@ -13912,12 +13912,12 @@
               {
                 "id": 10,
                 "arabic": "عَلَى أَمْوَالِهِمْ",
-                "hinglish": "'Alaa amwaalihim",
+                "hinglish": "Unke maalon par",
                 "urdu": "ان کے مالوں پر",
                 "is_filled": true,
                 "sentence_number": "s5l7_p7",
                 "translations": {
-                  "hinglish": "'Alaa amwaalihim",
+                  "hinglish": "Unke maalon par",
                   "en": "Over their wealth",
                   "ur": "ان کے مالوں پر",
                   "hi": "उनके मालों पर",
@@ -13931,12 +13931,12 @@
               {
                 "id": 11,
                 "arabic": "عَلَى نَصْرِهِمْ",
-                "hinglish": "'Alaa nasrihim",
+                "hinglish": "Unki madad par",
                 "urdu": "ان کی مدد پر",
                 "is_filled": true,
                 "sentence_number": "s5l7_p8",
                 "translations": {
-                  "hinglish": "'Alaa nasrihim",
+                  "hinglish": "Unki madad par",
                   "en": "To give them victory",
                   "ur": "ان کی مدد پر",
                   "hi": "उनकी मदद पर",
@@ -34161,12 +34161,12 @@
               {
                 "id": 3,
                 "arabic": "آلِهَةٌ ← هَؤُلَاءِ آلِهَةٌ",
-                "hinglish": "Aalihah -> Haa'ulaa'i aalihah",
+                "hinglish": "Mabood → Yeh mabood hain",
                 "urdu": "معبود ← یہ معبود ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l18_ex3",
                 "translations": {
-                  "hinglish": "Aalihah -> Haa'ulaa'i aalihah",
+                  "hinglish": "Mabood → Yeh mabood hain",
                   "en": "Deities -> These are deities",
                   "ur": "معبود ← یہ معبود ہیں",
                   "hi": "माबूद ← यह माबूद हैं",
@@ -34222,12 +34222,12 @@
               {
                 "id": 5,
                 "arabic": "إِنَّ هَؤُلَاءِ لَضَالُّونَ",
-                "hinglish": "Beshak yeh log yaqeenan gumraah hain",
+                "hinglish": "Ke yeh log mujrim qaum hain",
                 "urdu": "بے شک یہ لوگ یقیناً گمراہ ہیں",
                 "is_filled": true,
                 "sentence_number": "s5l18_w2",
                 "translations": {
-                  "hinglish": "Beshak yeh log yaqeenan gumraah hain",
+                  "hinglish": "Ke yeh log mujrim qaum hain",
                   "en": "Indeed, these people are surely lost",
                   "ur": "بے شک یہ لوگ یقیناً گمراہ ہیں",
                   "hi": "बेशक यह लोग यक़ीनन गुमराह हैं",
@@ -34610,12 +34610,12 @@
               {
                 "id": 23,
                 "arabic": "رَبَّنَا هَؤُلَاءِ شُرَكَاؤُنَا",
-                "hinglish": "Rabbanaa haa'ulaa'i shurakaaunaa",
+                "hinglish": "Ae hamare Rab! Yeh hamare woh shareek hain jinhein hum poojte thay",
                 "urdu": "اے ہمارے رب! یہ ہمارے وہ شریک ہیں جنہیں ہم پوجتے تھے",
                 "is_filled": true,
                 "sentence_number": 3,
                 "translations": {
-                  "hinglish": "Rabbanaa haa'ulaa'i shurakaaunaa",
+                  "hinglish": "Ae hamare Rab! Yeh hamare woh shareek hain jinhein hum poojte thay",
                   "en": "Our Lord, these are our partners",
                   "ur": "اے ہمارے رب! یہ ہمارے وہ شریک ہیں جنہیں ہم پوجتے تھے",
                   "hi": "ऐ हमारे रब! यह हमारे वह शरीक हैं जिन्हें हम पूजते थे",
@@ -34648,12 +34648,12 @@
               {
                 "id": 25,
                 "arabic": "أَنَّ هَؤُلَاءِ قَوْمٌ مُّجْرِمُونَ",
-                "hinglish": "Anna haa'ulaa'i qawmum-mujrimoon",
+                "hinglish": "Ke yeh log mujrim qaum hain",
                 "urdu": "کہ یہ لوگ مجرم قوم ہیں",
                 "is_filled": true,
                 "sentence_number": 5,
                 "translations": {
-                  "hinglish": "Anna haa'ulaa'i qawmum-mujrimoon",
+                  "hinglish": "Ke yeh log mujrim qaum hain",
                   "en": "That these are a criminal people",
                   "ur": "کہ یہ لوگ مجرم قوم ہیں",
                   "hi": "कि यह लोग मुजरिम क़ौम हैं",
@@ -34705,12 +34705,12 @@
               {
                 "id": 28,
                 "arabic": "يَا قَوْمِ هَؤُلَاءِ بَنَاتِي",
-                "hinglish": "Yaa qawmi haa'ulaa'i banaatee",
+                "hinglish": "Ae meri qaum! Yeh meri qaum ki betiyan hazir hain",
                 "urdu": "اے میری قوم! یہ میری قوم کی بیٹیاں حاضر ہیں",
                 "is_filled": true,
                 "sentence_number": 8,
                 "translations": {
-                  "hinglish": "Yaa qawmi haa'ulaa'i banaatee",
+                  "hinglish": "Ae meri qaum! Yeh meri qaum ki betiyan hazir hain",
                   "en": "O my people, these are my daughters",
                   "ur": "اے میری قوم! یہ میری قوم کی بیٹیاں حاضر ہیں",
                   "hi": "ऐ मेरी क़ौम! यह मेरी क़ौम की बेटियां हाज़िर हैं",
