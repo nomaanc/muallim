@@ -33,7 +33,8 @@
       "playwright.config.js",
       "tests/**",
       "test-results/**",
-      "data/da_audit_log.json"
+      "data/da_audit_log.json",
+      ".env*"
     ],
     "rewrites": [
       { "source": "**", "destination": "/index.html" }

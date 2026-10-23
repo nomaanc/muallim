@@ -4,6 +4,10 @@ images/
 # Sensitive files
 api.key.txt
 context.md
+.env
+.env.local
+.env.*.local
+*.env.local
 
 
 # Backup and temp files
