@@ -15,6 +15,7 @@ context.md
 muallim_backup_*.json
 scratch/
 .firebase/
+firebase-debug.log
 functions/node_modules/
 functions/package-lock.json
 

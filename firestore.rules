@@ -1,156 +1,178 @@
 rules_version = '2';
 
 // ===============================================================
-// Assumed Data Model
+// Assumed Data Model (Muallim ul-Qur'an PWA v6.0 — Student-Only)
 // ===============================================================
 //
-// Collection: users
-// Document ID: {uid} (Firebase Auth UID)
-// Fields:
-//   - email: string (required) - user email address
-//   - name: string (required, max 100) - display name
-//   - role: string (required) - 'admin' or 'student' (immutable by self)
-//   - createdAt: timestamp (required, immutable)
-//   - lastLogin: timestamp (optional)
-//
 // Collection: user_data
-// Document ID: {uid} (Firebase Auth UID)
-// Fields:
-//   - starred: array (optional) - starred item IDs
-//   - customAnswers: map (optional) - custom answer overrides
-//   - bookmark: map (optional) - { stage, lesson, section }
-//   - lessonProgress: map (optional)
-//   - examResults: array (optional)
+// Document ID: {userId} (Firebase Auth UID — strictly owner-only)
+// Fields (all optional on partial merge writes; at least 1 allowed field required):
+//   - uid: string (optional, must equal document userId, immutable once set)
+//   - name: string (optional, 0-100 chars)
+//   - deviceId: string (optional, 1-128 chars)
+//   - role: string (optional, 'student' or 'guest' only — never privileged)
+//   - preferredLang: string (optional, 1-16 chars)
+//   - theme: string (optional, 'light' or 'dark')
+//   - currentStage: int (optional, 1..7)
+//   - currentLesson: int (optional, 1..30)
+//   - starredItems: list (optional, max 2500 items)
+//   - starred: list (optional, max 2500 items — legacy alias)
+//   - customTranslations: map (optional, max 2500 entries)
+//   - customAnswers: map (optional, max 2500 entries — legacy alias)
+//   - lastBookmark: map or null (optional, max 10 keys)
+//   - bookmark: map or null (optional, max 10 keys — legacy alias)
+//   - lessonTime: map (optional, max 200 entries)
+//   - lessonProgress: map (optional, max 200 entries)
+//   - srs: map (optional, max 12000 entries — spaced-repetition state)
+//   - last_srs_sync: timestamp (optional)
+//   - weakWords: map (optional, max 5000 entries)
+//   - examHistory: list (optional, max 200 entries)
+//   - examResults: list (optional, max 200 entries — legacy alias)
+//   - mergedFromGuest: string (optional, 1-128 chars)
+//   - createdAt: timestamp (optional, immutable once set)
+//   - lastSeen: timestamp (optional)
+//   - updatedAt: timestamp (optional)
 //
-// Collection: pushed_exams
-// Document ID: {examId}
-// Fields:
-//   - title: string (required)
-//   - questions: array (required)
-//   - pushedAt: timestamp (required)
-//   - pushedBy: string (required) - admin UID
-//
-// Collection: exam_results/{examId}/{studentId}
-// Document ID: {studentId} (Firebase Auth UID)
-// Fields:
-//   - score: number (required)
-//   - answers: array (required)
-//   - submittedAt: timestamp (required)
-//   - uid: string (required, immutable) - must match studentId
-//
-// Collection: muallim_students (LEGACY — device UUID based)
-// Document ID: {deviceId}
-// Fields:
-//   - deviceId: string (required, immutable, max 100)
-//   - name: string (required, max 100)
-//   - [other legacy fields]
-//
-// Collection: muallim_broadcasts (LEGACY)
-// Document ID: {broadcastId}
-// Fields:
-//   - message: string (required, 1-500 chars)
-//   - sentAt: timestamp (required)
+// All other collections (/users, /pushed_exams, /exam_results,
+// /guest_data, /muallim_students, /muallim_broadcasts, etc.) are
+// removed and denied by default.
 //
 // ===============================================================
 
 service cloud.firestore {
   match /databases/{database}/documents {
 
-    // ── Helper functions ───────────────────────────────────────
+    // ── Helper Functions ─────────────────────────────────────────
     function isAuthenticated() {
       return request.auth != null;
     }
-    function isAdmin() {
-      return isAuthenticated() &&
-        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin';
-    }
-    function isOwner(uid) {
-      return isAuthenticated() && request.auth.uid == uid;
-    }
-    function validStringLength(field, minLen, maxLen) {
-      return request.resource.data[field] is string
-        && request.resource.data[field].size() >= minLen
-        && request.resource.data[field].size() <= maxLen;
-    }
-    // Ensure the 'role' field is not being set/changed by a non-admin self-update
-    function roleNotModified() {
-      return !('role' in request.resource.data)
-        || request.resource.data.role == resource.data.role;
+
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
     }
 
-    // ── User profiles ──────────────────────────────────────────
-    // - Only owner or admin can read
-    // - Only admin can create (users created by admin on first login)
-    // - Owner can update (but CANNOT change their own role — prevents privilege escalation)
-    // - Only admin can delete
-    match /users/{userId} {
-      allow read:   if isOwner(userId) || isAdmin();
-      allow create: if isAdmin();
-      allow update: if isAdmin()
-                    || (isOwner(userId) && roleNotModified());
-      allow delete: if isAdmin();
+    function uidUnchanged(userId) {
+      return !('uid' in request.resource.data)
+        || (request.resource.data.uid is string
+            && request.resource.data.uid == userId
+            && request.resource.data.uid == request.auth.uid);
     }
 
-    // ── User data (starred, customAnswers, bookmark, progress) ─
-    // Only owner or admin can read/write
+    function uidNotModified() {
+      return !('uid' in resource.data)
+        || (('uid' in request.resource.data)
+            && request.resource.data.uid == resource.data.uid);
+    }
+
+    function createdAtNotModified() {
+      return !('createdAt' in resource.data)
+        || (('createdAt' in request.resource.data)
+            && request.resource.data.createdAt == resource.data.createdAt);
+    }
+
+    function hasOnlyAllowedFields(fields) {
+      return request.resource.data.keys().hasOnly(fields);
+    }
+
+    function isValidOptionalString(data, field, minLen, maxLen) {
+      return !(field in data)
+        || (data[field] is string
+            && data[field].size() >= minLen
+            && data[field].size() <= maxLen);
+    }
+
+    function isValidOptionalList(data, field, maxSize) {
+      return !(field in data)
+        || (data[field] is list && data[field].size() <= maxSize);
+    }
+
+    function isValidOptionalMap(data, field, maxSize) {
+      return !(field in data)
+        || (data[field] is map && data[field].size() <= maxSize);
+    }
+
+    function isValidOptionalNullableMap(data, field, maxSize) {
+      return !(field in data)
+        || data[field] == null
+        || (data[field] is map && data[field].size() <= maxSize);
+    }
+
+    function isValidOptionalTimestamp(data, field) {
+      return !(field in data) || data[field] is timestamp;
+    }
+
+    // ── Domain Validator (applied on BOTH create and update) ─────
+    function isValidUserData(data, userId) {
+      let allowedFields = [
+        'uid',
+        'name',
+        'deviceId',
+        'role',
+        'preferredLang',
+        'theme',
+        'currentStage',
+        'currentLesson',
+        'starredItems',
+        'starred',
+        'customTranslations',
+        'customAnswers',
+        'lastBookmark',
+        'bookmark',
+        'lessonTime',
+        'lessonProgress',
+        'srs',
+        'last_srs_sync',
+        'weakWords',
+        'examHistory',
+        'examResults',
+        'mergedFromGuest',
+        'createdAt',
+        'lastSeen',
+        'updatedAt'
+      ];
+      return data.keys().size() >= 1
+        && hasOnlyAllowedFields(allowedFields)
+        && uidUnchanged(userId)
+        && isValidOptionalString(data, 'name', 0, 100)
+        && isValidOptionalString(data, 'deviceId', 1, 128)
+        && (!('role' in data) || (data.role is string && data.role in ['student', 'guest']))
+        && isValidOptionalString(data, 'preferredLang', 1, 16)
+        && (!('theme' in data) || (data.theme is string && data.theme in ['light', 'dark']))
+        && (!('currentStage' in data) || (data.currentStage is int && data.currentStage >= 1 && data.currentStage <= 7))
+        && (!('currentLesson' in data) || (data.currentLesson is int && data.currentLesson >= 1 && data.currentLesson <= 30))
+        && isValidOptionalList(data, 'starredItems', 2500)
+        && isValidOptionalList(data, 'starred', 2500)
+        && isValidOptionalMap(data, 'customTranslations', 2500)
+        && isValidOptionalMap(data, 'customAnswers', 2500)
+        && isValidOptionalNullableMap(data, 'lastBookmark', 10)
+        && isValidOptionalNullableMap(data, 'bookmark', 10)
+        && isValidOptionalMap(data, 'lessonTime', 200)
+        && isValidOptionalMap(data, 'lessonProgress', 200)
+        && isValidOptionalMap(data, 'srs', 12000)
+        && isValidOptionalTimestamp(data, 'last_srs_sync')
+        && isValidOptionalMap(data, 'weakWords', 5000)
+        && isValidOptionalList(data, 'examHistory', 200)
+        && isValidOptionalList(data, 'examResults', 200)
+        && isValidOptionalString(data, 'mergedFromGuest', 1, 128)
+        && isValidOptionalTimestamp(data, 'createdAt')
+        && isValidOptionalTimestamp(data, 'lastSeen')
+        && isValidOptionalTimestamp(data, 'updatedAt');
+    }
+
+    // ── User Data (/user_data/{userId}) ──────────────────────────
+    // Strictly owner-only read/write with schema validation on create and update.
     match /user_data/{userId} {
-      allow read, write: if isOwner(userId) || isAdmin();
+      allow read: if isOwner(userId);
+      allow create: if isOwner(userId)
+        && isValidUserData(request.resource.data, userId);
+      allow update: if isOwner(userId)
+        && isValidUserData(request.resource.data, userId)
+        && uidNotModified()
+        && createdAtNotModified();
+      allow delete: if isOwner(userId);
     }
 
-    // ── Teacher-pushed exams ───────────────────────────────────
-    // Any authenticated user can read; only admin can write
-    match /pushed_exams/{examId} {
-      allow read:                   if isAuthenticated();
-      allow create, update, delete: if isAdmin();
-    }
-
-    // ── Exam results ───────────────────────────────────────────
-    // Student can read/create own result; admin can read/update/delete all
-    match /exam_results/{examId} {
-      allow read: if isAuthenticated();
-      allow write: if isAdmin();
-
-      match /submissions/{studentId} {
-        allow read:   if isOwner(studentId) || isAdmin();
-        allow create, update: if isOwner(studentId) || isAdmin();
-        allow delete: if isAdmin();
-      }
-    }
-    match /exam_results/{examId}/{studentId} {
-      allow read:   if isOwner(studentId) || isAdmin();
-      allow create, update: if isOwner(studentId) || isAdmin();
-      allow delete: if isAdmin();
-    }
-
-    // ── Guest data collection (anonymous user cloud sync) ────────
-    match /guest_data/{userId} {
-      allow read, write: if isOwner(userId) || isAdmin();
-    }
-
-    // ── Legacy: muallim_students (device-based) ────────────────
-    // Authenticated read; write only with valid self-referential deviceId + name fields
-    match /muallim_students/{deviceId} {
-      allow read: if isAuthenticated() || isAdmin();
-      allow write: if
-        request.resource.data.deviceId == deviceId
-        && request.resource.data.keys().hasAll(['deviceId', 'name'])
-        && request.resource.data.deviceId is string
-        && validStringLength('name', 1, 100);
-    }
-
-    // ── Legacy: broadcast messages ─────────────────────────────
-    // Authenticated read; only ADMINS can create broadcasts (prevents anonymous spam)
-    // Admin can delete broadcasts
-    match /muallim_broadcasts/{broadcastId} {
-      allow read: if isAuthenticated() || isAdmin();
-      allow create: if isAdmin()
-        && request.resource.data.message is string
-        && request.resource.data.message.size() > 0
-        && request.resource.data.message.size() <= 500;
-      allow update, delete: if isAdmin();
-    }
-
-    // ── Default: deny all other paths ─────────────────────────
+    // ── Default Deny: all other paths ────────────────────────────
     match /{document=**} {
       allow read, write: if false;
     }
