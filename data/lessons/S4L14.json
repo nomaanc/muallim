@@ -1,0 +1,2979 @@
+{
+  "lesson_id": 14,
+  "lesson_key": "S4L14",
+  "stage_id": 4,
+  "title": "Zameer-e-Muttasil Mutakallim: بَيْتٌ ← بَيْتِي",
+  "arabic_Focus": "بَيْتٌ ← بَيْتِي",
+  "hinglish_Focus": "Ghar → Mera ghar",
+  "page_numbers": "31–32",
+  "book_page": 31,
+  "status": "complete",
+  "title_i18n": {
+    "en": "Zameer-e-Muttasil Mutakallim: بَيْتٌ ← بَيْتِي",
+    "ur": "یونٹ 4 سبق 14: بَيْتٌ ← بَيْتِي",
+    "hi": "Zameer-e-Muttasil Mutakallim: بَيْتٌ ← بَيْتِي"
+  },
+  "sections": [
+    {
+      "id": "sec_hero",
+      "type": "hero_header",
+      "data": {
+        "arabic": "بَيْتٌ ← بَيْتِي",
+        "hinglish": "Ghar → Mera ghar",
+        "arabic_word": "بَيْتٌ",
+        "arabic_combined": "بَيْتٌ ← بَيْتِي",
+        "hinglish_word": "Ghar",
+        "hinglish_combined": "Ghar → Mera ghar",
+        "title_en": "Zameer-e-Muttasil Mutakallim: بَيْتٌ ← بَيْتِي",
+        "subtitle": "Unit 4 • Lesson 14 (Book Page 31–32)",
+        "transformations": [
+          {
+            "before_ar": "بَيْتٌ",
+            "after_ar": "بَيْتِي",
+            "before_hi": "Ghar",
+            "after_hi": "Mera ghar"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_intro_table",
+      "type": "intro_table",
+      "data": {
+        "title": "S4L14 — Zameer-e-Muttasil Mutakallim: بَيْتٌ ← بَيْتِي: Buniyadi Misaalein",
+        "caption": "S4L14 — Zameer-e-Muttasil Mutakallim: بَيْتٌ ← بَيْتِي: Buniyadi Misaalein",
+        "headers": [
+          "Qism / Halat",
+          "Arabi Misaal",
+          "Hinglish Mafhoom"
+        ],
+        "rows": [
+          [
+            "بَيْتٌ / رَبٌّ + ـِي",
+            "بَيْتِي / رَبِّي",
+            "Mera ghar / Mera Rabb (Yaa se pehle Zair)"
+          ],
+          [
+            "صَلَاةٌ / رَحْمَةٌ + ـِي",
+            "صَلَاتِي / رَحْمَتِي",
+            "Meri namaz / Meri rahmat (Gol ة khul kar تِ ban gayi)"
+          ],
+          [
+            "عَصَا / هُدًى + ـيَ",
+            "عَصَايَ / هُدَايَ / مَحْيَايَ",
+            "Meri laathi / Meri hidayat / Meri zindagi (Alif ke baad ـيَ)"
+          ],
+          [
+            "Ikhtisaar (حذف الياء)",
+            "رَبِّ / يَا قَوْمِ / عِقَابِ",
+            "Aye mere Rabb / Aye meri qom / Mera azaab (sirf Zer baaqi)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sec_s4l14_concept",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u4grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u4grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 4 • LESSON 14</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Zameer-e-Muttasil Mutakallim: بَيْتٌ ← بَيْتِي (Page 31–32)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">بَيْتٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Zameer (ـِي)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">بَيْتِي</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• بَيْتٌ (Ghar) se بَيْتِي (Mera ghar) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Qur'an Majeed mein yeh tarkeeb saikdon maqamaat par barah-e-raast samajh aati hai.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 31–32):** Kisi bhi ism ke aakhir mein **`ـِي`** (Yaa-e-Mutakallim) lagane se **'Mera / Meri'** ka mafhoom paida hota hai (`بَيْتٌ ← بَيْتِي` mera ghar, `رَبٌّ ← رَبِّي` mera Rabb, `هَٰذَا رَبِّي` yeh mera Rabb hai). Agar lafz ke aakhir mein Alif ho toh Yaa par Zabar aata hai (`عَصَايَ`، `هُدَايَ`). Aur ba'az auqaat ikhtisaar ke liye Yaa gira kar sirf Zair baqi rakhi jati hai (`رَبِّ`، `يَا قَوْمِ`، `فَكَيْفَ كَانَ عِقَابِ`).",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u4grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u4grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 4 • LESSON 14</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Zameer-e-Muttasil Mutakallim: بَيْتٌ ← بَيْتِي (Page 31–32)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">بَيْتٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Zameer (ـِي)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">بَيْتِي</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• بَيْتٌ (Ghar) se بَيْتِي (Mera ghar) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Qur'an Majeed mein yeh tarkeeb saikdon maqamaat par barah-e-raast samajh aati hai.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 31–32):** Kisi bhi ism ke aakhir mein **`ـِي`** (Yaa-e-Mutakallim) lagane se **'Mera / Meri'** ka mafhoom paida hota hai (`بَيْتٌ ← بَيْتِي` mera ghar, `رَبٌّ ← رَبِّي` mera Rabb, `هَٰذَا رَبِّي` yeh mera Rabb hai). Agar lafz ke aakhir mein Alif ho toh Yaa par Zabar aata hai (`عَصَايَ`، `هُدَايَ`). Aur ba'az auqaat ikhtisaar ke liye Yaa gira kar sirf Zair baqi rakhi jati hai (`رَبِّ`، `يَا قَوْمِ`، `فَكَيْفَ كَانَ عِقَابِ`).",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u4grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u4grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 4 • LESSON 14</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Zameer-e-Muttasil Mutakallim: بَيْتٌ ← بَيْتِي (Page 31–32)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">بَيْتٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Zameer (ـِي)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">بَيْتِي</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• بَيْتٌ (Ghar) se بَيْتِي (Mera ghar) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Qur'an Majeed mein yeh tarkeeb saikdon maqamaat par barah-e-raast samajh aati hai.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 31–32):** Kisi bhi ism ke aakhir mein **`ـِي`** (Yaa-e-Mutakallim) lagane se **'Mera / Meri'** ka mafhoom paida hota hai (`بَيْتٌ ← بَيْتِي` mera ghar, `رَبٌّ ← رَبِّي` mera Rabb, `هَٰذَا رَبِّي` yeh mera Rabb hai). Agar lafz ke aakhir mein Alif ho toh Yaa par Zabar aata hai (`عَصَايَ`، `هُدَايَ`). Aur ba'az auqaat ikhtisaar ke liye Yaa gira kar sirf Zair baqi rakhi jati hai (`رَبِّ`، `يَا قَوْمِ`، `فَكَيْفَ كَانَ عِقَابِ`)."
+      }
+    },
+    {
+      "id": "sec_s4l14_r0",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Kisi bhi ism (noun) ke aakhir mein Yaa-e Mutakallim (ي) laga dein toh uska matlab hoga 'mera / meri'. Jaise: بَيْتُ (ghar) + ي = بَيْتِي (mera ghar)",
+        "content": "Kisi bhi ism (noun) ke aakhir mein Yaa-e Mutakallim (ي) laga dein toh uska matlab hoga 'mera / meri'. Jaise: بَيْتُ (ghar) + ي = بَيْتِي (mera ghar)",
+        "hinglish_text": "Kisi bhi ism (noun) ke aakhir mein Yaa-e Mutakallim (ي) laga dein toh uska matlab hoga 'mera / meri'. Jaise: بَيْتُ (ghar) + ي = بَيْتِي (mera ghar)"
+      }
+    },
+    {
+      "id": "sec_s4l14_pair_1",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": 1,
+            "arabic": "بَيْتٌ",
+            "hinglish": "Ghar",
+            "is_filled": true,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Ghar",
+              "en": "A house",
+              "ur": "گھر",
+              "hi": "घर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">بَيْتٌ</span>"
+          },
+          {
+            "id": 2,
+            "arabic": "بَيْتِي",
+            "hinglish": "Mera ghar",
+            "is_filled": true,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "بَيْت",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera ghar",
+              "en": "My house",
+              "ur": "میرا گھر",
+              "hi": "मेरा घर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">بَيْتِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 3,
+            "arabic": "رَبٌّ",
+            "hinglish": "Rabb",
+            "is_filled": true,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Rabb",
+              "en": "Lord",
+              "ur": "رب",
+              "hi": "रब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رَبٌّ</span>"
+          },
+          {
+            "id": 4,
+            "arabic": "رَبِّي",
+            "hinglish": "Mera Rabb",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "رَبِّ",
+            "arabic_suffix": "ي",
+            "translations": {
+              "hinglish": "Mera Rabb",
+              "en": "My Lord",
+              "ur": "میرا رب",
+              "hi": "मेरा रब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رَبِّ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 5,
+            "arabic": "رَحْمَةٌ",
+            "hinglish": "Rahmat",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Rahmat",
+              "en": "Mercy",
+              "ur": "رحمت",
+              "hi": "रहमत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رَحْمَةٌ</span>"
+          },
+          {
+            "id": 6,
+            "arabic": "رَحْمَتِي",
+            "hinglish": "Meri rahmat",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "رَحْمَت",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Meri rahmat",
+              "en": "My mercy",
+              "ur": "میری رحمت",
+              "hi": "मेरी रहमत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رَحْمَتِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 7,
+            "arabic": "رَبٌّ",
+            "hinglish": "Rabb",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Rabb",
+              "en": "Lord",
+              "ur": "رب",
+              "hi": "रब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رَبٌّ</span>"
+          },
+          {
+            "id": 8,
+            "arabic": "رَبِّي",
+            "hinglish": "Mera Rabb",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "رَبِّ",
+            "arabic_suffix": "ي",
+            "translations": {
+              "hinglish": "Mera Rabb",
+              "en": "My Lord",
+              "ur": "میرا رب",
+              "hi": "मेरा रब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رَبِّ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 9,
+            "arabic": "صَلَاةٌ",
+            "hinglish": "Namaz",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Namaz",
+              "en": "Prayer",
+              "ur": "نماز",
+              "hi": "नमाज़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">صَلَاةٌ</span>"
+          },
+          {
+            "id": 10,
+            "arabic": "صَلَاتِي",
+            "hinglish": "Meri namaz",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "صَلَات",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Meri namaz",
+              "en": "My prayer",
+              "ur": "میری نماز",
+              "hi": "मेरी नमाज़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">صَلَاتِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 11,
+            "arabic": "قَلْبٌ",
+            "hinglish": "Dil",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Dil",
+              "en": "A heart",
+              "ur": "دل",
+              "hi": "दिल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">قَلْبٌ</span>"
+          },
+          {
+            "id": 12,
+            "arabic": "قَلْبِي",
+            "hinglish": "Mera dil",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "قَلْب",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera dil",
+              "en": "My heart",
+              "ur": "میرا دل",
+              "hi": "मेरा दिल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">قَلْبِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 13,
+            "arabic": "أَرْضٌ",
+            "hinglish": "Zameen",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Zameen",
+              "en": "Land / Earth",
+              "ur": "زمین",
+              "hi": "ज़मीन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">أَرْضٌ</span>"
+          },
+          {
+            "id": 14,
+            "arabic": "أَرْضِي",
+            "hinglish": "Meri zameen",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "أَرْض",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Meri zameen",
+              "en": "My land / My earth",
+              "ur": "میری زمین",
+              "hi": "मेरी ज़मीन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">أَرْضِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 15,
+            "arabic": "غَضَبٌ",
+            "hinglish": "Ghussa",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Ghussa",
+              "en": "Anger / Wrath",
+              "ur": "غصہ",
+              "hi": "ग़ुस्सा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">غَضَبٌ</span>"
+          },
+          {
+            "id": 16,
+            "arabic": "غَضَبِي",
+            "hinglish": "Mera ghussa",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "غَضَب",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera ghussa",
+              "en": "My anger / My wrath",
+              "ur": "میرا غصہ",
+              "hi": "मेरा ग़ुस्सा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">غَضَبِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 17,
+            "arabic": "بَيْتٌ",
+            "hinglish": "Ghar",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Ghar",
+              "en": "A house",
+              "ur": "گھر",
+              "hi": "घर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">بَيْتٌ</span>"
+          },
+          {
+            "id": 18,
+            "arabic": "بَيْتِي",
+            "hinglish": "Mera ghar",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "بَيْت",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera ghar",
+              "en": "My house",
+              "ur": "میرا گھر",
+              "hi": "मेरा घर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">بَيْتِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 19,
+            "arabic": "أَخٌ",
+            "hinglish": "Bhai",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Bhai",
+              "en": "A brother",
+              "ur": "بھائی",
+              "hi": "भाई",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">أَخٌ</span>"
+          },
+          {
+            "id": 20,
+            "arabic": "أَخِي",
+            "hinglish": "Mera bhai",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "أَخ",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera bhai",
+              "en": "My brother",
+              "ur": "میرا بھائی",
+              "hi": "मेरा भाई",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">أَخِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 21,
+            "arabic": "أُمٌّ",
+            "hinglish": "Maa",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Maa",
+              "en": "A mother",
+              "ur": "ماں",
+              "hi": "माँ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">أُمٌّ</span>"
+          },
+          {
+            "id": 22,
+            "arabic": "أُمِّي",
+            "hinglish": "Meri maa",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "أُمِّ",
+            "arabic_suffix": "ي",
+            "translations": {
+              "hinglish": "Meri maa",
+              "en": "My mother",
+              "ur": "میری ماں",
+              "hi": "मेरी माँ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">أُمِّ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 23,
+            "arabic": "رَحْمَةٌ",
+            "hinglish": "Rahmat",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Rahmat",
+              "en": "Mercy",
+              "ur": "رحمت",
+              "hi": "रहमत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رَحْمَةٌ</span>"
+          },
+          {
+            "id": 24,
+            "arabic": "رَحْمَتِي",
+            "hinglish": "Meri rahmat",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "رَحْمَت",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Meri rahmat",
+              "en": "My mercy",
+              "ur": "میری رحمت",
+              "hi": "मेरी रहमत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رَحْمَتِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 25,
+            "arabic": "صِرَاطٌ",
+            "hinglish": "Rasta",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Rasta",
+              "en": "A path",
+              "ur": "راستہ",
+              "hi": "रास्ता",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">صِرَاطٌ</span>"
+          },
+          {
+            "id": 26,
+            "arabic": "صِرَاطِي",
+            "hinglish": "Mera rasta",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "صِرَاط",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera rasta",
+              "en": "My path",
+              "ur": "میرا راستہ",
+              "hi": "मेरा रास्ता",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">صِرَاطِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 27,
+            "arabic": "لِسَانٌ",
+            "hinglish": "Zaban",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Zaban",
+              "en": "A tongue",
+              "ur": "زبان",
+              "hi": "ज़बान",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">لِسَانٌ</span>"
+          },
+          {
+            "id": 28,
+            "arabic": "لِسَانِي",
+            "hinglish": "Meri zaban",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "لِسَان",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Meri zaban",
+              "en": "My tongue",
+              "ur": "میری زبان",
+              "hi": "मेरी ज़बान",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">لِسَانِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 29,
+            "arabic": "رَأْسٌ",
+            "hinglish": "Sar",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Sar",
+              "en": "A head",
+              "ur": "سر",
+              "hi": "सर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رَأْسٌ</span>"
+          },
+          {
+            "id": 30,
+            "arabic": "رَأْسِي",
+            "hinglish": "Mera sar",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "رَأْس",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera sar",
+              "en": "My head",
+              "ur": "میرا سر",
+              "hi": "मेरा सर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رَأْسِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 31,
+            "arabic": "وَلِيٌّ",
+            "hinglish": "Karsaz",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Karsaz",
+              "en": "A protector",
+              "ur": "کارساز",
+              "hi": "कारसाज़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَلِيٌّ</span>"
+          },
+          {
+            "id": 32,
+            "arabic": "وَلِيِّي",
+            "hinglish": "Mera karsaz",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "وَلِيِّ",
+            "arabic_suffix": "ي",
+            "translations": {
+              "hinglish": "Mera karsaz",
+              "en": "My protector",
+              "ur": "میرا کارساز",
+              "hi": "मेरा कारसाज़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَلِيِّ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 33,
+            "arabic": "رَسُولٌ",
+            "hinglish": "Rasool",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Rasool",
+              "en": "A messenger",
+              "ur": "رسول",
+              "hi": "रसूल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رَسُولٌ</span>"
+          },
+          {
+            "id": 34,
+            "arabic": "رَسُولِي",
+            "hinglish": "Mera Rasool",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "رَسُول",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera Rasool",
+              "en": "My messenger",
+              "ur": "میرا رسول",
+              "hi": "मेरा रसूल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رَسُولِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 35,
+            "arabic": "ذِكْرٌ",
+            "hinglish": "Zikr",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Zikr",
+              "en": "A remembrance",
+              "ur": "ذکر",
+              "hi": "ज़िक्र",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">ذِكْرٌ</span>"
+          },
+          {
+            "id": 36,
+            "arabic": "ذِكْرِي",
+            "hinglish": "Mera zikr",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "ذِكْر",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera zikr",
+              "en": "My remembrance",
+              "ur": "میرا ذکر",
+              "hi": "मेरा ज़िक्र",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">ذِكْرِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 37,
+            "arabic": "نَفْسٌ",
+            "hinglish": "Nafs",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Nafs",
+              "en": "A soul",
+              "ur": "نفس",
+              "hi": "नफ़्स",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">نَفْسٌ</span>"
+          },
+          {
+            "id": 38,
+            "arabic": "نَفْسِي",
+            "hinglish": "Mera nafs",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "نَفْس",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera nafs",
+              "en": "My soul",
+              "ur": "میرا نفس",
+              "hi": "मेरा नफ़्स",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">نَفْسِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 39,
+            "arabic": "قَوْمٌ",
+            "hinglish": "Qom",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Qom",
+              "en": "A people",
+              "ur": "قوم",
+              "hi": "क़ौम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">قَوْمٌ</span>"
+          },
+          {
+            "id": 40,
+            "arabic": "قَوْمِي",
+            "hinglish": "Meri qom",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "قَوْم",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Meri qom",
+              "en": "My people",
+              "ur": "میری قوم",
+              "hi": "मेरी क़ौम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">قَوْمِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 41,
+            "arabic": "عَذَابٌ",
+            "hinglish": "Azab",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Azab",
+              "en": "Punishment",
+              "ur": "عذاب",
+              "hi": "अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَذَابٌ</span>"
+          },
+          {
+            "id": 42,
+            "arabic": "عَذَابِي",
+            "hinglish": "Mera azab",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "عَذَاب",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera azab",
+              "en": "My punishment",
+              "ur": "میرا عذاب",
+              "hi": "मेरा अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَذَابِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 43,
+            "arabic": "أَهْلٌ",
+            "hinglish": "Ghar-wale",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Ghar-wale",
+              "en": "Family",
+              "ur": "گھر والے",
+              "hi": "घर-वाले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">أَهْلٌ</span>"
+          },
+          {
+            "id": 44,
+            "arabic": "أَهْلِي",
+            "hinglish": "Mere ghar-wale",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "أَهْل",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mere ghar-wale",
+              "en": "My family",
+              "ur": "میرے گھر والے",
+              "hi": "मेरे घर-वाले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">أَهْلِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 45,
+            "arabic": "أَبٌ",
+            "hinglish": "Baap",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Baap",
+              "en": "A father",
+              "ur": "باپ",
+              "hi": "बाप",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">أَبٌ</span>"
+          },
+          {
+            "id": 46,
+            "arabic": "أَبِي",
+            "hinglish": "Mere baap",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "أَب",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mere baap",
+              "en": "My father",
+              "ur": "میرے باپ",
+              "hi": "मेरे बाप",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">أَبِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 47,
+            "arabic": "بَعْلٌ",
+            "hinglish": "Shohar",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Shohar",
+              "en": "A husband",
+              "ur": "شوہر",
+              "hi": "शौहर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">بَعْلٌ</span>"
+          },
+          {
+            "id": 48,
+            "arabic": "بَعْلِي",
+            "hinglish": "Mera shohar",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "بَعْل",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera shohar",
+              "en": "My husband",
+              "ur": "میرا شوہر",
+              "hi": "मेरा शौहर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">بَعْلِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 49,
+            "arabic": "نِعْمَةٌ",
+            "hinglish": "Ne'mat",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Ne'mat",
+              "en": "A favor / blessing",
+              "ur": "نعمت",
+              "hi": "नेअमत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">نِعْمَةٌ</span>"
+          },
+          {
+            "id": 50,
+            "arabic": "نِعْمَتِي",
+            "hinglish": "Meri ne'mat",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "نِعْمَت",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Meri ne'mat",
+              "en": "My favor / My blessing",
+              "ur": "میری نعمت",
+              "hi": "मेरी नेअमत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">نِعْمَتِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 51,
+            "arabic": "سَبِيلٌ",
+            "hinglish": "Rasta",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Rasta",
+              "en": "A way / path",
+              "ur": "راستہ",
+              "hi": "रास्ता",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">سَبِيلٌ</span>"
+          },
+          {
+            "id": 52,
+            "arabic": "سَبِيلِي",
+            "hinglish": "Mera rasta",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "سَبِيل",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera rasta",
+              "en": "My way",
+              "ur": "میرا راستہ",
+              "hi": "मेरा रास्ता",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">سَبِيلِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 53,
+            "arabic": "بَطْنٌ",
+            "hinglish": "Pet",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Pet",
+              "en": "A belly / womb",
+              "ur": "پیٹ",
+              "hi": "पेट",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">بَطْنٌ</span>"
+          },
+          {
+            "id": 54,
+            "arabic": "بَطْنِي",
+            "hinglish": "Mera pet",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "بَطْن",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera pet",
+              "en": "My belly / My womb",
+              "ur": "میرا پیٹ",
+              "hi": "मेरा पेट",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">بَطْنِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 55,
+            "arabic": "وَجْهٌ",
+            "hinglish": "Chehra",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Chehra",
+              "en": "A face",
+              "ur": "چہرا",
+              "hi": "चेहरा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَجْهٌ</span>"
+          },
+          {
+            "id": 56,
+            "arabic": "وَجْهِي",
+            "hinglish": "Mera chehra",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "وَجْه",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera chehra",
+              "en": "My face",
+              "ur": "میرا چہرہ",
+              "hi": "मेरा चेहरा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَجْهِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 57,
+            "arabic": "عَدُوٌّ",
+            "hinglish": "Dushman",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Dushman",
+              "en": "An enemy",
+              "ur": "دشمن",
+              "hi": "दुश्मन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَدُوٌّ</span>"
+          },
+          {
+            "id": 58,
+            "arabic": "عَدُوِّي",
+            "hinglish": "Mera dushman",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "عَدُوِّ",
+            "arabic_suffix": "ي",
+            "translations": {
+              "hinglish": "Mera dushman",
+              "en": "My enemy",
+              "ur": "میرا دشمن",
+              "hi": "मेरा दुश्मन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَدُوِّ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 59,
+            "arabic": "دِينٌ",
+            "hinglish": "Deen",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Deen",
+              "en": "Religion",
+              "ur": "دین",
+              "hi": "दीन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">دِينٌ</span>"
+          },
+          {
+            "id": 60,
+            "arabic": "دِينِي",
+            "hinglish": "Mera deen",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "دِين",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera deen",
+              "en": "My religion",
+              "ur": "میرا دین",
+              "hi": "मेरा दीन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">دِينِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 61,
+            "arabic": "عِبَادَةٌ",
+            "hinglish": "Ibadat",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Ibadat",
+              "en": "Worship",
+              "ur": "عبادت",
+              "hi": "इबादत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عِبَادَةٌ</span>"
+          },
+          {
+            "id": 62,
+            "arabic": "عِبَادَتِي",
+            "hinglish": "Meri ibadat",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "عِبَادَت",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Meri ibadat",
+              "en": "My worship",
+              "ur": "میری عبادت",
+              "hi": "मेरी इबादत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عِبَادَتِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 63,
+            "arabic": "رُوحٌ",
+            "hinglish": "Rooh",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Rooh",
+              "en": "A spirit / soul",
+              "ur": "روح",
+              "hi": "रूह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رُوحٌ</span>"
+          },
+          {
+            "id": 64,
+            "arabic": "رُوحِي",
+            "hinglish": "Meri rooh",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "رُوح",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Meri rooh",
+              "en": "My spirit / My soul",
+              "ur": "میری روح",
+              "hi": "मेरी रूह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رُوحِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 65,
+            "arabic": "أَمْرٌ",
+            "hinglish": "Hukm",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Hukm",
+              "en": "A command",
+              "ur": "حکم",
+              "hi": "हुक्म",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">أَمْرٌ</span>"
+          },
+          {
+            "id": 66,
+            "arabic": "أَمْرِي",
+            "hinglish": "Mera hukm",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "أَمْر",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera hukm",
+              "en": "My command",
+              "ur": "میرا حکم",
+              "hi": "मेरा हुक्म",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">أَمْرِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 67,
+            "arabic": "لَعْنَةٌ",
+            "hinglish": "La'nat",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "La'nat",
+              "en": "A curse",
+              "ur": "لعنت",
+              "hi": "लानत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">لَعْنَةٌ</span>"
+          },
+          {
+            "id": 68,
+            "arabic": "لَعْنَتِي",
+            "hinglish": "Meri la'nat",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "لَعْنَت",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Meri la'nat",
+              "en": "My curse",
+              "ur": "میری لعنت",
+              "hi": "मेरी लानत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">لَعْنَتِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 69,
+            "arabic": "ذُرِّيَّةٌ",
+            "hinglish": "Aulad",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Aulad",
+              "en": "Offspring",
+              "ur": "اولاد",
+              "hi": "औलाद",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">ذُرِّيَّةٌ</span>"
+          },
+          {
+            "id": 70,
+            "arabic": "ذُرِّيَّتِي",
+            "hinglish": "Meri aulad",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "ذُرِّيَّت",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Meri aulad",
+              "en": "My offspring",
+              "ur": "میری اولاد",
+              "hi": "मेरी औलाद",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">ذُرِّيَّتِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 71,
+            "arabic": "ابْنٌ",
+            "hinglish": "Beta",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Beta",
+              "en": "A son",
+              "ur": "بیٹا",
+              "hi": "बेटा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">ابْنٌ</span>"
+          },
+          {
+            "id": 72,
+            "arabic": "ابْنِي",
+            "hinglish": "Mera beta",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "ابْن",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera beta",
+              "en": "My son",
+              "ur": "میرا بیٹا",
+              "hi": "मेरा बेटा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">ابْنِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 73,
+            "arabic": "إِثْمٌ",
+            "hinglish": "Gunah",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Gunah",
+              "en": "A sin",
+              "ur": "گناہ",
+              "hi": "गुनाह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِثْمٌ</span>"
+          },
+          {
+            "id": 74,
+            "arabic": "إِثْمِي",
+            "hinglish": "Mera gunah",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "إِثْم",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera gunah",
+              "en": "My sin",
+              "ur": "میرا گناہ",
+              "hi": "मेरा गुनाह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِثْمِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 75,
+            "arabic": "جَنَّةٌ",
+            "hinglish": "Jannat",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Jannat",
+              "en": "A paradise",
+              "ur": "جنت",
+              "hi": "जन्नत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">جَنَّةٌ</span>"
+          },
+          {
+            "id": 76,
+            "arabic": "جَنَّتِي",
+            "hinglish": "Meri jannat",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "جَنَّت",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Meri jannat",
+              "en": "My paradise",
+              "ur": "میری جنت",
+              "hi": "मेरी जन्नत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">جَنَّتِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 77,
+            "arabic": "كَيْدٌ",
+            "hinglish": "Tadbeer",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Tadbeer",
+              "en": "A plot / plan",
+              "ur": "تدبیر",
+              "hi": "तदबीर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">كَيْدٌ</span>"
+          },
+          {
+            "id": 78,
+            "arabic": "كَيْدِي",
+            "hinglish": "Meri tadbeer",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "كَيْد",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Meri tadbeer",
+              "en": "My plot / My plan",
+              "ur": "میری تدبیر",
+              "hi": "मेरी तदबीर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">كَيْدِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 79,
+            "arabic": "عَيْنٌ",
+            "hinglish": "Aankh",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Aankh",
+              "en": "An eye",
+              "ur": "آنکھ",
+              "hi": "आँख",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَيْنٌ</span>"
+          },
+          {
+            "id": 80,
+            "arabic": "عَيْنِي",
+            "hinglish": "Meri aankh",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "عَيْن",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Meri aankh",
+              "en": "My eye",
+              "ur": "میری آنکھ",
+              "hi": "मेरी आँख",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَيْنِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 81,
+            "arabic": "يَدٌ",
+            "hinglish": "Haath",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Haath",
+              "en": "A hand",
+              "ur": "ہاتھ",
+              "hi": "हाथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">يَدٌ</span>"
+          },
+          {
+            "id": 82,
+            "arabic": "يَدِي",
+            "hinglish": "Mera haath",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "يَد",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera haath",
+              "en": "My hand",
+              "ur": "میرا ہاتھ",
+              "hi": "मेरा हाथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">يَدِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 83,
+            "arabic": "حَسْبٌ",
+            "hinglish": "Sahara",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Sahara",
+              "en": "Reliance / Sufficient",
+              "ur": "سہارا",
+              "hi": "सहारा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">حَسْبٌ</span>"
+          },
+          {
+            "id": 84,
+            "arabic": "حَسْبِي",
+            "hinglish": "Mera sahara",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "حَسْب",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera sahara",
+              "en": "My reliance / Sufficient for me",
+              "ur": "میرا سہارا",
+              "hi": "मेरा सहारा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">حَسْبِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 85,
+            "arabic": "رُؤْيَا",
+            "hinglish": "Khwab",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Khwab",
+              "en": "A vision / dream",
+              "ur": "خواب",
+              "hi": "ख़्वाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رُؤْيَا</span>"
+          },
+          {
+            "id": 86,
+            "arabic": "رُؤْيَايَ",
+            "hinglish": "Mera khwab",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "رُؤْيَايَ",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Mera khwab",
+              "en": "My vision / My dream",
+              "ur": "میرا خواب",
+              "hi": "मेरा ख़्वाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رُؤْيَا</span><span class=\"nonroot\">يَ</span>"
+          },
+          {
+            "id": 87,
+            "arabic": "كِتَابٌ",
+            "hinglish": "Kitab",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Kitab",
+              "en": "A book / record",
+              "ur": "کتاب",
+              "hi": "किताब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">كِتَابٌ</span>"
+          },
+          {
+            "id": 88,
+            "arabic": "كِتَابِي",
+            "hinglish": "Meri kitab",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "كِتَاب",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Meri kitab",
+              "en": "My book / My record",
+              "ur": "میری کتاب",
+              "hi": "मेरी किताब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">كِتَابِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 89,
+            "arabic": "عَمَلٌ",
+            "hinglish": "Amal",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Amal",
+              "en": "A deed",
+              "ur": "عمل",
+              "hi": "अमल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَمَلٌ</span>"
+          },
+          {
+            "id": 90,
+            "arabic": "عَمَلِي",
+            "hinglish": "Mera amal",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "عَمَل",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera amal",
+              "en": "My deed",
+              "ur": "میرا عمل",
+              "hi": "मेरा अमल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَمَلِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 91,
+            "arabic": "نُصْحٌ",
+            "hinglish": "Naseehat",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Naseehat",
+              "en": "Advice / counsel",
+              "ur": "نصیحت",
+              "hi": "नसीहत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">نُصْحٌ</span>"
+          },
+          {
+            "id": 92,
+            "arabic": "نُصْحِي",
+            "hinglish": "Meri naseehat",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "نُصْح",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Meri naseehat",
+              "en": "My advice / My counsel",
+              "ur": "میری نصیحت",
+              "hi": "मेरी नसीहत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">نُصْحِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 93,
+            "arabic": "عَصَا",
+            "hinglish": "Lathi",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Lathi",
+              "en": "A staff",
+              "ur": "لاٹھی",
+              "hi": "लाठी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَصَا</span>"
+          },
+          {
+            "id": 94,
+            "arabic": "عَصَايَ",
+            "hinglish": "Meri lathi",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "عَصَايَ",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Meri lathi",
+              "en": "My staff",
+              "ur": "میری لاٹھی",
+              "hi": "मेरी लाठी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَصَا</span><span class=\"nonroot\">يَ</span>"
+          },
+          {
+            "id": 95,
+            "arabic": "رِسَالَةٌ",
+            "hinglish": "Paigham",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Paigham",
+              "en": "A message",
+              "ur": "پیغام",
+              "hi": "पैग़ाम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رِسَالَةٌ</span>"
+          },
+          {
+            "id": 96,
+            "arabic": "رِسَالَاتِي",
+            "hinglish": "Mere paighamaat",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "رِسَالَات",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mere paighamaat",
+              "en": "My messages",
+              "ur": "میرے پیغامات",
+              "hi": "मेरे पैग़ामात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رِسَالَاتِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 97,
+            "arabic": "قَوْلٌ",
+            "hinglish": "Baat",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Baat",
+              "en": "Speech / word",
+              "ur": "بات",
+              "hi": "बात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">قَوْلٌ</span>"
+          },
+          {
+            "id": 98,
+            "arabic": "قَوْلِي",
+            "hinglish": "Meri baat",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "قَوْل",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Meri baat",
+              "en": "My speech / My word",
+              "ur": "میری بات",
+              "hi": "मेरी बात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">قَوْلِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 99,
+            "arabic": "تَذْكِيرٌ",
+            "hinglish": "Yaad-dihani",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Yaad-dihani",
+              "en": "A reminder",
+              "ur": "یاد دہانی",
+              "hi": "याद-दहानी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">تَذْكِيرٌ</span>"
+          },
+          {
+            "id": 100,
+            "arabic": "تَذْكِيرِي",
+            "hinglish": "Meri yaad-dihani",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "تَذْكِير",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Meri yaad-dihani",
+              "en": "My reminder",
+              "ur": "میری یاد دہانی",
+              "hi": "मेरी याद-दहानी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">تَذْكِيرِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 101,
+            "arabic": "حَيَاةٌ",
+            "hinglish": "Zindagi",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Zindagi",
+              "en": "Life",
+              "ur": "زندگی",
+              "hi": "ज़िंदगी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">حَيَاةٌ</span>"
+          },
+          {
+            "id": 102,
+            "arabic": "حَيَاتِي",
+            "hinglish": "Meri zindagi",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "حَيَات",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Meri zindagi",
+              "en": "My life",
+              "ur": "میری زندگی",
+              "hi": "मेरी ज़िंदगी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">حَيَاتِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 103,
+            "arabic": "آيَاتٌ",
+            "hinglish": "Nishaniyan",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Nishaniyan",
+              "en": "Signs",
+              "ur": "نشانیاں",
+              "hi": "निशानियाँ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">آيَاتٌ</span>"
+          },
+          {
+            "id": 104,
+            "arabic": "آيَاتِي",
+            "hinglish": "Meri nishaniyan",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "آيَات",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Meri nishaniyan",
+              "en": "My signs",
+              "ur": "میری نشانیاں",
+              "hi": "मेरी निशानियाँ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">آيَاتِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 105,
+            "arabic": "كَلَامٌ",
+            "hinglish": "Kalaam",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Kalaam",
+              "en": "Words / speech",
+              "ur": "کلام",
+              "hi": "कलाम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">كَلَامٌ</span>"
+          },
+          {
+            "id": 106,
+            "arabic": "كَلَامِي",
+            "hinglish": "Mera kalaam",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "كَلَام",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera kalaam",
+              "en": "My words / My speech",
+              "ur": "میرا کلام",
+              "hi": "मेरा कलाम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">كَلَامِ</span><span class=\"nonroot\">ي</span>"
+          },
+          {
+            "id": 107,
+            "arabic": "إِجْرَامٌ",
+            "hinglish": "Jurm",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "root",
+            "arabic_suffix": "",
+            "translations": {
+              "hinglish": "Jurm",
+              "en": "A crime / guilt",
+              "ur": "جرم",
+              "hi": "जुर्म",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِجْرَامٌ</span>"
+          },
+          {
+            "id": 108,
+            "arabic": "إِجْرَامِي",
+            "hinglish": "Mera jurm",
+            "is_filled": false,
+            "display_mode": "paired",
+            "pair_role": "derived",
+            "arabic_root": "إِجْرَام",
+            "arabic_suffix": "ِي",
+            "translations": {
+              "hinglish": "Mera jurm",
+              "en": "My crime / My guilt",
+              "ur": "میرا جرم",
+              "hi": "मेरा जुर्म",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِجْرَامِ</span><span class=\"nonroot\">ي</span>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s4l14_g2",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s4l14_g2_w1",
+            "arabic": "رَبِّ",
+            "arabic_text": "رَبِّ",
+            "arabic_markup": "<span class=\"arabic-root\">رَ</span><span class=\"nonroot\">بِّ</span>",
+            "hinglish": "Mera Rabb",
+            "hinglish_meaning": "Mera Rabb",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Mera Rabb",
+              "en": "My Lord",
+              "ur": "میرا رب",
+              "hi": "मेरा रब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_g2_w2",
+            "arabic": "قَوْمِ",
+            "arabic_text": "قَوْمِ",
+            "arabic_markup": "<span class=\"arabic-root\">قَوْ</span><span class=\"nonroot\">مِ</span>",
+            "hinglish": "Meri qom",
+            "hinglish_meaning": "Meri qom",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Meri qom",
+              "en": "My people",
+              "ur": "میری قوم",
+              "hi": "मेरी क़ौम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_g2_w3",
+            "arabic": "نَذِيرِ",
+            "arabic_text": "نَذِيرِ",
+            "arabic_markup": "<span class=\"arabic-root\">نَذِي</span><span class=\"nonroot\">رِ</span>",
+            "hinglish": "Mera darawa",
+            "hinglish_meaning": "Mera darawa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Mera darawa",
+              "en": "My warning",
+              "ur": "میرا ڈراوا",
+              "hi": "मेरा डरावा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_g2_w4",
+            "arabic": "وَعِيدِ",
+            "arabic_text": "وَعِيدِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَعِي</span><span class=\"nonroot\">دِ</span>",
+            "hinglish": "Meri dhamki",
+            "hinglish_meaning": "Meri dhamki",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Meri dhamki",
+              "en": "My threat",
+              "ur": "میری دھمکی",
+              "hi": "मेरी धमकी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_g2_w5",
+            "arabic": "عِقَابِ",
+            "arabic_text": "عِقَابِ",
+            "arabic_markup": "<span class=\"arabic-root\">عِقَا</span><span class=\"nonroot\">بِ</span>",
+            "hinglish": "Meri pakad Meri saza",
+            "hinglish_meaning": "Meri pakad Meri saza",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Meri pakad Meri saza",
+              "en": "My retribution / My punishment",
+              "ur": "میری پکڑ میری سزا",
+              "hi": "मेरी पकड़ मेरी सज़ा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s4l14_s_lbl",
+      "type": "section_label",
+      "data": {
+        "text": "Section 3 (Page 32): بَيْتِي / رَبِّي se Banne wale Qur'ani Jumle aur Aayaat (1–27)",
+        "title": "Section 3 (Page 32): بَيْتِي / رَبِّي se Banne wale Qur'ani Jumle aur Aayaat (1–27)",
+        "label": "Section 3 (Page 32): بَيْتِي / رَبِّي se Banne wale Qur'ani Jumle aur Aayaat (1–27)"
+      }
+    },
+    {
+      "id": "sec_s4l14_sent",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s4l14_sent_s1",
+            "sentence_number": 1,
+            "arabic": "هَٰذَا رَبِّي",
+            "arabic_text": "هَٰذَا رَبِّي",
+            "arabic_markup": "<span class=\"nonroot\">هَٰذَا</span> <span class=\"arabic-root\">رَبِّي</span>",
+            "hinglish": "Yeh mera Rabb hai",
+            "hinglish_meaning": "Yeh mera Rabb hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yeh mera Rabb hai",
+              "ur": "Yeh mera Rabb hai",
+              "en": "Yeh mera Rabb hai",
+              "hi": "Yeh mera Rabb hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s2",
+            "sentence_number": 2,
+            "arabic": "هُوَ رَبِّي",
+            "arabic_text": "هُوَ رَبِّي",
+            "arabic_markup": "<span class=\"nonroot\">هُوَ</span> <span class=\"arabic-root\">رَبِّي</span>",
+            "hinglish": "Woh mera Rabb hai",
+            "hinglish_meaning": "Woh mera Rabb hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh mera Rabb hai",
+              "ur": "Woh mera Rabb hai",
+              "en": "Woh mera Rabb hai",
+              "hi": "Woh mera Rabb hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s3",
+            "sentence_number": 3,
+            "arabic": "أَنْتَ وَلِيِّي",
+            "arabic_text": "أَنْتَ وَلِيِّي",
+            "arabic_markup": "<span class=\"nonroot\">أَنْتَ</span> <span class=\"arabic-root\">وَلِيِّي</span>",
+            "hinglish": "Tu mera karsaaz (dost) hai",
+            "hinglish_meaning": "Tu mera karsaaz (dost) hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu mera karsaaz (dost) hai",
+              "ur": "Tu mera karsaaz (dost) hai",
+              "en": "Tu mera karsaaz (dost) hai",
+              "hi": "Tu mera karsaaz (dost) hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s4",
+            "sentence_number": 4,
+            "arabic": "وَهَٰذَا بَعْلِي",
+            "arabic_text": "وَهَٰذَا بَعْلِي",
+            "arabic_markup": "<span class=\"arabic-root\">وَهَٰذَا</span> <span class=\"arabic-root\">بَعْلِي</span>",
+            "hinglish": "Aur yeh mere shauhar hain",
+            "hinglish_meaning": "Aur yeh mere shauhar hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur yeh mere shauhar hain",
+              "ur": "Aur yeh mere shauhar hain",
+              "en": "Aur yeh mere shauhar hain",
+              "hi": "Aur yeh mere shauhar hain",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s5",
+            "sentence_number": 5,
+            "arabic": "وَهَٰذَا أَخِي",
+            "arabic_text": "وَهَٰذَا أَخِي",
+            "arabic_markup": "<span class=\"arabic-root\">وَهَٰذَا</span> <span class=\"arabic-root\">أَخِي</span>",
+            "hinglish": "Aur yeh mera bhai hai",
+            "hinglish_meaning": "Aur yeh mera bhai hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur yeh mera bhai hai",
+              "ur": "Aur yeh mera bhai hai",
+              "en": "Aur yeh mera bhai hai",
+              "hi": "Aur yeh mera bhai hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s6",
+            "sentence_number": 6,
+            "arabic": "إِنَّ هَٰذَا أَخِي",
+            "arabic_text": "إِنَّ هَٰذَا أَخِي",
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"nonroot\">هَٰذَا</span> <span class=\"arabic-root\">أَخِي</span>",
+            "hinglish": "Beshak yeh mera bhai hai",
+            "hinglish_meaning": "Beshak yeh mera bhai hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak yeh mera bhai hai",
+              "ur": "Beshak yeh mera bhai hai",
+              "en": "Beshak yeh mera bhai hai",
+              "hi": "Beshak yeh mera bhai hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s7",
+            "sentence_number": 7,
+            "arabic": "رَبِّي أَعْلَمُ",
+            "arabic_text": "رَبِّي أَعْلَمُ",
+            "arabic_markup": "<span class=\"arabic-root\">رَبِّي</span> <span class=\"arabic-root\">أَعْلَمُ</span>",
+            "hinglish": "Mera Rabb khoob jaanta hai",
+            "hinglish_meaning": "Mera Rabb khoob jaanta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Mera Rabb khoob jaanta hai",
+              "ur": "Mera Rabb khoob jaanta hai",
+              "en": "Mera Rabb khoob jaanta hai",
+              "hi": "Mera Rabb khoob jaanta hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s8",
+            "sentence_number": 8,
+            "arabic": "هُوَ اللَّهُ رَبِّي",
+            "arabic_text": "هُوَ اللَّهُ رَبِّي",
+            "arabic_markup": "<span class=\"nonroot\">هُوَ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">رَبِّي</span>",
+            "hinglish": "Wohi Allah mera Rabb hai",
+            "hinglish_meaning": "Wohi Allah mera Rabb hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Wohi Allah mera Rabb hai",
+              "ur": "Wohi Allah mera Rabb hai",
+              "en": "Wohi Allah mera Rabb hai",
+              "hi": "Wohi Allah mera Rabb hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s9",
+            "sentence_number": 9,
+            "arabic": "حَسْبِيَ اللَّهُ",
+            "arabic_text": "حَسْبِيَ اللَّهُ",
+            "arabic_markup": "<span class=\"arabic-root\">حَسْبِيَ</span> <span class=\"arabic-root\">اللَّهُ</span>",
+            "hinglish": "Mere liye Allah kaafi hai",
+            "hinglish_meaning": "Mere liye Allah kaafi hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Mere liye Allah kaafi hai",
+              "ur": "Mere liye Allah kaafi hai",
+              "en": "Mere liye Allah kaafi hai",
+              "hi": "Mere liye Allah kaafi hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s10",
+            "sentence_number": 10,
+            "arabic": "هِيَ عَصَايَ",
+            "arabic_text": "هِيَ عَصَايَ",
+            "arabic_markup": "<span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">عَصَايَ</span>",
+            "hinglish": "Yeh meri laathi hai",
+            "hinglish_meaning": "Yeh meri laathi hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yeh meri laathi hai",
+              "ur": "Yeh meri laathi hai",
+              "en": "Yeh meri laathi hai",
+              "hi": "Yeh meri laathi hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s11",
+            "sentence_number": 11,
+            "arabic": "وَإِنَّ عَلَيْكَ لَعْنَتِي",
+            "arabic_text": "وَإِنَّ عَلَيْكَ لَعْنَتِي",
+            "arabic_markup": "<span class=\"arabic-root\">وَإِنَّ</span> <span class=\"nonroot\">عَلَيْكَ</span> <span class=\"arabic-root\">لَعْنَتِي</span>",
+            "hinglish": "Aur beshak tujh par Meri la'nat hai",
+            "hinglish_meaning": "Aur beshak tujh par Meri la'nat hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur beshak tujh par Meri la'nat hai",
+              "ur": "Aur beshak tujh par Meri la'nat hai",
+              "en": "Aur beshak tujh par Meri la'nat hai",
+              "hi": "Aur beshak tujh par Meri la'nat hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s12",
+            "sentence_number": 12,
+            "arabic": "هَٰذَا رَبِّي هَٰذَا أَكْبَرُ",
+            "arabic_text": "هَٰذَا رَبِّي هَٰذَا أَكْبَرُ",
+            "arabic_markup": "<span class=\"nonroot\">هَٰذَا</span> <span class=\"arabic-root\">رَبِّي</span> <span class=\"nonroot\">هَٰذَا</span> <span class=\"arabic-root\">أَكْبَرُ</span>",
+            "hinglish": "Yeh mera Rabb hai, yeh sabse bada hai",
+            "hinglish_meaning": "Yeh mera Rabb hai, yeh sabse bada hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yeh mera Rabb hai, yeh sabse bada hai",
+              "ur": "Yeh mera Rabb hai, yeh sabse bada hai",
+              "en": "Yeh mera Rabb hai, yeh sabse bada hai",
+              "hi": "Yeh mera Rabb hai, yeh sabse bada hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s13",
+            "sentence_number": 13,
+            "arabic": "أَنَا يُوسُفُ وَهَٰذَا أَخِي",
+            "arabic_text": "أَنَا يُوسُفُ وَهَٰذَا أَخِي",
+            "arabic_markup": "<span class=\"nonroot\">أَنَا</span> <span class=\"arabic-root\">يُوسُفُ</span> <span class=\"arabic-root\">وَهَٰذَا</span> <span class=\"arabic-root\">أَخِي</span>",
+            "hinglish": "Main Yusuf hoon aur yeh mera bhai hai",
+            "hinglish_meaning": "Main Yusuf hoon aur yeh mera bhai hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Main Yusuf hoon aur yeh mera bhai hai",
+              "ur": "Main Yusuf hoon aur yeh mera bhai hai",
+              "en": "Main Yusuf hoon aur yeh mera bhai hai",
+              "hi": "Main Yusuf hoon aur yeh mera bhai hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s14",
+            "sentence_number": 14,
+            "arabic": "وَأَنَا عَجُوزٌ وَهَٰذَا بَعْلِي",
+            "arabic_text": "وَأَنَا عَجُوزٌ وَهَٰذَا بَعْلِي",
+            "arabic_markup": "<span class=\"arabic-root\">وَأ</span><span class=\"nonroot\">َنَا</span> <span class=\"arabic-root\">عَجُوزٌ</span> <span class=\"arabic-root\">وَهَٰذَا</span> <span class=\"arabic-root\">بَعْلِي</span>",
+            "hinglish": "Aur main boodhi hoon aur yeh mere shauhar hain",
+            "hinglish_meaning": "Aur main boodhi hoon aur yeh mere shauhar hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur main boodhi hoon aur yeh mere shauhar hain",
+              "ur": "Aur main boodhi hoon aur yeh mere shauhar hain",
+              "en": "Aur main boodhi hoon aur yeh mere shauhar hain",
+              "hi": "Aur main boodhi hoon aur yeh mere shauhar hain",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s15",
+            "sentence_number": 15,
+            "arabic": "أَنْتَ وَلِيِّي فِي الدُّنْيَا وَالْآخِرَةِ",
+            "arabic_text": "أَنْتَ وَلِيِّي فِي الدُّنْيَا وَالْآخِرَةِ",
+            "arabic_markup": "<span class=\"nonroot\">أَنْتَ</span> <span class=\"arabic-root\">وَلِيِّي</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الدُّنْيَا</span> <span class=\"arabic-root\">وَالْآخِرَةِ</span>",
+            "hinglish": "Tu hi duniya aur aakhirat mein mera karsaaz hai",
+            "hinglish_meaning": "Tu hi duniya aur aakhirat mein mera karsaaz hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu hi duniya aur aakhirat mein mera karsaaz hai",
+              "ur": "Tu hi duniya aur aakhirat mein mera karsaaz hai",
+              "en": "Tu hi duniya aur aakhirat mein mera karsaaz hai",
+              "hi": "Tu hi duniya aur aakhirat mein mera karsaaz hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s16",
+            "sentence_number": 16,
+            "arabic": "وَأَنَّ هَٰذَا صِرَاطِي مُسْتَقِيمًا",
+            "arabic_text": "وَأَنَّ هَٰذَا صِرَاطِي مُسْتَقِيمًا",
+            "arabic_markup": "<span class=\"arabic-root\">وَأَنَّ</span> <span class=\"nonroot\">هَٰذَا</span> <span class=\"arabic-root\">صِرَاطِي</span> <span class=\"arabic-root\">مُسْتَقِيمًا</span>",
+            "hinglish": "Aur yeh ke yahi Mera seedha raasta hai",
+            "hinglish_meaning": "Aur yeh ke yahi Mera seedha raasta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur yeh ke yahi Mera seedha raasta hai",
+              "ur": "Aur yeh ke yahi Mera seedha raasta hai",
+              "en": "Aur yeh ke yahi Mera seedha raasta hai",
+              "hi": "Aur yeh ke yahi Mera seedha raasta hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s17",
+            "sentence_number": 17,
+            "arabic": "وَإِنَّ عَلَيْكَ لَعْنَتِي إِلَىٰ يَوْمِ الدِّينِ",
+            "arabic_text": "وَإِنَّ عَلَيْكَ لَعْنَتِي إِلَىٰ يَوْمِ الدِّينِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَإِنَّ</span> <span class=\"nonroot\">عَلَيْكَ</span> <span class=\"arabic-root\">لَعْنَتِي</span> <span class=\"nonroot\">إِلَىٰ</span> <span class=\"arabic-root\">يَوْمِ</span> <span class=\"arabic-root\">الدِّينِ</span>",
+            "hinglish": "Aur beshak tujh par jaza ke din tak Meri la'nat hai",
+            "hinglish_meaning": "Aur beshak tujh par jaza ke din tak Meri la'nat hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur beshak tujh par jaza ke din tak Meri la'nat hai",
+              "ur": "Aur beshak tujh par jaza ke din tak Meri la'nat hai",
+              "en": "Aur beshak tujh par jaza ke din tak Meri la'nat hai",
+              "hi": "Aur beshak tujh par jaza ke din tak Meri la'nat hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s18",
+            "sentence_number": 18,
+            "arabic": "عِنْدِي خَزَائِنُ اللَّهِ",
+            "arabic_text": "عِنْدِي خَزَائِنُ اللَّهِ",
+            "arabic_markup": "<span class=\"arabic-root\">عِنْدِي</span> <span class=\"arabic-root\">خَزَائِنُ</span> <span class=\"arabic-root\">اللَّهِ</span>",
+            "hinglish": "Mere paas Allah ke khazane hain",
+            "hinglish_meaning": "Mere paas Allah ke khazane hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Mere paas Allah ke khazane hain",
+              "ur": "Mere paas Allah ke khazane hain",
+              "en": "Mere paas Allah ke khazane hain",
+              "hi": "Mere paas Allah ke khazane hain",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s19",
+            "sentence_number": 19,
+            "arabic": "إِنَّ مَعِيَ رَبِّي",
+            "arabic_text": "إِنَّ مَعِيَ رَبِّي",
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">مَعِيَ</span> <span class=\"arabic-root\">رَبِّي</span>",
+            "hinglish": "Beshak mere saath mera Rabb hai",
+            "hinglish_meaning": "Beshak mere saath mera Rabb hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak mere saath mera Rabb hai",
+              "ur": "Beshak mere saath mera Rabb hai",
+              "en": "Beshak mere saath mera Rabb hai",
+              "hi": "Beshak mere saath mera Rabb hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s20",
+            "sentence_number": 20,
+            "arabic": "ذَٰلِكَ بَيْنِي وَبَيْنَكَ",
+            "arabic_text": "ذَٰلِكَ بَيْنِي وَبَيْنَكَ",
+            "arabic_markup": "<span class=\"nonroot\">ذَٰلِكَ</span> <span class=\"arabic-root\">بَيْنِي</span> <span class=\"arabic-root\">وَبَيْنَكَ</span>",
+            "hinglish": "Yeh mu'ahada mere aur tere darmiyan hai",
+            "hinglish_meaning": "Yeh mu'ahada mere aur tere darmiyan hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yeh mu'ahada mere aur tere darmiyan hai",
+              "ur": "Yeh mu'ahada mere aur tere darmiyan hai",
+              "en": "Yeh mu'ahada mere aur tere darmiyan hai",
+              "hi": "Yeh mu'ahada mere aur tere darmiyan hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s21",
+            "sentence_number": 21,
+            "arabic": "وَأَنَا عَجُوزٌ وَهَٰذَا بَعْلِي شَيْخًا إِنَّ هَٰذَا لَشَيْءٌ عَجِيبٌ",
+            "arabic_text": "وَأَنَا عَجُوزٌ وَهَٰذَا بَعْلِي شَيْخًا إِنَّ هَٰذَا لَشَيْءٌ عَجِيبٌ",
+            "arabic_markup": "<span class=\"arabic-root\">وَأ</span><span class=\"nonroot\">َنَا</span> <span class=\"arabic-root\">عَجُوزٌ</span> <span class=\"arabic-root\">وَهَٰذَا</span> <span class=\"arabic-root\">بَعْلِي</span> <span class=\"arabic-root\">شَيْخًا</span> <span class=\"nonroot\">إِنَّ</span> <span class=\"nonroot\">هَٰذَا</span> <span class=\"arabic-root\">لَشَيْءٌ</span> <span class=\"arabic-root\">عَجِيبٌ</span>",
+            "hinglish": "Aur main boodhi hoon aur yeh mere shauhar bhi boodhe hain, beshak yeh badi ajeeb baat hai",
+            "hinglish_meaning": "Aur main boodhi hoon aur yeh mere shauhar bhi boodhe hain, beshak yeh badi ajeeb baat hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur main boodhi hoon aur yeh mere shauhar bhi boodhe hain, beshak yeh badi ajeeb baat hai",
+              "ur": "Aur main boodhi hoon aur yeh mere shauhar bhi boodhe hain, beshak yeh badi ajeeb baat hai",
+              "en": "Aur main boodhi hoon aur yeh mere shauhar bhi boodhe hain, beshak yeh badi ajeeb baat hai",
+              "hi": "Aur main boodhi hoon aur yeh mere shauhar bhi boodhe hain, beshak yeh badi ajeeb baat hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s22",
+            "sentence_number": 22,
+            "arabic": "يَا لَيْتَ بَيْنِي وَبَيْنَكَ بُعْدَ الْمَشْرِقَيْنِ",
+            "arabic_text": "يَا لَيْتَ بَيْنِي وَبَيْنَكَ بُعْدَ الْمَشْرِقَيْنِ",
+            "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">لَي</span><span class=\"nonroot\">ْتَ</span> <span class=\"arabic-root\">بَيْنِي</span> <span class=\"arabic-root\">وَبَيْنَكَ</span> <span class=\"arabic-root\">بُعْدَ</span> <span class=\"arabic-root\">الْمَشْرِق</span><span class=\"nonroot\">َيْنِ</span>",
+            "hinglish": "Kaash mere aur tere darmiyan mashriq-o-maghrib ki doori hoti",
+            "hinglish_meaning": "Kaash mere aur tere darmiyan mashriq-o-maghrib ki doori hoti",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kaash mere aur tere darmiyan mashriq-o-maghrib ki doori hoti",
+              "ur": "Kaash mere aur tere darmiyan mashriq-o-maghrib ki doori hoti",
+              "en": "Kaash mere aur tere darmiyan mashriq-o-maghrib ki doori hoti",
+              "hi": "Kaash mere aur tere darmiyan mashriq-o-maghrib ki doori hoti",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s23",
+            "sentence_number": 23,
+            "arabic": "فَكَيْفَ كَانَ عِقَابِ",
+            "arabic_text": "فَكَيْفَ كَانَ عِقَابِ",
+            "arabic_markup": "<span class=\"arabic-root\">فَكَيْفَ</span> <span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">عِقَابِ</span>",
+            "hinglish": "Toh kaisa raha Mera azaab!",
+            "hinglish_meaning": "Toh kaisa raha Mera azaab!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh kaisa raha Mera azaab!",
+              "ur": "Toh kaisa raha Mera azaab!",
+              "en": "Toh kaisa raha Mera azaab!",
+              "hi": "Toh kaisa raha Mera azaab!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s24",
+            "sentence_number": 24,
+            "arabic": "فَكَيْفَ كَانَ نَكِيرِ",
+            "arabic_text": "فَكَيْفَ كَانَ نَكِيرِ",
+            "arabic_markup": "<span class=\"arabic-root\">فَكَيْفَ</span> <span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">نَكِيرِ</span>",
+            "hinglish": "Toh kaisi rahi Meri pakad!",
+            "hinglish_meaning": "Toh kaisi rahi Meri pakad!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh kaisi rahi Meri pakad!",
+              "ur": "Toh kaisi rahi Meri pakad!",
+              "en": "Toh kaisi rahi Meri pakad!",
+              "hi": "Toh kaisi rahi Meri pakad!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s25",
+            "sentence_number": 25,
+            "arabic": "فَكَيْفَ كَانَ نَذِيرِ",
+            "arabic_text": "فَكَيْفَ كَانَ نَذِيرِ",
+            "arabic_markup": "<span class=\"arabic-root\">فَكَيْفَ</span> <span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">نَذِيرِ</span>",
+            "hinglish": "Toh kaisa raha Mera darana!",
+            "hinglish_meaning": "Toh kaisa raha Mera darana!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh kaisa raha Mera darana!",
+              "ur": "Toh kaisa raha Mera darana!",
+              "en": "Toh kaisa raha Mera darana!",
+              "hi": "Toh kaisa raha Mera darana!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s26",
+            "sentence_number": 26,
+            "arabic": "وَيَا قَوْمِ هَٰذِهِ نَاقَةُ اللَّهِ",
+            "arabic_text": "وَيَا قَوْمِ هَٰذِهِ نَاقَةُ اللَّهِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَيَا</span> <span class=\"arabic-root\">قَوْمِ</span> <span class=\"nonroot\">هَٰذِهِ</span> <span class=\"arabic-root\">نَاقَةُ</span> <span class=\"arabic-root\">اللَّهِ</span>",
+            "hinglish": "Aur aye meri qom! Yeh Allah ki oontni hai",
+            "hinglish_meaning": "Aur aye meri qom! Yeh Allah ki oontni hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur aye meri qom! Yeh Allah ki oontni hai",
+              "ur": "Aur aye meri qom! Yeh Allah ki oontni hai",
+              "en": "Aur aye meri qom! Yeh Allah ki oontni hai",
+              "hi": "Aur aye meri qom! Yeh Allah ki oontni hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l14_sent_s27",
+            "sentence_number": 27,
+            "arabic": "يَا قَوْمِ إِنَّمَا هَٰذِهِ الْحَيَاةُ الدُّنْيَا مَتَاعٌ وَإِنَّ الْآخِرَةَ هِيَ دَارُ الْقَرَارِ",
+            "arabic_text": "يَا قَوْمِ إِنَّمَا هَٰذِهِ الْحَيَاةُ الدُّنْيَا مَتَاعٌ وَإِنَّ الْآخِرَةَ هِيَ دَارُ الْقَرَارِ",
+            "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">قَوْمِ</span> <span class=\"nonroot\">إِنَّمَا</span> <span class=\"nonroot\">هَٰذِهِ</span> <span class=\"arabic-root\">الْحَيَاةُ</span> <span class=\"arabic-root\">الدُّنْيَا</span> <span class=\"arabic-root\">مَتَاعٌ</span> <span class=\"arabic-root\">وَإِنَّ</span> <span class=\"arabic-root\">الْآخِرَةَ</span> <span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">دَارُ</span> <span class=\"arabic-root\">الْقَرَارِ</span>",
+            "hinglish": "Aye meri qom! Yeh duniya ki zindagi toh chand roz ka samaan hai aur beshak aakhirat hi hamesha rehne ka ghar hai",
+            "hinglish_meaning": "Aye meri qom! Yeh duniya ki zindagi toh chand roz ka samaan hai aur beshak aakhirat hi hamesha rehne ka ghar hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aye meri qom! Yeh duniya ki zindagi toh chand roz ka samaan hai aur beshak aakhirat hi hamesha rehne ka ghar hai",
+              "ur": "Aye meri qom! Yeh duniya ki zindagi toh chand roz ka samaan hai aur beshak aakhirat hi hamesha rehne ka ghar hai",
+              "en": "Aye meri qom! Yeh duniya ki zindagi toh chand roz ka samaan hai aur beshak aakhirat hi hamesha rehne ka ghar hai",
+              "hi": "Aye meri qom! Yeh duniya ki zindagi toh chand roz ka samaan hai aur beshak aakhirat hi hamesha rehne ka ghar hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "page_start": 31
+}

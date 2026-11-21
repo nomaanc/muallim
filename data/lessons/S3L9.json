@@ -1,0 +1,1218 @@
+{
+  "lesson_id": 9,
+  "lesson_key": "S3L9",
+  "stage_id": 3,
+  "title": "Mazeed Asmaa-ul-Faa'il wa Maf'ool: مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ",
+  "arabic_Focus": "مُـ + نْتَظِرٌ / سْلِمٌ ← مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ / مُسَخَّرٌ",
+  "hinglish_Focus": "Shuru mein مُـ (Meem par Pesh) → Intizaar karne wala, hijrat karne wala, farmabardar",
+  "page_numbers": "101",
+  "book_page": 101,
+  "status": "complete",
+  "title_i18n": {
+    "en": "Mazeed Asmaa-ul-Faa'il wa Maf'ool: مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ",
+    "ur": "یونٹ 3 سبق 9: مُـ + نْتَظِرٌ / سْلِمٌ ← مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ / مُسَخَّرٌ",
+    "hi": "Mazeed Asmaa-ul-Faa'il wa Maf'ool: مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ"
+  },
+  "sections": [
+    {
+      "id": "sec_hero",
+      "type": "hero_header",
+      "data": {
+        "arabic": "مُـ + نْتَظِرٌ / سْلِمٌ ← مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ / مُسَخَّرٌ",
+        "hinglish": "Shuru mein مُـ (Meem par Pesh) → Intizaar karne wala, hijrat karne wala, farmabardar",
+        "arabic_word": "مُـ + نْتَظِرٌ / سْلِمٌ",
+        "arabic_combined": "مُـ + نْتَظِرٌ / سْلِمٌ ← مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ / مُسَخَّرٌ",
+        "hinglish_word": "Shuru mein مُـ (Meem par Pesh)",
+        "hinglish_combined": "Shuru mein مُـ (Meem par Pesh) → Intizaar karne wala, hijrat karne wala, farmabardar",
+        "title_en": "Mazeed Asmaa-ul-Faa'il wa Maf'ool: مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ",
+        "subtitle": "Unit 3 • Lesson 9 (Book Page 101)",
+        "transformations": [
+          {
+            "before_ar": "مُـ + نْتَظِرٌ / سْلِمٌ",
+            "after_ar": "مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ / مُسَخَّرٌ",
+            "before_hi": "Shuru mein مُـ (Meem par Pesh)",
+            "after_hi": "Intizaar karne wala, hijrat karne wala, farmabardar"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_intro_table",
+      "type": "intro_table",
+      "data": {
+        "title": "S3L9 — Mazeed Asmaa-ul-Faa'il wa Maf'ool: مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ: Buniyadi Misaalein",
+        "caption": "S3L9 — Mazeed Asmaa-ul-Faa'il wa Maf'ool: مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ: Buniyadi Misaalein",
+        "headers": [
+          "Qism / Wazan",
+          "Arabi Misaal",
+          "Hinglish Mafhoom"
+        ],
+        "rows": [
+          [
+            "مُـ...ـِ (Zair = Kaam karne wala)",
+            "مُسْلِمٌ / مُؤْمِنٌ / مُحْسِنٌ / مُنْذِرٌ / مُبَشِّرٌ",
+            "Farmabardar / Imaan laane wala / Neki karne wala / Darane wala"
+          ],
+          [
+            "Mazeed مُـ...ـِ Alfaaz",
+            "مُهَاجِرٌ / مُجَاهِدٌ / مُنْتَظِرٌ / مُسْتَكْبِرٌ",
+            "Hijrat karne wala / Jihaad karne wala / Intizaar karne wala"
+          ],
+          [
+            "مُـ...ـَ (Zabar = Jis par kaam hua)",
+            "مُسَخَّرٌ / مُطَهَّرٌ / مُكَرَّمٌ / مُنَزَّلٌ",
+            "Taskheer kiya hua / Paak kiya hua / Izzat diya hua / Utara gaya"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l9_concept",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 3 • LESSON 9</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Mazeed Asmaa-ul-Faa'il wa Maf'ool: مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ (Page 101)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">مُـ + نْتَظِرٌ / سْلِمٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">مُـ...ـِ (Faa'il) & مُـ...ـَ</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ / مُسَخَّرٌ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• مُـ + نْتَظِرٌ / سْلِمٌ (Shuru mein مُـ (Meem par Pesh)) se مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ / مُسَخَّرٌ (Intizaar karne wala, hijrat karne wala, farmabardar) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Sifat-Mawsoof, Izaafat, Asmaa-ul-Faa'il aur Tasniyah Qur'ani tarakeeb ki buniyaad hain.</text>\n</svg>\n</div>\n**Qaa'ida (Page 101):** Jin alfaaz ke shuru mein **Pesh wala Meem (`مُـ`)** aur **aakhri se pehle harf ke neeche Zair (`ـِ`)** ho, woh bhi **Kaam karne wale (*Ism-ul-Faa'il*)** hote hain (`مُسْلِمٌ`، `مُؤْمِنٌ`، `مُهَاجِرٌ`، `مُنْتَظِرٌ`). Aur agar shuru mein `مُـ` ho magar **aakhri se pehle harf par Zabar (`ـَ`)** ho, toh woh **Jis par kaam hua (*Ism-ul-Maf'ool*)** banta hai (`مُسَخَّرٌ` kaam mein lagaya gaya, `مُطَهَّرَةٌ` paakiza banayi gayi).",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 3 • LESSON 9</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Mazeed Asmaa-ul-Faa'il wa Maf'ool: مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ (Page 101)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">مُـ + نْتَظِرٌ / سْلِمٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">مُـ...ـِ (Faa'il) & مُـ...ـَ</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ / مُسَخَّرٌ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• مُـ + نْتَظِرٌ / سْلِمٌ (Shuru mein مُـ (Meem par Pesh)) se مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ / مُسَخَّرٌ (Intizaar karne wala, hijrat karne wala, farmabardar) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Sifat-Mawsoof, Izaafat, Asmaa-ul-Faa'il aur Tasniyah Qur'ani tarakeeb ki buniyaad hain.</text>\n</svg>\n</div>\n**Qaa'ida (Page 101):** Jin alfaaz ke shuru mein **Pesh wala Meem (`مُـ`)** aur **aakhri se pehle harf ke neeche Zair (`ـِ`)** ho, woh bhi **Kaam karne wale (*Ism-ul-Faa'il*)** hote hain (`مُسْلِمٌ`، `مُؤْمِنٌ`، `مُهَاجِرٌ`، `مُنْتَظِرٌ`). Aur agar shuru mein `مُـ` ho magar **aakhri se pehle harf par Zabar (`ـَ`)** ho, toh woh **Jis par kaam hua (*Ism-ul-Maf'ool*)** banta hai (`مُسَخَّرٌ` kaam mein lagaya gaya, `مُطَهَّرَةٌ` paakiza banayi gayi).",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 3 • LESSON 9</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Mazeed Asmaa-ul-Faa'il wa Maf'ool: مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ (Page 101)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">مُـ + نْتَظِرٌ / سْلِمٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">مُـ...ـِ (Faa'il) & مُـ...ـَ</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ / مُسَخَّرٌ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• مُـ + نْتَظِرٌ / سْلِمٌ (Shuru mein مُـ (Meem par Pesh)) se مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ / مُسَخَّرٌ (Intizaar karne wala, hijrat karne wala, farmabardar) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Sifat-Mawsoof, Izaafat, Asmaa-ul-Faa'il aur Tasniyah Qur'ani tarakeeb ki buniyaad hain.</text>\n</svg>\n</div>\n**Qaa'ida (Page 101):** Jin alfaaz ke shuru mein **Pesh wala Meem (`مُـ`)** aur **aakhri se pehle harf ke neeche Zair (`ـِ`)** ho, woh bhi **Kaam karne wale (*Ism-ul-Faa'il*)** hote hain (`مُسْلِمٌ`، `مُؤْمِنٌ`، `مُهَاجِرٌ`، `مُنْتَظِرٌ`). Aur agar shuru mein `مُـ` ho magar **aakhri se pehle harf par Zabar (`ـَ`)** ho, toh woh **Jis par kaam hua (*Ism-ul-Maf'ool*)** banta hai (`مُسَخَّرٌ` kaam mein lagaya gaya, `مُطَهَّرَةٌ` paakiza banayi gayi)."
+      }
+    },
+    {
+      "id": "sec_s3l9_r1",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Upar diye gaye alfaaz (مُسْلِم، مُهَاجِر، مُنْتَظِر) mein do baatein mushtarak hain: har lafz ke shuru mein Meem par Pesh (مُـ) hai aur aakhri harf se pehle wale harf par Kasrah (zair) hai. Aise alfaaz kaam karne wale (Fa'il / doer) ke maana dete hain jo Mazeed feehi abwaab se bante hain. Akhir mein Gol Ta (ة/ـة) lagane se yeh mu'annas (feminine) ban jaate hain jaise \"مُؤْمِن\" se \"مُؤْمِنَة\". Mandarja zail Qur'ani alfaaz ka tarjuma samajhiye:",
+        "content": "Upar diye gaye alfaaz (مُسْلِم، مُهَاجِر، مُنْتَظِر) mein do baatein mushtarak hain: har lafz ke shuru mein Meem par Pesh (مُـ) hai aur aakhri harf se pehle wale harf par Kasrah (zair) hai. Aise alfaaz kaam karne wale (Fa'il / doer) ke maana dete hain jo Mazeed feehi abwaab se bante hain. Akhir mein Gol Ta (ة/ـة) lagane se yeh mu'annas (feminine) ban jaate hain jaise \"مُؤْمِن\" se \"مُؤْمِنَة\". Mandarja zail Qur'ani alfaaz ka tarjuma samajhiye:",
+        "hinglish_text": "Upar diye gaye alfaaz (مُسْلِم، مُهَاجِر، مُنْتَظِر) mein do baatein mushtarak hain: har lafz ke shuru mein Meem par Pesh (مُـ) hai aur aakhri harf se pehle wale harf par Kasrah (zair) hai. Aise alfaaz kaam karne wale (Fa'il / doer) ke maana dete hain jo Mazeed feehi abwaab se bante hain. Akhir mein Gol Ta (ة/ـة) lagane se yeh mu'annas (feminine) ban jaate hain jaise \"مُؤْمِن\" se \"مُؤْمِنَة\". Mandarja zail Qur'ani alfaaz ka tarjuma samajhiye:"
+      }
+    },
+    {
+      "id": "sec_s3l9_g2",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s3l9_g2_w1",
+            "arabic": "مُخْلِص",
+            "arabic_text": "مُخْلِص",
+            "arabic_markup": "<span class=\"nonroot\">مُخْلِص</span>",
+            "hinglish": "Khaalis karne wala",
+            "hinglish_meaning": "Khaalis karne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Khaalis karne wala",
+              "en": "Sincere / Devoted",
+              "ur": "خالص کرنے والا / مخلص",
+              "hi": "खालिस करने वाला / मुख़्लिस",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w2",
+            "arabic": "مُحْسِن",
+            "arabic_text": "مُحْسِن",
+            "arabic_markup": "<span class=\"nonroot\">مُحْسِن</span>",
+            "hinglish": "Ehsaan karne wala",
+            "hinglish_meaning": "Ehsaan karne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ehsaan karne wala",
+              "en": "Doer of good / Muhsin",
+              "ur": "احسان کرنے والا / نیکوکار",
+              "hi": "एहसान करने वाला / भलाई करने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w3",
+            "arabic": "مُؤْمِن",
+            "arabic_text": "مُؤْمِن",
+            "arabic_markup": "<span class=\"nonroot\">مُؤْمِن</span>",
+            "hinglish": "Eemaan laane wala",
+            "hinglish_meaning": "Eemaan laane wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Eemaan laane wala",
+              "en": "Believer",
+              "ur": "ایمان لانے والا / مومن",
+              "hi": "ईमान लाने वाला / मोमिन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w4",
+            "arabic": "مُسْلِم",
+            "arabic_text": "مُسْلِم",
+            "arabic_markup": "<span class=\"nonroot\">مُسْلِم</span>",
+            "hinglish": "Farmanbardar",
+            "hinglish_meaning": "Farmanbardar",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Farmanbardar",
+              "en": "Submissive / Muslim",
+              "ur": "فرمانبردار / مسلم",
+              "hi": "फरमांबरदार / मुस्लिम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w5",
+            "arabic": "مُسَبِّح",
+            "arabic_text": "مُسَبِّح",
+            "arabic_markup": "<span class=\"nonroot\">مُسَبِّح</span>",
+            "hinglish": "Tasbeeh karne wala",
+            "hinglish_meaning": "Tasbeeh karne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tasbeeh karne wala",
+              "en": "One who glorifies (Allah)",
+              "ur": "تسبیح کرنے والا",
+              "hi": "तस्बीह करने वाला / महिमा करने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w6",
+            "arabic": "مُسْتَغْفِر",
+            "arabic_text": "مُسْتَغْفِر",
+            "arabic_markup": "<span class=\"nonroot\">مُسْتَغْفِر</span>",
+            "hinglish": "Bakhshish maangne wala",
+            "hinglish_meaning": "Bakhshish maangne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bakhshish maangne wala",
+              "en": "One who seeks forgiveness",
+              "ur": "بخشش مانگنے والا / استغفار کرنے والا",
+              "hi": "बख्शिश मांगने वाला / तौबा करने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w7",
+            "arabic": "مُهَاجِر",
+            "arabic_text": "مُهَاجِر",
+            "arabic_markup": "<span class=\"nonroot\">مُهَاجِر</span>",
+            "hinglish": "Hijrat karne wala",
+            "hinglish_meaning": "Hijrat karne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Hijrat karne wala",
+              "en": "Emigrant / One who migrates",
+              "ur": "ہجرت کرنے والا / مہاجر",
+              "hi": "हिजरत करने वाला / मुहाजिर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w8",
+            "arabic": "مُجَاهِد",
+            "arabic_text": "مُجَاهِد",
+            "arabic_markup": "<span class=\"nonroot\">مُجَاهِد</span>",
+            "hinglish": "Jihaad karne wala",
+            "hinglish_meaning": "Jihaad karne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jihaad karne wala",
+              "en": "Striver / One who strives in Allah's cause",
+              "ur": "جہاد کرنے والا / مجاہد",
+              "hi": "जिहाद करने वाला / मुजाहिद",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w9",
+            "arabic": "مُكَذِّب",
+            "arabic_text": "مُكَذِّب",
+            "arabic_markup": "<span class=\"nonroot\">مُكَذِّب</span>",
+            "hinglish": "Jhutlaane wala",
+            "hinglish_meaning": "Jhutlaane wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jhutlaane wala",
+              "en": "Denier / One who denies the truth",
+              "ur": "جھٹلانے والا",
+              "hi": "झुठलाने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w10",
+            "arabic": "مُصَدِّق",
+            "arabic_text": "مُصَدِّق",
+            "arabic_markup": "<span class=\"nonroot\">مُصَدِّق</span>",
+            "hinglish": "Tasdeeq karne wala",
+            "hinglish_meaning": "Tasdeeq karne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tasdeeq karne wala",
+              "en": "Confirmer / Verifier",
+              "ur": "تصدیق کرنے والا",
+              "hi": "तस्दीक़ करने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w11",
+            "arabic": "مُفْسِد",
+            "arabic_text": "مُفْسِد",
+            "arabic_markup": "<span class=\"nonroot\">مُفْسِد</span>",
+            "hinglish": "Fasaad phailaane wala",
+            "hinglish_meaning": "Fasaad phailaane wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Fasaad phailaane wala",
+              "en": "Corrupter / Mischief-maker",
+              "ur": "فساد پھیلانے والا / مفسد",
+              "hi": "फ़साद फैलाने वाला / उपद्रवी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w12",
+            "arabic": "مُصْلِح",
+            "arabic_text": "مُصْلِح",
+            "arabic_markup": "<span class=\"nonroot\">مُصْلِح</span>",
+            "hinglish": "Islaah karne wala",
+            "hinglish_meaning": "Islaah karne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Islaah karne wala",
+              "en": "Reformer / Peace-maker",
+              "ur": "اصلاح کرنے والا / مصلح",
+              "hi": "इस्लाह करने वाला / सुधारक",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w13",
+            "arabic": "مُعَذِّب",
+            "arabic_text": "مُعَذِّب",
+            "arabic_markup": "<span class=\"nonroot\">مُعَذِّب</span>",
+            "hinglish": "Azaab dene wala",
+            "hinglish_meaning": "Azaab dene wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Azaab dene wala",
+              "en": "Punisher / Tormentor",
+              "ur": "عذاب دینے والا",
+              "hi": "अज़ाब देने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w14",
+            "arabic": "مُسْرِف",
+            "arabic_text": "مُسْرِف",
+            "arabic_markup": "<span class=\"nonroot\">مُسْرِف</span>",
+            "hinglish": "Fizool-kharchi karne wala",
+            "hinglish_meaning": "Fizool-kharchi karne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Fizool-kharchi karne wala",
+              "en": "Extravagant / Transgressor",
+              "ur": "فضول خرچی کرنے والا / حد سے بڑھنے والا",
+              "hi": "फ़िज़ूलखर्ची करने वाला / हद से बढ़ने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w15",
+            "arabic": "مُنْكِر",
+            "arabic_text": "مُنْكِر",
+            "arabic_markup": "<span class=\"nonroot\">مُنْكِر</span>",
+            "hinglish": "Inkaar karne wala",
+            "hinglish_meaning": "Inkaar karne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Inkaar karne wala",
+              "en": "Denier / Rejecter",
+              "ur": "انکار کرنے والا",
+              "hi": "इनकार करने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w16",
+            "arabic": "مُشْرِك",
+            "arabic_text": "مُشْرِك",
+            "arabic_markup": "<span class=\"nonroot\">مُشْرِك</span>",
+            "hinglish": "Shirk karne wala",
+            "hinglish_meaning": "Shirk karne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Shirk karne wala",
+              "en": "Polytheist / Associator of partners",
+              "ur": "شرک کرنے والا / مشرک",
+              "hi": "शिर्क करने वाला / मुशरिक",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w17",
+            "arabic": "مُخْتَلِف",
+            "arabic_text": "مُخْتَلِف",
+            "arabic_markup": "<span class=\"nonroot\">مُخْتَلِف</span>",
+            "hinglish": "Ikhtilaaf karne wala",
+            "hinglish_meaning": "Ikhtilaaf karne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ikhtilaaf karne wala",
+              "en": "Differing / Disagreeing",
+              "ur": "اختلاف کرنے والا / مختلف",
+              "hi": "इख़्तिलाफ़ करने वाला / भिन्न",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w18",
+            "arabic": "مُتَّقِي",
+            "arabic_text": "مُتَّقِي",
+            "arabic_markup": "<span class=\"nonroot\">مُتَّقِي</span>",
+            "hinglish": "Taqwa ikhtiyaar karne wala",
+            "hinglish_meaning": "Taqwa ikhtiyaar karne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Taqwa ikhtiyaar karne wala",
+              "en": "Righteous / God-fearing",
+              "ur": "تقویٰ اختیار کرنے والا / متقی",
+              "hi": "तक़वा इख़्तियार करने वाला / मुत्तक़ी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w19",
+            "arabic": "مُوقِن",
+            "arabic_text": "مُوقِن",
+            "arabic_markup": "<span class=\"nonroot\">مُوقِن</span>",
+            "hinglish": "Yaqeen rakhne wala",
+            "hinglish_meaning": "Yaqeen rakhne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yaqeen rakhne wala",
+              "en": "One who is certain in faith",
+              "ur": "یقین رکھنے والا",
+              "hi": "यक़ीन रखने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w20",
+            "arabic": "مُفْلِح",
+            "arabic_text": "مُفْلِح",
+            "arabic_markup": "<span class=\"nonroot\">مُفْلِح</span>",
+            "hinglish": "Kamyab hone wala",
+            "hinglish_meaning": "Kamyab hone wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kamyab hone wala",
+              "en": "Successful / One who prospers",
+              "ur": "کامیاب ہونے والا",
+              "hi": "कामयाब होने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w21",
+            "arabic": "مُنْذِر",
+            "arabic_text": "مُنْذِر",
+            "arabic_markup": "<span class=\"nonroot\">مُنْذِر</span>",
+            "hinglish": "Darane wala",
+            "hinglish_meaning": "Darane wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Darane wala",
+              "en": "Warner",
+              "ur": "ڈرانے والا / ڈر سنانے والا",
+              "hi": "डराने वाला / चेतावनी देने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w22",
+            "arabic": "مُبَشِّر",
+            "arabic_text": "مُبَشِّر",
+            "arabic_markup": "<span class=\"nonroot\">مُبَشِّر</span>",
+            "hinglish": "Khushkhabri dene wala",
+            "hinglish_meaning": "Khushkhabri dene wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Khushkhabri dene wala",
+              "en": "Bearer of glad tidings",
+              "ur": "خوشخبری دینے والا",
+              "hi": "खुशखबरी देने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w23",
+            "arabic": "مُتَوَكِّل",
+            "arabic_text": "مُتَوَكِّل",
+            "arabic_markup": "<span class=\"nonroot\">مُتَوَكِّل</span>",
+            "hinglish": "Bharosa karne wala",
+            "hinglish_meaning": "Bharosa karne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bharosa karne wala",
+              "en": "One who relies / trusts (upon Allah)",
+              "ur": "بھروسہ کرنے والا / توکل کرنے والا",
+              "hi": "भरोसा करने वाला / तवक्कुल करने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w24",
+            "arabic": "مُنْزِل",
+            "arabic_text": "مُنْزِل",
+            "arabic_markup": "<span class=\"nonroot\">مُنْزِل</span>",
+            "hinglish": "Naazil karne wala",
+            "hinglish_meaning": "Naazil karne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Naazil karne wala",
+              "en": "One who sends down",
+              "ur": "نازل کرنے والا / اتارنے والا",
+              "hi": "नाज़िल करने वाला / उतारने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w25",
+            "arabic": "مُجْرِم",
+            "arabic_text": "مُجْرِم",
+            "arabic_markup": "<span class=\"nonroot\">مُجْرِم</span>",
+            "hinglish": "Gunaahgar",
+            "hinglish_meaning": "Gunaahgar",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Gunaahgar",
+              "en": "Criminal / Sinner",
+              "ur": "گناہگار / مجرم",
+              "hi": "गुनहगार / मुजरिम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w26",
+            "arabic": "مُتَكَبِّر",
+            "arabic_text": "مُتَكَبِّر",
+            "arabic_markup": "<span class=\"nonroot\">مُتَكَبِّر</span>",
+            "hinglish": "Takabbur karne wala",
+            "hinglish_meaning": "Takabbur karne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Takabbur karne wala",
+              "en": "Arrogant / Proud",
+              "ur": "تکبر کرنے والا / متکبر",
+              "hi": "तकब्बुर करने वाला / घमंडी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w27",
+            "arabic": "مُنَافِق",
+            "arabic_text": "مُنَافِق",
+            "arabic_markup": "<span class=\"nonroot\">مُنَافِق</span>",
+            "hinglish": "Munaafiq",
+            "hinglish_meaning": "Munaafiq",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Munaafiq",
+              "en": "Hypocrite",
+              "ur": "منافق",
+              "hi": "मुनाफ़िक़ / कपटी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w28",
+            "arabic": "مُعْرِض",
+            "arabic_text": "مُعْرِض",
+            "arabic_markup": "<span class=\"nonroot\">مُعْرِض</span>",
+            "hinglish": "Mooh modne wala",
+            "hinglish_meaning": "Mooh modne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Mooh modne wala",
+              "en": "One who turns away",
+              "ur": "منہ موڑنے والا / اعراض کرنے والا",
+              "hi": "मुँह मोड़ने वाला / विमुख होने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w29",
+            "arabic": "مُذَكِّر",
+            "arabic_text": "مُذَكِّر",
+            "arabic_markup": "<span class=\"nonroot\">مُذَكِّر</span>",
+            "hinglish": "Yaad dilaane wala",
+            "hinglish_meaning": "Yaad dilaane wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yaad dilaane wala",
+              "en": "Reminder / Admonisher",
+              "ur": "یاد دلانے والا / نصیحت کرنے والا",
+              "hi": "याद दिलाने वाला / स्मरण कराने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w30",
+            "arabic": "مُرْسِل",
+            "arabic_text": "مُرْسِل",
+            "arabic_markup": "<span class=\"nonroot\">مُرْسِل</span>",
+            "hinglish": "Bhejney wala",
+            "hinglish_meaning": "Bhejney wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bhejney wala",
+              "en": "Sender / Dispatcher",
+              "ur": "بھیجنے والا",
+              "hi": "भेजने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w31",
+            "arabic": "مُبَدِّل",
+            "arabic_text": "مُبَدِّل",
+            "arabic_markup": "<span class=\"nonroot\">مُبَدِّل</span>",
+            "hinglish": "Badalne wala",
+            "hinglish_meaning": "Badalne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Badalne wala",
+              "en": "Changer / Alterer",
+              "ur": "بدلنے والا",
+              "hi": "बदलने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w32",
+            "arabic": "مُهْلِك",
+            "arabic_text": "مُهْلِك",
+            "arabic_markup": "<span class=\"nonroot\">مُهْلِك</span>",
+            "hinglish": "Halaak karne wala",
+            "hinglish_meaning": "Halaak karne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Halaak karne wala",
+              "en": "Destroyer",
+              "ur": "ہلاک کرنے والا",
+              "hi": "हलाक करने वाला / विनाशक",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w33",
+            "arabic": "مُشْفِق",
+            "arabic_text": "مُشْفِق",
+            "arabic_markup": "<span class=\"nonroot\">مُشْفِق</span>",
+            "hinglish": "Darne wala",
+            "hinglish_meaning": "Darne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Darne wala",
+              "en": "Apprehensive / Fearful",
+              "ur": "ڈرنے والا",
+              "hi": "डरने वाला / भयभीत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w34",
+            "arabic": "مُقْتَدِر",
+            "arabic_text": "مُقْتَدِر",
+            "arabic_markup": "<span class=\"nonroot\">مُقْتَدِر</span>",
+            "hinglish": "Qudrat wala",
+            "hinglish_meaning": "Qudrat wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Qudrat wala",
+              "en": "All-Powerful / Sovereign",
+              "ur": "قدرت والا / بااختیار",
+              "hi": "क़ुदरत वाला / सामर्थ्यवान",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w35",
+            "arabic": "مُبَذِّر",
+            "arabic_text": "مُبَذِّر",
+            "arabic_markup": "<span class=\"nonroot\">مُبَذِّر</span>",
+            "hinglish": "Be-ja kharch karne wala",
+            "hinglish_meaning": "Be-ja kharch karne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Be-ja kharch karne wala",
+              "en": "Spendthrift / Squanderer",
+              "ur": "بے جا خرچ کرنے والا",
+              "hi": "बेजा ख़र्च करने वाला / अपव्ययी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g2_w36",
+            "arabic": "مُطْمَئِنّ",
+            "arabic_text": "مُطْمَئِنّ",
+            "arabic_markup": "<span class=\"nonroot\">مُطْمَئِنّ</span>",
+            "hinglish": "Itminan paane wala",
+            "hinglish_meaning": "Itminan paane wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Itminan paane wala",
+              "en": "Reassured / Content",
+              "ur": "اطمینان پانے والا / مطمئن",
+              "hi": "इत्मीनान पाने वाला / संतुष्ट",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l9_lbl3",
+      "type": "section_label",
+      "data": {
+        "text": "Asmaa-ul-Maf'ool (Jis Par Kaam Hua)",
+        "title": "Asmaa-ul-Maf'ool (Jis Par Kaam Hua)",
+        "label": "Asmaa-ul-Maf'ool (Jis Par Kaam Hua)"
+      }
+    },
+    {
+      "id": "sec_s3l9_r4",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Ab ghor kijiye ke agar kisi lafz ke shuru mein Meem par Pesh (مُـ) ho aur aakhri harf se pehle wale harf par Zabar (fatah) ho jaise (مُسَخَّر، مُحَمَّد)، toh aisa lafz uss hasti ya cheez par dalalat karta hai jis par kaam kiya gaya ho (Ism Maf'ool). Mandarja zail alfaaz se yeh baat mazeed wazeh ho jayegi:",
+        "content": "Ab ghor kijiye ke agar kisi lafz ke shuru mein Meem par Pesh (مُـ) ho aur aakhri harf se pehle wale harf par Zabar (fatah) ho jaise (مُسَخَّر، مُحَمَّد)، toh aisa lafz uss hasti ya cheez par dalalat karta hai jis par kaam kiya gaya ho (Ism Maf'ool). Mandarja zail alfaaz se yeh baat mazeed wazeh ho jayegi:",
+        "hinglish_text": "Ab ghor kijiye ke agar kisi lafz ke shuru mein Meem par Pesh (مُـ) ho aur aakhri harf se pehle wale harf par Zabar (fatah) ho jaise (مُسَخَّر، مُحَمَّد)، toh aisa lafz uss hasti ya cheez par dalalat karta hai jis par kaam kiya gaya ho (Ism Maf'ool). Mandarja zail alfaaz se yeh baat mazeed wazeh ho jayegi:"
+      }
+    },
+    {
+      "id": "sec_s3l9_g5",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s3l9_g5_w1",
+            "arabic": "مُسَخَّر",
+            "arabic_text": "مُسَخَّر",
+            "arabic_markup": "<span class=\"nonroot\">مُسَخَّر</span>",
+            "hinglish": "Taabe' kiya hua",
+            "hinglish_meaning": "Taabe' kiya hua",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Taabe' kiya hua",
+              "en": "Subjected / Subservient",
+              "ur": "تابع کیا ہوا / مسخر",
+              "hi": "ताबे किया हुआ / वश में किया हुआ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g5_w2",
+            "arabic": "مُقَرَّب",
+            "arabic_text": "مُقَرَّب",
+            "arabic_markup": "<span class=\"nonroot\">مُقَرَّب</span>",
+            "hinglish": "Qareeb kiya hua",
+            "hinglish_meaning": "Qareeb kiya hua",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Qareeb kiya hua",
+              "en": "Brought near / Drawn close",
+              "ur": "قریب کیا ہوا / مقرب",
+              "hi": "क़रीब किया हुआ / मुक़र्रब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g5_w3",
+            "arabic": "مُحَمَّد",
+            "arabic_text": "مُحَمَّد",
+            "arabic_markup": "<span class=\"nonroot\">مُحَمَّد</span>",
+            "hinglish": "Bohot tareef kiya hua",
+            "hinglish_meaning": "Bohot tareef kiya hua",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bohot tareef kiya hua",
+              "en": "Praised / Highly praised (Muhammad)",
+              "ur": "بہت تعریف کیا ہوا (محمد صلی اللہ علیہ وسلم)",
+              "hi": "बहुत तारीफ़ किया हुआ (मुहम्मद)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g5_w4",
+            "arabic": "مُرْسَل",
+            "arabic_text": "مُرْسَل",
+            "arabic_markup": "<span class=\"nonroot\">مُرْسَل</span>",
+            "hinglish": "Bheja hua",
+            "hinglish_meaning": "Bheja hua",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bheja hua",
+              "en": "Sent / Messenger",
+              "ur": "بھیجا ہوا / مرسل",
+              "hi": "भेजा हुआ / भेजा गया दूत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g5_w5",
+            "arabic": "مُحَرَّم",
+            "arabic_text": "مُحَرَّم",
+            "arabic_markup": "<span class=\"nonroot\">مُحَرَّم</span>",
+            "hinglish": "Haraam kiya hua",
+            "hinglish_meaning": "Haraam kiya hua",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Haraam kiya hua",
+              "en": "Forbidden / Sacred",
+              "ur": "حرام کیا ہوا / محترم",
+              "hi": "हराम किया हुआ / वर्जित",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g5_w6",
+            "arabic": "مُعَذَّب",
+            "arabic_text": "مُعَذَّب",
+            "arabic_markup": "<span class=\"nonroot\">مُعَذَّب</span>",
+            "hinglish": "Azaab diya hua",
+            "hinglish_meaning": "Azaab diya hua",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Azaab diya hua",
+              "en": "Punished / Tormented",
+              "ur": "عذاب دیا ہوا",
+              "hi": "अज़ाब दिया हुआ / दंडित",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g5_w7",
+            "arabic": "مُصْطَفَى",
+            "arabic_text": "مُصْطَفَى",
+            "arabic_markup": "<span class=\"nonroot\">مُصْطَفَى</span>",
+            "hinglish": "Chuna hua",
+            "hinglish_meaning": "Chuna hua",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Chuna hua",
+              "en": "Chosen / Selected (Mustafa)",
+              "ur": "چنا ہوا / برگزیدہ (مصطفیٰ)",
+              "hi": "चुना हुआ (मुस्तफ़ा)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g5_w8",
+            "arabic": "مُنَزَّل",
+            "arabic_text": "مُنَزَّل",
+            "arabic_markup": "<span class=\"nonroot\">مُنَزَّل</span>",
+            "hinglish": "Utara hua",
+            "hinglish_meaning": "Utara hua",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Utara hua",
+              "en": "Sent down / Revealed",
+              "ur": "اتارا ہوا / نازل کیا گیا",
+              "hi": "उतारा हुआ / नाज़िल किया गया",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g5_w9",
+            "arabic": "مُكْرَم",
+            "arabic_text": "مُكْرَم",
+            "arabic_markup": "<span class=\"nonroot\">مُكْرَم</span>",
+            "hinglish": "Izzat diya hua",
+            "hinglish_meaning": "Izzat diya hua",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Izzat diya hua",
+              "en": "Honored",
+              "ur": "عزت دیا ہوا / مکرم",
+              "hi": "इज़्ज़त दिया हुआ / सम्मानित",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g5_w10",
+            "arabic": "مُحْضَر",
+            "arabic_text": "مُحْضَر",
+            "arabic_markup": "<span class=\"nonroot\">مُحْضَر</span>",
+            "hinglish": "Hazir kiya hua",
+            "hinglish_meaning": "Hazir kiya hua",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Hazir kiya hua",
+              "en": "Brought forward / Summoned",
+              "ur": "حاضر کیا ہوا / پیش کیا گیا",
+              "hi": "हाज़िर किया हुआ / प्रस्तुत किया गया",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g5_w11",
+            "arabic": "مُسَحَّر",
+            "arabic_text": "مُسَحَّر",
+            "arabic_markup": "<span class=\"nonroot\">مُسَحَّر</span>",
+            "hinglish": "Jaadoo kiya hua",
+            "hinglish_meaning": "Jaadoo kiya hua",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jaadoo kiya hua",
+              "en": "Bewitched / Enchanted",
+              "ur": "جادو کیا ہوا",
+              "hi": "जादू किया हुआ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g5_w12",
+            "arabic": "مُعَلَّم",
+            "arabic_text": "مُعَلَّم",
+            "arabic_markup": "<span class=\"nonroot\">مُعَلَّم</span>",
+            "hinglish": "Sikhaya hua",
+            "hinglish_meaning": "Sikhaya hua",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Sikhaya hua",
+              "en": "Taught / Educated",
+              "ur": "سکھایا ہوا / تعلیم دیا گیا",
+              "hi": "सिखाया हुआ / शिक्षित",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g5_w13",
+            "arabic": "مُهْلَك",
+            "arabic_text": "مُهْلَك",
+            "arabic_markup": "<span class=\"nonroot\">مُهْلَك</span>",
+            "hinglish": "Halaak kiya hua",
+            "hinglish_meaning": "Halaak kiya hua",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Halaak kiya hua",
+              "en": "Destroyed / Annihilated",
+              "ur": "ہلاک کیا ہوا / برباد کیا گیا",
+              "hi": "हलाक किया हुआ / नष्ट किया हुआ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g5_w14",
+            "arabic": "مُبْعَد",
+            "arabic_text": "مُبْعَد",
+            "arabic_markup": "<span class=\"nonroot\">مُبْعَد</span>",
+            "hinglish": "Door kiya hua",
+            "hinglish_meaning": "Door kiya hua",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Door kiya hua",
+              "en": "Kept far away / Removed",
+              "ur": "دور کیا ہوا",
+              "hi": "दूर किया हुआ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g5_w15",
+            "arabic": "مُخْلَص",
+            "arabic_text": "مُخْلَص",
+            "arabic_markup": "<span class=\"nonroot\">مُخْلَص</span>",
+            "hinglish": "Khaalis kiya hua",
+            "hinglish_meaning": "Khaalis kiya hua",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Khaalis kiya hua",
+              "en": "Purified / Chosen (in sincerity)",
+              "ur": "خالص کیا ہوا / چنا ہوا",
+              "hi": "खालिस किया हुआ / विशुद्ध किया हुआ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_g5_w16",
+            "arabic": "مُنْظَر",
+            "arabic_text": "مُنْظَر",
+            "arabic_markup": "<span class=\"nonroot\">مُنْظَر</span>",
+            "hinglish": "Mohlat diya hua",
+            "hinglish_meaning": "Mohlat diya hua",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Mohlat diya hua",
+              "en": "Given respite",
+              "ur": "مہلت دیا ہوا",
+              "hi": "मोहलत दिया हुआ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l9_g6",
+      "type": "grace_box",
+      "data": {
+        "text": "Iss sabaq mein bayan karda dono aqsaam ke alfaaz Quran Majeed mein saikron martaba aaye hain. Mandarja zail joron mein farq par ghor kijiye: (مُنْذِر darane wala aur مُنْذَر jisey daraya gaya), (مُعَذِّب azaab dene wala aur مُعَذَّب jis par azaab kiya gaya), (مُرْسِل bhejney wala aur مُرْسَل jisey bheja gaya)."
+      }
+    },
+    {
+      "id": "sec_s3l9_vlbl",
+      "type": "section_label",
+      "data": {
+        "text": "Qur'ani Aayaat mein مُـ...ـِ aur مُـ...ـَ ki Exercise (Numbered 1–4)",
+        "title": "Qur'ani Aayaat mein مُـ...ـِ aur مُـ...ـَ ki Exercise (Numbered 1–4)",
+        "label": "Qur'ani Aayaat mein مُـ...ـِ aur مُـ...ـَ ki Exercise (Numbered 1–4)"
+      }
+    },
+    {
+      "id": "sec_s3l9_v",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s3l9_v_s1",
+            "sentence_number": 1,
+            "arabic": "إِنَّمَا أَنْتَ مُنْذِرٌ وَلِكُلِّ قَوْمٍ هَادٍ",
+            "arabic_text": "إِنَّمَا أَنْتَ مُنْذِرٌ وَلِكُلِّ قَوْمٍ هَادٍ",
+            "arabic_markup": "<span class=\"nonroot\">إِنَّمَا</span> <span class=\"nonroot\">أَنْتَ</span> <span class=\"arabic-root\">مُنْذِرٌ</span> <span class=\"arabic-root\">وَلِكُلِّ</span> <span class=\"arabic-root\">قَوْمٍ</span> <span class=\"arabic-root\">هَادٍ</span>",
+            "hinglish": "Aap toh sirf darane wale hain aur har qom ke liye ek rehnuma hai",
+            "hinglish_meaning": "Aap toh sirf darane wale hain aur har qom ke liye ek rehnuma hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aap toh sirf darane wale hain aur har qom ke liye ek rehnuma hai",
+              "en": "You are only a warner, and for every people is a guide",
+              "ur": "صرف تم ڈرانے والے ہو اور ہر قوم کے لیے ہدایت دینے والا ہے",
+              "hi": "सिर्फ़ तुम डराने वाले हो और हर क़ौम के लिए हिदायत देने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_v_s2",
+            "sentence_number": 2,
+            "arabic": "وَمَنْ يُسْلِمْ وَجْهَهُ إِلَى اللَّهِ وَهُوَ مُحْسِنٌ فَقَدِ اسْتَمْسَكَ بِالْعُرْوَةِ الْوُثْقَىٰ",
+            "arabic_text": "وَمَنْ يُسْلِمْ وَجْهَهُ إِلَى اللَّهِ وَهُوَ مُحْسِنٌ فَقَدِ اسْتَمْسَكَ بِالْعُرْوَةِ الْوُثْقَىٰ",
+            "arabic_markup": "<span class=\"arabic-root\">وَمَنْ</span> <span class=\"arabic-root\">يُسْلِمْ</span> <span class=\"arabic-root\">وَجْهَهُ</span> <span class=\"nonroot\">إِلَى</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"arabic-root\">وَهُوَ</span> <span class=\"arabic-root\">مُحْسِنٌ</span> <span class=\"arabic-root\">فَقَدِ</span> <span class=\"arabic-root\">اسْتَمْسَكَ</span> <span class=\"arabic-root\">بِالْعُرْوَةِ</span> <span class=\"arabic-root\">الْوُثْقَىٰ</span>",
+            "hinglish": "Aur jo apna rukh Allah ki taraf jhuka de is haal mein ke woh muhsin (neki karne wala) ho toh usne mazboot kade ko thaam liya",
+            "hinglish_meaning": "Aur jo apna rukh Allah ki taraf jhuka de is haal mein ke woh muhsin (neki karne wala) ho toh usne mazboot kade ko thaam liya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur jo apna rukh Allah ki taraf jhuka de is haal mein ke woh muhsin (neki karne wala) ho toh usne mazboot kade ko thaam liya",
+              "ur": "Aur jo apna rukh Allah ki taraf jhuka de is haal mein ke woh muhsin (neki karne wala) ho toh usne mazboot kade ko thaam liya",
+              "en": "Aur jo apna rukh Allah ki taraf jhuka de is haal mein ke woh muhsin (neki karne wala) ho toh usne mazboot kade ko thaam liya",
+              "hi": "Aur jo apna rukh Allah ki taraf jhuka de is haal mein ke woh muhsin (neki karne wala) ho toh usne mazboot kade ko thaam liya",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_v_s3",
+            "sentence_number": 3,
+            "arabic": "فِي صُحُفٍ مُكَرَّمَةٍ مَرْفُوعَةٍ مُطَهَّرَةٍ",
+            "arabic_text": "فِي صُحُفٍ مُكَرَّمَةٍ مَرْفُوعَةٍ مُطَهَّرَةٍ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">صُحُفٍ</span> <span class=\"arabic-root\">مُكَرَّمَةٍ</span> <span class=\"arabic-root\">مَرْفُوعَةٍ</span> <span class=\"arabic-root\">مُطَهَّرَةٍ</span>",
+            "hinglish": "Ba-izzat sahifon mein jo buland-martaba aur paakiza hain",
+            "hinglish_meaning": "Ba-izzat sahifon mein jo buland-martaba aur paakiza hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ba-izzat sahifon mein jo buland-martaba aur paakiza hain",
+              "ur": "Ba-izzat sahifon mein jo buland-martaba aur paakiza hain",
+              "en": "Ba-izzat sahifon mein jo buland-martaba aur paakiza hain",
+              "hi": "Ba-izzat sahifon mein jo buland-martaba aur paakiza hain",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l9_v_s4",
+            "sentence_number": 4,
+            "arabic": "وَسَخَّرَ لَكُمُ الشَّمْسَ وَالْقَمَرَ دَائِبَيْنِ",
+            "arabic_text": "وَسَخَّرَ لَكُمُ الشَّمْسَ وَالْقَمَرَ دَائِبَيْنِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَسَخَّرَ</span> <span class=\"arabic-root\">لَكُمُ</span> <span class=\"arabic-root\">الشَّمْسَ</span> <span class=\"arabic-root\">وَالْقَمَرَ</span> <span class=\"arabic-root\">دَائِب</span><span class=\"nonroot\">َيْنِ</span>",
+            "hinglish": "Aur Usne tumhare liye sooraj aur chaand ko musalsal kaam mein lagaya",
+            "hinglish_meaning": "Aur Usne tumhare liye sooraj aur chaand ko musalsal kaam mein lagaya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Usne tumhare liye sooraj aur chaand ko musalsal kaam mein lagaya",
+              "ur": "Aur Usne tumhare liye sooraj aur chaand ko musalsal kaam mein lagaya",
+              "en": "Aur Usne tumhare liye sooraj aur chaand ko musalsal kaam mein lagaya",
+              "hi": "Aur Usne tumhare liye sooraj aur chaand ko musalsal kaam mein lagaya",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "page_start": 101
+}

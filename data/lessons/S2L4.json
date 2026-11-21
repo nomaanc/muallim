@@ -1,0 +1,1919 @@
+{
+  "lesson_id": 4,
+  "lesson_key": "S2L4",
+  "stage_id": 2,
+  "title": "Harf-e-Jarr 'Alaa' (Par): الْكِتَابُ ← عَلَى الْكِتَابِ",
+  "arabic_Focus": "الْكِتَابُ ، الْعَرْشُ ← عَلَى الْكِتَابِ ، عَلَى الْعَرْشِ",
+  "hinglish_Focus": "Kitaab, Arsh → Kitaab par, Arsh par",
+  "page_numbers": "58–59",
+  "book_page": 58,
+  "status": "complete",
+  "title_i18n": {
+    "en": "Harf-e-Jarr 'Alaa' (Par): الْكِتَابُ ← عَلَى الْكِتَابِ",
+    "ur": "یونٹ 2 سبق 4: الْكِتَابُ ، الْعَرْشُ ← عَلَى الْكِتَابِ ، عَلَى الْعَرْشِ",
+    "hi": "Harf-e-Jarr 'Alaa' (Par): الْكِتَابُ ← عَلَى الْكِتَابِ"
+  },
+  "sections": [
+    {
+      "id": "sec_hero",
+      "type": "hero_header",
+      "data": {
+        "arabic": "الْكِتَابُ ، الْعَرْشُ ← عَلَى الْكِتَابِ ، عَلَى الْعَرْشِ",
+        "hinglish": "Kitaab, Arsh → Kitaab par, Arsh par",
+        "arabic_word": "الْكِتَابُ ، الْعَرْشُ",
+        "arabic_combined": "الْكِتَابُ ، الْعَرْشُ ← عَلَى الْكِتَابِ ، عَلَى الْعَرْشِ",
+        "hinglish_word": "Kitaab, Arsh",
+        "hinglish_combined": "Kitaab, Arsh → Kitaab par, Arsh par",
+        "title_en": "Harf-e-Jarr 'Alaa' (Par): الْكِتَابُ ← عَلَى الْكِتَابِ",
+        "subtitle": "Unit 2 • Lesson 4 (Book Page 58–59)",
+        "transformations": [
+          {
+            "before_ar": "الْكِتَابُ ، الْعَرْشُ",
+            "after_ar": "عَلَى الْكِتَابِ ، عَلَى الْعَرْشِ",
+            "before_hi": "Kitaab, Arsh",
+            "after_hi": "Kitaab par, Arsh par"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_intro_table",
+      "type": "intro_table",
+      "data": {
+        "title": "S2L4 — Harf-e-Jarr 'Alaa' (Par): الْكِتَابُ ← عَلَى الْكِتَابِ: Buniyadi Misaalein",
+        "caption": "S2L4 — Harf-e-Jarr 'Alaa' (Par): الْكِتَابُ ← عَلَى الْكِتَابِ: Buniyadi Misaalein",
+        "headers": [
+          "Qaa'ida / Halat",
+          "Arabi Misaal",
+          "Hinglish Mafhoom"
+        ],
+        "rows": [
+          [
+            "عَلَىٰ + الْـ (Zair ـِ)",
+            "عَلَى الْكِتَابِ / عَلَى الْعَرْشِ / عَلَى النَّبِيِّ",
+            "Kitaab par / Arsh par / Nabi par"
+          ],
+          [
+            "عَلَىٰ + Nakirah (Do Zair ـٍ)",
+            "عَلَىٰ هُدًى / عَلَىٰ بَيِّنَةٍ / عَلَىٰ صِرَاطٍ",
+            "Hidayat par / Roshan daleel par / Ek raaste par"
+          ],
+          [
+            "لَعَلَىٰ (Yaqeenan ... par)",
+            "وَإِنَّكَ لَعَلَىٰ خُلُقٍ عَظِيمٍ",
+            "Aur beshak aap bade azeem akhlaaq par fa'iz hain"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l4_concept",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 4</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Harf-e-Jarr 'Alaa' (Par): الْكِتَابُ ← عَلَى الْكِتَابِ (Page 58–59)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، الْعَرْشُ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Harf-e-Jarr (عَلَىٰ + ـِ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">عَلَى الْكِتَابِ ، عَلَى الْعَرْشِ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، الْعَرْشُ (Kitaab, Arsh) se عَلَى الْكِتَابِ ، عَلَى الْعَرْشِ (Kitaab par, Arsh par) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 58–59):** **`عَلَىٰ`** ka matlab **'par'** hai. Iske baad aane wale ism ke neeche **Zair (`ـِ / ـٍ`)** aati hai: `الْكِتَابُ ← عَلَى الْكِتَابِ` (Kitaab par), `سَلَامٌ عَلَىٰ نُوحٍ` (Salaam ho Nuh A.S. par).",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 4</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Harf-e-Jarr 'Alaa' (Par): الْكِتَابُ ← عَلَى الْكِتَابِ (Page 58–59)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، الْعَرْشُ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Harf-e-Jarr (عَلَىٰ + ـِ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">عَلَى الْكِتَابِ ، عَلَى الْعَرْشِ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، الْعَرْشُ (Kitaab, Arsh) se عَلَى الْكِتَابِ ، عَلَى الْعَرْشِ (Kitaab par, Arsh par) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 58–59):** **`عَلَىٰ`** ka matlab **'par'** hai. Iske baad aane wale ism ke neeche **Zair (`ـِ / ـٍ`)** aati hai: `الْكِتَابُ ← عَلَى الْكِتَابِ` (Kitaab par), `سَلَامٌ عَلَىٰ نُوحٍ` (Salaam ho Nuh A.S. par).",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 4</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Harf-e-Jarr 'Alaa' (Par): الْكِتَابُ ← عَلَى الْكِتَابِ (Page 58–59)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، الْعَرْشُ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Harf-e-Jarr (عَلَىٰ + ـِ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">عَلَى الْكِتَابِ ، عَلَى الْعَرْشِ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، الْعَرْشُ (Kitaab, Arsh) se عَلَى الْكِتَابِ ، عَلَى الْعَرْشِ (Kitaab par, Arsh par) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 58–59):** **`عَلَىٰ`** ka matlab **'par'** hai. Iske baad aane wale ism ke neeche **Zair (`ـِ / ـٍ`)** aati hai: `الْكِتَابُ ← عَلَى الْكِتَابِ` (Kitaab par), `سَلَامٌ عَلَىٰ نُوحٍ` (Salaam ho Nuh A.S. par)."
+      }
+    },
+    {
+      "id": "sec_s2l4_lbl1",
+      "type": "section_label",
+      "data": {
+        "text": "Column 1 aur Column 2 ka farq ghour se dekhiye:",
+        "title": "Column 1 aur Column 2 ka farq ghour se dekhiye:",
+        "label": "Column 1 aur Column 2 ka farq ghour se dekhiye:"
+      }
+    },
+    {
+      "id": "sec_s2l4_r3",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Upar di gayi misaalon se wazeh hai ke (عَلَى) ka matlab \"par\" hai, aur iske baad aane wale lafz par zair (kasrah) aati hai. (عَلَى) aur iske baad wala lafz milkar ek phrase banaate hain jinka tarjuma milaakar hota hai.",
+        "content": "Upar di gayi misaalon se wazeh hai ke (عَلَى) ka matlab \"par\" hai, aur iske baad aane wale lafz par zair (kasrah) aati hai. (عَلَى) aur iske baad wala lafz milkar ek phrase banaate hain jinka tarjuma milaakar hota hai.",
+        "hinglish_text": "Upar di gayi misaalon se wazeh hai ke (عَلَى) ka matlab \"par\" hai, aur iske baad aane wale lafz par zair (kasrah) aati hai. (عَلَى) aur iske baad wala lafz milkar ek phrase banaate hain jinka tarjuma milaakar hota hai."
+      }
+    },
+    {
+      "id": "sec_s2l4_r4",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Neeche di gayi Qur'ani ibaarat khud samjhein aur tarjuma karein:",
+        "content": "Neeche di gayi Qur'ani ibaarat khud samjhein aur tarjuma karein:",
+        "hinglish_text": "Neeche di gayi Qur'ani ibaarat khud samjhein aur tarjuma karein:"
+      }
+    },
+    {
+      "id": "sec_s2l4_g5",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l4_g5_w1",
+            "arabic": "عَلَى النَّبِيِّ",
+            "arabic_text": "عَلَى النَّبِيِّ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">النَّبِيِّ</span>",
+            "hinglish": "Nabi par",
+            "hinglish_meaning": "Nabi par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Nabi par",
+              "en": "Upon the Prophet",
+              "ur": "نبی پر",
+              "hi": "नबी पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w2",
+            "arabic": "عَلَى الرَّسُولِ",
+            "arabic_text": "عَلَى الرَّسُولِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الرَّسُولِ</span>",
+            "hinglish": "Rasool par",
+            "hinglish_meaning": "Rasool par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Rasool par",
+              "en": "Upon the Messenger",
+              "ur": "رسول پر",
+              "hi": "रसूल पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w3",
+            "arabic": "عَلَى الرَّحْمَنِ",
+            "arabic_text": "عَلَى الرَّحْمَنِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الرَّحْمَنِ</span>",
+            "hinglish": "Rahman par",
+            "hinglish_meaning": "Rahman par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Rahman par",
+              "en": "Upon the Most Merciful (Ar-Rahman)",
+              "ur": "رحمن پر",
+              "hi": "रहमान पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w4",
+            "arabic": "عَلَى اللَّهِ",
+            "arabic_text": "عَلَى اللَّهِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">اللَّهِ</span>",
+            "hinglish": "Allah par",
+            "hinglish_meaning": "Allah par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah par",
+              "en": "Upon Allah",
+              "ur": "اللہ پر",
+              "hi": "अल्लाह पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w5",
+            "arabic": "عَلَى النَّاسِ",
+            "arabic_text": "عَلَى النَّاسِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">النَّاسِ</span>",
+            "hinglish": "Logon par",
+            "hinglish_meaning": "Logon par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Logon par",
+              "en": "Upon mankind / people",
+              "ur": "لوگوں پر",
+              "hi": "लोगों पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w6",
+            "arabic": "عَلَى الْعَرْشِ",
+            "arabic_text": "عَلَى الْعَرْشِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْعَرْشِ</span>",
+            "hinglish": "Arsh par",
+            "hinglish_meaning": "Arsh par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Arsh par",
+              "en": "Over the Throne",
+              "ur": "عرش پر",
+              "hi": "अर्श पर / सिंहासन पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w7",
+            "arabic": "عَلَى الْأَرْضِ",
+            "arabic_text": "عَلَى الْأَرْضِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْأَرْضِ</span>",
+            "hinglish": "Zameen par",
+            "hinglish_meaning": "Zameen par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Zameen par",
+              "en": "Upon the earth",
+              "ur": "زمین پر",
+              "hi": "ज़मीन पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w8",
+            "arabic": "عَلَى الْغَيْبِ",
+            "arabic_text": "عَلَى الْغَيْبِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْغَيْبِ</span>",
+            "hinglish": "Ghaib par",
+            "hinglish_meaning": "Ghaib par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ghaib par",
+              "en": "Upon the unseen",
+              "ur": "غیب پر",
+              "hi": "ग़ैब पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w9",
+            "arabic": "عَلَى الْآخِرَةِ",
+            "arabic_text": "عَلَى الْآخِرَةِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْآخِرَةِ</span>",
+            "hinglish": "Aakhirat par",
+            "hinglish_meaning": "Aakhirat par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aakhirat par",
+              "en": "Upon the Hereafter",
+              "ur": "آخرت پر",
+              "hi": "आख़िरत पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w10",
+            "arabic": "عَلَى الْإِنْسَانِ",
+            "arabic_text": "عَلَى الْإِنْسَانِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْإِنْسَانِ</span>",
+            "hinglish": "Insaan par",
+            "hinglish_meaning": "Insaan par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Insaan par",
+              "en": "Upon mankind / man",
+              "ur": "انسان پر",
+              "hi": "इंसान पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w11",
+            "arabic": "عَلَى الْبَاطِلِ",
+            "arabic_text": "عَلَى الْبَاطِلِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْبَاطِلِ</span>",
+            "hinglish": "Baatil par",
+            "hinglish_meaning": "Baatil par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Baatil par",
+              "en": "Upon falsehood",
+              "ur": "باطل پر",
+              "hi": "बातिल पर / असत्य पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w12",
+            "arabic": "عَلَى الْحَقِّ",
+            "arabic_text": "عَلَى الْحَقِّ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْحَقِّ</span>",
+            "hinglish": "Haq par",
+            "hinglish_meaning": "Haq par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Haq par",
+              "en": "Upon the truth",
+              "ur": "حق پر / سچائی پر",
+              "hi": "हक़ पर / सच पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w13",
+            "arabic": "عَلَى الْخَيْرِ",
+            "arabic_text": "عَلَى الْخَيْرِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْخَيْرِ</span>",
+            "hinglish": "Bhalai par",
+            "hinglish_meaning": "Bhalai par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bhalai par",
+              "en": "Upon goodness / For good",
+              "ur": "بھلائی پر / نیکی پر",
+              "hi": "भलाई पर / नेकी पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w14",
+            "arabic": "عَلَى الْهُدَى",
+            "arabic_text": "عَلَى الْهُدَى",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْهُدَى</span>",
+            "hinglish": "Hidayat par",
+            "hinglish_meaning": "Hidayat par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Hidayat par",
+              "en": "Upon the guidance",
+              "ur": "ہدایت پر",
+              "hi": "हिदायत पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w15",
+            "arabic": "عَلَى الدِّينِ",
+            "arabic_text": "عَلَى الدِّينِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الدِّينِ</span>",
+            "hinglish": "Deen par",
+            "hinglish_meaning": "Deen par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Deen par",
+              "en": "Upon religion",
+              "ur": "دین پر",
+              "hi": "दीन पर / धर्म पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w16",
+            "arabic": "عَلَى الْإِيمَانِ",
+            "arabic_text": "عَلَى الْإِيمَانِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْإِيمَانِ</span>",
+            "hinglish": "Eemaan par",
+            "hinglish_meaning": "Eemaan par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Eemaan par",
+              "en": "Upon faith",
+              "ur": "ایمان پر",
+              "hi": "ईमान पर / विश्वास पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w17",
+            "arabic": "عَلَى النَّارِ",
+            "arabic_text": "عَلَى النَّارِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">النَّارِ</span>",
+            "hinglish": "Aag par",
+            "hinglish_meaning": "Aag par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aag par",
+              "en": "Over the Fire",
+              "ur": "آگ پر",
+              "hi": "आग पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w18",
+            "arabic": "عَلَى الْمَاءِ",
+            "arabic_text": "عَلَى الْمَاءِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْمَاءِ</span>",
+            "hinglish": "Paani par",
+            "hinglish_meaning": "Paani par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Paani par",
+              "en": "Upon the water",
+              "ur": "پانی پر",
+              "hi": "पानी पर / जल पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w19",
+            "arabic": "عَلَى الْقِتَالِ",
+            "arabic_text": "عَلَى الْقِتَالِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْقِتَالِ</span>",
+            "hinglish": "Jung par",
+            "hinglish_meaning": "Jung par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jung par",
+              "en": "To fighting / Upon war",
+              "ur": "جنگ پر / لڑائی پر",
+              "hi": "जंग पर / लड़ाई पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w20",
+            "arabic": "عَلَى الْقَرْيَةِ",
+            "arabic_text": "عَلَى الْقَرْيَةِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْقَرْيَةِ</span>",
+            "hinglish": "Basti par",
+            "hinglish_meaning": "Basti par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Basti par",
+              "en": "Upon the town / village",
+              "ur": "بستی پر",
+              "hi": "बस्ती पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w21",
+            "arabic": "عَلَى التَّقْوَى",
+            "arabic_text": "عَلَى التَّقْوَى",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">التَّقْوَى</span>",
+            "hinglish": "Taqwa par",
+            "hinglish_meaning": "Taqwa par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Taqwa par",
+              "en": "Upon piety / righteousness",
+              "ur": "تقویٰ پر / پرہیزگاری پر",
+              "hi": "तक़वा पर / परहेज़गारी पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w22",
+            "arabic": "عَلَى الْبِرِّ",
+            "arabic_text": "عَلَى الْبِرِّ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْبِرِّ</span>",
+            "hinglish": "Neki par",
+            "hinglish_meaning": "Neki par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Neki par",
+              "en": "Upon righteousness / virtue",
+              "ur": "نیکی پر",
+              "hi": "नेकी पर / भलाई पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w23",
+            "arabic": "عَلَى الْإِثْمِ",
+            "arabic_text": "عَلَى الْإِثْمِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْإِثْمِ</span>",
+            "hinglish": "Gunah par",
+            "hinglish_meaning": "Gunah par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Gunah par",
+              "en": "Upon sin",
+              "ur": "گناہ پر",
+              "hi": "गुनाह पर / पाप पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w24",
+            "arabic": "عَلَى النِّفَاقِ",
+            "arabic_text": "عَلَى النِّفَاقِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">النِّفَاقِ</span>",
+            "hinglish": "Nifaq par",
+            "hinglish_meaning": "Nifaq par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Nifaq par",
+              "en": "Upon hypocrisy",
+              "ur": "نفاق پر / منافقت پر",
+              "hi": "निफ़ाक़ पर / कपट पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w25",
+            "arabic": "عَلَى الْفُلْكِ",
+            "arabic_text": "عَلَى الْفُلْكِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْفُلْكِ</span>",
+            "hinglish": "Kashti par",
+            "hinglish_meaning": "Kashti par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kashti par",
+              "en": "Upon the ship",
+              "ur": "کشتی پر",
+              "hi": "कश्ती पर / नाव पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w26",
+            "arabic": "عَلَى الطِّينِ",
+            "arabic_text": "عَلَى الطِّينِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الطِّينِ</span>",
+            "hinglish": "Mitti par",
+            "hinglish_meaning": "Mitti par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Mitti par",
+              "en": "Upon clay / mud",
+              "ur": "مٹی پر / گارے پر",
+              "hi": "मिट्टी पर / गारे पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w27",
+            "arabic": "عَلَى الْكَذِبِ",
+            "arabic_text": "عَلَى الْكَذِبِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْكَذِبِ</span>",
+            "hinglish": "Jhooth par",
+            "hinglish_meaning": "Jhooth par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jhooth par",
+              "en": "Upon falsehood / lie",
+              "ur": "جھوٹ پر",
+              "hi": "झूठ पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w28",
+            "arabic": "عَلَى الطَّرِيقَةِ",
+            "arabic_text": "عَلَى الطَّرِيقَةِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الطَّرِيقَةِ</span>",
+            "hinglish": "Raste par",
+            "hinglish_meaning": "Raste par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Raste par",
+              "en": "Upon the right path",
+              "ur": "راستے پر / طریقے پر",
+              "hi": "रास्ते पर / तरीक़े पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w29",
+            "arabic": "عَلَى مَرْيَمَ",
+            "arabic_text": "عَلَى مَرْيَمَ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">مَرْيَمَ</span>",
+            "hinglish": "Maryam par",
+            "hinglish_meaning": "Maryam par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Maryam par",
+              "en": "Against Maryam (Mary)",
+              "ur": "مریم پر",
+              "hi": "मरयम पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w30",
+            "arabic": "عَلَى نُوحٍ",
+            "arabic_text": "عَلَى نُوحٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">نُوحٍ</span>",
+            "hinglish": "Nooh (Alaihis Salam) par",
+            "hinglish_meaning": "Nooh (Alaihis Salam) par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Nooh (Alaihis Salam) par",
+              "en": "Upon Noah (peace be upon him)",
+              "ur": "نوح علیہ السلام پر",
+              "hi": "नूह (अलैहिस्सलाम) पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w31",
+            "arabic": "عَلَى مُوسَى",
+            "arabic_text": "عَلَى مُوسَى",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">مُوسَى</span>",
+            "hinglish": "Musa (Alaihis Salam) par",
+            "hinglish_meaning": "Musa (Alaihis Salam) par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Musa (Alaihis Salam) par",
+              "en": "Upon Moses (peace be upon him)",
+              "ur": "موسیٰ علیہ السلام پر",
+              "hi": "मूसा (अलैहिस्सलाम) पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w32",
+            "arabic": "عَلَى مُحَمَّدٍ",
+            "arabic_text": "عَلَى مُحَمَّدٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">مُحَمَّدٍ</span>",
+            "hinglish": "Muhammad ﷺ par",
+            "hinglish_meaning": "Muhammad ﷺ par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Muhammad ﷺ par",
+              "en": "Upon Muhammad ﷺ",
+              "ur": "محمد ﷺ پر",
+              "hi": "मुहम्मद ﷺ पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w33",
+            "arabic": "عَلَى الْحَيِّ",
+            "arabic_text": "عَلَى الْحَيِّ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْحَيِّ</span>",
+            "hinglish": "Zinda par",
+            "hinglish_meaning": "Zinda par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Zinda par",
+              "en": "Upon the Ever-Living",
+              "ur": "زندہ پر / ہمیشہ زندہ رہنے والے پر",
+              "hi": "ज़िंदा पर / सदैव जीवित पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w34",
+            "arabic": "عَلَى دَاوُودَ",
+            "arabic_text": "عَلَى دَاوُودَ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">دَاوُودَ</span>",
+            "hinglish": "Dawood (Alaihis Salam) par",
+            "hinglish_meaning": "Dawood (Alaihis Salam) par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Dawood (Alaihis Salam) par",
+              "en": "Upon David (peace be upon him)",
+              "ur": "داؤد علیہ السلام پر",
+              "hi": "दाऊद (अलैहिस्सलाम) पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w35",
+            "arabic": "عَلَى إِبْرَاهِيمَ",
+            "arabic_text": "عَلَى إِبْرَاهِيمَ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">إِبْرَاهِيمَ</span>",
+            "hinglish": "Ibrahim (Alaihis Salam) par",
+            "hinglish_meaning": "Ibrahim (Alaihis Salam) par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ibrahim (Alaihis Salam) par",
+              "en": "Upon Abraham (peace be upon him)",
+              "ur": "ابراہیم علیہ السلام پر",
+              "hi": "इब्राहीम (अलैहिस्सलाम) पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w36",
+            "arabic": "عَلَى يُوسُفَ",
+            "arabic_text": "عَلَى يُوسُفَ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">يُوسُفَ</span>",
+            "hinglish": "Yusuf (Alaihis Salam) par",
+            "hinglish_meaning": "Yusuf (Alaihis Salam) par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yusuf (Alaihis Salam) par",
+              "en": "Upon Joseph (peace be upon him)",
+              "ur": "یوسف علیہ السلام پر",
+              "hi": "यूसुफ़ (अलैहिस्सलाम) पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w37",
+            "arabic": "عَلَى السَّمَاوَاتِ",
+            "arabic_text": "عَلَى السَّمَاوَاتِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">السَّمَاوَاتِ</span>",
+            "hinglish": "Aasmanon par",
+            "hinglish_meaning": "Aasmanon par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aasmanon par",
+              "en": "Upon the heavens",
+              "ur": "آسمانوں پر",
+              "hi": "आसमानों पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w38",
+            "arabic": "عَلَى الْأَعْرَجِ",
+            "arabic_text": "عَلَى الْأَعْرَجِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْأَعْرَجِ</span>",
+            "hinglish": "Langde par",
+            "hinglish_meaning": "Langde par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Langde par",
+              "en": "Upon the lame",
+              "ur": "لنگڑے پر",
+              "hi": "लंगड़े पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w39",
+            "arabic": "عَلَى الْأَعْمَى",
+            "arabic_text": "عَلَى الْأَعْمَى",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْأَعْمَى</span>",
+            "hinglish": "Andhe par",
+            "hinglish_meaning": "Andhe par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Andhe par",
+              "en": "Upon the blind",
+              "ur": "اندھے پر",
+              "hi": "अंधे पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w40",
+            "arabic": "عَلَى الْمَرِيضِ",
+            "arabic_text": "عَلَى الْمَرِيضِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْمَرِيضِ</span>",
+            "hinglish": "Bimaar par",
+            "hinglish_meaning": "Bimaar par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bimaar par",
+              "en": "Upon the sick",
+              "ur": "بیمار پر",
+              "hi": "बीमार पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w41",
+            "arabic": "عَلَى الْمَلَائِكَةِ",
+            "arabic_text": "عَلَى الْمَلَائِكَةِ",
+            "arabic_markup": "<span class=\"arabic-root\">عَلَى </span><span class=\"nonroot\">الْمَلَائِكَةِ</span>",
+            "hinglish": "Farishton par",
+            "hinglish_meaning": "Farishton par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Farishton par",
+              "en": "Upon the angels",
+              "ur": "فرشتوں پر",
+              "hi": "फ़रिश्तों पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w42",
+            "arabic": "عَلَى الْأَفْئِدَةِ",
+            "arabic_text": "عَلَى الْأَفْئِدَةِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْأَفْئِدَةِ</span>",
+            "hinglish": "Dilon par",
+            "hinglish_meaning": "Dilon par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Dilon par",
+              "en": "Upon the hearts",
+              "ur": "دلوں پر",
+              "hi": "दिलों पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g5_w43",
+            "arabic": "عَلَى الصَّلَوَاتِ",
+            "arabic_text": "عَلَى الصَّلَوَاتِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الصَّلَوَاتِ</span>",
+            "hinglish": "Namazon par",
+            "hinglish_meaning": "Namazon par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Namazon par",
+              "en": "Upon the prayers",
+              "ur": "نمازوں پر",
+              "hi": "नमाज़ों पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l4_g6",
+      "type": "grace_box",
+      "data": {
+        "text": "Agar (عَلَى) ke baad do ya teen alfaaz 'Waw' (وَ) se juday hue aayein toh unka tarjuma milaakar hota hai. Neeche di gayi Qur'ani ibaarat ka tarjuma karein:"
+      }
+    },
+    {
+      "id": "sec_s2l4_g7",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l4_g7_w1",
+            "arabic": "عَلَى مُوسَى وَهَارُونَ",
+            "arabic_text": "عَلَى مُوسَى وَهَارُونَ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">مُوسَى</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">هَارُونَ</span>",
+            "hinglish": "Musa (Alaihis Salam) aur Haroon (Alaihis Salam) par",
+            "hinglish_meaning": "Musa (Alaihis Salam) aur Haroon (Alaihis Salam) par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Musa (Alaihis Salam) aur Haroon (Alaihis Salam) par",
+              "en": "Upon Moses and Aaron (peace be upon them)",
+              "ur": "موسیٰ اور ہارون علیہما السلام پر",
+              "hi": "मूसा (अलैहिस्सलाम) और हारून (अलैहिस्सलाम) पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g7_w2",
+            "arabic": "عَلَى إِبْرَاهِيمَ وَإِسْمَاعِيلَ",
+            "arabic_text": "عَلَى إِبْرَاهِيمَ وَإِسْمَاعِيلَ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">إِبْرَاهِيمَ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">إِسْمَاعِيلَ</span>",
+            "hinglish": "Ibrahim (Alaihis Salam) aur Ismail (Alaihis Salam) par",
+            "hinglish_meaning": "Ibrahim (Alaihis Salam) aur Ismail (Alaihis Salam) par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ibrahim (Alaihis Salam) aur Ismail (Alaihis Salam) par",
+              "en": "Upon Abraham and Ishmael (peace be upon them)",
+              "ur": "ابراہیم اور اسماعیل علیہما السلام پر",
+              "hi": "इब्राहीम (अलैहिस्सलाम) और इस्माईल (अलैहिस्सलाम) पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g7_w3",
+            "arabic": "عَلَى الْبِرِّ وَالتَّقْوَى",
+            "arabic_text": "عَلَى الْبِرِّ وَالتَّقْوَى",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْبِرِّ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">التَّقْوَى</span>",
+            "hinglish": "Neki aur taqwa par",
+            "hinglish_meaning": "Neki aur taqwa par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Neki aur taqwa par",
+              "en": "Upon righteousness and piety",
+              "ur": "نیکی اور تقویٰ پر",
+              "hi": "नेकी और तक़वा पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g7_w4",
+            "arabic": "عَلَى الْإِثْمِ وَالْعُدْوَانِ",
+            "arabic_text": "عَلَى الْإِثْمِ وَالْعُدْوَانِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الْإِثْمِ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْعُدْوَانِ</span>",
+            "hinglish": "Gunah aur ziyaadti par",
+            "hinglish_meaning": "Gunah aur ziyaadti par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Gunah aur ziyaadti par",
+              "en": "Upon sin and transgression",
+              "ur": "گناہ اور زیادتی پر",
+              "hi": "गुनाह और ज़्यादती पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g7_w5",
+            "arabic": "عَلَى السَّمَاوَاتِ وَالْأَرْضِ وَالْجِبَالِ",
+            "arabic_text": "عَلَى السَّمَاوَاتِ وَالْأَرْضِ وَالْجِبَالِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">السَّمَاوَاتِ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْأَرْضِ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْجِبَالِ</span>",
+            "hinglish": "Aasmanon aur zameen aur pahaadon par",
+            "hinglish_meaning": "Aasmanon aur zameen aur pahaadon par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aasmanon aur zameen aur pahaadon par",
+              "en": "Upon the heavens, the earth, and the mountains",
+              "ur": "آسمانوں، زمین اور پہاڑوں پر",
+              "hi": "आसमानों, ज़मीन और पहाड़ों पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g7_w6",
+            "arabic": "عَلَى السَّمَاوَاتِ وَالْأَرْضِ",
+            "arabic_text": "عَلَى السَّمَاوَاتِ وَالْأَرْضِ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">السَّمَاوَاتِ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْأَرْضِ</span>",
+            "hinglish": "Aasmanon aur zameen par",
+            "hinglish_meaning": "Aasmanon aur zameen par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aasmanon aur zameen par",
+              "en": "Upon the heavens and the earth",
+              "ur": "آسمانوں اور زمین پر",
+              "hi": "आसमानों और ज़मीन पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g7_w7",
+            "arabic": "عَلَى إِبْرَاهِيمَ وَإِسْمَاعِيلَ وَإِسْحَاقَ وَيَعْقُوبَ",
+            "arabic_text": "عَلَى إِبْرَاهِيمَ وَإِسْمَاعِيلَ وَإِسْحَاقَ وَيَعْقُوبَ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">إِبْرَاهِيمَ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">إِسْمَاعِيلَ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">إِسْحَاقَ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">يَعْقُوبَ</span>",
+            "hinglish": "Ibrahim (Alaihis Salam) aur Ismail (Alaihis Salam) aur Ishaq (Alaihis Salam) aur Yaqoob (Alaihis Salam) par",
+            "hinglish_meaning": "Ibrahim (Alaihis Salam) aur Ismail (Alaihis Salam) aur Ishaq (Alaihis Salam) aur Yaqoob (Alaihis Salam) par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ibrahim (Alaihis Salam) aur Ismail (Alaihis Salam) aur Ishaq (Alaihis Salam) aur Yaqoob (Alaihis Salam) par",
+              "en": "Upon Abraham, Ishmael, Isaac, and Jacob (peace be upon them)",
+              "ur": "ابراہیم، اسماعیل، اسحاق اور یعقوب علیہم السلام پر",
+              "hi": "इब्राहीम, इस्माईल, इसहाक़ और याक़ूब (अलैहिमुस्सलाम) पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l4_r8",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Agar (عَلَى) ke baad 'Al' (الـ) na ho toh matlab \"kisi\" ya \"ek\" ke saath hota hai. Pehli misaal dekh kar neeche diye gaye Qur'ani jumlon ka tarjuma karein:",
+        "content": "Agar (عَلَى) ke baad 'Al' (الـ) na ho toh matlab \"kisi\" ya \"ek\" ke saath hota hai. Pehli misaal dekh kar neeche diye gaye Qur'ani jumlon ka tarjuma karein:",
+        "hinglish_text": "Agar (عَلَى) ke baad 'Al' (الـ) na ho toh matlab \"kisi\" ya \"ek\" ke saath hota hai. Pehli misaal dekh kar neeche diye gaye Qur'ani jumlon ka tarjuma karein:"
+      }
+    },
+    {
+      "id": "sec_s2l4_g9",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l4_g9_w1",
+            "arabic": "عَلَى خَوْفٍ",
+            "arabic_text": "عَلَى خَوْفٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">خَوْفٍ</span>",
+            "hinglish": "Kisi khauf par",
+            "hinglish_meaning": "Kisi khauf par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi khauf par",
+              "en": "Upon fear / In fear",
+              "ur": "کسی خوف پر",
+              "hi": "किसी ख़ौफ़ पर / किसी डर पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g9_w2",
+            "arabic": "عَلَى غَضَبٍ",
+            "arabic_text": "عَلَى غَضَبٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">غَضَبٍ</span>",
+            "hinglish": "Kisi gusse par",
+            "hinglish_meaning": "Kisi gusse par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi gusse par",
+              "en": "Upon wrath / anger",
+              "ur": "کسی غضب پر / غصے پر",
+              "hi": "किसी ग़ज़ब पर / ग़ुस्से पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g9_w3",
+            "arabic": "عَلَى قَوْمٍ",
+            "arabic_text": "عَلَى قَوْمٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">قَوْمٍ</span>",
+            "hinglish": "Kisi qaum par",
+            "hinglish_meaning": "Kisi qaum par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi qaum par",
+              "en": "Upon a people / nation",
+              "ur": "کسی قوم پر",
+              "hi": "کسی क़ौम पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g9_w4",
+            "arabic": "عَلَى نُورٍ",
+            "arabic_text": "عَلَى نُورٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">نُورٍ</span>",
+            "hinglish": "Kisi roshni par",
+            "hinglish_meaning": "Kisi roshni par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi roshni par",
+              "en": "Upon a light",
+              "ur": "کسی نور پر / روشنی پر",
+              "hi": "किसी नूर पर / रौशनी पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g9_w5",
+            "arabic": "عَلَى بَيِّنَةٍ",
+            "arabic_text": "عَلَى بَيِّنَةٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">بَيِّنَةٍ</span>",
+            "hinglish": "Kisi wazeh daleel par",
+            "hinglish_meaning": "Kisi wazeh daleel par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi wazeh daleel par",
+              "en": "Upon clear evidence",
+              "ur": "کسی واضح دلیل پر",
+              "hi": "किसी स्पष्ट प्रमाण पर / खुली दलील पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g9_w6",
+            "arabic": "عَلَى شَرِيعَةٍ",
+            "arabic_text": "عَلَى شَرِيعَةٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">شَرِيعَةٍ</span>",
+            "hinglish": "Kisi shariat par",
+            "hinglish_meaning": "Kisi shariat par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi shariat par",
+              "en": "Upon a prescribed law / way",
+              "ur": "کسی شریعت پر / راستے پر",
+              "hi": "کسی शरीअत पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g9_w7",
+            "arabic": "عَلَى هُدًى",
+            "arabic_text": "عَلَى هُدًى",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">هُدًى</span>",
+            "hinglish": "Kisi hidayat par",
+            "hinglish_meaning": "Kisi hidayat par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi hidayat par",
+              "en": "Upon guidance",
+              "ur": "کسی ہدایت پر",
+              "hi": "کسی हिदायत पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g9_w8",
+            "arabic": "عَلَى عِلْمٍ",
+            "arabic_text": "عَلَى عِلْمٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">عِلْمٍ</span>",
+            "hinglish": "Kisi ilm par",
+            "hinglish_meaning": "Kisi ilm par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi ilm par",
+              "en": "Upon knowledge",
+              "ur": "کسی علم پر",
+              "hi": "کسی इल्म पर / ज्ञान पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g9_w9",
+            "arabic": "عَلَى قَرْيَةٍ",
+            "arabic_text": "عَلَى قَرْيَةٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">قَرْيَةٍ</span>",
+            "hinglish": "Kisi basti par",
+            "hinglish_meaning": "Kisi basti par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi basti par",
+              "en": "Upon a town / village",
+              "ur": "کسی بستی پر",
+              "hi": "کسی बस्ती पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g9_w10",
+            "arabic": "عَلَى سَفَرٍ",
+            "arabic_text": "عَلَى سَفَرٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">سَفَرٍ</span>",
+            "hinglish": "Kisi safar par",
+            "hinglish_meaning": "Kisi safar par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi safar par",
+              "en": "On a journey",
+              "ur": "کسی سفر پر",
+              "hi": "کسی सफ़र पर / यात्रा पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g9_w11",
+            "arabic": "عَلَى حَيَاةٍ",
+            "arabic_text": "عَلَى حَيَاةٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">حَيَاةٍ</span>",
+            "hinglish": "Kisi zindagi par",
+            "hinglish_meaning": "Kisi zindagi par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi zindagi par",
+              "en": "For a life (eager for life)",
+              "ur": "کسی زندگی پر",
+              "hi": "کسی ज़िंदगी पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g9_w12",
+            "arabic": "عَلَى تِجَارَةٍ",
+            "arabic_text": "عَلَى تِجَارَةٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">تِجَارَةٍ</span>",
+            "hinglish": "Kisi tijarat par",
+            "hinglish_meaning": "Kisi tijarat par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi tijarat par",
+              "en": "Upon a trade / commerce",
+              "ur": "کسی تجارت پر",
+              "hi": "کسی تجارت پر / व्यापार पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g9_w13",
+            "arabic": "عَلَى جَبَلٍ",
+            "arabic_text": "عَلَى جَبَلٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">جَبَلٍ</span>",
+            "hinglish": "Kisi pahaad par",
+            "hinglish_meaning": "Kisi pahaad par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi pahaad par",
+              "en": "Upon a mountain",
+              "ur": "کسی پہاڑ پر",
+              "hi": "کسی पहाड़ पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g9_w14",
+            "arabic": "عَلَى أَمْرٍ",
+            "arabic_text": "عَلَى أَمْرٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">أَمْرٍ</span>",
+            "hinglish": "Kisi hukm par",
+            "hinglish_meaning": "Kisi hukm par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi hukm par",
+              "en": "Over an affair / command",
+              "ur": "کسی معاملے پر / حکم پر",
+              "hi": "کسی मामले पर / हुक्म पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g9_w15",
+            "arabic": "عَلَى رَجُلٍ",
+            "arabic_text": "عَلَى رَجُلٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">رَجُلٍ</span>",
+            "hinglish": "Kisi mard par",
+            "hinglish_meaning": "Kisi mard par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi mard par",
+              "en": "Upon a man",
+              "ur": "کسی آدمی پر / مرد پر",
+              "hi": "کسی आदमी पर / मर्द पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g9_w16",
+            "arabic": "عَلَى أُمَّةٍ",
+            "arabic_text": "عَلَى أُمَّةٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">أُمَّةٍ</span>",
+            "hinglish": "Kisi ummat par",
+            "hinglish_meaning": "Kisi ummat par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi ummat par",
+              "en": "Upon a nation / community",
+              "ur": "کسی امت پر / قوم پر",
+              "hi": "کسی उम्मत पर / समुदाय पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g9_w17",
+            "arabic": "عَلَى طَعَامٍ",
+            "arabic_text": "عَلَى طَعَامٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">طَعَامٍ</span>",
+            "hinglish": "Kisi khane par",
+            "hinglish_meaning": "Kisi khane par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi khane par",
+              "en": "Upon the food / feeding",
+              "ur": "کسی کھانے پر",
+              "hi": "کسی खाने पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g9_w18",
+            "arabic": "عَلَى أَحَدٍ",
+            "arabic_text": "عَلَى أَحَدٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">أَحَدٍ</span>",
+            "hinglish": "Kisi ek par",
+            "hinglish_meaning": "Kisi ek par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi ek par",
+              "en": "Upon anyone",
+              "ur": "کسی ایک پر",
+              "hi": "کسی एक पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g9_w19",
+            "arabic": "عَلَى شَيْءٍ",
+            "arabic_text": "عَلَى شَيْءٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">شَيْءٍ</span>",
+            "hinglish": "Kisi cheez par",
+            "hinglish_meaning": "Kisi cheez par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi cheez par",
+              "en": "Upon anything / something",
+              "ur": "کسی چیز پر",
+              "hi": "کسی चीज़ पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g9_w20",
+            "arabic": "عَلَى بَشَرٍ",
+            "arabic_text": "عَلَى بَشَرٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">بَشَرٍ</span>",
+            "hinglish": "Kisi insaan par",
+            "hinglish_meaning": "Kisi insaan par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi insaan par",
+              "en": "Upon a mortal / human being",
+              "ur": "کسی انسان پر / بشر پر",
+              "hi": "کسی इंसान पर / बशर पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l4_r10",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Kabhi kabhi 'Lam' (لَـ) 'Alaa' (عَلَى) ke shuru mein lagta hai jo iss phrase aur matlab dono par zor deta hai (ta'keed paida karta hai). Khud samajh kar tarjuma karein:",
+        "content": "Kabhi kabhi 'Lam' (لَـ) 'Alaa' (عَلَى) ke shuru mein lagta hai jo iss phrase aur matlab dono par zor deta hai (ta'keed paida karta hai). Khud samajh kar tarjuma karein:",
+        "hinglish_text": "Kabhi kabhi 'Lam' (لَـ) 'Alaa' (عَلَى) ke shuru mein lagta hai jo iss phrase aur matlab dono par zor deta hai (ta'keed paida karta hai). Khud samajh kar tarjuma karein:"
+      }
+    },
+    {
+      "id": "sec_s2l4_g11",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l4_g11_w1",
+            "arabic": "لَعَلَى خُلُقٍ",
+            "arabic_text": "لَعَلَى خُلُقٍ",
+            "arabic_markup": "<span class=\"nonroot\">لَعَلَى</span> <span class=\"arabic-root\">خُلُقٍ</span>",
+            "hinglish": "Yaqeenan aala ikhlaq par",
+            "hinglish_meaning": "Yaqeenan aala ikhlaq par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yaqeenan aala ikhlaq par",
+              "en": "Truly upon great character",
+              "ur": "یقیناً اعلیٰ اخلاق پر",
+              "hi": "यक़ीनन उच्च चरित्र पर / आला अख़लाक़ पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_g11_w2",
+            "arabic": "لَعَلَى هُدًى",
+            "arabic_text": "لَعَلَى هُدًى",
+            "arabic_markup": "<span class=\"nonroot\">لَعَلَى</span> <span class=\"arabic-root\">هُدًى</span>",
+            "hinglish": "Yaqeenan hidayat par",
+            "hinglish_meaning": "Yaqeenan hidayat par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yaqeenan hidayat par",
+              "en": "Truly upon guidance",
+              "ur": "یقیناً ہدایت پر",
+              "hi": "यक़ीनन हिदायत पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l4_g12",
+      "type": "grace_box",
+      "data": {
+        "text": "Alhamdulillah, pichle sabqon aur iss dars ki madad se aap neeche diye gaye Qur'ani jumlon ko aasaani se samjhne ke qabil hain. mein jumlon ka tarjuma karein:"
+      }
+    },
+    {
+      "id": "sec_s2l4_v13",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s2l4_v13_s1",
+            "sentence_number": 1,
+            "arabic": "سَلَامٌ/ عَلَى نُوحٍ",
+            "arabic_text": "سَلَامٌ/ عَلَى نُوحٍ",
+            "arabic_markup": "<span class=\"arabic-root\">سَلَامٌ</span>/ <span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">نُوحٍ</span>",
+            "hinglish": "Salam ho Nooh (A.S.) par",
+            "hinglish_meaning": "Salam ho Nooh (A.S.) par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Salam ho Nooh (A.S.) par",
+              "ur": "Salam ho Nooh (A.S.) par",
+              "en": "Salam ho Nooh (A.S.) par",
+              "hi": "Salam ho Nooh (A.S.) par",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_v13_s2",
+            "sentence_number": 2,
+            "arabic": "سَلَامٌ/ عَلَى إِبْرَاهِيمَ",
+            "arabic_text": "سَلَامٌ/ عَلَى إِبْرَاهِيمَ",
+            "arabic_markup": "<span class=\"arabic-root\">سَلَامٌ</span>/ <span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">إِبْرَاهِيمَ</span>",
+            "hinglish": "Salam ho Ibrahim (A.S.) par",
+            "hinglish_meaning": "Salam ho Ibrahim (A.S.) par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Salam ho Ibrahim (A.S.) par",
+              "ur": "Salam ho Ibrahim (A.S.) par",
+              "en": "Salam ho Ibrahim (A.S.) par",
+              "hi": "Salam ho Ibrahim (A.S.) par",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_v13_s3",
+            "sentence_number": 3,
+            "arabic": "سَلَامٌ/ عَلَى إِلْ يَاسِينَ",
+            "arabic_text": "سَلَامٌ/ عَلَى إِلْ يَاسِينَ",
+            "arabic_markup": "<span class=\"arabic-root\">سَلَامٌ</span>/ <span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">إِلْ</span> <span class=\"arabic-root\">يَاس</span><span class=\"nonroot\">ِينَ</span>",
+            "hinglish": "Salam ho Ilyas (A.S.) par",
+            "hinglish_meaning": "Salam ho Ilyas (A.S.) par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Salam ho Ilyas (A.S.) par",
+              "ur": "Salam ho Ilyas (A.S.) par",
+              "en": "Salam ho Ilyas (A.S.) par",
+              "hi": "Salam ho Ilyas (A.S.) par",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_v13_s4",
+            "sentence_number": 4,
+            "arabic": "سَلَامٌ/ عَلَى مُوسَى وَهَارُونَ",
+            "arabic_text": "سَلَامٌ/ عَلَى مُوسَى وَهَارُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">سَلَامٌ</span>/ <span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">مُوسَى</span> <span class=\"arabic-root\">وَهَار</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Salam ho Musa (A.S.) aur Haroon (A.S.) par",
+            "hinglish_meaning": "Salam ho Musa (A.S.) aur Haroon (A.S.) par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Salam ho Musa (A.S.) aur Haroon (A.S.) par",
+              "ur": "Salam ho Musa (A.S.) aur Haroon (A.S.) par",
+              "en": "Salam ho Musa (A.S.) aur Haroon (A.S.) par",
+              "hi": "Salam ho Musa (A.S.) aur Haroon (A.S.) par",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_v13_s5",
+            "sentence_number": 5,
+            "arabic": "إِنَّ ذَلِكَ/ عَلَى اللَّهِ يَسِيرٌ",
+            "arabic_text": "إِنَّ ذَلِكَ/ عَلَى اللَّهِ يَسِيرٌ",
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"nonroot\">ذَلِكَ</span>/ <span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"arabic-root\">يَسِيرٌ</span>",
+            "hinglish": "Beshak yeh Allah par aasan hai",
+            "hinglish_meaning": "Beshak yeh Allah par aasan hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak yeh Allah par aasan hai",
+              "ur": "Beshak yeh Allah par aasan hai",
+              "en": "Beshak yeh Allah par aasan hai",
+              "hi": "Beshak yeh Allah par aasan hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_v13_s6",
+            "sentence_number": 6,
+            "arabic": "لَيْسَ/ عَلَى الْأَعْمَى/ حَرَجٌ",
+            "arabic_text": "لَيْسَ/ عَلَى الْأَعْمَى/ حَرَجٌ",
+            "arabic_markup": "<span class=\"nonroot\">لَيْسَ</span>/ <span class=\"nonroot\">عَلَى</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">أَعْمَى</span>/ <span class=\"arabic-root\">حَرَجٌ</span>",
+            "hinglish": "Andhe par koi tangi nahi hai",
+            "hinglish_meaning": "Andhe par koi tangi nahi hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Andhe par koi tangi nahi hai",
+              "ur": "Andhe par koi tangi nahi hai",
+              "en": "Andhe par koi tangi nahi hai",
+              "hi": "Andhe par koi tangi nahi hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_v13_s7",
+            "sentence_number": 7,
+            "arabic": "لَيْسَ عَلَى الْأَعْمَى حَرَجٌ وَلَا عَلَى الْأَعْرَجِ حَرَجٌ وَلَا عَلَى الْمَرِيضِ حَرَجٌ",
+            "arabic_text": "لَيْسَ عَلَى الْأَعْمَى حَرَجٌ وَلَا عَلَى الْأَعْرَجِ حَرَجٌ وَلَا عَلَى الْمَرِيضِ حَرَجٌ",
+            "arabic_markup": "<span class=\"nonroot\">لَيْسَ</span> <span class=\"nonroot\">عَلَى</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">أَعْمَى</span> <span class=\"arabic-root\">حَرَجٌ</span> <span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">عَلَى</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">أَعْرَجِ</span> <span class=\"arabic-root\">حَرَجٌ</span> <span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">عَلَى</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">مَرِيضِ</span> <span class=\"arabic-root\">حَرَجٌ</span>",
+            "hinglish": "Andhe par koi tangi nahi hai, na langde par koi tangi hai, aur na bimaar par koi tangi hai",
+            "hinglish_meaning": "Andhe par koi tangi nahi hai, na langde par koi tangi hai, aur na bimaar par koi tangi hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Andhe par koi tangi nahi hai, na langde par koi tangi hai, aur na bimaar par koi tangi hai",
+              "ur": "Andhe par koi tangi nahi hai, na langde par koi tangi hai, aur na bimaar par koi tangi hai",
+              "en": "Andhe par koi tangi nahi hai, na langde par koi tangi hai, aur na bimaar par koi tangi hai",
+              "hi": "Andhe par koi tangi nahi hai, na langde par koi tangi hai, aur na bimaar par koi tangi hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l4_lbl14",
+      "type": "section_label",
+      "data": {
+        "text": "Exercise",
+        "title": "Exercise",
+        "label": "Exercise"
+      }
+    },
+    {
+      "id": "sec_s2l4_r15",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Q-1: Neeche di gayi Qur'ani ayaat mein sirf us hisse par ghaur karo jahan 'Alaa' (عَلَى) aur iske baad wala lafz milkar ek phrase banaate hain jisko aap samajh sakte hain:",
+        "content": "Q-1: Neeche di gayi Qur'ani ayaat mein sirf us hisse par ghaur karo jahan 'Alaa' (عَلَى) aur iske baad wala lafz milkar ek phrase banaate hain jisko aap samajh sakte hain:",
+        "hinglish_text": "Q-1: Neeche di gayi Qur'ani ayaat mein sirf us hisse par ghaur karo jahan 'Alaa' (عَلَى) aur iske baad wala lafz milkar ek phrase banaate hain jisko aap samajh sakte hain:"
+      }
+    },
+    {
+      "id": "sec_s2l4_v16",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s2l4_v16_s1",
+            "sentence_number": 1,
+            "arabic": "إِذْ وَقَفُوا عَلَى النَّارِ",
+            "arabic_text": "إِذْ وَقَفُوا عَلَى النَّارِ",
+            "arabic_markup": "<span class=\"nonroot\">إِذْ</span> <span class=\"arabic-root\">وَقَف</span><span class=\"nonroot\">ُوا</span> <span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">النَّارِ</span>",
+            "hinglish": "Jab woh aag par khade kiye gaye",
+            "hinglish_meaning": "Jab woh aag par khade kiye gaye",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jab woh aag par khade kiye gaye",
+              "ur": "Jab woh aag par khade kiye gaye",
+              "en": "Jab woh aag par khade kiye gaye",
+              "hi": "Jab woh aag par khade kiye gaye",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_v16_s2",
+            "sentence_number": 2,
+            "arabic": "فَبَاءُوا بِغَضَبٍ عَلَى غَضَبٍ",
+            "arabic_text": "فَبَاءُوا بِغَضَبٍ عَلَى غَضَبٍ",
+            "arabic_markup": "<span class=\"arabic-root\">فَبَاء</span><span class=\"nonroot\">ُوا</span> <span class=\"nonroot\">بِ</span><span class=\"arabic-root\">غَضَبٍ</span> <span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">غَضَبٍ</span>",
+            "hinglish": "To woh gusse par gusse ke mustahiq hue",
+            "hinglish_meaning": "To woh gusse par gusse ke mustahiq hue",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "To woh gusse par gusse ke mustahiq hue",
+              "ur": "To woh gusse par gusse ke mustahiq hue",
+              "en": "To woh gusse par gusse ke mustahiq hue",
+              "hi": "To woh gusse par gusse ke mustahiq hue",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_v16_s3",
+            "sentence_number": 3,
+            "arabic": "إِنَّكَ لَعَلَى هُدًى مُسْتَقِيمٍ",
+            "arabic_text": "إِنَّكَ لَعَلَى هُدًى مُسْتَقِيمٍ",
+            "arabic_markup": "<span class=\"nonroot\">إِنَّكَ</span> <span class=\"nonroot\">لَ</span><span class=\"arabic-root\">عَلَى</span> <span class=\"arabic-root\">هُدًى</span> <span class=\"arabic-root\">مُسْتَقِيمٍ</span>",
+            "hinglish": "Beshak aap yaqeenan seedhi hidayat par hain",
+            "hinglish_meaning": "Beshak aap yaqeenan seedhi hidayat par hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak aap yaqeenan seedhi hidayat par hain",
+              "ur": "Beshak aap yaqeenan seedhi hidayat par hain",
+              "en": "Beshak aap yaqeenan seedhi hidayat par hain",
+              "hi": "Beshak aap yaqeenan seedhi hidayat par hain",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_v16_s4",
+            "sentence_number": 4,
+            "arabic": "لَيْسَتِ النَّصَارَى عَلَى شَيْءٍ",
+            "arabic_text": "لَيْسَتِ النَّصَارَى عَلَى شَيْءٍ",
+            "arabic_markup": "<span class=\"nonroot\">لَ</span><span class=\"arabic-root\">يْسَتِ</span> <span class=\"arabic-root\">النَّصَارَى</span> <span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">شَيْءٍ</span>",
+            "hinglish": "Eesai kisi cheez par nahi hain",
+            "hinglish_meaning": "Eesai kisi cheez par nahi hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Eesai kisi cheez par nahi hain",
+              "ur": "Eesai kisi cheez par nahi hain",
+              "en": "Eesai kisi cheez par nahi hain",
+              "hi": "Eesai kisi cheez par nahi hain",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_v16_s5",
+            "sentence_number": 5,
+            "arabic": "وَإِنَّكَ لَعَلَى خُلُقٍ عَظِيمٍ",
+            "arabic_text": "وَإِنَّكَ لَعَلَى خُلُقٍ عَظِيمٍ",
+            "arabic_markup": "<span class=\"arabic-root\">وَإِنَّكَ</span> <span class=\"nonroot\">لَ</span><span class=\"arabic-root\">عَلَى</span> <span class=\"arabic-root\">خُلُقٍ</span> <span class=\"arabic-root\">عَظِيمٍ</span>",
+            "hinglish": "Aur beshak aap yaqeenan aala ikhlaq par hain",
+            "hinglish_meaning": "Aur beshak aap yaqeenan aala ikhlaq par hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur beshak aap yaqeenan aala ikhlaq par hain",
+              "en": "And indeed, you are of a great moral character",
+              "ur": "اور بیشک آپ یقیناً عظیم اخلاق کے حامل ہیں",
+              "hi": "और बेशक आप यक़ीनन अज़ीम अख़लाक़ पर हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_v16_s6",
+            "sentence_number": 6,
+            "arabic": "فَمَا أَصْبَرَهُمْ عَلَى النَّارِ",
+            "arabic_text": "فَمَا أَصْبَرَهُمْ عَلَى النَّارِ",
+            "arabic_markup": "<span class=\"arabic-root\">فَمَا</span> <span class=\"arabic-root\">أَصْبَر</span><span class=\"nonroot\">َهُمْ</span> <span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">النَّارِ</span>",
+            "hinglish": "To kitna ziada sabr karne wale hain woh aag par!",
+            "hinglish_meaning": "To kitna ziada sabr karne wale hain woh aag par!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "To kitna ziada sabr karne wale hain woh aag par!",
+              "ur": "To kitna ziada sabr karne wale hain woh aag par!",
+              "en": "To kitna ziada sabr karne wale hain woh aag par!",
+              "hi": "To kitna ziada sabr karne wale hain woh aag par!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_v16_s7",
+            "sentence_number": 7,
+            "arabic": "وَعَلَى الْوَارِثِ مِثْلُ ذَلِكَ",
+            "arabic_text": "وَعَلَى الْوَارِثِ مِثْلُ ذَلِكَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَعَلَى</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">وَارِثِ</span> <span class=\"arabic-root\">مِثْلُ</span> <span class=\"nonroot\">ذَلِكَ</span>",
+            "hinglish": "Aur waaris par bhi is jaisa hai",
+            "hinglish_meaning": "Aur waaris par bhi is jaisa hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur waaris par bhi is jaisa hai",
+              "ur": "Aur waaris par bhi is jaisa hai",
+              "en": "Aur waaris par bhi is jaisa hai",
+              "hi": "Aur waaris par bhi is jaisa hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_v16_s8",
+            "sentence_number": 8,
+            "arabic": "إِنَّ اللَّهَ لَذُو فَضْلٍ عَلَى النَّاسِ",
+            "arabic_text": "إِنَّ اللَّهَ لَذُو فَضْلٍ عَلَى النَّاسِ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ اللَّهَ</span> <span class=\"nonroot\">لَذُو فَضْلٍ</span> <span class=\"arabic-root\">عَلَى النَّاسِ</span>",
+            "hinglish": "Beshak Allah logon par bada fazl karne wala hai",
+            "hinglish_meaning": "Beshak Allah logon par bada fazl karne wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak Allah logon par bada fazl karne wala hai",
+              "en": "Indeed, Allah is full of bounty to the people.",
+              "ur": "بیشک اللہ یقیناً لوگوں پر بڑا فضل فرمانے والا ہے۔",
+              "hi": "बेशक अल्लाह यक़ीनन लोगों पर बड़ा फ़ज़्ल (कृपा) करने वाला है।",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_v16_s9",
+            "sentence_number": 9,
+            "arabic": "وَكَانَ ذَلِكَ عَلَى اللَّهِ يَسِيرًا",
+            "arabic_text": "وَكَانَ ذَلِكَ عَلَى اللَّهِ يَسِيرًا",
+            "arabic_markup": "<span class=\"arabic-root\">وَكَانَ</span> <span class=\"nonroot\">ذَلِكَ</span> <span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"arabic-root\">يَسِيرًا</span>",
+            "hinglish": "Aur yeh Allah par aasan hai",
+            "hinglish_meaning": "Aur yeh Allah par aasan hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur yeh Allah par aasan hai",
+              "ur": "Aur yeh Allah par aasan hai",
+              "en": "Aur yeh Allah par aasan hai",
+              "hi": "Aur yeh Allah par aasan hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l4_v16_s10",
+            "sentence_number": 10,
+            "arabic": "أُولَئِكَ عَلَى هُدًى مِنْ رَبِّهِمْ",
+            "arabic_text": "أُولَئِكَ عَلَى هُدًى مِنْ رَبِّهِمْ",
+            "arabic_markup": "<span class=\"nonroot\">أُولَئِكَ</span> <span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">هُدًى</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">رَبِّهِمْ</span>",
+            "hinglish": "Woh log apne Rabb ki taraf se hidayat par hain",
+            "hinglish_meaning": "Woh log apne Rabb ki taraf se hidayat par hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh log apne Rabb ki taraf se hidayat par hain",
+              "ur": "Woh log apne Rabb ki taraf se hidayat par hain",
+              "en": "Woh log apne Rabb ki taraf se hidayat par hain",
+              "hi": "Woh log apne Rabb ki taraf se hidayat par hain",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "page_start": 58
+}

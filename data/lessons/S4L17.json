@@ -1,0 +1,1220 @@
+{
+  "lesson_id": 17,
+  "lesson_key": "S4L17",
+  "stage_id": 4,
+  "title": "Haalat-e-Nasb (Haal): مُجْرِمٌ ← مُجْرِمًا (Do Zabar)",
+  "arabic_Focus": "مُجْرِمٌ ، خَائِفٌ ← مُجْرِمًا ، خَائِفًا",
+  "hinglish_Focus": "Mujrim, darne wala → Mujrim ban kar / darne ki haalat mein",
+  "page_numbers": "38–39",
+  "book_page": 38,
+  "status": "complete",
+  "title_i18n": {
+    "en": "Haalat-e-Nasb (Haal): مُجْرِمٌ ← مُجْرِمًا (Do Zabar)",
+    "ur": "یونٹ 4 سبق 17: مُجْرِمٌ ، خَائِفٌ ← مُجْرِمًا ، خَائِفًا",
+    "hi": "Haalat-e-Nasb (Haal): مُجْرِمٌ ← مُجْرِمًا (Do Zabar)"
+  },
+  "sections": [
+    {
+      "id": "sec_hero",
+      "type": "hero_header",
+      "data": {
+        "arabic": "مُجْرِمٌ ، خَائِفٌ ← مُجْرِمًا ، خَائِفًا",
+        "hinglish": "Mujrim, darne wala → Mujrim ban kar / darne ki haalat mein",
+        "arabic_word": "مُجْرِمٌ ، خَائِفٌ",
+        "arabic_combined": "مُجْرِمٌ ، خَائِفٌ ← مُجْرِمًا ، خَائِفًا",
+        "hinglish_word": "Mujrim, darne wala",
+        "hinglish_combined": "Mujrim, darne wala → Mujrim ban kar / darne ki haalat mein",
+        "title_en": "Haalat-e-Nasb (Haal): مُجْرِمٌ ← مُجْرِمًا (Do Zabar)",
+        "subtitle": "Unit 4 • Lesson 17 (Book Page 38–39)",
+        "transformations": [
+          {
+            "before_ar": "مُجْرِمٌ ، خَائِفٌ",
+            "after_ar": "مُجْرِمًا ، خَائِفًا",
+            "before_hi": "Mujrim, darne wala",
+            "after_hi": "Mujrim ban kar / darne ki haalat mein"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_intro_table",
+      "type": "intro_table",
+      "data": {
+        "title": "S4L17 — Haalat-e-Nasb (Haal): مُجْرِمٌ ← مُجْرِمًا (Do Zabar): Buniyadi Misaalein",
+        "caption": "S4L17 — Haalat-e-Nasb (Haal): مُجْرِمٌ ← مُجْرِمًا (Do Zabar): Buniyadi Misaalein",
+        "headers": [
+          "Qism / Halat",
+          "Arabi Misaal",
+          "Hinglish Mafhoom"
+        ],
+        "rows": [
+          [
+            "مُجْرِمٌ (Mujrim)",
+            "مُجْرِمًا",
+            "Mujrim ban kar / Bahaiseeyat mujrim"
+          ],
+          [
+            "خَائِفٌ / سَاجِدٌ",
+            "خَائِفًا / سَاجِدًا",
+            "Darte hue / Sajda karte hue"
+          ],
+          [
+            "قَائِمٌ / قَاعِدٌ / خَالِدٌ",
+            "قَائِمًا / قَاعِدًا / خَالِدًا فِيهَا",
+            "Khade hote hue / Baithe hue / Hamesha rehne wala ban kar"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sec_s4l17_concept",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u4grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u4grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 4 • LESSON 17</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Haalat-e-Nasb (Haal): مُجْرِمٌ ← مُجْرِمًا (Do Zabar) (Page 38–39)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">مُجْرِمٌ ، خَائِفٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Haal (ـًا)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">مُجْرِمًا ، خَائِفًا</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• مُجْرِمٌ ، خَائِفٌ (Mujrim, darne wala) se مُجْرِمًا ، خَائِفًا (Mujrim ban kar / darne ki haalat mein) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Qur'an Majeed mein yeh tarkeeb saikdon maqamaat par barah-e-raast samajh aati hai.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 38–39):** Jab kisi ism ke saath **'... ban kar / ... hote hue / ... ki haalat mein'** ka mafhoom ada karna ho (jise Arbi grammar mein *Haal* kehte hain), toh us lafz ke aakhir mein **Do Zabar (`ـًا`)** aur Alif lagaya jata hai: `مُجْرِمٌ ← مُجْرِمًا` (mujrim ban kar), `خَائِفٌ ← خَائِفًا` (darte hue), `قَاعِدًا أَوْ قَائِمًا` (baithe hue ya khade hote hue).",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u4grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u4grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 4 • LESSON 17</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Haalat-e-Nasb (Haal): مُجْرِمٌ ← مُجْرِمًا (Do Zabar) (Page 38–39)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">مُجْرِمٌ ، خَائِفٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Haal (ـًا)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">مُجْرِمًا ، خَائِفًا</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• مُجْرِمٌ ، خَائِفٌ (Mujrim, darne wala) se مُجْرِمًا ، خَائِفًا (Mujrim ban kar / darne ki haalat mein) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Qur'an Majeed mein yeh tarkeeb saikdon maqamaat par barah-e-raast samajh aati hai.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 38–39):** Jab kisi ism ke saath **'... ban kar / ... hote hue / ... ki haalat mein'** ka mafhoom ada karna ho (jise Arbi grammar mein *Haal* kehte hain), toh us lafz ke aakhir mein **Do Zabar (`ـًا`)** aur Alif lagaya jata hai: `مُجْرِمٌ ← مُجْرِمًا` (mujrim ban kar), `خَائِفٌ ← خَائِفًا` (darte hue), `قَاعِدًا أَوْ قَائِمًا` (baithe hue ya khade hote hue).",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u4grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u4grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 4 • LESSON 17</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Haalat-e-Nasb (Haal): مُجْرِمٌ ← مُجْرِمًا (Do Zabar) (Page 38–39)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">مُجْرِمٌ ، خَائِفٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Haal (ـًا)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">مُجْرِمًا ، خَائِفًا</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• مُجْرِمٌ ، خَائِفٌ (Mujrim, darne wala) se مُجْرِمًا ، خَائِفًا (Mujrim ban kar / darne ki haalat mein) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Qur'an Majeed mein yeh tarkeeb saikdon maqamaat par barah-e-raast samajh aati hai.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 38–39):** Jab kisi ism ke saath **'... ban kar / ... hote hue / ... ki haalat mein'** ka mafhoom ada karna ho (jise Arbi grammar mein *Haal* kehte hain), toh us lafz ke aakhir mein **Do Zabar (`ـًا`)** aur Alif lagaya jata hai: `مُجْرِمٌ ← مُجْرِمًا` (mujrim ban kar), `خَائِفٌ ← خَائِفًا` (darte hue), `قَاعِدًا أَوْ قَائِمًا` (baithe hue ya khade hote hue)."
+      }
+    },
+    {
+      "id": "sec_s4l17_lbl1",
+      "type": "section_label",
+      "data": {
+        "text": "Section 1 (Page 38): مُجْرِمٌ ← مُجْرِمًا (Do Zabar / Haal) Alfaaz",
+        "title": "Section 1 (Page 38): مُجْرِمٌ ← مُجْرِمًا (Do Zabar / Haal) Alfaaz",
+        "label": "Section 1 (Page 38): مُجْرِمٌ ← مُجْرِمًا (Do Zabar / Haal) Alfaaz"
+      }
+    },
+    {
+      "id": "sec_s4l17_pairs",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": 1,
+            "arabic": "مُجْرِمٌ",
+            "hinglish": "Mujrim",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Mujrim",
+              "en": "A criminal",
+              "ur": "مجرم",
+              "hi": "मुजरिम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مُجْرِمٌ</span>"
+          },
+          {
+            "id": 2,
+            "arabic": "مُجْرِمًا",
+            "hinglish": "Mujrim ban kar bahaiseeyat mujrim",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Mujrim ban kar bahaiseeyat mujrim",
+              "en": "As a criminal",
+              "ur": "مجرم بن کر / بحیثیت مجرم",
+              "hi": "मुजरिम बन कर / बतौर मुजरिम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مُجْرِ</span><span class=\"nonroot\">مًا</span>"
+          },
+          {
+            "id": 3,
+            "arabic": "رَحْمَةٌ",
+            "hinglish": "Rahmat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Rahmat",
+              "en": "A mercy",
+              "ur": "رحمت",
+              "hi": "रहमत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رَحْمَةٌ</span>"
+          },
+          {
+            "id": 4,
+            "arabic": "رَحْمَةً",
+            "hinglish": "Rahmat ban kar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Rahmat ban kar",
+              "en": "As a mercy",
+              "ur": "رحمت بن کر",
+              "hi": "रहमत बन कर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رَحْمَ</span><span class=\"nonroot\">ةً</span>"
+          },
+          {
+            "id": 5,
+            "arabic": "خَائِفٌ",
+            "hinglish": "Darne wala",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Darne wala",
+              "en": "Fearful",
+              "ur": "ڈرنے والا",
+              "hi": "डरने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">خَائِفٌ</span>"
+          },
+          {
+            "id": 6,
+            "arabic": "خَائِفًا",
+            "hinglish": "Darne wala ban kar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Darne wala ban kar",
+              "en": "In fear / fearful",
+              "ur": "ڈرتے ہوئے / خوف کی حالت میں",
+              "hi": "डरते हुए / ख़ौफ़ की हालत में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">خَائِ</span><span class=\"nonroot\">فًا</span>"
+          },
+          {
+            "id": 7,
+            "arabic": "سَاجِدٌ",
+            "hinglish": "Sajda karne wala",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Sajda karne wala",
+              "en": "Prostrating",
+              "ur": "سجدہ کرنے والا",
+              "hi": "सजदा करने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">سَاجِدٌ</span>"
+          },
+          {
+            "id": 8,
+            "arabic": "سَاجِدًا",
+            "hinglish": "Sajda karne wala ban kar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Sajda karne wala ban kar",
+              "en": "In prostration / prostrating",
+              "ur": "سجدہ کرتے ہوئے",
+              "hi": "सजदा करते हुए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">سَاجِ</span><span class=\"nonroot\">دًا</span>"
+          },
+          {
+            "id": 9,
+            "arabic": "سَيِّدٌ",
+            "hinglish": "Sardar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Sardar",
+              "en": "A leader / noble",
+              "ur": "سردار",
+              "hi": "सरदार",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">سَيِّدٌ</span>"
+          },
+          {
+            "id": 10,
+            "arabic": "سَيِّدًا",
+            "hinglish": "Sardar ban kar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Sardar ban kar",
+              "en": "As a leader / noble",
+              "ur": "سردار بن کر",
+              "hi": "सरदार बन कर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">سَيِّ</span><span class=\"nonroot\">دًا</span>"
+          },
+          {
+            "id": 11,
+            "arabic": "مُبَشِّرٌ",
+            "hinglish": "Khushkhabri dene wala",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Khushkhabri dene wala",
+              "en": "A bearer of glad tidings",
+              "ur": "خوشخبری دینے والا",
+              "hi": "ख़ुशख़बरी देने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مُبَشِّرٌ</span>"
+          },
+          {
+            "id": 12,
+            "arabic": "مُبَشِّرًا",
+            "hinglish": "Khushkhabri dene wala ban kar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Khushkhabri dene wala ban kar",
+              "en": "As a bearer of glad tidings",
+              "ur": "خوشخبری سنانے والا بن کر",
+              "hi": "ख़ुशख़बरी सुनाने वाला बन कर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مُبَشِّ</span><span class=\"nonroot\">رًا</span>"
+          },
+          {
+            "id": 13,
+            "arabic": "شَيْخٌ",
+            "hinglish": "Boodha",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Boodha",
+              "en": "An old man",
+              "ur": "بوڑھا",
+              "hi": "बूढ़ा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">شَيْخٌ</span>"
+          },
+          {
+            "id": 14,
+            "arabic": "شَيْخًا",
+            "hinglish": "Boodha ban kar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Boodha ban kar",
+              "en": "As an old man",
+              "ur": "بوڑھا ہو کر",
+              "hi": "बूढ़ा होकर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">شَيْ</span><span class=\"nonroot\">خًا</span>"
+          },
+          {
+            "id": 15,
+            "arabic": "قَائِمٌ",
+            "hinglish": "Khada",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Khada",
+              "en": "Standing",
+              "ur": "کھڑا",
+              "hi": "खड़ा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">قَائِمٌ</span>"
+          },
+          {
+            "id": 16,
+            "arabic": "قَائِمًا",
+            "hinglish": "Khada hote hue",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Khada hote hue",
+              "en": "Standing / while standing",
+              "ur": "کھڑے ہوئے",
+              "hi": "खड़े हुए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">قَائِ</span><span class=\"nonroot\">مًا</span>"
+          },
+          {
+            "id": 17,
+            "arabic": "شَاهِدٌ",
+            "hinglish": "Gawah",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Gawah",
+              "en": "A witness",
+              "ur": "گواہ",
+              "hi": "गवाह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">شَاهِدٌ</span>"
+          },
+          {
+            "id": 18,
+            "arabic": "شَاهِدًا",
+            "hinglish": "Gawah ban kar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Gawah ban kar",
+              "en": "As a witness",
+              "ur": "گواہ بن کر",
+              "hi": "गवाह बन कर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">شَاهِ</span><span class=\"nonroot\">دًا</span>"
+          },
+          {
+            "id": 19,
+            "arabic": "حَنِيفٌ",
+            "hinglish": "Yakso",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Yakso",
+              "en": "Upright (in pure faith)",
+              "ur": "یکسو",
+              "hi": "यकसू",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">حَنِيفٌ</span>"
+          },
+          {
+            "id": 20,
+            "arabic": "حَنِيفًا",
+            "hinglish": "Yakso ban kar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Yakso ban kar",
+              "en": "Being upright (in pure faith)",
+              "ur": "یکسو ہو کر",
+              "hi": "यकसू होकर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">حَنِي</span><span class=\"nonroot\">فًا</span>"
+          },
+          {
+            "id": 21,
+            "arabic": "بَشَرٌ",
+            "hinglish": "Insaan",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Insaan",
+              "en": "A human being",
+              "ur": "انسان / بشر",
+              "hi": "इंसान / बशर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">بَشَرٌ</span>"
+          },
+          {
+            "id": 22,
+            "arabic": "بَشَرًا",
+            "hinglish": "Insaan ban kar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Insaan ban kar",
+              "en": "As a human being",
+              "ur": "انسان بن کر",
+              "hi": "इंसान बन कर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">بَشَ</span><span class=\"nonroot\">رًا</span>"
+          },
+          {
+            "id": 23,
+            "arabic": "حَيٌّ",
+            "hinglish": "Zinda",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Zinda",
+              "en": "Alive",
+              "ur": "زندہ",
+              "hi": "ज़िंदा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">حَيٌّ</span>"
+          },
+          {
+            "id": 24,
+            "arabic": "حَيًّا",
+            "hinglish": "Zinda ban kar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Zinda ban kar",
+              "en": "Alive / into life",
+              "ur": "زندہ ہو کر / زندہ",
+              "hi": "ज़िंदा होकर / ज़िंदा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">حَ</span><span class=\"nonroot\">يًّا</span>"
+          },
+          {
+            "id": 25,
+            "arabic": "يَتِيمٌ",
+            "hinglish": "Yateem",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Yateem",
+              "en": "An orphan",
+              "ur": "یتیم",
+              "hi": "यतीम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">يَتِيمٌ</span>"
+          },
+          {
+            "id": 26,
+            "arabic": "يَتِيمًا",
+            "hinglish": "Yateem ban kar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Yateem ban kar",
+              "en": "As an orphan",
+              "ur": "یتیم ہو کر",
+              "hi": "यतीम होकर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">يَتِي</span><span class=\"nonroot\">مًا</span>"
+          },
+          {
+            "id": 27,
+            "arabic": "نَبِيٌّ",
+            "hinglish": "Nabi",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Nabi",
+              "en": "A prophet",
+              "ur": "نبی",
+              "hi": "नबी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">نَبِيٌّ</span>"
+          },
+          {
+            "id": 28,
+            "arabic": "نَبِيًّا",
+            "hinglish": "Nabi ban kar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Nabi ban kar",
+              "en": "As a prophet",
+              "ur": "نبی بنا کر / بحیثیت نبی",
+              "hi": "नबी बना कर / बतौर नबी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">نَبِ</span><span class=\"nonroot\">يًّا</span>"
+          },
+          {
+            "id": 29,
+            "arabic": "مَظْلُومٌ",
+            "hinglish": "Mazloom",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Mazloom",
+              "en": "Oppressed / wronged",
+              "ur": "مظلوم",
+              "hi": "मज़लूम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مَظْلُومٌ</span>"
+          },
+          {
+            "id": 30,
+            "arabic": "مَظْلُومًا",
+            "hinglish": "Mazloom ban kar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Mazloom ban kar",
+              "en": "As one oppressed / wronged",
+              "ur": "مظلوم ہو کر",
+              "hi": "मज़लूम होकर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مَظْلُو</span><span class=\"nonroot\">مًا</span>"
+          },
+          {
+            "id": 31,
+            "arabic": "شَيْخٌ",
+            "hinglish": "Boodha",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Boodha",
+              "en": "An old man",
+              "ur": "بوڑھا",
+              "hi": "बूढ़ा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">شَيْخٌ</span>"
+          },
+          {
+            "id": 32,
+            "arabic": "شَيْخًا",
+            "hinglish": "Boodha ban kar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Boodha ban kar",
+              "en": "As an old man",
+              "ur": "بوڑھا ہو کر",
+              "hi": "बूढ़ा होकर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">شَيْ</span><span class=\"nonroot\">خًا</span>"
+          },
+          {
+            "id": 33,
+            "arabic": "مُصَدِّقٌ",
+            "hinglish": "Tasdeeq karne wala",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Tasdeeq karne wala",
+              "en": "Confirming",
+              "ur": "تصدیق کرنے والا",
+              "hi": "तस्दीक़ करने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مُصَدِّقٌ</span>"
+          },
+          {
+            "id": 34,
+            "arabic": "مُصَدِّقًا",
+            "hinglish": "Tasdeeq karne wala ban kar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Tasdeeq karne wala ban kar",
+              "en": "Confirming / in confirmation",
+              "ur": "تصدیق کرتے ہوئے",
+              "hi": "तस्दीक़ करते हुए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مُصَدِّ</span><span class=\"nonroot\">قًا</span>"
+          },
+          {
+            "id": 35,
+            "arabic": "مُسْتَقِيمٌ",
+            "hinglish": "Seedha",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Seedha",
+              "en": "Straight",
+              "ur": "سیدھا",
+              "hi": "सीधा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مُسْتَقِيمٌ</span>"
+          },
+          {
+            "id": 36,
+            "arabic": "مُسْتَقِيمًا",
+            "hinglish": "Seedha hote hue",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Seedha hote hue",
+              "en": "Straight / in a straight manner",
+              "ur": "سیدھا ہوتے ہوئے",
+              "hi": "सीधा होते हुए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مُسْتَقِي</span><span class=\"nonroot\">مًا</span>"
+          },
+          {
+            "id": 37,
+            "arabic": "قَاعِدٌ",
+            "hinglish": "Baitha",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Baitha",
+              "en": "Sitting",
+              "ur": "بیٹھا ہوا",
+              "hi": "बैठा हुआ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">قَاعِدٌ</span>"
+          },
+          {
+            "id": 38,
+            "arabic": "قَاعِدًا",
+            "hinglish": "Baitha hote hue",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Baitha hote hue",
+              "en": "Sitting / while sitting",
+              "ur": "بیٹھے ہوئے",
+              "hi": "बैठे हुए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">قَاعِ</span><span class=\"nonroot\">دًا</span>"
+          },
+          {
+            "id": 39,
+            "arabic": "مُدْبِرٌ",
+            "hinglish": "Peeth pherne wala",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Peeth pherne wala",
+              "en": "Turning back",
+              "ur": "پیٹھ پھیرنے والا",
+              "hi": "पीठ फेरने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مُدْبِرٌ</span>"
+          },
+          {
+            "id": 40,
+            "arabic": "مُدْبِرًا",
+            "hinglish": "Peeth pherne wala ban kar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Peeth pherne wala ban kar",
+              "en": "Turning in flight / back",
+              "ur": "پیٹھ پھیرتے ہوئے",
+              "hi": "पीठ फेरते हुए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مُدْبِ</span><span class=\"nonroot\">رًا</span>"
+          },
+          {
+            "id": 41,
+            "arabic": "خَالِدٌ",
+            "hinglish": "Hamesha rehne wala",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Hamesha rehne wala",
+              "en": "Abiding eternally",
+              "ur": "ہمیشہ رہنے والا",
+              "hi": "हमेशा रहने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">خَالِدٌ</span>"
+          },
+          {
+            "id": 42,
+            "arabic": "خَالِدًا",
+            "hinglish": "Hamesha rehne wala ban kar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Hamesha rehne wala ban kar",
+              "en": "Abiding eternally",
+              "ur": "ہمیشہ رہتے ہوئے",
+              "hi": "हमेशा रहते हुए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">خَالِ</span><span class=\"nonroot\">دًا</span>"
+          },
+          {
+            "id": 43,
+            "arabic": "مُنِيبٌ",
+            "hinglish": "Palatne wala",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Palatne wala",
+              "en": "Turning in repentance",
+              "ur": "رجوع کرنے والا",
+              "hi": "रुजू करने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مُنِيبٌ</span>"
+          },
+          {
+            "id": 44,
+            "arabic": "مُنِيبًا",
+            "hinglish": "Palatne wala ban kar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Palatne wala ban kar",
+              "en": "Turning in repentance",
+              "ur": "رجوع کرتے ہوئے",
+              "hi": "रुजू करते हुए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مُنِي</span><span class=\"nonroot\">بًا</span>"
+          },
+          {
+            "id": 45,
+            "arabic": "مَيِّتٌ",
+            "hinglish": "Murdar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Murdar",
+              "en": "Dead",
+              "ur": "مردار",
+              "hi": "मुरदार",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مَيِّتٌ</span>"
+          },
+          {
+            "id": 46,
+            "arabic": "مَيِّتًا",
+            "hinglish": "Murdar ban kar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Murdar ban kar",
+              "en": "Dead / while dead",
+              "ur": "مردہ ہوتے ہوئے",
+              "hi": "मुरदा होते हुए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مَيِّ</span><span class=\"nonroot\">تًا</span>"
+          },
+          {
+            "id": 47,
+            "arabic": "طِفْلٌ",
+            "hinglish": "Bacha",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Bacha",
+              "en": "A child",
+              "ur": "بچہ",
+              "hi": "बच्चा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">طِفْلٌ</span>"
+          },
+          {
+            "id": 48,
+            "arabic": "طِفْلًا",
+            "hinglish": "Bacha ban kar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Bacha ban kar",
+              "en": "As a child",
+              "ur": "بچہ ہو کر",
+              "hi": "बच्चा होकर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">طِفْ</span><span class=\"nonroot\">لًا</span>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s4l17_lbl2",
+      "type": "section_label",
+      "data": {
+        "text": "Section 2 (Page 39 Top): Do Zabar (ـًا) wale Qur'ani Qat'aat (Right-to-Left Grid)",
+        "title": "Section 2 (Page 39 Top): Do Zabar (ـًا) wale Qur'ani Qat'aat (Right-to-Left Grid)",
+        "label": "Section 2 (Page 39 Top): Do Zabar (ـًا) wale Qur'ani Qat'aat (Right-to-Left Grid)"
+      }
+    },
+    {
+      "id": "sec_s4l17_g2",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s4l17_g2_w1",
+            "arabic": "خَالِدًا فِيهَا",
+            "arabic_text": "خَالِدًا فِيهَا",
+            "arabic_markup": "<span class=\"nonroot\">خَالِدًا</span> <span class=\"arabic-root\">فِيهَا</span>",
+            "hinglish": "Us mein hamesha rehne wala ban kar",
+            "hinglish_meaning": "Us mein hamesha rehne wala ban kar",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us mein hamesha rehne wala ban kar",
+              "en": "Abiding eternally therein",
+              "ur": "اس میں ہمیشہ رہنے والا ہو کر",
+              "hi": "उसमें हमेशा रहने वाला होकर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l17_g2_w2",
+            "arabic": "شَاهِدًا وَمُبَشِّرًا وَنَذِيرًا",
+            "arabic_text": "شَاهِدًا وَمُبَشِّرًا وَنَذِيرًا",
+            "arabic_markup": "<span class=\"nonroot\">شَاهِدًا</span> <span class=\"arabic-root\">وَ</span><span class=\"nonroot\">مُبَشِّرًا</span> <span class=\"arabic-root\">وَ</span><span class=\"nonroot\">نَذِيرًا</span>",
+            "hinglish": "Gawah ban kar aur khushkhabri dene wala ban kar aur darane wala ban kar",
+            "hinglish_meaning": "Gawah ban kar aur khushkhabri dene wala ban kar aur darane wala ban kar",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Gawah ban kar aur khushkhabri dene wala ban kar aur darane wala ban kar",
+              "en": "As a witness and a bearer of glad tidings and a warner",
+              "ur": "گواہ بن کر اور خوشخبری دینے والا اور ڈرانے والا بن کر",
+              "hi": "गवाह बन कर और ख़ुशख़बरी देने वाला और डराने वाला बन कर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l17_g2_w3",
+            "arabic": "فِي الْمَدِينَةِ خَائِفًا",
+            "arabic_text": "فِي الْمَدِينَةِ خَائِفًا",
+            "arabic_markup": "<span class=\"arabic-root\">فِي الْمَدِينَةِ</span> <span class=\"nonroot\">خَائِفًا</span>",
+            "hinglish": "Shehar mein darne wala ban kar",
+            "hinglish_meaning": "Shehar mein darne wala ban kar",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Shehar mein darne wala ban kar",
+              "en": "In the city, fearful",
+              "ur": "شہر میں ڈرتے ہوئے",
+              "hi": "शहर में डरते हुए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l17_g2_w4",
+            "arabic": "مِنْهَا خَائِفًا",
+            "arabic_text": "مِنْهَا خَائِفًا",
+            "arabic_markup": "<span class=\"arabic-root\">مِنْهَا</span> <span class=\"nonroot\">خَائِفًا</span>",
+            "hinglish": "Us se darne wala ban kar",
+            "hinglish_meaning": "Us se darne wala ban kar",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us se darne wala ban kar",
+              "en": "From it, fearful",
+              "ur": "اس سے خوف زدہ ہو کر (ڈرتے ہوئے)",
+              "hi": "उससे डरते हुए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l17_g2_w5",
+            "arabic": "لَهَا بَشَرًا",
+            "arabic_text": "لَهَا بَشَرًا",
+            "arabic_markup": "<span class=\"arabic-root\">لَهَا</span> <span class=\"nonroot\">بَشَرًا</span>",
+            "hinglish": "Uske liye insaan ban kar",
+            "hinglish_meaning": "Uske liye insaan ban kar",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye insaan ban kar",
+              "en": "Before her as a human",
+              "ur": "اس کے لیے انسان بن کر",
+              "hi": "उसके लिए इंसान बन कर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l17_g2_w6",
+            "arabic": "وَمُبَشِّرًا بِرَسُولٍ",
+            "arabic_text": "وَمُبَشِّرًا بِرَسُولٍ",
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">مُبَشِّرًا</span> <span class=\"arabic-root\">بِرَسُولٍ</span>",
+            "hinglish": "Aur ek Rasool ke zariye khushkhabri dene wala ban kar",
+            "hinglish_meaning": "Aur ek Rasool ke zariye khushkhabri dene wala ban kar",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur ek Rasool ke zariye khushkhabri dene wala ban kar",
+              "en": "And bringing good tidings of a messenger",
+              "ur": "اور ایک رسول کی خوشخبری دینے والا بن کر",
+              "hi": "और एक रसूल की ख़ुशख़बरी देने वाला बन कर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l17_g2_w7",
+            "arabic": "مُصَدِّقًا بِكَلِمَةٍ مِنَ اللهِ",
+            "arabic_text": "مُصَدِّقًا بِكَلِمَةٍ مِنَ اللهِ",
+            "arabic_markup": "<span class=\"nonroot\">مُصَدِّقًا</span> <span class=\"arabic-root\">بِكَلِمَةٍ مِنَ اللهِ</span>",
+            "hinglish": "Allah ki taraf se ek kalma ki tasdeeq karne wala ban kar",
+            "hinglish_meaning": "Allah ki taraf se ek kalma ki tasdeeq karne wala ban kar",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah ki taraf se ek kalma ki tasdeeq karne wala ban kar",
+              "en": "Confirming a word from Allah",
+              "ur": "اللہ کے ایک کلمے کی تصدیق کرنے والا بن کر",
+              "hi": "अल्लाह के एक कलिमे की तस्दीक़ करने वाला बन कर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l17_g2_w8",
+            "arabic": "قَاعِدًا أَوْ قَائِمًا",
+            "arabic_text": "قَاعِدًا أَوْ قَائِمًا",
+            "arabic_markup": "<span class=\"nonroot\">قَاعِدًا</span> <span class=\"arabic-root\">أَوْ</span> <span class=\"nonroot\">قَائِمًا</span>",
+            "hinglish": "Baitha hote hue ya khada hote hue",
+            "hinglish_meaning": "Baitha hote hue ya khada hote hue",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Baitha hote hue ya khada hote hue",
+              "en": "Sitting or standing",
+              "ur": "بیٹھے ہوئے یا کھڑے ہو کر",
+              "hi": "बैठे हुए या खड़े होकर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l17_g2_w9",
+            "arabic": "لَحْمَ أَخِيهِ مَيْتًا",
+            "arabic_text": "لَحْمَ أَخِيهِ مَيْتًا",
+            "arabic_markup": "<span class=\"arabic-root\">لَحْمَ أَخِيهِ</span> <span class=\"nonroot\">مَيْتًا</span>",
+            "hinglish": "Apne bhai ka gosht murda hote hue",
+            "hinglish_meaning": "Apne bhai ka gosht murda hote hue",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Apne bhai ka gosht murda hote hue",
+              "en": "The flesh of his brother while dead",
+              "ur": "اپنے بھائی کا گوشت مردہ حالت میں",
+              "hi": "अपने भाई का गोश्त मुरदा हालत में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l17_g2_w10",
+            "arabic": "شَاهِدًا وَمُبَشِّرًا وَنَذِيرًا وَدَاعِيًا إِلَى اللهِ بِإِذْنِهِ وَسِرَاجًا مُنِيرًا",
+            "arabic_text": "شَاهِدًا وَمُبَشِّرًا وَنَذِيرًا وَدَاعِيًا إِلَى اللهِ بِإِذْنِهِ وَسِرَاجًا مُنِيرًا",
+            "arabic_markup": "<span class=\"nonroot\">شَاهِدًا</span> <span class=\"arabic-root\">وَ</span><span class=\"nonroot\">مُبَشِّرًا</span> <span class=\"arabic-root\">وَ</span><span class=\"nonroot\">نَذِيرًا</span> <span class=\"arabic-root\">وَ</span><span class=\"nonroot\">دَاعِيًا</span> <span class=\"arabic-root\">إِلَى اللهِ بِإِذْنِهِ وَ</span><span class=\"nonroot\">سِرَاجًا</span> <span class=\"arabic-root\">مُنِيرًا</span>",
+            "hinglish": "Gawah ban kar aur khushkhabri dene wala ban kar aur darane wala ban kar aur Allah ki taraf uske hukm se bulane wala ban kar aur roshan charagh ban kar",
+            "hinglish_meaning": "Gawah ban kar aur khushkhabri dene wala ban kar aur darane wala ban kar aur Allah ki taraf uske hukm se bulane wala ban kar aur roshan charagh ban kar",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Gawah ban kar aur khushkhabri dene wala ban kar aur darane wala ban kar aur Allah ki taraf uske hukm se bulane wala ban kar aur roshan charagh ban kar",
+              "en": "As a witness and a bearer of glad tidings and a warner, and one who invites to Allah by His permission, and an illuminating lamp",
+              "ur": "گواہ بن کر اور خوشخبری دینے والا اور ڈرانے والا بن کر اور اللہ کے حکم سے اس کی طرف بلانے والا اور روشن چراغ بن کر",
+              "hi": "गवाह बन कर और ख़ुशख़बरी देने वाला और डराने वाला बन कर और अल्लाह के हुक्म से उसकी तरफ़ बुलाने वाला और रोशन चिराग़ बन कर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s4l17_lbl3",
+      "type": "section_label",
+      "data": {
+        "text": "Section 3 (Page 39): Mukammal Qur'ani Jumle (Numbered 1–4)",
+        "title": "Section 3 (Page 39): Mukammal Qur'ani Jumle (Numbered 1–4)",
+        "label": "Section 3 (Page 39): Mukammal Qur'ani Jumle (Numbered 1–4)"
+      }
+    },
+    {
+      "id": "sec_s4l17_s1",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s4l17_s1_s1",
+            "sentence_number": 1,
+            "arabic": "هُوَ الْحَقُّ مُصَدِّقًا",
+            "arabic_text": "هُوَ الْحَقُّ مُصَدِّقًا",
+            "arabic_markup": "<span class=\"arabic-root\">هُوَ الْحَقُّ </span><span class=\"nonroot\">مُصَدِّقًا</span>",
+            "hinglish": "Woh tasdeeq karne wala ban kar haq hai",
+            "hinglish_meaning": "Woh tasdeeq karne wala ban kar haq hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh tasdeeq karne wala ban kar haq hai",
+              "en": "It is the truth, confirming",
+              "ur": "وہ سچ (حق) ہے تصدیق کرتا ہوا",
+              "hi": "वह हक़ (सत्य) है तस्दीक़ करता हुआ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l17_s1_s2",
+            "sentence_number": 2,
+            "arabic": "وَهَذَا بَعْلِي شَيْخًا",
+            "arabic_text": "وَهَذَا بَعْلِي شَيْخًا",
+            "arabic_markup": "<span class=\"arabic-root\">وَهَذَا بَعْلِي </span><span class=\"nonroot\">شَيْخًا</span>",
+            "hinglish": "Aur yeh mera shohar boodha hote hue hai",
+            "hinglish_meaning": "Aur yeh mera shohar boodha hote hue hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur yeh mera shohar boodha hote hue hai",
+              "en": "And this my husband is an old man",
+              "ur": "اور یہ میرا شوہر بوڑھا ہے",
+              "hi": "और यह मेरा शौहर बूढ़ा है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l17_s1_s3",
+            "sentence_number": 3,
+            "arabic": "وَهَذَا صِرَاطُ رَبِّكَ مُسْتَقِيمًا",
+            "arabic_text": "وَهَذَا صِرَاطُ رَبِّكَ مُسْتَقِيمًا",
+            "arabic_markup": "<span class=\"arabic-root\">وَهَذَا صِرَاطُ رَبِّكَ </span><span class=\"nonroot\">مُسْتَقِيمًا</span>",
+            "hinglish": "Aur yeh aapke Rabb ka raasta seedha hote hue hai",
+            "hinglish_meaning": "Aur yeh aapke Rabb ka raasta seedha hote hue hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur yeh aapke Rabb ka raasta seedha hote hue hai",
+              "en": "And this is the path of your Lord, leading straight",
+              "ur": "اور یہ آپ کے رب کا سیدھا راستہ ہے",
+              "hi": "और यह आपके रब का सीधा रास्ता है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l17_s1_s4",
+            "sentence_number": 4,
+            "arabic": "هُوَ قَانِتٌ آنَاءَ اللَّيْلِ سَاجِدًا وَقَائِمًا",
+            "arabic_text": "هُوَ قَانِتٌ آنَاءَ اللَّيْلِ سَاجِدًا وَقَائِمًا",
+            "arabic_markup": "<span class=\"arabic-root\">هُوَ قَانِتٌ آنَاءَ اللَّيْلِ </span><span class=\"nonroot\">سَاجِدًا</span> <span class=\"arabic-root\">وَ</span><span class=\"nonroot\">قَائِمًا</span>",
+            "hinglish": "Woh raat ki ghadiyon mein sajda karne wala aur khada hote hue farmabardar hai",
+            "hinglish_meaning": "Woh raat ki ghadiyon mein sajda karne wala aur khada hote hue farmabardar hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh raat ki ghadiyon mein sajda karne wala aur khada hote hue farmabardar hai",
+              "en": "He is devoutly obedient during periods of the night, prostrating and standing",
+              "ur": "وہ رات کی گھڑیوں میں سجدہ کرتے ہوئے اور کھڑے ہو کر عبادت گزار ہے",
+              "hi": "वह रात की घड़ियों में सजदा करते हुए और खड़े होकर इबादतगुज़ार है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "page_start": 38
+}

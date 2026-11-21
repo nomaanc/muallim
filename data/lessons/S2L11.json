@@ -1,0 +1,660 @@
+{
+  "lesson_id": 11,
+  "lesson_key": "S2L11",
+  "stage_id": 2,
+  "title": "Harf 'Anna' (Ke): الْكِتَابُ ← أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ",
+  "arabic_Focus": "الْكِتَابُ ، اللَّهُ ← أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ",
+  "hinglish_Focus": "Kitaab, Allah (ـُ) → Ke Kitaab, Ke beshak Allah (ـَ)",
+  "page_numbers": "71",
+  "book_page": 71,
+  "status": "complete",
+  "title_i18n": {
+    "en": "Harf 'Anna' (Ke): الْكِتَابُ ← أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ",
+    "ur": "یونٹ 2 سبق 11: الْكِتَابُ ، اللَّهُ ← أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ",
+    "hi": "Harf 'Anna' (Ke): الْكِتَابُ ← أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ"
+  },
+  "sections": [
+    {
+      "id": "sec_hero",
+      "type": "hero_header",
+      "data": {
+        "arabic": "الْكِتَابُ ، اللَّهُ ← أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ",
+        "hinglish": "Kitaab, Allah (ـُ) → Ke Kitaab, Ke beshak Allah (ـَ)",
+        "arabic_word": "الْكِتَابُ ، اللَّهُ",
+        "arabic_combined": "الْكِتَابُ ، اللَّهُ ← أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ",
+        "hinglish_word": "Kitaab, Allah (ـُ)",
+        "hinglish_combined": "Kitaab, Allah (ـُ) → Ke Kitaab, Ke beshak Allah (ـَ)",
+        "title_en": "Harf 'Anna' (Ke): الْكِتَابُ ← أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ",
+        "subtitle": "Unit 2 • Lesson 11 (Book Page 71)",
+        "transformations": [
+          {
+            "before_ar": "الْكِتَابُ ، اللَّهُ",
+            "after_ar": "أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ",
+            "before_hi": "Kitaab, Allah (ـُ)",
+            "after_hi": "Ke Kitaab, Ke beshak Allah (ـَ)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_intro_table",
+      "type": "intro_table",
+      "data": {
+        "title": "S2L11 — Harf 'Anna' (Ke): الْكِتَابُ ← أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ: Buniyadi Misaalein",
+        "caption": "S2L11 — Harf 'Anna' (Ke): الْكِتَابُ ← أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ: Buniyadi Misaalein",
+        "headers": [
+          "Qaa'ida / Halat",
+          "Arabi Misaal",
+          "Hinglish Mafhoom"
+        ],
+        "rows": [
+          [
+            "أَنَّ + Ism (Zabar ـَ)",
+            "أَنَّ اللَّهَ / أَنَّ الْقُوَّةَ / أَنَّ السَّاعَةَ",
+            "Ke Allah / Ke saari quwwat / Ke Qiyamat ki ghadi"
+          ],
+          [
+            "بِأَنَّ (Is wajah se ke)",
+            "ذَٰلِكَ بِأَنَّ اللَّهَ هُوَ الْحَقُّ",
+            "Yeh is wajah se hai ke Allah hi Haq hai"
+          ],
+          [
+            "Qur'ani Jumle",
+            "أَنَّ الْقُوَّةَ لِلَّهِ جَمِيعًا وَأَنَّ اللَّهَ شَدِيدُ الْعَذَابِ",
+            "Ke saari quwwat Allah hi ke liye hai aur yeh ke Allah sakht azaab dene wala hai"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l11_concept",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 11</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Harf 'Anna' (Ke): الْكِتَابُ ← أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ (Page 71)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، اللَّهُ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Anna (أَنَّ + ـَ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، اللَّهُ (Kitaab, Allah (ـُ)) se أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ (Ke Kitaab, Ke beshak Allah (ـَ)) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Page 71):** **`أَنَّ`** ka matlab **'ke / ke beshak'** hai (yeh jumle ke darmiyan mein aata hai jabke `إِنَّ` shuru mein aata hai). `إِنَّ` ki tarah `أَنَّ` ke baad aane wale ism par bhi **Zabar (`ـَ`)** aata hai: `أَنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ` (ke Allah har cheez par qaadir hai).",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 11</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Harf 'Anna' (Ke): الْكِتَابُ ← أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ (Page 71)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، اللَّهُ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Anna (أَنَّ + ـَ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، اللَّهُ (Kitaab, Allah (ـُ)) se أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ (Ke Kitaab, Ke beshak Allah (ـَ)) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Page 71):** **`أَنَّ`** ka matlab **'ke / ke beshak'** hai (yeh jumle ke darmiyan mein aata hai jabke `إِنَّ` shuru mein aata hai). `إِنَّ` ki tarah `أَنَّ` ke baad aane wale ism par bhi **Zabar (`ـَ`)** aata hai: `أَنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ` (ke Allah har cheez par qaadir hai).",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 11</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Harf 'Anna' (Ke): الْكِتَابُ ← أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ (Page 71)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، اللَّهُ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Anna (أَنَّ + ـَ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، اللَّهُ (Kitaab, Allah (ـُ)) se أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ (Ke Kitaab, Ke beshak Allah (ـَ)) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Page 71):** **`أَنَّ`** ka matlab **'ke / ke beshak'** hai (yeh jumle ke darmiyan mein aata hai jabke `إِنَّ` shuru mein aata hai). `إِنَّ` ki tarah `أَنَّ` ke baad aane wale ism par bhi **Zabar (`ـَ`)** aata hai: `أَنَّ اللَّهَ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ` (ke Allah har cheez par qaadir hai)."
+      }
+    },
+    {
+      "id": "sec_s2l11_lbl1",
+      "type": "section_label",
+      "data": {
+        "text": "Darj zail misaalon par ghaur karein:",
+        "title": "Darj zail misaalon par ghaur karein:",
+        "label": "Darj zail misaalon par ghaur karein:"
+      }
+    },
+    {
+      "id": "sec_s2l11_r3",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Upar ki misaalon se waazeh hai ke (أَنَّ) ka matlab 'ke' hai aur iss ke baad aane wale lafz par fatha ( َ ) aati hai.",
+        "content": "Upar ki misaalon se waazeh hai ke (أَنَّ) ka matlab 'ke' hai aur iss ke baad aane wale lafz par fatha ( َ ) aati hai.",
+        "hinglish_text": "Upar ki misaalon se waazeh hai ke (أَنَّ) ka matlab 'ke' hai aur iss ke baad aane wale lafz par fatha ( َ ) aati hai."
+      }
+    },
+    {
+      "id": "sec_s2l11_r4",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Darj zail aasan Qur'ani alfaaz o tarakeeb ko khud samajh kar tarjuma karein:",
+        "content": "Darj zail aasan Qur'ani alfaaz o tarakeeb ko khud samajh kar tarjuma karein:",
+        "hinglish_text": "Darj zail aasan Qur'ani alfaaz o tarakeeb ko khud samajh kar tarjuma karein:"
+      }
+    },
+    {
+      "id": "sec_s2l11_g5",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l11_g5_w1",
+            "arabic": "أَنَّ الْقُوَّةَ",
+            "arabic_text": "أَنَّ الْقُوَّةَ",
+            "arabic_markup": "<span class=\"nonroot\">أَنَّ</span> <span class=\"arabic-root\">الْقُوَّةَ</span>",
+            "hinglish": "Ke quwwat",
+            "hinglish_meaning": "Ke quwwat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ke quwwat",
+              "en": "That power",
+              "ur": "کہ قوت",
+              "hi": "कि क़ुव्वत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_g5_w2",
+            "arabic": "أَنَّ الْحَقَّ",
+            "arabic_text": "أَنَّ الْحَقَّ",
+            "arabic_markup": "<span class=\"nonroot\">أَنَّ</span> <span class=\"arabic-root\">الْحَقَّ</span>",
+            "hinglish": "Ke haq",
+            "hinglish_meaning": "Ke haq",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ke haq",
+              "en": "That the truth",
+              "ur": "کہ حق",
+              "hi": "कि हक़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_g5_w3",
+            "arabic": "أَنَّ الرَّسُولَ",
+            "arabic_text": "أَنَّ الرَّسُولَ",
+            "arabic_markup": "<span class=\"nonroot\">أَنَّ</span> <span class=\"arabic-root\">الرَّسُولَ</span>",
+            "hinglish": "Ke Rasool",
+            "hinglish_meaning": "Ke Rasool",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ke Rasool",
+              "en": "That the Messenger",
+              "ur": "کہ رسول",
+              "hi": "कि रसूल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_g5_w4",
+            "arabic": "أَنَّ اللَّهَ",
+            "arabic_text": "أَنَّ اللَّهَ",
+            "arabic_markup": "<span class=\"nonroot\">أَنَّ</span> <span class=\"arabic-root\">اللَّهَ</span>",
+            "hinglish": "Ke Allah",
+            "hinglish_meaning": "Ke Allah",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ke Allah",
+              "en": "That Allah",
+              "ur": "کہ اللہ",
+              "hi": "कि अल्लाह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_g5_w5",
+            "arabic": "أَنَّ السَّاعَةَ",
+            "arabic_text": "أَنَّ السَّاعَةَ",
+            "arabic_markup": "<span class=\"nonroot\">أَنَّ</span> <span class=\"arabic-root\">السَّاعَةَ</span>",
+            "hinglish": "Ke qayamat",
+            "hinglish_meaning": "Ke qayamat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ke qayamat",
+              "en": "That the Hour (Resurrection)",
+              "ur": "کہ قیامت",
+              "hi": "कि क़यामत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_g5_w6",
+            "arabic": "أَنَّ الْعَذَابَ",
+            "arabic_text": "أَنَّ الْعَذَابَ",
+            "arabic_markup": "<span class=\"nonroot\">أَنَّ</span> <span class=\"arabic-root\">الْعَذَابَ</span>",
+            "hinglish": "Ke azab",
+            "hinglish_meaning": "Ke azab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ke azab",
+              "en": "That the punishment",
+              "ur": "کہ عذاب",
+              "hi": "कि अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_g5_w7",
+            "arabic": "أَنَّ الْأَرْضَ",
+            "arabic_text": "أَنَّ الْأَرْضَ",
+            "arabic_markup": "<span class=\"nonroot\">أَنَّ</span> <span class=\"arabic-root\">الْأَرْضَ</span>",
+            "hinglish": "Ke zameen",
+            "hinglish_meaning": "Ke zameen",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ke zameen",
+              "en": "That the earth",
+              "ur": "کہ زمین",
+              "hi": "कि ज़मीन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_g5_w8",
+            "arabic": "أَنَّ الْمَاءَ",
+            "arabic_text": "أَنَّ الْمَاءَ",
+            "arabic_markup": "<span class=\"nonroot\">أَنَّ</span> <span class=\"arabic-root\">الْمَاءَ</span>",
+            "hinglish": "Ke pani",
+            "hinglish_meaning": "Ke pani",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ke pani",
+              "en": "That the water",
+              "ur": "کہ پانی",
+              "hi": "कि पानी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_g5_w9",
+            "arabic": "أَنَّ الْفُلْكَ",
+            "arabic_text": "أَنَّ الْفُلْكَ",
+            "arabic_markup": "<span class=\"nonroot\">أَنَّ</span> <span class=\"arabic-root\">الْفُلْكَ</span>",
+            "hinglish": "Ke kashti",
+            "hinglish_meaning": "Ke kashti",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ke kashti",
+              "en": "That the ship",
+              "ur": "کہ کشتی",
+              "hi": "कि कश्ती",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_g5_w10",
+            "arabic": "وَأَنَّ الْمَسَاجِدَ",
+            "arabic_text": "وَأَنَّ الْمَسَاجِدَ",
+            "arabic_markup": "<span class=\"nonroot\">وَأَنَّ</span> <span class=\"arabic-root\">الْمَسَاجِدَ</span>",
+            "hinglish": "Aur ke masjidein",
+            "hinglish_meaning": "Aur ke masjidein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur ke masjidein",
+              "en": "And that the mosques",
+              "ur": "اور کہ مسجدیں",
+              "hi": "और कि मस्जिदें",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_g5_w11",
+            "arabic": "أَنَّ صَالِحًا",
+            "arabic_text": "أَنَّ صَالِحًا",
+            "arabic_markup": "<span class=\"nonroot\">أَنَّ</span> <span class=\"arabic-root\">صَالِحًا</span>",
+            "hinglish": "Ke Hazrat Saleh (Alaihis Salam)",
+            "hinglish_meaning": "Ke Hazrat Saleh (Alaihis Salam)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ke Hazrat Saleh (Alaihis Salam)",
+              "en": "That Salih (peace be upon him)",
+              "ur": "کہ صالح (علیہ السلام)",
+              "hi": "कि सालेह (अलैहिस्सलाम)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_g5_w12",
+            "arabic": "أَنَّ النَّاسَ",
+            "arabic_text": "أَنَّ النَّاسَ",
+            "arabic_markup": "<span class=\"nonroot\">أَنَّ</span> <span class=\"arabic-root\">النَّاسَ</span>",
+            "hinglish": "Ke log",
+            "hinglish_meaning": "Ke log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ke log",
+              "en": "That the people",
+              "ur": "کہ لوگ",
+              "hi": "कि लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l11_g6",
+      "type": "grace_box",
+      "data": {
+        "text": "Alhamdulillah! Upar ki exercise samajhne ke baad, ab aap neeche di gayi Qur'ani aayaat ka tarjuma khud ba-aasaani kar sakte hain:"
+      }
+    },
+    {
+      "id": "sec_s2l11_s7",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s2l11_s7_s1",
+            "sentence_number": 1,
+            "arabic": "أَنَّ الْقُوَّةَ لِلَّهِ جَمِيعًا",
+            "arabic_text": "أَنَّ الْقُوَّةَ لِلَّهِ جَمِيعًا",
+            "arabic_markup": "<span class=\"nonroot\">أَنَّ الْقُوَّةَ</span> <span class=\"arabic-root\">لِلَّهِ جَمِيعًا</span>",
+            "hinglish": "Ke tamam quwwat Allah ke liye hai",
+            "hinglish_meaning": "Ke tamam quwwat Allah ke liye hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ke tamam quwwat Allah ke liye hai",
+              "en": "That all power belongs to Allah entirely",
+              "ur": "کہ تمام قوت اللہ ہی کے لیے ہے",
+              "hi": "कि तमाम क़ुव्वत अल्लाह ही के लिए है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_s7_s2",
+            "sentence_number": 2,
+            "arabic": "أَنَّ الرَّسُولَ حَقٌّ",
+            "arabic_text": "أَنَّ الرَّسُولَ حَقٌّ",
+            "arabic_markup": "<span class=\"nonroot\">أَنَّ الرَّسُولَ</span> <span class=\"arabic-root\">حَقٌّ</span>",
+            "hinglish": "Ke Rasool haq hain",
+            "hinglish_meaning": "Ke Rasool haq hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ke Rasool haq hain",
+              "en": "That the Messenger is true",
+              "ur": "کہ رسول برحق ہیں",
+              "hi": "कि रसूल हक़ (सच्चे) हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_s7_s3",
+            "sentence_number": 3,
+            "arabic": "أَنَّ الْحَقَّ لِلَّهِ",
+            "arabic_text": "أَنَّ الْحَقَّ لِلَّهِ",
+            "arabic_markup": "<span class=\"nonroot\">أَنَّ الْحَقَّ</span> <span class=\"arabic-root\">لِلَّهِ</span>",
+            "hinglish": "Ke haq Allah ke liye hai",
+            "hinglish_meaning": "Ke haq Allah ke liye hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ke haq Allah ke liye hai",
+              "en": "That the truth belongs to Allah",
+              "ur": "کہ حق اللہ ہی کے لیے ہے",
+              "hi": "कि हक़ अल्लाह ही के लिए है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_s7_s4",
+            "sentence_number": 4,
+            "arabic": "وَأَنَّ اللَّهَ سَمِيعٌ عَلِيمٌ",
+            "arabic_text": "وَأَنَّ اللَّهَ سَمِيعٌ عَلِيمٌ",
+            "arabic_markup": "<span class=\"nonroot\">وَأَنَّ اللَّهَ</span> <span class=\"arabic-root\">سَمِيعٌ عَلِيمٌ</span>",
+            "hinglish": "Aur ke Allah sunne wala jaanne wala hai",
+            "hinglish_meaning": "Aur ke Allah sunne wala jaanne wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur ke Allah sunne wala jaanne wala hai",
+              "en": "And that Allah is All-Hearing, All-Knowing",
+              "ur": "اور کہ اللہ سب کچھ سننے والا، سب کچھ جاننے والا ہے",
+              "hi": "और कि अल्लाह सब कुछ सुनने वाला, सब कुछ जानने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_s7_s5",
+            "sentence_number": 5,
+            "arabic": "وَأَنَّ الْمَسَاجِدَ لِلَّهِ",
+            "arabic_text": "وَأَنَّ الْمَسَاجِدَ لِلَّهِ",
+            "arabic_markup": "<span class=\"nonroot\">وَأَنَّ الْمَسَاجِدَ</span> <span class=\"arabic-root\">لِلَّهِ</span>",
+            "hinglish": "Aur ke masjidein Allah ke liye hain",
+            "hinglish_meaning": "Aur ke masjidein Allah ke liye hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur ke masjidein Allah ke liye hain",
+              "en": "And that the mosques are for Allah",
+              "ur": "اور کہ مسجدیں اللہ ہی کے لیے ہیں",
+              "hi": "और कि मस्जिदें अल्लाह ही के लिए हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_s7_s6",
+            "sentence_number": 6,
+            "arabic": "أَنَّ اللَّهَ بَرِيءٌ",
+            "arabic_text": "أَنَّ اللَّهَ بَرِيءٌ",
+            "arabic_markup": "<span class=\"nonroot\">أَنَّ اللَّهَ</span> <span class=\"arabic-root\">بَرِيءٌ</span>",
+            "hinglish": "Ke Allah be-ta'alluq hai",
+            "hinglish_meaning": "Ke Allah be-ta'alluq hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ke Allah be-ta'alluq hai",
+              "en": "That Allah is free from obligation / disassociated",
+              "ur": "کہ اللہ بیزار (بری الذمہ) ہے",
+              "hi": "कि अल्लाह बे-तअल्लुक़ (बरी) है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_s7_s7",
+            "sentence_number": 7,
+            "arabic": "أَنَّ اللَّهَ عَزِيزٌ حَكِيمٌ",
+            "arabic_text": "أَنَّ اللَّهَ عَزِيزٌ حَكِيمٌ",
+            "arabic_markup": "<span class=\"nonroot\">أَنَّ اللَّهَ</span> <span class=\"arabic-root\">عَزِيزٌ حَكِيمٌ</span>",
+            "hinglish": "Ke Allah ghalib hikmat wala hai",
+            "hinglish_meaning": "Ke Allah ghalib hikmat wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ke Allah ghalib hikmat wala hai",
+              "en": "That Allah is Almighty, All-Wise",
+              "ur": "کہ اللہ غالب، حکمت والا ہے",
+              "hi": "कि अल्लाह ग़ालिब, हिकमत वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_s7_s8",
+            "sentence_number": 8,
+            "arabic": "أَنَّ اللَّهَ سَمِيعٌ عَلِيمٌ",
+            "arabic_text": "أَنَّ اللَّهَ سَمِيعٌ عَلِيمٌ",
+            "arabic_markup": "<span class=\"nonroot\">أَنَّ اللَّهَ</span> <span class=\"arabic-root\">سَمِيعٌ عَلِيمٌ</span>",
+            "hinglish": "Ke Allah sunne wala jaanne wala hai",
+            "hinglish_meaning": "Ke Allah sunne wala jaanne wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ke Allah sunne wala jaanne wala hai",
+              "en": "That Allah is All-Hearing, All-Knowing",
+              "ur": "کہ اللہ سب کچھ سننے والا، جاننے والا ہے",
+              "hi": "कि अल्लाह सब कुछ सुनने वाला, जानने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_s7_s9",
+            "sentence_number": 9,
+            "arabic": "وَأَنَّ السَّاعَةَ آتِيَةٌ",
+            "arabic_text": "وَأَنَّ السَّاعَةَ آتِيَةٌ",
+            "arabic_markup": "<span class=\"nonroot\">وَأَنَّ السَّاعَةَ</span> <span class=\"arabic-root\">آتِيَةٌ</span>",
+            "hinglish": "Aur ke qayamat aane wali hai",
+            "hinglish_meaning": "Aur ke qayamat aane wali hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur ke qayamat aane wali hai",
+              "en": "And that the Hour is coming",
+              "ur": "اور کہ قیامت آنے والی ہے",
+              "hi": "और कि क़यामत आने वाली है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_s7_s10",
+            "sentence_number": 10,
+            "arabic": "وَأَنَّ اللَّهَ تَوَّابٌ حَكِيمٌ",
+            "arabic_text": "وَأَنَّ اللَّهَ تَوَّابٌ حَكِيمٌ",
+            "arabic_markup": "<span class=\"arabic-root\">وَأَنَّ اللَّهَ </span><span class=\"nonroot\">تَوَّابٌ</span><span class=\"arabic-root\"> حَكِيمٌ</span>",
+            "hinglish": "Aur ke Allah tauba qabool karne wala hikmat wala hai",
+            "hinglish_meaning": "Aur ke Allah tauba qabool karne wala hikmat wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur ke Allah tauba qabool karne wala hikmat wala hai",
+              "en": "And that Allah is Accepting of repentance, All-Wise",
+              "ur": "اور کہ اللہ توبہ قبول فرمانے والا، حکمت والا ہے",
+              "hi": "और कि अल्लाह तौबा क़बूल फ़रमाने वाला, हिकमत वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_s7_s11",
+            "sentence_number": 11,
+            "arabic": "أَنَّ اللَّهَ غَنِيٌّ حَمِيدٌ",
+            "arabic_text": "أَنَّ اللَّهَ غَنِيٌّ حَمِيدٌ",
+            "arabic_markup": "<span class=\"nonroot\">أَنَّ اللَّهَ</span> <span class=\"arabic-root\">غَنِيٌّ حَمِيدٌ</span>",
+            "hinglish": "Ke Allah beniyaaz hamd ke laayiq hai",
+            "hinglish_meaning": "Ke Allah beniyaaz hamd ke laayiq hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ke Allah beniyaaz hamd ke laayiq hai",
+              "en": "That Allah is Free of need, Praiseworthy",
+              "ur": "کہ اللہ بے نیاز، تعریف کے لائق ہے",
+              "hi": "कि अल्लाह बेनियाज़, हम्द के लायक़ (प्रशंसनीय) है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_s7_s12",
+            "sentence_number": 12,
+            "arabic": "أَنَّ اللَّهَ غَفُورٌ حَلِيمٌ",
+            "arabic_text": "أَنَّ اللَّهَ غَفُورٌ حَلِيمٌ",
+            "arabic_markup": "<span class=\"nonroot\">أَنَّ اللَّهَ</span> <span class=\"arabic-root\">غَفُورٌ حَلِيمٌ</span>",
+            "hinglish": "Ke Allah bakhshne wala burdbaar hai",
+            "hinglish_meaning": "Ke Allah bakhshne wala burdbaar hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ke Allah bakhshne wala burdbaar hai",
+              "en": "That Allah is Forgiving, Most Forbearing",
+              "ur": "کہ اللہ بخشنے والا، بردبار ہے",
+              "hi": "कि अल्लाह बख़्शने वाला, बुर्दबार है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_s7_s13",
+            "sentence_number": 13,
+            "arabic": "أَنَّ صَالِحًا مُرْسَلٌ",
+            "arabic_text": "أَنَّ صَالِحًا مُرْسَلٌ",
+            "arabic_markup": "<span class=\"nonroot\">أَنَّ صَالِحًا</span> <span class=\"arabic-root\">مُرْسَلٌ</span>",
+            "hinglish": "Ke Hazrat Saleh (Alaihis Salam) Rasool banakar bheje gaye hain",
+            "hinglish_meaning": "Ke Hazrat Saleh (Alaihis Salam) Rasool banakar bheje gaye hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ke Hazrat Saleh (Alaihis Salam) Rasool banakar bheje gaye hain",
+              "en": "That Salih was sent as a messenger",
+              "ur": "کہ صالح (علیہ السلام) رسول بنا کر بھیجے گئے ہیں",
+              "hi": "कि सालेह (अलैहिस्सलाम) रसूल बना कर भेजे गए हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_s7_s14",
+            "sentence_number": 14,
+            "arabic": "وَأَنَّ اللَّهَ رَءُوفٌ رَحِيمٌ",
+            "arabic_text": "وَأَنَّ اللَّهَ رَءُوفٌ رَحِيمٌ",
+            "arabic_markup": "<span class=\"nonroot\">وَأَنَّ اللَّهَ</span> <span class=\"arabic-root\">رَءُوفٌ رَحِيمٌ</span>",
+            "hinglish": "Aur ke Allah shafqat karne wala meharban hai",
+            "hinglish_meaning": "Aur ke Allah shafqat karne wala meharban hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur ke Allah shafqat karne wala meharban hai",
+              "en": "And that Allah is Kind and Merciful",
+              "ur": "اور کہ اللہ شفقت فرمانے والا، نہایت مہربان ہے",
+              "hi": "और कि अल्लाह शफ़क़त फ़रमाने वाला, निहायत मेहरबान है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l11_s7_s15",
+            "sentence_number": 15,
+            "arabic": "وَأَنَّ اللَّهَ سَمِيعٌ بَصِيرٌ",
+            "arabic_text": "وَأَنَّ اللَّهَ سَمِيعٌ بَصِيرٌ",
+            "arabic_markup": "<span class=\"nonroot\">وَأَنَّ اللَّهَ</span> <span class=\"arabic-root\">سَمِيعٌ بَصِيرٌ</span>",
+            "hinglish": "Aur ke Allah sunne wala dekhne wala hai",
+            "hinglish_meaning": "Aur ke Allah sunne wala dekhne wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur ke Allah sunne wala dekhne wala hai",
+              "en": "And that Allah is All-Hearing, All-Seeing",
+              "ur": "اور کہ اللہ سب کچھ سننے والا، سب کچھ دیکھنے والا ہے",
+              "hi": "और कि अल्लाह सब कुछ सुनने वाला, सब कुछ देखने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "page_start": 71
+}

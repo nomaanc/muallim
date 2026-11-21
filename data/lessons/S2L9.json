@@ -1,0 +1,1774 @@
+{
+  "lesson_id": 9,
+  "lesson_key": "S2L9",
+  "stage_id": 2,
+  "title": "Harf-e-Istisna 'Illaa' (Magar / Siwaaye): الْكِتَابُ ← إِلَّا الْكِتَابَ",
+  "arabic_Focus": "الْكِتَابُ ، قَلِيلٌ ← إِلَّا الْكِتَابَ ، إِلَّا قَلِيلًا",
+  "hinglish_Focus": "Kitaab, Thode → Magar Kitaab, Magar thode",
+  "page_numbers": "68–69",
+  "book_page": 68,
+  "status": "complete",
+  "title_i18n": {
+    "en": "Harf-e-Istisna 'Illaa' (Magar / Siwaaye): الْكِتَابُ ← إِلَّا الْكِتَابَ",
+    "ur": "یونٹ 2 سبق 9: الْكِتَابُ ، قَلِيلٌ ← إِلَّا الْكِتَابَ ، إِلَّا قَلِيلًا",
+    "hi": "Harf-e-Istisna 'Illaa' (Magar / Siwaaye): الْكِتَابُ ← إِلَّا الْكِتَابَ"
+  },
+  "sections": [
+    {
+      "id": "sec_hero",
+      "type": "hero_header",
+      "data": {
+        "arabic": "الْكِتَابُ ، قَلِيلٌ ← إِلَّا الْكِتَابَ ، إِلَّا قَلِيلًا",
+        "hinglish": "Kitaab, Thode → Magar Kitaab, Magar thode",
+        "arabic_word": "الْكِتَابُ ، قَلِيلٌ",
+        "arabic_combined": "الْكِتَابُ ، قَلِيلٌ ← إِلَّا الْكِتَابَ ، إِلَّا قَلِيلًا",
+        "hinglish_word": "Kitaab, Thode",
+        "hinglish_combined": "Kitaab, Thode → Magar Kitaab, Magar thode",
+        "title_en": "Harf-e-Istisna 'Illaa' (Magar / Siwaaye): الْكِتَابُ ← إِلَّا الْكِتَابَ",
+        "subtitle": "Unit 2 • Lesson 9 (Book Page 68–69)",
+        "transformations": [
+          {
+            "before_ar": "الْكِتَابُ ، قَلِيلٌ",
+            "after_ar": "إِلَّا الْكِتَابَ ، إِلَّا قَلِيلًا",
+            "before_hi": "Kitaab, Thode",
+            "after_hi": "Magar Kitaab, Magar thode"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_intro_table",
+      "type": "intro_table",
+      "data": {
+        "title": "S2L9 — Harf-e-Istisna 'Illaa' (Magar / Siwaaye): الْكِتَابُ ← إِلَّا الْكِتَابَ: Buniyadi Misaalein",
+        "caption": "S2L9 — Harf-e-Istisna 'Illaa' (Magar / Siwaaye): الْكِتَابُ ← إِلَّا الْكِتَابَ: Buniyadi Misaalein",
+        "headers": [
+          "Qaa'ida / Halat",
+          "Arabi Misaal",
+          "Hinglish Mafhoom"
+        ],
+        "rows": [
+          [
+            "إِلَّا + Ism (Siwaaye / Magar)",
+            "إِلَّا اللَّهُ / إِلَّا الْبَلَاغُ / إِلَّا قَلِيلًا",
+            "Siwaaye Allah ke / Siwaaye paigham pahunchane ke / Magar thode"
+          ],
+          [
+            "لَا ... إِلَّا ... (Nafi + Istisna)",
+            "لَا إِلَٰهَ إِلَّا اللَّهُ / لَا قُوَّةَ إِلَّا بِاللَّهِ",
+            "Allah ke siwa koi ma'bood nahin / Allah ke baghair koi quwwat nahin"
+          ],
+          [
+            "مَا / إِنْ ... إِلَّا ... (Sirf / Bas)",
+            "مَا هَٰذَا إِلَّا بَشَرٌ / إِنْ هُوَ إِلَّا وَحْيٌ",
+            "Yeh toh bas ek insaan hai / Woh toh sirf wahi hai"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l9_concept",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 9</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Harf-e-Istisna 'Illaa' (Magar / Siwaaye): الْكِتَابُ ← إِلَّا الْكِتَابَ (Page 68–69)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، قَلِيلٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Istisna (إِلَّا)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">إِلَّا الْكِتَابَ ، إِلَّا قَلِيلًا</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، قَلِيلٌ (Kitaab, Thode) se إِلَّا الْكِتَابَ ، إِلَّا قَلِيلًا (Magar Kitaab, Magar thode) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 68–69):** **`إِلَّا`** ka matlab **'magar / siwaaye'** hai. Aur jab jumle ke shuru mein nafi (`لَا`، `مَا`، `إِنْ`) ho aur baad mein `إِلَّا` aaye toh isse **Hasr ('Sirf / Bas')** ka mafhoom paida hota hai: `لَا إِلَٰهَ إِلَّا اللَّهُ` (Allah ke siwa koi ma'bood nahin), `مَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ` (Rasool par toh sirf paigham pahunchana hai).",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 9</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Harf-e-Istisna 'Illaa' (Magar / Siwaaye): الْكِتَابُ ← إِلَّا الْكِتَابَ (Page 68–69)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، قَلِيلٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Istisna (إِلَّا)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">إِلَّا الْكِتَابَ ، إِلَّا قَلِيلًا</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، قَلِيلٌ (Kitaab, Thode) se إِلَّا الْكِتَابَ ، إِلَّا قَلِيلًا (Magar Kitaab, Magar thode) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 68–69):** **`إِلَّا`** ka matlab **'magar / siwaaye'** hai. Aur jab jumle ke shuru mein nafi (`لَا`، `مَا`، `إِنْ`) ho aur baad mein `إِلَّا` aaye toh isse **Hasr ('Sirf / Bas')** ka mafhoom paida hota hai: `لَا إِلَٰهَ إِلَّا اللَّهُ` (Allah ke siwa koi ma'bood nahin), `مَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ` (Rasool par toh sirf paigham pahunchana hai).",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 9</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Harf-e-Istisna 'Illaa' (Magar / Siwaaye): الْكِتَابُ ← إِلَّا الْكِتَابَ (Page 68–69)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، قَلِيلٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Istisna (إِلَّا)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">إِلَّا الْكِتَابَ ، إِلَّا قَلِيلًا</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، قَلِيلٌ (Kitaab, Thode) se إِلَّا الْكِتَابَ ، إِلَّا قَلِيلًا (Magar Kitaab, Magar thode) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 68–69):** **`إِلَّا`** ka matlab **'magar / siwaaye'** hai. Aur jab jumle ke shuru mein nafi (`لَا`، `مَا`، `إِنْ`) ho aur baad mein `إِلَّا` aaye toh isse **Hasr ('Sirf / Bas')** ka mafhoom paida hota hai: `لَا إِلَٰهَ إِلَّا اللَّهُ` (Allah ke siwa koi ma'bood nahin), `مَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ` (Rasool par toh sirf paigham pahunchana hai)."
+      }
+    },
+    {
+      "id": "sec_s2l9_lbl1",
+      "type": "section_label",
+      "data": {
+        "text": "Darj zail misaalein dekhein (Darj zail misaalon par ghaur karein):",
+        "title": "Darj zail misaalein dekhein (Darj zail misaalon par ghaur karein):",
+        "label": "Darj zail misaalein dekhein (Darj zail misaalon par ghaur karein):"
+      }
+    },
+    {
+      "id": "sec_s2l9_r3",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Upar ki misaalon se zaahir hai ke (إِلَّا) ka matlab (siwaaye / magar) hai. (إِلَّا) aur iske baad aane wala lafz milkar ek phrase (murakkab) banaate hain, isliye unka tarjuma ek saath hota hai. Yeh lafz Qur'an mein kasrat se aata hai. (إِلَّا) ke baad aane wale lafz par agar (الـ) ho toh us par teeno harakaat (ــَ ــِ ــُ) aa sakti hain, lekin aam taur par iska maani par koi asar nahi padta.",
+        "content": "Upar ki misaalon se zaahir hai ke (إِلَّا) ka matlab (siwaaye / magar) hai. (إِلَّا) aur iske baad aane wala lafz milkar ek phrase (murakkab) banaate hain, isliye unka tarjuma ek saath hota hai. Yeh lafz Qur'an mein kasrat se aata hai. (إِلَّا) ke baad aane wale lafz par agar (الـ) ho toh us par teeno harakaat (ــَ ــِ ــُ) aa sakti hain, lekin aam taur par iska maani par koi asar nahi padta.",
+        "hinglish_text": "Upar ki misaalon se zaahir hai ke (إِلَّا) ka matlab (siwaaye / magar) hai. (إِلَّا) aur iske baad aane wala lafz milkar ek phrase (murakkab) banaate hain, isliye unka tarjuma ek saath hota hai. Yeh lafz Qur'an mein kasrat se aata hai. (إِلَّا) ke baad aane wale lafz par agar (الـ) ho toh us par teeno harakaat (ــَ ــِ ــُ) aa sakti hain, lekin aam taur par iska maani par koi asar nahi padta."
+      }
+    },
+    {
+      "id": "sec_s2l9_r4",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Darj zail Qur'anic alfaaz-o-tarakeeb ko khud samjhein aur tarjuma karein:",
+        "content": "Darj zail Qur'anic alfaaz-o-tarakeeb ko khud samjhein aur tarjuma karein:",
+        "hinglish_text": "Darj zail Qur'anic alfaaz-o-tarakeeb ko khud samjhein aur tarjuma karein:"
+      }
+    },
+    {
+      "id": "sec_s2l9_g5",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l9_g5_w1",
+            "arabic": "إِلَّا الْبَلَاغُ",
+            "arabic_text": "إِلَّا الْبَلَاغُ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">الْبَلَاغُ</span>",
+            "hinglish": "Magar paigham pahunchana",
+            "hinglish_meaning": "Magar paigham pahunchana",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar paigham pahunchana",
+              "en": "Except delivering the message / notification",
+              "ur": "سوائے پیغام پہنچانے کے / مگر پہنچانا",
+              "hi": "सिवाय पैग़ाम पहुंचाने के / मगर पैग़ाम पहुंचाना",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g5_w2",
+            "arabic": "إِلَّا الْحَقَّ",
+            "arabic_text": "إِلَّا الْحَقَّ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">الْحَقَّ</span>",
+            "hinglish": "Magar sach / Haq ke siwa",
+            "hinglish_meaning": "Magar sach / Haq ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar sach / Haq ke siwa",
+              "en": "Except the truth",
+              "ur": "سوائے حق کے / مگر سچ",
+              "hi": "सिवाय सच के / हक़ के सिवा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g5_w3",
+            "arabic": "إِلَّا الرَّحْمٰنُ",
+            "arabic_text": "إِلَّا الرَّحْمٰنُ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">الرَّحْمٰنُ</span>",
+            "hinglish": "Magar Rahman / Rahman ke siwa",
+            "hinglish_meaning": "Magar Rahman / Rahman ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar Rahman / Rahman ke siwa",
+              "en": "Except the Most Merciful (Rahman)",
+              "ur": "سوائے رحمن کے / مگر رحمن",
+              "hi": "सिवाय रहमान के / रहमान के अलावा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g5_w4",
+            "arabic": "إِلَّا اللَّهَ",
+            "arabic_text": "إِلَّا اللَّهَ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">اللَّهَ</span>",
+            "hinglish": "Magar Allah / Allah ke siwa",
+            "hinglish_meaning": "Magar Allah / Allah ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar Allah / Allah ke siwa",
+              "en": "Except Allah",
+              "ur": "سوائے اللہ کے / مگر اللہ",
+              "hi": "सिवाय अल्लाह के / अल्लाह के सिवा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g5_w5",
+            "arabic": "إِلَّا النَّارَ",
+            "arabic_text": "إِلَّا النَّارَ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">النَّارَ</span>",
+            "hinglish": "Magar aag / Aag ke siwa",
+            "hinglish_meaning": "Magar aag / Aag ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar aag / Aag ke siwa",
+              "en": "Except the Fire",
+              "ur": "سوائے آگ کے / مگر آگ",
+              "hi": "सिवाय आग के / आग के सिवा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g5_w6",
+            "arabic": "إِلَّا الْحُسْنَى",
+            "arabic_text": "إِلَّا الْحُسْنَى",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">الْحُسْنَى</span>",
+            "hinglish": "Magar bhalai / Achhai ke siwa",
+            "hinglish_meaning": "Magar bhalai / Achhai ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar bhalai / Achhai ke siwa",
+              "en": "Except the best / good",
+              "ur": "سوائے بھلائی کے / مگر اچھائی",
+              "hi": "सिवाय भलाई के / अच्छाई के अलावा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g5_w7",
+            "arabic": "إِلَّا الضَّلَالُ",
+            "arabic_text": "إِلَّا الضَّلَالُ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">الضَّلَالُ</span>",
+            "hinglish": "Magar gumrahi / Gumrahi ke siwa",
+            "hinglish_meaning": "Magar gumrahi / Gumrahi ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar gumrahi / Gumrahi ke siwa",
+              "en": "Except misguidance / error",
+              "ur": "سوائے گمراہی کے / مگر گمراہی",
+              "hi": "सिवाय गुमराही के / गुमराही के अलावा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g5_w8",
+            "arabic": "إِلَّا الظَّنَّ",
+            "arabic_text": "إِلَّا الظَّنَّ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">الظَّنَّ</span>",
+            "hinglish": "Magar guman / Guman ke siwa",
+            "hinglish_meaning": "Magar guman / Guman ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar guman / Guman ke siwa",
+              "en": "Except assumption / conjecture",
+              "ur": "سوائے گمان کے / مگر گمان",
+              "hi": "सिवाय वह्म / गुमान के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g5_w9",
+            "arabic": "إِلَّا الدَّهْرُ",
+            "arabic_text": "إِلَّا الدَّهْرُ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">الدَّهْرُ</span>",
+            "hinglish": "Magar zamana / Zamane ke siwa",
+            "hinglish_meaning": "Magar zamana / Zamane ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar zamana / Zamane ke siwa",
+              "en": "Except time",
+              "ur": "سوائے زمانے کے / مگر زمانہ",
+              "hi": "सिवाय ज़माने के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g5_w10",
+            "arabic": "إِلَّا الْقَوْمُ",
+            "arabic_text": "إِلَّا الْقَوْمُ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">الْقَوْمُ</span>",
+            "hinglish": "Magar qaum / Qaum ke siwa",
+            "hinglish_meaning": "Magar qaum / Qaum ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar qaum / Qaum ke siwa",
+              "en": "Except the people",
+              "ur": "سوائے قوم کے / مگر قوم",
+              "hi": "सिवाय क़ौम के / क़ौम के अलावा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g5_w11",
+            "arabic": "إِلَّا الْإِحْسَانُ",
+            "arabic_text": "إِلَّا الْإِحْسَانُ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">الْإِحْسَانُ</span>",
+            "hinglish": "Magar ehsan / Ehsan ke siwa",
+            "hinglish_meaning": "Magar ehsan / Ehsan ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar ehsan / Ehsan ke siwa",
+              "en": "Except good / excellence",
+              "ur": "سوائے احسان کے / مگر حسن سلوک",
+              "hi": "सिवाय एहसान के / भलाई के अलावा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g5_w12",
+            "arabic": "إِلَّا الْإِصْلَاحَ",
+            "arabic_text": "إِلَّا الْإِصْلَاحَ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">الْإِصْلَاحَ</span>",
+            "hinglish": "Magar islah / Islah ke siwa",
+            "hinglish_meaning": "Magar islah / Islah ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar islah / Islah ke siwa",
+              "en": "Except reform / correction",
+              "ur": "سوائے اصلاح کے / مگر سدھار",
+              "hi": "सिवाय सुधार के / इसलाह के अलावा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g5_w13",
+            "arabic": "إِلَّا إِبْلِيسَ",
+            "arabic_text": "إِلَّا إِبْلِيسَ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">إِبْلِيسَ</span>",
+            "hinglish": "Magar Iblees / Iblees ke siwa",
+            "hinglish_meaning": "Magar Iblees / Iblees ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar Iblees / Iblees ke siwa",
+              "en": "Except Iblees (Satan)",
+              "ur": "سوائے ابلیس کے / مگر ابلیس",
+              "hi": "सिवाय इबलीस के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g5_w14",
+            "arabic": "إِلَّا الشَّيْطَانُ",
+            "arabic_text": "إِلَّا الشَّيْطَانُ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">الشَّيْطَانُ</span>",
+            "hinglish": "Magar Shaytan / Shaytan ke siwa",
+            "hinglish_meaning": "Magar Shaytan / Shaytan ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar Shaytan / Shaytan ke siwa",
+              "en": "Except Satan",
+              "ur": "سوائے شیطان کے / مگر شیطان",
+              "hi": "सिवाय शैतान के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g5_w15",
+            "arabic": "إِلَّا السَّاعَةَ",
+            "arabic_text": "إِلَّا السَّاعَةَ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">السَّاعَةَ</span>",
+            "hinglish": "Magar Qayamat / Qayamat ke siwa",
+            "hinglish_meaning": "Magar Qayamat / Qayamat ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar Qayamat / Qayamat ke siwa",
+              "en": "Except the Hour (Day of Judgement)",
+              "ur": "سوائے قیامت کے / مگر قیامت کی گھڑی",
+              "hi": "सिवाय क़ियामत के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g5_w16",
+            "arabic": "إِلَّا الْحَيَاةَ",
+            "arabic_text": "إِلَّا الْحَيَاةَ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">الْحَيَاةَ</span>",
+            "hinglish": "Magar zindagi / Zindagi ke siwa",
+            "hinglish_meaning": "Magar zindagi / Zindagi ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar zindagi / Zindagi ke siwa",
+              "en": "Except life",
+              "ur": "سوائے زندگی کے / مگر حیات",
+              "hi": "सिवाय ज़िंदगी के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g5_w17",
+            "arabic": "إِلَّا أَنْتَ",
+            "arabic_text": "إِلَّا أَنْتَ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">أَنْتَ</span>",
+            "hinglish": "Magar tum / Siwaaye tumhare",
+            "hinglish_meaning": "Magar tum / Siwaaye tumhare",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar tum / Siwaaye tumhare",
+              "en": "Except you",
+              "ur": "سوائے تیرے / مگر تو",
+              "hi": "सिवाय तेरे / तेरे अलावा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g5_w18",
+            "arabic": "إِلَّا أَنَا",
+            "arabic_text": "إِلَّا أَنَا",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">أَنَا</span>",
+            "hinglish": "Magar main / Siwaaye mere",
+            "hinglish_meaning": "Magar main / Siwaaye mere",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar main / Siwaaye mere",
+              "en": "Except Me",
+              "ur": "سوائے میرے / مگر میں",
+              "hi": "सिवाय मेरे / मेरे अलावा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g5_w19",
+            "arabic": "إِلَّا هُوَ",
+            "arabic_text": "إِلَّا هُوَ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">هُوَ</span>",
+            "hinglish": "Magar woh / Siwaaye uske",
+            "hinglish_meaning": "Magar woh / Siwaaye uske",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar woh / Siwaaye uske",
+              "en": "Except Him",
+              "ur": "سوائے اس کے / مگر وہ",
+              "hi": "सिवाय उसके / उसके अलावा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l9_r6",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Agar (إِلَّا) ke baad aane wale lafz ke shuru mein (الْ) na ho, toh yeh maani mein 'koi' ya 'ek' ya 'hai' ka mafhoom paida karta hai. iss lafz par tanween (ــً ــٍ ــٌ) ki koi bhi shakl ho sakti hai. Lekin teeno suraton mein lafz ka mafhoom ek hi rehta hai aur aam taur par iska maani par asar nahi padta.",
+        "content": "Agar (إِلَّا) ke baad aane wale lafz ke shuru mein (الْ) na ho, toh yeh maani mein 'koi' ya 'ek' ya 'hai' ka mafhoom paida karta hai. iss lafz par tanween (ــً ــٍ ــٌ) ki koi bhi shakl ho sakti hai. Lekin teeno suraton mein lafz ka mafhoom ek hi rehta hai aur aam taur par iska maani par asar nahi padta.",
+        "hinglish_text": "Agar (إِلَّا) ke baad aane wale lafz ke shuru mein (الْ) na ho, toh yeh maani mein 'koi' ya 'ek' ya 'hai' ka mafhoom paida karta hai. iss lafz par tanween (ــً ــٍ ــٌ) ki koi bhi shakl ho sakti hai. Lekin teeno suraton mein lafz ka mafhoom ek hi rehta hai aur aam taur par iska maani par asar nahi padta."
+      }
+    },
+    {
+      "id": "sec_s2l9_r7",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Darj zail Qur'anic alfaaz-o-tarakeeb ko khud samjhein aur tarjuma karein:",
+        "content": "Darj zail Qur'anic alfaaz-o-tarakeeb ko khud samjhein aur tarjuma karein:",
+        "hinglish_text": "Darj zail Qur'anic alfaaz-o-tarakeeb ko khud samjhein aur tarjuma karein:"
+      }
+    },
+    {
+      "id": "sec_s2l9_g8",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l9_g8_w1",
+            "arabic": "إِلَّا خِزْيٌ",
+            "arabic_text": "إِلَّا خِزْيٌ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">خِزْيٌ</span>",
+            "hinglish": "Magar koi ruswai / Ruswai ke siwa",
+            "hinglish_meaning": "Magar koi ruswai / Ruswai ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar koi ruswai / Ruswai ke siwa",
+              "en": "Except a disgrace / humiliation",
+              "ur": "سوائے کسی رسوائی کے / مگر رسوائی",
+              "hi": "सिवाय किसी रुसवाई के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w2",
+            "arabic": "إِلَّا نَذِيرٌ",
+            "arabic_text": "إِلَّا نَذِيرٌ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">نَذِيرٌ</span>",
+            "hinglish": "Magar koi daranewala / Khabardar karnewale ke siwa",
+            "hinglish_meaning": "Magar koi daranewala / Khabardar karnewale ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar koi daranewala / Khabardar karnewale ke siwa",
+              "en": "Except a warner",
+              "ur": "سوائے کسی ڈرانے والے کے / مگر خبردار کرنے والا",
+              "hi": "सिवाय किसी डराने वाले के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w3",
+            "arabic": "إِلَّا سِحْرٌ",
+            "arabic_text": "إِلَّا سِحْرٌ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">سِحْرٌ</span>",
+            "hinglish": "Magar koi jadoo / Jadoo ke siwa",
+            "hinglish_meaning": "Magar koi jadoo / Jadoo ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar koi jadoo / Jadoo ke siwa",
+              "en": "Except magic",
+              "ur": "سوائے کسی جادو کے / مگر جادو",
+              "hi": "सिवाय किसी जादू के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w4",
+            "arabic": "إِلَّا لَعِبٌ",
+            "arabic_text": "إِلَّا لَعِبٌ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">لَعِبٌ</span>",
+            "hinglish": "Magar koi khel / Khel ke siwa",
+            "hinglish_meaning": "Magar koi khel / Khel ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar koi khel / Khel ke siwa",
+              "en": "Except a play",
+              "ur": "سوائے کسی کھیل کے / مگر کھیل",
+              "hi": "सिवाय किसी खेल के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w5",
+            "arabic": "إِلَّا إِلٰهٌ",
+            "arabic_text": "إِلَّا إِلٰهٌ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">إِلٰهٌ</span>",
+            "hinglish": "Magar koi mabood / Mabood ke siwa",
+            "hinglish_meaning": "Magar koi mabood / Mabood ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar koi mabood / Mabood ke siwa",
+              "en": "Except a deity / god",
+              "ur": "سوائے کسی معبود کے / مگر معبود",
+              "hi": "सिवाय किसी माबूद के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w6",
+            "arabic": "إِلَّا مَتَاعٌ",
+            "arabic_text": "إِلَّا مَتَاعٌ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">مَتَاعٌ</span>",
+            "hinglish": "Magar koi saman / Fayde ke siwa",
+            "hinglish_meaning": "Magar koi saman / Fayde ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar koi saman / Fayde ke siwa",
+              "en": "Except enjoyment / goods",
+              "ur": "سوائے کسی سامان کے / مگر فائدہ",
+              "hi": "सिवाय किसी सामान/फ़ायदे के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w7",
+            "arabic": "إِلَّا إِفْكٌ",
+            "arabic_text": "إِلَّا إِفْكٌ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">إِفْكٌ</span>",
+            "hinglish": "Magar koi jhoot / Bohtan ke siwa",
+            "hinglish_meaning": "Magar koi jhoot / Bohtan ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar koi jhoot / Bohtan ke siwa",
+              "en": "Except a lie / falsehood",
+              "ur": "سوائے کسی جھوٹ کے / مگر بہتان",
+              "hi": "सिवाय किसी झूठ के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w8",
+            "arabic": "إِلَّا ذِكْرٌ",
+            "arabic_text": "إِلَّا ذِكْرٌ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">ذِكْرٌ</span>",
+            "hinglish": "Magar koi naseehat / Naseehat ke siwa",
+            "hinglish_meaning": "Magar koi naseehat / Naseehat ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar koi naseehat / Naseehat ke siwa",
+              "en": "Except a reminder",
+              "ur": "سوائے کسی نصیحت کے / مگر نصیحت",
+              "hi": "सिवाय किसी नसीहत के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w9",
+            "arabic": "إِلَّا بُشْرَى",
+            "arabic_text": "إِلَّا بُشْرَى",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">بُشْرَى</span>",
+            "hinglish": "Magar koi khushkhabri / Khushkhabri ke siwa",
+            "hinglish_meaning": "Magar koi khushkhabri / Khushkhabri ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar koi khushkhabri / Khushkhabri ke siwa",
+              "en": "Except good tidings",
+              "ur": "سوائے کسی خوشخبری کے / مگر بشارت",
+              "hi": "सिवाय किसी ख़ुशख़बरी के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w10",
+            "arabic": "إِلَّا قَلِيلًا",
+            "arabic_text": "إِلَّا قَلِيلًا",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">قَلِيلًا</span>",
+            "hinglish": "Magar thoda sa / Thode ke siwa",
+            "hinglish_meaning": "Magar thoda sa / Thode ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar thoda sa / Thode ke siwa",
+              "en": "Except a little",
+              "ur": "سوائے تھوڑے کے / مگر تھوڑا",
+              "hi": "सिवाय थोड़े के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w11",
+            "arabic": "إِلَّا دُعَاءً",
+            "arabic_text": "إِلَّا دُعَاءً",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">دُعَاءً</span>",
+            "hinglish": "Magar koi pukaar / Pukaarne ke siwa",
+            "hinglish_meaning": "Magar koi pukaar / Pukaarne ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar koi pukaar / Pukaarne ke siwa",
+              "en": "Except a call / prayer",
+              "ur": "سوائے کسی پکار کے / مگر دعا",
+              "hi": "सिवाय किसी पुकार के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w12",
+            "arabic": "إِلَّا رَسُولٌ",
+            "arabic_text": "إِلَّا رَسُولٌ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">رَسُولٌ</span>",
+            "hinglish": "Magar koi rasool / Rasool ke siwa",
+            "hinglish_meaning": "Magar koi rasool / Rasool ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar koi rasool / Rasool ke siwa",
+              "en": "Except a messenger",
+              "ur": "سوائے کسی رسول کے / مگر رسول",
+              "hi": "सिवाय किसी रसूल के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w13",
+            "arabic": "إِلَّا أُمَّةً",
+            "arabic_text": "إِلَّا أُمَّةً",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">أُمَّةً</span>",
+            "hinglish": "Magar koi ummat / Ummat ke siwa",
+            "hinglish_meaning": "Magar koi ummat / Ummat ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar koi ummat / Ummat ke siwa",
+              "en": "Except a community",
+              "ur": "سوائے کسی امت کے / مگر جماعت",
+              "hi": "सिवाय किसी उम्मत के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w14",
+            "arabic": "إِلَّا عَذَابًا",
+            "arabic_text": "إِلَّا عَذَابًا",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">عَذَابًا</span>",
+            "hinglish": "Magar koi azaab / Azaab ke siwa",
+            "hinglish_meaning": "Magar koi azaab / Azaab ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar koi azaab / Azaab ke siwa",
+              "en": "Except a punishment",
+              "ur": "سوائے کسی عذاب کے / مگر عذاب",
+              "hi": "सिवाय किसी अज़ाब के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w15",
+            "arabic": "إِلَّا شَيْطَانًا",
+            "arabic_text": "إِلَّا شَيْطَانًا",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">شَيْطَانًا</span>",
+            "hinglish": "Magar koi shaytan / Shaytan ke siwa",
+            "hinglish_meaning": "Magar koi shaytan / Shaytan ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar koi shaytan / Shaytan ke siwa",
+              "en": "Except a devil",
+              "ur": "سوائے کسی شیطان کے / مگر شیطان",
+              "hi": "सिवाय किसी शैतान के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w16",
+            "arabic": "إِلَّا رَحْمَةً",
+            "arabic_text": "إِلَّا رَحْمَةً",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">رَحْمَةً</span>",
+            "hinglish": "Magar koi rahmat / Rahmat ke siwa",
+            "hinglish_meaning": "Magar koi rahmat / Rahmat ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar koi rahmat / Rahmat ke siwa",
+              "en": "Except mercy",
+              "ur": "سوائے کسی رحمت کے / مگر رحمت",
+              "hi": "सिवाय किसी रहमत के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w17",
+            "arabic": "إِلَّا إِحْسَانًا",
+            "arabic_text": "إِلَّا إِحْسَانًا",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">إِحْسَانًا</span>",
+            "hinglish": "Magar bhalai / Ehsan ke siwa",
+            "hinglish_meaning": "Magar bhalai / Ehsan ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar bhalai / Ehsan ke siwa",
+              "en": "Except good treatment / kindness",
+              "ur": "سوائے احسان کے / مگر حسن سلوک",
+              "hi": "सिवाय एहसान के / अच्छाई के सिवा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w18",
+            "arabic": "إِلَّا إِيمَانًا",
+            "arabic_text": "إِلَّا إِيمَانًا",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">إِيمَانًا</span>",
+            "hinglish": "Magar imaan / Imaan ke siwa",
+            "hinglish_meaning": "Magar imaan / Imaan ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar imaan / Imaan ke siwa",
+              "en": "Except faith / belief",
+              "ur": "سوائے ایمان کے / مگر ایمان",
+              "hi": "सिवाय ईमान के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w19",
+            "arabic": "إِلَّا بَشَرًا",
+            "arabic_text": "إِلَّا بَشَرًا",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">بَشَرًا</span>",
+            "hinglish": "Magar koi insan / Insan ke siwa",
+            "hinglish_meaning": "Magar koi insan / Insan ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar koi insan / Insan ke siwa",
+              "en": "Except a human being",
+              "ur": "سوائے کسی انسان کے / مگر بشر",
+              "hi": "सिवाय किसी इंसान के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w20",
+            "arabic": "إِلَّا فِتْنَةً",
+            "arabic_text": "إِلَّا فِتْنَةً",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">فِتْنَةً</span>",
+            "hinglish": "Magar koi aazmaish / Fitne ke siwa",
+            "hinglish_meaning": "Magar koi aazmaish / Fitne ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar koi aazmaish / Fitne ke siwa",
+              "en": "Except a trial / test",
+              "ur": "سوائے کسی آزمائش کے / مگر فتنہ",
+              "hi": "सिवाय किसी आज़माइश के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w21",
+            "arabic": "إِلَّا سَلَامًا",
+            "arabic_text": "إِلَّا سَلَامًا",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">سَلَامًا</span>",
+            "hinglish": "Magar salamti / Salam ke siwa",
+            "hinglish_meaning": "Magar salamti / Salam ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar salamti / Salam ke siwa",
+              "en": "Except peace / greetings of peace",
+              "ur": "سوائے سلامتی کے / مگر سلام",
+              "hi": "सिवाय सलामती के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w22",
+            "arabic": "إِلَّا يَوْمًا",
+            "arabic_text": "إِلَّا يَوْمًا",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">يَوْمًا</span>",
+            "hinglish": "Magar ek din / Din ke siwa",
+            "hinglish_meaning": "Magar ek din / Din ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar ek din / Din ke siwa",
+              "en": "Except a day",
+              "ur": "سوائے ایک دن کے / مگر دن",
+              "hi": "सिवाय एक दिन के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w23",
+            "arabic": "إِلَّا فِرَارًا",
+            "arabic_text": "إِلَّا فِرَارًا",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">فِرَارًا</span>",
+            "hinglish": "Magar bhagna / Bhaagne ke siwa",
+            "hinglish_meaning": "Magar bhagna / Bhaagne ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar bhagna / Bhaagne ke siwa",
+              "en": "Except fleeing / flight",
+              "ur": "سوائے بھاگنے کے / مگر فرار",
+              "hi": "सिवाय भागने के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g8_w24",
+            "arabic": "إِلَّا وَحْيًا",
+            "arabic_text": "إِلَّا وَحْيًا",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">وَحْيًا</span>",
+            "hinglish": "Magar koi wahi / Wahi ke siwa",
+            "hinglish_meaning": "Magar koi wahi / Wahi ke siwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar koi wahi / Wahi ke siwa",
+              "en": "Except revelation",
+              "ur": "سوائے کسی وحی کے / مگر وحی",
+              "hi": "सिवाय किसी वह्य के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l9_r9",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Aap ne pichle darson mein mukhtalif alfaaz jaise (فِي، مِنْ، عَلَى، إِلَى، بِـ، لِـ) aur unke baad aane wale alfaaz se milkar banne wale Qur'anic phrases seekhe hain. Kabhi kabhi (إِلَّا) ke izaafe se unka mafhoom aur wasee' ho jaata hai.",
+        "content": "Aap ne pichle darson mein mukhtalif alfaaz jaise (فِي، مِنْ، عَلَى، إِلَى، بِـ، لِـ) aur unke baad aane wale alfaaz se milkar banne wale Qur'anic phrases seekhe hain. Kabhi kabhi (إِلَّا) ke izaafe se unka mafhoom aur wasee' ho jaata hai.",
+        "hinglish_text": "Aap ne pichle darson mein mukhtalif alfaaz jaise (فِي، مِنْ، عَلَى، إِلَى، بِـ، لِـ) aur unke baad aane wale alfaaz se milkar banne wale Qur'anic phrases seekhe hain. Kabhi kabhi (إِلَّا) ke izaafe se unka mafhoom aur wasee' ho jaata hai."
+      }
+    },
+    {
+      "id": "sec_s2l9_r10",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Darj zail Qur'anic phrases ko samajh kar khud tarjuma karein:",
+        "content": "Darj zail Qur'anic phrases ko samajh kar khud tarjuma karein:",
+        "hinglish_text": "Darj zail Qur'anic phrases ko samajh kar khud tarjuma karein:"
+      }
+    },
+    {
+      "id": "sec_s2l9_g11",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l9_g11_w1",
+            "arabic": "إِلَّا فِي كِتَابٍ",
+            "arabic_text": "إِلَّا فِي كِتَابٍ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">فِي كِتَابٍ</span>",
+            "hinglish": "Magar kitab mein / Kisi kitab mein hi",
+            "hinglish_meaning": "Magar kitab mein / Kisi kitab mein hi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar kitab mein / Kisi kitab mein hi",
+              "en": "Except in a book / record",
+              "ur": "سوائے کتاب میں / مگر کسی کتاب میں",
+              "hi": "सिवाय किताब में / किसी किताब में ही",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g11_w2",
+            "arabic": "إِلَّا فِي ضَلَالٍ",
+            "arabic_text": "إِلَّا فِي ضَلَالٍ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">فِي ضَلَالٍ</span>",
+            "hinglish": "Magar gumrahi mein / Gumrahi ke siwa kuch nahi",
+            "hinglish_meaning": "Magar gumrahi mein / Gumrahi ke siwa kuch nahi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar gumrahi mein / Gumrahi ke siwa kuch nahi",
+              "en": "Except in error / misguidance",
+              "ur": "سوائے گمراہی میں / مگر بھٹکنے میں",
+              "hi": "सिवाय गुमराही में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g11_w3",
+            "arabic": "إِلَّا فِي غُرُورٍ",
+            "arabic_text": "إِلَّا فِي غُرُورٍ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">فِي غُرُورٍ</span>",
+            "hinglish": "Magar dhoke mein / Faraib ke siwa kuch nahi",
+            "hinglish_meaning": "Magar dhoke mein / Faraib ke siwa kuch nahi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar dhoke mein / Faraib ke siwa kuch nahi",
+              "en": "Except in delusion / deception",
+              "ur": "سوائے دھوکے میں / مگر فریب میں",
+              "hi": "सिवाय धोखे में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g11_w4",
+            "arabic": "إِلَّا عَلَى اللَّهِ",
+            "arabic_text": "إِلَّا عَلَى اللَّهِ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">عَلَى اللَّهِ</span>",
+            "hinglish": "Magar Allah par / Siwaaye Allah par",
+            "hinglish_meaning": "Magar Allah par / Siwaaye Allah par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar Allah par / Siwaaye Allah par",
+              "en": "Except upon Allah",
+              "ur": "سوائے اللہ پر / مگر اللہ پر",
+              "hi": "सिवाय अल्लाह पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g11_w5",
+            "arabic": "إِلَّا عَلَىٰ قَوْمٍ",
+            "arabic_text": "إِلَّا عَلَىٰ قَوْمٍ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">عَلَىٰ قَوْمٍ</span>",
+            "hinglish": "Magar kisi qaum par",
+            "hinglish_meaning": "Magar kisi qaum par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar kisi qaum par",
+              "en": "Except upon a people",
+              "ur": "سوائے کسی قوم پر / مگر قوم پر",
+              "hi": "सिवाय किसी क़ौम पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g11_w6",
+            "arabic": "إِلَّا لِلَّهِ",
+            "arabic_text": "إِلَّا لِلَّهِ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">لِلَّهِ</span>",
+            "hinglish": "Magar Allah ke liye",
+            "hinglish_meaning": "Magar Allah ke liye",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar Allah ke liye",
+              "en": "Except for Allah",
+              "ur": "سوائے اللہ کے لیے / مگر اللہ کے واسطے",
+              "hi": "सिवाय अल्लाह के लिए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g11_w7",
+            "arabic": "إِلَّا بِحَبْلٍ",
+            "arabic_text": "إِلَّا بِحَبْلٍ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">بِحَبْلٍ</span>",
+            "hinglish": "Magar kisi rassi (sahare) ke sath",
+            "hinglish_meaning": "Magar kisi rassi (sahare) ke sath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar kisi rassi (sahare) ke sath",
+              "en": "Except by a rope / covenant",
+              "ur": "سوائے کسی رسی کے ساتھ / مگر سہارے کے ساتھ",
+              "hi": "सिवाय किसी रस्सी (सहारे) के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g11_w8",
+            "arabic": "إِلَّا بِالْحَقِّ",
+            "arabic_text": "إِلَّا بِالْحَقِّ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">بِالْحَقِّ</span>",
+            "hinglish": "Magar sachai ke sath / Haq ke siwa nahi",
+            "hinglish_meaning": "Magar sachai ke sath / Haq ke siwa nahi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar sachai ke sath / Haq ke siwa nahi",
+              "en": "Except in truth / by right",
+              "ur": "سوائے حق کے ساتھ / مگر سچائی کے ساتھ",
+              "hi": "सिवाय हक़ (सच्चाई) के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g11_w9",
+            "arabic": "إِلَّا مِنْ ضَرِيعٍ",
+            "arabic_text": "إِلَّا مِنْ ضَرِيعٍ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">مِنْ ضَرِيعٍ</span>",
+            "hinglish": "Magar kantedar jhaadi se",
+            "hinglish_meaning": "Magar kantedar jhaadi se",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar kantedar jhaadi se",
+              "en": "Except from a bitter thorny plant (Zaree')",
+              "ur": "سوائے خاردار جھاڑی سے / مگر زریع سے",
+              "hi": "सिवाय कांटेदार झाड़ी के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g11_w10",
+            "arabic": "إِلَّا لِأَجَلٍ",
+            "arabic_text": "إِلَّا لِأَجَلٍ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">لِأَجَلٍ</span>",
+            "hinglish": "Magar ek tay shuda muddat ke liye",
+            "hinglish_meaning": "Magar ek tay shuda muddat ke liye",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar ek tay shuda muddat ke liye",
+              "en": "Except for a specified term / time",
+              "ur": "سوائے مقررہ مدت کے لیے / مگر معینہ وقت تک",
+              "hi": "सिवाय मुक़र्रर मुद्दत के लिए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g11_w11",
+            "arabic": "إِلَّا بِقَدَرٍ",
+            "arabic_text": "إِلَّا بِقَدَرٍ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">بِقَدَرٍ</span>",
+            "hinglish": "Magar ek andaze ke sath",
+            "hinglish_meaning": "Magar ek andaze ke sath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar ek andaze ke sath",
+              "en": "Except by a determined measure",
+              "ur": "سوائے ایک اندازے کے ساتھ / مگر پیمانے سے",
+              "hi": "सिवाय एक निश्चित अंदाज़े के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_g11_w12",
+            "arabic": "إِلَّا بِسُلْطَانٍ",
+            "arabic_text": "إِلَّا بِسُلْطَانٍ",
+            "arabic_markup": "<span class=\"nonroot\">إِلَّا </span><span class=\"arabic-root\">بِسُلْطَانٍ</span>",
+            "hinglish": "Magar daleel ya quwwat ke sath",
+            "hinglish_meaning": "Magar daleel ya quwwat ke sath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Magar daleel ya quwwat ke sath",
+              "en": "Except with authority / proof",
+              "ur": "سوائے کسی سند یا دلیل کے ساتھ / مگر غلبے سے",
+              "hi": "सिवाय किसी दलील या शक्ति के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l9_g12",
+      "type": "grace_box",
+      "data": {
+        "text": "Alhamdulillah, ab aap darj zail Qur'anic jumlon ko khud samajh aur tarjuma kar sakte hain."
+      }
+    },
+    {
+      "id": "sec_s2l9_s13",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s2l9_s13_s1",
+            "sentence_number": 1,
+            "arabic": "لَا إِلٰهَ إِلَّا اللَّهُ",
+            "arabic_text": "لَا إِلٰهَ إِلَّا اللَّهُ",
+            "arabic_markup": "<span class=\"arabic-root\">لَا إِلٰهَ </span><span class=\"nonroot\">إِلَّا اللَّهُ</span>",
+            "hinglish": "Koi mabood nahi magar Allah",
+            "hinglish_meaning": "Koi mabood nahi magar Allah",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi mabood nahi magar Allah",
+              "en": "There is no deity except Allah",
+              "ur": "نہیں کوئی معبود سوائے اللہ کے",
+              "hi": "कोई माबूद नहीं सिवाय अल्लाह के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_s13_s2",
+            "sentence_number": 2,
+            "arabic": "لَا إِلٰهَ إِلَّا أَنَا",
+            "arabic_text": "لَا إِلٰهَ إِلَّا أَنَا",
+            "arabic_markup": "<span class=\"arabic-root\">لَا إِلٰهَ </span><span class=\"nonroot\">إِلَّا أَنَا</span>",
+            "hinglish": "Koi mabood nahi magar Main",
+            "hinglish_meaning": "Koi mabood nahi magar Main",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi mabood nahi magar Main",
+              "en": "There is no deity except Me",
+              "ur": "نہیں کوئی معبود سوائے میرے",
+              "hi": "कोई माबूद नहीं सिवाय मेरे",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_s13_s3",
+            "sentence_number": 3,
+            "arabic": "لَا إِلٰهَ إِلَّا هُوَ",
+            "arabic_text": "لَا إِلٰهَ إِلَّا هُوَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">إِلٰهَ</span> <span class=\"nonroot\">إِلَّا</span> <span class=\"arabic-root\">هُوَ</span>",
+            "hinglish": "Koi mabood nahi magar Woh",
+            "hinglish_meaning": "Koi mabood nahi magar Woh",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi mabood nahi magar Woh",
+              "en": "There is no deity except Him",
+              "ur": "نہیں کوئی معبود سوائے اس کے",
+              "hi": "कोई माबूद नहीं सिवाय उसके",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_s13_s4",
+            "sentence_number": 4,
+            "arabic": "لَا إِلٰهَ إِلَّا أَنْتَ",
+            "arabic_text": "لَا إِلٰهَ إِلَّا أَنْتَ",
+            "arabic_markup": "<span class=\"arabic-root\">لَا إِلٰهَ </span><span class=\"nonroot\">إِلَّا أَنْتَ</span>",
+            "hinglish": "Koi mabood nahi magar Tu",
+            "hinglish_meaning": "Koi mabood nahi magar Tu",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi mabood nahi magar Tu",
+              "en": "There is no deity except You",
+              "ur": "نہیں کوئی معبود سوائے تیرے",
+              "hi": "कोई माबूद नहीं सिवाय तेरे",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_s13_s5",
+            "sentence_number": 5,
+            "arabic": "لَا قُوَّةَ إِلَّا بِاللَّهِ",
+            "arabic_text": "لَا قُوَّةَ إِلَّا بِاللَّهِ",
+            "arabic_markup": "<span class=\"arabic-root\">لَا قُوَّةَ </span><span class=\"nonroot\">إِلَّا بِاللَّهِ</span>",
+            "hinglish": "Koi taaqat nahi magar Allah ki madad se",
+            "hinglish_meaning": "Koi taaqat nahi magar Allah ki madad se",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi taaqat nahi magar Allah ki madad se",
+              "en": "There is no power except with Allah",
+              "ur": "نہیں کوئی قوت سوائے اللہ کے ساتھ",
+              "hi": "कोई ताक़त नहीं सिवाय अल्लाह की मदद के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l9_r14",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Arabi mein (مَا) ka matlab 'nahin' (not) bhi hota hai aur yeh inkaar (nafi) ke liye istemaal hota hai jab yeh jumle ke shuru mein aaye. Darj zail Qur'anic jumlon ko khud samjhein aur tarjuma karein:",
+        "content": "Arabi mein (مَا) ka matlab 'nahin' (not) bhi hota hai aur yeh inkaar (nafi) ke liye istemaal hota hai jab yeh jumle ke shuru mein aaye. Darj zail Qur'anic jumlon ko khud samjhein aur tarjuma karein:",
+        "hinglish_text": "Arabi mein (مَا) ka matlab 'nahin' (not) bhi hota hai aur yeh inkaar (nafi) ke liye istemaal hota hai jab yeh jumle ke shuru mein aaye. Darj zail Qur'anic jumlon ko khud samjhein aur tarjuma karein:"
+      }
+    },
+    {
+      "id": "sec_s2l9_s15",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s2l9_s15_s1",
+            "sentence_number": 1,
+            "arabic": "مَا هٰذَا إِلَّا بَشَرٌ",
+            "arabic_text": "مَا هٰذَا إِلَّا بَشَرٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَا</span> <span class=\"arabic-root\">هٰذَا</span> <span class=\"nonroot\">إِلَّا</span> <span class=\"arabic-root\">بَشَرٌ</span>",
+            "hinglish": "Yeh nahi hai magar ek insan (Yeh toh bas ek insan hai)",
+            "hinglish_meaning": "Yeh nahi hai magar ek insan (Yeh toh bas ek insan hai)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yeh nahi hai magar ek insan (Yeh toh bas ek insan hai)",
+              "en": "This is not except a human being",
+              "ur": "نہیں ہے یہ مگر ایک انسان",
+              "hi": "यह नहीं है सिवाय एक इंसान (यह बस एक इंसान है)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_s15_s2",
+            "sentence_number": 2,
+            "arabic": "مَا هٰذَا إِلَّا سِحْرٌ",
+            "arabic_text": "مَا هٰذَا إِلَّا سِحْرٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَا</span> <span class=\"arabic-root\">هٰذَا</span> <span class=\"nonroot\">إِلَّا</span> <span class=\"arabic-root\">سِحْرٌ</span>",
+            "hinglish": "Yeh nahi hai magar ek jadoo (Yeh toh bas jadoo hai)",
+            "hinglish_meaning": "Yeh nahi hai magar ek jadoo (Yeh toh bas jadoo hai)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yeh nahi hai magar ek jadoo (Yeh toh bas jadoo hai)",
+              "en": "This is not except magic",
+              "ur": "نہیں ہے یہ مگر ایک جادو",
+              "hi": "यह नहीं है सिवाय एक जादू (यह बस जादू है)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_s15_s3",
+            "sentence_number": 3,
+            "arabic": "مَا هٰذَا إِلَّا إِفْكٌ",
+            "arabic_text": "مَا هٰذَا إِلَّا إِفْكٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَا </span><span class=\"arabic-root\">هٰذَا </span><span class=\"nonroot\">إِلَّا إِفْكٌ</span>",
+            "hinglish": "Yeh nahi hai magar ek jhoot/bohtan",
+            "hinglish_meaning": "Yeh nahi hai magar ek jhoot/bohtan",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yeh nahi hai magar ek jhoot/bohtan",
+              "en": "This is not except a fabrication/lie",
+              "ur": "نہیں ہے یہ مگر ایک بہتان/جھوٹ",
+              "hi": "यह नहीं है सिवाय एक झूठ/ग़लत बात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_s15_s4",
+            "sentence_number": 4,
+            "arabic": "مَا هٰذَا إِلَّا رَجُلٌ",
+            "arabic_text": "مَا هٰذَا إِلَّا رَجُلٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَا</span> <span class=\"arabic-root\">هٰذَا</span> <span class=\"nonroot\">إِلَّا</span> <span class=\"arabic-root\">رَجُلٌ</span>",
+            "hinglish": "Yeh nahi hai magar ek mard",
+            "hinglish_meaning": "Yeh nahi hai magar ek mard",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yeh nahi hai magar ek mard",
+              "en": "This is not except a man",
+              "ur": "نہیں ہے یہ مگر ایک آدمی",
+              "hi": "यह नहीं है सिवाय एक आदमी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_s15_s5",
+            "sentence_number": 5,
+            "arabic": "وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ",
+            "arabic_text": "وَمَا مُحَمَّدٌ إِلَّا رَسُولٌ",
+            "arabic_markup": "<span class=\"nonroot\">وَمَا</span> <span class=\"arabic-root\">مُحَمَّدٌ</span> <span class=\"nonroot\">إِلَّا</span> <span class=\"arabic-root\">رَسُولٌ</span>",
+            "hinglish": "Aur Muhammad ﷺ nahi hain magar ek rasool",
+            "hinglish_meaning": "Aur Muhammad ﷺ nahi hain magar ek rasool",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Muhammad ﷺ nahi hain magar ek rasool",
+              "en": "And Muhammad is not except a messenger",
+              "ur": "اور محمد نہیں ہیں مگر ایک رسول",
+              "hi": "और मुहम्मद ﷺ नहीं हैं सिवाय एक रसूल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_s15_s6",
+            "sentence_number": 6,
+            "arabic": "مَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
+            "arabic_text": "مَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
+            "arabic_markup": "<span class=\"nonroot\">مَا</span> <span class=\"arabic-root\">عَلَى</span> <span class=\"arabic-root\">الرَّسُولِ</span> <span class=\"nonroot\">إِلَّا</span> <span class=\"arabic-root\">الْبَلَاغُ</span>",
+            "hinglish": "Rasool par nahi hai magar paigham pahunchana",
+            "hinglish_meaning": "Rasool par nahi hai magar paigham pahunchana",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Rasool par nahi hai magar paigham pahunchana",
+              "en": "There is not upon the messenger except clear notification",
+              "ur": "نہیں ہے رسول پر ذمہ داری مگر پیغام پہنچانا",
+              "hi": "रसूल पर नहीं है ज़िम्मेदारी सिवाय पैग़ाम पहुंचाने के",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l9_lbl16",
+      "type": "section_label",
+      "data": {
+        "text": "Exercise — Q-1: Darj zail Qur'anic aayat mein se us hissay ko nishanzad (highlight) karein jahan (إِلَّا) aur uske baad aane wala lafz milkar ek murakkab bana rahe hain, jise aap samajh sakte hain:",
+        "title": "Exercise — Q-1: Darj zail Qur'anic aayat mein se us hissay ko nishanzad (highlight) karein jahan (إِلَّا) aur uske baad aane wala lafz milkar ek murakkab bana rahe hain, jise aap samajh sakte hain:",
+        "label": "Exercise — Q-1: Darj zail Qur'anic aayat mein se us hissay ko nishanzad (highlight) karein jahan (إِلَّا) aur uske baad aane wala lafz milkar ek murakkab bana rahe hain, jise aap samajh sakte hain:"
+      }
+    },
+    {
+      "id": "sec_s2l9_v17",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s2l9_v17_s1",
+            "sentence_number": 1,
+            "arabic": "إِنْ أُرِيدُ إِلَّا الْإِصْلَاحَ",
+            "arabic_text": "إِنْ أُرِيدُ إِلَّا الْإِصْلَاحَ",
+            "arabic_markup": "<span class=\"nonroot\">إِنْ</span> <span class=\"arabic-root\">أُرِيدُ</span> <span class=\"arabic-root\">إِلَّا</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">إِصْلَاحَ</span>",
+            "hinglish": "Main islah (sudhaar) ke siwa kuch nahi chahta",
+            "hinglish_meaning": "Main islah (sudhaar) ke siwa kuch nahi chahta",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Main islah (sudhaar) ke siwa kuch nahi chahta",
+              "ur": "Main islah (sudhaar) ke siwa kuch nahi chahta",
+              "en": "Main islah (sudhaar) ke siwa kuch nahi chahta",
+              "hi": "Main islah (sudhaar) ke siwa kuch nahi chahta",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_v17_s2",
+            "sentence_number": 2,
+            "arabic": "لَيْسَ لَهُمْ فِي الْآخِرَةِ إِلَّا النَّارُ",
+            "arabic_text": "لَيْسَ لَهُمْ فِي الْآخِرَةِ إِلَّا النَّارُ",
+            "arabic_markup": "<span class=\"nonroot\">لَيْسَ</span> <span class=\"nonroot\">لَهُمْ</span> <span class=\"nonroot\">فِي</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">آخِرَةِ</span> <span class=\"arabic-root\">إِلَّا</span> <span class=\"arabic-root\">النَّارُ</span>",
+            "hinglish": "Unke liye aakhirat mein aag ke siwa kuch nahi",
+            "hinglish_meaning": "Unke liye aakhirat mein aag ke siwa kuch nahi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Unke liye aakhirat mein aag ke siwa kuch nahi",
+              "ur": "Unke liye aakhirat mein aag ke siwa kuch nahi",
+              "en": "Unke liye aakhirat mein aag ke siwa kuch nahi",
+              "hi": "Unke liye aakhirat mein aag ke siwa kuch nahi",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_v17_s3",
+            "sentence_number": 3,
+            "arabic": "وَمَا تَوْفِيقِي إِلَّا بِاللَّهِ",
+            "arabic_text": "وَمَا تَوْفِيقِي إِلَّا بِاللَّهِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَمَا</span> <span class=\"arabic-root\">تَوْفِيقِي</span> <span class=\"arabic-root\">إِلَّا</span> <span class=\"nonroot\">بِ</span><span class=\"arabic-root\">اللَّهِ</span>",
+            "hinglish": "Aur meri taufiq Allah ke siwa kisi se nahi",
+            "hinglish_meaning": "Aur meri taufiq Allah ke siwa kisi se nahi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur meri taufiq Allah ke siwa kisi se nahi",
+              "ur": "Aur meri taufiq Allah ke siwa kisi se nahi",
+              "en": "Aur meri taufiq Allah ke siwa kisi se nahi",
+              "hi": "Aur meri taufiq Allah ke siwa kisi se nahi",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_v17_s4",
+            "sentence_number": 4,
+            "arabic": "لَا تَعْبُدُونَ إِلَّا اللَّهَ",
+            "arabic_text": "لَا تَعْبُدُونَ إِلَّا اللَّهَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">تَعْبُد</span><span class=\"nonroot\">ُونَ</span> <span class=\"arabic-root\">إِلَّا</span> <span class=\"arabic-root\">اللَّهَ</span>",
+            "hinglish": "Tum Allah ke siwa kisi ki ibadat na karna",
+            "hinglish_meaning": "Tum Allah ke siwa kisi ki ibadat na karna",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tum Allah ke siwa kisi ki ibadat na karna",
+              "ur": "Tum Allah ke siwa kisi ki ibadat na karna",
+              "en": "Tum Allah ke siwa kisi ki ibadat na karna",
+              "hi": "Tum Allah ke siwa kisi ki ibadat na karna",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_v17_s5",
+            "sentence_number": 5,
+            "arabic": "فَهَلْ عَلَى الرُّسُلِ إِلَّا الْبَلَاغُ الْمُبِينُ",
+            "arabic_text": "فَهَلْ عَلَى الرُّسُلِ إِلَّا الْبَلَاغُ الْمُبِينُ",
+            "arabic_markup": "<span class=\"arabic-root\">فَهَلْ</span> <span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الرُّسُلِ</span> <span class=\"arabic-root\">إِلَّا</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">بَلَاغُ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">مُبِينُ</span>",
+            "hinglish": "Toh kya rasoolon par khula paigham pahunchane ke siwa koi zimmedari hai",
+            "hinglish_meaning": "Toh kya rasoolon par khula paigham pahunchane ke siwa koi zimmedari hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh kya rasoolon par khula paigham pahunchane ke siwa koi zimmedari hai",
+              "ur": "Toh kya rasoolon par khula paigham pahunchane ke siwa koi zimmedari hai",
+              "en": "Toh kya rasoolon par khula paigham pahunchane ke siwa koi zimmedari hai",
+              "hi": "Toh kya rasoolon par khula paigham pahunchane ke siwa koi zimmedari hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_v17_s6",
+            "sentence_number": 6,
+            "arabic": "مَا يَأْكُلُونَ فِي بُطُونِهِمْ إِلَّا النَّارَ",
+            "arabic_text": "مَا يَأْكُلُونَ فِي بُطُونِهِمْ إِلَّا النَّارَ",
+            "arabic_markup": "<span class=\"nonroot\">مَا</span> <span class=\"arabic-root\">يَأْكُل</span><span class=\"nonroot\">ُونَ</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">بُطُونِهِمْ</span> <span class=\"arabic-root\">إِلَّا</span> <span class=\"arabic-root\">النَّارَ</span>",
+            "hinglish": "Woh apne peton mein aag ke siwa kuch nahi bharte (khate)",
+            "hinglish_meaning": "Woh apne peton mein aag ke siwa kuch nahi bharte (khate)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh apne peton mein aag ke siwa kuch nahi bharte (khate)",
+              "ur": "Woh apne peton mein aag ke siwa kuch nahi bharte (khate)",
+              "en": "Woh apne peton mein aag ke siwa kuch nahi bharte (khate)",
+              "hi": "Woh apne peton mein aag ke siwa kuch nahi bharte (khate)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_v17_s7",
+            "sentence_number": 7,
+            "arabic": "وَلَا تَقُولُوا عَلَى اللَّهِ إِلَّا الْحَقَّ",
+            "arabic_text": "وَلَا تَقُولُوا عَلَى اللَّهِ إِلَّا الْحَقَّ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَا</span> <span class=\"arabic-root\">تَقُول</span><span class=\"nonroot\">ُوا</span> <span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"arabic-root\">إِلَّا</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">حَقَّ</span>",
+            "hinglish": "Aur Allah par haq (sach) ke siwa kuch na kaho",
+            "hinglish_meaning": "Aur Allah par haq (sach) ke siwa kuch na kaho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah par haq (sach) ke siwa kuch na kaho",
+              "ur": "Aur Allah par haq (sach) ke siwa kuch na kaho",
+              "en": "Aur Allah par haq (sach) ke siwa kuch na kaho",
+              "hi": "Aur Allah par haq (sach) ke siwa kuch na kaho",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_v17_s8",
+            "sentence_number": 8,
+            "arabic": "مَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
+            "arabic_text": "مَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ",
+            "arabic_markup": "<span class=\"nonroot\">مَا</span> <span class=\"arabic-root\">عَلَى</span> <span class=\"arabic-root\">الرَّسُولِ</span> <span class=\"nonroot\">إِلَّا</span> <span class=\"arabic-root\">الْبَلَاغُ</span>",
+            "hinglish": "Rasool par paigham pahunchane ke siwa koi zimma nahi",
+            "hinglish_meaning": "Rasool par paigham pahunchane ke siwa koi zimma nahi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Rasool par paigham pahunchane ke siwa koi zimma nahi",
+              "en": "Not upon the Messenger is [responsibility] except notification",
+              "ur": "رسول کے ذمے صرف پہنچا دینا ہی ہے",
+              "hi": "रसूल के ज़िम्मे सिर्फ़ पहुंचा देना ही है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_v17_s9",
+            "sentence_number": 9,
+            "arabic": "لَا أَقُولُ عَلَى اللَّهِ إِلَّا الْحَقَّ",
+            "arabic_text": "لَا أَقُولُ عَلَى اللَّهِ إِلَّا الْحَقَّ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">أَقُولُ</span> <span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"arabic-root\">إِلَّا</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">حَقَّ</span>",
+            "hinglish": "Main Allah par haq (sach) ke siwa kuch nahi kehta",
+            "hinglish_meaning": "Main Allah par haq (sach) ke siwa kuch nahi kehta",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Main Allah par haq (sach) ke siwa kuch nahi kehta",
+              "ur": "Main Allah par haq (sach) ke siwa kuch nahi kehta",
+              "en": "Main Allah par haq (sach) ke siwa kuch nahi kehta",
+              "hi": "Main Allah par haq (sach) ke siwa kuch nahi kehta",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_v17_s10",
+            "sentence_number": 10,
+            "arabic": "إِنْ أَرَدْنَا إِلَّا الْحُسْنَىٰ",
+            "arabic_text": "إِنْ أَرَدْنَا إِلَّا الْحُسْنَىٰ",
+            "arabic_markup": "<span class=\"nonroot\">إِنْ</span> <span class=\"arabic-root\">أَرَد</span><span class=\"nonroot\">ْنَا</span> <span class=\"arabic-root\">إِلَّا</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">حُسْنَىٰ</span>",
+            "hinglish": "Humne bhalai ke siwa kuch nahi chaha",
+            "hinglish_meaning": "Humne bhalai ke siwa kuch nahi chaha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Humne bhalai ke siwa kuch nahi chaha",
+              "ur": "Humne bhalai ke siwa kuch nahi chaha",
+              "en": "Humne bhalai ke siwa kuch nahi chaha",
+              "hi": "Humne bhalai ke siwa kuch nahi chaha",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_v17_s11",
+            "sentence_number": 11,
+            "arabic": "لَا يَصْلَاهَا إِلَّا الْأَشْقَى",
+            "arabic_text": "لَا يَصْلَاهَا إِلَّا الْأَشْقَى",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">يَصْلَاهَا</span> <span class=\"arabic-root\">إِلَّا</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">أَشْقَى</span>",
+            "hinglish": "Us aag mein bada badbakht hi dakhil hoga",
+            "hinglish_meaning": "Us aag mein bada badbakht hi dakhil hoga",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us aag mein bada badbakht hi dakhil hoga",
+              "ur": "Us aag mein bada badbakht hi dakhil hoga",
+              "en": "Us aag mein bada badbakht hi dakhil hoga",
+              "hi": "Us aag mein bada badbakht hi dakhil hoga",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_v17_s12",
+            "sentence_number": 12,
+            "arabic": "مَا يُمْسِكُهُنَّ إِلَّا الرَّحْمٰنُ",
+            "arabic_text": "مَا يُمْسِكُهُنَّ إِلَّا الرَّحْمٰنُ",
+            "arabic_markup": "<span class=\"nonroot\">مَا</span> <span class=\"arabic-root\">يُمْسِكُهُنَّ</span> <span class=\"arabic-root\">إِلَّا</span> <span class=\"arabic-root\">الرَّحْمٰنُ</span>",
+            "hinglish": "Unhein Rahman ke siwa koi nahi thame hue",
+            "hinglish_meaning": "Unhein Rahman ke siwa koi nahi thame hue",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Unhein Rahman ke siwa koi nahi thame hue",
+              "ur": "Unhein Rahman ke siwa koi nahi thame hue",
+              "en": "Unhein Rahman ke siwa koi nahi thame hue",
+              "hi": "Unhein Rahman ke siwa koi nahi thame hue",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_v17_s13",
+            "sentence_number": 13,
+            "arabic": "وَمَا أَنْسَانِيهُ إِلَّا الشَّيْطَانُ",
+            "arabic_text": "وَمَا أَنْسَانِيهُ إِلَّا الشَّيْطَانُ",
+            "arabic_markup": "<span class=\"arabic-root\">وَمَا</span> <span class=\"arabic-root\">أَنْسَانِيهُ</span> <span class=\"arabic-root\">إِلَّا</span> <span class=\"arabic-root\">الشَّيْطَانُ</span>",
+            "hinglish": "Aur mujhe Shaytan ke siwa kisi ne nahi bhulaya",
+            "hinglish_meaning": "Aur mujhe Shaytan ke siwa kisi ne nahi bhulaya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur mujhe Shaytan ke siwa kisi ne nahi bhulaya",
+              "ur": "Aur mujhe Shaytan ke siwa kisi ne nahi bhulaya",
+              "en": "Aur mujhe Shaytan ke siwa kisi ne nahi bhulaya",
+              "hi": "Aur mujhe Shaytan ke siwa kisi ne nahi bhulaya",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l9_v17_s14",
+            "sentence_number": 14,
+            "arabic": "وَلَمْ يُرِدْ إِلَّا الْحَيَاةَ",
+            "arabic_text": "وَلَمْ يُرِدْ إِلَّا الْحَيَاةَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَمْ</span> <span class=\"arabic-root\">يُرِدْ</span> <span class=\"arabic-root\">إِلَّا</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">حَيَاةَ</span>",
+            "hinglish": "Aur usne (dunya ki) zindagi ke siwa kuch nahi chaha",
+            "hinglish_meaning": "Aur usne (dunya ki) zindagi ke siwa kuch nahi chaha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur usne (dunya ki) zindagi ke siwa kuch nahi chaha",
+              "ur": "Aur usne (dunya ki) zindagi ke siwa kuch nahi chaha",
+              "en": "Aur usne (dunya ki) zindagi ke siwa kuch nahi chaha",
+              "hi": "Aur usne (dunya ki) zindagi ke siwa kuch nahi chaha",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l9_g18",
+      "type": "grace_box",
+      "data": {
+        "text": "Naye alfaaz aate jaayein, unhein yaad karte jaayein, taake aane waale maraahil mein aapke liye aasaani ho."
+      }
+    }
+  ],
+  "page_start": 68
+}

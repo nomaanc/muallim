@@ -1,0 +1,1857 @@
+{
+  "lesson_id": 10,
+  "lesson_key": "S7L10",
+  "stage_id": 7,
+  "title": "Fe'l Maazi se Munsalik Khaas Qur'ani Asaleeb aur Muhaware (10 Capstone Patterns)",
+  "arabic_Focus": "لَوْ شَاءَ اللَّهُ ، لَوْلَا فَضْلُ اللَّهِ ، فَإِنْ تَوَلَّوْا ، ذَٰلِكَ بِمَا ، أَفَمَنْ ... كَمَنْ ، ابْتِغَاءَ ، وَلَوْ أَنَّهُمْ ، إِنَّهُ لَا يُفْلِحُ",
+  "hinglish_Focus": "Agar Allah chahta • Agar Allah ka fazl na hota • Kya toh jo momin ho uski tarah hai jo faasiq ho?",
+  "page_numbers": "160–175",
+  "book_page": 160,
+  "status": "complete",
+  "title_i18n": {
+    "en": "Special Qur'anic Idioms & Rhetorical Styles Connected to Past Tense (10 Capstone Patterns)",
+    "ur": "فعل ماضی سے منسلک خاص قرآنی اسالیب اور محاورے",
+    "hi": "Fe'l Maazi se Munsalik Khaas Qur'ani Asaleeb aur Muhaware"
+  },
+  "sections": [
+    {
+      "id": "sec_hero",
+      "type": "hero_header",
+      "data": {
+        "arabic": "لَوْ شَاءَ اللَّهُ ، لَوْلَا فَضْلُ اللَّهِ ← أَفَمَنْ كَانَ مُؤْمِنًا كَمَنْ كَانَ فَاسِقًا",
+        "hinglish": "Agar Allah chahta • Agar Allah ka fazl na hota → Kya toh jo momin ho uski tarah ho sakta hai jo faasiq ho?",
+        "arabic_word": "لَوْ شَاءَ اللَّهُ ، لَوْلَا فَضْلُ اللَّهِ",
+        "arabic_combined": "لَوْ شَاءَ اللَّهُ ، لَوْلَا فَضْلُ اللَّهِ ← أَفَمَنْ كَانَ مُؤْمِنًا كَمَنْ كَانَ فَاسِقًا",
+        "hinglish_word": "Agar Allah chahta • Agar Allah ka fazl na hota",
+        "hinglish_combined": "Agar Allah chahta • Agar Allah ka fazl na hota → Kya toh jo momin ho uski tarah ho sakta hai jo faasiq ho?",
+        "title_en": "10 Capstone Qur'anic Idioms & Rhetorical Styles Built on Past Tense",
+        "subtitle": "Book Pages 160–175 • لَوْ ، لَوْلَا ، فَإِنْ تَوَلَّوْا ، ذَٰلِكَ بِمَا ، كَذَٰلِكَ ، مَنْ جَاءَ / أُوتِيَ ، أَفَمَنْ...كَمَنْ ، ابْتِغَاءَ ، وَلَوْ أَنَّهُمْ & إِنَّهُ لَا يُفْلِحُ",
+        "transformations": [
+          {
+            "before_ar": "لَوْ شَاءَ اللَّهُ ، لَوْلَا فَضْلُ اللَّهِ",
+            "after_ar": "أَفَمَنْ كَانَ مُؤْمِنًا كَمَنْ كَانَ فَاسِقًا",
+            "before_hi": "Agar Allah chahta • Agar Allah ka fazl na hota",
+            "after_hi": "Kya toh jo momin ho uski tarah ho sakta hai jo faasiq ho?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_intro_table",
+      "type": "intro_table",
+      "data": {
+        "title": "Sabaq 10 ke 10 Khaas Qur'ani Asaleeb aur Muhaware (Pages 160–175)",
+        "headers": [
+          "#",
+          "Qur'ani Usloob / Muhawara",
+          "Hinglish Mafhoom",
+          "Qur'ani Misaal"
+        ],
+        "rows": [
+          [
+            "1–2",
+            "لَوْ ... لَـ / لَوْلَا ... لَـ",
+            "Agar aisa hota toh... / Agar na hota toh...",
+            "لَوْ أَنْزَلْنَا... لَرَأَيْتَهُ / وَلَوْلَا فَضْلُ اللَّهِ"
+          ],
+          [
+            "3–5",
+            "فَإِنْ تَوَلَّوْا / ذَٰلِكَ بِمَا / كَذَٰلِكَ",
+            "Agar woh phir jayein / Yeh is wajah se ke / Isi tarah",
+            "فَإِنْ تَوَلَّوْا فَإِنَّمَا عَلَيْكَ الْبَلَاغُ / ذَٰلِكَ بِمَا قَدَّمَتْ"
+          ],
+          [
+            "6–7",
+            "مَنْ جَاءَ / أُوتِيَ • أَفَمَنْ ... كَمَنْ",
+            "Jo laya / jise diya gaya • Kya woh jo ... uski tarah hai jo",
+            "أَفَمَنْ كَانَ مُؤْمِنًا كَمَنْ كَانَ فَاسِقًا لَا يَسْتَوُونَ"
+          ],
+          [
+            "8–10",
+            "ابْتِغَاءَ / وَلَوْ أَنَّهُمْ / إِنَّهُ لَا يُفْلِحُ",
+            "Talash ki khatir / Kaash woh... / Haqeeqat yeh hai ke...",
+            "ابْتِغَاءَ وَجْهِ رَبِّهِمْ / إِنَّهُ لَا يُفْلِحُ الظَّالِمُونَ"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sec_s7l10_rule1",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u7grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u7grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 7 • LESSON 10</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">10 Khaas Qur'ani Asaleeb aur Muhaware (Pages 160–175)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">لَوْ / لَوْلَا / فَإِنْ / أَفَمَنْ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">أُسْلُوب</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">لَوْلَا فَضْلُ اللَّهِ • أَفَمَنْ كَانَ مُؤْمِنًا كَمَنْ كَانَ فَاسِقًا</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• Fe'l Maazi ki mukhtalif shaklein shart (لَوْ، لَوْلَا، إِنْ، مَنْ), sabab (ذَٰلِكَ بِمَا، ابْتِغَاءَ) aur muwazane (أَفَمَنْ...كَمَنْ) ke asaleeb banati hain.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Is sabaq ke baad Qur'an Majeed ke har safhe ka 75%–80% hissa barah-e-raast Arbi mein samajh aata hai.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 160–175):** Unit 7 ke is aakhri sabaq mein Fe'l Maazi ki tamaam shaklon (`عَمِلَ`، `عَبَدُوا`، `جَعَلْنَا`، `عَبَدْتُمْ`، `عَبَدْتُ`، `عَبَدْتَ`، `عَبَدَتْ`، `أُنْزِلَ`، `أُخْرِجُوا`) se banne wale **10 azeem Qur'ani asaleeb aur muhaware** jama kiye gaye hain: (1) `لَوْ` (agar aisa hota toh...), (2) `لَوْلَا` (agar falaan cheez na hoti toh...), (3) `فَإِنْ تَوَلَّوْا` (shart aur jawab-e-shart), (4) `ذَٰلِكَ بِمَا` (anjaam ki wajah), (5) `كَذَٰلِكَ فَعَلَ / زُيِّنَ` (isi tarah), (6) `مَنْ جَاءَ / فَأَمَّا مَنْ أُوتِيَ` (amal aur jaza), (7) `أَفَمَنْ ... كَمَنْ` (do mutazaad rawaiyyon ka sawaliya muwazana), (8) `ابْتِغَاءَ وَجْهِ اللَّهِ` (raza ki talash mein), (9) `وَلَوْ أَنَّهُمْ آمَنُوا` (hasrat aur kaash ka bayan), aur (10) `إِنَّهُ لَا يُفْلِحُ الظَّالِمُونَ` (attal haqeeqat ka bayan).",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u7grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u7grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 7 • LESSON 10</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">10 Khaas Qur'ani Asaleeb aur Muhaware (Pages 160–175)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">لَوْ / لَوْلَا / فَإِنْ / أَفَمَنْ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">أُسْلُوب</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">لَوْلَا فَضْلُ اللَّهِ • أَفَمَنْ كَانَ مُؤْمِنًا كَمَنْ كَانَ فَاسِقًا</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• Fe'l Maazi ki mukhtalif shaklein shart (لَوْ، لَوْلَا، إِنْ، مَنْ), sabab (ذَٰلِكَ بِمَا، ابْتِغَاءَ) aur muwazane (أَفَمَنْ...كَمَنْ) ke asaleeb banati hain.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Is sabaq ke baad Qur'an Majeed ke har safhe ka 75%–80% hissa barah-e-raast Arbi mein samajh aata hai.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 160–175):** Unit 7 ke is aakhri sabaq mein Fe'l Maazi ki tamaam shaklon (`عَمِلَ`، `عَبَدُوا`، `جَعَلْنَا`، `عَبَدْتُمْ`، `عَبَدْتُ`، `عَبَدْتَ`، `عَبَدَتْ`، `أُنْزِلَ`، `أُخْرِجُوا`) se banne wale **10 azeem Qur'ani asaleeb aur muhaware** jama kiye gaye hain: (1) `لَوْ` (agar aisa hota toh...), (2) `لَوْلَا` (agar falaan cheez na hoti toh...), (3) `فَإِنْ تَوَلَّوْا` (shart aur jawab-e-shart), (4) `ذَٰلِكَ بِمَا` (anjaam ki wajah), (5) `كَذَٰلِكَ فَعَلَ / زُيِّنَ` (isi tarah), (6) `مَنْ جَاءَ / فَأَمَّا مَنْ أُوتِيَ` (amal aur jaza), (7) `أَفَمَنْ ... كَمَنْ` (do mutazaad rawaiyyon ka sawaliya muwazana), (8) `ابْتِغَاءَ وَجْهِ اللَّهِ` (raza ki talash mein), (9) `وَلَوْ أَنَّهُمْ آمَنُوا` (hasrat aur kaash ka bayan), aur (10) `إِنَّهُ لَا يُفْلِحُ الظَّالِمُونَ` (attal haqeeqat ka bayan).",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u7grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u7grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 7 • LESSON 10</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">10 Khaas Qur'ani Asaleeb aur Muhaware (Pages 160–175)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">لَوْ / لَوْلَا / فَإِنْ / أَفَمَنْ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">أُسْلُوب</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">لَوْلَا فَضْلُ اللَّهِ • أَفَمَنْ كَانَ مُؤْمِنًا كَمَنْ كَانَ فَاسِقًا</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• Fe'l Maazi ki mukhtalif shaklein shart (لَوْ، لَوْلَا، إِنْ، مَنْ), sabab (ذَٰلِكَ بِمَا، ابْتِغَاءَ) aur muwazane (أَفَمَنْ...كَمَنْ) ke asaleeb banati hain.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Is sabaq ke baad Qur'an Majeed ke har safhe ka 75%–80% hissa barah-e-raast Arbi mein samajh aata hai.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 160–175):** Unit 7 ke is aakhri sabaq mein Fe'l Maazi ki tamaam shaklon (`عَمِلَ`، `عَبَدُوا`، `جَعَلْنَا`، `عَبَدْتُمْ`، `عَبَدْتُ`، `عَبَدْتَ`، `عَبَدَتْ`، `أُنْزِلَ`، `أُخْرِجُوا`) se banne wale **10 azeem Qur'ani asaleeb aur muhaware** jama kiye gaye hain: (1) `لَوْ` (agar aisa hota toh...), (2) `لَوْلَا` (agar falaan cheez na hoti toh...), (3) `فَإِنْ تَوَلَّوْا` (shart aur jawab-e-shart), (4) `ذَٰلِكَ بِمَا` (anjaam ki wajah), (5) `كَذَٰلِكَ فَعَلَ / زُيِّنَ` (isi tarah), (6) `مَنْ جَاءَ / فَأَمَّا مَنْ أُوتِيَ` (amal aur jaza), (7) `أَفَمَنْ ... كَمَنْ` (do mutazaad rawaiyyon ka sawaliya muwazana), (8) `ابْتِغَاءَ وَجْهِ اللَّهِ` (raza ki talash mein), (9) `وَلَوْ أَنَّهُمْ آمَنُوا` (hasrat aur kaash ka bayan), aur (10) `إِنَّهُ لَا يُفْلِحُ الظَّالِمُونَ` (attal haqeeqat ka bayan)."
+      }
+    },
+    {
+      "id": "sec_s7l10_lbl1",
+      "type": "section_label",
+      "data": {
+        "text": "Section 1 (Pages 160–175): 10 Khaas Qur'ani Asaleeb ke Buniyadi Qat'aat (Right-to-Left Grid)",
+        "title": "Section 1 (Pages 160–175): 10 Khaas Qur'ani Asaleeb ke Buniyadi Qat'aat (Right-to-Left Grid)",
+        "label": "Section 1 (Pages 160–175): 10 Khaas Qur'ani Asaleeb ke Buniyadi Qat'aat (Right-to-Left Grid)"
+      }
+    },
+    {
+      "id": "sec_s7l10_g1",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s7l10_g1_w1",
+            "arabic": "شَاءَ ← لَوْ شَاءَ اللَّهُ",
+            "arabic_text": "شَاءَ ← لَوْ شَاءَ اللَّهُ",
+            "arabic_markup": "<span class=\"arabic-root\">شَاءَ</span> ← <span class=\"nonroot\">لَوْ</span> <span class=\"nonroot\">شَاءَ</span> <span class=\"nonroot\">اللَّهُ</span>",
+            "hinglish": "Usne chaha -> Agar Allah chahta",
+            "hinglish_meaning": "Usne chaha -> Agar Allah chahta",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Usne chaha -> Agar Allah chahta",
+              "ur": "Usne chaha -> Agar Allah chahta",
+              "en": "Usne chaha -> Agar Allah chahta",
+              "hi": "Usne chaha -> Agar Allah chahta",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w2",
+            "arabic": "لَوْ أَنْزَلْنَا ← لَرَأَيْتَهُ",
+            "arabic_text": "لَوْ أَنْزَلْنَا ← لَرَأَيْتَهُ",
+            "arabic_markup": "<span class=\"arabic-root\">لَوْ</span> <span class=\"arabic-root\">أَنْزَل</span><span class=\"nonroot\">ْنَا</span> ← <span class=\"nonroot\">لَرَأَيْتَهُ</span>",
+            "hinglish": "Agar ham utarte -> Toh aap zaroor usey dekhte",
+            "hinglish_meaning": "Agar ham utarte -> Toh aap zaroor usey dekhte",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Agar ham utarte -> Toh aap zaroor usey dekhte",
+              "ur": "Agar ham utarte -> Toh aap zaroor usey dekhte",
+              "en": "Agar ham utarte -> Toh aap zaroor usey dekhte",
+              "hi": "Agar ham utarte -> Toh aap zaroor usey dekhte",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w3",
+            "arabic": "لَوْ كَانُوا عِنْدَنَا ← مَا قُتِلُوا",
+            "arabic_text": "لَوْ كَانُوا عِنْدَنَا ← مَا قُتِلُوا",
+            "arabic_markup": "<span class=\"arabic-root\">لَوْ</span> <span class=\"nonroot\">كَانُوا</span> <span class=\"arabic-root\">عِنْد</span><span class=\"nonroot\">َنَا</span> ← <span class=\"nonroot\">مَا</span> <span class=\"arabic-root\">قُتِل</span><span class=\"nonroot\">ُوا</span>",
+            "hinglish": "Agar woh hamare paas hote -> Toh maare na jaate",
+            "hinglish_meaning": "Agar woh hamare paas hote -> Toh maare na jaate",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Agar woh hamare paas hote -> Toh maare na jaate",
+              "ur": "Agar woh hamare paas hote -> Toh maare na jaate",
+              "en": "Agar woh hamare paas hote -> Toh maare na jaate",
+              "hi": "Agar woh hamare paas hote -> Toh maare na jaate",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w4",
+            "arabic": "لَوْلَا فَضْلُ اللَّهِ ← لَاتَّبَعْتُمْ",
+            "arabic_text": "لَوْلَا فَضْلُ اللَّهِ ← لَاتَّبَعْتُمْ",
+            "arabic_markup": "<span class=\"arabic-root\">لَوْلَا</span> <span class=\"arabic-root\">فَضْلُ</span> <span class=\"arabic-root\">اللَّهِ</span> ← <span class=\"arabic-root\">لَاتَّبَع</span><span class=\"nonroot\">ْتُمْ</span>",
+            "hinglish": "Agar Allah ka fazl na hota -> Toh tum zaroor pairwi karte",
+            "hinglish_meaning": "Agar Allah ka fazl na hota -> Toh tum zaroor pairwi karte",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Agar Allah ka fazl na hota -> Toh tum zaroor pairwi karte",
+              "ur": "Agar Allah ka fazl na hota -> Toh tum zaroor pairwi karte",
+              "en": "Agar Allah ka fazl na hota -> Toh tum zaroor pairwi karte",
+              "hi": "Agar Allah ka fazl na hota -> Toh tum zaroor pairwi karte",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w5",
+            "arabic": "لَوْلَا كَلِمَةٌ سَبَقَتْ ← لَقُضِيَ بَيْنَهُمْ",
+            "arabic_text": "لَوْلَا كَلِمَةٌ سَبَقَتْ ← لَقُضِيَ بَيْنَهُمْ",
+            "arabic_markup": "<span class=\"arabic-root\">لَوْلَا</span> <span class=\"arabic-root\">كَلِمَةٌ</span> <span class=\"arabic-root\">سَبَق</span><span class=\"nonroot\">َتْ</span> ← <span class=\"nonroot\">لَقُضِيَ</span> <span class=\"arabic-root\">بَيْن</span><span class=\"nonroot\">َهُمْ</span>",
+            "hinglish": "Agar ek baat pehle tay na ho chuki hoti -> Toh faisla kar diya jata",
+            "hinglish_meaning": "Agar ek baat pehle tay na ho chuki hoti -> Toh faisla kar diya jata",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Agar ek baat pehle tay na ho chuki hoti -> Toh faisla kar diya jata",
+              "ur": "Agar ek baat pehle tay na ho chuki hoti -> Toh faisla kar diya jata",
+              "en": "Agar ek baat pehle tay na ho chuki hoti -> Toh faisla kar diya jata",
+              "hi": "Agar ek baat pehle tay na ho chuki hoti -> Toh faisla kar diya jata",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w6",
+            "arabic": "تَوَلَّوْا ← فَإِنْ تَوَلَّوْا",
+            "arabic_text": "تَوَلَّوْا ← فَإِنْ تَوَلَّوْا",
+            "arabic_markup": "<span class=\"arabic-root\">تَوَلَّ</span><span class=\"nonroot\">وْا</span> ← <span class=\"nonroot\">فَإِنْ</span> <span class=\"arabic-root\">تَوَلَّ</span><span class=\"nonroot\">وْا</span>",
+            "hinglish": "Woh phir gaye -> Pas agar woh phir jayein",
+            "hinglish_meaning": "Woh phir gaye -> Pas agar woh phir jayein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh phir gaye -> Pas agar woh phir jayein",
+              "ur": "Woh phir gaye -> Pas agar woh phir jayein",
+              "en": "Woh phir gaye -> Pas agar woh phir jayein",
+              "hi": "Woh phir gaye -> Pas agar woh phir jayein",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w7",
+            "arabic": "فَإِنْ أَسْلَمُوا ← فَقَدِ اهْتَدَوْا",
+            "arabic_text": "فَإِنْ أَسْلَمُوا ← فَقَدِ اهْتَدَوْا",
+            "arabic_markup": "<span class=\"arabic-root\">فَإِنْ</span> <span class=\"arabic-root\">أَسْلَم</span><span class=\"nonroot\">ُوا</span> ← <span class=\"nonroot\">فَقَدِ</span> <span class=\"arabic-root\">اهْتَدَ</span><span class=\"nonroot\">وْا</span>",
+            "hinglish": "Pas agar woh Islam le aayein -> Toh unhon ne hidayat pa li",
+            "hinglish_meaning": "Pas agar woh Islam le aayein -> Toh unhon ne hidayat pa li",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Pas agar woh Islam le aayein -> Toh unhon ne hidayat pa li",
+              "ur": "Pas agar woh Islam le aayein -> Toh unhon ne hidayat pa li",
+              "en": "Pas agar woh Islam le aayein -> Toh unhon ne hidayat pa li",
+              "hi": "Pas agar woh Islam le aayein -> Toh unhon ne hidayat pa li",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w8",
+            "arabic": "وَإِنْ تُبْتُمْ ← فَلَكُمْ رُءُوسُ أَمْوَالِكُمْ",
+            "arabic_text": "وَإِنْ تُبْتُمْ ← فَلَكُمْ رُءُوسُ أَمْوَالِكُمْ",
+            "arabic_markup": "<span class=\"arabic-root\">وَإِنْ</span> <span class=\"arabic-root\">تُب</span><span class=\"nonroot\">ْتُمْ</span> ← <span class=\"arabic-root\">فَل</span><span class=\"nonroot\">َكُمْ</span> <span class=\"nonroot\">رُءُوسُ</span> <span class=\"arabic-root\">أَمْوَال</span><span class=\"nonroot\">ِكُمْ</span>",
+            "hinglish": "Aur agar tum tauba kar lo -> Toh tumhare liye asal sarmaya hai",
+            "hinglish_meaning": "Aur agar tum tauba kar lo -> Toh tumhare liye asal sarmaya hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur agar tum tauba kar lo -> Toh tumhare liye asal sarmaya hai",
+              "ur": "Aur agar tum tauba kar lo -> Toh tumhare liye asal sarmaya hai",
+              "en": "Aur agar tum tauba kar lo -> Toh tumhare liye asal sarmaya hai",
+              "hi": "Aur agar tum tauba kar lo -> Toh tumhare liye asal sarmaya hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w9",
+            "arabic": "ذَٰلِكَ بِمَا كَفَرُوا",
+            "arabic_text": "ذَٰلِكَ بِمَا كَفَرُوا",
+            "arabic_markup": "<span class=\"nonroot\">ذَٰلِكَ</span> <span class=\"arabic-root\">بِمَا</span> <span class=\"arabic-root\">كَفَر</span><span class=\"nonroot\">ُوا</span>",
+            "hinglish": "Yeh is wajah se hua kyunki unhon ne kufr kiya",
+            "hinglish_meaning": "Yeh is wajah se hua kyunki unhon ne kufr kiya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yeh is wajah se hua kyunki unhon ne kufr kiya",
+              "ur": "Yeh is wajah se hua kyunki unhon ne kufr kiya",
+              "en": "Yeh is wajah se hua kyunki unhon ne kufr kiya",
+              "hi": "Yeh is wajah se hua kyunki unhon ne kufr kiya",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w10",
+            "arabic": "ذَٰلِكَ بِمَا عَصَوْا",
+            "arabic_text": "ذَٰلِكَ بِمَا عَصَوْا",
+            "arabic_markup": "<span class=\"nonroot\">ذَٰلِكَ</span> <span class=\"arabic-root\">بِمَا</span> <span class=\"arabic-root\">عَصَ</span><span class=\"nonroot\">وْا</span>",
+            "hinglish": "Yeh is wajah se hua kyunki unhon ne naafarmani ki",
+            "hinglish_meaning": "Yeh is wajah se hua kyunki unhon ne naafarmani ki",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yeh is wajah se hua kyunki unhon ne naafarmani ki",
+              "ur": "Yeh is wajah se hua kyunki unhon ne naafarmani ki",
+              "en": "Yeh is wajah se hua kyunki unhon ne naafarmani ki",
+              "hi": "Yeh is wajah se hua kyunki unhon ne naafarmani ki",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w11",
+            "arabic": "ذَٰلِكَ بِمَا قَدَّمَتْ أَيْدِيكُمْ",
+            "arabic_text": "ذَٰلِكَ بِمَا قَدَّمَتْ أَيْدِيكُمْ",
+            "arabic_markup": "<span class=\"nonroot\">ذَٰلِكَ</span> <span class=\"arabic-root\">بِمَا</span> <span class=\"arabic-root\">قَدَّم</span><span class=\"nonroot\">َتْ</span> <span class=\"arabic-root\">أَيْد</span><span class=\"nonroot\">ِيكُمْ</span>",
+            "hinglish": "Yeh is wajah se hai jo tumhare haathon ne aage bheja",
+            "hinglish_meaning": "Yeh is wajah se hai jo tumhare haathon ne aage bheja",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yeh is wajah se hai jo tumhare haathon ne aage bheja",
+              "ur": "Yeh is wajah se hai jo tumhare haathon ne aage bheja",
+              "en": "Yeh is wajah se hai jo tumhare haathon ne aage bheja",
+              "hi": "Yeh is wajah se hai jo tumhare haathon ne aage bheja",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w12",
+            "arabic": "كَذَٰلِكَ فَعَلَ / كَذَٰلِكَ قَالَ",
+            "arabic_text": "كَذَٰلِكَ فَعَلَ / كَذَٰلِكَ قَالَ",
+            "arabic_markup": "<span class=\"arabic-root\">كَذَٰلِكَ</span> <span class=\"arabic-root\">فَعَلَ</span> / <span class=\"arabic-root\">كَذَٰلِكَ</span> <span class=\"arabic-root\">قَالَ</span>",
+            "hinglish": "Isi tarah kiya / Isi tarah kaha",
+            "hinglish_meaning": "Isi tarah kiya / Isi tarah kaha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Isi tarah kiya / Isi tarah kaha",
+              "ur": "Isi tarah kiya / Isi tarah kaha",
+              "en": "Isi tarah kiya / Isi tarah kaha",
+              "hi": "Isi tarah kiya / Isi tarah kaha",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w13",
+            "arabic": "كَذَٰلِكَ زُيِّنَ لِلْكَافِرِينَ",
+            "arabic_text": "كَذَٰلِكَ زُيِّنَ لِلْكَافِرِينَ",
+            "arabic_markup": "<span class=\"arabic-root\">كَذَٰلِكَ</span> <span class=\"arabic-root\">زُيِّنَ</span> <span class=\"arabic-root\">لِلْكَافِر</span><span class=\"nonroot\">ِينَ</span>",
+            "hinglish": "Isi tarah kaafiron ke liye unka amal khush-numa bana diya gaya",
+            "hinglish_meaning": "Isi tarah kaafiron ke liye unka amal khush-numa bana diya gaya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Isi tarah kaafiron ke liye unka amal khush-numa bana diya gaya",
+              "ur": "Isi tarah kaafiron ke liye unka amal khush-numa bana diya gaya",
+              "en": "Isi tarah kaafiron ke liye unka amal khush-numa bana diya gaya",
+              "hi": "Isi tarah kaafiron ke liye unka amal khush-numa bana diya gaya",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w14",
+            "arabic": "كَذَٰلِكَ حَقَّتْ كَلِمَتُ رَبِّكَ",
+            "arabic_text": "كَذَٰلِكَ حَقَّتْ كَلِمَتُ رَبِّكَ",
+            "arabic_markup": "<span class=\"arabic-root\">كَذَٰلِكَ</span> <span class=\"arabic-root\">حَقَّتْ</span> <span class=\"arabic-root\">كَلِمَتُ</span> <span class=\"arabic-root\">رَبِّكَ</span>",
+            "hinglish": "Isi tarah aapke Rabb ki baat saabit ho gayi",
+            "hinglish_meaning": "Isi tarah aapke Rabb ki baat saabit ho gayi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Isi tarah aapke Rabb ki baat saabit ho gayi",
+              "ur": "Isi tarah aapke Rabb ki baat saabit ho gayi",
+              "en": "Isi tarah aapke Rabb ki baat saabit ho gayi",
+              "hi": "Isi tarah aapke Rabb ki baat saabit ho gayi",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w15",
+            "arabic": "مَنْ جَاءَ بِالْحَسَنَةِ",
+            "arabic_text": "مَنْ جَاءَ بِالْحَسَنَةِ",
+            "arabic_markup": "<span class=\"nonroot\">مَنْ</span> <span class=\"arabic-root\">جَاءَ</span> <span class=\"arabic-root\">بِالْحَسَنَةِ</span>",
+            "hinglish": "Jo koi neki lekar aaya",
+            "hinglish_meaning": "Jo koi neki lekar aaya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jo koi neki lekar aaya",
+              "ur": "Jo koi neki lekar aaya",
+              "en": "Jo koi neki lekar aaya",
+              "hi": "Jo koi neki lekar aaya",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w16",
+            "arabic": "فَأَمَّا مَنْ ثَقُلَتْ مَوَازِينُهُ",
+            "arabic_text": "فَأَمَّا مَنْ ثَقُلَتْ مَوَازِينُهُ",
+            "arabic_markup": "<span class=\"arabic-root\">فَأَمَّا</span> <span class=\"nonroot\">مَنْ</span> <span class=\"arabic-root\">ثَقُل</span><span class=\"nonroot\">َتْ</span> <span class=\"arabic-root\">مَوَازِينُهُ</span>",
+            "hinglish": "Pas jiske a'maal ke palle bhaari ho gaye",
+            "hinglish_meaning": "Pas jiske a'maal ke palle bhaari ho gaye",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Pas jiske a'maal ke palle bhaari ho gaye",
+              "ur": "Pas jiske a'maal ke palle bhaari ho gaye",
+              "en": "Pas jiske a'maal ke palle bhaari ho gaye",
+              "hi": "Pas jiske a'maal ke palle bhaari ho gaye",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w17",
+            "arabic": "فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ",
+            "arabic_text": "فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ",
+            "arabic_markup": "<span class=\"arabic-root\">فَأَمَّا</span> <span class=\"nonroot\">مَنْ</span> <span class=\"arabic-root\">أُوتِيَ</span> <span class=\"arabic-root\">كِتَابَهُ</span> <span class=\"arabic-root\">بِيَمِينِهِ</span>",
+            "hinglish": "Pas jise uska naamah-e-a'maal daayein haath mein diya gaya",
+            "hinglish_meaning": "Pas jise uska naamah-e-a'maal daayein haath mein diya gaya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Pas jise uska naamah-e-a'maal daayein haath mein diya gaya",
+              "ur": "Pas jise uska naamah-e-a'maal daayein haath mein diya gaya",
+              "en": "Pas jise uska naamah-e-a'maal daayein haath mein diya gaya",
+              "hi": "Pas jise uska naamah-e-a'maal daayein haath mein diya gaya",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w18",
+            "arabic": "أَفَمَنْ كَانَ مُؤْمِنًا كَمَنْ كَانَ فَاسِقًا",
+            "arabic_text": "أَفَمَنْ كَانَ مُؤْمِنًا كَمَنْ كَانَ فَاسِقًا",
+            "arabic_markup": "<span class=\"nonroot\">أَفَمَنْ</span> <span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">مُؤْمِنًا</span> <span class=\"nonroot\">كَمَنْ</span> <span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">فَاسِقًا</span>",
+            "hinglish": "Kya toh jo momin ho uski tarah hai jo faasiq ho?",
+            "hinglish_meaning": "Kya toh jo momin ho uski tarah hai jo faasiq ho?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kya toh jo momin ho uski tarah hai jo faasiq ho?",
+              "ur": "Kya toh jo momin ho uski tarah hai jo faasiq ho?",
+              "en": "Kya toh jo momin ho uski tarah hai jo faasiq ho?",
+              "hi": "Kya toh jo momin ho uski tarah hai jo faasiq ho?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w19",
+            "arabic": "أَفَمَنْ يَخْلُقُ كَمَنْ لَا يَخْلُقُ",
+            "arabic_text": "أَفَمَنْ يَخْلُقُ كَمَنْ لَا يَخْلُقُ",
+            "arabic_markup": "<span class=\"nonroot\">أَفَمَنْ</span> <span class=\"arabic-root\">يَخْلُقُ</span> <span class=\"arabic-root\">كَمَنْ</span> <span class=\"arabic-root\">لَا</span> <span class=\"arabic-root\">يَخْلُقُ</span>",
+            "hinglish": "Kya toh jo paida karta hai uski tarah hai jo paida nahin karta?",
+            "hinglish_meaning": "Kya toh jo paida karta hai uski tarah hai jo paida nahin karta?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kya toh jo paida karta hai uski tarah hai jo paida nahin karta?",
+              "en": "Then is He who creates like one who does not create?",
+              "ur": "کیا تو جو پیدا کرتا ہے اس شخص کی طرح ہو سکتا ہے جو پیدا نہیں کرتا",
+              "hi": "क्या तो जो पैदा करता है उस शख़्स की तरह हो सकता है जो पैदा नहीं करता",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w20",
+            "arabic": "ابْتِغَاءَ وَجْهِ اللَّهِ",
+            "arabic_text": "ابْتِغَاءَ وَجْهِ اللَّهِ",
+            "arabic_markup": "<span class=\"arabic-root\">ابْتِغَاءَ</span> <span class=\"arabic-root\">وَجْهِ</span> <span class=\"arabic-root\">اللَّهِ</span>",
+            "hinglish": "Allah ki raza talash karne ke liye",
+            "hinglish_meaning": "Allah ki raza talash karne ke liye",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah ki raza talash karne ke liye",
+              "ur": "Allah ki raza talash karne ke liye",
+              "en": "Allah ki raza talash karne ke liye",
+              "hi": "Allah ki raza talash karne ke liye",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w21",
+            "arabic": "ابْتِغَاءَ مَرْضَاتِ اللَّهِ",
+            "arabic_text": "ابْتِغَاءَ مَرْضَاتِ اللَّهِ",
+            "arabic_markup": "<span class=\"arabic-root\">ابْتِغَاءَ</span> <span class=\"arabic-root\">مَرْض</span><span class=\"nonroot\">َاتِ</span> <span class=\"arabic-root\">اللَّهِ</span>",
+            "hinglish": "Allah ki khushnoodi haasil karne ki khatir",
+            "hinglish_meaning": "Allah ki khushnoodi haasil karne ki khatir",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah ki khushnoodi haasil karne ki khatir",
+              "ur": "Allah ki khushnoodi haasil karne ki khatir",
+              "en": "Allah ki khushnoodi haasil karne ki khatir",
+              "hi": "Allah ki khushnoodi haasil karne ki khatir",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w22",
+            "arabic": "وَلَوْ أَنَّهُمْ آمَنُوا وَاتَّقَوْا",
+            "arabic_text": "وَلَوْ أَنَّهُمْ آمَنُوا وَاتَّقَوْا",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَوْ</span> <span class=\"nonroot\">أَنَّهُمْ</span> <span class=\"arabic-root\">آمَن</span><span class=\"nonroot\">ُوا</span> <span class=\"arabic-root\">وَاتَّقَ</span><span class=\"nonroot\">وْا</span>",
+            "hinglish": "Aur agar aisa hota ke woh imaan laate aur taqwa ikhtiyar karte",
+            "hinglish_meaning": "Aur agar aisa hota ke woh imaan laate aur taqwa ikhtiyar karte",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur agar aisa hota ke woh imaan laate aur taqwa ikhtiyar karte",
+              "ur": "Aur agar aisa hota ke woh imaan laate aur taqwa ikhtiyar karte",
+              "en": "Aur agar aisa hota ke woh imaan laate aur taqwa ikhtiyar karte",
+              "hi": "Aur agar aisa hota ke woh imaan laate aur taqwa ikhtiyar karte",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w23",
+            "arabic": "إِنَّهُ لَا يُفْلِحُ الظَّالِمُونَ",
+            "arabic_text": "إِنَّهُ لَا يُفْلِحُ الظَّالِمُونَ",
+            "arabic_markup": "<span class=\"nonroot\">إِنَّهُ</span> <span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">يُفْلِحُ</span> <span class=\"arabic-root\">الظَّالِم</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Haqeeqat yeh hai ke zaalim falah nahin paate",
+            "hinglish_meaning": "Haqeeqat yeh hai ke zaalim falah nahin paate",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Haqeeqat yeh hai ke zaalim falah nahin paate",
+              "ur": "Haqeeqat yeh hai ke zaalim falah nahin paate",
+              "en": "Haqeeqat yeh hai ke zaalim falah nahin paate",
+              "hi": "Haqeeqat yeh hai ke zaalim falah nahin paate",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_g1_w24",
+            "arabic": "فَإِنَّهَا لَا تَعْمَى الْأَبْصَارُ",
+            "arabic_text": "فَإِنَّهَا لَا تَعْمَى الْأَبْصَارُ",
+            "arabic_markup": "<span class=\"arabic-root\">فَإِنَّهَا</span> <span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">تَعْمَى</span> <span class=\"arabic-root\">الْأَبْصَارُ</span>",
+            "hinglish": "Pas haqeeqat yeh hai ke aankhein andhi nahin hotin (balke dil andhe hote hain)",
+            "hinglish_meaning": "Pas haqeeqat yeh hai ke aankhein andhi nahin hotin (balke dil andhe hote hain)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Pas haqeeqat yeh hai ke aankhein andhi nahin hotin (balke dil andhe hote hain)",
+              "ur": "Pas haqeeqat yeh hai ke aankhein andhi nahin hotin (balke dil andhe hote hain)",
+              "en": "Pas haqeeqat yeh hai ke aankhein andhi nahin hotin (balke dil andhe hote hain)",
+              "hi": "Pas haqeeqat yeh hai ke aankhein andhi nahin hotin (balke dil andhe hote hain)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s7l10_lbl2",
+      "type": "section_label",
+      "data": {
+        "text": "Section 2 (Pages 160–166): Usloob 1–3 — لَوْ شَاءَ اللَّهُ ، وَلَوْلَا فَضْلُ اللَّهِ عَلَيْكُمْ aur فَإِنْ تَوَلَّوْا (Shartiyyah wa Fiqhi Aayaat)",
+        "title": "Section 2 (Pages 160–166): Usloob 1–3 — لَوْ شَاءَ اللَّهُ ، وَلَوْلَا فَضْلُ اللَّهِ عَلَيْكُمْ aur فَإِنْ تَوَلَّوْا (Shartiyyah wa Fiqhi Aayaat)",
+        "label": "Section 2 (Pages 160–166): Usloob 1–3 — لَوْ شَاءَ اللَّهُ ، وَلَوْلَا فَضْلُ اللَّهِ عَلَيْكُمْ aur فَإِنْ تَوَلَّوْا (Shartiyyah wa Fiqhi Aayaat)"
+      }
+    },
+    {
+      "id": "sec_s7l10_s1",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s7l10_s1_s1",
+            "sentence_number": 1,
+            "arabic": "قُلْ لَوْ كَانَ الْبَحْرُ مِدَادًا لِكَلِمَاتِ رَبِّي لَنَفِدَ الْبَحْرُ قَبْلَ أَنْ تَنْفَدَ كَلِمَاتُ رَبِّي",
+            "arabic_text": "قُلْ لَوْ كَانَ الْبَحْرُ مِدَادًا لِكَلِمَاتِ رَبِّي لَنَفِدَ الْبَحْرُ قَبْلَ أَنْ تَنْفَدَ كَلِمَاتُ رَبِّي",
+            "arabic_markup": "<span class=\"arabic-root\">قُلْ</span> <span class=\"arabic-root\">لَوْ</span> <span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">الْبَحْرُ</span> <span class=\"arabic-root\">مِدَادًا</span> <span class=\"arabic-root\">لِكَلِم</span><span class=\"nonroot\">َاتِ</span> <span class=\"arabic-root\">رَبِّي</span> <span class=\"arabic-root\">لَنَفِدَ</span> <span class=\"arabic-root\">الْبَحْرُ</span> <span class=\"arabic-root\">قَبْلَ</span> <span class=\"nonroot\">أَنْ</span> <span class=\"arabic-root\">تَنْفَدَ</span> <span class=\"arabic-root\">كَلِم</span><span class=\"nonroot\">َاتُ</span> <span class=\"arabic-root\">رَبِّي</span>",
+            "hinglish": "Keh dijiye: Agar samandar mere Rabb ki baaton (ke likhne) ke liye roshnai ban jaye toh mere Rabb ki baatein khatam hone se pehle samandar khatam ho jayega",
+            "hinglish_meaning": "Keh dijiye: Agar samandar mere Rabb ki baaton (ke likhne) ke liye roshnai ban jaye toh mere Rabb ki baatein khatam hone se pehle samandar khatam ho jayega",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Keh dijiye: Agar samandar mere Rabb ki baaton (ke likhne) ke liye roshnai ban jaye toh mere Rabb ki baatein khatam hone se pehle samandar khatam ho jayega",
+              "ur": "Keh dijiye: Agar samandar mere Rabb ki baaton (ke likhne) ke liye roshnai ban jaye toh mere Rabb ki baatein khatam hone se pehle samandar khatam ho jayega",
+              "en": "Keh dijiye: Agar samandar mere Rabb ki baaton (ke likhne) ke liye roshnai ban jaye toh mere Rabb ki baatein khatam hone se pehle samandar khatam ho jayega",
+              "hi": "Keh dijiye: Agar samandar mere Rabb ki baaton (ke likhne) ke liye roshnai ban jaye toh mere Rabb ki baatein khatam hone se pehle samandar khatam ho jayega",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s1_s2",
+            "sentence_number": 2,
+            "arabic": "وَلَوْ شَاءَ اللَّهُ مَا أَشْرَكُوا وَمَا جَعَلْنَاكَ عَلَيْهِمْ حَفِيظًا",
+            "arabic_text": "وَلَوْ شَاءَ اللَّهُ مَا أَشْرَكُوا وَمَا جَعَلْنَاكَ عَلَيْهِمْ حَفِيظًا",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَوْ</span> <span class=\"arabic-root\">شَاءَ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"nonroot\">مَا</span> <span class=\"arabic-root\">أَشْرَك</span><span class=\"nonroot\">ُوا</span> <span class=\"arabic-root\">وَمَا</span> <span class=\"arabic-root\">جَعَلْنَاكَ</span> <span class=\"nonroot\">عَلَيْهِمْ</span> <span class=\"arabic-root\">حَفِيظًا</span>",
+            "hinglish": "Aur agar Allah chahta toh woh shirk na karte, aur hamne aapko un par nigehbaan nahin banaya",
+            "hinglish_meaning": "Aur agar Allah chahta toh woh shirk na karte, aur hamne aapko un par nigehbaan nahin banaya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur agar Allah chahta toh woh shirk na karte, aur hamne aapko un par nigehbaan nahin banaya",
+              "ur": "Aur agar Allah chahta toh woh shirk na karte, aur hamne aapko un par nigehbaan nahin banaya",
+              "en": "Aur agar Allah chahta toh woh shirk na karte, aur hamne aapko un par nigehbaan nahin banaya",
+              "hi": "Aur agar Allah chahta toh woh shirk na karte, aur hamne aapko un par nigehbaan nahin banaya",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s1_s3",
+            "sentence_number": 3,
+            "arabic": "لَوْ أَنْزَلْنَا هَٰذَا الْقُرْآنَ عَلَىٰ جَبَلٍ لَرَأَيْتَهُ خَاشِعًا مُتَصَدِّعًا مِنْ خَشْيَةِ اللَّهِ",
+            "arabic_text": "لَوْ أَنْزَلْنَا هَٰذَا الْقُرْآنَ عَلَىٰ جَبَلٍ لَرَأَيْتَهُ خَاشِعًا مُتَصَدِّعًا مِنْ خَشْيَةِ اللَّهِ",
+            "arabic_markup": "<span class=\"arabic-root\">لَوْ</span> <span class=\"arabic-root\">أَنْزَل</span><span class=\"nonroot\">ْنَا</span> <span class=\"nonroot\">هَٰذَا</span> <span class=\"arabic-root\">الْقُرْآنَ</span> <span class=\"nonroot\">عَلَىٰ</span> <span class=\"arabic-root\">جَبَلٍ</span> <span class=\"arabic-root\">لَرَأَيْتَهُ</span> <span class=\"arabic-root\">خَاشِعًا</span> <span class=\"arabic-root\">مُتَصَدِّعًا</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">خَشْيَةِ</span> <span class=\"arabic-root\">اللَّهِ</span>",
+            "hinglish": "Agar ham yeh Qur'an kisi pahad par utaar dete toh aap dekhte ke woh Allah ke khauf se jhuk kar phat jata",
+            "hinglish_meaning": "Agar ham yeh Qur'an kisi pahad par utaar dete toh aap dekhte ke woh Allah ke khauf se jhuk kar phat jata",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Agar ham yeh Qur'an kisi pahad par utaar dete toh aap dekhte ke woh Allah ke khauf se jhuk kar phat jata",
+              "ur": "Agar ham yeh Qur'an kisi pahad par utaar dete toh aap dekhte ke woh Allah ke khauf se jhuk kar phat jata",
+              "en": "Agar ham yeh Qur'an kisi pahad par utaar dete toh aap dekhte ke woh Allah ke khauf se jhuk kar phat jata",
+              "hi": "Agar ham yeh Qur'an kisi pahad par utaar dete toh aap dekhte ke woh Allah ke khauf se jhuk kar phat jata",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s1_s4",
+            "sentence_number": 4,
+            "arabic": "وَقَالُوا لَوْ كُنَّا نَسْمَعُ أَوْ نَعْقِلُ مَا كُنَّا فِي أَصْحَابِ السَّعِيرِ",
+            "arabic_text": "وَقَالُوا لَوْ كُنَّا نَسْمَعُ أَوْ نَعْقِلُ مَا كُنَّا فِي أَصْحَابِ السَّعِيرِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَقَال</span><span class=\"nonroot\">ُوا</span> <span class=\"arabic-root\">لَوْ</span> <span class=\"nonroot\">كُنَّا</span> <span class=\"arabic-root\">نَسْمَعُ</span> <span class=\"nonroot\">أَوْ</span> <span class=\"arabic-root\">نَعْقِلُ</span> <span class=\"nonroot\">مَا</span> <span class=\"nonroot\">كُنَّا</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">أَصْحَابِ</span> <span class=\"arabic-root\">السَّعِيرِ</span>",
+            "hinglish": "Aur woh (dozakhi) kahenge: Agar ham sunte ya aqal se kaam lete toh ham bhadakti aag walon mein na hote",
+            "hinglish_meaning": "Aur woh (dozakhi) kahenge: Agar ham sunte ya aqal se kaam lete toh ham bhadakti aag walon mein na hote",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur woh (dozakhi) kahenge: Agar ham sunte ya aqal se kaam lete toh ham bhadakti aag walon mein na hote",
+              "en": "And they will say, 'If only we had been listening or reasoning, we would not be among the companions of the Blaze.'",
+              "ur": "اور انہوں نے کہا اگر ہم سنتے یا سمجھتے تو ہم دوزخ والوں میں نہ ہوتے",
+              "hi": "और उन्होंने कहा अगर हम सुनते या समझते तो हम दोज़ख़ वालों में न होते",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s1_s5",
+            "sentence_number": 5,
+            "arabic": "وَأَنْ لَوِ اسْتَقَامُوا عَلَى الطَّرِيقَةِ لَأَسْقَيْنَاهُمْ مَاءً غَدَقًا",
+            "arabic_text": "وَأَنْ لَوِ اسْتَقَامُوا عَلَى الطَّرِيقَةِ لَأَسْقَيْنَاهُمْ مَاءً غَدَقًا",
+            "arabic_markup": "<span class=\"arabic-root\">وَأَنْ</span> <span class=\"arabic-root\">لَوِ</span> <span class=\"arabic-root\">اسْتَقَام</span><span class=\"nonroot\">ُوا</span> <span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">الطَّرِيقَةِ</span> <span class=\"arabic-root\">لَأَسْقَيْن</span><span class=\"nonroot\">َاهُمْ</span> <span class=\"arabic-root\">مَاءً</span> <span class=\"arabic-root\">غَدَقًا</span>",
+            "hinglish": "Aur agar woh seedhe raaste par saabit-qadam rehte toh ham unhein khoob sairab karne wala paani pilate",
+            "hinglish_meaning": "Aur agar woh seedhe raaste par saabit-qadam rehte toh ham unhein khoob sairab karne wala paani pilate",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur agar woh seedhe raaste par saabit-qadam rehte toh ham unhein khoob sairab karne wala paani pilate",
+              "ur": "Aur agar woh seedhe raaste par saabit-qadam rehte toh ham unhein khoob sairab karne wala paani pilate",
+              "en": "Aur agar woh seedhe raaste par saabit-qadam rehte toh ham unhein khoob sairab karne wala paani pilate",
+              "hi": "Aur agar woh seedhe raaste par saabit-qadam rehte toh ham unhein khoob sairab karne wala paani pilate",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s1_s6",
+            "sentence_number": 6,
+            "arabic": "وَلَوْلَا فَضْلُ اللَّهِ عَلَيْكُمْ وَرَحْمَتُهُ لَاتَّبَعْتُمُ الشَّيْطَانَ إِلَّا قَلِيلًا",
+            "arabic_text": "وَلَوْلَا فَضْلُ اللَّهِ عَلَيْكُمْ وَرَحْمَتُهُ لَاتَّبَعْتُمُ الشَّيْطَانَ إِلَّا قَلِيلًا",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَوْلَا</span> <span class=\"arabic-root\">فَضْلُ</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"nonroot\">عَلَيْكُمْ</span> <span class=\"arabic-root\">وَرَحْمَتُهُ</span> <span class=\"arabic-root\">لَاتَّبَعْتُمُ</span> <span class=\"arabic-root\">الشَّيْطَانَ</span> <span class=\"nonroot\">إِلَّا</span> <span class=\"arabic-root\">قَلِيلًا</span>",
+            "hinglish": "Aur agar tum par Allah ka fazl aur Uski rahmat na hoti toh thode logon ke siwa tum sab Shaytan ke peeche lag jaate",
+            "hinglish_meaning": "Aur agar tum par Allah ka fazl aur Uski rahmat na hoti toh thode logon ke siwa tum sab Shaytan ke peeche lag jaate",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur agar tum par Allah ka fazl aur Uski rahmat na hoti toh thode logon ke siwa tum sab Shaytan ke peeche lag jaate",
+              "en": "And if not for the favor of Allah upon you and His mercy, you would have followed Satan, except for a few.",
+              "ur": "اور اگر تم پر اللہ کا فضل اور اس کی رحمت نہ ہوتی تو تم میں سے چند کے سوا سب شیطان کے پیچھے چل پڑتے",
+              "hi": "और अगर तुम पर अल्लाह का फ़ज़्ल और उसकी रहमत न होती तो तुम में से चंद के सिवा सब शैतान के पीछे चल पड़ते",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s1_s7",
+            "sentence_number": 7,
+            "arabic": "وَلَوْلَا فَضْلُ اللَّهِ عَلَيْكُمْ وَرَحْمَتُهُ مَا زَكَىٰ مِنْكُمْ مِنْ أَحَدٍ أَبَدًا وَلَٰكِنَّ اللَّهَ يُزَكِّي مَنْ يَشَاءُ",
+            "arabic_text": "وَلَوْلَا فَضْلُ اللَّهِ عَلَيْكُمْ وَرَحْمَتُهُ مَا زَكَىٰ مِنْكُمْ مِنْ أَحَدٍ أَبَدًا وَلَٰكِنَّ اللَّهَ يُزَكِّي مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَوْلَا</span> <span class=\"arabic-root\">فَضْلُ</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"nonroot\">عَلَيْكُمْ</span> <span class=\"arabic-root\">وَرَحْمَتُهُ</span> <span class=\"nonroot\">مَا</span> <span class=\"arabic-root\">زَكَىٰ</span> <span class=\"nonroot\">مِنْكُمْ</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">أَحَدٍ</span> <span class=\"arabic-root\">أَبَدًا</span> <span class=\"arabic-root\">وَلَٰكِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"arabic-root\">يُزَكِّي</span> <span class=\"nonroot\">مَنْ</span> <span class=\"arabic-root\">يَشَاءُ</span>",
+            "hinglish": "Aur agar tum par Allah ka fazl aur Uski rahmat na hoti toh tum mein se koi ek bhi kabhi paak na ho sakta, lekin Allah jise chahta hai paak kar deta hai",
+            "hinglish_meaning": "Aur agar tum par Allah ka fazl aur Uski rahmat na hoti toh tum mein se koi ek bhi kabhi paak na ho sakta, lekin Allah jise chahta hai paak kar deta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur agar tum par Allah ka fazl aur Uski rahmat na hoti toh tum mein se koi ek bhi kabhi paak na ho sakta, lekin Allah jise chahta hai paak kar deta hai",
+              "ur": "Aur agar tum par Allah ka fazl aur Uski rahmat na hoti toh tum mein se koi ek bhi kabhi paak na ho sakta, lekin Allah jise chahta hai paak kar deta hai",
+              "en": "Aur agar tum par Allah ka fazl aur Uski rahmat na hoti toh tum mein se koi ek bhi kabhi paak na ho sakta, lekin Allah jise chahta hai paak kar deta hai",
+              "hi": "Aur agar tum par Allah ka fazl aur Uski rahmat na hoti toh tum mein se koi ek bhi kabhi paak na ho sakta, lekin Allah jise chahta hai paak kar deta hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s1_s8",
+            "sentence_number": 8,
+            "arabic": "وَلَوْلَا كَلِمَةٌ سَبَقَتْ مِنْ رَبِّكَ لَقُضِيَ بَيْنَهُمْ فِيمَا فِيهِ يَخْتَلِفُونَ",
+            "arabic_text": "وَلَوْلَا كَلِمَةٌ سَبَقَتْ مِنْ رَبِّكَ لَقُضِيَ بَيْنَهُمْ فِيمَا فِيهِ يَخْتَلِفُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَوْلَا</span> <span class=\"arabic-root\">كَلِمَةٌ</span> <span class=\"arabic-root\">سَبَق</span><span class=\"nonroot\">َتْ</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">رَبِّكَ</span> <span class=\"arabic-root\">لَقُضِيَ</span> <span class=\"arabic-root\">بَيْن</span><span class=\"nonroot\">َهُمْ</span> <span class=\"arabic-root\">فِيمَا</span> <span class=\"nonroot\">فِيهِ</span> <span class=\"arabic-root\">يَخْتَلِف</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Aur agar aapke Rabb ki taraf se ek baat pehle se tay na ho chuki hoti toh jin baaton mein woh ikhtilaaf kar rahe hain unka faisla kar diya jata",
+            "hinglish_meaning": "Aur agar aapke Rabb ki taraf se ek baat pehle se tay na ho chuki hoti toh jin baaton mein woh ikhtilaaf kar rahe hain unka faisla kar diya jata",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur agar aapke Rabb ki taraf se ek baat pehle se tay na ho chuki hoti toh jin baaton mein woh ikhtilaaf kar rahe hain unka faisla kar diya jata",
+              "ur": "Aur agar aapke Rabb ki taraf se ek baat pehle se tay na ho chuki hoti toh jin baaton mein woh ikhtilaaf kar rahe hain unka faisla kar diya jata",
+              "en": "Aur agar aapke Rabb ki taraf se ek baat pehle se tay na ho chuki hoti toh jin baaton mein woh ikhtilaaf kar rahe hain unka faisla kar diya jata",
+              "hi": "Aur agar aapke Rabb ki taraf se ek baat pehle se tay na ho chuki hoti toh jin baaton mein woh ikhtilaaf kar rahe hain unka faisla kar diya jata",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s1_s9",
+            "sentence_number": 9,
+            "arabic": "وَلَوْلَا دَفْعُ اللَّهِ النَّاسَ بَعْضَهُمْ بِبَعْضٍ لَهُدِّمَتْ صَوَامِعُ وَبِيَعٌ وَصَلَوَاتٌ وَمَسَاجِدُ يُذْكَرُ فِيهَا اسْمُ اللَّهِ كَثِيرًا",
+            "arabic_text": "وَلَوْلَا دَفْعُ اللَّهِ النَّاسَ بَعْضَهُمْ بِبَعْضٍ لَهُدِّمَتْ صَوَامِعُ وَبِيَعٌ وَصَلَوَاتٌ وَمَسَاجِدُ يُذْكَرُ فِيهَا اسْمُ اللَّهِ كَثِيرًا",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَوْلَا</span> <span class=\"arabic-root\">دَفْعُ</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"arabic-root\">النَّاسَ</span> <span class=\"arabic-root\">بَعْض</span><span class=\"nonroot\">َهُمْ</span> <span class=\"arabic-root\">بِبَعْضٍ</span> <span class=\"arabic-root\">لَهُدِّم</span><span class=\"nonroot\">َتْ</span> <span class=\"arabic-root\">صَوَامِعُ</span> <span class=\"arabic-root\">وَبِيَعٌ</span> <span class=\"arabic-root\">وَصَلَو</span><span class=\"nonroot\">َاتٌ</span> <span class=\"arabic-root\">وَمَسَاجِدُ</span> <span class=\"arabic-root\">يُذْكَرُ</span> <span class=\"nonroot\">فِيهَا</span> <span class=\"arabic-root\">اسْمُ</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"arabic-root\">كَثِيرًا</span>",
+            "hinglish": "Aur agar Allah logon ko ek doosre ke zariye dafa na karta rehta toh khanqahein, girje, ibadat-gahein aur woh masjidein jin mein Allah ka naam kasrat se liya jata hai gira di jaatin",
+            "hinglish_meaning": "Aur agar Allah logon ko ek doosre ke zariye dafa na karta rehta toh khanqahein, girje, ibadat-gahein aur woh masjidein jin mein Allah ka naam kasrat se liya jata hai gira di jaatin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur agar Allah logon ko ek doosre ke zariye dafa na karta rehta toh khanqahein, girje, ibadat-gahein aur woh masjidein jin mein Allah ka naam kasrat se liya jata hai gira di jaatin",
+              "ur": "Aur agar Allah logon ko ek doosre ke zariye dafa na karta rehta toh khanqahein, girje, ibadat-gahein aur woh masjidein jin mein Allah ka naam kasrat se liya jata hai gira di jaatin",
+              "en": "Aur agar Allah logon ko ek doosre ke zariye dafa na karta rehta toh khanqahein, girje, ibadat-gahein aur woh masjidein jin mein Allah ka naam kasrat se liya jata hai gira di jaatin",
+              "hi": "Aur agar Allah logon ko ek doosre ke zariye dafa na karta rehta toh khanqahein, girje, ibadat-gahein aur woh masjidein jin mein Allah ka naam kasrat se liya jata hai gira di jaatin",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s1_s10",
+            "sentence_number": 10,
+            "arabic": "فَإِنْ آمَنُوا بِمِثْلِ مَا آمَنْتُمْ بِهِ فَقَدِ اهْتَدَوْا وَإِنْ تَوَلَّوْا فَإِنَّمَا هُمْ فِي شِقَاقٍ",
+            "arabic_text": "فَإِنْ آمَنُوا بِمِثْلِ مَا آمَنْتُمْ بِهِ فَقَدِ اهْتَدَوْا وَإِنْ تَوَلَّوْا فَإِنَّمَا هُمْ فِي شِقَاقٍ",
+            "arabic_markup": "<span class=\"arabic-root\">فَإِنْ</span> <span class=\"arabic-root\">آمَن</span><span class=\"nonroot\">ُوا</span> <span class=\"arabic-root\">بِمِثْلِ</span> <span class=\"nonroot\">مَا</span> <span class=\"arabic-root\">آمَن</span><span class=\"nonroot\">ْتُمْ</span> <span class=\"nonroot\">بِهِ</span> <span class=\"arabic-root\">فَقَدِ</span> <span class=\"arabic-root\">اهْتَدَ</span><span class=\"nonroot\">وْا</span> <span class=\"arabic-root\">وَإِنْ</span> <span class=\"arabic-root\">تَوَلَّ</span><span class=\"nonroot\">وْا</span> <span class=\"arabic-root\">فَإِنَّمَا</span> <span class=\"nonroot\">هُمْ</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">شِقَاقٍ</span>",
+            "hinglish": "Pas agar woh usi tarah imaan le aayein jis tarah tum imaan laaye ho toh unhon ne hidayat pa li, aur agar woh phir jayein toh woh sirf zid aur mukhalifat mein hain",
+            "hinglish_meaning": "Pas agar woh usi tarah imaan le aayein jis tarah tum imaan laaye ho toh unhon ne hidayat pa li, aur agar woh phir jayein toh woh sirf zid aur mukhalifat mein hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Pas agar woh usi tarah imaan le aayein jis tarah tum imaan laaye ho toh unhon ne hidayat pa li, aur agar woh phir jayein toh woh sirf zid aur mukhalifat mein hain",
+              "ur": "Pas agar woh usi tarah imaan le aayein jis tarah tum imaan laaye ho toh unhon ne hidayat pa li, aur agar woh phir jayein toh woh sirf zid aur mukhalifat mein hain",
+              "en": "Pas agar woh usi tarah imaan le aayein jis tarah tum imaan laaye ho toh unhon ne hidayat pa li, aur agar woh phir jayein toh woh sirf zid aur mukhalifat mein hain",
+              "hi": "Pas agar woh usi tarah imaan le aayein jis tarah tum imaan laaye ho toh unhon ne hidayat pa li, aur agar woh phir jayein toh woh sirf zid aur mukhalifat mein hain",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s1_s11",
+            "sentence_number": 11,
+            "arabic": "وَإِنْ كَذَّبُوكَ فَقُلْ لِي عَمَلِي وَلَكُمْ عَمَلُكُمْ أَنْتُمْ بَرِيئُونَ مِمَّا أَعْمَلُ وَأَنَا بَرِيءٌ مِمَّا تَعْمَلُونَ",
+            "arabic_text": "وَإِنْ كَذَّبُوكَ فَقُلْ لِي عَمَلِي وَلَكُمْ عَمَلُكُمْ أَنْتُمْ بَرِيئُونَ مِمَّا أَعْمَلُ وَأَنَا بَرِيءٌ مِمَّا تَعْمَلُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَإِنْ</span> <span class=\"arabic-root\">كَذَّبُوكَ</span> <span class=\"arabic-root\">فَقُلْ</span> <span class=\"nonroot\">لِي</span> <span class=\"arabic-root\">عَمَلِي</span> <span class=\"arabic-root\">وَل</span><span class=\"nonroot\">َكُمْ</span> <span class=\"arabic-root\">عَمَل</span><span class=\"nonroot\">ُكُمْ</span> <span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">بَرِيئ</span><span class=\"nonroot\">ُونَ</span> <span class=\"arabic-root\">مِمَّا</span> <span class=\"arabic-root\">أَعْمَلُ</span> <span class=\"arabic-root\">وَأ</span><span class=\"nonroot\">َنَا</span> <span class=\"arabic-root\">بَرِيءٌ</span> <span class=\"arabic-root\">مِمَّا</span> <span class=\"arabic-root\">تَعْمَل</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Aur agar woh aapko jhutlayein toh keh dijiye: Mere liye mera amal hai aur tumhare liye tumhara amal, tum us-se bari ho jo main karta hoon aur main us-se bari hoon jo tum karte ho",
+            "hinglish_meaning": "Aur agar woh aapko jhutlayein toh keh dijiye: Mere liye mera amal hai aur tumhare liye tumhara amal, tum us-se bari ho jo main karta hoon aur main us-se bari hoon jo tum karte ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur agar woh aapko jhutlayein toh keh dijiye: Mere liye mera amal hai aur tumhare liye tumhara amal, tum us-se bari ho jo main karta hoon aur main us-se bari hoon jo tum karte ho",
+              "ur": "Aur agar woh aapko jhutlayein toh keh dijiye: Mere liye mera amal hai aur tumhare liye tumhara amal, tum us-se bari ho jo main karta hoon aur main us-se bari hoon jo tum karte ho",
+              "en": "Aur agar woh aapko jhutlayein toh keh dijiye: Mere liye mera amal hai aur tumhare liye tumhara amal, tum us-se bari ho jo main karta hoon aur main us-se bari hoon jo tum karte ho",
+              "hi": "Aur agar woh aapko jhutlayein toh keh dijiye: Mere liye mera amal hai aur tumhare liye tumhara amal, tum us-se bari ho jo main karta hoon aur main us-se bari hoon jo tum karte ho",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s1_s12",
+            "sentence_number": 12,
+            "arabic": "فَإِنْ أَعْرَضُوا فَمَا أَرْسَلْنَاكَ عَلَيْهِمْ حَفِيظًا إِنْ عَلَيْكَ إِلَّا الْبَلَاغُ",
+            "arabic_text": "فَإِنْ أَعْرَضُوا فَمَا أَرْسَلْنَاكَ عَلَيْهِمْ حَفِيظًا إِنْ عَلَيْكَ إِلَّا الْبَلَاغُ",
+            "arabic_markup": "<span class=\"arabic-root\">فَإِنْ</span> <span class=\"arabic-root\">أَعْرَض</span><span class=\"nonroot\">ُوا</span> <span class=\"arabic-root\">فَمَا</span> <span class=\"arabic-root\">أَرْسَلْنَاكَ</span> <span class=\"nonroot\">عَلَيْهِمْ</span> <span class=\"arabic-root\">حَفِيظًا</span> <span class=\"nonroot\">إِنْ</span> <span class=\"nonroot\">عَلَيْكَ</span> <span class=\"nonroot\">إِلَّا</span> <span class=\"arabic-root\">الْبَلَاغُ</span>",
+            "hinglish": "Pas agar woh munh mod lein toh hamne aapko un par nigehbaan bana kar nahin bheja, aapke zimme toh sirf paigham pahuncha dena hai",
+            "hinglish_meaning": "Pas agar woh munh mod lein toh hamne aapko un par nigehbaan bana kar nahin bheja, aapke zimme toh sirf paigham pahuncha dena hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Pas agar woh munh mod lein toh hamne aapko un par nigehbaan bana kar nahin bheja, aapke zimme toh sirf paigham pahuncha dena hai",
+              "ur": "Pas agar woh munh mod lein toh hamne aapko un par nigehbaan bana kar nahin bheja, aapke zimme toh sirf paigham pahuncha dena hai",
+              "en": "Pas agar woh munh mod lein toh hamne aapko un par nigehbaan bana kar nahin bheja, aapke zimme toh sirf paigham pahuncha dena hai",
+              "hi": "Pas agar woh munh mod lein toh hamne aapko un par nigehbaan bana kar nahin bheja, aapke zimme toh sirf paigham pahuncha dena hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s1_s13",
+            "sentence_number": 13,
+            "arabic": "إِنْ أَحْسَنْتُمْ أَحْسَنْتُمْ لِأَنْفُسِكُمْ وَإِنْ أَسَأْتُمْ فَلَهَا",
+            "arabic_text": "إِنْ أَحْسَنْتُمْ أَحْسَنْتُمْ لِأَنْفُسِكُمْ وَإِنْ أَسَأْتُمْ فَلَهَا",
+            "arabic_markup": "<span class=\"nonroot\">إِنْ</span> <span class=\"arabic-root\">أَحْسَن</span><span class=\"nonroot\">ْتُمْ</span> <span class=\"arabic-root\">أَحْسَن</span><span class=\"nonroot\">ْتُمْ</span> <span class=\"arabic-root\">لِأَنْفُس</span><span class=\"nonroot\">ِكُمْ</span> <span class=\"arabic-root\">وَإِنْ</span> <span class=\"arabic-root\">أَسَأ</span><span class=\"nonroot\">ْتُمْ</span> <span class=\"arabic-root\">فَلَهَا</span>",
+            "hinglish": "Agar tum bhalai karoge toh apni hi jaanon ke liye bhalai karoge, aur agar burai karoge toh woh bhi unhi par hogi",
+            "hinglish_meaning": "Agar tum bhalai karoge toh apni hi jaanon ke liye bhalai karoge, aur agar burai karoge toh woh bhi unhi par hogi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Agar tum bhalai karoge toh apni hi jaanon ke liye bhalai karoge, aur agar burai karoge toh woh bhi unhi par hogi",
+              "ur": "Agar tum bhalai karoge toh apni hi jaanon ke liye bhalai karoge, aur agar burai karoge toh woh bhi unhi par hogi",
+              "en": "Agar tum bhalai karoge toh apni hi jaanon ke liye bhalai karoge, aur agar burai karoge toh woh bhi unhi par hogi",
+              "hi": "Agar tum bhalai karoge toh apni hi jaanon ke liye bhalai karoge, aur agar burai karoge toh woh bhi unhi par hogi",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s1_s14",
+            "sentence_number": 14,
+            "arabic": "وَإِنْ تُبْتُمْ فَلَكُمْ رُءُوسُ أَمْوَالِكُمْ لَا تَظْلِمُونَ وَلَا تُظْلَمُونَ",
+            "arabic_text": "وَإِنْ تُبْتُمْ فَلَكُمْ رُءُوسُ أَمْوَالِكُمْ لَا تَظْلِمُونَ وَلَا تُظْلَمُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَإِنْ</span> <span class=\"arabic-root\">تُب</span><span class=\"nonroot\">ْتُمْ</span> <span class=\"arabic-root\">فَل</span><span class=\"nonroot\">َكُمْ</span> <span class=\"arabic-root\">رُءُوسُ</span> <span class=\"arabic-root\">أَمْوَال</span><span class=\"nonroot\">ِكُمْ</span> <span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">تَظْلِم</span><span class=\"nonroot\">ُونَ</span> <span class=\"arabic-root\">وَلَا</span> <span class=\"arabic-root\">تُظْلَم</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Aur agar tum (sood se) tauba kar lo toh tumhare liye asal sarmaya hai, na tum zulm karo aur na tum par zulm kiya jaye",
+            "hinglish_meaning": "Aur agar tum (sood se) tauba kar lo toh tumhare liye asal sarmaya hai, na tum zulm karo aur na tum par zulm kiya jaye",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur agar tum (sood se) tauba kar lo toh tumhare liye asal sarmaya hai, na tum zulm karo aur na tum par zulm kiya jaye",
+              "ur": "Aur agar tum (sood se) tauba kar lo toh tumhare liye asal sarmaya hai, na tum zulm karo aur na tum par zulm kiya jaye",
+              "en": "Aur agar tum (sood se) tauba kar lo toh tumhare liye asal sarmaya hai, na tum zulm karo aur na tum par zulm kiya jaye",
+              "hi": "Aur agar tum (sood se) tauba kar lo toh tumhare liye asal sarmaya hai, na tum zulm karo aur na tum par zulm kiya jaye",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s1_s15",
+            "sentence_number": 15,
+            "arabic": "وَإِنْ كَانَ ذُو عُسْرَةٍ فَنَظِرَةٌ إِلَىٰ مَيْسَرَةٍ وَأَنْ تَصَدَّقُوا خَيْرٌ لَكُمْ إِنْ كُنْتُمْ تَعْلَمُونَ",
+            "arabic_text": "وَإِنْ كَانَ ذُو عُسْرَةٍ فَنَظِرَةٌ إِلَىٰ مَيْسَرَةٍ وَأَنْ تَصَدَّقُوا خَيْرٌ لَكُمْ إِنْ كُنْتُمْ تَعْلَمُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَإِنْ</span> <span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">ذُو</span> <span class=\"arabic-root\">عُسْرَةٍ</span> <span class=\"arabic-root\">فَنَظِرَةٌ</span> <span class=\"nonroot\">إِلَىٰ</span> <span class=\"arabic-root\">مَيْسَرَةٍ</span> <span class=\"arabic-root\">وَأَنْ</span> <span class=\"arabic-root\">تَصَدَّق</span><span class=\"nonroot\">ُوا</span> <span class=\"arabic-root\">خَيْرٌ</span> <span class=\"nonroot\">لَكُمْ</span> <span class=\"nonroot\">إِنْ</span> <span class=\"nonroot\">كُنْتُمْ</span> <span class=\"arabic-root\">تَعْلَم</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Aur agar qarz-daar tang-dast ho toh aasani hone tak mohlat dena hai, aur agar tum maaf hi kar do toh yeh tumhare haq mein behtar hai agar tum jaante ho",
+            "hinglish_meaning": "Aur agar qarz-daar tang-dast ho toh aasani hone tak mohlat dena hai, aur agar tum maaf hi kar do toh yeh tumhare haq mein behtar hai agar tum jaante ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur agar qarz-daar tang-dast ho toh aasani hone tak mohlat dena hai, aur agar tum maaf hi kar do toh yeh tumhare haq mein behtar hai agar tum jaante ho",
+              "ur": "Aur agar qarz-daar tang-dast ho toh aasani hone tak mohlat dena hai, aur agar tum maaf hi kar do toh yeh tumhare haq mein behtar hai agar tum jaante ho",
+              "en": "Aur agar qarz-daar tang-dast ho toh aasani hone tak mohlat dena hai, aur agar tum maaf hi kar do toh yeh tumhare haq mein behtar hai agar tum jaante ho",
+              "hi": "Aur agar qarz-daar tang-dast ho toh aasani hone tak mohlat dena hai, aur agar tum maaf hi kar do toh yeh tumhare haq mein behtar hai agar tum jaante ho",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s7l10_lbl3",
+      "type": "section_label",
+      "data": {
+        "text": "Section 3 (Pages 167–169): Usloob 4–6 — ذَٰلِكَ بِمَا قَدَّمَتْ ، كَذَٰلِكَ فَعَلَ / زُيِّنَ aur مَنْ جَاءَ / فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ",
+        "title": "Section 3 (Pages 167–169): Usloob 4–6 — ذَٰلِكَ بِمَا قَدَّمَتْ ، كَذَٰلِكَ فَعَلَ / زُيِّنَ aur مَنْ جَاءَ / فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ",
+        "label": "Section 3 (Pages 167–169): Usloob 4–6 — ذَٰلِكَ بِمَا قَدَّمَتْ ، كَذَٰلِكَ فَعَلَ / زُيِّنَ aur مَنْ جَاءَ / فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ"
+      }
+    },
+    {
+      "id": "sec_s7l10_s2",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s7l10_s2_s1",
+            "sentence_number": 1,
+            "arabic": "ذَٰلِكَ بِمَا قَدَّمَتْ أَيْدِيكُمْ وَأَنَّ اللَّهَ لَيْسَ بِظَلَّامٍ لِلْعَبِيدِ",
+            "arabic_text": "ذَٰلِكَ بِمَا قَدَّمَتْ أَيْدِيكُمْ وَأَنَّ اللَّهَ لَيْسَ بِظَلَّامٍ لِلْعَبِيدِ",
+            "arabic_markup": "<span class=\"nonroot\">ذَٰلِكَ</span> <span class=\"arabic-root\">بِمَا</span> <span class=\"arabic-root\">قَدَّم</span><span class=\"nonroot\">َتْ</span> <span class=\"arabic-root\">أَيْد</span><span class=\"nonroot\">ِيكُمْ</span> <span class=\"arabic-root\">وَأَنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"nonroot\">لَيْسَ</span> <span class=\"arabic-root\">بِظَلَّامٍ</span> <span class=\"arabic-root\">لِلْعَبِيدِ</span>",
+            "hinglish": "Yeh uske sabab hai jo tumhare haathon ne aage bheja aur is liye ke Allah apne bandon par zara bhi zulm karne wala nahin",
+            "hinglish_meaning": "Yeh uske sabab hai jo tumhare haathon ne aage bheja aur is liye ke Allah apne bandon par zara bhi zulm karne wala nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yeh uske sabab hai jo tumhare haathon ne aage bheja aur is liye ke Allah apne bandon par zara bhi zulm karne wala nahin",
+              "ur": "Yeh uske sabab hai jo tumhare haathon ne aage bheja aur is liye ke Allah apne bandon par zara bhi zulm karne wala nahin",
+              "en": "Yeh uske sabab hai jo tumhare haathon ne aage bheja aur is liye ke Allah apne bandon par zara bhi zulm karne wala nahin",
+              "hi": "Yeh uske sabab hai jo tumhare haathon ne aage bheja aur is liye ke Allah apne bandon par zara bhi zulm karne wala nahin",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s2_s2",
+            "sentence_number": 2,
+            "arabic": "ذَٰلِكَ جَزَاؤُهُمْ جَهَنَّمُ بِمَا كَفَرُوا وَاتَّخَذُوا آيَاتِي وَرُسُلِي هُزُوًا",
+            "arabic_text": "ذَٰلِكَ جَزَاؤُهُمْ جَهَنَّمُ بِمَا كَفَرُوا وَاتَّخَذُوا آيَاتِي وَرُسُلِي هُزُوًا",
+            "arabic_markup": "<span class=\"nonroot\">ذَٰلِكَ</span> <span class=\"arabic-root\">جَزَاؤ</span><span class=\"nonroot\">ُهُمْ</span> <span class=\"arabic-root\">جَهَنَّمُ</span> <span class=\"arabic-root\">بِمَا</span> <span class=\"arabic-root\">كَفَر</span><span class=\"nonroot\">ُوا</span> <span class=\"arabic-root\">وَاتَّخَذ</span><span class=\"nonroot\">ُوا</span> <span class=\"arabic-root\">آيَاتِي</span> <span class=\"arabic-root\">وَرُسُلِي</span> <span class=\"arabic-root\">هُزُوًا</span>",
+            "hinglish": "Yeh unki saza Jahannam hai is wajah se ke unhon ne kufr kiya aur Meri aayaton aur Mere Rasoolon ko mazaq banaya",
+            "hinglish_meaning": "Yeh unki saza Jahannam hai is wajah se ke unhon ne kufr kiya aur Meri aayaton aur Mere Rasoolon ko mazaq banaya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yeh unki saza Jahannam hai is wajah se ke unhon ne kufr kiya aur Meri aayaton aur Mere Rasoolon ko mazaq banaya",
+              "ur": "Yeh unki saza Jahannam hai is wajah se ke unhon ne kufr kiya aur Meri aayaton aur Mere Rasoolon ko mazaq banaya",
+              "en": "Yeh unki saza Jahannam hai is wajah se ke unhon ne kufr kiya aur Meri aayaton aur Mere Rasoolon ko mazaq banaya",
+              "hi": "Yeh unki saza Jahannam hai is wajah se ke unhon ne kufr kiya aur Meri aayaton aur Mere Rasoolon ko mazaq banaya",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s2_s3",
+            "sentence_number": 3,
+            "arabic": "فَتِلْكَ بُيُوتُهُمْ خَاوِيَةً بِمَا ظَلَمُوا إِنَّ فِي ذَٰلِكَ لَآيَةً لِقَوْمٍ يَعْلَمُونَ",
+            "arabic_text": "فَتِلْكَ بُيُوتُهُمْ خَاوِيَةً بِمَا ظَلَمُوا إِنَّ فِي ذَٰلِكَ لَآيَةً لِقَوْمٍ يَعْلَمُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">فَتِلْكَ</span> <span class=\"arabic-root\">بُيُوت</span><span class=\"nonroot\">ُهُمْ</span> <span class=\"arabic-root\">خَاوِيَةً</span> <span class=\"arabic-root\">بِمَا</span> <span class=\"arabic-root\">ظَلَم</span><span class=\"nonroot\">ُوا</span> <span class=\"nonroot\">إِنَّ</span> <span class=\"nonroot\">فِي</span> <span class=\"nonroot\">ذَٰلِكَ</span> <span class=\"arabic-root\">لَآيَةً</span> <span class=\"arabic-root\">لِقَوْمٍ</span> <span class=\"arabic-root\">يَعْلَم</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Pas yeh unke ghar unke zulm ki wajah se ujde pade hain, beshak ismein jaanne wali qom ke liye badi nishani hai",
+            "hinglish_meaning": "Pas yeh unke ghar unke zulm ki wajah se ujde pade hain, beshak ismein jaanne wali qom ke liye badi nishani hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Pas yeh unke ghar unke zulm ki wajah se ujde pade hain, beshak ismein jaanne wali qom ke liye badi nishani hai",
+              "ur": "Pas yeh unke ghar unke zulm ki wajah se ujde pade hain, beshak ismein jaanne wali qom ke liye badi nishani hai",
+              "en": "Pas yeh unke ghar unke zulm ki wajah se ujde pade hain, beshak ismein jaanne wali qom ke liye badi nishani hai",
+              "hi": "Pas yeh unke ghar unke zulm ki wajah se ujde pade hain, beshak ismein jaanne wali qom ke liye badi nishani hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s2_s4",
+            "sentence_number": 4,
+            "arabic": "لُعِنَ الَّذِينَ كَفَرُوا مِنْ بَنِي إِسْرَائِيلَ عَلَىٰ لِسَانِ دَاوُودَ وَعِيسَى ابْنِ مَرْيَمَ ذَٰلِكَ بِمَا عَصَوْا وَكَانُوا يَعْتَدُونَ",
+            "arabic_text": "لُعِنَ الَّذِينَ كَفَرُوا مِنْ بَنِي إِسْرَائِيلَ عَلَىٰ لِسَانِ دَاوُودَ وَعِيسَى ابْنِ مَرْيَمَ ذَٰلِكَ بِمَا عَصَوْا وَكَانُوا يَعْتَدُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">لُعِنَ</span> <span class=\"nonroot\">الَّذِينَ</span> <span class=\"arabic-root\">كَفَر</span><span class=\"nonroot\">ُوا</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">بَنِي</span> <span class=\"arabic-root\">إِسْرَائِيلَ</span> <span class=\"nonroot\">عَلَىٰ</span> <span class=\"arabic-root\">لِس</span><span class=\"nonroot\">َانِ</span> <span class=\"arabic-root\">دَاوُودَ</span> <span class=\"arabic-root\">وَعِيسَى</span> <span class=\"arabic-root\">ابْنِ</span> <span class=\"arabic-root\">مَرْيَمَ</span> <span class=\"nonroot\">ذَٰلِكَ</span> <span class=\"arabic-root\">بِمَا</span> <span class=\"arabic-root\">عَصَ</span><span class=\"nonroot\">وْا</span> <span class=\"arabic-root\">وَكَان</span><span class=\"nonroot\">ُوا</span> <span class=\"arabic-root\">يَعْتَد</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Bani Isra'eel mein se jinhon ne kufr kiya un par Dawood (A.S.) aur Isa ibn Maryam (A.S.) ki zabaan se la'nat ki gayi, yeh is wajah se hua ke unhon ne naafarmani ki aur woh hadd se badhte thay",
+            "hinglish_meaning": "Bani Isra'eel mein se jinhon ne kufr kiya un par Dawood (A.S.) aur Isa ibn Maryam (A.S.) ki zabaan se la'nat ki gayi, yeh is wajah se hua ke unhon ne naafarmani ki aur woh hadd se badhte thay",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bani Isra'eel mein se jinhon ne kufr kiya un par Dawood (A.S.) aur Isa ibn Maryam (A.S.) ki zabaan se la'nat ki gayi, yeh is wajah se hua ke unhon ne naafarmani ki aur woh hadd se badhte thay",
+              "ur": "Bani Isra'eel mein se jinhon ne kufr kiya un par Dawood (A.S.) aur Isa ibn Maryam (A.S.) ki zabaan se la'nat ki gayi, yeh is wajah se hua ke unhon ne naafarmani ki aur woh hadd se badhte thay",
+              "en": "Bani Isra'eel mein se jinhon ne kufr kiya un par Dawood (A.S.) aur Isa ibn Maryam (A.S.) ki zabaan se la'nat ki gayi, yeh is wajah se hua ke unhon ne naafarmani ki aur woh hadd se badhte thay",
+              "hi": "Bani Isra'eel mein se jinhon ne kufr kiya un par Dawood (A.S.) aur Isa ibn Maryam (A.S.) ki zabaan se la'nat ki gayi, yeh is wajah se hua ke unhon ne naafarmani ki aur woh hadd se badhte thay",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s2_s5",
+            "sentence_number": 5,
+            "arabic": "كَذَٰلِكَ قَالَ الَّذِينَ لَا يَعْلَمُونَ مِثْلَ قَوْلِهِمْ تَشَابَهَتْ قُلُوبُهُمْ",
+            "arabic_text": "كَذَٰلِكَ قَالَ الَّذِينَ لَا يَعْلَمُونَ مِثْلَ قَوْلِهِمْ تَشَابَهَتْ قُلُوبُهُمْ",
+            "arabic_markup": "<span class=\"arabic-root\">كَذَٰلِكَ</span> <span class=\"arabic-root\">قَالَ</span> <span class=\"nonroot\">الَّذِينَ</span> <span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">يَعْلَم</span><span class=\"nonroot\">ُونَ</span> <span class=\"arabic-root\">مِثْلَ</span> <span class=\"arabic-root\">قَوْلِهِمْ</span> <span class=\"arabic-root\">تَشَابَه</span><span class=\"nonroot\">َتْ</span> <span class=\"arabic-root\">قُلُوب</span><span class=\"nonroot\">ُهُمْ</span>",
+            "hinglish": "Isi tarah be-ilm logon ne bhi unhi jaisi baat kahi; unke dil ek jaise ho gaye hain",
+            "hinglish_meaning": "Isi tarah be-ilm logon ne bhi unhi jaisi baat kahi; unke dil ek jaise ho gaye hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Isi tarah be-ilm logon ne bhi unhi jaisi baat kahi; unke dil ek jaise ho gaye hain",
+              "ur": "Isi tarah be-ilm logon ne bhi unhi jaisi baat kahi; unke dil ek jaise ho gaye hain",
+              "en": "Isi tarah be-ilm logon ne bhi unhi jaisi baat kahi; unke dil ek jaise ho gaye hain",
+              "hi": "Isi tarah be-ilm logon ne bhi unhi jaisi baat kahi; unke dil ek jaise ho gaye hain",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s2_s6",
+            "sentence_number": 6,
+            "arabic": "وَكَذَٰلِكَ حَقَّتْ كَلِمَتُ رَبِّكَ عَلَى الَّذِينَ كَفَرُوا أَنَّهُمْ أَصْحَابُ النَّارِ",
+            "arabic_text": "وَكَذَٰلِكَ حَقَّتْ كَلِمَتُ رَبِّكَ عَلَى الَّذِينَ كَفَرُوا أَنَّهُمْ أَصْحَابُ النَّارِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَكَذَٰلِكَ</span> <span class=\"arabic-root\">حَقَّتْ</span> <span class=\"arabic-root\">كَلِمَتُ</span> <span class=\"arabic-root\">رَبِّكَ</span> <span class=\"nonroot\">عَلَى</span> <span class=\"nonroot\">الَّذِينَ</span> <span class=\"arabic-root\">كَفَر</span><span class=\"nonroot\">ُوا</span> <span class=\"nonroot\">أَنَّهُمْ</span> <span class=\"arabic-root\">أَصْحَابُ</span> <span class=\"arabic-root\">النَّارِ</span>",
+            "hinglish": "Aur isi tarah aapke Rabb ka faisla kaafiron par saabit ho gaya ke woh dozakh wale hain",
+            "hinglish_meaning": "Aur isi tarah aapke Rabb ka faisla kaafiron par saabit ho gaya ke woh dozakh wale hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur isi tarah aapke Rabb ka faisla kaafiron par saabit ho gaya ke woh dozakh wale hain",
+              "ur": "Aur isi tarah aapke Rabb ka faisla kaafiron par saabit ho gaya ke woh dozakh wale hain",
+              "en": "Aur isi tarah aapke Rabb ka faisla kaafiron par saabit ho gaya ke woh dozakh wale hain",
+              "hi": "Aur isi tarah aapke Rabb ka faisla kaafiron par saabit ho gaya ke woh dozakh wale hain",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s2_s7",
+            "sentence_number": 7,
+            "arabic": "وَكَذَٰلِكَ أَوْحَيْنَا إِلَيْكَ رُوحًا مِنْ أَمْرِنَا مَا كُنْتَ تَدْرِي مَا الْكِتَابُ وَلَا الْإِيمَانُ وَلَٰكِنْ جَعَلْنَاهُ نُورًا نَهْدِي بِهِ مَنْ نَشَاءُ مِنْ عِبَادِنَا",
+            "arabic_text": "وَكَذَٰلِكَ أَوْحَيْنَا إِلَيْكَ رُوحًا مِنْ أَمْرِنَا مَا كُنْتَ تَدْرِي مَا الْكِتَابُ وَلَا الْإِيمَانُ وَلَٰكِنْ جَعَلْنَاهُ نُورًا نَهْدِي بِهِ مَنْ نَشَاءُ مِنْ عِبَادِنَا",
+            "arabic_markup": "<span class=\"arabic-root\">وَكَذَٰلِكَ</span> <span class=\"arabic-root\">أَوْحَي</span><span class=\"nonroot\">ْنَا</span> <span class=\"nonroot\">إِلَيْكَ</span> <span class=\"arabic-root\">رُوحًا</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">أَمْر</span><span class=\"nonroot\">ِنَا</span> <span class=\"nonroot\">مَا</span> <span class=\"nonroot\">كُنْتَ</span> <span class=\"arabic-root\">تَدْرِي</span> <span class=\"nonroot\">مَا</span> <span class=\"arabic-root\">الْكِتَابُ</span> <span class=\"arabic-root\">وَلَا</span> <span class=\"arabic-root\">الْإِيمَانُ</span> <span class=\"arabic-root\">وَلَٰكِنْ</span> <span class=\"arabic-root\">جَعَلْنَاهُ</span> <span class=\"arabic-root\">نُورًا</span> <span class=\"arabic-root\">نَهْدِي</span> <span class=\"nonroot\">بِهِ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"arabic-root\">نَشَاءُ</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">عِبَاد</span><span class=\"nonroot\">ِنَا</span>",
+            "hinglish": "Aur isi tarah hamne aapki taraf apne hukm se Rooh (Qur'an) ki wahi bheji; aap na jaante thay ke Kitaab kya hai aur imaan kya hai, lekin hamne isko ek noor banaya jiske zariye ham apne bandon mein se jise chahte hain hidayat dete hain",
+            "hinglish_meaning": "Aur isi tarah hamne aapki taraf apne hukm se Rooh (Qur'an) ki wahi bheji; aap na jaante thay ke Kitaab kya hai aur imaan kya hai, lekin hamne isko ek noor banaya jiske zariye ham apne bandon mein se jise chahte hain hidayat dete hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur isi tarah hamne aapki taraf apne hukm se Rooh (Qur'an) ki wahi bheji; aap na jaante thay ke Kitaab kya hai aur imaan kya hai, lekin hamne isko ek noor banaya jiske zariye ham apne bandon mein se jise chahte hain hidayat dete hain",
+              "ur": "Aur isi tarah hamne aapki taraf apne hukm se Rooh (Qur'an) ki wahi bheji; aap na jaante thay ke Kitaab kya hai aur imaan kya hai, lekin hamne isko ek noor banaya jiske zariye ham apne bandon mein se jise chahte hain hidayat dete hain",
+              "en": "Aur isi tarah hamne aapki taraf apne hukm se Rooh (Qur'an) ki wahi bheji; aap na jaante thay ke Kitaab kya hai aur imaan kya hai, lekin hamne isko ek noor banaya jiske zariye ham apne bandon mein se jise chahte hain hidayat dete hain",
+              "hi": "Aur isi tarah hamne aapki taraf apne hukm se Rooh (Qur'an) ki wahi bheji; aap na jaante thay ke Kitaab kya hai aur imaan kya hai, lekin hamne isko ek noor banaya jiske zariye ham apne bandon mein se jise chahte hain hidayat dete hain",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s2_s8",
+            "sentence_number": 8,
+            "arabic": "مَنْ جَاءَ بِالْحَسَنَةِ فَلَهُ عَشْرُ أَمْثَالِهَا وَمَنْ جَاءَ بِالسَّيِّئَةِ فَلَا يُجْزَىٰ إِلَّا مِثْلَهَا وَهُمْ لَا يُظْلَمُونَ",
+            "arabic_text": "مَنْ جَاءَ بِالْحَسَنَةِ فَلَهُ عَشْرُ أَمْثَالِهَا وَمَنْ جَاءَ بِالسَّيِّئَةِ فَلَا يُجْزَىٰ إِلَّا مِثْلَهَا وَهُمْ لَا يُظْلَمُونَ",
+            "arabic_markup": "<span class=\"nonroot\">مَنْ</span> <span class=\"arabic-root\">جَاءَ</span> <span class=\"arabic-root\">بِالْحَسَنَةِ</span> <span class=\"arabic-root\">فَلَهُ</span> <span class=\"arabic-root\">عَشْرُ</span> <span class=\"arabic-root\">أَمْثَالِهَا</span> <span class=\"arabic-root\">وَمَنْ</span> <span class=\"arabic-root\">جَاءَ</span> <span class=\"arabic-root\">بِالسَّيِّئَةِ</span> <span class=\"arabic-root\">فَلَا</span> <span class=\"arabic-root\">يُجْزَىٰ</span> <span class=\"nonroot\">إِلَّا</span> <span class=\"arabic-root\">مِثْلَهَا</span> <span class=\"arabic-root\">وَهُمْ</span> <span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">يُظْلَم</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Jo koi ek neki lekar aayega toh uske liye us jaisi das (10) nekiyan hain, aur jo koi burai lekar aayega toh usey utna hi badla diya jayega aur un par zulm na hoga",
+            "hinglish_meaning": "Jo koi ek neki lekar aayega toh uske liye us jaisi das (10) nekiyan hain, aur jo koi burai lekar aayega toh usey utna hi badla diya jayega aur un par zulm na hoga",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jo koi ek neki lekar aayega toh uske liye us jaisi das (10) nekiyan hain, aur jo koi burai lekar aayega toh usey utna hi badla diya jayega aur un par zulm na hoga",
+              "ur": "Jo koi ek neki lekar aayega toh uske liye us jaisi das (10) nekiyan hain, aur jo koi burai lekar aayega toh usey utna hi badla diya jayega aur un par zulm na hoga",
+              "en": "Jo koi ek neki lekar aayega toh uske liye us jaisi das (10) nekiyan hain, aur jo koi burai lekar aayega toh usey utna hi badla diya jayega aur un par zulm na hoga",
+              "hi": "Jo koi ek neki lekar aayega toh uske liye us jaisi das (10) nekiyan hain, aur jo koi burai lekar aayega toh usey utna hi badla diya jayega aur un par zulm na hoga",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s2_s9",
+            "sentence_number": 9,
+            "arabic": "فَأَمَّا مَنْ ثَقُلَتْ مَوَازِينُهُ فَهُوَ فِي عِيشَةٍ رَاضِيَةٍ وَأَمَّا مَنْ خَفَّتْ مَوَازِينُهُ فَأُمُّهُ هَاوِيَةٌ",
+            "arabic_text": "فَأَمَّا مَنْ ثَقُلَتْ مَوَازِينُهُ فَهُوَ فِي عِيشَةٍ رَاضِيَةٍ وَأَمَّا مَنْ خَفَّتْ مَوَازِينُهُ فَأُمُّهُ هَاوِيَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">فَأَمَّا</span> <span class=\"nonroot\">مَنْ</span> <span class=\"arabic-root\">ثَقُل</span><span class=\"nonroot\">َتْ</span> <span class=\"arabic-root\">مَوَازِينُهُ</span> <span class=\"arabic-root\">فَهُوَ</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">عِيشَةٍ</span> <span class=\"arabic-root\">رَاضِيَةٍ</span> <span class=\"arabic-root\">وَأَمَّا</span> <span class=\"nonroot\">مَنْ</span> <span class=\"arabic-root\">خَفَّتْ</span> <span class=\"arabic-root\">مَوَازِينُهُ</span> <span class=\"arabic-root\">فَأُمُّهُ</span> <span class=\"arabic-root\">هَاوِيَةٌ</span>",
+            "hinglish": "Pas jiske a'maal ke palle bhaari honge toh woh man-pasand aish ki zindagi mein hoga, aur jiske palle halke honge toh uska thikana Haawiyah (dozakh) hoga",
+            "hinglish_meaning": "Pas jiske a'maal ke palle bhaari honge toh woh man-pasand aish ki zindagi mein hoga, aur jiske palle halke honge toh uska thikana Haawiyah (dozakh) hoga",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Pas jiske a'maal ke palle bhaari honge toh woh man-pasand aish ki zindagi mein hoga, aur jiske palle halke honge toh uska thikana Haawiyah (dozakh) hoga",
+              "ur": "Pas jiske a'maal ke palle bhaari honge toh woh man-pasand aish ki zindagi mein hoga, aur jiske palle halke honge toh uska thikana Haawiyah (dozakh) hoga",
+              "en": "Pas jiske a'maal ke palle bhaari honge toh woh man-pasand aish ki zindagi mein hoga, aur jiske palle halke honge toh uska thikana Haawiyah (dozakh) hoga",
+              "hi": "Pas jiske a'maal ke palle bhaari honge toh woh man-pasand aish ki zindagi mein hoga, aur jiske palle halke honge toh uska thikana Haawiyah (dozakh) hoga",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s2_s10",
+            "sentence_number": 10,
+            "arabic": "فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا",
+            "arabic_text": "فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا",
+            "arabic_markup": "<span class=\"arabic-root\">فَأَمَّا</span> <span class=\"arabic-root\">مَنْ</span> <span class=\"nonroot\">أُوتِيَ</span> <span class=\"arabic-root\">كِتَابَهُ</span> <span class=\"arabic-root\">بِيَمِينِهِ</span> <span class=\"arabic-root\">فَسَوْفَ</span> <span class=\"arabic-root\">يُحَاسَبُ</span> <span class=\"arabic-root\">حِسَابًا</span> <span class=\"arabic-root\">يَسِيرًا</span>",
+            "hinglish": "Toh jis kisi ko uska naamah-e-a'maal uske daayein haath mein diya gaya toh anqareeb us se aasan hisab liya jayega",
+            "hinglish_meaning": "Toh jis kisi ko uska naamah-e-a'maal uske daayein haath mein diya gaya toh anqareeb us se aasan hisab liya jayega",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh jis kisi ko uska naamah-e-a'maal uske daayein haath mein diya gaya toh anqareeb us se aasan hisab liya jayega",
+              "en": "Then as for he who is given his record in his right hand, he will be judged with an easy account",
+              "ur": "تو جس کسی کو اس کا نامۂ اعمال اس کے دائیں ہاتھ میں دیا گیا تو عنقریب اس سے آسان حساب لیا جائے گا",
+              "hi": "तो जिस किसी को उसका नाम-ए-आमाल उसके दाएँ हाथ में दिया गया तो अनक़रीब उससे आसान हिसाब लिया जाएगा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s2_s11",
+            "sentence_number": 11,
+            "arabic": "فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَيَقُولُ هَاؤُمُ اقْرَءُوا كِتَابِيَهْ",
+            "arabic_text": "فَأَمَّا مَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَيَقُولُ هَاؤُمُ اقْرَءُوا كِتَابِيَهْ",
+            "arabic_markup": "<span class=\"arabic-root\">فَأَمَّا</span> <span class=\"arabic-root\">مَنْ</span> <span class=\"nonroot\">أُوتِيَ</span> <span class=\"arabic-root\">كِتَابَهُ</span> <span class=\"arabic-root\">بِيَمِينِهِ</span> <span class=\"arabic-root\">فَيَقُولُ</span> <span class=\"arabic-root\">هَاؤُمُ</span> <span class=\"arabic-root\">اقْرَءُوا</span> <span class=\"arabic-root\">كِتَابِيَهْ</span>",
+            "hinglish": "Toh jis kisi ko uska naamah-e-a'maal uske daayein haath mein diya gaya toh woh kahega aao mera naamah-e-a'maal padho",
+            "hinglish_meaning": "Toh jis kisi ko uska naamah-e-a'maal uske daayein haath mein diya gaya toh woh kahega aao mera naamah-e-a'maal padho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh jis kisi ko uska naamah-e-a'maal uske daayein haath mein diya gaya toh woh kahega aao mera naamah-e-a'maal padho",
+              "en": "So as for he who is given his record in his right hand, he will say, 'Here, read my record!'",
+              "ur": "تو جس کسی کو اس کا نامۂ اعمال اس کے دائیں ہاتھ میں دیا گیا تو وہ کہے گا آؤ میرا نامۂ اعمال پڑھو",
+              "hi": "तो जिस किसी को उसका नाम-ए-आमाल उसके दाएँ हाथ में दिया गया तो वह कहेगा आओ मेरा नाम-ए-आमाल पढ़ो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s2_s12",
+            "sentence_number": 12,
+            "arabic": "وَأَمَّا مَنْ أُوتِيَ كِتَابَهُ وَرَاءَ ظَهْرِهِ فَسَوْفَ يَدْعُو ثُبُورًا",
+            "arabic_text": "وَأَمَّا مَنْ أُوتِيَ كِتَابَهُ وَرَاءَ ظَهْرِهِ فَسَوْفَ يَدْعُو ثُبُورًا",
+            "arabic_markup": "<span class=\"arabic-root\">وَأَمَّا</span> <span class=\"arabic-root\">مَنْ</span> <span class=\"nonroot\">أُوتِيَ</span> <span class=\"arabic-root\">كِتَابَهُ</span> <span class=\"arabic-root\">وَرَاءَ</span> <span class=\"arabic-root\">ظَهْرِهِ</span> <span class=\"arabic-root\">فَسَوْفَ</span> <span class=\"arabic-root\">يَدْعُو</span> <span class=\"arabic-root\">ثُبُورًا</span>",
+            "hinglish": "Aur jis kisi ko uska naamah-e-a'maal uski peeth ke peeche se diya gaya toh anqareeb woh maut ko pukarega",
+            "hinglish_meaning": "Aur jis kisi ko uska naamah-e-a'maal uski peeth ke peeche se diya gaya toh anqareeb woh maut ko pukarega",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur jis kisi ko uska naamah-e-a'maal uski peeth ke peeche se diya gaya toh anqareeb woh maut ko pukarega",
+              "en": "But as for he who is given his record behind his back, he will invoke destruction",
+              "ur": "اور جس کسی کو اس کا نامۂ اعمال اس کی پیٹھ کے پیچھے سے دیا گیا تو عنقریب وہ موت کو پکارے گا",
+              "hi": "और जिस किसी को उसका नाम-ए-आमाल उसकी पीठ के पीछे से दिया गया तो अनक़रीब वह मौत को पुकारेगा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s2_s13",
+            "sentence_number": 13,
+            "arabic": "فَمَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَأُولَئِكَ يَقْرَءُونَ كِتَابَهُمْ",
+            "arabic_text": "فَمَنْ أُوتِيَ كِتَابَهُ بِيَمِينِهِ فَأُولَئِكَ يَقْرَءُونَ كِتَابَهُمْ",
+            "arabic_markup": "<span class=\"arabic-root\">فَمَنْ</span> <span class=\"nonroot\">أُوتِيَ</span> <span class=\"arabic-root\">كِتَابَهُ</span> <span class=\"arabic-root\">بِيَمِينِهِ</span> <span class=\"arabic-root\">فَأُولَئِكَ</span> <span class=\"arabic-root\">يَقْرَءُونَ</span> <span class=\"arabic-root\">كِتَابَهُمْ</span>",
+            "hinglish": "Toh jis kisi ko uska naamah-e-a'maal uske daayein haath mein diya gaya toh woh log apna naamah-e-a'maal padhenge",
+            "hinglish_meaning": "Toh jis kisi ko uska naamah-e-a'maal uske daayein haath mein diya gaya toh woh log apna naamah-e-a'maal padhenge",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh jis kisi ko uska naamah-e-a'maal uske daayein haath mein diya gaya toh woh log apna naamah-e-a'maal padhenge",
+              "en": "So whoever is given his record in his right hand - those will read their records",
+              "ur": "تو جس کسی کو اس کا نامۂ اعمال اس کے دائیں ہاتھ میں دیا گیا تو وہ لوگ اپنا نامۂ اعمال پڑھیں گے",
+              "hi": "तो जिस किसी को उसका नाम-ए-आमाल उसके दाएँ हाथ में दिया गया तो वो लोग अपना नाम-ए-आमाल पढ़ेंगे",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s2_s14",
+            "sentence_number": 14,
+            "arabic": "وَمَنْ قُتِلَ مَظْلُومًا فَقَدْ جَعَلْنَا لِوَلِيِّهِ سُلْطَانًا",
+            "arabic_text": "وَمَنْ قُتِلَ مَظْلُومًا فَقَدْ جَعَلْنَا لِوَلِيِّهِ سُلْطَانًا",
+            "arabic_markup": "<span class=\"arabic-root\">وَمَنْ</span> <span class=\"arabic-root\">قُتِلَ</span> <span class=\"arabic-root\">مَظْلُومًا</span> <span class=\"arabic-root\">فَقَدْ</span> <span class=\"arabic-root\">جَعَلْنَا</span> <span class=\"arabic-root\">لِوَلِيِّهِ</span> <span class=\"arabic-root\">سُلْطَانًا</span>",
+            "hinglish": "Aur jo koi na-haq qatl kiya gaya toh yaqeenan hamne uske waris ko ikhtiyar diya hai",
+            "hinglish_meaning": "Aur jo koi na-haq qatl kiya gaya toh yaqeenan hamne uske waris ko ikhtiyar diya hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur jo koi na-haq qatl kiya gaya toh yaqeenan hamne uske waris ko ikhtiyar diya hai",
+              "en": "And whoever is killed unjustly - We have given his heir authority",
+              "ur": "اور جو کوئی ناحق قتل کیا گیا تو یقیناً ہم نے اس کے وارث کو اختیار دیا ہے",
+              "hi": "और जो कोई नाहक़ क़त्ल किया गया तो यक़ीनन हमने उसके वारिस को इख़्तियार दिया है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s2_s15",
+            "sentence_number": 15,
+            "arabic": "فَمَنْ زُحْزِحَ عَنِ النَّارِ وَأُدْخِلَ الْجَنَّةَ فَقَدْ فَازَ",
+            "arabic_text": "فَمَنْ زُحْزِحَ عَنِ النَّارِ وَأُدْخِلَ الْجَنَّةَ فَقَدْ فَازَ",
+            "arabic_markup": "<span class=\"arabic-root\">فَمَنْ</span> <span class=\"arabic-root\">زُحْزِحَ</span> <span class=\"arabic-root\">عَنِ</span> <span class=\"arabic-root\">النَّارِ</span> <span class=\"arabic-root\">وَأُدْخِلَ</span> <span class=\"arabic-root\">الْجَنَّةَ</span> <span class=\"arabic-root\">فَقَدْ</span> <span class=\"arabic-root\">فَازَ</span>",
+            "hinglish": "Toh jo aag se bacha liya gaya aur jannat mein dakhil kar diya gaya toh yaqeenan woh kamyaab ho gaya",
+            "hinglish_meaning": "Toh jo aag se bacha liya gaya aur jannat mein dakhil kar diya gaya toh yaqeenan woh kamyaab ho gaya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh jo aag se bacha liya gaya aur jannat mein dakhil kar diya gaya toh yaqeenan woh kamyaab ho gaya",
+              "en": "So he who is drawn away from the Fire and admitted to Paradise has attained [his desire]",
+              "ur": "تو جو آگ سے بچا لیا گیا اور جنت میں داخل کر دیا گیا تو یقیناً وہ کامیاب ہو گیا",
+              "hi": "तो जो आग से बचा लिया गया और जन्नत में दाख़िल कर दिया गया तो यक़ीनन वह कामयाब हो गया",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s2_s16",
+            "sentence_number": 16,
+            "arabic": "فَمَنْ عُفِيَ لَهُ مِنْ أَخِيهِ شَيْءٌ فَاتِّبَاعٌ بِالْمَعْرُوفِ وَأَدَاءٌ إِلَيْهِ بِإِحْسَانٍ",
+            "arabic_text": "فَمَنْ عُفِيَ لَهُ مِنْ أَخِيهِ شَيْءٌ فَاتِّبَاعٌ بِالْمَعْرُوفِ وَأَدَاءٌ إِلَيْهِ بِإِحْسَانٍ",
+            "arabic_markup": "<span class=\"arabic-root\">فَمَنْ</span> <span class=\"arabic-root\">عُفِيَ</span> <span class=\"arabic-root\">لَهُ</span> <span class=\"arabic-root\">مِنْ</span> <span class=\"arabic-root\">أَخِيهِ</span> <span class=\"arabic-root\">شَيْءٌ</span> <span class=\"arabic-root\">فَاتِّبَاعٌ</span> <span class=\"arabic-root\">بِالْمَعْرُوفِ</span> <span class=\"arabic-root\">وَأَدَاءٌ</span> <span class=\"arabic-root\">إِلَيْهِ</span> <span class=\"arabic-root\">بِإِحْسَانٍ</span>",
+            "hinglish": "Toh jisse uske bhai ki taraf se kuch maaf kar diya jaye toh dastoor ke mutabiq pairwi karni chahiye aur bhale tarike se usse adaigi karni chahiye",
+            "hinglish_meaning": "Toh jisse uske bhai ki taraf se kuch maaf kar diya jaye toh dastoor ke mutabiq pairwi karni chahiye aur bhale tarike se usse adaigi karni chahiye",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh jisse uske bhai ki taraf se kuch maaf kar diya jaye toh dastoor ke mutabiq pairwi karni chahiye aur bhale tarike se usse adaigi karni chahiye",
+              "en": "Then whoever overlooks from his brother [i.e., the killer] anything, then there should be a suitable follow-up and payment to him with good conduct",
+              "ur": "تو جس کو اس کے بھائی کی طرف سے کچھ معاف کر دیا جائے تو دستور کے مطابق پیروی کرنی چاہیے اور اچھے طریقے سے اسے ادا کرنا چاہیے",
+              "hi": "तो जिसको उसके भाई की तरफ़ से कुछ माफ कर दिया जाए तो दस्तूर के मुताबिक़ पैरवी करनी चाहिए और अच्छे तरीक़े से उसे अदा करना चाहिए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s2_s17",
+            "sentence_number": 17,
+            "arabic": "وَمَنْ جَاءَ بِالسَّيِّئَةِ فَكُبَّتْ وُجُوهُهُمْ فِي النَّارِ",
+            "arabic_text": "وَمَنْ جَاءَ بِالسَّيِّئَةِ فَكُبَّتْ وُجُوهُهُمْ فِي النَّارِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَمَنْ</span> <span class=\"arabic-root\">جَاءَ</span> <span class=\"arabic-root\">بِالسَّيِّئَةِ</span> <span class=\"arabic-root\">فَكُبَّتْ</span> <span class=\"arabic-root\">وُجُوهُهُمْ</span> <span class=\"arabic-root\">فِي</span> <span class=\"arabic-root\">النَّارِ</span>",
+            "hinglish": "Aur jo burai lekar aayega toh unke chehre aundhe daal diye jayenge aag mein",
+            "hinglish_meaning": "Aur jo burai lekar aayega toh unke chehre aundhe daal diye jayenge aag mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur jo burai lekar aayega toh unke chehre aundhe daal diye jayenge aag mein",
+              "en": "And whoever comes with an evil deed - their faces will be overturned into the Fire",
+              "ur": "اور جو برائی لے کر آئے گا تو ان کے چہرے اوندھے ڈال دیے جائیں گے آگ میں",
+              "hi": "और जो बुराई लेकर आएगा तो उनके चेहरे औंधे डाल दिए जाएँगे आग में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s2_s18",
+            "sentence_number": 18,
+            "arabic": "وَمَنْ يَعْتَصِمْ بِاللَّهِ فَقَدْ هُدِيَ إِلَى صِرَاطٍ مُسْتَقِيمٍ",
+            "arabic_text": "وَمَنْ يَعْتَصِمْ بِاللَّهِ فَقَدْ هُدِيَ إِلَى صِرَاطٍ مُسْتَقِيمٍ",
+            "arabic_markup": "<span class=\"arabic-root\">وَمَنْ</span> <span class=\"arabic-root\">يَعْتَصِمْ</span> <span class=\"arabic-root\">بِاللَّهِ</span> <span class=\"arabic-root\">فَقَدْ</span> <span class=\"arabic-root\">هُدِيَ</span> <span class=\"arabic-root\">إِلَى</span> <span class=\"arabic-root\">صِرَاطٍ</span> <span class=\"arabic-root\">مُسْتَقِيمٍ</span>",
+            "hinglish": "Aur jo Allah ko mazboot pakad le toh yaqeenan usse hidayat di gayi seedhe raaste ki taraf",
+            "hinglish_meaning": "Aur jo Allah ko mazboot pakad le toh yaqeenan usse hidayat di gayi seedhe raaste ki taraf",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur jo Allah ko mazboot pakad le toh yaqeenan usse hidayat di gayi seedhe raaste ki taraf",
+              "en": "And whoever holds firmly to Allah has [indeed] been guided to a straight path",
+              "ur": "اور جو اللہ کو مضبوط پکڑ لے تو یقیناً اسے ہدایت دی گئی سیدھے راستے کی طرف",
+              "hi": "और जो अल्लाह को मज़बूत पकड़ ले तो यक़ीनन उसे हिदायत दी गई सीधे रास्ते की तरफ़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s2_s19",
+            "sentence_number": 19,
+            "arabic": "مَنْ كَفَرَ بِاللَّهِ مِنْ بَعْدِ إِيمَانِهِ إِلَّا مَنْ أُكْرِهَ وَقَلْبُهُ مُطْمَئِنٌّ بِالْإِيمَانِ وَلَكِنْ مَنْ شَرَحَ بِالْكُفْرِ صَدْرًا فَعَلَيْهِمْ غَضَبٌ مِنَ اللَّهِ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            "arabic_text": "مَنْ كَفَرَ بِاللَّهِ مِنْ بَعْدِ إِيمَانِهِ إِلَّا مَنْ أُكْرِهَ وَقَلْبُهُ مُطْمَئِنٌّ بِالْإِيمَانِ وَلَكِنْ مَنْ شَرَحَ بِالْكُفْرِ صَدْرًا فَعَلَيْهِمْ غَضَبٌ مِنَ اللَّهِ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+            "arabic_markup": "<span class=\"arabic-root\">مَنْ</span> <span class=\"arabic-root\">كَفَرَ</span> <span class=\"arabic-root\">بِاللَّهِ</span> <span class=\"arabic-root\">مِنْ</span> <span class=\"arabic-root\">بَعْدِ</span> <span class=\"arabic-root\">إِيمَانِهِ</span> <span class=\"arabic-root\">إِلَّا</span> <span class=\"arabic-root\">مَنْ</span> <span class=\"arabic-root\">أُكْرِهَ</span> <span class=\"arabic-root\">وَقَلْبُهُ</span> <span class=\"arabic-root\">مُطْمَئِنٌّ</span> <span class=\"arabic-root\">بِالْإِيمَانِ</span> <span class=\"arabic-root\">وَلَكِنْ</span> <span class=\"arabic-root\">مَنْ</span> <span class=\"arabic-root\">شَرَحَ</span> <span class=\"arabic-root\">بِالْكُفْرِ</span> <span class=\"arabic-root\">صَدْرًا</span> <span class=\"arabic-root\">فَعَلَيْهِمْ</span> <span class=\"arabic-root\">غَضَبٌ</span> <span class=\"arabic-root\">مِنَ</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"arabic-root\">وَلَهُمْ</span> <span class=\"arabic-root\">عَذَابٌ</span> <span class=\"arabic-root\">عَظِيمٌ</span>",
+            "hinglish": "Jo Allah ke saath kufr kare apne imaan ke baad magar woh jis par zabardasti ki gayi ho aur uska dil imaan par mutma'in ho lekin jo seena khol kar kufr kare toh un par Allah ka ghazab hai aur unke liye bada azab hai",
+            "hinglish_meaning": "Jo Allah ke saath kufr kare apne imaan ke baad magar woh jis par zabardasti ki gayi ho aur uska dil imaan par mutma'in ho lekin jo seena khol kar kufr kare toh un par Allah ka ghazab hai aur unke liye bada azab hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jo Allah ke saath kufr kare apne imaan ke baad magar woh jis par zabardasti ki gayi ho aur uska dil imaan par mutma'in ho lekin jo seena khol kar kufr kare toh un par Allah ka ghazab hai aur unke liye bada azab hai",
+              "en": "Whoever disbelieves in Allah after his belief... except for one who is forced while his heart is secure in faith. But those who open their breasts to disbelief, upon them is wrath from Allah, and for them is a great punishment",
+              "ur": "جو اللہ کے ساتھ کفر کرے اپنے ایمان کے بعد مگر وہ جس پر زبردستی کی گئی ہو اور اس کا دل ایمان پر مطمئن ہو لیکن جو سینہ کھول کر کفر کرے تو ان پر اللہ کا غضب ہے اور ان کے لیے بڑا عذاب ہے",
+              "hi": "जो अल्लाह के साथ कुफ़्र करे अपने ईमान के बाद मगर वो जिस पर ज़बरदस्ती की गई हो और उसका दिल ईमान पर मुतमइन हो लेकिन जो सीना खोल कर कुफ़्र करे तो उन पर अल्लाह का ग़ज़ब है और उनके लिए बड़ा अज़ाब है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s2_s20",
+            "sentence_number": 20,
+            "arabic": "وَمَنْ يَرْتَدِدْ مِنْكُمْ عَنْ دِينِهِ فَيَمُتْ وَهُوَ كَافِرٌ فَأُولَئِكَ حَبِطَتْ أَعْمَالُهُمْ فِي الدُّنْيَا وَالْآخِرَةِ وَأُولَئِكَ أَصْحَابُ النَّارِ هُمْ فِيهَا خَالِدُونَ",
+            "arabic_text": "وَمَنْ يَرْتَدِدْ مِنْكُمْ عَنْ دِينِهِ فَيَمُتْ وَهُوَ كَافِرٌ فَأُولَئِكَ حَبِطَتْ أَعْمَالُهُمْ فِي الدُّنْيَا وَالْآخِرَةِ وَأُولَئِكَ أَصْحَابُ النَّارِ هُمْ فِيهَا خَالِدُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَمَنْ</span> <span class=\"arabic-root\">يَرْتَدِدْ</span> <span class=\"arabic-root\">مِنْكُمْ</span> <span class=\"arabic-root\">عَنْ</span> <span class=\"arabic-root\">دِينِهِ</span> <span class=\"arabic-root\">فَيَمُتْ</span> <span class=\"arabic-root\">وَهُوَ</span> <span class=\"arabic-root\">كَافِرٌ</span> <span class=\"arabic-root\">فَأُولَئِكَ</span> <span class=\"arabic-root\">حَبِطَتْ</span> <span class=\"arabic-root\">أَعْمَالُهُمْ</span> <span class=\"arabic-root\">فِي</span> <span class=\"arabic-root\">الدُّنْيَا</span> <span class=\"arabic-root\">وَالْآخِرَةِ</span> <span class=\"arabic-root\">وَأُولَئِكَ</span> <span class=\"arabic-root\">أَصْحَابُ</span> <span class=\"arabic-root\">النَّارِ</span> <span class=\"arabic-root\">هُمْ</span> <span class=\"arabic-root\">فِيهَا</span> <span class=\"arabic-root\">خَالِدُونَ</span>",
+            "hinglish": "Aur tum mein se jo koi apne deen se phir jaye phir woh marr jaye iss haal mein ke woh kaafir ho toh unhi logon ke a'maal zaye ho gaye duniya aur aakhirat mein aur wohi aag wale hain woh us mein hamesha rahenge",
+            "hinglish_meaning": "Aur tum mein se jo koi apne deen se phir jaye phir woh marr jaye iss haal mein ke woh kaafir ho toh unhi logon ke a'maal zaye ho gaye duniya aur aakhirat mein aur wohi aag wale hain woh us mein hamesha rahenge",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur tum mein se jo koi apne deen se phir jaye phir woh marr jaye iss haal mein ke woh kaafir ho toh unhi logon ke a'maal zaye ho gaye duniya aur aakhirat mein aur wohi aag wale hain woh us mein hamesha rahenge",
+              "en": "And whoever of you reverts from his religion and dies while he is a disbeliever - for those, their deeds have become worthless in this world and the Hereafter, and those are the companions of the Fire; they will abide eternally therein",
+              "ur": "اور تم میں سے جو کوئی اپنے دین سے پھر جائے پھر وہ مر جائے اس حال میں کہ وہ کافر ہو تو انہی لوگوں کے اعمال ضائع ہو گئے دنیا اور آخرت میں اور وہی آگ والے ہیں وہ اس میں ہمیشہ رہیں گے",
+              "hi": "और तुम में से जो कोई अपने दीन से फिर जाए फिर वह मर जाए इस हाल में कि वह काफ़िर हो तो उन्हीं लोगों के आमाल ज़ाया हो गए दुनिया और आख़िरत में और वही आग वाले हैं वो उसमें हमेशा रहेंगे",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s2_s21",
+            "sentence_number": 21,
+            "arabic": "وَمَنْ تَقِ السَّيِّئَاتِ يَوْمَئِذٍ فَقَدْ رَحِمْتَهُ وَذَلِكَ هُوَ الْفَوْزُ الْعَظِيمُ",
+            "arabic_text": "وَمَنْ تَقِ السَّيِّئَاتِ يَوْمَئِذٍ فَقَدْ رَحِمْتَهُ وَذَلِكَ هُوَ الْفَوْزُ الْعَظِيمُ",
+            "arabic_markup": "<span class=\"arabic-root\">وَمَنْ</span> <span class=\"arabic-root\">تَقِ</span> <span class=\"arabic-root\">السَّيِّئَاتِ</span> <span class=\"arabic-root\">يَوْمَئِذٍ</span> <span class=\"arabic-root\">فَقَدْ</span> <span class=\"arabic-root\">رَحِمْتَهُ</span> <span class=\"arabic-root\">وَذَلِكَ</span> <span class=\"arabic-root\">هُوَ</span> <span class=\"arabic-root\">الْفَوْزُ</span> <span class=\"arabic-root\">الْعَظِيمُ</span>",
+            "hinglish": "Aur jisse tu ne bachaya buraiyon se us din toh yaqeenan tu ne us par reham kiya aur yeh hi zabardast kamyaabi hai",
+            "hinglish_meaning": "Aur jisse tu ne bachaya buraiyon se us din toh yaqeenan tu ne us par reham kiya aur yeh hi zabardast kamyaabi hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur jisse tu ne bachaya buraiyon se us din toh yaqeenan tu ne us par reham kiya aur yeh hi zabardast kamyaabi hai",
+              "en": "And whoever You protect from evil deeds that Day - You will have had mercy upon him. And that is the great attainment",
+              "ur": "اور جسے تو نے بچایا برائیوں سے اس دن تو یقیناً تو نے اس پر رحم کیا اور یہی زبردست کامیابی ہے",
+              "hi": "और जिसे तूने बचाया बुराइयों से उस दिन तो यक़ीनन तूने उस पर रहम किया और यही ज़बरदस्त कामयाबी है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s7l10_lbl4",
+      "type": "section_label",
+      "data": {
+        "text": "Section 4 (Pages 170–175): Usloob 7–10 — أَفَمَنْ ... كَمَنْ ، ابْتِغَاءَ مَرْضَاتِ اللَّهِ ، وَلَوْ أَنَّهُمْ آمَنُوا aur إِنَّهُ لَا يُفْلِحُ الظَّالِمُونَ",
+        "title": "Section 4 (Pages 170–175): Usloob 7–10 — أَفَمَنْ ... كَمَنْ ، ابْتِغَاءَ مَرْضَاتِ اللَّهِ ، وَلَوْ أَنَّهُمْ آمَنُوا aur إِنَّهُ لَا يُفْلِحُ الظَّالِمُونَ",
+        "label": "Section 4 (Pages 170–175): Usloob 7–10 — أَفَمَنْ ... كَمَنْ ، ابْتِغَاءَ مَرْضَاتِ اللَّهِ ، وَلَوْ أَنَّهُمْ آمَنُوا aur إِنَّهُ لَا يُفْلِحُ الظَّالِمُونَ"
+      }
+    },
+    {
+      "id": "sec_s7l10_s3",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s7l10_s3_s1",
+            "sentence_number": 1,
+            "arabic": "أَفَمَنْ كَانَ مُؤْمِنًا كَمَنْ كَانَ فَاسِقًا لَا يَسْتَوُونَ",
+            "arabic_text": "أَفَمَنْ كَانَ مُؤْمِنًا كَمَنْ كَانَ فَاسِقًا لَا يَسْتَوُونَ",
+            "arabic_markup": "<span class=\"nonroot\">أَفَمَنْ</span> <span class=\"arabic-root\">كَانَ</span> <span class=\"arabic-root\">مُؤْمِنًا</span> <span class=\"arabic-root\">كَمَنْ</span> <span class=\"arabic-root\">كَانَ</span> <span class=\"arabic-root\">فَاسِقًا</span> <span class=\"arabic-root\">لَا</span> <span class=\"arabic-root\">يَسْتَوُونَ</span>",
+            "hinglish": "Kya toh jo shakhs momin ho us shakhs ki tarah ho sakta hai jo naafarman ho, woh barabar nahin ho sakte",
+            "hinglish_meaning": "Kya toh jo shakhs momin ho us shakhs ki tarah ho sakta hai jo naafarman ho, woh barabar nahin ho sakte",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kya toh jo shakhs momin ho us shakhs ki tarah ho sakta hai jo naafarman ho, woh barabar nahin ho sakte",
+              "en": "Then is one who was a believer like one who was defiantly disobedient? They are not equal",
+              "ur": "کیا تو جو شخص مومن ہو اس شخص کی طرح ہو سکتا ہے جو نافرمان ہو، وہ برابر نہیں ہو سکتے",
+              "hi": "क्या तो जो शख़्स मोमिन हो उस शख़्स की तरह हो सकता है जो नाफ़रमान हो, वो बराबर नहीं हो सकते",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s2",
+            "sentence_number": 2,
+            "arabic": "أَفَمَنْ كَانَ عَلَىٰ بَيِّنَةٍ مِنْ رَبِّهِ كَمَنْ زُيِّنَ لَهُ سُوءُ عَمَلِهِ وَاتَّبَعُوا أَهْوَاءَهُمْ",
+            "arabic_text": "أَفَمَنْ كَانَ عَلَىٰ بَيِّنَةٍ مِنْ رَبِّهِ كَمَنْ زُيِّنَ لَهُ سُوءُ عَمَلِهِ وَاتَّبَعُوا أَهْوَاءَهُمْ",
+            "arabic_markup": "<span class=\"nonroot\">أَفَمَنْ</span> <span class=\"nonroot\">كَانَ</span> <span class=\"nonroot\">عَلَىٰ</span> <span class=\"arabic-root\">بَيِّنَةٍ</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">رَبِّهِ</span> <span class=\"nonroot\">كَمَنْ</span> <span class=\"arabic-root\">زُيِّنَ</span> <span class=\"nonroot\">لَهُ</span> <span class=\"arabic-root\">سُوءُ</span> <span class=\"arabic-root\">عَمَلِهِ</span> <span class=\"arabic-root\">وَاتَّبَع</span><span class=\"nonroot\">ُوا</span> <span class=\"arabic-root\">أَهْوَاء</span><span class=\"nonroot\">َهُمْ</span>",
+            "hinglish": "Toh kya woh shakhs jo apne Rabb ki taraf se roshan daleel par ho, us shakhs ki tarah ho sakta hai jiske liye uska bura amal khush-numa bana diya gaya ho aur unhon ne apni khwahishaat ki pairwi ki?",
+            "hinglish_meaning": "Toh kya woh shakhs jo apne Rabb ki taraf se roshan daleel par ho, us shakhs ki tarah ho sakta hai jiske liye uska bura amal khush-numa bana diya gaya ho aur unhon ne apni khwahishaat ki pairwi ki?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh kya woh shakhs jo apne Rabb ki taraf se roshan daleel par ho, us shakhs ki tarah ho sakta hai jiske liye uska bura amal khush-numa bana diya gaya ho aur unhon ne apni khwahishaat ki pairwi ki?",
+              "ur": "Toh kya woh shakhs jo apne Rabb ki taraf se roshan daleel par ho, us shakhs ki tarah ho sakta hai jiske liye uska bura amal khush-numa bana diya gaya ho aur unhon ne apni khwahishaat ki pairwi ki?",
+              "en": "Toh kya woh shakhs jo apne Rabb ki taraf se roshan daleel par ho, us shakhs ki tarah ho sakta hai jiske liye uska bura amal khush-numa bana diya gaya ho aur unhon ne apni khwahishaat ki pairwi ki?",
+              "hi": "Toh kya woh shakhs jo apne Rabb ki taraf se roshan daleel par ho, us shakhs ki tarah ho sakta hai jiske liye uska bura amal khush-numa bana diya gaya ho aur unhon ne apni khwahishaat ki pairwi ki?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s3",
+            "sentence_number": 3,
+            "arabic": "أَفَمَنِ اتَّبَعَ رِضْوَانَ اللَّهِ كَمَنْ بَاءَ بِسَخَطٍ",
+            "arabic_text": "أَفَمَنِ اتَّبَعَ رِضْوَانَ اللَّهِ كَمَنْ بَاءَ بِسَخَطٍ",
+            "arabic_markup": "<span class=\"arabic-root\">أَفَمَنِ</span> <span class=\"arabic-root\">اتَّبَعَ</span> <span class=\"arabic-root\">رِضْوَانَ</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"arabic-root\">كَمَنْ</span> <span class=\"arabic-root\">بَاءَ</span> <span class=\"arabic-root\">بِسَخَطٍ</span>",
+            "hinglish": "Kya toh jo shakhs Allah ki raza ka piche chala us shakhs ki tarah ho sakta hai jo ghazab lekar lota",
+            "hinglish_meaning": "Kya toh jo shakhs Allah ki raza ka piche chala us shakhs ki tarah ho sakta hai jo ghazab lekar lota",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kya toh jo shakhs Allah ki raza ka piche chala us shakhs ki tarah ho sakta hai jo ghazab lekar lota",
+              "en": "Then is one who pursues the pleasure of Allah like one who brings upon himself the anger of Allah?",
+              "ur": "کیا تو جو شخص اللہ کی رضا کا متلاشی چلا اس شخص کی طرح ہو سکتا ہے جو غضب لے کر لوٹا",
+              "hi": "क्या तो जो शख़्स अल्लाह की रज़ा का मुतलाशी चला उस शख़्स की तरह हो सकता है जो ग़ज़ब लेकर लौटा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s4",
+            "sentence_number": 4,
+            "arabic": "أَفَمَنْ يَخْلُقُ كَمَنْ لَا يَخْلُقُ",
+            "arabic_text": "أَفَمَنْ يَخْلُقُ كَمَنْ لَا يَخْلُقُ",
+            "arabic_markup": "<span class=\"nonroot\">أَفَمَنْ</span> <span class=\"arabic-root\">يَخْلُقُ</span> <span class=\"arabic-root\">كَمَنْ</span> <span class=\"arabic-root\">لَا</span> <span class=\"arabic-root\">يَخْلُقُ</span>",
+            "hinglish": "Kya toh jo paida karta hai us shakhs ki tarah ho sakta hai jo paida nahin karta",
+            "hinglish_meaning": "Kya toh jo paida karta hai us shakhs ki tarah ho sakta hai jo paida nahin karta",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kya toh jo paida karta hai us shakhs ki tarah ho sakta hai jo paida nahin karta",
+              "en": "Then is He who creates like one who does not create?",
+              "ur": "کیا تو جو پیدا کرتا ہے اس شخص کی طرح ہو سکتا ہے جو پیدا نہیں کرتا",
+              "hi": "क्या तो जो पैदा करता है उस शख़्स की तरह हो सकता है जो पैदा नहीं करता",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s5",
+            "sentence_number": 5,
+            "arabic": "أَفَمَنْ يَعْلَمُ كَمَنْ هُوَ أَعْمَى",
+            "arabic_text": "أَفَمَنْ يَعْلَمُ كَمَنْ هُوَ أَعْمَى",
+            "arabic_markup": "<span class=\"nonroot\">أَفَمَنْ</span> <span class=\"arabic-root\">يَعْلَمُ</span> <span class=\"arabic-root\">كَمَنْ</span> <span class=\"arabic-root\">هُوَ</span> <span class=\"arabic-root\">أَعْمَى</span>",
+            "hinglish": "Kya toh jo jaanta hai us shakhs ki tarah ho sakta hai jo andha hai",
+            "hinglish_meaning": "Kya toh jo jaanta hai us shakhs ki tarah ho sakta hai jo andha hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kya toh jo jaanta hai us shakhs ki tarah ho sakta hai jo andha hai",
+              "en": "Then is one who knows like one who is blind?",
+              "ur": "کیا تو جو جانتا ہے اس شخص کی طرح ہو سکتا ہے جو اندھا ہے",
+              "hi": "क्या तो जो जानता है उस शख़्स की तरह हो सकता है जो अंधा है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s6",
+            "sentence_number": 6,
+            "arabic": "أَوَمَنْ كَانَ مَيْتًا فَأَحْيَيْنَاهُ وَجَعَلْنَا لَهُ نُورًا يَمْشِي بِهِ فِي النَّاسِ كَمَنْ مَثَلُهُ فِي الظُّلُمَاتِ لَيْسَ بِخَارِجٍ مِنْهَا",
+            "arabic_text": "أَوَمَنْ كَانَ مَيْتًا فَأَحْيَيْنَاهُ وَجَعَلْنَا لَهُ نُورًا يَمْشِي بِهِ فِي النَّاسِ كَمَنْ مَثَلُهُ فِي الظُّلُمَاتِ لَيْسَ بِخَارِجٍ مِنْهَا",
+            "arabic_markup": "<span class=\"nonroot\">أَوَمَنْ</span> <span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">مَيْتًا</span> <span class=\"arabic-root\">فَأَحْيَيْنَاهُ</span> <span class=\"arabic-root\">وَجَعَل</span><span class=\"nonroot\">ْنَا</span> <span class=\"nonroot\">لَهُ</span> <span class=\"arabic-root\">نُورًا</span> <span class=\"arabic-root\">يَمْشِي</span> <span class=\"nonroot\">بِهِ</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">النَّاسِ</span> <span class=\"nonroot\">كَمَنْ</span> <span class=\"arabic-root\">مَثَلُهُ</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الظُّلُم</span><span class=\"nonroot\">َاتِ</span> <span class=\"nonroot\">لَيْسَ</span> <span class=\"arabic-root\">بِخَارِجٍ</span> <span class=\"nonroot\">مِنْهَا</span>",
+            "hinglish": "Aur kya woh shakhs jo pehle murdah (be-imaan) tha phir Hamne usey zindagi bakhshi aur uske liye ek noor bana diya jiske zariye woh logon mein chalta-phirta hai, us shakhs ki tarah ho sakta hai jiska haal yeh ho ke woh andheron mein pada hai aur wahan se nikalne waala nahin?",
+            "hinglish_meaning": "Aur kya woh shakhs jo pehle murdah (be-imaan) tha phir Hamne usey zindagi bakhshi aur uske liye ek noor bana diya jiske zariye woh logon mein chalta-phirta hai, us shakhs ki tarah ho sakta hai jiska haal yeh ho ke woh andheron mein pada hai aur wahan se nikalne waala nahin?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur kya woh shakhs jo pehle murdah (be-imaan) tha phir Hamne usey zindagi bakhshi aur uske liye ek noor bana diya jiske zariye woh logon mein chalta-phirta hai, us shakhs ki tarah ho sakta hai jiska haal yeh ho ke woh andheron mein pada hai aur wahan se nikalne waala nahin?",
+              "ur": "Aur kya woh shakhs jo pehle murdah (be-imaan) tha phir Hamne usey zindagi bakhshi aur uske liye ek noor bana diya jiske zariye woh logon mein chalta-phirta hai, us shakhs ki tarah ho sakta hai jiska haal yeh ho ke woh andheron mein pada hai aur wahan se nikalne waala nahin?",
+              "en": "Aur kya woh shakhs jo pehle murdah (be-imaan) tha phir Hamne usey zindagi bakhshi aur uske liye ek noor bana diya jiske zariye woh logon mein chalta-phirta hai, us shakhs ki tarah ho sakta hai jiska haal yeh ho ke woh andheron mein pada hai aur wahan se nikalne waala nahin?",
+              "hi": "Aur kya woh shakhs jo pehle murdah (be-imaan) tha phir Hamne usey zindagi bakhshi aur uske liye ek noor bana diya jiske zariye woh logon mein chalta-phirta hai, us shakhs ki tarah ho sakta hai jiska haal yeh ho ke woh andheron mein pada hai aur wahan se nikalne waala nahin?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s7",
+            "sentence_number": 7,
+            "arabic": "أَفَمَنْ وَعَدْنَاهُ كَمَنْ مَتَّعْنَاهُ",
+            "arabic_text": "أَفَمَنْ وَعَدْنَاهُ كَمَنْ مَتَّعْنَاهُ",
+            "arabic_markup": "<span class=\"nonroot\">أَفَمَنْ</span> <span class=\"arabic-root\">وَعَدْنَاهُ</span> <span class=\"arabic-root\">كَمَنْ</span> <span class=\"arabic-root\">مَتَّعْنَاهُ</span>",
+            "hinglish": "Kya toh jis se hamne waada kiya us shakhs ki tarah ho sakta hai jisse hamne faida uthane diya",
+            "hinglish_meaning": "Kya toh jis se hamne waada kiya us shakhs ki tarah ho sakta hai jisse hamne faida uthane diya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kya toh jis se hamne waada kiya us shakhs ki tarah ho sakta hai jisse hamne faida uthane diya",
+              "en": "Then is one whom We have promised a good promise like one whom We have provided enjoyment?",
+              "ur": "کیا تو جس سے ہم نے وعدہ کیا اس شخص کی طرح ہو سکتا ہے جسے ہم نے فائدہ اٹھانے دیا",
+              "hi": "क्या तो जिससे हमने वादा किया उस शख़्स की तरह हो सकता है जिसे हमने फ़ायदा उठाने दिया",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s8",
+            "sentence_number": 8,
+            "arabic": "أَجَعَلْتُمْ سِقَايَةَ الْحَاجِّ وَعِمَارَةَ الْمَسْجِدِ الْحَرَامِ كَمَنْ آمَنَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ",
+            "arabic_text": "أَجَعَلْتُمْ سِقَايَةَ الْحَاجِّ وَعِمَارَةَ الْمَسْجِدِ الْحَرَامِ كَمَنْ آمَنَ بِاللَّهِ وَالْيَوْمِ الْآخِرِ",
+            "arabic_markup": "<span class=\"arabic-root\">أَجَعَل</span><span class=\"nonroot\">ْتُمْ</span> <span class=\"arabic-root\">سِقَايَةَ</span> <span class=\"arabic-root\">الْحَاجِّ</span> <span class=\"arabic-root\">وَعِمَارَةَ</span> <span class=\"arabic-root\">الْمَسْجِدِ</span> <span class=\"arabic-root\">الْحَرَامِ</span> <span class=\"nonroot\">كَمَنْ</span> <span class=\"arabic-root\">آمَنَ</span> <span class=\"arabic-root\">بِاللَّهِ</span> <span class=\"arabic-root\">وَالْيَوْمِ</span> <span class=\"arabic-root\">الْآخِرِ</span>",
+            "hinglish": "Kya tum logon ne haajiyon ko paani pilane aur Masjid-e-Haraam ki aabaad-kaari ko us shakhs ke barabar thehra liya hai jo Allah aur Aakhirat ke din par imaan laaya?",
+            "hinglish_meaning": "Kya tum logon ne haajiyon ko paani pilane aur Masjid-e-Haraam ki aabaad-kaari ko us shakhs ke barabar thehra liya hai jo Allah aur Aakhirat ke din par imaan laaya?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kya tum logon ne haajiyon ko paani pilane aur Masjid-e-Haraam ki aabaad-kaari ko us shakhs ke barabar thehra liya hai jo Allah aur Aakhirat ke din par imaan laaya?",
+              "ur": "Kya tum logon ne haajiyon ko paani pilane aur Masjid-e-Haraam ki aabaad-kaari ko us shakhs ke barabar thehra liya hai jo Allah aur Aakhirat ke din par imaan laaya?",
+              "en": "Kya tum logon ne haajiyon ko paani pilane aur Masjid-e-Haraam ki aabaad-kaari ko us shakhs ke barabar thehra liya hai jo Allah aur Aakhirat ke din par imaan laaya?",
+              "hi": "Kya tum logon ne haajiyon ko paani pilane aur Masjid-e-Haraam ki aabaad-kaari ko us shakhs ke barabar thehra liya hai jo Allah aur Aakhirat ke din par imaan laaya?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s9",
+            "sentence_number": 9,
+            "arabic": "أَفَمَنْ زُيِّنَ لَهُ سُوءُ عَمَلِهِ فَرَآهُ حَسَنًا فَإِنَّ اللَّهَ يُضِلُّ مَنْ يَشَاءُ وَيَهْدِي مَنْ يَشَاءُ",
+            "arabic_text": "أَفَمَنْ زُيِّنَ لَهُ سُوءُ عَمَلِهِ فَرَآهُ حَسَنًا فَإِنَّ اللَّهَ يُضِلُّ مَنْ يَشَاءُ وَيَهْدِي مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"nonroot\">أَفَمَنْ</span> <span class=\"arabic-root\">زُيِّنَ</span> <span class=\"arabic-root\">لَهُ</span> <span class=\"arabic-root\">سُوءُ</span> <span class=\"arabic-root\">عَمَلِهِ</span> <span class=\"arabic-root\">فَرَآهُ</span> <span class=\"arabic-root\">حَسَنًا</span> <span class=\"arabic-root\">فَإِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"arabic-root\">يُضِلُّ</span> <span class=\"arabic-root\">مَنْ</span> <span class=\"arabic-root\">يَشَاءُ</span> <span class=\"arabic-root\">وَيَهْدِي</span> <span class=\"arabic-root\">مَنْ</span> <span class=\"arabic-root\">يَشَاءُ</span>",
+            "hinglish": "Toh kya woh shakhs jiske liye uska bura amal khush-numa bana diya gaya pas usne usey achha samjha (hidayat yafta ke barabar ho sakta hai)? Pas beshak Allah jise chahta hai gumraah karta hai aur jise chahta hai hidayat deta hai",
+            "hinglish_meaning": "Toh kya woh shakhs jiske liye uska bura amal khush-numa bana diya gaya pas usne usey achha samjha (hidayat yafta ke barabar ho sakta hai)? Pas beshak Allah jise chahta hai gumraah karta hai aur jise chahta hai hidayat deta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh kya woh shakhs jiske liye uska bura amal khush-numa bana diya gaya pas usne usey achha samjha (hidayat yafta ke barabar ho sakta hai)? Pas beshak Allah jise chahta hai gumraah karta hai aur jise chahta hai hidayat deta hai",
+              "en": "Then is one to whom the evil of his deed has been made attractive so he considers it good [like one rightly guided]? For indeed, Allah leaves astray whom He wills and guides whom He wills",
+              "ur": "کیا تو جسے اس کی بری کارکردگی خوبصورت کر کے دکھائی گئی پھر اس نے اسے اچھا سمجھا، تو بیشک اللہ گمراہ کرتا ہے جسے چاہتا ہے اور ہدایت دیتا ہے جسے چاہتا ہے",
+              "hi": "क्या तो जिसे उसकी बुरी कारकर्दगी ख़ूबसूरत करके दिखाई गई फिर उसने उसे अच्छा समझा, तो बेशक अल्लाह गुमराह करता है जिसे चाहता है और हिदायत देता है जिसे चाहता है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s10",
+            "sentence_number": 10,
+            "arabic": "أَفَمَنْ يَعْلَمُ أَنَّمَا أُنْزِلَ إِلَيْكَ مِنْ رَبِّكَ الْحَقُّ كَمَنْ هُوَ أَعْمَى إِنَّمَا يَتَذَكَّرُ أُولُو الْأَلْبَابِ",
+            "arabic_text": "أَفَمَنْ يَعْلَمُ أَنَّمَا أُنْزِلَ إِلَيْكَ مِنْ رَبِّكَ الْحَقُّ كَمَنْ هُوَ أَعْمَى إِنَّمَا يَتَذَكَّرُ أُولُو الْأَلْبَابِ",
+            "arabic_markup": "<span class=\"nonroot\">أَفَمَنْ</span> <span class=\"arabic-root\">يَعْلَمُ</span> <span class=\"arabic-root\">أَنَّمَا</span> <span class=\"arabic-root\">أُنْزِلَ</span> <span class=\"arabic-root\">إِلَيْكَ</span> <span class=\"arabic-root\">مِنْ</span> <span class=\"arabic-root\">رَبِّكَ</span> <span class=\"arabic-root\">الْحَقُّ</span> <span class=\"arabic-root\">كَمَنْ</span> <span class=\"arabic-root\">هُوَ</span> <span class=\"arabic-root\">أَعْمَى</span> <span class=\"arabic-root\">إِنَّمَا</span> <span class=\"arabic-root\">يَتَذَكَّرُ</span> <span class=\"arabic-root\">أُولُو</span> <span class=\"arabic-root\">الْأَلْبَابِ</span>",
+            "hinglish": "Kya toh jo banda yeh jaanta hai ke jo kuch aap ki taraf aap ke Rabb se utara gaya woh haq hai us shakhs jaisa ho sakta hai jo andha hai, sirf aql wale hi naseehat haasil karte hain",
+            "hinglish_meaning": "Kya toh jo banda yeh jaanta hai ke jo kuch aap ki taraf aap ke Rabb se utara gaya woh haq hai us shakhs jaisa ho sakta hai jo andha hai, sirf aql wale hi naseehat haasil karte hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kya toh jo banda yeh jaanta hai ke jo kuch aap ki taraf aap ke Rabb se utara gaya woh haq hai us shakhs jaisa ho sakta hai jo andha hai, sirf aql wale hi naseehat haasil karte hain",
+              "en": "Then is he who knows that what has been revealed to you from your Lord is the truth like one who is blind? Only those of understanding will take reminder",
+              "ur": "کیا تو جو بندہ یہ جانتا ہے کہ جو کچھ آپ کی طرف آپ کے رب سے اتارا گیا وہ حق ہے اس شخص جیسا ہو سکتا ہے جو اندھا ہے، صرف عقل والے ہی نصیحت حاصل کرتے ہیں",
+              "hi": "क्या तो जो बन्दा यह जानता है कि जो कुछ आपकी तरफ़ आपके रब से उतारा गया वो हक़ है उस शख़्स जैसा हो सकता है जो अंधा है, सिर्फ़ अक़्ल वाले ही नसीहत हासिल करते हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s11",
+            "sentence_number": 11,
+            "arabic": "أَفَمَنْ زُيِّنَ لَهُ سُوءُ عَمَلِهِ فَرَآهُ حَسَنًا فَإِنَّ اللَّهَ يُضِلُّ مَنْ يَشَاءُ وَيَهْدِي مَنْ يَشَاءُ",
+            "arabic_text": "أَفَمَنْ زُيِّنَ لَهُ سُوءُ عَمَلِهِ فَرَآهُ حَسَنًا فَإِنَّ اللَّهَ يُضِلُّ مَنْ يَشَاءُ وَيَهْدِي مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"nonroot\">أَفَمَنْ</span> <span class=\"arabic-root\">زُيِّنَ</span> <span class=\"arabic-root\">لَهُ</span> <span class=\"arabic-root\">سُوءُ</span> <span class=\"arabic-root\">عَمَلِهِ</span> <span class=\"arabic-root\">فَرَآهُ</span> <span class=\"arabic-root\">حَسَنًا</span> <span class=\"arabic-root\">فَإِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"arabic-root\">يُضِلُّ</span> <span class=\"arabic-root\">مَنْ</span> <span class=\"arabic-root\">يَشَاءُ</span> <span class=\"arabic-root\">وَيَهْدِي</span> <span class=\"arabic-root\">مَنْ</span> <span class=\"arabic-root\">يَشَاءُ</span>",
+            "hinglish": "Kya toh jisse uski buri karkardagi khubsoorat karke dikhai gayi phir usne usse ach'cha samjha, toh beshak Allah gumrah karta hai jisse chahta hai aur hidayat deta hai jisse chahta hai",
+            "hinglish_meaning": "Kya toh jisse uski buri karkardagi khubsoorat karke dikhai gayi phir usne usse ach'cha samjha, toh beshak Allah gumrah karta hai jisse chahta hai aur hidayat deta hai jisse chahta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kya toh jisse uski buri karkardagi khubsoorat karke dikhai gayi phir usne usse ach'cha samjha, toh beshak Allah gumrah karta hai jisse chahta hai aur hidayat deta hai jisse chahta hai",
+              "en": "Then is one to whom the evil of his deed has been made attractive so he considers it good [like one rightly guided]? For indeed, Allah leaves astray whom He wills and guides whom He wills",
+              "ur": "کیا تو جسے اس کی بری کارکردگی خوبصورت کر کے دکھائی گئی پھر اس نے اسے اچھا سمجھا، تو بیشک اللہ گمراہ کرتا ہے جسے چاہتا ہے اور ہدایت دیتا ہے جسے چاہتا ہے",
+              "hi": "क्या तो जिसे उसकी बुरी कारकर्दगी ख़ूबसूरत करके दिखाई गई फिर उसने उसे अच्छा समझा, तो बेशक अल्लाह गुमराह करता है जिसे चाहता है और हिदायत देता है जिसे चाहता है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s12",
+            "sentence_number": 12,
+            "arabic": "أَفَمَنْ كَانَ عَلَى بَيِّنَةٍ مِنْ رَبِّهِ كَمَنْ زُيِّنَ لَهُ سُوءُ عَمَلِهِ وَاتَّبَعُوا أَهْوَاءَهُمْ",
+            "arabic_text": "أَفَمَنْ كَانَ عَلَى بَيِّنَةٍ مِنْ رَبِّهِ كَمَنْ زُيِّنَ لَهُ سُوءُ عَمَلِهِ وَاتَّبَعُوا أَهْوَاءَهُمْ",
+            "arabic_markup": "<span class=\"nonroot\">أَفَمَنْ</span> <span class=\"arabic-root\">كَانَ</span> <span class=\"arabic-root\">عَلَى</span> <span class=\"arabic-root\">بَيِّنَةٍ</span> <span class=\"arabic-root\">مِنْ</span> <span class=\"arabic-root\">رَبِّهِ</span> <span class=\"arabic-root\">كَمَنْ</span> <span class=\"arabic-root\">زُيِّنَ</span> <span class=\"arabic-root\">لَهُ</span> <span class=\"arabic-root\">سُوءُ</span> <span class=\"arabic-root\">عَمَلِهِ</span> <span class=\"arabic-root\">وَاتَّبَعُوا</span> <span class=\"arabic-root\">أَهْوَاءَهُمْ</span>",
+            "hinglish": "Kya toh jo banda apne Rabb ki taraf se roshan daleel par ho us shakhs ki tarah ho sakta hai jis ke liye uski buri karkardagi ko khubsoorat bana diya gaya aur jinhon ne apni khwahishon ki pairwi ki",
+            "hinglish_meaning": "Kya toh jo banda apne Rabb ki taraf se roshan daleel par ho us shakhs ki tarah ho sakta hai jis ke liye uski buri karkardagi ko khubsoorat bana diya gaya aur jinhon ne apni khwahishon ki pairwi ki",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kya toh jo banda apne Rabb ki taraf se roshan daleel par ho us shakhs ki tarah ho sakta hai jis ke liye uski buri karkardagi ko khubsoorat bana diya gaya aur jinhon ne apni khwahishon ki pairwi ki",
+              "en": "Then is one who is on clear evidence from his Lord like one to whom the evil of his work has been made attractive and they follow their desires?",
+              "ur": "کیا تو جو بندہ اپنے رب کی طرف سے روشن دلیل پر ہو اس شخص کی طرح ہو سکتا ہے جس کے لیے اس کی بری کارکردگی کو خوبصورت بنا دیا گیا اور جنہوں نے اپنی خواہشوں کی پیروی کی",
+              "hi": "क्या तो जो बन्दा अपने रब की तरफ़ से रौशन दलील पर हो उस शख़्स की तरह हो सकता है जिसके लिए उसकी बुरी कारकर्दगी को ख़ूबसूरत बना दिया गया और जिन्होंने अपनी ख़्वाहिशों की पैरवी की",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s13",
+            "sentence_number": 13,
+            "arabic": "أَفَمَنْ أَسَّسَ بُنْيَانَهُ عَلَى تَقْوَى مِنَ اللَّهِ وَرِضْوَانٍ خَيْرٌ أَمْ مَنْ أَسَّسَ بُنْيَانَهُ عَلَى شَفَا جُرُفٍ هَارٍ فَانْهَارَ بِهِ فِي نَارِ جَهَنَّمَ",
+            "arabic_text": "أَفَمَنْ أَسَّسَ بُنْيَانَهُ عَلَى تَقْوَى مِنَ اللَّهِ وَرِضْوَانٍ خَيْرٌ أَمْ مَنْ أَسَّسَ بُنْيَانَهُ عَلَى شَفَا جُرُفٍ هَارٍ فَانْهَارَ بِهِ فِي نَارِ جَهَنَّمَ",
+            "arabic_markup": "<span class=\"nonroot\">أَفَمَنْ</span> <span class=\"arabic-root\">أَسَّسَ</span> <span class=\"arabic-root\">بُنْيَانَهُ</span> <span class=\"arabic-root\">عَلَى</span> <span class=\"arabic-root\">تَقْوَى</span> <span class=\"arabic-root\">مِنَ</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"arabic-root\">وَرِضْوَانٍ</span> <span class=\"arabic-root\">خَيْرٌ</span> <span class=\"arabic-root\">أَمْ</span> <span class=\"arabic-root\">مَنْ</span> <span class=\"arabic-root\">أَسَّسَ</span> <span class=\"arabic-root\">بُنْيَانَهُ</span> <span class=\"arabic-root\">عَلَى</span> <span class=\"arabic-root\">شَفَا</span> <span class=\"arabic-root\">جُرُفٍ</span> <span class=\"arabic-root\">هَارٍ</span> <span class=\"arabic-root\">فَانْهَارَ</span> <span class=\"arabic-root\">بِهِ</span> <span class=\"arabic-root\">فِي</span> <span class=\"arabic-root\">نَارِ</span> <span class=\"arabic-root\">جَهَنَّمَ</span>",
+            "hinglish": "Kya toh jisne apni deewar ki buniyaad Allah ke darr aur uski raza par rakhi woh behtar hai ya woh jisne apni buniyaad ek girne wali ghaai ke kinare par rakhi phir woh usse lekar jahannam ki aag mein gir padi",
+            "hinglish_meaning": "Kya toh jisne apni deewar ki buniyaad Allah ke darr aur uski raza par rakhi woh behtar hai ya woh jisne apni buniyaad ek girne wali ghaai ke kinare par rakhi phir woh usse lekar jahannam ki aag mein gir padi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kya toh jisne apni deewar ki buniyaad Allah ke darr aur uski raza par rakhi woh behtar hai ya woh jisne apni buniyaad ek girne wali ghaai ke kinare par rakhi phir woh usse lekar jahannam ki aag mein gir padi",
+              "en": "Then is one who laid the foundation of his building on righteousness [with fear] from Allah and [seeking] His approval better or one who laid the foundation of his building on the edge of a bank about to collapse, so it collapsed with him into the fire of Hell?",
+              "ur": "کیا تو جس نے اپنی دیوار کی بنیاد اللہ کے ڈر اور اس کی رضا پر رکھی وہ بہتر ہے یا وہ جس نے اپنی بنیاد ایک گرنے والی کھائی کے کنارے پر رکھی پھر وہ اسے لے کر جہنم کی آگ میں گر پڑی",
+              "hi": "क्या तो जिसने अपनी दीवार की बुनियाद अल्लाह के डर और उसकी रज़ा पर रखी वह बेहतर है या वह जिसने अपनी बुनियाद एक गिरने वाली खाई के किनारे पर रखी फिर वह उसे लेकर जहन्नम की आग में गिर पड़ी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s14",
+            "sentence_number": 14,
+            "arabic": "وَاللَّهُ لَا يَهْدِي الْقَوْمَ الظَّالِمِينَ",
+            "arabic_text": "وَاللَّهُ لَا يَهْدِي الْقَوْمَ الظَّالِمِينَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"arabic-root\">لَا</span> <span class=\"arabic-root\">يَهْدِي</span> <span class=\"arabic-root\">الْقَوْمَ</span> <span class=\"arabic-root\">الظَّالِمِينَ</span>",
+            "hinglish": "Aur Allah zalim logon ko hidayat nahin deta",
+            "hinglish_meaning": "Aur Allah zalim logon ko hidayat nahin deta",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah zalim logon ko hidayat nahin deta",
+              "en": "And Allah does not guide the wrongdoing people",
+              "ur": "اور اللہ ظالم لوگوں کو ہدایت نہیں دیتا",
+              "hi": "और अल्लाह ज़ालिम लोगों को हिदायत नहीं देता",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s15",
+            "sentence_number": 15,
+            "arabic": "وَمِنَ النَّاسِ مَنْ يَشْرِي نَفْسَهُ ابْتِغَاءَ مَرْضَاتِ اللَّهِ وَاللَّهُ رَءُوفٌ بِالْعِبَادِ",
+            "arabic_text": "وَمِنَ النَّاسِ مَنْ يَشْرِي نَفْسَهُ ابْتِغَاءَ مَرْضَاتِ اللَّهِ وَاللَّهُ رَءُوفٌ بِالْعِبَادِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَمِنَ</span> <span class=\"arabic-root\">النَّاسِ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"arabic-root\">يَشْرِي</span> <span class=\"arabic-root\">نَفْسَهُ</span> <span class=\"arabic-root\">ابْتِغَاءَ</span> <span class=\"arabic-root\">مَرْض</span><span class=\"nonroot\">َاتِ</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"arabic-root\">رَءُوفٌ</span> <span class=\"arabic-root\">بِالْعِبَادِ</span>",
+            "hinglish": "Aur logon mein se woh bhi hai jo Allah ki khushnoodi talash karne ki khatir apni jaan tak bech deta hai, aur Allah bandon par bada meherbaan hai",
+            "hinglish_meaning": "Aur logon mein se woh bhi hai jo Allah ki khushnoodi talash karne ki khatir apni jaan tak bech deta hai, aur Allah bandon par bada meherbaan hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur logon mein se woh bhi hai jo Allah ki khushnoodi talash karne ki khatir apni jaan tak bech deta hai, aur Allah bandon par bada meherbaan hai",
+              "ur": "Aur logon mein se woh bhi hai jo Allah ki khushnoodi talash karne ki khatir apni jaan tak bech deta hai, aur Allah bandon par bada meherbaan hai",
+              "en": "Aur logon mein se woh bhi hai jo Allah ki khushnoodi talash karne ki khatir apni jaan tak bech deta hai, aur Allah bandon par bada meherbaan hai",
+              "hi": "Aur logon mein se woh bhi hai jo Allah ki khushnoodi talash karne ki khatir apni jaan tak bech deta hai, aur Allah bandon par bada meherbaan hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s16",
+            "sentence_number": 16,
+            "arabic": "وَمَثَلُ الَّذِينَ يُنْفِقُونَ أَمْوَالَهُمُ ابْتِغَاءَ مَرْضَاتِ اللَّهِ وَتَثْبِيتًا مِنْ أَنْفُسِهِمْ كَمَثَلِ جَنَّةٍ بِرَبْوَةٍ",
+            "arabic_text": "وَمَثَلُ الَّذِينَ يُنْفِقُونَ أَمْوَالَهُمُ ابْتِغَاءَ مَرْضَاتِ اللَّهِ وَتَثْبِيتًا مِنْ أَنْفُسِهِمْ كَمَثَلِ جَنَّةٍ بِرَبْوَةٍ",
+            "arabic_markup": "<span class=\"arabic-root\">وَمَثَلُ</span> <span class=\"nonroot\">الَّذِينَ</span> <span class=\"arabic-root\">يُنْفِق</span><span class=\"nonroot\">ُونَ</span> <span class=\"arabic-root\">أَمْوَالَهُمُ</span> <span class=\"arabic-root\">ابْتِغَاءَ</span> <span class=\"arabic-root\">مَرْض</span><span class=\"nonroot\">َاتِ</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"arabic-root\">وَتَثْبِيتًا</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">أَنْفُسِهِمْ</span> <span class=\"arabic-root\">كَمَثَلِ</span> <span class=\"arabic-root\">جَنَّةٍ</span> <span class=\"arabic-root\">بِرَبْوَةٍ</span>",
+            "hinglish": "Aur un logon ki misaal jo apne maal Allah ki raza ki talash mein aur apne dilon ko jamane ke liye kharch karte hain, ek aise baagh ki si hai jo oonchi zameen par ho",
+            "hinglish_meaning": "Aur un logon ki misaal jo apne maal Allah ki raza ki talash mein aur apne dilon ko jamane ke liye kharch karte hain, ek aise baagh ki si hai jo oonchi zameen par ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur un logon ki misaal jo apne maal Allah ki raza ki talash mein aur apne dilon ko jamane ke liye kharch karte hain, ek aise baagh ki si hai jo oonchi zameen par ho",
+              "ur": "Aur un logon ki misaal jo apne maal Allah ki raza ki talash mein aur apne dilon ko jamane ke liye kharch karte hain, ek aise baagh ki si hai jo oonchi zameen par ho",
+              "en": "Aur un logon ki misaal jo apne maal Allah ki raza ki talash mein aur apne dilon ko jamane ke liye kharch karte hain, ek aise baagh ki si hai jo oonchi zameen par ho",
+              "hi": "Aur un logon ki misaal jo apne maal Allah ki raza ki talash mein aur apne dilon ko jamane ke liye kharch karte hain, ek aise baagh ki si hai jo oonchi zameen par ho",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s17",
+            "sentence_number": 17,
+            "arabic": "وَالَّذِينَ صَبَرُوا ابْتِغَاءَ وَجْهِ رَبِّهِمْ وَأَقَامُوا الصَّلَاةَ وَأَنْفَقُوا مِمَّا رَزَقْنَاهُمْ سِرًّا وَعَلَانِيَةً وَيَدْرَءُونَ بِالْحَسَنَةِ السَّيِّئَةَ أُولَٰئِكَ لَهُمْ عُقْبَى الدَّارِ",
+            "arabic_text": "وَالَّذِينَ صَبَرُوا ابْتِغَاءَ وَجْهِ رَبِّهِمْ وَأَقَامُوا الصَّلَاةَ وَأَنْفَقُوا مِمَّا رَزَقْنَاهُمْ سِرًّا وَعَلَانِيَةً وَيَدْرَءُونَ بِالْحَسَنَةِ السَّيِّئَةَ أُولَٰئِكَ لَهُمْ عُقْبَى الدَّارِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَالَّذ</span><span class=\"nonroot\">ِينَ</span> <span class=\"arabic-root\">صَبَر</span><span class=\"nonroot\">ُوا</span> <span class=\"arabic-root\">ابْتِغَاءَ</span> <span class=\"arabic-root\">وَجْهِ</span> <span class=\"arabic-root\">رَبِّهِمْ</span> <span class=\"arabic-root\">وَأَقَام</span><span class=\"nonroot\">ُوا</span> <span class=\"arabic-root\">الصَّلَاةَ</span> <span class=\"arabic-root\">وَأَنْفَق</span><span class=\"nonroot\">ُوا</span> <span class=\"arabic-root\">مِمَّا</span> <span class=\"arabic-root\">رَزَقْن</span><span class=\"nonroot\">َاهُمْ</span> <span class=\"arabic-root\">سِرًّا</span> <span class=\"arabic-root\">وَعَلَانِيَةً</span> <span class=\"arabic-root\">وَيَدْرَء</span><span class=\"nonroot\">ُونَ</span> <span class=\"arabic-root\">بِالْحَسَنَةِ</span> <span class=\"arabic-root\">السَّيِّئَةَ</span> <span class=\"nonroot\">أُولَٰئِكَ</span> <span class=\"nonroot\">لَهُمْ</span> <span class=\"arabic-root\">عُقْبَى</span> <span class=\"arabic-root\">الدَّارِ</span>",
+            "hinglish": "Aur jin logon ne apne Rabb ki raza ki khatir sabr kiya aur namaz qaim ki aur hamare diye hue rizq mein se chhupa kar aur aelaniya kharch kiya aur woh neki ke zariye burai ko dafa karte hain — unhi ke liye aakhirat ka behtareen ghar hai",
+            "hinglish_meaning": "Aur jin logon ne apne Rabb ki raza ki khatir sabr kiya aur namaz qaim ki aur hamare diye hue rizq mein se chhupa kar aur aelaniya kharch kiya aur woh neki ke zariye burai ko dafa karte hain — unhi ke liye aakhirat ka behtareen ghar hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur jin logon ne apne Rabb ki raza ki khatir sabr kiya aur namaz qaim ki aur hamare diye hue rizq mein se chhupa kar aur aelaniya kharch kiya aur woh neki ke zariye burai ko dafa karte hain — unhi ke liye aakhirat ka behtareen ghar hai",
+              "ur": "Aur jin logon ne apne Rabb ki raza ki khatir sabr kiya aur namaz qaim ki aur hamare diye hue rizq mein se chhupa kar aur aelaniya kharch kiya aur woh neki ke zariye burai ko dafa karte hain — unhi ke liye aakhirat ka behtareen ghar hai",
+              "en": "Aur jin logon ne apne Rabb ki raza ki khatir sabr kiya aur namaz qaim ki aur hamare diye hue rizq mein se chhupa kar aur aelaniya kharch kiya aur woh neki ke zariye burai ko dafa karte hain — unhi ke liye aakhirat ka behtareen ghar hai",
+              "hi": "Aur jin logon ne apne Rabb ki raza ki khatir sabr kiya aur namaz qaim ki aur hamare diye hue rizq mein se chhupa kar aur aelaniya kharch kiya aur woh neki ke zariye burai ko dafa karte hain — unhi ke liye aakhirat ka behtareen ghar hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s18",
+            "sentence_number": 18,
+            "arabic": "وَلَوْ أَنَّهُمْ آمَنُوا وَاتَّقَوْا لَمَثُوبَةٌ مِنْ عِنْدِ اللَّهِ خَيْرٌ لَوْ كَانُوا يَعْلَمُونَ",
+            "arabic_text": "وَلَوْ أَنَّهُمْ آمَنُوا وَاتَّقَوْا لَمَثُوبَةٌ مِنْ عِنْدِ اللَّهِ خَيْرٌ لَوْ كَانُوا يَعْلَمُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَوْ</span> <span class=\"nonroot\">أَنَّهُمْ</span> <span class=\"arabic-root\">آمَن</span><span class=\"nonroot\">ُوا</span> <span class=\"arabic-root\">وَاتَّقَ</span><span class=\"nonroot\">وْا</span> <span class=\"arabic-root\">لَمَثُوبَةٌ</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">عِنْدِ</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"arabic-root\">خَيْرٌ</span> <span class=\"arabic-root\">لَوْ</span> <span class=\"nonroot\">كَانُوا</span> <span class=\"arabic-root\">يَعْلَم</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Aur agar aisa hota ke woh imaan laate aur taqwa ikhtiyar karte toh Allah ke haan ka sawab kahin behtar hai, kaash woh jaante",
+            "hinglish_meaning": "Aur agar aisa hota ke woh imaan laate aur taqwa ikhtiyar karte toh Allah ke haan ka sawab kahin behtar hai, kaash woh jaante",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur agar aisa hota ke woh imaan laate aur taqwa ikhtiyar karte toh Allah ke haan ka sawab kahin behtar hai, kaash woh jaante",
+              "ur": "Aur agar aisa hota ke woh imaan laate aur taqwa ikhtiyar karte toh Allah ke haan ka sawab kahin behtar hai, kaash woh jaante",
+              "en": "Aur agar aisa hota ke woh imaan laate aur taqwa ikhtiyar karte toh Allah ke haan ka sawab kahin behtar hai, kaash woh jaante",
+              "hi": "Aur agar aisa hota ke woh imaan laate aur taqwa ikhtiyar karte toh Allah ke haan ka sawab kahin behtar hai, kaash woh jaante",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s19",
+            "sentence_number": 19,
+            "arabic": "وَلَوْ أَنَّ أَهْلَ الْقُرَىٰ آمَنُوا وَاتَّقَوْا لَفَتَحْنَا عَلَيْهِمْ بَرَكَاتٍ مِنَ السَّمَاءِ وَالْأَرْضِ",
+            "arabic_text": "وَلَوْ أَنَّ أَهْلَ الْقُرَىٰ آمَنُوا وَاتَّقَوْا لَفَتَحْنَا عَلَيْهِمْ بَرَكَاتٍ مِنَ السَّمَاءِ وَالْأَرْضِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَوْ</span> <span class=\"nonroot\">أَنَّ</span> <span class=\"arabic-root\">أَهْلَ</span> <span class=\"arabic-root\">الْقُرَىٰ</span> <span class=\"arabic-root\">آمَن</span><span class=\"nonroot\">ُوا</span> <span class=\"arabic-root\">وَاتَّقَ</span><span class=\"nonroot\">وْا</span> <span class=\"arabic-root\">لَفَتَح</span><span class=\"nonroot\">ْنَا</span> <span class=\"nonroot\">عَلَيْهِمْ</span> <span class=\"arabic-root\">بَرَك</span><span class=\"nonroot\">َاتٍ</span> <span class=\"nonroot\">مِنَ</span> <span class=\"arabic-root\">السَّمَاءِ</span> <span class=\"arabic-root\">وَالْأَرْضِ</span>",
+            "hinglish": "Aur agar bastiyon wale imaan laate aur taqwa ikhtiyar karte toh ham un par aasman aur zameen se barkaton ke darwaze khol dete",
+            "hinglish_meaning": "Aur agar bastiyon wale imaan laate aur taqwa ikhtiyar karte toh ham un par aasman aur zameen se barkaton ke darwaze khol dete",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur agar bastiyon wale imaan laate aur taqwa ikhtiyar karte toh ham un par aasman aur zameen se barkaton ke darwaze khol dete",
+              "ur": "Aur agar bastiyon wale imaan laate aur taqwa ikhtiyar karte toh ham un par aasman aur zameen se barkaton ke darwaze khol dete",
+              "en": "Aur agar bastiyon wale imaan laate aur taqwa ikhtiyar karte toh ham un par aasman aur zameen se barkaton ke darwaze khol dete",
+              "hi": "Aur agar bastiyon wale imaan laate aur taqwa ikhtiyar karte toh ham un par aasman aur zameen se barkaton ke darwaze khol dete",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s20",
+            "sentence_number": 20,
+            "arabic": "وَلَوْ أَنَّهُمْ صَبَرُوا حَتَّىٰ تَخْرُجَ إِلَيْهِمْ لَكَانَ خَيْرًا لَهُمْ وَاللَّهُ غَفُورٌ رَحِيمٌ",
+            "arabic_text": "وَلَوْ أَنَّهُمْ صَبَرُوا حَتَّىٰ تَخْرُجَ إِلَيْهِمْ لَكَانَ خَيْرًا لَهُمْ وَاللَّهُ غَفُورٌ رَحِيمٌ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَوْ</span> <span class=\"nonroot\">أَنَّهُمْ</span> <span class=\"arabic-root\">صَبَر</span><span class=\"nonroot\">ُوا</span> <span class=\"nonroot\">حَتَّىٰ</span> <span class=\"arabic-root\">تَخْرُجَ</span> <span class=\"nonroot\">إِلَيْهِمْ</span> <span class=\"arabic-root\">لَكَانَ</span> <span class=\"arabic-root\">خَيْرًا</span> <span class=\"nonroot\">لَهُمْ</span> <span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"arabic-root\">غَفُورٌ</span> <span class=\"arabic-root\">رَحِيمٌ</span>",
+            "hinglish": "Aur agar woh sabr karte yahan tak ke aap khud unki taraf bahar tashreef laate toh yeh unke liye behtar hota, aur Allah bakhshne wala meherbaan hai",
+            "hinglish_meaning": "Aur agar woh sabr karte yahan tak ke aap khud unki taraf bahar tashreef laate toh yeh unke liye behtar hota, aur Allah bakhshne wala meherbaan hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur agar woh sabr karte yahan tak ke aap khud unki taraf bahar tashreef laate toh yeh unke liye behtar hota, aur Allah bakhshne wala meherbaan hai",
+              "ur": "Aur agar woh sabr karte yahan tak ke aap khud unki taraf bahar tashreef laate toh yeh unke liye behtar hota, aur Allah bakhshne wala meherbaan hai",
+              "en": "Aur agar woh sabr karte yahan tak ke aap khud unki taraf bahar tashreef laate toh yeh unke liye behtar hota, aur Allah bakhshne wala meherbaan hai",
+              "hi": "Aur agar woh sabr karte yahan tak ke aap khud unki taraf bahar tashreef laate toh yeh unke liye behtar hota, aur Allah bakhshne wala meherbaan hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s21",
+            "sentence_number": 21,
+            "arabic": "وَلَوْ أَنَّ لِلَّذِينَ ظَلَمُوا مَا فِي الْأَرْضِ جَمِيعًا وَمِثْلَهُ مَعَهُ لَافْتَدَوْا بِهِ مِنْ سُوءِ الْعَذَابِ يَوْمَ الْقِيَامَةِ",
+            "arabic_text": "وَلَوْ أَنَّ لِلَّذِينَ ظَلَمُوا مَا فِي الْأَرْضِ جَمِيعًا وَمِثْلَهُ مَعَهُ لَافْتَدَوْا بِهِ مِنْ سُوءِ الْعَذَابِ يَوْمَ الْقِيَامَةِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَوْ</span> <span class=\"nonroot\">أَنَّ</span> <span class=\"arabic-root\">لِلَّذ</span><span class=\"nonroot\">ِينَ</span> <span class=\"arabic-root\">ظَلَم</span><span class=\"nonroot\">ُوا</span> <span class=\"nonroot\">مَا</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْأَرْضِ</span> <span class=\"arabic-root\">جَمِيعًا</span> <span class=\"arabic-root\">وَمِثْلَهُ</span> <span class=\"arabic-root\">مَعَهُ</span> <span class=\"arabic-root\">لَافْتَدَ</span><span class=\"nonroot\">وْا</span> <span class=\"nonroot\">بِهِ</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">سُوءِ</span> <span class=\"arabic-root\">الْعَذَابِ</span> <span class=\"arabic-root\">يَوْمَ</span> <span class=\"arabic-root\">الْقِيَامَةِ</span>",
+            "hinglish": "Aur agar zaalimon ke paas zameen ki saari daulat aur uske saath utni hi aur bhi hoti toh woh Qiyamat ke din bure azaab se bachne ke liye woh sab fidye mein de dete",
+            "hinglish_meaning": "Aur agar zaalimon ke paas zameen ki saari daulat aur uske saath utni hi aur bhi hoti toh woh Qiyamat ke din bure azaab se bachne ke liye woh sab fidye mein de dete",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur agar zaalimon ke paas zameen ki saari daulat aur uske saath utni hi aur bhi hoti toh woh Qiyamat ke din bure azaab se bachne ke liye woh sab fidye mein de dete",
+              "ur": "Aur agar zaalimon ke paas zameen ki saari daulat aur uske saath utni hi aur bhi hoti toh woh Qiyamat ke din bure azaab se bachne ke liye woh sab fidye mein de dete",
+              "en": "Aur agar zaalimon ke paas zameen ki saari daulat aur uske saath utni hi aur bhi hoti toh woh Qiyamat ke din bure azaab se bachne ke liye woh sab fidye mein de dete",
+              "hi": "Aur agar zaalimon ke paas zameen ki saari daulat aur uske saath utni hi aur bhi hoti toh woh Qiyamat ke din bure azaab se bachne ke liye woh sab fidye mein de dete",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s22",
+            "sentence_number": 22,
+            "arabic": "وَمَنْ أَظْلَمُ مِمَّنِ افْتَرَىٰ عَلَى اللَّهِ كَذِبًا أَوْ كَذَّبَ بِآيَاتِهِ إِنَّهُ لَا يُفْلِحُ الظَّالِمُونَ",
+            "arabic_text": "وَمَنْ أَظْلَمُ مِمَّنِ افْتَرَىٰ عَلَى اللَّهِ كَذِبًا أَوْ كَذَّبَ بِآيَاتِهِ إِنَّهُ لَا يُفْلِحُ الظَّالِمُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَمَنْ</span> <span class=\"arabic-root\">أَظْلَمُ</span> <span class=\"arabic-root\">مِمَّنِ</span> <span class=\"arabic-root\">افْتَرَىٰ</span> <span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"arabic-root\">كَذِبًا</span> <span class=\"nonroot\">أَوْ</span> <span class=\"arabic-root\">كَذَّبَ</span> <span class=\"arabic-root\">بِآيَاتِهِ</span> <span class=\"nonroot\">إِنَّهُ</span> <span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">يُفْلِحُ</span> <span class=\"arabic-root\">الظَّالِم</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Aur us-se bada zaalim kaun hoga jisne Allah par jhoot ghadha ya Uski aayaton ko jhutlaya? Haqeeqat yeh hai ke zaalim falah nahin paate",
+            "hinglish_meaning": "Aur us-se bada zaalim kaun hoga jisne Allah par jhoot ghadha ya Uski aayaton ko jhutlaya? Haqeeqat yeh hai ke zaalim falah nahin paate",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur us-se bada zaalim kaun hoga jisne Allah par jhoot ghadha ya Uski aayaton ko jhutlaya? Haqeeqat yeh hai ke zaalim falah nahin paate",
+              "ur": "Aur us-se bada zaalim kaun hoga jisne Allah par jhoot ghadha ya Uski aayaton ko jhutlaya? Haqeeqat yeh hai ke zaalim falah nahin paate",
+              "en": "Aur us-se bada zaalim kaun hoga jisne Allah par jhoot ghadha ya Uski aayaton ko jhutlaya? Haqeeqat yeh hai ke zaalim falah nahin paate",
+              "hi": "Aur us-se bada zaalim kaun hoga jisne Allah par jhoot ghadha ya Uski aayaton ko jhutlaya? Haqeeqat yeh hai ke zaalim falah nahin paate",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s23",
+            "sentence_number": 23,
+            "arabic": "قَالَ مَعَاذَ اللَّهِ إِنَّهُ رَبِّي أَحْسَنَ مَثْوَايَ إِنَّهُ لَا يُفْلِحُ الظَّالِمُونَ",
+            "arabic_text": "قَالَ مَعَاذَ اللَّهِ إِنَّهُ رَبِّي أَحْسَنَ مَثْوَايَ إِنَّهُ لَا يُفْلِحُ الظَّالِمُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">قَالَ</span> <span class=\"arabic-root\">مَعَاذَ</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"nonroot\">إِنَّهُ</span> <span class=\"arabic-root\">رَبِّي</span> <span class=\"arabic-root\">أَحْسَنَ</span> <span class=\"arabic-root\">مَثْوَايَ</span> <span class=\"nonroot\">إِنَّهُ</span> <span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">يُفْلِحُ</span> <span class=\"arabic-root\">الظَّالِم</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Yusuf (A.S.) ne kaha: Ma'aaz-Allah! Woh mera Rabb/mohsin hai jisne mujhe achha thikana diya, haqeeqat yeh hai ke zaalim kamyaab nahin hote",
+            "hinglish_meaning": "Yusuf (A.S.) ne kaha: Ma'aaz-Allah! Woh mera Rabb/mohsin hai jisne mujhe achha thikana diya, haqeeqat yeh hai ke zaalim kamyaab nahin hote",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yusuf (A.S.) ne kaha: Ma'aaz-Allah! Woh mera Rabb/mohsin hai jisne mujhe achha thikana diya, haqeeqat yeh hai ke zaalim kamyaab nahin hote",
+              "ur": "Yusuf (A.S.) ne kaha: Ma'aaz-Allah! Woh mera Rabb/mohsin hai jisne mujhe achha thikana diya, haqeeqat yeh hai ke zaalim kamyaab nahin hote",
+              "en": "Yusuf (A.S.) ne kaha: Ma'aaz-Allah! Woh mera Rabb/mohsin hai jisne mujhe achha thikana diya, haqeeqat yeh hai ke zaalim kamyaab nahin hote",
+              "hi": "Yusuf (A.S.) ne kaha: Ma'aaz-Allah! Woh mera Rabb/mohsin hai jisne mujhe achha thikana diya, haqeeqat yeh hai ke zaalim kamyaab nahin hote",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s24",
+            "sentence_number": 24,
+            "arabic": "قَالَ أَنَا يُوسُفُ وَهَٰذَا أَخِي قَدْ مَنَّ اللَّهُ عَلَيْنَا إِنَّهُ مَنْ يَتَّقِ وَيَصْبِرْ فَإِنَّ اللَّهَ لَا يُضِيعُ أَجْرَ الْمُحْسِنِينَ",
+            "arabic_text": "قَالَ أَنَا يُوسُفُ وَهَٰذَا أَخِي قَدْ مَنَّ اللَّهُ عَلَيْنَا إِنَّهُ مَنْ يَتَّقِ وَيَصْبِرْ فَإِنَّ اللَّهَ لَا يُضِيعُ أَجْرَ الْمُحْسِنِينَ",
+            "arabic_markup": "<span class=\"arabic-root\">قَالَ</span> <span class=\"nonroot\">أَنَا</span> <span class=\"arabic-root\">يُوسُفُ</span> <span class=\"arabic-root\">وَهَٰذَا</span> <span class=\"arabic-root\">أَخِي</span> <span class=\"nonroot\">قَدْ</span> <span class=\"arabic-root\">مَنَّ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"nonroot\">عَلَيْنَا</span> <span class=\"nonroot\">إِنَّهُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"arabic-root\">يَتَّقِ</span> <span class=\"arabic-root\">وَيَصْبِرْ</span> <span class=\"arabic-root\">فَإِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">يُضِيعُ</span> <span class=\"arabic-root\">أَجْرَ</span> <span class=\"arabic-root\">الْمُحْسِن</span><span class=\"nonroot\">ِينَ</span>",
+            "hinglish": "Unhon ne kaha: Main Yusuf hoon aur yeh mera bhai hai, Allah ne ham par ehsaan farmaya; haqeeqat yeh hai ke jo taqwa aur sabr kare toh Allah neki karne walon ka ajr zaya nahin karta",
+            "hinglish_meaning": "Unhon ne kaha: Main Yusuf hoon aur yeh mera bhai hai, Allah ne ham par ehsaan farmaya; haqeeqat yeh hai ke jo taqwa aur sabr kare toh Allah neki karne walon ka ajr zaya nahin karta",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Unhon ne kaha: Main Yusuf hoon aur yeh mera bhai hai, Allah ne ham par ehsaan farmaya; haqeeqat yeh hai ke jo taqwa aur sabr kare toh Allah neki karne walon ka ajr zaya nahin karta",
+              "ur": "Unhon ne kaha: Main Yusuf hoon aur yeh mera bhai hai, Allah ne ham par ehsaan farmaya; haqeeqat yeh hai ke jo taqwa aur sabr kare toh Allah neki karne walon ka ajr zaya nahin karta",
+              "en": "Unhon ne kaha: Main Yusuf hoon aur yeh mera bhai hai, Allah ne ham par ehsaan farmaya; haqeeqat yeh hai ke jo taqwa aur sabr kare toh Allah neki karne walon ka ajr zaya nahin karta",
+              "hi": "Unhon ne kaha: Main Yusuf hoon aur yeh mera bhai hai, Allah ne ham par ehsaan farmaya; haqeeqat yeh hai ke jo taqwa aur sabr kare toh Allah neki karne walon ka ajr zaya nahin karta",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s25",
+            "sentence_number": 25,
+            "arabic": "فَإِنَّهَا لَا تَعْمَى الْأَبْصَارُ وَلَٰكِنْ تَعْمَى الْقُلُوبُ الَّتِي فِي الصُّدُورِ",
+            "arabic_text": "فَإِنَّهَا لَا تَعْمَى الْأَبْصَارُ وَلَٰكِنْ تَعْمَى الْقُلُوبُ الَّتِي فِي الصُّدُورِ",
+            "arabic_markup": "<span class=\"arabic-root\">فَإِنَّهَا</span> <span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">تَعْمَى</span> <span class=\"arabic-root\">الْأَبْصَارُ</span> <span class=\"arabic-root\">وَلَٰكِنْ</span> <span class=\"arabic-root\">تَعْمَى</span> <span class=\"arabic-root\">الْقُلُوبُ</span> <span class=\"nonroot\">الَّتِي</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الصُّدُورِ</span>",
+            "hinglish": "Pas haqeeqat yeh hai ke aankhein andhi nahin hotin balke woh dil andhe ho jaate hain jo seenon mein hain",
+            "hinglish_meaning": "Pas haqeeqat yeh hai ke aankhein andhi nahin hotin balke woh dil andhe ho jaate hain jo seenon mein hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Pas haqeeqat yeh hai ke aankhein andhi nahin hotin balke woh dil andhe ho jaate hain jo seenon mein hain",
+              "ur": "Pas haqeeqat yeh hai ke aankhein andhi nahin hotin balke woh dil andhe ho jaate hain jo seenon mein hain",
+              "en": "Pas haqeeqat yeh hai ke aankhein andhi nahin hotin balke woh dil andhe ho jaate hain jo seenon mein hain",
+              "hi": "Pas haqeeqat yeh hai ke aankhein andhi nahin hotin balke woh dil andhe ho jaate hain jo seenon mein hain",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s7l10_s3_s26",
+            "sentence_number": 26,
+            "arabic": "يَا بُنَيَّ إِنَّهَا إِنْ تَكُ مِثْقَالَ حَبَّةٍ مِنْ خَرْدَلٍ فَتَكُنْ فِي صَخْرَةٍ أَوْ فِي السَّمَاوَاتِ أَوْ فِي الْأَرْضِ يَأْتِ بِهَا اللَّهُ إِنَّ اللَّهَ لَطِيفٌ خَبِيرٌ",
+            "arabic_text": "يَا بُنَيَّ إِنَّهَا إِنْ تَكُ مِثْقَالَ حَبَّةٍ مِنْ خَرْدَلٍ فَتَكُنْ فِي صَخْرَةٍ أَوْ فِي السَّمَاوَاتِ أَوْ فِي الْأَرْضِ يَأْتِ بِهَا اللَّهُ إِنَّ اللَّهَ لَطِيفٌ خَبِيرٌ",
+            "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">بُنَيَّ</span> <span class=\"nonroot\">إِنَّهَا</span> <span class=\"nonroot\">إِنْ</span> <span class=\"arabic-root\">تَكُ</span> <span class=\"arabic-root\">مِثْقَالَ</span> <span class=\"arabic-root\">حَبَّةٍ</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">خَرْدَلٍ</span> <span class=\"arabic-root\">فَتَكُنْ</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">صَخْرَةٍ</span> <span class=\"nonroot\">أَوْ</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">السَّمَاو</span><span class=\"nonroot\">َاتِ</span> <span class=\"nonroot\">أَوْ</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْأَرْضِ</span> <span class=\"arabic-root\">يَأْتِ</span> <span class=\"nonroot\">بِهَا</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"arabic-root\">لَطِيفٌ</span> <span class=\"arabic-root\">خَبِيرٌ</span>",
+            "hinglish": "Aye mere pyare bete! Haqeeqat yeh hai ke agar koi amal raai ke ek daane ke barabar bhi ho, phir woh kisi chattan ke andar ho ya aasmanon mein ya zameen mein, Allah usey le aayega; beshak Allah baareek-been aur ba-khabar hai",
+            "hinglish_meaning": "Aye mere pyare bete! Haqeeqat yeh hai ke agar koi amal raai ke ek daane ke barabar bhi ho, phir woh kisi chattan ke andar ho ya aasmanon mein ya zameen mein, Allah usey le aayega; beshak Allah baareek-been aur ba-khabar hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aye mere pyare bete! Haqeeqat yeh hai ke agar koi amal raai ke ek daane ke barabar bhi ho, phir woh kisi chattan ke andar ho ya aasmanon mein ya zameen mein, Allah usey le aayega; beshak Allah baareek-been aur ba-khabar hai",
+              "ur": "Aye mere pyare bete! Haqeeqat yeh hai ke agar koi amal raai ke ek daane ke barabar bhi ho, phir woh kisi chattan ke andar ho ya aasmanon mein ya zameen mein, Allah usey le aayega; beshak Allah baareek-been aur ba-khabar hai",
+              "en": "Aye mere pyare bete! Haqeeqat yeh hai ke agar koi amal raai ke ek daane ke barabar bhi ho, phir woh kisi chattan ke andar ho ya aasmanon mein ya zameen mein, Allah usey le aayega; beshak Allah baareek-been aur ba-khabar hai",
+              "hi": "Aye mere pyare bete! Haqeeqat yeh hai ke agar koi amal raai ke ek daane ke barabar bhi ho, phir woh kisi chattan ke andar ho ya aasmanon mein ya zameen mein, Allah usey le aayega; beshak Allah baareek-been aur ba-khabar hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "page_start": 160
+}

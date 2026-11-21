@@ -34,6 +34,11 @@
       "tests/**",
       "test-results/**",
       "data/da_audit_log.json",
+      "data/*.bak",
+      "latest-update/**",
+      "security_rules_test_firestore/**",
+      "context.md",
+      "docs/**",
       ".env*"
     ],
     "rewrites": [

@@ -1,0 +1,862 @@
+{
+  "lesson_id": 10,
+  "lesson_key": "S2L10",
+  "stage_id": 2,
+  "title": "Waw-e-Qasam (Ki Qasam): الْكِتَابُ ← وَالْكِتَابِ ، وَالْعَصْرِ",
+  "arabic_Focus": "الْكِتَابُ ، الْعَصْرُ ، التِّينُ ← وَالْكِتَابِ ، وَالْعَصْرِ ، وَالتِّينِ",
+  "hinglish_Focus": "Kitaab, Zamana, Injeer (ـُ) → Kitaab ki qasam, Zamane ki qasam, Injeer ki qasam (ـِ)",
+  "page_numbers": "70",
+  "book_page": 70,
+  "status": "complete",
+  "title_i18n": {
+    "en": "Waw-e-Qasam (Ki Qasam): الْكِتَابُ ← وَالْكِتَابِ ، وَالْعَصْرِ",
+    "ur": "یونٹ 2 سبق 10: الْكِتَابُ ، الْعَصْرُ ، التِّينُ ← وَالْكِتَابِ ، وَالْعَصْرِ ، وَالتِّينِ",
+    "hi": "Waw-e-Qasam (Ki Qasam): الْكِتَابُ ← وَالْكِتَابِ ، وَالْعَصْرِ"
+  },
+  "sections": [
+    {
+      "id": "sec_hero",
+      "type": "hero_header",
+      "data": {
+        "arabic": "الْكِتَابُ ، الْعَصْرُ ، التِّينُ ← وَالْكِتَابِ ، وَالْعَصْرِ ، وَالتِّينِ",
+        "hinglish": "Kitaab, Zamana, Injeer (ـُ) → Kitaab ki qasam, Zamane ki qasam, Injeer ki qasam (ـِ)",
+        "arabic_word": "الْكِتَابُ ، الْعَصْرُ ، التِّينُ",
+        "arabic_combined": "الْكِتَابُ ، الْعَصْرُ ، التِّينُ ← وَالْكِتَابِ ، وَالْعَصْرِ ، وَالتِّينِ",
+        "hinglish_word": "Kitaab, Zamana, Injeer (ـُ)",
+        "hinglish_combined": "Kitaab, Zamana, Injeer (ـُ) → Kitaab ki qasam, Zamane ki qasam, Injeer ki qasam (ـِ)",
+        "title_en": "Waw-e-Qasam (Ki Qasam): الْكِتَابُ ← وَالْكِتَابِ ، وَالْعَصْرِ",
+        "subtitle": "Unit 2 • Lesson 10 (Book Page 70)",
+        "transformations": [
+          {
+            "before_ar": "الْكِتَابُ ، الْعَصْرُ ، التِّينُ",
+            "after_ar": "وَالْكِتَابِ ، وَالْعَصْرِ ، وَالتِّينِ",
+            "before_hi": "Kitaab, Zamana, Injeer (ـُ)",
+            "after_hi": "Kitaab ki qasam, Zamane ki qasam, Injeer ki qasam (ـِ)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_intro_table",
+      "type": "intro_table",
+      "data": {
+        "title": "S2L10 — Waw-e-Qasam (Ki Qasam): الْكِتَابُ ← وَالْكِتَابِ ، وَالْعَصْرِ: Buniyadi Misaalein",
+        "caption": "S2L10 — Waw-e-Qasam (Ki Qasam): الْكِتَابُ ← وَالْكِتَابِ ، وَالْعَصْرِ: Buniyadi Misaalein",
+        "headers": [
+          "Qaa'ida / Halat",
+          "Arabi Misaal",
+          "Hinglish Mafhoom"
+        ],
+        "rows": [
+          [
+            "وَ + الْـ (Qasam + Zair ـِ)",
+            "وَالْعَصْرِ / وَالْفَجْرِ / وَالشَّمْسِ / وَاللَّيْلِ",
+            "Zamane ki qasam / Fajr ki qasam / Sooraj ki qasam / Raat ki qasam"
+          ],
+          [
+            "وَ + Nakirah (Do Zair ـٍ)",
+            "وَشَاهِدٍ وَمَشْهُودٍ / وَوَالِدٍ وَمَا وَلَدَ",
+            "Gawah aur haazri ke din ki qasam / Baap aur aulad ki qasam"
+          ],
+          [
+            "Qasam + Jawaab-e-Qasam (إِنَّ...لَـ)",
+            "وَالْعَصْرِ إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ",
+            "Zamane ki qasam! Beshak insaan yaqeenan khasaare mein hai"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l10_concept",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 10</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Waw-e-Qasam (Ki Qasam): الْكِتَابُ ← وَالْكِتَابِ ، وَالْعَصْرِ (Page 70)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، الْعَصْرُ ، التِّينُ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Waw-e-Qasam (وَ + ـِ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">وَالْكِتَابِ ، وَالْعَصْرِ ، وَالتِّينِ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، الْعَصْرُ ، التِّينُ (Kitaab, Zamana, Injeer (ـُ)) se وَالْكِتَابِ ، وَالْعَصْرِ ، وَالتِّينِ (Kitaab ki qasam, Zamane ki qasam, Injeer ki qasam (ـِ)) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Page 70):** Arbi mein jab kisi cheez ki **qasam** khayi jati hai toh usse pehle **`وَ`** (*Waw-e-Qasam*) aata hai aur us ism ke aakhri harf ke neeche **Zair (`ـِ / ـٍ`)** aa jati hai: `الْعَصْرُ ← وَالْعَصْرِ` (Zamane ki qasam), `وَالتِّينِ وَالزَّيْتُونِ` (Injeer aur Zaitoon ki qasam).",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 10</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Waw-e-Qasam (Ki Qasam): الْكِتَابُ ← وَالْكِتَابِ ، وَالْعَصْرِ (Page 70)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، الْعَصْرُ ، التِّينُ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Waw-e-Qasam (وَ + ـِ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">وَالْكِتَابِ ، وَالْعَصْرِ ، وَالتِّينِ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، الْعَصْرُ ، التِّينُ (Kitaab, Zamana, Injeer (ـُ)) se وَالْكِتَابِ ، وَالْعَصْرِ ، وَالتِّينِ (Kitaab ki qasam, Zamane ki qasam, Injeer ki qasam (ـِ)) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Page 70):** Arbi mein jab kisi cheez ki **qasam** khayi jati hai toh usse pehle **`وَ`** (*Waw-e-Qasam*) aata hai aur us ism ke aakhri harf ke neeche **Zair (`ـِ / ـٍ`)** aa jati hai: `الْعَصْرُ ← وَالْعَصْرِ` (Zamane ki qasam), `وَالتِّينِ وَالزَّيْتُونِ` (Injeer aur Zaitoon ki qasam).",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 10</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Waw-e-Qasam (Ki Qasam): الْكِتَابُ ← وَالْكِتَابِ ، وَالْعَصْرِ (Page 70)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، الْعَصْرُ ، التِّينُ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Waw-e-Qasam (وَ + ـِ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">وَالْكِتَابِ ، وَالْعَصْرِ ، وَالتِّينِ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، الْعَصْرُ ، التِّينُ (Kitaab, Zamana, Injeer (ـُ)) se وَالْكِتَابِ ، وَالْعَصْرِ ، وَالتِّينِ (Kitaab ki qasam, Zamane ki qasam, Injeer ki qasam (ـِ)) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Page 70):** Arbi mein jab kisi cheez ki **qasam** khayi jati hai toh usse pehle **`وَ`** (*Waw-e-Qasam*) aata hai aur us ism ke aakhri harf ke neeche **Zair (`ـِ / ـٍ`)** aa jati hai: `الْعَصْرُ ← وَالْعَصْرِ` (Zamane ki qasam), `وَالتِّينِ وَالزَّيْتُونِ` (Injeer aur Zaitoon ki qasam)."
+      }
+    },
+    {
+      "id": "sec_s2l10_lbl1",
+      "type": "section_label",
+      "data": {
+        "text": "Darj zail misaalein dekhein (Darj zail misaalon par ghaur karein):",
+        "title": "Darj zail misaalein dekhein (Darj zail misaalon par ghaur karein):",
+        "label": "Darj zail misaalein dekhein (Darj zail misaalon par ghaur karein):"
+      }
+    },
+    {
+      "id": "sec_s2l10_r3",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Arabi mein jab kisi cheez ki qasam khaate hain toh us se pehle harf (وَ) lagaaya jaata hai, jise 'Waw-e-Qasam' kehte hain. Jis lafz ki qasam khaayi jaati hai, uske aakhri harf par kasrah (zer ــِ) aa jaata hai. Waw-e-Qasam aur uske baad aane wala lafz milkar ek mukammal jumla banta hai, aur yeh qasam aam taur par kalaam ke shuru mein aati hai.",
+        "content": "Arabi mein jab kisi cheez ki qasam khaate hain toh us se pehle harf (وَ) lagaaya jaata hai, jise 'Waw-e-Qasam' kehte hain. Jis lafz ki qasam khaayi jaati hai, uske aakhri harf par kasrah (zer ــِ) aa jaata hai. Waw-e-Qasam aur uske baad aane wala lafz milkar ek mukammal jumla banta hai, aur yeh qasam aam taur par kalaam ke shuru mein aati hai.",
+        "hinglish_text": "Arabi mein jab kisi cheez ki qasam khaate hain toh us se pehle harf (وَ) lagaaya jaata hai, jise 'Waw-e-Qasam' kehte hain. Jis lafz ki qasam khaayi jaati hai, uske aakhri harf par kasrah (zer ــِ) aa jaata hai. Waw-e-Qasam aur uske baad aane wala lafz milkar ek mukammal jumla banta hai, aur yeh qasam aam taur par kalaam ke shuru mein aati hai."
+      }
+    },
+    {
+      "id": "sec_s2l10_r4",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Ab aap Qur'an mein aane wali darj zail qasamon ko khud samajh aur tarjuma kar sakte hain:",
+        "content": "Ab aap Qur'an mein aane wali darj zail qasamon ko khud samajh aur tarjuma kar sakte hain:",
+        "hinglish_text": "Ab aap Qur'an mein aane wali darj zail qasamon ko khud samajh aur tarjuma kar sakte hain:"
+      }
+    },
+    {
+      "id": "sec_s2l10_g5",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l10_g5_w1",
+            "arabic": "وَالْبَيْتِ",
+            "arabic_text": "وَالْبَيْتِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْبَيْتِ</span>",
+            "hinglish": "Ghar (Ka'bah) ki qasam",
+            "hinglish_meaning": "Ghar (Ka'bah) ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ghar (Ka'bah) ki qasam",
+              "en": "By the House (Ka'bah)",
+              "ur": "بیت (کعبہ) کی قسم",
+              "hi": "घर (काबा) की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w2",
+            "arabic": "وَالْقَلَمِ",
+            "arabic_text": "وَالْقَلَمِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْقَلَمِ</span>",
+            "hinglish": "Qalam ki qasam",
+            "hinglish_meaning": "Qalam ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Qalam ki qasam",
+              "en": "By the pen",
+              "ur": "قلم کی قسم",
+              "hi": "क़लम की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w3",
+            "arabic": "وَالْكِتَابِ",
+            "arabic_text": "وَالْكِتَابِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْكِتَابِ</span>",
+            "hinglish": "Kitab ki qasam",
+            "hinglish_meaning": "Kitab ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kitab ki qasam",
+              "en": "By the Book",
+              "ur": "کتاب کی قسم",
+              "hi": "किताब की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w4",
+            "arabic": "وَالْقُرْآنِ",
+            "arabic_text": "وَالْقُرْآنِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْقُرْآنِ</span>",
+            "hinglish": "Qur'an ki qasam",
+            "hinglish_meaning": "Qur'an ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Qur'an ki qasam",
+              "en": "By the Qur'an",
+              "ur": "قرآن کی قسم",
+              "hi": "क़ुरआन की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w5",
+            "arabic": "وَاللَّهِ",
+            "arabic_text": "وَاللَّهِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">اللَّهِ</span>",
+            "hinglish": "Allah ki qasam",
+            "hinglish_meaning": "Allah ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah ki qasam",
+              "en": "By Allah",
+              "ur": "اللہ کی قسم",
+              "hi": "अल्लाह की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w6",
+            "arabic": "وَالنَّجْمِ",
+            "arabic_text": "وَالنَّجْمِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">النَّجْمِ</span>",
+            "hinglish": "Sitaare ki qasam",
+            "hinglish_meaning": "Sitaare ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Sitaare ki qasam",
+              "en": "By the star",
+              "ur": "ستارے کی قسم",
+              "hi": "सितारे की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w7",
+            "arabic": "وَالْقَمَرِ",
+            "arabic_text": "وَالْقَمَرِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْقَمَرِ</span>",
+            "hinglish": "Chaand ki qasam",
+            "hinglish_meaning": "Chaand ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Chaand ki qasam",
+              "en": "By the moon",
+              "ur": "چاند کی قسم",
+              "hi": "चाँद की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w8",
+            "arabic": "وَالشَّمْسِ",
+            "arabic_text": "وَالشَّمْسِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الشَّمْسِ</span>",
+            "hinglish": "Sooraj ki qasam",
+            "hinglish_meaning": "Sooraj ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Sooraj ki qasam",
+              "en": "By the sun",
+              "ur": "سورج کی قسم",
+              "hi": "सूरज की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w9",
+            "arabic": "وَالْأَرْضِ",
+            "arabic_text": "وَالْأَرْضِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْأَرْضِ</span>",
+            "hinglish": "Zameen ki qasam",
+            "hinglish_meaning": "Zameen ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Zameen ki qasam",
+              "en": "By the earth",
+              "ur": "زمین کی قسم",
+              "hi": "ज़मीन की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w10",
+            "arabic": "وَالسَّمَاءِ",
+            "arabic_text": "وَالسَّمَاءِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">السَّمَاءِ</span>",
+            "hinglish": "Aasman ki qasam",
+            "hinglish_meaning": "Aasman ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aasman ki qasam",
+              "en": "By the sky / heaven",
+              "ur": "آسمان کی قسم",
+              "hi": "आसमान की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w11",
+            "arabic": "وَالْفَجْرِ",
+            "arabic_text": "وَالْفَجْرِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْفَجْرِ</span>",
+            "hinglish": "Fajr (subah) ki qasam",
+            "hinglish_meaning": "Fajr (subah) ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Fajr (subah) ki qasam",
+              "en": "By the dawn",
+              "ur": "صبح (فجر) کی قسم",
+              "hi": "फ़ज्र (सुबह) की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w12",
+            "arabic": "وَالنَّهَارِ",
+            "arabic_text": "وَالنَّهَارِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">النَّهَارِ</span>",
+            "hinglish": "Din ki qasam",
+            "hinglish_meaning": "Din ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Din ki qasam",
+              "en": "By the day",
+              "ur": "دن کی قسم",
+              "hi": "दिन की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w13",
+            "arabic": "وَاللَّيْلِ",
+            "arabic_text": "وَاللَّيْلِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">اللَّيْلِ</span>",
+            "hinglish": "Raat ki qasam",
+            "hinglish_meaning": "Raat ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Raat ki qasam",
+              "en": "By the night",
+              "ur": "رات کی قسم",
+              "hi": "रात की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w14",
+            "arabic": "وَالصُّبْحِ",
+            "arabic_text": "وَالصُّبْحِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الصُّبْحِ</span>",
+            "hinglish": "Subah ki qasam",
+            "hinglish_meaning": "Subah ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Subah ki qasam",
+              "en": "By the morning",
+              "ur": "صبح کی قسم",
+              "hi": "सुबह की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w15",
+            "arabic": "وَالْيَوْمِ",
+            "arabic_text": "وَالْيَوْمِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْيَوْمِ</span>",
+            "hinglish": "Din ki qasam",
+            "hinglish_meaning": "Din ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Din ki qasam",
+              "en": "By the day",
+              "ur": "دن کی قسم",
+              "hi": "दिन की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w16",
+            "arabic": "وَالسَّقْفِ",
+            "arabic_text": "وَالسَّقْفِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">السَّقْفِ</span>",
+            "hinglish": "Chhat (aasman) ki qasam",
+            "hinglish_meaning": "Chhat (aasman) ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Chhat (aasman) ki qasam",
+              "en": "By the roof (canopy)",
+              "ur": "چھت (آسمان) کی قسم",
+              "hi": "छत की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w17",
+            "arabic": "وَهٰذَا الْبَلَدِ",
+            "arabic_text": "وَهٰذَا الْبَلَدِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">هٰذَا الْبَلَدِ</span>",
+            "hinglish": "Aur iss shahar (Makkah) ki qasam",
+            "hinglish_meaning": "Aur iss shahar (Makkah) ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur iss shahar (Makkah) ki qasam",
+              "en": "And by this city (Makkah)",
+              "ur": "اور اس شہر (مکہ) کی قسم",
+              "hi": "और इस शहर (मक्का) की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w18",
+            "arabic": "وَالطُّورِ",
+            "arabic_text": "وَالطُّورِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الطُّورِ</span>",
+            "hinglish": "Kohe Toor ki qasam",
+            "hinglish_meaning": "Kohe Toor ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kohe Toor ki qasam",
+              "en": "By Mount Toor (Sinai)",
+              "ur": "کوہِ طور کی قسم",
+              "hi": "कोहे तूर की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w19",
+            "arabic": "وَالْبَحْرِ",
+            "arabic_text": "وَالْبَحْرِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْبَحْرِ</span>",
+            "hinglish": "Samundar ki qasam",
+            "hinglish_meaning": "Samundar ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Samundar ki qasam",
+              "en": "By the sea",
+              "ur": "سمندر کی قسم",
+              "hi": "समुंदर की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w20",
+            "arabic": "وَالْعَصْرِ",
+            "arabic_text": "وَالْعَصْرِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْعَصْرِ</span>",
+            "hinglish": "Zamaane (waqt) ki qasam",
+            "hinglish_meaning": "Zamaane (waqt) ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Zamaane (waqt) ki qasam",
+              "en": "By time",
+              "ur": "زمانے (عصر) کی قسم",
+              "hi": "ज़माने (समय) की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w21",
+            "arabic": "وَالْوَتْرِ",
+            "arabic_text": "وَالْوَتْرِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْوَتْرِ</span>",
+            "hinglish": "Taaq (odd) raat ki qasam",
+            "hinglish_meaning": "Taaq (odd) raat ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Taaq (odd) raat ki qasam",
+              "en": "By the odd",
+              "ur": "طاق کی قسم",
+              "hi": "ताक़ (विषम) रात की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w22",
+            "arabic": "وَالشَّفْعِ",
+            "arabic_text": "وَالشَّفْعِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الشَّفْعِ</span>",
+            "hinglish": "Juft (even) raat ki qasam",
+            "hinglish_meaning": "Juft (even) raat ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Juft (even) raat ki qasam",
+              "en": "By the even",
+              "ur": "جفت کی قسم",
+              "hi": "जुफ़्त (सम) रात की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w23",
+            "arabic": "وَالزَّيْتُونِ",
+            "arabic_text": "وَالزَّيْتُونِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الزَّيْتُونِ</span>",
+            "hinglish": "Zaitoon ki qasam",
+            "hinglish_meaning": "Zaitoon ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Zaitoon ki qasam",
+              "en": "By the olive",
+              "ur": "زیتون کی قسم",
+              "hi": "ज़ैतून की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g5_w24",
+            "arabic": "وَالتِّينِ",
+            "arabic_text": "وَالتِّينِ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">التِّينِ</span>",
+            "hinglish": "Anjeer ki qasam",
+            "hinglish_meaning": "Anjeer ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Anjeer ki qasam",
+              "en": "By the fig",
+              "ur": "انجیر کی قسم",
+              "hi": "अंजीर की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l10_r6",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Agar lafz ke shuru mein (الْ) na ho toh mafhoom mein 'koi' ya 'ek' ka izafa hota hai. Darj zail Qur'anic murakkabaat ko samjhein:",
+        "content": "Agar lafz ke shuru mein (الْ) na ho toh mafhoom mein 'koi' ya 'ek' ka izafa hota hai. Darj zail Qur'anic murakkabaat ko samjhein:",
+        "hinglish_text": "Agar lafz ke shuru mein (الْ) na ho toh mafhoom mein 'koi' ya 'ek' ka izafa hota hai. Darj zail Qur'anic murakkabaat ko samjhein:"
+      }
+    },
+    {
+      "id": "sec_s2l10_g7",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l10_g7_w1",
+            "arabic": "وَشَاهِدٍ",
+            "arabic_text": "وَشَاهِدٍ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">شَاهِدٍ</span>",
+            "hinglish": "Aur kisi gawah ki qasam",
+            "hinglish_meaning": "Aur kisi gawah ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur kisi gawah ki qasam",
+              "en": "And by a witness",
+              "ur": "اور کسی گواہ کی قسم",
+              "hi": "और किसी गवाह की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g7_w2",
+            "arabic": "وَوَالِدٍ",
+            "arabic_text": "وَوَالِدٍ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">وَالِدٍ</span>",
+            "hinglish": "Aur kisi baap (walid) ki qasam",
+            "hinglish_meaning": "Aur kisi baap (walid) ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur kisi baap (walid) ki qasam",
+              "en": "And by a father / parent",
+              "ur": "اور کسی والد (باپ) کی قسم",
+              "hi": "और किसी वालिद (पिता) की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g7_w3",
+            "arabic": "وَنَفْسٍ",
+            "arabic_text": "وَنَفْسٍ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">نَفْسٍ</span>",
+            "hinglish": "Aur kisi jaan (nafs) ki qasam",
+            "hinglish_meaning": "Aur kisi jaan (nafs) ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur kisi jaan (nafs) ki qasam",
+              "en": "And by a soul",
+              "ur": "اور کسی جان (نفس) کی قسم",
+              "hi": "और किसी जान (नफ़्स) की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_g7_w4",
+            "arabic": "وَكِتَابٍ",
+            "arabic_text": "وَكِتَابٍ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">كِتَابٍ</span>",
+            "hinglish": "Aur kisi kitab ki qasam",
+            "hinglish_meaning": "Aur kisi kitab ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur kisi kitab ki qasam",
+              "en": "And by a book",
+              "ur": "اور کسی کتاب کی قسم",
+              "hi": "और किसी किताब की क़सम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l10_r8",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Qasam (Waw-e-Qasam), ta'keed (Inna) aur dohri ta'keed (La-fii) ko mad-de-nazar rakhte hue, ab aap mein dono aayaton ko poori tarah khud samajh aur tarjuma kar sakte hain:",
+        "content": "Qasam (Waw-e-Qasam), ta'keed (Inna) aur dohri ta'keed (La-fii) ko mad-de-nazar rakhte hue, ab aap mein dono aayaton ko poori tarah khud samajh aur tarjuma kar sakte hain:",
+        "hinglish_text": "Qasam (Waw-e-Qasam), ta'keed (Inna) aur dohri ta'keed (La-fii) ko mad-de-nazar rakhte hue, ab aap mein dono aayaton ko poori tarah khud samajh aur tarjuma kar sakte hain:"
+      }
+    },
+    {
+      "id": "sec_s2l10_s9",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s2l10_s9_s1",
+            "sentence_number": 1,
+            "arabic": "وَالْعَصْرِ ۙ إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ",
+            "arabic_text": "وَالْعَصْرِ ۙ إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ",
+            "arabic_markup": "<span class=\"nonroot\">وَالْعَصْرِ ۙ إِنَّ</span> <span class=\"arabic-root\">الْإِنْسَانَ </span><span class=\"nonroot\">لَفِي</span> <span class=\"arabic-root\">خُسْرٍ</span>",
+            "hinglish": "Zamaane ki qasam! Beshak insan sakht nuqsan (ghate) mein hai.",
+            "hinglish_meaning": "Zamaane ki qasam! Beshak insan sakht nuqsan (ghate) mein hai.",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Zamaane ki qasam! Beshak insan sakht nuqsan (ghate) mein hai.",
+              "en": "By time, indeed, mankind is in loss.",
+              "ur": "زمانے کی قسم! بے شک انسان خسارے میں ہے۔",
+              "hi": "ज़माने की क़सम! बेशक इंसान बड़े घाटे में है।",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l10_lbl10",
+      "type": "section_label",
+      "data": {
+        "text": "Exercise — Q-1: Darj zail Qur'ani aayat mein kis cheez ki qasam khaayi gayi hai? Pehli misaal ke mutabiq har qasam ko nishanzad (highlight) karein:",
+        "title": "Exercise — Q-1: Darj zail Qur'ani aayat mein kis cheez ki qasam khaayi gayi hai? Pehli misaal ke mutabiq har qasam ko nishanzad (highlight) karein:",
+        "label": "Exercise — Q-1: Darj zail Qur'ani aayat mein kis cheez ki qasam khaayi gayi hai? Pehli misaal ke mutabiq har qasam ko nishanzad (highlight) karein:"
+      }
+    },
+    {
+      "id": "sec_s2l10_v11",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s2l10_v11_s1",
+            "sentence_number": 1,
+            "arabic": "وَالسَّمَاءِ ذَاتِ الْحُبُكِ",
+            "arabic_text": "وَالسَّمَاءِ ذَاتِ الْحُبُكِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَالسَّمَاءِ</span> <span class=\"arabic-root\">ذَاتِ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">حُبُكِ</span>",
+            "hinglish": "Raston wale aasman ki qasam",
+            "hinglish_meaning": "Raston wale aasman ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Raston wale aasman ki qasam",
+              "ur": "Raston wale aasman ki qasam",
+              "en": "Raston wale aasman ki qasam",
+              "hi": "Raston wale aasman ki qasam",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_v11_s2",
+            "sentence_number": 2,
+            "arabic": "يس ۚ وَالْقُرْآنِ الْحَكِيمِ",
+            "arabic_text": "يس ۚ وَالْقُرْآنِ الْحَكِيمِ",
+            "arabic_markup": "<span class=\"arabic-root\">يس</span> <span class=\"arabic-root\">ۚ</span> <span class=\"nonroot\">وَالْ</span><span class=\"arabic-root\">قُرْآنِ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">حَكِيمِ</span>",
+            "hinglish": "Yaseen. Hikmat bhare Qur'an ki qasam",
+            "hinglish_meaning": "Yaseen. Hikmat bhare Qur'an ki qasam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yaseen. Hikmat bhare Qur'an ki qasam",
+              "ur": "Yaseen. Hikmat bhare Qur'an ki qasam",
+              "en": "Yaseen. Hikmat bhare Qur'an ki qasam",
+              "hi": "Yaseen. Hikmat bhare Qur'an ki qasam",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_v11_s3",
+            "sentence_number": 3,
+            "arabic": "كَلَّا وَالْقَمَرِ. وَاللَّيْلِ إِذْ أَدْبَرَ. وَالصُّبْحِ إِذَا أَسْفَرَ",
+            "arabic_text": "كَلَّا وَالْقَمَرِ. وَاللَّيْلِ إِذْ أَدْبَرَ. وَالصُّبْحِ إِذَا أَسْفَرَ",
+            "arabic_markup": "<span class=\"arabic-root\">كَلَّا</span> <span class=\"nonroot\">وَالْ</span><span class=\"arabic-root\">قَمَرِ</span>. <span class=\"arabic-root\">وَاللَّيْلِ</span> <span class=\"nonroot\">إِذْ</span> <span class=\"arabic-root\">أَدْبَرَ</span>. <span class=\"arabic-root\">وَالصُّبْحِ</span> <span class=\"nonroot\">إِذَا</span> <span class=\"arabic-root\">أَسْفَرَ</span>",
+            "hinglish": "Hargiz nahi! Chaand ki qasam! Aur raat ki qasam jab woh peeth phere! Aur subah ki qasam jab woh roshan ho jaye!",
+            "hinglish_meaning": "Hargiz nahi! Chaand ki qasam! Aur raat ki qasam jab woh peeth phere! Aur subah ki qasam jab woh roshan ho jaye!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Hargiz nahi! Chaand ki qasam! Aur raat ki qasam jab woh peeth phere! Aur subah ki qasam jab woh roshan ho jaye!",
+              "ur": "Hargiz nahi! Chaand ki qasam! Aur raat ki qasam jab woh peeth phere! Aur subah ki qasam jab woh roshan ho jaye!",
+              "en": "Hargiz nahi! Chaand ki qasam! Aur raat ki qasam jab woh peeth phere! Aur subah ki qasam jab woh roshan ho jaye!",
+              "hi": "Hargiz nahi! Chaand ki qasam! Aur raat ki qasam jab woh peeth phere! Aur subah ki qasam jab woh roshan ho jaye!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_v11_s4",
+            "sentence_number": 4,
+            "arabic": "وَالطُّورِ. وَكِتَابٍ مَسْطُورٍ",
+            "arabic_text": "وَالطُّورِ. وَكِتَابٍ مَسْطُورٍ",
+            "arabic_markup": "<span class=\"arabic-root\">وَالطُّورِ</span>. <span class=\"arabic-root\">وَكِتَابٍ</span> <span class=\"arabic-root\">مَسْطُورٍ</span>",
+            "hinglish": "Toor ki qasam! Aur likhi hui kitab ki qasam!",
+            "hinglish_meaning": "Toor ki qasam! Aur likhi hui kitab ki qasam!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toor ki qasam! Aur likhi hui kitab ki qasam!",
+              "ur": "Toor ki qasam! Aur likhi hui kitab ki qasam!",
+              "en": "Toor ki qasam! Aur likhi hui kitab ki qasam!",
+              "hi": "Toor ki qasam! Aur likhi hui kitab ki qasam!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_v11_s5",
+            "sentence_number": 5,
+            "arabic": "وَاللَّهِ رَبِّنَا مَا كُنَّا مُشْرِكِينَ",
+            "arabic_text": "وَاللَّهِ رَبِّنَا مَا كُنَّا مُشْرِكِينَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَاللَّهِ</span> <span class=\"arabic-root\">رَبّ</span><span class=\"nonroot\">ِنَا</span> <span class=\"nonroot\">مَا</span> <span class=\"arabic-root\">كُنَّا</span> <span class=\"arabic-root\">مُشْرِك</span><span class=\"nonroot\">ِينَ</span>",
+            "hinglish": "Allah hamare Rabb ki qasam! Hum mushrik nahi the.",
+            "hinglish_meaning": "Allah hamare Rabb ki qasam! Hum mushrik nahi the.",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah hamare Rabb ki qasam! Hum mushrik nahi the.",
+              "ur": "Allah hamare Rabb ki qasam! Hum mushrik nahi the.",
+              "en": "Allah hamare Rabb ki qasam! Hum mushrik nahi the.",
+              "hi": "Allah hamare Rabb ki qasam! Hum mushrik nahi the.",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_v11_s6",
+            "sentence_number": 6,
+            "arabic": "وَاللَّيْلِ وَمَا وَسَقَ. وَالْقَمَرِ إِذَا اتَّسَقَ",
+            "arabic_text": "وَاللَّيْلِ وَمَا وَسَقَ. وَالْقَمَرِ إِذَا اتَّسَقَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَاللَّيْلِ</span> <span class=\"arabic-root\">وَمَا</span> <span class=\"arabic-root\">وَسَقَ</span>. <span class=\"nonroot\">وَالْ</span><span class=\"arabic-root\">قَمَرِ</span> <span class=\"nonroot\">إِذَا</span> <span class=\"arabic-root\">اتَّسَقَ</span>",
+            "hinglish": "Aur raat ki qasam aur jise woh samet le! Aur chaand ki qasam jab woh poora (kamil) ho jaye!",
+            "hinglish_meaning": "Aur raat ki qasam aur jise woh samet le! Aur chaand ki qasam jab woh poora (kamil) ho jaye!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur raat ki qasam aur jise woh samet le! Aur chaand ki qasam jab woh poora (kamil) ho jaye!",
+              "ur": "Aur raat ki qasam aur jise woh samet le! Aur chaand ki qasam jab woh poora (kamil) ho jaye!",
+              "en": "Aur raat ki qasam aur jise woh samet le! Aur chaand ki qasam jab woh poora (kamil) ho jaye!",
+              "hi": "Aur raat ki qasam aur jise woh samet le! Aur chaand ki qasam jab woh poora (kamil) ho jaye!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l10_v11_s7",
+            "sentence_number": 7,
+            "arabic": "وَالطُّورِ. وَكِتَابٍ مَسْطُورٍ. فِي رَقٍّ مَنْشُورٍ. وَالْبَيْتِ الْمَعْمُورِ. وَالسَّقْفِ الْمَرْفُوعِ. وَالْبَحْرِ الْمَسْجُورِ",
+            "arabic_text": "وَالطُّورِ. وَكِتَابٍ مَسْطُورٍ. فِي رَقٍّ مَنْشُورٍ. وَالْبَيْتِ الْمَعْمُورِ. وَالسَّقْفِ الْمَرْفُوعِ. وَالْبَحْرِ الْمَسْجُورِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَالطُّورِ</span>. <span class=\"arabic-root\">وَكِتَابٍ</span> <span class=\"arabic-root\">مَسْطُورٍ</span>. <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">رَقٍّ</span> <span class=\"arabic-root\">مَنْشُورٍ</span>. <span class=\"nonroot\">وَالْ</span><span class=\"arabic-root\">بَيْتِ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">مَعْمُورِ</span>. <span class=\"arabic-root\">وَالسَّقْفِ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">مَرْفُوعِ</span>. <span class=\"nonroot\">وَالْ</span><span class=\"arabic-root\">بَحْرِ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">مَسْجُورِ</span>",
+            "hinglish": "Kohe Toor ki qasam! Aur likhi hui kitab ki qasam! Khule hue warq mein! Aur aabaad ghar (Bait-ul-Ma'moor) ki qasam! Aur buland chhat (aasman) ki qasam! Aur bhare hue samundar ki qasam!",
+            "hinglish_meaning": "Kohe Toor ki qasam! Aur likhi hui kitab ki qasam! Khule hue warq mein! Aur aabaad ghar (Bait-ul-Ma'moor) ki qasam! Aur buland chhat (aasman) ki qasam! Aur bhare hue samundar ki qasam!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kohe Toor ki qasam! Aur likhi hui kitab ki qasam! Khule hue warq mein! Aur aabaad ghar (Bait-ul-Ma'moor) ki qasam! Aur buland chhat (aasman) ki qasam! Aur bhare hue samundar ki qasam!",
+              "ur": "Kohe Toor ki qasam! Aur likhi hui kitab ki qasam! Khule hue warq mein! Aur aabaad ghar (Bait-ul-Ma'moor) ki qasam! Aur buland chhat (aasman) ki qasam! Aur bhare hue samundar ki qasam!",
+              "en": "Kohe Toor ki qasam! Aur likhi hui kitab ki qasam! Khule hue warq mein! Aur aabaad ghar (Bait-ul-Ma'moor) ki qasam! Aur buland chhat (aasman) ki qasam! Aur bhare hue samundar ki qasam!",
+              "hi": "Kohe Toor ki qasam! Aur likhi hui kitab ki qasam! Khule hue warq mein! Aur aabaad ghar (Bait-ul-Ma'moor) ki qasam! Aur buland chhat (aasman) ki qasam! Aur bhare hue samundar ki qasam!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "page_start": 70
+}

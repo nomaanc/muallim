@@ -1,0 +1,2150 @@
+{
+  "lesson_id": 15,
+  "lesson_key": "S6L15",
+  "stage_id": 6,
+  "title": "Fe'l Nahi Wahid Muzakkar: Laa Tazlim, Laa Tad'u & Laa Takhaf",
+  "arabic_Focus": "تَظْلِمُ ← لَا تَظْلِمْ (لَا تَدْعُ ، لَا تَخَفْ ، لَا تَقُلْ)",
+  "hinglish_Focus": "Tu zulm mat kar!, Mat pukar!, Mat dar!, Mat keh!",
+  "page_numbers": "64-65",
+  "sections": [
+    {
+      "type": "hero_header",
+      "arabic": "تَظْلِمُ ← لَا تَظْلِمْ ← تَدْعُو ← لَا تَدْعُ ، تَخَافُ ← لَا تَخَفْ",
+      "hinglish": "Tu zulm karta hai ← Tu zulm mat kar! ← Tu pukarta hai ← Mat pukar!, Tu darta hai ← Mat dar!",
+      "arabic_word": "تَظْلِمُ ← لَا تَظْلِمْ",
+      "arabic_combined": "تَظْلِمُ ← لَا تَظْلِمْ ← تَدْعُو ← لَا تَدْعُ ، تَخَافُ ← لَا تَخَفْ",
+      "hinglish_word": "Tu zulm karta hai ← Tu zulm mat kar!",
+      "hinglish_combined": "Tu zulm karta hai ← Tu zulm mat kar! ← Tu pukarta hai ← Mat pukar!, Tu darta hai ← Mat dar!",
+      "title_en": "Lesson 15: Fe'l Nahi Wahid Muzakkar (Laa Tazlim & Laa Takhaf)",
+      "subtitle": "Pages 64–65 | Ek Fard ko Mana Karne ke liye لَا + Jazm (Sukoon) aur Huruf-e-'Illat ka Girna",
+      "transformations": [
+        {
+          "from_ar": "تَظْلِمُ ← لَا تَظْلِمْ",
+          "to_ar": "تَدْعُو ← لَا تَدْعُ ، تَخَافُ ← لَا تَخَفْ",
+          "from_hn": "Tu zulm karta hai ← Tu zulm mat kar!",
+          "to_hn": "Tu pukarta hai ← Mat pukar!, Tu darta hai ← Mat dar!"
+        }
+      ],
+      "data": {
+        "arabic": "تَظْلِمُ ← لَا تَظْلِمْ ← تَدْعُو ← لَا تَدْعُ ، تَخَافُ ← لَا تَخَفْ",
+        "hinglish": "Tu zulm karta hai ← Tu zulm mat kar! ← Tu pukarta hai ← Mat pukar!, Tu darta hai ← Mat dar!",
+        "arabic_word": "تَظْلِمُ ← لَا تَظْلِمْ",
+        "arabic_combined": "تَظْلِمُ ← لَا تَظْلِمْ ← تَدْعُو ← لَا تَدْعُ ، تَخَافُ ← لَا تَخَفْ",
+        "hinglish_word": "Tu zulm karta hai ← Tu zulm mat kar!",
+        "hinglish_combined": "Tu zulm karta hai ← Tu zulm mat kar! ← Tu pukarta hai ← Mat pukar!, Tu darta hai ← Mat dar!",
+        "title_en": "Lesson 15: Fe'l Nahi Wahid Muzakkar (Laa Tazlim & Laa Takhaf)",
+        "subtitle": "Pages 64–65 | Ek Fard ko Mana Karne ke liye لَا + Jazm (Sukoon) aur Huruf-e-'Illat ka Girna",
+        "transformations": [
+          {
+            "from_ar": "تَظْلِمُ ← لَا تَظْلِمْ",
+            "to_ar": "تَدْعُو ← لَا تَدْعُ ، تَخَافُ ← لَا تَخَفْ",
+            "from_hn": "Tu zulm karta hai ← Tu zulm mat kar!",
+            "to_hn": "Tu pukarta hai ← Mat pukar!, Tu darta hai ← Mat dar!"
+          }
+        ]
+      }
+    },
+    {
+      "type": "intro_table",
+      "title": "Fe'l Muzare Wahid (تَفْعَلُ) se Fe'l Nahi Wahid (لَا تَفْعَلْ) Banne ke 2 Qaide (Pages 64–65)",
+      "headers": [
+        "Fe'l ki Qism",
+        "Fe'l Muzare Wahid",
+        "Fe'l Nahi Wahid",
+        "Qaida & Hinglish Tarjuma"
+      ],
+      "rows": [
+        [
+          "1. Saheeh Fe'l",
+          "تَظْلِمُ ، تَدْعُو ، تَخَافُ ، تَقُولُ ، تَحْزَنُ",
+          "لَا تَظْلِمْ / لَا تَحْزَنْ / لَا تُشْرِكْ",
+          "Aakhiri harf par Pesh (ـُ) ki jagah Jazm (ـْ): Zulm mat kar! / Gham mat kar!"
+        ],
+        [
+          "2. Aakhir mein و / ي",
+          "تَدْعُو / تَمْشِي / تَبْغِي",
+          "لَا تَدْعُ / لَا تَمْشِ / لَا تَبْغِ",
+          "Aakhiri و ya ي gir jaata hai: Mat pukar! / Mat chal! / Mat dhoond!"
+        ],
+        [
+          "3. Darmiyan mein و / ي / ا",
+          "تَخَافُ / تَكُونُ / تَقُولُ / تُطِيعُ",
+          "لَا تَخَفْ / لَا تَكُنْ / لَا تَقُلْ / لَا تُطِعْ",
+          "Darmiyani harf-e-'illat gir jaata hai aur aakhir par Jazm: Mat dar! / Mat ban! / Mat keh!"
+        ]
+      ],
+      "data": {
+        "title": "Fe'l Muzare Wahid (تَفْعَلُ) se Fe'l Nahi Wahid (لَا تَفْعَلْ) Banne ke 2 Qaide (Pages 64–65)",
+        "headers": [
+          "Fe'l ki Qism",
+          "Fe'l Muzare Wahid",
+          "Fe'l Nahi Wahid",
+          "Qaida & Hinglish Tarjuma"
+        ],
+        "rows": [
+          [
+            "1. Saheeh Fe'l",
+            "تَظْلِمُ ، تَدْعُو ، تَخَافُ ، تَقُولُ ، تَحْزَنُ",
+            "لَا تَظْلِمْ / لَا تَحْزَنْ / لَا تُشْرِكْ",
+            "Aakhiri harf par Pesh (ـُ) ki jagah Jazm (ـْ): Zulm mat kar! / Gham mat kar!"
+          ],
+          [
+            "2. Aakhir mein و / ي",
+            "تَدْعُو / تَمْشِي / تَبْغِي",
+            "لَا تَدْعُ / لَا تَمْشِ / لَا تَبْغِ",
+            "Aakhiri و ya ي gir jaata hai: Mat pukar! / Mat chal! / Mat dhoond!"
+          ],
+          [
+            "3. Darmiyan mein و / ي / ا",
+            "تَخَافُ / تَكُونُ / تَقُولُ / تُطِيعُ",
+            "لَا تَخَفْ / لَا تَكُنْ / لَا تَقُلْ / لَا تُطِعْ",
+            "Darmiyani harf-e-'illat gir jaata hai aur aakhir par Jazm: Mat dar! / Mat ban! / Mat keh!"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "rule_paragraph",
+      "text": "<div class=\"lesson-concept-svg\" style=\"margin:12px 0 16px 0;\"><svg viewBox=\"0 0 800 236\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:linear-gradient(135deg,#f8fafc 0%,#eff6ff 100%);border:1px solid #cbd5e1;border-radius:14px;box-shadow:0 2px 8px rgba(15,23,42,0.05);\"><rect x=\"24\" y=\"16\" width=\"752\" height=\"34\" rx=\"8\" fill=\"#0f172a\"/><text x=\"400\" y=\"38\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#f8fafc\" text-anchor=\"middle\">UNIT 6 LESSON 15 • FE'L NAHI WAHID MUZAKKAR (لَا تَفْعَلْ)</text><rect x=\"32\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ffffff\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"190\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#475569\" text-anchor=\"middle\">FE'L MUZARE WAHID (Pesh ـُ)</text><text x=\"190\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" direction=\"rtl\">تَظْلِمُ / تَدْعُو / تَخَافُ</text><text x=\"190\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\">Tu zulm karta hai / pukarta hai / darta hai</text><circle cx=\"400\" cy=\"139\" r=\"24\" fill=\"#059669\"/><text x=\"400\" y=\"146\" font-family=\"system-ui,sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#ffffff\" text-anchor=\"middle\">←</text><rect x=\"452\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/><text x=\"610\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#047857\" text-anchor=\"middle\">FE'L NAHI WAHID (لَا + Jazm ـْ)</text><text x=\"610\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#065f46\" text-anchor=\"middle\" direction=\"rtl\">لَا تَظْلِمْ / لَا تَدْعُ / لَا تَخَفْ</text><text x=\"610\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\">Tu zulm mat kar! / Mat pukar! / Mat dar!</text></svg></div>Saamne maujood <b>ek fard (Wahid Mukhaatab)</b> ko kisi kaam se mana karna ho toh fe'l muzare ki <b>تَظْلِمُ</b> waali shakl ke shuru mein <b>لَا (mat)</b> ka izaafa kiya jaata hai aur aakhiri harf ki <b>Pesh (ـُ)</b> ko <b>Jazm (Sukoon ـْ)</b> mein badal diya jaata hai (jaise <b>تَظْلِمُ ← لَا تَظْلِمْ</b>: tu zulm mat kar!). Aur agar fe'l ke aakhir ya aakhir se pehle <b>و ، ي ، ا</b> ho toh woh gir jaata hai (jaise <b>تَدْعُو ← لَا تَدْعُ</b>, <b>تَخَافُ ← لَا تَخَفْ</b>, <b>تَقُولُ ← لَا تَقُلْ</b>):",
+      "content": "<div class=\"lesson-concept-svg\" style=\"margin:12px 0 16px 0;\"><svg viewBox=\"0 0 800 236\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:linear-gradient(135deg,#f8fafc 0%,#eff6ff 100%);border:1px solid #cbd5e1;border-radius:14px;box-shadow:0 2px 8px rgba(15,23,42,0.05);\"><rect x=\"24\" y=\"16\" width=\"752\" height=\"34\" rx=\"8\" fill=\"#0f172a\"/><text x=\"400\" y=\"38\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#f8fafc\" text-anchor=\"middle\">UNIT 6 LESSON 15 • FE'L NAHI WAHID MUZAKKAR (لَا تَفْعَلْ)</text><rect x=\"32\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ffffff\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"190\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#475569\" text-anchor=\"middle\">FE'L MUZARE WAHID (Pesh ـُ)</text><text x=\"190\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" direction=\"rtl\">تَظْلِمُ / تَدْعُو / تَخَافُ</text><text x=\"190\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\">Tu zulm karta hai / pukarta hai / darta hai</text><circle cx=\"400\" cy=\"139\" r=\"24\" fill=\"#059669\"/><text x=\"400\" y=\"146\" font-family=\"system-ui,sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#ffffff\" text-anchor=\"middle\">←</text><rect x=\"452\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/><text x=\"610\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#047857\" text-anchor=\"middle\">FE'L NAHI WAHID (لَا + Jazm ـْ)</text><text x=\"610\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#065f46\" text-anchor=\"middle\" direction=\"rtl\">لَا تَظْلِمْ / لَا تَدْعُ / لَا تَخَفْ</text><text x=\"610\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\">Tu zulm mat kar! / Mat pukar! / Mat dar!</text></svg></div>Saamne maujood <b>ek fard (Wahid Mukhaatab)</b> ko kisi kaam se mana karna ho toh fe'l muzare ki <b>تَظْلِمُ</b> waali shakl ke shuru mein <b>لَا (mat)</b> ka izaafa kiya jaata hai aur aakhiri harf ki <b>Pesh (ـُ)</b> ko <b>Jazm (Sukoon ـْ)</b> mein badal diya jaata hai (jaise <b>تَظْلِمُ ← لَا تَظْلِمْ</b>: tu zulm mat kar!). Aur agar fe'l ke aakhir ya aakhir se pehle <b>و ، ي ، ا</b> ho toh woh gir jaata hai (jaise <b>تَدْعُو ← لَا تَدْعُ</b>, <b>تَخَافُ ← لَا تَخَفْ</b>, <b>تَقُولُ ← لَا تَقُلْ</b>):",
+      "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:12px 0 16px 0;\"><svg viewBox=\"0 0 800 236\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:linear-gradient(135deg,#f8fafc 0%,#eff6ff 100%);border:1px solid #cbd5e1;border-radius:14px;box-shadow:0 2px 8px rgba(15,23,42,0.05);\"><rect x=\"24\" y=\"16\" width=\"752\" height=\"34\" rx=\"8\" fill=\"#0f172a\"/><text x=\"400\" y=\"38\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#f8fafc\" text-anchor=\"middle\">UNIT 6 LESSON 15 • FE'L NAHI WAHID MUZAKKAR (لَا تَفْعَلْ)</text><rect x=\"32\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ffffff\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"190\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#475569\" text-anchor=\"middle\">FE'L MUZARE WAHID (Pesh ـُ)</text><text x=\"190\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" direction=\"rtl\">تَظْلِمُ / تَدْعُو / تَخَافُ</text><text x=\"190\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\">Tu zulm karta hai / pukarta hai / darta hai</text><circle cx=\"400\" cy=\"139\" r=\"24\" fill=\"#059669\"/><text x=\"400\" y=\"146\" font-family=\"system-ui,sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#ffffff\" text-anchor=\"middle\">←</text><rect x=\"452\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/><text x=\"610\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#047857\" text-anchor=\"middle\">FE'L NAHI WAHID (لَا + Jazm ـْ)</text><text x=\"610\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#065f46\" text-anchor=\"middle\" direction=\"rtl\">لَا تَظْلِمْ / لَا تَدْعُ / لَا تَخَفْ</text><text x=\"610\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\">Tu zulm mat kar! / Mat pukar! / Mat dar!</text></svg></div>Saamne maujood <b>ek fard (Wahid Mukhaatab)</b> ko kisi kaam se mana karna ho toh fe'l muzare ki <b>تَظْلِمُ</b> waali shakl ke shuru mein <b>لَا (mat)</b> ka izaafa kiya jaata hai aur aakhiri harf ki <b>Pesh (ـُ)</b> ko <b>Jazm (Sukoon ـْ)</b> mein badal diya jaata hai (jaise <b>تَظْلِمُ ← لَا تَظْلِمْ</b>: tu zulm mat kar!). Aur agar fe'l ke aakhir ya aakhir se pehle <b>و ، ي ، ا</b> ho toh woh gir jaata hai (jaise <b>تَدْعُو ← لَا تَدْعُ</b>, <b>تَخَافُ ← لَا تَخَفْ</b>, <b>تَقُولُ ← لَا تَقُلْ</b>):",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:12px 0 16px 0;\"><svg viewBox=\"0 0 800 236\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:linear-gradient(135deg,#f8fafc 0%,#eff6ff 100%);border:1px solid #cbd5e1;border-radius:14px;box-shadow:0 2px 8px rgba(15,23,42,0.05);\"><rect x=\"24\" y=\"16\" width=\"752\" height=\"34\" rx=\"8\" fill=\"#0f172a\"/><text x=\"400\" y=\"38\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#f8fafc\" text-anchor=\"middle\">UNIT 6 LESSON 15 • FE'L NAHI WAHID MUZAKKAR (لَا تَفْعَلْ)</text><rect x=\"32\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ffffff\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"190\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#475569\" text-anchor=\"middle\">FE'L MUZARE WAHID (Pesh ـُ)</text><text x=\"190\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" direction=\"rtl\">تَظْلِمُ / تَدْعُو / تَخَافُ</text><text x=\"190\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\">Tu zulm karta hai / pukarta hai / darta hai</text><circle cx=\"400\" cy=\"139\" r=\"24\" fill=\"#059669\"/><text x=\"400\" y=\"146\" font-family=\"system-ui,sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#ffffff\" text-anchor=\"middle\">←</text><rect x=\"452\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/><text x=\"610\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#047857\" text-anchor=\"middle\">FE'L NAHI WAHID (لَا + Jazm ـْ)</text><text x=\"610\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#065f46\" text-anchor=\"middle\" direction=\"rtl\">لَا تَظْلِمْ / لَا تَدْعُ / لَا تَخَفْ</text><text x=\"610\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\">Tu zulm mat kar! / Mat pukar! / Mat dar!</text></svg></div>Saamne maujood <b>ek fard (Wahid Mukhaatab)</b> ko kisi kaam se mana karna ho toh fe'l muzare ki <b>تَظْلِمُ</b> waali shakl ke shuru mein <b>لَا (mat)</b> ka izaafa kiya jaata hai aur aakhiri harf ki <b>Pesh (ـُ)</b> ko <b>Jazm (Sukoon ـْ)</b> mein badal diya jaata hai (jaise <b>تَظْلِمُ ← لَا تَظْلِمْ</b>: tu zulm mat kar!). Aur agar fe'l ke aakhir ya aakhir se pehle <b>و ، ي ، ا</b> ho toh woh gir jaata hai (jaise <b>تَدْعُو ← لَا تَدْعُ</b>, <b>تَخَافُ ← لَا تَخَفْ</b>, <b>تَقُولُ ← لَا تَقُلْ</b>):",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:12px 0 16px 0;\"><svg viewBox=\"0 0 800 236\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:linear-gradient(135deg,#f8fafc 0%,#eff6ff 100%);border:1px solid #cbd5e1;border-radius:14px;box-shadow:0 2px 8px rgba(15,23,42,0.05);\"><rect x=\"24\" y=\"16\" width=\"752\" height=\"34\" rx=\"8\" fill=\"#0f172a\"/><text x=\"400\" y=\"38\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#f8fafc\" text-anchor=\"middle\">UNIT 6 LESSON 15 • FE'L NAHI WAHID MUZAKKAR (لَا تَفْعَلْ)</text><rect x=\"32\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ffffff\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"190\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#475569\" text-anchor=\"middle\">FE'L MUZARE WAHID (Pesh ـُ)</text><text x=\"190\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" direction=\"rtl\">تَظْلِمُ / تَدْعُو / تَخَافُ</text><text x=\"190\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\">Tu zulm karta hai / pukarta hai / darta hai</text><circle cx=\"400\" cy=\"139\" r=\"24\" fill=\"#059669\"/><text x=\"400\" y=\"146\" font-family=\"system-ui,sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#ffffff\" text-anchor=\"middle\">←</text><rect x=\"452\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/><text x=\"610\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#047857\" text-anchor=\"middle\">FE'L NAHI WAHID (لَا + Jazm ـْ)</text><text x=\"610\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#065f46\" text-anchor=\"middle\" direction=\"rtl\">لَا تَظْلِمْ / لَا تَدْعُ / لَا تَخَفْ</text><text x=\"610\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\">Tu zulm mat kar! / Mat pukar! / Mat dar!</text></svg></div>Saamne maujood <b>ek fard (Wahid Mukhaatab)</b> ko kisi kaam se mana karna ho toh fe'l muzare ki <b>تَظْلِمُ</b> waali shakl ke shuru mein <b>لَا (mat)</b> ka izaafa kiya jaata hai aur aakhiri harf ki <b>Pesh (ـُ)</b> ko <b>Jazm (Sukoon ـْ)</b> mein badal diya jaata hai (jaise <b>تَظْلِمُ ← لَا تَظْلِمْ</b>: tu zulm mat kar!). Aur agar fe'l ke aakhir ya aakhir se pehle <b>و ، ي ، ا</b> ho toh woh gir jaata hai (jaise <b>تَدْعُو ← لَا تَدْعُ</b>, <b>تَخَافُ ← لَا تَخَفْ</b>, <b>تَقُولُ ← لَا تَقُلْ</b>):",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:12px 0 16px 0;\"><svg viewBox=\"0 0 800 236\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:linear-gradient(135deg,#f8fafc 0%,#eff6ff 100%);border:1px solid #cbd5e1;border-radius:14px;box-shadow:0 2px 8px rgba(15,23,42,0.05);\"><rect x=\"24\" y=\"16\" width=\"752\" height=\"34\" rx=\"8\" fill=\"#0f172a\"/><text x=\"400\" y=\"38\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#f8fafc\" text-anchor=\"middle\">UNIT 6 LESSON 15 • FE'L NAHI WAHID MUZAKKAR (لَا تَفْعَلْ)</text><rect x=\"32\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ffffff\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"190\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#475569\" text-anchor=\"middle\">FE'L MUZARE WAHID (Pesh ـُ)</text><text x=\"190\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" direction=\"rtl\">تَظْلِمُ / تَدْعُو / تَخَافُ</text><text x=\"190\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\">Tu zulm karta hai / pukarta hai / darta hai</text><circle cx=\"400\" cy=\"139\" r=\"24\" fill=\"#059669\"/><text x=\"400\" y=\"146\" font-family=\"system-ui,sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#ffffff\" text-anchor=\"middle\">←</text><rect x=\"452\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/><text x=\"610\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#047857\" text-anchor=\"middle\">FE'L NAHI WAHID (لَا + Jazm ـْ)</text><text x=\"610\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#065f46\" text-anchor=\"middle\" direction=\"rtl\">لَا تَظْلِمْ / لَا تَدْعُ / لَا تَخَفْ</text><text x=\"610\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\">Tu zulm mat kar! / Mat pukar! / Mat dar!</text></svg></div>Saamne maujood <b>ek fard (Wahid Mukhaatab)</b> ko kisi kaam se mana karna ho toh fe'l muzare ki <b>تَظْلِمُ</b> waali shakl ke shuru mein <b>لَا (mat)</b> ka izaafa kiya jaata hai aur aakhiri harf ki <b>Pesh (ـُ)</b> ko <b>Jazm (Sukoon ـْ)</b> mein badal diya jaata hai (jaise <b>تَظْلِمُ ← لَا تَظْلِمْ</b>: tu zulm mat kar!). Aur agar fe'l ke aakhir ya aakhir se pehle <b>و ، ي ، ا</b> ho toh woh gir jaata hai (jaise <b>تَدْعُو ← لَا تَدْعُ</b>, <b>تَخَافُ ← لَا تَخَفْ</b>, <b>تَقُولُ ← لَا تَقُلْ</b>):"
+      }
+    },
+    {
+      "type": "section_label",
+      "text": "1. تَظْلِمُ ← لَا تَظْلِمْ aur تَدْعُو ← لَا تَدْعُ / تَخَافُ ← لَا تَخَفْ Grids (Pages 64–65)",
+      "title": "1. تَظْلِمُ ← لَا تَظْلِمْ aur تَدْعُو ← لَا تَدْعُ / تَخَافُ ← لَا تَخَفْ Grids (Pages 64–65)",
+      "label": "1. تَظْلِمُ ← لَا تَظْلِمْ aur تَدْعُو ← لَا تَدْعُ / تَخَافُ ← لَا تَخَفْ Grids (Pages 64–65)",
+      "data": {
+        "text": "1. تَظْلِمُ ← لَا تَظْلِمْ aur تَدْعُو ← لَا تَدْعُ / تَخَافُ ← لَا تَخَفْ Grids (Pages 64–65)",
+        "title": "1. تَظْلِمُ ← لَا تَظْلِمْ aur تَدْعُو ← لَا تَدْعُ / تَخَافُ ← لَا تَخَفْ Grids (Pages 64–65)",
+        "label": "1. تَظْلِمُ ← لَا تَظْلِمْ aur تَدْعُو ← لَا تَدْعُ / تَخَافُ ← لَا تَخَفْ Grids (Pages 64–65)"
+      }
+    },
+    {
+      "type": "two_col_numbered_list",
+      "is_numbered": false,
+      "items": [
+        {
+          "id": "s6l15_grid_w1",
+          "arabic": "تَقْعُدُ : لَا تَقْعُدْ",
+          "arabic_text": "تَقْعُدُ : لَا تَقْعُدْ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قْعُدُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قْعُدْ</span>",
+          "hinglish": "Tu baithta hai : Tu mat baith!",
+          "hinglish_meaning": "Tu baithta hai : Tu mat baith!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu baithta hai : Tu mat baith!",
+            "ur": "Tu baithta hai : Tu mat baith!",
+            "en": "Tu baithta hai : Tu mat baith!",
+            "hi": "Tu baithta hai : Tu mat baith!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w2",
+          "arabic": "تَحْزَنُ : لَا تَحْزَنْ",
+          "arabic_text": "تَحْزَنُ : لَا تَحْزَنْ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">حْزَنُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">حْزَنْ</span>",
+          "hinglish": "Tu gham karta hai : Tu gham mat kar!",
+          "hinglish_meaning": "Tu gham karta hai : Tu gham mat kar!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu gham karta hai : Tu gham mat kar!",
+            "ur": "Tu gham karta hai : Tu gham mat kar!",
+            "en": "Tu gham karta hai : Tu gham mat kar!",
+            "hi": "Tu gham karta hai : Tu gham mat kar!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w3",
+          "arabic": "تَظْلِمُ : لَا تَظْلِمْ",
+          "arabic_text": "تَظْلِمُ : لَا تَظْلِمْ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">ظْلِمُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">ظْلِمْ</span>",
+          "hinglish": "Tu zulm karta hai : Tu zulm mat kar!",
+          "hinglish_meaning": "Tu zulm karta hai : Tu zulm mat kar!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu zulm karta hai : Tu zulm mat kar!",
+            "ur": "Tu zulm karta hai : Tu zulm mat kar!",
+            "en": "Tu zulm karta hai : Tu zulm mat kar!",
+            "hi": "Tu zulm karta hai : Tu zulm mat kar!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w4",
+          "arabic": "تُشْرِكُ : لَا تُشْرِكْ",
+          "arabic_text": "تُشْرِكُ : لَا تُشْرِكْ",
+          "arabic_markup": "<span class=\"nonroot\">تُ</span><span class=\"arabic-root\">شْرِكُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">شْرِكْ</span>",
+          "hinglish": "Tu shirk karta hai : Tu shirk mat kar!",
+          "hinglish_meaning": "Tu shirk karta hai : Tu shirk mat kar!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu shirk karta hai : Tu shirk mat kar!",
+            "ur": "Tu shirk karta hai : Tu shirk mat kar!",
+            "en": "Tu shirk karta hai : Tu shirk mat kar!",
+            "hi": "Tu shirk karta hai : Tu shirk mat kar!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w5",
+          "arabic": "تَجْعَلُ : لَا تَجْعَلْ",
+          "arabic_text": "تَجْعَلُ : لَا تَجْعَلْ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">جْعَلُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">جْعَلْ</span>",
+          "hinglish": "Tu banata hai : Tu mat bana!",
+          "hinglish_meaning": "Tu banata hai : Tu mat bana!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu banata hai : Tu mat bana!",
+            "ur": "Tu banata hai : Tu mat bana!",
+            "en": "Tu banata hai : Tu mat bana!",
+            "hi": "Tu banata hai : Tu mat bana!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w6",
+          "arabic": "تَعْبُدُ : لَا تَعْبُدْ",
+          "arabic_text": "تَعْبُدُ : لَا تَعْبُدْ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">عْبُدُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">عْبُدْ</span>",
+          "hinglish": "Tu ibadat karta hai : Tu ibadat mat kar!",
+          "hinglish_meaning": "Tu ibadat karta hai : Tu ibadat mat kar!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu ibadat karta hai : Tu ibadat mat kar!",
+            "ur": "Tu ibadat karta hai : Tu ibadat mat kar!",
+            "en": "Tu ibadat karta hai : Tu ibadat mat kar!",
+            "hi": "Tu ibadat karta hai : Tu ibadat mat kar!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w7",
+          "arabic": "تَطْرُدُ : لَا تَطْرُدْ",
+          "arabic_text": "تَطْرُدُ : لَا تَطْرُدْ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">طْرُدُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">طْرُدْ</span>",
+          "hinglish": "Tu door hatata hai : Tu mat dhutkar (nikal)!",
+          "hinglish_meaning": "Tu door hatata hai : Tu mat dhutkar (nikal)!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu door hatata hai : Tu mat dhutkar (nikal)!",
+            "ur": "Tu door hatata hai : Tu mat dhutkar (nikal)!",
+            "en": "Tu door hatata hai : Tu mat dhutkar (nikal)!",
+            "hi": "Tu door hatata hai : Tu mat dhutkar (nikal)!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w8",
+          "arabic": "تَعْجَلُ : لَا تَعْجَلْ",
+          "arabic_text": "تَعْجَلُ : لَا تَعْجَلْ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">عْجَلُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">عْجَلْ</span>",
+          "hinglish": "Tu jaldi karta hai : Tu jaldi mat kar!",
+          "hinglish_meaning": "Tu jaldi karta hai : Tu jaldi mat kar!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu jaldi karta hai : Tu jaldi mat kar!",
+            "ur": "Tu jaldi karta hai : Tu jaldi mat kar!",
+            "en": "Tu jaldi karta hai : Tu jaldi mat kar!",
+            "hi": "Tu jaldi karta hai : Tu jaldi mat kar!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w9",
+          "arabic": "تَذْهَبُ : لَا تَذْهَبْ",
+          "arabic_text": "تَذْهَبُ : لَا تَذْهَبْ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">ذْهَبُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">ذْهَبْ</span>",
+          "hinglish": "Tu jaata hai : Tu mat ja!",
+          "hinglish_meaning": "Tu jaata hai : Tu mat ja!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu jaata hai : Tu mat ja!",
+            "ur": "Tu jaata hai : Tu mat ja!",
+            "en": "Tu jaata hai : Tu mat ja!",
+            "hi": "Tu jaata hai : Tu mat ja!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w10",
+          "arabic": "تَسْأَلُ : لَا تَسْأَلْ",
+          "arabic_text": "تَسْأَلُ : لَا تَسْأَلْ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">سْأَلُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">سْأَلْ</span>",
+          "hinglish": "Tu sawaal karta hai : Tu sawaal mat kar!",
+          "hinglish_meaning": "Tu sawaal karta hai : Tu sawaal mat kar!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu sawaal karta hai : Tu sawaal mat kar!",
+            "ur": "Tu sawaal karta hai : Tu sawaal mat kar!",
+            "en": "Tu sawaal karta hai : Tu sawaal mat kar!",
+            "hi": "Tu sawaal karta hai : Tu sawaal mat kar!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w11",
+          "arabic": "تُصَعِّرُ : لَا تُصَعِّرْ",
+          "arabic_text": "تُصَعِّرُ : لَا تُصَعِّرْ",
+          "arabic_markup": "<span class=\"nonroot\">تُ</span><span class=\"arabic-root\">صَعِّرُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">صَعِّرْ</span>",
+          "hinglish": "Tu rukh pherta hai : Tu (takabbur se) gaal mat phula!",
+          "hinglish_meaning": "Tu rukh pherta hai : Tu (takabbur se) gaal mat phula!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu rukh pherta hai : Tu (takabbur se) gaal mat phula!",
+            "ur": "Tu rukh pherta hai : Tu (takabbur se) gaal mat phula!",
+            "en": "Tu rukh pherta hai : Tu (takabbur se) gaal mat phula!",
+            "hi": "Tu rukh pherta hai : Tu (takabbur se) gaal mat phula!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w12",
+          "arabic": "تَمْنُنُ : لَا تَمْنُنْ",
+          "arabic_text": "تَمْنُنُ : لَا تَمْنُنْ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">مْنُنُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">مْنُنْ</span>",
+          "hinglish": "Tu ehsaan rakhta hai : Tu zyada paane ke liye ehsaan mat kar!",
+          "hinglish_meaning": "Tu ehsaan rakhta hai : Tu zyada paane ke liye ehsaan mat kar!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu ehsaan rakhta hai : Tu zyada paane ke liye ehsaan mat kar!",
+            "ur": "Tu ehsaan rakhta hai : Tu zyada paane ke liye ehsaan mat kar!",
+            "en": "Tu ehsaan rakhta hai : Tu zyada paane ke liye ehsaan mat kar!",
+            "hi": "Tu ehsaan rakhta hai : Tu zyada paane ke liye ehsaan mat kar!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w13",
+          "arabic": "تَقْهَرُ : لَا تَقْهَرْ",
+          "arabic_text": "تَقْهَرُ : لَا تَقْهَرْ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قْهَرُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قْهَرْ</span>",
+          "hinglish": "Tu dabata hai : Tu (yateem par) sakhti mat kar!",
+          "hinglish_meaning": "Tu dabata hai : Tu (yateem par) sakhti mat kar!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu dabata hai : Tu (yateem par) sakhti mat kar!",
+            "ur": "Tu dabata hai : Tu (yateem par) sakhti mat kar!",
+            "en": "Tu dabata hai : Tu (yateem par) sakhti mat kar!",
+            "hi": "Tu dabata hai : Tu (yateem par) sakhti mat kar!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w14",
+          "arabic": "تَنْهَرُ : لَا تَنْهَرْ",
+          "arabic_text": "تَنْهَرُ : لَا تَنْهَرْ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">نْهَرُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">نْهَرْ</span>",
+          "hinglish": "Tu jhidakta hai : Tu (saa'il ko) mat jhidak!",
+          "hinglish_meaning": "Tu jhidakta hai : Tu (saa'il ko) mat jhidak!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu jhidakta hai : Tu (saa'il ko) mat jhidak!",
+            "ur": "Tu jhidakta hai : Tu (saa'il ko) mat jhidak!",
+            "en": "Tu jhidakta hai : Tu (saa'il ko) mat jhidak!",
+            "hi": "Tu jhidakta hai : Tu (saa'il ko) mat jhidak!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w15",
+          "arabic": "تَتَّبِعُ : لَا تَتَّبِعْ",
+          "arabic_text": "تَتَّبِعُ : لَا تَتَّبِعْ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">تَّبِعُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">تَّبِعْ</span>",
+          "hinglish": "Tu pairwi karta hai : Tu pairwi mat kar!",
+          "hinglish_meaning": "Tu pairwi karta hai : Tu pairwi mat kar!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu pairwi karta hai : Tu pairwi mat kar!",
+            "ur": "Tu pairwi karta hai : Tu pairwi mat kar!",
+            "en": "Tu pairwi karta hai : Tu pairwi mat kar!",
+            "hi": "Tu pairwi karta hai : Tu pairwi mat kar!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w16",
+          "arabic": "تُكَذِّبُ : لَا تُكَذِّبْ",
+          "arabic_text": "تُكَذِّبُ : لَا تُكَذِّبْ",
+          "arabic_markup": "<span class=\"nonroot\">تُ</span><span class=\"arabic-root\">كَذِّبُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">كَذِّبْ</span>",
+          "hinglish": "Tu jhutlaata hai : Tu mat jhutla!",
+          "hinglish_meaning": "Tu jhutlaata hai : Tu mat jhutla!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu jhutlaata hai : Tu mat jhutla!",
+            "ur": "Tu jhutlaata hai : Tu mat jhutla!",
+            "en": "Tu jhutlaata hai : Tu mat jhutla!",
+            "hi": "Tu jhutlaata hai : Tu mat jhutla!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w17",
+          "arabic": "تَذَرُ : لَا تَذَرْ",
+          "arabic_text": "تَذَرُ : لَا تَذَرْ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">ذَرُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">ذَرْ</span>",
+          "hinglish": "Tu chhodta hai : Tu mat chhod!",
+          "hinglish_meaning": "Tu chhodta hai : Tu mat chhod!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu chhodta hai : Tu mat chhod!",
+            "ur": "Tu chhodta hai : Tu mat chhod!",
+            "en": "Tu chhodta hai : Tu mat chhod!",
+            "hi": "Tu chhodta hai : Tu mat chhod!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w18",
+          "arabic": "تَحْسَبُ : لَا تَحْسَبْ",
+          "arabic_text": "تَحْسَبُ : لَا تَحْسَبْ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">حْسَبُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">حْسَبْ</span>",
+          "hinglish": "Tu gumaan karta hai : Tu gumaan mat kar!",
+          "hinglish_meaning": "Tu gumaan karta hai : Tu gumaan mat kar!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu gumaan karta hai : Tu gumaan mat kar!",
+            "ur": "Tu gumaan karta hai : Tu gumaan mat kar!",
+            "en": "Tu gumaan karta hai : Tu gumaan mat kar!",
+            "hi": "Tu gumaan karta hai : Tu gumaan mat kar!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w19",
+          "arabic": "تَدْعُو : لَا تَدْعُ",
+          "arabic_text": "تَدْعُو : لَا تَدْعُ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">دْعُو</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">دْعُ</span>",
+          "hinglish": "Tu pukarta hai : Tu mat pukar!",
+          "hinglish_meaning": "Tu pukarta hai : Tu mat pukar!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu pukarta hai : Tu mat pukar!",
+            "ur": "Tu pukarta hai : Tu mat pukar!",
+            "en": "Tu pukarta hai : Tu mat pukar!",
+            "hi": "Tu pukarta hai : Tu mat pukar!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w20",
+          "arabic": "تَمْشِي : لَا تَمْشِ",
+          "arabic_text": "تَمْشِي : لَا تَمْشِ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">مْشِي</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">مْشِ</span>",
+          "hinglish": "Tu chalta hai : Tu (akad kar) mat chal!",
+          "hinglish_meaning": "Tu chalta hai : Tu (akad kar) mat chal!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu chalta hai : Tu (akad kar) mat chal!",
+            "ur": "Tu chalta hai : Tu (akad kar) mat chal!",
+            "en": "Tu chalta hai : Tu (akad kar) mat chal!",
+            "hi": "Tu chalta hai : Tu (akad kar) mat chal!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w21",
+          "arabic": "تَبْغِي : لَا تَبْغِ",
+          "arabic_text": "تَبْغِي : لَا تَبْغِ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">بْغِي</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">بْغِ</span>",
+          "hinglish": "Tu dhoondta hai : Tu (fasaad) mat dhoond!",
+          "hinglish_meaning": "Tu dhoondta hai : Tu (fasaad) mat dhoond!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu dhoondta hai : Tu (fasaad) mat dhoond!",
+            "ur": "Tu dhoondta hai : Tu (fasaad) mat dhoond!",
+            "en": "Tu dhoondta hai : Tu (fasaad) mat dhoond!",
+            "hi": "Tu dhoondta hai : Tu (fasaad) mat dhoond!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w22",
+          "arabic": "تُطِيعُ : لَا تُطِعْ",
+          "arabic_text": "تُطِيعُ : لَا تُطِعْ",
+          "arabic_markup": "<span class=\"nonroot\">تُ</span><span class=\"arabic-root\">طِيعُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">طِعْ</span>",
+          "hinglish": "Tu kaha maanta hai : Tu itaa'at mat kar!",
+          "hinglish_meaning": "Tu kaha maanta hai : Tu itaa'at mat kar!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu kaha maanta hai : Tu itaa'at mat kar!",
+            "ur": "Tu kaha maanta hai : Tu itaa'at mat kar!",
+            "en": "Tu kaha maanta hai : Tu itaa'at mat kar!",
+            "hi": "Tu kaha maanta hai : Tu itaa'at mat kar!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w23",
+          "arabic": "تُزِيغُ : لَا تُزِغْ",
+          "arabic_text": "تُزِيغُ : لَا تُزِغْ",
+          "arabic_markup": "<span class=\"nonroot\">تُ</span><span class=\"arabic-root\">زِيغُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">زِغْ</span>",
+          "hinglish": "Tu tedha karta hai : Tu (dilon ko) tedha mat kar!",
+          "hinglish_meaning": "Tu tedha karta hai : Tu (dilon ko) tedha mat kar!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu tedha karta hai : Tu (dilon ko) tedha mat kar!",
+            "ur": "Tu tedha karta hai : Tu (dilon ko) tedha mat kar!",
+            "en": "Tu tedha karta hai : Tu (dilon ko) tedha mat kar!",
+            "hi": "Tu tedha karta hai : Tu (dilon ko) tedha mat kar!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w24",
+          "arabic": "تَخَافُ : لَا تَخَفْ",
+          "arabic_text": "تَخَافُ : لَا تَخَفْ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">خَافُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">خَفْ</span>",
+          "hinglish": "Tu darta hai : Tu mat dar!",
+          "hinglish_meaning": "Tu darta hai : Tu mat dar!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu darta hai : Tu mat dar!",
+            "ur": "Tu darta hai : Tu mat dar!",
+            "en": "Tu darta hai : Tu mat dar!",
+            "hi": "Tu darta hai : Tu mat dar!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w25",
+          "arabic": "تَكُونُ : لَا تَكُنْ",
+          "arabic_text": "تَكُونُ : لَا تَكُنْ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">كُونُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">كُنْ</span>",
+          "hinglish": "Tu hota hai : Tu mat ho (mat ban)!",
+          "hinglish_meaning": "Tu hota hai : Tu mat ho (mat ban)!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu hota hai : Tu mat ho (mat ban)!",
+            "ur": "Tu hota hai : Tu mat ho (mat ban)!",
+            "en": "Tu hota hai : Tu mat ho (mat ban)!",
+            "hi": "Tu hota hai : Tu mat ho (mat ban)!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w26",
+          "arabic": "تَقُومُ : لَا تَقُمْ",
+          "arabic_text": "تَقُومُ : لَا تَقُمْ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قُومُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قُمْ</span>",
+          "hinglish": "Tu khada hota hai : Tu khada mat ho!",
+          "hinglish_meaning": "Tu khada hota hai : Tu khada mat ho!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu khada hota hai : Tu khada mat ho!",
+            "ur": "Tu khada hota hai : Tu khada mat ho!",
+            "en": "Tu khada hota hai : Tu khada mat ho!",
+            "hi": "Tu khada hota hai : Tu khada mat ho!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_grid_w27",
+          "arabic": "تَقُولُ : لَا تَقُلْ",
+          "arabic_text": "تَقُولُ : لَا تَقُلْ",
+          "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قُولُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قُلْ</span>",
+          "hinglish": "Tu kehta hai : Tu mat keh!",
+          "hinglish_meaning": "Tu kehta hai : Tu mat keh!",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tu kehta hai : Tu mat keh!",
+            "ur": "Tu kehta hai : Tu mat keh!",
+            "en": "Tu kehta hai : Tu mat keh!",
+            "hi": "Tu kehta hai : Tu mat keh!",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        }
+      ],
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s6l15_grid_w1",
+            "arabic": "تَقْعُدُ : لَا تَقْعُدْ",
+            "arabic_text": "تَقْعُدُ : لَا تَقْعُدْ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قْعُدُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قْعُدْ</span>",
+            "hinglish": "Tu baithta hai : Tu mat baith!",
+            "hinglish_meaning": "Tu baithta hai : Tu mat baith!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu baithta hai : Tu mat baith!",
+              "ur": "Tu baithta hai : Tu mat baith!",
+              "en": "Tu baithta hai : Tu mat baith!",
+              "hi": "Tu baithta hai : Tu mat baith!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w2",
+            "arabic": "تَحْزَنُ : لَا تَحْزَنْ",
+            "arabic_text": "تَحْزَنُ : لَا تَحْزَنْ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">حْزَنُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">حْزَنْ</span>",
+            "hinglish": "Tu gham karta hai : Tu gham mat kar!",
+            "hinglish_meaning": "Tu gham karta hai : Tu gham mat kar!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu gham karta hai : Tu gham mat kar!",
+              "ur": "Tu gham karta hai : Tu gham mat kar!",
+              "en": "Tu gham karta hai : Tu gham mat kar!",
+              "hi": "Tu gham karta hai : Tu gham mat kar!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w3",
+            "arabic": "تَظْلِمُ : لَا تَظْلِمْ",
+            "arabic_text": "تَظْلِمُ : لَا تَظْلِمْ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">ظْلِمُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">ظْلِمْ</span>",
+            "hinglish": "Tu zulm karta hai : Tu zulm mat kar!",
+            "hinglish_meaning": "Tu zulm karta hai : Tu zulm mat kar!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu zulm karta hai : Tu zulm mat kar!",
+              "ur": "Tu zulm karta hai : Tu zulm mat kar!",
+              "en": "Tu zulm karta hai : Tu zulm mat kar!",
+              "hi": "Tu zulm karta hai : Tu zulm mat kar!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w4",
+            "arabic": "تُشْرِكُ : لَا تُشْرِكْ",
+            "arabic_text": "تُشْرِكُ : لَا تُشْرِكْ",
+            "arabic_markup": "<span class=\"nonroot\">تُ</span><span class=\"arabic-root\">شْرِكُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">شْرِكْ</span>",
+            "hinglish": "Tu shirk karta hai : Tu shirk mat kar!",
+            "hinglish_meaning": "Tu shirk karta hai : Tu shirk mat kar!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu shirk karta hai : Tu shirk mat kar!",
+              "ur": "Tu shirk karta hai : Tu shirk mat kar!",
+              "en": "Tu shirk karta hai : Tu shirk mat kar!",
+              "hi": "Tu shirk karta hai : Tu shirk mat kar!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w5",
+            "arabic": "تَجْعَلُ : لَا تَجْعَلْ",
+            "arabic_text": "تَجْعَلُ : لَا تَجْعَلْ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">جْعَلُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">جْعَلْ</span>",
+            "hinglish": "Tu banata hai : Tu mat bana!",
+            "hinglish_meaning": "Tu banata hai : Tu mat bana!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu banata hai : Tu mat bana!",
+              "ur": "Tu banata hai : Tu mat bana!",
+              "en": "Tu banata hai : Tu mat bana!",
+              "hi": "Tu banata hai : Tu mat bana!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w6",
+            "arabic": "تَعْبُدُ : لَا تَعْبُدْ",
+            "arabic_text": "تَعْبُدُ : لَا تَعْبُدْ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">عْبُدُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">عْبُدْ</span>",
+            "hinglish": "Tu ibadat karta hai : Tu ibadat mat kar!",
+            "hinglish_meaning": "Tu ibadat karta hai : Tu ibadat mat kar!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu ibadat karta hai : Tu ibadat mat kar!",
+              "ur": "Tu ibadat karta hai : Tu ibadat mat kar!",
+              "en": "Tu ibadat karta hai : Tu ibadat mat kar!",
+              "hi": "Tu ibadat karta hai : Tu ibadat mat kar!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w7",
+            "arabic": "تَطْرُدُ : لَا تَطْرُدْ",
+            "arabic_text": "تَطْرُدُ : لَا تَطْرُدْ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">طْرُدُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">طْرُدْ</span>",
+            "hinglish": "Tu door hatata hai : Tu mat dhutkar (nikal)!",
+            "hinglish_meaning": "Tu door hatata hai : Tu mat dhutkar (nikal)!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu door hatata hai : Tu mat dhutkar (nikal)!",
+              "ur": "Tu door hatata hai : Tu mat dhutkar (nikal)!",
+              "en": "Tu door hatata hai : Tu mat dhutkar (nikal)!",
+              "hi": "Tu door hatata hai : Tu mat dhutkar (nikal)!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w8",
+            "arabic": "تَعْجَلُ : لَا تَعْجَلْ",
+            "arabic_text": "تَعْجَلُ : لَا تَعْجَلْ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">عْجَلُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">عْجَلْ</span>",
+            "hinglish": "Tu jaldi karta hai : Tu jaldi mat kar!",
+            "hinglish_meaning": "Tu jaldi karta hai : Tu jaldi mat kar!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu jaldi karta hai : Tu jaldi mat kar!",
+              "ur": "Tu jaldi karta hai : Tu jaldi mat kar!",
+              "en": "Tu jaldi karta hai : Tu jaldi mat kar!",
+              "hi": "Tu jaldi karta hai : Tu jaldi mat kar!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w9",
+            "arabic": "تَذْهَبُ : لَا تَذْهَبْ",
+            "arabic_text": "تَذْهَبُ : لَا تَذْهَبْ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">ذْهَبُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">ذْهَبْ</span>",
+            "hinglish": "Tu jaata hai : Tu mat ja!",
+            "hinglish_meaning": "Tu jaata hai : Tu mat ja!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu jaata hai : Tu mat ja!",
+              "ur": "Tu jaata hai : Tu mat ja!",
+              "en": "Tu jaata hai : Tu mat ja!",
+              "hi": "Tu jaata hai : Tu mat ja!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w10",
+            "arabic": "تَسْأَلُ : لَا تَسْأَلْ",
+            "arabic_text": "تَسْأَلُ : لَا تَسْأَلْ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">سْأَلُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">سْأَلْ</span>",
+            "hinglish": "Tu sawaal karta hai : Tu sawaal mat kar!",
+            "hinglish_meaning": "Tu sawaal karta hai : Tu sawaal mat kar!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu sawaal karta hai : Tu sawaal mat kar!",
+              "ur": "Tu sawaal karta hai : Tu sawaal mat kar!",
+              "en": "Tu sawaal karta hai : Tu sawaal mat kar!",
+              "hi": "Tu sawaal karta hai : Tu sawaal mat kar!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w11",
+            "arabic": "تُصَعِّرُ : لَا تُصَعِّرْ",
+            "arabic_text": "تُصَعِّرُ : لَا تُصَعِّرْ",
+            "arabic_markup": "<span class=\"nonroot\">تُ</span><span class=\"arabic-root\">صَعِّرُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">صَعِّرْ</span>",
+            "hinglish": "Tu rukh pherta hai : Tu (takabbur se) gaal mat phula!",
+            "hinglish_meaning": "Tu rukh pherta hai : Tu (takabbur se) gaal mat phula!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu rukh pherta hai : Tu (takabbur se) gaal mat phula!",
+              "ur": "Tu rukh pherta hai : Tu (takabbur se) gaal mat phula!",
+              "en": "Tu rukh pherta hai : Tu (takabbur se) gaal mat phula!",
+              "hi": "Tu rukh pherta hai : Tu (takabbur se) gaal mat phula!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w12",
+            "arabic": "تَمْنُنُ : لَا تَمْنُنْ",
+            "arabic_text": "تَمْنُنُ : لَا تَمْنُنْ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">مْنُنُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">مْنُنْ</span>",
+            "hinglish": "Tu ehsaan rakhta hai : Tu zyada paane ke liye ehsaan mat kar!",
+            "hinglish_meaning": "Tu ehsaan rakhta hai : Tu zyada paane ke liye ehsaan mat kar!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu ehsaan rakhta hai : Tu zyada paane ke liye ehsaan mat kar!",
+              "ur": "Tu ehsaan rakhta hai : Tu zyada paane ke liye ehsaan mat kar!",
+              "en": "Tu ehsaan rakhta hai : Tu zyada paane ke liye ehsaan mat kar!",
+              "hi": "Tu ehsaan rakhta hai : Tu zyada paane ke liye ehsaan mat kar!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w13",
+            "arabic": "تَقْهَرُ : لَا تَقْهَرْ",
+            "arabic_text": "تَقْهَرُ : لَا تَقْهَرْ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قْهَرُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قْهَرْ</span>",
+            "hinglish": "Tu dabata hai : Tu (yateem par) sakhti mat kar!",
+            "hinglish_meaning": "Tu dabata hai : Tu (yateem par) sakhti mat kar!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu dabata hai : Tu (yateem par) sakhti mat kar!",
+              "ur": "Tu dabata hai : Tu (yateem par) sakhti mat kar!",
+              "en": "Tu dabata hai : Tu (yateem par) sakhti mat kar!",
+              "hi": "Tu dabata hai : Tu (yateem par) sakhti mat kar!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w14",
+            "arabic": "تَنْهَرُ : لَا تَنْهَرْ",
+            "arabic_text": "تَنْهَرُ : لَا تَنْهَرْ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">نْهَرُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">نْهَرْ</span>",
+            "hinglish": "Tu jhidakta hai : Tu (saa'il ko) mat jhidak!",
+            "hinglish_meaning": "Tu jhidakta hai : Tu (saa'il ko) mat jhidak!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu jhidakta hai : Tu (saa'il ko) mat jhidak!",
+              "ur": "Tu jhidakta hai : Tu (saa'il ko) mat jhidak!",
+              "en": "Tu jhidakta hai : Tu (saa'il ko) mat jhidak!",
+              "hi": "Tu jhidakta hai : Tu (saa'il ko) mat jhidak!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w15",
+            "arabic": "تَتَّبِعُ : لَا تَتَّبِعْ",
+            "arabic_text": "تَتَّبِعُ : لَا تَتَّبِعْ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">تَّبِعُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">تَّبِعْ</span>",
+            "hinglish": "Tu pairwi karta hai : Tu pairwi mat kar!",
+            "hinglish_meaning": "Tu pairwi karta hai : Tu pairwi mat kar!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu pairwi karta hai : Tu pairwi mat kar!",
+              "ur": "Tu pairwi karta hai : Tu pairwi mat kar!",
+              "en": "Tu pairwi karta hai : Tu pairwi mat kar!",
+              "hi": "Tu pairwi karta hai : Tu pairwi mat kar!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w16",
+            "arabic": "تُكَذِّبُ : لَا تُكَذِّبْ",
+            "arabic_text": "تُكَذِّبُ : لَا تُكَذِّبْ",
+            "arabic_markup": "<span class=\"nonroot\">تُ</span><span class=\"arabic-root\">كَذِّبُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">كَذِّبْ</span>",
+            "hinglish": "Tu jhutlaata hai : Tu mat jhutla!",
+            "hinglish_meaning": "Tu jhutlaata hai : Tu mat jhutla!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu jhutlaata hai : Tu mat jhutla!",
+              "ur": "Tu jhutlaata hai : Tu mat jhutla!",
+              "en": "Tu jhutlaata hai : Tu mat jhutla!",
+              "hi": "Tu jhutlaata hai : Tu mat jhutla!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w17",
+            "arabic": "تَذَرُ : لَا تَذَرْ",
+            "arabic_text": "تَذَرُ : لَا تَذَرْ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">ذَرُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">ذَرْ</span>",
+            "hinglish": "Tu chhodta hai : Tu mat chhod!",
+            "hinglish_meaning": "Tu chhodta hai : Tu mat chhod!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu chhodta hai : Tu mat chhod!",
+              "ur": "Tu chhodta hai : Tu mat chhod!",
+              "en": "Tu chhodta hai : Tu mat chhod!",
+              "hi": "Tu chhodta hai : Tu mat chhod!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w18",
+            "arabic": "تَحْسَبُ : لَا تَحْسَبْ",
+            "arabic_text": "تَحْسَبُ : لَا تَحْسَبْ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">حْسَبُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">حْسَبْ</span>",
+            "hinglish": "Tu gumaan karta hai : Tu gumaan mat kar!",
+            "hinglish_meaning": "Tu gumaan karta hai : Tu gumaan mat kar!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu gumaan karta hai : Tu gumaan mat kar!",
+              "ur": "Tu gumaan karta hai : Tu gumaan mat kar!",
+              "en": "Tu gumaan karta hai : Tu gumaan mat kar!",
+              "hi": "Tu gumaan karta hai : Tu gumaan mat kar!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w19",
+            "arabic": "تَدْعُو : لَا تَدْعُ",
+            "arabic_text": "تَدْعُو : لَا تَدْعُ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">دْعُو</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">دْعُ</span>",
+            "hinglish": "Tu pukarta hai : Tu mat pukar!",
+            "hinglish_meaning": "Tu pukarta hai : Tu mat pukar!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu pukarta hai : Tu mat pukar!",
+              "ur": "Tu pukarta hai : Tu mat pukar!",
+              "en": "Tu pukarta hai : Tu mat pukar!",
+              "hi": "Tu pukarta hai : Tu mat pukar!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w20",
+            "arabic": "تَمْشِي : لَا تَمْشِ",
+            "arabic_text": "تَمْشِي : لَا تَمْشِ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">مْشِي</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">مْشِ</span>",
+            "hinglish": "Tu chalta hai : Tu (akad kar) mat chal!",
+            "hinglish_meaning": "Tu chalta hai : Tu (akad kar) mat chal!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu chalta hai : Tu (akad kar) mat chal!",
+              "ur": "Tu chalta hai : Tu (akad kar) mat chal!",
+              "en": "Tu chalta hai : Tu (akad kar) mat chal!",
+              "hi": "Tu chalta hai : Tu (akad kar) mat chal!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w21",
+            "arabic": "تَبْغِي : لَا تَبْغِ",
+            "arabic_text": "تَبْغِي : لَا تَبْغِ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">بْغِي</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">بْغِ</span>",
+            "hinglish": "Tu dhoondta hai : Tu (fasaad) mat dhoond!",
+            "hinglish_meaning": "Tu dhoondta hai : Tu (fasaad) mat dhoond!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu dhoondta hai : Tu (fasaad) mat dhoond!",
+              "ur": "Tu dhoondta hai : Tu (fasaad) mat dhoond!",
+              "en": "Tu dhoondta hai : Tu (fasaad) mat dhoond!",
+              "hi": "Tu dhoondta hai : Tu (fasaad) mat dhoond!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w22",
+            "arabic": "تُطِيعُ : لَا تُطِعْ",
+            "arabic_text": "تُطِيعُ : لَا تُطِعْ",
+            "arabic_markup": "<span class=\"nonroot\">تُ</span><span class=\"arabic-root\">طِيعُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">طِعْ</span>",
+            "hinglish": "Tu kaha maanta hai : Tu itaa'at mat kar!",
+            "hinglish_meaning": "Tu kaha maanta hai : Tu itaa'at mat kar!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu kaha maanta hai : Tu itaa'at mat kar!",
+              "ur": "Tu kaha maanta hai : Tu itaa'at mat kar!",
+              "en": "Tu kaha maanta hai : Tu itaa'at mat kar!",
+              "hi": "Tu kaha maanta hai : Tu itaa'at mat kar!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w23",
+            "arabic": "تُزِيغُ : لَا تُزِغْ",
+            "arabic_text": "تُزِيغُ : لَا تُزِغْ",
+            "arabic_markup": "<span class=\"nonroot\">تُ</span><span class=\"arabic-root\">زِيغُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">زِغْ</span>",
+            "hinglish": "Tu tedha karta hai : Tu (dilon ko) tedha mat kar!",
+            "hinglish_meaning": "Tu tedha karta hai : Tu (dilon ko) tedha mat kar!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu tedha karta hai : Tu (dilon ko) tedha mat kar!",
+              "ur": "Tu tedha karta hai : Tu (dilon ko) tedha mat kar!",
+              "en": "Tu tedha karta hai : Tu (dilon ko) tedha mat kar!",
+              "hi": "Tu tedha karta hai : Tu (dilon ko) tedha mat kar!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w24",
+            "arabic": "تَخَافُ : لَا تَخَفْ",
+            "arabic_text": "تَخَافُ : لَا تَخَفْ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">خَافُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">خَفْ</span>",
+            "hinglish": "Tu darta hai : Tu mat dar!",
+            "hinglish_meaning": "Tu darta hai : Tu mat dar!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu darta hai : Tu mat dar!",
+              "ur": "Tu darta hai : Tu mat dar!",
+              "en": "Tu darta hai : Tu mat dar!",
+              "hi": "Tu darta hai : Tu mat dar!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w25",
+            "arabic": "تَكُونُ : لَا تَكُنْ",
+            "arabic_text": "تَكُونُ : لَا تَكُنْ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">كُونُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">كُنْ</span>",
+            "hinglish": "Tu hota hai : Tu mat ho (mat ban)!",
+            "hinglish_meaning": "Tu hota hai : Tu mat ho (mat ban)!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu hota hai : Tu mat ho (mat ban)!",
+              "ur": "Tu hota hai : Tu mat ho (mat ban)!",
+              "en": "Tu hota hai : Tu mat ho (mat ban)!",
+              "hi": "Tu hota hai : Tu mat ho (mat ban)!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w26",
+            "arabic": "تَقُومُ : لَا تَقُمْ",
+            "arabic_text": "تَقُومُ : لَا تَقُمْ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قُومُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قُمْ</span>",
+            "hinglish": "Tu khada hota hai : Tu khada mat ho!",
+            "hinglish_meaning": "Tu khada hota hai : Tu khada mat ho!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu khada hota hai : Tu khada mat ho!",
+              "ur": "Tu khada hota hai : Tu khada mat ho!",
+              "en": "Tu khada hota hai : Tu khada mat ho!",
+              "hi": "Tu khada hota hai : Tu khada mat ho!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_grid_w27",
+            "arabic": "تَقُولُ : لَا تَقُلْ",
+            "arabic_text": "تَقُولُ : لَا تَقُلْ",
+            "arabic_markup": "<span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قُولُ</span> : <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قُلْ</span>",
+            "hinglish": "Tu kehta hai : Tu mat keh!",
+            "hinglish_meaning": "Tu kehta hai : Tu mat keh!",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu kehta hai : Tu mat keh!",
+              "ur": "Tu kehta hai : Tu mat keh!",
+              "en": "Tu kehta hai : Tu mat keh!",
+              "hi": "Tu kehta hai : Tu mat keh!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "section_label",
+      "text": "2. Qur'ani Aayaat: Fe'l Nahi Wahid (لَا تُشْرِكْ ، لَا تَحْزَنْ ، لَا تَدْعُ ، لَا تُطِعْ ، لَا تَخَفْ ، لَا تَكُنْ ، لَا تَقُلْ — Pages 64–65)",
+      "title": "2. Qur'ani Aayaat: Fe'l Nahi Wahid (لَا تُشْرِكْ ، لَا تَحْزَنْ ، لَا تَدْعُ ، لَا تُطِعْ ، لَا تَخَفْ ، لَا تَكُنْ ، لَا تَقُلْ — Pages 64–65)",
+      "label": "2. Qur'ani Aayaat: Fe'l Nahi Wahid (لَا تُشْرِكْ ، لَا تَحْزَنْ ، لَا تَدْعُ ، لَا تُطِعْ ، لَا تَخَفْ ، لَا تَكُنْ ، لَا تَقُلْ — Pages 64–65)",
+      "data": {
+        "text": "2. Qur'ani Aayaat: Fe'l Nahi Wahid (لَا تُشْرِكْ ، لَا تَحْزَنْ ، لَا تَدْعُ ، لَا تُطِعْ ، لَا تَخَفْ ، لَا تَكُنْ ، لَا تَقُلْ — Pages 64–65)",
+        "title": "2. Qur'ani Aayaat: Fe'l Nahi Wahid (لَا تُشْرِكْ ، لَا تَحْزَنْ ، لَا تَدْعُ ، لَا تُطِعْ ، لَا تَخَفْ ، لَا تَكُنْ ، لَا تَقُلْ — Pages 64–65)",
+        "label": "2. Qur'ani Aayaat: Fe'l Nahi Wahid (لَا تُشْرِكْ ، لَا تَحْزَنْ ، لَا تَدْعُ ، لَا تُطِعْ ، لَا تَخَفْ ، لَا تَكُنْ ، لَا تَقُلْ — Pages 64–65)"
+      }
+    },
+    {
+      "type": "two_col_numbered_list",
+      "is_numbered": true,
+      "items": [
+        {
+          "id": "s6l15_v_s1",
+          "sentence_number": 1,
+          "arabic": "لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا",
+          "arabic_text": "لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا",
+          "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">حْزَنْ</span> <span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"arabic-root\">مَع</span><span class=\"nonroot\">َنَا</span>",
+          "hinglish": "Gham mat kar, beshak Allah hamare saath hai",
+          "hinglish_meaning": "Gham mat kar, beshak Allah hamare saath hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Gham mat kar, beshak Allah hamare saath hai",
+            "ur": "Gham mat kar, beshak Allah hamare saath hai",
+            "en": "Gham mat kar, beshak Allah hamare saath hai",
+            "hi": "Gham mat kar, beshak Allah hamare saath hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s2",
+          "sentence_number": 2,
+          "arabic": "يَا بُنَيَّ لَا تُشْرِكْ بِاللَّهِ / إِنَّ الشِّرْكَ لَظُلْمٌ عَظِيمٌ",
+          "arabic_text": "يَا بُنَيَّ لَا تُشْرِكْ بِاللَّهِ / إِنَّ الشِّرْكَ لَظُلْمٌ عَظِيمٌ",
+          "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">بُنَيَّ</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">شْرِكْ</span> <span class=\"arabic-root\">بِاللَّهِ</span> / <span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">الشِّرْكَ</span> <span class=\"arabic-root\">لَظُلْمٌ</span> <span class=\"arabic-root\">عَظِيمٌ</span>",
+          "hinglish": "Ae mere pyare bete! Allah ke saath shirk mat karna, beshak shirk bada bhari zulm hai",
+          "hinglish_meaning": "Ae mere pyare bete! Allah ke saath shirk mat karna, beshak shirk bada bhari zulm hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Ae mere pyare bete! Allah ke saath shirk mat karna, beshak shirk bada bhari zulm hai",
+            "ur": "Ae mere pyare bete! Allah ke saath shirk mat karna, beshak shirk bada bhari zulm hai",
+            "en": "Ae mere pyare bete! Allah ke saath shirk mat karna, beshak shirk bada bhari zulm hai",
+            "hi": "Ae mere pyare bete! Allah ke saath shirk mat karna, beshak shirk bada bhari zulm hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s3",
+          "sentence_number": 3,
+          "arabic": "وَاصْبِرْ وَمَا صَبْرُكَ إِلَّا بِاللَّهِ / وَلَا تَحْزَنْ عَلَيْهِمْ وَلَا تَكُ فِي ضَيْقٍ مِمَّا يَمْكُرُونَ",
+          "arabic_text": "وَاصْبِرْ وَمَا صَبْرُكَ إِلَّا بِاللَّهِ / وَلَا تَحْزَنْ عَلَيْهِمْ وَلَا تَكُ فِي ضَيْقٍ مِمَّا يَمْكُرُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">وَاصْبِرْ</span> <span class=\"arabic-root\">وَمَا</span> <span class=\"arabic-root\">صَبْرُكَ</span> <span class=\"nonroot\">إِلَّا</span> <span class=\"arabic-root\">بِاللَّهِ</span> / <span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">حْزَنْ</span> <span class=\"nonroot\">عَلَيْهِمْ</span> <span class=\"arabic-root\">وَلَا</span> <span class=\"arabic-root\">تَكُ</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">ضَيْقٍ</span> <span class=\"arabic-root\">مِمَّا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">مْكُر</span><span class=\"nonroot\">ُونَ</span>",
+          "hinglish": "Aur sabr kijiye aur aap ka sabr Allah hi ki taufiq se hai, aur un par gham na karein aur jo chaalein yeh chalte hain un se tang-dil na hon",
+          "hinglish_meaning": "Aur sabr kijiye aur aap ka sabr Allah hi ki taufiq se hai, aur un par gham na karein aur jo chaalein yeh chalte hain un se tang-dil na hon",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur sabr kijiye aur aap ka sabr Allah hi ki taufiq se hai, aur un par gham na karein aur jo chaalein yeh chalte hain un se tang-dil na hon",
+            "ur": "Aur sabr kijiye aur aap ka sabr Allah hi ki taufiq se hai, aur un par gham na karein aur jo chaalein yeh chalte hain un se tang-dil na hon",
+            "en": "Aur sabr kijiye aur aap ka sabr Allah hi ki taufiq se hai, aur un par gham na karein aur jo chaalein yeh chalte hain un se tang-dil na hon",
+            "hi": "Aur sabr kijiye aur aap ka sabr Allah hi ki taufiq se hai, aur un par gham na karein aur jo chaalein yeh chalte hain un se tang-dil na hon",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s4",
+          "sentence_number": 4,
+          "arabic": "فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ / وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ",
+          "arabic_text": "فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ / وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ",
+          "arabic_markup": "<span class=\"nonroot\">فَأَ</span><span class=\"arabic-root\">مَّا</span> <span class=\"arabic-root\">الْيَتِيمَ</span> <span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قْهَرْ</span> / <span class=\"nonroot\">وَأَ</span><span class=\"arabic-root\">مَّا</span> <span class=\"arabic-root\">السَّائِلَ</span> <span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">نْهَرْ</span>",
+          "hinglish": "Pas jahan tak yateem ka ta'alluq hai toh uss par sakhti na karein, aur jahan tak maangne waale (saa'il) ka ta'alluq hai toh usey na jhidkein",
+          "hinglish_meaning": "Pas jahan tak yateem ka ta'alluq hai toh uss par sakhti na karein, aur jahan tak maangne waale (saa'il) ka ta'alluq hai toh usey na jhidkein",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Pas jahan tak yateem ka ta'alluq hai toh uss par sakhti na karein, aur jahan tak maangne waale (saa'il) ka ta'alluq hai toh usey na jhidkein",
+            "ur": "Pas jahan tak yateem ka ta'alluq hai toh uss par sakhti na karein, aur jahan tak maangne waale (saa'il) ka ta'alluq hai toh usey na jhidkein",
+            "en": "Pas jahan tak yateem ka ta'alluq hai toh uss par sakhti na karein, aur jahan tak maangne waale (saa'il) ka ta'alluq hai toh usey na jhidkein",
+            "hi": "Pas jahan tak yateem ka ta'alluq hai toh uss par sakhti na karein, aur jahan tak maangne waale (saa'il) ka ta'alluq hai toh usey na jhidkein",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s5",
+          "sentence_number": 5,
+          "arabic": "فَلَا تَقْعُدْ بَعْدَ الذِّكْرَىٰ مَعَ الْقَوْمِ الظَّالِمِينَ",
+          "arabic_text": "فَلَا تَقْعُدْ بَعْدَ الذِّكْرَىٰ مَعَ الْقَوْمِ الظَّالِمِينَ",
+          "arabic_markup": "<span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قْعُدْ</span> <span class=\"arabic-root\">بَعْدَ</span> <span class=\"arabic-root\">الذِّكْرَىٰ</span> <span class=\"arabic-root\">مَعَ</span> <span class=\"arabic-root\">الْقَوْمِ</span> <span class=\"arabic-root\">الظَّالِم</span><span class=\"nonroot\">ِينَ</span>",
+          "hinglish": "Pas yaad aane (naseehat) ke ba'd zaalim logon ke saath mat baitho",
+          "hinglish_meaning": "Pas yaad aane (naseehat) ke ba'd zaalim logon ke saath mat baitho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Pas yaad aane (naseehat) ke ba'd zaalim logon ke saath mat baitho",
+            "ur": "Pas yaad aane (naseehat) ke ba'd zaalim logon ke saath mat baitho",
+            "en": "Pas yaad aane (naseehat) ke ba'd zaalim logon ke saath mat baitho",
+            "hi": "Pas yaad aane (naseehat) ke ba'd zaalim logon ke saath mat baitho",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s6",
+          "sentence_number": 6,
+          "arabic": "يَا أَبَتِ لَا تَعْبُدِ الشَّيْطَانَ / إِنَّ الشَّيْطَانَ كَانَ لِلرَّحْمَٰنِ عَصِيًّا",
+          "arabic_text": "يَا أَبَتِ لَا تَعْبُدِ الشَّيْطَانَ / إِنَّ الشَّيْطَانَ كَانَ لِلرَّحْمَٰنِ عَصِيًّا",
+          "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"nonroot\">أَ</span><span class=\"arabic-root\">بَتِ</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">عْبُدِ</span> <span class=\"arabic-root\">الشَّيْطَانَ</span> / <span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">الشَّيْطَانَ</span> <span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">لِلرَّحْمَٰنِ</span> <span class=\"arabic-root\">عَصِيًّا</span>",
+          "hinglish": "Ae mere abba jaan! Shaitan ki bandagi mat kijiye, beshak Shaitan Rahmaan ka bada na-farmaan hai",
+          "hinglish_meaning": "Ae mere abba jaan! Shaitan ki bandagi mat kijiye, beshak Shaitan Rahmaan ka bada na-farmaan hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Ae mere abba jaan! Shaitan ki bandagi mat kijiye, beshak Shaitan Rahmaan ka bada na-farmaan hai",
+            "ur": "Ae mere abba jaan! Shaitan ki bandagi mat kijiye, beshak Shaitan Rahmaan ka bada na-farmaan hai",
+            "en": "Ae mere abba jaan! Shaitan ki bandagi mat kijiye, beshak Shaitan Rahmaan ka bada na-farmaan hai",
+            "hi": "Ae mere abba jaan! Shaitan ki bandagi mat kijiye, beshak Shaitan Rahmaan ka bada na-farmaan hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s7",
+          "sentence_number": 7,
+          "arabic": "وَلَا تَدْعُ مَعَ اللَّهِ إِلَٰهًا آخَرَ / لَا إِلَٰهَ إِلَّا هُوَ",
+          "arabic_text": "وَلَا تَدْعُ مَعَ اللَّهِ إِلَٰهًا آخَرَ / لَا إِلَٰهَ إِلَّا هُوَ",
+          "arabic_markup": "<span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">دْعُ</span> <span class=\"arabic-root\">مَعَ</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"arabic-root\">إِلَٰهًا</span> <span class=\"arabic-root\">آخَرَ</span> / <span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">إِلَٰهَ</span> <span class=\"nonroot\">إِلَّا</span> <span class=\"nonroot\">هُوَ</span>",
+          "hinglish": "Aur Allah ke saath kisi doosre ma'bood ko mat pukar, uske siwa koi ma'bood nahi",
+          "hinglish_meaning": "Aur Allah ke saath kisi doosre ma'bood ko mat pukar, uske siwa koi ma'bood nahi",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur Allah ke saath kisi doosre ma'bood ko mat pukar, uske siwa koi ma'bood nahi",
+            "ur": "Aur Allah ke saath kisi doosre ma'bood ko mat pukar, uske siwa koi ma'bood nahi",
+            "en": "Aur Allah ke saath kisi doosre ma'bood ko mat pukar, uske siwa koi ma'bood nahi",
+            "hi": "Aur Allah ke saath kisi doosre ma'bood ko mat pukar, uske siwa koi ma'bood nahi",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s8",
+          "sentence_number": 8,
+          "arabic": "وَلَا تَدْعُ مِنْ دُونِ اللَّهِ مَا لَا يَنْفَعُكَ وَلَا يَضُرُّكَ",
+          "arabic_text": "وَلَا تَدْعُ مِنْ دُونِ اللَّهِ مَا لَا يَنْفَعُكَ وَلَا يَضُرُّكَ",
+          "arabic_markup": "<span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">دْعُ</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">دُونِ</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"nonroot\">مَا</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">نْفَعُكَ</span> <span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">ضُرُّكَ</span>",
+          "hinglish": "Aur Allah ko chhod kar aisi cheez ko mat pukar jo na tujhe nafa de sake aur na tujhe nuqsan pahuncha sake",
+          "hinglish_meaning": "Aur Allah ko chhod kar aisi cheez ko mat pukar jo na tujhe nafa de sake aur na tujhe nuqsan pahuncha sake",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur Allah ko chhod kar aisi cheez ko mat pukar jo na tujhe nafa de sake aur na tujhe nuqsan pahuncha sake",
+            "ur": "Aur Allah ko chhod kar aisi cheez ko mat pukar jo na tujhe nafa de sake aur na tujhe nuqsan pahuncha sake",
+            "en": "Aur Allah ko chhod kar aisi cheez ko mat pukar jo na tujhe nafa de sake aur na tujhe nuqsan pahuncha sake",
+            "hi": "Aur Allah ko chhod kar aisi cheez ko mat pukar jo na tujhe nafa de sake aur na tujhe nuqsan pahuncha sake",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s9",
+          "sentence_number": 9,
+          "arabic": "وَلَا تَمْشِ فِي الْأَرْضِ مَرَحًا / إِنَّكَ لَنْ تَخْرِقَ الْأَرْضَ وَلَنْ تَبْلُغَ الْجِبَالَ طُولًا",
+          "arabic_text": "وَلَا تَمْشِ فِي الْأَرْضِ مَرَحًا / إِنَّكَ لَنْ تَخْرِقَ الْأَرْضَ وَلَنْ تَبْلُغَ الْجِبَالَ طُولًا",
+          "arabic_markup": "<span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">مْشِ</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْأَرْضِ</span> <span class=\"arabic-root\">مَرَحًا</span> / <span class=\"nonroot\">إِنَّكَ</span> <span class=\"nonroot\">لَنْ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">خْرِقَ</span> <span class=\"arabic-root\">الْأَرْضَ</span> <span class=\"arabic-root\">وَلَنْ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">بْلُغَ</span> <span class=\"arabic-root\">الْجِبَالَ</span> <span class=\"arabic-root\">طُولًا</span>",
+          "hinglish": "Aur zameen par akad kar mat chal, beshak tu na zameen ko phaad sakta hai aur na lambai mein pahadon tak pahunch sakta hai",
+          "hinglish_meaning": "Aur zameen par akad kar mat chal, beshak tu na zameen ko phaad sakta hai aur na lambai mein pahadon tak pahunch sakta hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur zameen par akad kar mat chal, beshak tu na zameen ko phaad sakta hai aur na lambai mein pahadon tak pahunch sakta hai",
+            "ur": "Aur zameen par akad kar mat chal, beshak tu na zameen ko phaad sakta hai aur na lambai mein pahadon tak pahunch sakta hai",
+            "en": "Aur zameen par akad kar mat chal, beshak tu na zameen ko phaad sakta hai aur na lambai mein pahadon tak pahunch sakta hai",
+            "hi": "Aur zameen par akad kar mat chal, beshak tu na zameen ko phaad sakta hai aur na lambai mein pahadon tak pahunch sakta hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s10",
+          "sentence_number": 10,
+          "arabic": "وَلَا تُصَعِّرْ خَدَّكَ لِلنَّاسِ وَلَا تَمْشِ فِي الْأَرْضِ مَرَحًا / إِنَّ اللَّهَ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
+          "arabic_text": "وَلَا تُصَعِّرْ خَدَّكَ لِلنَّاسِ وَلَا تَمْشِ فِي الْأَرْضِ مَرَحًا / إِنَّ اللَّهَ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
+          "arabic_markup": "<span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">صَعِّرْ</span> <span class=\"arabic-root\">خَدَّكَ</span> <span class=\"arabic-root\">لِلنَّاسِ</span> <span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">مْشِ</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْأَرْضِ</span> <span class=\"arabic-root\">مَرَحًا</span> / <span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">يُ</span><span class=\"arabic-root\">حِبُّ</span> <span class=\"arabic-root\">كُلَّ</span> <span class=\"arabic-root\">مُخْتَالٍ</span> <span class=\"arabic-root\">فَخُورٍ</span>",
+          "hinglish": "Aur logon ke saamne takabbur se apna rukhsaar (gaal) mat phula aur na zameen mein itra kar chal, beshak Allah kisi takabbur karne waale shekhi-khor ko pasand nahi karta",
+          "hinglish_meaning": "Aur logon ke saamne takabbur se apna rukhsaar (gaal) mat phula aur na zameen mein itra kar chal, beshak Allah kisi takabbur karne waale shekhi-khor ko pasand nahi karta",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur logon ke saamne takabbur se apna rukhsaar (gaal) mat phula aur na zameen mein itra kar chal, beshak Allah kisi takabbur karne waale shekhi-khor ko pasand nahi karta",
+            "ur": "Aur logon ke saamne takabbur se apna rukhsaar (gaal) mat phula aur na zameen mein itra kar chal, beshak Allah kisi takabbur karne waale shekhi-khor ko pasand nahi karta",
+            "en": "Aur logon ke saamne takabbur se apna rukhsaar (gaal) mat phula aur na zameen mein itra kar chal, beshak Allah kisi takabbur karne waale shekhi-khor ko pasand nahi karta",
+            "hi": "Aur logon ke saamne takabbur se apna rukhsaar (gaal) mat phula aur na zameen mein itra kar chal, beshak Allah kisi takabbur karne waale shekhi-khor ko pasand nahi karta",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s11",
+          "sentence_number": 11,
+          "arabic": "وَابْتَغِ فِيمَا آتَاكَ اللَّهُ الدَّارَ الْآخِرَةَ / وَلَا تَنْسَ نَصِيبَكَ مِنَ الدُّنْيَا / وَأَحْسِنْ كَمَا أَحْسَنَ اللَّهُ إِلَيْكَ / وَلَا تَبْغِ الْفَسَادَ فِي الْأَرْضِ",
+          "arabic_text": "وَابْتَغِ فِيمَا آتَاكَ اللَّهُ الدَّارَ الْآخِرَةَ / وَلَا تَنْسَ نَصِيبَكَ مِنَ الدُّنْيَا / وَأَحْسِنْ كَمَا أَحْسَنَ اللَّهُ إِلَيْكَ / وَلَا تَبْغِ الْفَسَادَ فِي الْأَرْضِ",
+          "arabic_markup": "<span class=\"arabic-root\">وَابْتَغِ</span> <span class=\"arabic-root\">فِيمَا</span> <span class=\"arabic-root\">آتَاكَ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">الدَّارَ</span> <span class=\"arabic-root\">الْآخِرَةَ</span> / <span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">نْسَ</span> <span class=\"nonroot\">نَ</span><span class=\"arabic-root\">صِيبَكَ</span> <span class=\"nonroot\">مِنَ</span> <span class=\"arabic-root\">الدُّنْيَا</span> / <span class=\"nonroot\">وَأَ</span><span class=\"arabic-root\">حْسِنْ</span> <span class=\"arabic-root\">كَمَا</span> <span class=\"nonroot\">أَ</span><span class=\"arabic-root\">حْسَنَ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"nonroot\">إِلَيْكَ</span> / <span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">بْغِ</span> <span class=\"arabic-root\">الْفَسَادَ</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْأَرْضِ</span>",
+          "hinglish": "Aur jo kuch Allah ne tujhe diya hai uss se aakhirat ka ghar talash kar aur duniya se bhi apna hissa na bhool, aur ehsaan kar jaise Allah ne tujh par ehsaan kiya hai, aur zameen mein fasaad mat dhoond",
+          "hinglish_meaning": "Aur jo kuch Allah ne tujhe diya hai uss se aakhirat ka ghar talash kar aur duniya se bhi apna hissa na bhool, aur ehsaan kar jaise Allah ne tujh par ehsaan kiya hai, aur zameen mein fasaad mat dhoond",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur jo kuch Allah ne tujhe diya hai uss se aakhirat ka ghar talash kar aur duniya se bhi apna hissa na bhool, aur ehsaan kar jaise Allah ne tujh par ehsaan kiya hai, aur zameen mein fasaad mat dhoond",
+            "ur": "Aur jo kuch Allah ne tujhe diya hai uss se aakhirat ka ghar talash kar aur duniya se bhi apna hissa na bhool, aur ehsaan kar jaise Allah ne tujh par ehsaan kiya hai, aur zameen mein fasaad mat dhoond",
+            "en": "Aur jo kuch Allah ne tujhe diya hai uss se aakhirat ka ghar talash kar aur duniya se bhi apna hissa na bhool, aur ehsaan kar jaise Allah ne tujh par ehsaan kiya hai, aur zameen mein fasaad mat dhoond",
+            "hi": "Aur jo kuch Allah ne tujhe diya hai uss se aakhirat ka ghar talash kar aur duniya se bhi apna hissa na bhool, aur ehsaan kar jaise Allah ne tujh par ehsaan kiya hai, aur zameen mein fasaad mat dhoond",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s12",
+          "sentence_number": 12,
+          "arabic": "فَلَا تُطِعِ الْكَافِرِينَ وَجَاهِدْهُمْ بِهِ جِهَادًا كَبِيرًا",
+          "arabic_text": "فَلَا تُطِعِ الْكَافِرِينَ وَجَاهِدْهُمْ بِهِ جِهَادًا كَبِيرًا",
+          "arabic_markup": "<span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">طِعِ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">كَافِر</span><span class=\"nonroot\">ِينَ</span> <span class=\"arabic-root\">وَجَاهِد</span><span class=\"nonroot\">ْهُمْ</span> <span class=\"nonroot\">بِهِ</span> <span class=\"arabic-root\">جِهَادًا</span> <span class=\"arabic-root\">كَبِيرًا</span>",
+          "hinglish": "Pas aap kaafiron ka kaha mat maanein aur iss (Qur'an) ke zariye un se bada jihaad karein",
+          "hinglish_meaning": "Pas aap kaafiron ka kaha mat maanein aur iss (Qur'an) ke zariye un se bada jihaad karein",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Pas aap kaafiron ka kaha mat maanein aur iss (Qur'an) ke zariye un se bada jihaad karein",
+            "ur": "Pas aap kaafiron ka kaha mat maanein aur iss (Qur'an) ke zariye un se bada jihaad karein",
+            "en": "Pas aap kaafiron ka kaha mat maanein aur iss (Qur'an) ke zariye un se bada jihaad karein",
+            "hi": "Pas aap kaafiron ka kaha mat maanein aur iss (Qur'an) ke zariye un se bada jihaad karein",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s13",
+          "sentence_number": 13,
+          "arabic": "فَلَا تُطِعِ الْمُكَذِّبِينَ",
+          "arabic_text": "فَلَا تُطِعِ الْمُكَذِّبِينَ",
+          "arabic_markup": "<span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">طِعِ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">مُكَذِّب</span><span class=\"nonroot\">ِينَ</span>",
+          "hinglish": "Pas aap jhutlaane waalon ki baat mat maanein",
+          "hinglish_meaning": "Pas aap jhutlaane waalon ki baat mat maanein",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Pas aap jhutlaane waalon ki baat mat maanein",
+            "ur": "Pas aap jhutlaane waalon ki baat mat maanein",
+            "en": "Pas aap jhutlaane waalon ki baat mat maanein",
+            "hi": "Pas aap jhutlaane waalon ki baat mat maanein",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s14",
+          "sentence_number": 14,
+          "arabic": "وَلَا تُطِعِ الْكَافِرِينَ وَالْمُنَافِقِينَ وَدَعْ أَذَاهُمْ وَتَوَكَّلْ عَلَى اللَّهِ",
+          "arabic_text": "وَلَا تُطِعِ الْكَافِرِينَ وَالْمُنَافِقِينَ وَدَعْ أَذَاهُمْ وَتَوَكَّلْ عَلَى اللَّهِ",
+          "arabic_markup": "<span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">طِعِ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">كَافِر</span><span class=\"nonroot\">ِينَ</span> <span class=\"nonroot\">وَالْ</span><span class=\"arabic-root\">مُنَافِق</span><span class=\"nonroot\">ِينَ</span> <span class=\"arabic-root\">وَدَعْ</span> <span class=\"arabic-root\">أَذ</span><span class=\"nonroot\">َاهُمْ</span> <span class=\"nonroot\">وَتَ</span><span class=\"arabic-root\">وَكَّلْ</span> <span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">اللَّهِ</span>",
+          "hinglish": "Aur kaafiron aur munafiqon ki baat mat maanein aur unki eeza-rasani ki parwah na karein aur Allah par bharosa rakhein",
+          "hinglish_meaning": "Aur kaafiron aur munafiqon ki baat mat maanein aur unki eeza-rasani ki parwah na karein aur Allah par bharosa rakhein",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur kaafiron aur munafiqon ki baat mat maanein aur unki eeza-rasani ki parwah na karein aur Allah par bharosa rakhein",
+            "ur": "Aur kaafiron aur munafiqon ki baat mat maanein aur unki eeza-rasani ki parwah na karein aur Allah par bharosa rakhein",
+            "en": "Aur kaafiron aur munafiqon ki baat mat maanein aur unki eeza-rasani ki parwah na karein aur Allah par bharosa rakhein",
+            "hi": "Aur kaafiron aur munafiqon ki baat mat maanein aur unki eeza-rasani ki parwah na karein aur Allah par bharosa rakhein",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s15",
+          "sentence_number": 15,
+          "arabic": "وَلَا تُطِعْ كُلَّ حَلَّافٍ مَهِينٍ",
+          "arabic_text": "وَلَا تُطِعْ كُلَّ حَلَّافٍ مَهِينٍ",
+          "arabic_markup": "<span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">طِعْ</span> <span class=\"arabic-root\">كُلَّ</span> <span class=\"arabic-root\">حَلَّافٍ</span> <span class=\"arabic-root\">مَهِينٍ</span>",
+          "hinglish": "Aur kisi aise shakhs ki baat mat maano jo bahut qasmein khane waala, be-waq'at ho",
+          "hinglish_meaning": "Aur kisi aise shakhs ki baat mat maano jo bahut qasmein khane waala, be-waq'at ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur kisi aise shakhs ki baat mat maano jo bahut qasmein khane waala, be-waq'at ho",
+            "ur": "Aur kisi aise shakhs ki baat mat maano jo bahut qasmein khane waala, be-waq'at ho",
+            "en": "Aur kisi aise shakhs ki baat mat maano jo bahut qasmein khane waala, be-waq'at ho",
+            "hi": "Aur kisi aise shakhs ki baat mat maano jo bahut qasmein khane waala, be-waq'at ho",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s16",
+          "sentence_number": 16,
+          "arabic": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِنْ لَدُنْكَ رَحْمَةً",
+          "arabic_text": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِنْ لَدُنْكَ رَحْمَةً",
+          "arabic_markup": "<span class=\"arabic-root\">رَبَّنَا</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">زِغْ</span> <span class=\"arabic-root\">قُلُوب</span><span class=\"nonroot\">َنَا</span> <span class=\"arabic-root\">بَعْدَ</span> <span class=\"nonroot\">إِذْ</span> <span class=\"arabic-root\">هَدَيْت</span><span class=\"nonroot\">َنَا</span> <span class=\"arabic-root\">وَهَبْ</span> <span class=\"nonroot\">لَنَا</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">لَدُنْكَ</span> <span class=\"arabic-root\">رَحْمَةً</span>",
+          "hinglish": "Ae hamare Rabb! Hamare dilon ko tedha na kar ba'd iske ke tu ne humein hidayat ata farmai, aur humein apni taraf se rahmat ata farma",
+          "hinglish_meaning": "Ae hamare Rabb! Hamare dilon ko tedha na kar ba'd iske ke tu ne humein hidayat ata farmai, aur humein apni taraf se rahmat ata farma",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Ae hamare Rabb! Hamare dilon ko tedha na kar ba'd iske ke tu ne humein hidayat ata farmai, aur humein apni taraf se rahmat ata farma",
+            "ur": "Ae hamare Rabb! Hamare dilon ko tedha na kar ba'd iske ke tu ne humein hidayat ata farmai, aur humein apni taraf se rahmat ata farma",
+            "en": "Ae hamare Rabb! Hamare dilon ko tedha na kar ba'd iske ke tu ne humein hidayat ata farmai, aur humein apni taraf se rahmat ata farma",
+            "hi": "Ae hamare Rabb! Hamare dilon ko tedha na kar ba'd iske ke tu ne humein hidayat ata farmai, aur humein apni taraf se rahmat ata farma",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s17",
+          "sentence_number": 17,
+          "arabic": "قُلْنَا لَا تَخَفْ إِنَّكَ أَنْتَ الْأَعْلَىٰ",
+          "arabic_text": "قُلْنَا لَا تَخَفْ إِنَّكَ أَنْتَ الْأَعْلَىٰ",
+          "arabic_markup": "<span class=\"arabic-root\">قُل</span><span class=\"nonroot\">ْنَا</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">خَفْ</span> <span class=\"nonroot\">إِنَّكَ</span> <span class=\"nonroot\">أَنْتَ</span> <span class=\"arabic-root\">الْأَعْلَىٰ</span>",
+          "hinglish": "Hum ne farmaya: Mat dar! Beshak tu hi ghalib rahega",
+          "hinglish_meaning": "Hum ne farmaya: Mat dar! Beshak tu hi ghalib rahega",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Hum ne farmaya: Mat dar! Beshak tu hi ghalib rahega",
+            "ur": "Hum ne farmaya: Mat dar! Beshak tu hi ghalib rahega",
+            "en": "Hum ne farmaya: Mat dar! Beshak tu hi ghalib rahega",
+            "hi": "Hum ne farmaya: Mat dar! Beshak tu hi ghalib rahega",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s18",
+          "sentence_number": 18,
+          "arabic": "يَا مُوسَىٰ لَا تَخَفْ إِنِّي لَا يَخَافُ لَدَيَّ الْمُرْسَلُونَ",
+          "arabic_text": "يَا مُوسَىٰ لَا تَخَفْ إِنِّي لَا يَخَافُ لَدَيَّ الْمُرْسَلُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">مُوسَىٰ</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">خَفْ</span> <span class=\"nonroot\">إِنِّي</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">خَافُ</span> <span class=\"arabic-root\">لَدَيَّ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">مُرْسَل</span><span class=\"nonroot\">ُونَ</span>",
+          "hinglish": "Ae Moosa! Mat dar, beshak mere huzoor Rasool dara nahi karte",
+          "hinglish_meaning": "Ae Moosa! Mat dar, beshak mere huzoor Rasool dara nahi karte",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Ae Moosa! Mat dar, beshak mere huzoor Rasool dara nahi karte",
+            "ur": "Ae Moosa! Mat dar, beshak mere huzoor Rasool dara nahi karte",
+            "en": "Ae Moosa! Mat dar, beshak mere huzoor Rasool dara nahi karte",
+            "hi": "Ae Moosa! Mat dar, beshak mere huzoor Rasool dara nahi karte",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s19",
+          "sentence_number": 19,
+          "arabic": "لَا تَخَفْ وَلَا تَحْزَنْ / إِنَّا مُنَجُّوكَ وَأَهْلَكَ",
+          "arabic_text": "لَا تَخَفْ وَلَا تَحْزَنْ / إِنَّا مُنَجُّوكَ وَأَهْلَكَ",
+          "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">خَفْ</span> <span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">حْزَنْ</span> / <span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">مُنَجُّوكَ</span> <span class=\"nonroot\">وَأَ</span><span class=\"arabic-root\">هْلَكَ</span>",
+          "hinglish": "Na daro aur na gham karo, beshak hum tumhein aur tumhare ghar waalon ko najaat dene waale hain",
+          "hinglish_meaning": "Na daro aur na gham karo, beshak hum tumhein aur tumhare ghar waalon ko najaat dene waale hain",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Na daro aur na gham karo, beshak hum tumhein aur tumhare ghar waalon ko najaat dene waale hain",
+            "ur": "Na daro aur na gham karo, beshak hum tumhein aur tumhare ghar waalon ko najaat dene waale hain",
+            "en": "Na daro aur na gham karo, beshak hum tumhein aur tumhare ghar waalon ko najaat dene waale hain",
+            "hi": "Na daro aur na gham karo, beshak hum tumhein aur tumhare ghar waalon ko najaat dene waale hain",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s20",
+          "sentence_number": 20,
+          "arabic": "وَاذْكُرْ رَبَّكَ فِي نَفْسِكَ تَضَرُّعًا وَخِيفَةً وَدُونَ الْجَهْرِ مِنَ الْقَوْلِ بِالْغُدُوِّ وَالْآصَالِ وَلَا تَكُنْ مِنَ الْغَافِلِينَ",
+          "arabic_text": "وَاذْكُرْ رَبَّكَ فِي نَفْسِكَ تَضَرُّعًا وَخِيفَةً وَدُونَ الْجَهْرِ مِنَ الْقَوْلِ بِالْغُدُوِّ وَالْآصَالِ وَلَا تَكُنْ مِنَ الْغَافِلِينَ",
+          "arabic_markup": "<span class=\"arabic-root\">وَاذْكُرْ</span> <span class=\"arabic-root\">رَبَّكَ</span> <span class=\"nonroot\">فِي</span> <span class=\"nonroot\">نَ</span><span class=\"arabic-root\">فْسِكَ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">ضَرُّعًا</span> <span class=\"arabic-root\">وَخِيفَةً</span> <span class=\"arabic-root\">وَد</span><span class=\"nonroot\">ُونَ</span> <span class=\"arabic-root\">الْجَهْرِ</span> <span class=\"nonroot\">مِنَ</span> <span class=\"arabic-root\">الْقَوْلِ</span> <span class=\"arabic-root\">بِالْغُدُوِّ</span> <span class=\"arabic-root\">وَالْآصَالِ</span> <span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">كُنْ</span> <span class=\"nonroot\">مِنَ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">غَافِل</span><span class=\"nonroot\">ِينَ</span>",
+          "hinglish": "Aur apne Rabb ko apne dil mein aajizi aur khauf ke saath aur buland aawaaz ke baghair subah aur shaam yaad karo, aur ghaafilon mein se mat ho",
+          "hinglish_meaning": "Aur apne Rabb ko apne dil mein aajizi aur khauf ke saath aur buland aawaaz ke baghair subah aur shaam yaad karo, aur ghaafilon mein se mat ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur apne Rabb ko apne dil mein aajizi aur khauf ke saath aur buland aawaaz ke baghair subah aur shaam yaad karo, aur ghaafilon mein se mat ho",
+            "ur": "Aur apne Rabb ko apne dil mein aajizi aur khauf ke saath aur buland aawaaz ke baghair subah aur shaam yaad karo, aur ghaafilon mein se mat ho",
+            "en": "Aur apne Rabb ko apne dil mein aajizi aur khauf ke saath aur buland aawaaz ke baghair subah aur shaam yaad karo, aur ghaafilon mein se mat ho",
+            "hi": "Aur apne Rabb ko apne dil mein aajizi aur khauf ke saath aur buland aawaaz ke baghair subah aur shaam yaad karo, aur ghaafilon mein se mat ho",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s21",
+          "sentence_number": 21,
+          "arabic": "الْحَقُّ مِنْ رَبِّكَ فَلَا تَكُنْ مِنَ الْمُمْتَرِينَ",
+          "arabic_text": "الْحَقُّ مِنْ رَبِّكَ فَلَا تَكُنْ مِنَ الْمُمْتَرِينَ",
+          "arabic_markup": "<span class=\"arabic-root\">الْحَقُّ</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">رَبِّكَ</span> <span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">كُنْ</span> <span class=\"nonroot\">مِنَ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">مُمْتَر</span><span class=\"nonroot\">ِينَ</span>",
+          "hinglish": "Yeh tere Rabb ki taraf se haq hai, pas tu shak karne waalon mein se mat hona",
+          "hinglish_meaning": "Yeh tere Rabb ki taraf se haq hai, pas tu shak karne waalon mein se mat hona",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Yeh tere Rabb ki taraf se haq hai, pas tu shak karne waalon mein se mat hona",
+            "ur": "Yeh tere Rabb ki taraf se haq hai, pas tu shak karne waalon mein se mat hona",
+            "en": "Yeh tere Rabb ki taraf se haq hai, pas tu shak karne waalon mein se mat hona",
+            "hi": "Yeh tere Rabb ki taraf se haq hai, pas tu shak karne waalon mein se mat hona",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s22",
+          "sentence_number": 22,
+          "arabic": "وَلَا تُصَلِّ عَلَىٰ أَحَدٍ مِنْهُمْ مَاتَ أَبَدًا وَلَا تَقُمْ عَلَىٰ قَبْرِهِ",
+          "arabic_text": "وَلَا تُصَلِّ عَلَىٰ أَحَدٍ مِنْهُمْ مَاتَ أَبَدًا وَلَا تَقُمْ عَلَىٰ قَبْرِهِ",
+          "arabic_markup": "<span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">صَلِّ</span> <span class=\"nonroot\">عَلَىٰ</span> <span class=\"nonroot\">أَ</span><span class=\"arabic-root\">حَدٍ</span> <span class=\"nonroot\">مِنْهُمْ</span> <span class=\"arabic-root\">مَاتَ</span> <span class=\"nonroot\">أَ</span><span class=\"arabic-root\">بَدًا</span> <span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قُمْ</span> <span class=\"nonroot\">عَلَىٰ</span> <span class=\"arabic-root\">قَبْرِهِ</span>",
+          "hinglish": "Aur un (munafiqon) mein se jo koi mar jaaye us par kabhi namaaz-e-janaaza na padhna aur na uski qabr par khade hona",
+          "hinglish_meaning": "Aur un (munafiqon) mein se jo koi mar jaaye us par kabhi namaaz-e-janaaza na padhna aur na uski qabr par khade hona",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur un (munafiqon) mein se jo koi mar jaaye us par kabhi namaaz-e-janaaza na padhna aur na uski qabr par khade hona",
+            "ur": "Aur un (munafiqon) mein se jo koi mar jaaye us par kabhi namaaz-e-janaaza na padhna aur na uski qabr par khade hona",
+            "en": "Aur un (munafiqon) mein se jo koi mar jaaye us par kabhi namaaz-e-janaaza na padhna aur na uski qabr par khade hona",
+            "hi": "Aur un (munafiqon) mein se jo koi mar jaaye us par kabhi namaaz-e-janaaza na padhna aur na uski qabr par khade hona",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s23",
+          "sentence_number": 23,
+          "arabic": "فَلَا تَقُلْ لَهُمَا أُفٍّ وَلَا تَنْهَرْهُمَا وَقُلْ لَهُمَا قَوْلًا كَرِيمًا",
+          "arabic_text": "فَلَا تَقُلْ لَهُمَا أُفٍّ وَلَا تَنْهَرْهُمَا وَقُلْ لَهُمَا قَوْلًا كَرِيمًا",
+          "arabic_markup": "<span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قُلْ</span> <span class=\"arabic-root\">لَهُمَا</span> <span class=\"nonroot\">أُ</span><span class=\"arabic-root\">فٍّ</span> <span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">نْهَرْهُمَا</span> <span class=\"arabic-root\">وَقُلْ</span> <span class=\"arabic-root\">لَهُمَا</span> <span class=\"arabic-root\">قَوْلًا</span> <span class=\"arabic-root\">كَرِيمًا</span>",
+          "hinglish": "Pas un dono (walidain) ko 'uff' tak mat kehna aur na unhein jhidakna, aur un dono se adab aur ikraam ki baat kehna",
+          "hinglish_meaning": "Pas un dono (walidain) ko 'uff' tak mat kehna aur na unhein jhidakna, aur un dono se adab aur ikraam ki baat kehna",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Pas un dono (walidain) ko 'uff' tak mat kehna aur na unhein jhidakna, aur un dono se adab aur ikraam ki baat kehna",
+            "ur": "Pas un dono (walidain) ko 'uff' tak mat kehna aur na unhein jhidakna, aur un dono se adab aur ikraam ki baat kehna",
+            "en": "Pas un dono (walidain) ko 'uff' tak mat kehna aur na unhein jhidakna, aur un dono se adab aur ikraam ki baat kehna",
+            "hi": "Pas un dono (walidain) ko 'uff' tak mat kehna aur na unhein jhidakna, aur un dono se adab aur ikraam ki baat kehna",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l15_v_s24",
+          "sentence_number": 24,
+          "arabic": "رَبِّ لَا تَذَرْنِي فَرْدًا وَأَنْتَ خَيْرُ الْوَارِثِينَ",
+          "arabic_text": "رَبِّ لَا تَذَرْنِي فَرْدًا وَأَنْتَ خَيْرُ الْوَارِثِينَ",
+          "arabic_markup": "<span class=\"arabic-root\">رَبِّ</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">ذَرْنِي</span> <span class=\"arabic-root\">فَرْدًا</span> <span class=\"arabic-root\">وَأَن</span><span class=\"nonroot\">ْتَ</span> <span class=\"arabic-root\">خَيْرُ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">وَارِث</span><span class=\"nonroot\">ِينَ</span>",
+          "hinglish": "Ae mere Rabb! Mujhe akela (be-aulaad) na chhod aur tu sab se behtareen waaris hai",
+          "hinglish_meaning": "Ae mere Rabb! Mujhe akela (be-aulaad) na chhod aur tu sab se behtareen waaris hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Ae mere Rabb! Mujhe akela (be-aulaad) na chhod aur tu sab se behtareen waaris hai",
+            "ur": "Ae mere Rabb! Mujhe akela (be-aulaad) na chhod aur tu sab se behtareen waaris hai",
+            "en": "Ae mere Rabb! Mujhe akela (be-aulaad) na chhod aur tu sab se behtareen waaris hai",
+            "hi": "Ae mere Rabb! Mujhe akela (be-aulaad) na chhod aur tu sab se behtareen waaris hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        }
+      ],
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s6l15_v_s1",
+            "sentence_number": 1,
+            "arabic": "لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا",
+            "arabic_text": "لَا تَحْزَنْ إِنَّ اللَّهَ مَعَنَا",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">حْزَنْ</span> <span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"arabic-root\">مَع</span><span class=\"nonroot\">َنَا</span>",
+            "hinglish": "Gham mat kar, beshak Allah hamare saath hai",
+            "hinglish_meaning": "Gham mat kar, beshak Allah hamare saath hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Gham mat kar, beshak Allah hamare saath hai",
+              "ur": "Gham mat kar, beshak Allah hamare saath hai",
+              "en": "Gham mat kar, beshak Allah hamare saath hai",
+              "hi": "Gham mat kar, beshak Allah hamare saath hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s2",
+            "sentence_number": 2,
+            "arabic": "يَا بُنَيَّ لَا تُشْرِكْ بِاللَّهِ / إِنَّ الشِّرْكَ لَظُلْمٌ عَظِيمٌ",
+            "arabic_text": "يَا بُنَيَّ لَا تُشْرِكْ بِاللَّهِ / إِنَّ الشِّرْكَ لَظُلْمٌ عَظِيمٌ",
+            "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">بُنَيَّ</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">شْرِكْ</span> <span class=\"arabic-root\">بِاللَّهِ</span> / <span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">الشِّرْكَ</span> <span class=\"arabic-root\">لَظُلْمٌ</span> <span class=\"arabic-root\">عَظِيمٌ</span>",
+            "hinglish": "Ae mere pyare bete! Allah ke saath shirk mat karna, beshak shirk bada bhari zulm hai",
+            "hinglish_meaning": "Ae mere pyare bete! Allah ke saath shirk mat karna, beshak shirk bada bhari zulm hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ae mere pyare bete! Allah ke saath shirk mat karna, beshak shirk bada bhari zulm hai",
+              "ur": "Ae mere pyare bete! Allah ke saath shirk mat karna, beshak shirk bada bhari zulm hai",
+              "en": "Ae mere pyare bete! Allah ke saath shirk mat karna, beshak shirk bada bhari zulm hai",
+              "hi": "Ae mere pyare bete! Allah ke saath shirk mat karna, beshak shirk bada bhari zulm hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s3",
+            "sentence_number": 3,
+            "arabic": "وَاصْبِرْ وَمَا صَبْرُكَ إِلَّا بِاللَّهِ / وَلَا تَحْزَنْ عَلَيْهِمْ وَلَا تَكُ فِي ضَيْقٍ مِمَّا يَمْكُرُونَ",
+            "arabic_text": "وَاصْبِرْ وَمَا صَبْرُكَ إِلَّا بِاللَّهِ / وَلَا تَحْزَنْ عَلَيْهِمْ وَلَا تَكُ فِي ضَيْقٍ مِمَّا يَمْكُرُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَاصْبِرْ</span> <span class=\"arabic-root\">وَمَا</span> <span class=\"arabic-root\">صَبْرُكَ</span> <span class=\"nonroot\">إِلَّا</span> <span class=\"arabic-root\">بِاللَّهِ</span> / <span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">حْزَنْ</span> <span class=\"nonroot\">عَلَيْهِمْ</span> <span class=\"arabic-root\">وَلَا</span> <span class=\"arabic-root\">تَكُ</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">ضَيْقٍ</span> <span class=\"arabic-root\">مِمَّا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">مْكُر</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Aur sabr kijiye aur aap ka sabr Allah hi ki taufiq se hai, aur un par gham na karein aur jo chaalein yeh chalte hain un se tang-dil na hon",
+            "hinglish_meaning": "Aur sabr kijiye aur aap ka sabr Allah hi ki taufiq se hai, aur un par gham na karein aur jo chaalein yeh chalte hain un se tang-dil na hon",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur sabr kijiye aur aap ka sabr Allah hi ki taufiq se hai, aur un par gham na karein aur jo chaalein yeh chalte hain un se tang-dil na hon",
+              "ur": "Aur sabr kijiye aur aap ka sabr Allah hi ki taufiq se hai, aur un par gham na karein aur jo chaalein yeh chalte hain un se tang-dil na hon",
+              "en": "Aur sabr kijiye aur aap ka sabr Allah hi ki taufiq se hai, aur un par gham na karein aur jo chaalein yeh chalte hain un se tang-dil na hon",
+              "hi": "Aur sabr kijiye aur aap ka sabr Allah hi ki taufiq se hai, aur un par gham na karein aur jo chaalein yeh chalte hain un se tang-dil na hon",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s4",
+            "sentence_number": 4,
+            "arabic": "فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ / وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ",
+            "arabic_text": "فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ / وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ",
+            "arabic_markup": "<span class=\"nonroot\">فَأَ</span><span class=\"arabic-root\">مَّا</span> <span class=\"arabic-root\">الْيَتِيمَ</span> <span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قْهَرْ</span> / <span class=\"nonroot\">وَأَ</span><span class=\"arabic-root\">مَّا</span> <span class=\"arabic-root\">السَّائِلَ</span> <span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">نْهَرْ</span>",
+            "hinglish": "Pas jahan tak yateem ka ta'alluq hai toh uss par sakhti na karein, aur jahan tak maangne waale (saa'il) ka ta'alluq hai toh usey na jhidkein",
+            "hinglish_meaning": "Pas jahan tak yateem ka ta'alluq hai toh uss par sakhti na karein, aur jahan tak maangne waale (saa'il) ka ta'alluq hai toh usey na jhidkein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Pas jahan tak yateem ka ta'alluq hai toh uss par sakhti na karein, aur jahan tak maangne waale (saa'il) ka ta'alluq hai toh usey na jhidkein",
+              "ur": "Pas jahan tak yateem ka ta'alluq hai toh uss par sakhti na karein, aur jahan tak maangne waale (saa'il) ka ta'alluq hai toh usey na jhidkein",
+              "en": "Pas jahan tak yateem ka ta'alluq hai toh uss par sakhti na karein, aur jahan tak maangne waale (saa'il) ka ta'alluq hai toh usey na jhidkein",
+              "hi": "Pas jahan tak yateem ka ta'alluq hai toh uss par sakhti na karein, aur jahan tak maangne waale (saa'il) ka ta'alluq hai toh usey na jhidkein",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s5",
+            "sentence_number": 5,
+            "arabic": "فَلَا تَقْعُدْ بَعْدَ الذِّكْرَىٰ مَعَ الْقَوْمِ الظَّالِمِينَ",
+            "arabic_text": "فَلَا تَقْعُدْ بَعْدَ الذِّكْرَىٰ مَعَ الْقَوْمِ الظَّالِمِينَ",
+            "arabic_markup": "<span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قْعُدْ</span> <span class=\"arabic-root\">بَعْدَ</span> <span class=\"arabic-root\">الذِّكْرَىٰ</span> <span class=\"arabic-root\">مَعَ</span> <span class=\"arabic-root\">الْقَوْمِ</span> <span class=\"arabic-root\">الظَّالِم</span><span class=\"nonroot\">ِينَ</span>",
+            "hinglish": "Pas yaad aane (naseehat) ke ba'd zaalim logon ke saath mat baitho",
+            "hinglish_meaning": "Pas yaad aane (naseehat) ke ba'd zaalim logon ke saath mat baitho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Pas yaad aane (naseehat) ke ba'd zaalim logon ke saath mat baitho",
+              "ur": "Pas yaad aane (naseehat) ke ba'd zaalim logon ke saath mat baitho",
+              "en": "Pas yaad aane (naseehat) ke ba'd zaalim logon ke saath mat baitho",
+              "hi": "Pas yaad aane (naseehat) ke ba'd zaalim logon ke saath mat baitho",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s6",
+            "sentence_number": 6,
+            "arabic": "يَا أَبَتِ لَا تَعْبُدِ الشَّيْطَانَ / إِنَّ الشَّيْطَانَ كَانَ لِلرَّحْمَٰنِ عَصِيًّا",
+            "arabic_text": "يَا أَبَتِ لَا تَعْبُدِ الشَّيْطَانَ / إِنَّ الشَّيْطَانَ كَانَ لِلرَّحْمَٰنِ عَصِيًّا",
+            "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"nonroot\">أَ</span><span class=\"arabic-root\">بَتِ</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">عْبُدِ</span> <span class=\"arabic-root\">الشَّيْطَانَ</span> / <span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">الشَّيْطَانَ</span> <span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">لِلرَّحْمَٰنِ</span> <span class=\"arabic-root\">عَصِيًّا</span>",
+            "hinglish": "Ae mere abba jaan! Shaitan ki bandagi mat kijiye, beshak Shaitan Rahmaan ka bada na-farmaan hai",
+            "hinglish_meaning": "Ae mere abba jaan! Shaitan ki bandagi mat kijiye, beshak Shaitan Rahmaan ka bada na-farmaan hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ae mere abba jaan! Shaitan ki bandagi mat kijiye, beshak Shaitan Rahmaan ka bada na-farmaan hai",
+              "ur": "Ae mere abba jaan! Shaitan ki bandagi mat kijiye, beshak Shaitan Rahmaan ka bada na-farmaan hai",
+              "en": "Ae mere abba jaan! Shaitan ki bandagi mat kijiye, beshak Shaitan Rahmaan ka bada na-farmaan hai",
+              "hi": "Ae mere abba jaan! Shaitan ki bandagi mat kijiye, beshak Shaitan Rahmaan ka bada na-farmaan hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s7",
+            "sentence_number": 7,
+            "arabic": "وَلَا تَدْعُ مَعَ اللَّهِ إِلَٰهًا آخَرَ / لَا إِلَٰهَ إِلَّا هُوَ",
+            "arabic_text": "وَلَا تَدْعُ مَعَ اللَّهِ إِلَٰهًا آخَرَ / لَا إِلَٰهَ إِلَّا هُوَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">دْعُ</span> <span class=\"arabic-root\">مَعَ</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"arabic-root\">إِلَٰهًا</span> <span class=\"arabic-root\">آخَرَ</span> / <span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">إِلَٰهَ</span> <span class=\"nonroot\">إِلَّا</span> <span class=\"nonroot\">هُوَ</span>",
+            "hinglish": "Aur Allah ke saath kisi doosre ma'bood ko mat pukar, uske siwa koi ma'bood nahi",
+            "hinglish_meaning": "Aur Allah ke saath kisi doosre ma'bood ko mat pukar, uske siwa koi ma'bood nahi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah ke saath kisi doosre ma'bood ko mat pukar, uske siwa koi ma'bood nahi",
+              "ur": "Aur Allah ke saath kisi doosre ma'bood ko mat pukar, uske siwa koi ma'bood nahi",
+              "en": "Aur Allah ke saath kisi doosre ma'bood ko mat pukar, uske siwa koi ma'bood nahi",
+              "hi": "Aur Allah ke saath kisi doosre ma'bood ko mat pukar, uske siwa koi ma'bood nahi",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s8",
+            "sentence_number": 8,
+            "arabic": "وَلَا تَدْعُ مِنْ دُونِ اللَّهِ مَا لَا يَنْفَعُكَ وَلَا يَضُرُّكَ",
+            "arabic_text": "وَلَا تَدْعُ مِنْ دُونِ اللَّهِ مَا لَا يَنْفَعُكَ وَلَا يَضُرُّكَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">دْعُ</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">دُونِ</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"nonroot\">مَا</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">نْفَعُكَ</span> <span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">ضُرُّكَ</span>",
+            "hinglish": "Aur Allah ko chhod kar aisi cheez ko mat pukar jo na tujhe nafa de sake aur na tujhe nuqsan pahuncha sake",
+            "hinglish_meaning": "Aur Allah ko chhod kar aisi cheez ko mat pukar jo na tujhe nafa de sake aur na tujhe nuqsan pahuncha sake",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah ko chhod kar aisi cheez ko mat pukar jo na tujhe nafa de sake aur na tujhe nuqsan pahuncha sake",
+              "ur": "Aur Allah ko chhod kar aisi cheez ko mat pukar jo na tujhe nafa de sake aur na tujhe nuqsan pahuncha sake",
+              "en": "Aur Allah ko chhod kar aisi cheez ko mat pukar jo na tujhe nafa de sake aur na tujhe nuqsan pahuncha sake",
+              "hi": "Aur Allah ko chhod kar aisi cheez ko mat pukar jo na tujhe nafa de sake aur na tujhe nuqsan pahuncha sake",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s9",
+            "sentence_number": 9,
+            "arabic": "وَلَا تَمْشِ فِي الْأَرْضِ مَرَحًا / إِنَّكَ لَنْ تَخْرِقَ الْأَرْضَ وَلَنْ تَبْلُغَ الْجِبَالَ طُولًا",
+            "arabic_text": "وَلَا تَمْشِ فِي الْأَرْضِ مَرَحًا / إِنَّكَ لَنْ تَخْرِقَ الْأَرْضَ وَلَنْ تَبْلُغَ الْجِبَالَ طُولًا",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">مْشِ</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْأَرْضِ</span> <span class=\"arabic-root\">مَرَحًا</span> / <span class=\"nonroot\">إِنَّكَ</span> <span class=\"nonroot\">لَنْ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">خْرِقَ</span> <span class=\"arabic-root\">الْأَرْضَ</span> <span class=\"arabic-root\">وَلَنْ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">بْلُغَ</span> <span class=\"arabic-root\">الْجِبَالَ</span> <span class=\"arabic-root\">طُولًا</span>",
+            "hinglish": "Aur zameen par akad kar mat chal, beshak tu na zameen ko phaad sakta hai aur na lambai mein pahadon tak pahunch sakta hai",
+            "hinglish_meaning": "Aur zameen par akad kar mat chal, beshak tu na zameen ko phaad sakta hai aur na lambai mein pahadon tak pahunch sakta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur zameen par akad kar mat chal, beshak tu na zameen ko phaad sakta hai aur na lambai mein pahadon tak pahunch sakta hai",
+              "ur": "Aur zameen par akad kar mat chal, beshak tu na zameen ko phaad sakta hai aur na lambai mein pahadon tak pahunch sakta hai",
+              "en": "Aur zameen par akad kar mat chal, beshak tu na zameen ko phaad sakta hai aur na lambai mein pahadon tak pahunch sakta hai",
+              "hi": "Aur zameen par akad kar mat chal, beshak tu na zameen ko phaad sakta hai aur na lambai mein pahadon tak pahunch sakta hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s10",
+            "sentence_number": 10,
+            "arabic": "وَلَا تُصَعِّرْ خَدَّكَ لِلنَّاسِ وَلَا تَمْشِ فِي الْأَرْضِ مَرَحًا / إِنَّ اللَّهَ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
+            "arabic_text": "وَلَا تُصَعِّرْ خَدَّكَ لِلنَّاسِ وَلَا تَمْشِ فِي الْأَرْضِ مَرَحًا / إِنَّ اللَّهَ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">صَعِّرْ</span> <span class=\"arabic-root\">خَدَّكَ</span> <span class=\"arabic-root\">لِلنَّاسِ</span> <span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">مْشِ</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْأَرْضِ</span> <span class=\"arabic-root\">مَرَحًا</span> / <span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">يُ</span><span class=\"arabic-root\">حِبُّ</span> <span class=\"arabic-root\">كُلَّ</span> <span class=\"arabic-root\">مُخْتَالٍ</span> <span class=\"arabic-root\">فَخُورٍ</span>",
+            "hinglish": "Aur logon ke saamne takabbur se apna rukhsaar (gaal) mat phula aur na zameen mein itra kar chal, beshak Allah kisi takabbur karne waale shekhi-khor ko pasand nahi karta",
+            "hinglish_meaning": "Aur logon ke saamne takabbur se apna rukhsaar (gaal) mat phula aur na zameen mein itra kar chal, beshak Allah kisi takabbur karne waale shekhi-khor ko pasand nahi karta",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur logon ke saamne takabbur se apna rukhsaar (gaal) mat phula aur na zameen mein itra kar chal, beshak Allah kisi takabbur karne waale shekhi-khor ko pasand nahi karta",
+              "ur": "Aur logon ke saamne takabbur se apna rukhsaar (gaal) mat phula aur na zameen mein itra kar chal, beshak Allah kisi takabbur karne waale shekhi-khor ko pasand nahi karta",
+              "en": "Aur logon ke saamne takabbur se apna rukhsaar (gaal) mat phula aur na zameen mein itra kar chal, beshak Allah kisi takabbur karne waale shekhi-khor ko pasand nahi karta",
+              "hi": "Aur logon ke saamne takabbur se apna rukhsaar (gaal) mat phula aur na zameen mein itra kar chal, beshak Allah kisi takabbur karne waale shekhi-khor ko pasand nahi karta",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s11",
+            "sentence_number": 11,
+            "arabic": "وَابْتَغِ فِيمَا آتَاكَ اللَّهُ الدَّارَ الْآخِرَةَ / وَلَا تَنْسَ نَصِيبَكَ مِنَ الدُّنْيَا / وَأَحْسِنْ كَمَا أَحْسَنَ اللَّهُ إِلَيْكَ / وَلَا تَبْغِ الْفَسَادَ فِي الْأَرْضِ",
+            "arabic_text": "وَابْتَغِ فِيمَا آتَاكَ اللَّهُ الدَّارَ الْآخِرَةَ / وَلَا تَنْسَ نَصِيبَكَ مِنَ الدُّنْيَا / وَأَحْسِنْ كَمَا أَحْسَنَ اللَّهُ إِلَيْكَ / وَلَا تَبْغِ الْفَسَادَ فِي الْأَرْضِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَابْتَغِ</span> <span class=\"arabic-root\">فِيمَا</span> <span class=\"arabic-root\">آتَاكَ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">الدَّارَ</span> <span class=\"arabic-root\">الْآخِرَةَ</span> / <span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">نْسَ</span> <span class=\"nonroot\">نَ</span><span class=\"arabic-root\">صِيبَكَ</span> <span class=\"nonroot\">مِنَ</span> <span class=\"arabic-root\">الدُّنْيَا</span> / <span class=\"nonroot\">وَأَ</span><span class=\"arabic-root\">حْسِنْ</span> <span class=\"arabic-root\">كَمَا</span> <span class=\"nonroot\">أَ</span><span class=\"arabic-root\">حْسَنَ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"nonroot\">إِلَيْكَ</span> / <span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">بْغِ</span> <span class=\"arabic-root\">الْفَسَادَ</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْأَرْضِ</span>",
+            "hinglish": "Aur jo kuch Allah ne tujhe diya hai uss se aakhirat ka ghar talash kar aur duniya se bhi apna hissa na bhool, aur ehsaan kar jaise Allah ne tujh par ehsaan kiya hai, aur zameen mein fasaad mat dhoond",
+            "hinglish_meaning": "Aur jo kuch Allah ne tujhe diya hai uss se aakhirat ka ghar talash kar aur duniya se bhi apna hissa na bhool, aur ehsaan kar jaise Allah ne tujh par ehsaan kiya hai, aur zameen mein fasaad mat dhoond",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur jo kuch Allah ne tujhe diya hai uss se aakhirat ka ghar talash kar aur duniya se bhi apna hissa na bhool, aur ehsaan kar jaise Allah ne tujh par ehsaan kiya hai, aur zameen mein fasaad mat dhoond",
+              "ur": "Aur jo kuch Allah ne tujhe diya hai uss se aakhirat ka ghar talash kar aur duniya se bhi apna hissa na bhool, aur ehsaan kar jaise Allah ne tujh par ehsaan kiya hai, aur zameen mein fasaad mat dhoond",
+              "en": "Aur jo kuch Allah ne tujhe diya hai uss se aakhirat ka ghar talash kar aur duniya se bhi apna hissa na bhool, aur ehsaan kar jaise Allah ne tujh par ehsaan kiya hai, aur zameen mein fasaad mat dhoond",
+              "hi": "Aur jo kuch Allah ne tujhe diya hai uss se aakhirat ka ghar talash kar aur duniya se bhi apna hissa na bhool, aur ehsaan kar jaise Allah ne tujh par ehsaan kiya hai, aur zameen mein fasaad mat dhoond",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s12",
+            "sentence_number": 12,
+            "arabic": "فَلَا تُطِعِ الْكَافِرِينَ وَجَاهِدْهُمْ بِهِ جِهَادًا كَبِيرًا",
+            "arabic_text": "فَلَا تُطِعِ الْكَافِرِينَ وَجَاهِدْهُمْ بِهِ جِهَادًا كَبِيرًا",
+            "arabic_markup": "<span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">طِعِ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">كَافِر</span><span class=\"nonroot\">ِينَ</span> <span class=\"arabic-root\">وَجَاهِد</span><span class=\"nonroot\">ْهُمْ</span> <span class=\"nonroot\">بِهِ</span> <span class=\"arabic-root\">جِهَادًا</span> <span class=\"arabic-root\">كَبِيرًا</span>",
+            "hinglish": "Pas aap kaafiron ka kaha mat maanein aur iss (Qur'an) ke zariye un se bada jihaad karein",
+            "hinglish_meaning": "Pas aap kaafiron ka kaha mat maanein aur iss (Qur'an) ke zariye un se bada jihaad karein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Pas aap kaafiron ka kaha mat maanein aur iss (Qur'an) ke zariye un se bada jihaad karein",
+              "ur": "Pas aap kaafiron ka kaha mat maanein aur iss (Qur'an) ke zariye un se bada jihaad karein",
+              "en": "Pas aap kaafiron ka kaha mat maanein aur iss (Qur'an) ke zariye un se bada jihaad karein",
+              "hi": "Pas aap kaafiron ka kaha mat maanein aur iss (Qur'an) ke zariye un se bada jihaad karein",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s13",
+            "sentence_number": 13,
+            "arabic": "فَلَا تُطِعِ الْمُكَذِّبِينَ",
+            "arabic_text": "فَلَا تُطِعِ الْمُكَذِّبِينَ",
+            "arabic_markup": "<span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">طِعِ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">مُكَذِّب</span><span class=\"nonroot\">ِينَ</span>",
+            "hinglish": "Pas aap jhutlaane waalon ki baat mat maanein",
+            "hinglish_meaning": "Pas aap jhutlaane waalon ki baat mat maanein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Pas aap jhutlaane waalon ki baat mat maanein",
+              "ur": "Pas aap jhutlaane waalon ki baat mat maanein",
+              "en": "Pas aap jhutlaane waalon ki baat mat maanein",
+              "hi": "Pas aap jhutlaane waalon ki baat mat maanein",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s14",
+            "sentence_number": 14,
+            "arabic": "وَلَا تُطِعِ الْكَافِرِينَ وَالْمُنَافِقِينَ وَدَعْ أَذَاهُمْ وَتَوَكَّلْ عَلَى اللَّهِ",
+            "arabic_text": "وَلَا تُطِعِ الْكَافِرِينَ وَالْمُنَافِقِينَ وَدَعْ أَذَاهُمْ وَتَوَكَّلْ عَلَى اللَّهِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">طِعِ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">كَافِر</span><span class=\"nonroot\">ِينَ</span> <span class=\"nonroot\">وَالْ</span><span class=\"arabic-root\">مُنَافِق</span><span class=\"nonroot\">ِينَ</span> <span class=\"arabic-root\">وَدَعْ</span> <span class=\"arabic-root\">أَذ</span><span class=\"nonroot\">َاهُمْ</span> <span class=\"nonroot\">وَتَ</span><span class=\"arabic-root\">وَكَّلْ</span> <span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">اللَّهِ</span>",
+            "hinglish": "Aur kaafiron aur munafiqon ki baat mat maanein aur unki eeza-rasani ki parwah na karein aur Allah par bharosa rakhein",
+            "hinglish_meaning": "Aur kaafiron aur munafiqon ki baat mat maanein aur unki eeza-rasani ki parwah na karein aur Allah par bharosa rakhein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur kaafiron aur munafiqon ki baat mat maanein aur unki eeza-rasani ki parwah na karein aur Allah par bharosa rakhein",
+              "ur": "Aur kaafiron aur munafiqon ki baat mat maanein aur unki eeza-rasani ki parwah na karein aur Allah par bharosa rakhein",
+              "en": "Aur kaafiron aur munafiqon ki baat mat maanein aur unki eeza-rasani ki parwah na karein aur Allah par bharosa rakhein",
+              "hi": "Aur kaafiron aur munafiqon ki baat mat maanein aur unki eeza-rasani ki parwah na karein aur Allah par bharosa rakhein",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s15",
+            "sentence_number": 15,
+            "arabic": "وَلَا تُطِعْ كُلَّ حَلَّافٍ مَهِينٍ",
+            "arabic_text": "وَلَا تُطِعْ كُلَّ حَلَّافٍ مَهِينٍ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">طِعْ</span> <span class=\"arabic-root\">كُلَّ</span> <span class=\"arabic-root\">حَلَّافٍ</span> <span class=\"arabic-root\">مَهِينٍ</span>",
+            "hinglish": "Aur kisi aise shakhs ki baat mat maano jo bahut qasmein khane waala, be-waq'at ho",
+            "hinglish_meaning": "Aur kisi aise shakhs ki baat mat maano jo bahut qasmein khane waala, be-waq'at ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur kisi aise shakhs ki baat mat maano jo bahut qasmein khane waala, be-waq'at ho",
+              "ur": "Aur kisi aise shakhs ki baat mat maano jo bahut qasmein khane waala, be-waq'at ho",
+              "en": "Aur kisi aise shakhs ki baat mat maano jo bahut qasmein khane waala, be-waq'at ho",
+              "hi": "Aur kisi aise shakhs ki baat mat maano jo bahut qasmein khane waala, be-waq'at ho",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s16",
+            "sentence_number": 16,
+            "arabic": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِنْ لَدُنْكَ رَحْمَةً",
+            "arabic_text": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِنْ لَدُنْكَ رَحْمَةً",
+            "arabic_markup": "<span class=\"arabic-root\">رَبَّنَا</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">زِغْ</span> <span class=\"arabic-root\">قُلُوب</span><span class=\"nonroot\">َنَا</span> <span class=\"arabic-root\">بَعْدَ</span> <span class=\"nonroot\">إِذْ</span> <span class=\"arabic-root\">هَدَيْت</span><span class=\"nonroot\">َنَا</span> <span class=\"arabic-root\">وَهَبْ</span> <span class=\"nonroot\">لَنَا</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">لَدُنْكَ</span> <span class=\"arabic-root\">رَحْمَةً</span>",
+            "hinglish": "Ae hamare Rabb! Hamare dilon ko tedha na kar ba'd iske ke tu ne humein hidayat ata farmai, aur humein apni taraf se rahmat ata farma",
+            "hinglish_meaning": "Ae hamare Rabb! Hamare dilon ko tedha na kar ba'd iske ke tu ne humein hidayat ata farmai, aur humein apni taraf se rahmat ata farma",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ae hamare Rabb! Hamare dilon ko tedha na kar ba'd iske ke tu ne humein hidayat ata farmai, aur humein apni taraf se rahmat ata farma",
+              "ur": "Ae hamare Rabb! Hamare dilon ko tedha na kar ba'd iske ke tu ne humein hidayat ata farmai, aur humein apni taraf se rahmat ata farma",
+              "en": "Ae hamare Rabb! Hamare dilon ko tedha na kar ba'd iske ke tu ne humein hidayat ata farmai, aur humein apni taraf se rahmat ata farma",
+              "hi": "Ae hamare Rabb! Hamare dilon ko tedha na kar ba'd iske ke tu ne humein hidayat ata farmai, aur humein apni taraf se rahmat ata farma",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s17",
+            "sentence_number": 17,
+            "arabic": "قُلْنَا لَا تَخَفْ إِنَّكَ أَنْتَ الْأَعْلَىٰ",
+            "arabic_text": "قُلْنَا لَا تَخَفْ إِنَّكَ أَنْتَ الْأَعْلَىٰ",
+            "arabic_markup": "<span class=\"arabic-root\">قُل</span><span class=\"nonroot\">ْنَا</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">خَفْ</span> <span class=\"nonroot\">إِنَّكَ</span> <span class=\"nonroot\">أَنْتَ</span> <span class=\"arabic-root\">الْأَعْلَىٰ</span>",
+            "hinglish": "Hum ne farmaya: Mat dar! Beshak tu hi ghalib rahega",
+            "hinglish_meaning": "Hum ne farmaya: Mat dar! Beshak tu hi ghalib rahega",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Hum ne farmaya: Mat dar! Beshak tu hi ghalib rahega",
+              "ur": "Hum ne farmaya: Mat dar! Beshak tu hi ghalib rahega",
+              "en": "Hum ne farmaya: Mat dar! Beshak tu hi ghalib rahega",
+              "hi": "Hum ne farmaya: Mat dar! Beshak tu hi ghalib rahega",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s18",
+            "sentence_number": 18,
+            "arabic": "يَا مُوسَىٰ لَا تَخَفْ إِنِّي لَا يَخَافُ لَدَيَّ الْمُرْسَلُونَ",
+            "arabic_text": "يَا مُوسَىٰ لَا تَخَفْ إِنِّي لَا يَخَافُ لَدَيَّ الْمُرْسَلُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">مُوسَىٰ</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">خَفْ</span> <span class=\"nonroot\">إِنِّي</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">خَافُ</span> <span class=\"arabic-root\">لَدَيَّ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">مُرْسَل</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Ae Moosa! Mat dar, beshak mere huzoor Rasool dara nahi karte",
+            "hinglish_meaning": "Ae Moosa! Mat dar, beshak mere huzoor Rasool dara nahi karte",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ae Moosa! Mat dar, beshak mere huzoor Rasool dara nahi karte",
+              "ur": "Ae Moosa! Mat dar, beshak mere huzoor Rasool dara nahi karte",
+              "en": "Ae Moosa! Mat dar, beshak mere huzoor Rasool dara nahi karte",
+              "hi": "Ae Moosa! Mat dar, beshak mere huzoor Rasool dara nahi karte",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s19",
+            "sentence_number": 19,
+            "arabic": "لَا تَخَفْ وَلَا تَحْزَنْ / إِنَّا مُنَجُّوكَ وَأَهْلَكَ",
+            "arabic_text": "لَا تَخَفْ وَلَا تَحْزَنْ / إِنَّا مُنَجُّوكَ وَأَهْلَكَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">خَفْ</span> <span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">حْزَنْ</span> / <span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">مُنَجُّوكَ</span> <span class=\"nonroot\">وَأَ</span><span class=\"arabic-root\">هْلَكَ</span>",
+            "hinglish": "Na daro aur na gham karo, beshak hum tumhein aur tumhare ghar waalon ko najaat dene waale hain",
+            "hinglish_meaning": "Na daro aur na gham karo, beshak hum tumhein aur tumhare ghar waalon ko najaat dene waale hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Na daro aur na gham karo, beshak hum tumhein aur tumhare ghar waalon ko najaat dene waale hain",
+              "ur": "Na daro aur na gham karo, beshak hum tumhein aur tumhare ghar waalon ko najaat dene waale hain",
+              "en": "Na daro aur na gham karo, beshak hum tumhein aur tumhare ghar waalon ko najaat dene waale hain",
+              "hi": "Na daro aur na gham karo, beshak hum tumhein aur tumhare ghar waalon ko najaat dene waale hain",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s20",
+            "sentence_number": 20,
+            "arabic": "وَاذْكُرْ رَبَّكَ فِي نَفْسِكَ تَضَرُّعًا وَخِيفَةً وَدُونَ الْجَهْرِ مِنَ الْقَوْلِ بِالْغُدُوِّ وَالْآصَالِ وَلَا تَكُنْ مِنَ الْغَافِلِينَ",
+            "arabic_text": "وَاذْكُرْ رَبَّكَ فِي نَفْسِكَ تَضَرُّعًا وَخِيفَةً وَدُونَ الْجَهْرِ مِنَ الْقَوْلِ بِالْغُدُوِّ وَالْآصَالِ وَلَا تَكُنْ مِنَ الْغَافِلِينَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَاذْكُرْ</span> <span class=\"arabic-root\">رَبَّكَ</span> <span class=\"nonroot\">فِي</span> <span class=\"nonroot\">نَ</span><span class=\"arabic-root\">فْسِكَ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">ضَرُّعًا</span> <span class=\"arabic-root\">وَخِيفَةً</span> <span class=\"arabic-root\">وَد</span><span class=\"nonroot\">ُونَ</span> <span class=\"arabic-root\">الْجَهْرِ</span> <span class=\"nonroot\">مِنَ</span> <span class=\"arabic-root\">الْقَوْلِ</span> <span class=\"arabic-root\">بِالْغُدُوِّ</span> <span class=\"arabic-root\">وَالْآصَالِ</span> <span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">كُنْ</span> <span class=\"nonroot\">مِنَ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">غَافِل</span><span class=\"nonroot\">ِينَ</span>",
+            "hinglish": "Aur apne Rabb ko apne dil mein aajizi aur khauf ke saath aur buland aawaaz ke baghair subah aur shaam yaad karo, aur ghaafilon mein se mat ho",
+            "hinglish_meaning": "Aur apne Rabb ko apne dil mein aajizi aur khauf ke saath aur buland aawaaz ke baghair subah aur shaam yaad karo, aur ghaafilon mein se mat ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur apne Rabb ko apne dil mein aajizi aur khauf ke saath aur buland aawaaz ke baghair subah aur shaam yaad karo, aur ghaafilon mein se mat ho",
+              "ur": "Aur apne Rabb ko apne dil mein aajizi aur khauf ke saath aur buland aawaaz ke baghair subah aur shaam yaad karo, aur ghaafilon mein se mat ho",
+              "en": "Aur apne Rabb ko apne dil mein aajizi aur khauf ke saath aur buland aawaaz ke baghair subah aur shaam yaad karo, aur ghaafilon mein se mat ho",
+              "hi": "Aur apne Rabb ko apne dil mein aajizi aur khauf ke saath aur buland aawaaz ke baghair subah aur shaam yaad karo, aur ghaafilon mein se mat ho",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s21",
+            "sentence_number": 21,
+            "arabic": "الْحَقُّ مِنْ رَبِّكَ فَلَا تَكُنْ مِنَ الْمُمْتَرِينَ",
+            "arabic_text": "الْحَقُّ مِنْ رَبِّكَ فَلَا تَكُنْ مِنَ الْمُمْتَرِينَ",
+            "arabic_markup": "<span class=\"arabic-root\">الْحَقُّ</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">رَبِّكَ</span> <span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">كُنْ</span> <span class=\"nonroot\">مِنَ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">مُمْتَر</span><span class=\"nonroot\">ِينَ</span>",
+            "hinglish": "Yeh tere Rabb ki taraf se haq hai, pas tu shak karne waalon mein se mat hona",
+            "hinglish_meaning": "Yeh tere Rabb ki taraf se haq hai, pas tu shak karne waalon mein se mat hona",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yeh tere Rabb ki taraf se haq hai, pas tu shak karne waalon mein se mat hona",
+              "ur": "Yeh tere Rabb ki taraf se haq hai, pas tu shak karne waalon mein se mat hona",
+              "en": "Yeh tere Rabb ki taraf se haq hai, pas tu shak karne waalon mein se mat hona",
+              "hi": "Yeh tere Rabb ki taraf se haq hai, pas tu shak karne waalon mein se mat hona",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s22",
+            "sentence_number": 22,
+            "arabic": "وَلَا تُصَلِّ عَلَىٰ أَحَدٍ مِنْهُمْ مَاتَ أَبَدًا وَلَا تَقُمْ عَلَىٰ قَبْرِهِ",
+            "arabic_text": "وَلَا تُصَلِّ عَلَىٰ أَحَدٍ مِنْهُمْ مَاتَ أَبَدًا وَلَا تَقُمْ عَلَىٰ قَبْرِهِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">صَلِّ</span> <span class=\"nonroot\">عَلَىٰ</span> <span class=\"nonroot\">أَ</span><span class=\"arabic-root\">حَدٍ</span> <span class=\"nonroot\">مِنْهُمْ</span> <span class=\"arabic-root\">مَاتَ</span> <span class=\"nonroot\">أَ</span><span class=\"arabic-root\">بَدًا</span> <span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قُمْ</span> <span class=\"nonroot\">عَلَىٰ</span> <span class=\"arabic-root\">قَبْرِهِ</span>",
+            "hinglish": "Aur un (munafiqon) mein se jo koi mar jaaye us par kabhi namaaz-e-janaaza na padhna aur na uski qabr par khade hona",
+            "hinglish_meaning": "Aur un (munafiqon) mein se jo koi mar jaaye us par kabhi namaaz-e-janaaza na padhna aur na uski qabr par khade hona",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur un (munafiqon) mein se jo koi mar jaaye us par kabhi namaaz-e-janaaza na padhna aur na uski qabr par khade hona",
+              "ur": "Aur un (munafiqon) mein se jo koi mar jaaye us par kabhi namaaz-e-janaaza na padhna aur na uski qabr par khade hona",
+              "en": "Aur un (munafiqon) mein se jo koi mar jaaye us par kabhi namaaz-e-janaaza na padhna aur na uski qabr par khade hona",
+              "hi": "Aur un (munafiqon) mein se jo koi mar jaaye us par kabhi namaaz-e-janaaza na padhna aur na uski qabr par khade hona",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s23",
+            "sentence_number": 23,
+            "arabic": "فَلَا تَقُلْ لَهُمَا أُفٍّ وَلَا تَنْهَرْهُمَا وَقُلْ لَهُمَا قَوْلًا كَرِيمًا",
+            "arabic_text": "فَلَا تَقُلْ لَهُمَا أُفٍّ وَلَا تَنْهَرْهُمَا وَقُلْ لَهُمَا قَوْلًا كَرِيمًا",
+            "arabic_markup": "<span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">قُلْ</span> <span class=\"arabic-root\">لَهُمَا</span> <span class=\"nonroot\">أُ</span><span class=\"arabic-root\">فٍّ</span> <span class=\"arabic-root\">وَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">نْهَرْهُمَا</span> <span class=\"arabic-root\">وَقُلْ</span> <span class=\"arabic-root\">لَهُمَا</span> <span class=\"arabic-root\">قَوْلًا</span> <span class=\"arabic-root\">كَرِيمًا</span>",
+            "hinglish": "Pas un dono (walidain) ko 'uff' tak mat kehna aur na unhein jhidakna, aur un dono se adab aur ikraam ki baat kehna",
+            "hinglish_meaning": "Pas un dono (walidain) ko 'uff' tak mat kehna aur na unhein jhidakna, aur un dono se adab aur ikraam ki baat kehna",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Pas un dono (walidain) ko 'uff' tak mat kehna aur na unhein jhidakna, aur un dono se adab aur ikraam ki baat kehna",
+              "ur": "Pas un dono (walidain) ko 'uff' tak mat kehna aur na unhein jhidakna, aur un dono se adab aur ikraam ki baat kehna",
+              "en": "Pas un dono (walidain) ko 'uff' tak mat kehna aur na unhein jhidakna, aur un dono se adab aur ikraam ki baat kehna",
+              "hi": "Pas un dono (walidain) ko 'uff' tak mat kehna aur na unhein jhidakna, aur un dono se adab aur ikraam ki baat kehna",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l15_v_s24",
+            "sentence_number": 24,
+            "arabic": "رَبِّ لَا تَذَرْنِي فَرْدًا وَأَنْتَ خَيْرُ الْوَارِثِينَ",
+            "arabic_text": "رَبِّ لَا تَذَرْنِي فَرْدًا وَأَنْتَ خَيْرُ الْوَارِثِينَ",
+            "arabic_markup": "<span class=\"arabic-root\">رَبِّ</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">ذَرْنِي</span> <span class=\"arabic-root\">فَرْدًا</span> <span class=\"arabic-root\">وَأَن</span><span class=\"nonroot\">ْتَ</span> <span class=\"arabic-root\">خَيْرُ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">وَارِث</span><span class=\"nonroot\">ِينَ</span>",
+            "hinglish": "Ae mere Rabb! Mujhe akela (be-aulaad) na chhod aur tu sab se behtareen waaris hai",
+            "hinglish_meaning": "Ae mere Rabb! Mujhe akela (be-aulaad) na chhod aur tu sab se behtareen waaris hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ae mere Rabb! Mujhe akela (be-aulaad) na chhod aur tu sab se behtareen waaris hai",
+              "ur": "Ae mere Rabb! Mujhe akela (be-aulaad) na chhod aur tu sab se behtareen waaris hai",
+              "en": "Ae mere Rabb! Mujhe akela (be-aulaad) na chhod aur tu sab se behtareen waaris hai",
+              "hi": "Ae mere Rabb! Mujhe akela (be-aulaad) na chhod aur tu sab se behtareen waaris hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "book_page": 64,
+  "page_start": 64
+}

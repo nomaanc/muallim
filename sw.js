@@ -1,5 +1,6 @@
 // @ts-check
-const CACHE_NAME = 'muallim-v4.0.2-cache';
+// v5.1.0 — Complete audited dataset: 7 units, 114 lessons, 10,272 items, 570 quiz questions
+const CACHE_NAME = 'muallim-v5.1.0-cache';
 const ASSETS = [
   './', './index.html', './teacher.html', './admin.html', './css/styles.css', './css/layout.css',
   './js/app.js', './js/grammar-visuals.js', './js/audio-fx.js',
@@ -11,7 +12,7 @@ const ASSETS = [
   './data/metadata.json', './manifest.json',
   './icons/icon.svg', './icons/icon-192.png', './icons/icon-512.png', './icons/apple-touch-icon.png'
 ];
-// Unit JSON files and search index cached on first fetch, not pre-cached
+// Unit JSON, search-index, and per-lesson files cached on first fetch, not pre-cached
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE_NAME).then(c => c.addAll(ASSETS)));
@@ -22,19 +23,20 @@ self.addEventListener('activate', e => {
   e.waitUntil(
     caches.keys().then(keys =>
       Promise.all(keys.filter(k => k !== CACHE_NAME).map(k => caches.delete(k)))
-    ).then(() => {
-      return self.clients.matchAll({ type: 'window' }).then(clients => {
-        clients.forEach(client => client.postMessage({ type: 'SW_UPDATED' }));
-      });
-    })
+    ).then(() => self.clients.claim())
   );
-  self.clients.claim();
+});
+
+self.addEventListener('message', e => {
+  if (e.data && e.data.type === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
 });
 
 self.addEventListener('fetch', e => {
   e.respondWith(
     caches.match(e.request).then(r => r || fetch(e.request).then(resp => {
-      if (resp.ok && (e.request.url.includes('/data/unit') || e.request.url.includes('/data/quizzes') || e.request.url.includes('/data/search-index'))) {
+      if (resp.ok && (e.request.url.includes('/data/unit') || e.request.url.includes('/data/quizzes') || e.request.url.includes('/data/search-index') || e.request.url.includes('/data/lessons/'))) {
         var clone = resp.clone();
         caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
       }

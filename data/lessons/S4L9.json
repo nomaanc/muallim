@@ -1,0 +1,660 @@
+{
+  "lesson_id": 9,
+  "lesson_key": "S4L9",
+  "stage_id": 4,
+  "title": "Zameer-e-Munfasil Mu'annas Ghaib: فِتْنَةٌ ← هِيَ فِتْنَةٌ",
+  "arabic_Focus": "فِتْنَةٌ ← هِيَ فِتْنَةٌ",
+  "hinglish_Focus": "Aazmaish → Woh (mu'annas) ek aazmaish hai",
+  "page_numbers": "23",
+  "book_page": 23,
+  "status": "complete",
+  "title_i18n": {
+    "en": "Zameer-e-Munfasil Mu'annas Ghaib: فِتْنَةٌ ← هِيَ فِتْنَةٌ",
+    "ur": "یونٹ 4 سبق 9: فِتْنَةٌ ← هِيَ فِتْنَةٌ",
+    "hi": "Zameer-e-Munfasil Mu'annas Ghaib: فِتْنَةٌ ← هِيَ فِتْنَةٌ"
+  },
+  "sections": [
+    {
+      "id": "sec_hero",
+      "type": "hero_header",
+      "data": {
+        "arabic": "فِتْنَةٌ ← هِيَ فِتْنَةٌ",
+        "hinglish": "Aazmaish → Woh (mu'annas) ek aazmaish hai",
+        "arabic_word": "فِتْنَةٌ",
+        "arabic_combined": "فِتْنَةٌ ← هِيَ فِتْنَةٌ",
+        "hinglish_word": "Aazmaish",
+        "hinglish_combined": "Aazmaish → Woh (mu'annas) ek aazmaish hai",
+        "title_en": "Zameer-e-Munfasil Mu'annas Ghaib: فِتْنَةٌ ← هِيَ فِتْنَةٌ",
+        "subtitle": "Unit 4 • Lesson 9 (Book Page 23)",
+        "transformations": [
+          {
+            "before_ar": "فِتْنَةٌ",
+            "after_ar": "هِيَ فِتْنَةٌ",
+            "before_hi": "Aazmaish",
+            "after_hi": "Woh (mu'annas) ek aazmaish hai"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_intro_table",
+      "type": "intro_table",
+      "data": {
+        "title": "S4L9 — Zameer-e-Munfasil Mu'annas Ghaib: فِتْنَةٌ ← هِيَ فِتْنَةٌ: Buniyadi Misaalein",
+        "caption": "S4L9 — Zameer-e-Munfasil Mu'annas Ghaib: فِتْنَةٌ ← هِيَ فِتْنَةٌ: Buniyadi Misaalein",
+        "headers": [
+          "Qism / Halat",
+          "Arabi Misaal",
+          "Hinglish Mafhoom"
+        ],
+        "rows": [
+          [
+            "هِيَ + Mu'annas Ism",
+            "هِيَ فِتْنَةٌ / هِيَ بَيْضَاءُ",
+            "Woh ek aazmaish hai / Woh (haath) roshan sufaid hai"
+          ],
+          [
+            "وَهِيَ / فَهِيَ",
+            "وَهِيَ خَاوِيَةٌ / فَهِيَ كَالْحِجَارَةِ",
+            "Halanke woh giri hui thi / Toh woh pattharon ki tarah hain"
+          ],
+          [
+            "هِيَ + الْـ (Hasr)",
+            "هِيَ الْحَيَوَانُ / هِيَ الْمَأْوَىٰ",
+            "Wohi asal zindagi hai / Wohi thikana hai"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sec_s4l9_concept",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u4grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u4grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 4 • LESSON 9</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Zameer-e-Munfasil Mu'annas Ghaib: فِتْنَةٌ ← هِيَ فِتْنَةٌ (Page 23)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">فِتْنَةٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Zameer (هِيَ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">هِيَ فِتْنَةٌ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• فِتْنَةٌ (Aazmaish) se هِيَ فِتْنَةٌ (Woh (mu'annas) ek aazmaish hai) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Qur'an Majeed mein yeh tarkeeb saikdon maqamaat par barah-e-raast samajh aati hai.</text>\n</svg>\n</div>\n**Qaa'ida (Page 23):** Mu'annas ism (Jaise `فِتْنَةٌ`، `آيَةٌ`، `الْقَرْيَةُ`، `النَّارُ`، `السَّاعَةُ`) ke liye `هُوَ` ke bajaye **`هِيَ`** ('Woh') istemal hota hai: `فَإِنَّمَا هِيَ زَجْرَةٌ وَاحِدَةٌ` (Pas woh toh sirf ek hi daant/chikha hai), `وَإِنَّ الدَّارَ الْآخِرَةَ لَهِيَ الْحَيَوَانُ` (Aur beshak aakhirat ka ghar hi asal zindagi hai).",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u4grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u4grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 4 • LESSON 9</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Zameer-e-Munfasil Mu'annas Ghaib: فِتْنَةٌ ← هِيَ فِتْنَةٌ (Page 23)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">فِتْنَةٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Zameer (هِيَ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">هِيَ فِتْنَةٌ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• فِتْنَةٌ (Aazmaish) se هِيَ فِتْنَةٌ (Woh (mu'annas) ek aazmaish hai) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Qur'an Majeed mein yeh tarkeeb saikdon maqamaat par barah-e-raast samajh aati hai.</text>\n</svg>\n</div>\n**Qaa'ida (Page 23):** Mu'annas ism (Jaise `فِتْنَةٌ`، `آيَةٌ`، `الْقَرْيَةُ`، `النَّارُ`، `السَّاعَةُ`) ke liye `هُوَ` ke bajaye **`هِيَ`** ('Woh') istemal hota hai: `فَإِنَّمَا هِيَ زَجْرَةٌ وَاحِدَةٌ` (Pas woh toh sirf ek hi daant/chikha hai), `وَإِنَّ الدَّارَ الْآخِرَةَ لَهِيَ الْحَيَوَانُ` (Aur beshak aakhirat ka ghar hi asal zindagi hai).",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u4grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u4grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 4 • LESSON 9</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Zameer-e-Munfasil Mu'annas Ghaib: فِتْنَةٌ ← هِيَ فِتْنَةٌ (Page 23)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">فِتْنَةٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Zameer (هِيَ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">هِيَ فِتْنَةٌ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• فِتْنَةٌ (Aazmaish) se هِيَ فِتْنَةٌ (Woh (mu'annas) ek aazmaish hai) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Qur'an Majeed mein yeh tarkeeb saikdon maqamaat par barah-e-raast samajh aati hai.</text>\n</svg>\n</div>\n**Qaa'ida (Page 23):** Mu'annas ism (Jaise `فِتْنَةٌ`، `آيَةٌ`، `الْقَرْيَةُ`، `النَّارُ`، `السَّاعَةُ`) ke liye `هُوَ` ke bajaye **`هِيَ`** ('Woh') istemal hota hai: `فَإِنَّمَا هِيَ زَجْرَةٌ وَاحِدَةٌ` (Pas woh toh sirf ek hi daant/chikha hai), `وَإِنَّ الدَّارَ الْآخِرَةَ لَهِيَ الْحَيَوَانُ` (Aur beshak aakhirat ka ghar hi asal zindagi hai)."
+      }
+    },
+    {
+      "id": "sec_s4l9_g1",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s4l9_g1_w1",
+            "arabic": "هِيَ فِتْنَةٌ",
+            "arabic_text": "هِيَ فِتْنَةٌ",
+            "arabic_markup": "<span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">فِتْنَةٌ</span>",
+            "hinglish": "Woh aazmaish hai",
+            "hinglish_meaning": "Woh aazmaish hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh aazmaish hai",
+              "en": "It is a trial",
+              "ur": "وہ آزمائش ہے",
+              "hi": "वह आज़माइश है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_g1_w2",
+            "arabic": "هِيَ ظَالِمَةٌ",
+            "arabic_text": "هِيَ ظَالِمَةٌ",
+            "arabic_markup": "<span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">ظَالِمَةٌ</span>",
+            "hinglish": "Woh zalim hai",
+            "hinglish_meaning": "Woh zalim hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh zalim hai",
+              "en": "It is unjust",
+              "ur": "وہ ظالم ہے",
+              "hi": "वह ज़ालिम है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_g1_w3",
+            "arabic": "هِيَ أَكْبَرُ",
+            "arabic_text": "هِيَ أَكْبَرُ",
+            "arabic_markup": "<span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">أَكْبَرُ</span>",
+            "hinglish": "Woh sab se badi hai",
+            "hinglish_meaning": "Woh sab se badi hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh sab se badi hai",
+              "en": "It is greater",
+              "ur": "وہ سب سے بڑی ہے",
+              "hi": "वह सबसे बड़ी है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_g1_w4",
+            "arabic": "هِيَ زَجْرَةٌ",
+            "arabic_text": "هِيَ زَجْرَةٌ",
+            "arabic_markup": "<span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">زَجْرَةٌ</span>",
+            "hinglish": "Woh cheekh hai",
+            "hinglish_meaning": "Woh cheekh hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh cheekh hai",
+              "en": "It is a shout",
+              "ur": "وہ ایک چیخ ہے",
+              "hi": "वह एक चीख़ है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_g1_w5",
+            "arabic": "هِيَ بَيْضَاءُ",
+            "arabic_text": "هِيَ بَيْضَاءُ",
+            "arabic_markup": "<span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">بَيْضَاءُ</span>",
+            "hinglish": "Woh safaid hai",
+            "hinglish_meaning": "Woh safaid hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh safaid hai",
+              "en": "It is white",
+              "ur": "وہ سفید ہے",
+              "hi": "वह सफ़ेद है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_g1_w6",
+            "arabic": "هِيَ أَشَدُّ",
+            "arabic_text": "هِيَ أَشَدُّ",
+            "arabic_markup": "<span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">أَشَدُّ</span>",
+            "hinglish": "Woh zyada sakht hai",
+            "hinglish_meaning": "Woh zyada sakht hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh zyada sakht hai",
+              "en": "It is more severe",
+              "ur": "وہ زیادہ سخت ہے",
+              "hi": "वह ज़्यादा सख़्त है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_g1_w7",
+            "arabic": "هِيَ خَاوِيَةٌ",
+            "arabic_text": "هِيَ خَاوِيَةٌ",
+            "arabic_markup": "<span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">خَاوِيَةٌ</span>",
+            "hinglish": "Woh giri hui hai",
+            "hinglish_meaning": "Woh giri hui hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh giri hui hai",
+              "en": "It is in ruins",
+              "ur": "وہ گری ہوئی ہے",
+              "hi": "वह गिरी हुई है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_g1_w8",
+            "arabic": "هِيَ شَاخِصَةٌ",
+            "arabic_text": "هِيَ شَاخِصَةٌ",
+            "arabic_markup": "<span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">شَاخِصَةٌ</span>",
+            "hinglish": "Woh pathrayi hui hai",
+            "hinglish_meaning": "Woh pathrayi hui hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh pathrayi hui hai",
+              "en": "They are staring",
+              "ur": "وہ پتھرائی ہوئی ہیں",
+              "hi": "वह पथराई हुई हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_g1_w9",
+            "arabic": "هِيَ أَقْوَمُ",
+            "arabic_text": "هِيَ أَقْوَمُ",
+            "arabic_markup": "<span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">أَقْوَمُ</span>",
+            "hinglish": "Woh zyada seedhi hai",
+            "hinglish_meaning": "Woh zyada seedhi hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh zyada seedhi hai",
+              "en": "It is most upright",
+              "ur": "وہ سب سے زیادہ سیدھی ہے",
+              "hi": "वह सबसे ज़्यादा सीधी है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_g1_w10",
+            "arabic": "هِيَ حَيَّةٌ",
+            "arabic_text": "هِيَ حَيَّةٌ",
+            "arabic_markup": "<span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">حَيَّةٌ</span>",
+            "hinglish": "Woh saanp hai",
+            "hinglish_meaning": "Woh saanp hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh saanp hai",
+              "en": "It is a snake",
+              "ur": "وہ ایک سانپ ہے",
+              "hi": "वह एक साँप है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_g1_w11",
+            "arabic": "هِيَ ثُعْبَانٌ",
+            "arabic_text": "هِيَ ثُعْبَانٌ",
+            "arabic_markup": "<span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">ثُعْبَانٌ</span>",
+            "hinglish": "Woh ajdaha hai",
+            "hinglish_meaning": "Woh ajdaha hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh ajdaha hai",
+              "en": "It is a serpent",
+              "ur": "وہ ایک اژدہا ہے",
+              "hi": "वह एक अजदहा है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_g1_w12",
+            "arabic": "هِيَ أَحْسَنُ",
+            "arabic_text": "هِيَ أَحْسَنُ",
+            "arabic_markup": "<span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">أَحْسَنُ</span>",
+            "hinglish": "Woh zyada behtar hai",
+            "hinglish_meaning": "Woh zyada behtar hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh zyada behtar hai",
+              "en": "It is better",
+              "ur": "وہ زیادہ بہتر ہے",
+              "hi": "वह ज़्यादा बेहतर है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_g1_w13",
+            "arabic": "هِيَ مَوَاقِيتُ",
+            "arabic_text": "هِيَ مَوَاقِيتُ",
+            "arabic_markup": "<span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">مَوَاقِيتُ</span>",
+            "hinglish": "Woh waqt janne ke zarai hain",
+            "hinglish_meaning": "Woh waqt janne ke zarai hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh waqt janne ke zarai hain",
+              "en": "They are indicators of periods",
+              "ur": "وہ وقت جاننے کے ذرائع ہیں",
+              "hi": "वह वक़्त जानने के ज़राए हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_g1_w14",
+            "arabic": "هِيَ دَارُ الْقَرَارِ",
+            "arabic_text": "هِيَ دَارُ الْقَرَارِ",
+            "arabic_markup": "<span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">دَارُ الْقَرَارِ</span>",
+            "hinglish": "Woh hamesha rehne ka ghar hai",
+            "hinglish_meaning": "Woh hamesha rehne ka ghar hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh hamesha rehne ka ghar hai",
+              "en": "It is the home of permanent settlement",
+              "ur": "وہ ہمیشہ رہنے کا گھر ہے",
+              "hi": "वह हमेशा रहने का घर है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_g1_w15",
+            "arabic": "وَهِيَ ظَالِمَةٌ",
+            "arabic_text": "وَهِيَ ظَالِمَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">ظَالِمَةٌ</span>",
+            "hinglish": "Aur woh zalim hai",
+            "hinglish_meaning": "Aur woh zalim hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur woh zalim hai",
+              "en": "And it is unjust",
+              "ur": "اور وہ ظالم ہے",
+              "hi": "और वह ज़ालिम है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_g1_w16",
+            "arabic": "سَلَامٌ هِيَ",
+            "arabic_text": "سَلَامٌ هِيَ",
+            "arabic_markup": "<span class=\"arabic-root\">سَلَامٌ</span> <span class=\"nonroot\">هِيَ</span>",
+            "hinglish": "Salamti hai woh",
+            "hinglish_meaning": "Salamti hai woh",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Salamti hai woh",
+              "en": "Peace it is",
+              "ur": "سلامتی ہے وہ",
+              "hi": "सलामती है वह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_g1_w17",
+            "arabic": "وَهِيَ دُخَانٌ",
+            "arabic_text": "وَهِيَ دُخَانٌ",
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">دُخَانٌ</span>",
+            "hinglish": "Aur woh dhuan hai",
+            "hinglish_meaning": "Aur woh dhuan hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur woh dhuan hai",
+              "en": "While it was smoke",
+              "ur": "اور وہ دھواں تھا (ہے)",
+              "hi": "और वह धुआँ है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_g1_w18",
+            "arabic": "بَلْ هِيَ فِتْنَةٌ",
+            "arabic_text": "بَلْ هِيَ فِتْنَةٌ",
+            "arabic_markup": "<span class=\"nonroot\">بَلْ</span> <span class=\"arabic-root\">هِيَ</span> <span class=\"arabic-root\">فِتْنَةٌ</span>",
+            "hinglish": "Balke woh aazmaish hai",
+            "hinglish_meaning": "Balke woh aazmaish hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Balke woh aazmaish hai",
+              "en": "Rather, it is a trial",
+              "ur": "بلکہ وہ آزمائش ہے",
+              "hi": "बल्कि वह आज़माइश है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s4l9_s2",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s4l9_s2_s1",
+            "sentence_number": 1,
+            "arabic": "فَإِنَّمَا هِيَ زَجْرَةٌ وَاحِدَةٌ",
+            "arabic_text": "فَإِنَّمَا هِيَ زَجْرَةٌ وَاحِدَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">فَإِنَّمَا</span> <span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">زَجْرَةٌ وَاحِدَةٌ</span>",
+            "hinglish": "Toh sirf woh ek cheekh hai",
+            "hinglish_meaning": "Toh sirf woh ek cheekh hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh sirf woh ek cheekh hai",
+              "en": "It will only be a single shout",
+              "ur": "پس وہ صرف ایک ہی چیخ ہوگی",
+              "hi": "तो सिर्फ़ वह एक चीख़ है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_s2_s2",
+            "sentence_number": 2,
+            "arabic": "هِيَ مَوَاقِيتُ لِلنَّاسِ وَالْحَجِّ",
+            "arabic_text": "هِيَ مَوَاقِيتُ لِلنَّاسِ وَالْحَجِّ",
+            "arabic_markup": "<span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">مَوَاقِيتُ لِلنَّاسِ وَالْحَجِّ</span>",
+            "hinglish": "Woh waqt janne ke zarai hain logon ke liye aur Hajj ke liye",
+            "hinglish_meaning": "Woh waqt janne ke zarai hain logon ke liye aur Hajj ke liye",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh waqt janne ke zarai hain logon ke liye aur Hajj ke liye",
+              "en": "They are indicators of periods for the people and for Hajj",
+              "ur": "وہ وقت جاننے کے ذرائع ہیں لوگوں کے لیے اور حج کے لیے",
+              "hi": "वह वक़्त जानने के ज़राए हैं लोगों के लिए और हज के लिए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_s2_s3",
+            "sentence_number": 3,
+            "arabic": "وَإِنَّ الْآخِرَةَ / هِيَ دَارُ الْقَرَارِ",
+            "arabic_text": "وَإِنَّ الْآخِرَةَ / هِيَ دَارُ الْقَرَارِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَإِنَّ الْآخِرَةَ /</span> <span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">دَارُ الْقَرَارِ</span>",
+            "hinglish": "Aur beshak aakhirat woh hamesha rehne ka ghar hai",
+            "hinglish_meaning": "Aur beshak aakhirat woh hamesha rehne ka ghar hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur beshak aakhirat woh hamesha rehne ka ghar hai",
+              "en": "And indeed, the Hereafter is the home of permanent settlement",
+              "ur": "اور بیشک آخرت ہی ہمیشہ رہنے کا گھر ہے",
+              "hi": "और बेशक आख़िरत वह हमेशा रहने का घर है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_s2_s4",
+            "sentence_number": 4,
+            "arabic": "سَلَامٌ هِيَ / حَتَّى مَطْلَعِ الْفَجْرِ",
+            "arabic_text": "سَلَامٌ هِيَ / حَتَّى مَطْلَعِ الْفَجْرِ",
+            "arabic_markup": "<span class=\"arabic-root\">سَلَامٌ</span> <span class=\"nonroot\">هِيَ</span> <span class=\"arabic-root\">/ حَتَّى مَطْلَعِ الْفَجْرِ</span>",
+            "hinglish": "Salamti hai woh fajar tuloo hone tak",
+            "hinglish_meaning": "Salamti hai woh fajar tuloo hone tak",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Salamti hai woh fajar tuloo hone tak",
+              "en": "Peace it is until the emergence of dawn",
+              "ur": "سلامتی ہے وہ فجر کے طلوع ہونے تک",
+              "hi": "सलामती है वह फ़ज्र तुलू होने तक",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_s2_s5",
+            "sentence_number": 5,
+            "arabic": "هِيَ الْمَأْوَى",
+            "arabic_text": "هِيَ الْمَأْوَى",
+            "arabic_markup": "<span class=\"nonroot\">هِيَ الْ</span><span class=\"arabic-root\">مَأْوَى</span>",
+            "hinglish": "Woh hi thikana hai",
+            "hinglish_meaning": "Woh hi thikana hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh hi thikana hai",
+              "en": "That is the refuge",
+              "ur": "وہی ٹھکانا ہے",
+              "hi": "वही ठिकाना है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_s2_s6",
+            "sentence_number": 6,
+            "arabic": "هِيَ الْعُلْيَا",
+            "arabic_text": "هِيَ الْعُلْيَا",
+            "arabic_markup": "<span class=\"nonroot\">هِيَ الْ</span><span class=\"arabic-root\">عُلْيَا</span>",
+            "hinglish": "Woh hi buland hai",
+            "hinglish_meaning": "Woh hi buland hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh hi buland hai",
+              "en": "That is the highest",
+              "ur": "وہی سب سے بلند ہے",
+              "hi": "वही बुलंद है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_s2_s7",
+            "sentence_number": 7,
+            "arabic": "هِيَ الْحَيَوَانُ",
+            "arabic_text": "هِيَ الْحَيَوَانُ",
+            "arabic_markup": "<span class=\"nonroot\">هِيَ الْ</span><span class=\"arabic-root\">حَيَوَانُ</span>",
+            "hinglish": "Woh hi zindagi hai",
+            "hinglish_meaning": "Woh hi zindagi hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh hi zindagi hai",
+              "en": "That is the true life",
+              "ur": "وہی اصل زندگی ہے",
+              "hi": "वही (असल) ज़िंदगी है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_s2_s8",
+            "sentence_number": 8,
+            "arabic": "فَإِنَّ الْجَحِيمَ / هِيَ الْمَأْوَى",
+            "arabic_text": "فَإِنَّ الْجَحِيمَ / هِيَ الْمَأْوَى",
+            "arabic_markup": "<span class=\"arabic-root\">فَإِنَّ الْجَحِيمَ /</span> <span class=\"nonroot\">هِيَ الْ</span><span class=\"arabic-root\">مَأْوَى</span>",
+            "hinglish": "Toh beshak jahannam woh hi thikana hai",
+            "hinglish_meaning": "Toh beshak jahannam woh hi thikana hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh beshak jahannam woh hi thikana hai",
+              "en": "Then indeed, Hellfire will be the refuge",
+              "ur": "تو بیشک جہنم ہی ٹھکانا ہے",
+              "hi": "तो बेशक जहन्नम वही ठिकाना है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_s2_s9",
+            "sentence_number": 9,
+            "arabic": "فَإِنَّ الْجَنَّةَ / هِيَ الْمَأْوَى",
+            "arabic_text": "فَإِنَّ الْجَنَّةَ / هِيَ الْمَأْوَى",
+            "arabic_markup": "<span class=\"arabic-root\">فَإِنَّ الْجَنَّةَ /</span> <span class=\"nonroot\">هِيَ الْ</span><span class=\"arabic-root\">مَأْوَى</span>",
+            "hinglish": "Toh beshak jannat woh hi thikana hai",
+            "hinglish_meaning": "Toh beshak jannat woh hi thikana hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh beshak jannat woh hi thikana hai",
+              "en": "Then indeed, Paradise will be the refuge",
+              "ur": "تو بیشک جنت ہی ٹھکانا ہے",
+              "hi": "तो बेशक जन्नत वही ठिकाना है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_s2_s10",
+            "sentence_number": 10,
+            "arabic": "وَكَلِمَةُ اللَّهِ / هِيَ الْعُلْيَا",
+            "arabic_text": "وَكَلِمَةُ اللَّهِ / هِيَ الْعُلْيَا",
+            "arabic_markup": "<span class=\"arabic-root\">وَكَلِمَةُ اللَّهِ /</span> <span class=\"nonroot\">هِيَ الْ</span><span class=\"arabic-root\">عُلْيَا</span>",
+            "hinglish": "Aur Allah ka kalima woh hi buland hai",
+            "hinglish_meaning": "Aur Allah ka kalima woh hi buland hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah ka kalima woh hi buland hai",
+              "en": "And the word of Allah is the highest",
+              "ur": "اور اللہ کا کلمہ ہی سب سے بلند ہے",
+              "hi": "और अल्लाह का कलिमा वही बुलंद है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l9_s2_s11",
+            "sentence_number": 11,
+            "arabic": "وَإِنَّ الدَّارَ الْآخِرَةَ لَهِيَ الْحَيَوَانُ",
+            "arabic_text": "وَإِنَّ الدَّارَ الْآخِرَةَ لَهِيَ الْحَيَوَانُ",
+            "arabic_markup": "<span class=\"arabic-root\">وَإِنَّ الدَّارَ الْآخِرَةَ</span> <span class=\"nonroot\">لَهِيَ الْ</span><span class=\"arabic-root\">حَيَوَانُ</span>",
+            "hinglish": "Aur beshak aakhirat ka ghar yakinan woh hi zindagi hai",
+            "hinglish_meaning": "Aur beshak aakhirat ka ghar yakinan woh hi zindagi hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur beshak aakhirat ka ghar yakinan woh hi zindagi hai",
+              "en": "And indeed, the home of the Hereafter - that is the true life",
+              "ur": "اور بیشک آخرت کا گھر، یقیناً وہی اصل زندگی ہے",
+              "hi": "और बेशक आख़िरत का घर यक़ीनन वही ज़िंदगी है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "page_start": 23
+}

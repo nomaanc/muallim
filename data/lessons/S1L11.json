@@ -1,0 +1,893 @@
+{
+  "lesson_id": 11,
+  "lesson_key": "S1L11",
+  "stage_id": 1,
+  "title": "Jama ke Mazeed Qur'ani Alfaaz (2 — Jama Mu'annas Saalim ـَاتٌ)",
+  "arabic_Focus": "الْجَنَّةُ ، الْآيَةُ ، الصَّالِحَةُ ← الْجَنَّاتُ ، الْآيَاتُ ، الصَّالِحَاتُ",
+  "hinglish_Focus": "Ek baagh, ek nishani, ek neki → Baghaat, Nishaniyan, Nek a'maal (+ ـَاتٌ)",
+  "page_numbers": "34–35",
+  "book_page": 34,
+  "status": "complete",
+  "title_i18n": {
+    "en": "Jama ke Mazeed Qur'ani Alfaaz (2 — Jama Mu'annas Saalim ـَاتٌ)",
+    "ur": "یونٹ 1 سبق 11: Jama ke Mazeed Qur'ani Alfaaz (2 — Jama Mu'annas Saalim ـَاتٌ)",
+    "hi": "Jama ke Mazeed Qur'ani Alfaaz (2 — Jama Mu'annas Saalim ـَاتٌ)"
+  },
+  "sections": [
+    {
+      "id": "sec_hero",
+      "type": "hero_header",
+      "data": {
+        "arabic": "الْجَنَّةُ ، الْآيَةُ ، الصَّالِحَةُ ← الْجَنَّاتُ ، الْآيَاتُ ، الصَّالِحَاتُ",
+        "hinglish": "Ek baagh, ek nishani, ek neki → Baghaat, Nishaniyan, Nek a'maal (+ ـَاتٌ)",
+        "arabic_word": "الْجَنَّةُ ، الْآيَةُ ، الصَّالِحَةُ",
+        "arabic_combined": "الْجَنَّةُ ، الْآيَةُ ، الصَّالِحَةُ ← الْجَنَّاتُ ، الْآيَاتُ ، الصَّالِحَاتُ",
+        "hinglish_word": "Ek baagh, ek nishani, ek neki",
+        "hinglish_combined": "Ek baagh, ek nishani, ek neki → Baghaat, Nishaniyan, Nek a'maal (+ ـَاتٌ)",
+        "title_en": "Jama ke Mazeed Qur'ani Alfaaz (2 — Jama Mu'annas Saalim ـَاتٌ)",
+        "subtitle": "Unit 1 • Lesson 11 (Book Page 34–35)",
+        "transformations": [
+          {
+            "before_ar": "الْجَنَّةُ ، الْآيَةُ ، الصَّالِحَةُ",
+            "after_ar": "الْجَنَّاتُ ، الْآيَاتُ ، الصَّالِحَاتُ",
+            "before_hi": "Ek baagh, ek nishani, ek neki",
+            "after_hi": "Baghaat, Nishaniyan, Nek a'maal (+ ـَاتٌ)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_intro_table",
+      "type": "intro_table",
+      "data": {
+        "title": "S1L11 — Jama ke Mazeed Qur'ani Alfaaz (2 — Jama Mu'annas Saalim ـَاتٌ): Buniyadi Misaalein",
+        "caption": "S1L11 — Jama ke Mazeed Qur'ani Alfaaz (2 — Jama Mu'annas Saalim ـَاتٌ): Buniyadi Misaalein",
+        "headers": [
+          "Qism / Qaa'ida",
+          "Arabi Misaal",
+          "Hinglish Mafhoom"
+        ],
+        "rows": [
+          [
+            "ـَةُ ← ـَاتُ (Jama Mu'annas)",
+            "الْجَنَّةُ ← الْجَنَّاتُ / الْآيَةُ ← الْآيَاتُ",
+            "Baagh -> Baghaat / Nishani -> Aayaat"
+          ],
+          [
+            "A'maal wa Sifaat",
+            "الصَّالِحَاتُ / الطَّيِّبَاتُ / الْحَسَنَاتُ / السَّيِّئَاتُ",
+            "Nek a'maal / Paakiza cheezein / Nekiyan / Buraiyan"
+          ],
+          [
+            "Mominaat wa Muslimaat",
+            "الْمُسْلِمَاتُ / الْمُؤْمِنَاتُ / الصَّادِقَاتُ / الصَّابِرَاتُ",
+            "Musalman auratein / Momin auratein / Sachchi aur sabr karne wali auratein"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sec_s1l11_concept",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 1 • LESSON 11</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Jama ke Mazeed Qur'ani Alfaaz (2 — Jama Mu'annas Saalim ـَاتٌ) (Page 34–35)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْجَنَّةُ ، الْآيَةُ ، الصَّالِحَةُ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Jama Mu'annas (ـَاتٌ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْجَنَّاتُ ، الْآيَاتُ ، الصَّالِحَاتُ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْجَنَّةُ ، الْآيَةُ ، الصَّالِحَةُ (Ek baagh, ek nishani, ek neki) → الْجَنَّاتُ ، الْآيَاتُ ، الصَّالِحَاتُ (Baghaat, Nishaniyan, Nek a'maal (+ ـَاتٌ)).</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Unit 1 mein aasaan Qur'ani alfaaz aur buniyadi ishaare/qawa'id sikhaye gaye hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 34–35):** Mu'annas alfaaz ke aakhir ki Gol Taa (`ـَة`) hata kar **`ـَاتٌ / ـَاتُ`** (Alif + Taa) lagane se **Jama Mu'annas Saalim** banti hai (`الْجَنَّةُ ← الْجَنَّاتُ`، `الْآيَةُ ← الْآيَاتُ`، `الْمُؤْمِنَاتُ`).",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 1 • LESSON 11</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Jama ke Mazeed Qur'ani Alfaaz (2 — Jama Mu'annas Saalim ـَاتٌ) (Page 34–35)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْجَنَّةُ ، الْآيَةُ ، الصَّالِحَةُ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Jama Mu'annas (ـَاتٌ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْجَنَّاتُ ، الْآيَاتُ ، الصَّالِحَاتُ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْجَنَّةُ ، الْآيَةُ ، الصَّالِحَةُ (Ek baagh, ek nishani, ek neki) → الْجَنَّاتُ ، الْآيَاتُ ، الصَّالِحَاتُ (Baghaat, Nishaniyan, Nek a'maal (+ ـَاتٌ)).</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Unit 1 mein aasaan Qur'ani alfaaz aur buniyadi ishaare/qawa'id sikhaye gaye hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 34–35):** Mu'annas alfaaz ke aakhir ki Gol Taa (`ـَة`) hata kar **`ـَاتٌ / ـَاتُ`** (Alif + Taa) lagane se **Jama Mu'annas Saalim** banti hai (`الْجَنَّةُ ← الْجَنَّاتُ`، `الْآيَةُ ← الْآيَاتُ`، `الْمُؤْمِنَاتُ`).",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 1 • LESSON 11</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Jama ke Mazeed Qur'ani Alfaaz (2 — Jama Mu'annas Saalim ـَاتٌ) (Page 34–35)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْجَنَّةُ ، الْآيَةُ ، الصَّالِحَةُ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Jama Mu'annas (ـَاتٌ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْجَنَّاتُ ، الْآيَاتُ ، الصَّالِحَاتُ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْجَنَّةُ ، الْآيَةُ ، الصَّالِحَةُ (Ek baagh, ek nishani, ek neki) → الْجَنَّاتُ ، الْآيَاتُ ، الصَّالِحَاتُ (Baghaat, Nishaniyan, Nek a'maal (+ ـَاتٌ)).</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Unit 1 mein aasaan Qur'ani alfaaz aur buniyadi ishaare/qawa'id sikhaye gaye hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 34–35):** Mu'annas alfaaz ke aakhir ki Gol Taa (`ـَة`) hata kar **`ـَاتٌ / ـَاتُ`** (Alif + Taa) lagane se **Jama Mu'annas Saalim** banti hai (`الْجَنَّةُ ← الْجَنَّاتُ`، `الْآيَةُ ← الْآيَاتُ`، `الْمُؤْمِنَاتُ`)."
+      }
+    },
+    {
+      "id": "sec_s1l11_lbl1",
+      "type": "section_label",
+      "data": {
+        "text": "Kuch Aur Qur'ani Jama ke Alfaaz (Jama Muannath Saalim — Suffix ات)",
+        "title": "Kuch Aur Qur'ani Jama ke Alfaaz (Jama Muannath Saalim — Suffix ات)",
+        "label": "Kuch Aur Qur'ani Jama ke Alfaaz (Jama Muannath Saalim — Suffix ات)"
+      }
+    },
+    {
+      "id": "sec_s1l11_r2",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Bahut se jama ke alfaaz hain jo [ا] aur [ت] par khatam hote hain jaise [الْجَنَّاتُ] aur [الْبَرَكَاتُ]. Yeh Qur'ani alfaaz aam taur par cheezon ke majmoo'e ya auraton ke giroh ka matlab dete hain. Darj zail alfaaz ko dhyan se padhiye aur unke ma'ani samjhiye.",
+        "content": "Bahut se jama ke alfaaz hain jo [ا] aur [ت] par khatam hote hain jaise [الْجَنَّاتُ] aur [الْبَرَكَاتُ]. Yeh Qur'ani alfaaz aam taur par cheezon ke majmoo'e ya auraton ke giroh ka matlab dete hain. Darj zail alfaaz ko dhyan se padhiye aur unke ma'ani samjhiye.",
+        "hinglish_text": "Bahut se jama ke alfaaz hain jo [ا] aur [ت] par khatam hote hain jaise [الْجَنَّاتُ] aur [الْبَرَكَاتُ]. Yeh Qur'ani alfaaz aam taur par cheezon ke majmoo'e ya auraton ke giroh ka matlab dete hain. Darj zail alfaaz ko dhyan se padhiye aur unke ma'ani samjhiye."
+      }
+    },
+    {
+      "id": "sec_s1l11_g3",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s1l11_g3_w1",
+            "arabic": "الْجَنَّاتُ",
+            "arabic_text": "الْجَنَّاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْجَنَّ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Jannatein / Baagh",
+            "hinglish_meaning": "Jannatein / Baagh",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jannatein / Baagh",
+              "en": "The Gardens / Paradises",
+              "ur": "جنتیں / باغات",
+              "hi": "जन्नतें / बाग़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w2",
+            "arabic": "الْعَلَامَاتُ",
+            "arabic_text": "الْعَلَامَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْعَلَامَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Nishaniyan",
+            "hinglish_meaning": "Nishaniyan",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Nishaniyan",
+              "en": "The signs / landmarks",
+              "ur": "علامات / نشانیاں",
+              "hi": "निशानियां / संकेत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w3",
+            "arabic": "الْآيَاتُ",
+            "arabic_text": "الْآيَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْآيَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Aayaat / Nishaniyan",
+            "hinglish_meaning": "Aayaat / Nishaniyan",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aayaat / Nishaniyan",
+              "en": "The verses / signs",
+              "ur": "آیات / نشانیاں",
+              "hi": "आयात / निशानियां",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w4",
+            "arabic": "الْبَرَكَاتُ",
+            "arabic_text": "الْبَرَكَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْبَرَكَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Barkatein",
+            "hinglish_meaning": "Barkatein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Barkatein",
+              "en": "The blessings",
+              "ur": "برکتیں",
+              "hi": "बरकतें (आशीर्वाद)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w5",
+            "arabic": "الصَّلَوَاتُ",
+            "arabic_text": "الصَّلَوَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الصَّلَوَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Namazein / Duayein",
+            "hinglish_meaning": "Namazein / Duayein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Namazein / Duayein",
+              "en": "The prayers / supplications",
+              "ur": "نمازیں / دعائیں",
+              "hi": "नमाज़ें / दुआएं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w6",
+            "arabic": "الْأَمَانَاتُ",
+            "arabic_text": "الْأَمَانَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْأَمَانَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Amanatein",
+            "hinglish_meaning": "Amanatein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Amanatein",
+              "en": "The trusts",
+              "ur": "امانتیں",
+              "hi": "अमानतें (धरोहर)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w7",
+            "arabic": "السَّمَاوَاتُ",
+            "arabic_text": "السَّمَاوَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">السَّمَاوَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Aasmaan",
+            "hinglish_meaning": "Aasmaan",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aasmaan",
+              "en": "The heavens / skies",
+              "ur": "آسمان (تمام آسمان)",
+              "hi": "आसमान / आकाश",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w8",
+            "arabic": "الْحَسَرَاتُ",
+            "arabic_text": "الْحَسَرَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْحَسَرَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Hasratein / Afsoos",
+            "hinglish_meaning": "Hasratein / Afsoos",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Hasratein / Afsoos",
+              "en": "The regrets / sorrows",
+              "ur": "حسرتیں / افسوس",
+              "hi": "हसरतें / अफ़सोस",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w9",
+            "arabic": "الْكَلِمَاتُ",
+            "arabic_text": "الْكَلِمَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْكَلِمَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Kalime / Baatein",
+            "hinglish_meaning": "Kalime / Baatein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kalime / Baatein",
+              "en": "The words",
+              "ur": "کلمات / باتیں",
+              "hi": "कलिमे / बातें (शब्द)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w10",
+            "arabic": "الظُّلُمَاتُ",
+            "arabic_text": "الظُّلُمَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الظُّلُمَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Andhere",
+            "hinglish_meaning": "Andhere",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Andhere",
+              "en": "The darknesses",
+              "ur": "اندھیرے / تاریکیاں",
+              "hi": "अंधेरे / अंधकार",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w11",
+            "arabic": "السَّيِّئَاتُ",
+            "arabic_text": "السَّيِّئَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">السَّيِّئَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Buraiyaan",
+            "hinglish_meaning": "Buraiyaan",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Buraiyaan",
+              "en": "The evil deeds / sins",
+              "ur": "برائیاں / گناہ",
+              "hi": "बुराइयां / पाप",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w12",
+            "arabic": "الْحَسَنَاتُ",
+            "arabic_text": "الْحَسَنَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْحَسَنَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Nekiyaan",
+            "hinglish_meaning": "Nekiyaan",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Nekiyaan",
+              "en": "The good deeds",
+              "ur": "نیکیاں",
+              "hi": "नेकियाँ / भलाइयाँ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w13",
+            "arabic": "الطَّيِّبَاتُ",
+            "arabic_text": "الطَّيِّبَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الطَّيِّبَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Pakizah cheezein",
+            "hinglish_meaning": "Pakizah cheezein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Pakizah cheezein",
+              "en": "The good / pure things",
+              "ur": "پاکیزہ چیزیں",
+              "hi": "पाकीज़ा (पवित्र) चीज़ें",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w14",
+            "arabic": "الْبَيِّنَاتُ",
+            "arabic_text": "الْبَيِّنَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْبَيِّنَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Wazeha nishaniyan",
+            "hinglish_meaning": "Wazeha nishaniyan",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Wazeha nishaniyan",
+              "en": "The clear proofs / signs",
+              "ur": "واضح نشانیاں / دلائل",
+              "hi": "स्पष्ट प्रमाण / खुली निशानियां",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w15",
+            "arabic": "الصَّالِحَاتُ",
+            "arabic_text": "الصَّالِحَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الصَّالِحَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Nek a'maal / Nek auratein",
+            "hinglish_meaning": "Nek a'maal / Nek auratein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Nek a'maal / Nek auratein",
+              "en": "Good deeds / Righteous women",
+              "ur": "نیک اعمال / نیک عورتیں",
+              "hi": "नेक आमाल / नेक औरतें",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w16",
+            "arabic": "الشَّهَوَاتُ",
+            "arabic_text": "الشَّهَوَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الشَّهَوَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Khwahishein",
+            "hinglish_meaning": "Khwahishein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Khwahishein",
+              "en": "The desires / lusts",
+              "ur": "خواہشات",
+              "hi": "ख्वाहिशें / कामनाएं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w17",
+            "arabic": "الصَّدَقَاتُ",
+            "arabic_text": "الصَّدَقَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الصَّدَقَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Sadqe / Khairaat",
+            "hinglish_meaning": "Sadqe / Khairaat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Sadqe / Khairaat",
+              "en": "The charities / alms",
+              "ur": "صدقات / خیرات",
+              "hi": "सदक़े / ख़ैरात (दान)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w18",
+            "arabic": "الدَّرَجَاتُ",
+            "arabic_text": "الدَّرَجَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الدَّرَجَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Darje / Martabe",
+            "hinglish_meaning": "Darje / Martabe",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Darje / Martabe",
+              "en": "The ranks / degrees",
+              "ur": "درجات / مرتبے",
+              "hi": "दर्जे / मर्तबे (पद)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w19",
+            "arabic": "الشَّهَادَاتُ",
+            "arabic_text": "الشَّهَادَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الشَّهَادَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Gawahiyan",
+            "hinglish_meaning": "Gawahiyan",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Gawahiyan",
+              "en": "The testimonies / witnesses",
+              "ur": "شہادتیں / گواهیاں",
+              "hi": "गवाहियाँ / साक्ष्य",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w20",
+            "arabic": "الثَّمَرَاتُ",
+            "arabic_text": "الثَّمَرَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الثَّمَرَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Phal",
+            "hinglish_meaning": "Phal",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Phal",
+              "en": "The fruits",
+              "ur": "پھل / ثمرات",
+              "hi": "फल / समरात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w21",
+            "arabic": "الْخَيْرَاتُ",
+            "arabic_text": "الْخَيْرَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْخَيْرَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Bhalaiyan",
+            "hinglish_meaning": "Bhalaiyan",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bhalaiyan",
+              "en": "The good deeds / blessings",
+              "ur": "بھلائیاں / نیکیاں",
+              "hi": "भलाइयां / नेकी के काम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w22",
+            "arabic": "الْوَالِدَاتُ",
+            "arabic_text": "الْوَالِدَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْوَالِدَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Maayein / Walidatein",
+            "hinglish_meaning": "Maayein / Walidatein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Maayein / Walidatein",
+              "en": "The mothers",
+              "ur": "مائیں / والدات",
+              "hi": "माताएं / माएं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w23",
+            "arabic": "الْخَطِيئَاتُ",
+            "arabic_text": "الْخَطِيئَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْخَطِيئَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Galtiyan / Gunah",
+            "hinglish_meaning": "Galtiyan / Gunah",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Galtiyan / Gunah",
+              "en": "The sins / errors",
+              "ur": "خطائیں / گناہ",
+              "hi": "ग़लतियां / गुनाह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w24",
+            "arabic": "الرِّسَالَاتُ",
+            "arabic_text": "الرِّسَالَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الرِّسَالَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Paighamaat",
+            "hinglish_meaning": "Paighamaat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Paighamaat",
+              "en": "The messages",
+              "ur": "پیغامات",
+              "hi": "पैग़ामात (संदेश)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w25",
+            "arabic": "الْمُشْرِكَاتُ",
+            "arabic_text": "الْمُشْرِكَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْمُشْرِكَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Mushrik auratein",
+            "hinglish_meaning": "Mushrik auratein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Mushrik auratein",
+              "en": "Polytheist women",
+              "ur": "مشرک عورتیں",
+              "hi": "मुशरिक औरतें",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w26",
+            "arabic": "الْمُسْلِمَاتُ",
+            "arabic_text": "الْمُسْلِمَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْمُسْلِمَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Muslim auratein",
+            "hinglish_meaning": "Muslim auratein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Muslim auratein",
+              "en": "Muslim women",
+              "ur": "مسلمان عورتیں",
+              "hi": "मुस्लिम औरतें",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w27",
+            "arabic": "الْخَالَاتُ",
+            "arabic_text": "الْخَالَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْخَالَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Khalaayein (Maternal aunts)",
+            "hinglish_meaning": "Khalaayein (Maternal aunts)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Khalaayein (Maternal aunts)",
+              "en": "Maternal aunts",
+              "ur": "خالائیں (ماں کی بہنیں)",
+              "hi": "मौसियां / खालाएं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w28",
+            "arabic": "الْخَبِيثَاتُ",
+            "arabic_text": "الْخَبِيثَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْخَبِيثَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Na-pak cheezein",
+            "hinglish_meaning": "Na-pak cheezein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Na-pak cheezein",
+              "en": "Impure things / Impure women",
+              "ur": "ناپاک چیزیں / ناپاک عورتیں",
+              "hi": "नापाक चीज़ें / नापाक औरतें",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w29",
+            "arabic": "الْمُنَافِقَاتُ",
+            "arabic_text": "الْمُنَافِقَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْمُنَافِقَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Munafiq auratein",
+            "hinglish_meaning": "Munafiq auratein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Munafiq auratein",
+              "en": "Hypocrite women",
+              "ur": "منافق عورتیں",
+              "hi": "मुनाफ़िक़ औरतें",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_g3_w30",
+            "arabic": "الْمُهَاجِرَاتُ",
+            "arabic_text": "الْمُهَاجِرَاتُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْمُهَاجِرَ</span><span class=\"nonroot\">اتُ</span>",
+            "hinglish": "Hijrat karne wali auratein",
+            "hinglish_meaning": "Hijrat karne wali auratein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Hijrat karne wali auratein",
+              "en": "Emigrant women",
+              "ur": "ہجرت کرنے والی عورتیں",
+              "hi": "हिजरत करने वाली औरतें",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s1l11_r4",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Yeh alfaaz yaad kar lein. Alfaaz ke aakhir mein (ات) unhe doosre jama ke alfaaz se alag karta hai aur yeh Qur'an-e-Majeed mein bahut kasrat se aate hain.",
+        "content": "Yeh alfaaz yaad kar lein. Alfaaz ke aakhir mein (ات) unhe doosre jama ke alfaaz se alag karta hai aur yeh Qur'an-e-Majeed mein bahut kasrat se aate hain.",
+        "hinglish_text": "Yeh alfaaz yaad kar lein. Alfaaz ke aakhir mein (ات) unhe doosre jama ke alfaaz se alag karta hai aur yeh Qur'an-e-Majeed mein bahut kasrat se aate hain."
+      }
+    },
+    {
+      "id": "sec_s1l11_r5",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Agar yeh jama ke alfaaz (الـ) se shuru na hon toh unke aakhiri harf par tanween aayegi. Jaise (الْآيَاتُ) se (آيَاتٌ). Tamam alfaaz ko shuru mein (الـ) ke baghair padh kar exercise kijiye.",
+        "content": "Agar yeh jama ke alfaaz (الـ) se shuru na hon toh unke aakhiri harf par tanween aayegi. Jaise (الْآيَاتُ) se (آيَاتٌ). Tamam alfaaz ko shuru mein (الـ) ke baghair padh kar exercise kijiye.",
+        "hinglish_text": "Agar yeh jama ke alfaaz (الـ) se shuru na hon toh unke aakhiri harf par tanween aayegi. Jaise (الْآيَاتُ) se (آيَاتٌ). Tamam alfaaz ko shuru mein (الـ) ke baghair padh kar exercise kijiye."
+      }
+    },
+    {
+      "id": "sec_s1l11_lbl6",
+      "type": "section_label",
+      "data": {
+        "text": "Darj zail Qur'ani aayaat mein jama ke alfaaz par ghour kijiye:",
+        "title": "Darj zail Qur'ani aayaat mein jama ke alfaaz par ghour kijiye:",
+        "label": "Darj zail Qur'ani aayaat mein jama ke alfaaz par ghour kijiye:"
+      }
+    },
+    {
+      "id": "sec_s1l11_v7",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s1l11_v7_s1",
+            "sentence_number": 1,
+            "arabic": "﴿ وَمِنْ كُلِّ الثَّمَرَاتِ جَعَلَ فِيهَا ﴾",
+            "arabic_text": "﴿ وَمِنْ كُلِّ الثَّمَرَاتِ جَعَلَ فِيهَا ﴾",
+            "arabic_markup": "﴿ <span class=\"arabic-root\">وَمِنْ</span> <span class=\"arabic-root\">كُلِّ</span> <span class=\"arabic-root\">الثَّمَر</span><span class=\"nonroot\">َاتِ</span> <span class=\"arabic-root\">جَعَلَ</span> <span class=\"nonroot\">فِيهَا</span> ﴾",
+            "hinglish": "Aur har qism ke phalon se us mein banaye",
+            "hinglish_meaning": "Aur har qism ke phalon se us mein banaye",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur har qism ke phalon se us mein banaye",
+              "ur": "Aur har qism ke phalon se us mein banaye",
+              "en": "Aur har qism ke phalon se us mein banaye",
+              "hi": "Aur har qism ke phalon se us mein banaye",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_v7_s2",
+            "sentence_number": 2,
+            "arabic": "﴿ يُرِيهِمُ اللَّهُ أَعْمَالَهُمْ حَسَرَاتٍ ﴾",
+            "arabic_text": "﴿ يُرِيهِمُ اللَّهُ أَعْمَالَهُمْ حَسَرَاتٍ ﴾",
+            "arabic_markup": "﴿ <span class=\"arabic-root\">يُرِيهِمُ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">أَعْمَال</span><span class=\"nonroot\">َهُمْ</span> <span class=\"arabic-root\">حَسَر</span><span class=\"nonroot\">َاتٍ</span> ﴾",
+            "hinglish": "Allah unhe unke a'maal afsoos bana kar dikhaayega",
+            "hinglish_meaning": "Allah unhe unke a'maal afsoos bana kar dikhaayega",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah unhe unke a'maal afsoos bana kar dikhaayega",
+              "ur": "Allah unhe unke a'maal afsoos bana kar dikhaayega",
+              "en": "Allah unhe unke a'maal afsoos bana kar dikhaayega",
+              "hi": "Allah unhe unke a'maal afsoos bana kar dikhaayega",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_v7_s3",
+            "sentence_number": 3,
+            "arabic": "﴿ يَكْفُرُونَ بِآيَاتِ اللَّهِ ﴾",
+            "arabic_text": "﴿ يَكْفُرُونَ بِآيَاتِ اللَّهِ ﴾",
+            "arabic_markup": "﴿ <span class=\"arabic-root\">يَكْفُر</span><span class=\"nonroot\">ُونَ</span> <span class=\"arabic-root\">بِآي</span><span class=\"nonroot\">َاتِ</span> <span class=\"arabic-root\">اللَّهِ</span> ﴾",
+            "hinglish": "Woh Allah ki aayaat ka inkaar karte hain",
+            "hinglish_meaning": "Woh Allah ki aayaat ka inkaar karte hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh Allah ki aayaat ka inkaar karte hain",
+              "ur": "Woh Allah ki aayaat ka inkaar karte hain",
+              "en": "Woh Allah ki aayaat ka inkaar karte hain",
+              "hi": "Woh Allah ki aayaat ka inkaar karte hain",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_v7_s4",
+            "sentence_number": 4,
+            "arabic": "﴿ سَنُدْخِلُهُمْ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا ﴾",
+            "arabic_text": "﴿ سَنُدْخِلُهُمْ جَنَّاتٍ تَجْرِي مِنْ تَحْتِهَا ﴾",
+            "arabic_markup": "﴿ <span class=\"arabic-root\">سَنُدْخِل</span><span class=\"nonroot\">ُهُمْ</span> <span class=\"arabic-root\">جَنَّاتٍ</span> <span class=\"arabic-root\">تَجْرِي</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">تَحْتِهَا</span> ﴾",
+            "hinglish": "Anqareeb ham unhe aise baagho mein daakhil karenge jinke neeche...",
+            "hinglish_meaning": "Anqareeb ham unhe aise baagho mein daakhil karenge jinke neeche...",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Anqareeb ham unhe aise baagho mein daakhil karenge jinke neeche...",
+              "ur": "Anqareeb ham unhe aise baagho mein daakhil karenge jinke neeche...",
+              "en": "Anqareeb ham unhe aise baagho mein daakhil karenge jinke neeche...",
+              "hi": "Anqareeb ham unhe aise baagho mein daakhil karenge jinke neeche...",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_v7_s5",
+            "sentence_number": 5,
+            "arabic": "﴿ وَعَلَامَاتٍ وَبِالنَّجْمِ هُمْ يَهْتَدُونَ ﴾",
+            "arabic_text": "﴿ وَعَلَامَاتٍ وَبِالنَّجْمِ هُمْ يَهْتَدُونَ ﴾",
+            "arabic_markup": "﴿ <span class=\"arabic-root\">وَعَلَام</span><span class=\"nonroot\">َاتٍ</span> <span class=\"arabic-root\">وَبِالنَّجْمِ</span> <span class=\"nonroot\">هُمْ</span> <span class=\"arabic-root\">يَهْتَد</span><span class=\"nonroot\">ُونَ</span> ﴾",
+            "hinglish": "Aur nishaniyan, aur sitare ke zariye woh rasta paate hain",
+            "hinglish_meaning": "Aur nishaniyan, aur sitare ke zariye woh rasta paate hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur nishaniyan, aur sitare ke zariye woh rasta paate hain",
+              "ur": "Aur nishaniyan, aur sitare ke zariye woh rasta paate hain",
+              "en": "Aur nishaniyan, aur sitare ke zariye woh rasta paate hain",
+              "hi": "Aur nishaniyan, aur sitare ke zariye woh rasta paate hain",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_v7_s6",
+            "sentence_number": 6,
+            "arabic": "﴿ لَفَتَحْنَا عَلَيْهِمْ بَرَكَاتٍ ﴾",
+            "arabic_text": "﴿ لَفَتَحْنَا عَلَيْهِمْ بَرَكَاتٍ ﴾",
+            "arabic_markup": "﴿ <span class=\"arabic-root\">لَفَتَح</span><span class=\"nonroot\">ْنَا</span> <span class=\"nonroot\">عَلَيْهِمْ</span> <span class=\"arabic-root\">بَرَك</span><span class=\"nonroot\">َاتٍ</span> ﴾",
+            "hinglish": "To zaroor ham un par barkatein khol dete",
+            "hinglish_meaning": "To zaroor ham un par barkatein khol dete",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "To zaroor ham un par barkatein khol dete",
+              "ur": "To zaroor ham un par barkatein khol dete",
+              "en": "To zaroor ham un par barkatein khol dete",
+              "hi": "To zaroor ham un par barkatein khol dete",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_v7_s7",
+            "sentence_number": 7,
+            "arabic": "﴿ فَتَلَقَّى آدَمُ مِنْ رَبِّهِ كَلِمَاتٍ ﴾",
+            "arabic_text": "﴿ فَتَلَقَّى آدَمُ مِنْ رَبِّهِ كَلِمَاتٍ ﴾",
+            "arabic_markup": "﴿ <span class=\"arabic-root\">فَتَلَقَّى</span> <span class=\"arabic-root\">آدَمُ</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">رَبِّهِ</span> <span class=\"arabic-root\">كَلِم</span><span class=\"nonroot\">َاتٍ</span> ﴾",
+            "hinglish": "Phir Aadam (A.S.) ne apne Rabb se kuch kalimat seekh liye",
+            "hinglish_meaning": "Phir Aadam (A.S.) ne apne Rabb se kuch kalimat seekh liye",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Phir Aadam (A.S.) ne apne Rabb se kuch kalimat seekh liye",
+              "ur": "Phir Aadam (A.S.) ne apne Rabb se kuch kalimat seekh liye",
+              "en": "Phir Aadam (A.S.) ne apne Rabb se kuch kalimat seekh liye",
+              "hi": "Phir Aadam (A.S.) ne apne Rabb se kuch kalimat seekh liye",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_v7_s8",
+            "sentence_number": 8,
+            "arabic": "﴿ يُخْرِجُهُمْ مِنَ الظُّلُمَاتِ إِلَى النُّورِ ﴾",
+            "arabic_text": "﴿ يُخْرِجُهُمْ مِنَ الظُّلُمَاتِ إِلَى النُّورِ ﴾",
+            "arabic_markup": "﴿ <span class=\"arabic-root\">يُخْرِج</span><span class=\"nonroot\">ُهُمْ</span> <span class=\"nonroot\">مِنَ</span> <span class=\"arabic-root\">الظُّلُم</span><span class=\"nonroot\">َاتِ</span> <span class=\"nonroot\">إِلَى</span> <span class=\"arabic-root\">النُّورِ</span> ﴾",
+            "hinglish": "Woh unhe andheron se roshni ki taraf nikaalta hai",
+            "hinglish_meaning": "Woh unhe andheron se roshni ki taraf nikaalta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh unhe andheron se roshni ki taraf nikaalta hai",
+              "ur": "Woh unhe andheron se roshni ki taraf nikaalta hai",
+              "en": "Woh unhe andheron se roshni ki taraf nikaalta hai",
+              "hi": "Woh unhe andheron se roshni ki taraf nikaalta hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l11_v7_s9",
+            "sentence_number": 9,
+            "arabic": "﴿ فَأَصَابَهُمْ سَيِّئَاتُ مَا عَمِلُوا ﴾",
+            "arabic_text": "﴿ فَأَصَابَهُمْ سَيِّئَاتُ مَا عَمِلُوا ﴾",
+            "arabic_markup": "﴿ <span class=\"arabic-root\">فَأَصَاب</span><span class=\"nonroot\">َهُمْ</span> <span class=\"arabic-root\">سَيِّئ</span><span class=\"nonroot\">َاتُ</span> <span class=\"nonroot\">مَا</span> <span class=\"arabic-root\">عَمِل</span><span class=\"nonroot\">ُوا</span> ﴾",
+            "hinglish": "To un par unke kiye hue a'maal ki buraiyaan aa padin",
+            "hinglish_meaning": "To un par unke kiye hue a'maal ki buraiyaan aa padin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "To un par unke kiye hue a'maal ki buraiyaan aa padin",
+              "ur": "To un par unke kiye hue a'maal ki buraiyaan aa padin",
+              "en": "To un par unke kiye hue a'maal ki buraiyaan aa padin",
+              "hi": "To un par unke kiye hue a'maal ki buraiyaan aa padin",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "page_start": 34
+}

@@ -1,0 +1,1361 @@
+{
+  "lesson_id": 8,
+  "lesson_key": "S2L8",
+  "stage_id": 2,
+  "title": "Harf-e-Nafy-e-Jins 'Laa' (Koi ... nahin): كِتَابٌ ← لَا كِتَابَ",
+  "arabic_Focus": "كِتَابٌ ، رَيْبٌ ، إِكْرَاهٌ ← لَا كِتَابَ ، لَا رَيْبَ ، لَا إِكْرَاهَ",
+  "hinglish_Focus": "Ek kitaab, shak, zabardasti (ـٌ) → Koi kitaab nahin, koi shak nahin, koi zabardasti nahin (ـَ)",
+  "page_numbers": "66–67",
+  "book_page": 66,
+  "status": "complete",
+  "title_i18n": {
+    "en": "Harf-e-Nafy-e-Jins 'Laa' (Koi ... nahin): كِتَابٌ ← لَا كِتَابَ",
+    "ur": "یونٹ 2 سبق 8: كِتَابٌ ، رَيْبٌ ، إِكْرَاهٌ ← لَا كِتَابَ ، لَا رَيْبَ ، لَا إِكْرَاهَ",
+    "hi": "Harf-e-Nafy-e-Jins 'Laa' (Koi ... nahin): كِتَابٌ ← لَا كِتَابَ"
+  },
+  "sections": [
+    {
+      "id": "sec_hero",
+      "type": "hero_header",
+      "data": {
+        "arabic": "كِتَابٌ ، رَيْبٌ ، إِكْرَاهٌ ← لَا كِتَابَ ، لَا رَيْبَ ، لَا إِكْرَاهَ",
+        "hinglish": "Ek kitaab, shak, zabardasti (ـٌ) → Koi kitaab nahin, koi shak nahin, koi zabardasti nahin (ـَ)",
+        "arabic_word": "كِتَابٌ ، رَيْبٌ ، إِكْرَاهٌ",
+        "arabic_combined": "كِتَابٌ ، رَيْبٌ ، إِكْرَاهٌ ← لَا كِتَابَ ، لَا رَيْبَ ، لَا إِكْرَاهَ",
+        "hinglish_word": "Ek kitaab, shak, zabardasti (ـٌ)",
+        "hinglish_combined": "Ek kitaab, shak, zabardasti (ـٌ) → Koi kitaab nahin, koi shak nahin, koi zabardasti nahin (ـَ)",
+        "title_en": "Harf-e-Nafy-e-Jins 'Laa' (Koi ... nahin): كِتَابٌ ← لَا كِتَابَ",
+        "subtitle": "Unit 2 • Lesson 8 (Book Page 66–67)",
+        "transformations": [
+          {
+            "before_ar": "كِتَابٌ ، رَيْبٌ ، إِكْرَاهٌ",
+            "after_ar": "لَا كِتَابَ ، لَا رَيْبَ ، لَا إِكْرَاهَ",
+            "before_hi": "Ek kitaab, shak, zabardasti (ـٌ)",
+            "after_hi": "Koi kitaab nahin, koi shak nahin, koi zabardasti nahin (ـَ)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_intro_table",
+      "type": "intro_table",
+      "data": {
+        "title": "S2L8 — Harf-e-Nafy-e-Jins 'Laa' (Koi ... nahin): كِتَابٌ ← لَا كِتَابَ: Buniyadi Misaalein",
+        "caption": "S2L8 — Harf-e-Nafy-e-Jins 'Laa' (Koi ... nahin): كِتَابٌ ← لَا كِتَابَ: Buniyadi Misaalein",
+        "headers": [
+          "Qaa'ida / Halat",
+          "Arabi Misaal",
+          "Hinglish Mafhoom"
+        ],
+        "rows": [
+          [
+            "لَا + Ism (Ek Zabar ـَ)",
+            "لَا رَيْبَ / لَا إِكْرَاهَ / لَا خَوْفٌ / لَا ظُلْمَ",
+            "Koi shak nahin / Koi zabardasti nahin / Koi zulm nahin"
+          ],
+          [
+            "فَلَا / وَلَا + Ism",
+            "فَلَا خَوْفٌ / وَلَا جِدَالَ فِي الْحَجِّ",
+            "Pas koi khauf nahin / Aur Hajj mein koi jhagda nahin"
+          ],
+          [
+            "Qur'ani Qaanoon",
+            "لَا إِكْرَاهَ فِي الدِّينِ / ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ",
+            "Deen mein koi zabardasti nahin / Yeh woh Kitaab hai jismein koi shak nahin"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l8_concept",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 8</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Harf-e-Nafy-e-Jins 'Laa' (Koi ... nahin): كِتَابٌ ← لَا كِتَابَ (Page 66–67)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">كِتَابٌ ، رَيْبٌ ، إِكْرَاهٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Laa Nafy-e-Jins (لَا + ـَ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">لَا كِتَابَ ، لَا رَيْبَ ، لَا إِكْرَاهَ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• كِتَابٌ ، رَيْبٌ ، إِكْرَاهٌ (Ek kitaab, shak, zabardasti (ـٌ)) se لَا كِتَابَ ، لَا رَيْبَ ، لَا إِكْرَاهَ (Koi kitaab nahin, koi shak nahin, koi zabardasti nahin (ـَ)) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 66–67):** Kisi cheez ki mukammal nafi (**'Koi ... nahin'**) karne ke liye baghair `الْـ` wale ism se pehle **`لَا`** lagaya jata hai, aur us ism ke aakhir par Tanween ke bajaye **sirf ek Zabar (`ـَ`)** aata hai: `رَيْبٌ ← لَا رَيْبَ` (koi shak nahin), `إِكْرَاهٌ ← لَا إِكْرَاهَ فِي الدِّينِ` (deen mein koi zabardasti nahin).",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 8</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Harf-e-Nafy-e-Jins 'Laa' (Koi ... nahin): كِتَابٌ ← لَا كِتَابَ (Page 66–67)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">كِتَابٌ ، رَيْبٌ ، إِكْرَاهٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Laa Nafy-e-Jins (لَا + ـَ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">لَا كِتَابَ ، لَا رَيْبَ ، لَا إِكْرَاهَ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• كِتَابٌ ، رَيْبٌ ، إِكْرَاهٌ (Ek kitaab, shak, zabardasti (ـٌ)) se لَا كِتَابَ ، لَا رَيْبَ ، لَا إِكْرَاهَ (Koi kitaab nahin, koi shak nahin, koi zabardasti nahin (ـَ)) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 66–67):** Kisi cheez ki mukammal nafi (**'Koi ... nahin'**) karne ke liye baghair `الْـ` wale ism se pehle **`لَا`** lagaya jata hai, aur us ism ke aakhir par Tanween ke bajaye **sirf ek Zabar (`ـَ`)** aata hai: `رَيْبٌ ← لَا رَيْبَ` (koi shak nahin), `إِكْرَاهٌ ← لَا إِكْرَاهَ فِي الدِّينِ` (deen mein koi zabardasti nahin).",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 8</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Harf-e-Nafy-e-Jins 'Laa' (Koi ... nahin): كِتَابٌ ← لَا كِتَابَ (Page 66–67)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">كِتَابٌ ، رَيْبٌ ، إِكْرَاهٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Laa Nafy-e-Jins (لَا + ـَ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">لَا كِتَابَ ، لَا رَيْبَ ، لَا إِكْرَاهَ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• كِتَابٌ ، رَيْبٌ ، إِكْرَاهٌ (Ek kitaab, shak, zabardasti (ـٌ)) se لَا كِتَابَ ، لَا رَيْبَ ، لَا إِكْرَاهَ (Koi kitaab nahin, koi shak nahin, koi zabardasti nahin (ـَ)) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 66–67):** Kisi cheez ki mukammal nafi (**'Koi ... nahin'**) karne ke liye baghair `الْـ` wale ism se pehle **`لَا`** lagaya jata hai, aur us ism ke aakhir par Tanween ke bajaye **sirf ek Zabar (`ـَ`)** aata hai: `رَيْبٌ ← لَا رَيْبَ` (koi shak nahin), `إِكْرَاهٌ ← لَا إِكْرَاهَ فِي الدِّينِ` (deen mein koi zabardasti nahin)."
+      }
+    },
+    {
+      "id": "sec_s2l8_lbl1",
+      "type": "section_label",
+      "data": {
+        "text": "Darj zail misaalon par ghaur karein:",
+        "title": "Darj zail misaalon par ghaur karein:",
+        "label": "Darj zail misaalon par ghaur karein:"
+      }
+    },
+    {
+      "id": "sec_s2l8_r3",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Arabi mein kisi cheez ke wujood ki mukammal nafi (inkaar) ke liye usse pehle (لَا) lagaya jata hai. (لَا) na sirf agle lafz ki mukammal nafi karta hai, balki us lafz ki tamaam harakat hata kar aakhir mein sirf ek zabar (fathah ــَ) chhodta hai. Yeh misaal mein dekha ja sakta hai. Yeh English ke (not at all / never ever) ya Urdu ke 'hargiz nahi / bilkul nahi' jaisa hai.",
+        "content": "Arabi mein kisi cheez ke wujood ki mukammal nafi (inkaar) ke liye usse pehle (لَا) lagaya jata hai. (لَا) na sirf agle lafz ki mukammal nafi karta hai, balki us lafz ki tamaam harakat hata kar aakhir mein sirf ek zabar (fathah ــَ) chhodta hai. Yeh misaal mein dekha ja sakta hai. Yeh English ke (not at all / never ever) ya Urdu ke 'hargiz nahi / bilkul nahi' jaisa hai.",
+        "hinglish_text": "Arabi mein kisi cheez ke wujood ki mukammal nafi (inkaar) ke liye usse pehle (لَا) lagaya jata hai. (لَا) na sirf agle lafz ki mukammal nafi karta hai, balki us lafz ki tamaam harakat hata kar aakhir mein sirf ek zabar (fathah ــَ) chhodta hai. Yeh misaal mein dekha ja sakta hai. Yeh English ke (not at all / never ever) ya Urdu ke 'hargiz nahi / bilkul nahi' jaisa hai."
+      }
+    },
+    {
+      "id": "sec_s2l8_r4",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "• Ab aap darj zail Qur'ani fiqron ko aasaani se khud samajh aur tarjuma kar sakte hain:",
+        "content": "• Ab aap darj zail Qur'ani fiqron ko aasaani se khud samajh aur tarjuma kar sakte hain:",
+        "hinglish_text": "• Ab aap darj zail Qur'ani fiqron ko aasaani se khud samajh aur tarjuma kar sakte hain:"
+      }
+    },
+    {
+      "id": "sec_s2l8_g5",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l8_g5_w1",
+            "arabic": "لَا ظُلْمَ",
+            "arabic_text": "لَا ظُلْمَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">ظُلْمَ</span>",
+            "hinglish": "Koi zulm nahin",
+            "hinglish_meaning": "Koi zulm nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi zulm nahin",
+              "en": "No injustice",
+              "ur": "کوئی ظلم نہیں",
+              "hi": "कोई ज़ुल्म नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g5_w2",
+            "arabic": "لَا عِلْمَ",
+            "arabic_text": "لَا عِلْمَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">عِلْمَ</span>",
+            "hinglish": "Koi ilm nahin",
+            "hinglish_meaning": "Koi ilm nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi ilm nahin",
+              "en": "No knowledge",
+              "ur": "کوئی علم نہیں",
+              "hi": "कोई इल्म नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g5_w3",
+            "arabic": "لَا إِلٰهَ",
+            "arabic_text": "لَا إِلٰهَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">إِلٰهَ</span>",
+            "hinglish": "Koi ilah nahin",
+            "hinglish_meaning": "Koi ilah nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi ilah nahin",
+              "en": "No deity",
+              "ur": "کوئی معبود نہیں",
+              "hi": "कोई माबूद नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g5_w4",
+            "arabic": "لَا شَرِيكَ",
+            "arabic_text": "لَا شَرِيكَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">شَرِيكَ</span>",
+            "hinglish": "Koi shareek nahin",
+            "hinglish_meaning": "Koi shareek nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi shareek nahin",
+              "en": "No partner",
+              "ur": "کوئی شریک نہیں",
+              "hi": "कोई शरीक नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g5_w5",
+            "arabic": "لَا تَبْدِيلَ",
+            "arabic_text": "لَا تَبْدِيلَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">تَبْدِيلَ</span>",
+            "hinglish": "Koi tabdeeli nahin",
+            "hinglish_meaning": "Koi tabdeeli nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi tabdeeli nahin",
+              "en": "No change",
+              "ur": "کوئی تبدیلی نہیں",
+              "hi": "कोई तब्दीली नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g5_w6",
+            "arabic": "لَا خَيْرَ",
+            "arabic_text": "لَا خَيْرَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">خَيْرَ</span>",
+            "hinglish": "Koi bhalai nahin",
+            "hinglish_meaning": "Koi bhalai nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi bhalai nahin",
+              "en": "No good",
+              "ur": "کوئی بھلائی نہیں",
+              "hi": "कोई भलाई नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g5_w7",
+            "arabic": "لَا قُوَّةَ",
+            "arabic_text": "لَا قُوَّةَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">قُوَّةَ</span>",
+            "hinglish": "Koi quwwat nahin",
+            "hinglish_meaning": "Koi quwwat nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi quwwat nahin",
+              "en": "No strength",
+              "ur": "کوئی قوت نہیں",
+              "hi": "कोई क़ुव्वत नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g5_w8",
+            "arabic": "لَا إِكْرَاهَ",
+            "arabic_text": "لَا إِكْرَاهَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">إِكْرَاهَ</span>",
+            "hinglish": "Koi zabardasti nahin",
+            "hinglish_meaning": "Koi zabardasti nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi zabardasti nahin",
+              "en": "No compulsion",
+              "ur": "کوئی زبردستی نہیں",
+              "hi": "कोई ज़बरदस्ती नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g5_w9",
+            "arabic": "لَا حُجَّةَ",
+            "arabic_text": "لَا حُجَّةَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">حُجَّةَ</span>",
+            "hinglish": "Koi daleel nahin",
+            "hinglish_meaning": "Koi daleel nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi daleel nahin",
+              "en": "No argument / No dispute",
+              "ur": "کوئی دلیل نہیں",
+              "hi": "कोई दलील नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g5_w10",
+            "arabic": "لَا غَالِبَ",
+            "arabic_text": "لَا غَالِبَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">غَالِبَ</span>",
+            "hinglish": "Koi ghalib nahin",
+            "hinglish_meaning": "Koi ghalib nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi ghalib nahin",
+              "en": "No victor / None can overcome",
+              "ur": "کوئی غالب نہیں",
+              "hi": "कोई ग़ालिब नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g5_w11",
+            "arabic": "لَا بُرْهَانَ",
+            "arabic_text": "لَا بُرْهَانَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">بُرْهَانَ</span>",
+            "hinglish": "Koi daleel nahin",
+            "hinglish_meaning": "Koi daleel nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi daleel nahin",
+              "en": "No proof / No evidence",
+              "ur": "کوئی برہان نہیں / کوئی دلیل نہیں",
+              "hi": "कोई बुरहान नहीं / कोई दलील नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g5_w12",
+            "arabic": "لَا بُشْرَى",
+            "arabic_text": "لَا بُشْرَى",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">بُشْرَى</span>",
+            "hinglish": "Koi khushkhabri nahin",
+            "hinglish_meaning": "Koi khushkhabri nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi khushkhabri nahin",
+              "en": "No glad tidings",
+              "ur": "کوئی خوشخبری نہیں",
+              "hi": "कोई ख़ुशख़बरी नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g5_w13",
+            "arabic": "لَا مَوْلَى",
+            "arabic_text": "لَا مَوْلَى",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">مَوْلَى</span>",
+            "hinglish": "Koi dost nahin",
+            "hinglish_meaning": "Koi dost nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi dost nahin",
+              "en": "No protector / No helper",
+              "ur": "کوئی مددگار نہیں / کوئی دوست نہیں",
+              "hi": "कोई मददगार नहीं / कोई दोस्त नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g5_w14",
+            "arabic": "لَا طَاقَةَ",
+            "arabic_text": "لَا طَاقَةَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">طَاقَةَ</span>",
+            "hinglish": "Koi taqat nahin",
+            "hinglish_meaning": "Koi taqat nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi taqat nahin",
+              "en": "No strength",
+              "ur": "کوئی طاقت نہیں",
+              "hi": "कोई ताक़त नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g5_w15",
+            "arabic": "لَا جِدَالَ",
+            "arabic_text": "لَا جِدَالَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">جِدَالَ</span>",
+            "hinglish": "Koi jhagda nahin",
+            "hinglish_meaning": "Koi jhagda nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi jhagda nahin",
+              "en": "No disputing",
+              "ur": "کوئی جھگڑا نہیں",
+              "hi": "कोई झगड़ा नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g5_w16",
+            "arabic": "لَا فُسُوقَ",
+            "arabic_text": "لَا فُسُوقَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">فُسُوقَ</span>",
+            "hinglish": "Koi gunah nahin",
+            "hinglish_meaning": "Koi gunah nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi gunah nahin",
+              "en": "No wickedness / No disobedience",
+              "ur": "کوئی گناہ نہیں / کوئی نافرمانی نہیں",
+              "hi": "कोई गुनाह नहीं / कोई नाफ़रमानी नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g5_w17",
+            "arabic": "لَا رَيْبَ",
+            "arabic_text": "لَا رَيْبَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">رَيْبَ</span>",
+            "hinglish": "Koi shak nahin",
+            "hinglish_meaning": "Koi shak nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi shak nahin",
+              "en": "No doubt",
+              "ur": "کوئی شک نہیں",
+              "hi": "कोई शक नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g5_w18",
+            "arabic": "لَا جَرَمَ",
+            "arabic_text": "لَا جَرَمَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">جَرَمَ</span>",
+            "hinglish": "Koi shak nahin",
+            "hinglish_meaning": "Koi shak nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi shak nahin",
+              "en": "Undoubtedly / No doubt",
+              "ur": "کوئی شک نہیں (یقیناً)",
+              "hi": "कोई शक नहीं (यक़ीनन)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g5_w19",
+            "arabic": "لَا مُبَدِّلَ",
+            "arabic_text": "لَا مُبَدِّلَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">مُبَدِّلَ</span>",
+            "hinglish": "Koi badalne wala nahin",
+            "hinglish_meaning": "Koi badalne wala nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi badalne wala nahin",
+              "en": "None can change / No changer",
+              "ur": "کوئی بدلنے والا نہیں",
+              "hi": "कोई बदलने वाला नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g5_w20",
+            "arabic": "لَا عَاصِمَ",
+            "arabic_text": "لَا عَاصِمَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">عَاصِمَ</span>",
+            "hinglish": "Koi bachane wala nahin",
+            "hinglish_meaning": "Koi bachane wala nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi bachane wala nahin",
+              "en": "No protector / No savior",
+              "ur": "کوئی بچانے والا نہیں",
+              "hi": "कोई बचाने वाला नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l8_r6",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Agar (لَا) ko (فَـ : toh / pas) ke saath milaya jaye, toh (فَلَا) ka matlab hota hai 'toh bilkul nahi / toh hargiz nahi' (then/so not at all).",
+        "content": "Agar (لَا) ko (فَـ : toh / pas) ke saath milaya jaye, toh (فَلَا) ka matlab hota hai 'toh bilkul nahi / toh hargiz nahi' (then/so not at all).",
+        "hinglish_text": "Agar (لَا) ko (فَـ : toh / pas) ke saath milaya jaye, toh (فَلَا) ka matlab hota hai 'toh bilkul nahi / toh hargiz nahi' (then/so not at all)."
+      }
+    },
+    {
+      "id": "sec_s2l8_g7",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l8_g7_w1",
+            "arabic": "فَلَا كُفْرَانَ",
+            "arabic_text": "فَلَا كُفْرَانَ",
+            "arabic_markup": "<span class=\"nonroot\">فَلَا</span> <span class=\"arabic-root\">كُفْرَانَ</span>",
+            "hinglish": "Toh koi nashukri nahin",
+            "hinglish_meaning": "Toh koi nashukri nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh koi nashukri nahin",
+              "en": "So there is no rejection",
+              "ur": "تو کوئی ناشکری نہیں",
+              "hi": "तो कोई नाशुक्री नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g7_w2",
+            "arabic": "فَلَا نَاصِرَ",
+            "arabic_text": "فَلَا نَاصِرَ",
+            "arabic_markup": "<span class=\"nonroot\">فَلَا</span> <span class=\"arabic-root\">نَاصِرَ</span>",
+            "hinglish": "Toh koi madadgar nahin",
+            "hinglish_meaning": "Toh koi madadgar nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh koi madadgar nahin",
+              "en": "So there is no helper",
+              "ur": "تو کوئی مددگار نہیں",
+              "hi": "तो कोई मददगार नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g7_w3",
+            "arabic": "فَلَا جُنَاحَ",
+            "arabic_text": "فَلَا جُنَاحَ",
+            "arabic_markup": "<span class=\"nonroot\">فَلَا</span> <span class=\"arabic-root\">جُنَاحَ</span>",
+            "hinglish": "Toh koi gunah nahin",
+            "hinglish_meaning": "Toh koi gunah nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh koi gunah nahin",
+              "en": "So there is no blame",
+              "ur": "تو کوئی گناہ نہیں",
+              "hi": "तो कोई गुनाह नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g7_w4",
+            "arabic": "فَلَا إِثْمَ",
+            "arabic_text": "فَلَا إِثْمَ",
+            "arabic_markup": "<span class=\"nonroot\">فَلَا</span> <span class=\"arabic-root\">إِثْمَ</span>",
+            "hinglish": "Toh koi gunah nahin",
+            "hinglish_meaning": "Toh koi gunah nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh koi gunah nahin",
+              "en": "So there is no sin",
+              "ur": "تو کوئی گناہ نہیں",
+              "hi": "तो कोई गुनाह नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g7_w5",
+            "arabic": "فَلَا رَفَثَ",
+            "arabic_text": "فَلَا رَفَثَ",
+            "arabic_markup": "<span class=\"nonroot\">فَلَا</span> <span class=\"arabic-root\">رَفَثَ</span>",
+            "hinglish": "Toh koi behayai nahin",
+            "hinglish_meaning": "Toh koi behayai nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh koi behayai nahin",
+              "en": "So there is no obscenity",
+              "ur": "تو کوئی بےحیائی نہیں",
+              "hi": "तो कोई बेहयाई नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g7_w6",
+            "arabic": "فَلَا عُدْوَانَ",
+            "arabic_text": "فَلَا عُدْوَانَ",
+            "arabic_markup": "<span class=\"nonroot\">فَلَا</span> <span class=\"arabic-root\">عُدْوَانَ</span>",
+            "hinglish": "Toh koi zulm nahin",
+            "hinglish_meaning": "Toh koi zulm nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh koi zulm nahin",
+              "en": "So there is no transgression / hostility",
+              "ur": "تو کوئی ظلم (زیادتی) نہیں",
+              "hi": "तो कोई ज़ुल्म (ज़्यादती) नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l8_g8",
+      "type": "grace_box",
+      "data": {
+        "text": "Allah ki hidayat aur uski rehmat se, ab tak padhe gaye asbaaq ki roshni mein, ab aap darj zail Qur'ani jumlon aur aayaton ko khud samajhne aur tarjuma karne ke qaabil hain:"
+      }
+    },
+    {
+      "id": "sec_s2l8_s9",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s2l8_s9_s1",
+            "sentence_number": 1,
+            "arabic": "لَا إِكْرَاهَ فِي الدِّينِ",
+            "arabic_text": "لَا إِكْرَاهَ فِي الدِّينِ",
+            "arabic_markup": "<span class=\"nonroot\">لَا إِكْرَاهَ</span> <span class=\"arabic-root\">فِي الدِّينِ</span>",
+            "hinglish": "Deen mein koi zabardasti nahin",
+            "hinglish_meaning": "Deen mein koi zabardasti nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Deen mein koi zabardasti nahin",
+              "en": "There is no compulsion in religion",
+              "ur": "دین میں کوئی زبردستی نہیں",
+              "hi": "दीन में कोई ज़बरदस्ती नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_s9_s2",
+            "sentence_number": 2,
+            "arabic": "لَا ظُلْمَ الْيَوْمَ",
+            "arabic_text": "لَا ظُلْمَ الْيَوْمَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا ظُلْمَ</span> <span class=\"arabic-root\">الْيَوْمَ</span>",
+            "hinglish": "Aaj koi zulm nahin",
+            "hinglish_meaning": "Aaj koi zulm nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aaj koi zulm nahin",
+              "en": "No injustice today",
+              "ur": "آج کوئی ظلم نہیں",
+              "hi": "आज कोई ज़ुल्म नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_s9_s3",
+            "sentence_number": 3,
+            "arabic": "لَا عَاصِمَ الْيَوْمَ",
+            "arabic_text": "لَا عَاصِمَ الْيَوْمَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا عَاصِمَ</span> <span class=\"arabic-root\">الْيَوْمَ</span>",
+            "hinglish": "Aaj koi bachane wala nahin",
+            "hinglish_meaning": "Aaj koi bachane wala nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aaj koi bachane wala nahin",
+              "en": "There is no protector today",
+              "ur": "آج کوئی بچانے والا نہیں",
+              "hi": "आज कोई बचाने वाला नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_s9_s4",
+            "sentence_number": 4,
+            "arabic": "وَلَا جِدَالَ فِي الْحَجِّ",
+            "arabic_text": "وَلَا جِدَالَ فِي الْحَجِّ",
+            "arabic_markup": "<span class=\"nonroot\">وَلَا جِدَالَ</span> <span class=\"arabic-root\">فِي الْحَجِّ</span>",
+            "hinglish": "Aur hajj mein koi jhagda nahin",
+            "hinglish_meaning": "Aur hajj mein koi jhagda nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur hajj mein koi jhagda nahin",
+              "en": "And no disputing during Hajj",
+              "ur": "اور حج میں کوئی جھگڑا نہیں",
+              "hi": "और हज में कोई झगड़ा नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_s9_s5",
+            "sentence_number": 5,
+            "arabic": "وَلَا فُسُوقَ وَلَا جِدَالَ فِي الْحَجِّ",
+            "arabic_text": "وَلَا فُسُوقَ وَلَا جِدَالَ فِي الْحَجِّ",
+            "arabic_markup": "<span class=\"nonroot\">وَلَا فُسُوقَ وَلَا جِدَالَ</span> <span class=\"arabic-root\">فِي الْحَجِّ</span>",
+            "hinglish": "Aur hajj mein na koi gunah hai aur na koi jhagda",
+            "hinglish_meaning": "Aur hajj mein na koi gunah hai aur na koi jhagda",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur hajj mein na koi gunah hai aur na koi jhagda",
+              "en": "And no disobedience and no disputing during Hajj",
+              "ur": "اور حج میں نہ کوئی گناہ ہے اور نہ کوئی جھگڑا",
+              "hi": "और हज में न कोई गुनाह है और न कोई झगड़ा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l8_lbl10",
+      "type": "section_label",
+      "data": {
+        "text": "Exercise",
+        "title": "Exercise",
+        "label": "Exercise"
+      }
+    },
+    {
+      "id": "sec_s2l8_lbl11",
+      "type": "section_label",
+      "data": {
+        "text": "Q-1 Darj zail Qur'ani aayaton mein us hisse ko pehchaniye jahan (لَا) agle lafz ki mukammal nafi kar raha hai, aur aap use khud samajh rahe hain:",
+        "title": "Q-1 Darj zail Qur'ani aayaton mein us hisse ko pehchaniye jahan (لَا) agle lafz ki mukammal nafi kar raha hai, aur aap use khud samajh rahe hain:",
+        "label": "Q-1 Darj zail Qur'ani aayaton mein us hisse ko pehchaniye jahan (لَا) agle lafz ki mukammal nafi kar raha hai, aur aap use khud samajh rahe hain:"
+      }
+    },
+    {
+      "id": "sec_s2l8_v12",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s2l8_v12_s1",
+            "sentence_number": 1,
+            "arabic": "سُبْحَانَكَ لَا عِلْمَ لَنَا",
+            "arabic_text": "سُبْحَانَكَ لَا عِلْمَ لَنَا",
+            "arabic_markup": "<span class=\"arabic-root\">سُبْحَانَكَ</span> <span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">عِلْمَ</span> <span class=\"nonroot\">لَنَا</span>",
+            "hinglish": "Tu pak hai, hamare liye koi ilm nahin",
+            "hinglish_meaning": "Tu pak hai, hamare liye koi ilm nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tu pak hai, hamare liye koi ilm nahin",
+              "ur": "Tu pak hai, hamare liye koi ilm nahin",
+              "en": "Tu pak hai, hamare liye koi ilm nahin",
+              "hi": "Tu pak hai, hamare liye koi ilm nahin",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_v12_s2",
+            "sentence_number": 2,
+            "arabic": "لَا إِكْرَاهَ فِي الدِّينِ",
+            "arabic_text": "لَا إِكْرَاهَ فِي الدِّينِ",
+            "arabic_markup": "<span class=\"nonroot\">لَا إِكْرَاهَ</span> <span class=\"arabic-root\">فِي الدِّينِ</span>",
+            "hinglish": "Deen mein koi zabardasti nahin",
+            "hinglish_meaning": "Deen mein koi zabardasti nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Deen mein koi zabardasti nahin",
+              "en": "There is no compulsion in religion",
+              "ur": "دین میں کوئی زبردستی نہیں",
+              "hi": "दीन में कोई ज़बरदस्ती नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_v12_s3",
+            "sentence_number": 3,
+            "arabic": "لَا طَاقَةَ لَنَا الْيَوْمَ بِجَالُوتَ",
+            "arabic_text": "لَا طَاقَةَ لَنَا الْيَوْمَ بِجَالُوتَ",
+            "arabic_markup": "<span class=\"arabic-root\">لَا</span> <span class=\"arabic-root\">طَاقَةَ</span> <span class=\"arabic-root\">لَنَا</span> <span class=\"nonroot\">الْيَوْمَ</span> <span class=\"arabic-root\">بِجَالُوتَ</span>",
+            "hinglish": "Aaj hamare paas Jalut ke muqable ki koi taqat nahin",
+            "hinglish_meaning": "Aaj hamare paas Jalut ke muqable ki koi taqat nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aaj hamare paas Jalut ke muqable ki koi taqat nahin",
+              "en": "We have no strength today against Goliath",
+              "ur": "آج ہم میں جالوت کے مقابلے کی کوئی طاقت نہیں ہے",
+              "hi": "आज हम में जालूत के मुक़ाबले की कोई ताक़त नहीं है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_v12_s4",
+            "sentence_number": 4,
+            "arabic": "اللَّهُ رَبُّكُمْ لَا إِلٰهَ إِلَّا هُوَ",
+            "arabic_text": "اللَّهُ رَبُّكُمْ لَا إِلٰهَ إِلَّا هُوَ",
+            "arabic_markup": "<span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">رَبّ</span><span class=\"nonroot\">ُكُمْ</span> <span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">إِلٰهَ</span> <span class=\"arabic-root\">إِلَّا</span> <span class=\"nonroot\">هُوَ</span>",
+            "hinglish": "Allah tumhara Rabb hai, uske siwa koi ilah nahin",
+            "hinglish_meaning": "Allah tumhara Rabb hai, uske siwa koi ilah nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah tumhara Rabb hai, uske siwa koi ilah nahin",
+              "ur": "Allah tumhara Rabb hai, uske siwa koi ilah nahin",
+              "en": "Allah tumhara Rabb hai, uske siwa koi ilah nahin",
+              "hi": "Allah tumhara Rabb hai, uske siwa koi ilah nahin",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_v12_s5",
+            "sentence_number": 5,
+            "arabic": "ذٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ",
+            "arabic_text": "ذٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ",
+            "arabic_markup": "<span class=\"arabic-root\">ذٰلِكَ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">كِتَابُ</span> <span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">رَيْبَ</span> <span class=\"nonroot\">فِيهِ</span>",
+            "hinglish": "Yeh kitab hai, is mein koi shak nahin",
+            "hinglish_meaning": "Yeh kitab hai, is mein koi shak nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yeh kitab hai, is mein koi shak nahin",
+              "ur": "Yeh kitab hai, is mein koi shak nahin",
+              "en": "Yeh kitab hai, is mein koi shak nahin",
+              "hi": "Yeh kitab hai, is mein koi shak nahin",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_v12_s6",
+            "sentence_number": 6,
+            "arabic": "لَا تَبْدِيلَ لِخَلْقِ اللَّهِ",
+            "arabic_text": "لَا تَبْدِيلَ لِخَلْقِ اللَّهِ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">تَبْدِيلَ</span> <span class=\"nonroot\">لِ</span><span class=\"arabic-root\">خَلْقِ</span> <span class=\"arabic-root\">اللَّهِ</span>",
+            "hinglish": "Allah ki khalaqat mein koi tabdeeli nahin",
+            "hinglish_meaning": "Allah ki khalaqat mein koi tabdeeli nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah ki khalaqat mein koi tabdeeli nahin",
+              "ur": "Allah ki khalaqat mein koi tabdeeli nahin",
+              "en": "Allah ki khalaqat mein koi tabdeeli nahin",
+              "hi": "Allah ki khalaqat mein koi tabdeeli nahin",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_v12_s7",
+            "sentence_number": 7,
+            "arabic": "وَأَنَّ الْكَافِرِينَ لَا مَوْلَى لَهُمْ",
+            "arabic_text": "وَأَنَّ الْكَافِرِينَ لَا مَوْلَى لَهُمْ",
+            "arabic_markup": "<span class=\"arabic-root\">وَأَنَّ</span> <span class=\"arabic-root\">الْكَافِر</span><span class=\"nonroot\">ِينَ</span> <span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">مَوْلَى</span> <span class=\"nonroot\">لَهُمْ</span>",
+            "hinglish": "Aur beshak kafiron ke liye koi dost nahin",
+            "hinglish_meaning": "Aur beshak kafiron ke liye koi dost nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur beshak kafiron ke liye koi dost nahin",
+              "ur": "Aur beshak kafiron ke liye koi dost nahin",
+              "en": "Aur beshak kafiron ke liye koi dost nahin",
+              "hi": "Aur beshak kafiron ke liye koi dost nahin",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_v12_s8",
+            "sentence_number": 8,
+            "arabic": "وَالسَّاعَةُ لَا رَيْبَ فِيهَا",
+            "arabic_text": "وَالسَّاعَةُ لَا رَيْبَ فِيهَا",
+            "arabic_markup": "<span class=\"arabic-root\">وَالسَّاعَةُ</span> <span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">رَيْبَ</span> <span class=\"nonroot\">فِيهَا</span>",
+            "hinglish": "Aur qayamat, us mein koi shak nahin",
+            "hinglish_meaning": "Aur qayamat, us mein koi shak nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur qayamat, us mein koi shak nahin",
+              "ur": "Aur qayamat, us mein koi shak nahin",
+              "en": "Aur qayamat, us mein koi shak nahin",
+              "hi": "Aur qayamat, us mein koi shak nahin",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_v12_s9",
+            "sentence_number": 9,
+            "arabic": "لَا حُجَّةَ بَيْنَنَا وَبَيْنَكُمُ",
+            "arabic_text": "لَا حُجَّةَ بَيْنَنَا وَبَيْنَكُمُ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">حُجَّةَ</span> <span class=\"arabic-root\">بَيْن</span><span class=\"nonroot\">َنَا</span> <span class=\"arabic-root\">وَبَيْنَكُمُ</span>",
+            "hinglish": "Hamare aur tumhare darmiyan koi daleel nahin",
+            "hinglish_meaning": "Hamare aur tumhare darmiyan koi daleel nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Hamare aur tumhare darmiyan koi daleel nahin",
+              "ur": "Hamare aur tumhare darmiyan koi daleel nahin",
+              "en": "Hamare aur tumhare darmiyan koi daleel nahin",
+              "hi": "Hamare aur tumhare darmiyan koi daleel nahin",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_v12_s10",
+            "sentence_number": 10,
+            "arabic": "لَا ظُلْمَ الْيَوْمَ",
+            "arabic_text": "لَا ظُلْمَ الْيَوْمَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا ظُلْمَ</span> <span class=\"arabic-root\">الْيَوْمَ</span>",
+            "hinglish": "Aaj koi zulm nahin",
+            "hinglish_meaning": "Aaj koi zulm nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aaj koi zulm nahin",
+              "en": "No injustice today",
+              "ur": "آج کوئی ظلم نہیں",
+              "hi": "आज कोई ज़ुल्म नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_v12_s11",
+            "sentence_number": 11,
+            "arabic": "لَهُ الْمُلْكُ لَا إِلٰهَ إِلَّا هُوَ",
+            "arabic_text": "لَهُ الْمُلْكُ لَا إِلٰهَ إِلَّا هُوَ",
+            "arabic_markup": "<span class=\"nonroot\">لَهُ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">مُلْكُ</span> <span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">إِلٰهَ</span> <span class=\"arabic-root\">إِلَّا</span> <span class=\"nonroot\">هُوَ</span>",
+            "hinglish": "Uski badshahat hai, uske siwa koi ilah nahin",
+            "hinglish_meaning": "Uski badshahat hai, uske siwa koi ilah nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uski badshahat hai, uske siwa koi ilah nahin",
+              "ur": "Uski badshahat hai, uske siwa koi ilah nahin",
+              "en": "Uski badshahat hai, uske siwa koi ilah nahin",
+              "hi": "Uski badshahat hai, uske siwa koi ilah nahin",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_v12_s12",
+            "sentence_number": 12,
+            "arabic": "إِنَّ السَّاعَةَ لَآتِيَةٌ لَا رَيْبَ فِيهَا",
+            "arabic_text": "إِنَّ السَّاعَةَ لَآتِيَةٌ لَا رَيْبَ فِيهَا",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span> <span class=\"arabic-root\">السَّاعَةَ</span> <span class=\"nonroot\">لَ</span><span class=\"arabic-root\">آتِيَةٌ</span> <span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">رَيْبَ</span> <span class=\"nonroot\">فِيهَا</span>",
+            "hinglish": "Beshak qayamat aane wali hai, us mein koi shak nahin",
+            "hinglish_meaning": "Beshak qayamat aane wali hai, us mein koi shak nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak qayamat aane wali hai, us mein koi shak nahin",
+              "ur": "Beshak qayamat aane wali hai, us mein koi shak nahin",
+              "en": "Beshak qayamat aane wali hai, us mein koi shak nahin",
+              "hi": "Beshak qayamat aane wali hai, us mein koi shak nahin",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_v12_s13",
+            "sentence_number": 13,
+            "arabic": "لَا بُشْرَى يَوْمَئِذٍ لِلْمُجْرِمِينَ",
+            "arabic_text": "لَا بُشْرَى يَوْمَئِذٍ لِلْمُجْرِمِينَ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">بُشْرَى</span> <span class=\"arabic-root\">يَوْمَئِذٍ</span> <span class=\"arabic-root\">لِلْمُجْرِم</span><span class=\"nonroot\">ِينَ</span>",
+            "hinglish": "Us din mujrimon ke liye koi khushkhabri nahin",
+            "hinglish_meaning": "Us din mujrimon ke liye koi khushkhabri nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us din mujrimon ke liye koi khushkhabri nahin",
+              "en": "No good tidings will there be that Day for the criminals",
+              "ur": "اس دن مجرموں کے لیے کوئی خوشخبری نہیں ہوگی",
+              "hi": "उस दिन मुजरिमों के लिए कोई ख़ुशख़बरी नहीं होगी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_v12_s14",
+            "sentence_number": 14,
+            "arabic": "لَا تَبْدِيلَ لِكَلِمَاتِ اللَّهِ",
+            "arabic_text": "لَا تَبْدِيلَ لِكَلِمَاتِ اللَّهِ",
+            "arabic_markup": "<span class=\"nonroot\">لَا</span> <span class=\"arabic-root\">تَبْدِيلَ</span> <span class=\"arabic-root\">لِكَلِم</span><span class=\"nonroot\">َاتِ</span> <span class=\"arabic-root\">اللَّهِ</span>",
+            "hinglish": "Allah ki baaton ke liye koi tabdeeli nahin",
+            "hinglish_meaning": "Allah ki baaton ke liye koi tabdeeli nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah ki baaton ke liye koi tabdeeli nahin",
+              "ur": "Allah ki baaton ke liye koi tabdeeli nahin",
+              "en": "Allah ki baaton ke liye koi tabdeeli nahin",
+              "hi": "Allah ki baaton ke liye koi tabdeeli nahin",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l8_lbl13",
+      "type": "section_label",
+      "data": {
+        "text": "Q-2 Darj zail alfaaz se pehle (لَا) laga kar inki mukammal nafi kijiye aur unhein dobara likhiye:",
+        "title": "Q-2 Darj zail alfaaz se pehle (لَا) laga kar inki mukammal nafi kijiye aur unhein dobara likhiye:",
+        "label": "Q-2 Darj zail alfaaz se pehle (لَا) laga kar inki mukammal nafi kijiye aur unhein dobara likhiye:"
+      }
+    },
+    {
+      "id": "sec_s2l8_g14",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l8_g14_w1",
+            "arabic": "طَاقَةٌ",
+            "arabic_text": "طَاقَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">طَاقَةٌ</span>",
+            "hinglish": "Taqat / Bardasht",
+            "hinglish_meaning": "Taqat / Bardasht",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Taqat / Bardasht",
+              "en": "Strength / Endurance",
+              "ur": "طاقت / برداشت",
+              "hi": "ताक़त / बर्दाश्त",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g14_w2",
+            "arabic": "شَرِيكٌ",
+            "arabic_text": "شَرِيكٌ",
+            "arabic_markup": "<span class=\"arabic-root\">شَرِيكٌ</span>",
+            "hinglish": "Shareek",
+            "hinglish_meaning": "Shareek",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Shareek",
+              "en": "Partner / Associate",
+              "ur": "شریک",
+              "hi": "शरीक",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g14_w3",
+            "arabic": "عِلْمٌ",
+            "arabic_text": "عِلْمٌ",
+            "arabic_markup": "<span class=\"arabic-root\">عِلْمٌ</span>",
+            "hinglish": "Ilm",
+            "hinglish_meaning": "Ilm",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ilm",
+              "en": "Knowledge",
+              "ur": "علم",
+              "hi": "ज्ञान (इल्म)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g14_w4",
+            "arabic": "فُسُوقٌ",
+            "arabic_text": "فُسُوقٌ",
+            "arabic_markup": "<span class=\"arabic-root\">فُسُوقٌ</span>",
+            "hinglish": "Fasik hona / Gunah",
+            "hinglish_meaning": "Fasik hona / Gunah",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Fasik hona / Gunah",
+              "en": "Disobedience / Transgression / Sin",
+              "ur": "نافرمانی / گناہ",
+              "hi": "नाफ़रमानी / गुनाह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g14_w5",
+            "arabic": "إِكْرَاهٌ",
+            "arabic_text": "إِكْرَاهٌ",
+            "arabic_markup": "<span class=\"arabic-root\">إِكْرَاهٌ</span>",
+            "hinglish": "Zabardasti",
+            "hinglish_meaning": "Zabardasti",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Zabardasti",
+              "en": "Compulsion / Force",
+              "ur": "زبردستی / جبر",
+              "hi": "ज़बरदस्ती / जब्र",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g14_w6",
+            "arabic": "خَيْرٌ",
+            "arabic_text": "خَيْرٌ",
+            "arabic_markup": "<span class=\"arabic-root\">خَيْرٌ</span>",
+            "hinglish": "Bhalai",
+            "hinglish_meaning": "Bhalai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bhalai",
+              "en": "Good / Goodness",
+              "ur": "بھلائی / خیر",
+              "hi": "भलाई / ख़ैर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g14_w7",
+            "arabic": "بُشْرَى",
+            "arabic_text": "بُشْرَى",
+            "arabic_markup": "<span class=\"arabic-root\">بُشْرَى</span>",
+            "hinglish": "Khushkhabri",
+            "hinglish_meaning": "Khushkhabri",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Khushkhabri",
+              "en": "Glad tidings / Good news",
+              "ur": "خوشخبری",
+              "hi": "ख़ुशख़बरी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g14_w8",
+            "arabic": "غَالِبٌ",
+            "arabic_text": "غَالِبٌ",
+            "arabic_markup": "<span class=\"arabic-root\">غَالِبٌ</span>",
+            "hinglish": "Ghalib",
+            "hinglish_meaning": "Ghalib",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ghalib",
+              "en": "Dominant / Overcoming / Victorious",
+              "ur": "غالب / حاوی",
+              "hi": "ग़ालिब / हावी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g14_w9",
+            "arabic": "جَرَمٌ",
+            "arabic_text": "جَرَمٌ",
+            "arabic_markup": "<span class=\"arabic-root\">جَرَمٌ</span>",
+            "hinglish": "Shak",
+            "hinglish_meaning": "Shak",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Shak",
+              "en": "Doubt",
+              "ur": "شک",
+              "hi": "शक",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g14_w10",
+            "arabic": "تَبْدِيلٌ",
+            "arabic_text": "تَبْدِيلٌ",
+            "arabic_markup": "<span class=\"arabic-root\">تَبْدِيلٌ</span>",
+            "hinglish": "Tabdeeli",
+            "hinglish_meaning": "Tabdeeli",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tabdeeli",
+              "en": "Change / Alteration",
+              "ur": "تبدیلی",
+              "hi": "तब्दीली",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g14_w11",
+            "arabic": "إِلٰهٌ",
+            "arabic_text": "إِلٰهٌ",
+            "arabic_markup": "<span class=\"arabic-root\">إِلٰهٌ</span>",
+            "hinglish": "Mabood / Ilah",
+            "hinglish_meaning": "Mabood / Ilah",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Mabood / Ilah",
+              "en": "Deity / God worthy of worship",
+              "ur": "معبود / الٰہ",
+              "hi": "माबूद / इलाह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g14_w12",
+            "arabic": "ظُلْمٌ",
+            "arabic_text": "ظُلْمٌ",
+            "arabic_markup": "<span class=\"arabic-root\">ظُلْمٌ</span>",
+            "hinglish": "Zulm",
+            "hinglish_meaning": "Zulm",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Zulm",
+              "en": "Injustice / Oppression",
+              "ur": "ظلم",
+              "hi": "ज़ुल्म",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g14_w13",
+            "arabic": "مُبَدِّلٌ",
+            "arabic_text": "مُبَدِّلٌ",
+            "arabic_markup": "<span class=\"arabic-root\">مُبَدِّلٌ</span>",
+            "hinglish": "Badalne wala",
+            "hinglish_meaning": "Badalne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Badalne wala",
+              "en": "Changer / Alterer",
+              "ur": "بدلنے والا",
+              "hi": "बदलने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g14_w14",
+            "arabic": "عَاصِمٌ",
+            "arabic_text": "عَاصِمٌ",
+            "arabic_markup": "<span class=\"arabic-root\">عَاصِمٌ</span>",
+            "hinglish": "Bachane wala",
+            "hinglish_meaning": "Bachane wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bachane wala",
+              "en": "Protector / Savior",
+              "ur": "بچانے والا",
+              "hi": "बचाने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l8_g14_w15",
+            "arabic": "رَيْبٌ",
+            "arabic_text": "رَيْبٌ",
+            "arabic_markup": "<span class=\"arabic-root\">رَيْبٌ</span>",
+            "hinglish": "Shak",
+            "hinglish_meaning": "Shak",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Shak",
+              "en": "Doubt",
+              "ur": "شک",
+              "hi": "शक",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l8_g15",
+      "type": "grace_box",
+      "data": {
+        "text": "Kisi bhi zubaan ke jumle samajhne ke liye alfaaz ka jaanna zaroori hai. Bohat se Qur'ani alfaaz seekhne ke baad, ab aap chhote Qur'ani jumle samajhne ke qaabil ho rahe hain. Jaise jaise aap jumle samajhna shuru karenge, zubaan ke qawaid-o-zawabit (Grammar) qudrati taur par khud-ba-khud samajh aane lagenge."
+      }
+    }
+  ],
+  "page_start": 66
+}

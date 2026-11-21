@@ -1,0 +1,2480 @@
+{
+  "lesson_id": 11,
+  "title": "Kitaabukum : Fii Kitaabikum (Tumhari Kitaab Mein)",
+  "arabic_Focus": "كِتَابُكُمْ ← فِي كِتَابِكُمْ",
+  "hinglish_Focus": "tum logon ki kitaab ← tum logon ki kitaab mein",
+  "page_numbers": [
+    72,
+    73
+  ],
+  "sections": [
+    {
+      "type": "hero_header",
+      "data": {
+        "arabic": "كِتَابُكُمْ ← فِي كِتَابِكُمْ",
+        "hinglish": "tum logon ki kitaab ← tum logon ki kitaab mein",
+        "arabic_word": "كِتَابُكُمْ",
+        "arabic_combined": "فِي كِتَابِكُمْ",
+        "hinglish_word": "tum logon ki kitaab",
+        "hinglish_combined": "tum logon ki kitaab mein",
+        "title_en": "Lesson 11: In Your Book (فِي كِتَابِكُمْ)",
+        "subtitle": "Huroof-e-Jaarrah aur Inna ke saath (ـكُمْ)"
+      },
+      "arabic": "كِتَابُكُمْ ← فِي كِتَابِكُمْ",
+      "hinglish": "tum logon ki kitaab ← tum logon ki kitaab mein",
+      "arabic_word": "كِتَابُكُمْ",
+      "arabic_combined": "فِي كِتَابِكُمْ",
+      "hinglish_word": "tum logon ki kitaab",
+      "hinglish_combined": "tum logon ki kitaab mein",
+      "title_en": "Lesson 11: In Your Book (فِي كِتَابِكُمْ)",
+      "subtitle": "Huroof-e-Jaarrah aur Inna ke saath (ـكُمْ)"
+    },
+    {
+      "type": "intro_table",
+      "title": "Darj-e-zail misaalon par ghaur karein:",
+      "headers": [
+        "Misaal",
+        "Column 1",
+        "Ma'na",
+        "Column 2 (Harf-e-Jarr ke saath)",
+        "Ma'na"
+      ],
+      "rows": [
+        [
+          "Misaal 1",
+          "بَيْتُكُمْ",
+          "tum logon ka ghar",
+          "فِي بَيْتِكُمْ",
+          "tum logon ke ghar mein"
+        ],
+        [
+          "Misaal 2",
+          "رَبُّكُمْ",
+          "tum logon ka Rabb",
+          "إِلَىٰ رَبِّكُمْ",
+          "tum logon ke Rabb ki taraf"
+        ],
+        [
+          "Misaal 3",
+          "رَسُولُكُمْ",
+          "tum logon ka rasool",
+          "مِنْ رَسُولِكُمْ",
+          "tum logon ke rasool se"
+        ]
+      ],
+      "data": {
+        "title": "Darj-e-zail misaalon par ghaur karein:",
+        "headers": [
+          "Misaal",
+          "Column 1",
+          "Ma'na",
+          "Column 2 (Harf-e-Jarr ke saath)",
+          "Ma'na"
+        ],
+        "rows": [
+          [
+            "Misaal 1",
+            "بَيْتُكُمْ",
+            "tum logon ka ghar",
+            "فِي بَيْتِكُمْ",
+            "tum logon ke ghar mein"
+          ],
+          [
+            "Misaal 2",
+            "رَبُّكُمْ",
+            "tum logon ka Rabb",
+            "إِلَىٰ رَبِّكُمْ",
+            "tum logon ke Rabb ki taraf"
+          ],
+          [
+            "Misaal 3",
+            "رَسُولُكُمْ",
+            "tum logon ka rasool",
+            "مِنْ رَسُولِكُمْ",
+            "tum logon ke rasool se"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "rule_paragraph",
+      "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0 18px 0;text-align:center;\">\n<svg viewBox=\"0 0 800 236\" width=\"100%\" style=\"max-width:800px;height:auto;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.08);background:#ffffff;border:1px solid #e2e8f0;\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"hdrGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n      <stop offset=\"0%\" stop-color=\"#0f766e\"/>\n      <stop offset=\"100%\" stop-color=\"#047857\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"58\" rx=\"16\" fill=\"url(#hdrGrad)\"/>\n  <rect y=\"42\" width=\"800\" height=\"16\" fill=\"url(#hdrGrad)\"/>\n  <text x=\"400\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#ffffff\">Unit 5 • Sabaq 11 (Page 72): Harf-e-Jarr + Ism + ـكُمْ (فِي كِتَابِكُمْ)</text>\n  <text x=\"400\" y=\"46\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ccfbf1\">كِتَابُكُمْ (tumhari kitaab) ← فِي كِتَابِكُمْ (tumhari kitaab mein)</text>\n  <rect x=\"18\" y=\"14\" width=\"110\" height=\"28\" rx=\"14\" fill=\"rgba(255,255,255,0.18)\"/>\n  <text x=\"73\" y=\"32\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#ffffff\">S5L11 • Pages 72–73</text>\n  \n        <g transform=\"translate(20, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">بَيْتُكُمْ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#059669\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#059669\" direction=\"rtl\">فِي بَيْتِكُمْ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tumhara ghar → tumhare ghar mein</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Fii / Min / Alaa + ـِكُمْ</text>\n        </g>\n        <g transform=\"translate(280, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f0f9ff\" stroke=\"#0284c7\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">رَبُّكُمْ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#0284c7\" direction=\"rtl\">إِلَىٰ رَبِّكُمْ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tumhara Rabb → tumhare Rabb ki taraf</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">كُمْ se pehle harf ke neeche zer</text>\n        </g>\n        <g transform=\"translate(540, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f5f3ff\" stroke=\"#7c3aed\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">رَبُّكُمْ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#7c3aed\" direction=\"rtl\">إِنَّ رَبَّكُمْ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tumhara Rabb → beshak tumhara Rabb</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Inna se كُمْ se pehle harf par zabar</text>\n        </g>\n  <rect x=\"30\" y=\"202\" width=\"740\" height=\"24\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"218\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#334155\">Qaa'ida: Harf-e-Jarr aane se (ـكُمْ) se pehle waale harf ke neeche zer aati hai, aur (إِنَّ) aane se zabar aata hai.</text>\n</svg>\n</div>Aap jaante hain ke kisi lafz ke aakhir mein (كُمْ) ho to us mein 'tumhara' ya 'tumhari' ka mafhoom aa jaata hai. Aise alfaaz ke shuru mein (فِي، مِنْ، إِلَىٰ، عَلَىٰ، لِـ، بِـ) aane se (كُمْ) se pehle waale lafz ke neeche zer aa jaati hai:",
+      "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0 18px 0;text-align:center;\">\n<svg viewBox=\"0 0 800 236\" width=\"100%\" style=\"max-width:800px;height:auto;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.08);background:#ffffff;border:1px solid #e2e8f0;\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"hdrGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n      <stop offset=\"0%\" stop-color=\"#0f766e\"/>\n      <stop offset=\"100%\" stop-color=\"#047857\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"58\" rx=\"16\" fill=\"url(#hdrGrad)\"/>\n  <rect y=\"42\" width=\"800\" height=\"16\" fill=\"url(#hdrGrad)\"/>\n  <text x=\"400\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#ffffff\">Unit 5 • Sabaq 11 (Page 72): Harf-e-Jarr + Ism + ـكُمْ (فِي كِتَابِكُمْ)</text>\n  <text x=\"400\" y=\"46\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ccfbf1\">كِتَابُكُمْ (tumhari kitaab) ← فِي كِتَابِكُمْ (tumhari kitaab mein)</text>\n  <rect x=\"18\" y=\"14\" width=\"110\" height=\"28\" rx=\"14\" fill=\"rgba(255,255,255,0.18)\"/>\n  <text x=\"73\" y=\"32\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#ffffff\">S5L11 • Pages 72–73</text>\n  \n        <g transform=\"translate(20, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">بَيْتُكُمْ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#059669\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#059669\" direction=\"rtl\">فِي بَيْتِكُمْ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tumhara ghar → tumhare ghar mein</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Fii / Min / Alaa + ـِكُمْ</text>\n        </g>\n        <g transform=\"translate(280, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f0f9ff\" stroke=\"#0284c7\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">رَبُّكُمْ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#0284c7\" direction=\"rtl\">إِلَىٰ رَبِّكُمْ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tumhara Rabb → tumhare Rabb ki taraf</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">كُمْ se pehle harf ke neeche zer</text>\n        </g>\n        <g transform=\"translate(540, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f5f3ff\" stroke=\"#7c3aed\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">رَبُّكُمْ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#7c3aed\" direction=\"rtl\">إِنَّ رَبَّكُمْ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tumhara Rabb → beshak tumhara Rabb</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Inna se كُمْ se pehle harf par zabar</text>\n        </g>\n  <rect x=\"30\" y=\"202\" width=\"740\" height=\"24\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"218\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#334155\">Qaa'ida: Harf-e-Jarr aane se (ـكُمْ) se pehle waale harf ke neeche zer aati hai, aur (إِنَّ) aane se zabar aata hai.</text>\n</svg>\n</div>Aap jaante hain ke kisi lafz ke aakhir mein (كُمْ) ho to us mein 'tumhara' ya 'tumhari' ka mafhoom aa jaata hai. Aise alfaaz ke shuru mein (فِي، مِنْ، إِلَىٰ، عَلَىٰ، لِـ، بِـ) aane se (كُمْ) se pehle waale lafz ke neeche zer aa jaati hai:",
+      "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0 18px 0;text-align:center;\">\n<svg viewBox=\"0 0 800 236\" width=\"100%\" style=\"max-width:800px;height:auto;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.08);background:#ffffff;border:1px solid #e2e8f0;\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"hdrGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n      <stop offset=\"0%\" stop-color=\"#0f766e\"/>\n      <stop offset=\"100%\" stop-color=\"#047857\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"58\" rx=\"16\" fill=\"url(#hdrGrad)\"/>\n  <rect y=\"42\" width=\"800\" height=\"16\" fill=\"url(#hdrGrad)\"/>\n  <text x=\"400\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#ffffff\">Unit 5 • Sabaq 11 (Page 72): Harf-e-Jarr + Ism + ـكُمْ (فِي كِتَابِكُمْ)</text>\n  <text x=\"400\" y=\"46\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ccfbf1\">كِتَابُكُمْ (tumhari kitaab) ← فِي كِتَابِكُمْ (tumhari kitaab mein)</text>\n  <rect x=\"18\" y=\"14\" width=\"110\" height=\"28\" rx=\"14\" fill=\"rgba(255,255,255,0.18)\"/>\n  <text x=\"73\" y=\"32\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#ffffff\">S5L11 • Pages 72–73</text>\n  \n        <g transform=\"translate(20, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">بَيْتُكُمْ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#059669\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#059669\" direction=\"rtl\">فِي بَيْتِكُمْ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tumhara ghar → tumhare ghar mein</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Fii / Min / Alaa + ـِكُمْ</text>\n        </g>\n        <g transform=\"translate(280, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f0f9ff\" stroke=\"#0284c7\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">رَبُّكُمْ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#0284c7\" direction=\"rtl\">إِلَىٰ رَبِّكُمْ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tumhara Rabb → tumhare Rabb ki taraf</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">كُمْ se pehle harf ke neeche zer</text>\n        </g>\n        <g transform=\"translate(540, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f5f3ff\" stroke=\"#7c3aed\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">رَبُّكُمْ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#7c3aed\" direction=\"rtl\">إِنَّ رَبَّكُمْ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tumhara Rabb → beshak tumhara Rabb</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Inna se كُمْ se pehle harf par zabar</text>\n        </g>\n  <rect x=\"30\" y=\"202\" width=\"740\" height=\"24\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"218\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#334155\">Qaa'ida: Harf-e-Jarr aane se (ـكُمْ) se pehle waale harf ke neeche zer aati hai, aur (إِنَّ) aane se zabar aata hai.</text>\n</svg>\n</div>Aap jaante hain ke kisi lafz ke aakhir mein (كُمْ) ho to us mein 'tumhara' ya 'tumhari' ka mafhoom aa jaata hai. Aise alfaaz ke shuru mein (فِي، مِنْ، إِلَىٰ، عَلَىٰ، لِـ، بِـ) aane se (كُمْ) se pehle waale lafz ke neeche zer aa jaati hai:",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0 18px 0;text-align:center;\">\n<svg viewBox=\"0 0 800 236\" width=\"100%\" style=\"max-width:800px;height:auto;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.08);background:#ffffff;border:1px solid #e2e8f0;\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"hdrGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n      <stop offset=\"0%\" stop-color=\"#0f766e\"/>\n      <stop offset=\"100%\" stop-color=\"#047857\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"58\" rx=\"16\" fill=\"url(#hdrGrad)\"/>\n  <rect y=\"42\" width=\"800\" height=\"16\" fill=\"url(#hdrGrad)\"/>\n  <text x=\"400\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#ffffff\">Unit 5 • Sabaq 11 (Page 72): Harf-e-Jarr + Ism + ـكُمْ (فِي كِتَابِكُمْ)</text>\n  <text x=\"400\" y=\"46\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ccfbf1\">كِتَابُكُمْ (tumhari kitaab) ← فِي كِتَابِكُمْ (tumhari kitaab mein)</text>\n  <rect x=\"18\" y=\"14\" width=\"110\" height=\"28\" rx=\"14\" fill=\"rgba(255,255,255,0.18)\"/>\n  <text x=\"73\" y=\"32\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#ffffff\">S5L11 • Pages 72–73</text>\n  \n        <g transform=\"translate(20, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">بَيْتُكُمْ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#059669\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#059669\" direction=\"rtl\">فِي بَيْتِكُمْ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tumhara ghar → tumhare ghar mein</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Fii / Min / Alaa + ـِكُمْ</text>\n        </g>\n        <g transform=\"translate(280, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f0f9ff\" stroke=\"#0284c7\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">رَبُّكُمْ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#0284c7\" direction=\"rtl\">إِلَىٰ رَبِّكُمْ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tumhara Rabb → tumhare Rabb ki taraf</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">كُمْ se pehle harf ke neeche zer</text>\n        </g>\n        <g transform=\"translate(540, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f5f3ff\" stroke=\"#7c3aed\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">رَبُّكُمْ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#7c3aed\" direction=\"rtl\">إِنَّ رَبَّكُمْ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tumhara Rabb → beshak tumhara Rabb</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Inna se كُمْ se pehle harf par zabar</text>\n        </g>\n  <rect x=\"30\" y=\"202\" width=\"740\" height=\"24\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"218\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#334155\">Qaa'ida: Harf-e-Jarr aane se (ـكُمْ) se pehle waale harf ke neeche zer aati hai, aur (إِنَّ) aane se zabar aata hai.</text>\n</svg>\n</div>Aap jaante hain ke kisi lafz ke aakhir mein (كُمْ) ho to us mein 'tumhara' ya 'tumhari' ka mafhoom aa jaata hai. Aise alfaaz ke shuru mein (فِي، مِنْ، إِلَىٰ، عَلَىٰ، لِـ، بِـ) aane se (كُمْ) se pehle waale lafz ke neeche zer aa jaati hai:",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0 18px 0;text-align:center;\">\n<svg viewBox=\"0 0 800 236\" width=\"100%\" style=\"max-width:800px;height:auto;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.08);background:#ffffff;border:1px solid #e2e8f0;\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"hdrGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n      <stop offset=\"0%\" stop-color=\"#0f766e\"/>\n      <stop offset=\"100%\" stop-color=\"#047857\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"58\" rx=\"16\" fill=\"url(#hdrGrad)\"/>\n  <rect y=\"42\" width=\"800\" height=\"16\" fill=\"url(#hdrGrad)\"/>\n  <text x=\"400\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#ffffff\">Unit 5 • Sabaq 11 (Page 72): Harf-e-Jarr + Ism + ـكُمْ (فِي كِتَابِكُمْ)</text>\n  <text x=\"400\" y=\"46\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ccfbf1\">كِتَابُكُمْ (tumhari kitaab) ← فِي كِتَابِكُمْ (tumhari kitaab mein)</text>\n  <rect x=\"18\" y=\"14\" width=\"110\" height=\"28\" rx=\"14\" fill=\"rgba(255,255,255,0.18)\"/>\n  <text x=\"73\" y=\"32\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#ffffff\">S5L11 • Pages 72–73</text>\n  \n        <g transform=\"translate(20, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">بَيْتُكُمْ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#059669\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#059669\" direction=\"rtl\">فِي بَيْتِكُمْ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tumhara ghar → tumhare ghar mein</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Fii / Min / Alaa + ـِكُمْ</text>\n        </g>\n        <g transform=\"translate(280, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f0f9ff\" stroke=\"#0284c7\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">رَبُّكُمْ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#0284c7\" direction=\"rtl\">إِلَىٰ رَبِّكُمْ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tumhara Rabb → tumhare Rabb ki taraf</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">كُمْ se pehle harf ke neeche zer</text>\n        </g>\n        <g transform=\"translate(540, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f5f3ff\" stroke=\"#7c3aed\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">رَبُّكُمْ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#7c3aed\" direction=\"rtl\">إِنَّ رَبَّكُمْ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tumhara Rabb → beshak tumhara Rabb</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Inna se كُمْ se pehle harf par zabar</text>\n        </g>\n  <rect x=\"30\" y=\"202\" width=\"740\" height=\"24\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"218\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#334155\">Qaa'ida: Harf-e-Jarr aane se (ـكُمْ) se pehle waale harf ke neeche zer aati hai, aur (إِنَّ) aane se zabar aata hai.</text>\n</svg>\n</div>Aap jaante hain ke kisi lafz ke aakhir mein (كُمْ) ho to us mein 'tumhara' ya 'tumhari' ka mafhoom aa jaata hai. Aise alfaaz ke shuru mein (فِي، مِنْ، إِلَىٰ، عَلَىٰ، لِـ، بِـ) aane se (كُمْ) se pehle waale lafz ke neeche zer aa jaati hai:",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0 18px 0;text-align:center;\">\n<svg viewBox=\"0 0 800 236\" width=\"100%\" style=\"max-width:800px;height:auto;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.08);background:#ffffff;border:1px solid #e2e8f0;\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"hdrGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n      <stop offset=\"0%\" stop-color=\"#0f766e\"/>\n      <stop offset=\"100%\" stop-color=\"#047857\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"58\" rx=\"16\" fill=\"url(#hdrGrad)\"/>\n  <rect y=\"42\" width=\"800\" height=\"16\" fill=\"url(#hdrGrad)\"/>\n  <text x=\"400\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#ffffff\">Unit 5 • Sabaq 11 (Page 72): Harf-e-Jarr + Ism + ـكُمْ (فِي كِتَابِكُمْ)</text>\n  <text x=\"400\" y=\"46\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ccfbf1\">كِتَابُكُمْ (tumhari kitaab) ← فِي كِتَابِكُمْ (tumhari kitaab mein)</text>\n  <rect x=\"18\" y=\"14\" width=\"110\" height=\"28\" rx=\"14\" fill=\"rgba(255,255,255,0.18)\"/>\n  <text x=\"73\" y=\"32\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#ffffff\">S5L11 • Pages 72–73</text>\n  \n        <g transform=\"translate(20, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">بَيْتُكُمْ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#059669\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#059669\" direction=\"rtl\">فِي بَيْتِكُمْ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tumhara ghar → tumhare ghar mein</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Fii / Min / Alaa + ـِكُمْ</text>\n        </g>\n        <g transform=\"translate(280, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f0f9ff\" stroke=\"#0284c7\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">رَبُّكُمْ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#0284c7\" direction=\"rtl\">إِلَىٰ رَبِّكُمْ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tumhara Rabb → tumhare Rabb ki taraf</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">كُمْ se pehle harf ke neeche zer</text>\n        </g>\n        <g transform=\"translate(540, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f5f3ff\" stroke=\"#7c3aed\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">رَبُّكُمْ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#7c3aed\" direction=\"rtl\">إِنَّ رَبَّكُمْ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tumhara Rabb → beshak tumhara Rabb</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Inna se كُمْ se pehle harf par zabar</text>\n        </g>\n  <rect x=\"30\" y=\"202\" width=\"740\" height=\"24\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"218\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#334155\">Qaa'ida: Harf-e-Jarr aane se (ـكُمْ) se pehle waale harf ke neeche zer aati hai, aur (إِنَّ) aane se zabar aata hai.</text>\n</svg>\n</div>Aap jaante hain ke kisi lafz ke aakhir mein (كُمْ) ho to us mein 'tumhara' ya 'tumhari' ka mafhoom aa jaata hai. Aise alfaaz ke shuru mein (فِي، مِنْ، إِلَىٰ، عَلَىٰ، لِـ، بِـ) aane se (كُمْ) se pehle waale lafz ke neeche zer aa jaati hai:"
+      }
+    },
+    {
+      "type": "rule_paragraph",
+      "text": "(كُمْ) ki taraf mansoob darj-e-zail alfaaz ke shuru mein (عَلَىٰ) aaya hai. Inka tarjuma kijiye, jaise عَلَىٰ قُلُوبِكُمْ : tum logon ke dilon par:",
+      "content": "(كُمْ) ki taraf mansoob darj-e-zail alfaaz ke shuru mein (عَلَىٰ) aaya hai. Inka tarjuma kijiye, jaise عَلَىٰ قُلُوبِكُمْ : tum logon ke dilon par:",
+      "hinglish_text": "(كُمْ) ki taraf mansoob darj-e-zail alfaaz ke shuru mein (عَلَىٰ) aaya hai. Inka tarjuma kijiye, jaise عَلَىٰ قُلُوبِكُمْ : tum logon ke dilon par:",
+      "data": {
+        "text": "(كُمْ) ki taraf mansoob darj-e-zail alfaaz ke shuru mein (عَلَىٰ) aaya hai. Inka tarjuma kijiye, jaise عَلَىٰ قُلُوبِكُمْ : tum logon ke dilon par:",
+        "content": "(كُمْ) ki taraf mansoob darj-e-zail alfaaz ke shuru mein (عَلَىٰ) aaya hai. Inka tarjuma kijiye, jaise عَلَىٰ قُلُوبِكُمْ : tum logon ke dilon par:",
+        "hinglish_text": "(كُمْ) ki taraf mansoob darj-e-zail alfaaz ke shuru mein (عَلَىٰ) aaya hai. Inka tarjuma kijiye, jaise عَلَىٰ قُلُوبِكُمْ : tum logon ke dilon par:"
+      }
+    },
+    {
+      "type": "section_label",
+      "text": "1. Shuru mein (عَلَىٰ) waale Qur'ani Qat'aat (6 Items — Left to Right)",
+      "title": "1. Shuru mein (عَلَىٰ) waale Qur'ani Qat'aat (6 Items — Left to Right)",
+      "label": "1. Shuru mein (عَلَىٰ) waale Qur'ani Qat'aat (6 Items — Left to Right)",
+      "data": {
+        "text": "1. Shuru mein (عَلَىٰ) waale Qur'ani Qat'aat (6 Items — Left to Right)",
+        "title": "1. Shuru mein (عَلَىٰ) waale Qur'ani Qat'aat (6 Items — Left to Right)",
+        "label": "1. Shuru mein (عَلَىٰ) waale Qur'ani Qat'aat (6 Items — Left to Right)"
+      }
+    },
+    {
+      "type": "two_col_numbered_list",
+      "is_numbered": false,
+      "items": [
+        {
+          "id": "s5l11_alaa_1",
+          "arabic": "عَلَى إِخْرَاجِكُمْ",
+          "hinglish": "tum logon ke nikalne par",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ke nikalne par",
+            "en": "Upon driving you out",
+            "ur": "تمہیں نکال باہر کرنے پر",
+            "hi": "तुम्हें निकालने पर",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "عَلَى <span class=\"arabic-root\">إِخْرَاجِ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "عَلَى إِخْرَاجِكُمْ",
+          "displayOrder": 1
+        },
+        {
+          "id": "s5l11_alaa_2",
+          "arabic": "عَلَى أَنْفُسِكُمْ",
+          "hinglish": "tum logon ki janon par",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ki janon par",
+            "en": "Upon yourselves",
+            "ur": "تمہاری جانوں پر",
+            "hi": "तुम्हारी जानों पर",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "عَلَى <span class=\"arabic-root\">أَنْفُسِ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "عَلَى أَنْفُسِكُمْ",
+          "displayOrder": 2
+        },
+        {
+          "id": "s5l11_alaa_3",
+          "arabic": "عَلَى قُلُوبِكُمْ",
+          "hinglish": "tum logon ke dilon par",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ke dilon par",
+            "en": "Upon your hearts",
+            "ur": "تمہارے دلوں پر",
+            "hi": "तुम्हारे दिलों पर",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "عَلَى <span class=\"arabic-root\">قُلُوبِ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "عَلَى قُلُوبِكُمْ",
+          "displayOrder": 3
+        },
+        {
+          "id": "s5l11_alaa_4",
+          "arabic": "عَلَى آلِهَتِكُمْ",
+          "hinglish": "tum logon ke maboodon par",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ke maboodon par",
+            "en": "Upon your gods",
+            "ur": "تمہارے معبودوں پر",
+            "hi": "तुम्हारे पूज्यों (माबूदों) पर",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "عَلَى <span class=\"arabic-root\">آلِهَتِ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "عَلَى آلِهَتِكُمْ",
+          "displayOrder": 4
+        },
+        {
+          "id": "s5l11_alaa_5",
+          "arabic": "عَلَى مَكَانَتِكُمْ",
+          "hinglish": "tum logon ki jagah par",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ki jagah par",
+            "en": "According to your position",
+            "ur": "اپنی حالت (جگہ) پر",
+            "hi": "अपनी स्थिति (जगह) पर",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "عَلَى <span class=\"arabic-root\">مَكَانَتِ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "عَلَى مَكَانَتِكُمْ",
+          "displayOrder": 5
+        },
+        {
+          "id": "s5l11_alaa_6",
+          "arabic": "عَلَى حَرْثِكُمْ",
+          "hinglish": "tum logon ki kheti par",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ki kheti par",
+            "en": "Upon your tilth (crops)",
+            "ur": "تمہاری کھیتی پر",
+            "hi": "तुम्हारी खेती पर",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "عَلَى <span class=\"arabic-root\">حَرْثِ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "عَلَى حَرْثِكُمْ",
+          "displayOrder": 6
+        }
+      ],
+      "data": {
+        "items": [
+          {
+            "id": "s5l11_alaa_1",
+            "arabic": "عَلَى إِخْرَاجِكُمْ",
+            "hinglish": "tum logon ke nikalne par",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ke nikalne par",
+              "en": "Upon driving you out",
+              "ur": "تمہیں نکال باہر کرنے پر",
+              "hi": "तुम्हें निकालने पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "عَلَى <span class=\"arabic-root\">إِخْرَاجِ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "عَلَى إِخْرَاجِكُمْ",
+            "displayOrder": 1
+          },
+          {
+            "id": "s5l11_alaa_2",
+            "arabic": "عَلَى أَنْفُسِكُمْ",
+            "hinglish": "tum logon ki janon par",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ki janon par",
+              "en": "Upon yourselves",
+              "ur": "تمہاری جانوں پر",
+              "hi": "तुम्हारी जानों पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "عَلَى <span class=\"arabic-root\">أَنْفُسِ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "عَلَى أَنْفُسِكُمْ",
+            "displayOrder": 2
+          },
+          {
+            "id": "s5l11_alaa_3",
+            "arabic": "عَلَى قُلُوبِكُمْ",
+            "hinglish": "tum logon ke dilon par",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ke dilon par",
+              "en": "Upon your hearts",
+              "ur": "تمہارے دلوں پر",
+              "hi": "तुम्हारे दिलों पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "عَلَى <span class=\"arabic-root\">قُلُوبِ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "عَلَى قُلُوبِكُمْ",
+            "displayOrder": 3
+          },
+          {
+            "id": "s5l11_alaa_4",
+            "arabic": "عَلَى آلِهَتِكُمْ",
+            "hinglish": "tum logon ke maboodon par",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ke maboodon par",
+              "en": "Upon your gods",
+              "ur": "تمہارے معبودوں پر",
+              "hi": "तुम्हारे पूज्यों (माबूदों) पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "عَلَى <span class=\"arabic-root\">آلِهَتِ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "عَلَى آلِهَتِكُمْ",
+            "displayOrder": 4
+          },
+          {
+            "id": "s5l11_alaa_5",
+            "arabic": "عَلَى مَكَانَتِكُمْ",
+            "hinglish": "tum logon ki jagah par",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ki jagah par",
+              "en": "According to your position",
+              "ur": "اپنی حالت (جگہ) پر",
+              "hi": "अपनी स्थिति (जगह) पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "عَلَى <span class=\"arabic-root\">مَكَانَتِ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "عَلَى مَكَانَتِكُمْ",
+            "displayOrder": 5
+          },
+          {
+            "id": "s5l11_alaa_6",
+            "arabic": "عَلَى حَرْثِكُمْ",
+            "hinglish": "tum logon ki kheti par",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ki kheti par",
+              "en": "Upon your tilth (crops)",
+              "ur": "تمہاری کھیتی پر",
+              "hi": "तुम्हारी खेती पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "عَلَى <span class=\"arabic-root\">حَرْثِ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "عَلَى حَرْثِكُمْ",
+            "displayOrder": 6
+          }
+        ],
+        "is_numbered": false,
+        "sortedByDisplayOrder": true,
+        "cols": 4
+      },
+      "sortedByDisplayOrder": true,
+      "cols": 4
+    },
+    {
+      "type": "rule_paragraph",
+      "text": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (مِنْ) aaya hai. Inka tarjuma kijiye, jaise مِنْ رَبِّكُمْ : tum logon ke Rabb ki taraf se:",
+      "content": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (مِنْ) aaya hai. Inka tarjuma kijiye, jaise مِنْ رَبِّكُمْ : tum logon ke Rabb ki taraf se:",
+      "hinglish_text": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (مِنْ) aaya hai. Inka tarjuma kijiye, jaise مِنْ رَبِّكُمْ : tum logon ke Rabb ki taraf se:",
+      "data": {
+        "text": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (مِنْ) aaya hai. Inka tarjuma kijiye, jaise مِنْ رَبِّكُمْ : tum logon ke Rabb ki taraf se:",
+        "content": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (مِنْ) aaya hai. Inka tarjuma kijiye, jaise مِنْ رَبِّكُمْ : tum logon ke Rabb ki taraf se:",
+        "hinglish_text": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (مِنْ) aaya hai. Inka tarjuma kijiye, jaise مِنْ رَبِّكُمْ : tum logon ke Rabb ki taraf se:"
+      }
+    },
+    {
+      "type": "section_label",
+      "text": "2. Shuru mein (مِنْ) waale Qur'ani Qat'aat (9 Items — Left to Right)",
+      "title": "2. Shuru mein (مِنْ) waale Qur'ani Qat'aat (9 Items — Left to Right)",
+      "label": "2. Shuru mein (مِنْ) waale Qur'ani Qat'aat (9 Items — Left to Right)",
+      "data": {
+        "text": "2. Shuru mein (مِنْ) waale Qur'ani Qat'aat (9 Items — Left to Right)",
+        "title": "2. Shuru mein (مِنْ) waale Qur'ani Qat'aat (9 Items — Left to Right)",
+        "label": "2. Shuru mein (مِنْ) waale Qur'ani Qat'aat (9 Items — Left to Right)"
+      }
+    },
+    {
+      "type": "two_col_numbered_list",
+      "is_numbered": false,
+      "items": [
+        {
+          "id": "s5l11_min_1",
+          "arabic": "مِنْ أَرْضِكُمْ",
+          "hinglish": "tum logon ki zameen se",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ki zameen se",
+            "en": "From your land",
+            "ur": "تمہاری سرزمین سے",
+            "hi": "तुम्हारी ज़मीन से",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "مِنْ <span class=\"arabic-root\">أَرْضِ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "مِنْ أَرْضِكُمْ",
+          "displayOrder": 1
+        },
+        {
+          "id": "s5l11_min_2",
+          "arabic": "مِنْ دِينِكُمْ",
+          "hinglish": "tum logon ke deen se",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ke deen se",
+            "en": "From your religion",
+            "ur": "تمہارے دین سے",
+            "hi": "तुम्हारे दीन से",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "مِنْ <span class=\"arabic-root\">دِينِ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "مِنْ دِينِكُمْ",
+          "displayOrder": 2
+        },
+        {
+          "id": "s5l11_min_3",
+          "arabic": "مِنْ رَبِّكُمْ",
+          "hinglish": "tum logon ke Rabb se",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ke Rabb se",
+            "en": "From your Lord",
+            "ur": "تمہارے رب کی طرف سے",
+            "hi": "तुम्हारे रब की ओर से",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "مِنْ <span class=\"arabic-root\">رَبِّ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "مِنْ رَبِّكُمْ",
+          "displayOrder": 3
+        },
+        {
+          "id": "s5l11_min_4",
+          "arabic": "مِنْ أَبِيكُمْ",
+          "hinglish": "tum logon ke baap se",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ke baap se",
+            "en": "From your father",
+            "ur": "تمہارے باپ کی طرف سے",
+            "hi": "तुम्हारे पिता (बाप) से",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "مِنْ <span class=\"arabic-root\">أَبِي</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "مِنْ أَبِيكُمْ",
+          "displayOrder": 4
+        },
+        {
+          "id": "s5l11_min_5",
+          "arabic": "مِنْ قَرْيَتِكُمْ",
+          "hinglish": "tum logon ki basti se",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ki basti se",
+            "en": "From your town",
+            "ur": "تمہاری بستی سے",
+            "hi": "तुम्हारी बस्ती से",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "مِنْ <span class=\"arabic-root\">قَرْيَتِ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "مِنْ قَرْيَتِكُمْ",
+          "displayOrder": 5
+        },
+        {
+          "id": "s5l11_min_6",
+          "arabic": "مِنْ أَمْرِكُمْ",
+          "hinglish": "tum logon ke hukm se",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ke hukm se",
+            "en": "In your affair",
+            "ur": "تمہارے معاملے سے",
+            "hi": "तुम्हारे मामले से",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "مِنْ <span class=\"arabic-root\">أَمْرِ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "مِنْ أَمْرِكُمْ",
+          "displayOrder": 6
+        },
+        {
+          "id": "s5l11_min_7",
+          "arabic": "مِنْ أَعْمَالِكُمْ",
+          "hinglish": "tum logon ke a'maal se",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ke a'maal se",
+            "en": "Of your deeds",
+            "ur": "تمہارے اعمال میں سے",
+            "hi": "तुम्हारे कर्मों (आमाल) में से",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "مِنْ <span class=\"arabic-root\">أَعْمَالِ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "مِنْ أَعْمَالِكُمْ",
+          "displayOrder": 7
+        },
+        {
+          "id": "s5l11_min_8",
+          "arabic": "مِنْ مَقْتِكُمْ",
+          "hinglish": "tum logon ke ghusse se",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ke ghusse se",
+            "en": "Than your hatred (of yourselves)",
+            "ur": "تمہاری اپنی بیزاری سے",
+            "hi": "तुम्हारी अपनी नफ़रत से",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "مِنْ <span class=\"arabic-root\">مَقْتِ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "مِنْ مَقْتِكُمْ",
+          "displayOrder": 8
+        },
+        {
+          "id": "s5l11_min_9",
+          "arabic": "مِنْ عَدُوِّكُمْ",
+          "hinglish": "tum logon ke dushman se",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ke dushman se",
+            "en": "From your enemy",
+            "ur": "تمہارے دشمن سے",
+            "hi": "तुम्हारे दुश्मन से",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "مِنْ <span class=\"arabic-root\">عَدُوِّ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "مِنْ عَدُوِّكُمْ",
+          "displayOrder": 9
+        }
+      ],
+      "data": {
+        "items": [
+          {
+            "id": "s5l11_min_1",
+            "arabic": "مِنْ أَرْضِكُمْ",
+            "hinglish": "tum logon ki zameen se",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ki zameen se",
+              "en": "From your land",
+              "ur": "تمہاری سرزمین سے",
+              "hi": "तुम्हारी ज़मीन से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "مِنْ <span class=\"arabic-root\">أَرْضِ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "مِنْ أَرْضِكُمْ",
+            "displayOrder": 1
+          },
+          {
+            "id": "s5l11_min_2",
+            "arabic": "مِنْ دِينِكُمْ",
+            "hinglish": "tum logon ke deen se",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ke deen se",
+              "en": "From your religion",
+              "ur": "تمہارے دین سے",
+              "hi": "तुम्हारे दीन से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "مِنْ <span class=\"arabic-root\">دِينِ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "مِنْ دِينِكُمْ",
+            "displayOrder": 2
+          },
+          {
+            "id": "s5l11_min_3",
+            "arabic": "مِنْ رَبِّكُمْ",
+            "hinglish": "tum logon ke Rabb se",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ke Rabb se",
+              "en": "From your Lord",
+              "ur": "تمہارے رب کی طرف سے",
+              "hi": "तुम्हारे रब की ओर से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "مِنْ <span class=\"arabic-root\">رَبِّ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "مِنْ رَبِّكُمْ",
+            "displayOrder": 3
+          },
+          {
+            "id": "s5l11_min_4",
+            "arabic": "مِنْ أَبِيكُمْ",
+            "hinglish": "tum logon ke baap se",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ke baap se",
+              "en": "From your father",
+              "ur": "تمہارے باپ کی طرف سے",
+              "hi": "तुम्हारे पिता (बाप) से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "مِنْ <span class=\"arabic-root\">أَبِي</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "مِنْ أَبِيكُمْ",
+            "displayOrder": 4
+          },
+          {
+            "id": "s5l11_min_5",
+            "arabic": "مِنْ قَرْيَتِكُمْ",
+            "hinglish": "tum logon ki basti se",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ki basti se",
+              "en": "From your town",
+              "ur": "تمہاری بستی سے",
+              "hi": "तुम्हारी बस्ती से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "مِنْ <span class=\"arabic-root\">قَرْيَتِ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "مِنْ قَرْيَتِكُمْ",
+            "displayOrder": 5
+          },
+          {
+            "id": "s5l11_min_6",
+            "arabic": "مِنْ أَمْرِكُمْ",
+            "hinglish": "tum logon ke hukm se",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ke hukm se",
+              "en": "In your affair",
+              "ur": "تمہارے معاملے سے",
+              "hi": "तुम्हारे मामले से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "مِنْ <span class=\"arabic-root\">أَمْرِ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "مِنْ أَمْرِكُمْ",
+            "displayOrder": 6
+          },
+          {
+            "id": "s5l11_min_7",
+            "arabic": "مِنْ أَعْمَالِكُمْ",
+            "hinglish": "tum logon ke a'maal se",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ke a'maal se",
+              "en": "Of your deeds",
+              "ur": "تمہارے اعمال میں سے",
+              "hi": "तुम्हारे कर्मों (आमाल) में से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "مِنْ <span class=\"arabic-root\">أَعْمَالِ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "مِنْ أَعْمَالِكُمْ",
+            "displayOrder": 7
+          },
+          {
+            "id": "s5l11_min_8",
+            "arabic": "مِنْ مَقْتِكُمْ",
+            "hinglish": "tum logon ke ghusse se",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ke ghusse se",
+              "en": "Than your hatred (of yourselves)",
+              "ur": "تمہاری اپنی بیزاری سے",
+              "hi": "तुम्हारी अपनी नफ़रत से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "مِنْ <span class=\"arabic-root\">مَقْتِ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "مِنْ مَقْتِكُمْ",
+            "displayOrder": 8
+          },
+          {
+            "id": "s5l11_min_9",
+            "arabic": "مِنْ عَدُوِّكُمْ",
+            "hinglish": "tum logon ke dushman se",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ke dushman se",
+              "en": "From your enemy",
+              "ur": "تمہارے دشمن سے",
+              "hi": "तुम्हारे दुश्मन से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "مِنْ <span class=\"arabic-root\">عَدُوِّ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "مِنْ عَدُوِّكُمْ",
+            "displayOrder": 9
+          }
+        ],
+        "is_numbered": false,
+        "sortedByDisplayOrder": true,
+        "cols": 4
+      },
+      "sortedByDisplayOrder": true,
+      "cols": 4
+    },
+    {
+      "type": "rule_paragraph",
+      "text": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (فِي) aaya hai. Inka tarjuma kijiye, jaise فِي دِينِكُمْ : tum logon ke deen mein:",
+      "content": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (فِي) aaya hai. Inka tarjuma kijiye, jaise فِي دِينِكُمْ : tum logon ke deen mein:",
+      "hinglish_text": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (فِي) aaya hai. Inka tarjuma kijiye, jaise فِي دِينِكُمْ : tum logon ke deen mein:",
+      "data": {
+        "text": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (فِي) aaya hai. Inka tarjuma kijiye, jaise فِي دِينِكُمْ : tum logon ke deen mein:",
+        "content": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (فِي) aaya hai. Inka tarjuma kijiye, jaise فِي دِينِكُمْ : tum logon ke deen mein:",
+        "hinglish_text": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (فِي) aaya hai. Inka tarjuma kijiye, jaise فِي دِينِكُمْ : tum logon ke deen mein:"
+      }
+    },
+    {
+      "type": "section_label",
+      "text": "3. Shuru mein (فِي) waale Qur'ani Qat'aat (9 Items — Left to Right)",
+      "title": "3. Shuru mein (فِي) waale Qur'ani Qat'aat (9 Items — Left to Right)",
+      "label": "3. Shuru mein (فِي) waale Qur'ani Qat'aat (9 Items — Left to Right)",
+      "data": {
+        "text": "3. Shuru mein (فِي) waale Qur'ani Qat'aat (9 Items — Left to Right)",
+        "title": "3. Shuru mein (فِي) waale Qur'ani Qat'aat (9 Items — Left to Right)",
+        "label": "3. Shuru mein (فِي) waale Qur'ani Qat'aat (9 Items — Left to Right)"
+      }
+    },
+    {
+      "type": "two_col_numbered_list",
+      "is_numbered": false,
+      "items": [
+        {
+          "id": "s5l11_fii_1",
+          "arabic": "فِي دَارِكُمْ",
+          "hinglish": "tum logon ke ghar mein",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ke ghar mein",
+            "en": "In your home",
+            "ur": "تمہارے گھر میں",
+            "hi": "तुम्हारे घर में",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "فِي <span class=\"arabic-root\">دَارِ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "فِي دَارِكُمْ",
+          "displayOrder": 1
+        },
+        {
+          "id": "s5l11_fii_2",
+          "arabic": "فِي حَيَاتِكُمْ",
+          "hinglish": "tum logon ki zindagi mein",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ki zindagi mein",
+            "en": "In your life",
+            "ur": "تمہاری زندگی میں",
+            "hi": "तुम्हारी ज़िंदगी में",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "فِي <span class=\"arabic-root\">حَيَاتِ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "فِي حَيَاتِكُمْ",
+          "displayOrder": 2
+        },
+        {
+          "id": "s5l11_fii_3",
+          "arabic": "فِي دِينِكُمْ",
+          "hinglish": "tum logon ke deen mein",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ke deen mein",
+            "en": "In your religion",
+            "ur": "تمہارے دین میں",
+            "hi": "तुम्हारे दीन में",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "فِي <span class=\"arabic-root\">دِينِ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "فِي دِينِكُمْ",
+          "displayOrder": 3
+        },
+        {
+          "id": "s5l11_fii_4",
+          "arabic": "فِي صُدُورِكُمْ",
+          "hinglish": "tum logon ke seenon mein",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ke seenon mein",
+            "en": "In your chests",
+            "ur": "تمہارے سینوں میں",
+            "hi": "तुम्हारे सीनों में",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "فِي <span class=\"arabic-root\">صُدُورِ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "فِي صُدُورِكُمْ",
+          "displayOrder": 4
+        },
+        {
+          "id": "s5l11_fii_5",
+          "arabic": "فِي أَعْيُنِكُمْ",
+          "hinglish": "tum logon ki aankhon mein",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ki aankhon mein",
+            "en": "In your eyes",
+            "ur": "تمہاری آنکھوں میں",
+            "hi": "तुम्हारी आँखों में",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "فِي <span class=\"arabic-root\">أَعْيُنِ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "فِي أَعْيُنِكُمْ",
+          "displayOrder": 5
+        },
+        {
+          "id": "s5l11_fii_6",
+          "arabic": "فِي مِلَّتِكُمْ",
+          "hinglish": "tum logon ki millat mein",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ki millat mein",
+            "en": "In your creed",
+            "ur": "تمہاری ملت میں",
+            "hi": "तुम्हारी मिल्लत में",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "فِي <span class=\"arabic-root\">مِلَّتِ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "فِي مِلَّتِكُمْ",
+          "displayOrder": 6
+        },
+        {
+          "id": "s5l11_fii_7",
+          "arabic": "فِي خَلْقِكُمْ",
+          "hinglish": "tum logon ki paidaish mein",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ki paidaish mein",
+            "en": "In your creation",
+            "ur": "تمہاری پیدائش میں",
+            "hi": "तुम्हारी पैदाइश में",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "فِي <span class=\"arabic-root\">خَلْقِ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "فِي خَلْقِكُمْ",
+          "displayOrder": 7
+        },
+        {
+          "id": "s5l11_fii_8",
+          "arabic": "فِي أَيْدِيكُمْ",
+          "hinglish": "tum logon ke hathon mein",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ke hathon mein",
+            "en": "In your hands",
+            "ur": "تمہارے ہاتھوں میں",
+            "hi": "तुम्हारे हाथों में",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "فِي <span class=\"arabic-root\">أَيْدِي</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "فِي أَيْدِيكُمْ",
+          "displayOrder": 8
+        },
+        {
+          "id": "s5l11_fii_9",
+          "arabic": "فِي قُلُوبِكُمْ",
+          "hinglish": "tum logon ke dilon mein",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tum logon ke dilon mein",
+            "en": "In your hearts",
+            "ur": "تمہارے دلوں میں",
+            "hi": "तुम्हारे दिलों में",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "فِي <span class=\"arabic-root\">قُلُوبِ</span><span class=\"nonroot\">كُمْ</span>",
+          "arabic_text": "فِي قُلُوبِكُمْ",
+          "displayOrder": 9
+        }
+      ],
+      "data": {
+        "items": [
+          {
+            "id": "s5l11_fii_1",
+            "arabic": "فِي دَارِكُمْ",
+            "hinglish": "tum logon ke ghar mein",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ke ghar mein",
+              "en": "In your home",
+              "ur": "تمہارے گھر میں",
+              "hi": "तुम्हारे घर में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "فِي <span class=\"arabic-root\">دَارِ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "فِي دَارِكُمْ",
+            "displayOrder": 1
+          },
+          {
+            "id": "s5l11_fii_2",
+            "arabic": "فِي حَيَاتِكُمْ",
+            "hinglish": "tum logon ki zindagi mein",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ki zindagi mein",
+              "en": "In your life",
+              "ur": "تمہاری زندگی میں",
+              "hi": "तुम्हारी ज़िंदगी में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "فِي <span class=\"arabic-root\">حَيَاتِ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "فِي حَيَاتِكُمْ",
+            "displayOrder": 2
+          },
+          {
+            "id": "s5l11_fii_3",
+            "arabic": "فِي دِينِكُمْ",
+            "hinglish": "tum logon ke deen mein",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ke deen mein",
+              "en": "In your religion",
+              "ur": "تمہارے دین میں",
+              "hi": "तुम्हारे दीन में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "فِي <span class=\"arabic-root\">دِينِ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "فِي دِينِكُمْ",
+            "displayOrder": 3
+          },
+          {
+            "id": "s5l11_fii_4",
+            "arabic": "فِي صُدُورِكُمْ",
+            "hinglish": "tum logon ke seenon mein",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ke seenon mein",
+              "en": "In your chests",
+              "ur": "تمہارے سینوں میں",
+              "hi": "तुम्हारे सीनों में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "فِي <span class=\"arabic-root\">صُدُورِ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "فِي صُدُورِكُمْ",
+            "displayOrder": 4
+          },
+          {
+            "id": "s5l11_fii_5",
+            "arabic": "فِي أَعْيُنِكُمْ",
+            "hinglish": "tum logon ki aankhon mein",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ki aankhon mein",
+              "en": "In your eyes",
+              "ur": "تمہاری آنکھوں میں",
+              "hi": "तुम्हारी आँखों में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "فِي <span class=\"arabic-root\">أَعْيُنِ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "فِي أَعْيُنِكُمْ",
+            "displayOrder": 5
+          },
+          {
+            "id": "s5l11_fii_6",
+            "arabic": "فِي مِلَّتِكُمْ",
+            "hinglish": "tum logon ki millat mein",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ki millat mein",
+              "en": "In your creed",
+              "ur": "تمہاری ملت میں",
+              "hi": "तुम्हारी मिल्लत में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "فِي <span class=\"arabic-root\">مِلَّتِ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "فِي مِلَّتِكُمْ",
+            "displayOrder": 6
+          },
+          {
+            "id": "s5l11_fii_7",
+            "arabic": "فِي خَلْقِكُمْ",
+            "hinglish": "tum logon ki paidaish mein",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ki paidaish mein",
+              "en": "In your creation",
+              "ur": "تمہاری پیدائش میں",
+              "hi": "तुम्हारी पैदाइश में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "فِي <span class=\"arabic-root\">خَلْقِ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "فِي خَلْقِكُمْ",
+            "displayOrder": 7
+          },
+          {
+            "id": "s5l11_fii_8",
+            "arabic": "فِي أَيْدِيكُمْ",
+            "hinglish": "tum logon ke hathon mein",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ke hathon mein",
+              "en": "In your hands",
+              "ur": "تمہارے ہاتھوں میں",
+              "hi": "तुम्हारे हाथों में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "فِي <span class=\"arabic-root\">أَيْدِي</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "فِي أَيْدِيكُمْ",
+            "displayOrder": 8
+          },
+          {
+            "id": "s5l11_fii_9",
+            "arabic": "فِي قُلُوبِكُمْ",
+            "hinglish": "tum logon ke dilon mein",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tum logon ke dilon mein",
+              "en": "In your hearts",
+              "ur": "تمہارے دلوں میں",
+              "hi": "तुम्हारे दिलों में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "فِي <span class=\"arabic-root\">قُلُوبِ</span><span class=\"nonroot\">كُمْ</span>",
+            "arabic_text": "فِي قُلُوبِكُمْ",
+            "displayOrder": 9
+          }
+        ],
+        "is_numbered": false,
+        "sortedByDisplayOrder": true,
+        "cols": 4
+      },
+      "sortedByDisplayOrder": true,
+      "cols": 4
+    },
+    {
+      "type": "rule_paragraph",
+      "text": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (لِـ) aur (بِـ) aaya hai. Inka tarjuma kijiye:",
+      "content": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (لِـ) aur (بِـ) aaya hai. Inka tarjuma kijiye:",
+      "hinglish_text": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (لِـ) aur (بِـ) aaya hai. Inka tarjuma kijiye:",
+      "data": {
+        "text": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (لِـ) aur (بِـ) aaya hai. Inka tarjuma kijiye:",
+        "content": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (لِـ) aur (بِـ) aaya hai. Inka tarjuma kijiye:",
+        "hinglish_text": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (لِـ) aur (بِـ) aaya hai. Inka tarjuma kijiye:"
+      }
+    },
+    {
+      "type": "section_label",
+      "text": "4. Shuru mein (لِـ) aur (بِـ) waale Qur'ani Qat'aat (14 Items)",
+      "title": "4. Shuru mein (لِـ) aur (بِـ) waale Qur'ani Qat'aat (14 Items)",
+      "label": "4. Shuru mein (لِـ) aur (بِـ) waale Qur'ani Qat'aat (14 Items)",
+      "data": {
+        "text": "4. Shuru mein (لِـ) aur (بِـ) waale Qur'ani Qat'aat (14 Items)",
+        "title": "4. Shuru mein (لِـ) aur (بِـ) waale Qur'ani Qat'aat (14 Items)",
+        "label": "4. Shuru mein (لِـ) aur (بِـ) waale Qur'ani Qat'aat (14 Items)"
+      }
+    },
+    {
+      "type": "two_col_numbered_list",
+      "is_numbered": false,
+      "items": [
+        {
+          "id": "s5l11_libi_1",
+          "arabic": "لِرَبِّكُم",
+          "hinglish": "tumhare Rabb ke liye",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "tumhare Rabb ke liye",
+            "en": "For your Lord",
+            "ur": "تمہارے رب کے لیے",
+            "hi": "तुम्हारे रब के लिए",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">لِ</span><span class=\"arabic-root\">رَبِّ</span><span class=\"nonroot\">كُم</span>",
+          "arabic_text": "لِرَبِّكُم"
+        },
+        {
+          "id": "s5l11_libi_2",
+          "arabic": "لِعَمَلِكُم",
+          "hinglish": "tumhare amal ke liye",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "tumhare amal ke liye",
+            "en": "For your deed",
+            "ur": "تمہارے عمل کے لیے",
+            "hi": "तुम्हारे कर्म (अमल) के लिए",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">لِ</span><span class=\"arabic-root\">عَمَلِ</span><span class=\"nonroot\">كُم</span>",
+          "arabic_text": "لِعَمَلِكُم"
+        },
+        {
+          "id": "s5l11_libi_3",
+          "arabic": "لِأَيْمَانِكُم",
+          "hinglish": "tumhari qasamon ke liye",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "tumhari qasamon ke liye",
+            "en": "For your oaths",
+            "ur": "تمہاری قسموں کے لیے",
+            "hi": "तुम्हारी क़समों के लिए",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">لِ</span><span class=\"arabic-root\">أَيْمَانِ</span><span class=\"nonroot\">كُم</span>",
+          "arabic_text": "لِأَيْمَانِكُم"
+        },
+        {
+          "id": "s5l11_libi_4",
+          "arabic": "لِقُلُوبِكُم",
+          "hinglish": "tumhare dilon ke liye",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tumhare dilon ke liye",
+            "en": "For your hearts",
+            "ur": "تمہارے دلوں کے لیے",
+            "hi": "तुम्हारे दिलों के लिए",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">لِ</span><span class=\"arabic-root\">قُلُوبِ</span><span class=\"nonroot\">كُم</span>",
+          "arabic_text": "لِقُلُوبِكُم"
+        },
+        {
+          "id": "s5l11_libi_5",
+          "arabic": "لِأَنْفُسِكُم",
+          "hinglish": "tumhari jaanon ke liye",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tumhari jaanon ke liye",
+            "en": "For yourselves",
+            "ur": "تمہاری جانوں کے لیے",
+            "hi": "तुम्हारी जानों के लिए",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">لِ</span><span class=\"arabic-root\">أَنْفُسِ</span><span class=\"nonroot\">كُم</span>",
+          "arabic_text": "لِأَنْفُسِكُم"
+        },
+        {
+          "id": "s5l11_libi_6",
+          "arabic": "لِأَنْعَامِكُم",
+          "hinglish": "tumhare chaupaayon ke liye",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tumhare chaupaayon ke liye",
+            "en": "For your cattle",
+            "ur": "تمہارے مویشیوں (چوپایوں) کے لیے",
+            "hi": "तुम्हारे मवेशियों (चौपायों) के लिए",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">لِ</span><span class=\"arabic-root\">أَنْعَامِ</span><span class=\"nonroot\">كُم</span>",
+          "arabic_text": "لِأَنْعَامِكُم"
+        },
+        {
+          "id": "s5l11_libi_7",
+          "arabic": "بِرَبِّكُم",
+          "hinglish": "tumhare Rabb par",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tumhare Rabb par",
+            "en": "In your Lord",
+            "ur": "تمہارے رب پر",
+            "hi": "तुम्हारे रब पर",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">رَبِّ</span><span class=\"nonroot\">كُم</span>",
+          "arabic_text": "بِرَبِّكُم"
+        },
+        {
+          "id": "s5l11_libi_8",
+          "arabic": "بِإِيمَانِكُم",
+          "hinglish": "tumhare imaan par",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tumhare imaan par",
+            "en": "In your faith",
+            "ur": "تمہارے ایمان پر",
+            "hi": "तुम्हारे ईमान पर",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">إِيمَانِ</span><span class=\"nonroot\">كُم</span>",
+          "arabic_text": "بِإِيمَانِكُم"
+        },
+        {
+          "id": "s5l11_libi_9",
+          "arabic": "بِدِينِكُم",
+          "hinglish": "tumhare deen par",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tumhare deen par",
+            "en": "With your religion",
+            "ur": "تمہارے دین پر",
+            "hi": "तुम्हारे दीन पर",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">دِينِ</span><span class=\"nonroot\">كُم</span>",
+          "arabic_text": "بِدِينِكُم"
+        },
+        {
+          "id": "s5l11_libi_10",
+          "arabic": "بِأَمْوَالِكُم",
+          "hinglish": "tumhare maal par",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tumhare maal par",
+            "en": "With your wealth",
+            "ur": "تمہارے مال کے ساتھ",
+            "hi": "तुम्हारे धन-दौलत (माल) से",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">أَمْوَالِ</span><span class=\"nonroot\">كُم</span>",
+          "arabic_text": "بِأَمْوَالِكُم"
+        },
+        {
+          "id": "s5l11_libi_11",
+          "arabic": "بِوُجُوهِكُم",
+          "hinglish": "tumhare chehron par",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tumhare chehron par",
+            "en": "Upon your faces",
+            "ur": "تمہارے چہروں پر",
+            "hi": "तुम्हारे चेहरों पर",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">وُجُوهِ</span><span class=\"nonroot\">كُم</span>",
+          "arabic_text": "بِوُجُوهِكُم"
+        },
+        {
+          "id": "s5l11_libi_12",
+          "arabic": "بِأَفْوَاهِكُم",
+          "hinglish": "tumhare munh se",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tumhare munh se",
+            "en": "With your mouths",
+            "ur": "تمہارے اپنے منہ سے",
+            "hi": "तुम्हारे अपने मुँह से",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">أَفْوَاهِ</span><span class=\"nonroot\">كُم</span>",
+          "arabic_text": "بِأَفْوَاهِكُم"
+        },
+        {
+          "id": "s5l11_libi_13",
+          "arabic": "بِأَعْدَائِكُم",
+          "hinglish": "tumhare dushmanon par",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "tumhare dushmanon par",
+            "en": "Of your enemies",
+            "ur": "تمہارے دشمنوں سے",
+            "hi": "तुम्हारे दुश्मनों से",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">أَعْدَائِ</span><span class=\"nonroot\">كُم</span>",
+          "arabic_text": "بِأَعْدَائِكُم"
+        },
+        {
+          "id": "s5l11_libi_14",
+          "arabic": "فِي سَبِيلِ اللَّهِ بِأَمْوَالِكُم وَأَنْفُسِكُم",
+          "hinglish": "Allah ke raste mein tumhare maal aur tumhari jaanon se",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "Allah ke raste mein tumhare maal aur tumhari jaanon se",
+            "en": "In the cause of Allah with your wealth and your lives",
+            "ur": "اللہ کی راہ میں اپنے مال اور اپنی جانوں کے ساتھ",
+            "hi": "अल्लाह की राह में अपने माल और अपनी जानों से",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">فِي سَبِيلِ اللَّهِ </span><span class=\"nonroot\">بِ</span><span class=\"arabic-root\">أَمْوَالِ</span><span class=\"nonroot\">كُم</span> <span class=\"arabic-root\">وَأَنْفُسِ</span><span class=\"nonroot\">كُم</span>",
+          "arabic_text": "فِي سَبِيلِ اللَّهِ بِأَمْوَالِكُم وَأَنْفُسِكُم"
+        }
+      ],
+      "data": {
+        "items": [
+          {
+            "id": "s5l11_libi_1",
+            "arabic": "لِرَبِّكُم",
+            "hinglish": "tumhare Rabb ke liye",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "tumhare Rabb ke liye",
+              "en": "For your Lord",
+              "ur": "تمہارے رب کے لیے",
+              "hi": "तुम्हारे रब के लिए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">لِ</span><span class=\"arabic-root\">رَبِّ</span><span class=\"nonroot\">كُم</span>",
+            "arabic_text": "لِرَبِّكُم"
+          },
+          {
+            "id": "s5l11_libi_2",
+            "arabic": "لِعَمَلِكُم",
+            "hinglish": "tumhare amal ke liye",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "tumhare amal ke liye",
+              "en": "For your deed",
+              "ur": "تمہارے عمل کے لیے",
+              "hi": "तुम्हारे कर्म (अमल) के लिए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">لِ</span><span class=\"arabic-root\">عَمَلِ</span><span class=\"nonroot\">كُم</span>",
+            "arabic_text": "لِعَمَلِكُم"
+          },
+          {
+            "id": "s5l11_libi_3",
+            "arabic": "لِأَيْمَانِكُم",
+            "hinglish": "tumhari qasamon ke liye",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "tumhari qasamon ke liye",
+              "en": "For your oaths",
+              "ur": "تمہاری قسموں کے لیے",
+              "hi": "तुम्हारी क़समों के लिए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">لِ</span><span class=\"arabic-root\">أَيْمَانِ</span><span class=\"nonroot\">كُم</span>",
+            "arabic_text": "لِأَيْمَانِكُم"
+          },
+          {
+            "id": "s5l11_libi_4",
+            "arabic": "لِقُلُوبِكُم",
+            "hinglish": "tumhare dilon ke liye",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tumhare dilon ke liye",
+              "en": "For your hearts",
+              "ur": "تمہارے دلوں کے لیے",
+              "hi": "तुम्हारे दिलों के लिए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">لِ</span><span class=\"arabic-root\">قُلُوبِ</span><span class=\"nonroot\">كُم</span>",
+            "arabic_text": "لِقُلُوبِكُم"
+          },
+          {
+            "id": "s5l11_libi_5",
+            "arabic": "لِأَنْفُسِكُم",
+            "hinglish": "tumhari jaanon ke liye",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tumhari jaanon ke liye",
+              "en": "For yourselves",
+              "ur": "تمہاری جانوں کے لیے",
+              "hi": "तुम्हारी जानों के लिए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">لِ</span><span class=\"arabic-root\">أَنْفُسِ</span><span class=\"nonroot\">كُم</span>",
+            "arabic_text": "لِأَنْفُسِكُم"
+          },
+          {
+            "id": "s5l11_libi_6",
+            "arabic": "لِأَنْعَامِكُم",
+            "hinglish": "tumhare chaupaayon ke liye",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tumhare chaupaayon ke liye",
+              "en": "For your cattle",
+              "ur": "تمہارے مویشیوں (چوپایوں) کے لیے",
+              "hi": "तुम्हारे मवेशियों (चौपायों) के लिए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">لِ</span><span class=\"arabic-root\">أَنْعَامِ</span><span class=\"nonroot\">كُم</span>",
+            "arabic_text": "لِأَنْعَامِكُم"
+          },
+          {
+            "id": "s5l11_libi_7",
+            "arabic": "بِرَبِّكُم",
+            "hinglish": "tumhare Rabb par",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tumhare Rabb par",
+              "en": "In your Lord",
+              "ur": "تمہارے رب پر",
+              "hi": "तुम्हारे रब पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">رَبِّ</span><span class=\"nonroot\">كُم</span>",
+            "arabic_text": "بِرَبِّكُم"
+          },
+          {
+            "id": "s5l11_libi_8",
+            "arabic": "بِإِيمَانِكُم",
+            "hinglish": "tumhare imaan par",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tumhare imaan par",
+              "en": "In your faith",
+              "ur": "تمہارے ایمان پر",
+              "hi": "तुम्हारे ईमान पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">إِيمَانِ</span><span class=\"nonroot\">كُم</span>",
+            "arabic_text": "بِإِيمَانِكُم"
+          },
+          {
+            "id": "s5l11_libi_9",
+            "arabic": "بِدِينِكُم",
+            "hinglish": "tumhare deen par",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tumhare deen par",
+              "en": "With your religion",
+              "ur": "تمہارے دین پر",
+              "hi": "तुम्हारे दीन पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">دِينِ</span><span class=\"nonroot\">كُم</span>",
+            "arabic_text": "بِدِينِكُم"
+          },
+          {
+            "id": "s5l11_libi_10",
+            "arabic": "بِأَمْوَالِكُم",
+            "hinglish": "tumhare maal par",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tumhare maal par",
+              "en": "With your wealth",
+              "ur": "تمہارے مال کے ساتھ",
+              "hi": "तुम्हारे धन-दौलत (माल) से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">أَمْوَالِ</span><span class=\"nonroot\">كُم</span>",
+            "arabic_text": "بِأَمْوَالِكُم"
+          },
+          {
+            "id": "s5l11_libi_11",
+            "arabic": "بِوُجُوهِكُم",
+            "hinglish": "tumhare chehron par",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tumhare chehron par",
+              "en": "Upon your faces",
+              "ur": "تمہارے چہروں پر",
+              "hi": "तुम्हारे चेहरों पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">وُجُوهِ</span><span class=\"nonroot\">كُم</span>",
+            "arabic_text": "بِوُجُوهِكُم"
+          },
+          {
+            "id": "s5l11_libi_12",
+            "arabic": "بِأَفْوَاهِكُم",
+            "hinglish": "tumhare munh se",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tumhare munh se",
+              "en": "With your mouths",
+              "ur": "تمہارے اپنے منہ سے",
+              "hi": "तुम्हारे अपने मुँह से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">أَفْوَاهِ</span><span class=\"nonroot\">كُم</span>",
+            "arabic_text": "بِأَفْوَاهِكُم"
+          },
+          {
+            "id": "s5l11_libi_13",
+            "arabic": "بِأَعْدَائِكُم",
+            "hinglish": "tumhare dushmanon par",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "tumhare dushmanon par",
+              "en": "Of your enemies",
+              "ur": "تمہارے دشمنوں سے",
+              "hi": "तुम्हारे दुश्मनों से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">أَعْدَائِ</span><span class=\"nonroot\">كُم</span>",
+            "arabic_text": "بِأَعْدَائِكُم"
+          },
+          {
+            "id": "s5l11_libi_14",
+            "arabic": "فِي سَبِيلِ اللَّهِ بِأَمْوَالِكُم وَأَنْفُسِكُم",
+            "hinglish": "Allah ke raste mein tumhare maal aur tumhari jaanon se",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Allah ke raste mein tumhare maal aur tumhari jaanon se",
+              "en": "In the cause of Allah with your wealth and your lives",
+              "ur": "اللہ کی راہ میں اپنے مال اور اپنی جانوں کے ساتھ",
+              "hi": "अल्लाह की राह में अपने माल और अपनी जानों से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">فِي سَبِيلِ اللَّهِ </span><span class=\"nonroot\">بِ</span><span class=\"arabic-root\">أَمْوَالِ</span><span class=\"nonroot\">كُم</span> <span class=\"arabic-root\">وَأَنْفُسِ</span><span class=\"nonroot\">كُم</span>",
+            "arabic_text": "فِي سَبِيلِ اللَّهِ بِأَمْوَالِكُم وَأَنْفُسِكُم"
+          }
+        ],
+        "is_numbered": false
+      }
+    },
+    {
+      "type": "rule_paragraph",
+      "text": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (إِنَّ) aane se (كُمْ) se pehle harf par zabar aa jaata hai, jaise إِنَّ رَبَّكُمْ (beshak tumhara Rabb):",
+      "content": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (إِنَّ) aane se (كُمْ) se pehle harf par zabar aa jaata hai, jaise إِنَّ رَبَّكُمْ (beshak tumhara Rabb):",
+      "hinglish_text": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (إِنَّ) aane se (كُمْ) se pehle harf par zabar aa jaata hai, jaise إِنَّ رَبَّكُمْ (beshak tumhara Rabb):",
+      "data": {
+        "text": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (إِنَّ) aane se (كُمْ) se pehle harf par zabar aa jaata hai, jaise إِنَّ رَبَّكُمْ (beshak tumhara Rabb):",
+        "content": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (إِنَّ) aane se (كُمْ) se pehle harf par zabar aa jaata hai, jaise إِنَّ رَبَّكُمْ (beshak tumhara Rabb):",
+        "hinglish_text": "(كُمْ) ki taraf mansoob in alfaaz ke shuru mein (إِنَّ) aane se (كُمْ) se pehle harf par zabar aa jaata hai, jaise إِنَّ رَبَّكُمْ (beshak tumhara Rabb):"
+      }
+    },
+    {
+      "type": "section_label",
+      "text": "5. Shuru mein (إِنَّ) waale Qur'ani Qat'aat (5 Items)",
+      "title": "5. Shuru mein (إِنَّ) waale Qur'ani Qat'aat (5 Items)",
+      "label": "5. Shuru mein (إِنَّ) waale Qur'ani Qat'aat (5 Items)",
+      "data": {
+        "text": "5. Shuru mein (إِنَّ) waale Qur'ani Qat'aat (5 Items)",
+        "title": "5. Shuru mein (إِنَّ) waale Qur'ani Qat'aat (5 Items)",
+        "label": "5. Shuru mein (إِنَّ) waale Qur'ani Qat'aat (5 Items)"
+      }
+    },
+    {
+      "type": "two_col_numbered_list",
+      "is_numbered": false,
+      "items": [
+        {
+          "id": "s5l11_inna_1",
+          "arabic": "إِنَّ رَبَّكُم",
+          "hinglish": "beshak tumhara Rabb",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "beshak tumhara Rabb",
+            "en": "Indeed, your Lord",
+            "ur": "بیشک تمہارا رب",
+            "hi": "निःसंदेह तुम्हारा रब",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">رَبَّ</span><span class=\"nonroot\">كُم</span>",
+          "arabic_text": "إِنَّ رَبَّكُم"
+        },
+        {
+          "id": "s5l11_inna_2",
+          "arabic": "إِنَّ رَسُولَكُم",
+          "hinglish": "beshak tumhara Rasool",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "beshak tumhara Rasool",
+            "en": "Indeed, your Messenger",
+            "ur": "بیشک تمہارا رسول",
+            "hi": "निःसंदेह तुम्हारा रसूल",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">رَسُولَ</span><span class=\"nonroot\">كُم</span>",
+          "arabic_text": "إِنَّ رَسُولَكُم"
+        },
+        {
+          "id": "s5l11_inna_3",
+          "arabic": "إِنَّ إِلَهَكُم",
+          "hinglish": "beshak tumhara mabood",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "beshak tumhara mabood",
+            "en": "Indeed, your God",
+            "ur": "بیشک تمہارا معبود",
+            "hi": "निःसंदेह तुम्हारा पूज्य",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">إِلَهَ</span><span class=\"nonroot\">كُم</span>",
+          "arabic_text": "إِنَّ إِلَهَكُم"
+        },
+        {
+          "id": "s5l11_inna_4",
+          "arabic": "إِنَّ سَعْيَكُم",
+          "hinglish": "beshak tumhari koshish",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "beshak tumhari koshish",
+            "en": "Indeed, your effort",
+            "ur": "بیشک تمہاری کوشش",
+            "hi": "निःसंदेह तुम्हारी कोशिश",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">سَعْيَ</span><span class=\"nonroot\">كُم</span>",
+          "arabic_text": "إِنَّ سَعْيَكُم"
+        },
+        {
+          "id": "s5l11_inna_5",
+          "arabic": "إِنَّ أَكْرَمَكُم",
+          "hinglish": "beshak tum mein sab se muazzaz",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "beshak tum mein sab se muazzaz",
+            "en": "Indeed, the most noble of you",
+            "ur": "بیشک تم میں سب سے عزت والا",
+            "hi": "निःसंदेह तुम में सबसे अधिक सम्मानित",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">أَكْرَمَ</span><span class=\"nonroot\">كُم</span>",
+          "arabic_text": "إِنَّ أَكْرَمَكُم"
+        }
+      ],
+      "data": {
+        "items": [
+          {
+            "id": "s5l11_inna_1",
+            "arabic": "إِنَّ رَبَّكُم",
+            "hinglish": "beshak tumhara Rabb",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak tumhara Rabb",
+              "en": "Indeed, your Lord",
+              "ur": "بیشک تمہارا رب",
+              "hi": "निःसंदेह तुम्हारा रब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">رَبَّ</span><span class=\"nonroot\">كُم</span>",
+            "arabic_text": "إِنَّ رَبَّكُم"
+          },
+          {
+            "id": "s5l11_inna_2",
+            "arabic": "إِنَّ رَسُولَكُم",
+            "hinglish": "beshak tumhara Rasool",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak tumhara Rasool",
+              "en": "Indeed, your Messenger",
+              "ur": "بیشک تمہارا رسول",
+              "hi": "निःसंदेह तुम्हारा रसूल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">رَسُولَ</span><span class=\"nonroot\">كُم</span>",
+            "arabic_text": "إِنَّ رَسُولَكُم"
+          },
+          {
+            "id": "s5l11_inna_3",
+            "arabic": "إِنَّ إِلَهَكُم",
+            "hinglish": "beshak tumhara mabood",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak tumhara mabood",
+              "en": "Indeed, your God",
+              "ur": "بیشک تمہارا معبود",
+              "hi": "निःसंदेह तुम्हारा पूज्य",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">إِلَهَ</span><span class=\"nonroot\">كُم</span>",
+            "arabic_text": "إِنَّ إِلَهَكُم"
+          },
+          {
+            "id": "s5l11_inna_4",
+            "arabic": "إِنَّ سَعْيَكُم",
+            "hinglish": "beshak tumhari koshish",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak tumhari koshish",
+              "en": "Indeed, your effort",
+              "ur": "بیشک تمہاری کوشش",
+              "hi": "निःसंदेह तुम्हारी कोशिश",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">سَعْيَ</span><span class=\"nonroot\">كُم</span>",
+            "arabic_text": "إِنَّ سَعْيَكُم"
+          },
+          {
+            "id": "s5l11_inna_5",
+            "arabic": "إِنَّ أَكْرَمَكُم",
+            "hinglish": "beshak tum mein sab se muazzaz",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak tum mein sab se muazzaz",
+              "en": "Indeed, the most noble of you",
+              "ur": "بیشک تم میں سب سے عزت والا",
+              "hi": "निःसंदेह तुम में सबसे अधिक सम्मानित",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">أَكْرَمَ</span><span class=\"nonroot\">كُم</span>",
+            "arabic_text": "إِنَّ أَكْرَمَكُم"
+          }
+        ],
+        "is_numbered": false
+      }
+    },
+    {
+      "type": "section_label",
+      "text": "6. Qur'ani Jumle aur Aayaat — Page 73 (Numbered 1–15)",
+      "title": "6. Qur'ani Jumle aur Aayaat — Page 73 (Numbered 1–15)",
+      "label": "6. Qur'ani Jumle aur Aayaat — Page 73 (Numbered 1–15)",
+      "data": {
+        "text": "6. Qur'ani Jumle aur Aayaat — Page 73 (Numbered 1–15)",
+        "title": "6. Qur'ani Jumle aur Aayaat — Page 73 (Numbered 1–15)",
+        "label": "6. Qur'ani Jumle aur Aayaat — Page 73 (Numbered 1–15)"
+      }
+    },
+    {
+      "type": "two_col_numbered_list",
+      "is_numbered": true,
+      "items": [
+        {
+          "id": "s5l11_s_1",
+          "arabic": "إِنَّ رَبَّكُمُ اللَّهُ",
+          "hinglish": "beshak tumhara Rabb Allah Hai",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "beshak tumhara Rabb Allah Hai",
+            "en": "Indeed, your Lord is Allah",
+            "ur": "بیشک تمہارا رب اللہ ہے",
+            "hi": "निःसंदेह तुम्हारा रब अल्लाह है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">رَبَّ</span><span class=\"nonroot\">كُمُ</span> <span class=\"arabic-root\">اللَّهُ</span>",
+          "sentence_number": 1,
+          "arabic_text": "إِنَّ رَبَّكُمُ اللَّهُ"
+        },
+        {
+          "id": "s5l11_s_2",
+          "arabic": "وَإِنَّ رَبَّكُمُ الرَّحْمَنُ",
+          "hinglish": "aur beshak tumhara Rabb Rahman Hai",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "aur beshak tumhara Rabb Rahman Hai",
+            "en": "And indeed, your Lord is the Most Merciful",
+            "ur": "اور بیشک تمہارا رب رحمن ہے",
+            "hi": "और वास्तव में तुम्हारा रब रहमान (अत्यंत दयावान) है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">رَبَّ</span><span class=\"nonroot\">كُمُ</span> <span class=\"arabic-root\">الرَّحْمَنُ</span>",
+          "sentence_number": 2,
+          "arabic_text": "وَإِنَّ رَبَّكُمُ الرَّحْمَنُ"
+        },
+        {
+          "id": "s5l11_s_3",
+          "arabic": "إِنَّ إِلَهَكُم لَوَاحِدٌ",
+          "hinglish": "beshak tumhara mabood ek hi hai",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "beshak tumhara mabood ek hi hai",
+            "en": "Indeed, your God is surely One",
+            "ur": "بیشک تمہارا معبود یقیناً ایک ہی ہے",
+            "hi": "निःसंदेह तुम्हारा पूज्य निश्चित ही एक है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">إِلَهَ</span><span class=\"nonroot\">كُم</span> <span class=\"arabic-root\">لَوَاحِدٌ</span>",
+          "sentence_number": 3,
+          "arabic_text": "إِنَّ إِلَهَكُم لَوَاحِدٌ"
+        },
+        {
+          "id": "s5l11_s_4",
+          "arabic": "وَاللَّهُ أَعْلَمُ بِإِيمَانِكُم",
+          "hinglish": "aur Allah tumhare imaan ko zyada jaanne wala Hai",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "aur Allah tumhare imaan ko zyada jaanne wala Hai",
+            "en": "And Allah is most knowing of your faith",
+            "ur": "اور اللہ تمہارے ایمان کو خوب جاننے والا ہے",
+            "hi": "और अल्लाह तुम्हारे ईमान को भली-भांति जानने वाला है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">وَاللَّهُ أَعْلَمُ </span><span class=\"nonroot\">بِ</span><span class=\"arabic-root\">إِيمَانِ</span><span class=\"nonroot\">كُم</span>",
+          "sentence_number": 4,
+          "arabic_text": "وَاللَّهُ أَعْلَمُ بِإِيمَانِكُم"
+        },
+        {
+          "id": "s5l11_s_5",
+          "arabic": "إِنَّ رَبَّكُم لَرَءُوفٌ رَحِيمٌ",
+          "hinglish": "beshak tumhara Rabb bada shafqat karne wala meharban Hai",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "beshak tumhara Rabb bada shafqat karne wala meharban Hai",
+            "en": "Indeed, your Lord is Kind and Merciful",
+            "ur": "بیشک تمہارا رب بڑا شفقت کرنے والا نہایت رحم والا ہے",
+            "hi": "निःसंदेह तुम्हारा रब अत्यंत कृपालु और दयावान है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">رَبَّ</span><span class=\"nonroot\">كُم</span> <span class=\"arabic-root\">لَرَءُوفٌ رَحِيمٌ</span>",
+          "sentence_number": 5,
+          "arabic_text": "إِنَّ رَبَّكُم لَرَءُوفٌ رَحِيمٌ"
+        },
+        {
+          "id": "s5l11_s_6",
+          "arabic": "إِنَّ سَعْيَكُم لَشَتَّى",
+          "hinglish": "beshak tumhari koshish juda juda hai",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "beshak tumhari koshish juda juda hai",
+            "en": "Indeed, your efforts are diverse",
+            "ur": "بیشک تمہاری کوششیں مختلف (جدا جدا) ہیں",
+            "hi": "निःसंदेह तुम्हारे प्रयास भिन्न-भिन्न हैं",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">سَعْيَ</span><span class=\"nonroot\">كُم</span> <span class=\"arabic-root\">لَشَتَّى</span>",
+          "sentence_number": 6,
+          "arabic_text": "إِنَّ سَعْيَكُم لَشَتَّى"
+        },
+        {
+          "id": "s5l11_s_7",
+          "arabic": "وَاللَّهُ أَعْلَمُ بِأَعْدَائِكُم",
+          "hinglish": "aur Allah tumhare dushmanon ko zyada jaanne wala Hai",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "aur Allah tumhare dushmanon ko zyada jaanne wala Hai",
+            "en": "And Allah is most knowing of your enemies",
+            "ur": "اور اللہ تمہارے دشمنوں کو خوب جاننے والا ہے",
+            "hi": "और अल्लाह तुम्हारे दुश्मनों को भली-भांति जानने वाला है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">وَاللَّهُ أَعْلَمُ </span><span class=\"nonroot\">بِ</span><span class=\"arabic-root\">أَعْدَائِ</span><span class=\"nonroot\">كُم</span>",
+          "sentence_number": 7,
+          "arabic_text": "وَاللَّهُ أَعْلَمُ بِأَعْدَائِكُم"
+        },
+        {
+          "id": "s5l11_s_8",
+          "arabic": "رَبُّكُمْ أَعْلَمُ بِمَا فِي نُفُوسِكُمْ",
+          "hinglish": "Tumhara Rabb khoob jaanne waala hai jo kuchh tumhare dilon mein hai",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "Tumhara Rabb khoob jaanne waala hai jo kuchh tumhare dilon mein hai",
+            "en": "Your Lord is most knowing of what is within yourselves",
+            "ur": "تمہارا رب خوب جانتا ہے جو کچھ تمہارے دلوں (نفسوں) میں ہے",
+            "hi": "तुम्हारा रब भली-भांति जानता है जो कुछ तुम्हारे मनों (नफ़्स) में है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">رَبُّكُمْ</span> <span class=\"nonroot\">أَعْلَمُ</span> <span class=\"arabic-root\">بِمَا</span> <span class=\"arabic-root\">فِي</span> <span class=\"arabic-root\">نُفُوسِكُمْ</span>",
+          "sentence_number": 8,
+          "arabic_text": "رَبُّكُمْ أَعْلَمُ بِمَا فِي نُفُوسِكُمْ"
+        },
+        {
+          "id": "s5l11_s_9",
+          "arabic": "فِيهِ سَكِينَةٌ مِن رَبِّكُم",
+          "hinglish": "us mein sukoon hai tumhare Rabb ki taraf se",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "us mein sukoon hai tumhare Rabb ki taraf se",
+            "en": "In it is tranquility from your Lord",
+            "ur": "اس میں تمہارے رب کی طرف سے سکینت (تسکین) ہے",
+            "hi": "उसमें तुम्हारे रब की ओर से तसल्ली (सकीना) है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">فِيهِ سَكِينَةٌ </span><span class=\"nonroot\">مِن</span> <span class=\"arabic-root\">رَبِّ</span><span class=\"nonroot\">كُم</span>",
+          "sentence_number": 9,
+          "arabic_text": "فِيهِ سَكِينَةٌ مِن رَبِّكُم"
+        },
+        {
+          "id": "s5l11_s_10",
+          "arabic": "ثُمَّ إِلَى رَبِّكُم مَرْجِعُكُم",
+          "hinglish": "phir tumhare Rabb ki taraf tumhara lautna hai",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "phir tumhare Rabb ki taraf tumhara lautna hai",
+            "en": "Then to your Lord is your return",
+            "ur": "پھر تمہارے رب ہی کی طرف تمہارا پلٹنا ہے",
+            "hi": "फिर तुम्हारे रब ही की ओर तुम्हारा लौटना है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">ثُمَّ </span><span class=\"nonroot\">إِلَى</span> <span class=\"arabic-root\">رَبِّ</span><span class=\"nonroot\">كُم</span> <span class=\"arabic-root\">مَرْجِعُ</span><span class=\"nonroot\">كُم</span>",
+          "sentence_number": 10,
+          "arabic_text": "ثُمَّ إِلَى رَبِّكُم مَرْجِعُكُم"
+        },
+        {
+          "id": "s5l11_s_11",
+          "arabic": "فَإِنَّ مَصِيرَكُم إِلَى النَّارِ",
+          "hinglish": "toh beshak tumhara thikana aag ki taraf hai",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "toh beshak tumhara thikana aag ki taraf hai",
+            "en": "Then indeed, your destination is the Fire",
+            "ur": "تو بیشک تمہارا ٹھکانہ آگ کی طرف ہے",
+            "hi": "तो निःसंदेह तुम्हारा ठिकाना आग की ओर है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">فَ</span><span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">مَصِيرَ</span><span class=\"nonroot\">كُم</span> <span class=\"arabic-root\">إِلَى النَّارِ</span>",
+          "sentence_number": 11,
+          "arabic_text": "فَإِنَّ مَصِيرَكُم إِلَى النَّارِ"
+        },
+        {
+          "id": "s5l11_s_12",
+          "arabic": "وَأَنَّ أَكْثَرَكُم فَاسِقُونَ",
+          "hinglish": "aur beshak tum mein se aksar naafarman hain",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "aur beshak tum mein se aksar naafarman hain",
+            "en": "And that most of you are defiantly disobedient",
+            "ur": "اور یہ کہ تم میں سے اکثر نافرمان ہیں",
+            "hi": "और यह कि तुममें से अधिकतर नाफ़रमान (फासिक़) हैं",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">أَنَّ</span> <span class=\"arabic-root\">أَكْثَرَ</span><span class=\"nonroot\">كُم</span> <span class=\"arabic-root\">فَاسِقُونَ</span>",
+          "sentence_number": 12,
+          "arabic_text": "وَأَنَّ أَكْثَرَكُم فَاسِقُونَ"
+        },
+        {
+          "id": "s5l11_s_13",
+          "arabic": "إِنَّمَا بَغْيُكُم عَلَى أَنْفُسِكُم",
+          "hinglish": "bas tumhari sarkashi tumhari apni jaanon par hai",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "bas tumhari sarkashi tumhari apni jaanon par hai",
+            "en": "Your rebellion is only against yourselves",
+            "ur": "تمہاری سرکشی تو خود تمہاری ہی جانوں کے خلاف ہے",
+            "hi": "तुम्हारी सरकशी तो स्वयं तुम्हारी ही जानों पर भारी है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">إِنَّمَا بَغْيُ</span><span class=\"nonroot\">كُم</span> <span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">أَنْفُسِ</span><span class=\"nonroot\">كُم</span>",
+          "sentence_number": 13,
+          "arabic_text": "إِنَّمَا بَغْيُكُم عَلَى أَنْفُسِكُم"
+        },
+        {
+          "id": "s5l11_s_14",
+          "arabic": "الْحَقُّ مِن رَبِّكُم",
+          "hinglish": "haq tumhare Rabb ki taraf se hai",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "haq tumhare Rabb ki taraf se hai",
+            "en": "The truth is from your Lord",
+            "ur": "حق تمہارے رب کی طرف سے ہے",
+            "hi": "सत्य तुम्हारे रब की ओर से है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">الْحَقُّ </span><span class=\"nonroot\">مِن</span> <span class=\"arabic-root\">رَبِّ</span><span class=\"nonroot\">كُم</span>",
+          "sentence_number": 14,
+          "arabic_text": "الْحَقُّ مِن رَبِّكُم"
+        },
+        {
+          "id": "s5l11_s_15",
+          "arabic": "إِنَّ أَكْرَمَكُم عِنْدَ اللَّهِ أَتْقَاكُم إِنَّ اللَّهَ عَلِيمٌ خَبِيرٌ",
+          "hinglish": "beshak Allah ke paas tum mein sab se muazzaz zyada parhezgar hai beshak Allah jaanne wala khabardar Hai",
+          "is_filled": false,
+          "translations": {
+            "hinglish": "beshak Allah ke paas tum mein sab se muazzaz zyada parhezgar hai beshak Allah jaanne wala khabardar Hai",
+            "en": "Indeed, the most noble of you in the sight of Allah is the most righteous of you. Indeed, Allah is Knowing and Aware",
+            "ur": "بیشک اللہ کے نزدیک تم میں سب سے زیادہ عزت والا وہ ہے جو تم میں سب سے زیادہ پرہیزگار ہے، بیشک اللہ سب جاننے والا باخبر ہے",
+            "hi": "निःसंदेह अल्लाह के यहाँ तुममें सबसे अधिक सम्मानित वह है जो तुममें सबसे अधिक परहेज़गार है, वास्तव में अल्लाह सब जानने वाला, ख़बर रखने वाला है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">أَكْرَمَ</span><span class=\"nonroot\">كُم</span> <span class=\"arabic-root\">عِنْدَ اللَّهِ أَتْقَا</span><span class=\"nonroot\">كُم</span> <span class=\"arabic-root\">إِنَّ اللَّهَ عَلِيمٌ خَبِيرٌ</span>",
+          "sentence_number": 15,
+          "arabic_text": "إِنَّ أَكْرَمَكُم عِنْدَ اللَّهِ أَتْقَاكُم إِنَّ اللَّهَ عَلِيمٌ خَبِيرٌ"
+        }
+      ],
+      "data": {
+        "items": [
+          {
+            "id": "s5l11_s_1",
+            "arabic": "إِنَّ رَبَّكُمُ اللَّهُ",
+            "hinglish": "beshak tumhara Rabb Allah Hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak tumhara Rabb Allah Hai",
+              "en": "Indeed, your Lord is Allah",
+              "ur": "بیشک تمہارا رب اللہ ہے",
+              "hi": "निःसंदेह तुम्हारा रब अल्लाह है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">رَبَّ</span><span class=\"nonroot\">كُمُ</span> <span class=\"arabic-root\">اللَّهُ</span>",
+            "sentence_number": 1,
+            "arabic_text": "إِنَّ رَبَّكُمُ اللَّهُ"
+          },
+          {
+            "id": "s5l11_s_2",
+            "arabic": "وَإِنَّ رَبَّكُمُ الرَّحْمَنُ",
+            "hinglish": "aur beshak tumhara Rabb Rahman Hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "aur beshak tumhara Rabb Rahman Hai",
+              "en": "And indeed, your Lord is the Most Merciful",
+              "ur": "اور بیشک تمہارا رب رحمن ہے",
+              "hi": "और वास्तव में तुम्हारा रब रहमान (अत्यंत दयावान) है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">رَبَّ</span><span class=\"nonroot\">كُمُ</span> <span class=\"arabic-root\">الرَّحْمَنُ</span>",
+            "sentence_number": 2,
+            "arabic_text": "وَإِنَّ رَبَّكُمُ الرَّحْمَنُ"
+          },
+          {
+            "id": "s5l11_s_3",
+            "arabic": "إِنَّ إِلَهَكُم لَوَاحِدٌ",
+            "hinglish": "beshak tumhara mabood ek hi hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak tumhara mabood ek hi hai",
+              "en": "Indeed, your God is surely One",
+              "ur": "بیشک تمہارا معبود یقیناً ایک ہی ہے",
+              "hi": "निःसंदेह तुम्हारा पूज्य निश्चित ही एक है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">إِلَهَ</span><span class=\"nonroot\">كُم</span> <span class=\"arabic-root\">لَوَاحِدٌ</span>",
+            "sentence_number": 3,
+            "arabic_text": "إِنَّ إِلَهَكُم لَوَاحِدٌ"
+          },
+          {
+            "id": "s5l11_s_4",
+            "arabic": "وَاللَّهُ أَعْلَمُ بِإِيمَانِكُم",
+            "hinglish": "aur Allah tumhare imaan ko zyada jaanne wala Hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "aur Allah tumhare imaan ko zyada jaanne wala Hai",
+              "en": "And Allah is most knowing of your faith",
+              "ur": "اور اللہ تمہارے ایمان کو خوب جاننے والا ہے",
+              "hi": "और अल्लाह तुम्हारे ईमान को भली-भांति जानने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَاللَّهُ أَعْلَمُ </span><span class=\"nonroot\">بِ</span><span class=\"arabic-root\">إِيمَانِ</span><span class=\"nonroot\">كُم</span>",
+            "sentence_number": 4,
+            "arabic_text": "وَاللَّهُ أَعْلَمُ بِإِيمَانِكُم"
+          },
+          {
+            "id": "s5l11_s_5",
+            "arabic": "إِنَّ رَبَّكُم لَرَءُوفٌ رَحِيمٌ",
+            "hinglish": "beshak tumhara Rabb bada shafqat karne wala meharban Hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak tumhara Rabb bada shafqat karne wala meharban Hai",
+              "en": "Indeed, your Lord is Kind and Merciful",
+              "ur": "بیشک تمہارا رب بڑا شفقت کرنے والا نہایت رحم والا ہے",
+              "hi": "निःसंदेह तुम्हारा रब अत्यंत कृपालु और दयावान है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">رَبَّ</span><span class=\"nonroot\">كُم</span> <span class=\"arabic-root\">لَرَءُوفٌ رَحِيمٌ</span>",
+            "sentence_number": 5,
+            "arabic_text": "إِنَّ رَبَّكُم لَرَءُوفٌ رَحِيمٌ"
+          },
+          {
+            "id": "s5l11_s_6",
+            "arabic": "إِنَّ سَعْيَكُم لَشَتَّى",
+            "hinglish": "beshak tumhari koshish juda juda hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak tumhari koshish juda juda hai",
+              "en": "Indeed, your efforts are diverse",
+              "ur": "بیشک تمہاری کوششیں مختلف (جدا جدا) ہیں",
+              "hi": "निःसंदेह तुम्हारे प्रयास भिन्न-भिन्न हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">سَعْيَ</span><span class=\"nonroot\">كُم</span> <span class=\"arabic-root\">لَشَتَّى</span>",
+            "sentence_number": 6,
+            "arabic_text": "إِنَّ سَعْيَكُم لَشَتَّى"
+          },
+          {
+            "id": "s5l11_s_7",
+            "arabic": "وَاللَّهُ أَعْلَمُ بِأَعْدَائِكُم",
+            "hinglish": "aur Allah tumhare dushmanon ko zyada jaanne wala Hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "aur Allah tumhare dushmanon ko zyada jaanne wala Hai",
+              "en": "And Allah is most knowing of your enemies",
+              "ur": "اور اللہ تمہارے دشمنوں کو خوب جاننے والا ہے",
+              "hi": "और अल्लाह तुम्हारे दुश्मनों को भली-भांति जानने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَاللَّهُ أَعْلَمُ </span><span class=\"nonroot\">بِ</span><span class=\"arabic-root\">أَعْدَائِ</span><span class=\"nonroot\">كُم</span>",
+            "sentence_number": 7,
+            "arabic_text": "وَاللَّهُ أَعْلَمُ بِأَعْدَائِكُم"
+          },
+          {
+            "id": "s5l11_s_8",
+            "arabic": "رَبُّكُمْ أَعْلَمُ بِمَا فِي نُفُوسِكُمْ",
+            "hinglish": "Tumhara Rabb khoob jaanne waala hai jo kuchh tumhare dilon mein hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Tumhara Rabb khoob jaanne waala hai jo kuchh tumhare dilon mein hai",
+              "en": "Your Lord is most knowing of what is within yourselves",
+              "ur": "تمہارا رب خوب جانتا ہے جو کچھ تمہارے دلوں (نفسوں) میں ہے",
+              "hi": "तुम्हारा रब भली-भांति जानता है जो कुछ तुम्हारे मनों (नफ़्स) में है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رَبُّكُمْ</span> <span class=\"nonroot\">أَعْلَمُ</span> <span class=\"arabic-root\">بِمَا</span> <span class=\"arabic-root\">فِي</span> <span class=\"arabic-root\">نُفُوسِكُمْ</span>",
+            "sentence_number": 8,
+            "arabic_text": "رَبُّكُمْ أَعْلَمُ بِمَا فِي نُفُوسِكُمْ"
+          },
+          {
+            "id": "s5l11_s_9",
+            "arabic": "فِيهِ سَكِينَةٌ مِن رَبِّكُم",
+            "hinglish": "us mein sukoon hai tumhare Rabb ki taraf se",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "us mein sukoon hai tumhare Rabb ki taraf se",
+              "en": "In it is tranquility from your Lord",
+              "ur": "اس میں تمہارے رب کی طرف سے سکینت (تسکین) ہے",
+              "hi": "उसमें तुम्हारे रब की ओर से तसल्ली (सकीना) है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">فِيهِ سَكِينَةٌ </span><span class=\"nonroot\">مِن</span> <span class=\"arabic-root\">رَبِّ</span><span class=\"nonroot\">كُم</span>",
+            "sentence_number": 9,
+            "arabic_text": "فِيهِ سَكِينَةٌ مِن رَبِّكُم"
+          },
+          {
+            "id": "s5l11_s_10",
+            "arabic": "ثُمَّ إِلَى رَبِّكُم مَرْجِعُكُم",
+            "hinglish": "phir tumhare Rabb ki taraf tumhara lautna hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "phir tumhare Rabb ki taraf tumhara lautna hai",
+              "en": "Then to your Lord is your return",
+              "ur": "پھر تمہارے رب ہی کی طرف تمہارا پلٹنا ہے",
+              "hi": "फिर तुम्हारे रब ही की ओर तुम्हारा लौटना है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">ثُمَّ </span><span class=\"nonroot\">إِلَى</span> <span class=\"arabic-root\">رَبِّ</span><span class=\"nonroot\">كُم</span> <span class=\"arabic-root\">مَرْجِعُ</span><span class=\"nonroot\">كُم</span>",
+            "sentence_number": 10,
+            "arabic_text": "ثُمَّ إِلَى رَبِّكُم مَرْجِعُكُم"
+          },
+          {
+            "id": "s5l11_s_11",
+            "arabic": "فَإِنَّ مَصِيرَكُم إِلَى النَّارِ",
+            "hinglish": "toh beshak tumhara thikana aag ki taraf hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "toh beshak tumhara thikana aag ki taraf hai",
+              "en": "Then indeed, your destination is the Fire",
+              "ur": "تو بیشک تمہارا ٹھکانہ آگ کی طرف ہے",
+              "hi": "तो निःसंदेह तुम्हारा ठिकाना आग की ओर है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">فَ</span><span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">مَصِيرَ</span><span class=\"nonroot\">كُم</span> <span class=\"arabic-root\">إِلَى النَّارِ</span>",
+            "sentence_number": 11,
+            "arabic_text": "فَإِنَّ مَصِيرَكُم إِلَى النَّارِ"
+          },
+          {
+            "id": "s5l11_s_12",
+            "arabic": "وَأَنَّ أَكْثَرَكُم فَاسِقُونَ",
+            "hinglish": "aur beshak tum mein se aksar naafarman hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "aur beshak tum mein se aksar naafarman hain",
+              "en": "And that most of you are defiantly disobedient",
+              "ur": "اور یہ کہ تم میں سے اکثر نافرمان ہیں",
+              "hi": "और यह कि तुममें से अधिकतर नाफ़रमान (फासिक़) हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">أَنَّ</span> <span class=\"arabic-root\">أَكْثَرَ</span><span class=\"nonroot\">كُم</span> <span class=\"arabic-root\">فَاسِقُونَ</span>",
+            "sentence_number": 12,
+            "arabic_text": "وَأَنَّ أَكْثَرَكُم فَاسِقُونَ"
+          },
+          {
+            "id": "s5l11_s_13",
+            "arabic": "إِنَّمَا بَغْيُكُم عَلَى أَنْفُسِكُم",
+            "hinglish": "bas tumhari sarkashi tumhari apni jaanon par hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "bas tumhari sarkashi tumhari apni jaanon par hai",
+              "en": "Your rebellion is only against yourselves",
+              "ur": "تمہاری سرکشی تو خود تمہاری ہی جانوں کے خلاف ہے",
+              "hi": "तुम्हारी सरकशी तो स्वयं तुम्हारी ही जानों पर भारी है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّمَا بَغْيُ</span><span class=\"nonroot\">كُم</span> <span class=\"nonroot\">عَلَى</span> <span class=\"arabic-root\">أَنْفُسِ</span><span class=\"nonroot\">كُم</span>",
+            "sentence_number": 13,
+            "arabic_text": "إِنَّمَا بَغْيُكُم عَلَى أَنْفُسِكُم"
+          },
+          {
+            "id": "s5l11_s_14",
+            "arabic": "الْحَقُّ مِن رَبِّكُم",
+            "hinglish": "haq tumhare Rabb ki taraf se hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "haq tumhare Rabb ki taraf se hai",
+              "en": "The truth is from your Lord",
+              "ur": "حق تمہارے رب کی طرف سے ہے",
+              "hi": "सत्य तुम्हारे रब की ओर से है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">الْحَقُّ </span><span class=\"nonroot\">مِن</span> <span class=\"arabic-root\">رَبِّ</span><span class=\"nonroot\">كُم</span>",
+            "sentence_number": 14,
+            "arabic_text": "الْحَقُّ مِن رَبِّكُم"
+          },
+          {
+            "id": "s5l11_s_15",
+            "arabic": "إِنَّ أَكْرَمَكُم عِنْدَ اللَّهِ أَتْقَاكُم إِنَّ اللَّهَ عَلِيمٌ خَبِيرٌ",
+            "hinglish": "beshak Allah ke paas tum mein sab se muazzaz zyada parhezgar hai beshak Allah jaanne wala khabardar Hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak Allah ke paas tum mein sab se muazzaz zyada parhezgar hai beshak Allah jaanne wala khabardar Hai",
+              "en": "Indeed, the most noble of you in the sight of Allah is the most righteous of you. Indeed, Allah is Knowing and Aware",
+              "ur": "بیشک اللہ کے نزدیک تم میں سب سے زیادہ عزت والا وہ ہے جو تم میں سب سے زیادہ پرہیزگار ہے، بیشک اللہ سب جاننے والا باخبر ہے",
+              "hi": "निःसंदेह अल्लाह के यहाँ तुममें सबसे अधिक सम्मानित वह है जो तुममें सबसे अधिक परहेज़गार है, वास्तव में अल्लाह सब जानने वाला, ख़बर रखने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">أَكْرَمَ</span><span class=\"nonroot\">كُم</span> <span class=\"arabic-root\">عِنْدَ اللَّهِ أَتْقَا</span><span class=\"nonroot\">كُم</span> <span class=\"arabic-root\">إِنَّ اللَّهَ عَلِيمٌ خَبِيرٌ</span>",
+            "sentence_number": 15,
+            "arabic_text": "إِنَّ أَكْرَمَكُم عِنْدَ اللَّهِ أَتْقَاكُم إِنَّ اللَّهَ عَلِيمٌ خَبِيرٌ"
+          }
+        ],
+        "is_numbered": true
+      }
+    }
+  ],
+  "lesson_key": "S5L11",
+  "stage_id": 5,
+  "book_page": 72,
+  "page_start": 72
+}

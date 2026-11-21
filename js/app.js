@@ -508,7 +508,7 @@ var App = (function() {
             });
             html += `</div>`;
           } else if (secType === 'two_col_numbered_list' || secType === 'three_col_numbered_list') {
-            const cols = secType === 'three_col_numbered_list' ? 3 : 2;
+            const cols = d.cols || sec.cols || (secType === 'three_col_numbered_list' ? 3 : 2);
             html += `<div class="bidi-grid cols-${cols}">`;
             const rawItems = d.items || [];
             const hasDisplayOrder = rawItems.some(it => it.displayOrder !== undefined);
@@ -4533,7 +4533,7 @@ var App = (function() {
         reportEl.style.cssText = 'position:fixed; top:12px; right:12px; width:340px; max-height:85vh; overflow-y:auto; background:#0f172a; color:#f8fafc; padding:16px; border-radius:12px; z-index:999999; box-shadow:0 10px 30px rgba(0,0,0,0.6); font-family:monospace; font-size:12px; line-height:1.4; border:1px solid #334155;';
         document.body.appendChild(reportEl);
       }
-      reportEl.innerHTML = '<h3 style="margin:0 0 8px; color:#38bdf8; font-size:14px;">Muallim Diagnostic Suite (v10.0)</h3><p style="color:#94a3b8; margin:0 0 8px;">Auditing 113 lessons & 565 quiz questions...</p><div id="debug-log"></div>';
+      reportEl.innerHTML = '<h3 style="margin:0 0 8px; color:#38bdf8; font-size:14px;">Muallim Diagnostic Suite (v10.0)</h3><p style="color:#94a3b8; margin:0 0 8px;">Auditing 114 lessons & 570 quiz questions...</p><div id="debug-log"></div>';
       const logEl = document.getElementById('debug-log');
 
       let passedVisuals = 0;
@@ -4576,7 +4576,7 @@ var App = (function() {
       }
 
       // 2. Audit all 113 lessons visual mount / destroy
-      const stageCounts = [19, 13, 10, 17, 23, 21, 10];
+      const stageCounts = [19, 13, 10, 18, 23, 21, 10];
       for (let u = 1; u <= 7; u++) {
         const lCount = stageCounts[u - 1];
         for (let l = 1; l <= lCount; l++) {
@@ -4606,8 +4606,8 @@ var App = (function() {
       reportEl.innerHTML = `
         <h3 style="margin:0 0 8px; color:#38bdf8; font-size:14px;">Muallim Diagnostic Suite (v10.0)</h3>
         <div style="margin-bottom:8px;">Verdict: ${totalStatus}</div>
-        <div style="color:#22c55e;">● Visual Lifecycle: ${passedVisuals} / 113 passed</div>
-        <div style="color:#22c55e;">● Multilingual Quizzes: ${passedQuizzes} / 565 questions passed</div>
+        <div style="color:#22c55e;">● Visual Lifecycle: ${passedVisuals} / 114 passed</div>
+        <div style="color:#22c55e;">● Multilingual Quizzes: ${passedQuizzes} / 570 questions passed</div>
         ${failedVisuals > 0 ? `<div style="color:#ef4444;">● Visual Failures: ${failedVisuals}</div>` : ''}
         ${failedQuizzes > 0 ? `<div style="color:#ef4444;">● Quiz Failures: ${failedQuizzes}</div>` : ''}
         <div style="margin-top:12px; text-align:right;">

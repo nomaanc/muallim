@@ -1,0 +1,2088 @@
+{
+  "lesson_key": "S5L16",
+  "stage_id": 5,
+  "lesson_id": 16,
+  "book_page": 85,
+  "page_start": 85,
+  "page_end": 87,
+  "linguistic_code": "5(.143)x1/2/3/4",
+  "title": "Li → Lanaa, 'Alaa → 'Alaynaa, Inna → Innaa (Huroof ke saath Zameer نَا)",
+  "sections": [
+    {
+      "id": "s5l16_hero",
+      "type": "hero_header",
+      "data": {
+        "arabic": "لِـ ← لَنَا   |   عَلَىٰ ← عَلَيْنَا   |   إِنَّ ← إِنَّا",
+        "hinglish": "liye → hamaare liye  |  par → ham par  |  beshak → beshak ham log",
+        "arabic_word": "لِـ ← لَنَا | عَلَىٰ ← عَلَيْنَا | إِنَّ ← إِنَّا",
+        "arabic_combined": "لِـ ← <span class=\"nonroot\">لَنَا</span> &nbsp;&nbsp;|&nbsp;&nbsp; عَلَىٰ ← <span class=\"nonroot\">عَلَيْنَا</span> &nbsp;&nbsp;|&nbsp;&nbsp; إِنَّ ← <span class=\"nonroot\">إِنَّا</span>",
+        "hinglish_word": "liye → hamaare liye | par → ham par | beshak → beshak ham log",
+        "hinglish_combined": "liye → hamaare liye  |  par → ham par  |  beshak → beshak ham log",
+        "translations": {
+          "hinglish": "liye → hamaare liye  |  par → ham par  |  beshak → beshak ham log",
+          "en": "for → for us  |  upon → upon us  |  indeed → indeed we",
+          "ur": "لئے ← ہمارے لئے  |  پر ← ہم پر  |  بیشک ← بیشک ہم لوگ",
+          "hi": "लिए → हमारे लिए  |  पर → हम पर  |  बेशक → बेशक हम लोग",
+          "bn": null,
+          "ko": null,
+          "zh": null,
+          "es": null
+        }
+      }
+    },
+    {
+      "id": "s5l16_concept_svg",
+      "type": "rule_paragraph",
+      "data": {
+        "title": "Sabaq 16 ka Khulasa (Visual Concept)",
+        "text": "<svg viewBox=\"0 0 680 245\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:12px; border:1px solid #cbd5e1; margin:8px 0;\">\n  <rect x=\"14\" y=\"14\" width=\"652\" height=\"217\" rx=\"10\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"1.5\"/>\n  <text x=\"340\" y=\"38\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#0f766e\" text-anchor=\"middle\">CHAPTER CONTEXT: Huroof ke Aakhir mein (نَا) Judne se Naya Lafz Banna</text>\n  <!-- 3 Hero Cards Left-to-Right -->\n  <rect x=\"28\" y=\"50\" width=\"196\" height=\"82\" rx=\"8\" fill=\"#fef2f2\" stroke=\"#fca5a5\" stroke-width=\"1.5\"/>\n  <text x=\"126\" y=\"82\" font-family=\"'Traditional Arabic', 'Amiri', serif\" font-size=\"28\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\">لِـ <tspan fill=\"#64748b\" font-size=\"20\">←</tspan> <tspan fill=\"#c0392b\">لَنَا</tspan></text>\n  <text x=\"126\" y=\"106\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#7f1d1d\" text-anchor=\"middle\">liye → hamaare liye</text>\n  <text x=\"126\" y=\"123\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#64748b\" text-anchor=\"middle\">(لِـ + نَا = لَنَا)</text>\n\n  <rect x=\"242\" y=\"50\" width=\"196\" height=\"82\" rx=\"8\" fill=\"#fffbeb\" stroke=\"#fcd34d\" stroke-width=\"1.5\"/>\n  <text x=\"340\" y=\"82\" font-family=\"'Traditional Arabic', 'Amiri', serif\" font-size=\"28\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\">عَلَىٰ <tspan fill=\"#64748b\" font-size=\"20\">←</tspan> <tspan fill=\"#c0392b\">عَلَيْنَا</tspan></text>\n  <text x=\"340\" y=\"106\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#78350f\" text-anchor=\"middle\">par → ham par</text>\n  <text x=\"340\" y=\"123\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#64748b\" text-anchor=\"middle\">(عَلَىٰ + نَا = عَلَيْنَا)</text>\n\n  <rect x=\"456\" y=\"50\" width=\"196\" height=\"82\" rx=\"8\" fill=\"#ecfdf5\" stroke=\"#6ee7b7\" stroke-width=\"1.5\"/>\n  <text x=\"554\" y=\"82\" font-family=\"'Traditional Arabic', 'Amiri', serif\" font-size=\"28\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\">إِنَّ <tspan fill=\"#64748b\" font-size=\"20\">←</tspan> <tspan fill=\"#c0392b\">إِنَّا</tspan></text>\n  <text x=\"554\" y=\"106\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#064e3b\" text-anchor=\"middle\">beshak → beshak ham log</text>\n  <text x=\"554\" y=\"123\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#64748b\" text-anchor=\"middle\">(إِنَّ + نَا = إِنَّنَا / إِنَّا)</text>\n\n  <!-- Bottom Summary Strip of All Joined Forms -->\n  <rect x=\"28\" y=\"144\" width=\"624\" height=\"72\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n  <text x=\"340\" y=\"164\" font-family=\"sans-serif\" font-size=\"11.5\" font-weight=\"700\" fill=\"#334155\" text-anchor=\"middle\">Do Alfaaz ke Judne se Banne Wale Tamaam Aham Qur'ani Alfaaz (Harf + نَا → Naya Lafz):</text>\n  <text x=\"340\" y=\"190\" font-family=\"'Traditional Arabic', 'Amiri', serif\" font-size=\"21\" font-weight=\"700\" fill=\"#c0392b\" text-anchor=\"middle\">قَلَمُنَا • إِنَّا • أَنَّا • مِنَّا • لَنَا • إِلَيْنَا • عَلَيْنَا • فِينَا • عَنَّا</text>\n  <text x=\"340\" y=\"208\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\" text-anchor=\"middle\">hamaara qalam • beshak ham • ke ham • ham se • hamaare liye • hamaari taraf • ham par • ham mein • hamaare baare mein</text>\n</svg>"
+      }
+    },
+    {
+      "id": "s5l16_intro_rule",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Aap jaan chuke hain ke jab kisi naam ke aakhir mein (نَا) ka izafa hota hai toh uske ma'ni mein 'hamaara' ya 'hamaari' ka mafhoom paida hota hai. Isi tarah mukhtalif huroof (jaise: إِنَّ، أَنَّ، فِي، عَنْ، لِـ) ke aakhir mein bhi (نَا) aane se in alfaaz mein 'hamaara / hamaari' (ham) ke mafhoom ka izafa ho jaata hai, jaise 'liye' se 'hamaare liye' aur 'beshak' se 'beshak ham'. Zail mein aise alfaaz ke aakhir mein (نَا) ke izafe se naye banne wale alfaaz aur unke ma'aani par ghaur karein:-"
+      }
+    },
+    {
+      "id": "s5l16_joining_table",
+      "type": "intro_table",
+      "data": {
+        "caption": "Do Alfaaz ke Judne se Teessra Naya Lafz Banne ka Jadwal (Harf + نَا → Naya Lafz):",
+        "headers": [
+          "Harf / Lafz",
+          "Ma'ni",
+          "Aakhir mein نَا",
+          "Naya Lafz",
+          "Iska Ma'ni"
+        ],
+        "rows": [
+          [
+            "قَلَمٌ",
+            "qalam",
+            "(قَلَمٌ + نَا)",
+            "قَلَمُنَا",
+            "hamaara qalam"
+          ],
+          [
+            "إِنَّ",
+            "beshak",
+            "(إِنَّ + نَا)",
+            "إِنَّنَا / إِنَّا",
+            "beshak ham"
+          ],
+          [
+            "أَنَّ",
+            "ke",
+            "(أَنَّ + نَا)",
+            "أَنَّنَا / أَنَّا",
+            "ke ham"
+          ],
+          [
+            "مِنْ",
+            "se",
+            "(مِنْ + نَا)",
+            "مِنَّا",
+            "ham se"
+          ],
+          [
+            "لِـ",
+            "liye",
+            "(لِـ + نَا)",
+            "لَنَا",
+            "hamaare liye"
+          ],
+          [
+            "إِلَىٰ",
+            "ki taraf",
+            "(إِلَىٰ + نَا)",
+            "إِلَيْنَا",
+            "hamaari taraf"
+          ],
+          [
+            "عَلَىٰ",
+            "par",
+            "(عَلَىٰ + نَا)",
+            "عَلَيْنَا",
+            "ham par"
+          ],
+          [
+            "فِي",
+            "mein",
+            "(فِي + نَا)",
+            "فِينَا",
+            "ham mein"
+          ],
+          [
+            "عَنْ",
+            "baare mein",
+            "(عَنْ + نَا)",
+            "عَنَّا",
+            "hamaare baare mein"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "s5l16_table_cards",
+      "type": "two_col_numbered_list",
+      "data": {
+        "items": [
+          {
+            "id": 1,
+            "arabic": "قَلَمٌ + نَا ← قَلَمُنَا",
+            "hinglish": "qalam + naa → hamaara qalam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "qalam + naa → hamaara qalam",
+              "en": "Pen + our → Our pen",
+              "ur": "قلم + نا ← ہمارا قلم",
+              "hi": "क़लम + ना → हमारा क़लम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">قَلَمٌ</span> + <span class=\"nonroot\">نَا</span> ← <span class=\"nonroot\">قَلَمُنَا</span>"
+          },
+          {
+            "id": 2,
+            "arabic": "إِنَّ + نَا ← إِنَّنَا / إِنَّا",
+            "hinglish": "beshak + naa → beshak ham",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "beshak + naa → beshak ham",
+              "en": "Indeed + us → Indeed we",
+              "ur": "بے شک + نا ← بیشک ہم",
+              "hi": "बेशक + ना → बेशक हम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span> + <span class=\"nonroot\">نَا</span> ← <span class=\"nonroot\">إِنَّنَا / إِنَّا</span>"
+          },
+          {
+            "id": 3,
+            "arabic": "أَنَّ + نَا ← أَنَّنَا / أَنَّا",
+            "hinglish": "ke + naa → ke ham",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "ke + naa → ke ham",
+              "en": "That + us → That we",
+              "ur": "کہ + نا ← کہ ہم",
+              "hi": "कि + ना → कि हम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">أَنَّ</span> + <span class=\"nonroot\">نَا</span> ← <span class=\"nonroot\">أَنَّنَا / أَنَّا</span>"
+          },
+          {
+            "id": 4,
+            "arabic": "مِنْ + نَا ← مِنَّا",
+            "hinglish": "se + naa → ham se",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "se + naa → ham se",
+              "en": "From + us → From us",
+              "ur": "سے + نا ← ہم سے",
+              "hi": "से + ना → हम से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مِنْ</span> + <span class=\"nonroot\">نَا</span> ← <span class=\"nonroot\">مِنَّا</span>"
+          },
+          {
+            "id": 5,
+            "arabic": "لِـ + نَا ← لَنَا",
+            "hinglish": "liye + naa → hamaare liye",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "liye + naa → hamaare liye",
+              "en": "For + us → For us",
+              "ur": "لئے + نا ← ہمارے لئے",
+              "hi": "लिए + ना → हमारे लिए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">لِـ</span> + <span class=\"nonroot\">نَا</span> ← <span class=\"nonroot\">لَنَا</span>"
+          },
+          {
+            "id": 6,
+            "arabic": "إِلَىٰ + نَا ← إِلَيْنَا",
+            "hinglish": "ki taraf + naa → hamaari taraf",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "ki taraf + naa → hamaari taraf",
+              "en": "Towards + us → Towards us",
+              "ur": "کی طرف + نا ← ہماری طرف",
+              "hi": "की तरफ़ + ना → हमारी तरफ़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِلَىٰ</span> + <span class=\"nonroot\">نَا</span> ← <span class=\"nonroot\">إِلَيْنَا</span>"
+          },
+          {
+            "id": 7,
+            "arabic": "عَلَىٰ + نَا ← عَلَيْنَا",
+            "hinglish": "par + naa → ham par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "par + naa → ham par",
+              "en": "Upon + us → Upon us",
+              "ur": "پر + نا ← ہم پر",
+              "hi": "पर + ना → हम पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَلَىٰ</span> + <span class=\"nonroot\">نَا</span> ← <span class=\"nonroot\">عَلَيْنَا</span>"
+          },
+          {
+            "id": 8,
+            "arabic": "فِي + نَا ← فِينَا",
+            "hinglish": "mein + naa → ham mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "mein + naa → ham mein",
+              "en": "In + us → In / among us",
+              "ur": "میں + نا ← ہم میں",
+              "hi": "में + ना → हम में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">فِي</span> + <span class=\"nonroot\">نَا</span> ← <span class=\"nonroot\">فِينَا</span>"
+          },
+          {
+            "id": 9,
+            "arabic": "عَنْ + نَا ← عَنَّا",
+            "hinglish": "baare mein + naa → hamaare baare mein (ham se)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "baare mein + naa → hamaare baare mein (ham se)",
+              "en": "About / from + us → About / from us",
+              "ur": "بارے میں + نا ← ہمارے بارے میں",
+              "hi": "बारे में + ना → हमारे बारे में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَنْ</span> + <span class=\"nonroot\">نَا</span> ← <span class=\"nonroot\">عَنَّا</span>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5l16_grid_rule",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Darj baala alfaaz mein se har lafz Qur'an-e-Kareem mein ba-kasrat aata hai, chunanche inke ma'aani yaad kar lene se aap darj zail Qur'ani qat'on ka tarjuma ba-aasaani khud kar sakte hain."
+      }
+    },
+    {
+      "id": "s5l16_grid_label",
+      "type": "section_label",
+      "data": {
+        "text": "Darjanon Qur'ani Qat'on ka Tarjuma",
+        "title": "Darjanon Qur'ani Qat'on ka Tarjuma",
+        "label": "Darjanon Qur'ani Qat'on ka Tarjuma"
+      }
+    },
+    {
+      "id": "s5l16_unnumbered_phrases",
+      "type": "two_col_numbered_list",
+      "data": {
+        "items": [
+          {
+            "id": 10,
+            "arabic": "عَلَيْنَا الْكِتَابُ",
+            "hinglish": "ham par kitaab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "ham par kitaab",
+              "en": "Upon us the Book",
+              "ur": "ہم پر کتاب",
+              "hi": "हम पर किताब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">عَلَيْنَا</span> <span class=\"arabic-root\">الْكِتَابُ</span>",
+            "book_hint_ur": "ہم پر کتاب"
+          },
+          {
+            "id": 11,
+            "arabic": "عَلَيْنَا الْقِتَالَ",
+            "hinglish": "ham par jang (qitaal)",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "ham par jang (qitaal)",
+              "en": "Upon us fighting",
+              "ur": "ہم پر قتال (جنگ)",
+              "hi": "हम पर जंग (क़िताल)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">عَلَيْنَا</span> <span class=\"arabic-root\">الْقِتَالَ</span>"
+          },
+          {
+            "id": 12,
+            "arabic": "عَلَيْنَا الْمَلَائِكَةُ",
+            "hinglish": "ham par farishte",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "ham par farishte",
+              "en": "Upon us the angels",
+              "ur": "ہم پر فرشتے",
+              "hi": "हम पर फ़रिश्ते",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">عَلَيْنَا</span> <span class=\"arabic-root\">الْمَلَائِكَةُ</span>"
+          },
+          {
+            "id": 13,
+            "arabic": "عَلَيْنَا صَبْرًا",
+            "hinglish": "ham par sabr",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "ham par sabr",
+              "en": "Upon us patience",
+              "ur": "ہم پر صبر",
+              "hi": "हम पर सब्र",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">عَلَيْنَا</span> <span class=\"arabic-root\">صَبْرًا</span>"
+          },
+          {
+            "id": 14,
+            "arabic": "عَلَيْنَا كِتَابًا",
+            "hinglish": "ham par ek kitaab",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "ham par ek kitaab",
+              "en": "Upon us a decree / book",
+              "ur": "ہم پر ایک کتاب",
+              "hi": "हम पर एक किताब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">عَلَيْنَا</span> <span class=\"arabic-root\">كِتَابًا</span>"
+          },
+          {
+            "id": 15,
+            "arabic": "عَلَيْنَا نَصِيرًا",
+            "hinglish": "ham par madadgaar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "ham par madadgaar",
+              "en": "Against / for us a helper",
+              "ur": "ہم پر مددگار",
+              "hi": "हम पर मददगार",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">عَلَيْنَا</span> <span class=\"arabic-root\">نَصِيرًا</span>"
+          },
+          {
+            "id": 16,
+            "arabic": "كَذَٰلِكَ حَقًّا عَلَيْنَا",
+            "hinglish": "isi tarah ham par haq (laazim) hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "isi tarah ham par haq (laazim) hai",
+              "en": "Thus it is an obligation upon Us",
+              "ur": "اسی طرح ہم پر حق (لازم) ہے",
+              "hi": "इसी तरह हम पर हक़ (लाज़िम) है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">كَذَٰلِكَ حَقًّا</span> <span class=\"nonroot\">عَلَيْنَا</span>"
+          },
+          {
+            "id": 17,
+            "arabic": "عَلَيْنَا مِنَ الْمَاءِ",
+            "hinglish": "ham par paani mein se",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "ham par paani mein se",
+              "en": "Upon us some water",
+              "ur": "ہم پر پانی میں سے",
+              "hi": "हम पर पानी में से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">عَلَيْنَا</span> <span class=\"arabic-root\">مِنَ الْمَاءِ</span>"
+          },
+          {
+            "id": 18,
+            "arabic": "وَعَلَيْنَا الْحِسَابُ",
+            "hinglish": "aur ham par hisaab hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "aur ham par hisaab hai",
+              "en": "And upon Us is the account",
+              "ur": "اور ہم پر حساب ہے",
+              "hi": "और हम पर हिसाब है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">عَلَيْنَا</span> <span class=\"arabic-root\">الْحِسَابُ</span>"
+          },
+          {
+            "id": 19,
+            "arabic": "عَلَيْنَا حِجَارَةً مِّنَ السَّمَاءِ",
+            "hinglish": "ham par aasmaan se patthar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "ham par aasmaan se patthar",
+              "en": "Upon us stones from the sky",
+              "ur": "ہم پر آسمان سے پتھر",
+              "hi": "हम पर आसमान से पत्थर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">عَلَيْنَا</span> <span class=\"arabic-root\">حِجَارَةً مِّنَ السَّمَاءِ</span>"
+          },
+          {
+            "id": 20,
+            "arabic": "عَلَيْنَا مَائِدَةً مِّنَ السَّمَاءِ",
+            "hinglish": "ham par aasmaan se dastarkhwan",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "ham par aasmaan se dastarkhwan",
+              "en": "Upon us a table spread from heaven",
+              "ur": "ہم پر آسمان سے دسترخوان",
+              "hi": "हम पर आसमान से दस्तरख़्वान",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">عَلَيْنَا</span> <span class=\"arabic-root\">مَائِدَةً مِّنَ السَّمَاءِ</span>"
+          },
+          {
+            "id": 21,
+            "arabic": "وَإِنَّا إِلَىٰ رَبِّنَا",
+            "hinglish": "aur beshak ham apne Rabb ki taraf",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "aur beshak ham apne Rabb ki taraf",
+              "en": "And indeed we, to our Lord",
+              "ur": "اور بیشک ہم اپنے رب کی طرف",
+              "hi": "और बेशक हम अपने रब की तरफ़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">إِلَىٰ</span> <span class=\"nonroot\">رَبِّنَا</span>"
+          },
+          {
+            "id": 22,
+            "arabic": "إِنَّا إِلَى اللَّهِ",
+            "hinglish": "beshak ham Allah ki taraf",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak ham Allah ki taraf",
+              "en": "Indeed we, to Allah",
+              "ur": "بیشک ہم اللہ کی طرف",
+              "hi": "बेशक हम अल्लाह की तरफ़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">إِلَى اللَّهِ</span>"
+          },
+          {
+            "id": 23,
+            "arabic": "إِنَّا نَصَارَىٰ",
+            "hinglish": "beshak ham Isaai (Nasaara) hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "beshak ham Isaai (Nasaara) hain",
+              "en": "Indeed, we are Christians",
+              "ur": "بیشک ہم عیسائی (نصاریٰ) ہیں",
+              "hi": "बेशक हम ईसाई (नसारा) हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">نَصَارَىٰ</span>",
+            "book_hint_ur": "عیسائی"
+          },
+          {
+            "id": 24,
+            "arabic": "وَإِنَّا إِلَيْهِ",
+            "hinglish": "aur beshak ham Usi ki taraf",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "aur beshak ham Usi ki taraf",
+              "en": "And indeed we, to Him",
+              "ur": "اور بیشک ہم اسی کی طرف",
+              "hi": "और बेशक हम उसी की तरफ़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">إِلَيْهِ</span>"
+          },
+          {
+            "id": 25,
+            "arabic": "إِلَيْنَا رَسُولًا",
+            "hinglish": "hamaari taraf ek Rasool",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "hamaari taraf ek Rasool",
+              "en": "To us a messenger",
+              "ur": "ہماری طرف ایک رسول",
+              "hi": "हमारी तरफ़ एक रसूल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِلَيْنَا</span> <span class=\"arabic-root\">رَسُولًا</span>"
+          },
+          {
+            "id": 26,
+            "arabic": "إِلَيْنَا مُوسَىٰ",
+            "hinglish": "hamaari taraf Musa (A.S.)",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "hamaari taraf Musa (A.S.)",
+              "en": "To us Moses",
+              "ur": "ہماری طرف موسیٰ (علیہ السلام)",
+              "hi": "हमारी तरफ़ मूसा (अलैहिस्सलाम)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِلَيْنَا</span> <span class=\"arabic-root\">مُوسَىٰ</span>"
+          },
+          {
+            "id": 27,
+            "arabic": "لَنَا مِنَ الْأَرْضِ",
+            "hinglish": "hamaare liye zameen mein se",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "hamaare liye zameen mein se",
+              "en": "For us from the earth",
+              "ur": "ہمارے لیے زمین میں سے",
+              "hi": "हमारे लिए ज़मीन में से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">لَنَا</span> <span class=\"arabic-root\">مِنَ الْأَرْضِ</span>"
+          },
+          {
+            "id": 28,
+            "arabic": "لَنَا هَٰذَا",
+            "hinglish": "hamaare liye yeh",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "hamaare liye yeh",
+              "en": "For us is this",
+              "ur": "ہمارے لیے یہ",
+              "hi": "हमारे लिए यह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">لَنَا</span> <span class=\"arabic-root\">هَٰذَا</span>"
+          },
+          {
+            "id": 29,
+            "arabic": "لَنَا مِنْ لَدُنْكَ رَحْمَةً",
+            "hinglish": "hamaare liye Apne haan (paas) se rahmat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "hamaare liye Apne haan (paas) se rahmat",
+              "en": "For us from Yourself mercy",
+              "ur": "ہمارے لیے اپنے ہاں (پاس) سے رحمت",
+              "hi": "हमारे लिए अपने हाँ (पास) से रहमत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">لَنَا</span> <span class=\"arabic-root\">مِنْ لَدُنْكَ رَحْمَةً</span>",
+            "book_hint_ur": "اپنے ہاں سے"
+          },
+          {
+            "id": 30,
+            "arabic": "لَنَا نُورَنَا",
+            "hinglish": "hamaare liye hamaara noor",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "hamaare liye hamaara noor",
+              "en": "For us our light",
+              "ur": "ہمارے لیے ہمارا نور",
+              "hi": "हमारे लिए हमारा नूर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">لَنَا نُورَنَا</span>"
+          },
+          {
+            "id": 31,
+            "arabic": "لَنَا رَبَّكَ",
+            "hinglish": "hamaare liye aapka Rabb",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "hamaare liye aapka Rabb",
+              "en": "For us your Lord",
+              "ur": "ہمارے لیے آپ کا رب",
+              "hi": "हमारे लिए आपका रब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">لَنَا</span> <span class=\"arabic-root\">رَبَّكَ</span>"
+          },
+          {
+            "id": 32,
+            "arabic": "لَنَا رَبَّنَا",
+            "hinglish": "hamaare liye hamaara Rabb",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "hamaare liye hamaara Rabb",
+              "en": "For us our Lord",
+              "ur": "ہمارے لیے ہمارا رب",
+              "hi": "हमारे लिए हमारा रब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">لَنَا رَبَّنَا</span>"
+          },
+          {
+            "id": 33,
+            "arabic": "لَنَا مَلِكًا",
+            "hinglish": "hamaare liye ek baadshah",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "hamaare liye ek baadshah",
+              "en": "For us a king",
+              "ur": "ہمارے لیے ایک بادشاہ",
+              "hi": "हमारे लिए एक बादशाह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">لَنَا</span> <span class=\"arabic-root\">مَلِكًا</span>"
+          },
+          {
+            "id": 34,
+            "arabic": "لَنَا ذُنُوبَنَا",
+            "hinglish": "hamaare liye hamaare gunaah",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "hamaare liye hamaare gunaah",
+              "en": "For us our sins",
+              "ur": "ہمارے لیے ہمارے گناہ",
+              "hi": "हमारे लिए हमारे गुनाह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">لَنَا ذُنُوبَنَا</span>"
+          },
+          {
+            "id": 35,
+            "arabic": "لَنَا إِلَٰهًا",
+            "hinglish": "hamaare liye ek ma'bood",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "hamaare liye ek ma'bood",
+              "en": "For us a god",
+              "ur": "ہمارے لیے ایک معبود",
+              "hi": "हमारे लिए एक माबूद",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">لَنَا</span> <span class=\"arabic-root\">إِلَٰهًا</span>"
+          },
+          {
+            "id": 36,
+            "arabic": "لَنَا مِنْ لَدُنْكَ وَلِيًّا",
+            "hinglish": "hamaare liye Apne paas se dost (karsaaz)",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "hamaare liye Apne paas se dost (karsaaz)",
+              "en": "For us from Yourself a protector",
+              "ur": "ہمارے لیے اپنے پاس سے دوست (کارساز)",
+              "hi": "हमारे लिए अपने पास से दोस्त (कारसाज़)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">لَنَا</span> <span class=\"arabic-root\">مِنْ لَدُنْكَ وَلِيًّا</span>"
+          },
+          {
+            "id": 37,
+            "arabic": "لَنَا مِنْ أَزْوَاجِنَا",
+            "hinglish": "hamaare liye hamaari biwiyon mein se",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "hamaare liye hamaari biwiyon mein se",
+              "en": "For us from our wives",
+              "ur": "ہمارے لیے ہماری بیویوں میں سے",
+              "hi": "हमारे लिए हमारी बीवियों में से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">لَنَا مِنْ أَزْوَاجِنَا</span>"
+          },
+          {
+            "id": 38,
+            "arabic": "لَنَا مِنْ لَدُنْكَ نَصِيرًا",
+            "hinglish": "hamaare liye Apne paas se madadgaar",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "hamaare liye Apne paas se madadgaar",
+              "en": "For us from Yourself a helper",
+              "ur": "ہمارے لیے اپنے پاس سے مددگار",
+              "hi": "हमारे लिए अपने पास से मददगार",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">لَنَا</span> <span class=\"arabic-root\">مِنْ لَدُنْكَ نَصِيرًا</span>"
+          },
+          {
+            "id": 39,
+            "arabic": "لَنَا فِي هَٰذِهِ الدُّنْيَا حَسَنَةً",
+            "hinglish": "hamaare liye is duniya mein bhalai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "hamaare liye is duniya mein bhalai",
+              "en": "For us in this world good",
+              "ur": "ہمارے لیے اس دنیا میں بھلائی",
+              "hi": "हमारे लिए इस दुनिया में भलाई",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">لَنَا</span> <span class=\"arabic-root\">فِي هَٰذِهِ الدُّنْيَا حَسَنَةً</span>"
+          },
+          {
+            "id": 40,
+            "arabic": "بِرَحْمَةٍ مِّنَّا",
+            "hinglish": "hamaari taraf se rahmat ke saath",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "hamaari taraf se rahmat ke saath",
+              "en": "By mercy from Us",
+              "ur": "ہماری طرف سے رحمت کے ساتھ",
+              "hi": "हमारी तरफ़ से रहमत के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">بِرَحْمَةٍ</span> <span class=\"nonroot\">مِّنَّا</span>"
+          },
+          {
+            "id": 41,
+            "arabic": "إِلَّا رَحْمَةً مِّنَّا",
+            "hinglish": "magar hamaari taraf se rahmat",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "magar hamaari taraf se rahmat",
+              "en": "Except as a mercy from Us",
+              "ur": "مگر ہماری طرف سے رحمت",
+              "hi": "मगर हमारी तरफ़ से रहमत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِلَّا رَحْمَةً</span> <span class=\"nonroot\">مِّنَّا</span>"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5l16_p86_header",
+      "type": "section_label",
+      "data": {
+        "text": "Mukammal Qur'ani Jumlon aur Aayaat ka Tarjuma",
+        "title": "Mukammal Qur'ani Jumlon aur Aayaat ka Tarjuma",
+        "label": "Mukammal Qur'ani Jumlon aur Aayaat ka Tarjuma"
+      }
+    },
+    {
+      "id": "s5l16_p86_rule",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Darj baala qat'on ko samajhne ke baad aap is qaabil hain ke mukammal mafhoom wale darj zail Qur'ani jumlon aur aayaat ka tarjuma khud kar sakein, walhamdulillah."
+      }
+    },
+    {
+      "id": "s5l16_p86_sentences",
+      "type": "two_col_numbered_list",
+      "data": {
+        "items": [
+          {
+            "id": 42,
+            "arabic": "إِنَّا مُؤْمِنُونَ",
+            "hinglish": "beshak ham imaan laane wale (momin) hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak ham imaan laane wale (momin) hain",
+              "en": "Indeed, we are believers",
+              "ur": "بیشک ہم ایمان لانے والے (مومن) ہیں",
+              "hi": "बेशक हम ईमान लाने वाले (मोमिन) हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">مُؤْمِنُونَ</span>",
+            "sentence_number": 1,
+            "display_number": "1."
+          },
+          {
+            "id": 43,
+            "arabic": "إِنَّا مُنْتَظِرُونَ",
+            "hinglish": "beshak ham intezaar karne wale hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak ham intezaar karne wale hain",
+              "en": "Indeed, we are waiting",
+              "ur": "بیشک ہم انتظار کرنے والے ہیں",
+              "hi": "बेशक हम इंतज़ार करने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">مُنْتَظِرُونَ</span>",
+            "sentence_number": 2,
+            "display_number": "2."
+          },
+          {
+            "id": 44,
+            "arabic": "إِنَّا مُنْزِلُونَ",
+            "hinglish": "beshak ham utaarne (naazil karne) wale hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak ham utaarne (naazil karne) wale hain",
+              "en": "Indeed, We are sending down",
+              "ur": "بیشک ہم اتارنے (نازل کرنے) والے ہیں",
+              "hi": "बेशक हम उतारने (नाज़िल करने) वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">مُنْزِلُونَ</span>",
+            "sentence_number": 3,
+            "display_number": "3."
+          },
+          {
+            "id": 45,
+            "arabic": "إِنَّا مُنْتَقِمُونَ",
+            "hinglish": "beshak ham badla lene wale hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak ham badla lene wale hain",
+              "en": "Indeed, We will take retribution",
+              "ur": "بیشک ہم بدلہ لینے والے ہیں",
+              "hi": "बेशक हम बदला लेने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">مُنْتَقِمُونَ</span>",
+            "sentence_number": 4,
+            "display_number": "4."
+          },
+          {
+            "id": 46,
+            "arabic": "إِنَّا مُوقِنُونَ",
+            "hinglish": "beshak ham yaqeen rakhne wale hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "beshak ham yaqeen rakhne wale hain",
+              "en": "Indeed, we are certain",
+              "ur": "بیشک ہم یقین رکھنے والے ہیں",
+              "hi": "बेशक हम यक़ीन रखने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">مُوقِنُونَ</span>",
+            "sentence_number": 5,
+            "display_number": "5.",
+            "book_hint_ur": "یقین رکھنے والے"
+          },
+          {
+            "id": 47,
+            "arabic": "إِنَّا إِلَيْكُمْ مُّرْسَلُونَ",
+            "hinglish": "beshak ham tumhaari taraf bheje gaye (Rasool) hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak ham tumhaari taraf bheje gaye (Rasool) hain",
+              "en": "Indeed, we are messengers sent to you",
+              "ur": "بیشک ہم تمہاری طرف بھیجے گئے (رسول) ہیں",
+              "hi": "बेशक हम तुम्हारी तरफ़ भेजे गए (रसूल) हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">إِلَيْكُمْ مُّرْسَلُونَ</span>",
+            "sentence_number": 6,
+            "display_number": "6."
+          },
+          {
+            "id": 48,
+            "arabic": "وَإِنَّا لَهُ كَاتِبُونَ",
+            "hinglish": "aur beshak ham usko likhne wale hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "aur beshak ham usko likhne wale hain",
+              "en": "And indeed, We are recording it",
+              "ur": "اور بیشک ہم اس کو لکھنے والے ہیں",
+              "hi": "और बेशक हम उसको लिखने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">لَهُ كَاتِبُونَ</span>",
+            "sentence_number": 7,
+            "display_number": "7."
+          },
+          {
+            "id": 49,
+            "arabic": "وَإِنَّا بِهِ كَافِرُونَ",
+            "hinglish": "aur beshak ham iska inkaar karne wale hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "aur beshak ham iska inkaar karne wale hain",
+              "en": "And indeed, we are disbelievers in it",
+              "ur": "اور بیشک ہم اس کا انکار کرنے والے ہیں",
+              "hi": "और बेशक हम इसका इनकार करने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">بِهِ كَافِرُونَ</span>",
+            "sentence_number": 8,
+            "display_number": "8."
+          },
+          {
+            "id": 50,
+            "arabic": "إِنَّا إِلَى اللَّهِ رَاغِبُونَ",
+            "hinglish": "beshak ham Allah ki taraf raghbat rakhne wale hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak ham Allah ki taraf raghbat rakhne wale hain",
+              "en": "Indeed, to Allah we are desirers / turning in hope",
+              "ur": "بیشک ہم اللہ کی طرف رغبت رکھنے والے ہیں",
+              "hi": "बेशक हम अल्लाह की तरफ़ रग़बत रखने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">إِلَى اللَّهِ رَاغِبُونَ</span>",
+            "sentence_number": 9,
+            "display_number": "9."
+          },
+          {
+            "id": 51,
+            "arabic": "فَإِنَّا مِنْهُمْ مُّنْتَقِمُونَ",
+            "hinglish": "toh beshak ham un se badla lene wale hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "toh beshak ham un se badla lene wale hain",
+              "en": "Then indeed, We will take retribution from them",
+              "ur": "تو بیشک ہم ان سے بدلہ لینے والے ہیں",
+              "hi": "तो बेशक हम उन से बदला लेने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">فَ</span><span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">مِنْهُمْ مُّنْتَقِمُونَ</span>",
+            "sentence_number": 10,
+            "display_number": "10."
+          },
+          {
+            "id": 52,
+            "arabic": "وَإِنَّا فَوْقَهُمْ قَاهِرُونَ",
+            "hinglish": "aur beshak ham unke upar ghalib (qaaboo paane wale) hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "aur beshak ham unke upar ghalib (qaaboo paane wale) hain",
+              "en": "And indeed, above them we are subjugators",
+              "ur": "اور بیشک ہم ان کے اوپر غالب (قابو پانے والے) ہیں",
+              "hi": "और बेशक हम उनके ऊपर ग़ालिब (क़ाबू पाने वाले) हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">فَوْقَهُمْ قَاهِرُونَ</span>",
+            "sentence_number": 11,
+            "display_number": "11."
+          },
+          {
+            "id": 53,
+            "arabic": "فَإِنَّا عَلَيْهِمْ مُّقْتَدِرُونَ",
+            "hinglish": "toh beshak ham un par poori qudrat rakhne wale hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "toh beshak ham un par poori qudrat rakhne wale hain",
+              "en": "Then indeed, We have full power over them",
+              "ur": "تو بیشک ہم ان پر پوری قدرت رکھنے والے ہیں",
+              "hi": "तो बेशक हम उन पर पूरी क़ुदरत रखने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">فَ</span><span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">عَلَيْهِمْ مُّقْتَدِرُونَ</span>",
+            "sentence_number": 12,
+            "display_number": "12."
+          },
+          {
+            "id": 54,
+            "arabic": "لَا عِلْمَ لَنَا",
+            "hinglish": "hamaare liye (hamein) koi ilm nahin",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "hamaare liye (hamein) koi ilm nahin",
+              "en": "We have no knowledge",
+              "ur": "ہمارے لیے (ہمیں) کوئی علم نہیں",
+              "hi": "हमारे लिए (हमें) कोई इल्म नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">لَا عِلْمَ</span> <span class=\"nonroot\">لَنَا</span>",
+            "sentence_number": 13,
+            "display_number": "13."
+          },
+          {
+            "id": 55,
+            "arabic": "لَا طَاقَةَ لَنَا",
+            "hinglish": "hamaare liye (ham mein) koi taaqat nahin",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "hamaare liye (ham mein) koi taaqat nahin",
+              "en": "We have no power / strength",
+              "ur": "ہمارے لیے (ہم میں) کوئی طاقت نہیں",
+              "hi": "हमारे लिए (हम में) कोई ताक़त नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">لَا طَاقَةَ</span> <span class=\"nonroot\">لَنَا</span>",
+            "sentence_number": 14,
+            "display_number": "14."
+          },
+          {
+            "id": 56,
+            "arabic": "إِنَّا / بِكُلٍّ كَافِرُونَ",
+            "hinglish": "beshak ham har kisi ke inkaar karne wale hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "beshak ham har kisi ke inkaar karne wale hain",
+              "en": "Indeed, we are disbelievers in both / all of them",
+              "ur": "بیشک ہم ہر کسی کے انکار کرنے والے ہیں",
+              "hi": "बेशक हम हर किसी के इनकार करने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا</span> / <span class=\"arabic-root\">بِكُلٍّ كَافِرُونَ</span>",
+            "sentence_number": 15,
+            "display_number": "15.",
+            "book_hint_ur": "ہر کسی کے"
+          },
+          {
+            "id": 57,
+            "arabic": "إِنَّا رَسُولُ رَبِّ الْعَالَمِينَ",
+            "hinglish": "beshak ham dono tamaam jahaanon ke Rabb ke bheje hue (Rasool) hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak ham dono tamaam jahaanon ke Rabb ke bheje hue (Rasool) hain",
+              "en": "Indeed, we are the messengers of the Lord of the worlds",
+              "ur": "بیشک ہم دونوں تمام جہانوں کے رب کے رسول ہیں",
+              "hi": "बेशक हम दोनों तमाम जहानों के रब के रसूल हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">رَسُولُ رَبِّ الْعَالَمِينَ</span>",
+            "sentence_number": 16,
+            "display_number": "16."
+          },
+          {
+            "id": 58,
+            "arabic": "إِنَّا رُسُلُ رَبِّكَ",
+            "hinglish": "beshak ham aapke Rabb ke bheje hue (Rasool) hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak ham aapke Rabb ke bheje hue (Rasool) hain",
+              "en": "Indeed, we are messengers of your Lord",
+              "ur": "بیشک ہم آپ کے رب کے رسول ہیں",
+              "hi": "बेशक हम आपके रब के रसूल हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">رُسُلُ رَبِّكَ</span>",
+            "sentence_number": 17,
+            "display_number": "17."
+          },
+          {
+            "id": 59,
+            "arabic": "إِنَّا مَعَكُمْ مُّسْتَمِعُونَ",
+            "hinglish": "beshak ham tumhaare saath kaan laga kar sunne wale hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak ham tumhaare saath kaan laga kar sunne wale hain",
+              "en": "Indeed, we are with you listening",
+              "ur": "بیشک ہم تمہارے ساتھ کان لگا کر سننے والے ہیں",
+              "hi": "बेशक हम तुम्हारे साथ कान लगा कर सुनने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">مَعَكُمْ مُّسْتَمِعُونَ</span>",
+            "sentence_number": 18,
+            "display_number": "18."
+          },
+          {
+            "id": 60,
+            "arabic": "إِنَّا لِلَّهِ / وَإِنَّا إِلَيْهِ رَاجِعُونَ",
+            "hinglish": "beshak ham Allah hi ke hain aur beshak ham Usi ki taraf lautne wale hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak ham Allah hi ke hain aur beshak ham Usi ki taraf lautne wale hain",
+              "en": "Indeed we belong to Allah, and indeed to Him we will return",
+              "ur": "بیشک ہم اللہ ہی کے ہیں اور بیشک ہم اسی کی طرف لوٹنے والے ہیں",
+              "hi": "बेशक हम अल्लाह ही के हैं और बेशक हम उसी की तरफ़ लौटने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">لِلَّهِ / وَ</span><span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">إِلَيْهِ رَاجِعُونَ</span>",
+            "sentence_number": 19,
+            "display_number": "19."
+          },
+          {
+            "id": 61,
+            "arabic": "إِنَّا مِنَ الْمُجْرِمِينَ مُنْتَقِمُونَ",
+            "hinglish": "beshak ham mujrimon se badla lene wale hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak ham mujrimon se badla lene wale hain",
+              "en": "Indeed, from the criminals We will take retribution",
+              "ur": "بیشک ہم مجرموں سے بدلہ لینے والے ہیں",
+              "hi": "बेशक हम मुजरिमों से बदला लेने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">مِنَ الْمُجْرِمِينَ مُنْتَقِمُونَ</span>",
+            "sentence_number": 20,
+            "display_number": "20."
+          },
+          {
+            "id": 62,
+            "arabic": "إِنَّا إِلَىٰ رَبِّنَا مُنْقَلِبُونَ",
+            "hinglish": "beshak ham apne Rabb ki taraf palatne wale hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak ham apne Rabb ki taraf palatne wale hain",
+              "en": "Indeed, to our Lord we will return",
+              "ur": "بیشک ہم اپنے رب کی طرف پلٹنے والے ہیں",
+              "hi": "बेशक हम अपने रब की तरफ़ पलटने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">إِلَىٰ</span> <span class=\"nonroot\">رَبِّنَا</span> <span class=\"arabic-root\">مُنْقَلِبُونَ</span>",
+            "sentence_number": 21,
+            "display_number": "21."
+          },
+          {
+            "id": 63,
+            "arabic": "هَٰذَا سِحْرٌ / وَإِنَّا بِهِ كَافِرُونَ",
+            "hinglish": "yeh jaadu hai aur beshak ham iska inkaar karne wale hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "yeh jaadu hai aur beshak ham iska inkaar karne wale hain",
+              "en": "This is magic, and indeed we are disbelievers in it",
+              "ur": "یہ جادو ہے اور بیشک ہم اس کا انکار کرنے والے ہیں",
+              "hi": "यह जादू है और बेशक हम इसका इनकार करने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">هَٰذَا سِحْرٌ / وَ</span><span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">بِهِ كَافِرُونَ</span>",
+            "sentence_number": 22,
+            "display_number": "22."
+          },
+          {
+            "id": 64,
+            "arabic": "وَإِنَّا عَلَىٰ آثَارِهِمْ مُّهْتَدُونَ",
+            "hinglish": "aur beshak ham unke naqsh-e-qadam par hidayat paane wale hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "aur beshak ham unke naqsh-e-qadam par hidayat paane wale hain",
+              "en": "And indeed, we are guided upon their footsteps",
+              "ur": "اور بیشک ہم ان کے نقش قدم پر ہدایت پانے والے ہیں",
+              "hi": "और बेशक हम उनके नक़्शे-क़दम पर हिदायत पाने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">عَلَىٰ آثَارِهِمْ مُّهْتَدُونَ</span>",
+            "sentence_number": 23,
+            "display_number": "23."
+          },
+          {
+            "id": 65,
+            "arabic": "وَإِنَّا عَلَىٰ آثَارِهِمْ مُّقْتَدُونَ",
+            "hinglish": "aur beshak ham unke naqsh-e-qadam ki pairwi karne wale hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "aur beshak ham unke naqsh-e-qadam ki pairwi karne wale hain",
+              "en": "And indeed, we are following in their footsteps",
+              "ur": "اور بیشک ہم ان کے نقش قدم کی پیروی کرنے والے ہیں",
+              "hi": "और बेशक हम उनके नक़्शे-क़दम की पैरवी करने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">عَلَىٰ آثَارِهِمْ مُّقْتَدُونَ</span>",
+            "sentence_number": 24,
+            "display_number": "24."
+          },
+          {
+            "id": 66,
+            "arabic": "إِلَيْنَا مَرْجِعُهُمْ",
+            "hinglish": "hamaari hi taraf unka lautna hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "hamaari hi taraf unka lautna hai",
+              "en": "To Us is their return",
+              "ur": "ہماری ہی طرف ان کا لوٹنا ہے",
+              "hi": "हमारी ही तरफ़ उनका लौटना है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِلَيْنَا</span> <span class=\"arabic-root\">مَرْجِعُهُمْ</span>",
+            "sentence_number": 25,
+            "display_number": "25."
+          },
+          {
+            "id": 67,
+            "arabic": "كُلٌّ إِلَيْنَا رَاجِعُونَ",
+            "hinglish": "har koi hamaari taraf palatne wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "har koi hamaari taraf palatne wala hai",
+              "en": "All of them will return to Us",
+              "ur": "ہر کوئی ہماری طرف پلٹنے والا ہے",
+              "hi": "हर कोई हमारी तरफ़ पलटने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">كُلٌّ</span> <span class=\"nonroot\">إِلَيْنَا</span> <span class=\"arabic-root\">رَاجِعُونَ</span>",
+            "sentence_number": 26,
+            "display_number": "26.",
+            "book_hint_ur": "ہر کوئی"
+          },
+          {
+            "id": 68,
+            "arabic": "إِنَّ إِلَيْنَا إِيَابَهُمْ",
+            "hinglish": "beshak hamaari hi taraf unka palatna hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "beshak hamaari hi taraf unka palatna hai",
+              "en": "Indeed, to Us is their return",
+              "ur": "بیشک ہماری ہی طرف ان کا پلٹنا ہے",
+              "hi": "बेशक हमारी ही तरफ़ उनका पलटना है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span> <span class=\"nonroot\">إِلَيْنَا</span> <span class=\"arabic-root\">إِيَابَهُمْ</span>",
+            "sentence_number": 27,
+            "display_number": "27.",
+            "book_hint_ur": "انکا پلٹنا"
+          },
+          {
+            "id": 69,
+            "arabic": "وَمِنَّا الْقَاسِطُونَ",
+            "hinglish": "aur ham mein se kuch zaalim (na-insaaf) hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "aur ham mein se kuch zaalim (na-insaaf) hain",
+              "en": "And among us are the unjust",
+              "ur": "اور ہم میں سے کچھ ظالم (ناانصاف) ہیں",
+              "hi": "और हम में से कुछ ज़ालिम (ना-इंसाफ़) हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">مِنَّا</span> <span class=\"arabic-root\">الْقَاسِطُونَ</span>",
+            "sentence_number": 28,
+            "display_number": "28.",
+            "book_hint_ur": "ظالم"
+          },
+          {
+            "id": 70,
+            "arabic": "وَأَنَّا مِنَّا الْمُسْلِمُونَ",
+            "hinglish": "aur yeh ke ham mein se kuch farmabardaar (musalmaan) hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "aur yeh ke ham mein se kuch farmabardaar (musalmaan) hain",
+              "en": "And that among us are the Muslims",
+              "ur": "اور یہ کہ ہم میں سے کچھ فرمانبردار (مسلمان) ہیں",
+              "hi": "और यह कि हम में से कुछ फ़रमाँबरदार (मुसलमान) हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">أَنَّا مِنَّا</span> <span class=\"arabic-root\">الْمُسْلِمُونَ</span>",
+            "sentence_number": 29,
+            "display_number": "29."
+          },
+          {
+            "id": 71,
+            "arabic": "وَقَوْمُهُمَا لَنَا عَابِدُونَ",
+            "hinglish": "aur in dono ki qaum hamaari ibaadat (ghulaami) karne wali hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "aur in dono ki qaum hamaari ibaadat (ghulaami) karne wali hai",
+              "en": "While their people are subservient to us",
+              "ur": "اور ان دونوں کی قوم ہماری عبادت (غلامی) کرنے والی ہے",
+              "hi": "और इन दोनों की क़ौम हमारी इबादत (ग़ुलामी) करने वाली है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَقَوْمُهُمَا</span> <span class=\"nonroot\">لَنَا</span> <span class=\"arabic-root\">عَابِدُونَ</span>",
+            "sentence_number": 30,
+            "display_number": "30.",
+            "book_hint_ur": "ان دونوں کی قوم"
+          },
+          {
+            "id": 72,
+            "arabic": "إِنَّ عَلَيْنَا جَمْعَهُ وَقُرْآنَهُ",
+            "hinglish": "beshak isko jama karna aur isko padhwana hamaare zimme hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak isko jama karna aur isko padhwana hamaare zimme hai",
+              "en": "Indeed, upon Us is its collection and its recitation",
+              "ur": "بیشک اس کو جمع کرنا اور اس کو پڑھوانا ہمارے ذمے ہے",
+              "hi": "बेशक इसको जमा करना और इसको पढ़वाना हमारे ज़िम्मे है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span> <span class=\"nonroot\">عَلَيْنَا</span> <span class=\"arabic-root\">جَمْعَهُ وَقُرْآنَهُ</span>",
+            "sentence_number": 31,
+            "display_number": "31."
+          },
+          {
+            "id": 73,
+            "arabic": "ذَٰلِكَ مِنْ فَضْلِ اللَّهِ عَلَيْنَا",
+            "hinglish": "yeh ham par Allah ke fazl mein se hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "yeh ham par Allah ke fazl mein se hai",
+              "en": "That is from the favor of Allah upon us",
+              "ur": "یہ ہم پر اللہ کے فضل میں سے ہے",
+              "hi": "यह हम पर अल्लाह के फ़ज़्ल में से है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">ذَٰلِكَ مِنْ فَضْلِ اللَّهِ</span> <span class=\"nonroot\">عَلَيْنَا</span>",
+            "sentence_number": 32,
+            "display_number": "32."
+          },
+          {
+            "id": 74,
+            "arabic": "ثُمَّ إِنَّ عَلَيْنَا بَيَانَهُ",
+            "hinglish": "phir beshak hamaare hi zimme iska bayaan karna (samjhana) hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "phir beshak hamaare hi zimme iska bayaan karna (samjhana) hai",
+              "en": "Then indeed, upon Us is its clarification",
+              "ur": "پھر بیشک ہمارے ہی ذمے اس کا بیان کرنا ہے",
+              "hi": "फिर बेशक हमारे ही ज़िम्मे इसका बयान करना है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">ثُمَّ إِنَّ</span> <span class=\"nonroot\">عَلَيْنَا</span> <span class=\"arabic-root\">بَيَانَهُ</span>",
+            "sentence_number": 33,
+            "display_number": "33.",
+            "book_hint_ur": "اسکا بیان کرنا"
+          },
+          {
+            "id": 75,
+            "arabic": "ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُمْ",
+            "hinglish": "phir beshak hamaare hi zimme unka hisaab hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "phir beshak hamaare hi zimme unka hisaab hai",
+              "en": "Then indeed, upon Us is their account",
+              "ur": "پھر بیشک ہمارے ہی ذمے ان کا حساب ہے",
+              "hi": "फिर बेशक हमारे ही ज़िम्मे उनका हिसाब है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">ثُمَّ إِنَّ</span> <span class=\"nonroot\">عَلَيْنَا</span> <span class=\"arabic-root\">حِسَابَهُمْ</span>",
+            "sentence_number": 34,
+            "display_number": "34."
+          },
+          {
+            "id": 76,
+            "arabic": "ذَٰلِكَ حَشْرٌ عَلَيْنَا يَسِيرٌ",
+            "hinglish": "yeh ikattha karna (uthana) ham par aasaan hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "yeh ikattha karna (uthana) ham par aasaan hai",
+              "en": "That is a gathering easy for Us",
+              "ur": "یہ اکٹھا کرنا (اٹھانا) ہم پر آسان ہے",
+              "hi": "यह इकट्ठा करना (उठाना) हम पर आसान है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">ذَٰلِكَ حَشْرٌ</span> <span class=\"nonroot\">عَلَيْنَا</span> <span class=\"arabic-root\">يَسِيرٌ</span>",
+            "sentence_number": 35,
+            "display_number": "35.",
+            "book_hint_ur": "اٹھانا"
+          },
+          {
+            "id": 77,
+            "arabic": "لَا عِلْمَ لَنَا / إِنَّكَ أَنْتَ عَلَّامُ الْغُيُوبِ",
+            "hinglish": "hamein koi ilm nahin, beshak Tu hi ghaibon ko khoob jaanne wala hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "hamein koi ilm nahin, beshak Tu hi ghaibon ko khoob jaanne wala hai",
+              "en": "We have no knowledge; indeed, it is You who is the Knower of the unseen",
+              "ur": "ہمیں کوئی علم نہیں، بیشک تو ہی غیبوں کو خوب جاننے والا ہے",
+              "hi": "हमें कोई इल्म नहीं, बेशक तू ही ग़ैबों को ख़ूब जानने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">لَا عِلْمَ</span> <span class=\"nonroot\">لَنَا</span> / <span class=\"arabic-root\">إِنَّكَ أَنْتَ عَلَّامُ الْغُيُوبِ</span>",
+            "sentence_number": 36,
+            "display_number": "36."
+          },
+          {
+            "id": 78,
+            "arabic": "لَيْسَ عَلَيْنَا فِي الْأُمِّيِّينَ سَبِيلٌ",
+            "hinglish": "anpadh logon ke maamle mein ham par koi pakad nahin hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "anpadh logon ke maamle mein ham par koi pakad nahin hai",
+              "en": "There is not upon us any blame concerning the unlettered",
+              "ur": "ان پڑھ لوگوں کے معاملے میں ہم پر کوئی پکڑ نہیں ہے",
+              "hi": "अनपढ़ लोगों के मामले में हम पर कोई पकड़ नहीं है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">لَيْسَ</span> <span class=\"nonroot\">عَلَيْنَا</span> <span class=\"arabic-root\">فِي الْأُمِّيِّينَ سَبِيلٌ</span>",
+            "sentence_number": 37,
+            "display_number": "37.",
+            "book_hint_ur": "ان پڑھ لوگوں کے معاملے میں کوئی پکڑ"
+          },
+          {
+            "id": 79,
+            "arabic": "مَتَاعٌ فِي الدُّنْيَا / ثُمَّ إِلَيْنَا مَرْجِعُهُمْ",
+            "hinglish": "duniya mein thoda sa faida hai, phir hamaari hi taraf unka lautna hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "duniya mein thoda sa faida hai, phir hamaari hi taraf unka lautna hai",
+              "en": "Enjoyment in this world; then to Us is their return",
+              "ur": "دنیا میں تھوڑا سا فائدہ ہے، پھر ہماری ہی طرف ان کا لوٹنا ہے",
+              "hi": "दुनिया में थोड़ा सा फ़ायदा है, फिर हमारी ही तरफ़ उनका लौटना है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مَتَاعٌ فِي الدُّنْيَا / ثُمَّ</span> <span class=\"nonroot\">إِلَيْنَا</span> <span class=\"arabic-root\">مَرْجِعُهُمْ</span>",
+            "sentence_number": 38,
+            "display_number": "38."
+          },
+          {
+            "id": 80,
+            "arabic": "إِنَّا مَعَكُمْ / إِنَّمَا نَحْنُ مُسْتَهْزِئُونَ",
+            "hinglish": "beshak ham tumhaare saath hain, ham toh bas mazaaq udaane wale hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak ham tumhaare saath hain, ham toh bas mazaaq udaane wale hain",
+              "en": "Indeed we are with you; we were only mockers",
+              "ur": "بیشک ہم تمہارے ساتھ ہیں، ہم تو بس مذاق اڑانے والے ہیں",
+              "hi": "बेशक हम तुम्हारे साथ हैं, हम तो बस मज़ाक़ उड़ाने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">مَعَكُمْ / إِنَّمَا نَحْنُ مُسْتَهْزِئُونَ</span>",
+            "sentence_number": 39,
+            "display_number": "39."
+          },
+          {
+            "id": 81,
+            "arabic": "لَا طَاقَةَ لَنَا الْيَوْمَ بِجَالُوتَ وَجُنُودِهِ",
+            "hinglish": "aaj hamaare liye (ham mein) Jaaloot aur uske lashkaron ke muqaable ki koi taaqat nahin",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "aaj hamaare liye (ham mein) Jaaloot aur uske lashkaron ke muqaable ki koi taaqat nahin",
+              "en": "We have no power today against Goliath and his soldiers",
+              "ur": "آج ہمارے لیے جالوت اور اس کے لشکروں کے مقابلے کی کوئی طاقت نہیں",
+              "hi": "आज हमारे लिए जालूत और उसके लश्करों के मुक़ाबले की कोई ताक़त नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">لَا طَاقَةَ</span> <span class=\"nonroot\">لَنَا</span> <span class=\"arabic-root\">الْيَوْمَ بِجَالُوتَ وَجُنُودِهِ</span>",
+            "sentence_number": 40,
+            "display_number": "40."
+          },
+          {
+            "id": 82,
+            "arabic": "ذَٰلِكَ مِنْ فَضْلِ اللَّهِ عَلَيْنَا وَعَلَى النَّاسِ",
+            "hinglish": "yeh Allah ke fazl mein se hai jo ham par aur logon par hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "yeh Allah ke fazl mein se hai jo ham par aur logon par hai",
+              "en": "That is from the favor of Allah upon us and upon the people",
+              "ur": "یہ اللہ کے فضل میں سے ہے جو ہم پر اور لوگوں پر ہے",
+              "hi": "यह अल्लाह के फ़ज़्ल में से है जो हम पर और लोगों पर है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">ذَٰلِكَ مِنْ فَضْلِ اللَّهِ</span> <span class=\"nonroot\">عَلَيْنَا</span> <span class=\"arabic-root\">وَعَلَى النَّاسِ</span>",
+            "sentence_number": 41,
+            "display_number": "41."
+          },
+          {
+            "id": 83,
+            "arabic": "فَإِنَّمَا عَلَيْكَ الْبَلَاغُ / وَعَلَيْنَا الْحِسَابُ",
+            "hinglish": "pas aap par toh sirf paighaam pahunchana hai aur ham par hisaab lena hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "pas aap par toh sirf paighaam pahunchana hai aur ham par hisaab lena hai",
+              "en": "Then upon you is only notification, and upon Us is the account",
+              "ur": "پس آپ پر تو صرف پیغام پہنچانا ہے اور ہم پر حساب لینا ہے",
+              "hi": "पस आप पर तो सिर्फ़ पैग़ाम पहुँचाना है और हम पर हिसाब लेना है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">فَإِنَّمَا عَلَيْكَ الْبَلَاغُ / وَ</span><span class=\"nonroot\">عَلَيْنَا</span> <span class=\"arabic-root\">الْحِسَابُ</span>",
+            "sentence_number": 42,
+            "display_number": "42."
+          },
+          {
+            "id": 84,
+            "arabic": "لَنَا أَعْمَالُنَا وَلَكُمْ أَعْمَالُكُمْ / سَلَامٌ عَلَيْكُمْ",
+            "hinglish": "hamaare liye hamaare aamaal hain aur tumhaare liye tumhaare aamaal, tum par salaamti ho",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "hamaare liye hamaare aamaal hain aur tumhaare liye tumhaare aamaal, tum par salaamti ho",
+              "en": "For us are our deeds, and for you are your deeds; peace be upon you",
+              "ur": "ہمارے لیے ہمارے اعمال ہیں اور تمہارے لیے تمہارے اعمال، تم پر سلامتی ہو",
+              "hi": "हमारे लिए हमारे आमाल हैं और तुम्हारे लिए तुम्हारे आमाल, तुम पर सलामती हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">لَنَا أَعْمَالُنَا</span> <span class=\"arabic-root\">وَلَكُمْ أَعْمَالُكُمْ / سَلَامٌ عَلَيْكُمْ</span>",
+            "sentence_number": 43,
+            "display_number": "43."
+          },
+          {
+            "id": 85,
+            "arabic": "إِنَّ إِلَيْنَا إِيَابَهُمْ / ثُمَّ إِنَّ عَلَيْنَا حِسَابَهُمْ",
+            "hinglish": "beshak hamaari hi taraf unka palatna hai, phir beshak hamaare hi zimme unka hisaab hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak hamaari hi taraf unka palatna hai, phir beshak hamaare hi zimme unka hisaab hai",
+              "en": "Indeed, to Us is their return, then indeed, upon Us is their account",
+              "ur": "بیشک ہماری ہی طرف ان کا پلٹنا ہے، پھر بیشک ہمارے ہی ذمے ان کا حساب ہے",
+              "hi": "बेशक हमारी ही तरफ़ उनका पलटना है, फिर बेशक हमारे ही ज़िम्मे उनका हिसाब है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span> <span class=\"nonroot\">إِلَيْنَا</span> <span class=\"arabic-root\">إِيَابَهُمْ / ثُمَّ إِنَّ</span> <span class=\"nonroot\">عَلَيْنَا</span> <span class=\"arabic-root\">حِسَابَهُمْ</span>",
+            "sentence_number": 44,
+            "display_number": "44."
+          },
+          {
+            "id": 86,
+            "arabic": "وَأَنَّا مِنَّا الْمُسْلِمُونَ / وَمِنَّا الْقَاسِطُونَ",
+            "hinglish": "aur yeh ke ham mein se kuch farmabardaar (musalmaan) hain aur ham mein se kuch zulm karne wale hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "aur yeh ke ham mein se kuch farmabardaar (musalmaan) hain aur ham mein se kuch zulm karne wale hain",
+              "en": "And among us are the Muslims, and among us are the unjust",
+              "ur": "اور یہ کہ ہم میں سے کچھ فرمانبردار (مسلمان) ہیں اور ہم میں سے کچھ ظلم کرنے والے ہیں",
+              "hi": "और यह कि हम में से कुछ फ़रमाँबरदार (मुसलमान) हैं और हम में से कुछ ज़ुल्म करने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">أَنَّا مِنَّا</span> <span class=\"arabic-root\">الْمُسْلِمُونَ / وَ</span><span class=\"nonroot\">مِنَّا</span> <span class=\"arabic-root\">الْقَاسِطُونَ</span>",
+            "sentence_number": 45,
+            "display_number": "45.",
+            "book_hint_ur": "ظلم کرنے والے"
+          },
+          {
+            "id": 87,
+            "arabic": "إِنَّا مُنْزِلُونَ عَلَىٰ أَهْلِ هَٰذِهِ الْقَرْيَةِ / رِجْزًا مِنَ السَّمَاءِ",
+            "hinglish": "beshak ham is basti walon par aasmaan se ek azaab utaarne wale hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "beshak ham is basti walon par aasmaan se ek azaab utaarne wale hain",
+              "en": "Indeed, We are bringing down upon the people of this city a punishment from the sky",
+              "ur": "بیشک ہم اس بستی والوں پر آسمان سے ایک عذاب اتارنے والے ہیں",
+              "hi": "बेशक हम इस बस्ती वालों पर आसमान से एक अज़ाब उतारने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">مُنْزِلُونَ عَلَىٰ أَهْلِ هَٰذِهِ الْقَرْيَةِ / رِجْزًا مِنَ السَّمَاءِ</span>",
+            "sentence_number": 46,
+            "display_number": "46.",
+            "book_hint_ur": "عذاب"
+          },
+          {
+            "id": 88,
+            "arabic": "وَهُوَ رَبُّنَا وَرَبُّكُمْ / وَلَنَا أَعْمَالُنَا وَلَكُمْ أَعْمَالُكُمْ / وَنَحْنُ لَهُ مُخْلِصُونَ",
+            "hinglish": "aur Wahi hamaara Rabb aur tumhaara Rabb hai, aur hamaare liye hamaare aamaal hain aur tumhaare liye tumhaare aamaal, aur ham Usi ke liye ikhlaas rakhne wale (mukhlis) hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "aur Wahi hamaara Rabb aur tumhaara Rabb hai, aur hamaare liye hamaare aamaal hain aur tumhaare liye tumhaare aamaal, aur ham Usi ke liye ikhlaas rakhne wale (mukhlis) hain",
+              "en": "And He is our Lord and your Lord; for us are our deeds and for you your deeds, and we are sincere to Him",
+              "ur": "اور وہی ہمارا رب اور تمہارا رب ہے، اور ہمارے لیے ہمارے اعمال ہیں اور تمہارے لیے تمہارے اعمال، اور ہم اسی کے لیے مخلص ہیں",
+              "hi": "और वही हमारा रब और तुम्हारा रब है, और हमारे लिए हमारे आमाल हैं और तुम्हारे लिए तुम्हारे आमाल, और हम उसी के लिए मुख़लिस हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَهُوَ</span> <span class=\"nonroot\">رَبُّنَا</span> <span class=\"arabic-root\">وَرَبُّكُمْ / وَ</span><span class=\"nonroot\">لَنَا أَعْمَالُنَا</span> <span class=\"arabic-root\">وَلَكُمْ أَعْمَالُكُمْ / وَنَحْنُ لَهُ مُخْلِصُونَ</span>",
+            "sentence_number": 47,
+            "display_number": "47."
+          },
+          {
+            "id": 89,
+            "arabic": "اللَّهُ رَبُّنَا وَرَبُّكُمْ / لَنَا أَعْمَالُنَا / وَلَكُمْ أَعْمَالُكُمْ / لَا حُجَّةَ بَيْنَنَا وَبَيْنَكُمُ",
+            "hinglish": "Allah hamaara Rabb aur tumhaara Rabb hai, hamaare liye hamaare aamaal hain aur tumhaare liye tumhaare aamaal, hamaare aur tumhaare darmiyan koi jhagda (hujjat) nahin",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "Allah hamaara Rabb aur tumhaara Rabb hai, hamaare liye hamaare aamaal hain aur tumhaare liye tumhaare aamaal, hamaare aur tumhaare darmiyan koi jhagda (hujjat) nahin",
+              "en": "Allah is our Lord and your Lord; for us our deeds and for you your deeds; there is no argument between us and you",
+              "ur": "اللہ ہمارا رب اور تمہارا رب ہے، ہمارے لیے ہمارے اعمال ہیں اور تمہارے لیے تمہارے اعمال، ہمارے اور تمہارے درمیان کوئی حجت (جھگڑا) نہیں",
+              "hi": "अल्लाह हमारा रब और तुम्हारा रब है, हमारे लिए हमारे आमाल हैं और तुम्हारे लिए तुम्हारे आमाल, हमारे और तुम्हारे दरमियान कोई हुज्जत (झगड़ा) नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">اللَّهُ</span> <span class=\"nonroot\">رَبُّنَا</span> <span class=\"arabic-root\">وَرَبُّكُمْ /</span> <span class=\"nonroot\">لَنَا أَعْمَالُنَا</span> / <span class=\"arabic-root\">وَلَكُمْ أَعْمَالُكُمْ / لَا حُجَّةَ</span> <span class=\"nonroot\">بَيْنَنَا</span> <span class=\"arabic-root\">وَبَيْنَكُمُ</span>",
+            "sentence_number": 48,
+            "display_number": "48."
+          },
+          {
+            "id": 90,
+            "arabic": "لَيُوسُفُ وَأَخُوهُ / أَحَبُّ إِلَىٰ أَبِينَا مِنَّا / وَنَحْنُ عُصْبَةٌ / إِنَّ أَبَانَا لَفِي ضَلَالٍ مُبِينٍ",
+            "hinglish": "yaqeenan Yusuf aur uska bhai hamaare baap ko ham se zyada pyaare hain haalanke ham ek mazboot toli (jamaat) hain; beshak hamaare walid khuli ghalati (bhool) mein hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "yaqeenan Yusuf aur uska bhai hamaare baap ko ham se zyada pyaare hain haalanke ham ek mazboot toli (jamaat) hain; beshak hamaare walid khuli ghalati (bhool) mein hain",
+              "en": "Surely Joseph and his brother are more beloved to our father than we, while we are a strong group; indeed, our father is in clear error",
+              "ur": "یقیناً یوسف اور اس کا بھائی ہمارے باپ کو ہم سے زیادہ پیارے ہیں حالانکہ ہم ایک مضبوط ٹولی ہیں، بیشک ہمارے والد کھلی غلطی میں ہیں",
+              "hi": "यक़ीनन यूसुफ़ और उसका भाई हमारे बाप को हम से ज़्यादा प्यारे हैं हालाँकि हम एक मज़बूत टोली हैं; बेशक हमारे वालिद खुली ग़लती में हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">لَيُوسُفُ وَأَخُوهُ / أَحَبُّ</span> <span class=\"nonroot\">إِلَىٰ أَبِينَا مِنَّا</span> / <span class=\"arabic-root\">وَنَحْنُ عُصْبَةٌ /</span> <span class=\"nonroot\">إِنَّ أَبَانَا</span> <span class=\"arabic-root\">لَفِي ضَلَالٍ مُبِينٍ</span>",
+            "sentence_number": 49,
+            "display_number": "49.",
+            "book_hint_ur": "زیادہ پیارا ہے / ٹولی ہیں"
+          }
+        ]
+      }
+    },
+    {
+      "id": "s5l16_p87_header",
+      "type": "section_label",
+      "data": {
+        "text": "Dohri Taakeed (إِنَّ aur لَـ) wali Qur'ani Aayaat",
+        "title": "Dohri Taakeed (إِنَّ aur لَـ) wali Qur'ani Aayaat",
+        "label": "Dohri Taakeed (إِنَّ aur لَـ) wali Qur'ani Aayaat"
+      }
+    },
+    {
+      "id": "s5l16_p87_rule",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Darj zail aayaat ka tarjuma (إِنَّ) aur (لَـ) se banne wali dohri taakeed ka khayal rakhte hue karein:"
+      }
+    },
+    {
+      "id": "s5l16_p87_list",
+      "type": "two_col_numbered_list",
+      "data": {
+        "items": [
+          {
+            "id": 91,
+            "arabic": "وَإِنَّا لَفَاعِلُونَ",
+            "hinglish": "aur beshak ham yaqeenan karke hi rahenge (karne wale hain)",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "aur beshak ham yaqeenan karke hi rahenge (karne wale hain)",
+              "en": "And indeed, We will surely do so",
+              "ur": "اور بیشک ہم یقیناً کر کے ہی رہیں گے (کرنے والے ہیں)",
+              "hi": "और बेशक हम यक़ीनन करके ही रहेंगे (करने वाले हैं)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">إِنَّا لَ</span><span class=\"arabic-root\">فَاعِلُونَ</span>",
+            "sentence_number": 1,
+            "display_number": "1."
+          },
+          {
+            "id": 92,
+            "arabic": "وَإِنَّا لَصَادِقُونَ",
+            "hinglish": "aur beshak ham yaqeenan sachche hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "aur beshak ham yaqeenan sachche hain",
+              "en": "And indeed, we are surely truthful",
+              "ur": "اور بیشک ہم یقیناً سچے ہیں",
+              "hi": "और बेशक हम यक़ीनन सच्चे हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">إِنَّا لَ</span><span class=\"arabic-root\">صَادِقُونَ</span>",
+            "sentence_number": 2,
+            "display_number": "2."
+          },
+          {
+            "id": 93,
+            "arabic": "وَإِنَّا لَهُ لَحَافِظُونَ",
+            "hinglish": "aur beshak ham yaqeenan iski hifaazat karne wale (nigehbaan) hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "aur beshak ham yaqeenan iski hifaazat karne wale (nigehbaan) hain",
+              "en": "And indeed, We will surely be its guardian",
+              "ur": "اور بیشک ہم یقیناً اس کی حفاظت کرنے والے (نگہبان) ہیں",
+              "hi": "और बेशक हम यक़ीनन इसकी हिफ़ाज़त करने वाले (निगहबान) हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">لَهُ</span> <span class=\"nonroot\">لَ</span><span class=\"arabic-root\">حَافِظُونَ</span>",
+            "sentence_number": 3,
+            "display_number": "3."
+          },
+          {
+            "id": 94,
+            "arabic": "إِنَّا لَضَالُّونَ",
+            "hinglish": "beshak ham yaqeenan raasta bhool gaye (gumraah) hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak ham yaqeenan raasta bhool gaye (gumraah) hain",
+              "en": "Indeed, we are surely lost / astray",
+              "ur": "بیشک ہم یقیناً راستہ بھول گئے (گمراہ) ہیں",
+              "hi": "बेशक हम यक़ीनन रास्ता भूल गए (गुमराह) हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا لَ</span><span class=\"arabic-root\">ضَالُّونَ</span>",
+            "sentence_number": 4,
+            "display_number": "4."
+          },
+          {
+            "id": 95,
+            "arabic": "وَإِنَّا لَمُوسِعُونَ",
+            "hinglish": "aur beshak ham yaqeenan wus'at dene wale (wasee karne wale) hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "aur beshak ham yaqeenan wus'at dene wale (wasee karne wale) hain",
+              "en": "And indeed, We are surely expanding it",
+              "ur": "اور بیشک ہم یقیناً وسعت دینے والے (وسیع کرنے والے) ہیں",
+              "hi": "और बेशक हम यक़ीनन वुसअत देने वाले (वसीअ करने वाले) हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">إِنَّا لَ</span><span class=\"arabic-root\">مُوسِعُونَ</span>",
+            "sentence_number": 5,
+            "display_number": "5.",
+            "book_hint_ur": "وسیع کرنے والے"
+          },
+          {
+            "id": 96,
+            "arabic": "إِنَّا لَمُغْرَمُونَ",
+            "hinglish": "beshak ham yaqeenan taawaan-zada (nuqsaan mein pade hue) hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "beshak ham yaqeenan taawaan-zada (nuqsaan mein pade hue) hain",
+              "en": "Indeed, we are surely burdened with debt / ruined",
+              "ur": "بیشک ہم یقیناً تاوان زدہ (نقصان میں پڑے ہوئے) ہیں",
+              "hi": "बेशक हम यक़ीनन तावान-ज़दा (नुक़सान में पड़े हुए) हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا لَ</span><span class=\"arabic-root\">مُغْرَمُونَ</span>",
+            "sentence_number": 6,
+            "display_number": "6.",
+            "book_hint_ur": "تاوان زدہ"
+          },
+          {
+            "id": 97,
+            "arabic": "إِنَّا لَنَحْنُ الْغَالِبُونَ",
+            "hinglish": "beshak ham hi yaqeenan ghalib aane wale hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak ham hi yaqeenan ghalib aane wale hain",
+              "en": "Indeed, it is surely we who will be the victors",
+              "ur": "بیشک ہم ہی یقیناً غالب آنے والے ہیں",
+              "hi": "बेशक हम ही यक़ीनन ग़ालिब आने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا لَ</span><span class=\"arabic-root\">نَحْنُ الْغَالِبُونَ</span>",
+            "sentence_number": 7,
+            "display_number": "7."
+          },
+          {
+            "id": 98,
+            "arabic": "وَإِنَّا لَنَحْنُ الْمُسَبِّحُونَ",
+            "hinglish": "aur beshak ham hi yaqeenan tasbeeh (paaki bayaan) karne wale hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "aur beshak ham hi yaqeenan tasbeeh (paaki bayaan) karne wale hain",
+              "en": "And indeed, we are surely those who glorify [Allah]",
+              "ur": "اور بیشک ہم ہی یقیناً تسبیح کرنے والے ہیں",
+              "hi": "और बेशक हम ही यक़ीनन तसबीह करने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">إِنَّا لَ</span><span class=\"arabic-root\">نَحْنُ الْمُسَبِّحُونَ</span>",
+            "sentence_number": 8,
+            "display_number": "8."
+          },
+          {
+            "id": 99,
+            "arabic": "وَإِنَّا إِلَىٰ رَبِّنَا لَمُنْقَلِبُونَ",
+            "hinglish": "aur beshak ham yaqeenan apne Rabb ki taraf palatne wale hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "aur beshak ham yaqeenan apne Rabb ki taraf palatne wale hain",
+              "en": "And indeed, to our Lord we will surely return",
+              "ur": "اور بیشک ہم یقیناً اپنے رب کی طرف پلٹنے والے ہیں",
+              "hi": "और बेशक हम यक़ीनन अपने रब की तरफ़ पलटने वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">إِلَىٰ</span> <span class=\"nonroot\">رَبِّنَا لَ</span><span class=\"arabic-root\">مُنْقَلِبُونَ</span>",
+            "sentence_number": 9,
+            "display_number": "9."
+          },
+          {
+            "id": 100,
+            "arabic": "إِنَّا لَضَالُّونَ. بَلْ نَحْنُ مَحْرُومُونَ",
+            "hinglish": "beshak ham yaqeenan raasta bhatak gaye hain, balke ham toh mehroom ho gaye hain",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak ham yaqeenan raasta bhatak gaye hain, balke ham toh mehroom ho gaye hain",
+              "en": "Indeed, we have surely lost our way; rather, we have been deprived",
+              "ur": "بیشک ہم یقیناً راستہ بھول گئے ہیں، بلکہ ہم تو محروم ہو گئے ہیں",
+              "hi": "बेशक हम यक़ीनन रास्ता भूल गए हैं, बल्कि हम तो महरूम हो गए हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا لَ</span><span class=\"arabic-root\">ضَالُّونَ. بَلْ نَحْنُ مَحْرُومُونَ</span>",
+            "sentence_number": 10,
+            "display_number": "10."
+          },
+          {
+            "id": 101,
+            "arabic": "إِنَّا إِلَيْكُمْ لَمُرْسَلُونَ. وَمَا عَلَيْنَا إِلَّا الْبَلَاغُ الْمُبِينُ",
+            "hinglish": "beshak ham yaqeenan tumhaari taraf bheje gaye (Rasool) hain, aur ham par saaf-saaf paighaam pahuncha dene ke siwa kuch nahin hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak ham yaqeenan tumhaari taraf bheje gaye (Rasool) hain, aur ham par saaf-saaf paighaam pahuncha dene ke siwa kuch nahin hai",
+              "en": "Indeed, we are surely messengers to you, and upon us is not [anything] except clear notification",
+              "ur": "بیشک ہم یقیناً تمہاری طرف بھیجے گئے (رسول) ہیں، اور ہم پر صاف صاف پیغام پہنچا دینے کے سوا کچھ نہیں ہے",
+              "hi": "बेशक हम यक़ीनन तुम्हारी तरफ़ भेजे गए (रसूल) हैं, और हम पर साफ़-साफ़ पैग़ाम पहुँचा देने के सिवा कुछ नहीं है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّا</span> <span class=\"arabic-root\">إِلَيْكُمْ</span> <span class=\"nonroot\">لَ</span><span class=\"arabic-root\">مُرْسَلُونَ. وَمَا</span> <span class=\"nonroot\">عَلَيْنَا</span> <span class=\"arabic-root\">إِلَّا الْبَلَاغُ الْمُبِينُ</span>",
+            "sentence_number": 11,
+            "display_number": "11."
+          },
+          {
+            "id": 102,
+            "arabic": "إِنَّ عَلَيْنَا لَلْهُدَىٰ. وَإِنَّ لَنَا لَلْآخِرَةَ وَالْأُولَىٰ",
+            "hinglish": "beshak raasta dikhana (hidayat dena) yaqeenan hamaare hi zimme hai, aur beshak aakhirat aur duniya yaqeenan hamaari hi hai",
+            "is_filled": false,
+            "translations": {
+              "hinglish": "beshak raasta dikhana (hidayat dena) yaqeenan hamaare hi zimme hai, aur beshak aakhirat aur duniya yaqeenan hamaari hi hai",
+              "en": "Indeed, upon Us is guidance, and indeed, to Us belongs the Hereafter and the first [life]",
+              "ur": "بیشک راستہ دکھانا (ہدایت دینا) یقیناً ہمارے ہی ذمے ہے، اور بیشک آخرت اور دنیا یقیناً ہماری ہی ہے",
+              "hi": "बेशक रास्ता दिखाना (हिदायत देना) यक़ीनन हमारे ही ज़िम्मे है, और बेशक आख़िरत और दुनिया यक़ीनन हमारी ही है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ عَلَيْنَا لَ</span><span class=\"arabic-root\">لْهُدَىٰ. وَ</span><span class=\"nonroot\">إِنَّ لَنَا لَ</span><span class=\"arabic-root\">لْآخِرَةَ وَالْأُولَىٰ</span>",
+            "sentence_number": 12,
+            "display_number": "12."
+          }
+        ]
+      }
+    }
+  ],
+  "page_numbers": [
+    85,
+    86,
+    87
+  ],
+  "arabic_Focus": "لِـ ← لَنَا ، مِنْ ← مِنَّا ، إِنَّ ← إِنَّنَا / إِنَّا",
+  "hinglish_Focus": "liye ← hamaare liye  |  se ← hum se  |  beshak ← beshak hum"
+}

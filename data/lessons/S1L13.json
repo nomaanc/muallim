@@ -1,0 +1,1872 @@
+{
+  "lesson_id": 13,
+  "lesson_key": "S1L13",
+  "stage_id": 1,
+  "title": "Ma'rifah se Nakirah (1): الْكِتَابُ ← كِتَابٌ (Koi / Ek)",
+  "arabic_Focus": "الْكِتَابُ ، الرَّسُولُ ← كِتَابٌ ، رَسُولٌ",
+  "hinglish_Focus": "Al-Kitaab (Khaas Kitaab) → Ek kitaab / Koi kitaab, Ek Rasool (Tanween ـٌ)",
+  "page_numbers": "38–39",
+  "book_page": 38,
+  "status": "complete",
+  "title_i18n": {
+    "en": "Ma'rifah se Nakirah (1): الْكِتَابُ ← كِتَابٌ (Koi / Ek)",
+    "ur": "یونٹ 1 سبق 13: Ma'rifah se Nakirah (1): الْكِتَابُ ← كِتَابٌ (Koi / Ek)",
+    "hi": "Ma'rifah se Nakirah (1): الْكِتَابُ ← كِتَابٌ (Koi / Ek)"
+  },
+  "sections": [
+    {
+      "id": "sec_hero",
+      "type": "hero_header",
+      "data": {
+        "arabic": "الْكِتَابُ ، الرَّسُولُ ← كِتَابٌ ، رَسُولٌ",
+        "hinglish": "Al-Kitaab (Khaas Kitaab) → Ek kitaab / Koi kitaab, Ek Rasool (Tanween ـٌ)",
+        "arabic_word": "الْكِتَابُ ، الرَّسُولُ",
+        "arabic_combined": "الْكِتَابُ ، الرَّسُولُ ← كِتَابٌ ، رَسُولٌ",
+        "hinglish_word": "Al-Kitaab (Khaas Kitaab)",
+        "hinglish_combined": "Al-Kitaab (Khaas Kitaab) → Ek kitaab / Koi kitaab, Ek Rasool (Tanween ـٌ)",
+        "title_en": "Ma'rifah se Nakirah (1): الْكِتَابُ ← كِتَابٌ (Koi / Ek)",
+        "subtitle": "Unit 1 • Lesson 13 (Book Page 38–39)",
+        "transformations": [
+          {
+            "before_ar": "الْكِتَابُ ، الرَّسُولُ",
+            "after_ar": "كِتَابٌ ، رَسُولٌ",
+            "before_hi": "Al-Kitaab (Khaas Kitaab)",
+            "after_hi": "Ek kitaab / Koi kitaab, Ek Rasool (Tanween ـٌ)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_intro_table",
+      "type": "intro_table",
+      "data": {
+        "title": "S1L13 — Ma'rifah se Nakirah (1): الْكِتَابُ ← كِتَابٌ (Koi / Ek): Buniyadi Misaalein",
+        "caption": "S1L13 — Ma'rifah se Nakirah (1): الْكِتَابُ ← كِتَابٌ (Koi / Ek): Buniyadi Misaalein",
+        "headers": [
+          "Qism / Qaa'ida",
+          "Arabi Misaal",
+          "Hinglish Mafhoom"
+        ],
+        "rows": [
+          [
+            "الْـ (Khaas) ← Tanween ـٌ (Aam)",
+            "الْكِتَابُ ← كِتَابٌ / الرَّسُولُ ← رَسُولٌ",
+            "Khaas kitaab -> Ek (koi) kitaab / Ek Rasool"
+          ],
+          [
+            "Do Pesh (ـٌ) = 'Ek' ya 'Koi'",
+            "مَلِكٌ / أُمَّةٌ / آيَةٌ / مَغْفِرَةٌ",
+            "Ek badshah / Ek ummat / Ek nishani / Bakhshish"
+          ],
+          [
+            "وَ ke saath Nakirah Jode",
+            "هُدًى وَشِفَاءٌ / هُدًى وَرَحْمَةٌ وَبُشْرَىٰ",
+            "Hidayat aur shifa / Hidayat, rahmat aur khushkhabri"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sec_s1l13_concept",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 1 • LESSON 13</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Ma'rifah se Nakirah (1): الْكِتَابُ ← كِتَابٌ (Koi / Ek) (Page 38–39)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، الرَّسُولُ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Nakirah (Tanween ـٌ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">كِتَابٌ ، رَسُولٌ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، الرَّسُولُ (Al-Kitaab (Khaas Kitaab)) → كِتَابٌ ، رَسُولٌ (Ek kitaab / Koi kitaab, Ek Rasool (Tanween ـٌ)).</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Unit 1 mein aasaan Qur'ani alfaaz aur buniyadi ishaare/qawa'id sikhaye gaye hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 38–39):** Jab kisi ism ke shuru se `الْـ` hata diya jaye toh uske aakhir par **Do Pesh (`ـٌ` Tanween)** aa jate hain, aur uske ma'ni mein **'ek' ya 'koi'** (*Nakirah*) ka mafhoom paida hota hai: `الْكِتَابُ` (woh kitaab) ← `كِتَابٌ` (ek kitaab / koi kitaab).",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 1 • LESSON 13</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Ma'rifah se Nakirah (1): الْكِتَابُ ← كِتَابٌ (Koi / Ek) (Page 38–39)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، الرَّسُولُ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Nakirah (Tanween ـٌ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">كِتَابٌ ، رَسُولٌ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، الرَّسُولُ (Al-Kitaab (Khaas Kitaab)) → كِتَابٌ ، رَسُولٌ (Ek kitaab / Koi kitaab, Ek Rasool (Tanween ـٌ)).</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Unit 1 mein aasaan Qur'ani alfaaz aur buniyadi ishaare/qawa'id sikhaye gaye hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 38–39):** Jab kisi ism ke shuru se `الْـ` hata diya jaye toh uske aakhir par **Do Pesh (`ـٌ` Tanween)** aa jate hain, aur uske ma'ni mein **'ek' ya 'koi'** (*Nakirah*) ka mafhoom paida hota hai: `الْكِتَابُ` (woh kitaab) ← `كِتَابٌ` (ek kitaab / koi kitaab).",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 1 • LESSON 13</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Ma'rifah se Nakirah (1): الْكِتَابُ ← كِتَابٌ (Koi / Ek) (Page 38–39)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، الرَّسُولُ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Nakirah (Tanween ـٌ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">كِتَابٌ ، رَسُولٌ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، الرَّسُولُ (Al-Kitaab (Khaas Kitaab)) → كِتَابٌ ، رَسُولٌ (Ek kitaab / Koi kitaab, Ek Rasool (Tanween ـٌ)).</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Unit 1 mein aasaan Qur'ani alfaaz aur buniyadi ishaare/qawa'id sikhaye gaye hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 38–39):** Jab kisi ism ke shuru se `الْـ` hata diya jaye toh uske aakhir par **Do Pesh (`ـٌ` Tanween)** aa jate hain, aur uske ma'ni mein **'ek' ya 'koi'** (*Nakirah*) ka mafhoom paida hota hai: `الْكِتَابُ` (woh kitaab) ← `كِتَابٌ` (ek kitaab / koi kitaab)."
+      }
+    },
+    {
+      "id": "sec_s1l13_lbl1",
+      "type": "section_label",
+      "data": {
+        "text": "Darj zail misaalein dekhein (Darj zail misaalon par ghaur karein):",
+        "title": "Darj zail misaalein dekhein (Darj zail misaalon par ghaur karein):",
+        "label": "Darj zail misaalein dekhein (Darj zail misaalon par ghaur karein):"
+      }
+    },
+    {
+      "id": "sec_s1l13_r3",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Upar diye gaye pehle column mein woh alfaaz hain jo aap pichhle asbaaq mein padh chuke hain. Doosre column mein wahi alfaaz thode se farq ke sath dobara aaye hain: unke shuru mein (الْـ) nahi hai aur aakhir mein tanween (ً ٍ ٌ) hai, jaise (كِتَابٌ). Jab koi lafz baghair (الْـ) ke istemaal hota hai, toh aam taur par uska mafhoom 'koi' ya 'ek' (ek / any) hota hai. Arabi mein aur Quran-e-Majeed mein aksar alfaaz (الْـ) se shuru hote hain. Lekin jab kisi lafz se 'koi' ya 'ek' murad lena ho toh (الْـ) hata diya jata hai. Baghair (الْـ) ke lafz par teeno harkaat mein se koi bhi harkat aa sakti hai, iss se uske maani par koi asar nahi padta. Harkaat ke bajaye lafz aur uske maani par tawajjoh dete hue, darj zail alfaaz ke maani samjhein aur likhein:",
+        "content": "Upar diye gaye pehle column mein woh alfaaz hain jo aap pichhle asbaaq mein padh chuke hain. Doosre column mein wahi alfaaz thode se farq ke sath dobara aaye hain: unke shuru mein (الْـ) nahi hai aur aakhir mein tanween (ً ٍ ٌ) hai, jaise (كِتَابٌ). Jab koi lafz baghair (الْـ) ke istemaal hota hai, toh aam taur par uska mafhoom 'koi' ya 'ek' (ek / any) hota hai. Arabi mein aur Quran-e-Majeed mein aksar alfaaz (الْـ) se shuru hote hain. Lekin jab kisi lafz se 'koi' ya 'ek' murad lena ho toh (الْـ) hata diya jata hai. Baghair (الْـ) ke lafz par teeno harkaat mein se koi bhi harkat aa sakti hai, iss se uske maani par koi asar nahi padta. Harkaat ke bajaye lafz aur uske maani par tawajjoh dete hue, darj zail alfaaz ke maani samjhein aur likhein:",
+        "hinglish_text": "Upar diye gaye pehle column mein woh alfaaz hain jo aap pichhle asbaaq mein padh chuke hain. Doosre column mein wahi alfaaz thode se farq ke sath dobara aaye hain: unke shuru mein (الْـ) nahi hai aur aakhir mein tanween (ً ٍ ٌ) hai, jaise (كِتَابٌ). Jab koi lafz baghair (الْـ) ke istemaal hota hai, toh aam taur par uska mafhoom 'koi' ya 'ek' (ek / any) hota hai. Arabi mein aur Quran-e-Majeed mein aksar alfaaz (الْـ) se shuru hote hain. Lekin jab kisi lafz se 'koi' ya 'ek' murad lena ho toh (الْـ) hata diya jata hai. Baghair (الْـ) ke lafz par teeno harkaat mein se koi bhi harkat aa sakti hai, iss se uske maani par koi asar nahi padta. Harkaat ke bajaye lafz aur uske maani par tawajjoh dete hue, darj zail alfaaz ke maani samjhein aur likhein:"
+      }
+    },
+    {
+      "id": "sec_s1l13_g4",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s1l13_g4_w1",
+            "arabic": "مَغْفِرَةٌ",
+            "arabic_text": "مَغْفِرَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">مَغْفِرَة</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek maghfirat / Bakhshish",
+            "hinglish_meaning": "Ek maghfirat / Bakhshish",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek maghfirat / Bakhshish",
+              "en": "A forgiveness / Any forgiveness",
+              "ur": "ایک مغفرت / بخشش",
+              "hi": "एक मग़फ़िरत / बख़्शिश",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w2",
+            "arabic": "رَحْمَةٌ",
+            "arabic_text": "رَحْمَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">رَحْمَةٌ</span>",
+            "hinglish": "Ek rehmat / Koi rehmat",
+            "hinglish_meaning": "Ek rehmat / Koi rehmat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek rehmat / Koi rehmat",
+              "en": "A mercy / Any mercy",
+              "ur": "ایک رحمت / کوئی رحمت",
+              "hi": "एक रेहमत / कोई रेहमत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w3",
+            "arabic": "قُرْآنٌ",
+            "arabic_text": "قُرْآنٌ",
+            "arabic_markup": "<span class=\"arabic-root\">قُرْآن</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek Quran / Koi Quran",
+            "hinglish_meaning": "Ek Quran / Koi Quran",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek Quran / Koi Quran",
+              "en": "A Quran / Any Quran",
+              "ur": "ایک قرآن / کوئی قرآن",
+              "hi": "एक क़ुरआन / कोई क़ुरआन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w4",
+            "arabic": "رَسُولٌ",
+            "arabic_text": "رَسُولٌ",
+            "arabic_markup": "<span class=\"arabic-root\">رَسُولٌ</span>",
+            "hinglish": "Ek Rasool / Koi Rasool",
+            "hinglish_meaning": "Ek Rasool / Koi Rasool",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek Rasool / Koi Rasool",
+              "en": "A Messenger / Any Messenger",
+              "ur": "ایک رسول / کوئی رسول",
+              "hi": "एक रसूल / कोई रसूल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w5",
+            "arabic": "حَقٌّ",
+            "arabic_text": "حَقٌّ",
+            "arabic_markup": "<span class=\"arabic-root\">حَقّ</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek haq / Sach",
+            "hinglish_meaning": "Ek haq / Sach",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek haq / Sach",
+              "en": "A truth / Right",
+              "ur": "ایک حق / سچ",
+              "hi": "एक हक़ / सच",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w6",
+            "arabic": "حَسْرَةٌ",
+            "arabic_text": "حَسْرَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">حَسْرَة</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek hasrat / Afsos",
+            "hinglish_meaning": "Ek hasrat / Afsos",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek hasrat / Afsos",
+              "en": "A regret / Sorrow",
+              "ur": "ایک حسرت / افسوس",
+              "hi": "एक हसरत / अफ़सोस",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w7",
+            "arabic": "شَكٌّ",
+            "arabic_text": "شَكٌّ",
+            "arabic_markup": "<span class=\"arabic-root\">شَكّ</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek shak / Koi shak",
+            "hinglish_meaning": "Ek shak / Koi shak",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek shak / Koi shak",
+              "en": "A doubt / Any doubt",
+              "ur": "ایک شک / کوئی شک",
+              "hi": "एक शक / कोई शक",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w8",
+            "arabic": "نِعْمَةٌ",
+            "arabic_text": "نِعْمَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">نِعْمَةٌ</span>",
+            "hinglish": "Ek ne'mat / Koi ne'mat",
+            "hinglish_meaning": "Ek ne'mat / Koi ne'mat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek ne'mat / Koi ne'mat",
+              "en": "A blessing / Any favor",
+              "ur": "ایک نعمت / کوئی نعمت",
+              "hi": "एक नेअमत / कोई नेअमत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w9",
+            "arabic": "مَالٌ",
+            "arabic_text": "مَالٌ",
+            "arabic_markup": "<span class=\"arabic-root\">مَال</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek maal / Daulat",
+            "hinglish_meaning": "Ek maal / Daulat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek maal / Daulat",
+              "en": "A wealth / Any property",
+              "ur": "ایک مال / دولت",
+              "hi": "एक माल / दौलत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w10",
+            "arabic": "عِلْمٌ",
+            "arabic_text": "عِلْمٌ",
+            "arabic_markup": "<span class=\"arabic-root\">عِلْمٌ</span>",
+            "hinglish": "Ek ilm / Koi ilm",
+            "hinglish_meaning": "Ek ilm / Koi ilm",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek ilm / Koi ilm",
+              "en": "A knowledge / Any knowledge",
+              "ur": "ایک علم / کوئی علم",
+              "hi": "एक इल्म / कोई इल्म",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w11",
+            "arabic": "شَيْءٌ",
+            "arabic_text": "شَيْءٌ",
+            "arabic_markup": "<span class=\"arabic-root\">شَيْء</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek cheez / Koi cheez",
+            "hinglish_meaning": "Ek cheez / Koi cheez",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek cheez / Koi cheez",
+              "en": "A thing / Anything",
+              "ur": "ایک چیز / کوئی چیز",
+              "hi": "एक चीज़ / कोई चीज़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w12",
+            "arabic": "فِتْنَةٌ",
+            "arabic_text": "فِتْنَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">فِتْنَة</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek aazmaish / Fitna",
+            "hinglish_meaning": "Ek aazmaish / Fitna",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek aazmaish / Fitna",
+              "en": "A trial / Affliction",
+              "ur": "ایک آزمائش / فتنہ",
+              "hi": "एक आज़माइश / फ़ितना",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w13",
+            "arabic": "ذِلَّةٌ",
+            "arabic_text": "ذِلَّةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">ذِلَّة</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek zillat / Ruswaai",
+            "hinglish_meaning": "Ek zillat / Ruswaai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek zillat / Ruswaai",
+              "en": "A humiliation / Disgrace",
+              "ur": "ایک ذلت / رسوائی",
+              "hi": "एक ज़िल्लत / रुसवाई",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w14",
+            "arabic": "غَضَبٌ",
+            "arabic_text": "غَضَبٌ",
+            "arabic_markup": "<span class=\"arabic-root\">غَضَبٌ</span>",
+            "hinglish": "Ek gussa / Ghazab",
+            "hinglish_meaning": "Ek gussa / Ghazab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek gussa / Ghazab",
+              "en": "A wrath / Anger",
+              "ur": "ایک غضب / غصہ",
+              "hi": "एक ग़ज़ब / ग़ुस्सा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w15",
+            "arabic": "فَضْلٌ",
+            "arabic_text": "فَضْلٌ",
+            "arabic_markup": "<span class=\"arabic-root\">فَضْل</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek fazal / Meharbaani",
+            "hinglish_meaning": "Ek fazal / Meharbaani",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek fazal / Meharbaani",
+              "en": "A bounty / Grace",
+              "ur": "ایک فضل / مہربانی",
+              "hi": "एक फ़ज़ल / मेहरबानी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w16",
+            "arabic": "فَتْحٌ",
+            "arabic_text": "فَتْحٌ",
+            "arabic_markup": "<span class=\"arabic-root\">فَتْح</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek fatah / Kamyabi",
+            "hinglish_meaning": "Ek fatah / Kamyabi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek fatah / Kamyabi",
+              "en": "A victory / Conquest",
+              "ur": "ایک فتح / کامیابی",
+              "hi": "एक फ़तह / कामयाबी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w17",
+            "arabic": "رِزْقٌ",
+            "arabic_text": "رِزْقٌ",
+            "arabic_markup": "<span class=\"arabic-root\">رِزْقٌ</span>",
+            "hinglish": "Ek rizq / Rozi",
+            "hinglish_meaning": "Ek rizq / Rozi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek rizq / Rozi",
+              "en": "A provision / Sustenance",
+              "ur": "ایک رزق / روزی",
+              "hi": "एक रिज़्क़ / रोज़ी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w18",
+            "arabic": "أَجْرٌ",
+            "arabic_text": "أَجْرٌ",
+            "arabic_markup": "<span class=\"arabic-root\">أَجْر</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek ajr / Badla",
+            "hinglish_meaning": "Ek ajr / Badla",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek ajr / Badla",
+              "en": "A reward / Recompense",
+              "ur": "ایک اجر / بدلہ",
+              "hi": "एक अज्र / बदला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w19",
+            "arabic": "ضَلَالٌ",
+            "arabic_text": "ضَلَالٌ",
+            "arabic_markup": "<span class=\"arabic-root\">ضَلَال</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek gumraahi / Bhatakna",
+            "hinglish_meaning": "Ek gumraahi / Bhatakna",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek gumraahi / Bhatakna",
+              "en": "An error / Going astray",
+              "ur": "ایک گمراہی / بھٹکنا",
+              "hi": "एक गुमराही / भटकना",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w20",
+            "arabic": "هُدًى",
+            "arabic_text": "هُدًى",
+            "arabic_markup": "<span class=\"arabic-root\">هُد</span><span class=\"nonroot\">ً</span><span class=\"arabic-root\">ى</span>",
+            "hinglish": "Ek hidayat / Rehnumaai",
+            "hinglish_meaning": "Ek hidayat / Rehnumaai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek hidayat / Rehnumaai",
+              "en": "A guidance / Any guidance",
+              "ur": "ایک ہدایت / رہنمائی",
+              "hi": "एक हिदायत / रहनुमाई",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w21",
+            "arabic": "شِفَاءٌ",
+            "arabic_text": "شِفَاءٌ",
+            "arabic_markup": "<span class=\"arabic-root\">شِفَاء</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek shifa / Ilaj",
+            "hinglish_meaning": "Ek shifa / Ilaj",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek shifa / Ilaj",
+              "en": "A healing / Cure",
+              "ur": "ایک شفا / علاج",
+              "hi": "एक शिफ़ा / इलाज",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w22",
+            "arabic": "مَرَضٌ",
+            "arabic_text": "مَرَضٌ",
+            "arabic_markup": "<span class=\"arabic-root\">مَرَض</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek beemari / Maraz",
+            "hinglish_meaning": "Ek beemari / Maraz",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek beemari / Maraz",
+              "en": "A disease / Illness",
+              "ur": "ایک مرض / بیماری",
+              "hi": "एक मर्ज़ / बीमारी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w23",
+            "arabic": "مُصِيبَةٌ",
+            "arabic_text": "مُصِيبَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">مُصِيبَة</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek museebat / Aafat",
+            "hinglish_meaning": "Ek museebat / Aafat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek museebat / Aafat",
+              "en": "A calamity / Disaster",
+              "ur": "ایک مصیبت / آفت",
+              "hi": "एक मुसीबत / आफ़त",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w24",
+            "arabic": "عَهْدٌ",
+            "arabic_text": "عَهْدٌ",
+            "arabic_markup": "<span class=\"arabic-root\">عَهْد</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek waada / Mu'aahida",
+            "hinglish_meaning": "Ek waada / Mu'aahida",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek waada / Mu'aahida",
+              "en": "A covenant / Promise",
+              "ur": "ایک عہد / وعدہ",
+              "hi": "एक अहद / वादा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w25",
+            "arabic": "عَدُوٌّ",
+            "arabic_text": "عَدُوٌّ",
+            "arabic_markup": "<span class=\"arabic-root\">عَدُوّ</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek dushman / Koi dushman",
+            "hinglish_meaning": "Ek dushman / Koi dushman",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek dushman / Koi dushman",
+              "en": "An enemy / Any enemy",
+              "ur": "ایک دشمن / کوئی دشمن",
+              "hi": "एक दुश्मन / कोई दुश्मन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w26",
+            "arabic": "دَعْوَةٌ",
+            "arabic_text": "دَعْوَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">دَعْوَة</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek dua / Pukaar",
+            "hinglish_meaning": "Ek dua / Pukaar",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek dua / Pukaar",
+              "en": "A supplication / Call",
+              "ur": "ایک پکار / دعا",
+              "hi": "एक पुकार / दुआ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w27",
+            "arabic": "ظُلْمٌ",
+            "arabic_text": "ظُلْمٌ",
+            "arabic_markup": "<span class=\"arabic-root\">ظُلْمٌ</span>",
+            "hinglish": "Ek zulm / Na-insaafi",
+            "hinglish_meaning": "Ek zulm / Na-insaafi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek zulm / Na-insaafi",
+              "en": "An injustice / Wrongdoing",
+              "ur": "ایک ظلم / ناانصافی",
+              "hi": "एक ज़ुल्म / नाइंसाफ़ी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w28",
+            "arabic": "عَدْلٌ",
+            "arabic_text": "عَدْلٌ",
+            "arabic_markup": "<span class=\"arabic-root\">عَدْل</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek adl / Insaaf",
+            "hinglish_meaning": "Ek adl / Insaaf",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek adl / Insaaf",
+              "en": "A justice / Fairness",
+              "ur": "ایک عدل / انصاف",
+              "hi": "एक अद्ल / इंसाफ़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w29",
+            "arabic": "كَافِرٌ",
+            "arabic_text": "كَافِرٌ",
+            "arabic_markup": "<span class=\"arabic-root\">كَافِر</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek kafir / Inkaar karne wala",
+            "hinglish_meaning": "Ek kafir / Inkaar karne wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek kafir / Inkaar karne wala",
+              "en": "A disbeliever / Any disbeliever",
+              "ur": "ایک کافر / انکار کرنے والا",
+              "hi": "एक काफ़िर / इंकार करने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w30",
+            "arabic": "مُؤْمِنٌ",
+            "arabic_text": "مُؤْمِنٌ",
+            "arabic_markup": "<span class=\"arabic-root\">مُؤْمِن</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek momin / Imaan wala",
+            "hinglish_meaning": "Ek momin / Imaan wala",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek momin / Imaan wala",
+              "en": "A believer / Any believer",
+              "ur": "ایک مومن / ایمان والا",
+              "hi": "एक मोमिन / ईमान वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w31",
+            "arabic": "آيَةٌ",
+            "arabic_text": "آيَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">آيَة</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek nishaani / Aayat",
+            "hinglish_meaning": "Ek nishaani / Aayat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek nishaani / Aayat",
+              "en": "A sign / Verse",
+              "ur": "ایک نشانی / آیت",
+              "hi": "एक निशानी / आयत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w32",
+            "arabic": "أُسْوَةٌ",
+            "arabic_text": "أُسْوَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">أُسْوَة</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek namoona / Misaal",
+            "hinglish_meaning": "Ek namoona / Misaal",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek namoona / Misaal",
+              "en": "An example / Model",
+              "ur": "ایک نمونہ / مثال",
+              "hi": "एक नमूना / मिसाल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w33",
+            "arabic": "بَيَانٌ",
+            "arabic_text": "بَيَانٌ",
+            "arabic_markup": "<span class=\"arabic-root\">بَيَان</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek bayaan / Wazahat",
+            "hinglish_meaning": "Ek bayaan / Wazahat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek bayaan / Wazahat",
+              "en": "A clear statement / Explanation",
+              "ur": "ایک بیان / وضاحت",
+              "hi": "एक बयान / वजाहत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w34",
+            "arabic": "حَيَاةٌ",
+            "arabic_text": "حَيَاةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">حَيَاةٌ</span>",
+            "hinglish": "Ek zindagi / Hayaat",
+            "hinglish_meaning": "Ek zindagi / Hayaat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek zindagi / Hayaat",
+              "en": "A life / Any life",
+              "ur": "ایک زندگی / حیات",
+              "hi": "एक ज़िंदगी / हयात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w35",
+            "arabic": "قَوْلٌ",
+            "arabic_text": "قَوْلٌ",
+            "arabic_markup": "<span class=\"arabic-root\">قَوْلٌ</span>",
+            "hinglish": "Ek baat / Qoul",
+            "hinglish_meaning": "Ek baat / Qoul",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek baat / Qoul",
+              "en": "A word / Statement",
+              "ur": "ایک بات / قول",
+              "hi": "एक बात / क़ौल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w36",
+            "arabic": "نُورٌ",
+            "arabic_text": "نُورٌ",
+            "arabic_markup": "<span class=\"arabic-root\">نُور</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek noor / Roshni",
+            "hinglish_meaning": "Ek noor / Roshni",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek noor / Roshni",
+              "en": "A light / Any light",
+              "ur": "ایک نور / روشنی",
+              "hi": "एक नूर / रोशनी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w37",
+            "arabic": "جَمَالٌ",
+            "arabic_text": "جَمَالٌ",
+            "arabic_markup": "<span class=\"arabic-root\">جَمَال</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek khoobsurti / Jamaal",
+            "hinglish_meaning": "Ek khoobsurti / Jamaal",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek khoobsurti / Jamaal",
+              "en": "A beauty / Elegance",
+              "ur": "ایک خوبصورتی / جمال",
+              "hi": "एक ख़ूबसूरती / जमाल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w38",
+            "arabic": "صِرَاطٌ",
+            "arabic_text": "صِرَاطٌ",
+            "arabic_markup": "<span class=\"arabic-root\">صِرَاطٌ</span>",
+            "hinglish": "Ek rasta / Seerat",
+            "hinglish_meaning": "Ek rasta / Seerat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek rasta / Seerat",
+              "en": "A path / Way",
+              "ur": "ایک راستہ / صراط",
+              "hi": "एक रास्ता / सिरात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w39",
+            "arabic": "فِدْيَةٌ",
+            "arabic_text": "فِدْيَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">فِدْيَة</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek fidya / Badla",
+            "hinglish_meaning": "Ek fidya / Badla",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek fidya / Badla",
+              "en": "A ransom / Compensation",
+              "ur": "ایک فدیہ / بدلہ",
+              "hi": "एक फ़िदया / बदला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g4_w40",
+            "arabic": "إِلٰهٌ",
+            "arabic_text": "إِلٰهٌ",
+            "arabic_markup": "<span class=\"arabic-root\">إِلٰهٌ</span>",
+            "hinglish": "Ek mabood / Ilaah",
+            "hinglish_meaning": "Ek mabood / Ilaah",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek mabood / Ilaah",
+              "en": "A deity / God",
+              "ur": "ایک معبود / الٰہ",
+              "hi": "एक माबूद / इलाह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s1l13_lbl5",
+      "type": "section_label",
+      "data": {
+        "text": "Mazed Qurani alfaaz (Tanween ke sath):",
+        "title": "Mazed Qurani alfaaz (Tanween ke sath):",
+        "label": "Mazed Qurani alfaaz (Tanween ke sath):"
+      }
+    },
+    {
+      "id": "sec_s1l13_g6",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s1l13_g6_w1",
+            "arabic": "مَلِكٌ",
+            "arabic_text": "مَلِكٌ",
+            "arabic_markup": "<span class=\"arabic-root\">مَلِك</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek baadshah / Malik",
+            "hinglish_meaning": "Ek baadshah / Malik",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek baadshah / Malik",
+              "en": "A king",
+              "ur": "ایک بادشاہ / ملک",
+              "hi": "एक बादशाह / मलिक",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w2",
+            "arabic": "مَوْعِظَةٌ",
+            "arabic_text": "مَوْعِظَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">مَوْعِظَة</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek naseehat / Wa'az",
+            "hinglish_meaning": "Ek naseehat / Wa'az",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek naseehat / Wa'az",
+              "en": "An advice / Admonition",
+              "ur": "ایک نصیحت / وعظ",
+              "hi": "एक नसीहत / वाअज़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w3",
+            "arabic": "صَلَاةٌ",
+            "arabic_text": "صَلَاةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">صَلَاةٌ</span>",
+            "hinglish": "Ek namaz / Salat",
+            "hinglish_meaning": "Ek namaz / Salat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek namaz / Salat",
+              "en": "A prayer / Any prayer",
+              "ur": "ایک نماز / صلاۃ",
+              "hi": "एक नमाज़ / सलात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w4",
+            "arabic": "رِضْوَانٌ",
+            "arabic_text": "رِضْوَانٌ",
+            "arabic_markup": "<span class=\"arabic-root\">رِضْوَان</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek raza / Khushnoodi",
+            "hinglish_meaning": "Ek raza / Khushnoodi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek raza / Khushnoodi",
+              "en": "A pleasure / Approval",
+              "ur": "ایک رضا / خوشنودی",
+              "hi": "एक रज़ा / ख़ुशनूदी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w5",
+            "arabic": "مَلَكٌ",
+            "arabic_text": "مَلَكٌ",
+            "arabic_markup": "<span class=\"arabic-root\">مَلَك</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek farishta",
+            "hinglish_meaning": "Ek farishta",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek farishta",
+              "en": "An angel",
+              "ur": "ایک فرشتہ",
+              "hi": "एक फ़रिश्ता",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w6",
+            "arabic": "سِحْرٌ",
+            "arabic_text": "سِحْرٌ",
+            "arabic_markup": "<span class=\"arabic-root\">سِحْر</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek jaadu",
+            "hinglish_meaning": "Ek jaadu",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek jaadu",
+              "en": "A magic",
+              "ur": "ایک جادو",
+              "hi": "एक जादू",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w7",
+            "arabic": "تِجَارَةٌ",
+            "arabic_text": "تِجَارَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">تِجَارَة</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek tijarat / Karobaar",
+            "hinglish_meaning": "Ek tijarat / Karobaar",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek tijarat / Karobaar",
+              "en": "A trade / Business",
+              "ur": "ایک تجارت / کاروبار",
+              "hi": "एक तिजारत / कारोबार",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w8",
+            "arabic": "إِفْكٌ",
+            "arabic_text": "إِفْكٌ",
+            "arabic_markup": "<span class=\"arabic-root\">إِفْك</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek jhooth / Buhtan",
+            "hinglish_meaning": "Ek jhooth / Buhtan",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek jhooth / Buhtan",
+              "en": "A lie / Falsehood",
+              "ur": "ایک جھوٹ / بہتان",
+              "hi": "एक झूठ / बोहतान",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w9",
+            "arabic": "حَرَجٌ",
+            "arabic_text": "حَرَجٌ",
+            "arabic_markup": "<span class=\"arabic-root\">حَرَج</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek haraj / Tanggi",
+            "hinglish_meaning": "Ek haraj / Tanggi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek haraj / Tanggi",
+              "en": "A fault / Difficulty / Blame",
+              "ur": "ایک حرج / تنگی",
+              "hi": "एक हरज / तंगी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w10",
+            "arabic": "مَتَاعٌ",
+            "arabic_text": "مَتَاعٌ",
+            "arabic_markup": "<span class=\"arabic-root\">مَتَاع</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek saamaan / Nafa",
+            "hinglish_meaning": "Ek saamaan / Nafa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek saamaan / Nafa",
+              "en": "A provision / Enjoyment",
+              "ur": "ایک سامان / فائدہ",
+              "hi": "एक सामान / फ़ायदा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w11",
+            "arabic": "أَمْرٌ",
+            "arabic_text": "أَمْرٌ",
+            "arabic_markup": "<span class=\"arabic-root\">أَمْرٌ</span>",
+            "hinglish": "Ek hukum / Maamla",
+            "hinglish_meaning": "Ek hukum / Maamla",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek hukum / Maamla",
+              "en": "A command / Matter",
+              "ur": "ایک حکم / معاملہ",
+              "hi": "एक हुक्म / मामला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w12",
+            "arabic": "شَرَابٌ",
+            "arabic_text": "شَرَابٌ",
+            "arabic_markup": "<span class=\"arabic-root\">شَرَاب</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek peene ki cheez / Sharbat",
+            "hinglish_meaning": "Ek peene ki cheez / Sharbat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek peene ki cheez / Sharbat",
+              "en": "A drink / Beverage",
+              "ur": "ایک پینے کی چیز / مشروب",
+              "hi": "एक पीने की चीज़ / मशरूब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w13",
+            "arabic": "سَلَامٌ",
+            "arabic_text": "سَلَامٌ",
+            "arabic_markup": "<span class=\"arabic-root\">سَلَام</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek salaam / Salamati",
+            "hinglish_meaning": "Ek salaam / Salamati",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek salaam / Salamati",
+              "en": "A greeting / Peace",
+              "ur": "ایک سلام / سلامتی",
+              "hi": "एक सलाम / सलामती",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w14",
+            "arabic": "خَوْفٌ",
+            "arabic_text": "خَوْفٌ",
+            "arabic_markup": "<span class=\"arabic-root\">خَوْف</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek darr / Khauf",
+            "hinglish_meaning": "Ek darr / Khauf",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek darr / Khauf",
+              "en": "A fear / Dread",
+              "ur": "ایک خوف / ڈر",
+              "hi": "एक ख़ौफ़ / डर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w15",
+            "arabic": "بَيْتٌ",
+            "arabic_text": "بَيْتٌ",
+            "arabic_markup": "<span class=\"arabic-root\">بَيْتٌ</span>",
+            "hinglish": "Ek ghar / Makaan",
+            "hinglish_meaning": "Ek ghar / Makaan",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek ghar / Makaan",
+              "en": "A house / Home",
+              "ur": "ایک گھر / بیت",
+              "hi": "एक घर / मकान",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w16",
+            "arabic": "لِسَانٌ",
+            "arabic_text": "لِسَانٌ",
+            "arabic_markup": "<span class=\"arabic-root\">لِسَانٌ</span>",
+            "hinglish": "Ek zaban",
+            "hinglish_meaning": "Ek zaban",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek zaban",
+              "en": "A tongue / Language",
+              "ur": "ایک زبان",
+              "hi": "एक ज़बान",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w17",
+            "arabic": "سُلْطَانٌ",
+            "arabic_text": "سُلْطَانٌ",
+            "arabic_markup": "<span class=\"arabic-root\">سُلْطَان</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek daleel / Sanad",
+            "hinglish_meaning": "Ek daleel / Sanad",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek daleel / Sanad",
+              "en": "An authority / Proof",
+              "ur": "ایک دلیل / سند",
+              "hi": "एक दलील / सनद",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w18",
+            "arabic": "بُرْهَانٌ",
+            "arabic_text": "بُرْهَانٌ",
+            "arabic_markup": "<span class=\"arabic-root\">بُرْهَان</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek burhan / Roshan daleel",
+            "hinglish_meaning": "Ek burhan / Roshan daleel",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek burhan / Roshan daleel",
+              "en": "An evidence / Clear proof",
+              "ur": "ایک برہان / روشن دلیل",
+              "hi": "एक बुरहान / रौशन दलील",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w19",
+            "arabic": "بَرَاءَةٌ",
+            "arabic_text": "بَرَاءَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">بَرَاءَة</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek be-taalluqi / Chhutkara",
+            "hinglish_meaning": "Ek be-taalluqi / Chhutkara",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek be-taalluqi / Chhutkara",
+              "en": "A declaration of immunity / Dissociation",
+              "ur": "ایک برات / دستبرداری",
+              "hi": "एक बे-ताल्लुक़ी / छुटकारा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w20",
+            "arabic": "خِزْيٌ",
+            "arabic_text": "خِزْيٌ",
+            "arabic_markup": "<span class=\"arabic-root\">خِزْي</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek ruswaai / Zillat",
+            "hinglish_meaning": "Ek ruswaai / Zillat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek ruswaai / Zillat",
+              "en": "A disgrace / Humiliation",
+              "ur": "ایک رسوائی / ذلت",
+              "hi": "एक रुसवाई / ज़िल्लत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w21",
+            "arabic": "عِبْرَةٌ",
+            "arabic_text": "عِبْرَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">عِبْرَة</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek sabaq / Ibrat",
+            "hinglish_meaning": "Ek sabaq / Ibrat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek sabaq / Ibrat",
+              "en": "A lesson / Warning",
+              "ur": "ایک عبرت / سبق",
+              "hi": "एक इबरत / सबक़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w22",
+            "arabic": "زِينَةٌ",
+            "arabic_text": "زِينَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">زِينَةٌ</span>",
+            "hinglish": "Ek zeenat / Sajawat",
+            "hinglish_meaning": "Ek zeenat / Sajawat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek zeenat / Sajawat",
+              "en": "An adornment / Ornament",
+              "ur": "ایک زینت / سجاوٹ",
+              "hi": "एक ज़ीनत / सजावट",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w23",
+            "arabic": "لَهْوٌ",
+            "arabic_text": "لَهْوٌ",
+            "arabic_markup": "<span class=\"arabic-root\">لَهْو</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek khel-tamasha / Dil-behlaawa",
+            "hinglish_meaning": "Ek khel-tamasha / Dil-behlaawa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek khel-tamasha / Dil-behlaawa",
+              "en": "An amusement / Pastime",
+              "ur": "ایک دل بہلاوا / لہو",
+              "hi": "एक दिल बहलावा / लह्व",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w24",
+            "arabic": "لَعِبٌ",
+            "arabic_text": "لَعِبٌ",
+            "arabic_markup": "<span class=\"arabic-root\">لَعِب</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek khel / Baazi",
+            "hinglish_meaning": "Ek khel / Baazi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek khel / Baazi",
+              "en": "A play / Sport",
+              "ur": "ایک کھیل",
+              "hi": "एक खेल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w25",
+            "arabic": "طَائِفَةٌ",
+            "arabic_text": "طَائِفَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">طَائِفَة</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek giroh / Jamaat",
+            "hinglish_meaning": "Ek giroh / Jamaat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek giroh / Jamaat",
+              "en": "A group / Party",
+              "ur": "ایک گروہ / جماعت",
+              "hi": "एक गिरोह / जमात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w26",
+            "arabic": "فَرِيقٌ",
+            "arabic_text": "فَرِيقٌ",
+            "arabic_markup": "<span class=\"arabic-root\">فَرِيق</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek fareeq / Giroh",
+            "hinglish_meaning": "Ek fareeq / Giroh",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek fareeq / Giroh",
+              "en": "A faction / Party",
+              "ur": "ایک فریق / جماعت",
+              "hi": "एक फ़रीक़ / गिरोह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w27",
+            "arabic": "أُمَّةٌ",
+            "arabic_text": "أُمَّةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">أُمَّة</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek ummat / Qaum",
+            "hinglish_meaning": "Ek ummat / Qaum",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek ummat / Qaum",
+              "en": "A community / Nation",
+              "ur": "ایک امت / قوم",
+              "hi": "एक उम्मत / क़ौम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w28",
+            "arabic": "قَوْمٌ",
+            "arabic_text": "قَوْمٌ",
+            "arabic_markup": "<span class=\"arabic-root\">قَوْمٌ</span>",
+            "hinglish": "Ek qaum / Log",
+            "hinglish_meaning": "Ek qaum / Log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek qaum / Log",
+              "en": "A people / Nation",
+              "ur": "ایک قوم",
+              "hi": "एक क़ौम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w29",
+            "arabic": "مُصِيبَةٌ",
+            "arabic_text": "مُصِيبَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">مُصِيبَة</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek aafat / Museebat",
+            "hinglish_meaning": "Ek aafat / Museebat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek aafat / Museebat",
+              "en": "A calamity / Misfortune",
+              "ur": "ایک مصیبت / آفت",
+              "hi": "एक मुसीबत / आफ़त",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w30",
+            "arabic": "خَوْفٌ",
+            "arabic_text": "خَوْفٌ",
+            "arabic_markup": "<span class=\"arabic-root\">خَوْف</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek darr / Khauf",
+            "hinglish_meaning": "Ek darr / Khauf",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek darr / Khauf",
+              "en": "A fear / Dread",
+              "ur": "ایک خوف / ڈر",
+              "hi": "एक ख़ौफ़ / डर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w31",
+            "arabic": "سَيِّئَةٌ",
+            "arabic_text": "سَيِّئَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">سَيِّئَة</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek burai / Gunah",
+            "hinglish_meaning": "Ek burai / Gunah",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek burai / Gunah",
+              "en": "An evil deed / Sin",
+              "ur": "ایک برائی / گناہ",
+              "hi": "एक बुराई / गुनाह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g6_w32",
+            "arabic": "حَسَنَةٌ",
+            "arabic_text": "حَسَنَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">حَسَنَة</span><span class=\"nonroot\">ٌ</span>",
+            "hinglish": "Ek neki / Bhalai",
+            "hinglish_meaning": "Ek neki / Bhalai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek neki / Bhalai",
+              "en": "A good deed / Blessing",
+              "ur": "ایک نیکی / بھلائی",
+              "hi": "एक नेकी / भलाई",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s1l13_r7",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Kabhi kabhi shuru mein (الْـ) ke baghair do ya zyada Qurani alfaaz (وَ) ke sath mil kar aate hain. Aap mein murakkab alfaaz / fiqron ko aasani se samajh sakte hain:",
+        "content": "Kabhi kabhi shuru mein (الْـ) ke baghair do ya zyada Qurani alfaaz (وَ) ke sath mil kar aate hain. Aap mein murakkab alfaaz / fiqron ko aasani se samajh sakte hain:",
+        "hinglish_text": "Kabhi kabhi shuru mein (الْـ) ke baghair do ya zyada Qurani alfaaz (وَ) ke sath mil kar aate hain. Aap mein murakkab alfaaz / fiqron ko aasani se samajh sakte hain:"
+      }
+    },
+    {
+      "id": "sec_s1l13_g8",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s1l13_g8_w1",
+            "arabic": "هُدًى وَشِفَاءٌ",
+            "arabic_text": "هُدًى وَشِفَاءٌ",
+            "arabic_markup": "<span class=\"arabic-root\">هُدًى</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">شِفَاءٌ</span>",
+            "hinglish": "Hidayat aur shifa",
+            "hinglish_meaning": "Hidayat aur shifa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Hidayat aur shifa",
+              "en": "A guidance and healing",
+              "ur": "ہدایت اور شفا",
+              "hi": "हिदायत और शिफ़ा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g8_w2",
+            "arabic": "هُدًى وَنُورٌ",
+            "arabic_text": "هُدًى وَنُورٌ",
+            "arabic_markup": "<span class=\"arabic-root\">هُدًى</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">نُورٌ</span>",
+            "hinglish": "Hidayat aur noor",
+            "hinglish_meaning": "Hidayat aur noor",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Hidayat aur noor",
+              "en": "A guidance and light",
+              "ur": "ہدایت اور نور",
+              "hi": "हिदायत और नूर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g8_w3",
+            "arabic": "نُورٌ وَكِتَابٌ",
+            "arabic_text": "نُورٌ وَكِتَابٌ",
+            "arabic_markup": "<span class=\"arabic-root\">نُورٌ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">كِتَابٌ</span>",
+            "hinglish": "Ek noor aur ek kitab",
+            "hinglish_meaning": "Ek noor aur ek kitab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek noor aur ek kitab",
+              "en": "A light and a book",
+              "ur": "ایک نور اور ایک کتاب",
+              "hi": "एक नूर और एक किताब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g8_w4",
+            "arabic": "مَغْفِرَةٌ وَرِزْقٌ",
+            "arabic_text": "مَغْفِرَةٌ وَرِزْقٌ",
+            "arabic_markup": "<span class=\"arabic-root\">مَغْفِرَةٌ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">رِزْقٌ</span>",
+            "hinglish": "Maghfirat aur rizq",
+            "hinglish_meaning": "Maghfirat aur rizq",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Maghfirat aur rizq",
+              "en": "Forgiveness and provision",
+              "ur": "مغفرت اور رزق",
+              "hi": "मग़फ़िरत और रिज़्क़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g8_w5",
+            "arabic": "هُدًى وَمَوْعِظَةٌ",
+            "arabic_text": "هُدًى وَمَوْعِظَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">هُدًى</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">مَوْعِظَةٌ</span>",
+            "hinglish": "Hidayat aur naseehat",
+            "hinglish_meaning": "Hidayat aur naseehat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Hidayat aur naseehat",
+              "en": "A guidance and advice",
+              "ur": "ہدایت اور نصیحت",
+              "hi": "हिदायत और नसीहत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g8_w6",
+            "arabic": "هُدًى وَرَحْمَةٌ",
+            "arabic_text": "هُدًى وَرَحْمَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">هُدًى</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">رَحْمَةٌ</span>",
+            "hinglish": "Hidayat aur rehmat",
+            "hinglish_meaning": "Hidayat aur rehmat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Hidayat aur rehmat",
+              "en": "A guidance and mercy",
+              "ur": "ہدایت اور رحمت",
+              "hi": "हिदायत और रेहमत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g8_w7",
+            "arabic": "مَغْفِرَةٌ وَأَجْرًا",
+            "arabic_text": "مَغْفِرَةٌ وَأَجْرًا",
+            "arabic_markup": "<span class=\"arabic-root\">مَغْفِرَةٌ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">أَجْرًا</span>",
+            "hinglish": "Maghfirat aur ajr",
+            "hinglish_meaning": "Maghfirat aur ajr",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Maghfirat aur ajr",
+              "en": "Forgiveness and a reward",
+              "ur": "مغفرت اور اجر",
+              "hi": "मग़फ़िरत और अज्र",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g8_w8",
+            "arabic": "مَغْفِرَةٌ وَرَحْمَةٌ",
+            "arabic_text": "مَغْفِرَةٌ وَرَحْمَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">مَغْفِرَةٌ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">رَحْمَةٌ</span>",
+            "hinglish": "Maghfirat aur rehmat",
+            "hinglish_meaning": "Maghfirat aur rehmat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Maghfirat aur rehmat",
+              "en": "Forgiveness and mercy",
+              "ur": "مغفرت اور رحمت",
+              "hi": "मग़फ़िरत और रेहमत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g8_w9",
+            "arabic": "أَعْجَمِيٌّ وَعَرَبِيٌّ",
+            "arabic_text": "أَعْجَمِيٌّ وَعَرَبِيٌّ",
+            "arabic_markup": "<span class=\"arabic-root\">أَعْجَمِيٌّ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">عَرَبِيٌّ</span>",
+            "hinglish": "Ajami (Ghair-Arabi) aur Arabi",
+            "hinglish_meaning": "Ajami (Ghair-Arabi) aur Arabi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ajami (Ghair-Arabi) aur Arabi",
+              "en": "Non-Arab and Arab",
+              "ur": "عجمی اور عربی",
+              "hi": "अजमी (ग़ैर-अरबी) और अरबी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g8_w10",
+            "arabic": "إِمَامًا وَرَحْمَةً",
+            "arabic_text": "إِمَامًا وَرَحْمَةً",
+            "arabic_markup": "<span class=\"arabic-root\">إِمَامًا</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">رَحْمَةً</span>",
+            "hinglish": "Rehnuma aur rehmat",
+            "hinglish_meaning": "Rehnuma aur rehmat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Rehnuma aur rehmat",
+              "en": "A guide and mercy",
+              "ur": "رہنما اور رحمت",
+              "hi": "रहनुमा और रेहमत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g8_w11",
+            "arabic": "خَوْفًا وَطَمَعًا",
+            "arabic_text": "خَوْفًا وَطَمَعًا",
+            "arabic_markup": "<span class=\"arabic-root\">خَوْفًا</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">طَمَعًا</span>",
+            "hinglish": "Khauf aur umeed",
+            "hinglish_meaning": "Khauf aur umeed",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Khauf aur umeed",
+              "en": "In fear and hope",
+              "ur": "خوف اور امید",
+              "hi": "ख़ौफ़ और उम्मीद",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g8_w12",
+            "arabic": "رِجْسٌ وَغَضَبٌ",
+            "arabic_text": "رِجْسٌ وَغَضَبٌ",
+            "arabic_markup": "<span class=\"arabic-root\">رِجْسٌ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">غَضَبٌ</span>",
+            "hinglish": "Azaab aur ghazab",
+            "hinglish_meaning": "Azaab aur ghazab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Azaab aur ghazab",
+              "en": "Abomination and wrath",
+              "ur": "عذاب اور غضب",
+              "hi": "अज़ाब और ग़ज़ब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g8_w13",
+            "arabic": "نُورًا وَهُدًى",
+            "arabic_text": "نُورًا وَهُدًى",
+            "arabic_markup": "<span class=\"arabic-root\">نُورًا</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">هُدًى</span>",
+            "hinglish": "Noor aur hidayat",
+            "hinglish_meaning": "Noor aur hidayat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Noor aur hidayat",
+              "en": "Light and guidance",
+              "ur": "نور اور ہدایت",
+              "hi": "नूर और हिदायत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g8_w14",
+            "arabic": "طُغْيَانًا وَكُفْرًا",
+            "arabic_text": "طُغْيَانًا وَكُفْرًا",
+            "arabic_markup": "<span class=\"arabic-root\">طُغْيَانًا</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">كُفْرًا</span>",
+            "hinglish": "Sarkashi aur kufr",
+            "hinglish_meaning": "Sarkashi aur kufr",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Sarkashi aur kufr",
+              "en": "Rebellion and disbelief",
+              "ur": "سرکشی اور کفر",
+              "hi": "सरकशी और कुफ़्र",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g8_w15",
+            "arabic": "صِدْقًا وَعَدْلًا",
+            "arabic_text": "صِدْقًا وَعَدْلًا",
+            "arabic_markup": "<span class=\"arabic-root\">صِدْقًا</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">عَدْلًا</span>",
+            "hinglish": "Sachai aur insaaf",
+            "hinglish_meaning": "Sachai aur insaaf",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Sachai aur insaaf",
+              "en": "In truth and justice",
+              "ur": "سچائی اور عدل",
+              "hi": "सच्चाई और अद्ल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g8_w16",
+            "arabic": "هُزُوًا وَلَعِبًا",
+            "arabic_text": "هُزُوًا وَلَعِبًا",
+            "arabic_markup": "<span class=\"arabic-root\">هُزُوًا</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">لَعِبًا</span>",
+            "hinglish": "Mazaak aur khel",
+            "hinglish_meaning": "Mazaak aur khel",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Mazaak aur khel",
+              "en": "A mockery and amusement",
+              "ur": "مذاق اور کھیل",
+              "hi": "मज़ाक़ और खेल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g8_w17",
+            "arabic": "لَعِبًا وَلَهْوًا",
+            "arabic_text": "لَعِبًا وَلَهْوًا",
+            "arabic_markup": "<span class=\"arabic-root\">لَعِبًا</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">لَهْوًا</span>",
+            "hinglish": "Khel aur khel-tamasha",
+            "hinglish_meaning": "Khel aur khel-tamasha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Khel aur khel-tamasha",
+              "en": "Play and amusement",
+              "ur": "کھیل اور تماشا",
+              "hi": "खेल और तमाशा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g8_w18",
+            "arabic": "إِحْسَانًا وَتَوْفِيقًا",
+            "arabic_text": "إِحْسَانًا وَتَوْفِيقًا",
+            "arabic_markup": "<span class=\"arabic-root\">إِحْسَانًا</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">تَوْفِيقًا</span>",
+            "hinglish": "Bhalai aur taufeeq",
+            "hinglish_meaning": "Bhalai aur taufeeq",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bhalai aur taufeeq",
+              "en": "Goodness and harmony",
+              "ur": "احسان اور توفیق",
+              "hi": "भलाई और तौफ़ीक़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l13_g8_w19",
+            "arabic": "هُدًى وَرَحْمَةً وَبُشْرَىٰ",
+            "arabic_text": "هُدًى وَرَحْمَةً وَبُشْرَىٰ",
+            "arabic_markup": "<span class=\"arabic-root\">هُدًى</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">رَحْمَةً</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">بُشْرَىٰ</span>",
+            "hinglish": "Hidayat, rehmat aur khushkhabri",
+            "hinglish_meaning": "Hidayat, rehmat aur khushkhabri",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Hidayat, rehmat aur khushkhabri",
+              "en": "A guidance, mercy, and glad tidings",
+              "ur": "ہدایت، رحمت اور خوشخبری",
+              "hi": "हिदायत, रेहमत और ख़ुशख़बरी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "page_start": 38
+}

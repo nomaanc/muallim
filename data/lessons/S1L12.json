@@ -1,0 +1,1301 @@
+{
+  "lesson_id": 12,
+  "lesson_key": "S1L12",
+  "stage_id": 1,
+  "title": "Harf-e-'Atf 'Waw' (Aur): الْكِتَابُ ، الْقَلَمُ ← الْكِتَابُ وَالْقَلَمُ",
+  "arabic_Focus": "الْكِتَابُ ، الْقَلَمُ ← الْكِتَابُ وَالْقَلَمُ",
+  "hinglish_Focus": "Kitaab, Qalam → Kitaab aur Qalam",
+  "page_numbers": "36–37",
+  "book_page": 36,
+  "status": "complete",
+  "title_i18n": {
+    "en": "Harf-e-'Atf 'Waw' (Aur): الْكِتَابُ ، الْقَلَمُ ← الْكِتَابُ وَالْقَلَمُ",
+    "ur": "یونٹ 1 سبق 12: Harf-e-'Atf 'Waw' (Aur): الْكِتَابُ ، الْقَلَمُ ← الْكِتَابُ وَالْقَلَمُ",
+    "hi": "Harf-e-'Atf 'Waw' (Aur): الْكِتَابُ ، الْقَلَمُ ← الْكِتَابُ وَالْقَلَمُ"
+  },
+  "sections": [
+    {
+      "id": "sec_hero",
+      "type": "hero_header",
+      "data": {
+        "arabic": "الْكِتَابُ ، الْقَلَمُ ← الْكِتَابُ وَالْقَلَمُ",
+        "hinglish": "Kitaab, Qalam → Kitaab aur Qalam",
+        "arabic_word": "الْكِتَابُ ، الْقَلَمُ",
+        "arabic_combined": "الْكِتَابُ ، الْقَلَمُ ← الْكِتَابُ وَالْقَلَمُ",
+        "hinglish_word": "Kitaab, Qalam",
+        "hinglish_combined": "Kitaab, Qalam → Kitaab aur Qalam",
+        "title_en": "Harf-e-'Atf 'Waw' (Aur): الْكِتَابُ ، الْقَلَمُ ← الْكِتَابُ وَالْقَلَمُ",
+        "subtitle": "Unit 1 • Lesson 12 (Book Page 36–37)",
+        "transformations": [
+          {
+            "before_ar": "الْكِتَابُ ، الْقَلَمُ",
+            "after_ar": "الْكِتَابُ وَالْقَلَمُ",
+            "before_hi": "Kitaab, Qalam",
+            "after_hi": "Kitaab aur Qalam"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_intro_table",
+      "type": "intro_table",
+      "data": {
+        "title": "S1L12 — Harf-e-'Atf 'Waw' (Aur): الْكِتَابُ ، الْقَلَمُ ← الْكِتَابُ وَالْقَلَمُ: Buniyadi Misaalein",
+        "caption": "S1L12 — Harf-e-'Atf 'Waw' (Aur): الْكِتَابُ ، الْقَلَمُ ← الْكِتَابُ وَالْقَلَمُ: Buniyadi Misaalein",
+        "headers": [
+          "Qism / Qaa'ida",
+          "Arabi Misaal",
+          "Hinglish Mafhoom"
+        ],
+        "rows": [
+          [
+            "Do Alfaaz ka Jod (وَ)",
+            "الْكِتَابُ وَالْحِكْمَةُ / الْحَقُّ وَالْبَاطِلُ",
+            "Kitaab aur hikmat / Haq aur baatil"
+          ],
+          [
+            "Teen Alfaaz ka Jod",
+            "إِبْرَاهِيمَ وَمُوسَىٰ وَعِيسَىٰ / السَّمْعَ وَالْبَصَرَ وَالْفُؤَادَ",
+            "Ibrahim, Musa aur Isa / Kaan, aankh aur dil"
+          ],
+          [
+            "Chaar ya Paanch Alfaaz",
+            "اللَّيْلُ وَالنَّهَارُ وَالشَّمْسُ وَالْقَمَرُ",
+            "Raat aur din aur sooraj aur chaand"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sec_s1l12_concept",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 1 • LESSON 12</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Harf-e-'Atf 'Waw' (Aur): الْكِتَابُ ، الْقَلَمُ ← الْكِتَابُ وَالْقَلَمُ (Page 36–37)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، الْقَلَمُ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Harf-e-'Atf (وَ = Aur)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ وَالْقَلَمُ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، الْقَلَمُ (Kitaab, Qalam) → الْكِتَابُ وَالْقَلَمُ (Kitaab aur Qalam).</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Unit 1 mein aasaan Qur'ani alfaaz aur buniyadi ishaare/qawa'id sikhaye gaye hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 36–37):** Arbi mein **`وَ`** ka aam matlab **'aur' (And)** hota hai. Yeh do, teen ya zyada ismon aur jumlon ko aapas mein jodta hai (`الْكِتَابُ وَالْقَلَمُ`، `السَّمَاوَاتُ وَالْأَرْضُ`).",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 1 • LESSON 12</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Harf-e-'Atf 'Waw' (Aur): الْكِتَابُ ، الْقَلَمُ ← الْكِتَابُ وَالْقَلَمُ (Page 36–37)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، الْقَلَمُ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Harf-e-'Atf (وَ = Aur)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ وَالْقَلَمُ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، الْقَلَمُ (Kitaab, Qalam) → الْكِتَابُ وَالْقَلَمُ (Kitaab aur Qalam).</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Unit 1 mein aasaan Qur'ani alfaaz aur buniyadi ishaare/qawa'id sikhaye gaye hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 36–37):** Arbi mein **`وَ`** ka aam matlab **'aur' (And)** hota hai. Yeh do, teen ya zyada ismon aur jumlon ko aapas mein jodta hai (`الْكِتَابُ وَالْقَلَمُ`، `السَّمَاوَاتُ وَالْأَرْضُ`).",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 1 • LESSON 12</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Harf-e-'Atf 'Waw' (Aur): الْكِتَابُ ، الْقَلَمُ ← الْكِتَابُ وَالْقَلَمُ (Page 36–37)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، الْقَلَمُ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Harf-e-'Atf (وَ = Aur)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ وَالْقَلَمُ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، الْقَلَمُ (Kitaab, Qalam) → الْكِتَابُ وَالْقَلَمُ (Kitaab aur Qalam).</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Unit 1 mein aasaan Qur'ani alfaaz aur buniyadi ishaare/qawa'id sikhaye gaye hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 36–37):** Arbi mein **`وَ`** ka aam matlab **'aur' (And)** hota hai. Yeh do, teen ya zyada ismon aur jumlon ko aapas mein jodta hai (`الْكِتَابُ وَالْقَلَمُ`، `السَّمَاوَاتُ وَالْأَرْضُ`)."
+      }
+    },
+    {
+      "id": "sec_s1l12_lbl1",
+      "type": "section_label",
+      "data": {
+        "text": "Darj zail misaalein dekhein (Darj zail misaalon par ghaur karein):",
+        "title": "Darj zail misaalein dekhein (Darj zail misaalon par ghaur karein):",
+        "label": "Darj zail misaalein dekhein (Darj zail misaalon par ghaur karein):"
+      }
+    },
+    {
+      "id": "sec_s1l12_r3",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Upar ki misaalon se zahir hai ke lafz (وَ) ka matlab 'aur' (and) hai. Yeh do alfaaz ko aapas mein jodta hai. (وَ) ke pehle aur baad ke alfaaz par teeno tarah ki harakaat (zabar َ , zer ِ , pesh ُ ) aa sakti hain. Neeche diye gaye columns mein pichle sabaq ke padhe hue Qur'ani alfaaz ko (وَ) ke saath joda gaya hai.",
+        "content": "Upar ki misaalon se zahir hai ke lafz (وَ) ka matlab 'aur' (and) hai. Yeh do alfaaz ko aapas mein jodta hai. (وَ) ke pehle aur baad ke alfaaz par teeno tarah ki harakaat (zabar َ , zer ِ , pesh ُ ) aa sakti hain. Neeche diye gaye columns mein pichle sabaq ke padhe hue Qur'ani alfaaz ko (وَ) ke saath joda gaya hai.",
+        "hinglish_text": "Upar ki misaalon se zahir hai ke lafz (وَ) ka matlab 'aur' (and) hai. Yeh do alfaaz ko aapas mein jodta hai. (وَ) ke pehle aur baad ke alfaaz par teeno tarah ki harakaat (zabar َ , zer ِ , pesh ُ ) aa sakti hain. Neeche diye gaye columns mein pichle sabaq ke padhe hue Qur'ani alfaaz ko (وَ) ke saath joda gaya hai."
+      }
+    },
+    {
+      "id": "sec_s1l12_lbl4",
+      "type": "section_label",
+      "data": {
+        "text": "Aap in Qur'ani alfaaz ko khud samajh sakte hain (Page 36):",
+        "title": "Aap in Qur'ani alfaaz ko khud samajh sakte hain (Page 36):",
+        "label": "Aap in Qur'ani alfaaz ko khud samajh sakte hain (Page 36):"
+      }
+    },
+    {
+      "id": "sec_s1l12_g5",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s1l12_g5_w1",
+            "arabic": "الْحَقُّ وَالْبَاطِلُ",
+            "arabic_text": "الْحَقُّ وَالْبَاطِلُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْحَقُّ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْبَاطِلُ</span>",
+            "hinglish": "Haq aur Baatil",
+            "hinglish_meaning": "Haq aur Baatil",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Haq aur Baatil",
+              "en": "The truth and falsehood",
+              "ur": "حق اور باطل",
+              "hi": "हक़ और बातिल (सत्य और असत्य)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w2",
+            "arabic": "الْعِلْمُ وَالْجِسْمُ",
+            "arabic_text": "الْعِلْمُ وَالْجِسْمُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْعِلْمُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْجِسْمُ</span>",
+            "hinglish": "Ilm aur Jism",
+            "hinglish_meaning": "Ilm aur Jism",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ilm aur Jism",
+              "en": "Knowledge and physique / body",
+              "ur": "علم اور جسم",
+              "hi": "इल्म और जिस्म (ज्ञान और शरीर)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w3",
+            "arabic": "الْجَنَّةُ وَالْمَغْفِرَةُ",
+            "arabic_text": "الْجَنَّةُ وَالْمَغْفِرَةُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْجَنَّةُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْمَغْفِرَةُ</span>",
+            "hinglish": "Jannat aur Maghfirat",
+            "hinglish_meaning": "Jannat aur Maghfirat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jannat aur Maghfirat",
+              "en": "Paradise and forgiveness",
+              "ur": "جنت اور مغفرت",
+              "hi": "जन्नत और मग़फ़िरत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w4",
+            "arabic": "الْكِتَابُ وَالْحِكْمَةُ",
+            "arabic_text": "الْكِتَابُ وَالْحِكْمَةُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْكِتَابُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْحِكْمَةُ</span>",
+            "hinglish": "Kitaab aur Hikmat",
+            "hinglish_meaning": "Kitaab aur Hikmat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kitaab aur Hikmat",
+              "en": "The Book and wisdom",
+              "ur": "کتاب اور حکمت",
+              "hi": "किताब और हिकमत (बुद्धिमत्ता)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w5",
+            "arabic": "الدُّنْيَا وَالْآخِرَةُ",
+            "arabic_text": "الدُّنْيَا وَالْآخِرَةُ",
+            "arabic_markup": "<span class=\"arabic-root\">الدُّنْيَا </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْآخِرَةُ</span>",
+            "hinglish": "Dunya aur Aakhirat",
+            "hinglish_meaning": "Dunya aur Aakhirat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Dunya aur Aakhirat",
+              "en": "This world and the Hereafter",
+              "ur": "دنیا اور آخرت",
+              "hi": "दुनिया और आख़िरत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w6",
+            "arabic": "الْمَشْرِقُ وَالْمَغْرِبُ",
+            "arabic_text": "الْمَشْرِقُ وَالْمَغْرِبُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْمَشْرِقُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْمَغْرِبُ</span>",
+            "hinglish": "Mashriq aur Maghrib",
+            "hinglish_meaning": "Mashriq aur Maghrib",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Mashriq aur Maghrib",
+              "en": "The East and the West",
+              "ur": "مشرق اور مغرب",
+              "hi": "मशरिक़ और मग़रिब (पूर्व और पश्चिम)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w7",
+            "arabic": "اللَّيْلُ وَالنَّهَارُ",
+            "arabic_text": "اللَّيْلُ وَالنَّهَارُ",
+            "arabic_markup": "<span class=\"arabic-root\">اللَّيْلُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">النَّهَارُ</span>",
+            "hinglish": "Raat aur Din",
+            "hinglish_meaning": "Raat aur Din",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Raat aur Din",
+              "en": "The night and the day",
+              "ur": "رات اور دن",
+              "hi": "रात और दिन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w8",
+            "arabic": "السَّمَاءُ وَالْأَرْضُ",
+            "arabic_text": "السَّمَاءُ وَالْأَرْضُ",
+            "arabic_markup": "<span class=\"arabic-root\">السَّمَاءُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْأَرْضُ</span>",
+            "hinglish": "Aasmaan aur Zameen",
+            "hinglish_meaning": "Aasmaan aur Zameen",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aasmaan aur Zameen",
+              "en": "The heaven and the earth",
+              "ur": "آسمان اور زمین",
+              "hi": "आसमान और ज़मीन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w9",
+            "arabic": "الشَّمْسُ وَالْقَمَرُ",
+            "arabic_text": "الشَّمْسُ وَالْقَمَرُ",
+            "arabic_markup": "<span class=\"arabic-root\">الشَّمْسُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْقَمَرُ</span>",
+            "hinglish": "Suraj aur Chaand",
+            "hinglish_meaning": "Suraj aur Chaand",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Suraj aur Chaand",
+              "en": "The sun and the moon",
+              "ur": "سورج اور چاند",
+              "hi": "सूरज और चाँद",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w10",
+            "arabic": "الذَّكَرُ وَالْأُنْثَىٰ",
+            "arabic_text": "الذَّكَرُ وَالْأُنْثَىٰ",
+            "arabic_markup": "<span class=\"arabic-root\">الذَّكَرُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْأُنْثَىٰ</span>",
+            "hinglish": "Mard aur Aurat",
+            "hinglish_meaning": "Mard aur Aurat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Mard aur Aurat",
+              "en": "Male and female",
+              "ur": "مرد اور عورت (نر اور مادہ)",
+              "hi": "मर्द और औरत (नर और मादा)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w11",
+            "arabic": "التَّوْرَاةُ وَالْإِنْجِيلُ",
+            "arabic_text": "التَّوْرَاةُ وَالْإِنْجِيلُ",
+            "arabic_markup": "<span class=\"arabic-root\">التَّوْرَاةُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْإِنْجِيلُ</span>",
+            "hinglish": "Tawraat aur Injeel",
+            "hinglish_meaning": "Tawraat aur Injeel",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tawraat aur Injeel",
+              "en": "The Torah and the Gospel",
+              "ur": "تورات اور انجیل",
+              "hi": "तौरात और इंजील",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w12",
+            "arabic": "الْإِنْجِيلُ وَالْقُرْآنُ",
+            "arabic_text": "الْإِنْجِيلُ وَالْقُرْآنُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْإِنْجِيلُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْقُرْآنُ</span>",
+            "hinglish": "Injeel aur Quran",
+            "hinglish_meaning": "Injeel aur Quran",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Injeel aur Quran",
+              "en": "The Gospel and the Quran",
+              "ur": "انجیل اور قرآن",
+              "hi": "इंजील और क़ुरआन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w13",
+            "arabic": "الْبِرُّ وَالتَّقْوَىٰ",
+            "arabic_text": "الْبِرُّ وَالتَّقْوَىٰ",
+            "arabic_markup": "<span class=\"arabic-root\">الْبِرُّ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">التَّقْوَىٰ</span>",
+            "hinglish": "Neki aur Taqwa",
+            "hinglish_meaning": "Neki aur Taqwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Neki aur Taqwa",
+              "en": "Righteousness and piety",
+              "ur": "نیکی اور تقویٰ",
+              "hi": "नेकी और तक़वा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w14",
+            "arabic": "الصَّلَاةُ وَالزَّكَاةُ",
+            "arabic_text": "الصَّلَاةُ وَالزَّكَاةُ",
+            "arabic_markup": "<span class=\"arabic-root\">الصَّلَاةُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الزَّكَاةُ</span>",
+            "hinglish": "Namaz aur Zakaat",
+            "hinglish_meaning": "Namaz aur Zakaat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Namaz aur Zakaat",
+              "en": "Prayer and zakah",
+              "ur": "نماز اور زکوٰۃ",
+              "hi": "नमाज़ और ज़कात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w15",
+            "arabic": "الْحَجُّ وَالْعُمْرَةُ",
+            "arabic_text": "الْحَجُّ وَالْعُمْرَةُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْحَجُّ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْعُمْرَةُ</span>",
+            "hinglish": "Hajj aur Umrah",
+            "hinglish_meaning": "Hajj aur Umrah",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Hajj aur Umrah",
+              "en": "Hajj and Umrah",
+              "ur": "حج اور عمرہ",
+              "hi": "हज और उमरा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w16",
+            "arabic": "الْبَرُّ وَالْبَحْرُ",
+            "arabic_text": "الْبَرُّ وَالْبَحْرُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْبَرُّ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْبَحْرُ</span>",
+            "hinglish": "Khushki aur Samundar (Land and Sea)",
+            "hinglish_meaning": "Khushki aur Samundar (Land and Sea)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Khushki aur Samundar (Land and Sea)",
+              "en": "The land and the sea",
+              "ur": "خشکی اور سمندر",
+              "hi": "खुश्کی और समुंदर (भूमि और समुद्र)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w17",
+            "arabic": "الصَّبْرُ وَالصَّلَاةُ",
+            "arabic_text": "الصَّبْرُ وَالصَّلَاةُ",
+            "arabic_markup": "<span class=\"arabic-root\">الصَّبْرُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الصَّلَاةُ</span>",
+            "hinglish": "Sabr aur Namaz",
+            "hinglish_meaning": "Sabr aur Namaz",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Sabr aur Namaz",
+              "en": "Patience and prayer",
+              "ur": "صبر اور نماز",
+              "hi": "सब्र और नमाज़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w18",
+            "arabic": "الشَّرُّ وَالْخَيْرُ",
+            "arabic_text": "الشَّرُّ وَالْخَيْرُ",
+            "arabic_markup": "<span class=\"arabic-root\">الشَّرُّ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْخَيْرُ</span>",
+            "hinglish": "Burai aur Bhalai",
+            "hinglish_meaning": "Burai aur Bhalai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Burai aur Bhalai",
+              "en": "Evil and good",
+              "ur": "برائی اور بھلائی",
+              "hi": "बुराई और भलाई",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w19",
+            "arabic": "الْمَيِّتُ وَالْحَيُّ",
+            "arabic_text": "الْمَيِّتُ وَالْحَيُّ",
+            "arabic_markup": "<span class=\"arabic-root\">الْمَيِّتُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْحَيُّ</span>",
+            "hinglish": "Murdah aur Zinda",
+            "hinglish_meaning": "Murdah aur Zinda",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Murdah aur Zinda",
+              "en": "The dead and the living",
+              "ur": "مردہ اور زندہ",
+              "hi": "मुर्दा और ज़िंदा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w20",
+            "arabic": "الْمَوْتُ وَالْحَيَاةُ",
+            "arabic_text": "الْمَوْتُ وَالْحَيَاةُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْمَوْتُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْحَيَاةُ</span>",
+            "hinglish": "Maut aur Zindagi",
+            "hinglish_meaning": "Maut aur Zindagi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Maut aur Zindagi",
+              "en": "Death and life",
+              "ur": "موت اور زندگی",
+              "hi": "मौत और ज़िंदगी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w21",
+            "arabic": "الْمَغْفِرَةُ وَالرَّحْمَةُ",
+            "arabic_text": "الْمَغْفِرَةُ وَالرَّحْمَةُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْمَغْفِرَةُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الرَّحْمَةُ</span>",
+            "hinglish": "Maghfirat aur Rehmat",
+            "hinglish_meaning": "Maghfirat aur Rehmat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Maghfirat aur Rehmat",
+              "en": "Forgiveness and mercy",
+              "ur": "مغفرت اور رحمت",
+              "hi": "मग़फ़िरت और रहमत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w22",
+            "arabic": "الْخَوْفُ وَالْجُوعُ",
+            "arabic_text": "الْخَوْفُ وَالْجُوعُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْخَوْفُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْجُوعُ</span>",
+            "hinglish": "Khowf aur Bhook (and Hunger)",
+            "hinglish_meaning": "Khowf aur Bhook (and Hunger)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Khowf aur Bhook (and Hunger)",
+              "en": "Fear and hunger",
+              "ur": "خوف اور بھوک",
+              "hi": "ख़ौफ़ और भूख",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w23",
+            "arabic": "الْخَوْفُ وَالْحُزْنُ",
+            "arabic_text": "الْخَوْفُ وَالْحُزْنُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْخَوْفُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْحُزْنُ</span>",
+            "hinglish": "Khowf aur Gham (and Grief)",
+            "hinglish_meaning": "Khowf aur Gham (and Grief)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Khowf aur Gham (and Grief)",
+              "en": "Fear and grief",
+              "ur": "خوف اور غم",
+              "hi": "ख़ौफ़ और ग़म",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w24",
+            "arabic": "الْأَمْنُ وَالْخَوْفُ",
+            "arabic_text": "الْأَمْنُ وَالْخَوْفُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْأَمْنُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْخَوْفُ</span>",
+            "hinglish": "Aman aur Khowf",
+            "hinglish_meaning": "Aman aur Khowf",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aman aur Khowf",
+              "en": "Security and fear",
+              "ur": "امن اور خوف",
+              "hi": "अमन और ख़ौफ़ (शांति और भय)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w25",
+            "arabic": "الْيَاقُوتُ وَالْمَرْجَانُ",
+            "arabic_text": "الْيَاقُوتُ وَالْمَرْجَانُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْيَاقُوتُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْمَرْجَانُ</span>",
+            "hinglish": "Yaqoot aur Marjaan",
+            "hinglish_meaning": "Yaqoot aur Marjaan",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yaqoot aur Marjaan",
+              "en": "Rubies and coral",
+              "ur": "یاقوت اور مرجان",
+              "hi": "याक़ूत और मरजान (माणिक्य और मूंगा)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w26",
+            "arabic": "الذَّهَبُ وَالْفِضَّةُ",
+            "arabic_text": "الذَّهَبُ وَالْفِضَّةُ",
+            "arabic_markup": "<span class=\"arabic-root\">الذَّهَبُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْفِضَّةُ</span>",
+            "hinglish": "Sona aur Chaandi (Gold and Silver)",
+            "hinglish_meaning": "Sona aur Chaandi (Gold and Silver)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Sona aur Chaandi (Gold and Silver)",
+              "en": "Gold and silver",
+              "ur": "سونا اور چاندی",
+              "hi": "सोना और चांदी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w27",
+            "arabic": "الْمَنُّ وَالسَّلْوَىٰ",
+            "arabic_text": "الْمَنُّ وَالسَّلْوَىٰ",
+            "arabic_markup": "<span class=\"arabic-root\">الْمَنُّ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">السَّلْوَىٰ</span>",
+            "hinglish": "Mann aur Salwa",
+            "hinglish_meaning": "Mann aur Salwa",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Mann aur Salwa",
+              "en": "Manna and quails",
+              "ur": "من اور سلویٰ",
+              "hi": "मन्न और सलवा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w28",
+            "arabic": "الْحَرْثُ وَالنَّسْلُ",
+            "arabic_text": "الْحَرْثُ وَالنَّسْلُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْحَرْثُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">النَّسْلُ</span>",
+            "hinglish": "Kheti aur Nasl (Crop and Offspring)",
+            "hinglish_meaning": "Kheti aur Nasl (Crop and Offspring)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kheti aur Nasl (Crop and Offspring)",
+              "en": "Crops and cattle / progeny",
+              "ur": "کھیتی اور نسل",
+              "hi": "खेती और नस्ल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w29",
+            "arabic": "السَّائِلُ وَالْمَحْرُومُ",
+            "arabic_text": "السَّائِلُ وَالْمَحْرُومُ",
+            "arabic_markup": "<span class=\"arabic-root\">السَّائِلُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْمَحْرُومُ</span>",
+            "hinglish": "Maangne wala aur Mahroom",
+            "hinglish_meaning": "Maangne wala aur Mahroom",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Maangne wala aur Mahroom",
+              "en": "The beggar and the deprived",
+              "ur": "مانگنے والا اور محروم",
+              "hi": "मांगने वाला और महरूम (वंचित)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w30",
+            "arabic": "الْخَبِيثُ وَالطَّيِّبُ",
+            "arabic_text": "الْخَبِيثُ وَالطَّيِّبُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْخَبِيثُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الطَّيِّبُ</span>",
+            "hinglish": "Na-pak aur Pakizah",
+            "hinglish_meaning": "Na-pak aur Pakizah",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Na-pak aur Pakizah",
+              "en": "The impure and the pure",
+              "ur": "ناپاک اور پاکیزہ",
+              "hi": "नापाक और पाकीज़ा (अपवित्र और पवित्र)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w31",
+            "arabic": "إِسْحَاقَ وَيَعْقُوبَ",
+            "arabic_text": "إِسْحَاقَ وَيَعْقُوبَ",
+            "arabic_markup": "<span class=\"arabic-root\">إِسْحَاقَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">يَعْقُوبَ</span>",
+            "hinglish": "Ishaq aur Yaqoob (Alaihis Salam)",
+            "hinglish_meaning": "Ishaq aur Yaqoob (Alaihis Salam)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ishaq aur Yaqoob (Alaihis Salam)",
+              "en": "Isaac and Jacob (peace be upon them)",
+              "ur": "اسحاق اور یعقوب (علیہم السلام)",
+              "hi": "इसहाक़ और याक़ूब (अलैहिमुस्सलाम)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w32",
+            "arabic": "إِبْرَاهِيمَ وَإِسْحَاقَ",
+            "arabic_text": "إِبْرَاهِيمَ وَإِسْحَاقَ",
+            "arabic_markup": "<span class=\"arabic-root\">إِبْرَاهِيمَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">إِسْحَاقَ</span>",
+            "hinglish": "Ibrahim aur Ishaq (Alaihis Salam)",
+            "hinglish_meaning": "Ibrahim aur Ishaq (Alaihis Salam)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ibrahim aur Ishaq (Alaihis Salam)",
+              "en": "Abraham and Isaac (peace be upon them)",
+              "ur": "ابراہیم اور اسحاق (علیہم السلام)",
+              "hi": "इब्राहीम और इसहाक़ (अलैहिमुस्सलाम)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w33",
+            "arabic": "إِبْرَاهِيمَ وَمُوسَىٰ",
+            "arabic_text": "إِبْرَاهِيمَ وَمُوسَىٰ",
+            "arabic_markup": "<span class=\"arabic-root\">إِبْرَاهِيمَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">مُوسَىٰ</span>",
+            "hinglish": "Ibrahim aur Musa (Alaihis Salam)",
+            "hinglish_meaning": "Ibrahim aur Musa (Alaihis Salam)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ibrahim aur Musa (Alaihis Salam)",
+              "en": "Abraham and Moses (peace be upon them)",
+              "ur": "ابراہیم اور موسیٰ (علیہم السلام)",
+              "hi": "इब्राहीम और मूसा (अलैहिमुस्सलाम)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w34",
+            "arabic": "دَاوُودَ وَسُلَيْمَانَ",
+            "arabic_text": "دَاوُودَ وَسُلَيْمَانَ",
+            "arabic_markup": "<span class=\"arabic-root\">دَاوُودَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">سُلَيْمَانَ</span>",
+            "hinglish": "Dawood aur Sulaiman (Alaihis Salam)",
+            "hinglish_meaning": "Dawood aur Sulaiman (Alaihis Salam)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Dawood aur Sulaiman (Alaihis Salam)",
+              "en": "David and Solomon (peace be upon them)",
+              "ur": "داؤد اور سلیمان (علیہم السلام)",
+              "hi": "दाऊद और सुलेमान (अलैहिमुस्सलाम)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w35",
+            "arabic": "دَاوُودَ وَعِيسَىٰ",
+            "arabic_text": "دَاوُودَ وَعِيسَىٰ",
+            "arabic_markup": "<span class=\"arabic-root\">دَاوُودَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">عِيسَىٰ</span>",
+            "hinglish": "Dawood aur Eesa (Alaihis Salam)",
+            "hinglish_meaning": "Dawood aur Eesa (Alaihis Salam)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Dawood aur Eesa (Alaihis Salam)",
+              "en": "David and Jesus (peace be upon them)",
+              "ur": "داؤد اور عیسیٰ (علیہم السلام)",
+              "hi": "दाऊद और ईसा (अलैहिमुस्सलाम)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w36",
+            "arabic": "مُوسَىٰ وَعِيسَىٰ",
+            "arabic_text": "مُوسَىٰ وَعِيسَىٰ",
+            "arabic_markup": "<span class=\"arabic-root\">مُوسَىٰ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">عِيسَىٰ</span>",
+            "hinglish": "Musa aur Eesa (Alaihis Salam)",
+            "hinglish_meaning": "Musa aur Eesa (Alaihis Salam)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Musa aur Eesa (Alaihis Salam)",
+              "en": "Moses and Jesus (peace be upon them)",
+              "ur": "موسیٰ اور عیسیٰ (علیہم السلام)",
+              "hi": "मूसा और ईसा (अलैहिमुस्सलाम)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w37",
+            "arabic": "الْجِنُّ وَالْإِنْسُ",
+            "arabic_text": "الْجِنُّ وَالْإِنْسُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْجِنُّ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْإِنْسُ</span>",
+            "hinglish": "Jin aur Insaan",
+            "hinglish_meaning": "Jin aur Insaan",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jin aur Insaan",
+              "en": "The jinn and mankind",
+              "ur": "جن اور انسان",
+              "hi": "जिन्न और इंसान",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w38",
+            "arabic": "التِّينُ وَالزَّيْتُونُ",
+            "arabic_text": "التِّينُ وَالزَّيْتُونُ",
+            "arabic_markup": "<span class=\"arabic-root\">التِّينُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الزَّيْتُونُ</span>",
+            "hinglish": "Anjeer aur Zaitoon (Fig and Olive)",
+            "hinglish_meaning": "Anjeer aur Zaitoon (Fig and Olive)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Anjeer aur Zaitoon (Fig and Olive)",
+              "en": "The fig and the olive",
+              "ur": "انجیر اور زیتون",
+              "hi": "अंजीर और जैतून",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g5_w39",
+            "arabic": "فِرْعَوْنَ وَثَمُودَ",
+            "arabic_text": "فِرْعَوْنَ وَثَمُودَ",
+            "arabic_markup": "<span class=\"arabic-root\">فِرْعَوْنَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">ثَمُودَ</span>",
+            "hinglish": "Fir'awn aur Thamood",
+            "hinglish_meaning": "Fir'awn aur Thamood",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Fir'awn aur Thamood",
+              "en": "Pharaoh and Thamud",
+              "ur": "فرعون اور ثمود",
+              "hi": "फ़िरौन और समूद",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s1l12_g6",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s1l12_g6_w1",
+            "arabic": "السَّوْءُ وَالْفَحْشَاءُ",
+            "arabic_text": "السَّوْءُ وَالْفَحْشَاءُ",
+            "arabic_markup": "<span class=\"arabic-root\">السَّوْءُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْفَحْشَاءُ</span>",
+            "hinglish": "Burai aur Behayaai (Evil and Immorality)",
+            "hinglish_meaning": "Burai aur Behayaai (Evil and Immorality)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Burai aur Behayaai (Evil and Immorality)",
+              "en": "Evil and immorality",
+              "ur": "برائی اور بے حیائی",
+              "hi": "बुराई और बेहयाई",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g6_w2",
+            "arabic": "الْإِثْمُ وَالْبَغْيُ",
+            "arabic_text": "الْإِثْمُ وَالْبَغْيُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْإِثْمُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْبَغْيُ</span>",
+            "hinglish": "Gunah aur Ziyadati (Sin and Rebellion)",
+            "hinglish_meaning": "Gunah aur Ziyadati (Sin and Rebellion)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Gunah aur Ziyadati (Sin and Rebellion)",
+              "en": "Sin and rebellion / oppression",
+              "ur": "گناہ اور زیادتی (سرکشی)",
+              "hi": "गुनाह और ज़्यादती (विद्रोह)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g6_w3",
+            "arabic": "الْإِثْمُ وَالْعُدْوَانُ",
+            "arabic_text": "الْإِثْمُ وَالْعُدْوَانُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْإِثْمُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْعُدْوَانُ</span>",
+            "hinglish": "Gunah aur Dushmani (Sin and Aggression)",
+            "hinglish_meaning": "Gunah aur Dushmani (Sin and Aggression)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Gunah aur Dushmani (Sin and Aggression)",
+              "en": "Sin and aggression",
+              "ur": "گناہ اور دشمنی (زیادتی)",
+              "hi": "गुनाह और दुश्मनी (आक्रामकता)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g6_w4",
+            "arabic": "الْعَدَاوَةُ وَالْبَغْضَاءُ",
+            "arabic_text": "الْعَدَاوَةُ وَالْبَغْضَاءُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْعَدَاوَةُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْبَغْضَاءُ</span>",
+            "hinglish": "Dushmani aur Bugz (and Hatred)",
+            "hinglish_meaning": "Dushmani aur Bugz (and Hatred)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Dushmani aur Bugz (and Hatred)",
+              "en": "Enmity and hatred",
+              "ur": "دشمنی اور بغض (کینہ)",
+              "hi": "दुश्मनी और बुग़्ज़ (द्वेष)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g6_w5",
+            "arabic": "الْفُسُوقُ وَالْعِصْيَانُ",
+            "arabic_text": "الْفُسُوقُ وَالْعِصْيَانُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْفُسُوقُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْعِصْيَانُ</span>",
+            "hinglish": "Naafarmani aur Gunah (Sin and Disobedience)",
+            "hinglish_meaning": "Naafarmani aur Gunah (Sin and Disobedience)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Naafarmani aur Gunah (Sin and Disobedience)",
+              "en": "Defiance and disobedience",
+              "ur": "نافرمانی اور گناہ (عصیاں)",
+              "hi": "नाफ़रमानी और गुनाह (विद्रोह)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g6_w6",
+            "arabic": "الْكُفْرُ وَالْفُسُوقُ",
+            "arabic_text": "الْكُفْرُ وَالْفُسُوقُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْكُفْرُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْفُسُوقُ</span>",
+            "hinglish": "Kufr aur Naafarmani (and Sin)",
+            "hinglish_meaning": "Kufr aur Naafarmani (and Sin)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kufr aur Naafarmani (and Sin)",
+              "en": "Disbelief and defiance",
+              "ur": "کفر اور نافرمانی",
+              "hi": "कुफ़्र और नाफ़रमानी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s1l12_r7",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Kabhi kabhi (وَ) teen alfaaz ko jodne ke liye bhi istemal hota hai. Neeche diye gaye Qur'ani fiqron ko padhiye jinhe aap khud samajh sakte hain.",
+        "content": "Kabhi kabhi (وَ) teen alfaaz ko jodne ke liye bhi istemal hota hai. Neeche diye gaye Qur'ani fiqron ko padhiye jinhe aap khud samajh sakte hain.",
+        "hinglish_text": "Kabhi kabhi (وَ) teen alfaaz ko jodne ke liye bhi istemal hota hai. Neeche diye gaye Qur'ani fiqron ko padhiye jinhe aap khud samajh sakte hain."
+      }
+    },
+    {
+      "id": "sec_s1l12_g8",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s1l12_g8_w1",
+            "arabic": "إِبْرَاهِيمَ وَمُوسَىٰ وَعِيسَىٰ",
+            "arabic_text": "إِبْرَاهِيمَ وَمُوسَىٰ وَعِيسَىٰ",
+            "arabic_markup": "<span class=\"arabic-root\">إِبْرَاهِيمَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">مُوسَىٰ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">عِيسَىٰ</span>",
+            "hinglish": "Ibrahim, Musa aur Eesa (Alaihis Salam)",
+            "hinglish_meaning": "Ibrahim, Musa aur Eesa (Alaihis Salam)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ibrahim, Musa aur Eesa (Alaihis Salam)",
+              "en": "Abraham, Moses, and Jesus (peace be upon them)",
+              "ur": "ابراہیم، موسیٰ اور عیسیٰ (علیہم السلام)",
+              "hi": "इब्राहीम, मूसा और ईसा (अलैहिमुस्सलाम)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g8_w2",
+            "arabic": "إِبْرَاهِيمَ وَإِسْحَاقَ وَيَعْقُوبَ",
+            "arabic_text": "إِبْرَاهِيمَ وَإِسْحَاقَ وَيَعْقُوبَ",
+            "arabic_markup": "<span class=\"arabic-root\">إِبْرَاهِيمَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">إِسْحَاقَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">يَعْقُوبَ</span>",
+            "hinglish": "Ibrahim, Ishaq aur Yaqoob (Alaihis Salam)",
+            "hinglish_meaning": "Ibrahim, Ishaq aur Yaqoob (Alaihis Salam)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ibrahim, Ishaq aur Yaqoob (Alaihis Salam)",
+              "en": "Abraham, Isaac, and Jacob (peace be upon them)",
+              "ur": "ابراہیم، اسحاق اور یعقوب (علیہم السلام)",
+              "hi": "इब्राहीम, इसहाक़ और याक़ूब (अलैहिमुस्सलाम)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g8_w3",
+            "arabic": "وَقَارُونَ وَفِرْعَوْنَ وَهَامَانَ",
+            "arabic_text": "وَقَارُونَ وَفِرْعَوْنَ وَهَامَانَ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">قَارُونَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">فِرْعَوْنَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">هَامَانَ</span>",
+            "hinglish": "Aur Qaroon, Fir'awn aur Haman",
+            "hinglish_meaning": "Aur Qaroon, Fir'awn aur Haman",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Qaroon, Fir'awn aur Haman",
+              "en": "And Korah, Pharaoh, and Haman",
+              "ur": "اور قارون، فرعون اور ہامان",
+              "hi": "और क़ारून, फ़िरौन और हामान",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g8_w4",
+            "arabic": "وَثَمُودَ وَعَادٌ وَفِرْعَوْنُ",
+            "arabic_text": "وَثَمُودَ وَعَادٌ وَفِرْعَوْنُ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">ثَمُودَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">عَادٌ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">فِرْعَوْنُ</span>",
+            "hinglish": "Aur Thamood, Aad aur Fir'awn",
+            "hinglish_meaning": "Aur Thamood, Aad aur Fir'awn",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Thamood, Aad aur Fir'awn",
+              "en": "And Thamud, 'Aad, and Pharaoh",
+              "ur": "اور ثمود، عاد اور فرعون",
+              "hi": "और समूद, आद और फ़िरौन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g8_w5",
+            "arabic": "الْكُفْرَ وَالْفُسُوقَ وَالْعِصْيَانَ",
+            "arabic_text": "الْكُفْرَ وَالْفُسُوقَ وَالْعِصْيَانَ",
+            "arabic_markup": "<span class=\"arabic-root\">الْكُفْرَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْفُسُوقَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْعِصْيَانَ</span>",
+            "hinglish": "Kufr, Naafarmani aur Sarkashi",
+            "hinglish_meaning": "Kufr, Naafarmani aur Sarkashi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kufr, Naafarmani aur Sarkashi",
+              "en": "Disbelief, defiance, and disobedience",
+              "ur": "کفر، نافرمانی اور سرکشی",
+              "hi": "कुफ़्र, नाफ़रमानी और सरکشی",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g8_w6",
+            "arabic": "الْكِتَابَ وَالْحُكْمَ وَالنُّبُوَّةَ",
+            "arabic_text": "الْكِتَابَ وَالْحُكْمَ وَالنُّبُوَّةَ",
+            "arabic_markup": "<span class=\"arabic-root\">الْكِتَابَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْحُكْمَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">النُّبُوَّةَ</span>",
+            "hinglish": "Kitaab, Hukm aur Nubuwwat (Prophethood)",
+            "hinglish_meaning": "Kitaab, Hukm aur Nubuwwat (Prophethood)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kitaab, Hukm aur Nubuwwat (Prophethood)",
+              "en": "The Book, authority / judgment, and prophethood",
+              "ur": "کتاب، حکم (حکمت/فیصلہ) اور نبوت",
+              "hi": "किताब, हुक्म (फ़ैसला) और नबुव्वत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g8_w7",
+            "arabic": "الْفَحْشَاءِ وَالْمُنْكَرِ وَالْبَغْيِ",
+            "arabic_text": "الْفَحْشَاءِ وَالْمُنْكَرِ وَالْبَغْيِ",
+            "arabic_markup": "<span class=\"arabic-root\">الْفَحْشَاءِ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْمُنْكَرِ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْبَغْيِ</span>",
+            "hinglish": "Behayaai, Buraai aur Ziyadati",
+            "hinglish_meaning": "Behayaai, Buraai aur Ziyadati",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Behayaai, Buraai aur Ziyadati",
+              "en": "Immorality, bad deeds, and oppression",
+              "ur": "بے حیائی، برائی اور زیادتی (سرکشی)",
+              "hi": "बेहयाई, बुराई और ज़्यादती",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g8_w8",
+            "arabic": "وَالشَّمْسَ وَالْقَمَرَ وَالنُّجُومَ",
+            "arabic_text": "وَالشَّمْسَ وَالْقَمَرَ وَالنُّجُومَ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الشَّمْسَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْقَمَرَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">النُّجُومَ</span>",
+            "hinglish": "Aur Suraj, Chaand aur Sitare",
+            "hinglish_meaning": "Aur Suraj, Chaand aur Sitare",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Suraj, Chaand aur Sitare",
+              "en": "And the sun, the moon, and the stars",
+              "ur": "اور سورج، چاند اور ستارے",
+              "hi": "और सूरज, चाँद और सितारे",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g8_w9",
+            "arabic": "السَّمْعَ وَالْبَصَرَ وَالْفُؤَادَ",
+            "arabic_text": "السَّمْعَ وَالْبَصَرَ وَالْفُؤَادَ",
+            "arabic_markup": "<span class=\"arabic-root\">السَّمْعَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْبَصَرَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْفُؤَادَ</span>",
+            "hinglish": "Kaan, Aankh aur Dil",
+            "hinglish_meaning": "Kaan, Aankh aur Dil",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kaan, Aankh aur Dil",
+              "en": "Hearing, sight, and the heart",
+              "ur": "کان، آنکھ اور دل",
+              "hi": "कान, आँख और दिल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s1l12_r9",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Kabhi kabhi (وَ) char ya paanch alfaaz ko bhi aapas mein jodta hai. Neeche diye gaye Qur'ani fiqron ko padhiye aur unka tarjuma kijiye. Aap bina kisi madad ke unhe samajh sakte hain.",
+        "content": "Kabhi kabhi (وَ) char ya paanch alfaaz ko bhi aapas mein jodta hai. Neeche diye gaye Qur'ani fiqron ko padhiye aur unka tarjuma kijiye. Aap bina kisi madad ke unhe samajh sakte hain.",
+        "hinglish_text": "Kabhi kabhi (وَ) char ya paanch alfaaz ko bhi aapas mein jodta hai. Neeche diye gaye Qur'ani fiqron ko padhiye aur unka tarjuma kijiye. Aap bina kisi madad ke unhe samajh sakte hain."
+      }
+    },
+    {
+      "id": "sec_s1l12_g10",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s1l12_g10_w1",
+            "arabic": "اللَّيْلُ وَالنَّهَارُ وَالشَّمْسُ وَالْقَمَرُ",
+            "arabic_text": "اللَّيْلُ وَالنَّهَارُ وَالشَّمْسُ وَالْقَمَرُ",
+            "arabic_markup": "<span class=\"arabic-root\">اللَّيْلُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">النَّهَارُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الشَّمْسُ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْقَمَرُ</span>",
+            "hinglish": "Raat, Din, Suraj aur Chaand",
+            "hinglish_meaning": "Raat, Din, Suraj aur Chaand",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Raat, Din, Suraj aur Chaand",
+              "en": "The night, the day, the sun, and the moon",
+              "ur": "رات، دن، سورج اور چاند",
+              "hi": "रात, दिन, सूरज और चाँद",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g10_w2",
+            "arabic": "الْكِتَابَ وَالْحِكْمَةَ وَالتَّوْرَاةَ وَالْإِنْجِيلَ",
+            "arabic_text": "الْكِتَابَ وَالْحِكْمَةَ وَالتَّوْرَاةَ وَالْإِنْجِيلَ",
+            "arabic_markup": "<span class=\"arabic-root\">الْكِتَابَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْحِكْمَةَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">التَّوْرَاةَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْإِنْجِيلَ</span>",
+            "hinglish": "Kitaab, Hikmat, Tawraat aur Injeel",
+            "hinglish_meaning": "Kitaab, Hikmat, Tawraat aur Injeel",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kitaab, Hikmat, Tawraat aur Injeel",
+              "en": "The Book, wisdom, the Torah, and the Gospel",
+              "ur": "کتاب، حکمت، تورات اور انجیل",
+              "hi": "किताब, हिकमत, तौरात और इंजील",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g10_w3",
+            "arabic": "نُوحٍ وَإِبْرَاهِيمَ وَمُوسَىٰ وَعِيسَىٰ",
+            "arabic_text": "نُوحٍ وَإِبْرَاهِيمَ وَمُوسَىٰ وَعِيسَىٰ",
+            "arabic_markup": "<span class=\"arabic-root\">نُوحٍ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">إِبْرَاهِيمَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">مُوسَىٰ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">عِيسَىٰ</span>",
+            "hinglish": "Nuh, Ibrahim, Musa aur Eesa (Alaihis Salam)",
+            "hinglish_meaning": "Nuh, Ibrahim, Musa aur Eesa (Alaihis Salam)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Nuh, Ibrahim, Musa aur Eesa (Alaihis Salam)",
+              "en": "Noah, Abraham, Moses, and Jesus (peace be upon them)",
+              "ur": "نوح، ابراہیم، موسیٰ اور عیسیٰ (علیہم السلام)",
+              "hi": "नूह, इब्राहीम, मूसा और ईसा (अलैहिमुस्सलाम)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g10_w4",
+            "arabic": "وَزَكَرِيَّا وَيَحْيَىٰ وَعِيسَىٰ وَإِلْيَاسَ",
+            "arabic_text": "وَزَكَرِيَّا وَيَحْيَىٰ وَعِيسَىٰ وَإِلْيَاسَ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">زَكَرِيَّا </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">يَحْيَىٰ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">عِيسَىٰ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">إِلْيَاسَ</span>",
+            "hinglish": "Aur Zakariyya, Yahya, Eesa aur Ilyas (Alaihis Salam)",
+            "hinglish_meaning": "Aur Zakariyya, Yahya, Eesa aur Ilyas (Alaihis Salam)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Zakariyya, Yahya, Eesa aur Ilyas (Alaihis Salam)",
+              "en": "And Zechariah, John, Jesus, and Elias (peace be upon them)",
+              "ur": "اور زکریا، یحییٰ، عیسیٰ اور الیاس (علیہم السلام)",
+              "hi": "और ज़करिया, यह्या, ईसा और इल्यास (अलैहिमुस्सलाम)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g10_w5",
+            "arabic": "وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا",
+            "arabic_text": "وَإِسْمَاعِيلَ وَالْيَسَعَ وَيُونُسَ وَلُوطًا",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">إِسْمَاعِيلَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْيَسَعَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">يُونُسَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">لُوطًا</span>",
+            "hinglish": "Aur Ismail, Al-Yasa', Yunus aur Loot (Alaihis Salam)",
+            "hinglish_meaning": "Aur Ismail, Al-Yasa', Yunus aur Loot (Alaihis Salam)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Ismail, Al-Yasa', Yunus aur Loot (Alaihis Salam)",
+              "en": "And Ishmael, Elisha, Jonah, and Lot (peace be upon them)",
+              "ur": "اور اسماعیل، الیسع، یونس اور لوط (علیہم السلام)",
+              "hi": "और इस्माईल, अल-यसअ, यूनुस और लूत (अलैहिमुस्सलाम)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s1l12_g10_w6",
+            "arabic": "دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَىٰ وَهَارُونَ",
+            "arabic_text": "دَاوُودَ وَسُلَيْمَانَ وَأَيُّوبَ وَيُوسُفَ وَمُوسَىٰ وَهَارُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">دَاوُودَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">سُلَيْمَانَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">أَيُّوبَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">يُوسُفَ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">مُوسَىٰ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">هَارُونَ</span>",
+            "hinglish": "Dawood, Sulaiman, Ayyub, Yusuf, Musa aur Haroon (Alaihis Salam)",
+            "hinglish_meaning": "Dawood, Sulaiman, Ayyub, Yusuf, Musa aur Haroon (Alaihis Salam)",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Dawood, Sulaiman, Ayyub, Yusuf, Musa aur Haroon (Alaihis Salam)",
+              "en": "David, Solomon, Job, Joseph, Moses, and Aaron (peace be upon them)",
+              "ur": "داؤد، سلیمان، ایوب، یوسف، موسیٰ اور ہارون (علیہم السلام)",
+              "hi": "दाऊद, सुलेमान, अय्यूब, यूसुफ़, मूसा और हारून (अलैहिमुस्सलाम)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "page_start": 36
+}

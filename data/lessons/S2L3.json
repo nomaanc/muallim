@@ -1,0 +1,1963 @@
+{
+  "lesson_id": 3,
+  "lesson_key": "S2L3",
+  "stage_id": 2,
+  "title": "Harf-e-Jarr 'Fii' (Mein): الْكِتَابُ ← فِي الْكِتَابِ",
+  "arabic_Focus": "الْكِتَابُ ، الْأَرْضُ ← فِي الْكِتَابِ ، فِي الْأَرْضِ",
+  "hinglish_Focus": "Kitaab, Zameen → Kitaab mein, Zameen mein",
+  "page_numbers": "56–57",
+  "book_page": 56,
+  "status": "complete",
+  "title_i18n": {
+    "en": "Harf-e-Jarr 'Fii' (Mein): الْكِتَابُ ← فِي الْكِتَابِ",
+    "ur": "یونٹ 2 سبق 3: الْكِتَابُ ، الْأَرْضُ ← فِي الْكِتَابِ ، فِي الْأَرْضِ",
+    "hi": "Harf-e-Jarr 'Fii' (Mein): الْكِتَابُ ← فِي الْكِتَابِ"
+  },
+  "sections": [
+    {
+      "id": "sec_hero",
+      "type": "hero_header",
+      "data": {
+        "arabic": "الْكِتَابُ ، الْأَرْضُ ← فِي الْكِتَابِ ، فِي الْأَرْضِ",
+        "hinglish": "Kitaab, Zameen → Kitaab mein, Zameen mein",
+        "arabic_word": "الْكِتَابُ ، الْأَرْضُ",
+        "arabic_combined": "الْكِتَابُ ، الْأَرْضُ ← فِي الْكِتَابِ ، فِي الْأَرْضِ",
+        "hinglish_word": "Kitaab, Zameen",
+        "hinglish_combined": "Kitaab, Zameen → Kitaab mein, Zameen mein",
+        "title_en": "Harf-e-Jarr 'Fii' (Mein): الْكِتَابُ ← فِي الْكِتَابِ",
+        "subtitle": "Unit 2 • Lesson 3 (Book Page 56–57)",
+        "transformations": [
+          {
+            "before_ar": "الْكِتَابُ ، الْأَرْضُ",
+            "after_ar": "فِي الْكِتَابِ ، فِي الْأَرْضِ",
+            "before_hi": "Kitaab, Zameen",
+            "after_hi": "Kitaab mein, Zameen mein"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_intro_table",
+      "type": "intro_table",
+      "data": {
+        "title": "S2L3 — Harf-e-Jarr 'Fii' (Mein): الْكِتَابُ ← فِي الْكِتَابِ: Buniyadi Misaalein",
+        "caption": "S2L3 — Harf-e-Jarr 'Fii' (Mein): الْكِتَابُ ← فِي الْكِتَابِ: Buniyadi Misaalein",
+        "headers": [
+          "Qaa'ida / Halat",
+          "Arabi Misaal",
+          "Hinglish Mafhoom"
+        ],
+        "rows": [
+          [
+            "فِي + الْـ (Zair ـِ)",
+            "فِي الْكِتَابِ / فِي السَّمَاوَاتِ وَالْأَرْضِ",
+            "Kitaab mein / Aasmanon aur zameen mein"
+          ],
+          [
+            "فِي + Nakirah (Do Zair ـٍ)",
+            "فِي كِتَابٍ / فِي ضَلَالٍ / فِي شَكٍّ",
+            "Ek kitaab mein / Kisi gumraahi mein / Kisi shak mein"
+          ],
+          [
+            "لَفِي (Yaqeenan ... mein)",
+            "لَفِي خُسْرٍ / لَفِي نَعِيمٍ / لَفِي ضَلَالٍ مُبِينٍ",
+            "Yaqeenan khasaare mein / Yaqeenan ne'mat mein"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l3_concept",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 3</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Harf-e-Jarr 'Fii' (Mein): الْكِتَابُ ← فِي الْكِتَابِ (Page 56–57)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، الْأَرْضُ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Harf-e-Jarr (فِي + ـِ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">فِي الْكِتَابِ ، فِي الْأَرْضِ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، الْأَرْضُ (Kitaab, Zameen) se فِي الْكِتَابِ ، فِي الْأَرْضِ (Kitaab mein, Zameen mein) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 56–57):** **`فِي`** ka matlab **'mein'** hai. Iske baad aane wale ism ke aakhri harf ke neeche **Zair (`ـِ / ـٍ`)** aati hai: `الْكِتَابُ ← فِي الْكِتَابِ` (Kitaab mein), `فِي كِتَابٍ` (ek kitaab mein), `لَفِي خُسْرٍ` (yaqeenan khasaare mein).",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 3</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Harf-e-Jarr 'Fii' (Mein): الْكِتَابُ ← فِي الْكِتَابِ (Page 56–57)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، الْأَرْضُ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Harf-e-Jarr (فِي + ـِ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">فِي الْكِتَابِ ، فِي الْأَرْضِ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، الْأَرْضُ (Kitaab, Zameen) se فِي الْكِتَابِ ، فِي الْأَرْضِ (Kitaab mein, Zameen mein) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 56–57):** **`فِي`** ka matlab **'mein'** hai. Iske baad aane wale ism ke aakhri harf ke neeche **Zair (`ـِ / ـٍ`)** aati hai: `الْكِتَابُ ← فِي الْكِتَابِ` (Kitaab mein), `فِي كِتَابٍ` (ek kitaab mein), `لَفِي خُسْرٍ` (yaqeenan khasaare mein).",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 3</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Harf-e-Jarr 'Fii' (Mein): الْكِتَابُ ← فِي الْكِتَابِ (Page 56–57)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، الْأَرْضُ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Harf-e-Jarr (فِي + ـِ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">فِي الْكِتَابِ ، فِي الْأَرْضِ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، الْأَرْضُ (Kitaab, Zameen) se فِي الْكِتَابِ ، فِي الْأَرْضِ (Kitaab mein, Zameen mein) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 56–57):** **`فِي`** ka matlab **'mein'** hai. Iske baad aane wale ism ke aakhri harf ke neeche **Zair (`ـِ / ـٍ`)** aati hai: `الْكِتَابُ ← فِي الْكِتَابِ` (Kitaab mein), `فِي كِتَابٍ` (ek kitaab mein), `لَفِي خُسْرٍ` (yaqeenan khasaare mein)."
+      }
+    },
+    {
+      "id": "sec_s2l3_lbl2",
+      "type": "section_label",
+      "data": {
+        "text": "Niche di gayi misaalein ghaur se dekhiye:",
+        "title": "Niche di gayi misaalein ghaur se dekhiye:",
+        "label": "Niche di gayi misaalein ghaur se dekhiye:"
+      }
+    },
+    {
+      "id": "sec_s2l3_r4",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Upar di gayi misaalon se wazeh hai ke (فِي) ka matlab \"mein\" hai, aur iske baad aane wale lafz ke aakhri harf par aam taur par zair (kasrah) hoti hai. (فِي) aur iske baad wala lafz milkar ek phrase banaate hain jinka tarjuma ek saath hota hai.",
+        "content": "Upar di gayi misaalon se wazeh hai ke (فِي) ka matlab \"mein\" hai, aur iske baad aane wale lafz ke aakhri harf par aam taur par zair (kasrah) hoti hai. (فِي) aur iske baad wala lafz milkar ek phrase banaate hain jinka tarjuma ek saath hota hai.",
+        "hinglish_text": "Upar di gayi misaalon se wazeh hai ke (فِي) ka matlab \"mein\" hai, aur iske baad aane wale lafz ke aakhri harf par aam taur par zair (kasrah) hoti hai. (فِي) aur iske baad wala lafz milkar ek phrase banaate hain jinka tarjuma ek saath hota hai."
+      }
+    },
+    {
+      "id": "sec_s2l3_r5",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Ab aap khud neeche di gayi Qur'ani ibaarat samjhein aur tarjuma karein:",
+        "content": "Ab aap khud neeche di gayi Qur'ani ibaarat samjhein aur tarjuma karein:",
+        "hinglish_text": "Ab aap khud neeche di gayi Qur'ani ibaarat samjhein aur tarjuma karein:"
+      }
+    },
+    {
+      "id": "sec_s2l3_g6",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l3_g6_w1",
+            "arabic": "فِي الدِّينِ",
+            "arabic_text": "فِي الدِّينِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الدِّينِ</span>",
+            "hinglish": "Deen mein",
+            "hinglish_meaning": "Deen mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Deen mein",
+              "en": "In religion / In the religion",
+              "ur": "دین میں",
+              "hi": "दीन में / धर्म में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w2",
+            "arabic": "فِي الْعِلْمِ",
+            "arabic_text": "فِي الْعِلْمِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْعِلْمِ</span>",
+            "hinglish": "Ilm mein",
+            "hinglish_meaning": "Ilm mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ilm mein",
+              "en": "In knowledge",
+              "ur": "علم میں",
+              "hi": "इल्म में / ज्ञान में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w3",
+            "arabic": "فِي الْكِتَابِ",
+            "arabic_text": "فِي الْكِتَابِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْكِتَابِ</span>",
+            "hinglish": "Kitaab mein",
+            "hinglish_meaning": "Kitaab mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kitaab mein",
+              "en": "In the Book",
+              "ur": "کتاب میں",
+              "hi": "किताब में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w4",
+            "arabic": "فِي الْقُرْآنِ",
+            "arabic_text": "فِي الْقُرْآنِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْقُرْآنِ</span>",
+            "hinglish": "Qur'an mein",
+            "hinglish_meaning": "Qur'an mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Qur'an mein",
+              "en": "In the Quran",
+              "ur": "قرآن میں",
+              "hi": "क़ुरआन में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w5",
+            "arabic": "فِي الْجَنَّةِ",
+            "arabic_text": "فِي الْجَنَّةِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْجَنَّةِ</span>",
+            "hinglish": "Jannat mein",
+            "hinglish_meaning": "Jannat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jannat mein",
+              "en": "In Paradise / In the Garden",
+              "ur": "جنت میں",
+              "hi": "जन्नत में / स्वर्ग में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w6",
+            "arabic": "فِي الْحَيَاةِ",
+            "arabic_text": "فِي الْحَيَاةِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْحَيَاةِ</span>",
+            "hinglish": "Zindagi mein",
+            "hinglish_meaning": "Zindagi mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Zindagi mein",
+              "en": "In life",
+              "ur": "زندگی میں",
+              "hi": "ज़िंदगी में / जीवन में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w7",
+            "arabic": "فِي الْآخِرَةِ",
+            "arabic_text": "فِي الْآخِرَةِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْآخِرَةِ</span>",
+            "hinglish": "Aakhirat mein",
+            "hinglish_meaning": "Aakhirat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aakhirat mein",
+              "en": "In the Hereafter",
+              "ur": "آخرت میں",
+              "hi": "आख़िरत में / परलोक में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w8",
+            "arabic": "فِي الدُّنْيَا",
+            "arabic_text": "فِي الدُّنْيَا",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الدُّنْيَا</span>",
+            "hinglish": "Duniya mein",
+            "hinglish_meaning": "Duniya mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Duniya mein",
+              "en": "In this world / In the worldly life",
+              "ur": "دنیا میں",
+              "hi": "दुनिया में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w9",
+            "arabic": "فِي الْإِثْمِ",
+            "arabic_text": "فِي الْإِثْمِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْإِثْمِ</span>",
+            "hinglish": "Gunah mein",
+            "hinglish_meaning": "Gunah mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Gunah mein",
+              "en": "In sin",
+              "ur": "گناہ میں",
+              "hi": "गुनाह में / पाप में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w10",
+            "arabic": "فِي الضَّلَالَةِ",
+            "arabic_text": "فِي الضَّلَالَةِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الضَّلَالَةِ</span>",
+            "hinglish": "Gumraahi mein",
+            "hinglish_meaning": "Gumraahi mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Gumraahi mein",
+              "en": "In misguidance / In error",
+              "ur": "گمراہی میں",
+              "hi": "गुमराही में / भटकाव में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w11",
+            "arabic": "فِي الْفِتْنَةِ",
+            "arabic_text": "فِي الْفِتْنَةِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْفِتْنَةِ</span>",
+            "hinglish": "Fitne mein",
+            "hinglish_meaning": "Fitne mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Fitne mein",
+              "en": "In discord / In trial",
+              "ur": "فتنے میں / آزمائش میں",
+              "hi": "फ़ितने में / आज़माइश में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w12",
+            "arabic": "فِي الْكُفْرِ",
+            "arabic_text": "فِي الْكُفْرِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْكُفْرِ</span>",
+            "hinglish": "Kufr mein",
+            "hinglish_meaning": "Kufr mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kufr mein",
+              "en": "In disbelief",
+              "ur": "کفر میں",
+              "hi": "कुफ़्र में / अविश्वास में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w13",
+            "arabic": "فِي السَّعِيرِ",
+            "arabic_text": "فِي السَّعِيرِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">السَّعِيرِ</span>",
+            "hinglish": "Bhadakti aag mein",
+            "hinglish_meaning": "Bhadakti aag mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bhadakti aag mein",
+              "en": "In the blazing Fire (Saeer)",
+              "ur": "بھڑکتی آگ میں / سعیر میں",
+              "hi": "भड़कती आग में / सईर में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w14",
+            "arabic": "فِي الْجَحِيمِ",
+            "arabic_text": "فِي الْجَحِيمِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْجَحِيمِ</span>",
+            "hinglish": "Jahannam mein",
+            "hinglish_meaning": "Jahannam mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jahannam mein",
+              "en": "In Hellfire (Jahim)",
+              "ur": "جہنم میں / جحیم میں",
+              "hi": "जहन्नम में / जहीम में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w15",
+            "arabic": "فِي النَّارِ",
+            "arabic_text": "فِي النَّارِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">النَّارِ</span>",
+            "hinglish": "Aag mein",
+            "hinglish_meaning": "Aag mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aag mein",
+              "en": "In the Fire",
+              "ur": "آگ میں",
+              "hi": "आग में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w16",
+            "arabic": "فِي الْعَذَابِ",
+            "arabic_text": "فِي الْعَذَابِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْعَذَابِ</span>",
+            "hinglish": "Azab mein",
+            "hinglish_meaning": "Azab mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Azab mein",
+              "en": "In the torment / In punishment",
+              "ur": "عذاب میں",
+              "hi": "अज़ाब में / यातना में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w17",
+            "arabic": "فِي الْمِحْرَابِ",
+            "arabic_text": "فِي الْمِحْرَابِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْمِحْرَابِ</span>",
+            "hinglish": "Mehrab mein",
+            "hinglish_meaning": "Mehrab mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Mehrab mein",
+              "en": "In the sanctuary / prayer chamber",
+              "ur": "محراب میں / عبادت گاہ میں",
+              "hi": "मेहराब में / इबादतगाह में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w18",
+            "arabic": "فِي الْحَقِّ",
+            "arabic_text": "فِي الْحَقِّ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْحَقِّ</span>",
+            "hinglish": "Haq mein",
+            "hinglish_meaning": "Haq mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Haq mein",
+              "en": "In the truth",
+              "ur": "حق میں / سچائی میں",
+              "hi": "हक़ में / सत्य में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w19",
+            "arabic": "فِي الْإِنْجِيلِ",
+            "arabic_text": "فِي الْإِنْجِيلِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْإِنْجِيلِ</span>",
+            "hinglish": "Injeel mein",
+            "hinglish_meaning": "Injeel mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Injeel mein",
+              "en": "In the Gospel (Injeel)",
+              "ur": "انجیل میں",
+              "hi": "इंजील में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w20",
+            "arabic": "فِي التَّوْرَاةِ",
+            "arabic_text": "فِي التَّوْرَاةِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">التَّوْرَاةِ</span>",
+            "hinglish": "Tawrat mein",
+            "hinglish_meaning": "Tawrat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tawrat mein",
+              "en": "In the Torah (Tawrat)",
+              "ur": "تورات میں",
+              "hi": "तौरात में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w21",
+            "arabic": "فِي السَّمَاءِ",
+            "arabic_text": "فِي السَّمَاءِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">السَّمَاءِ</span>",
+            "hinglish": "Aasman mein",
+            "hinglish_meaning": "Aasman mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aasman mein",
+              "en": "In the sky / In heaven",
+              "ur": "آسمان میں",
+              "hi": "आसमान में / आकाश में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w22",
+            "arabic": "فِي الْأَرْضِ",
+            "arabic_text": "فِي الْأَرْضِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْأَرْضِ</span>",
+            "hinglish": "Zameen mein",
+            "hinglish_meaning": "Zameen mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Zameen mein",
+              "en": "In the earth",
+              "ur": "زمین میں",
+              "hi": "ज़मीन में / धरती में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w23",
+            "arabic": "فِي الرِّزْقِ",
+            "arabic_text": "فِي الرِّزْقِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الرِّزْقِ</span>",
+            "hinglish": "Rizq mein",
+            "hinglish_meaning": "Rizq mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Rizq mein",
+              "en": "In sustenance / provision",
+              "ur": "رزق میں / روزی میں",
+              "hi": "रिज़्क़ में / रोज़ी में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w24",
+            "arabic": "فِي الْقَتْلِ",
+            "arabic_text": "فِي الْقَتْلِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْقَتْلِ</span>",
+            "hinglish": "Qatl mein",
+            "hinglish_meaning": "Qatl mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Qatl mein",
+              "en": "In killing / retribution",
+              "ur": "قتل میں / قصاص میں",
+              "hi": "क़त्ल में / हत्या में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w25",
+            "arabic": "فِي الْحَجِّ",
+            "arabic_text": "فِي الْحَجِّ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْحَجِّ</span>",
+            "hinglish": "Hajj mein",
+            "hinglish_meaning": "Hajj mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Hajj mein",
+              "en": "In the Pilgrimage (Hajj)",
+              "ur": "حج میں",
+              "hi": "हज में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w26",
+            "arabic": "فِي الْمِلَّةِ",
+            "arabic_text": "فِي الْمِلَّةِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْمِلَّةِ</span>",
+            "hinglish": "Millat mein",
+            "hinglish_meaning": "Millat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Millat mein",
+              "en": "In the religion / creed",
+              "ur": "ملت میں / دین میں",
+              "hi": "मिल्लत में / धर्म में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w27",
+            "arabic": "فِي النَّهَارِ",
+            "arabic_text": "فِي النَّهَارِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">النَّهَارِ</span>",
+            "hinglish": "Din mein",
+            "hinglish_meaning": "Din mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Din mein",
+              "en": "In the day / daytime",
+              "ur": "دن میں",
+              "hi": "दिन में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w28",
+            "arabic": "فِي اللَّيْلِ",
+            "arabic_text": "فِي اللَّيْلِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">اللَّيْلِ</span>",
+            "hinglish": "Raat mein",
+            "hinglish_meaning": "Raat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Raat mein",
+              "en": "In the night",
+              "ur": "رات میں",
+              "hi": "रात में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w29",
+            "arabic": "فِي الْحَرْبِ",
+            "arabic_text": "فِي الْحَرْبِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْحَرْبِ</span>",
+            "hinglish": "Jung mein",
+            "hinglish_meaning": "Jung mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jung mein",
+              "en": "In war / battle",
+              "ur": "جنگ میں / لڑائی میں",
+              "hi": "जंग में / युद्ध में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w30",
+            "arabic": "فِي الْخَلْقِ",
+            "arabic_text": "فِي الْخَلْقِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْخَلْقِ</span>",
+            "hinglish": "Pedaish mein",
+            "hinglish_meaning": "Pedaish mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Pedaish mein",
+              "en": "In the creation",
+              "ur": "پیدائش میں / تخلیق میں",
+              "hi": "पैदाइश में / रचना में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w31",
+            "arabic": "فِي السَّفِينَةِ",
+            "arabic_text": "فِي السَّفِينَةِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">السَّفِينَةِ</span>",
+            "hinglish": "Kashti mein",
+            "hinglish_meaning": "Kashti mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kashti mein",
+              "en": "In the ship",
+              "ur": "کشتی میں",
+              "hi": "कश्ती में / नाव में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w32",
+            "arabic": "فِي التَّابُوتِ",
+            "arabic_text": "فِي التَّابُوتِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">التَّابُوتِ</span>",
+            "hinglish": "Sandook mein",
+            "hinglish_meaning": "Sandook mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Sandook mein",
+              "en": "In the chest / ark",
+              "ur": "صندوق میں / تابوت میں",
+              "hi": "संदूक़ में / ताबूत में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w33",
+            "arabic": "فِي التُّرَابِ",
+            "arabic_text": "فِي التُّرَابِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">التُّرَابِ</span>",
+            "hinglish": "Mitti mein",
+            "hinglish_meaning": "Mitti mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Mitti mein",
+              "en": "In the dust / soil",
+              "ur": "مٹی میں / خاک میں",
+              "hi": "मिट्टी में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w34",
+            "arabic": "فِي السِّجْنِ",
+            "arabic_text": "فِي السِّجْنِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">السِّجْنِ</span>",
+            "hinglish": "Qaid-khaane mein",
+            "hinglish_meaning": "Qaid-khaane mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Qaid-khaane mein",
+              "en": "In prison",
+              "ur": "قید خانے میں / جیل میں",
+              "hi": "क़ैदख़ाने में / जेल में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w35",
+            "arabic": "فِي الْمُلْكِ",
+            "arabic_text": "فِي الْمُلْكِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْمُلْكِ</span>",
+            "hinglish": "Badshahat mein",
+            "hinglish_meaning": "Badshahat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Badshahat mein",
+              "en": "In the kingdom / sovereignty",
+              "ur": "بادشاہت میں / حکومت میں",
+              "hi": "बादशाहत में / शासन में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w36",
+            "arabic": "فِي الْمِيزَانِ",
+            "arabic_text": "فِي الْمِيزَانِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْمِيزَانِ</span>",
+            "hinglish": "Tarazu mein",
+            "hinglish_meaning": "Tarazu mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tarazu mein",
+              "en": "In the balance / scale",
+              "ur": "ترازو میں / میزان میں",
+              "hi": "तराज़ू में / मीज़ान में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w37",
+            "arabic": "فِي الْغَارِ",
+            "arabic_text": "فِي الْغَارِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْغَارِ</span>",
+            "hinglish": "Ghaar mein",
+            "hinglish_meaning": "Ghaar mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ghaar mein",
+              "en": "In the cave",
+              "ur": "غار میں",
+              "hi": "ग़ार में / गुफ़ा में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w38",
+            "arabic": "فِي الْمَدِينَةِ",
+            "arabic_text": "فِي الْمَدِينَةِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْمَدِينَةِ</span>",
+            "hinglish": "Shehar mein",
+            "hinglish_meaning": "Shehar mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Shehar mein",
+              "en": "In the city",
+              "ur": "شہر میں",
+              "hi": "शहर में / नगर में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w39",
+            "arabic": "فِي الْبَحْرِ",
+            "arabic_text": "فِي الْبَحْرِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْبَحْرِ</span>",
+            "hinglish": "Samundar mein",
+            "hinglish_meaning": "Samundar mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Samundar mein",
+              "en": "In the sea",
+              "ur": "سمندر میں",
+              "hi": "समुंदर में / सागर में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w40",
+            "arabic": "فِي الْبَرِّ",
+            "arabic_text": "فِي الْبَرِّ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْبَرِّ</span>",
+            "hinglish": "Khushki mein",
+            "hinglish_meaning": "Khushki mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Khushki mein",
+              "en": "On the land",
+              "ur": "خشکی میں",
+              "hi": "खुश्की में / थल में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w41",
+            "arabic": "فِي الظُّلُمَاتِ",
+            "arabic_text": "فِي الظُّلُمَاتِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الظُّلُمَاتِ</span>",
+            "hinglish": "Andheron mein",
+            "hinglish_meaning": "Andheron mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Andheron mein",
+              "en": "In the darknesses",
+              "ur": "اندھیروں میں",
+              "hi": "अंधेरों में / अंधकार में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w42",
+            "arabic": "فِي السَّمَاوَاتِ",
+            "arabic_text": "فِي السَّمَاوَاتِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">السَّمَاوَاتِ</span>",
+            "hinglish": "Aasmanon mein",
+            "hinglish_meaning": "Aasmanon mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aasmanon mein",
+              "en": "In the heavens",
+              "ur": "آسمانوں میں",
+              "hi": "आसमानों में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w43",
+            "arabic": "فِي الْخَمْرِ",
+            "arabic_text": "فِي الْخَمْرِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْخَمْرِ</span>",
+            "hinglish": "Sharab mein",
+            "hinglish_meaning": "Sharab mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Sharab mein",
+              "en": "In intoxicants / wine",
+              "ur": "شراب میں",
+              "hi": "शराब में / मदिरा में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w44",
+            "arabic": "فِي ذَلِكَ",
+            "arabic_text": "فِي ذَلِكَ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">ذَلِكَ</span>",
+            "hinglish": "Us mein",
+            "hinglish_meaning": "Us mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us mein",
+              "en": "In that",
+              "ur": "اس میں",
+              "hi": "उसमें",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w45",
+            "arabic": "فِي الْأَمْوَالِ",
+            "arabic_text": "فِي الْأَمْوَالِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْأَمْوَالِ</span>",
+            "hinglish": "Maalon mein",
+            "hinglish_meaning": "Maalon mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Maalon mein",
+              "en": "In wealth / properties",
+              "ur": "مالوں میں / دولت میں",
+              "hi": "मालों में / धन में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w46",
+            "arabic": "فِي الصُّدُورِ",
+            "arabic_text": "فِي الصُّدُورِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الصُّدُورِ</span>",
+            "hinglish": "Seenon mein",
+            "hinglish_meaning": "Seenon mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Seenon mein",
+              "en": "In the breasts / hearts",
+              "ur": "سینوں میں / دلوں میں",
+              "hi": "सीनों में / दिलों में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w47",
+            "arabic": "فِي الْقُبُورِ",
+            "arabic_text": "فِي الْقُبُورِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْقُبُورِ</span>",
+            "hinglish": "Qabron mein",
+            "hinglish_meaning": "Qabron mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Qabron mein",
+              "en": "In the graves",
+              "ur": "قبروں میں",
+              "hi": "क़ब्रों में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w48",
+            "arabic": "فِي الْخَيْرَاتِ",
+            "arabic_text": "فِي الْخَيْرَاتِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْخَيْرَاتِ</span>",
+            "hinglish": "Bhalaion mein",
+            "hinglish_meaning": "Bhalaion mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bhalaion mein",
+              "en": "In good deeds / virtues",
+              "ur": "بھلائیوں میں / نیکیوں میں",
+              "hi": "भलाइयों में / नेकियों में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w49",
+            "arabic": "فِي هَذَا",
+            "arabic_text": "فِي هَذَا",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">هَذَا</span>",
+            "hinglish": "Iss mein",
+            "hinglish_meaning": "Iss mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Iss mein",
+              "en": "In this",
+              "ur": "اس میں",
+              "hi": "इसमें",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g6_w50",
+            "arabic": "فِي الْمَسَاجِدِ",
+            "arabic_text": "فِي الْمَسَاجِدِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْمَسَاجِدِ</span>",
+            "hinglish": "Masjidon mein",
+            "hinglish_meaning": "Masjidon mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Masjidon mein",
+              "en": "In the mosques",
+              "ur": "مسجدوں میں",
+              "hi": "मस्जिदों में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l3_r7",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Agar (فِي) ke baad do ya teen alfaaz 'Waw' (وَ) se jud kar aayein, toh unka tarjuma milaakar hota hai. iss baat ko zehan mein rakh kar neeche di gayi aasaan Qur'ani ibaarat ka tarjuma karein:",
+        "content": "Agar (فِي) ke baad do ya teen alfaaz 'Waw' (وَ) se jud kar aayein, toh unka tarjuma milaakar hota hai. iss baat ko zehan mein rakh kar neeche di gayi aasaan Qur'ani ibaarat ka tarjuma karein:",
+        "hinglish_text": "Agar (فِي) ke baad do ya teen alfaaz 'Waw' (وَ) se jud kar aayein, toh unka tarjuma milaakar hota hai. iss baat ko zehan mein rakh kar neeche di gayi aasaan Qur'ani ibaarat ka tarjuma karein:"
+      }
+    },
+    {
+      "id": "sec_s2l3_g8",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l3_g8_w1",
+            "arabic": "فِي الْعِلْمِ وَالْجِسْمِ",
+            "arabic_text": "فِي الْعِلْمِ وَالْجِسْمِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْعِلْمِ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْجِسْمِ</span>",
+            "hinglish": "Ilm aur jism mein",
+            "hinglish_meaning": "Ilm aur jism mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ilm aur jism mein",
+              "en": "In knowledge and stature (body)",
+              "ur": "علم اور جسم میں",
+              "hi": "इल्म और जिस्म में / ज्ञान और शरीर में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g8_w2",
+            "arabic": "فِي السَّمَاءِ وَالْأَرْضِ",
+            "arabic_text": "فِي السَّمَاءِ وَالْأَرْضِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">السَّمَاءِ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْأَرْضِ</span>",
+            "hinglish": "Aasman aur zameen mein",
+            "hinglish_meaning": "Aasman aur zameen mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aasman aur zameen mein",
+              "en": "In the heaven and the earth",
+              "ur": "آسمان اور زمین میں",
+              "hi": "आसमान और ज़मीन में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g8_w3",
+            "arabic": "فِي الدُّنْيَا وَالْآخِرَةِ",
+            "arabic_text": "فِي الدُّنْيَا وَالْآخِرَةِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الدُّنْيَا</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْآخِرَةِ</span>",
+            "hinglish": "Duniya aur aakhirat mein",
+            "hinglish_meaning": "Duniya aur aakhirat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Duniya aur aakhirat mein",
+              "en": "In this world and the Hereafter",
+              "ur": "دنیا اور آخرت میں",
+              "hi": "दुनिया और आख़िरत में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g8_w4",
+            "arabic": "فِي الْخَمْرِ وَالْمَيْسِرِ",
+            "arabic_text": "فِي الْخَمْرِ وَالْمَيْسِرِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْخَمْرِ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْمَيْسِرِ</span>",
+            "hinglish": "Sharab aur juaye mein",
+            "hinglish_meaning": "Sharab aur juaye mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Sharab aur juaye mein",
+              "en": "In wine and gambling",
+              "ur": "شراب اور جوئے میں",
+              "hi": "शराब और जुए में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g8_w5",
+            "arabic": "فِي الْبَرِّ وَالْبَحْرِ",
+            "arabic_text": "فِي الْبَرِّ وَالْبَحْرِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْبَرِّ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْبَحْرِ</span>",
+            "hinglish": "Khushki aur samundar mein",
+            "hinglish_meaning": "Khushki aur samundar mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Khushki aur samundar mein",
+              "en": "On land and in the sea",
+              "ur": "خشکی اور سمندر میں",
+              "hi": "खुश्की और समुंदर में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g8_w6",
+            "arabic": "فِي السَّمَاوَاتِ وَالْأَرْضِ",
+            "arabic_text": "فِي السَّمَاوَاتِ وَالْأَرْضِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">السَّمَاوَاتِ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْأَرْضِ</span>",
+            "hinglish": "Aasmanon aur zameen mein",
+            "hinglish_meaning": "Aasmanon aur zameen mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aasmanon aur zameen mein",
+              "en": "In the heavens and the earth",
+              "ur": "آسمانوں اور زمین میں",
+              "hi": "आसमानों और ज़मीन में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g8_w7",
+            "arabic": "فِي التَّوْرَاةِ وَالْإِنْجِيلِ وَالْقُرْآنِ",
+            "arabic_text": "فِي التَّوْرَاةِ وَالْإِنْجِيلِ وَالْقُرْآنِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">التَّوْرَاةِ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْإِنْجِيلِ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْقُرْآنِ</span>",
+            "hinglish": "Tawrat aur Injeel aur Qur'an mein",
+            "hinglish_meaning": "Tawrat aur Injeel aur Qur'an mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tawrat aur Injeel aur Qur'an mein",
+              "en": "In the Torah, the Gospel, and the Quran",
+              "ur": "تورات، انجیل اور قرآن میں",
+              "hi": "तौरात, इंजील और क़ुरआन में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g8_w8",
+            "arabic": "فِي السَّرَّاءِ وَالضَّرَّاءِ",
+            "arabic_text": "فِي السَّرَّاءِ وَالضَّرَّاءِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">السَّرَّاءِ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الضَّرَّاءِ</span>",
+            "hinglish": "Khush-haali aur tang-dasti mein",
+            "hinglish_meaning": "Khush-haali aur tang-dasti mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Khush-haali aur tang-dasti mein",
+              "en": "In prosperity and adversity",
+              "ur": "خوشحالی اور تنگی میں",
+              "hi": "खुशहाली और तंगदस्ती में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g8_w9",
+            "arabic": "فِي الْبَأْسَاءِ وَالضَّرَّاءِ",
+            "arabic_text": "فِي الْبَأْسَاءِ وَالضَّرَّاءِ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْبَأْسَاءِ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الضَّرَّاءِ</span>",
+            "hinglish": "Mushkil aur takleef mein",
+            "hinglish_meaning": "Mushkil aur takleef mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Mushkil aur takleef mein",
+              "en": "In hardship and distress",
+              "ur": "مصیبت اور تکلیف میں",
+              "hi": "मुसीबत और तकलीफ़ में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l3_r9",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Agar (فِي) ke baad wala lafz 'Al' (الـ) ke baghair ho toh uska matlab \"kisi\" ya \"ek\" hota hai. Pehli misaal dekh kar neeche di gayi Qur'ani ibaarat ka tarjuma khud karein:",
+        "content": "Agar (فِي) ke baad wala lafz 'Al' (الـ) ke baghair ho toh uska matlab \"kisi\" ya \"ek\" hota hai. Pehli misaal dekh kar neeche di gayi Qur'ani ibaarat ka tarjuma khud karein:",
+        "hinglish_text": "Agar (فِي) ke baad wala lafz 'Al' (الـ) ke baghair ho toh uska matlab \"kisi\" ya \"ek\" hota hai. Pehli misaal dekh kar neeche di gayi Qur'ani ibaarat ka tarjuma khud karein:"
+      }
+    },
+    {
+      "id": "sec_s2l3_g10",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l3_g10_w1",
+            "arabic": "فِي كِتَابٍ",
+            "arabic_text": "فِي كِتَابٍ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">كِتَابٍ</span>",
+            "hinglish": "Kisi kitaab mein",
+            "hinglish_meaning": "Kisi kitaab mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi kitaab mein",
+              "en": "In a book",
+              "ur": "کسی کتاب میں",
+              "hi": "किसी किताब में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g10_w2",
+            "arabic": "فِي عَذَابٍ",
+            "arabic_text": "فِي عَذَابٍ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">عَذَابٍ</span>",
+            "hinglish": "Kisi azab mein",
+            "hinglish_meaning": "Kisi azab mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi azab mein",
+              "en": "In a punishment",
+              "ur": "کسی عذاب میں",
+              "hi": "किसी अज़ाब में / किसी यातना में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g10_w3",
+            "arabic": "فِي شَيْءٍ",
+            "arabic_text": "فِي شَيْءٍ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">شَيْءٍ</span>",
+            "hinglish": "Kisi cheez mein",
+            "hinglish_meaning": "Kisi cheez mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi cheez mein",
+              "en": "In anything / In something",
+              "ur": "کسی چیز میں",
+              "hi": "किसी चीज़ में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g10_w4",
+            "arabic": "فِي شَكٍّ",
+            "arabic_text": "فِي شَكٍّ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">شَكٍّ</span>",
+            "hinglish": "Kisi shakk mein",
+            "hinglish_meaning": "Kisi shakk mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi shakk mein",
+              "en": "In a doubt",
+              "ur": "کسی شک میں",
+              "hi": "किसी शक में / किसी संदेह में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g10_w5",
+            "arabic": "فِي ضَلَالٍ",
+            "arabic_text": "فِي ضَلَالٍ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">ضَلَالٍ</span>",
+            "hinglish": "Kisi gumraahi mein",
+            "hinglish_meaning": "Kisi gumraahi mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi gumraahi mein",
+              "en": "In an error / misguidance",
+              "ur": "کسی گمراہی میں",
+              "hi": "کسی گمراہی میں / किसी भटकाव में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g10_w6",
+            "arabic": "فِي يَوْمٍ",
+            "arabic_text": "فِي يَوْمٍ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">يَوْمٍ</span>",
+            "hinglish": "Kisi din mein",
+            "hinglish_meaning": "Kisi din mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi din mein",
+              "en": "In a day",
+              "ur": "کسی دن میں",
+              "hi": "کسی दिन में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g10_w7",
+            "arabic": "فِي غَفْلَةٍ",
+            "arabic_text": "فِي غَفْلَةٍ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">غَفْلَةٍ</span>",
+            "hinglish": "Kisi ghaflat mein",
+            "hinglish_meaning": "Kisi ghaflat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi ghaflat mein",
+              "en": "In heedlessness",
+              "ur": "کسی غفلت میں",
+              "hi": "کسی ग़फ़लत में / बेख़बरी में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g10_w8",
+            "arabic": "فِي رَحْمَةٍ",
+            "arabic_text": "فِي رَحْمَةٍ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">رَحْمَةٍ</span>",
+            "hinglish": "Kisi rahmat mein",
+            "hinglish_meaning": "Kisi rahmat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi rahmat mein",
+              "en": "In mercy",
+              "ur": "کسی رحمت میں",
+              "hi": "کسی रहमत में / कृपा में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g10_w9",
+            "arabic": "فِي لَيْلَةٍ",
+            "arabic_text": "فِي لَيْلَةٍ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">لَيْلَةٍ</span>",
+            "hinglish": "Kisi raat mein",
+            "hinglish_meaning": "Kisi raat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi raat mein",
+              "en": "In a night",
+              "ur": "کسی رات میں",
+              "hi": "کسی रात में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g10_w10",
+            "arabic": "فِي بَحْرٍ",
+            "arabic_text": "فِي بَحْرٍ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">بَحْرٍ</span>",
+            "hinglish": "Kisi samundar mein",
+            "hinglish_meaning": "Kisi samundar mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi samundar mein",
+              "en": "In a sea",
+              "ur": "کسی سمندر میں",
+              "hi": "کسی समुंदर में / सागर में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g10_w11",
+            "arabic": "فِي قَرْيَةٍ",
+            "arabic_text": "فِي قَرْيَةٍ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">قَرْيَةٍ</span>",
+            "hinglish": "Kisi basti mein",
+            "hinglish_meaning": "Kisi basti mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi basti mein",
+              "en": "In a town / village",
+              "ur": "کسی بستی میں",
+              "hi": "کسی बस्ती में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g10_w12",
+            "arabic": "فِي أُمَّةٍ",
+            "arabic_text": "فِي أُمَّةٍ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">أُمَّةٍ</span>",
+            "hinglish": "Kisi ummat mein",
+            "hinglish_meaning": "Kisi ummat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi ummat mein",
+              "en": "In a community / nation",
+              "ur": "کسی امت میں / کسی قوم میں",
+              "hi": "کسی उम्मत में / समुदाय में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g10_w13",
+            "arabic": "فِي لَوْحٍ",
+            "arabic_text": "فِي لَوْحٍ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">لَوْحٍ</span>",
+            "hinglish": "Kisi takhti mein",
+            "hinglish_meaning": "Kisi takhti mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi takhti mein",
+              "en": "In a tablet",
+              "ur": "کسی لوح میں / کسی تختی میں",
+              "hi": "کسی तख़्ती में / पट्टिका में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g10_w14",
+            "arabic": "فِي شِقَاقٍ",
+            "arabic_text": "فِي شِقَاقٍ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">شِقَاقٍ</span>",
+            "hinglish": "Kisi ikhtilaf mein",
+            "hinglish_meaning": "Kisi ikhtilaf mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi ikhtilaf mein",
+              "en": "In dissension / dispute",
+              "ur": "کسی اختلاف میں / مخالفت میں",
+              "hi": "کسی मतभेद में / विरोध में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g10_w15",
+            "arabic": "فِي جَنَّةٍ",
+            "arabic_text": "فِي جَنَّةٍ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">جَنَّةٍ</span>",
+            "hinglish": "Kisi jannat mein",
+            "hinglish_meaning": "Kisi jannat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi jannat mein",
+              "en": "In a garden / Paradise",
+              "ur": "کسی باغ میں / کسی جنت میں",
+              "hi": "کسی जन्नत में / बाग़ में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g10_w16",
+            "arabic": "فِي رَيْبٍ",
+            "arabic_text": "فِي رَيْبٍ",
+            "arabic_markup": "<span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">رَيْبٍ</span>",
+            "hinglish": "Kisi shakk mein",
+            "hinglish_meaning": "Kisi shakk mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi shakk mein",
+              "en": "In a doubt",
+              "ur": "کسی شک میں / شبہے میں",
+              "hi": "کسی शक में / संदेह में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l3_r11",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Agar (فِي) se pehle ta'keed ke liye 'Lam' (لَـ) aaye toh phrase aur matlab dono mein wus'at aur ta'keed paida hoti hai, jise aap khud samajh sakte hain:",
+        "content": "Agar (فِي) se pehle ta'keed ke liye 'Lam' (لَـ) aaye toh phrase aur matlab dono mein wus'at aur ta'keed paida hoti hai, jise aap khud samajh sakte hain:",
+        "hinglish_text": "Agar (فِي) se pehle ta'keed ke liye 'Lam' (لَـ) aaye toh phrase aur matlab dono mein wus'at aur ta'keed paida hoti hai, jise aap khud samajh sakte hain:"
+      }
+    },
+    {
+      "id": "sec_s2l3_g12",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l3_g12_w1",
+            "arabic": "لَفِي نَعِيمٍ",
+            "arabic_text": "لَفِي نَعِيمٍ",
+            "arabic_markup": "<span class=\"nonroot\">لَفِي</span> <span class=\"arabic-root\">نَعِيمٍ</span>",
+            "hinglish": "Yaqeenan ne'mat mein",
+            "hinglish_meaning": "Yaqeenan ne'mat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yaqeenan ne'mat mein",
+              "en": "Truly in bliss / delight",
+              "ur": "یقیناً نعمت میں",
+              "hi": "यक़ीनन नेअमत में / सुख-चैन में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g12_w2",
+            "arabic": "لَفِي خُسْرٍ",
+            "arabic_text": "لَفِي خُسْرٍ",
+            "arabic_markup": "<span class=\"nonroot\">لَفِي</span> <span class=\"arabic-root\">خُسْرٍ</span>",
+            "hinglish": "Yaqeenan ghate mein",
+            "hinglish_meaning": "Yaqeenan ghate mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yaqeenan ghate mein",
+              "en": "Truly in loss",
+              "ur": "یقیناً خسارے میں / گھاٹے میں",
+              "hi": "यक़ीनन नुक़सान में / घाटे में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g12_w3",
+            "arabic": "لَفِي قَوْلٍ",
+            "arabic_text": "لَفِي قَوْلٍ",
+            "arabic_markup": "<span class=\"nonroot\">لَفِي</span> <span class=\"arabic-root\">قَوْلٍ</span>",
+            "hinglish": "Yaqeenan baat mein",
+            "hinglish_meaning": "Yaqeenan baat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yaqeenan baat mein",
+              "en": "Truly in conflicting speech",
+              "ur": "یقیناً بات میں / مختلف قول میں",
+              "hi": "यक़ीनन बात में / मतभेद वाले कथन में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g12_w4",
+            "arabic": "لَفِي شَكٍّ",
+            "arabic_text": "لَفِي شَكٍّ",
+            "arabic_markup": "<span class=\"nonroot\">لَفِي</span> <span class=\"arabic-root\">شَكٍّ</span>",
+            "hinglish": "Yaqeenan shakk mein",
+            "hinglish_meaning": "Yaqeenan shakk mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yaqeenan shakk mein",
+              "en": "Truly in doubt",
+              "ur": "یقیناً شک میں",
+              "hi": "यक़ीनन शक में / संदेह में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g12_w5",
+            "arabic": "لَفِي خَلْقٍ",
+            "arabic_text": "لَفِي خَلْقٍ",
+            "arabic_markup": "<span class=\"nonroot\">لَفِي</span> <span class=\"arabic-root\">خَلْقٍ</span>",
+            "hinglish": "Yaqeenan pedaish mein",
+            "hinglish_meaning": "Yaqeenan pedaish mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yaqeenan pedaish mein",
+              "en": "Truly in a new creation",
+              "ur": "یقیناً نئی پیدائش میں",
+              "hi": "यक़ीनन नई पैदाइश में / नई रचना में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g12_w6",
+            "arabic": "لَفِي شِقَاقٍ",
+            "arabic_text": "لَفِي شِقَاقٍ",
+            "arabic_markup": "<span class=\"nonroot\">لَفِي</span> <span class=\"arabic-root\">شِقَاقٍ</span>",
+            "hinglish": "Yaqeenan dushmani mein",
+            "hinglish_meaning": "Yaqeenan dushmani mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yaqeenan dushmani mein",
+              "en": "Truly in dissension / enmity",
+              "ur": "یقیناً دشمنی میں / کھلی مخالفت میں",
+              "hi": "यक़ीनन दुश्मनी में / विरोध में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g12_w7",
+            "arabic": "لَفِي جَحِيمٍ",
+            "arabic_text": "لَفِي جَحِيمٍ",
+            "arabic_markup": "<span class=\"nonroot\">لَفِي</span> <span class=\"arabic-root\">جَحِيمٍ</span>",
+            "hinglish": "Yaqeenan jahannam mein",
+            "hinglish_meaning": "Yaqeenan jahannam mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yaqeenan jahannam mein",
+              "en": "Truly in Hellfire",
+              "ur": "یقیناً جہنم میں",
+              "hi": "यक़ीनन जहन्नम में / नरक में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_g12_w8",
+            "arabic": "لَفِي ضَلَالٍ",
+            "arabic_text": "لَفِي ضَلَالٍ",
+            "arabic_markup": "<span class=\"nonroot\">لَفِي</span> <span class=\"arabic-root\">ضَلَالٍ</span>",
+            "hinglish": "Yaqeenan gumraahi mein",
+            "hinglish_meaning": "Yaqeenan gumraahi mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yaqeenan gumraahi mein",
+              "en": "Truly in manifest error",
+              "ur": "یقیناً کھلی گمراہی میں",
+              "hi": "यक़ीनन खुली गुमराही में / भटकाव में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l3_g13",
+      "type": "grace_box",
+      "data": {
+        "text": "Allah ki hidayat aur uske fazl se, ab aap neeche di gayi Qur'ani ayaat ko khud samjhne aur tarjuma karne ke qabil hain:"
+      }
+    },
+    {
+      "id": "sec_s2l3_v14",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s2l3_v14_s1",
+            "sentence_number": 1,
+            "arabic": "إِنَّ/ فِي ذَلِكَ/ لَآيَةً",
+            "arabic_text": "إِنَّ/ فِي ذَلِكَ/ لَآيَةً",
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span>/ <span class=\"nonroot\">فِي</span> <span class=\"nonroot\">ذَلِكَ</span>/ <span class=\"nonroot\">لَ</span><span class=\"arabic-root\">آيَةً</span>",
+            "hinglish": "Beshak is mein yaqeenan ek nishani hai",
+            "hinglish_meaning": "Beshak is mein yaqeenan ek nishani hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak is mein yaqeenan ek nishani hai",
+              "ur": "Beshak is mein yaqeenan ek nishani hai",
+              "en": "Beshak is mein yaqeenan ek nishani hai",
+              "hi": "Beshak is mein yaqeenan ek nishani hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_v14_s2",
+            "sentence_number": 2,
+            "arabic": "إِنَّ/ فِي ذَلِكَ/ لَعِبْرَةً",
+            "arabic_text": "إِنَّ/ فِي ذَلِكَ/ لَعِبْرَةً",
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span>/ <span class=\"nonroot\">فِي</span> <span class=\"nonroot\">ذَلِكَ</span>/ <span class=\"nonroot\">لَ</span><span class=\"arabic-root\">عِبْرَةً</span>",
+            "hinglish": "Beshak is mein yaqeenan ek ibrat hai",
+            "hinglish_meaning": "Beshak is mein yaqeenan ek ibrat hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak is mein yaqeenan ek ibrat hai",
+              "ur": "Beshak is mein yaqeenan ek ibrat hai",
+              "en": "Beshak is mein yaqeenan ek ibrat hai",
+              "hi": "Beshak is mein yaqeenan ek ibrat hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_v14_s3",
+            "sentence_number": 3,
+            "arabic": "إِنَّ/ فِي ذَلِكَ/ لَآيَاتٍ",
+            "arabic_text": "إِنَّ/ فِي ذَلِكَ/ لَآيَاتٍ",
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span>/ <span class=\"nonroot\">فِي</span> <span class=\"nonroot\">ذَلِكَ</span>/ <span class=\"arabic-root\">لَآي</span><span class=\"nonroot\">َاتٍ</span>",
+            "hinglish": "Beshak is mein yaqeenan nishaniyan hain",
+            "hinglish_meaning": "Beshak is mein yaqeenan nishaniyan hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak is mein yaqeenan nishaniyan hain",
+              "ur": "Beshak is mein yaqeenan nishaniyan hain",
+              "en": "Beshak is mein yaqeenan nishaniyan hain",
+              "hi": "Beshak is mein yaqeenan nishaniyan hain",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_v14_s4",
+            "sentence_number": 4,
+            "arabic": "إِنَّ/ فِي ذَلِكَ/ لَرَحْمَةً وَذِكْرَى",
+            "arabic_text": "إِنَّ/ فِي ذَلِكَ/ لَرَحْمَةً وَذِكْرَى",
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span>/ <span class=\"nonroot\">فِي</span> <span class=\"nonroot\">ذَلِكَ</span>/ <span class=\"nonroot\">لَ</span><span class=\"arabic-root\">رَحْمَةً</span> <span class=\"arabic-root\">وَذِكْرَى</span>",
+            "hinglish": "Beshak is mein yaqeenan rahmat aur naseehat hai",
+            "hinglish_meaning": "Beshak is mein yaqeenan rahmat aur naseehat hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak is mein yaqeenan rahmat aur naseehat hai",
+              "ur": "Beshak is mein yaqeenan rahmat aur naseehat hai",
+              "en": "Beshak is mein yaqeenan rahmat aur naseehat hai",
+              "hi": "Beshak is mein yaqeenan rahmat aur naseehat hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_v14_s5",
+            "sentence_number": 5,
+            "arabic": "إِنَّ/ فِي ذَلِكَ/ لَذِكْرَى",
+            "arabic_text": "إِنَّ/ فِي ذَلِكَ/ لَذِكْرَى",
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span>/ <span class=\"nonroot\">فِي</span> <span class=\"nonroot\">ذَلِكَ</span>/ <span class=\"nonroot\">لَ</span><span class=\"arabic-root\">ذِكْرَى</span>",
+            "hinglish": "Beshak is mein yaqeenan naseehat hai",
+            "hinglish_meaning": "Beshak is mein yaqeenan naseehat hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak is mein yaqeenan naseehat hai",
+              "ur": "Beshak is mein yaqeenan naseehat hai",
+              "en": "Beshak is mein yaqeenan naseehat hai",
+              "hi": "Beshak is mein yaqeenan naseehat hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_v14_s6",
+            "sentence_number": 6,
+            "arabic": "إِنَّ الْإِنْسَانَ/ لَفِي خُسْرٍ",
+            "arabic_text": "إِنَّ الْإِنْسَانَ/ لَفِي خُسْرٍ",
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">إِنْسَانَ</span>/ <span class=\"nonroot\">لَ</span><span class=\"arabic-root\">فِي</span> <span class=\"arabic-root\">خُسْرٍ</span>",
+            "hinglish": "Beshak insaan yaqeenan ghate mein hai",
+            "hinglish_meaning": "Beshak insaan yaqeenan ghate mein hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak insaan yaqeenan ghate mein hai",
+              "ur": "Beshak insaan yaqeenan ghate mein hai",
+              "en": "Beshak insaan yaqeenan ghate mein hai",
+              "hi": "Beshak insaan yaqeenan ghate mein hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_v14_s7",
+            "sentence_number": 7,
+            "arabic": "إِنَّ ذَلِكَ/ فِي كِتَابٍ",
+            "arabic_text": "إِنَّ ذَلِكَ/ فِي كِتَابٍ",
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"nonroot\">ذَلِكَ</span>/ <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">كِتَابٍ</span>",
+            "hinglish": "Beshak yeh ek kitaab mein hai",
+            "hinglish_meaning": "Beshak yeh ek kitaab mein hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak yeh ek kitaab mein hai",
+              "ur": "Beshak yeh ek kitaab mein hai",
+              "en": "Beshak yeh ek kitaab mein hai",
+              "hi": "Beshak yeh ek kitaab mein hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_v14_s8",
+            "sentence_number": 8,
+            "arabic": "هَلْ/ فِي ذَلِكَ/ قَسَمٌ",
+            "arabic_text": "هَلْ/ فِي ذَلِكَ/ قَسَمٌ",
+            "arabic_markup": "<span class=\"nonroot\">هَلْ</span>/ <span class=\"nonroot\">فِي</span> <span class=\"nonroot\">ذَلِكَ</span>/ <span class=\"arabic-root\">قَسَمٌ</span>",
+            "hinglish": "Kya is mein koi qasam hai?",
+            "hinglish_meaning": "Kya is mein koi qasam hai?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kya is mein koi qasam hai?",
+              "ur": "Kya is mein koi qasam hai?",
+              "en": "Kya is mein koi qasam hai?",
+              "hi": "Kya is mein koi qasam hai?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_v14_s9",
+            "sentence_number": 9,
+            "arabic": "إِنَّ فِي السَّمَاوَاتِ وَالْأَرْضِ لَآيَاتٍ",
+            "arabic_text": "إِنَّ فِي السَّمَاوَاتِ وَالْأَرْضِ لَآيَاتٍ",
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">السَّمَاو</span><span class=\"nonroot\">َاتِ</span> <span class=\"nonroot\">وَالْ</span><span class=\"arabic-root\">أَرْضِ</span> <span class=\"arabic-root\">لَآي</span><span class=\"nonroot\">َاتٍ</span>",
+            "hinglish": "Beshak aasmanon aur zameen mein yaqeenan nishaniyan hain",
+            "hinglish_meaning": "Beshak aasmanon aur zameen mein yaqeenan nishaniyan hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak aasmanon aur zameen mein yaqeenan nishaniyan hain",
+              "ur": "Beshak aasmanon aur zameen mein yaqeenan nishaniyan hain",
+              "en": "Beshak aasmanon aur zameen mein yaqeenan nishaniyan hain",
+              "hi": "Beshak aasmanon aur zameen mein yaqeenan nishaniyan hain",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l3_v14_s10",
+            "sentence_number": 10,
+            "arabic": "فَرِيقٌ فِي الْجَنَّةِ/ وَفَرِيقٌ فِي السَّعِيرِ",
+            "arabic_text": "فَرِيقٌ فِي الْجَنَّةِ/ وَفَرِيقٌ فِي السَّعِيرِ",
+            "arabic_markup": "<span class=\"arabic-root\">فَرِيقٌ</span> <span class=\"nonroot\">فِي</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">جَنَّةِ</span>/ <span class=\"arabic-root\">وَفَرِيقٌ</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">السَّعِيرِ</span>",
+            "hinglish": "Ek giroh jannat mein aur ek giroh bhadakti aag mein hai",
+            "hinglish_meaning": "Ek giroh jannat mein aur ek giroh bhadakti aag mein hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek giroh jannat mein aur ek giroh bhadakti aag mein hai",
+              "ur": "Ek giroh jannat mein aur ek giroh bhadakti aag mein hai",
+              "en": "Ek giroh jannat mein aur ek giroh bhadakti aag mein hai",
+              "hi": "Ek giroh jannat mein aur ek giroh bhadakti aag mein hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "page_start": 56
+}

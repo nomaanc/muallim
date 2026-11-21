@@ -1,0 +1,3950 @@
+{
+  "lesson_id": 4,
+  "title": "Jama Mukassar (Broken Plurals): Ulamaa'u, Hukkaamun",
+  "arabic_Focus": "عَالِمٌ ← عُلَمَاءُ ، حَاكِمٌ ← حُكَّامٌ",
+  "hinglish_Focus": "aalim ← ulama  |  haakim ← hukkaam",
+  "page_numbers": [
+    52,
+    53
+  ],
+  "sections": [
+    {
+      "type": "hero_header",
+      "data": {
+        "arabic": "عَالِمٌ ، حَاكِمٌ ← عُلَمَاءُ ، حُكَّامٌ",
+        "hinglish": "aalim, haakim ← ulama, hukkaam",
+        "arabic_word": "عَالِمٌ ، حَاكِمٌ",
+        "arabic_combined": "عُلَمَاءُ ، حُكَّامٌ",
+        "hinglish_word": "aalim, haakim",
+        "hinglish_combined": "ulama, hukkaam",
+        "title_en": "Lesson 4: Broken Plurals (Jama Mukassar)",
+        "subtitle": "Wahid ke andar tabdeeli se banne waali Jama"
+      },
+      "arabic": "عَالِمٌ ، حَاكِمٌ ← عُلَمَاءُ ، حُكَّامٌ",
+      "hinglish": "aalim, haakim ← ulama, hukkaam",
+      "arabic_word": "عَالِمٌ ، حَاكِمٌ",
+      "arabic_combined": "عُلَمَاءُ ، حُكَّامٌ",
+      "hinglish_word": "aalim, haakim",
+      "hinglish_combined": "ulama, hukkaam",
+      "title_en": "Lesson 4: Broken Plurals (Jama Mukassar)",
+      "subtitle": "Wahid ke andar tabdeeli se banne waali Jama"
+    },
+    {
+      "type": "intro_table",
+      "title": "Darj-e-zail misaalon mein wahid se jama banne ke tareeqe par ghaur karein:",
+      "headers": [
+        "Misaal",
+        "Column 1 (Wahid)",
+        "Ma'na",
+        "Column 2 (Jama Mukassar)",
+        "Ma'na"
+      ],
+      "rows": [
+        [
+          "Misaal 1",
+          "نَبِيٌّ",
+          "nabi",
+          "أَنْبِيَاءُ",
+          "anbiya (sab nabi)"
+        ],
+        [
+          "Misaal 2",
+          "عَالِمٌ",
+          "aalim",
+          "عُلَمَاءُ",
+          "ulama (sab aalim)"
+        ],
+        [
+          "Misaal 3",
+          "حَاكِمٌ",
+          "haakim",
+          "حُكَّامٌ",
+          "hukkaam (sab haakim)"
+        ]
+      ],
+      "data": {
+        "title": "Darj-e-zail misaalon mein wahid se jama banne ke tareeqe par ghaur karein:",
+        "headers": [
+          "Misaal",
+          "Column 1 (Wahid)",
+          "Ma'na",
+          "Column 2 (Jama Mukassar)",
+          "Ma'na"
+        ],
+        "rows": [
+          [
+            "Misaal 1",
+            "نَبِيٌّ",
+            "nabi",
+            "أَنْبِيَاءُ",
+            "anbiya (sab nabi)"
+          ],
+          [
+            "Misaal 2",
+            "عَالِمٌ",
+            "aalim",
+            "عُلَمَاءُ",
+            "ulama (sab aalim)"
+          ],
+          [
+            "Misaal 3",
+            "حَاكِمٌ",
+            "haakim",
+            "حُكَّامٌ",
+            "hukkaam (sab haakim)"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "rule_paragraph",
+      "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0 18px 0;text-align:center;\">\n<svg viewBox=\"0 0 800 236\" width=\"100%\" style=\"max-width:800px;height:auto;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.08);background:#ffffff;border:1px solid #e2e8f0;\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"hdrGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n      <stop offset=\"0%\" stop-color=\"#0f766e\"/>\n      <stop offset=\"100%\" stop-color=\"#047857\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"58\" rx=\"16\" fill=\"url(#hdrGrad)\"/>\n  <rect y=\"42\" width=\"800\" height=\"16\" fill=\"url(#hdrGrad)\"/>\n  <text x=\"400\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#ffffff\">Unit 5 • Sabaq 4 (Page 52): Jama Mukassar (Broken Plurals)</text>\n  <text x=\"400\" y=\"46\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ccfbf1\">عَالِمٌ ← عُلَمَاءُ (ulama)  |  حَاكِمٌ ← حُكَّامٌ (hukkaam)</text>\n  <rect x=\"18\" y=\"14\" width=\"110\" height=\"28\" rx=\"14\" fill=\"rgba(255,255,255,0.18)\"/>\n  <text x=\"73\" y=\"32\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#ffffff\">S5L4 • Pages 52–53</text>\n  \n        <g transform=\"translate(20, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">نَبِيٌّ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#059669\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#059669\" direction=\"rtl\">أَنْبِيَاءُ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">nabi → anbiya</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Lafz ke andar tabdeeli</text>\n        </g>\n        <g transform=\"translate(280, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f0f9ff\" stroke=\"#0284c7\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">عَالِمٌ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#0284c7\" direction=\"rtl\">عُلَمَاءُ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">aalim → ulama</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Fu'alaa pattern</text>\n        </g>\n        <g transform=\"translate(540, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f5f3ff\" stroke=\"#7c3aed\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">حَاكِمٌ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#7c3aed\" direction=\"rtl\">حُكَّامٌ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">haakim → hukkaam</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Fu''aal pattern</text>\n        </g>\n  <rect x=\"30\" y=\"202\" width=\"740\" height=\"24\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"218\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#334155\">Qaa'ida: Ba'z alfaaz ki jama aakhir mein (ـُونَ) lagaaye baghair wahid lafz ke andar tabdeeli se banti hai (Jama Mukassar).</text>\n</svg>\n</div>Pehle column ke teenon alfaaz aap parh chuke hain. Doosre column mein unhi alfaaz ki jama banaayi gayi hai, lekin guzishta sabaq ki tarah unke aakhir mein (وْنَ) nahin lagaaya gaya balke wahid ke lafz mein hi tabdeeli ya kuchh huroof ke izaafe se jama bani hai. Inhein yaad kar lijiye:",
+      "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0 18px 0;text-align:center;\">\n<svg viewBox=\"0 0 800 236\" width=\"100%\" style=\"max-width:800px;height:auto;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.08);background:#ffffff;border:1px solid #e2e8f0;\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"hdrGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n      <stop offset=\"0%\" stop-color=\"#0f766e\"/>\n      <stop offset=\"100%\" stop-color=\"#047857\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"58\" rx=\"16\" fill=\"url(#hdrGrad)\"/>\n  <rect y=\"42\" width=\"800\" height=\"16\" fill=\"url(#hdrGrad)\"/>\n  <text x=\"400\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#ffffff\">Unit 5 • Sabaq 4 (Page 52): Jama Mukassar (Broken Plurals)</text>\n  <text x=\"400\" y=\"46\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ccfbf1\">عَالِمٌ ← عُلَمَاءُ (ulama)  |  حَاكِمٌ ← حُكَّامٌ (hukkaam)</text>\n  <rect x=\"18\" y=\"14\" width=\"110\" height=\"28\" rx=\"14\" fill=\"rgba(255,255,255,0.18)\"/>\n  <text x=\"73\" y=\"32\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#ffffff\">S5L4 • Pages 52–53</text>\n  \n        <g transform=\"translate(20, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">نَبِيٌّ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#059669\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#059669\" direction=\"rtl\">أَنْبِيَاءُ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">nabi → anbiya</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Lafz ke andar tabdeeli</text>\n        </g>\n        <g transform=\"translate(280, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f0f9ff\" stroke=\"#0284c7\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">عَالِمٌ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#0284c7\" direction=\"rtl\">عُلَمَاءُ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">aalim → ulama</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Fu'alaa pattern</text>\n        </g>\n        <g transform=\"translate(540, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f5f3ff\" stroke=\"#7c3aed\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">حَاكِمٌ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#7c3aed\" direction=\"rtl\">حُكَّامٌ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">haakim → hukkaam</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Fu''aal pattern</text>\n        </g>\n  <rect x=\"30\" y=\"202\" width=\"740\" height=\"24\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"218\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#334155\">Qaa'ida: Ba'z alfaaz ki jama aakhir mein (ـُونَ) lagaaye baghair wahid lafz ke andar tabdeeli se banti hai (Jama Mukassar).</text>\n</svg>\n</div>Pehle column ke teenon alfaaz aap parh chuke hain. Doosre column mein unhi alfaaz ki jama banaayi gayi hai, lekin guzishta sabaq ki tarah unke aakhir mein (وْنَ) nahin lagaaya gaya balke wahid ke lafz mein hi tabdeeli ya kuchh huroof ke izaafe se jama bani hai. Inhein yaad kar lijiye:",
+      "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0 18px 0;text-align:center;\">\n<svg viewBox=\"0 0 800 236\" width=\"100%\" style=\"max-width:800px;height:auto;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.08);background:#ffffff;border:1px solid #e2e8f0;\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"hdrGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n      <stop offset=\"0%\" stop-color=\"#0f766e\"/>\n      <stop offset=\"100%\" stop-color=\"#047857\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"58\" rx=\"16\" fill=\"url(#hdrGrad)\"/>\n  <rect y=\"42\" width=\"800\" height=\"16\" fill=\"url(#hdrGrad)\"/>\n  <text x=\"400\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#ffffff\">Unit 5 • Sabaq 4 (Page 52): Jama Mukassar (Broken Plurals)</text>\n  <text x=\"400\" y=\"46\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ccfbf1\">عَالِمٌ ← عُلَمَاءُ (ulama)  |  حَاكِمٌ ← حُكَّامٌ (hukkaam)</text>\n  <rect x=\"18\" y=\"14\" width=\"110\" height=\"28\" rx=\"14\" fill=\"rgba(255,255,255,0.18)\"/>\n  <text x=\"73\" y=\"32\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#ffffff\">S5L4 • Pages 52–53</text>\n  \n        <g transform=\"translate(20, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">نَبِيٌّ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#059669\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#059669\" direction=\"rtl\">أَنْبِيَاءُ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">nabi → anbiya</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Lafz ke andar tabdeeli</text>\n        </g>\n        <g transform=\"translate(280, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f0f9ff\" stroke=\"#0284c7\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">عَالِمٌ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#0284c7\" direction=\"rtl\">عُلَمَاءُ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">aalim → ulama</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Fu'alaa pattern</text>\n        </g>\n        <g transform=\"translate(540, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f5f3ff\" stroke=\"#7c3aed\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">حَاكِمٌ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#7c3aed\" direction=\"rtl\">حُكَّامٌ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">haakim → hukkaam</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Fu''aal pattern</text>\n        </g>\n  <rect x=\"30\" y=\"202\" width=\"740\" height=\"24\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"218\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#334155\">Qaa'ida: Ba'z alfaaz ki jama aakhir mein (ـُونَ) lagaaye baghair wahid lafz ke andar tabdeeli se banti hai (Jama Mukassar).</text>\n</svg>\n</div>Pehle column ke teenon alfaaz aap parh chuke hain. Doosre column mein unhi alfaaz ki jama banaayi gayi hai, lekin guzishta sabaq ki tarah unke aakhir mein (وْنَ) nahin lagaaya gaya balke wahid ke lafz mein hi tabdeeli ya kuchh huroof ke izaafe se jama bani hai. Inhein yaad kar lijiye:",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0 18px 0;text-align:center;\">\n<svg viewBox=\"0 0 800 236\" width=\"100%\" style=\"max-width:800px;height:auto;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.08);background:#ffffff;border:1px solid #e2e8f0;\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"hdrGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n      <stop offset=\"0%\" stop-color=\"#0f766e\"/>\n      <stop offset=\"100%\" stop-color=\"#047857\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"58\" rx=\"16\" fill=\"url(#hdrGrad)\"/>\n  <rect y=\"42\" width=\"800\" height=\"16\" fill=\"url(#hdrGrad)\"/>\n  <text x=\"400\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#ffffff\">Unit 5 • Sabaq 4 (Page 52): Jama Mukassar (Broken Plurals)</text>\n  <text x=\"400\" y=\"46\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ccfbf1\">عَالِمٌ ← عُلَمَاءُ (ulama)  |  حَاكِمٌ ← حُكَّامٌ (hukkaam)</text>\n  <rect x=\"18\" y=\"14\" width=\"110\" height=\"28\" rx=\"14\" fill=\"rgba(255,255,255,0.18)\"/>\n  <text x=\"73\" y=\"32\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#ffffff\">S5L4 • Pages 52–53</text>\n  \n        <g transform=\"translate(20, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">نَبِيٌّ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#059669\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#059669\" direction=\"rtl\">أَنْبِيَاءُ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">nabi → anbiya</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Lafz ke andar tabdeeli</text>\n        </g>\n        <g transform=\"translate(280, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f0f9ff\" stroke=\"#0284c7\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">عَالِمٌ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#0284c7\" direction=\"rtl\">عُلَمَاءُ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">aalim → ulama</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Fu'alaa pattern</text>\n        </g>\n        <g transform=\"translate(540, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f5f3ff\" stroke=\"#7c3aed\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">حَاكِمٌ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#7c3aed\" direction=\"rtl\">حُكَّامٌ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">haakim → hukkaam</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Fu''aal pattern</text>\n        </g>\n  <rect x=\"30\" y=\"202\" width=\"740\" height=\"24\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"218\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#334155\">Qaa'ida: Ba'z alfaaz ki jama aakhir mein (ـُونَ) lagaaye baghair wahid lafz ke andar tabdeeli se banti hai (Jama Mukassar).</text>\n</svg>\n</div>Pehle column ke teenon alfaaz aap parh chuke hain. Doosre column mein unhi alfaaz ki jama banaayi gayi hai, lekin guzishta sabaq ki tarah unke aakhir mein (وْنَ) nahin lagaaya gaya balke wahid ke lafz mein hi tabdeeli ya kuchh huroof ke izaafe se jama bani hai. Inhein yaad kar lijiye:",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0 18px 0;text-align:center;\">\n<svg viewBox=\"0 0 800 236\" width=\"100%\" style=\"max-width:800px;height:auto;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.08);background:#ffffff;border:1px solid #e2e8f0;\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"hdrGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n      <stop offset=\"0%\" stop-color=\"#0f766e\"/>\n      <stop offset=\"100%\" stop-color=\"#047857\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"58\" rx=\"16\" fill=\"url(#hdrGrad)\"/>\n  <rect y=\"42\" width=\"800\" height=\"16\" fill=\"url(#hdrGrad)\"/>\n  <text x=\"400\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#ffffff\">Unit 5 • Sabaq 4 (Page 52): Jama Mukassar (Broken Plurals)</text>\n  <text x=\"400\" y=\"46\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ccfbf1\">عَالِمٌ ← عُلَمَاءُ (ulama)  |  حَاكِمٌ ← حُكَّامٌ (hukkaam)</text>\n  <rect x=\"18\" y=\"14\" width=\"110\" height=\"28\" rx=\"14\" fill=\"rgba(255,255,255,0.18)\"/>\n  <text x=\"73\" y=\"32\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#ffffff\">S5L4 • Pages 52–53</text>\n  \n        <g transform=\"translate(20, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">نَبِيٌّ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#059669\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#059669\" direction=\"rtl\">أَنْبِيَاءُ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">nabi → anbiya</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Lafz ke andar tabdeeli</text>\n        </g>\n        <g transform=\"translate(280, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f0f9ff\" stroke=\"#0284c7\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">عَالِمٌ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#0284c7\" direction=\"rtl\">عُلَمَاءُ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">aalim → ulama</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Fu'alaa pattern</text>\n        </g>\n        <g transform=\"translate(540, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f5f3ff\" stroke=\"#7c3aed\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">حَاكِمٌ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#7c3aed\" direction=\"rtl\">حُكَّامٌ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">haakim → hukkaam</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Fu''aal pattern</text>\n        </g>\n  <rect x=\"30\" y=\"202\" width=\"740\" height=\"24\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"218\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#334155\">Qaa'ida: Ba'z alfaaz ki jama aakhir mein (ـُونَ) lagaaye baghair wahid lafz ke andar tabdeeli se banti hai (Jama Mukassar).</text>\n</svg>\n</div>Pehle column ke teenon alfaaz aap parh chuke hain. Doosre column mein unhi alfaaz ki jama banaayi gayi hai, lekin guzishta sabaq ki tarah unke aakhir mein (وْنَ) nahin lagaaya gaya balke wahid ke lafz mein hi tabdeeli ya kuchh huroof ke izaafe se jama bani hai. Inhein yaad kar lijiye:",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0 18px 0;text-align:center;\">\n<svg viewBox=\"0 0 800 236\" width=\"100%\" style=\"max-width:800px;height:auto;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.08);background:#ffffff;border:1px solid #e2e8f0;\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"hdrGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n      <stop offset=\"0%\" stop-color=\"#0f766e\"/>\n      <stop offset=\"100%\" stop-color=\"#047857\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"58\" rx=\"16\" fill=\"url(#hdrGrad)\"/>\n  <rect y=\"42\" width=\"800\" height=\"16\" fill=\"url(#hdrGrad)\"/>\n  <text x=\"400\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#ffffff\">Unit 5 • Sabaq 4 (Page 52): Jama Mukassar (Broken Plurals)</text>\n  <text x=\"400\" y=\"46\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ccfbf1\">عَالِمٌ ← عُلَمَاءُ (ulama)  |  حَاكِمٌ ← حُكَّامٌ (hukkaam)</text>\n  <rect x=\"18\" y=\"14\" width=\"110\" height=\"28\" rx=\"14\" fill=\"rgba(255,255,255,0.18)\"/>\n  <text x=\"73\" y=\"32\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#ffffff\">S5L4 • Pages 52–53</text>\n  \n        <g transform=\"translate(20, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">نَبِيٌّ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#059669\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#059669\" direction=\"rtl\">أَنْبِيَاءُ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">nabi → anbiya</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Lafz ke andar tabdeeli</text>\n        </g>\n        <g transform=\"translate(280, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f0f9ff\" stroke=\"#0284c7\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">عَالِمٌ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#0284c7\" direction=\"rtl\">عُلَمَاءُ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">aalim → ulama</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Fu'alaa pattern</text>\n        </g>\n        <g transform=\"translate(540, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f5f3ff\" stroke=\"#7c3aed\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">حَاكِمٌ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#7c3aed\" direction=\"rtl\">حُكَّامٌ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">haakim → hukkaam</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Fu''aal pattern</text>\n        </g>\n  <rect x=\"30\" y=\"202\" width=\"740\" height=\"24\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"218\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#334155\">Qaa'ida: Ba'z alfaaz ki jama aakhir mein (ـُونَ) lagaaye baghair wahid lafz ke andar tabdeeli se banti hai (Jama Mukassar).</text>\n</svg>\n</div>Pehle column ke teenon alfaaz aap parh chuke hain. Doosre column mein unhi alfaaz ki jama banaayi gayi hai, lekin guzishta sabaq ki tarah unke aakhir mein (وْنَ) nahin lagaaya gaya balke wahid ke lafz mein hi tabdeeli ya kuchh huroof ke izaafe se jama bani hai. Inhein yaad kar lijiye:"
+      }
+    },
+    {
+      "type": "section_label",
+      "text": "1. Wahid ← Jama Mukassar ke Mashhoor Qur'ani Alfaaz (42 Pairs)",
+      "title": "1. Wahid ← Jama Mukassar ke Mashhoor Qur'ani Alfaaz (42 Pairs)",
+      "label": "1. Wahid ← Jama Mukassar ke Mashhoor Qur'ani Alfaaz (42 Pairs)",
+      "data": {
+        "text": "1. Wahid ← Jama Mukassar ke Mashhoor Qur'ani Alfaaz (42 Pairs)",
+        "title": "1. Wahid ← Jama Mukassar ke Mashhoor Qur'ani Alfaaz (42 Pairs)",
+        "label": "1. Wahid ← Jama Mukassar ke Mashhoor Qur'ani Alfaaz (42 Pairs)"
+      }
+    },
+    {
+      "type": "two_col_numbered_list",
+      "is_numbered": false,
+      "items": [
+        {
+          "id": "s5l4_vocab_1",
+          "arabic": "كَافِرٌ : كُفَّار",
+          "hinglish": "kafir : kafir log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "kafir : kafir log",
+            "en": "Disbeliever : Disbelievers",
+            "ur": "کافر : کافر لوگ",
+            "hi": "काफ़िर : काफ़िर लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">كَافِرٌ : </span><span class=\"nonroot\">كُفَّار</span>",
+          "displayOrder": 0,
+          "arabic_text": "كَافِرٌ : كُفَّار"
+        },
+        {
+          "id": "s5l4_vocab_2",
+          "arabic": "عَالِمٌ : عُلَمَاء",
+          "hinglish": "alim : ulema",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "alim : ulema",
+            "en": "Scholar : Scholars",
+            "ur": "عالم : علماء",
+            "hi": "आलिम : उलमा",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">عَالِمٌ : </span><span class=\"nonroot\">عُلَمَاء</span>",
+          "displayOrder": 3,
+          "arabic_text": "عَالِمٌ : عُلَمَاء"
+        },
+        {
+          "id": "s5l4_vocab_3",
+          "arabic": "فَقِيرٌ : فُقَرَاء",
+          "hinglish": "faqeer : ghareeb log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "faqeer : ghareeb log",
+            "en": "Poor : The poor",
+            "ur": "فقیر : فقراء / غریب لوگ",
+            "hi": "फ़क़ीर : फ़ुक़रा / ग़रीब लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">فَقِيرٌ : </span><span class=\"nonroot\">فُقَرَاء</span>",
+          "displayOrder": 6,
+          "arabic_text": "فَقِيرٌ : فُقَرَاء"
+        },
+        {
+          "id": "s5l4_vocab_4",
+          "arabic": "شَرِيكٌ : شُرَكَاء",
+          "hinglish": "shareek : shareekdaar",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "shareek : shareekdaar",
+            "en": "Partner : Partners",
+            "ur": "شریک : شرکاء / شریک دار",
+            "hi": "शरीक : शुरका / साझेदार",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">شَرِيكٌ : </span><span class=\"nonroot\">شُرَكَاء</span>",
+          "displayOrder": 9,
+          "arabic_text": "شَرِيكٌ : شُرَكَاء"
+        },
+        {
+          "id": "s5l4_vocab_5",
+          "arabic": "نَبِيٌّ : أَنْبِيَاء",
+          "hinglish": "nabi : anbiya",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "nabi : anbiya",
+            "en": "Prophet : Prophets",
+            "ur": "نبی : انبیاء",
+            "hi": "नबी : अम्बिया (पैगंबर)",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">نَبِيٌّ : </span><span class=\"nonroot\">أَنْبِيَاء</span>",
+          "displayOrder": 12,
+          "arabic_text": "نَبِيٌّ : أَنْبِيَاء"
+        },
+        {
+          "id": "s5l4_vocab_6",
+          "arabic": "يَتِيمٌ : يَتَامَى",
+          "hinglish": "yateem : yateem log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "yateem : yateem log",
+            "en": "Orphan : Orphans",
+            "ur": "یتیم : یتامیٰ / یتیم لوگ",
+            "hi": "यतीम : यतामा / अनाथ लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">يَتِيمٌ : </span><span class=\"nonroot\">يَتَامَى</span>",
+          "displayOrder": 15,
+          "arabic_text": "يَتِيمٌ : يَتَامَى"
+        },
+        {
+          "id": "s5l4_vocab_7",
+          "arabic": "رَبٌّ : أَرْبَاب",
+          "hinglish": "rabb : paalne wale / maalik",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "rabb : paalne wale / maalik",
+            "en": "Lord : Lords",
+            "ur": "رب : ارباب / پالنے والے",
+            "hi": "रब : अरबाब / पालने वाले",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">رَبٌّ : </span><span class=\"nonroot\">أَرْبَاب</span>",
+          "displayOrder": 18,
+          "arabic_text": "رَبٌّ : أَرْبَاب"
+        },
+        {
+          "id": "s5l4_vocab_8",
+          "arabic": "نَاصِرٌ : أَنْصَار",
+          "hinglish": "madadgaar : madadgaar log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "madadgaar : madadgaar log",
+            "en": "Helper : Helpers",
+            "ur": "مددگار : انصار / مددگار لوگ",
+            "hi": "मददगार : अंसार / मददगार लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">نَاصِرٌ : </span><span class=\"nonroot\">أَنْصَار</span>",
+          "displayOrder": 21,
+          "arabic_text": "نَاصِرٌ : أَنْصَار"
+        },
+        {
+          "id": "s5l4_vocab_9",
+          "arabic": "عَدُوٌّ : أَعْدَاء",
+          "hinglish": "dushman : dushman log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "dushman : dushman log",
+            "en": "Enemy : Enemies",
+            "ur": "دشمن : اعداء / دشمن لوگ",
+            "hi": "दुश्मन : अदा / दुश्मन लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">عَدُوٌّ : </span><span class=\"nonroot\">أَعْدَاء</span>",
+          "displayOrder": 24,
+          "arabic_text": "عَدُوٌّ : أَعْدَاء"
+        },
+        {
+          "id": "s5l4_vocab_10",
+          "arabic": "ابْنٌ : أَبْنَاء",
+          "hinglish": "beta : bete",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "beta : bete",
+            "en": "Son : Sons",
+            "ur": "بیٹا : ابناء / بیٹے",
+            "hi": "बेटा : अबना / बेटे",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">ابْنٌ : </span><span class=\"nonroot\">أَبْنَاء</span>",
+          "displayOrder": 27,
+          "arabic_text": "ابْنٌ : أَبْنَاء"
+        },
+        {
+          "id": "s5l4_vocab_11",
+          "arabic": "رَجُلٌ : رِجَال",
+          "hinglish": "mard : mard log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "mard : mard log",
+            "en": "Man : Men",
+            "ur": "مرد : رجال / مرد لوگ",
+            "hi": "मर्द : रिजाल / पुरुष",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">رَجُلٌ : </span><span class=\"nonroot\">رِجَال</span>",
+          "displayOrder": 30,
+          "arabic_text": "رَجُلٌ : رِجَال"
+        },
+        {
+          "id": "s5l4_vocab_12",
+          "arabic": "وَارِثٌ : وَرَثَة",
+          "hinglish": "waris : wariseen",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "waris : wariseen",
+            "en": "Heir : Heirs",
+            "ur": "وارث : ورثہ / وارثین",
+            "hi": "वारिस : वरसह / वारिस लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">وَارِثٌ : </span><span class=\"nonroot\">وَرَثَة</span>",
+          "displayOrder": 33,
+          "arabic_text": "وَارِثٌ : وَرَثَة"
+        },
+        {
+          "id": "s5l4_vocab_13",
+          "arabic": "كَافِرٌ : كَفَرَة",
+          "hinglish": "kafir : kafir log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "kafir : kafir log",
+            "en": "Disbeliever : Disbelievers",
+            "ur": "کافر : کفرہ / کافر لوگ",
+            "hi": "काफ़िर : कफ़रह / काफ़िर लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">كَافِرٌ : </span><span class=\"nonroot\">كَفَرَة</span>",
+          "displayOrder": 36,
+          "arabic_text": "كَافِرٌ : كَفَرَة"
+        },
+        {
+          "id": "s5l4_vocab_14",
+          "arabic": "رَسُولٌ : رُسُل",
+          "hinglish": "rasool : rasool log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "rasool : rasool log",
+            "en": "Messenger : Messengers",
+            "ur": "رسول : رسل / رسول لوگ",
+            "hi": "रसूल : रुसुल / संदेशवाहक",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">رَسُولٌ : </span><span class=\"nonroot\">رُسُل</span>",
+          "displayOrder": 39,
+          "arabic_text": "رَسُولٌ : رُسُل"
+        },
+        {
+          "id": "s5l4_vocab_15",
+          "arabic": "حَاكِمٌ : حُكَّام",
+          "hinglish": "hakim : hukkaam / faisla karne wale",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "hakim : hukkaam / faisla karne wale",
+            "en": "Ruler / Judge : Rulers / Judges",
+            "ur": "حاکم : حکام / فیصلہ کرنے والے",
+            "hi": "हाकिम : हुक्काम / फ़ैसला करने वाले",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">حَاكِمٌ : </span><span class=\"nonroot\">حُكَّام</span>",
+          "displayOrder": 1,
+          "arabic_text": "حَاكِمٌ : حُكَّام"
+        },
+        {
+          "id": "s5l4_vocab_16",
+          "arabic": "شَهِيدٌ : شُهَدَاء",
+          "hinglish": "shaheed / gawah : shuhada",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "shaheed / gawah : shuhada",
+            "en": "Witness / Martyr : Witnesses / Martyrs",
+            "ur": "شہید / گواہ : شہداء",
+            "hi": "शहीद / गवाह : शुहदा",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">شَهِيدٌ : </span><span class=\"nonroot\">شُهَدَاء</span>",
+          "displayOrder": 4,
+          "arabic_text": "شَهِيدٌ : شُهَدَاء"
+        },
+        {
+          "id": "s5l4_vocab_17",
+          "arabic": "خَلِيفَةٌ : خُلَفَاء",
+          "hinglish": "khalifah : khulafa / janasheen",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "khalifah : khulafa / janasheen",
+            "en": "Successor : Successors",
+            "ur": "خلیفہ : خلفاء / جانشین",
+            "hi": "ख़लीफ़ा : खुलफ़ा / उत्तराधिकारी",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">خَلِيفَةٌ : </span><span class=\"nonroot\">خُلَفَاء</span>",
+          "displayOrder": 7,
+          "arabic_text": "خَلِيفَةٌ : خُلَفَاء"
+        },
+        {
+          "id": "s5l4_vocab_18",
+          "arabic": "سَفِيهٌ : سُفَهَاء",
+          "hinglish": "be-waqoof : be-waqoof log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "be-waqoof : be-waqoof log",
+            "en": "Foolish : The foolish",
+            "ur": "بےوقوف : سفہاء / بےوقوف لوگ",
+            "hi": "बेवक़ूफ़ : सुफ़हा / बेवक़ूफ़ लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">سَفِيهٌ : </span><span class=\"nonroot\">سُفَهَاء</span>",
+          "displayOrder": 10,
+          "arabic_text": "سَفِيهٌ : سُفَهَاء"
+        },
+        {
+          "id": "s5l4_vocab_19",
+          "arabic": "وَلِيٌّ : أَوْلِيَاء",
+          "hinglish": "dost : auliya / dost log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "dost : auliya / dost log",
+            "en": "Protector / Friend : Protectors / Friends",
+            "ur": "دوست / سرپرست : اولیاء",
+            "hi": "दोस्त / संरक्षक : औलिया",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">وَلِيٌّ : </span><span class=\"nonroot\">أَوْلِيَاء</span>",
+          "displayOrder": 13,
+          "arabic_text": "وَلِيٌّ : أَوْلِيَاء"
+        },
+        {
+          "id": "s5l4_vocab_20",
+          "arabic": "حَبِيبٌ : أَحِبَّاء",
+          "hinglish": "pyara : pyare log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "pyara : pyare log",
+            "en": "Beloved : Beloved ones",
+            "ur": "پیارا / محبوب : احباء / پیارے لوگ",
+            "hi": "प्यारा / महबूब : अहुब्बा / प्यारे लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">حَبِيبٌ : </span><span class=\"nonroot\">أَحِبَّاء</span>",
+          "displayOrder": 16,
+          "arabic_text": "حَبِيبٌ : أَحِبَّاء"
+        },
+        {
+          "id": "s5l4_vocab_21",
+          "arabic": "نِدٌّ : أَنْدَاد",
+          "hinglish": "shareek : humsar / shareek log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "shareek : humsar / shareek log",
+            "en": "Equal / Peer : Equals / Peers",
+            "ur": "شریک / ہمسر : انداد / شریک لوگ",
+            "hi": "शरीक / समकक्ष : अंद्दाद / साझेदार",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">نِدٌّ : </span><span class=\"nonroot\">أَنْدَاد</span>",
+          "displayOrder": 19,
+          "arabic_text": "نِدٌّ : أَنْدَاد"
+        },
+        {
+          "id": "s5l4_vocab_22",
+          "arabic": "صَاحِبٌ : أَصْحَاب",
+          "hinglish": "saathi : saathi log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "saathi : saathi log",
+            "en": "Companion : Companions",
+            "ur": "ساتھی : اصحاب / ساتھی لوگ",
+            "hi": "साथी : असहाब / साथी लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">صَاحِبٌ : </span><span class=\"nonroot\">أَصْحَاب</span>",
+          "displayOrder": 22,
+          "arabic_text": "صَاحِبٌ : أَصْحَاب"
+        },
+        {
+          "id": "s5l4_vocab_23",
+          "arabic": "أَبٌ : آبَاء",
+          "hinglish": "baap : baap-dada",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "baap : baap-dada",
+            "en": "Father : Forefathers",
+            "ur": "باپ : آباء / باپ دادا",
+            "hi": "बाप : आबा / बाप-दादा",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">أَبٌ : </span><span class=\"nonroot\">آبَاء</span>",
+          "displayOrder": 25,
+          "arabic_text": "أَبٌ : آبَاء"
+        },
+        {
+          "id": "s5l4_vocab_24",
+          "arabic": "بَرٌّ : أَبْرَار",
+          "hinglish": "nek : nek log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "nek : nek log",
+            "en": "Righteous : The righteous",
+            "ur": "نیک : ابرار / نیک لوگ",
+            "hi": "नेक : अबरार / नेक लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">بَرٌّ : </span><span class=\"nonroot\">أَبْرَار</span>",
+          "displayOrder": 28,
+          "arabic_text": "بَرٌّ : أَبْرَار"
+        },
+        {
+          "id": "s5l4_vocab_25",
+          "arabic": "إِلٰهٌ : آلِهَة",
+          "hinglish": "mabood : maboodan",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "mabood : maboodan",
+            "en": "Deity : Deities / False gods",
+            "ur": "معبود : آلہہ / معبودان",
+            "hi": "माबूद : आलिहा / पूज्य",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">إِلٰهٌ : </span><span class=\"nonroot\">آلِهَة</span>",
+          "displayOrder": 31,
+          "arabic_text": "إِلٰهٌ : آلِهَة"
+        },
+        {
+          "id": "s5l4_vocab_26",
+          "arabic": "فَاجِرٌ : فَجَرَة",
+          "hinglish": "badkar : badkar log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "badkar : badkar log",
+            "en": "Wicked : The wicked",
+            "ur": "بدکار : فجرہ / بدکار لوگ",
+            "hi": "बदकार : फ़जरह / दुराचारी लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">فَاجِرٌ : </span><span class=\"nonroot\">فَجَرَة</span>",
+          "displayOrder": 34,
+          "arabic_text": "فَاجِرٌ : فَجَرَة"
+        },
+        {
+          "id": "s5l4_vocab_27",
+          "arabic": "سَاحِرٌ : سَحَرَة",
+          "hinglish": "jadoogar : jadoogar log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "jadoogar : jadoogar log",
+            "en": "Magician : Magicians",
+            "ur": "جادوگر : سحرہ / جادوگر لوگ",
+            "hi": "जादूगर : सहरह / जादूगर लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">سَاحِرٌ : </span><span class=\"nonroot\">سَحَرَة</span>",
+          "displayOrder": 37,
+          "arabic_text": "سَاحِرٌ : سَحَرَة"
+        },
+        {
+          "id": "s5l4_vocab_28",
+          "arabic": "شَيْطَانٌ : شَيَاطِين",
+          "hinglish": "shaitan : shaitan log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "shaitan : shaitan log",
+            "en": "Devil : Devils",
+            "ur": "شیطان : شیاطین",
+            "hi": "शैतान : शयातीन",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">شَيْطَانٌ : </span><span class=\"nonroot\">شَيَاطِين</span>",
+          "displayOrder": 40,
+          "arabic_text": "شَيْطَانٌ : شَيَاطِين"
+        },
+        {
+          "id": "s5l4_vocab_29",
+          "arabic": "فَاجِرٌ : فُجَّار",
+          "hinglish": "badkar : badkar log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "badkar : badkar log",
+            "en": "Wicked : The wicked",
+            "ur": "بدکار : فجار / بدکار لوگ",
+            "hi": "बदकार : फुज्जार / दुराचारी लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">فَاجِرٌ : </span><span class=\"nonroot\">فُجَّار</span>",
+          "displayOrder": 2,
+          "arabic_text": "فَاجِرٌ : فُجَّار"
+        },
+        {
+          "id": "s5l4_vocab_30",
+          "arabic": "ضَعِيفٌ : ضُعَفَاء",
+          "hinglish": "kamzor : kamzor log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "kamzor : kamzor log",
+            "en": "Weak : The weak",
+            "ur": "کمزور : ضعفاء / کمزور لوگ",
+            "hi": "कमज़ोर : ज़ुअफ़ा / कमज़ोर लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">ضَعِيفٌ : </span><span class=\"nonroot\">ضُعَفَاء</span>",
+          "displayOrder": 5,
+          "arabic_text": "ضَعِيفٌ : ضُعَفَاء"
+        },
+        {
+          "id": "s5l4_vocab_31",
+          "arabic": "شَاعِرٌ : شُعَرَاء",
+          "hinglish": "shayer : shayer log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "shayer : shayer log",
+            "en": "Poet : Poets",
+            "ur": "شاعر : شعراء",
+            "hi": "शायर : शुअरा / कवि",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">شَاعِرٌ : </span><span class=\"nonroot\">شُعَرَاء</span>",
+          "displayOrder": 8,
+          "arabic_text": "شَاعِرٌ : شُعَرَاء"
+        },
+        {
+          "id": "s5l4_vocab_32",
+          "arabic": "شَفِيعٌ : شُفَعَاء",
+          "hinglish": "sifarishi : sifarishi log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "sifarishi : sifarishi log",
+            "en": "Intercessor : Intercessors",
+            "ur": "سفارشی : شفعاء",
+            "hi": "सिफ़ारिशी : शुफ़आ / मध्यस्थ",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">شَفِيعٌ : </span><span class=\"nonroot\">شُفَعَاء</span>",
+          "displayOrder": 11,
+          "arabic_text": "شَفِيعٌ : شُفَعَاء"
+        },
+        {
+          "id": "s5l4_vocab_33",
+          "arabic": "غَنِيٌّ : أَغْنِيَاء",
+          "hinglish": "maldar : maldar log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "maldar : maldar log",
+            "en": "Rich : The rich",
+            "ur": "مالدار : اغنیاء / مالدار لوگ",
+            "hi": "मालदार : अग़्निया / धनी लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">غَنِيٌّ : </span><span class=\"nonroot\">أَغْنِيَاء</span>",
+          "displayOrder": 14,
+          "arabic_text": "غَنِيٌّ : أَغْنِيَاء"
+        },
+        {
+          "id": "s5l4_vocab_34",
+          "arabic": "شَدِيدٌ : أَشِدَّاء",
+          "hinglish": "sakht : sakht log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "sakht : sakht log",
+            "en": "Severe / Harsh : Severe / Harsh ones",
+            "ur": "سخت : اشداء / سخت لوگ",
+            "hi": "सख़्त : अशिद्दा / कठोर लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">شَدِيدٌ : </span><span class=\"nonroot\">أَشِدَّاء</span>",
+          "displayOrder": 17,
+          "arabic_text": "شَدِيدٌ : أَشِدَّاء"
+        },
+        {
+          "id": "s5l4_vocab_35",
+          "arabic": "مَيِّتٌ : أَمْوَات",
+          "hinglish": "murda : murda log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "murda : murda log",
+            "en": "Dead : The dead",
+            "ur": "مردہ : اموات / مردہ لوگ",
+            "hi": "मुर्दा : अमवात / मृत लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">مَيِّتٌ : </span><span class=\"nonroot\">أَمْوَات</span>",
+          "displayOrder": 20,
+          "arabic_text": "مَيِّتٌ : أَمْوَات"
+        },
+        {
+          "id": "s5l4_vocab_36",
+          "arabic": "وَلَدٌ : أَوْلَاد",
+          "hinglish": "bachcha : aulad",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "bachcha : aulad",
+            "en": "Child : Children",
+            "ur": "بچہ : اولاد",
+            "hi": "बच्चा : औलाद / संतान",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">وَلَدٌ : </span><span class=\"nonroot\">أَوْلَاد</span>",
+          "displayOrder": 23,
+          "arabic_text": "وَلَدٌ : أَوْلَاد"
+        },
+        {
+          "id": "s5l4_vocab_37",
+          "arabic": "زَوْجٌ : أَزْوَاج",
+          "hinglish": "joda : jode / biwiyan",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "joda : jode / biwiyan",
+            "en": "Spouse / Pair : Spouses / Pairs",
+            "ur": "جوڑا / شریک حیات : ازواج / بیویاں",
+            "hi": "जोड़ा / जीवनसाथी : अज़वाज / पत्नियाँ",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">زَوْجٌ : </span><span class=\"nonroot\">أَزْوَاج</span>",
+          "displayOrder": 26,
+          "arabic_text": "زَوْجٌ : أَزْوَاج"
+        },
+        {
+          "id": "s5l4_vocab_38",
+          "arabic": "عَبْدٌ : عِبَاد",
+          "hinglish": "banda : bande",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "banda : bande",
+            "en": "Servant : Servants",
+            "ur": "بندہ : عباد / بندے",
+            "hi": "बंदा : इबाद / दास",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">عَبْدٌ : </span><span class=\"nonroot\">عِبَاد</span>",
+          "displayOrder": 29,
+          "arabic_text": "عَبْدٌ : عِبَاد"
+        },
+        {
+          "id": "s5l4_vocab_39",
+          "arabic": "أَخٌ : إِخْوَة",
+          "hinglish": "bhai : bhai log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "bhai : bhai log",
+            "en": "Brother : Brothers",
+            "ur": "بھائی : اخوہ / بھائی لوگ",
+            "hi": "भाई : इख़्वह / भाई लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">أَخٌ : </span><span class=\"nonroot\">إِخْوَة</span>",
+          "displayOrder": 32,
+          "arabic_text": "أَخٌ : إِخْوَة"
+        },
+        {
+          "id": "s5l4_vocab_40",
+          "arabic": "أَخٌ : إِخْوَان",
+          "hinglish": "bhai : bhai log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "bhai : bhai log",
+            "en": "Brother : Brothers",
+            "ur": "بھائی : اخوان / بھائی لوگ",
+            "hi": "भाई : इख़्वान / भाई लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">أَخٌ : </span><span class=\"nonroot\">إِخْوَان</span>",
+          "displayOrder": 35,
+          "arabic_text": "أَخٌ : إِخْوَان"
+        },
+        {
+          "id": "s5l4_vocab_41",
+          "arabic": "بَارٌّ : أَبْرَار / بَرَرَة",
+          "hinglish": "nek : nek log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "nek : nek log",
+            "en": "Dutiful / Righteous : Dutiful / Righteous ones",
+            "ur": "نیکوکار : ابرار / بررہ",
+            "hi": "नेकोकार : अबरार / बररह",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">بَارٌّ : </span><span class=\"nonroot\">أَبْرَار / بَرَرَة</span>",
+          "displayOrder": 38,
+          "arabic_text": "بَارٌّ : أَبْرَار / بَرَرَة"
+        },
+        {
+          "id": "s5l4_vocab_42",
+          "arabic": "ذُو : أُولُو",
+          "hinglish": "wala : wale",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "wala : wale",
+            "en": "Owner of : Owners of / Possessors of",
+            "ur": "والا : والے (صاحبان)",
+            "hi": "वाला : वाले (धारक)",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">ذُو : </span><span class=\"nonroot\">أُولُو</span>",
+          "displayOrder": 41,
+          "arabic_text": "ذُو : أُولُو"
+        }
+      ],
+      "data": {
+        "items": [
+          {
+            "id": "s5l4_vocab_1",
+            "arabic": "كَافِرٌ : كُفَّار",
+            "hinglish": "kafir : kafir log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "kafir : kafir log",
+              "en": "Disbeliever : Disbelievers",
+              "ur": "کافر : کافر لوگ",
+              "hi": "काफ़िर : काफ़िर लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">كَافِرٌ : </span><span class=\"nonroot\">كُفَّار</span>",
+            "displayOrder": 0,
+            "arabic_text": "كَافِرٌ : كُفَّار"
+          },
+          {
+            "id": "s5l4_vocab_2",
+            "arabic": "عَالِمٌ : عُلَمَاء",
+            "hinglish": "alim : ulema",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "alim : ulema",
+              "en": "Scholar : Scholars",
+              "ur": "عالم : علماء",
+              "hi": "आलिम : उलमा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَالِمٌ : </span><span class=\"nonroot\">عُلَمَاء</span>",
+            "displayOrder": 3,
+            "arabic_text": "عَالِمٌ : عُلَمَاء"
+          },
+          {
+            "id": "s5l4_vocab_3",
+            "arabic": "فَقِيرٌ : فُقَرَاء",
+            "hinglish": "faqeer : ghareeb log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "faqeer : ghareeb log",
+              "en": "Poor : The poor",
+              "ur": "فقیر : فقراء / غریب لوگ",
+              "hi": "फ़क़ीर : फ़ुक़रा / ग़रीब लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">فَقِيرٌ : </span><span class=\"nonroot\">فُقَرَاء</span>",
+            "displayOrder": 6,
+            "arabic_text": "فَقِيرٌ : فُقَرَاء"
+          },
+          {
+            "id": "s5l4_vocab_4",
+            "arabic": "شَرِيكٌ : شُرَكَاء",
+            "hinglish": "shareek : shareekdaar",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "shareek : shareekdaar",
+              "en": "Partner : Partners",
+              "ur": "شریک : شرکاء / شریک دار",
+              "hi": "शरीक : शुरका / साझेदार",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">شَرِيكٌ : </span><span class=\"nonroot\">شُرَكَاء</span>",
+            "displayOrder": 9,
+            "arabic_text": "شَرِيكٌ : شُرَكَاء"
+          },
+          {
+            "id": "s5l4_vocab_5",
+            "arabic": "نَبِيٌّ : أَنْبِيَاء",
+            "hinglish": "nabi : anbiya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "nabi : anbiya",
+              "en": "Prophet : Prophets",
+              "ur": "نبی : انبیاء",
+              "hi": "नबी : अम्बिया (पैगंबर)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">نَبِيٌّ : </span><span class=\"nonroot\">أَنْبِيَاء</span>",
+            "displayOrder": 12,
+            "arabic_text": "نَبِيٌّ : أَنْبِيَاء"
+          },
+          {
+            "id": "s5l4_vocab_6",
+            "arabic": "يَتِيمٌ : يَتَامَى",
+            "hinglish": "yateem : yateem log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "yateem : yateem log",
+              "en": "Orphan : Orphans",
+              "ur": "یتیم : یتامیٰ / یتیم لوگ",
+              "hi": "यतीम : यतामा / अनाथ लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">يَتِيمٌ : </span><span class=\"nonroot\">يَتَامَى</span>",
+            "displayOrder": 15,
+            "arabic_text": "يَتِيمٌ : يَتَامَى"
+          },
+          {
+            "id": "s5l4_vocab_7",
+            "arabic": "رَبٌّ : أَرْبَاب",
+            "hinglish": "rabb : paalne wale / maalik",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "rabb : paalne wale / maalik",
+              "en": "Lord : Lords",
+              "ur": "رب : ارباب / پالنے والے",
+              "hi": "रब : अरबाब / पालने वाले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رَبٌّ : </span><span class=\"nonroot\">أَرْبَاب</span>",
+            "displayOrder": 18,
+            "arabic_text": "رَبٌّ : أَرْبَاب"
+          },
+          {
+            "id": "s5l4_vocab_8",
+            "arabic": "نَاصِرٌ : أَنْصَار",
+            "hinglish": "madadgaar : madadgaar log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "madadgaar : madadgaar log",
+              "en": "Helper : Helpers",
+              "ur": "مددگار : انصار / مددگار لوگ",
+              "hi": "मददगार : अंसार / मददगार लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">نَاصِرٌ : </span><span class=\"nonroot\">أَنْصَار</span>",
+            "displayOrder": 21,
+            "arabic_text": "نَاصِرٌ : أَنْصَار"
+          },
+          {
+            "id": "s5l4_vocab_9",
+            "arabic": "عَدُوٌّ : أَعْدَاء",
+            "hinglish": "dushman : dushman log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "dushman : dushman log",
+              "en": "Enemy : Enemies",
+              "ur": "دشمن : اعداء / دشمن لوگ",
+              "hi": "दुश्मन : अदा / दुश्मन लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَدُوٌّ : </span><span class=\"nonroot\">أَعْدَاء</span>",
+            "displayOrder": 24,
+            "arabic_text": "عَدُوٌّ : أَعْدَاء"
+          },
+          {
+            "id": "s5l4_vocab_10",
+            "arabic": "ابْنٌ : أَبْنَاء",
+            "hinglish": "beta : bete",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "beta : bete",
+              "en": "Son : Sons",
+              "ur": "بیٹا : ابناء / بیٹے",
+              "hi": "बेटा : अबना / बेटे",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">ابْنٌ : </span><span class=\"nonroot\">أَبْنَاء</span>",
+            "displayOrder": 27,
+            "arabic_text": "ابْنٌ : أَبْنَاء"
+          },
+          {
+            "id": "s5l4_vocab_11",
+            "arabic": "رَجُلٌ : رِجَال",
+            "hinglish": "mard : mard log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "mard : mard log",
+              "en": "Man : Men",
+              "ur": "مرد : رجال / مرد لوگ",
+              "hi": "मर्द : रिजाल / पुरुष",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رَجُلٌ : </span><span class=\"nonroot\">رِجَال</span>",
+            "displayOrder": 30,
+            "arabic_text": "رَجُلٌ : رِجَال"
+          },
+          {
+            "id": "s5l4_vocab_12",
+            "arabic": "وَارِثٌ : وَرَثَة",
+            "hinglish": "waris : wariseen",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "waris : wariseen",
+              "en": "Heir : Heirs",
+              "ur": "وارث : ورثہ / وارثین",
+              "hi": "वारिस : वरसह / वारिस लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَارِثٌ : </span><span class=\"nonroot\">وَرَثَة</span>",
+            "displayOrder": 33,
+            "arabic_text": "وَارِثٌ : وَرَثَة"
+          },
+          {
+            "id": "s5l4_vocab_13",
+            "arabic": "كَافِرٌ : كَفَرَة",
+            "hinglish": "kafir : kafir log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "kafir : kafir log",
+              "en": "Disbeliever : Disbelievers",
+              "ur": "کافر : کفرہ / کافر لوگ",
+              "hi": "काफ़िर : कफ़रह / काफ़िर लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">كَافِرٌ : </span><span class=\"nonroot\">كَفَرَة</span>",
+            "displayOrder": 36,
+            "arabic_text": "كَافِرٌ : كَفَرَة"
+          },
+          {
+            "id": "s5l4_vocab_14",
+            "arabic": "رَسُولٌ : رُسُل",
+            "hinglish": "rasool : rasool log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "rasool : rasool log",
+              "en": "Messenger : Messengers",
+              "ur": "رسول : رسل / رسول لوگ",
+              "hi": "रसूल : रुसुल / संदेशवाहक",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">رَسُولٌ : </span><span class=\"nonroot\">رُسُل</span>",
+            "displayOrder": 39,
+            "arabic_text": "رَسُولٌ : رُسُل"
+          },
+          {
+            "id": "s5l4_vocab_15",
+            "arabic": "حَاكِمٌ : حُكَّام",
+            "hinglish": "hakim : hukkaam / faisla karne wale",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "hakim : hukkaam / faisla karne wale",
+              "en": "Ruler / Judge : Rulers / Judges",
+              "ur": "حاکم : حکام / فیصلہ کرنے والے",
+              "hi": "हाकिम : हुक्काम / फ़ैसला करने वाले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">حَاكِمٌ : </span><span class=\"nonroot\">حُكَّام</span>",
+            "displayOrder": 1,
+            "arabic_text": "حَاكِمٌ : حُكَّام"
+          },
+          {
+            "id": "s5l4_vocab_16",
+            "arabic": "شَهِيدٌ : شُهَدَاء",
+            "hinglish": "shaheed / gawah : shuhada",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "shaheed / gawah : shuhada",
+              "en": "Witness / Martyr : Witnesses / Martyrs",
+              "ur": "شہید / گواہ : شہداء",
+              "hi": "शहीद / गवाह : शुहदा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">شَهِيدٌ : </span><span class=\"nonroot\">شُهَدَاء</span>",
+            "displayOrder": 4,
+            "arabic_text": "شَهِيدٌ : شُهَدَاء"
+          },
+          {
+            "id": "s5l4_vocab_17",
+            "arabic": "خَلِيفَةٌ : خُلَفَاء",
+            "hinglish": "khalifah : khulafa / janasheen",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "khalifah : khulafa / janasheen",
+              "en": "Successor : Successors",
+              "ur": "خلیفہ : خلفاء / جانشین",
+              "hi": "ख़लीफ़ा : खुलफ़ा / उत्तराधिकारी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">خَلِيفَةٌ : </span><span class=\"nonroot\">خُلَفَاء</span>",
+            "displayOrder": 7,
+            "arabic_text": "خَلِيفَةٌ : خُلَفَاء"
+          },
+          {
+            "id": "s5l4_vocab_18",
+            "arabic": "سَفِيهٌ : سُفَهَاء",
+            "hinglish": "be-waqoof : be-waqoof log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "be-waqoof : be-waqoof log",
+              "en": "Foolish : The foolish",
+              "ur": "بےوقوف : سفہاء / بےوقوف لوگ",
+              "hi": "बेवक़ूफ़ : सुफ़हा / बेवक़ूफ़ लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">سَفِيهٌ : </span><span class=\"nonroot\">سُفَهَاء</span>",
+            "displayOrder": 10,
+            "arabic_text": "سَفِيهٌ : سُفَهَاء"
+          },
+          {
+            "id": "s5l4_vocab_19",
+            "arabic": "وَلِيٌّ : أَوْلِيَاء",
+            "hinglish": "dost : auliya / dost log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "dost : auliya / dost log",
+              "en": "Protector / Friend : Protectors / Friends",
+              "ur": "دوست / سرپرست : اولیاء",
+              "hi": "दोस्त / संरक्षक : औलिया",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَلِيٌّ : </span><span class=\"nonroot\">أَوْلِيَاء</span>",
+            "displayOrder": 13,
+            "arabic_text": "وَلِيٌّ : أَوْلِيَاء"
+          },
+          {
+            "id": "s5l4_vocab_20",
+            "arabic": "حَبِيبٌ : أَحِبَّاء",
+            "hinglish": "pyara : pyare log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "pyara : pyare log",
+              "en": "Beloved : Beloved ones",
+              "ur": "پیارا / محبوب : احباء / پیارے لوگ",
+              "hi": "प्यारा / महबूब : अहुब्बा / प्यारे लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">حَبِيبٌ : </span><span class=\"nonroot\">أَحِبَّاء</span>",
+            "displayOrder": 16,
+            "arabic_text": "حَبِيبٌ : أَحِبَّاء"
+          },
+          {
+            "id": "s5l4_vocab_21",
+            "arabic": "نِدٌّ : أَنْدَاد",
+            "hinglish": "shareek : humsar / shareek log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "shareek : humsar / shareek log",
+              "en": "Equal / Peer : Equals / Peers",
+              "ur": "شریک / ہمسر : انداد / شریک لوگ",
+              "hi": "शरीक / समकक्ष : अंद्दाद / साझेदार",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">نِدٌّ : </span><span class=\"nonroot\">أَنْدَاد</span>",
+            "displayOrder": 19,
+            "arabic_text": "نِدٌّ : أَنْدَاد"
+          },
+          {
+            "id": "s5l4_vocab_22",
+            "arabic": "صَاحِبٌ : أَصْحَاب",
+            "hinglish": "saathi : saathi log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "saathi : saathi log",
+              "en": "Companion : Companions",
+              "ur": "ساتھی : اصحاب / ساتھی لوگ",
+              "hi": "साथी : असहाब / साथी लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">صَاحِبٌ : </span><span class=\"nonroot\">أَصْحَاب</span>",
+            "displayOrder": 22,
+            "arabic_text": "صَاحِبٌ : أَصْحَاب"
+          },
+          {
+            "id": "s5l4_vocab_23",
+            "arabic": "أَبٌ : آبَاء",
+            "hinglish": "baap : baap-dada",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "baap : baap-dada",
+              "en": "Father : Forefathers",
+              "ur": "باپ : آباء / باپ دادا",
+              "hi": "बाप : आबा / बाप-दादा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">أَبٌ : </span><span class=\"nonroot\">آبَاء</span>",
+            "displayOrder": 25,
+            "arabic_text": "أَبٌ : آبَاء"
+          },
+          {
+            "id": "s5l4_vocab_24",
+            "arabic": "بَرٌّ : أَبْرَار",
+            "hinglish": "nek : nek log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "nek : nek log",
+              "en": "Righteous : The righteous",
+              "ur": "نیک : ابرار / نیک لوگ",
+              "hi": "नेक : अबरार / नेक लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">بَرٌّ : </span><span class=\"nonroot\">أَبْرَار</span>",
+            "displayOrder": 28,
+            "arabic_text": "بَرٌّ : أَبْرَار"
+          },
+          {
+            "id": "s5l4_vocab_25",
+            "arabic": "إِلٰهٌ : آلِهَة",
+            "hinglish": "mabood : maboodan",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "mabood : maboodan",
+              "en": "Deity : Deities / False gods",
+              "ur": "معبود : آلہہ / معبودان",
+              "hi": "माबूद : आलिहा / पूज्य",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِلٰهٌ : </span><span class=\"nonroot\">آلِهَة</span>",
+            "displayOrder": 31,
+            "arabic_text": "إِلٰهٌ : آلِهَة"
+          },
+          {
+            "id": "s5l4_vocab_26",
+            "arabic": "فَاجِرٌ : فَجَرَة",
+            "hinglish": "badkar : badkar log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "badkar : badkar log",
+              "en": "Wicked : The wicked",
+              "ur": "بدکار : فجرہ / بدکار لوگ",
+              "hi": "बदकार : फ़जरह / दुराचारी लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">فَاجِرٌ : </span><span class=\"nonroot\">فَجَرَة</span>",
+            "displayOrder": 34,
+            "arabic_text": "فَاجِرٌ : فَجَرَة"
+          },
+          {
+            "id": "s5l4_vocab_27",
+            "arabic": "سَاحِرٌ : سَحَرَة",
+            "hinglish": "jadoogar : jadoogar log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "jadoogar : jadoogar log",
+              "en": "Magician : Magicians",
+              "ur": "جادوگر : سحرہ / جادوگر لوگ",
+              "hi": "जादूगर : सहरह / जादूगर लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">سَاحِرٌ : </span><span class=\"nonroot\">سَحَرَة</span>",
+            "displayOrder": 37,
+            "arabic_text": "سَاحِرٌ : سَحَرَة"
+          },
+          {
+            "id": "s5l4_vocab_28",
+            "arabic": "شَيْطَانٌ : شَيَاطِين",
+            "hinglish": "shaitan : shaitan log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "shaitan : shaitan log",
+              "en": "Devil : Devils",
+              "ur": "شیطان : شیاطین",
+              "hi": "शैतान : शयातीन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">شَيْطَانٌ : </span><span class=\"nonroot\">شَيَاطِين</span>",
+            "displayOrder": 40,
+            "arabic_text": "شَيْطَانٌ : شَيَاطِين"
+          },
+          {
+            "id": "s5l4_vocab_29",
+            "arabic": "فَاجِرٌ : فُجَّار",
+            "hinglish": "badkar : badkar log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "badkar : badkar log",
+              "en": "Wicked : The wicked",
+              "ur": "بدکار : فجار / بدکار لوگ",
+              "hi": "बदकार : फुज्जार / दुराचारी लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">فَاجِرٌ : </span><span class=\"nonroot\">فُجَّار</span>",
+            "displayOrder": 2,
+            "arabic_text": "فَاجِرٌ : فُجَّار"
+          },
+          {
+            "id": "s5l4_vocab_30",
+            "arabic": "ضَعِيفٌ : ضُعَفَاء",
+            "hinglish": "kamzor : kamzor log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "kamzor : kamzor log",
+              "en": "Weak : The weak",
+              "ur": "کمزور : ضعفاء / کمزور لوگ",
+              "hi": "कमज़ोर : ज़ुअफ़ा / कमज़ोर लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">ضَعِيفٌ : </span><span class=\"nonroot\">ضُعَفَاء</span>",
+            "displayOrder": 5,
+            "arabic_text": "ضَعِيفٌ : ضُعَفَاء"
+          },
+          {
+            "id": "s5l4_vocab_31",
+            "arabic": "شَاعِرٌ : شُعَرَاء",
+            "hinglish": "shayer : shayer log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "shayer : shayer log",
+              "en": "Poet : Poets",
+              "ur": "شاعر : شعراء",
+              "hi": "शायर : शुअरा / कवि",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">شَاعِرٌ : </span><span class=\"nonroot\">شُعَرَاء</span>",
+            "displayOrder": 8,
+            "arabic_text": "شَاعِرٌ : شُعَرَاء"
+          },
+          {
+            "id": "s5l4_vocab_32",
+            "arabic": "شَفِيعٌ : شُفَعَاء",
+            "hinglish": "sifarishi : sifarishi log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "sifarishi : sifarishi log",
+              "en": "Intercessor : Intercessors",
+              "ur": "سفارشی : شفعاء",
+              "hi": "सिफ़ारिशी : शुफ़आ / मध्यस्थ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">شَفِيعٌ : </span><span class=\"nonroot\">شُفَعَاء</span>",
+            "displayOrder": 11,
+            "arabic_text": "شَفِيعٌ : شُفَعَاء"
+          },
+          {
+            "id": "s5l4_vocab_33",
+            "arabic": "غَنِيٌّ : أَغْنِيَاء",
+            "hinglish": "maldar : maldar log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "maldar : maldar log",
+              "en": "Rich : The rich",
+              "ur": "مالدار : اغنیاء / مالدار لوگ",
+              "hi": "मालदार : अग़्निया / धनी लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">غَنِيٌّ : </span><span class=\"nonroot\">أَغْنِيَاء</span>",
+            "displayOrder": 14,
+            "arabic_text": "غَنِيٌّ : أَغْنِيَاء"
+          },
+          {
+            "id": "s5l4_vocab_34",
+            "arabic": "شَدِيدٌ : أَشِدَّاء",
+            "hinglish": "sakht : sakht log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "sakht : sakht log",
+              "en": "Severe / Harsh : Severe / Harsh ones",
+              "ur": "سخت : اشداء / سخت لوگ",
+              "hi": "सख़्त : अशिद्दा / कठोर लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">شَدِيدٌ : </span><span class=\"nonroot\">أَشِدَّاء</span>",
+            "displayOrder": 17,
+            "arabic_text": "شَدِيدٌ : أَشِدَّاء"
+          },
+          {
+            "id": "s5l4_vocab_35",
+            "arabic": "مَيِّتٌ : أَمْوَات",
+            "hinglish": "murda : murda log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "murda : murda log",
+              "en": "Dead : The dead",
+              "ur": "مردہ : اموات / مردہ لوگ",
+              "hi": "मुर्दा : अमवात / मृत लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مَيِّتٌ : </span><span class=\"nonroot\">أَمْوَات</span>",
+            "displayOrder": 20,
+            "arabic_text": "مَيِّتٌ : أَمْوَات"
+          },
+          {
+            "id": "s5l4_vocab_36",
+            "arabic": "وَلَدٌ : أَوْلَاد",
+            "hinglish": "bachcha : aulad",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "bachcha : aulad",
+              "en": "Child : Children",
+              "ur": "بچہ : اولاد",
+              "hi": "बच्चा : औलाद / संतान",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَلَدٌ : </span><span class=\"nonroot\">أَوْلَاد</span>",
+            "displayOrder": 23,
+            "arabic_text": "وَلَدٌ : أَوْلَاد"
+          },
+          {
+            "id": "s5l4_vocab_37",
+            "arabic": "زَوْجٌ : أَزْوَاج",
+            "hinglish": "joda : jode / biwiyan",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "joda : jode / biwiyan",
+              "en": "Spouse / Pair : Spouses / Pairs",
+              "ur": "جوڑا / شریک حیات : ازواج / بیویاں",
+              "hi": "जोड़ा / जीवनसाथी : अज़वाज / पत्नियाँ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">زَوْجٌ : </span><span class=\"nonroot\">أَزْوَاج</span>",
+            "displayOrder": 26,
+            "arabic_text": "زَوْجٌ : أَزْوَاج"
+          },
+          {
+            "id": "s5l4_vocab_38",
+            "arabic": "عَبْدٌ : عِبَاد",
+            "hinglish": "banda : bande",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "banda : bande",
+              "en": "Servant : Servants",
+              "ur": "بندہ : عباد / بندے",
+              "hi": "बंदा : इबाद / दास",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَبْدٌ : </span><span class=\"nonroot\">عِبَاد</span>",
+            "displayOrder": 29,
+            "arabic_text": "عَبْدٌ : عِبَاد"
+          },
+          {
+            "id": "s5l4_vocab_39",
+            "arabic": "أَخٌ : إِخْوَة",
+            "hinglish": "bhai : bhai log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "bhai : bhai log",
+              "en": "Brother : Brothers",
+              "ur": "بھائی : اخوہ / بھائی لوگ",
+              "hi": "भाई : इख़्वह / भाई लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">أَخٌ : </span><span class=\"nonroot\">إِخْوَة</span>",
+            "displayOrder": 32,
+            "arabic_text": "أَخٌ : إِخْوَة"
+          },
+          {
+            "id": "s5l4_vocab_40",
+            "arabic": "أَخٌ : إِخْوَان",
+            "hinglish": "bhai : bhai log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "bhai : bhai log",
+              "en": "Brother : Brothers",
+              "ur": "بھائی : اخوان / بھائی لوگ",
+              "hi": "भाई : इख़्वान / भाई लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">أَخٌ : </span><span class=\"nonroot\">إِخْوَان</span>",
+            "displayOrder": 35,
+            "arabic_text": "أَخٌ : إِخْوَان"
+          },
+          {
+            "id": "s5l4_vocab_41",
+            "arabic": "بَارٌّ : أَبْرَار / بَرَرَة",
+            "hinglish": "nek : nek log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "nek : nek log",
+              "en": "Dutiful / Righteous : Dutiful / Righteous ones",
+              "ur": "نیکوکار : ابرار / بررہ",
+              "hi": "नेकोकार : अबरार / बररह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">بَارٌّ : </span><span class=\"nonroot\">أَبْرَار / بَرَرَة</span>",
+            "displayOrder": 38,
+            "arabic_text": "بَارٌّ : أَبْرَار / بَرَرَة"
+          },
+          {
+            "id": "s5l4_vocab_42",
+            "arabic": "ذُو : أُولُو",
+            "hinglish": "wala : wale",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "wala : wale",
+              "en": "Owner of : Owners of / Possessors of",
+              "ur": "والا : والے (صاحبان)",
+              "hi": "वाला : वाले (धारक)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">ذُو : </span><span class=\"nonroot\">أُولُو</span>",
+            "displayOrder": 41,
+            "arabic_text": "ذُو : أُولُو"
+          }
+        ],
+        "is_numbered": false
+      }
+    },
+    {
+      "type": "rule_paragraph",
+      "text": "Ab Jama Mukassar ke alfaaz ke saath Huroof-e-Jaarrah aur Nisbat (Mudaaf–Mudaaf Ilaih) se banne waale Qur'ani qat'aat ka tarjuma kijiye:",
+      "content": "Ab Jama Mukassar ke alfaaz ke saath Huroof-e-Jaarrah aur Nisbat (Mudaaf–Mudaaf Ilaih) se banne waale Qur'ani qat'aat ka tarjuma kijiye:",
+      "hinglish_text": "Ab Jama Mukassar ke alfaaz ke saath Huroof-e-Jaarrah aur Nisbat (Mudaaf–Mudaaf Ilaih) se banne waale Qur'ani qat'aat ka tarjuma kijiye:",
+      "data": {
+        "text": "Ab Jama Mukassar ke alfaaz ke saath Huroof-e-Jaarrah aur Nisbat (Mudaaf–Mudaaf Ilaih) se banne waale Qur'ani qat'aat ka tarjuma kijiye:",
+        "content": "Ab Jama Mukassar ke alfaaz ke saath Huroof-e-Jaarrah aur Nisbat (Mudaaf–Mudaaf Ilaih) se banne waale Qur'ani qat'aat ka tarjuma kijiye:",
+        "hinglish_text": "Ab Jama Mukassar ke alfaaz ke saath Huroof-e-Jaarrah aur Nisbat (Mudaaf–Mudaaf Ilaih) se banne waale Qur'ani qat'aat ka tarjuma kijiye:"
+      }
+    },
+    {
+      "type": "section_label",
+      "text": "2. Jama Mukassar ke Murakkabaat aur Qur'ani Qat'aat (39 Phrases)",
+      "title": "2. Jama Mukassar ke Murakkabaat aur Qur'ani Qat'aat (39 Phrases)",
+      "label": "2. Jama Mukassar ke Murakkabaat aur Qur'ani Qat'aat (39 Phrases)",
+      "data": {
+        "text": "2. Jama Mukassar ke Murakkabaat aur Qur'ani Qat'aat (39 Phrases)",
+        "title": "2. Jama Mukassar ke Murakkabaat aur Qur'ani Qat'aat (39 Phrases)",
+        "label": "2. Jama Mukassar ke Murakkabaat aur Qur'ani Qat'aat (39 Phrases)"
+      }
+    },
+    {
+      "type": "two_col_numbered_list",
+      "is_numbered": false,
+      "items": [
+        {
+          "id": "s5l4_phrases_1",
+          "arabic": "عَلَى الْكُفَّارِ",
+          "hinglish": "kaafiron par",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "kaafiron par",
+            "en": "Upon the disbelievers",
+            "ur": "کافروں پر",
+            "hi": "काफ़िरों पर",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">عَلَى </span><span class=\"nonroot\">الْكُفَّارِ</span>",
+          "displayOrder": 42,
+          "arabic_text": "عَلَى الْكُفَّارِ"
+        },
+        {
+          "id": "s5l4_phrases_2",
+          "arabic": "عَلَى الرُّسُلِ",
+          "hinglish": "rasoolon par",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "rasoolon par",
+            "en": "Upon the messengers",
+            "ur": "رسولوں پر",
+            "hi": "रसूलों पर",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">عَلَى </span><span class=\"nonroot\">الرُّسُلِ</span>",
+          "displayOrder": 43,
+          "arabic_text": "عَلَى الرُّسُلِ"
+        },
+        {
+          "id": "s5l4_phrases_3",
+          "arabic": "عَلَى الضُّعَفَاءِ",
+          "hinglish": "kamzoron par",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "kamzoron par",
+            "en": "Upon the weak",
+            "ur": "کمزوروں پر",
+            "hi": "कमज़ोरों पर",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">عَلَى </span><span class=\"nonroot\">الضُّعَفَاءِ</span>",
+          "displayOrder": 44,
+          "arabic_text": "عَلَى الضُّعَفَاءِ"
+        },
+        {
+          "id": "s5l4_phrases_4",
+          "arabic": "عَلَى الْمَلَائِكَةِ",
+          "hinglish": "farishton par",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "farishton par",
+            "en": "Upon the angels",
+            "ur": "فرشتوں پر",
+            "hi": "फ़रिश्तों पर",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">عَلَى </span><span class=\"nonroot\">الْمَلَائِكَةِ</span>",
+          "displayOrder": 45,
+          "arabic_text": "عَلَى الْمَلَائِكَةِ"
+        },
+        {
+          "id": "s5l4_phrases_5",
+          "arabic": "لِلنَّاسِ",
+          "hinglish": "logon ke liye",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "logon ke liye",
+            "en": "For the people",
+            "ur": "لوگوں کے لیے",
+            "hi": "लोगों के लिए",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">لِ</span><span class=\"nonroot\">لنَّاسِ</span>",
+          "displayOrder": 46,
+          "arabic_text": "لِلنَّاسِ"
+        },
+        {
+          "id": "s5l4_phrases_6",
+          "arabic": "عَلَى الْعِبَادِ",
+          "hinglish": "bandon par",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "bandon par",
+            "en": "Upon the servants",
+            "ur": "بندوں پر",
+            "hi": "बंदों पर",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">عَلَى </span><span class=\"nonroot\">الْعِبَادِ</span>",
+          "displayOrder": 47,
+          "arabic_text": "عَلَى الْعِبَادِ"
+        },
+        {
+          "id": "s5l4_phrases_7",
+          "arabic": "عَلَى النِّسَاءِ",
+          "hinglish": "aurton par",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "aurton par",
+            "en": "Upon the women",
+            "ur": "عورتوں پر",
+            "hi": "औरतों पर",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">عَلَى </span><span class=\"nonroot\">النِّسَاءِ</span>",
+          "displayOrder": 48,
+          "arabic_text": "عَلَى النِّسَاءِ"
+        },
+        {
+          "id": "s5l4_phrases_8",
+          "arabic": "مِنَ الْكُفَّارِ",
+          "hinglish": "kaafiron mein se",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "kaafiron mein se",
+            "en": "From among the disbelievers",
+            "ur": "کافروں میں سے",
+            "hi": "काफ़िरों में से",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">مِنَ </span><span class=\"nonroot\">الْكُفَّارِ</span>",
+          "displayOrder": 49,
+          "arabic_text": "مِنَ الْكُفَّارِ"
+        },
+        {
+          "id": "s5l4_phrases_9",
+          "arabic": "مِنَ الْمَلَائِكَةِ",
+          "hinglish": "farishton mein se",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "farishton mein se",
+            "en": "From among the angels",
+            "ur": "فرشتوں میں سے",
+            "hi": "फ़रिश्तों में से",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">مِنَ </span><span class=\"nonroot\">الْمَلَائِكَةِ</span>",
+          "displayOrder": 50,
+          "arabic_text": "مِنَ الْمَلَائِكَةِ"
+        },
+        {
+          "id": "s5l4_phrases_10",
+          "arabic": "لِلنِّسَاءِ",
+          "hinglish": "aurton ke liye",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "aurton ke liye",
+            "en": "For the women",
+            "ur": "عورتوں کے لیے",
+            "hi": "औरतों के लिए",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">لِ</span><span class=\"nonroot\">لنِّسَاءِ</span>",
+          "displayOrder": 51,
+          "arabic_text": "لِلنِّسَاءِ"
+        },
+        {
+          "id": "s5l4_phrases_11",
+          "arabic": "بِالنَّاسِ",
+          "hinglish": "logon par / logon ke saath",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "logon par / logon ke saath",
+            "en": "To / with the people",
+            "ur": "لوگوں پر / لوگوں کے ساتھ",
+            "hi": "लोगों पर / लोगों के साथ",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">بِ</span><span class=\"nonroot\">النَّاسِ</span>",
+          "displayOrder": 52,
+          "arabic_text": "بِالنَّاسِ"
+        },
+        {
+          "id": "s5l4_phrases_12",
+          "arabic": "لِلْأَبْرَارِ",
+          "hinglish": "nek logon ke liye",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "nek logon ke liye",
+            "en": "For the righteous",
+            "ur": "نیک لوگوں کے لیے",
+            "hi": "नेक लोगों के लिए",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">لِ</span><span class=\"nonroot\">لْأَبْرَارِ</span>",
+          "displayOrder": 53,
+          "arabic_text": "لِلْأَبْرَارِ"
+        },
+        {
+          "id": "s5l4_phrases_13",
+          "arabic": "إِنَّ الْمُلُوكَ",
+          "hinglish": "beshak badshah log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "beshak badshah log",
+            "en": "Indeed, the kings",
+            "ur": "بے شک بادشاہ لوگ",
+            "hi": "बेशक बादशाह लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">إِنَّ </span><span class=\"nonroot\">الْمُلُوكَ</span>",
+          "displayOrder": 54,
+          "arabic_text": "إِنَّ الْمُلُوكَ"
+        },
+        {
+          "id": "s5l4_phrases_14",
+          "arabic": "إِنَّ الْأَبْرَارَ",
+          "hinglish": "beshak nek log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "beshak nek log",
+            "en": "Indeed, the righteous",
+            "ur": "بے شک نیک لوگ",
+            "hi": "बेशक नेक लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">إِنَّ </span><span class=\"nonroot\">الْأَبْرَارَ</span>",
+          "displayOrder": 55,
+          "arabic_text": "إِنَّ الْأَبْرَارَ"
+        },
+        {
+          "id": "s5l4_phrases_15",
+          "arabic": "إِنَّ الْفُجَّارَ",
+          "hinglish": "beshak badkar log",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "beshak badkar log",
+            "en": "Indeed, the wicked",
+            "ur": "بے شک بدکار لوگ",
+            "hi": "बेशक बदकार लोग",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">إِنَّ </span><span class=\"nonroot\">الْفُجَّارَ</span>",
+          "displayOrder": 56,
+          "arabic_text": "إِنَّ الْفُجَّارَ"
+        },
+        {
+          "id": "s5l4_phrases_16",
+          "arabic": "أَصْحَابُ الْجَنَّةِ",
+          "hinglish": "jannat wale",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "jannat wale",
+            "en": "Companions of Paradise",
+            "ur": "جنت والے",
+            "hi": "जन्नत वाले",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">أَصْحَابُ</span> <span class=\"arabic-root\">الْجَنَّةِ</span>",
+          "displayOrder": 57,
+          "arabic_text": "أَصْحَابُ الْجَنَّةِ"
+        },
+        {
+          "id": "s5l4_phrases_17",
+          "arabic": "أَصْحَابُ النَّارِ",
+          "hinglish": "aag wale / dozakhi",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "aag wale / dozakhi",
+            "en": "Companions of the Fire",
+            "ur": "آگ والے / دوزخی",
+            "hi": "आग वाले / दोज़ख़ी",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">أَصْحَابُ</span> <span class=\"arabic-root\">النَّارِ</span>",
+          "displayOrder": 58,
+          "arabic_text": "أَصْحَابُ النَّارِ"
+        },
+        {
+          "id": "s5l4_phrases_18",
+          "arabic": "أَصْحَابُ الْجَحِيمِ",
+          "hinglish": "jahannam wale",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "jahannam wale",
+            "en": "Companions of the Hellfire",
+            "ur": "جہنم والے",
+            "hi": "जहन्नम वाले",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">أَصْحَابُ</span> <span class=\"arabic-root\">الْجَحِيمِ</span>",
+          "displayOrder": 59,
+          "arabic_text": "أَصْحَابُ الْجَحِيمِ"
+        },
+        {
+          "id": "s5l4_phrases_19",
+          "arabic": "أَصْحَابُ الْيَمِينِ",
+          "hinglish": "dayen haath wale",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "dayen haath wale",
+            "en": "Companions of the right",
+            "ur": "دائیں ہاتھ والے",
+            "hi": "दाहिने हाथ वाले",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">أَصْحَابُ</span> <span class=\"arabic-root\">الْيَمِينِ</span>",
+          "displayOrder": 60,
+          "arabic_text": "أَصْحَابُ الْيَمِينِ"
+        },
+        {
+          "id": "s5l4_phrases_20",
+          "arabic": "أَصْحَابُ الْكَهْفِ",
+          "hinglish": "gaar wale",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "gaar wale",
+            "en": "Companions of the Cave",
+            "ur": "غار والے",
+            "hi": "ग़ार वाले",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">أَصْحَابُ</span> <span class=\"arabic-root\">الْكَهْفِ</span>",
+          "displayOrder": 61,
+          "arabic_text": "أَصْحَابُ الْكَهْفِ"
+        },
+        {
+          "id": "s5l4_phrases_21",
+          "arabic": "أَصْحَابُ الْأَعْرَافِ",
+          "hinglish": "aaraf wale",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "aaraf wale",
+            "en": "Companions of the Heights",
+            "ur": "اعراف والے",
+            "hi": "अअराफ़ वाले",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">أَصْحَابُ</span> <span class=\"arabic-root\">الْأَعْرَافِ</span>",
+          "displayOrder": 62,
+          "arabic_text": "أَصْحَابُ الْأَعْرَافِ"
+        },
+        {
+          "id": "s5l4_phrases_22",
+          "arabic": "أَصْحَابُ الْقُبُورِ",
+          "hinglish": "qabron wale",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "qabron wale",
+            "en": "Inhabitants of the graves",
+            "ur": "قبروں والے",
+            "hi": "क़ब्रों वाले",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">أَصْحَابُ</span> <span class=\"arabic-root\">الْقُبُورِ</span>",
+          "displayOrder": 63,
+          "arabic_text": "أَصْحَابُ الْقُبُورِ"
+        },
+        {
+          "id": "s5l4_phrases_23",
+          "arabic": "أَصْحَابُ مُوسَىٰ",
+          "hinglish": "Musa ke saathi",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Musa ke saathi",
+            "en": "Companions of Moses",
+            "ur": "موسیٰ کے ساتھی",
+            "hi": "मूसा के साथी",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">أَصْحَابُ</span> <span class=\"arabic-root\">مُوسَىٰ</span>",
+          "displayOrder": 64,
+          "arabic_text": "أَصْحَابُ مُوسَىٰ"
+        },
+        {
+          "id": "s5l4_phrases_24",
+          "arabic": "أُولُو الْعِلْمِ",
+          "hinglish": "ilm wale",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "ilm wale",
+            "en": "Those of knowledge",
+            "ur": "علم والے",
+            "hi": "इल्म वाले",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">أُولُو</span> <span class=\"arabic-root\">الْعِلْمِ</span>",
+          "displayOrder": 65,
+          "arabic_text": "أُولُو الْعِلْمِ"
+        },
+        {
+          "id": "s5l4_phrases_25",
+          "arabic": "أُولُو الْفَضْلِ",
+          "hinglish": "fazal wale",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "fazal wale",
+            "en": "Those of bounty / virtue",
+            "ur": "فضل والے",
+            "hi": "फ़ज़्ल वाले",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">أُولُو</span> <span class=\"arabic-root\">الْفَضْلِ</span>",
+          "displayOrder": 66,
+          "arabic_text": "أُولُو الْفَضْلِ"
+        },
+        {
+          "id": "s5l4_phrases_26",
+          "arabic": "أُولُو الْعَزْمِ",
+          "hinglish": "himmat wale / pukhta irade wale",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "himmat wale / pukhta irade wale",
+            "en": "Those of determination",
+            "ur": "پختہ ارادے اور ہمت والے",
+            "hi": "हिम्मत और पक्के इरादे वाले",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">أُولُو</span> <span class=\"arabic-root\">الْعَزْمِ</span>",
+          "displayOrder": 67,
+          "arabic_text": "أُولُو الْعَزْمِ"
+        },
+        {
+          "id": "s5l4_phrases_27",
+          "arabic": "أُولُو الْأَلْبَابِ",
+          "hinglish": "aql wale",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "aql wale",
+            "en": "People of understanding",
+            "ur": "عقل والے",
+            "hi": "अक़्ल वाले",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">أُولُو</span> <span class=\"arabic-root\">الْأَلْبَابِ</span>",
+          "displayOrder": 68,
+          "arabic_text": "أُولُو الْأَلْبَابِ"
+        },
+        {
+          "id": "s5l4_phrases_28",
+          "arabic": "أَوْلِيَاءُ اللّٰهِ",
+          "hinglish": "Allah ke dost",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Allah ke dost",
+            "en": "Allies of Allah / Friends of Allah",
+            "ur": "اللہ کے دوست",
+            "hi": "अल्लाह के दोस्त",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">أَوْلِيَاءُ</span> <span class=\"arabic-root\">اللّٰهِ</span>",
+          "displayOrder": 69,
+          "arabic_text": "أَوْلِيَاءُ اللّٰهِ"
+        },
+        {
+          "id": "s5l4_phrases_29",
+          "arabic": "أَنْصَارُ اللّٰهِ",
+          "hinglish": "Allah ke madadgaar",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Allah ke madadgaar",
+            "en": "Helpers of Allah",
+            "ur": "اللہ کے مددگار",
+            "hi": "अल्लाह के मददगार",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">أَنْصَارُ</span> <span class=\"arabic-root\">اللّٰهِ</span>",
+          "displayOrder": 70,
+          "arabic_text": "أَنْصَارُ اللّٰهِ"
+        },
+        {
+          "id": "s5l4_phrases_30",
+          "arabic": "عِبَادُ اللّٰهِ",
+          "hinglish": "Allah ke bande",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Allah ke bande",
+            "en": "Servants of Allah",
+            "ur": "اللہ کے بندے",
+            "hi": "अल्लाह के बंदे",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">عِبَادُ</span> <span class=\"arabic-root\">اللّٰهِ</span>",
+          "displayOrder": 71,
+          "arabic_text": "عِبَادُ اللّٰهِ"
+        },
+        {
+          "id": "s5l4_phrases_31",
+          "arabic": "عِبَادُ الرَّحْمٰنِ",
+          "hinglish": "Rehman ke bande",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Rehman ke bande",
+            "en": "Servants of the Most Merciful",
+            "ur": "رحمٰن کے بندے",
+            "hi": "रहमान के बंदे",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">عِبَادُ</span> <span class=\"arabic-root\">الرَّحْمٰنِ</span>",
+          "displayOrder": 72,
+          "arabic_text": "عِبَادُ الرَّحْمٰنِ"
+        },
+        {
+          "id": "s5l4_phrases_32",
+          "arabic": "أَنْبِيَاءُ اللّٰهِ",
+          "hinglish": "Allah ke nabi",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Allah ke nabi",
+            "en": "Prophets of Allah",
+            "ur": "اللہ کے انبیاء",
+            "hi": "अल्लाह के नबी",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">أَنْبِيَاءُ</span> <span class=\"arabic-root\">اللّٰهِ</span>",
+          "displayOrder": 73,
+          "arabic_text": "أَنْبِيَاءُ اللّٰهِ"
+        },
+        {
+          "id": "s5l4_phrases_33",
+          "arabic": "أَعْدَاءُ اللّٰهِ",
+          "hinglish": "Allah ke dushman",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Allah ke dushman",
+            "en": "Enemies of Allah",
+            "ur": "اللہ کے دشمن",
+            "hi": "अल्लाह کے दुश्मन",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">أَعْدَاءُ</span> <span class=\"arabic-root\">اللّٰهِ</span>",
+          "displayOrder": 74,
+          "arabic_text": "أَعْدَاءُ اللّٰهِ"
+        },
+        {
+          "id": "s5l4_phrases_34",
+          "arabic": "أَوْلِيَاءُ الشَّيْطَانِ",
+          "hinglish": "shaitan ke dost",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "shaitan ke dost",
+            "en": "Allies of Satan",
+            "ur": "شیطان کے دوست",
+            "hi": "शैतान के दोस्त",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">أَوْلِيَاءُ</span> <span class=\"arabic-root\">الشَّيْطَانِ</span>",
+          "displayOrder": 75,
+          "arabic_text": "أَوْلِيَاءُ الشَّيْطَانِ"
+        },
+        {
+          "id": "s5l4_phrases_35",
+          "arabic": "أَنْصَارِي",
+          "hinglish": "mere madadgaar",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "mere madadgaar",
+            "en": "My helpers",
+            "ur": "میرے مددگار",
+            "hi": "मेरे मददगार",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">أَنْصَارِي</span>",
+          "displayOrder": 76,
+          "arabic_text": "أَنْصَارِي"
+        },
+        {
+          "id": "s5l4_phrases_36",
+          "arabic": "عِبَادِي",
+          "hinglish": "mere bande",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "mere bande",
+            "en": "My servants",
+            "ur": "میرے بندے",
+            "hi": "मेरे बंदे",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">عِبَادِي</span>",
+          "displayOrder": 77,
+          "arabic_text": "عِبَادِي"
+        },
+        {
+          "id": "s5l4_phrases_37",
+          "arabic": "أَوْلِيَاؤُهُ",
+          "hinglish": "uske dost",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "uske dost",
+            "en": "His allies / friends",
+            "ur": "اس کے دوست",
+            "hi": "उसके दोस्त",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">أَوْلِيَاؤُهُ</span>",
+          "displayOrder": 78,
+          "arabic_text": "أَوْلِيَاؤُهُ"
+        },
+        {
+          "id": "s5l4_phrases_38",
+          "arabic": "عِبَادُكَ",
+          "hinglish": "tere bande",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "tere bande",
+            "en": "Your servants",
+            "ur": "آپ کے بندے",
+            "hi": "आपके बंदे",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">عِبَادُكَ</span>",
+          "displayOrder": 79,
+          "arabic_text": "عِبَادُكَ"
+        },
+        {
+          "id": "s5l4_phrases_39",
+          "arabic": "عِبَادُهُ",
+          "hinglish": "uske bande",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "uske bande",
+            "en": "His servants",
+            "ur": "اس کے بندے",
+            "hi": "उसके बंदे",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">عِبَادُهُ</span>",
+          "displayOrder": 80,
+          "arabic_text": "عِبَادُهُ"
+        }
+      ],
+      "data": {
+        "items": [
+          {
+            "id": "s5l4_phrases_1",
+            "arabic": "عَلَى الْكُفَّارِ",
+            "hinglish": "kaafiron par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "kaafiron par",
+              "en": "Upon the disbelievers",
+              "ur": "کافروں پر",
+              "hi": "काफ़िरों पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَلَى </span><span class=\"nonroot\">الْكُفَّارِ</span>",
+            "displayOrder": 42,
+            "arabic_text": "عَلَى الْكُفَّارِ"
+          },
+          {
+            "id": "s5l4_phrases_2",
+            "arabic": "عَلَى الرُّسُلِ",
+            "hinglish": "rasoolon par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "rasoolon par",
+              "en": "Upon the messengers",
+              "ur": "رسولوں پر",
+              "hi": "रसूलों पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَلَى </span><span class=\"nonroot\">الرُّسُلِ</span>",
+            "displayOrder": 43,
+            "arabic_text": "عَلَى الرُّسُلِ"
+          },
+          {
+            "id": "s5l4_phrases_3",
+            "arabic": "عَلَى الضُّعَفَاءِ",
+            "hinglish": "kamzoron par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "kamzoron par",
+              "en": "Upon the weak",
+              "ur": "کمزوروں پر",
+              "hi": "कमज़ोरों पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَلَى </span><span class=\"nonroot\">الضُّعَفَاءِ</span>",
+            "displayOrder": 44,
+            "arabic_text": "عَلَى الضُّعَفَاءِ"
+          },
+          {
+            "id": "s5l4_phrases_4",
+            "arabic": "عَلَى الْمَلَائِكَةِ",
+            "hinglish": "farishton par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "farishton par",
+              "en": "Upon the angels",
+              "ur": "فرشتوں پر",
+              "hi": "फ़रिश्तों पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَلَى </span><span class=\"nonroot\">الْمَلَائِكَةِ</span>",
+            "displayOrder": 45,
+            "arabic_text": "عَلَى الْمَلَائِكَةِ"
+          },
+          {
+            "id": "s5l4_phrases_5",
+            "arabic": "لِلنَّاسِ",
+            "hinglish": "logon ke liye",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "logon ke liye",
+              "en": "For the people",
+              "ur": "لوگوں کے لیے",
+              "hi": "लोगों के लिए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">لِ</span><span class=\"nonroot\">لنَّاسِ</span>",
+            "displayOrder": 46,
+            "arabic_text": "لِلنَّاسِ"
+          },
+          {
+            "id": "s5l4_phrases_6",
+            "arabic": "عَلَى الْعِبَادِ",
+            "hinglish": "bandon par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "bandon par",
+              "en": "Upon the servants",
+              "ur": "بندوں پر",
+              "hi": "बंदों पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَلَى </span><span class=\"nonroot\">الْعِبَادِ</span>",
+            "displayOrder": 47,
+            "arabic_text": "عَلَى الْعِبَادِ"
+          },
+          {
+            "id": "s5l4_phrases_7",
+            "arabic": "عَلَى النِّسَاءِ",
+            "hinglish": "aurton par",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "aurton par",
+              "en": "Upon the women",
+              "ur": "عورتوں پر",
+              "hi": "औरतों पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَلَى </span><span class=\"nonroot\">النِّسَاءِ</span>",
+            "displayOrder": 48,
+            "arabic_text": "عَلَى النِّسَاءِ"
+          },
+          {
+            "id": "s5l4_phrases_8",
+            "arabic": "مِنَ الْكُفَّارِ",
+            "hinglish": "kaafiron mein se",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "kaafiron mein se",
+              "en": "From among the disbelievers",
+              "ur": "کافروں میں سے",
+              "hi": "काफ़िरों में से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مِنَ </span><span class=\"nonroot\">الْكُفَّارِ</span>",
+            "displayOrder": 49,
+            "arabic_text": "مِنَ الْكُفَّارِ"
+          },
+          {
+            "id": "s5l4_phrases_9",
+            "arabic": "مِنَ الْمَلَائِكَةِ",
+            "hinglish": "farishton mein se",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "farishton mein se",
+              "en": "From among the angels",
+              "ur": "فرشتوں میں سے",
+              "hi": "फ़रिश्तों में से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مِنَ </span><span class=\"nonroot\">الْمَلَائِكَةِ</span>",
+            "displayOrder": 50,
+            "arabic_text": "مِنَ الْمَلَائِكَةِ"
+          },
+          {
+            "id": "s5l4_phrases_10",
+            "arabic": "لِلنِّسَاءِ",
+            "hinglish": "aurton ke liye",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "aurton ke liye",
+              "en": "For the women",
+              "ur": "عورتوں کے لیے",
+              "hi": "औरतों के लिए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">لِ</span><span class=\"nonroot\">لنِّسَاءِ</span>",
+            "displayOrder": 51,
+            "arabic_text": "لِلنِّسَاءِ"
+          },
+          {
+            "id": "s5l4_phrases_11",
+            "arabic": "بِالنَّاسِ",
+            "hinglish": "logon par / logon ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "logon par / logon ke saath",
+              "en": "To / with the people",
+              "ur": "لوگوں پر / لوگوں کے ساتھ",
+              "hi": "लोगों पर / लोगों के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">بِ</span><span class=\"nonroot\">النَّاسِ</span>",
+            "displayOrder": 52,
+            "arabic_text": "بِالنَّاسِ"
+          },
+          {
+            "id": "s5l4_phrases_12",
+            "arabic": "لِلْأَبْرَارِ",
+            "hinglish": "nek logon ke liye",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "nek logon ke liye",
+              "en": "For the righteous",
+              "ur": "نیک لوگوں کے لیے",
+              "hi": "नेक लोगों के लिए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">لِ</span><span class=\"nonroot\">لْأَبْرَارِ</span>",
+            "displayOrder": 53,
+            "arabic_text": "لِلْأَبْرَارِ"
+          },
+          {
+            "id": "s5l4_phrases_13",
+            "arabic": "إِنَّ الْمُلُوكَ",
+            "hinglish": "beshak badshah log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "beshak badshah log",
+              "en": "Indeed, the kings",
+              "ur": "بے شک بادشاہ لوگ",
+              "hi": "बेशक बादशाह लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ </span><span class=\"nonroot\">الْمُلُوكَ</span>",
+            "displayOrder": 54,
+            "arabic_text": "إِنَّ الْمُلُوكَ"
+          },
+          {
+            "id": "s5l4_phrases_14",
+            "arabic": "إِنَّ الْأَبْرَارَ",
+            "hinglish": "beshak nek log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "beshak nek log",
+              "en": "Indeed, the righteous",
+              "ur": "بے شک نیک لوگ",
+              "hi": "बेशक नेक लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ </span><span class=\"nonroot\">الْأَبْرَارَ</span>",
+            "displayOrder": 55,
+            "arabic_text": "إِنَّ الْأَبْرَارَ"
+          },
+          {
+            "id": "s5l4_phrases_15",
+            "arabic": "إِنَّ الْفُجَّارَ",
+            "hinglish": "beshak badkar log",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "beshak badkar log",
+              "en": "Indeed, the wicked",
+              "ur": "بے شک بدکار لوگ",
+              "hi": "बेशक बदकार लोग",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ </span><span class=\"nonroot\">الْفُجَّارَ</span>",
+            "displayOrder": 56,
+            "arabic_text": "إِنَّ الْفُجَّارَ"
+          },
+          {
+            "id": "s5l4_phrases_16",
+            "arabic": "أَصْحَابُ الْجَنَّةِ",
+            "hinglish": "jannat wale",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "jannat wale",
+              "en": "Companions of Paradise",
+              "ur": "جنت والے",
+              "hi": "जन्नत वाले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">أَصْحَابُ</span> <span class=\"arabic-root\">الْجَنَّةِ</span>",
+            "displayOrder": 57,
+            "arabic_text": "أَصْحَابُ الْجَنَّةِ"
+          },
+          {
+            "id": "s5l4_phrases_17",
+            "arabic": "أَصْحَابُ النَّارِ",
+            "hinglish": "aag wale / dozakhi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "aag wale / dozakhi",
+              "en": "Companions of the Fire",
+              "ur": "آگ والے / دوزخی",
+              "hi": "आग वाले / दोज़ख़ी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">أَصْحَابُ</span> <span class=\"arabic-root\">النَّارِ</span>",
+            "displayOrder": 58,
+            "arabic_text": "أَصْحَابُ النَّارِ"
+          },
+          {
+            "id": "s5l4_phrases_18",
+            "arabic": "أَصْحَابُ الْجَحِيمِ",
+            "hinglish": "jahannam wale",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "jahannam wale",
+              "en": "Companions of the Hellfire",
+              "ur": "جہنم والے",
+              "hi": "जहन्नम वाले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">أَصْحَابُ</span> <span class=\"arabic-root\">الْجَحِيمِ</span>",
+            "displayOrder": 59,
+            "arabic_text": "أَصْحَابُ الْجَحِيمِ"
+          },
+          {
+            "id": "s5l4_phrases_19",
+            "arabic": "أَصْحَابُ الْيَمِينِ",
+            "hinglish": "dayen haath wale",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "dayen haath wale",
+              "en": "Companions of the right",
+              "ur": "دائیں ہاتھ والے",
+              "hi": "दाहिने हाथ वाले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">أَصْحَابُ</span> <span class=\"arabic-root\">الْيَمِينِ</span>",
+            "displayOrder": 60,
+            "arabic_text": "أَصْحَابُ الْيَمِينِ"
+          },
+          {
+            "id": "s5l4_phrases_20",
+            "arabic": "أَصْحَابُ الْكَهْفِ",
+            "hinglish": "gaar wale",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "gaar wale",
+              "en": "Companions of the Cave",
+              "ur": "غار والے",
+              "hi": "ग़ार वाले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">أَصْحَابُ</span> <span class=\"arabic-root\">الْكَهْفِ</span>",
+            "displayOrder": 61,
+            "arabic_text": "أَصْحَابُ الْكَهْفِ"
+          },
+          {
+            "id": "s5l4_phrases_21",
+            "arabic": "أَصْحَابُ الْأَعْرَافِ",
+            "hinglish": "aaraf wale",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "aaraf wale",
+              "en": "Companions of the Heights",
+              "ur": "اعراف والے",
+              "hi": "अअराफ़ वाले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">أَصْحَابُ</span> <span class=\"arabic-root\">الْأَعْرَافِ</span>",
+            "displayOrder": 62,
+            "arabic_text": "أَصْحَابُ الْأَعْرَافِ"
+          },
+          {
+            "id": "s5l4_phrases_22",
+            "arabic": "أَصْحَابُ الْقُبُورِ",
+            "hinglish": "qabron wale",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "qabron wale",
+              "en": "Inhabitants of the graves",
+              "ur": "قبروں والے",
+              "hi": "क़ब्रों वाले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">أَصْحَابُ</span> <span class=\"arabic-root\">الْقُبُورِ</span>",
+            "displayOrder": 63,
+            "arabic_text": "أَصْحَابُ الْقُبُورِ"
+          },
+          {
+            "id": "s5l4_phrases_23",
+            "arabic": "أَصْحَابُ مُوسَىٰ",
+            "hinglish": "Musa ke saathi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Musa ke saathi",
+              "en": "Companions of Moses",
+              "ur": "موسیٰ کے ساتھی",
+              "hi": "मूसा के साथी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">أَصْحَابُ</span> <span class=\"arabic-root\">مُوسَىٰ</span>",
+            "displayOrder": 64,
+            "arabic_text": "أَصْحَابُ مُوسَىٰ"
+          },
+          {
+            "id": "s5l4_phrases_24",
+            "arabic": "أُولُو الْعِلْمِ",
+            "hinglish": "ilm wale",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "ilm wale",
+              "en": "Those of knowledge",
+              "ur": "علم والے",
+              "hi": "इल्म वाले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">أُولُو</span> <span class=\"arabic-root\">الْعِلْمِ</span>",
+            "displayOrder": 65,
+            "arabic_text": "أُولُو الْعِلْمِ"
+          },
+          {
+            "id": "s5l4_phrases_25",
+            "arabic": "أُولُو الْفَضْلِ",
+            "hinglish": "fazal wale",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "fazal wale",
+              "en": "Those of bounty / virtue",
+              "ur": "فضل والے",
+              "hi": "फ़ज़्ल वाले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">أُولُو</span> <span class=\"arabic-root\">الْفَضْلِ</span>",
+            "displayOrder": 66,
+            "arabic_text": "أُولُو الْفَضْلِ"
+          },
+          {
+            "id": "s5l4_phrases_26",
+            "arabic": "أُولُو الْعَزْمِ",
+            "hinglish": "himmat wale / pukhta irade wale",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "himmat wale / pukhta irade wale",
+              "en": "Those of determination",
+              "ur": "پختہ ارادے اور ہمت والے",
+              "hi": "हिम्मत और पक्के इरादे वाले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">أُولُو</span> <span class=\"arabic-root\">الْعَزْمِ</span>",
+            "displayOrder": 67,
+            "arabic_text": "أُولُو الْعَزْمِ"
+          },
+          {
+            "id": "s5l4_phrases_27",
+            "arabic": "أُولُو الْأَلْبَابِ",
+            "hinglish": "aql wale",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "aql wale",
+              "en": "People of understanding",
+              "ur": "عقل والے",
+              "hi": "अक़्ल वाले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">أُولُو</span> <span class=\"arabic-root\">الْأَلْبَابِ</span>",
+            "displayOrder": 68,
+            "arabic_text": "أُولُو الْأَلْبَابِ"
+          },
+          {
+            "id": "s5l4_phrases_28",
+            "arabic": "أَوْلِيَاءُ اللّٰهِ",
+            "hinglish": "Allah ke dost",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah ke dost",
+              "en": "Allies of Allah / Friends of Allah",
+              "ur": "اللہ کے دوست",
+              "hi": "अल्लाह के दोस्त",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">أَوْلِيَاءُ</span> <span class=\"arabic-root\">اللّٰهِ</span>",
+            "displayOrder": 69,
+            "arabic_text": "أَوْلِيَاءُ اللّٰهِ"
+          },
+          {
+            "id": "s5l4_phrases_29",
+            "arabic": "أَنْصَارُ اللّٰهِ",
+            "hinglish": "Allah ke madadgaar",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah ke madadgaar",
+              "en": "Helpers of Allah",
+              "ur": "اللہ کے مددگار",
+              "hi": "अल्लाह के मददगार",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">أَنْصَارُ</span> <span class=\"arabic-root\">اللّٰهِ</span>",
+            "displayOrder": 70,
+            "arabic_text": "أَنْصَارُ اللّٰهِ"
+          },
+          {
+            "id": "s5l4_phrases_30",
+            "arabic": "عِبَادُ اللّٰهِ",
+            "hinglish": "Allah ke bande",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah ke bande",
+              "en": "Servants of Allah",
+              "ur": "اللہ کے بندے",
+              "hi": "अल्लाह के बंदे",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">عِبَادُ</span> <span class=\"arabic-root\">اللّٰهِ</span>",
+            "displayOrder": 71,
+            "arabic_text": "عِبَادُ اللّٰهِ"
+          },
+          {
+            "id": "s5l4_phrases_31",
+            "arabic": "عِبَادُ الرَّحْمٰنِ",
+            "hinglish": "Rehman ke bande",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Rehman ke bande",
+              "en": "Servants of the Most Merciful",
+              "ur": "رحمٰن کے بندے",
+              "hi": "रहमान के बंदे",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">عِبَادُ</span> <span class=\"arabic-root\">الرَّحْمٰنِ</span>",
+            "displayOrder": 72,
+            "arabic_text": "عِبَادُ الرَّحْمٰنِ"
+          },
+          {
+            "id": "s5l4_phrases_32",
+            "arabic": "أَنْبِيَاءُ اللّٰهِ",
+            "hinglish": "Allah ke nabi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah ke nabi",
+              "en": "Prophets of Allah",
+              "ur": "اللہ کے انبیاء",
+              "hi": "अल्लाह के नबी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">أَنْبِيَاءُ</span> <span class=\"arabic-root\">اللّٰهِ</span>",
+            "displayOrder": 73,
+            "arabic_text": "أَنْبِيَاءُ اللّٰهِ"
+          },
+          {
+            "id": "s5l4_phrases_33",
+            "arabic": "أَعْدَاءُ اللّٰهِ",
+            "hinglish": "Allah ke dushman",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah ke dushman",
+              "en": "Enemies of Allah",
+              "ur": "اللہ کے دشمن",
+              "hi": "अल्लाह کے दुश्मन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">أَعْدَاءُ</span> <span class=\"arabic-root\">اللّٰهِ</span>",
+            "displayOrder": 74,
+            "arabic_text": "أَعْدَاءُ اللّٰهِ"
+          },
+          {
+            "id": "s5l4_phrases_34",
+            "arabic": "أَوْلِيَاءُ الشَّيْطَانِ",
+            "hinglish": "shaitan ke dost",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "shaitan ke dost",
+              "en": "Allies of Satan",
+              "ur": "شیطان کے دوست",
+              "hi": "शैतान के दोस्त",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">أَوْلِيَاءُ</span> <span class=\"arabic-root\">الشَّيْطَانِ</span>",
+            "displayOrder": 75,
+            "arabic_text": "أَوْلِيَاءُ الشَّيْطَانِ"
+          },
+          {
+            "id": "s5l4_phrases_35",
+            "arabic": "أَنْصَارِي",
+            "hinglish": "mere madadgaar",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "mere madadgaar",
+              "en": "My helpers",
+              "ur": "میرے مددگار",
+              "hi": "मेरे मददगार",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">أَنْصَارِي</span>",
+            "displayOrder": 76,
+            "arabic_text": "أَنْصَارِي"
+          },
+          {
+            "id": "s5l4_phrases_36",
+            "arabic": "عِبَادِي",
+            "hinglish": "mere bande",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "mere bande",
+              "en": "My servants",
+              "ur": "میرے بندے",
+              "hi": "मेरे बंदे",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">عِبَادِي</span>",
+            "displayOrder": 77,
+            "arabic_text": "عِبَادِي"
+          },
+          {
+            "id": "s5l4_phrases_37",
+            "arabic": "أَوْلِيَاؤُهُ",
+            "hinglish": "uske dost",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "uske dost",
+              "en": "His allies / friends",
+              "ur": "اس کے دوست",
+              "hi": "उसके दोस्त",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">أَوْلِيَاؤُهُ</span>",
+            "displayOrder": 78,
+            "arabic_text": "أَوْلِيَاؤُهُ"
+          },
+          {
+            "id": "s5l4_phrases_38",
+            "arabic": "عِبَادُكَ",
+            "hinglish": "tere bande",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "tere bande",
+              "en": "Your servants",
+              "ur": "آپ کے بندے",
+              "hi": "आपके बंदे",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">عِبَادُكَ</span>",
+            "displayOrder": 79,
+            "arabic_text": "عِبَادُكَ"
+          },
+          {
+            "id": "s5l4_phrases_39",
+            "arabic": "عِبَادُهُ",
+            "hinglish": "uske bande",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "uske bande",
+              "en": "His servants",
+              "ur": "اس کے بندے",
+              "hi": "उसके बंदे",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">عِبَادُهُ</span>",
+            "displayOrder": 80,
+            "arabic_text": "عِبَادُهُ"
+          }
+        ],
+        "is_numbered": false
+      }
+    },
+    {
+      "type": "section_label",
+      "text": "3. Jama Mukassar waali Qur'ani Aayaat (Numbered 1–17)",
+      "title": "3. Jama Mukassar waali Qur'ani Aayaat (Numbered 1–17)",
+      "label": "3. Jama Mukassar waali Qur'ani Aayaat (Numbered 1–17)",
+      "data": {
+        "text": "3. Jama Mukassar waali Qur'ani Aayaat (Numbered 1–17)",
+        "title": "3. Jama Mukassar waali Qur'ani Aayaat (Numbered 1–17)",
+        "label": "3. Jama Mukassar waali Qur'ani Aayaat (Numbered 1–17)"
+      }
+    },
+    {
+      "type": "two_col_numbered_list",
+      "is_numbered": true,
+      "items": [
+        {
+          "id": "s5l4_s_1",
+          "arabic": "إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ",
+          "hinglish": "Beshak nek log nemat mein honge",
+          "is_filled": true,
+          "sentence_number": 1,
+          "translations": {
+            "hinglish": "Beshak nek log nemat mein honge",
+            "en": "Indeed, the righteous will be in pleasure",
+            "ur": "بے شک نیک لوگ نعمتوں میں ہوں گے",
+            "hi": "बेशक नेक लोग नेमतों में होंगे",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">إِنَّ </span><span class=\"nonroot\">الْأَبْرَارَ</span> <span class=\"arabic-root\">لَفِي نَعِيمٍ</span>",
+          "displayOrder": 81,
+          "arabic_text": "إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ"
+        },
+        {
+          "id": "s5l4_s_2",
+          "arabic": "وَإِنَّ الْفُجَّارَ لَفِي جَحِيمٍ",
+          "hinglish": "Aur beshak badkar log jahannam mein honge",
+          "is_filled": true,
+          "sentence_number": 2,
+          "translations": {
+            "hinglish": "Aur beshak badkar log jahannam mein honge",
+            "en": "And indeed, the wicked will be in Hellfire",
+            "ur": "اور بے شک بدکار لوگ جہنم میں ہوں گے",
+            "hi": "और बेशक बदकार लोग जहन्नम में होंगे",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">وَإِنَّ </span><span class=\"nonroot\">الْفُجَّارَ</span> <span class=\"arabic-root\">لَفِي جَحِيمٍ</span>",
+          "displayOrder": 82,
+          "arabic_text": "وَإِنَّ الْفُجَّارَ لَفِي جَحِيمٍ"
+        },
+        {
+          "id": "s5l4_s_3",
+          "arabic": "إِنَّمَا الْمُؤْمِنُونَ إِخْوَةٌ",
+          "hinglish": "Imaan wale toh aapas mein bhai bhai hain",
+          "is_filled": true,
+          "sentence_number": 3,
+          "translations": {
+            "hinglish": "Imaan wale toh aapas mein bhai bhai hain",
+            "en": "The believers are but brothers",
+            "ur": "ایمان والے تو آپس میں بھائی بھائی ہیں",
+            "hi": "ईमान वाले तो आपस में भाई-भाई हैं",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">إِنَّمَا الْمُؤْمِنُونَ </span><span class=\"nonroot\">إِخْوَةٌ</span>",
+          "displayOrder": 83,
+          "arabic_text": "إِنَّمَا الْمُؤْمِنُونَ إِخْوَةٌ"
+        },
+        {
+          "id": "s5l4_s_4",
+          "arabic": "إِنَّ اللّٰهَ بِالنَّاسِ لَرَءُوفٌ رَحِيمٌ",
+          "hinglish": "Beshak Allah logon par bada shafqat karne wala, nihayat raham wala hai",
+          "is_filled": true,
+          "sentence_number": 4,
+          "translations": {
+            "hinglish": "Beshak Allah logon par bada shafqat karne wala, nihayat raham wala hai",
+            "en": "Indeed Allah, to the people, is Full of Kindness and Merciful",
+            "ur": "بے شک اللہ لوگوں پر بڑی شفقت کرنے والا، نہایت رحم والا ہے",
+            "hi": "बेशक अल्लाह लोगों पर बड़ी शफ़क़त करने वाला, निहायत रहम वाला है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">إِنَّ اللّٰهَ </span><span class=\"arabic-root\">بِ</span><span class=\"nonroot\">النَّاسِ</span> <span class=\"arabic-root\">لَرَءُوفٌ رَحِيمٌ</span>",
+          "displayOrder": 84,
+          "arabic_text": "إِنَّ اللّٰهَ بِالنَّاسِ لَرَءُوفٌ رَحِيمٌ"
+        },
+        {
+          "id": "s5l4_s_5",
+          "arabic": "إِنَّكَ مِنْ أَصْحَابِ النَّارِ",
+          "hinglish": "Beshak tu aag walon mein se hai",
+          "is_filled": true,
+          "sentence_number": 5,
+          "translations": {
+            "hinglish": "Beshak tu aag walon mein se hai",
+            "en": "Indeed you are of the companions of the Fire",
+            "ur": "بے شک تو آگ والوں میں سے ہے",
+            "hi": "बेशक तू आग वालों में से है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">إِنَّكَ مِنْ </span><span class=\"nonroot\">أَصْحَابِ</span> <span class=\"arabic-root\">النَّارِ</span>",
+          "displayOrder": 85,
+          "arabic_text": "إِنَّكَ مِنْ أَصْحَابِ النَّارِ"
+        },
+        {
+          "id": "s5l4_s_6",
+          "arabic": "وَمَا عِنْدَ اللّٰهِ خَيْرٌ لِلْأَبْرَارِ",
+          "hinglish": "Aur jo Allah ke paas hai woh nek logon ke liye sab se behtar hai",
+          "is_filled": true,
+          "sentence_number": 6,
+          "translations": {
+            "hinglish": "Aur jo Allah ke paas hai woh nek logon ke liye sab se behtar hai",
+            "en": "And what is with Allah is best for the righteous",
+            "ur": "اور جو اللہ کے پاس ہے وہ نیک لوگوں کے لیے سب سے بہتر ہے",
+            "hi": "और जो अल्लाह के पास है वह नेक लोगों के लिए सबसे बेहतर है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">وَمَا عِنْدَ اللّٰهِ خَيْرٌ </span><span class=\"arabic-root\">لِ</span><span class=\"nonroot\">لْأَبْرَارِ</span>",
+          "displayOrder": 86,
+          "arabic_text": "وَمَا عِنْدَ اللّٰهِ خَيْرٌ لِلْأَبْرَارِ"
+        },
+        {
+          "id": "s5l4_s_7",
+          "arabic": "وَلِلنِّسَاءِ نَصِيبٌ",
+          "hinglish": "Aur aurton ke liye bhi hissa hai",
+          "is_filled": true,
+          "sentence_number": 7,
+          "translations": {
+            "hinglish": "Aur aurton ke liye bhi hissa hai",
+            "en": "And for women is a share",
+            "ur": "اور عورتوں کے لیے بھی ایک حصہ ہے",
+            "hi": "और औरतों के लिए भी एक हिस्सा है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"arabic-root\">لِ</span><span class=\"nonroot\">لنِّسَاءِ</span> <span class=\"arabic-root\">نَصِيبٌ</span>",
+          "displayOrder": 87,
+          "arabic_text": "وَلِلنِّسَاءِ نَصِيبٌ"
+        },
+        {
+          "id": "s5l4_s_8",
+          "arabic": "وَاللّٰهُ بَصِيرٌ بِالْعِبَادِ",
+          "hinglish": "Aur Allah apne bandon ko dekhne wala hai",
+          "is_filled": true,
+          "sentence_number": 8,
+          "translations": {
+            "hinglish": "Aur Allah apne bandon ko dekhne wala hai",
+            "en": "And Allah is Seeing of [His] servants",
+            "ur": "اور اللہ اپنے بندوں کو خوب دیکھنے والا ہے",
+            "hi": "और अल्लाह अपने बंदों को ख़ूब देखने वाला है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">وَاللّٰهُ بَصِيرٌ </span><span class=\"arabic-root\">بِ</span><span class=\"nonroot\">الْعِبَادِ</span>",
+          "displayOrder": 88,
+          "arabic_text": "وَاللّٰهُ بَصِيرٌ بِالْعِبَادِ"
+        },
+        {
+          "id": "s5l4_s_9",
+          "arabic": "مَنْ أَنْصَارِي إِلَى اللّٰهِ",
+          "hinglish": "Kaun hain mere madadgaar Allah ki taraf",
+          "is_filled": true,
+          "sentence_number": 9,
+          "translations": {
+            "hinglish": "Kaun hain mere madadgaar Allah ki taraf",
+            "en": "Who are my helpers for [the cause of] Allah?",
+            "ur": "کون ہیں میرے مددگار اللہ کی طرف؟",
+            "hi": "कौन हैं मेरे मददगार अल्लाह की राह में?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">مَنْ </span><span class=\"nonroot\">أَنْصَارِي</span> <span class=\"arabic-root\">إِلَى اللّٰهِ</span>",
+          "displayOrder": 89,
+          "arabic_text": "مَنْ أَنْصَارِي إِلَى اللّٰهِ"
+        },
+        {
+          "id": "s5l4_s_10",
+          "arabic": "وَهُوَ الْقَاهِرُ فَوْقَ عِبَادِهِ",
+          "hinglish": "Aur Woh apne bandon par ghalib hai",
+          "is_filled": true,
+          "sentence_number": 10,
+          "translations": {
+            "hinglish": "Aur Woh apne bandon par ghalib hai",
+            "en": "And He is the subjugator over His servants",
+            "ur": "اور وہ اپنے بندوں پر غالب ہے",
+            "hi": "और वह अपने बंदों पर ग़ालिब है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">وَهُوَ الْقَاهِرُ فَوْقَ </span><span class=\"nonroot\">عِبَادِهِ</span>",
+          "displayOrder": 90,
+          "arabic_text": "وَهُوَ الْقَاهِرُ فَوْقَ عِبَادِهِ"
+        },
+        {
+          "id": "s5l4_s_11",
+          "arabic": "الْحَمْدُ لِلّٰهِ وَسَلَامٌ عَلَىٰ عِبَادِهِ",
+          "hinglish": "Tamam tareef Allah ke liye aur salam ho uske bandon par",
+          "is_filled": true,
+          "sentence_number": 11,
+          "translations": {
+            "hinglish": "Tamam tareef Allah ke liye aur salam ho uske bandon par",
+            "en": "Praise be to Allah, and peace upon His servants",
+            "ur": "تمام تعریف اللہ کے لیے ہے اور سلام ہو اس کے بندوں پر",
+            "hi": "तमाम तारीफ़ अल्लाह के लिए है और सलाम हो उसके बंदों पर",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">الْحَمْدُ لِلّٰهِ وَسَلَامٌ عَلَىٰ </span><span class=\"nonroot\">عِبَادِهِ</span>",
+          "displayOrder": 91,
+          "arabic_text": "الْحَمْدُ لِلّٰهِ وَسَلَامٌ عَلَىٰ عِبَادِهِ"
+        },
+        {
+          "id": "s5l4_s_12",
+          "arabic": "وَهُوَ الْقَاهِرُ فَوْقَ عِبَادِهِ وَهُوَ الْحَكِيمُ الْخَبِيرُ",
+          "hinglish": "Aur Woh apne bandon par ghalib hai aur Woh hikmat wala khabardaar hai",
+          "is_filled": true,
+          "sentence_number": 12,
+          "translations": {
+            "hinglish": "Aur Woh apne bandon par ghalib hai aur Woh hikmat wala khabardaar hai",
+            "en": "And He is the subjugator over His servants, and He is the Wise, the Acquainted",
+            "ur": "اور وہ اپنے بندوں پر غالب ہے اور وہ حکمت والا، باخبر ہے",
+            "hi": "और वह अपने बंदों पर ग़ालिब है और वह हिकमत वाला, बाख़बर है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">وَهُوَ الْقَاهِرُ فَوْقَ </span><span class=\"nonroot\">عِبَادِهِ</span> <span class=\"arabic-root\">وَهُوَ الْحَكِيمُ الْخَبِيرُ</span>",
+          "displayOrder": 92,
+          "arabic_text": "وَهُوَ الْقَاهِرُ فَوْقَ عِبَادِهِ وَهُوَ الْحَكِيمُ الْخَبِيرُ"
+        },
+        {
+          "id": "s5l4_s_13",
+          "arabic": "كَلَّا إِنَّ كِتَابَ الْأَبْرَارِ لَفِي عِلِّيِّينَ",
+          "hinglish": "Hargiz nahi! Beshak nek logon ka aamal-nama illiyyeen mein hai",
+          "is_filled": true,
+          "sentence_number": 13,
+          "translations": {
+            "hinglish": "Hargiz nahi! Beshak nek logon ka aamal-nama illiyyeen mein hai",
+            "en": "No! Indeed, the record of the righteous is in Illiyyun",
+            "ur": "ہرگز نہیں! بے شک نیک لوگوں کا اعمال نامہ علیین میں ہے",
+            "hi": "हरगिज़ नहीं! बेशक नेक लोगों का आमाल-नामा इल्लिय्यीन में है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">كَلَّا إِنَّ كِتَابَ </span><span class=\"nonroot\">الْأَبْرَارِ</span> <span class=\"arabic-root\">لَفِي عِلِّيِّينَ</span>",
+          "displayOrder": 93,
+          "arabic_text": "كَلَّا إِنَّ كِتَابَ الْأَبْرَارِ لَفِي عِلِّيِّينَ"
+        },
+        {
+          "id": "s5l4_s_14",
+          "arabic": "كَلَّا إِنَّ كِتَابَ الْفُجَّارِ لَفِي سِجِّينٍ",
+          "hinglish": "Hargiz nahi! Beshak badkaron ka aamal-nama sijjeen mein hai",
+          "is_filled": true,
+          "sentence_number": 14,
+          "translations": {
+            "hinglish": "Hargiz nahi! Beshak badkaron ka aamal-nama sijjeen mein hai",
+            "en": "No! Indeed, the record of the wicked is in Sijjeen",
+            "ur": "ہرگز نہیں! بے شک بدکاروں کا اعمال نامہ سجین میں ہے",
+            "hi": "हरगिज़ नहीं! बेशक बदکاروں का आमाल-नामा सिज्जीन में है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">كَلَّا إِنَّ كِتَابَ </span><span class=\"nonroot\">الْفُجَّارِ</span> <span class=\"arabic-root\">لَفِي سِجِّينٍ</span>",
+          "displayOrder": 94,
+          "arabic_text": "كَلَّا إِنَّ كِتَابَ الْفُجَّارِ لَفِي سِجِّينٍ"
+        },
+        {
+          "id": "s5l4_s_15",
+          "arabic": "إِنَّ أَصْحَابَ الْجَنَّةِ الْيَوْمَ فِي شُغُلٍ فَاكِهُونَ",
+          "hinglish": "Beshak jannat wale aaj dil-chasp mashghalon mein khush honge",
+          "is_filled": true,
+          "sentence_number": 15,
+          "translations": {
+            "hinglish": "Beshak jannat wale aaj dil-chasp mashghalon mein khush honge",
+            "en": "Indeed the companions of Paradise, that Day, will be in joyful occupation",
+            "ur": "بے شک جنت والے آج دلچسپ مشغلوں میں خوش و خرم ہوں گے",
+            "hi": "बेशक जन्नत वाले आज दिलचस्प मशग़लों में ख़ुश व ख़ुर्रम होंगे",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">إِنَّ </span><span class=\"nonroot\">أَصْحَابَ</span> <span class=\"arabic-root\">الْجَنَّةِ الْيَوْمَ فِي شُغُلٍ فَاكِهُونَ</span>",
+          "displayOrder": 95,
+          "arabic_text": "إِنَّ أَصْحَابَ الْجَنَّةِ الْيَوْمَ فِي شُغُلٍ فَاكِهُونَ"
+        },
+        {
+          "id": "s5l4_s_16",
+          "arabic": "إِنَّ فِي ذٰلِكَ لَذِكْرَىٰ لِأُولِي الْأَلْبَابِ",
+          "hinglish": "Beshak iss mein naseehat hai aql walon ke liye",
+          "is_filled": true,
+          "sentence_number": 16,
+          "translations": {
+            "hinglish": "Beshak iss mein naseehat hai aql walon ke liye",
+            "en": "Indeed in that is a reminder for those of understanding",
+            "ur": "بے شک اس میں نصیحت ہے عقل والوں کے لیے",
+            "hi": "बेशक इसमें नसीहत है अक़्ल वालों के लिए",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">إِنَّ فِي ذٰلِكَ لَذِكْرَىٰ </span><span class=\"arabic-root\">لِ</span><span class=\"nonroot\">أُولِي</span> <span class=\"arabic-root\">الْأَلْبَابِ</span>",
+          "displayOrder": 96,
+          "arabic_text": "إِنَّ فِي ذٰلِكَ لَذِكْرَىٰ لِأُولِي الْأَلْبَابِ"
+        },
+        {
+          "id": "s5l4_s_17",
+          "arabic": "إِنَّ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ وَاخْتِلَافِ اللَّيْلِ وَالنَّهَارِ لَآيَاتٍ لِأُولِي الْأَلْبَابِ",
+          "hinglish": "Beshak aasmaano aur zameen ki paidaish mein aur raat aur din ke badalne mein nishaniyan hain aql walon ke liye",
+          "is_filled": true,
+          "sentence_number": 17,
+          "translations": {
+            "hinglish": "Beshak aasmaano aur zameen ki paidaish mein aur raat aur din ke badalne mein nishaniyan hain aql walon ke liye",
+            "en": "Indeed, in the creation of the heavens and the earth and the alternation of the night and the day are signs for those of understanding",
+            "ur": "بے شک آسمانوں اور زمین کی پیدائش میں اور رات اور دن کے بدلنے میں نشانیاں ہیں عقل والوں کے لیے",
+            "hi": "बेशक आसमानों और ज़मीन की पैदाइश में और रात और दिन के बदलने में निशानियाँ हैं अक़्ल वालों के लिए",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">إِنَّ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ وَاخْتِلَافِ اللَّيْلِ وَالنَّهَارِ لَآيَاتٍ </span><span class=\"arabic-root\">لِ</span><span class=\"nonroot\">أُولِي</span> <span class=\"arabic-root\">الْأَلْبَابِ</span>",
+          "displayOrder": 97,
+          "arabic_text": "إِنَّ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ وَاخْتِلَافِ اللَّيْلِ وَالنَّهَارِ لَآيَاتٍ لِأُولِي الْأَلْبَابِ"
+        }
+      ],
+      "data": {
+        "items": [
+          {
+            "id": "s5l4_s_1",
+            "arabic": "إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ",
+            "hinglish": "Beshak nek log nemat mein honge",
+            "is_filled": true,
+            "sentence_number": 1,
+            "translations": {
+              "hinglish": "Beshak nek log nemat mein honge",
+              "en": "Indeed, the righteous will be in pleasure",
+              "ur": "بے شک نیک لوگ نعمتوں میں ہوں گے",
+              "hi": "बेशक नेक लोग नेमतों में होंगे",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ </span><span class=\"nonroot\">الْأَبْرَارَ</span> <span class=\"arabic-root\">لَفِي نَعِيمٍ</span>",
+            "displayOrder": 81,
+            "arabic_text": "إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ"
+          },
+          {
+            "id": "s5l4_s_2",
+            "arabic": "وَإِنَّ الْفُجَّارَ لَفِي جَحِيمٍ",
+            "hinglish": "Aur beshak badkar log jahannam mein honge",
+            "is_filled": true,
+            "sentence_number": 2,
+            "translations": {
+              "hinglish": "Aur beshak badkar log jahannam mein honge",
+              "en": "And indeed, the wicked will be in Hellfire",
+              "ur": "اور بے شک بدکار لوگ جہنم میں ہوں گے",
+              "hi": "और बेशक बदकार लोग जहन्नम में होंगे",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَإِنَّ </span><span class=\"nonroot\">الْفُجَّارَ</span> <span class=\"arabic-root\">لَفِي جَحِيمٍ</span>",
+            "displayOrder": 82,
+            "arabic_text": "وَإِنَّ الْفُجَّارَ لَفِي جَحِيمٍ"
+          },
+          {
+            "id": "s5l4_s_3",
+            "arabic": "إِنَّمَا الْمُؤْمِنُونَ إِخْوَةٌ",
+            "hinglish": "Imaan wale toh aapas mein bhai bhai hain",
+            "is_filled": true,
+            "sentence_number": 3,
+            "translations": {
+              "hinglish": "Imaan wale toh aapas mein bhai bhai hain",
+              "en": "The believers are but brothers",
+              "ur": "ایمان والے تو آپس میں بھائی بھائی ہیں",
+              "hi": "ईमान वाले तो आपस में भाई-भाई हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّمَا الْمُؤْمِنُونَ </span><span class=\"nonroot\">إِخْوَةٌ</span>",
+            "displayOrder": 83,
+            "arabic_text": "إِنَّمَا الْمُؤْمِنُونَ إِخْوَةٌ"
+          },
+          {
+            "id": "s5l4_s_4",
+            "arabic": "إِنَّ اللّٰهَ بِالنَّاسِ لَرَءُوفٌ رَحِيمٌ",
+            "hinglish": "Beshak Allah logon par bada shafqat karne wala, nihayat raham wala hai",
+            "is_filled": true,
+            "sentence_number": 4,
+            "translations": {
+              "hinglish": "Beshak Allah logon par bada shafqat karne wala, nihayat raham wala hai",
+              "en": "Indeed Allah, to the people, is Full of Kindness and Merciful",
+              "ur": "بے شک اللہ لوگوں پر بڑی شفقت کرنے والا، نہایت رحم والا ہے",
+              "hi": "बेशक अल्लाह लोगों पर बड़ी शफ़क़त करने वाला, निहायत रहम वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ اللّٰهَ </span><span class=\"arabic-root\">بِ</span><span class=\"nonroot\">النَّاسِ</span> <span class=\"arabic-root\">لَرَءُوفٌ رَحِيمٌ</span>",
+            "displayOrder": 84,
+            "arabic_text": "إِنَّ اللّٰهَ بِالنَّاسِ لَرَءُوفٌ رَحِيمٌ"
+          },
+          {
+            "id": "s5l4_s_5",
+            "arabic": "إِنَّكَ مِنْ أَصْحَابِ النَّارِ",
+            "hinglish": "Beshak tu aag walon mein se hai",
+            "is_filled": true,
+            "sentence_number": 5,
+            "translations": {
+              "hinglish": "Beshak tu aag walon mein se hai",
+              "en": "Indeed you are of the companions of the Fire",
+              "ur": "بے شک تو آگ والوں میں سے ہے",
+              "hi": "बेशक तू आग वालों में से है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّكَ مِنْ </span><span class=\"nonroot\">أَصْحَابِ</span> <span class=\"arabic-root\">النَّارِ</span>",
+            "displayOrder": 85,
+            "arabic_text": "إِنَّكَ مِنْ أَصْحَابِ النَّارِ"
+          },
+          {
+            "id": "s5l4_s_6",
+            "arabic": "وَمَا عِنْدَ اللّٰهِ خَيْرٌ لِلْأَبْرَارِ",
+            "hinglish": "Aur jo Allah ke paas hai woh nek logon ke liye sab se behtar hai",
+            "is_filled": true,
+            "sentence_number": 6,
+            "translations": {
+              "hinglish": "Aur jo Allah ke paas hai woh nek logon ke liye sab se behtar hai",
+              "en": "And what is with Allah is best for the righteous",
+              "ur": "اور جو اللہ کے پاس ہے وہ نیک لوگوں کے لیے سب سے بہتر ہے",
+              "hi": "और जो अल्लाह के पास है वह नेक लोगों के लिए सबसे बेहतर है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَمَا عِنْدَ اللّٰهِ خَيْرٌ </span><span class=\"arabic-root\">لِ</span><span class=\"nonroot\">لْأَبْرَارِ</span>",
+            "displayOrder": 86,
+            "arabic_text": "وَمَا عِنْدَ اللّٰهِ خَيْرٌ لِلْأَبْرَارِ"
+          },
+          {
+            "id": "s5l4_s_7",
+            "arabic": "وَلِلنِّسَاءِ نَصِيبٌ",
+            "hinglish": "Aur aurton ke liye bhi hissa hai",
+            "is_filled": true,
+            "sentence_number": 7,
+            "translations": {
+              "hinglish": "Aur aurton ke liye bhi hissa hai",
+              "en": "And for women is a share",
+              "ur": "اور عورتوں کے لیے بھی ایک حصہ ہے",
+              "hi": "और औरतों के लिए भी एक हिस्सा है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَ</span><span class=\"arabic-root\">لِ</span><span class=\"nonroot\">لنِّسَاءِ</span> <span class=\"arabic-root\">نَصِيبٌ</span>",
+            "displayOrder": 87,
+            "arabic_text": "وَلِلنِّسَاءِ نَصِيبٌ"
+          },
+          {
+            "id": "s5l4_s_8",
+            "arabic": "وَاللّٰهُ بَصِيرٌ بِالْعِبَادِ",
+            "hinglish": "Aur Allah apne bandon ko dekhne wala hai",
+            "is_filled": true,
+            "sentence_number": 8,
+            "translations": {
+              "hinglish": "Aur Allah apne bandon ko dekhne wala hai",
+              "en": "And Allah is Seeing of [His] servants",
+              "ur": "اور اللہ اپنے بندوں کو خوب دیکھنے والا ہے",
+              "hi": "और अल्लाह अपने बंदों को ख़ूब देखने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَاللّٰهُ بَصِيرٌ </span><span class=\"arabic-root\">بِ</span><span class=\"nonroot\">الْعِبَادِ</span>",
+            "displayOrder": 88,
+            "arabic_text": "وَاللّٰهُ بَصِيرٌ بِالْعِبَادِ"
+          },
+          {
+            "id": "s5l4_s_9",
+            "arabic": "مَنْ أَنْصَارِي إِلَى اللّٰهِ",
+            "hinglish": "Kaun hain mere madadgaar Allah ki taraf",
+            "is_filled": true,
+            "sentence_number": 9,
+            "translations": {
+              "hinglish": "Kaun hain mere madadgaar Allah ki taraf",
+              "en": "Who are my helpers for [the cause of] Allah?",
+              "ur": "کون ہیں میرے مددگار اللہ کی طرف؟",
+              "hi": "कौन हैं मेरे मददगार अल्लाह की राह में?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مَنْ </span><span class=\"nonroot\">أَنْصَارِي</span> <span class=\"arabic-root\">إِلَى اللّٰهِ</span>",
+            "displayOrder": 89,
+            "arabic_text": "مَنْ أَنْصَارِي إِلَى اللّٰهِ"
+          },
+          {
+            "id": "s5l4_s_10",
+            "arabic": "وَهُوَ الْقَاهِرُ فَوْقَ عِبَادِهِ",
+            "hinglish": "Aur Woh apne bandon par ghalib hai",
+            "is_filled": true,
+            "sentence_number": 10,
+            "translations": {
+              "hinglish": "Aur Woh apne bandon par ghalib hai",
+              "en": "And He is the subjugator over His servants",
+              "ur": "اور وہ اپنے بندوں پر غالب ہے",
+              "hi": "और वह अपने बंदों पर ग़ालिब है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَهُوَ الْقَاهِرُ فَوْقَ </span><span class=\"nonroot\">عِبَادِهِ</span>",
+            "displayOrder": 90,
+            "arabic_text": "وَهُوَ الْقَاهِرُ فَوْقَ عِبَادِهِ"
+          },
+          {
+            "id": "s5l4_s_11",
+            "arabic": "الْحَمْدُ لِلّٰهِ وَسَلَامٌ عَلَىٰ عِبَادِهِ",
+            "hinglish": "Tamam tareef Allah ke liye aur salam ho uske bandon par",
+            "is_filled": true,
+            "sentence_number": 11,
+            "translations": {
+              "hinglish": "Tamam tareef Allah ke liye aur salam ho uske bandon par",
+              "en": "Praise be to Allah, and peace upon His servants",
+              "ur": "تمام تعریف اللہ کے لیے ہے اور سلام ہو اس کے بندوں پر",
+              "hi": "तमाम तारीफ़ अल्लाह के लिए है और सलाम हो उसके बंदों पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">الْحَمْدُ لِلّٰهِ وَسَلَامٌ عَلَىٰ </span><span class=\"nonroot\">عِبَادِهِ</span>",
+            "displayOrder": 91,
+            "arabic_text": "الْحَمْدُ لِلّٰهِ وَسَلَامٌ عَلَىٰ عِبَادِهِ"
+          },
+          {
+            "id": "s5l4_s_12",
+            "arabic": "وَهُوَ الْقَاهِرُ فَوْقَ عِبَادِهِ وَهُوَ الْحَكِيمُ الْخَبِيرُ",
+            "hinglish": "Aur Woh apne bandon par ghalib hai aur Woh hikmat wala khabardaar hai",
+            "is_filled": true,
+            "sentence_number": 12,
+            "translations": {
+              "hinglish": "Aur Woh apne bandon par ghalib hai aur Woh hikmat wala khabardaar hai",
+              "en": "And He is the subjugator over His servants, and He is the Wise, the Acquainted",
+              "ur": "اور وہ اپنے بندوں پر غالب ہے اور وہ حکمت والا، باخبر ہے",
+              "hi": "और वह अपने बंदों पर ग़ालिब है और वह हिकमत वाला, बाख़बर है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَهُوَ الْقَاهِرُ فَوْقَ </span><span class=\"nonroot\">عِبَادِهِ</span> <span class=\"arabic-root\">وَهُوَ الْحَكِيمُ الْخَبِيرُ</span>",
+            "displayOrder": 92,
+            "arabic_text": "وَهُوَ الْقَاهِرُ فَوْقَ عِبَادِهِ وَهُوَ الْحَكِيمُ الْخَبِيرُ"
+          },
+          {
+            "id": "s5l4_s_13",
+            "arabic": "كَلَّا إِنَّ كِتَابَ الْأَبْرَارِ لَفِي عِلِّيِّينَ",
+            "hinglish": "Hargiz nahi! Beshak nek logon ka aamal-nama illiyyeen mein hai",
+            "is_filled": true,
+            "sentence_number": 13,
+            "translations": {
+              "hinglish": "Hargiz nahi! Beshak nek logon ka aamal-nama illiyyeen mein hai",
+              "en": "No! Indeed, the record of the righteous is in Illiyyun",
+              "ur": "ہرگز نہیں! بے شک نیک لوگوں کا اعمال نامہ علیین میں ہے",
+              "hi": "हरगिज़ नहीं! बेशक नेक लोगों का आमाल-नामा इल्लिय्यीन में है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">كَلَّا إِنَّ كِتَابَ </span><span class=\"nonroot\">الْأَبْرَارِ</span> <span class=\"arabic-root\">لَفِي عِلِّيِّينَ</span>",
+            "displayOrder": 93,
+            "arabic_text": "كَلَّا إِنَّ كِتَابَ الْأَبْرَارِ لَفِي عِلِّيِّينَ"
+          },
+          {
+            "id": "s5l4_s_14",
+            "arabic": "كَلَّا إِنَّ كِتَابَ الْفُجَّارِ لَفِي سِجِّينٍ",
+            "hinglish": "Hargiz nahi! Beshak badkaron ka aamal-nama sijjeen mein hai",
+            "is_filled": true,
+            "sentence_number": 14,
+            "translations": {
+              "hinglish": "Hargiz nahi! Beshak badkaron ka aamal-nama sijjeen mein hai",
+              "en": "No! Indeed, the record of the wicked is in Sijjeen",
+              "ur": "ہرگز نہیں! بے شک بدکاروں کا اعمال نامہ سجین میں ہے",
+              "hi": "हरगिज़ नहीं! बेशक बदکاروں का आमाल-नामा सिज्जीन में है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">كَلَّا إِنَّ كِتَابَ </span><span class=\"nonroot\">الْفُجَّارِ</span> <span class=\"arabic-root\">لَفِي سِجِّينٍ</span>",
+            "displayOrder": 94,
+            "arabic_text": "كَلَّا إِنَّ كِتَابَ الْفُجَّارِ لَفِي سِجِّينٍ"
+          },
+          {
+            "id": "s5l4_s_15",
+            "arabic": "إِنَّ أَصْحَابَ الْجَنَّةِ الْيَوْمَ فِي شُغُلٍ فَاكِهُونَ",
+            "hinglish": "Beshak jannat wale aaj dil-chasp mashghalon mein khush honge",
+            "is_filled": true,
+            "sentence_number": 15,
+            "translations": {
+              "hinglish": "Beshak jannat wale aaj dil-chasp mashghalon mein khush honge",
+              "en": "Indeed the companions of Paradise, that Day, will be in joyful occupation",
+              "ur": "بے شک جنت والے آج دلچسپ مشغلوں میں خوش و خرم ہوں گے",
+              "hi": "बेशक जन्नत वाले आज दिलचस्प मशग़लों में ख़ुश व ख़ुर्रम होंगे",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ </span><span class=\"nonroot\">أَصْحَابَ</span> <span class=\"arabic-root\">الْجَنَّةِ الْيَوْمَ فِي شُغُلٍ فَاكِهُونَ</span>",
+            "displayOrder": 95,
+            "arabic_text": "إِنَّ أَصْحَابَ الْجَنَّةِ الْيَوْمَ فِي شُغُلٍ فَاكِهُونَ"
+          },
+          {
+            "id": "s5l4_s_16",
+            "arabic": "إِنَّ فِي ذٰلِكَ لَذِكْرَىٰ لِأُولِي الْأَلْبَابِ",
+            "hinglish": "Beshak iss mein naseehat hai aql walon ke liye",
+            "is_filled": true,
+            "sentence_number": 16,
+            "translations": {
+              "hinglish": "Beshak iss mein naseehat hai aql walon ke liye",
+              "en": "Indeed in that is a reminder for those of understanding",
+              "ur": "بے شک اس میں نصیحت ہے عقل والوں کے لیے",
+              "hi": "बेशक इसमें नसीहत है अक़्ल वालों के लिए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ فِي ذٰلِكَ لَذِكْرَىٰ </span><span class=\"arabic-root\">لِ</span><span class=\"nonroot\">أُولِي</span> <span class=\"arabic-root\">الْأَلْبَابِ</span>",
+            "displayOrder": 96,
+            "arabic_text": "إِنَّ فِي ذٰلِكَ لَذِكْرَىٰ لِأُولِي الْأَلْبَابِ"
+          },
+          {
+            "id": "s5l4_s_17",
+            "arabic": "إِنَّ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ وَاخْتِلَافِ اللَّيْلِ وَالنَّهَارِ لَآيَاتٍ لِأُولِي الْأَلْبَابِ",
+            "hinglish": "Beshak aasmaano aur zameen ki paidaish mein aur raat aur din ke badalne mein nishaniyan hain aql walon ke liye",
+            "is_filled": true,
+            "sentence_number": 17,
+            "translations": {
+              "hinglish": "Beshak aasmaano aur zameen ki paidaish mein aur raat aur din ke badalne mein nishaniyan hain aql walon ke liye",
+              "en": "Indeed, in the creation of the heavens and the earth and the alternation of the night and the day are signs for those of understanding",
+              "ur": "بے شک آسمانوں اور زمین کی پیدائش میں اور رات اور دن کے بدلنے میں نشانیاں ہیں عقل والوں کے لیے",
+              "hi": "बेशक आसमानों और ज़मीन की पैदाइश में और रात और दिन के बदलने में निशानियाँ हैं अक़्ल वालों के लिए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ وَاخْتِلَافِ اللَّيْلِ وَالنَّهَارِ لَآيَاتٍ </span><span class=\"arabic-root\">لِ</span><span class=\"nonroot\">أُولِي</span> <span class=\"arabic-root\">الْأَلْبَابِ</span>",
+            "displayOrder": 97,
+            "arabic_text": "إِنَّ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ وَاخْتِلَافِ اللَّيْلِ وَالنَّهَارِ لَآيَاتٍ لِأُولِي الْأَلْبَابِ"
+          }
+        ],
+        "is_numbered": true
+      }
+    }
+  ],
+  "lesson_key": "S5L4",
+  "stage_id": 5,
+  "book_page": 52,
+  "page_start": 52
+}

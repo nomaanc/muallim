@@ -1,0 +1,713 @@
+{
+  "lesson_id": 18,
+  "lesson_key": "S4L18",
+  "stage_id": 4,
+  "title": "Ism-ul-Maf'ool (Jis par kaam hua): مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ",
+  "arabic_Focus": "ظُلْمٌ ، ذِكْرٌ ، نَصْرٌ ← مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ",
+  "hinglish_Focus": "Zulm, zikr, madad → Jis par zulm hua, jiska zikr kiya gaya, jiski madad ki gayi",
+  "page_numbers": "39",
+  "book_page": 39,
+  "status": "complete",
+  "title_i18n": {
+    "en": "Ism-ul-Maf'ool (Jis par kaam hua): مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ",
+    "ur": "یونٹ 4 سبق 18: ظُلْمٌ ، ذِكْرٌ ، نَصْرٌ ← مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ",
+    "hi": "Ism-ul-Maf'ool (Jis par kaam hua): مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ"
+  },
+  "sections": [
+    {
+      "id": "sec_hero",
+      "type": "hero_header",
+      "data": {
+        "arabic": "ظُلْمٌ ، ذِكْرٌ ، نَصْرٌ ← مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ",
+        "hinglish": "Zulm, zikr, madad → Jis par zulm hua, jiska zikr kiya gaya, jiski madad ki gayi",
+        "arabic_word": "ظُلْمٌ ، ذِكْرٌ ، نَصْرٌ",
+        "arabic_combined": "ظُلْمٌ ، ذِكْرٌ ، نَصْرٌ ← مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ",
+        "hinglish_word": "Zulm, zikr, madad",
+        "hinglish_combined": "Zulm, zikr, madad → Jis par zulm hua, jiska zikr kiya gaya, jiski madad ki gayi",
+        "title_en": "Ism-ul-Maf'ool (Jis par kaam hua): مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ",
+        "subtitle": "Unit 4 • Lesson 18 (Book Page 39)",
+        "transformations": [
+          {
+            "before_ar": "ظُلْمٌ ، ذِكْرٌ ، نَصْرٌ",
+            "after_ar": "مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ",
+            "before_hi": "Zulm, zikr, madad",
+            "after_hi": "Jis par zulm hua, jiska zikr kiya gaya, jiski madad ki gayi"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_intro_table",
+      "type": "intro_table",
+      "data": {
+        "title": "S4L18 — Ism-ul-Maf'ool (Jis par kaam hua): مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ: Buniyadi Misaalein",
+        "caption": "S4L18 — Ism-ul-Maf'ool (Jis par kaam hua): مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ: Buniyadi Misaalein",
+        "headers": [
+          "Qism / Halat",
+          "Arabi Misaal",
+          "Hinglish Mafhoom"
+        ],
+        "rows": [
+          [
+            "مَـ + فْ + عُ + و + لٌ",
+            "مَظْلُومٌ / مَنْصُورٌ",
+            "Jis par zulm kiya gaya / Jiski madad ki gayi"
+          ],
+          [
+            "مَفْعُولٌ Wazan",
+            "مَذْكُورٌ / مَشْكُورٌ / مَسْئُولٌ",
+            "Jiska zikr kiya gaya / Jiska shukr kiya gaya / Jisse poochha jaye"
+          ],
+          [
+            "Qur'ani Sifaat",
+            "مَحْفُوظٌ / مَسْطُورٌ / مَشْهُودٌ / مَعْرُوفٌ",
+            "Hifazat kiya hua / Likha hua / Haazri wala / Bhala (jaana-pehchana)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sec_s4l18_concept",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u4grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u4grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 4 • LESSON 18</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Ism-ul-Maf'ool (Jis par kaam hua): مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ (Page 39)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">ظُلْمٌ ، ذِكْرٌ ، نَصْرٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Ism-ul-Maf'ool (مَفْعُولٌ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• ظُلْمٌ ، ذِكْرٌ ، نَصْرٌ (Zulm, zikr, madad) se مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ (Jis par zulm hua, jiska zikr kiya gaya, jiski madad ki gayi) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Qur'an Majeed mein yeh tarkeeb saikdon maqamaat par barah-e-raast samajh aati hai.</text>\n</svg>\n</div>\n**Qaa'ida (Page 39):** Jin alfaaz ke shuru mein **Zabar wala Meem (`مَـ`)** aur **aakhri harf se pehle Waw (`ـُو`)** ho (yani **`مَفْعُولٌ`** ke wazan par hon), unmein **'Jis par koi kaam hua ho'** (*Ism-ul-Maf'ool*) ka mafhoom paaya jata hai: `مَظْلُومٌ` (jis par zulm hua ho), `مَذْكُورٌ` (jiska zikr kiya gaya ho), `مَنْصُورٌ` (jiski madad ki gayi ho), `مَحْفُوظٌ` (jiski hifazat ki gayi ho), `مَسْطُورٌ` (likha hua).",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u4grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u4grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 4 • LESSON 18</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Ism-ul-Maf'ool (Jis par kaam hua): مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ (Page 39)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">ظُلْمٌ ، ذِكْرٌ ، نَصْرٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Ism-ul-Maf'ool (مَفْعُولٌ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• ظُلْمٌ ، ذِكْرٌ ، نَصْرٌ (Zulm, zikr, madad) se مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ (Jis par zulm hua, jiska zikr kiya gaya, jiski madad ki gayi) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Qur'an Majeed mein yeh tarkeeb saikdon maqamaat par barah-e-raast samajh aati hai.</text>\n</svg>\n</div>\n**Qaa'ida (Page 39):** Jin alfaaz ke shuru mein **Zabar wala Meem (`مَـ`)** aur **aakhri harf se pehle Waw (`ـُو`)** ho (yani **`مَفْعُولٌ`** ke wazan par hon), unmein **'Jis par koi kaam hua ho'** (*Ism-ul-Maf'ool*) ka mafhoom paaya jata hai: `مَظْلُومٌ` (jis par zulm hua ho), `مَذْكُورٌ` (jiska zikr kiya gaya ho), `مَنْصُورٌ` (jiski madad ki gayi ho), `مَحْفُوظٌ` (jiski hifazat ki gayi ho), `مَسْطُورٌ` (likha hua).",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u4grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u4grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 4 • LESSON 18</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Ism-ul-Maf'ool (Jis par kaam hua): مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ (Page 39)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">ظُلْمٌ ، ذِكْرٌ ، نَصْرٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Ism-ul-Maf'ool (مَفْعُولٌ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• ظُلْمٌ ، ذِكْرٌ ، نَصْرٌ (Zulm, zikr, madad) se مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ (Jis par zulm hua, jiska zikr kiya gaya, jiski madad ki gayi) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Qur'an Majeed mein yeh tarkeeb saikdon maqamaat par barah-e-raast samajh aati hai.</text>\n</svg>\n</div>\n**Qaa'ida (Page 39):** Jin alfaaz ke shuru mein **Zabar wala Meem (`مَـ`)** aur **aakhri harf se pehle Waw (`ـُو`)** ho (yani **`مَفْعُولٌ`** ke wazan par hon), unmein **'Jis par koi kaam hua ho'** (*Ism-ul-Maf'ool*) ka mafhoom paaya jata hai: `مَظْلُومٌ` (jis par zulm hua ho), `مَذْكُورٌ` (jiska zikr kiya gaya ho), `مَنْصُورٌ` (jiski madad ki gayi ho), `مَحْفُوظٌ` (jiski hifazat ki gayi ho), `مَسْطُورٌ` (likha hua)."
+      }
+    },
+    {
+      "id": "sec_s4l18_lbl1",
+      "type": "section_label",
+      "data": {
+        "text": "Section 1 (Page 39 Bottom): مَفْعُولٌ Wazan ke Mash'hoor Qur'ani Alfaaz (Right-to-Left Grid)",
+        "title": "Section 1 (Page 39 Bottom): مَفْعُولٌ Wazan ke Mash'hoor Qur'ani Alfaaz (Right-to-Left Grid)",
+        "label": "Section 1 (Page 39 Bottom): مَفْعُولٌ Wazan ke Mash'hoor Qur'ani Alfaaz (Right-to-Left Grid)"
+      }
+    },
+    {
+      "id": "sec_s4l18_g1",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s4l18_g1_w1",
+            "arabic": "مَظْلُومٌ",
+            "arabic_text": "مَظْلُومٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">ظْلُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">مٌ</span>",
+            "hinglish": "Jis par zulm hua ho",
+            "hinglish_meaning": "Jis par zulm hua ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jis par zulm hua ho",
+              "en": "Oppressed / wronged",
+              "ur": "جس پر ظلم ہوا ہو",
+              "hi": "जिस पर ज़ुल्म हुआ हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w2",
+            "arabic": "مَذْكُورٌ",
+            "arabic_text": "مَذْكُورٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">ذْكُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">رٌ</span>",
+            "hinglish": "Jis ka zikr kiya gaya ho",
+            "hinglish_meaning": "Jis ka zikr kiya gaya ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jis ka zikr kiya gaya ho",
+              "en": "Mentioned",
+              "ur": "جس کا ذکر کیا گیا ہو",
+              "hi": "जिसका ज़िक्र किया गया हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w3",
+            "arabic": "مَنْصُورٌ",
+            "arabic_text": "مَنْصُورٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">نْصُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">رٌ</span>",
+            "hinglish": "Jis ki madad ki gayi ho",
+            "hinglish_meaning": "Jis ki madad ki gayi ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jis ki madad ki gayi ho",
+              "en": "Helped / aided",
+              "ur": "جس کی مدد کی گئی ہو",
+              "hi": "जिसकी मदद की गई हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w4",
+            "arabic": "مَذْكُورٌ",
+            "arabic_text": "مَذْكُورٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">ذْكُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">رٌ</span>",
+            "hinglish": "Zikr kiya gaya",
+            "hinglish_meaning": "Zikr kiya gaya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Zikr kiya gaya",
+              "en": "Mentioned",
+              "ur": "ذکر کیا گیا",
+              "hi": "ज़िक्र किया गया",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w5",
+            "arabic": "مَغْلُوبٌ",
+            "arabic_text": "مَغْلُوبٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">غْلُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">بٌ</span>",
+            "hinglish": "Jis par ghalba paya gaya",
+            "hinglish_meaning": "Jis par ghalba paya gaya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jis par ghalba paya gaya",
+              "en": "Overcome / defeated",
+              "ur": "جس پر غلبہ پایا گیا ہو",
+              "hi": "जिस पर ग़लबा पाया गया हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w6",
+            "arabic": "مَنْصُورٌ",
+            "arabic_text": "مَنْصُورٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">نْصُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">رٌ</span>",
+            "hinglish": "Jis ki madad ki gayi",
+            "hinglish_meaning": "Jis ki madad ki gayi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jis ki madad ki gayi",
+              "en": "Helped / assisted",
+              "ur": "جس کی مدد کی گئی",
+              "hi": "जिसकी मदद की गई",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w7",
+            "arabic": "مَظْلُومٌ",
+            "arabic_text": "مَظْلُومٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">ظْلُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">مٌ</span>",
+            "hinglish": "Jis par zulm hua ho",
+            "hinglish_meaning": "Jis par zulm hua ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jis par zulm hua ho",
+              "en": "Oppressed / wronged",
+              "ur": "جس پر ظلم ہوا ہو",
+              "hi": "जिस पर ज़ुल्म हुआ हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w8",
+            "arabic": "مَشْكُورٌ",
+            "arabic_text": "مَشْكُورٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">شْكُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">رٌ</span>",
+            "hinglish": "Jis ka shukar kiya gaya",
+            "hinglish_meaning": "Jis ka shukar kiya gaya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jis ka shukar kiya gaya",
+              "en": "Appreciated",
+              "ur": "جس کی قدردانی کی گئی (شکر کیا گیا)",
+              "hi": "जिसकी क़द्रदानी की गई (शुक्रिया किया गया)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w9",
+            "arabic": "مَمْلُوكٌ",
+            "arabic_text": "مَمْلُوكٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">مْلُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">كٌ</span>",
+            "hinglish": "Jo milkiyat mein ho",
+            "hinglish_meaning": "Jo milkiyat mein ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jo milkiyat mein ho",
+              "en": "Owned / possessed",
+              "ur": "جو ملکیت میں ہو",
+              "hi": "जो मिल्कियत में हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w10",
+            "arabic": "مَسْئُولٌ",
+            "arabic_text": "مَسْئُولٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">سْئُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">لٌ</span>",
+            "hinglish": "Jis se sawal kiya gaya jawabdeh",
+            "hinglish_meaning": "Jis se sawal kiya gaya jawabdeh",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jis se sawal kiya gaya jawabdeh",
+              "en": "Questioned / accountable",
+              "ur": "جس سے سوال کیا گیا (جواب دہ)",
+              "hi": "जिससे सवाल किया गया (जवाबदेह)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w11",
+            "arabic": "مَكْرُوهٌ",
+            "arabic_text": "مَكْرُوهٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">كْرُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">هٌ</span>",
+            "hinglish": "Napasandida",
+            "hinglish_meaning": "Napasandida",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Napasandida",
+              "en": "Disliked / hateful",
+              "ur": "ناپسندیدہ",
+              "hi": "नापसंदीदा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w12",
+            "arabic": "مَعْلُومٌ",
+            "arabic_text": "مَعْلُومٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">عْلُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">مٌ</span>",
+            "hinglish": "Jo jana gaya",
+            "hinglish_meaning": "Jo jana gaya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jo jana gaya",
+              "en": "Known / determined",
+              "ur": "معلوم / جانا پہچانا",
+              "hi": "मालूम / जाना-पहचाना",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w13",
+            "arabic": "مَفْعُولٌ",
+            "arabic_text": "مَفْعُولٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">فْعُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">لٌ</span>",
+            "hinglish": "Jo kiya gaya",
+            "hinglish_meaning": "Jo kiya gaya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jo kiya gaya",
+              "en": "Done / executed",
+              "ur": "کیا گیا",
+              "hi": "किया गया",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w14",
+            "arabic": "مَكْذُوبٌ",
+            "arabic_text": "مَكْذُوبٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">كْذُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">بٌ</span>",
+            "hinglish": "Jis ko jhutlaya gaya",
+            "hinglish_meaning": "Jis ko jhutlaya gaya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jis ko jhutlaya gaya",
+              "en": "Belied / false",
+              "ur": "جس کو جھٹلایا گیا",
+              "hi": "जिसको झुटलाया गया",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w15",
+            "arabic": "مَمْنُوعٌ",
+            "arabic_text": "مَمْنُوعٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">مْنُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">عٌ</span>",
+            "hinglish": "Jis se mana kiya gaya",
+            "hinglish_meaning": "Jis se mana kiya gaya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jis se mana kiya gaya",
+              "en": "Forbidden / restrained",
+              "ur": "جس سے منع کیا گیا",
+              "hi": "जिससे मना किया गया",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w16",
+            "arabic": "مَشْهُودٌ",
+            "arabic_text": "مَشْهُودٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">شْهُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">دٌ</span>",
+            "hinglish": "Jis ki gawaahi di gayi",
+            "hinglish_meaning": "Jis ki gawaahi di gayi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jis ki gawaahi di gayi",
+              "en": "Witnessed",
+              "ur": "جس کی گواہی دی گئی ہو",
+              "hi": "जिसकी गवाही दी गई हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w17",
+            "arabic": "مَطْلُوبٌ",
+            "arabic_text": "مَطْلُوبٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">طْلُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">بٌ</span>",
+            "hinglish": "Jo talab kiya gaya",
+            "hinglish_meaning": "Jo talab kiya gaya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jo talab kiya gaya",
+              "en": "Sought / pursued",
+              "ur": "جو طلب کیا گیا",
+              "hi": "जो तलब किया गया",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w18",
+            "arabic": "مَحْفُوظٌ",
+            "arabic_text": "مَحْفُوظٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">حْفُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">ظٌ</span>",
+            "hinglish": "Jis ki hifazat ki gayi",
+            "hinglish_meaning": "Jis ki hifazat ki gayi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jis ki hifazat ki gayi",
+              "en": "Preserved / protected",
+              "ur": "جس کی حفاظت کی گئی",
+              "hi": "जिसकी हिफ़ाज़त की गई",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w19",
+            "arabic": "مَسْطُورٌ",
+            "arabic_text": "مَسْطُورٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">سْطُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">رٌ</span>",
+            "hinglish": "Likha gaya",
+            "hinglish_meaning": "Likha gaya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Likha gaya",
+              "en": "Written / inscribed",
+              "ur": "لکھا گیا",
+              "hi": "लिखा गया",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w20",
+            "arabic": "مَقْطُوعٌ",
+            "arabic_text": "مَقْطُوعٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">قْطُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">عٌ</span>",
+            "hinglish": "Jo kata hua ho",
+            "hinglish_meaning": "Jo kata hua ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jo kata hua ho",
+              "en": "Cut off",
+              "ur": "جو کٹا ہوا ہو",
+              "hi": "जो कटा हुआ हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w21",
+            "arabic": "مَجْمُوعٌ",
+            "arabic_text": "مَجْمُوعٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">جْمُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">عٌ</span>",
+            "hinglish": "Jo jama kiya gaya",
+            "hinglish_meaning": "Jo jama kiya gaya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jo jama kiya gaya",
+              "en": "Gathered / assembled",
+              "ur": "جو جمع کیا گیا",
+              "hi": "जो जमा किया गया",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w22",
+            "arabic": "مَقْسُومٌ",
+            "arabic_text": "مَقْسُومٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">قْسُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">مٌ</span>",
+            "hinglish": "Taqseem kiya gaya",
+            "hinglish_meaning": "Taqseem kiya gaya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Taqseem kiya gaya",
+              "en": "Divided / apportioned",
+              "ur": "تقسیم کیا گیا",
+              "hi": "तक़सीम किया गया",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_g1_w23",
+            "arabic": "مَعْرُوفٌ",
+            "arabic_text": "مَعْرُوفٌ",
+            "arabic_markup": "<span class=\"nonroot\">مَ</span><span class=\"arabic-root\">عْرُ</span><span class=\"nonroot\">و</span><span class=\"arabic-root\">فٌ</span>",
+            "hinglish": "Jana pehchana bhalai",
+            "hinglish_meaning": "Jana pehchana bhalai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jana pehchana bhalai",
+              "en": "Good / recognized virtue",
+              "ur": "بھلائی / جانا پہچانا",
+              "hi": "भलाई / जाना-पहचाना",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s4l18_lbl2",
+      "type": "section_label",
+      "data": {
+        "text": "Section 2 (Page 39): مَظْلُومٌ ، مَحْفُوظٌ ، مَسْطُورٌ ، مَشْهُودٌ wali Qur'ani Aayaat (Numbered 1–8)",
+        "title": "Section 2 (Page 39): مَظْلُومٌ ، مَحْفُوظٌ ، مَسْطُورٌ ، مَشْهُودٌ wali Qur'ani Aayaat (Numbered 1–8)",
+        "label": "Section 2 (Page 39): مَظْلُومٌ ، مَحْفُوظٌ ، مَسْطُورٌ ، مَشْهُودٌ wali Qur'ani Aayaat (Numbered 1–8)"
+      }
+    },
+    {
+      "id": "sec_s4l18_s1",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s4l18_s1_s1",
+            "sentence_number": 1,
+            "arabic": "بَلْ هُوَ قُرْآنٌ مَجِيدٌ فِي لَوْحٍ مَحْفُوظٍ",
+            "arabic_text": "بَلْ هُوَ قُرْآنٌ مَجِيدٌ فِي لَوْحٍ مَحْفُوظٍ",
+            "arabic_markup": "<span class=\"nonroot\">بَلْ</span> <span class=\"nonroot\">هُوَ</span> <span class=\"arabic-root\">قُرْآنٌ</span> <span class=\"arabic-root\">مَجِيدٌ</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">لَوْحٍ</span> <span class=\"arabic-root\">مَحْفُوظٍ</span>",
+            "hinglish": "Balke woh buland-shaan Qur'an hai, Lauh-e-Mahfooz (hifazat ki gayi takhti) mein",
+            "hinglish_meaning": "Balke woh buland-shaan Qur'an hai, Lauh-e-Mahfooz (hifazat ki gayi takhti) mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Balke woh buland-shaan Qur'an hai, Lauh-e-Mahfooz (hifazat ki gayi takhti) mein",
+              "en": "Rather, it is a glorious Qur'an, in a Preserved Slate",
+              "ur": "بلکہ یہ ایک بڑی شان والا قرآن ہے، لوح محفوظ میں",
+              "hi": "बल्कि यह एक बड़ी शान वाला क़ुरआन है, लौहे-महफ़ूज़ में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_s1_s2",
+            "sentence_number": 2,
+            "arabic": "وَالطُّورِ وَكِتَابٍ مَسْطُورٍ",
+            "arabic_text": "وَالطُّورِ وَكِتَابٍ مَسْطُورٍ",
+            "arabic_markup": "<span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الطُّورِ</span> <span class=\"nonroot\">وَ</span><span class=\"arabic-root\">كِتَابٍ مَسْطُورٍ</span>",
+            "hinglish": "Qasam hai Toor ki, aur likhi hui Kitaab ki",
+            "hinglish_meaning": "Qasam hai Toor ki, aur likhi hui Kitaab ki",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Qasam hai Toor ki, aur likhi hui Kitaab ki",
+              "en": "By the Mount, and by a Book inscribed!",
+              "ur": "طور کی قسم اور لکھی ہوئی کتاب کی قسم!",
+              "hi": "तूर की क़सम और लिखी हुई किताब की क़सम!",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_s1_s3",
+            "sentence_number": 3,
+            "arabic": "ذَٰلِكَ يَوْمٌ مَجْمُوعٌ لَهُ النَّاسُ وَذَٰلِكَ يَوْمٌ مَشْهُودٌ",
+            "arabic_text": "ذَٰلِكَ يَوْمٌ مَجْمُوعٌ لَهُ النَّاسُ وَذَٰلِكَ يَوْمٌ مَشْهُودٌ",
+            "arabic_markup": "<span class=\"nonroot\">ذَٰلِكَ</span> <span class=\"arabic-root\">يَوْمٌ</span> <span class=\"arabic-root\">مَجْمُوعٌ</span> <span class=\"nonroot\">لَهُ</span> <span class=\"arabic-root\">النَّاسُ</span> <span class=\"arabic-root\">وَذَٰلِكَ</span> <span class=\"arabic-root\">يَوْمٌ</span> <span class=\"arabic-root\">مَشْهُودٌ</span>",
+            "hinglish": "Woh aisa din hai jiske liye sab log jama kiye jayenge aur woh haazri ka din hai",
+            "hinglish_meaning": "Woh aisa din hai jiske liye sab log jama kiye jayenge aur woh haazri ka din hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh aisa din hai jiske liye sab log jama kiye jayenge aur woh haazri ka din hai",
+              "ur": "Woh aisa din hai jiske liye sab log jama kiye jayenge aur woh haazri ka din hai",
+              "en": "Woh aisa din hai jiske liye sab log jama kiye jayenge aur woh haazri ka din hai",
+              "hi": "Woh aisa din hai jiske liye sab log jama kiye jayenge aur woh haazri ka din hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_s1_s4",
+            "sentence_number": 4,
+            "arabic": "إِنَّهُ كَانَ مَنْصُورًا",
+            "arabic_text": "إِنَّهُ كَانَ مَنْصُورًا",
+            "arabic_markup": "<span class=\"nonroot\">إِنَّهُ</span> <span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">مَنْصُورًا</span>",
+            "hinglish": "Beshak uski madad ki gayi",
+            "hinglish_meaning": "Beshak uski madad ki gayi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak uski madad ki gayi",
+              "ur": "Beshak uski madad ki gayi",
+              "en": "Beshak uski madad ki gayi",
+              "hi": "Beshak uski madad ki gayi",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_s1_s5",
+            "sentence_number": 5,
+            "arabic": "إِنَّ هَٰذَا كَانَ لَكُمْ جَزَاءً وَكَانَ سَعْيُكُمْ مَشْكُورًا",
+            "arabic_text": "إِنَّ هَٰذَا كَانَ لَكُمْ جَزَاءً وَكَانَ سَعْيُكُمْ مَشْكُورًا",
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"nonroot\">هَٰذَا</span> <span class=\"nonroot\">كَانَ</span> <span class=\"nonroot\">لَكُمْ</span> <span class=\"arabic-root\">جَزَاءً</span> <span class=\"arabic-root\">وَكَانَ</span> <span class=\"arabic-root\">سَعْي</span><span class=\"nonroot\">ُكُمْ</span> <span class=\"arabic-root\">مَشْكُورًا</span>",
+            "hinglish": "Beshak yeh tumhare liye badla hai aur tumhari koshish ki qadr (shukr) ki gayi",
+            "hinglish_meaning": "Beshak yeh tumhare liye badla hai aur tumhari koshish ki qadr (shukr) ki gayi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak yeh tumhare liye badla hai aur tumhari koshish ki qadr (shukr) ki gayi",
+              "ur": "Beshak yeh tumhare liye badla hai aur tumhari koshish ki qadr (shukr) ki gayi",
+              "en": "Beshak yeh tumhare liye badla hai aur tumhari koshish ki qadr (shukr) ki gayi",
+              "hi": "Beshak yeh tumhare liye badla hai aur tumhari koshish ki qadr (shukr) ki gayi",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_s1_s6",
+            "sentence_number": 6,
+            "arabic": "وَكَانَ أَمْرُ اللَّهِ مَفْعُولًا",
+            "arabic_text": "وَكَانَ أَمْرُ اللَّهِ مَفْعُولًا",
+            "arabic_markup": "<span class=\"arabic-root\">وَكَانَ</span> <span class=\"nonroot\">أَمْرُ اللَّهِ</span> <span class=\"arabic-root\">مَفْعُولًا</span>",
+            "hinglish": "Aur Allah ka hukm hokar rehne wala (kiya gaya) hai",
+            "hinglish_meaning": "Aur Allah ka hukm hokar rehne wala (kiya gaya) hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah ka hukm hokar rehne wala (kiya gaya) hai",
+              "en": "And the command of Allah is destined to be executed.",
+              "ur": "اور اللہ کا حکم تو پورا ہو کر ہی رہنے والا تھا۔",
+              "hi": "और अल्लाह का हुक्म तो पूरा होकर ही रहने वाला था।",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_s1_s7",
+            "sentence_number": 7,
+            "arabic": "قَوْلٌ مَعْرُوفٌ وَمَغْفِرَةٌ خَيْرٌ مِنْ صَدَقَةٍ يَتْبَعُهَا أَذًى",
+            "arabic_text": "قَوْلٌ مَعْرُوفٌ وَمَغْفِرَةٌ خَيْرٌ مِنْ صَدَقَةٍ يَتْبَعُهَا أَذًى",
+            "arabic_markup": "<span class=\"arabic-root\">قَوْلٌ</span> <span class=\"arabic-root\">مَعْرُوفٌ</span> <span class=\"arabic-root\">وَمَغْفِرَةٌ</span> <span class=\"arabic-root\">خَيْرٌ</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">صَدَقَةٍ</span> <span class=\"arabic-root\">يَتْبَعُهَا</span> <span class=\"arabic-root\">أَذًى</span>",
+            "hinglish": "Achhi (ma'roof) baat kehna aur dar-guzar karna us sadaqe se behtar hai jiske peeche takleef dena ho",
+            "hinglish_meaning": "Achhi (ma'roof) baat kehna aur dar-guzar karna us sadaqe se behtar hai jiske peeche takleef dena ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Achhi (ma'roof) baat kehna aur dar-guzar karna us sadaqe se behtar hai jiske peeche takleef dena ho",
+              "ur": "Achhi (ma'roof) baat kehna aur dar-guzar karna us sadaqe se behtar hai jiske peeche takleef dena ho",
+              "en": "Achhi (ma'roof) baat kehna aur dar-guzar karna us sadaqe se behtar hai jiske peeche takleef dena ho",
+              "hi": "Achhi (ma'roof) baat kehna aur dar-guzar karna us sadaqe se behtar hai jiske peeche takleef dena ho",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l18_s1_s8",
+            "sentence_number": 8,
+            "arabic": "إِنَّ السَّمْعَ وَالْبَصَرَ وَالْفُؤَادَ كُلُّ أُولَٰئِكَ كَانَ عَنْهُ مَسْئُولًا",
+            "arabic_text": "إِنَّ السَّمْعَ وَالْبَصَرَ وَالْفُؤَادَ كُلُّ أُولَٰئِكَ كَانَ عَنْهُ مَسْئُولًا",
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">السَّمْعَ</span> <span class=\"arabic-root\">وَالْبَصَرَ</span> <span class=\"arabic-root\">وَالْفُؤَادَ</span> <span class=\"arabic-root\">كُلُّ</span> <span class=\"nonroot\">أُولَٰئِكَ</span> <span class=\"nonroot\">كَانَ</span> <span class=\"nonroot\">عَنْهُ</span> <span class=\"arabic-root\">مَسْئُولًا</span>",
+            "hinglish": "Beshak kaan aur aankh aur dil — in sab ke baare mein poochh-gachh ki jayegi",
+            "hinglish_meaning": "Beshak kaan aur aankh aur dil — in sab ke baare mein poochh-gachh ki jayegi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak kaan aur aankh aur dil — in sab ke baare mein poochh-gachh ki jayegi",
+              "ur": "Beshak kaan aur aankh aur dil — in sab ke baare mein poochh-gachh ki jayegi",
+              "en": "Beshak kaan aur aankh aur dil — in sab ke baare mein poochh-gachh ki jayegi",
+              "hi": "Beshak kaan aur aankh aur dil — in sab ke baare mein poochh-gachh ki jayegi",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "page_start": 39
+}

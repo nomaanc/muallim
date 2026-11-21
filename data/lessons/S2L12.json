@@ -1,0 +1,1380 @@
+{
+  "lesson_id": 12,
+  "lesson_key": "S2L12",
+  "stage_id": 2,
+  "title": "Fe'l Naaqis 'Kaana' (Tha / Hai): رَسُولٌ ← كَانَ رَسُولًا",
+  "arabic_Focus": "رَسُولٌ ، غَفُورٌ رَحِيمٌ ← كَانَ رَسُولًا ، وَكَانَ اللَّهُ غَفُورًا رَحِيمًا",
+  "hinglish_Focus": "Ek Rasool, Bakhshne wala (ـٌ) → Woh ek Rasool tha, Aur Allah bakhshne wala hai (ـًا)",
+  "page_numbers": "72–73",
+  "book_page": 72,
+  "status": "complete",
+  "title_i18n": {
+    "en": "Fe'l Naaqis 'Kaana' (Tha / Hai): رَسُولٌ ← كَانَ رَسُولًا",
+    "ur": "یونٹ 2 سبق 12: رَسُولٌ ، غَفُورٌ رَحِيمٌ ← كَانَ رَسُولًا ، وَكَانَ اللَّهُ غَفُورًا رَحِيمًا",
+    "hi": "Fe'l Naaqis 'Kaana' (Tha / Hai): رَسُولٌ ← كَانَ رَسُولًا"
+  },
+  "sections": [
+    {
+      "id": "sec_hero",
+      "type": "hero_header",
+      "data": {
+        "arabic": "رَسُولٌ ، غَفُورٌ رَحِيمٌ ← كَانَ رَسُولًا ، وَكَانَ اللَّهُ غَفُورًا رَحِيمًا",
+        "hinglish": "Ek Rasool, Bakhshne wala (ـٌ) → Woh ek Rasool tha, Aur Allah bakhshne wala hai (ـًا)",
+        "arabic_word": "رَسُولٌ ، غَفُورٌ رَحِيمٌ",
+        "arabic_combined": "رَسُولٌ ، غَفُورٌ رَحِيمٌ ← كَانَ رَسُولًا ، وَكَانَ اللَّهُ غَفُورًا رَحِيمًا",
+        "hinglish_word": "Ek Rasool, Bakhshne wala (ـٌ)",
+        "hinglish_combined": "Ek Rasool, Bakhshne wala (ـٌ) → Woh ek Rasool tha, Aur Allah bakhshne wala hai (ـًا)",
+        "title_en": "Fe'l Naaqis 'Kaana' (Tha / Hai): رَسُولٌ ← كَانَ رَسُولًا",
+        "subtitle": "Unit 2 • Lesson 12 (Book Page 72–73)",
+        "transformations": [
+          {
+            "before_ar": "رَسُولٌ ، غَفُورٌ رَحِيمٌ",
+            "after_ar": "كَانَ رَسُولًا ، وَكَانَ اللَّهُ غَفُورًا رَحِيمًا",
+            "before_hi": "Ek Rasool, Bakhshne wala (ـٌ)",
+            "after_hi": "Woh ek Rasool tha, Aur Allah bakhshne wala hai (ـًا)"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_intro_table",
+      "type": "intro_table",
+      "data": {
+        "title": "S2L12 — Fe'l Naaqis 'Kaana' (Tha / Hai): رَسُولٌ ← كَانَ رَسُولًا: Buniyadi Misaalein",
+        "caption": "S2L12 — Fe'l Naaqis 'Kaana' (Tha / Hai): رَسُولٌ ← كَانَ رَسُولًا: Buniyadi Misaalein",
+        "headers": [
+          "Qaa'ida / Halat",
+          "Arabi Misaal",
+          "Hinglish Mafhoom"
+        ],
+        "rows": [
+          [
+            "كَانَ + Khabar (Do Zabar ـًا)",
+            "كَانَ رَسُولًا / كَانَ صِدِّيقًا نَبِيًّا",
+            "Woh ek Rasool thay / Woh sachche Nabi thay"
+          ],
+          [
+            "وَكَانَ اللَّهُ ... (Hamesha se hai)",
+            "وَكَانَ اللَّهُ غَفُورًا رَحِيمًا / عَلِيمًا حَكِيمًا",
+            "Aur Allah hamesha se bakhshne wala meherbaan hai"
+          ],
+          [
+            "مَا كَانَ ... (Nahin tha)",
+            "مَا كَانَ إِبْرَاهِيمُ يَهُودِيًّا وَلَا نَصْرَانِيًّا",
+            "Ibrahim (A.S.) na Yahoodi thay aur na Nasrani"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l12_concept",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 12</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Fe'l Naaqis 'Kaana' (Tha / Hai): رَسُولٌ ← كَانَ رَسُولًا (Page 72–73)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">رَسُولٌ ، غَفُورٌ رَحِيمٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Kaana (كَانَ + ـًا)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">كَانَ رَسُولًا ، وَكَانَ اللَّهُ غَفُورًا رَحِيمًا</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• رَسُولٌ ، غَفُورٌ رَحِيمٌ (Ek Rasool, Bakhshne wala (ـٌ)) se كَانَ رَسُولًا ، وَكَانَ اللَّهُ غَفُورًا رَحِيمًا (Woh ek Rasool tha, Aur Allah bakhshne wala hai (ـًا)) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 72–73):** **`كَانَ`** ka aam matlab **'tha'** hai (aur Allah Ta'ala ki sifaat ke saath iska matlab **'hamesha se hai / yaqeenan hai'** hota hai). `كَانَ` ki khabar par **Do Zabar (`ـًا`)** aate hain: `رَسُولٌ ← كَانَ رَسُولًا` (woh Rasool thay), `وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا` (aur Allah khoob jaanne wala hikmat wala hai).",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 12</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Fe'l Naaqis 'Kaana' (Tha / Hai): رَسُولٌ ← كَانَ رَسُولًا (Page 72–73)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">رَسُولٌ ، غَفُورٌ رَحِيمٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Kaana (كَانَ + ـًا)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">كَانَ رَسُولًا ، وَكَانَ اللَّهُ غَفُورًا رَحِيمًا</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• رَسُولٌ ، غَفُورٌ رَحِيمٌ (Ek Rasool, Bakhshne wala (ـٌ)) se كَانَ رَسُولًا ، وَكَانَ اللَّهُ غَفُورًا رَحِيمًا (Woh ek Rasool tha, Aur Allah bakhshne wala hai (ـًا)) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 72–73):** **`كَانَ`** ka aam matlab **'tha'** hai (aur Allah Ta'ala ki sifaat ke saath iska matlab **'hamesha se hai / yaqeenan hai'** hota hai). `كَانَ` ki khabar par **Do Zabar (`ـًا`)** aate hain: `رَسُولٌ ← كَانَ رَسُولًا` (woh Rasool thay), `وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا` (aur Allah khoob jaanne wala hikmat wala hai).",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 12</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Fe'l Naaqis 'Kaana' (Tha / Hai): رَسُولٌ ← كَانَ رَسُولًا (Page 72–73)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">رَسُولٌ ، غَفُورٌ رَحِيمٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Kaana (كَانَ + ـًا)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">كَانَ رَسُولًا ، وَكَانَ اللَّهُ غَفُورًا رَحِيمًا</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• رَسُولٌ ، غَفُورٌ رَحِيمٌ (Ek Rasool, Bakhshne wala (ـٌ)) se كَانَ رَسُولًا ، وَكَانَ اللَّهُ غَفُورًا رَحِيمًا (Woh ek Rasool tha, Aur Allah bakhshne wala hai (ـًا)) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 72–73):** **`كَانَ`** ka aam matlab **'tha'** hai (aur Allah Ta'ala ki sifaat ke saath iska matlab **'hamesha se hai / yaqeenan hai'** hota hai). `كَانَ` ki khabar par **Do Zabar (`ـًا`)** aate hain: `رَسُولٌ ← كَانَ رَسُولًا` (woh Rasool thay), `وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا` (aur Allah khoob jaanne wala hikmat wala hai)."
+      }
+    },
+    {
+      "id": "sec_s2l12_lbl1",
+      "type": "section_label",
+      "data": {
+        "text": "Darj zail misaalon par ghaur karein:",
+        "title": "Darj zail misaalon par ghaur karein:",
+        "label": "Darj zail misaalon par ghaur karein:"
+      }
+    },
+    {
+      "id": "sec_s2l12_r3",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Aap pehle column mein diye gaye alfaaz ke maani pehle se jaante hain. Dusre column mein unhi alfaaz ke shuru mein (كَانَ) laga kar dobara likha gaya hai. (كَانَ) ke aane se maani mein 'tha' ka mafhoom paida hota hai. Aur maazi ki taraf ishara karne wale lafz ya sifat par do pesh ( ٌ ) ki jagah do zabar / tanween fath ( ً ) aati hai. Jab kisi lafz (maslan رَسُولٌ) par do zabar aate hain toh uske aakhir mein ek alif (ا) ka izafa kiya jata hai jaise (رَسُولًا). Iss se maani mein koi farq nahi padta.",
+        "content": "Aap pehle column mein diye gaye alfaaz ke maani pehle se jaante hain. Dusre column mein unhi alfaaz ke shuru mein (كَانَ) laga kar dobara likha gaya hai. (كَانَ) ke aane se maani mein 'tha' ka mafhoom paida hota hai. Aur maazi ki taraf ishara karne wale lafz ya sifat par do pesh ( ٌ ) ki jagah do zabar / tanween fath ( ً ) aati hai. Jab kisi lafz (maslan رَسُولٌ) par do zabar aate hain toh uske aakhir mein ek alif (ا) ka izafa kiya jata hai jaise (رَسُولًا). Iss se maani mein koi farq nahi padta.",
+        "hinglish_text": "Aap pehle column mein diye gaye alfaaz ke maani pehle se jaante hain. Dusre column mein unhi alfaaz ke shuru mein (كَانَ) laga kar dobara likha gaya hai. (كَانَ) ke aane se maani mein 'tha' ka mafhoom paida hota hai. Aur maazi ki taraf ishara karne wale lafz ya sifat par do pesh ( ٌ ) ki jagah do zabar / tanween fath ( ً ) aati hai. Jab kisi lafz (maslan رَسُولٌ) par do zabar aate hain toh uske aakhir mein ek alif (ا) ka izafa kiya jata hai jaise (رَسُولًا). Iss se maani mein koi farq nahi padta."
+      }
+    },
+    {
+      "id": "sec_s2l12_r4",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Darj zail Qur'ani murakkabaat ko samjhein aur tarjuma karein:",
+        "content": "Darj zail Qur'ani murakkabaat ko samjhein aur tarjuma karein:",
+        "hinglish_text": "Darj zail Qur'ani murakkabaat ko samjhein aur tarjuma karein:"
+      }
+    },
+    {
+      "id": "sec_s2l12_g5",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l12_g5_w1",
+            "arabic": "كَانَ صِدِّيقًا",
+            "arabic_text": "كَانَ صِدِّيقًا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">صِدِّيقًا</span>",
+            "hinglish": "Woh sachha tha",
+            "hinglish_meaning": "Woh sachha tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh sachha tha",
+              "en": "He was truthful",
+              "ur": "وہ سچا تھا",
+              "hi": "वह सच्चा था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w2",
+            "arabic": "كَانَ رَسُولًا",
+            "arabic_text": "كَانَ رَسُولًا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">رَسُولًا</span>",
+            "hinglish": "Woh rasool tha",
+            "hinglish_meaning": "Woh rasool tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh rasool tha",
+              "en": "He was a messenger",
+              "ur": "وہ رسول تھا",
+              "hi": "वह रसूल था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w3",
+            "arabic": "كَانَ عَدُوًّا",
+            "arabic_text": "كَانَ عَدُوًّا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">عَدُوًّا</span>",
+            "hinglish": "Woh dushman tha",
+            "hinglish_meaning": "Woh dushman tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh dushman tha",
+              "en": "He was an enemy",
+              "ur": "وہ دشمن تھا",
+              "hi": "वह दुश्मन था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w4",
+            "arabic": "كَانَ مَرِيضًا",
+            "arabic_text": "كَانَ مَرِيضًا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">مَرِيضًا</span>",
+            "hinglish": "Woh beemar tha",
+            "hinglish_meaning": "Woh beemar tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh beemar tha",
+              "en": "He was sick",
+              "ur": "وہ بیمار تھا",
+              "hi": "वह बीमार था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w5",
+            "arabic": "كَانَ فَاسِقًا",
+            "arabic_text": "كَانَ فَاسِقًا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">فَاسِقًا</span>",
+            "hinglish": "Woh na-farman tha",
+            "hinglish_meaning": "Woh na-farman tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh na-farman tha",
+              "en": "He was defiantly disobedient",
+              "ur": "وہ نافرمان تھا",
+              "hi": "वह नाफ़रमान था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w6",
+            "arabic": "كَانَ مُؤْمِنًا",
+            "arabic_text": "كَانَ مُؤْمِنًا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">مُؤْمِنًا</span>",
+            "hinglish": "Woh momin tha",
+            "hinglish_meaning": "Woh momin tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh momin tha",
+              "en": "He was a believer",
+              "ur": "وہ مومن تھا",
+              "hi": "वह मोमिन था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w7",
+            "arabic": "كَانَ كَفُورًا",
+            "arabic_text": "كَانَ كَفُورًا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">كَفُورًا</span>",
+            "hinglish": "Woh bada nashukra tha",
+            "hinglish_meaning": "Woh bada nashukra tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh bada nashukra tha",
+              "en": "He was very ungrateful",
+              "ur": "وہ بڑا ناشکرا تھا",
+              "hi": "वह बड़ा नाशुकरा था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w8",
+            "arabic": "كَانَ خَيْرًا",
+            "arabic_text": "كَانَ خَيْرًا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">خَيْرًا</span>",
+            "hinglish": "Woh behtar tha",
+            "hinglish_meaning": "Woh behtar tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh behtar tha",
+              "en": "It was better",
+              "ur": "وہ بہتر تھا",
+              "hi": "वह बेहतर था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w9",
+            "arabic": "كَانَ زَهُوقًا",
+            "arabic_text": "كَانَ زَهُوقًا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">زَهُوقًا</span>",
+            "hinglish": "Woh zaail hone wala tha",
+            "hinglish_meaning": "Woh zaail hone wala tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh zaail hone wala tha",
+              "en": "It was bound to vanish",
+              "ur": "وہ زائل ہونے والا تھا",
+              "hi": "वह ज़ाइल होने वाला था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w10",
+            "arabic": "كَانَ حَقًّا",
+            "arabic_text": "كَانَ حَقًّا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">حَقًّا</span>",
+            "hinglish": "Woh haq tha",
+            "hinglish_meaning": "Woh haq tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh haq tha",
+              "en": "It was a truth / right",
+              "ur": "وہ حق تھا",
+              "hi": "वह हक़ था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w11",
+            "arabic": "كَانَ مَيِّتًا",
+            "arabic_text": "كَانَ مَيِّتًا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">مَيِّتًا</span>",
+            "hinglish": "Woh murda tha",
+            "hinglish_meaning": "Woh murda tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh murda tha",
+              "en": "He was dead",
+              "ur": "وہ مردہ تھا",
+              "hi": "वह मुर्दा था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w12",
+            "arabic": "كَانَ حَيًّا",
+            "arabic_text": "كَانَ حَيًّا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">حَيًّا</span>",
+            "hinglish": "Woh zinda tha",
+            "hinglish_meaning": "Woh zinda tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh zinda tha",
+              "en": "He was alive",
+              "ur": "وہ زندہ تھا",
+              "hi": "वह ज़िंदा था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w13",
+            "arabic": "كَانَ فَقِيرًا",
+            "arabic_text": "كَانَ فَقِيرًا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">فَقِيرًا</span>",
+            "hinglish": "Woh faqeer tha",
+            "hinglish_meaning": "Woh faqeer tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh faqeer tha",
+              "en": "He was poor / needy",
+              "ur": "وہ فقیر (محتاج) تھا",
+              "hi": "वह फ़क़ीर (मोहताज) था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w14",
+            "arabic": "كَانَ غَنِيًّا",
+            "arabic_text": "كَانَ غَنِيًّا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">غَنِيًّا</span>",
+            "hinglish": "Woh beniyaaz tha",
+            "hinglish_meaning": "Woh beniyaaz tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh beniyaaz tha",
+              "en": "He was self-sufficient",
+              "ur": "وہ بے نیاز (غنی) تھا",
+              "hi": "वह बेनियाज़ (धनी) था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w15",
+            "arabic": "كَانَ وَعْدًا",
+            "arabic_text": "كَانَ وَعْدًا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">وَعْدًا</span>",
+            "hinglish": "Woh waada tha",
+            "hinglish_meaning": "Woh waada tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh waada tha",
+              "en": "It was a promise",
+              "ur": "وہ وعدہ تھا",
+              "hi": "वह वादा था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w16",
+            "arabic": "كَانَ حَنِيفًا",
+            "arabic_text": "كَانَ حَنِيفًا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">حَنِيفًا</span>",
+            "hinglish": "Woh ek-sukh tha",
+            "hinglish_meaning": "Woh ek-sukh tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh ek-sukh tha",
+              "en": "He was upright / devoted",
+              "ur": "وہ یکسو تھا",
+              "hi": "वह यक-सू था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w17",
+            "arabic": "كَانَ ظَلُومًا",
+            "arabic_text": "كَانَ ظَلُومًا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">ظَلُومًا</span>",
+            "hinglish": "Woh bada zalim tha",
+            "hinglish_meaning": "Woh bada zalim tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh bada zalim tha",
+              "en": "He was very unjust",
+              "ur": "وہ بڑا ظالم تھا",
+              "hi": "वह बड़ा ज़ालिम था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w18",
+            "arabic": "كَانَ عَبْدًا",
+            "arabic_text": "كَانَ عَبْدًا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">عَبْدًا</span>",
+            "hinglish": "Woh banda tha",
+            "hinglish_meaning": "Woh banda tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh banda tha",
+              "en": "He was a servant",
+              "ur": "وہ بندہ تھا",
+              "hi": "वह बंदा था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w19",
+            "arabic": "كَانَ قَتُورًا",
+            "arabic_text": "كَانَ قَتُورًا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">قَتُورًا</span>",
+            "hinglish": "Woh bada kanjoos tha",
+            "hinglish_meaning": "Woh bada kanjoos tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh bada kanjoos tha",
+              "en": "He was tight-fisted / stingy",
+              "ur": "وہ بڑا کنجوس تھا",
+              "hi": "वह बड़ा कंजूस था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w20",
+            "arabic": "كَانَ يَسِيرًا",
+            "arabic_text": "كَانَ يَسِيرًا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">يَسِيرًا</span>",
+            "hinglish": "Woh aasan tha",
+            "hinglish_meaning": "Woh aasan tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh aasan tha",
+              "en": "It was easy",
+              "ur": "وہ آسان تھا",
+              "hi": "वह आसान था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w21",
+            "arabic": "كَانَ مَسْطُورًا",
+            "arabic_text": "كَانَ مَسْطُورًا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">مَسْطُورًا</span>",
+            "hinglish": "Woh likha hua tha",
+            "hinglish_meaning": "Woh likha hua tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh likha hua tha",
+              "en": "It was inscribed / written",
+              "ur": "وہ لکھا ہوا تھا",
+              "hi": "वह लिखा हुआ था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w22",
+            "arabic": "كَانَ مَسْئُولًا",
+            "arabic_text": "كَانَ مَسْئُولًا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">مَسْئُولًا</span>",
+            "hinglish": "Woh baz-purs kiya jaane wala tha",
+            "hinglish_meaning": "Woh baz-purs kiya jaane wala tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh baz-purs kiya jaane wala tha",
+              "en": "It was to be enquired about",
+              "ur": "وہ بازپرس کیا جانے والا تھا",
+              "hi": "वह बाज़पुर्स किया जाने वाला था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w23",
+            "arabic": "كَانَ عَصِيًّا",
+            "arabic_text": "كَانَ عَصِيًّا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">عَصِيًّا</span>",
+            "hinglish": "Woh na-farman tha",
+            "hinglish_meaning": "Woh na-farman tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh na-farman tha",
+              "en": "He was rebellious / disobedient",
+              "ur": "وہ نافرمان تھا",
+              "hi": "वह नाफ़रमान था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_g5_w24",
+            "arabic": "كَانَ أُمَّةً",
+            "arabic_text": "كَانَ أُمَّةً",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">أُمَّةً</span>",
+            "hinglish": "Woh ek ummat tha",
+            "hinglish_meaning": "Woh ek ummat tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh ek ummat tha",
+              "en": "He was a whole community",
+              "ur": "وہ ایک امت تھا",
+              "hi": "वह एक उम्मत था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l12_g6",
+      "type": "grace_box",
+      "data": {
+        "text": "Alhamdulillah! Ab aap darj zail Qur'ani jumlon aur aayaat ko samajhne aur unka tarjuma khud karne ke qaabil hain:"
+      }
+    },
+    {
+      "id": "sec_s2l12_r7",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Quran Majeed mein (كَانَ) kasrat se Allah Ta'ala ki Sifaat ke saath aata hai:",
+        "content": "Quran Majeed mein (كَانَ) kasrat se Allah Ta'ala ki Sifaat ke saath aata hai:",
+        "hinglish_text": "Quran Majeed mein (كَانَ) kasrat se Allah Ta'ala ki Sifaat ke saath aata hai:"
+      }
+    },
+    {
+      "id": "sec_s2l12_s8",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s2l12_s8_s1",
+            "sentence_number": 1,
+            "arabic": "وَكَانَ اللَّهُ وَاسِعًا حَكِيمًا",
+            "arabic_text": "وَكَانَ اللَّهُ وَاسِعًا حَكِيمًا",
+            "arabic_markup": "<span class=\"nonroot\">وَكَانَ اللَّهُ</span> <span class=\"arabic-root\">وَاسِعًا حَكِيمًا</span>",
+            "hinglish": "Aur Allah wus'at wala hikmat wala hai",
+            "hinglish_meaning": "Aur Allah wus'at wala hikmat wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah wus'at wala hikmat wala hai",
+              "en": "And Allah is ever All-Encompassing and All-Wise",
+              "ur": "اور اللہ ہمیشہ سے وسعت والا، حکمت والا ہے",
+              "hi": "और अल्लाह वुसअत वाला, हिकमत वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s8_s2",
+            "sentence_number": 2,
+            "arabic": "وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا",
+            "arabic_text": "وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا",
+            "arabic_markup": "<span class=\"nonroot\">وَكَانَ اللَّهُ</span> <span class=\"arabic-root\">عَلِيمًا حَكِيمًا</span>",
+            "hinglish": "Aur Allah jaanne wala hikmat wala hai",
+            "hinglish_meaning": "Aur Allah jaanne wala hikmat wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah jaanne wala hikmat wala hai",
+              "en": "And Allah is ever All-Knowing and All-Wise",
+              "ur": "اور اللہ ہمیشہ سے سب کچھ جاننے والا، حکمت والا ہے",
+              "hi": "और अल्लाह सब कुछ जानने वाला, हिकमत वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s8_s3",
+            "sentence_number": 3,
+            "arabic": "وَكَانَ اللَّهُ غَفُورًا رَحِيمًا",
+            "arabic_text": "وَكَانَ اللَّهُ غَفُورًا رَحِيمًا",
+            "arabic_markup": "<span class=\"nonroot\">وَكَانَ اللَّهُ</span> <span class=\"arabic-root\">غَفُورًا رَحِيمًا</span>",
+            "hinglish": "Aur Allah bakhshne wala meharban hai",
+            "hinglish_meaning": "Aur Allah bakhshne wala meharban hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah bakhshne wala meharban hai",
+              "en": "And Allah is ever Forgiving and Merciful",
+              "ur": "اور اللہ ہمیشہ سے بخشنے والا، نہایت مہربان ہے",
+              "hi": "और अल्लाह बख़्शने वाला, निहायत मेहरबान है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s8_s4",
+            "sentence_number": 4,
+            "arabic": "وَكَانَ اللَّهُ عَزِيزًا حَكِيمًا",
+            "arabic_text": "وَكَانَ اللَّهُ عَزِيزًا حَكِيمًا",
+            "arabic_markup": "<span class=\"nonroot\">وَكَانَ اللَّهُ</span> <span class=\"arabic-root\">عَزِيزًا حَكِيمًا</span>",
+            "hinglish": "Aur Allah ghalib hikmat wala hai",
+            "hinglish_meaning": "Aur Allah ghalib hikmat wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah ghalib hikmat wala hai",
+              "en": "And Allah is ever Almighty and All-Wise",
+              "ur": "اور اللہ ہمیشہ سے غالب، حکمت والا ہے",
+              "hi": "और अल्लाह ग़ालिब, हिकमत वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s8_s5",
+            "sentence_number": 5,
+            "arabic": "وَكَانَ اللَّهُ قَوِيًّا عَزِيزًا",
+            "arabic_text": "وَكَانَ اللَّهُ قَوِيًّا عَزِيزًا",
+            "arabic_markup": "<span class=\"nonroot\">وَكَانَ اللَّهُ</span> <span class=\"arabic-root\">قَوِيًّا عَزِيزًا</span>",
+            "hinglish": "Aur Allah quwwat wala ghalib hai",
+            "hinglish_meaning": "Aur Allah quwwat wala ghalib hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah quwwat wala ghalib hai",
+              "en": "And Allah is ever Powerful and Almighty",
+              "ur": "اور اللہ ہمیشہ سے قوت والا، غالب ہے",
+              "hi": "और अल्लाह क़ुव्वत वाला, ग़ालिब है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s8_s6",
+            "sentence_number": 6,
+            "arabic": "وَكَانَ اللَّهُ عَفُوًّا غَفُورًا",
+            "arabic_text": "وَكَانَ اللَّهُ عَفُوًّا غَفُورًا",
+            "arabic_markup": "<span class=\"nonroot\">وَكَانَ اللَّهُ</span> <span class=\"arabic-root\">عَفُوًّا غَفُورًا</span>",
+            "hinglish": "Aur Allah muaf karne wala bakhshne wala hai",
+            "hinglish_meaning": "Aur Allah muaf karne wala bakhshne wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah muaf karne wala bakhshne wala hai",
+              "en": "And Allah is ever Pardoning and Forgiving",
+              "ur": "اور اللہ ہمیشہ سے معاف فرمانے والا، بخشنے والا ہے",
+              "hi": "और अल्लाह माफ़ करने वाला, बख़्शने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s8_s7",
+            "sentence_number": 7,
+            "arabic": "وَكَانَ اللَّهُ سَمِيعًا بَصِيرًا",
+            "arabic_text": "وَكَانَ اللَّهُ سَمِيعًا بَصِيرًا",
+            "arabic_markup": "<span class=\"nonroot\">وَكَانَ اللَّهُ</span> <span class=\"arabic-root\">سَمِيعًا بَصِيرًا</span>",
+            "hinglish": "Aur Allah sunne wala dekhne wala hai",
+            "hinglish_meaning": "Aur Allah sunne wala dekhne wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah sunne wala dekhne wala hai",
+              "en": "And Allah is ever All-Hearing and All-Seeing",
+              "ur": "اور اللہ ہمیشہ سے سب کچھ سننے والا، سب کچھ دیکھنے والا ہے",
+              "hi": "और अल्लाह सब कुछ सुनने वाला, सब कुछ देखने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s8_s8",
+            "sentence_number": 8,
+            "arabic": "وَكَانَ اللَّهُ غَنِيًّا حَمِيدًا",
+            "arabic_text": "وَكَانَ اللَّهُ غَنِيًّا حَمِيدًا",
+            "arabic_markup": "<span class=\"nonroot\">وَكَانَ اللَّهُ</span> <span class=\"arabic-root\">غَنِيًّا حَمِيدًا</span>",
+            "hinglish": "Aur Allah beniyaaz hamd ke laayiq hai",
+            "hinglish_meaning": "Aur Allah beniyaaz hamd ke laayiq hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah beniyaaz hamd ke laayiq hai",
+              "en": "And Allah is ever Free of need and Praiseworthy",
+              "ur": "اور اللہ ہمیشہ سے بے نیاز، تعریف کے لائق ہے",
+              "hi": "और अल्लाह बेनियाज़, हम्द के लायक़ (प्रशंसनीय) है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s8_s9",
+            "sentence_number": 9,
+            "arabic": "وَكَانَ اللَّهُ شَاكِرًا عَلِيمًا",
+            "arabic_text": "وَكَانَ اللَّهُ شَاكِرًا عَلِيمًا",
+            "arabic_markup": "<span class=\"nonroot\">وَكَانَ اللَّهُ</span> <span class=\"arabic-root\">شَاكِرًا عَلِيمًا</span>",
+            "hinglish": "Aur Allah qadardaan jaanne wala hai",
+            "hinglish_meaning": "Aur Allah qadardaan jaanne wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah qadardaan jaanne wala hai",
+              "en": "And Allah is ever Appreciative and All-Knowing",
+              "ur": "اور اللہ ہمیشہ سے قدردان، سب کچھ جاننے والا ہے",
+              "hi": "और अल्लाह क़दरदान, सब कुछ जानने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s8_s10",
+            "sentence_number": 10,
+            "arabic": "وَكَانَ اللَّهُ سَمِيعًا عَلِيمًا",
+            "arabic_text": "وَكَانَ اللَّهُ سَمِيعًا عَلِيمًا",
+            "arabic_markup": "<span class=\"nonroot\">وَكَانَ اللَّهُ</span> <span class=\"arabic-root\">سَمِيعًا عَلِيمًا</span>",
+            "hinglish": "Aur Allah sunne wala jaanne wala hai",
+            "hinglish_meaning": "Aur Allah sunne wala jaanne wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah sunne wala jaanne wala hai",
+              "en": "And Allah is ever All-Hearing and All-Knowing",
+              "ur": "اور اللہ ہمیشہ سے سب کچھ سننے والا، سب کچھ جاننے والا ہے",
+              "hi": "और अल्लाह सब कुछ सुनने वाला, सब कुछ जानने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s8_s11",
+            "sentence_number": 11,
+            "arabic": "إِنَّ اللَّهَ كَانَ عَزِيزًا حَكِيمًا",
+            "arabic_text": "إِنَّ اللَّهَ كَانَ عَزِيزًا حَكِيمًا",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ اللَّهَ </span><span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">عَزِيزًا حَكِيمًا</span>",
+            "hinglish": "Beshak Allah ghalib hikmat wala hai",
+            "hinglish_meaning": "Beshak Allah ghalib hikmat wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak Allah ghalib hikmat wala hai",
+              "en": "Indeed, Allah is ever Almighty and All-Wise",
+              "ur": "بیشک اللہ ہمیشہ سے غالب، حکمت والا ہے",
+              "hi": "बेशक अल्लाह हमेशा से ग़ालिब, हिकमत वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s8_s12",
+            "sentence_number": 12,
+            "arabic": "إِنَّ اللَّهَ كَانَ عَلِيمًا حَكِيمًا",
+            "arabic_text": "إِنَّ اللَّهَ كَانَ عَلِيمًا حَكِيمًا",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ اللَّهَ </span><span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">عَلِيمًا حَكِيمًا</span>",
+            "hinglish": "Beshak Allah jaanne wala hikmat wala hai",
+            "hinglish_meaning": "Beshak Allah jaanne wala hikmat wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak Allah jaanne wala hikmat wala hai",
+              "en": "Indeed, Allah is ever All-Knowing and All-Wise",
+              "ur": "بیشک اللہ ہمیشہ سے سب کچھ جاننے والا، حکمت والا ہے",
+              "hi": "बेशक अल्लाह हमेशा से सब कुछ जानने वाला, हिकमत वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s8_s13",
+            "sentence_number": 13,
+            "arabic": "إِنَّ اللَّهَ كَانَ غَفُورًا رَحِيمًا",
+            "arabic_text": "إِنَّ اللَّهَ كَانَ غَفُورًا رَحِيمًا",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ اللَّهَ </span><span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">غَفُورًا رَحِيمًا</span>",
+            "hinglish": "Beshak Allah bakhshne wala meharban hai",
+            "hinglish_meaning": "Beshak Allah bakhshne wala meharban hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak Allah bakhshne wala meharban hai",
+              "en": "Indeed, Allah is ever Forgiving and Merciful",
+              "ur": "بیشک اللہ ہمیشہ سے بخشنے والا، نہایت مہربان ہے",
+              "hi": "बेशक अल्लाह हमेशा से बख़्शने वाला, निहायत मेहरबान है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s8_s14",
+            "sentence_number": 14,
+            "arabic": "إِنَّ اللَّهَ كَانَ تَوَّابًا رَحِيمًا",
+            "arabic_text": "إِنَّ اللَّهَ كَانَ تَوَّابًا رَحِيمًا",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ اللَّهَ </span><span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">تَوَّابًا رَحِيمًا</span>",
+            "hinglish": "Beshak Allah tauba qabool karne wala meharban hai",
+            "hinglish_meaning": "Beshak Allah tauba qabool karne wala meharban hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak Allah tauba qabool karne wala meharban hai",
+              "en": "Indeed, Allah is ever Accepting of repentance and Merciful",
+              "ur": "بیشک اللہ ہمیشہ سے توبہ قبول فرمانے والا، نہایت مہربان ہے",
+              "hi": "बेशक अल्लाह हमेशा से तौबा क़बूल करने वाला, निहायत मेहरबान है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s8_s15",
+            "sentence_number": 15,
+            "arabic": "إِنَّ اللَّهَ كَانَ عَلِيمًا خَبِيرًا",
+            "arabic_text": "إِنَّ اللَّهَ كَانَ عَلِيمًا خَبِيرًا",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ اللَّهَ </span><span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">عَلِيمًا خَبِيرًا</span>",
+            "hinglish": "Beshak Allah jaanne wala khabardar hai",
+            "hinglish_meaning": "Beshak Allah jaanne wala khabardar hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak Allah jaanne wala khabardar hai",
+              "en": "Indeed, Allah is ever All-Knowing and All-Aware",
+              "ur": "بیشک اللہ ہمیشہ سے سب کچھ جاننے والا، باخبر ہے",
+              "hi": "बेशक अल्लाह हमेशा से सब कुछ जानने वाला, बाख़बर है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s8_s16",
+            "sentence_number": 16,
+            "arabic": "إِنَّ اللَّهَ كَانَ عَلِيًّا كَبِيرًا",
+            "arabic_text": "إِنَّ اللَّهَ كَانَ عَلِيًّا كَبِيرًا",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ اللَّهَ </span><span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">عَلِيًّا كَبِيرًا</span>",
+            "hinglish": "Beshak Allah buland bada hai",
+            "hinglish_meaning": "Beshak Allah buland bada hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak Allah buland bada hai",
+              "en": "Indeed, Allah is ever Exalted and Grand",
+              "ur": "بیشک اللہ ہمیشہ سے بلند، سب سے بڑا ہے",
+              "hi": "बेशक अल्लाह हमेशा से बुलंद, सबसे बड़ा है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s8_s17",
+            "sentence_number": 17,
+            "arabic": "إِنَّ اللَّهَ كَانَ سَمِيعًا بَصِيرًا",
+            "arabic_text": "إِنَّ اللَّهَ كَانَ سَمِيعًا بَصِيرًا",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ اللَّهَ </span><span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">سَمِيعًا بَصِيرًا</span>",
+            "hinglish": "Beshak Allah sunne wala dekhne wala hai",
+            "hinglish_meaning": "Beshak Allah sunne wala dekhne wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak Allah sunne wala dekhne wala hai",
+              "en": "Indeed, Allah is ever All-Hearing and All-Seeing",
+              "ur": "بیشک اللہ ہمیشہ سے سب کچھ سننے والا، سب کچھ دیکھنے والا ہے",
+              "hi": "बेशक अल्लाह हमेशा से सब कुछ सुनने वाला, सब कुछ देखने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s8_s18",
+            "sentence_number": 18,
+            "arabic": "إِنَّ اللَّهَ كَانَ عَفُوًّا غَفُورًا",
+            "arabic_text": "إِنَّ اللَّهَ كَانَ عَفُوًّا غَفُورًا",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ اللَّهَ </span><span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">عَفُوًّا غَفُورًا</span>",
+            "hinglish": "Beshak Allah muaf karne wala bakhshne wala hai",
+            "hinglish_meaning": "Beshak Allah muaf karne wala bakhshne wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak Allah muaf karne wala bakhshne wala hai",
+              "en": "Indeed, Allah is ever Pardoning and Forgiving",
+              "ur": "بیشک اللہ ہمیشہ سے معاف فرمانے والا، بخشنے والا ہے",
+              "hi": "बेशक अल्लाह हमेशा से माफ़ करने वाला, बख़्शने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s8_s19",
+            "sentence_number": 19,
+            "arabic": "فَإِنَّ اللَّهَ كَانَ عَفُوًّا قَدِيرًا",
+            "arabic_text": "فَإِنَّ اللَّهَ كَانَ عَفُوًّا قَدِيرًا",
+            "arabic_markup": "<span class=\"arabic-root\">فَإِنَّ اللَّهَ </span><span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">عَفُوًّا قَدِيرًا</span>",
+            "hinglish": "Toh beshak Allah muaf karne wala qudrat wala hai",
+            "hinglish_meaning": "Toh beshak Allah muaf karne wala qudrat wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh beshak Allah muaf karne wala qudrat wala hai",
+              "en": "Then indeed, Allah is ever Pardoning and Competent",
+              "ur": "تو بیشک اللہ ہمیشہ سے معاف فرمانے والا، قدرت والا ہے",
+              "hi": "तो बेशक अल्लाह हमेशा से माफ़ करने वाला, क़ुदरत वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s8_s20",
+            "sentence_number": 20,
+            "arabic": "فَإِنَّ اللَّهَ كَانَ غَفُورًا رَحِيمًا",
+            "arabic_text": "فَإِنَّ اللَّهَ كَانَ غَفُورًا رَحِيمًا",
+            "arabic_markup": "<span class=\"arabic-root\">فَإِنَّ اللَّهَ </span><span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">غَفُورًا رَحِيمًا</span>",
+            "hinglish": "Toh beshak Allah bakhshne wala meharban hai",
+            "hinglish_meaning": "Toh beshak Allah bakhshne wala meharban hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh beshak Allah bakhshne wala meharban hai",
+              "en": "Then indeed, Allah is ever Forgiving and Merciful",
+              "ur": "تو بیشک اللہ ہمیشہ سے بخشنے والا، نہایت مہربان ہے",
+              "hi": "तो बेशक अल्लाह हमेशा से बख़्शने वाला, निहायत मेहरबान है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l12_g9",
+      "type": "grace_box",
+      "data": {
+        "text": "Alhamdulillah! Aap ab darj zail Qur'ani aayaat ko bhi khud samajhne aur tarjuma karne ke qaabil hain:"
+      }
+    },
+    {
+      "id": "sec_s2l12_s10",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s2l12_s10_s1",
+            "sentence_number": 1,
+            "arabic": "وَكَانَ الْإِنْسَانُ عَجُولًا",
+            "arabic_text": "وَكَانَ الْإِنْسَانُ عَجُولًا",
+            "arabic_markup": "<span class=\"nonroot\">وَكَانَ الْإِنْسَانُ</span> <span class=\"arabic-root\">عَجُولًا</span>",
+            "hinglish": "Aur insan bada jald-baaz tha",
+            "hinglish_meaning": "Aur insan bada jald-baaz tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur insan bada jald-baaz tha",
+              "en": "And man is ever hasty",
+              "ur": "اور انسان بڑا جلد باز ہے",
+              "hi": "और इंसान बड़ा जल्दबाज़ है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s10_s2",
+            "sentence_number": 2,
+            "arabic": "وَكَانَ الْإِنْسَانُ كَفُورًا",
+            "arabic_text": "وَكَانَ الْإِنْسَانُ كَفُورًا",
+            "arabic_markup": "<span class=\"nonroot\">وَكَانَ الْإِنْسَانُ</span> <span class=\"arabic-root\">كَفُورًا</span>",
+            "hinglish": "Aur insan bada nashukra tha",
+            "hinglish_meaning": "Aur insan bada nashukra tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur insan bada nashukra tha",
+              "en": "And man is ever ungrateful",
+              "ur": "اور انسان بڑا ناشکرا ہے",
+              "hi": "और इंसान बड़ा नाशुकरा है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s10_s3",
+            "sentence_number": 3,
+            "arabic": "إِنَّ الْبَاطِلَ كَانَ زَهُوقًا",
+            "arabic_text": "إِنَّ الْبَاطِلَ كَانَ زَهُوقًا",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ الْبَاطِلَ </span><span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">زَهُوقًا</span>",
+            "hinglish": "Beshak baatil zaail hone wala tha",
+            "hinglish_meaning": "Beshak baatil zaail hone wala tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak baatil zaail hone wala tha",
+              "en": "Indeed, falsehood is ever bound to vanish",
+              "ur": "بیشک باطل زائل ہونے والا تھا",
+              "hi": "बेशक बातिल ज़ाइल होने वाला था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s10_s4",
+            "sentence_number": 4,
+            "arabic": "وَكَانَ الْإِنْسَانُ قَتُورًا",
+            "arabic_text": "وَكَانَ الْإِنْسَانُ قَتُورًا",
+            "arabic_markup": "<span class=\"nonroot\">وَكَانَ الْإِنْسَانُ</span> <span class=\"arabic-root\">قَتُورًا</span>",
+            "hinglish": "Aur insan bada kanjoos tha",
+            "hinglish_meaning": "Aur insan bada kanjoos tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur insan bada kanjoos tha",
+              "en": "And man is ever tight-fisted / stingy",
+              "ur": "اور انسان بڑا تنگ دل (کنجوس) ہے",
+              "hi": "और इंसान बड़ा तंगदिल (कंजूस) है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s10_s5",
+            "sentence_number": 5,
+            "arabic": "وَكَانَ ذٰلِكَ عَلَى اللَّهِ يَسِيرًا",
+            "arabic_text": "وَكَانَ ذٰلِكَ عَلَى اللَّهِ يَسِيرًا",
+            "arabic_markup": "<span class=\"nonroot\">وَكَانَ ذٰلِكَ</span> <span class=\"arabic-root\">عَلَى اللَّهِ يَسِيرًا</span>",
+            "hinglish": "Aur yeh Allah par aasan tha",
+            "hinglish_meaning": "Aur yeh Allah par aasan tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur yeh Allah par aasan tha",
+              "en": "And that is ever easy for Allah",
+              "ur": "اور یہ اللہ پر آسان تھا",
+              "hi": "और यह अल्लाह पर आसान था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s10_s6",
+            "sentence_number": 6,
+            "arabic": "إِنَّ الْعَهْدَ كَانَ مَسْئُولًا",
+            "arabic_text": "إِنَّ الْعَهْدَ كَانَ مَسْئُولًا",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ الْعَهْدَ </span><span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">مَسْئُولًا</span>",
+            "hinglish": "Beshak waada baz-purs kiya jaane wala tha",
+            "hinglish_meaning": "Beshak waada baz-purs kiya jaane wala tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak waada baz-purs kiya jaane wala tha",
+              "en": "Indeed, every covenant will be questioned about",
+              "ur": "بیشک عہد کی بازپرس کی جانے والی تھی",
+              "hi": "बेशक अहद (वादे) की बाज़पुर्स की जाने वाली थी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s10_s7",
+            "sentence_number": 7,
+            "arabic": "إِنَّ الشَّيْطَانَ كَانَ لِلرَّحْمٰنِ عَصِيًّا",
+            "arabic_text": "إِنَّ الشَّيْطَانَ كَانَ لِلرَّحْمٰنِ عَصِيًّا",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ الشَّيْطَانَ </span><span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">لِلرَّحْمٰنِ عَصِيًّا</span>",
+            "hinglish": "Beshak Shaytan Rahman ka na-farman tha",
+            "hinglish_meaning": "Beshak Shaytan Rahman ka na-farman tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak Shaytan Rahman ka na-farman tha",
+              "en": "Indeed, Satan has ever been disobedient to the Most Merciful",
+              "ur": "بیشک شیطان رحمن کا بڑا نافرمان تھا",
+              "hi": "बेशक शैतान रहमान का बड़ा नाफ़रमान था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s10_s8",
+            "sentence_number": 8,
+            "arabic": "إِنَّ الشَّيْطَانَ كَانَ لِلْإِنْسَانِ عَدُوًّا",
+            "arabic_text": "إِنَّ الشَّيْطَانَ كَانَ لِلْإِنْسَانِ عَدُوًّا",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ الشَّيْطَانَ </span><span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">لِلْإِنْسَانِ عَدُوًّا</span>",
+            "hinglish": "Beshak Shaytan insan ke liye dushman tha",
+            "hinglish_meaning": "Beshak Shaytan insan ke liye dushman tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak Shaytan insan ke liye dushman tha",
+              "en": "Indeed, Satan is ever an enemy to man",
+              "ur": "بیشک شیطان انسان کا دشمن ہے",
+              "hi": "बेशक शैतान इंसान का दुश्मन है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s10_s9",
+            "sentence_number": 9,
+            "arabic": "كَانَ ذٰلِكَ فِي الْكِتَابِ مَسْطُورًا",
+            "arabic_text": "كَانَ ذٰلِكَ فِي الْكِتَابِ مَسْطُورًا",
+            "arabic_markup": "<span class=\"nonroot\">كَانَ ذٰلِكَ</span> <span class=\"arabic-root\">فِي الْكِتَابِ مَسْطُورًا</span>",
+            "hinglish": "Yeh kitab mein likha hua tha",
+            "hinglish_meaning": "Yeh kitab mein likha hua tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yeh kitab mein likha hua tha",
+              "en": "That was inscribed in the Book",
+              "ur": "یہ کتاب میں لکھا ہوا تھا",
+              "hi": "यह किताब में लिखा हुआ था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s10_s10",
+            "sentence_number": 10,
+            "arabic": "وَكَانَ الشَّيْطَانُ لِلْإِنْسَانِ خَذُولًا",
+            "arabic_text": "وَكَانَ الشَّيْطَانُ لِلْإِنْسَانِ خَذُولًا",
+            "arabic_markup": "<span class=\"nonroot\">وَكَانَ الشَّيْطَانُ</span> <span class=\"arabic-root\">لِلْإِنْسَانِ خَذُولًا</span>",
+            "hinglish": "Aur Shaytan insan ko ruswa karne wala tha",
+            "hinglish_meaning": "Aur Shaytan insan ko ruswa karne wala tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Shaytan insan ko ruswa karne wala tha",
+              "en": "And Satan is ever a deserter to man",
+              "ur": "اور شیطان انسان کو رسوا کرنے والا تھا",
+              "hi": "और शैतान इंसान को रुसवा करने वाला था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s10_s11",
+            "sentence_number": 11,
+            "arabic": "مَا كَانَ إِبْرَاهِيمُ يَهُودِيًّا وَلَا نَصْرَانِيًّا وَلٰكِنْ كَانَ حَنِيفًا مُسْلِمًا",
+            "arabic_text": "مَا كَانَ إِبْرَاهِيمُ يَهُودِيًّا وَلَا نَصْرَانِيًّا وَلٰكِنْ كَانَ حَنِيفًا مُسْلِمًا",
+            "arabic_markup": "<span class=\"nonroot\">مَا كَانَ إِبْرَاهِيمُ</span> <span class=\"arabic-root\">يَهُودِيًّا وَلَا نَصْرَانِيًّا وَلٰكِنْ </span><span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">حَنِيفًا مُسْلِمًا</span>",
+            "hinglish": "Ibrahim (Alaihis Salam) na Yahoodi thay aur na Nasrani balki ek-sukh Muslim thay",
+            "hinglish_meaning": "Ibrahim (Alaihis Salam) na Yahoodi thay aur na Nasrani balki ek-sukh Muslim thay",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ibrahim (Alaihis Salam) na Yahoodi thay aur na Nasrani balki ek-sukh Muslim thay",
+              "en": "Abraham was neither a Jew nor a Christian, but he was one inclining toward truth, a Muslim",
+              "ur": "ابراہیم (علیہ السلام) نہ یہودی تھے اور نہ نصرانی بلکہ یکسو مسلمان تھے",
+              "hi": "इब्राहीम (अलैहिस्सलाम) न यहूदी थे और न नस्रानी बल्कि यक-सू मुसलमान थे",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l12_r11",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "(كَانَ) ka adabi maani 'beshak / yaqeenan' bhi hota hai. Chunanche upar di gayi pehli aayat (وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا) ka tarjuma iss tarah hoga: 'Beshak Allah sab kuch jaanne wala, hikmat wala hai'.",
+        "content": "(كَانَ) ka adabi maani 'beshak / yaqeenan' bhi hota hai. Chunanche upar di gayi pehli aayat (وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا) ka tarjuma iss tarah hoga: 'Beshak Allah sab kuch jaanne wala, hikmat wala hai'.",
+        "hinglish_text": "(كَانَ) ka adabi maani 'beshak / yaqeenan' bhi hota hai. Chunanche upar di gayi pehli aayat (وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا) ka tarjuma iss tarah hoga: 'Beshak Allah sab kuch jaanne wala, hikmat wala hai'."
+      }
+    },
+    {
+      "id": "sec_s2l12_lbl12",
+      "type": "section_label",
+      "data": {
+        "text": "Exercise Q-1: Darj zail Qur'ani aayaat mein se us hissay ki nishandehi karein jahan lafz (كَانَ) ke baad ek mukammal jumla aata hai jise aap khud samajh sakte hain:",
+        "title": "Exercise Q-1: Darj zail Qur'ani aayaat mein se us hissay ki nishandehi karein jahan lafz (كَانَ) ke baad ek mukammal jumla aata hai jise aap khud samajh sakte hain:",
+        "label": "Exercise Q-1: Darj zail Qur'ani aayaat mein se us hissay ki nishandehi karein jahan lafz (كَانَ) ke baad ek mukammal jumla aata hai jise aap khud samajh sakte hain:"
+      }
+    },
+    {
+      "id": "sec_s2l12_s13",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s2l12_s13_s1",
+            "sentence_number": 1,
+            "arabic": "وَتَرْجُونَ مِنَ اللَّهِ مَا لَا يَرْجُونَ وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا",
+            "arabic_text": "وَتَرْجُونَ مِنَ اللَّهِ مَا لَا يَرْجُونَ وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا",
+            "arabic_markup": "<span class=\"arabic-root\">وَتَرْجُونَ مِنَ اللَّهِ مَا لَا يَرْجُونَ </span><span class=\"nonroot\">وَكَانَ اللَّهُ</span> <span class=\"arabic-root\">عَلِيمًا حَكِيمًا</span>",
+            "hinglish": "Aur tum Allah se woh umeed rakhte ho jo woh umeed nahin rakhte aur Allah jaanne wala hikmat wala hai",
+            "hinglish_meaning": "Aur tum Allah se woh umeed rakhte ho jo woh umeed nahin rakhte aur Allah jaanne wala hikmat wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur tum Allah se woh umeed rakhte ho jo woh umeed nahin rakhte aur Allah jaanne wala hikmat wala hai",
+              "en": "While you hope from Allah that for which they do not hope. And Allah is ever All-Knowing and All-Wise",
+              "ur": "اور تم اللہ سے وہ امید رکھتے ہو جو وہ نہیں رکھتے، اور اللہ ہمیشہ سے سب کچھ جاننے والا، حکمت والا ہے",
+              "hi": "और तुम अल्लाह से वह उम्मीद रखते हो जो वह नहीं रखते और अल्लाह हमेशा से सब कुछ जानने वाला, हिकमत वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s13_s2",
+            "sentence_number": 2,
+            "arabic": "فَأُولٰئِكَ يَتُوبُ اللَّهُ عَلَيْهِمْ وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا",
+            "arabic_text": "فَأُولٰئِكَ يَتُوبُ اللَّهُ عَلَيْهِمْ وَكَانَ اللَّهُ عَلِيمًا حَكِيمًا",
+            "arabic_markup": "<span class=\"arabic-root\">فَأُولٰئِكَ يَتُوبُ اللَّهُ عَلَيْهِمْ </span><span class=\"nonroot\">وَكَانَ اللَّهُ</span> <span class=\"arabic-root\">عَلِيمًا حَكِيمًا</span>",
+            "hinglish": "Toh un par Allah tauba qabool karta hai aur Allah jaanne wala hikmat wala hai",
+            "hinglish_meaning": "Toh un par Allah tauba qabool karta hai aur Allah jaanne wala hikmat wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh un par Allah tauba qabool karta hai aur Allah jaanne wala hikmat wala hai",
+              "en": "It is those toward whom Allah will turn in forgiveness, and Allah is ever All-Knowing and All-Wise",
+              "ur": "تو یہی ہیں جن پر اللہ توبہ قبول فرماتا ہے، اور اللہ ہمیشہ سے سب کچھ جاننے والا، حکمت والا ہے",
+              "hi": "तो यही हैं जिन पर अल्लाह तौबा क़बूल फ़रमाता है और अल्लाह हमेशा से सब कुछ जानने वाला, हिकमत वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s13_s3",
+            "sentence_number": 3,
+            "arabic": "فَإِنَّ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَكَانَ اللَّهُ غَنِيًّا حَمِيدًا",
+            "arabic_text": "فَإِنَّ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَكَانَ اللَّهُ غَنِيًّا حَمِيدًا",
+            "arabic_markup": "<span class=\"arabic-root\">فَإِنَّ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ </span><span class=\"nonroot\">وَكَانَ اللَّهُ</span> <span class=\"arabic-root\">غَنِيًّا حَمِيدًا</span>",
+            "hinglish": "Toh beshak Allah hi ke liye hai jo aasmanon mein hai aur jo zameen mein hai aur Allah beniyaaz hamd ke laayiq hai",
+            "hinglish_meaning": "Toh beshak Allah hi ke liye hai jo aasmanon mein hai aur jo zameen mein hai aur Allah beniyaaz hamd ke laayiq hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh beshak Allah hi ke liye hai jo aasmanon mein hai aur jo zameen mein hai aur Allah beniyaaz hamd ke laayiq hai",
+              "en": "Then indeed, to Allah belongs whatever is in the heavens and whatever is on the earth. And Allah is ever Free of need and Praiseworthy",
+              "ur": "تو بیشک اللہ ہی کے لیے ہے جو آسمانوں میں ہے اور جو زمین میں ہے، اور اللہ ہمیشہ سے بے نیاز، تعریف کے لائق ہے",
+              "hi": "तो बेशक अल्लाह ही के लिए है जो आसमानों में है और जो ज़मीन में है और अल्लाह हमेशा से बेनियाज़, हम्द के लायक़ है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s13_s4",
+            "sentence_number": 4,
+            "arabic": "عَسَى اللَّهُ أَنْ يَعْفُوَ عَنْهُمْ وَكَانَ اللَّهُ عَفُوًّا غَفُورًا",
+            "arabic_text": "عَسَى اللَّهُ أَنْ يَعْفُوَ عَنْهُمْ وَكَانَ اللَّهُ عَفُوًّا غَفُورًا",
+            "arabic_markup": "<span class=\"arabic-root\">عَسَى اللَّهُ أَنْ يَعْفُوَ عَنْهُمْ </span><span class=\"nonroot\">وَكَانَ اللَّهُ</span> <span class=\"arabic-root\">عَفُوًّا غَفُورًا</span>",
+            "hinglish": "Umeed hai ke Allah unhein muaf kar de aur Allah muaf karne wala bakhshne wala hai",
+            "hinglish_meaning": "Umeed hai ke Allah unhein muaf kar de aur Allah muaf karne wala bakhshne wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Umeed hai ke Allah unhein muaf kar de aur Allah muaf karne wala bakhshne wala hai",
+              "en": "For those there is hope that Allah will pardon them, and Allah is ever Pardoning and Forgiving",
+              "ur": "قریب ہے کہ اللہ انہیں معاف کر دے، اور اللہ ہمیشہ سے معاف فرمانے والا، بخشنے والا ہے",
+              "hi": "उम्मीद है कि अल्लाह उन्हें माफ़ कर दे और अल्लाह हमेशा से माफ़ करने वाला, बख़्शने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s13_s5",
+            "sentence_number": 5,
+            "arabic": "وَيَدْعُ الْإِنْسَانُ بِالشَّرِّ دُعاءَهُ بِالْخَيْرِ وَكَانَ الْإِنْسَانُ عَجُولًا",
+            "arabic_text": "وَيَدْعُ الْإِنْسَانُ بِالشَّرِّ دُعاءَهُ بِالْخَيْرِ وَكَانَ الْإِنْسَانُ عَجُولًا",
+            "arabic_markup": "<span class=\"arabic-root\">وَيَدْعُ الْإِنْسَانُ بِالشَّرِّ دُعاءَهُ بِالْخَيْرِ </span><span class=\"nonroot\">وَكَانَ الْإِنْسَانُ</span> <span class=\"arabic-root\">عَجُولًا</span>",
+            "hinglish": "Aur insan burai ki dua karta hai jiss tarah bhalai ki dua karta hai aur insan bada jald-baaz tha",
+            "hinglish_meaning": "Aur insan burai ki dua karta hai jiss tarah bhalai ki dua karta hai aur insan bada jald-baaz tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur insan burai ki dua karta hai jiss tarah bhalai ki dua karta hai aur insan bada jald-baaz tha",
+              "en": "And man supplicates for evil as he supplicates for good, and man is ever hasty",
+              "ur": "اور انسان برائی کی دعا کرتا ہے جس طرح بھلائی کی دعا کرتا ہے، اور انسان بڑا جلد باز ہے",
+              "hi": "और इंसान बुराई की दुआ करता है जिस तरह भलाई की दुआ करता है और इंसान बड़ा जल्दबाज़ है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l12_s13_s6",
+            "sentence_number": 6,
+            "arabic": "وَقُلْ جاءَ الْحَقُّ وَزَهَقَ الْباطِلُ إِنَّ الْباطِلَ كَانَ زَهُوقًا",
+            "arabic_text": "وَقُلْ جاءَ الْحَقُّ وَزَهَقَ الْباطِلُ إِنَّ الْباطِلَ كَانَ زَهُوقًا",
+            "arabic_markup": "<span class=\"arabic-root\">وَقُلْ جاءَ الْحَقُّ وَزَهَقَ الْباطِلُ إِنَّ الْباطِلَ </span><span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">زَهُوقًا</span>",
+            "hinglish": "Aur keh do haq aa gaya aur baatil zaail ho gaya beshak baatil zaail hone wala tha",
+            "hinglish_meaning": "Aur keh do haq aa gaya aur baatil zaail ho gaya beshak baatil zaail hone wala tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur keh do haq aa gaya aur baatil zaail ho gaya beshak baatil zaail hone wala tha",
+              "en": "And say, 'Truth has come, and falsehood has departed. Indeed is falsehood bound to vanish'",
+              "ur": "اور کہو حق آ گیا اور باطل مٹ گیا، بیشک باطل مٹنے ہی والا تھا",
+              "hi": "और कह दो हक़ आ गया और बातिल मिट गया, बेशक बातिल मिटने ही वाला था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "page_start": 72
+}

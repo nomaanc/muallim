@@ -239,7 +239,7 @@ test.describe("Muallim ul-Qur'an E2E Playtest Suite", () => {
     const hasAppCache = await page.evaluate(async () => {
       if ('caches' in window) {
         const keys = await caches.keys();
-        return keys.includes('muallim-v4.0.0-cache');
+        return keys.some(k => k.startsWith('muallim-v') && k.endsWith('-cache'));
       }
       return false;
     });

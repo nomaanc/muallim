@@ -1,0 +1,3319 @@
+{
+  "lesson_id": 4,
+  "lesson_key": "S4L4",
+  "stage_id": 4,
+  "title": "Huroof ke saath Zameer: لِـ ← لَهُ ، مِنْ ← مِنْهُ ، فِي ← فِيهِ",
+  "arabic_Focus": "لِـ ، مِنْ ، فِي ← لَهُ ، مِنْهُ ، فِيهِ",
+  "hinglish_Focus": "Ke liye, se, mein → Uske liye, us-se, usmein",
+  "page_numbers": "11–14",
+  "book_page": 11,
+  "status": "complete",
+  "title_i18n": {
+    "en": "Huroof ke saath Zameer: لِـ ← لَهُ ، مِنْ ← مِنْهُ ، فِي ← فِيهِ",
+    "ur": "یونٹ 4 سبق 4: لِـ ، مِنْ ، فِي ← لَهُ ، مِنْهُ ، فِيهِ",
+    "hi": "Huroof ke saath Zameer: لِـ ← لَهُ ، مِنْ ← مِنْهُ ، فِي ← فِيهِ"
+  },
+  "sections": [
+    {
+      "id": "sec_hero",
+      "type": "hero_header",
+      "data": {
+        "arabic": "لِـ ، مِنْ ، فِي ← لَهُ ، مِنْهُ ، فِيهِ",
+        "hinglish": "Ke liye, se, mein → Uske liye, us-se, usmein",
+        "arabic_word": "لِـ ، مِنْ ، فِي",
+        "arabic_combined": "لِـ ، مِنْ ، فِي ← لَهُ ، مِنْهُ ، فِيهِ",
+        "hinglish_word": "Ke liye, se, mein",
+        "hinglish_combined": "Ke liye, se, mein → Uske liye, us-se, usmein",
+        "title_en": "Huroof ke saath Zameer: لِـ ← لَهُ ، مِنْ ← مِنْهُ ، فِي ← فِيهِ",
+        "subtitle": "Unit 4 • Lesson 4 (Book Page 11–14)",
+        "transformations": [
+          {
+            "before_ar": "لِـ ، مِنْ ، فِي",
+            "after_ar": "لَهُ ، مِنْهُ ، فِيهِ",
+            "before_hi": "Ke liye, se, mein",
+            "after_hi": "Uske liye, us-se, usmein"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_intro_table",
+      "type": "intro_table",
+      "data": {
+        "title": "S4L4 — Huroof ke saath Zameer: لِـ ← لَهُ ، مِنْ ← مِنْهُ ، فِي ← فِيهِ: Buniyadi Misaalein",
+        "caption": "S4L4 — Huroof ke saath Zameer: لِـ ← لَهُ ، مِنْ ← مِنْهُ ، فِي ← فِيهِ: Buniyadi Misaalein",
+        "headers": [
+          "Qism / Halat",
+          "Arabi Misaal",
+          "Hinglish Mafhoom"
+        ],
+        "rows": [
+          [
+            "لِـ / مِنْ / عَنْ + ـهُ",
+            "لَهُ / مِنْهُ / عَنْهُ",
+            "Uske liye (uska hai) / Us-se / Uske baare mein"
+          ],
+          [
+            "فِي / إِلَىٰ / عَلَىٰ / بِـ + ـهُ",
+            "فِيهِ / إِلَيْهِ / عَلَيْهِ / بِهِ",
+            "Usmein / Uski taraf / Us par / Uske saath"
+          ],
+          [
+            "إِنَّ / أَنَّ / كَأَنَّ + ـهُ",
+            "إِنَّهُ / أَنَّهُ / كَأَنَّهُ",
+            "Beshak woh / Ke woh / Goya woh"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sec_s4l4_concept",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u4grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u4grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 4 • LESSON 4</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Huroof ke saath Zameer: لِـ ← لَهُ ، مِنْ ← مِنْهُ ، فِي ← فِيهِ (Page 11–14)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">لِـ ، مِنْ ، فِي</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Huroof + ـهُ</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">لَهُ ، مِنْهُ ، فِيهِ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• لِـ ، مِنْ ، فِي (Ke liye, se, mein) se لَهُ ، مِنْهُ ، فِيهِ (Uske liye, us-se, usmein) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Qur'an Majeed mein yeh tarkeeb saikdon maqamaat par barah-e-raast samajh aati hai.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 11–14):** Jab mukhtalif huroof (`لِـ`، `مِنْ`، `عَنْ`، `فِي`، `إِلَىٰ`، `عَلَىٰ`، `بِـ`، `إِنَّ`) ke aakhir mein zameer `ـهُ` judti hai toh naye Qur'ani alfaaz bante hain: `لَهُ` (uske liye / uska), `مِنْهُ` (us-se), `فِيهِ` (usmein), `عَلَيْهِ` (us par), `إِلَيْهِ` (uski taraf), `بِهِ` (us-se/uske zariye), `إِنَّهُ` (beshak woh).",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u4grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u4grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 4 • LESSON 4</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Huroof ke saath Zameer: لِـ ← لَهُ ، مِنْ ← مِنْهُ ، فِي ← فِيهِ (Page 11–14)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">لِـ ، مِنْ ، فِي</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Huroof + ـهُ</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">لَهُ ، مِنْهُ ، فِيهِ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• لِـ ، مِنْ ، فِي (Ke liye, se, mein) se لَهُ ، مِنْهُ ، فِيهِ (Uske liye, us-se, usmein) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Qur'an Majeed mein yeh tarkeeb saikdon maqamaat par barah-e-raast samajh aati hai.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 11–14):** Jab mukhtalif huroof (`لِـ`، `مِنْ`، `عَنْ`، `فِي`، `إِلَىٰ`، `عَلَىٰ`، `بِـ`، `إِنَّ`) ke aakhir mein zameer `ـهُ` judti hai toh naye Qur'ani alfaaz bante hain: `لَهُ` (uske liye / uska), `مِنْهُ` (us-se), `فِيهِ` (usmein), `عَلَيْهِ` (us par), `إِلَيْهِ` (uski taraf), `بِهِ` (us-se/uske zariye), `إِنَّهُ` (beshak woh).",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u4grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u4grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 4 • LESSON 4</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Huroof ke saath Zameer: لِـ ← لَهُ ، مِنْ ← مِنْهُ ، فِي ← فِيهِ (Page 11–14)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">لِـ ، مِنْ ، فِي</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"15\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Huroof + ـهُ</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">لَهُ ، مِنْهُ ، فِيهِ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• لِـ ، مِنْ ، فِي (Ke liye, se, mein) se لَهُ ، مِنْهُ ، فِيهِ (Uske liye, us-se, usmein) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Qur'an Majeed mein yeh tarkeeb saikdon maqamaat par barah-e-raast samajh aati hai.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 11–14):** Jab mukhtalif huroof (`لِـ`، `مِنْ`، `عَنْ`، `فِي`، `إِلَىٰ`، `عَلَىٰ`، `بِـ`، `إِنَّ`) ke aakhir mein zameer `ـهُ` judti hai toh naye Qur'ani alfaaz bante hain: `لَهُ` (uske liye / uska), `مِنْهُ` (us-se), `فِيهِ` (usmein), `عَلَيْهِ` (us par), `إِلَيْهِ` (uski taraf), `بِهِ` (us-se/uske zariye), `إِنَّهُ` (beshak woh)."
+      }
+    },
+    {
+      "id": "sec_s4l4_lbl0",
+      "type": "section_label",
+      "data": {
+        "text": "Practice: Preposition-Grid",
+        "title": "Practice: Preposition-Grid",
+        "label": "Practice: Preposition-Grid"
+      }
+    },
+    {
+      "id": "sec_s4l4_g1",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s4l4_g1_w1",
+            "arabic": "لَهُ جَنَّةٌ",
+            "arabic_text": "لَهُ جَنَّةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">جَنَّةٌ</span>",
+            "hinglish": "Uske liye jannat hai",
+            "hinglish_meaning": "Uske liye jannat hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye jannat hai",
+              "en": "For him is a garden",
+              "ur": "اس کے لیے جنت ہے",
+              "hi": "उसके लिए जन्नत है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w2",
+            "arabic": "لَهُ فِي الْآخِرَةِ",
+            "arabic_text": "لَهُ فِي الْآخِرَةِ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">فِي الْآخِرَةِ</span>",
+            "hinglish": "Uske liye aakhirat mein",
+            "hinglish_meaning": "Uske liye aakhirat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye aakhirat mein",
+              "en": "For him in the Hereafter",
+              "ur": "اس کے لیے آخرت میں",
+              "hi": "उसके लिए आख़िरत में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w3",
+            "arabic": "فَلَهُ أَجْرُهُ",
+            "arabic_text": "فَلَهُ أَجْرُهُ",
+            "arabic_markup": "<span class=\"arabic-root\">فَلَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">أَجْرُ</span><span class=\"nonroot\">هُ</span>",
+            "hinglish": "Toh uske liye uska ajr hai",
+            "hinglish_meaning": "Toh uske liye uska ajr hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh uske liye uska ajr hai",
+              "en": "Then for him is his reward",
+              "ur": "تو اس کے لیے اس کا اجر ہے",
+              "hi": "तो उसके लिए उसका अज्र है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w4",
+            "arabic": "لَهُ الْهُدَى",
+            "arabic_text": "لَهُ الْهُدَى",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">الْهُدَى</span>",
+            "hinglish": "Uske liye hidayat hai",
+            "hinglish_meaning": "Uske liye hidayat hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye hidayat hai",
+              "en": "For him is guidance",
+              "ur": "اس کے لیے ہدایت ہے",
+              "hi": "उसके लिए हिदायत है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w5",
+            "arabic": "لَهُ رَبُّهُ",
+            "arabic_text": "لَهُ رَبُّهُ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">رَبُّ</span><span class=\"nonroot\">هُ</span>",
+            "hinglish": "Uske liye uska Rabb hai",
+            "hinglish_meaning": "Uske liye uska Rabb hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye uska Rabb hai",
+              "en": "For him is his Lord",
+              "ur": "اس کے لیے اس کا رب ہے",
+              "hi": "उसके लिए उसका रब है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w6",
+            "arabic": "لَهُ نَفْسُهُ",
+            "arabic_text": "لَهُ نَفْسُهُ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">نَفْسُ</span><span class=\"nonroot\">هُ</span>",
+            "hinglish": "Uske liye uski jaan hai",
+            "hinglish_meaning": "Uske liye uski jaan hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye uski jaan hai",
+              "en": "For him is his own soul",
+              "ur": "اس کے لیے اس کی جان ہے",
+              "hi": "उसके लिए उसकी जान है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w7",
+            "arabic": "لَهُ عَذَابًا عَظِيمًا",
+            "arabic_text": "لَهُ عَذَابًا عَظِيمًا",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">عَذَابًا عَظِيمًا</span>",
+            "hinglish": "Uske liye bada azab hai",
+            "hinglish_meaning": "Uske liye bada azab hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye bada azab hai",
+              "en": "For him is a great punishment",
+              "ur": "اس کے لیے بڑا عذاب ہے",
+              "hi": "उसके लिए बड़ा अज़ाब है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w8",
+            "arabic": "لَهُ عَزْمًا",
+            "arabic_text": "لَهُ عَزْمًا",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">عَزْمًا</span>",
+            "hinglish": "Uske liye pukhta iradah hai",
+            "hinglish_meaning": "Uske liye pukhta iradah hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye pukhta iradah hai",
+              "en": "In him is resolve",
+              "ur": "اس کے لیے پختہ ارادہ ہے",
+              "hi": "उसके लिए पुख़्ता इरादा है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w9",
+            "arabic": "لَهُ نُورًا",
+            "arabic_text": "لَهُ نُورًا",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">نُورًا</span>",
+            "hinglish": "Uske liye roshni hai",
+            "hinglish_meaning": "Uske liye roshni hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye roshni hai",
+              "en": "For him is light",
+              "ur": "اس کے لیے روشنی ہے",
+              "hi": "उसके लिए रोशनी है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w10",
+            "arabic": "لَهُ أَهْلُهُ",
+            "arabic_text": "لَهُ أَهْلُهُ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">أَهْلُ</span><span class=\"nonroot\">هُ</span>",
+            "hinglish": "Uske liye uske ghar-wale hain",
+            "hinglish_meaning": "Uske liye uske ghar-wale hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye uske ghar-wale hain",
+              "en": "For him are his family",
+              "ur": "اس کے لیے اس کے گھر والے ہیں",
+              "hi": "उसके लिए उसके घर-वाले हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w11",
+            "arabic": "لَهُ الدِّينُ",
+            "arabic_text": "لَهُ الدِّينُ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">الدِّينُ</span>",
+            "hinglish": "Uske liye deen hai",
+            "hinglish_meaning": "Uske liye deen hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye deen hai",
+              "en": "To Him belongs the religion",
+              "ur": "اسی کے لیے دین ہے",
+              "hi": "उसके लिए दीन है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w12",
+            "arabic": "لَهُ مِنَ اللهِ",
+            "arabic_text": "لَهُ مِنَ اللهِ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">مِنَ اللهِ</span>",
+            "hinglish": "Uske liye Allah ki taraf se",
+            "hinglish_meaning": "Uske liye Allah ki taraf se",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye Allah ki taraf se",
+              "en": "For him from Allah",
+              "ur": "اس کے لیے اللہ کی طرف سے",
+              "hi": "उसके लिए अल्लाह की तरफ़ से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w13",
+            "arabic": "لَهُ أَجْرًا",
+            "arabic_text": "لَهُ أَجْرًا",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">أَجْرًا</span>",
+            "hinglish": "Uske liye ajr hai",
+            "hinglish_meaning": "Uske liye ajr hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye ajr hai",
+              "en": "For him is a reward",
+              "ur": "اس کے لیے اجر ہے",
+              "hi": "उसके लिए अज्र है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w14",
+            "arabic": "لَهُ رِزْقًا",
+            "arabic_text": "لَهُ رِزْقًا",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">رِزْقًا</span>",
+            "hinglish": "Uske liye rizq hai",
+            "hinglish_meaning": "Uske liye rizq hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye rizq hai",
+              "en": "For him is provision",
+              "ur": "اس کے لیے رزق ہے",
+              "hi": "उसके लिए रिज़्क़ है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w15",
+            "arabic": "لَهُ قَوْمُهُ",
+            "arabic_text": "لَهُ قَوْمُهُ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">قَوْمُ</span><span class=\"nonroot\">هُ</span>",
+            "hinglish": "Uske liye uski qom hai",
+            "hinglish_meaning": "Uske liye uski qom hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye uski qom hai",
+              "en": "For him are his people",
+              "ur": "اس کے لیے اس کی قوم ہے",
+              "hi": "उसके लिए उसकी क़ौम है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w16",
+            "arabic": "لَهُ مَالًا",
+            "arabic_text": "لَهُ مَالًا",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">مَالًا</span>",
+            "hinglish": "Uske liye maal hai",
+            "hinglish_meaning": "Uske liye maal hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye maal hai",
+              "en": "For him is wealth",
+              "ur": "اس کے لیے مال ہے",
+              "hi": "उसके लिए माल है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w17",
+            "arabic": "وَعَدُوٌّ لَهُ",
+            "arabic_text": "وَعَدُوٌّ لَهُ",
+            "arabic_markup": "<span class=\"arabic-root\">وَعَدُوٌّ لَ</span><span class=\"nonroot\">هُ</span>",
+            "hinglish": "Aur uske liye dushman hai",
+            "hinglish_meaning": "Aur uske liye dushman hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur uske liye dushman hai",
+              "en": "And an enemy to him",
+              "ur": "اور اس کے لیے دشمن ہے",
+              "hi": "और उसके लिए दुश्मन है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w18",
+            "arabic": "لَهُ ذٰلِكَ",
+            "arabic_text": "لَهُ ذٰلِكَ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">ذٰلِكَ</span>",
+            "hinglish": "Uske liye yeh hai",
+            "hinglish_meaning": "Uske liye yeh hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye yeh hai",
+              "en": "For him is that",
+              "ur": "اس کے لیے یہ ہے",
+              "hi": "उसके लिए यह है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w19",
+            "arabic": "وَإِنَّهُ فِي الْآخِرَةِ",
+            "arabic_text": "وَإِنَّهُ فِي الْآخِرَةِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَإِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">فِي الْآخِرَةِ</span>",
+            "hinglish": "Aur beshak woh aakhirat mein",
+            "hinglish_meaning": "Aur beshak woh aakhirat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur beshak woh aakhirat mein",
+              "en": "And indeed he, in the Hereafter",
+              "ur": "اور بیشک وہ آخرت میں",
+              "hi": "और बेशक वह आख़िरत में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w20",
+            "arabic": "لَهُ صَاحِبُهُ",
+            "arabic_text": "لَهُ صَاحِبُهُ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">صَاحِبُ</span><span class=\"nonroot\">هُ</span>",
+            "hinglish": "Uske liye uska saathi hai",
+            "hinglish_meaning": "Uske liye uska saathi hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye uska saathi hai",
+              "en": "For him is his companion",
+              "ur": "اس کے لیے اس کا ساتھی ہے",
+              "hi": "उसके लिए उसका साथी है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w21",
+            "arabic": "لَهُ جَهَنَّمُ",
+            "arabic_text": "لَهُ جَهَنَّمُ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">جَهَنَّمُ</span>",
+            "hinglish": "Uske liye jahannam hai",
+            "hinglish_meaning": "Uske liye jahannam hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye jahannam hai",
+              "en": "For him is Hell",
+              "ur": "اس کے لیے جہنم ہے",
+              "hi": "उसके लिए जहन्नम है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w22",
+            "arabic": "لَهُ الْحُكْمُ",
+            "arabic_text": "لَهُ الْحُكْمُ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">الْحُكْمُ</span>",
+            "hinglish": "Uske liye hukm hai",
+            "hinglish_meaning": "Uske liye hukm hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye hukm hai",
+              "en": "His is the judgment",
+              "ur": "اسی کے لیے حکم ہے",
+              "hi": "उसके लिए हुक्म है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w23",
+            "arabic": "وَلَهُ الْمُلْكُ",
+            "arabic_text": "وَلَهُ الْمُلْكُ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">الْمُلْكُ</span>",
+            "hinglish": "Aur uske liye badshahat hai",
+            "hinglish_meaning": "Aur uske liye badshahat hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur uske liye badshahat hai",
+              "en": "And to Him belongs the dominion",
+              "ur": "اور اسی کے لیے بادشاہت ہے",
+              "hi": "और उसके लिए बादशहात है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w24",
+            "arabic": "لَهُ فِي الْأَرْضِ",
+            "arabic_text": "لَهُ فِي الْأَرْضِ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">فِي الْأَرْضِ</span>",
+            "hinglish": "Uske liye zameen mein",
+            "hinglish_meaning": "Uske liye zameen mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye zameen mein",
+              "en": "For him in the earth",
+              "ur": "اس کے لیے زمین میں",
+              "hi": "उसके लिए ज़मीन में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w25",
+            "arabic": "فَلَهُ جَزَاءً",
+            "arabic_text": "فَلَهُ جَزَاءً",
+            "arabic_markup": "<span class=\"arabic-root\">فَلَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">جَزَاءً</span>",
+            "hinglish": "Toh uske liye badla hai",
+            "hinglish_meaning": "Toh uske liye badla hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh uske liye badla hai",
+              "en": "Then for him is recompense",
+              "ur": "تو اس کے لیے بدلہ ہے",
+              "hi": "तो उसके लिए बदला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w26",
+            "arabic": "لَهُ مِنَ الْعَذَابِ",
+            "arabic_text": "لَهُ مِنَ الْعَذَابِ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">مِنَ الْعَذَابِ</span>",
+            "hinglish": "Uske liye azab se hai",
+            "hinglish_meaning": "Uske liye azab se hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye azab se hai",
+              "en": "For him is of the punishment",
+              "ur": "اس کے لیے عذاب سے ہے",
+              "hi": "उसके लिए अज़ाब से है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w27",
+            "arabic": "لَهُ مُوسَى",
+            "arabic_text": "لَهُ مُوسَى",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">مُوسَى</span>",
+            "hinglish": "Uske liye Musa (Alaihis Salam) hain",
+            "hinglish_meaning": "Uske liye Musa (Alaihis Salam) hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye Musa (Alaihis Salam) hain",
+              "en": "To him Musa (peace be upon him)",
+              "ur": "اس کے لیے موسیٰ (علیہ السلام) ہیں",
+              "hi": "उसके लिए मूसा (अलैहिस्सलाम) हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w28",
+            "arabic": "مِنْهُ رَحْمَةً",
+            "arabic_text": "مِنْهُ رَحْمَةً",
+            "arabic_markup": "<span class=\"arabic-root\">مِنْ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">رَحْمَةً</span>",
+            "hinglish": "Us se rahmat hai",
+            "hinglish_meaning": "Us se rahmat hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us se rahmat hai",
+              "en": "From Him is mercy",
+              "ur": "اس کی طرف سے رحمت ہے",
+              "hi": "उससे रहमत है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w29",
+            "arabic": "مِنْهُ شَرَابٌ",
+            "arabic_text": "مِنْهُ شَرَابٌ",
+            "arabic_markup": "<span class=\"arabic-root\">مِنْ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">شَرَابٌ</span>",
+            "hinglish": "Us se peene ki cheez hai",
+            "hinglish_meaning": "Us se peene ki cheez hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us se peene ki cheez hai",
+              "en": "From it is drink",
+              "ur": "اس سے پینے کی چیز ہے",
+              "hi": "उससे पीने की चीज़ है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w30",
+            "arabic": "مِنْهُ رَحْمَةٌ",
+            "arabic_text": "مِنْهُ رَحْمَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">مِنْ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">رَحْمَةٌ</span>",
+            "hinglish": "Us se rahmat hai",
+            "hinglish_meaning": "Us se rahmat hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us se rahmat hai",
+              "en": "From Him is mercy",
+              "ur": "اس سے رحمت ہے",
+              "hi": "उससे रहमत है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w31",
+            "arabic": "مِنْهُ لَحْمًا",
+            "arabic_text": "مِنْهُ لَحْمًا",
+            "arabic_markup": "<span class=\"arabic-root\">مِنْ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">لَحْمًا</span>",
+            "hinglish": "Us se gosht hai",
+            "hinglish_meaning": "Us se gosht hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us se gosht hai",
+              "en": "From it fresh meat",
+              "ur": "اس سے گوشت ہے",
+              "hi": "उससे गोश्त है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w32",
+            "arabic": "مَغْفِرَةً مِنْهُ وَفَضْلًا",
+            "arabic_text": "مَغْفِرَةً مِنْهُ وَفَضْلًا",
+            "arabic_markup": "<span class=\"arabic-root\">مَغْفِرَةً مِنْ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">وَفَضْلًا</span>",
+            "hinglish": "Us se bakhshish aur karam",
+            "hinglish_meaning": "Us se bakhshish aur karam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us se bakhshish aur karam",
+              "en": "Forgiveness from Him and bounty",
+              "ur": "اس سے بخشش اور کرم",
+              "hi": "उससे बख़्शिश और करम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w33",
+            "arabic": "خَيْرًا مِنْهُ",
+            "arabic_text": "خَيْرًا مِنْهُ",
+            "arabic_markup": "<span class=\"arabic-root\">خَيْرًا مِنْ</span><span class=\"nonroot\">هُ</span>",
+            "hinglish": "Us se behtar",
+            "hinglish_meaning": "Us se behtar",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us se behtar",
+              "en": "Better than it",
+              "ur": "اس سے بہتر",
+              "hi": "उससे बेहतर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w34",
+            "arabic": "وَمِنْهُ شَجَرٌ",
+            "arabic_text": "وَمِنْهُ شَجَرٌ",
+            "arabic_markup": "<span class=\"arabic-root\">وَمِنْ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">شَجَرٌ</span>",
+            "hinglish": "Aur us se darakht hain",
+            "hinglish_meaning": "Aur us se darakht hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur us se darakht hain",
+              "en": "And from it is foliage",
+              "ur": "اور اس سے درخت ہیں",
+              "hi": "और उससे दरख़्त हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w35",
+            "arabic": "مِنْهُ رِزْقًا حَسَنًا",
+            "arabic_text": "مِنْهُ رِزْقًا حَسَنًا",
+            "arabic_markup": "<span class=\"arabic-root\">مِنْ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">رِزْقًا حَسَنًا</span>",
+            "hinglish": "Us se ach'cha rizq",
+            "hinglish_meaning": "Us se ach'cha rizq",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us se ach'cha rizq",
+              "en": "From it good provision",
+              "ur": "اس سے اچھا رزق",
+              "hi": "उससे अच्छा रिज़्क़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w36",
+            "arabic": "مِنْهُ / الْأَنْهَارُ",
+            "arabic_text": "مِنْهُ / الْأَنْهَارُ",
+            "arabic_markup": "<span class=\"arabic-root\">مِنْ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">الْأَنْهَارُ</span>",
+            "hinglish": "Us se nehrein bahti hain",
+            "hinglish_meaning": "Us se nehrein bahti hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us se nehrein bahti hain",
+              "en": "From it flow the rivers",
+              "ur": "اس سے نہریں بہتی ہیں",
+              "hi": "उससे नहरें बहती हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w37",
+            "arabic": "فِي رَحْمَةٍ مِنْهُ",
+            "arabic_text": "فِي رَحْمَةٍ مِنْهُ",
+            "arabic_markup": "<span class=\"arabic-root\">فِي رَحْمَةٍ مِنْ</span><span class=\"nonroot\">هُ</span>",
+            "hinglish": "Uski rahmat mein uski taraf se",
+            "hinglish_meaning": "Uski rahmat mein uski taraf se",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uski rahmat mein uski taraf se",
+              "en": "In mercy from Him",
+              "ur": "اس کی رحمت میں اس کی طرف سے",
+              "hi": "उसकी रहमत में उसकी तरफ़ से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w38",
+            "arabic": "مِنْهُ قَلِيلًا",
+            "arabic_text": "مِنْهُ قَلِيلًا",
+            "arabic_markup": "<span class=\"arabic-root\">مِنْ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">قَلِيلًا</span>",
+            "hinglish": "Us se thoda",
+            "hinglish_meaning": "Us se thoda",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us se thoda",
+              "en": "A little of it",
+              "ur": "اس سے تھوڑا",
+              "hi": "उससे थोड़ा",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w39",
+            "arabic": "مِنْهُ الْمَاءُ",
+            "arabic_text": "مِنْهُ الْمَاءُ",
+            "arabic_markup": "<span class=\"arabic-root\">مِنْ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">الْمَاءُ</span>",
+            "hinglish": "Us se paani hai",
+            "hinglish_meaning": "Us se paani hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us se paani hai",
+              "en": "From it is water",
+              "ur": "اس سے پانی ہے",
+              "hi": "उससे पानी है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w40",
+            "arabic": "فِيهِ / خَيْرًا كَثِيرًا",
+            "arabic_text": "فِيهِ / خَيْرًا كَثِيرًا",
+            "arabic_markup": "<span class=\"arabic-root\">فِي</span><span class=\"nonroot\">هِ</span> / <span class=\"arabic-root\">خَيْرًا كَثِيرًا</span>",
+            "hinglish": "Us mein bahut bhalai hai",
+            "hinglish_meaning": "Us mein bahut bhalai hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us mein bahut bhalai hai",
+              "en": "In it much good",
+              "ur": "اس میں بہت بھلائی ہے",
+              "hi": "उसमें बहुत भलाई है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w41",
+            "arabic": "فِيهِ اخْتِلَافًا كَثِيرًا",
+            "arabic_text": "فِيهِ اخْتِلَافًا كَثِيرًا",
+            "arabic_markup": "<span class=\"arabic-root\">فِي</span><span class=\"nonroot\">هِ</span> <span class=\"arabic-root\">اخْتِلَافًا كَثِيرًا</span>",
+            "hinglish": "Us mein bahut ikhtilaf hai",
+            "hinglish_meaning": "Us mein bahut ikhtilaf hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us mein bahut ikhtilaf hai",
+              "en": "In it much contradiction",
+              "ur": "اس میں بہت اختلاف ہے",
+              "hi": "उसमें बहुत इख़्तिलाफ़ है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w42",
+            "arabic": "فِيهِ إِلَى اللهِ",
+            "arabic_text": "فِيهِ إِلَى اللهِ",
+            "arabic_markup": "<span class=\"arabic-root\">فِي</span><span class=\"nonroot\">هِ</span> <span class=\"arabic-root\">إِلَى اللهِ</span>",
+            "hinglish": "Us mein Allah ki taraf",
+            "hinglish_meaning": "Us mein Allah ki taraf",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us mein Allah ki taraf",
+              "en": "In it is to Allah",
+              "ur": "اس میں اللہ کی طرف",
+              "hi": "उसमें अल्लाह की तरफ़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w43",
+            "arabic": "فِيهِ مِنْ رُوحِهِ",
+            "arabic_text": "فِيهِ مِنْ رُوحِهِ",
+            "arabic_markup": "<span class=\"arabic-root\">فِي</span><span class=\"nonroot\">هِ</span> <span class=\"arabic-root\">مِنْ رُوحِ</span><span class=\"nonroot\">هِ</span>",
+            "hinglish": "Us mein apni rooh se",
+            "hinglish_meaning": "Us mein apni rooh se",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us mein apni rooh se",
+              "en": "Into him of His spirit",
+              "ur": "اس میں اپنی روح سے",
+              "hi": "उसमें अपनी रूह से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w44",
+            "arabic": "قِتَالٌ فِيهِ",
+            "arabic_text": "قِتَالٌ فِيهِ",
+            "arabic_markup": "<span class=\"arabic-root\">قِتَالٌ فِي</span><span class=\"nonroot\">هِ</span>",
+            "hinglish": "Us mein ladai hai",
+            "hinglish_meaning": "Us mein ladai hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us mein ladai hai",
+              "en": "Fighting in it",
+              "ur": "اس میں لڑائی ہے",
+              "hi": "उसमें लड़ाई है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w45",
+            "arabic": "وَإِنَّهُ فِي الْآخِرَةِ",
+            "arabic_text": "وَإِنَّهُ فِي الْآخِرَةِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَإِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">فِي الْآخِرَةِ</span>",
+            "hinglish": "Aur beshak woh aakhirat mein",
+            "hinglish_meaning": "Aur beshak woh aakhirat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur beshak woh aakhirat mein",
+              "en": "And indeed he, in the Hereafter",
+              "ur": "اور بیشک وہ آخرت میں",
+              "hi": "और बेशक वह आख़िरत में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w46",
+            "arabic": "مِنْهُ شَيْئًا",
+            "arabic_text": "مِنْهُ شَيْئًا",
+            "arabic_markup": "<span class=\"arabic-root\">مِنْ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">شَيْئًا</span>",
+            "hinglish": "Us se kuch bhi",
+            "hinglish_meaning": "Us se kuch bhi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us se kuch bhi",
+              "en": "Anything of it",
+              "ur": "اس سے کچھ بھی",
+              "hi": "उससे कुछ भी",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w47",
+            "arabic": "يَا نُوحُ / إِنَّهُ لَيْسَ",
+            "arabic_text": "يَا نُوحُ / إِنَّهُ لَيْسَ",
+            "arabic_markup": "<span class=\"arabic-root\">يَا نُوحُ / إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">لَيْسَ</span>",
+            "hinglish": "Ae Nuh (Alaihis Salam)! beshak woh nahin hai",
+            "hinglish_meaning": "Ae Nuh (Alaihis Salam)! beshak woh nahin hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ae Nuh (Alaihis Salam)! beshak woh nahin hai",
+              "en": "O Noah! Indeed, he is not",
+              "ur": "اے نوح (علیہ السلام)! بیشک وہ نہیں ہے",
+              "hi": "ऐ नूह (अलैहिस्सलाम)! बेशक वह नहीं है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w48",
+            "arabic": "فِيهِ إِلَى اللهِ",
+            "arabic_text": "فِيهِ إِلَى اللهِ",
+            "arabic_markup": "<span class=\"arabic-root\">فِي</span><span class=\"nonroot\">هِ</span> <span class=\"arabic-root\">إِلَى اللهِ</span>",
+            "hinglish": "Us mein Allah ki taraf",
+            "hinglish_meaning": "Us mein Allah ki taraf",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us mein Allah ki taraf",
+              "en": "In it is to Allah",
+              "ur": "اس میں اللہ کی طرف",
+              "hi": "उसमें अल्लाह की तरफ़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w49",
+            "arabic": "إِلَيْهِ الشَّيْطَانُ",
+            "arabic_text": "إِلَيْهِ الشَّيْطَانُ",
+            "arabic_markup": "<span class=\"arabic-root\">إِلَيْ</span><span class=\"nonroot\">هِ</span> <span class=\"arabic-root\">الشَّيْطَانُ</span>",
+            "hinglish": "Uski taraf Shaytan",
+            "hinglish_meaning": "Uski taraf Shaytan",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uski taraf Shaytan",
+              "en": "To him Satan",
+              "ur": "اس کی طرف شیطان",
+              "hi": "उसकी तरफ़ शैतान",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w50",
+            "arabic": "إِلَيْهِ ذٰلِكَ",
+            "arabic_text": "إِلَيْهِ ذٰلِكَ",
+            "arabic_markup": "<span class=\"arabic-root\">إِلَيْ</span><span class=\"nonroot\">هِ</span> <span class=\"arabic-root\">ذٰلِكَ</span>",
+            "hinglish": "Uski taraf yeh",
+            "hinglish_meaning": "Uski taraf yeh",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uski taraf yeh",
+              "en": "Unto Him that",
+              "ur": "اس کی طرف یہ",
+              "hi": "उसकी तरफ़ यह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w51",
+            "arabic": "إِلَيْهِ فِي يَوْمٍ",
+            "arabic_text": "إِلَيْهِ فِي يَوْمٍ",
+            "arabic_markup": "<span class=\"arabic-root\">إِلَيْ</span><span class=\"nonroot\">هِ</span> <span class=\"arabic-root\">فِي يَوْمٍ</span>",
+            "hinglish": "Uski taraf ek din mein",
+            "hinglish_meaning": "Uski taraf ek din mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uski taraf ek din mein",
+              "en": "Unto Him in a Day",
+              "ur": "اس کی طرف ایک دن میں",
+              "hi": "उसकी तरफ़ एक दिन में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w52",
+            "arabic": "ثُمَّ إِلَيْهِ",
+            "arabic_text": "ثُمَّ إِلَيْهِ",
+            "arabic_markup": "<span class=\"arabic-root\">ثُمَّ إِلَيْ</span><span class=\"nonroot\">هِ</span>",
+            "hinglish": "Phir uski taraf",
+            "hinglish_meaning": "Phir uski taraf",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Phir uski taraf",
+              "en": "Then unto Him",
+              "ur": "پھر اس کی طرف",
+              "hi": "फिर उसकी तरफ़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w53",
+            "arabic": "إِلَيْهِ مِنْ رَبِّهِ",
+            "arabic_text": "إِلَيْهِ مِنْ رَبِّهِ",
+            "arabic_markup": "<span class=\"arabic-root\">إِلَيْ</span><span class=\"nonroot\">هِ</span> <span class=\"arabic-root\">مِنْ رَبِّ</span><span class=\"nonroot\">هِ</span>",
+            "hinglish": "Uski taraf uske Rabb se",
+            "hinglish_meaning": "Uski taraf uske Rabb se",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uski taraf uske Rabb se",
+              "en": "To him from his Lord",
+              "ur": "اس کی طرف اس کے رب سے",
+              "hi": "उसकी तरफ़ उसके रब से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w54",
+            "arabic": "بِهِ / قَبْلَ مَوْتِهِ",
+            "arabic_text": "بِهِ / قَبْلَ مَوْتِهِ",
+            "arabic_markup": "<span class=\"arabic-root\">بِ</span><span class=\"nonroot\">هِ</span> / <span class=\"arabic-root\">قَبْلَ مَوْتِ</span><span class=\"nonroot\">هِ</span>",
+            "hinglish": "Us par uski maut se pehle",
+            "hinglish_meaning": "Us par uski maut se pehle",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us par uski maut se pehle",
+              "en": "In him before his death",
+              "ur": "اس پر اس کی موت سے پہلے",
+              "hi": "उस पर उसकी मौत से पहले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w55",
+            "arabic": "فِيهِ مِنَ الْحَقِّ",
+            "arabic_text": "فِيهِ مِنَ الْحَقِّ",
+            "arabic_markup": "<span class=\"arabic-root\">فِي</span><span class=\"nonroot\">هِ</span> <span class=\"arabic-root\">مِنَ الْحَقِّ</span>",
+            "hinglish": "Us mein haq se",
+            "hinglish_meaning": "Us mein haq se",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us mein haq se",
+              "en": "In it of the truth",
+              "ur": "اس میں حق سے",
+              "hi": "उसमें हक़ से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w56",
+            "arabic": "عَلَيْهِ أَجْرًا",
+            "arabic_text": "عَلَيْهِ أَجْرًا",
+            "arabic_markup": "<span class=\"arabic-root\">عَلَيْ</span><span class=\"nonroot\">هِ</span> <span class=\"arabic-root\">أَجْرًا</span>",
+            "hinglish": "Us par ajr",
+            "hinglish_meaning": "Us par ajr",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us par ajr",
+              "en": "For it any reward",
+              "ur": "اس پر اجر",
+              "hi": "उस पर अज्र",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_g1_w57",
+            "arabic": "عَلَيْهِ آيَةٌ / مِنْ رَبِّهِ",
+            "arabic_text": "عَلَيْهِ آيَةٌ / مِنْ رَبِّهِ",
+            "arabic_markup": "<span class=\"arabic-root\">عَلَيْ</span><span class=\"nonroot\">هِ</span> <span class=\"arabic-root\">آيَةٌ / مِنْ رَبِّ</span><span class=\"nonroot\">هِ</span>",
+            "hinglish": "Us par nishani uske Rabb se",
+            "hinglish_meaning": "Us par nishani uske Rabb se",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us par nishani uske Rabb se",
+              "en": "Upon him a sign from his Lord",
+              "ur": "اس پر نشانی اس کے رب سے",
+              "hi": "उस पर निशानी उसके रब से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s4l4_lbl2",
+      "type": "section_label",
+      "data": {
+        "text": "Practice: Complete-Sentences",
+        "title": "Practice: Complete-Sentences",
+        "label": "Practice: Complete-Sentences"
+      }
+    },
+    {
+      "id": "sec_s4l4_s3",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s4l4_s3_s1",
+            "sentence_number": 1,
+            "arabic": "لَهُ / إِلَى يَوْمِ الْقِيَامَةِ",
+            "arabic_text": "لَهُ / إِلَى يَوْمِ الْقِيَامَةِ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">إِلَى يَوْمِ الْقِيَامَةِ</span>",
+            "hinglish": "Uske liye qiyamat ke din tak",
+            "hinglish_meaning": "Uske liye qiyamat ke din tak",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye qiyamat ke din tak",
+              "en": "For him until the Day of Resurrection",
+              "ur": "اس کے لیے قیامت کے دن تک",
+              "hi": "उसके लिए क़ियामत के दिन तक",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s2",
+            "sentence_number": 2,
+            "arabic": "لَهُ الْعَذَابُ / يَوْمَ الْقِيَامَةِ",
+            "arabic_text": "لَهُ الْعَذَابُ / يَوْمَ الْقِيَامَةِ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">الْعَذَابُ / يَوْمَ الْقِيَامَةِ</span>",
+            "hinglish": "Uske liye azab hai qiyamat ke din",
+            "hinglish_meaning": "Uske liye azab hai qiyamat ke din",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye azab hai qiyamat ke din",
+              "en": "For him is punishment on the Day of Resurrection",
+              "ur": "اس کے لیے عذاب ہے قیامت کے دن",
+              "hi": "उसके लिए अज़ाब है क़ियामत के दिन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s3",
+            "sentence_number": 3,
+            "arabic": "لَهُ / يَوْمَ الْقِيَامَةِ / كِتَابًا",
+            "arabic_text": "لَهُ / يَوْمَ الْقِيَامَةِ / كِتَابًا",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">يَوْمَ الْقِيَامَةِ / كِتَابًا</span>",
+            "hinglish": "Uske liye qiyamat ke din kitab hai",
+            "hinglish_meaning": "Uske liye qiyamat ke din kitab hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye qiyamat ke din kitab hai",
+              "en": "For him on the Day of Resurrection a record",
+              "ur": "اس کے لیے قیامت کے دن کتاب ہے",
+              "hi": "उसके लिए क़ियामत के दिन किताब है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s4",
+            "sentence_number": 4,
+            "arabic": "لَهُ شَرِيكٌ / فِي الْمُلْكِ",
+            "arabic_text": "لَهُ شَرِيكٌ / فِي الْمُلْكِ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">شَرِيكٌ / فِي الْمُلْكِ</span>",
+            "hinglish": "Uske liye koi shareek nahin badshahat mein",
+            "hinglish_meaning": "Uske liye koi shareek nahin badshahat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye koi shareek nahin badshahat mein",
+              "en": "He has any partner in the dominion",
+              "ur": "اس کے لیے کوئی شریک نہیں بادشاہت میں",
+              "hi": "उसके लिए कोई शरीक नहीं बादशाहत में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s5",
+            "sentence_number": 5,
+            "arabic": "دَرَجَاتٌ مِنْهُ / وَمَفِغِرَةٌ وَرَحْمَةٌ",
+            "arabic_text": "دَرَجَاتٌ مِنْهُ / وَمَفِغِرَةٌ وَرَحْمَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">دَرَجَاتٌ مِنْ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">وَمَفِغِرَةٌ وَرَحْمَةٌ</span>",
+            "hinglish": "Uski taraf se darjaat hain aur bakhshish aur rahmat",
+            "hinglish_meaning": "Uski taraf se darjaat hain aur bakhshish aur rahmat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uski taraf se darjaat hain aur bakhshish aur rahmat",
+              "en": "Degrees from Him and forgiveness and mercy",
+              "ur": "اس کی طرف سے درجات ہیں اور بخشش اور رحمت",
+              "hi": "उसकी तरफ़ से दर्जात हैं और बख़्शिश और रहमत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s6",
+            "sentence_number": 6,
+            "arabic": "لَهُ إِسْحَاقَ وَيَعْقُوبَ",
+            "arabic_text": "لَهُ إِسْحَاقَ وَيَعْقُوبَ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">إِسْحَاقَ وَيَعْقُوبَ</span>",
+            "hinglish": "Uske liye Ishaq (Alaihis Salam) aur Yaqoob (Alaihis Salam) hain",
+            "hinglish_meaning": "Uske liye Ishaq (Alaihis Salam) aur Yaqoob (Alaihis Salam) hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye Ishaq (Alaihis Salam) aur Yaqoob (Alaihis Salam) hain",
+              "en": "To him Isaac and Jacob",
+              "ur": "اس کے لیے اسحاق (علیہ السلام) اور یعقوب (علیہ السلام) ہیں",
+              "hi": "उसके लिए इसहाक़ (अलैहिस्सलाम) और याक़ूब (अलैहिस्सलाम) हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s7",
+            "sentence_number": 7,
+            "arabic": "إِلَى يَوْمِ الْقِيَامَةِ / لَا رَيْبَ فِيهِ",
+            "arabic_text": "إِلَى يَوْمِ الْقِيَامَةِ / لَا رَيْبَ فِيهِ",
+            "arabic_markup": "<span class=\"arabic-root\">إِلَى يَوْمِ الْقِيَامَةِ / لَا رَيْبَ فِي</span><span class=\"nonroot\">هِ</span>",
+            "hinglish": "Qiyamat ke din tak, us mein koi shakk nahin",
+            "hinglish_meaning": "Qiyamat ke din tak, us mein koi shakk nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Qiyamat ke din tak, us mein koi shakk nahin",
+              "en": "Until the Day of Resurrection, about which there is no doubt",
+              "ur": "قیامت کے دن تک، اس میں کوئی شک نہیں",
+              "hi": "क़ियामत के दिन तक, उसमें कोई शक नहीं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s8",
+            "sentence_number": 8,
+            "arabic": "مِنْهُ / حَرَامًا وَحَلَالًا",
+            "arabic_text": "مِنْهُ / حَرَامًا وَحَلَالًا",
+            "arabic_markup": "<span class=\"arabic-root\">مِنْ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">حَرَامًا وَحَلَالًا</span>",
+            "hinglish": "Us se haram aur halal",
+            "hinglish_meaning": "Us se haram aur halal",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us se haram aur halal",
+              "en": "From it unlawful and lawful",
+              "ur": "اس سے حرام اور حلال",
+              "hi": "उससे हराम और हलाल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s9",
+            "sentence_number": 9,
+            "arabic": "لَهُ عَذَابٌ عَظِيمٌ",
+            "arabic_text": "لَهُ عَذَابٌ عَظِيمٌ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">عَذَابٌ عَظِيمٌ</span>",
+            "hinglish": "Uske liye bada azab hai",
+            "hinglish_meaning": "Uske liye bada azab hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye bada azab hai",
+              "en": "For him is a great punishment",
+              "ur": "اس کے لیے بڑا عذاب ہے",
+              "hi": "उसके लिए बड़ा अज़ाब है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s10",
+            "sentence_number": 10,
+            "arabic": "فَلَهُ / عَذَابٌ أَلِيمٌ",
+            "arabic_text": "فَلَهُ / عَذَابٌ أَلِيمٌ",
+            "arabic_markup": "<span class=\"arabic-root\">فَلَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">عَذَابٌ أَلِيمٌ</span>",
+            "hinglish": "Toh uske liye dardnaak azab hai",
+            "hinglish_meaning": "Toh uske liye dardnaak azab hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh uske liye dardnaak azab hai",
+              "en": "Then for him is a painful punishment",
+              "ur": "تو اس کے لیے دردناک عذاب ہے",
+              "hi": "तो उसके लिए दर्दनाक अज़ाब है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s11",
+            "sentence_number": 11,
+            "arabic": "وَلَهُ عَذَابٌ مُهِينٌ",
+            "arabic_text": "وَلَهُ عَذَابٌ مُهِينٌ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">عَذَابٌ مُهِينٌ</span>",
+            "hinglish": "Aur uske liye ruswa karne wala azab hai",
+            "hinglish_meaning": "Aur uske liye ruswa karne wala azab hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur uske liye ruswa karne wala azab hai",
+              "en": "And for him is a humiliating punishment",
+              "ur": "اور اس کے لیے رسوا کرنے والا عذاب ہے",
+              "hi": "और उसके लिए रुसवा करने वाला अज़ाब है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s12",
+            "sentence_number": 12,
+            "arabic": "وَلَهُ كُلُّ شَيْءٍ",
+            "arabic_text": "وَلَهُ كُلُّ شَيْءٍ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">كُلُّ شَيْءٍ</span>",
+            "hinglish": "Aur uske liye har cheez hai",
+            "hinglish_meaning": "Aur uske liye har cheez hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur uske liye har cheez hai",
+              "en": "And to Him belongs everything",
+              "ur": "اور اسی کے لیے ہر چیز ہے",
+              "hi": "और उसके लिए हर चीज़ है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s13",
+            "sentence_number": 13,
+            "arabic": "لَهُ / فِي الدُّنْيَا / خِزْيٌ",
+            "arabic_text": "لَهُ / فِي الدُّنْيَا / خِزْيٌ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">فِي الدُّنْيَا / خِزْيٌ</span>",
+            "hinglish": "Uske liye duniya mein ruswai hai",
+            "hinglish_meaning": "Uske liye duniya mein ruswai hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye duniya mein ruswai hai",
+              "en": "For him in this world is disgrace",
+              "ur": "اس کے لیے دنیا میں رسوائی ہے",
+              "hi": "उसके लिए दुनिया में रुसवाई है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s14",
+            "sentence_number": 14,
+            "arabic": "لَا بُرْهَانَ / لَهُ",
+            "arabic_text": "لَا بُرْهَانَ / لَهُ",
+            "arabic_markup": "<span class=\"arabic-root\">لَا بُرْهَانَ / لَ</span><span class=\"nonroot\">هُ</span>",
+            "hinglish": "Koi daleel nahin uske paas",
+            "hinglish_meaning": "Koi daleel nahin uske paas",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi daleel nahin uske paas",
+              "en": "There is no proof for him",
+              "ur": "کوئی دلیل نہیں اس کے پاس",
+              "hi": "कोई दलील नहीं उसके पास",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s15",
+            "sentence_number": 15,
+            "arabic": "لَا شَرِيكَ / لَهُ",
+            "arabic_text": "لَا شَرِيكَ / لَهُ",
+            "arabic_markup": "<span class=\"arabic-root\">لَا شَرِيكَ / لَ</span><span class=\"nonroot\">هُ</span>",
+            "hinglish": "Koi shareek nahin uska",
+            "hinglish_meaning": "Koi shareek nahin uska",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi shareek nahin uska",
+              "en": "No partner has He",
+              "ur": "کوئی شریک نہیں اس کا",
+              "hi": "कोई शरीक नहीं उसका",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s16",
+            "sentence_number": 16,
+            "arabic": "فَهُوَ خَيْرٌ لَهُ",
+            "arabic_text": "فَهُوَ خَيْرٌ لَهُ",
+            "arabic_markup": "<span class=\"arabic-root\">فَهُوَ خَيْرٌ لَ</span><span class=\"nonroot\">هُ</span>",
+            "hinglish": "Toh woh uske liye behtar hai",
+            "hinglish_meaning": "Toh woh uske liye behtar hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh woh uske liye behtar hai",
+              "en": "Then it is better for him",
+              "ur": "تو وہ اس کے لیے بہتر ہے",
+              "hi": "तो वह उसके लिए बेहतर है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s17",
+            "sentence_number": 17,
+            "arabic": "فَهُوَ كَفَّارَةٌ لَهُ",
+            "arabic_text": "فَهُوَ كَفَّارَةٌ لَهُ",
+            "arabic_markup": "<span class=\"arabic-root\">فَهُوَ كَفَّارَةٌ لَ</span><span class=\"nonroot\">هُ</span>",
+            "hinglish": "Toh woh uske liye kaffarah hai",
+            "hinglish_meaning": "Toh woh uske liye kaffarah hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh woh uske liye kaffarah hai",
+              "en": "Then it is an expiation for him",
+              "ur": "تو وہ اس کے لیے کفارہ ہے",
+              "hi": "तो वह उसके लिए कफ़्फ़ारा है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s18",
+            "sentence_number": 18,
+            "arabic": "فَلَهُ أَجْرُهُ / عِنْدَ رَبِّهِ",
+            "arabic_text": "فَلَهُ أَجْرُهُ / عِنْدَ رَبِّهِ",
+            "arabic_markup": "<span class=\"arabic-root\">فَلَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">أَجْرُ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">عِنْدَ رَبِّهِ</span>",
+            "hinglish": "Toh uske liye uska ajr uske Rabb ke paas hai",
+            "hinglish_meaning": "Toh uske liye uska ajr uske Rabb ke paas hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh uske liye uska ajr uske Rabb ke paas hai",
+              "en": "Then for him is his reward with his Lord",
+              "ur": "تو اس کے لیے اس کا اجر اس کے رب کے پاس ہے",
+              "hi": "तो उसके लिए उसका अज्र उसके रब के पास है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s19",
+            "sentence_number": 19,
+            "arabic": "وَلَهُ الْحَمْدُ / فِي الْآخِرَةِ",
+            "arabic_text": "وَلَهُ الْحَمْدُ / فِي الْآخِرَةِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">الْحَمْدُ / فِي الْآخِرَةِ</span>",
+            "hinglish": "Aur uske liye tareef hai aakhirat mein",
+            "hinglish_meaning": "Aur uske liye tareef hai aakhirat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur uske liye tareef hai aakhirat mein",
+              "en": "And to Him belongs praise in the Hereafter",
+              "ur": "اور اسی کے لیے تعریف ہے آخرت میں",
+              "hi": "और उसके लिए तारीफ़ है आख़िरत में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s20",
+            "sentence_number": 20,
+            "arabic": "لَهُ / دَعْوَةُ الْحَقِّ",
+            "arabic_text": "لَهُ / دَعْوَةُ الْحَقِّ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">دَعْوَةُ الْحَقِّ</span>",
+            "hinglish": "Uske liye haq ka pukaarna hai",
+            "hinglish_meaning": "Uske liye haq ka pukaarna hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye haq ka pukaarna hai",
+              "en": "To Him is the true supplication",
+              "ur": "اسی کے لیے حق کا پکارنا ہے",
+              "hi": "उसके लिए हक़ का पुकारना है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s21",
+            "sentence_number": 21,
+            "arabic": "فَهُوَ لَهُ قَرِينٌ",
+            "arabic_text": "فَهُوَ لَهُ قَرِينٌ",
+            "arabic_markup": "<span class=\"arabic-root\">فَهُوَ لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">قَرِينٌ</span>",
+            "hinglish": "Toh woh uska saathi ban gaya",
+            "hinglish_meaning": "Toh woh uska saathi ban gaya",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh woh uska saathi ban gaya",
+              "en": "So he is a companion to him",
+              "ur": "تو وہ اس کا ساتھی بن گیا",
+              "hi": "तो वह उसका साथी बन गया",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s22",
+            "sentence_number": 22,
+            "arabic": "وَلَهُ / أَخٌ أَوْ أُخْتٌ",
+            "arabic_text": "وَلَهُ / أَخٌ أَوْ أُخْتٌ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">أَخٌ أَوْ أُخْتٌ</span>",
+            "hinglish": "Aur uske liye bhai ya behen ho",
+            "hinglish_meaning": "Aur uske liye bhai ya behen ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur uske liye bhai ya behen ho",
+              "en": "And he has a brother or a sister",
+              "ur": "اور اس کا بھائی یا بہن ہو",
+              "hi": "और उसका भाई या बहन हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s23",
+            "sentence_number": 23,
+            "arabic": "قَوْلُهُ الْحَقُّ وَلَهُ الْمُلْكُ",
+            "arabic_text": "قَوْلُهُ الْحَقُّ وَلَهُ الْمُلْكُ",
+            "arabic_markup": "<span class=\"arabic-root\">قَوْلُهُ الْحَقُّ وَلَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">الْمُلْكُ</span>",
+            "hinglish": "Uski baat haq hai aur uske liye badshahat hai",
+            "hinglish_meaning": "Uski baat haq hai aur uske liye badshahat hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uski baat haq hai aur uske liye badshahat hai",
+              "en": "His word is the truth, and to Him belongs the dominion",
+              "ur": "اس کی بات حق ہے اور اسی کے لیے بادشاہت ہے",
+              "hi": "उसकी बात हक़ है और उसके लिए बादशहात है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s24",
+            "sentence_number": 24,
+            "arabic": "وَلَهُ ذُرِّيَّةٌ",
+            "arabic_text": "وَلَهُ ذُرِّيَّةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">ذُرِّيَّةٌ</span>",
+            "hinglish": "Aur uski aulad ho",
+            "hinglish_meaning": "Aur uski aulad ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur uski aulad ho",
+              "en": "And he has children",
+              "ur": "اور اس کی اولاد ہو",
+              "hi": "और उसकी औलाद हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s25",
+            "sentence_number": 25,
+            "arabic": "فِيهِ نَارٌ",
+            "arabic_text": "فِيهِ نَارٌ",
+            "arabic_markup": "<span class=\"arabic-root\">فِي</span><span class=\"nonroot\">هِ</span> <span class=\"arabic-root\">نَارٌ</span>",
+            "hinglish": "Us mein aag hai",
+            "hinglish_meaning": "Us mein aag hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us mein aag hai",
+              "en": "In it is fire",
+              "ur": "اس میں آگ ہے",
+              "hi": "उसमें आग है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s26",
+            "sentence_number": 26,
+            "arabic": "لَهُ وَلَدٌ",
+            "arabic_text": "لَهُ وَلَدٌ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">وَلَدٌ</span>",
+            "hinglish": "Uske liye beta ho",
+            "hinglish_meaning": "Uske liye beta ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye beta ho",
+              "en": "He has a child",
+              "ur": "اس کے لیے بیٹا ہو",
+              "hi": "उसके लिए बेटा हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s27",
+            "sentence_number": 27,
+            "arabic": "لَهُ نَصِيبٌ",
+            "arabic_text": "لَهُ نَصِيبٌ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">نَصِيبٌ</span>",
+            "hinglish": "Uske liye hissa hai",
+            "hinglish_meaning": "Uske liye hissa hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye hissa hai",
+              "en": "For him is a share",
+              "ur": "اس کے لیے حصہ ہے",
+              "hi": "उसके लिए हिस्सा है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s28",
+            "sentence_number": 28,
+            "arabic": "فَلَهُ خَيْرٌ",
+            "arabic_text": "فَلَهُ خَيْرٌ",
+            "arabic_markup": "<span class=\"arabic-root\">فَلَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">خَيْرٌ</span>",
+            "hinglish": "Toh uske liye bhalai hai",
+            "hinglish_meaning": "Toh uske liye bhalai hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh uske liye bhalai hai",
+              "en": "Then for him is good",
+              "ur": "تو اس کے لیے بھلائی ہے",
+              "hi": "तो उसके लिए भलाई है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s29",
+            "sentence_number": 29,
+            "arabic": "فَهُوَ خَيْرٌ لَهُ / عِنْدَ رَبِّهِ",
+            "arabic_text": "فَهُوَ خَيْرٌ لَهُ / عِنْدَ رَبِّهِ",
+            "arabic_markup": "<span class=\"arabic-root\">فَهُوَ خَيْرٌ لَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">عِنْدَ رَبِّهِ</span>",
+            "hinglish": "Toh woh uske liye behtar hai uske Rabb ke paas",
+            "hinglish_meaning": "Toh woh uske liye behtar hai uske Rabb ke paas",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh woh uske liye behtar hai uske Rabb ke paas",
+              "en": "Then it is better for him with his Lord",
+              "ur": "تو وہ اس کے لیے بہتر ہے اس کے رب کے پاس",
+              "hi": "तो वह उसके लिए बेहतर है उसके रब के पास",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s30",
+            "sentence_number": 30,
+            "arabic": "فَلَهُ / أَجْرُهُ عِنْدَ رَبِّهِ",
+            "arabic_text": "فَلَهُ / أَجْرُهُ عِنْدَ رَبِّهِ",
+            "arabic_markup": "<span class=\"arabic-root\">فَلَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">أَجْرُ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">عِنْدَ رَبِّهِ</span>",
+            "hinglish": "Toh uske liye uska ajr uske Rabb ke paas hai",
+            "hinglish_meaning": "Toh uske liye uska ajr uske Rabb ke paas hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh uske liye uska ajr uske Rabb ke paas hai",
+              "en": "Then for him is his reward with his Lord",
+              "ur": "تو اس کے لیے اس کا اجر اس کے رب کے پاس ہے",
+              "hi": "तो उसके लिए उसका अज्र उसके रब के पास है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s31",
+            "sentence_number": 31,
+            "arabic": "فَلَا هَادِيَ لَهُ",
+            "arabic_text": "فَلَا هَادِيَ لَهُ",
+            "arabic_markup": "<span class=\"arabic-root\">فَلَا هَادِيَ لَ</span><span class=\"nonroot\">هُ</span>",
+            "hinglish": "Toh koi hidayat dene wala nahin uske liye",
+            "hinglish_meaning": "Toh koi hidayat dene wala nahin uske liye",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh koi hidayat dene wala nahin uske liye",
+              "en": "Then there is no guide for him",
+              "ur": "تو کوئی ہدایت دینے والا نہیں اس کے لیے",
+              "hi": "तो कोई हिदायत देने वाला नहीं उसके लिए",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s32",
+            "sentence_number": 32,
+            "arabic": "عَلَيْهِ / عَذَابٌ مُقِيمٌ",
+            "arabic_text": "عَلَيْهِ / عَذَابٌ مُقِيمٌ",
+            "arabic_markup": "<span class=\"arabic-root\">عَلَيْ</span><span class=\"nonroot\">هِ</span> / <span class=\"arabic-root\">عَذَابٌ مُقِيمٌ</span>",
+            "hinglish": "Us par hamesha rehne wala azab hai",
+            "hinglish_meaning": "Us par hamesha rehne wala azab hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us par hamesha rehne wala azab hai",
+              "en": "Upon him is an enduring punishment",
+              "ur": "اس پر ہمیشہ رہنے والا عذاب ہے",
+              "hi": "उस पर हमेशा रहने वाला अज़ाब है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s33",
+            "sentence_number": 33,
+            "arabic": "فَلَهُ / الْأَسْمَاءُ الْحُسْنَى",
+            "arabic_text": "فَلَهُ / الْأَسْمَاءُ الْحُسْنَى",
+            "arabic_markup": "<span class=\"arabic-root\">فَلَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">الْأَسْمَاءُ الْحُسْنَى</span>",
+            "hinglish": "Toh uske liye ach'che naam hain",
+            "hinglish_meaning": "Toh uske liye ach'che naam hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh uske liye ach'che naam hain",
+              "en": "Then to Him belong the best names",
+              "ur": "تو اسی کے لیے اچھے نام ہیں",
+              "hi": "तो उसके लिए अच्छे नाम हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s34",
+            "sentence_number": 34,
+            "arabic": "فَعَلَيْهِ كُفْرُهُ",
+            "arabic_text": "فَعَلَيْهِ كُفْرُهُ",
+            "arabic_markup": "<span class=\"arabic-root\">فَعَلَيْ</span><span class=\"nonroot\">هِ</span> <span class=\"arabic-root\">كُفْرُ</span><span class=\"nonroot\">هُ</span>",
+            "hinglish": "Toh us par uska kufr hai",
+            "hinglish_meaning": "Toh us par uska kufr hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh us par uska kufr hai",
+              "en": "Then upon him is his disbelief",
+              "ur": "تو اس پر اس کا کفر ہے",
+              "hi": "तो उस पर उसका कुफ़्र है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s35",
+            "sentence_number": 35,
+            "arabic": "لَهُ مُلْكُ السَّمَاوَاتِ",
+            "arabic_text": "لَهُ مُلْكُ السَّمَاوَاتِ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">مُلْكُ السَّمَاوَاتِ</span>",
+            "hinglish": "Uske liye aasmanon ki badshahat hai",
+            "hinglish_meaning": "Uske liye aasmanon ki badshahat hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye aasmanon ki badshahat hai",
+              "en": "To Him belongs the dominion of the heavens",
+              "ur": "اسی کے لیے آسمانوں کی بادشاہت ہے",
+              "hi": "उसके लिए आसमानों की बादशहात है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s36",
+            "sentence_number": 36,
+            "arabic": "لَهُ الْخَلْقُ وَالْأَمْرُ",
+            "arabic_text": "لَهُ الْخَلْقُ وَالْأَمْرُ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">الْخَلْقُ وَالْأَمْرُ</span>",
+            "hinglish": "Uske liye paida karna aur hukm dena hai",
+            "hinglish_meaning": "Uske liye paida karna aur hukm dena hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye paida karna aur hukm dena hai",
+              "en": "His is the creation and the command",
+              "ur": "اسی کے لیے پیدا کرنا اور حکم دینا ہے",
+              "hi": "उसी के लिए पैदा करना और हुक्म देना है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s37",
+            "sentence_number": 37,
+            "arabic": "لَهُ الْحَمْدُ / فِي الْأُولَى وَالْآخِرَةِ",
+            "arabic_text": "لَهُ الْحَمْدُ / فِي الْأُولَى وَالْآخِرَةِ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">الْحَمْدُ / فِي الْأُولَى وَالْآخِرَةِ</span>",
+            "hinglish": "Uske liye tareef hai duniya aur aakhirat mein",
+            "hinglish_meaning": "Uske liye tareef hai duniya aur aakhirat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye tareef hai duniya aur aakhirat mein",
+              "en": "To Him belongs praise in the first life and the Hereafter",
+              "ur": "اسی کے لیے تعریف ہے دنیا اور آخرت میں",
+              "hi": "उसके लिए तारीफ़ है दुनिया और आख़िरत में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s38",
+            "sentence_number": 38,
+            "arabic": "لَهُ الْمُلْكُ / لَا إِلٰهَ إِلَّا هُوَ",
+            "arabic_text": "لَهُ الْمُلْكُ / لَا إِلٰهَ إِلَّا هُوَ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">الْمُلْكُ / لَا إِلٰهَ إِلَّا هُوَ</span>",
+            "hinglish": "Uske liye badshahat hai, koi mabood nahin siwaye uske",
+            "hinglish_meaning": "Uske liye badshahat hai, koi mabood nahin siwaye uske",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye badshahat hai, koi mabood nahin siwaye uske",
+              "en": "His is the dominion; there is no deity except Him",
+              "ur": "اسی کے لیے بادشاہت ہے، کوئی معبود نہیں سوائے اس کے",
+              "hi": "उसके लिए बादशहात है, कोई माबूद नहीं सिवाय उसके",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s39",
+            "sentence_number": 39,
+            "arabic": "لَيْسَ لَهُ سُلْطَانٌ",
+            "arabic_text": "لَيْسَ لَهُ سُلْطَانٌ",
+            "arabic_markup": "<span class=\"arabic-root\">لَيْسَ لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">سُلْطَانٌ</span>",
+            "hinglish": "Nahin hai uske liye koi zor",
+            "hinglish_meaning": "Nahin hai uske liye koi zor",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Nahin hai uske liye koi zor",
+              "en": "He has no authority",
+              "ur": "نہیں ہے اس کے لیے کوئی زور",
+              "hi": "नहीं है उसके लिए कोई ज़ोर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s40",
+            "sentence_number": 40,
+            "arabic": "لَيْسَ لَهُ وَلَدٌ / وَلَهُ أُخْتٌ",
+            "arabic_text": "لَيْسَ لَهُ وَلَدٌ / وَلَهُ أُخْتٌ",
+            "arabic_markup": "<span class=\"arabic-root\">لَيْسَ لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">وَلَدٌ / وَلَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">أُخْتٌ</span>",
+            "hinglish": "Nahin hai uski koi aulad aur uski behen hai",
+            "hinglish_meaning": "Nahin hai uski koi aulad aur uski behen hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Nahin hai uski koi aulad aur uski behen hai",
+              "en": "He has no child, but he has a sister",
+              "ur": "نہیں ہے اس کی کوئی اولاد اور اس کی بہن ہے",
+              "hi": "नहीं है उसकी कोई औलाद और उसकी बहन है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s41",
+            "sentence_number": 41,
+            "arabic": "فِيهِ الرَّحْمَةُ",
+            "arabic_text": "فِيهِ الرَّحْمَةُ",
+            "arabic_markup": "<span class=\"arabic-root\">فِي</span><span class=\"nonroot\">هِ</span> <span class=\"arabic-root\">الرَّحْمَةُ</span>",
+            "hinglish": "Us mein rahmat hai",
+            "hinglish_meaning": "Us mein rahmat hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us mein rahmat hai",
+              "en": "In it is mercy",
+              "ur": "اس میں رحمت ہے",
+              "hi": "उसमें रहमत है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s42",
+            "sentence_number": 42,
+            "arabic": "فِيهِ سَكِينَةٌ",
+            "arabic_text": "فِيهِ سَكِينَةٌ",
+            "arabic_markup": "<span class=\"arabic-root\">فِي</span><span class=\"nonroot\">هِ</span> <span class=\"arabic-root\">سَكِينَةٌ</span>",
+            "hinglish": "Us mein sukoon hai",
+            "hinglish_meaning": "Us mein sukoon hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us mein sukoon hai",
+              "en": "In it is tranquility",
+              "ur": "اس میں سکون ہے",
+              "hi": "उसमें सुकून है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s43",
+            "sentence_number": 43,
+            "arabic": "فِيهِ / هُدًى وَنُورٌ",
+            "arabic_text": "فِيهِ / هُدًى وَنُورٌ",
+            "arabic_markup": "<span class=\"arabic-root\">فِي</span><span class=\"nonroot\">هِ</span> / <span class=\"arabic-root\">هُدًى وَنُورٌ</span>",
+            "hinglish": "Us mein hidayat aur roshni hai",
+            "hinglish_meaning": "Us mein hidayat aur roshni hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us mein hidayat aur roshni hai",
+              "en": "In it is guidance and light",
+              "ur": "اس میں ہدایت اور روشنی ہے",
+              "hi": "उसमें हिदायत और रोशनी है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s44",
+            "sentence_number": 44,
+            "arabic": "فِيهِ شِفَاءٌ لِلنَّاسِ",
+            "arabic_text": "فِيهِ شِفَاءٌ لِلنَّاسِ",
+            "arabic_markup": "<span class=\"arabic-root\">فِي</span><span class=\"nonroot\">هِ</span> <span class=\"arabic-root\">شِفَاءٌ لِلنَّاسِ</span>",
+            "hinglish": "Us mein logon ke liye shifa hai",
+            "hinglish_meaning": "Us mein logon ke liye shifa hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us mein logon ke liye shifa hai",
+              "en": "In it is healing for people",
+              "ur": "اس میں لوگوں کے لیے شفا ہے",
+              "hi": "उसमें लोगों के लिए शिफ़ा है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s45",
+            "sentence_number": 45,
+            "arabic": "لَا رَيْبَ / فِيهِ",
+            "arabic_text": "لَا رَيْبَ / فِيهِ",
+            "arabic_markup": "<span class=\"arabic-root\">لَا رَيْبَ / فِي</span><span class=\"nonroot\">هِ</span>",
+            "hinglish": "Koi shakk nahin us mein",
+            "hinglish_meaning": "Koi shakk nahin us mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi shakk nahin us mein",
+              "en": "There is no doubt about it",
+              "ur": "کوئی شک نہیں اس میں",
+              "hi": "कोई शक नहीं उसमें",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s46",
+            "sentence_number": 46,
+            "arabic": "فِيهِ / عَذَابٌ عَظِيمٌ",
+            "arabic_text": "فِيهِ / عَذَابٌ عَظِيمٌ",
+            "arabic_markup": "<span class=\"arabic-root\">فِي</span><span class=\"nonroot\">هِ</span> / <span class=\"arabic-root\">عَذَابٌ عَظِيمٌ</span>",
+            "hinglish": "Us mein bada azab hai",
+            "hinglish_meaning": "Us mein bada azab hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us mein bada azab hai",
+              "en": "In it is a great punishment",
+              "ur": "اس میں بڑا عذاب ہے",
+              "hi": "उसमें बड़ा अज़ाब है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s47",
+            "sentence_number": 47,
+            "arabic": "إِنَّهُ / قَوِيٌّ",
+            "arabic_text": "إِنَّهُ / قَوِيٌّ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">قَوِيٌّ</span>",
+            "hinglish": "Beshak woh quwwat wala hai",
+            "hinglish_meaning": "Beshak woh quwwat wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak woh quwwat wala hai",
+              "en": "Indeed, He is powerful",
+              "ur": "بیشک وہ قوت والا ہے",
+              "hi": "बेशक वह क़ुव्वत वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s48",
+            "sentence_number": 48,
+            "arabic": "إِنَّهُ عَلِيٌّ",
+            "arabic_text": "إِنَّهُ عَلِيٌّ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">عَلِيٌّ</span>",
+            "hinglish": "Beshak woh buland hai",
+            "hinglish_meaning": "Beshak woh buland hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak woh buland hai",
+              "en": "Indeed, He is Most High",
+              "ur": "بیشک وہ بلند ہے",
+              "hi": "बेशक वह बुलंद है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s49",
+            "sentence_number": 49,
+            "arabic": "إِنَّهُ عَلِيمٌ",
+            "arabic_text": "إِنَّهُ عَلِيمٌ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">عَلِيمٌ</span>",
+            "hinglish": "Beshak woh jaanne wala hai",
+            "hinglish_meaning": "Beshak woh jaanne wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak woh jaanne wala hai",
+              "en": "Indeed, He is All-Knowing",
+              "ur": "بیشک وہ جاننے والا ہے",
+              "hi": "बेशक वह जानने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s50",
+            "sentence_number": 50,
+            "arabic": "إِنَّهُ عَدُوٌّ مُضِلٌّ مُبِينٌ",
+            "arabic_text": "إِنَّهُ عَدُوٌّ مُضِلٌّ مُبِينٌ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">عَدُوٌّ مُضِلٌّ مُبِينٌ</span>",
+            "hinglish": "Beshak woh dushman hai gumrah karne wala khula",
+            "hinglish_meaning": "Beshak woh dushman hai gumrah karne wala khula",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak woh dushman hai gumrah karne wala khula",
+              "en": "Indeed, he is an enemy, a manifest misleader",
+              "ur": "بیشک وہ دشمن ہے کھلا گمراہ کرنے والا",
+              "hi": "बेशक वह दुश्मन है खुला गुमराह करने वाला",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s51",
+            "sentence_number": 51,
+            "arabic": "إِنَّهُ مِنْ سُلَيْمَانَ",
+            "arabic_text": "إِنَّهُ مِنْ سُلَيْمَانَ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">مِنْ سُلَيْمَانَ</span>",
+            "hinglish": "Beshak woh Sulaiman (Alaihis Salam) ki taraf se hai",
+            "hinglish_meaning": "Beshak woh Sulaiman (Alaihis Salam) ki taraf se hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak woh Sulaiman (Alaihis Salam) ki taraf se hai",
+              "en": "Indeed, it is from Solomon",
+              "ur": "بیشک وہ سلیمان (علیہ السلام) کی طرف سے ہے",
+              "hi": "बेशक वह सुलेमान (अलैहिस्सलाम) की तरफ़ से है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s52",
+            "sentence_number": 52,
+            "arabic": "إِنَّهُ كَانَ ظَلُومًا جَهُولًا",
+            "arabic_text": "إِنَّهُ كَانَ ظَلُومًا جَهُولًا",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">كَانَ ظَلُومًا جَهُولًا</span>",
+            "hinglish": "Beshak woh bada zalim bada nadan tha",
+            "hinglish_meaning": "Beshak woh bada zalim bada nadan tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak woh bada zalim bada nadan tha",
+              "en": "Indeed, he was unjust and ignorant",
+              "ur": "بیشک وہ بڑا ظالم بڑا نادان تھا",
+              "hi": "बेशक वह बड़ा ज़ालिम बड़ा नादान था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s53",
+            "sentence_number": 53,
+            "arabic": "أَنَّهُ الْحَقُّ / مِنْ رَبِّكَ",
+            "arabic_text": "أَنَّهُ الْحَقُّ / مِنْ رَبِّكَ",
+            "arabic_markup": "<span class=\"arabic-root\">أَنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">الْحَقُّ / مِنْ رَبِّكَ</span>",
+            "hinglish": "Ke woh haq hai aapke Rabb ki taraf se",
+            "hinglish_meaning": "Ke woh haq hai aapke Rabb ki taraf se",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ke woh haq hai aapke Rabb ki taraf se",
+              "en": "That it is the truth from your Lord",
+              "ur": "کہ وہ حق ہے آپ کے رب کی طرف سے",
+              "hi": "कि वह हक़ है आपके रब की तरफ़ से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s54",
+            "sentence_number": 54,
+            "arabic": "إِنَّهُ / بِكُلِّ شَيْءٍ / بَصِيرٌ",
+            "arabic_text": "إِنَّهُ / بِكُلِّ شَيْءٍ / بَصِيرٌ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">بِكُلِّ شَيْءٍ / بَصِيرٌ</span>",
+            "hinglish": "Beshak woh har cheez ko dekhne wala hai",
+            "hinglish_meaning": "Beshak woh har cheez ko dekhne wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak woh har cheez ko dekhne wala hai",
+              "en": "Indeed, He is of all things Seeing",
+              "ur": "بیشک وہ ہر چیز کو دیکھنے والا ہے",
+              "hi": "बेशक वह हर चीज़ को देखने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s55",
+            "sentence_number": 55,
+            "arabic": "فَإِنَّ لَهُ / جَهَنَّمَ",
+            "arabic_text": "فَإِنَّ لَهُ / جَهَنَّمَ",
+            "arabic_markup": "<span class=\"arabic-root\">فَإِنَّ لَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">جَهَنَّمَ</span>",
+            "hinglish": "Toh beshak uske liye jahannam hai",
+            "hinglish_meaning": "Toh beshak uske liye jahannam hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh beshak uske liye jahannam hai",
+              "en": "Then indeed, for him is Hell",
+              "ur": "تو بیشک اس کے لیے جہنم ہے",
+              "hi": "तो बेशक उसके लिए जहन्नम है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s56",
+            "sentence_number": 56,
+            "arabic": "فَإِنَّ لَهُ / نَارَ جَهَنَّمَ",
+            "arabic_text": "فَإِنَّ لَهُ / نَارَ جَهَنَّمَ",
+            "arabic_markup": "<span class=\"arabic-root\">فَإِنَّ لَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">نَارَ جَهَنَّمَ</span>",
+            "hinglish": "Toh beshak uske liye jahannam ki aag hai",
+            "hinglish_meaning": "Toh beshak uske liye jahannam ki aag hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh beshak uske liye jahannam ki aag hai",
+              "en": "Then indeed, for him is the fire of Hell",
+              "ur": "تو بیشک اس کے لیے جہنم کی آگ ہے",
+              "hi": "तो बेशक उसके लिए जहन्नम की आग है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s57",
+            "sentence_number": 57,
+            "arabic": "فَإِنَّ لَهُ / مَعِيشَةً ضَنْكًا",
+            "arabic_text": "فَإِنَّ لَهُ / مَعِيشَةً ضَنْكًا",
+            "arabic_markup": "<span class=\"arabic-root\">فَإِنَّ لَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">مَعِيشَةً ضَنْكًا</span>",
+            "hinglish": "Toh beshak uske liye tang zindagi hai",
+            "hinglish_meaning": "Toh beshak uske liye tang zindagi hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh beshak uske liye tang zindagi hai",
+              "en": "Then indeed, he will have a depressed life",
+              "ur": "تو بیشک اس کے لیے تنگ زندگی ہے",
+              "hi": "तो बेशक उसके लिए तंग ज़िंदगी है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s58",
+            "sentence_number": 58,
+            "arabic": "إِنَّ رَبَّهُ / كَانَ بِهِ / بَصِيرًا",
+            "arabic_text": "إِنَّ رَبَّهُ / كَانَ بِهِ / بَصِيرًا",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ رَبَّهُ / كَانَ بِ</span><span class=\"nonroot\">هِ</span> / <span class=\"arabic-root\">بَصِيرًا</span>",
+            "hinglish": "Beshak uska Rabb us par nigran hai",
+            "hinglish_meaning": "Beshak uska Rabb us par nigran hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak uska Rabb us par nigran hai",
+              "en": "Indeed, his Lord was ever of him, Seeing",
+              "ur": "بیشک اس کا رب اس پر نگراں ہے",
+              "hi": "बेशक उसका रब उस पर निगराँ है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s59",
+            "sentence_number": 59,
+            "arabic": "إِنَّهُ كَانَ عَذَابُ يَوْمٍ عَظِيمٍ",
+            "arabic_text": "إِنَّهُ كَانَ عَذَابُ يَوْمٍ عَظِيمٍ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّهُ كَانَ عَذَابُ يَوْمٍ عَظِيمٍ</span>",
+            "hinglish": "Beshak woh bade din ka azab tha",
+            "hinglish_meaning": "Beshak woh bade din ka azab tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak woh bade din ka azab tha",
+              "en": "Indeed, it was the punishment of a tremendous Day",
+              "ur": "بیشک وہ بڑے دن کا عذاب تھا",
+              "hi": "बेशक वह बड़े दिन का अज़ाब था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s60",
+            "sentence_number": 60,
+            "arabic": "إِنَّهُ كَانَ فِي أَهْلِهِ مَسْرُورًا",
+            "arabic_text": "إِنَّهُ كَانَ فِي أَهْلِهِ مَسْرُورًا",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">كَانَ فِي أَهْلِهِ مَسْرُورًا</span>",
+            "hinglish": "Beshak woh apne ghar-walon mein khush tha",
+            "hinglish_meaning": "Beshak woh apne ghar-walon mein khush tha",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak woh apne ghar-walon mein khush tha",
+              "en": "Indeed, he was joyful among his people",
+              "ur": "بیشک وہ اپنے گھر والوں میں خوش تھا",
+              "hi": "बेशक वह अपने घर-वालों में खुश था",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s61",
+            "sentence_number": 61,
+            "arabic": "لَهُ / غَيْبُ السَّمَاوَاتِ وَالْأَرْضِ",
+            "arabic_text": "لَهُ / غَيْبُ السَّمَاوَاتِ وَالْأَرْضِ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">غَيْبُ السَّمَاوَاتِ وَالْأَرْضِ</span>",
+            "hinglish": "Uske liye hai aasmanon aur zameen ka ghaib",
+            "hinglish_meaning": "Uske liye hai aasmanon aur zameen ka ghaib",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye hai aasmanon aur zameen ka ghaib",
+              "en": "To Him belongs the unseen of the heavens and the earth",
+              "ur": "اسی کے لیے ہے آسمانوں اور زمین کا غیب",
+              "hi": "उसके लिए है आसमानों और ज़मीन का ग़ैब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s62",
+            "sentence_number": 62,
+            "arabic": "لَهُ / مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ",
+            "arabic_text": "لَهُ / مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ</span>",
+            "hinglish": "Uske liye hai aasmanon aur zameen ki badshahat",
+            "hinglish_meaning": "Uske liye hai aasmanon aur zameen ki badshahat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye hai aasmanon aur zameen ki badshahat",
+              "en": "To Him belongs the dominion of the heavens and the earth",
+              "ur": "اسی کے لیے ہے آسمانوں اور زمین کی بادشاہت",
+              "hi": "उसके लिए है आसमानों और ज़मीन की बादशहात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s63",
+            "sentence_number": 63,
+            "arabic": "لَهُ / مَقَالِيدُ السَّمَاوَاتِ وَالْأَرْضِ",
+            "arabic_text": "لَهُ / مَقَالِيدُ السَّمَاوَاتِ وَالْأَرْضِ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">مَقَالِيدُ السَّمَاوَاتِ وَالْأَرْضِ</span>",
+            "hinglish": "Uske paas hain aasmanon aur zameen ki kunjiyan",
+            "hinglish_meaning": "Uske paas hain aasmanon aur zameen ki kunjiyan",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske paas hain aasmanon aur zameen ki kunjiyan",
+              "en": "To Him belong the keys of the heavens and the earth",
+              "ur": "اسی کے پاس ہیں آسمانوں اور زمین کی کنجیاں",
+              "hi": "उसके पास हैं आसमानों और ज़मीन की कुंजियाँ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s64",
+            "sentence_number": 64,
+            "arabic": "وَلَهُ / الْحَمْدُ فِي السَّمَاوَاتِ وَالْأَرْضِ",
+            "arabic_text": "وَلَهُ / الْحَمْدُ فِي السَّمَاوَاتِ وَالْأَرْضِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">الْحَمْدُ فِي السَّمَاوَاتِ وَالْأَرْضِ</span>",
+            "hinglish": "Aur uske liye hai tareef aasmanon aur zameen mein",
+            "hinglish_meaning": "Aur uske liye hai tareef aasmanon aur zameen mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur uske liye hai tareef aasmanon aur zameen mein",
+              "en": "And to Him belongs praise in the heavens and the earth",
+              "ur": "اور اسی کے لیے ہے تعریف آسمانوں اور زمین میں",
+              "hi": "और उसके लिए है तारीफ़ आसमानों और ज़मीन में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s65",
+            "sentence_number": 65,
+            "arabic": "لَهُ / الْحَمْدُ فِي الْأُولَى وَالْآخِرَةِ",
+            "arabic_text": "لَهُ / الْحَمْدُ فِي الْأُولَى وَالْآخِرَةِ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">الْحَمْدُ فِي الْأُولَى وَالْآخِرَةِ</span>",
+            "hinglish": "Uske liye hai tareef duniya aur aakhirat mein",
+            "hinglish_meaning": "Uske liye hai tareef duniya aur aakhirat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye hai tareef duniya aur aakhirat mein",
+              "en": "To Him belongs praise in the first life and the Hereafter",
+              "ur": "اسی کے لیے ہے تعریف دنیا اور آخرت میں",
+              "hi": "उसके लिए है तारीफ़ दुनिया और आख़िरत में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s66",
+            "sentence_number": 66,
+            "arabic": "وَلَهُ / اخْتِلَافُ اللَّيْلِ وَالنَّهَارِ",
+            "arabic_text": "وَلَهُ / اخْتِلَافُ اللَّيْلِ وَالنَّهَارِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">اخْتِلَافُ اللَّيْلِ وَالنَّهَارِ</span>",
+            "hinglish": "Aur uske liye hai raat aur din ka badalna",
+            "hinglish_meaning": "Aur uske liye hai raat aur din ka badalna",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur uske liye hai raat aur din ka badalna",
+              "en": "And to Him belongs the alternation of the night and the day",
+              "ur": "اور اسی کے لیے ہے رات اور دن کا بدلنا",
+              "hi": "और उसके लिए है रात और दिन का बदलना",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s67",
+            "sentence_number": 67,
+            "arabic": "وَلَهُ / مَنْ فِي السَّمَاوَاتِ وَالْأَرْضِ",
+            "arabic_text": "وَلَهُ / مَنْ فِي السَّمَاوَاتِ وَالْأَرْضِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">مَنْ فِي السَّمَاوَاتِ وَالْأَرْضِ</span>",
+            "hinglish": "Aur uske liye hai jo bhi aasmanon aur zameen mein hai",
+            "hinglish_meaning": "Aur uske liye hai jo bhi aasmanon aur zameen mein hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur uske liye hai jo bhi aasmanon aur zameen mein hai",
+              "en": "And to Him belongs whoever is in the heavens and the earth",
+              "ur": "اور اسی کے لیے ہے جو کوئی آسمانوں اور زمین میں ہے",
+              "hi": "और उसके लिए है जो कोई आसमानों और ज़मीन में है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s68",
+            "sentence_number": 68,
+            "arabic": "لَهُ / مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ",
+            "arabic_text": "لَهُ / مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ</span>",
+            "hinglish": "Uske liye hai jo aasmanon mein hai aur jo zameen mein hai",
+            "hinglish_meaning": "Uske liye hai jo aasmanon mein hai aur jo zameen mein hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye hai jo aasmanon mein hai aur jo zameen mein hai",
+              "en": "To Him belongs whatever is in the heavens and whatever is on the earth",
+              "ur": "اسی کے لیے ہے جو آسمانوں میں ہے اور جو زمین میں ہے",
+              "hi": "उसके लिए है जो आसमानों में है और जो ज़मीन में है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s69",
+            "sentence_number": 69,
+            "arabic": "وَلَهُ الْكِبْرِيَاءُ فِي السَّمَاوَاتِ وَالْأَرْضِ",
+            "arabic_text": "وَلَهُ الْكِبْرِيَاءُ فِي السَّمَاوَاتِ وَالْأَرْضِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">الْكِبْرِيَاءُ فِي السَّمَاوَاتِ وَالْأَرْضِ</span>",
+            "hinglish": "Aur uske liye hai azeem badaai aasmanon aur zameen mein",
+            "hinglish_meaning": "Aur uske liye hai azeem badaai aasmanon aur zameen mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur uske liye hai azeem badaai aasmanon aur zameen mein",
+              "en": "And to Him belongs majesty within the heavens and the earth",
+              "ur": "اور اسی کے لیے ہے عظیم بڑائی آسمانوں اور زمین میں",
+              "hi": "और उसके लिए है अज़ीम बड़ाई आसमानों और ज़मीन में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s70",
+            "sentence_number": 70,
+            "arabic": "فِيهِ بَأْسٌ شَدِيدٌ وَمَنَافِعُ لِلنَّاسِ",
+            "arabic_text": "فِيهِ بَأْسٌ شَدِيدٌ وَمَنَافِعُ لِلنَّاسِ",
+            "arabic_markup": "<span class=\"arabic-root\">فِي</span><span class=\"nonroot\">هِ</span> <span class=\"arabic-root\">بَأْسٌ شَدِيدٌ وَمَنَافِعُ لِلنَّاسِ</span>",
+            "hinglish": "Us mein sakht quwwat hai aur logon ke liye faide hain",
+            "hinglish_meaning": "Us mein sakht quwwat hai aur logon ke liye faide hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us mein sakht quwwat hai aur logon ke liye faide hain",
+              "en": "In it is great military might and benefits for the people",
+              "ur": "اس میں سخت قوت ہے اور لوگوں کے لیے فائدے ہیں",
+              "hi": "उसमें सख़्त क़ुव्वत है और लोगों के लिए फ़ायदे हैं",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s71",
+            "sentence_number": 71,
+            "arabic": "وَلَهُ / الْمَثَلُ الْأَعْلَى / فِي السَّمَاوَاتِ وَالْأَرْضِ",
+            "arabic_text": "وَلَهُ / الْمَثَلُ الْأَعْلَى / فِي السَّمَاوَاتِ وَالْأَرْضِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">الْمَثَلُ الْأَعْلَى / فِي السَّمَاوَاتِ وَالْأَرْضِ</span>",
+            "hinglish": "Aur uske liye hai buland shaan aasmanon aur zameen mein",
+            "hinglish_meaning": "Aur uske liye hai buland shaan aasmanon aur zameen mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur uske liye hai buland shaan aasmanon aur zameen mein",
+              "en": "And to Him belongs the highest description in the heavens and the earth",
+              "ur": "اور اسی کے لیے ہے بلند شان آسمانوں اور زمین میں",
+              "hi": "और उसके लिए है बुलंद शान आसमानों और ज़मीन में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s72",
+            "sentence_number": 72,
+            "arabic": "لَا رَيْبَ فِيهِ / مِنْ رَبِّ الْعَالَمِينَ",
+            "arabic_text": "لَا رَيْبَ فِيهِ / مِنْ رَبِّ الْعَالَمِينَ",
+            "arabic_markup": "<span class=\"arabic-root\">لَا رَيْبَ فِي</span><span class=\"nonroot\">هِ</span> / <span class=\"arabic-root\">مِنْ رَبِّ الْعَالَمِينَ</span>",
+            "hinglish": "Us mein koi shakk nahin, tamam jahanon ke Rabb ki taraf se hai",
+            "hinglish_meaning": "Us mein koi shakk nahin, tamam jahanon ke Rabb ki taraf se hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Us mein koi shakk nahin, tamam jahanon ke Rabb ki taraf se hai",
+              "en": "There is no doubt in it, from the Lord of the worlds",
+              "ur": "اس میں کوئی شک نہیں، تمام جہانوں کے رب کی طرف سے ہے",
+              "hi": "उसमें कोई शक नहीं, तमाम जहानों के रब की तरफ़ से है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s73",
+            "sentence_number": 73,
+            "arabic": "لَيْسَ لَهُ / دَعْوَةٌ فِي الدُّنْيَا وَلَا فِي الْآخِرَةِ",
+            "arabic_text": "لَيْسَ لَهُ / دَعْوَةٌ فِي الدُّنْيَا وَلَا فِي الْآخِرَةِ",
+            "arabic_markup": "<span class=\"arabic-root\">لَيْسَ لَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">دَعْوَةٌ فِي الدُّنْيَا وَلَا فِي الْآخِرَةِ</span>",
+            "hinglish": "Uske liye koi pukaarna nahin duniya mein aur na aakhirat mein",
+            "hinglish_meaning": "Uske liye koi pukaarna nahin duniya mein aur na aakhirat mein",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye koi pukaarna nahin duniya mein aur na aakhirat mein",
+              "en": "It has no claim in this world or in the Hereafter",
+              "ur": "اس کے لیے کوئی پکارنا نہیں دنیا میں اور نہ آخرت میں",
+              "hi": "उसके लिए कोई पुकारना नहीं दुनिया में और न आख़िरत में",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s74",
+            "sentence_number": 74,
+            "arabic": "وَلَهُ الْحَمْدُ / فِي الْآخِرَةِ / وَهُوَ الْحَكِيمُ الْخَبِيرُ",
+            "arabic_text": "وَلَهُ الْحَمْدُ / فِي الْآخِرَةِ / وَهُوَ الْحَكِيمُ الْخَبِيرُ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">الْحَمْدُ / فِي الْآخِرَةِ / وَهُوَ الْحَكِيمُ الْخَبِيرُ</span>",
+            "hinglish": "Aur uske liye tareef hai aakhirat mein, aur wohi hikmat wala khabardar hai",
+            "hinglish_meaning": "Aur uske liye tareef hai aakhirat mein, aur wohi hikmat wala khabardar hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur uske liye tareef hai aakhirat mein, aur wohi hikmat wala khabardar hai",
+              "en": "And to Him belongs praise in the Hereafter, and He is the Wise, the Acquainted",
+              "ur": "اور اسی کے لیے تعریف ہے آخرت میں، اور وہی حکمت والا باخبر ہے",
+              "hi": "और उसके लिए तारीफ़ है आख़िरत में, और वही हिकमत वाला बाख़बर है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s75",
+            "sentence_number": 75,
+            "arabic": "هٰذَا / مِنْ عَمَلِ الشَّيْطَانِ / إِنَّهُ عَدُوٌّ مُضِلٌّ مُبِينٌ",
+            "arabic_text": "هٰذَا / مِنْ عَمَلِ الشَّيْطَانِ / إِنَّهُ عَدُوٌّ مُضِلٌّ مُبِينٌ",
+            "arabic_markup": "<span class=\"arabic-root\">هٰذَا / مِنْ عَمَلِ الشَّيْطَانِ / إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">عَدُوٌّ مُضِلٌّ مُبِينٌ</span>",
+            "hinglish": "Yeh Shaytan ke kaam se hai, beshak woh khula gumrah karne wala dushman hai",
+            "hinglish_meaning": "Yeh Shaytan ke kaam se hai, beshak woh khula gumrah karne wala dushman hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yeh Shaytan ke kaam se hai, beshak woh khula gumrah karne wala dushman hai",
+              "en": "This is from the work of Satan; indeed, he is a manifest misleader and enemy",
+              "ur": "یہ شیطان کے کام سے ہے، بیشک وہ کھلا گمراہ کرنے والا دشمن ہے",
+              "hi": "यह शैतान के काम से है, बेशक वह खुला गुमराह करने वाला दुश्मन है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s76",
+            "sentence_number": 76,
+            "arabic": "هُوَ الْغَنِيُّ / لَهُ مَا فِي السَّمَاوَاتِ / وَمَا فِي الْأَرْضِ",
+            "arabic_text": "هُوَ الْغَنِيُّ / لَهُ مَا فِي السَّمَاوَاتِ / وَمَا فِي الْأَرْضِ",
+            "arabic_markup": "<span class=\"arabic-root\">هُوَ الْغَنِيُّ / لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">مَا فِي السَّمَاوَاتِ / وَمَا فِي الْأَرْضِ</span>",
+            "hinglish": "Wohi beniyaaz hai, uske liye hai jo aasmanon mein hai aur jo zameen mein hai",
+            "hinglish_meaning": "Wohi beniyaaz hai, uske liye hai jo aasmanon mein hai aur jo zameen mein hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Wohi beniyaaz hai, uske liye hai jo aasmanon mein hai aur jo zameen mein hai",
+              "en": "He is the Self-Sufficient; to Him belongs whatever is in the heavens and whatever is in the earth",
+              "ur": "وہی بے نیاز ہے، اسی کے لیے ہے جو آسمانوں میں ہے اور جو زمین میں ہے",
+              "hi": "वही बेनियाज़ है, उसके लिए है जो आसमानों में है और जो ज़मीन में है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s77",
+            "sentence_number": 77,
+            "arabic": "لَهُ / مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ / وَهُوَ الْعَلِيُّ الْعَظِيمُ",
+            "arabic_text": "لَهُ / مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ / وَهُوَ الْعَلِيُّ الْعَظِيمُ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ / وَهُوَ الْعَلِيُّ الْعَظِيمُ</span>",
+            "hinglish": "Uske liye hai jo aasmanon mein hai aur jo zameen mein hai, aur wohi buland azeem hai",
+            "hinglish_meaning": "Uske liye hai jo aasmanon mein hai aur jo zameen mein hai, aur wohi buland azeem hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye hai jo aasmanon mein hai aur jo zameen mein hai, aur wohi buland azeem hai",
+              "en": "To Him belongs whatever is in the heavens and whatever is on the earth, and He is the Most High, the Most Great",
+              "ur": "اسی کے لیے ہے جو آسمانوں میں ہے اور جو زمین میں ہے، اور وہی بلند عظمت والا ہے",
+              "hi": "उसके लिए है जो आसमानों में है और जो ज़मीन में है, और वही बुलंद अज़ीम है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s78",
+            "sentence_number": 78,
+            "arabic": "وَلَهُ الْمَثَلُ الْأَعْلَى / فِي السَّمَاوَاتِ وَالْأَرْضِ / وَهُوَ الْعَزِيزُ الْحَكِيمُ",
+            "arabic_text": "وَلَهُ الْمَثَلُ الْأَعْلَى / فِي السَّمَاوَاتِ وَالْأَرْضِ / وَهُوَ الْعَزِيزُ الْحَكِيمُ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">الْمَثَلُ الْأَعْلَى / فِي السَّمَاوَاتِ وَالْأَرْضِ / وَهُوَ الْعَزِيزُ الْحَكِيمُ</span>",
+            "hinglish": "Aur uske liye buland shaan hai aasmanon aur zameen mein, aur wohi ghalib hikmat wala hai",
+            "hinglish_meaning": "Aur uske liye buland shaan hai aasmanon aur zameen mein, aur wohi ghalib hikmat wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur uske liye buland shaan hai aasmanon aur zameen mein, aur wohi ghalib hikmat wala hai",
+              "en": "And to Him belongs the highest description in the heavens and the earth, and He is the Exalted in Might, the Wise",
+              "ur": "اور اسی کے لیے بلند شان ہے آسمانوں اور زمین میں، اور وہی غالب حکمت والا ہے",
+              "hi": "और उसके लिए बुलंद शान है आसमानों और ज़मीन में, और वही ग़ालिब हिकमत वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s79",
+            "sentence_number": 79,
+            "arabic": "سُبْحَانَهُ / هُوَ الْغَنِيُّ / لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ",
+            "arabic_text": "سُبْحَانَهُ / هُوَ الْغَنِيُّ / لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ",
+            "arabic_markup": "<span class=\"arabic-root\">سُبْحَانَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">هُوَ الْغَنِيُّ / لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ</span>",
+            "hinglish": "Uski zaat pak hai, wohi beniyaaz hai, uske liye hai jo aasmanon mein hai aur jo zameen mein hai",
+            "hinglish_meaning": "Uski zaat pak hai, wohi beniyaaz hai, uske liye hai jo aasmanon mein hai aur jo zameen mein hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uski zaat pak hai, wohi beniyaaz hai, uske liye hai jo aasmanon mein hai aur jo zameen mein hai",
+              "en": "Exalted is He; He is the Self-Sufficient; to Him belongs whatever is in the heavens and whatever is on the earth",
+              "ur": "اس کی ذات پاک ہے، وہی بے نیاز ہے، اسی کے لیے ہے جو آسمانوں میں ہے اور جو زمین میں ہے",
+              "hi": "उसकी ज़ात पाक है, वही बेनियाज़ है, उसके लिए है जो आसमानों में है और जो ज़मीन में है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s80",
+            "sentence_number": 80,
+            "arabic": "إِنَّ اللهَ عَالِمُ غَيْبِ السَّمَاوَاتِ وَالْأَرْضِ / إِنَّهُ عَلِيمٌ بِذَاتِ الصُّدُورِ",
+            "arabic_text": "إِنَّ اللهَ عَالِمُ غَيْبِ السَّمَاوَاتِ وَالْأَرْضِ / إِنَّهُ عَلِيمٌ بِذَاتِ الصُّدُورِ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ اللهَ عَالِمُ غَيْبِ السَّمَاوَاتِ وَالْأَرْضِ / إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">عَلِيمٌ بِذَاتِ الصُّدُورِ</span>",
+            "hinglish": "Beshak Allah aasmanon aur zameen ke ghaib ka jaanne wala hai, beshak woh seene ke raazon ka jaanne wala hai",
+            "hinglish_meaning": "Beshak Allah aasmanon aur zameen ke ghaib ka jaanne wala hai, beshak woh seene ke raazon ka jaanne wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak Allah aasmanon aur zameen ke ghaib ka jaanne wala hai, beshak woh seene ke raazon ka jaanne wala hai",
+              "en": "Indeed, Allah is Knower of the unseen of the heavens and the earth; indeed, He is Knowing of that within the breasts",
+              "ur": "بیشک اللہ آسمانوں اور زمین کے غیب کا جاننے والا ہے، بیشک وہ سینوں کے رازوں کا جاننے والا ہے",
+              "hi": "बेशक अल्लाह आसमानों और ज़मीन के ग़ैब का जानने वाला है, बेशक वह सीनों के राज़ों का जानने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s81",
+            "sentence_number": 81,
+            "arabic": "فَلِلَّهِ الْحَمْدُ / رَبِّ السَّمَاوَاتِ وَرَبِّ الْأَرْضِ رَبِّ الْعَالَمِينَ / وَلَهُ الْكِبْرِيَاءُ فِي السَّمَاوَاتِ وَالْأَرْضِ / وَهُوَ الْعَزِيزُ الْحَكِيمُ",
+            "arabic_text": "فَلِلَّهِ الْحَمْدُ / رَبِّ السَّمَاوَاتِ وَرَبِّ الْأَرْضِ رَبِّ الْعَالَمِينَ / وَلَهُ الْكِبْرِيَاءُ فِي السَّمَاوَاتِ وَالْأَرْضِ / وَهُوَ الْعَزِيزُ الْحَكِيمُ",
+            "arabic_markup": "<span class=\"arabic-root\">فَلِلَّهِ الْحَمْدُ / رَبِّ السَّمَاوَاتِ وَرَبِّ الْأَرْضِ رَبِّ الْعَالَمِينَ / وَلَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">الْكِبْرِيَاءُ فِي السَّمَاوَاتِ وَالْأَرْضِ / وَهُوَ الْعَزِيزُ الْحَكِيمُ</span>",
+            "hinglish": "Toh Allah hi ke liye tamam tareefain hain, aasmanon ka Rabb aur zameen ka Rabb, tamam jahanon ka Rabb, aur uske liye azeem badaai hai aasmanon aur zameen mein, aur wohi ghalib hikmat wala hai",
+            "hinglish_meaning": "Toh Allah hi ke liye tamam tareefain hain, aasmanon ka Rabb aur zameen ka Rabb, tamam jahanon ka Rabb, aur uske liye azeem badaai hai aasmanon aur zameen mein, aur wohi ghalib hikmat wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh Allah hi ke liye tamam tareefain hain, aasmanon ka Rabb aur zameen ka Rabb, tamam jahanon ka Rabb, aur uske liye azeem badaai hai aasmanon aur zameen mein, aur wohi ghalib hikmat wala hai",
+              "en": "Then to Allah belongs praise - Lord of the heavens and Lord of the earth, Lord of the worlds; and to Him belongs majesty within the heavens and the earth, and He is the Exalted in Might, the Wise",
+              "ur": "تو اللہ ہی کے لیے تمام تعریفیں ہیں، آسمانوں کا رب اور زمین کا رب، تمام جہانوں کا رب، اور اسی کے لیے عظیم بڑائی ہے آسمانوں اور زمین میں، اور وہی غالب حکمت والا ہے",
+              "hi": "तो अल्लाह ही के लिए तमाम तारीफ़ें हैं, आसमानों का रब और ज़मीन का रब, तमाम जहानों का रब, और उसके लिए अज़ीम बड़ाई है आसमानों और ज़मीन में, और वही ग़ालिब हिकमत वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s82",
+            "sentence_number": 82,
+            "arabic": "الَّذِي عِنْدَهُ / عِلْمُ مِنَ الْكِتَابِ",
+            "arabic_text": "الَّذِي عِنْدَهُ / عِلْمُ مِنَ الْكِتَابِ",
+            "arabic_markup": "<span class=\"arabic-root\">الَّذِي عِنْدَهُ / عِلْمُ مِنَ الْكِتَابِ</span>",
+            "hinglish": "Woh jiske paas kitab ka ilm hai",
+            "hinglish_meaning": "Woh jiske paas kitab ka ilm hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh jiske paas kitab ka ilm hai",
+              "en": "One who had knowledge from the Scripture",
+              "ur": "وہ جس کے پاس کتاب کا علم ہے",
+              "hi": "वह जिसके पास किताब का इल्म है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s83",
+            "sentence_number": 83,
+            "arabic": "الَّذِي لَهُ / مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ",
+            "arabic_text": "الَّذِي لَهُ / مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ",
+            "arabic_markup": "<span class=\"arabic-root\">الَّذِي لَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ</span>",
+            "hinglish": "Woh jiske liye hai jo aasmanon mein hai aur jo zameen mein hai",
+            "hinglish_meaning": "Woh jiske liye hai jo aasmanon mein hai aur jo zameen mein hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh jiske liye hai jo aasmanon mein hai aur jo zameen mein hai",
+              "en": "The One to whom belongs whatever is in the heavens and whatever is on the earth",
+              "ur": "وہ جس کے لیے ہے جو آسمانوں میں ہے اور جو زمین میں ہے",
+              "hi": "वह जिसके लिए है जो आसमानों में है और जो ज़मीन में है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s84",
+            "sentence_number": 84,
+            "arabic": "الَّذِي لَهُ / مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ / وَاللهُ عَلَى كُلِّ شَيْءٍ شَهِيدٌ",
+            "arabic_text": "الَّذِي لَهُ / مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ / وَاللهُ عَلَى كُلِّ شَيْءٍ شَهِيدٌ",
+            "arabic_markup": "<span class=\"arabic-root\">الَّذِي لَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ / وَاللهُ عَلَى كُلِّ شَيْءٍ شَهِيدٌ</span>",
+            "hinglish": "Woh jiske liye hai aasmanon aur zameen ki badshahat, aur Allah har cheez par gawah hai",
+            "hinglish_meaning": "Woh jiske liye hai aasmanon aur zameen ki badshahat, aur Allah har cheez par gawah hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh jiske liye hai aasmanon aur zameen ki badshahat, aur Allah har cheez par gawah hai",
+              "en": "The One to whom belongs the dominion of the heavens and the earth; and Allah is Witness over all things",
+              "ur": "وہ جس کے لیے ہے آسمانوں اور زمین کی بادشاہت، اور اللہ ہر چیز پر گواہ ہے",
+              "hi": "वह जिसके लिए है आसमानों और ज़मीन की बादशहात, और अल्लाह हर चीज़ पर गवाह है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s85",
+            "sentence_number": 85,
+            "arabic": "الْحَمْدُ لِلَّهِ / الَّذِي لَهُ / مَا فِي السَّمَاوَاتِ / وَمَا فِي الْأَرْضِ / وَلَهُ الْحَمْدُ فِي الْآخِرَةِ / وَهُوَ الْحَكِيمُ الْخَبِيرُ",
+            "arabic_text": "الْحَمْدُ لِلَّهِ / الَّذِي لَهُ / مَا فِي السَّمَاوَاتِ / وَمَا فِي الْأَرْضِ / وَلَهُ الْحَمْدُ فِي الْآخِرَةِ / وَهُوَ الْحَكِيمُ الْخَبِيرُ",
+            "arabic_markup": "<span class=\"arabic-root\">الْحَمْدُ لِلَّهِ / الَّذِي لَ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">مَا فِي السَّمَاوَاتِ / وَمَا فِي الْأَرْضِ / وَلَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">الْحَمْدُ فِي الْآخِرَةِ / وَهُوَ الْحَكِيمُ الْخَبِيرُ</span>",
+            "hinglish": "Tamam tareefain Allah ke liye hain jiske liye hai jo aasmanon mein hai aur jo zameen mein hai, aur uske liye tareef hai aakhirat mein, aur wohi hikmat wala khabardar hai",
+            "hinglish_meaning": "Tamam tareefain Allah ke liye hain jiske liye hai jo aasmanon mein hai aur jo zameen mein hai, aur uske liye tareef hai aakhirat mein, aur wohi hikmat wala khabardar hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tamam tareefain Allah ke liye hain jiske liye hai jo aasmanon mein hai aur jo zameen mein hai, aur uske liye tareef hai aakhirat mein, aur wohi hikmat wala khabardar hai",
+              "en": "All praise is due to Allah, to whom belongs whatever is in the heavens and whatever is in the earth, and to Him belongs praise in the Hereafter; and He is the Wise, the Acquainted",
+              "ur": "تمام تعریفیں اللہ کے لیے ہیں جس کے لیے ہے جو آسمانوں میں ہے اور جو زمین میں ہے، اور اسی کے لیے تعریف ہے آخرت میں، اور وہی حکمت والا باخبر ہے",
+              "hi": "तमाम तारीफ़ें अल्लाह के लिए हैं जिसके लिए है जो आसमानों में है और जो ज़मीन में है, और उसके लिए तारीफ़ है आख़िरत में, और वही हिकमत वाला बाख़बर है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s86",
+            "sentence_number": 86,
+            "arabic": "إِنَّهُ لَحَقٌّ",
+            "arabic_text": "إِنَّهُ لَحَقٌّ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"nonroot\">لَ</span><span class=\"arabic-root\">حَقٌّ</span>",
+            "hinglish": "Yaqeenan woh zaroor haq hai",
+            "hinglish_meaning": "Yaqeenan woh zaroor haq hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yaqeenan woh zaroor haq hai",
+              "en": "Indeed, it is truth",
+              "ur": "یقیناً وہ ضرور حق ہے",
+              "hi": "यक़ीनन वह ज़रूर हक़ है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s87",
+            "sentence_number": 87,
+            "arabic": "وَإِنَّهُ لَقَسَمٌ",
+            "arabic_text": "وَإِنَّهُ لَقَسَمٌ",
+            "arabic_markup": "<span class=\"arabic-root\">وَإِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"nonroot\">لَ</span><span class=\"arabic-root\">قَسَمٌ</span>",
+            "hinglish": "Aur yaqeenan woh zaroor ek qasam hai",
+            "hinglish_meaning": "Aur yaqeenan woh zaroor ek qasam hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur yaqeenan woh zaroor ek qasam hai",
+              "en": "And indeed, it is an oath",
+              "ur": "اور یقیناً وہ ضرور ایک قسم ہے",
+              "hi": "और यक़ीनन वह ज़रूर एक क़सम है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s88",
+            "sentence_number": 88,
+            "arabic": "إِنَّهُ لَقُرْآنٌ كَرِيمٌ",
+            "arabic_text": "إِنَّهُ لَقُرْآنٌ كَرِيمٌ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"nonroot\">لَ</span><span class=\"arabic-root\">قُرْآنٌ كَرِيمٌ</span>",
+            "hinglish": "Yaqeenan woh zaroor izzat wala quran hai",
+            "hinglish_meaning": "Yaqeenan woh zaroor izzat wala quran hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yaqeenan woh zaroor izzat wala quran hai",
+              "en": "Indeed, it is a noble Qur'an",
+              "ur": "یقیناً وہ ضرور عزت والا قرآن ہے",
+              "hi": "यक़ीनन वह ज़रूर इज़्ज़त वाला क़ुरआन है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s89",
+            "sentence_number": 89,
+            "arabic": "وَإِنَّهُ لَفِسْقٌ",
+            "arabic_text": "وَإِنَّهُ لَفِسْقٌ",
+            "arabic_markup": "<span class=\"arabic-root\">وَإِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"nonroot\">لَ</span><span class=\"arabic-root\">فِسْقٌ</span>",
+            "hinglish": "Aur yaqeenan woh zaroor naafarmani hai",
+            "hinglish_meaning": "Aur yaqeenan woh zaroor naafarmani hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur yaqeenan woh zaroor naafarmani hai",
+              "en": "And indeed, it is grave disobedience",
+              "ur": "اور یقیناً وہ ضرور نافرمانی ہے",
+              "hi": "और यक़ीनन वह ज़रूर नाफ़रमानी है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s90",
+            "sentence_number": 90,
+            "arabic": "إِنَّهُ لَقَوْلُ فَصْلٍ",
+            "arabic_text": "إِنَّهُ لَقَوْلُ فَصْلٍ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"nonroot\">لَ</span><span class=\"arabic-root\">قَوْلُ فَصْلٍ</span>",
+            "hinglish": "Yaqeenan woh zaroor faislah karne wali baat hai",
+            "hinglish_meaning": "Yaqeenan woh zaroor faislah karne wali baat hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yaqeenan woh zaroor faislah karne wali baat hai",
+              "en": "Indeed, it is a decisive word",
+              "ur": "یقیناً وہ ضرور فیصلہ کرنے والی بات ہے",
+              "hi": "यक़ीनन वह ज़रूर फ़ैसला करने वाली बात है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s91",
+            "sentence_number": 91,
+            "arabic": "وَإِنَّهُ لَعِلْمٌ لِلسَّاعَةِ",
+            "arabic_text": "وَإِنَّهُ لَعِلْمٌ لِلسَّاعَةِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَإِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"nonroot\">لَ</span><span class=\"arabic-root\">عِلْمٌ لِلسَّاعَةِ</span>",
+            "hinglish": "Aur yaqeenan woh zaroor qiyamat ki nishani hai",
+            "hinglish_meaning": "Aur yaqeenan woh zaroor qiyamat ki nishani hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur yaqeenan woh zaroor qiyamat ki nishani hai",
+              "en": "And indeed, he is knowledge of the Hour",
+              "ur": "اور یقیناً وہ ضرور قیامت کی نشانی ہے",
+              "hi": "और यक़ीनन वह ज़रूर क़ियामत की निशानी है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s92",
+            "sentence_number": 92,
+            "arabic": "وَإِنَّهُ / عَلَى ذٰلِكَ / لَشَهِيدٌ",
+            "arabic_text": "وَإِنَّهُ / عَلَى ذٰلِكَ / لَشَهِيدٌ",
+            "arabic_markup": "<span class=\"arabic-root\">وَإِنَّ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">عَلَى ذٰلِكَ /</span> <span class=\"nonroot\">لَ</span><span class=\"arabic-root\">شَهِيدٌ</span>",
+            "hinglish": "Aur yaqeenan woh iss par zaroor gawah hai",
+            "hinglish_meaning": "Aur yaqeenan woh iss par zaroor gawah hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur yaqeenan woh iss par zaroor gawah hai",
+              "en": "And indeed, to that he is a witness",
+              "ur": "اور یقیناً وہ اس پر ضرور گواہ ہے",
+              "hi": "और यक़ीनन वह इस पर ज़रूर गवाह है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s93",
+            "sentence_number": 93,
+            "arabic": "إِنَّهُ / عَلَى رَجْعِهِ / لَقَادِرٌ",
+            "arabic_text": "إِنَّهُ / عَلَى رَجْعِهِ / لَقَادِرٌ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> / <span class=\"arabic-root\">عَلَى رَجْعِهِ /</span> <span class=\"nonroot\">لَ</span><span class=\"arabic-root\">قَادِرٌ</span>",
+            "hinglish": "Yaqeenan woh uske dobara lotane par zaroor qadir hai",
+            "hinglish_meaning": "Yaqeenan woh uske dobara lotane par zaroor qadir hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yaqeenan woh uske dobara lotane par zaroor qadir hai",
+              "en": "Indeed, He is able to return him",
+              "ur": "یقیناً وہ اس کے دوبارہ لوٹانے پر ضرور قادر ہے",
+              "hi": "यक़ीनन वह उसके दोबारा लौटाने पर ज़रूर क़ादिर है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s94",
+            "sentence_number": 94,
+            "arabic": "إِنَّهُ لَذُو حَظٍّ عَظِيمٍ",
+            "arabic_text": "إِنَّهُ لَذُو حَظٍّ عَظِيمٍ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"nonroot\">لَ</span><span class=\"arabic-root\">ذُو حَظٍّ عَظِيمٍ</span>",
+            "hinglish": "Yaqeenan woh zaroor bade naseeb wala hai",
+            "hinglish_meaning": "Yaqeenan woh zaroor bade naseeb wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yaqeenan woh zaroor bade naseeb wala hai",
+              "en": "Indeed, he is owner of great fortune",
+              "ur": "یقیناً وہ ضرور بڑے نصیب والا ہے",
+              "hi": "यक़ीनन वह ज़रूर बड़े नसीब वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s95",
+            "sentence_number": 95,
+            "arabic": "إِنَّهُ لَقَوْلُ رَسُولٍ كَرِيمٍ",
+            "arabic_text": "إِنَّهُ لَقَوْلُ رَسُولٍ كَرِيمٍ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"nonroot\">لَ</span><span class=\"arabic-root\">قَوْلُ رَسُولٍ كَرِيمٍ</span>",
+            "hinglish": "Yaqeenan woh zaroor meharban rasool ka kalaam hai",
+            "hinglish_meaning": "Yaqeenan woh zaroor meharban rasool ka kalaam hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yaqeenan woh zaroor meharban rasool ka kalaam hai",
+              "en": "Indeed, it is the word of a noble messenger",
+              "ur": "یقیناً وہ ضرور مہربان رسول کا کلام ہے",
+              "hi": "यक़ीनन वह ज़रूर मेहरबान रसूल का कलाम है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s96",
+            "sentence_number": 96,
+            "arabic": "وَإِإِنَّهُ / لَحُبِّ الْخَيْرِ / لَشَدِيدٌ",
+            "arabic_text": "وَإِإِنَّهُ / لَحُبِّ الْخَيْرِ / لَشَدِيدٌ",
+            "arabic_markup": "<span class=\"arabic-root\">وَإِإِنَّهُ / لَحُبِّ الْخَيْرِ / لَشَدِيدٌ</span>",
+            "hinglish": "Aur yaqeenan woh maal ki muhabbat mein zaroor sakht hai",
+            "hinglish_meaning": "Aur yaqeenan woh maal ki muhabbat mein zaroor sakht hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur yaqeenan woh maal ki muhabbat mein zaroor sakht hai",
+              "en": "And indeed, in love of wealth he is intense",
+              "ur": "اور یقیناً وہ مال کی محبت میں ضرور سخت ہے",
+              "hi": "और यक़ीनन वह माल की मोहब्बत में ज़रूर सख़्त है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s97",
+            "sentence_number": 97,
+            "arabic": "إِنَّ الْإِنْسَانَ لِرَبِّهِ لَكَنُودٌ / وَإِنَّهُ عَلَى ذٰلِكَ لَشَهِيدٌ / وَإِنَّهُ لَحُبِّ الْخَيْرِ لَشَدِيدٌ",
+            "arabic_text": "إِنَّ الْإِنْسَانَ لِرَبِّهِ لَكَنُودٌ / وَإِنَّهُ عَلَى ذٰلِكَ لَشَهِيدٌ / وَإِنَّهُ لَحُبِّ الْخَيْرِ لَشَدِيدٌ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ الْإِنْسَانَ لِرَبِّهِ لَكَنُودٌ / وَإِنَّهُ عَلَى ذٰلِكَ لَشَهِيدٌ / وَإِنَّهُ لَحُبِّ الْخَيْرِ لَشَدِيدٌ</span>",
+            "hinglish": "Beshak insaan apne Rabb ka bada nashukra hai, aur yaqeenan woh iss par zaroor gawah hai, aur yaqeenan woh maal ki muhabbat mein zaroor sakht hai",
+            "hinglish_meaning": "Beshak insaan apne Rabb ka bada nashukra hai, aur yaqeenan woh iss par zaroor gawah hai, aur yaqeenan woh maal ki muhabbat mein zaroor sakht hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak insaan apne Rabb ka bada nashukra hai, aur yaqeenan woh iss par zaroor gawah hai, aur yaqeenan woh maal ki muhabbat mein zaroor sakht hai",
+              "en": "Indeed mankind, to his Lord, is ungrateful, and indeed, to that he is a witness, and indeed, in love of wealth he is intense",
+              "ur": "بیشک انسان اپنے رب کا بڑا ناشکرا ہے، اور یقیناً وہ اس پر ضرور گواہ ہے، اور یقیناً وہ مال کی محبت میں ضرور سخت ہے",
+              "hi": "बेशक इंसान अपने रब का बड़ा नाशुकरा है, और यक़ीनन वह इस पर ज़रूर गवाह है, और यक़ीनन वह माल की मोहब्बत में ज़रूर सख़्त है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s98",
+            "sentence_number": 98,
+            "arabic": "إِنَّهُ هُوَ الْغَفُورُ الرَّحِيمُ",
+            "arabic_text": "إِنَّهُ هُوَ الْغَفُورُ الرَّحِيمُ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"nonroot\">هُوَ الْ</span><span class=\"arabic-root\">غَفُورُ الرَّحِيمُ</span>",
+            "hinglish": "Beshak wohi bakhshne wala meharban hai",
+            "hinglish_meaning": "Beshak wohi bakhshne wala meharban hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak wohi bakhshne wala meharban hai",
+              "en": "Indeed, He is the Forgiving, the Merciful",
+              "ur": "بیشک وہی بخشنے والا مہربان ہے",
+              "hi": "बेशक वही बख़्शने वाला मेहरबान है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s99",
+            "sentence_number": 99,
+            "arabic": "إِنَّهُ هُوَ التَّوَّابُ الرَّحِيمُ",
+            "arabic_text": "إِنَّهُ هُوَ التَّوَّابُ الرَّحِيمُ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"nonroot\">هُوَ التَّ</span><span class=\"arabic-root\">وَّابُ الرَّحِيمُ</span>",
+            "hinglish": "Beshak wohi tauba qabool karne wala meharban hai",
+            "hinglish_meaning": "Beshak wohi tauba qabool karne wala meharban hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak wohi tauba qabool karne wala meharban hai",
+              "en": "Indeed, He is the Accepting of repentance, the Merciful",
+              "ur": "بیشک وہی توبہ قبول کرنے والا مہربان ہے",
+              "hi": "बेशक वही तौबा क़बूल करने वाला मेहरबान है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s100",
+            "sentence_number": 100,
+            "arabic": "إِنَّهُ هُوَ السَّمِيعُ الْبَصِيرُ",
+            "arabic_text": "إِنَّهُ هُوَ السَّمِيعُ الْبَصِيرُ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"nonroot\">هُوَ السَّ</span><span class=\"arabic-root\">مِيعُ الْبَصِيرُ</span>",
+            "hinglish": "Beshak wohi sunne wala dekhne wala hai",
+            "hinglish_meaning": "Beshak wohi sunne wala dekhne wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak wohi sunne wala dekhne wala hai",
+              "en": "Indeed, He is the Hearing, the Seeing",
+              "ur": "بیشک وہی سننے والا دیکھنے والا ہے",
+              "hi": "बेशक वही सुनने वाला देखने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s101",
+            "sentence_number": 101,
+            "arabic": "إِنَّهُ هُوَ السَّمِيعُ الْعَلِيمُ",
+            "arabic_text": "إِنَّهُ هُوَ السَّمِيعُ الْعَلِيمُ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"nonroot\">هُوَ السَّ</span><span class=\"arabic-root\">مِيعُ الْعَلِيمُ</span>",
+            "hinglish": "Beshak wohi sunne wala jaanne wala hai",
+            "hinglish_meaning": "Beshak wohi sunne wala jaanne wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak wohi sunne wala jaanne wala hai",
+              "en": "Indeed, He is the Hearing, the Knowing",
+              "ur": "بیشک وہی سننے والا جاننے والا ہے",
+              "hi": "बेशक वही सुनने वाला जानने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s102",
+            "sentence_number": 102,
+            "arabic": "إِنَّهُ هُوَ الْحَكِيمُ الْعَلِيمُ",
+            "arabic_text": "إِنَّهُ هُوَ الْحَكِيمُ الْعَلِيمُ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"nonroot\">هُوَ الْ</span><span class=\"arabic-root\">حَكِيمُ الْعَلِيمُ</span>",
+            "hinglish": "Beshak wohi hikmat wala jaanne wala hai",
+            "hinglish_meaning": "Beshak wohi hikmat wala jaanne wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak wohi hikmat wala jaanne wala hai",
+              "en": "Indeed, He is the Wise, the Knowing",
+              "ur": "بیشک وہی حکمت والا جاننے والا ہے",
+              "hi": "बेशक वही हिकमत वाला जानने वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s103",
+            "sentence_number": 103,
+            "arabic": "إِنَّهُ هُوَ الْعَزِيزُ الْحَكِيمُ",
+            "arabic_text": "إِنَّهُ هُوَ الْعَزِيزُ الْحَكِيمُ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"nonroot\">هُوَ الْ</span><span class=\"arabic-root\">عَزِيزُ الْحَكِيمُ</span>",
+            "hinglish": "Beshak wohi ghalib hikmat wala hai",
+            "hinglish_meaning": "Beshak wohi ghalib hikmat wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak wohi ghalib hikmat wala hai",
+              "en": "Indeed, He is the Exalted in Might, the Wise",
+              "ur": "بیشک وہی غالب حکمت والا ہے",
+              "hi": "बेशक वही ग़ालिब हिकमत वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s104",
+            "sentence_number": 104,
+            "arabic": "إِنَّهُ هُوَ الْعَزِيزُ الرَّحِيمُ",
+            "arabic_text": "إِنَّهُ هُوَ الْعَزِيزُ الرَّحِيمُ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"nonroot\">هُوَ الْ</span><span class=\"arabic-root\">عَزِيزُ الرَّحِيمُ</span>",
+            "hinglish": "Beshak wohi ghalib meharban hai",
+            "hinglish_meaning": "Beshak wohi ghalib meharban hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak wohi ghalib meharban hai",
+              "en": "Indeed, He is the Exalted in Might, the Merciful",
+              "ur": "بیشک وہی غالب مہربان ہے",
+              "hi": "बेशक वही ग़ालिब मेहरबान है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s105",
+            "sentence_number": 105,
+            "arabic": "إِنَّهُ هُوَ الْعَلِيمُ الْحَكِيمُ",
+            "arabic_text": "إِنَّهُ هُوَ الْعَلِيمُ الْحَكِيمُ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span><span class=\"nonroot\">هُ</span> <span class=\"nonroot\">هُوَ الْ</span><span class=\"arabic-root\">عَلِيمُ الْحَكِيمُ</span>",
+            "hinglish": "Beshak wohi jaanne wala hikmat wala hai",
+            "hinglish_meaning": "Beshak wohi jaanne wala hikmat wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak wohi jaanne wala hikmat wala hai",
+              "en": "Indeed, He is the Knowing, the Wise",
+              "ur": "بیشک وہی جاننے والا حکمت والا ہے",
+              "hi": "बेशक वही जानने वाला हिकमत वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s4l4_s3_s106",
+            "sentence_number": 106,
+            "arabic": "لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ / وَإِنَّ اللهَ لَهُوَ الْغَنِيُّ الْحَمِيدُ",
+            "arabic_text": "لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ / وَإِنَّ اللهَ لَهُوَ الْغَنِيُّ الْحَمِيدُ",
+            "arabic_markup": "<span class=\"arabic-root\">لَ</span><span class=\"nonroot\">هُ</span> <span class=\"arabic-root\">مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ /</span> <span class=\"nonroot\">وَإِنَّ</span> <span class=\"arabic-root\">اللهَ</span> <span class=\"nonroot\">لَهُوَ الْ</span><span class=\"arabic-root\">غَنِيُّ الْحَمِيدُ</span>",
+            "hinglish": "Uske liye hai jo aasmanon mein hai aur jo zameen mein hai, aur yaqeenan Allah hi beniyaaz tareef wala hai",
+            "hinglish_meaning": "Uske liye hai jo aasmanon mein hai aur jo zameen mein hai, aur yaqeenan Allah hi beniyaaz tareef wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uske liye hai jo aasmanon mein hai aur jo zameen mein hai, aur yaqeenan Allah hi beniyaaz tareef wala hai",
+              "en": "To Him belongs whatever is in the heavens and whatever is on the earth, and indeed, Allah is the Free of need, the Praiseworthy",
+              "ur": "اسی کے لیے ہے جو آسمانوں میں ہے اور جو زمین میں ہے، اور یقیناً اللہ ہی بے نیاز تعریف والا ہے",
+              "hi": "उसके लिए है जो आसमानों में है और जो ज़मीन में है, और यक़ीनन अल्लाह ही बेनियाज़ तारीफ़ वाला है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "page_start": 11
+}

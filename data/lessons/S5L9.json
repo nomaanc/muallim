@@ -1,0 +1,1980 @@
+{
+  "lesson_id": 9,
+  "title": "Muslimoona : Antum Muslimoona (Tum Log Musalman Ho)",
+  "arabic_Focus": "مُسْلِمُونَ ← أَنْتُمْ مُسْلِمُونَ",
+  "hinglish_Focus": "musalman ← tum log musalman ho",
+  "page_numbers": [
+    67,
+    68
+  ],
+  "sections": [
+    {
+      "type": "hero_header",
+      "data": {
+        "arabic": "مُسْلِمُونَ ← أَنْتُمْ مُسْلِمُونَ",
+        "hinglish": "musalman / Islam laane waale ← tum log musalman ho",
+        "arabic_word": "مُسْلِمُونَ",
+        "arabic_combined": "أَنْتُمْ مُسْلِمُونَ",
+        "hinglish_word": "musalman / Islam laane waale",
+        "hinglish_combined": "tum log musalman ho",
+        "title_en": "Lesson 9: You All Are... (أَنْتُمْ مُسْلِمُونَ)",
+        "subtitle": "Zameer Jama Mukhaatab (أَنْتُمْ)"
+      },
+      "arabic": "مُسْلِمُونَ ← أَنْتُمْ مُسْلِمُونَ",
+      "hinglish": "musalman / Islam laane waale ← tum log musalman ho",
+      "arabic_word": "مُسْلِمُونَ",
+      "arabic_combined": "أَنْتُمْ مُسْلِمُونَ",
+      "hinglish_word": "musalman / Islam laane waale",
+      "hinglish_combined": "tum log musalman ho",
+      "title_en": "Lesson 9: You All Are... (أَنْتُمْ مُسْلِمُونَ)",
+      "subtitle": "Zameer Jama Mukhaatab (أَنْتُمْ)"
+    },
+    {
+      "type": "intro_table",
+      "title": "Darj-e-zail misaalon par ghaur karein:",
+      "headers": [
+        "Misaal",
+        "Column 1 (Jama)",
+        "Ma'na",
+        "Column 2 (Jumla)",
+        "Ma'na"
+      ],
+      "rows": [
+        [
+          "Misaal 1",
+          "مُسْلِمُونَ",
+          "musalman",
+          "أَنْتُمْ مُسْلِمُونَ",
+          "tum log musalman ho"
+        ],
+        [
+          "Misaal 2",
+          "مُجَاهِدُونَ",
+          "jihaad karne waale",
+          "أَنْتُمْ مُجَاهِدُونَ",
+          "tum log mujaahid ho"
+        ],
+        [
+          "Misaal 3",
+          "شَاكِرُونَ",
+          "shukr-guzaar log",
+          "أَنْتُمْ شَاكِرُونَ",
+          "tum log shukr-guzaar ho"
+        ]
+      ],
+      "data": {
+        "title": "Darj-e-zail misaalon par ghaur karein:",
+        "headers": [
+          "Misaal",
+          "Column 1 (Jama)",
+          "Ma'na",
+          "Column 2 (Jumla)",
+          "Ma'na"
+        ],
+        "rows": [
+          [
+            "Misaal 1",
+            "مُسْلِمُونَ",
+            "musalman",
+            "أَنْتُمْ مُسْلِمُونَ",
+            "tum log musalman ho"
+          ],
+          [
+            "Misaal 2",
+            "مُجَاهِدُونَ",
+            "jihaad karne waale",
+            "أَنْتُمْ مُجَاهِدُونَ",
+            "tum log mujaahid ho"
+          ],
+          [
+            "Misaal 3",
+            "شَاكِرُونَ",
+            "shukr-guzaar log",
+            "أَنْتُمْ شَاكِرُونَ",
+            "tum log shukr-guzaar ho"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "rule_paragraph",
+      "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0 18px 0;text-align:center;\">\n<svg viewBox=\"0 0 800 236\" width=\"100%\" style=\"max-width:800px;height:auto;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.08);background:#ffffff;border:1px solid #e2e8f0;\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"hdrGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n      <stop offset=\"0%\" stop-color=\"#0f766e\"/>\n      <stop offset=\"100%\" stop-color=\"#047857\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"58\" rx=\"16\" fill=\"url(#hdrGrad)\"/>\n  <rect y=\"42\" width=\"800\" height=\"16\" fill=\"url(#hdrGrad)\"/>\n  <text x=\"400\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#ffffff\">Unit 5 • Sabaq 9 (Page 67): Zameer Jama Mukhaatab (أَنْتُمْ — Tum Log)</text>\n  <text x=\"400\" y=\"46\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ccfbf1\">مُسْلِمُونَ (musalman) ← أَنْتُمْ مُسْلِمُونَ (tum log musalman ho)</text>\n  <rect x=\"18\" y=\"14\" width=\"110\" height=\"28\" rx=\"14\" fill=\"rgba(255,255,255,0.18)\"/>\n  <text x=\"73\" y=\"32\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#ffffff\">S5L9 • Pages 67–68</text>\n  \n        <g transform=\"translate(20, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#059669\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#059669\" direction=\"rtl\">أَنْتُمْ مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">musalman → tum log musalman ho</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Antum + Jama = Jumla</text>\n        </g>\n        <g transform=\"translate(280, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f0f9ff\" stroke=\"#0284c7\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">أَنْتُمْ مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#0284c7\" direction=\"rtl\">فَهَلْ أَنْتُمْ مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tum musalman ho → to kya tum musalman ho?</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Hal / Fahal (Sawaaliya)</text>\n        </g>\n        <g transform=\"translate(540, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f5f3ff\" stroke=\"#7c3aed\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">الْفُقَرَاءُ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#7c3aed\" direction=\"rtl\">أَنْتُمُ الْفُقَرَاءُ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">mohtaaj → tum log hi mohtaaj ho</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Antum + Al- = Hasr (hi)</text>\n        </g>\n  <rect x=\"30\" y=\"202\" width=\"740\" height=\"24\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"218\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#334155\">Qaa'ida: (أَنْتُمْ: tum log) bahut se mardon ko mukhaatab karke baat karne ke liye aata hai.</text>\n</svg>\n</div>In misaalon se waazeh hai ke (أَنْتُمْ) ka matlab (tum log) hai aur yeh bahut se mardon ko mukhaatab karte huye unke baare mein baat karne ke liye istemaal hota hai. (أَنْتُمْ) aur uske baad jama ka lafz mil kar ek mukammal jumla banaate hain:",
+      "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0 18px 0;text-align:center;\">\n<svg viewBox=\"0 0 800 236\" width=\"100%\" style=\"max-width:800px;height:auto;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.08);background:#ffffff;border:1px solid #e2e8f0;\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"hdrGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n      <stop offset=\"0%\" stop-color=\"#0f766e\"/>\n      <stop offset=\"100%\" stop-color=\"#047857\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"58\" rx=\"16\" fill=\"url(#hdrGrad)\"/>\n  <rect y=\"42\" width=\"800\" height=\"16\" fill=\"url(#hdrGrad)\"/>\n  <text x=\"400\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#ffffff\">Unit 5 • Sabaq 9 (Page 67): Zameer Jama Mukhaatab (أَنْتُمْ — Tum Log)</text>\n  <text x=\"400\" y=\"46\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ccfbf1\">مُسْلِمُونَ (musalman) ← أَنْتُمْ مُسْلِمُونَ (tum log musalman ho)</text>\n  <rect x=\"18\" y=\"14\" width=\"110\" height=\"28\" rx=\"14\" fill=\"rgba(255,255,255,0.18)\"/>\n  <text x=\"73\" y=\"32\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#ffffff\">S5L9 • Pages 67–68</text>\n  \n        <g transform=\"translate(20, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#059669\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#059669\" direction=\"rtl\">أَنْتُمْ مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">musalman → tum log musalman ho</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Antum + Jama = Jumla</text>\n        </g>\n        <g transform=\"translate(280, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f0f9ff\" stroke=\"#0284c7\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">أَنْتُمْ مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#0284c7\" direction=\"rtl\">فَهَلْ أَنْتُمْ مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tum musalman ho → to kya tum musalman ho?</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Hal / Fahal (Sawaaliya)</text>\n        </g>\n        <g transform=\"translate(540, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f5f3ff\" stroke=\"#7c3aed\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">الْفُقَرَاءُ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#7c3aed\" direction=\"rtl\">أَنْتُمُ الْفُقَرَاءُ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">mohtaaj → tum log hi mohtaaj ho</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Antum + Al- = Hasr (hi)</text>\n        </g>\n  <rect x=\"30\" y=\"202\" width=\"740\" height=\"24\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"218\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#334155\">Qaa'ida: (أَنْتُمْ: tum log) bahut se mardon ko mukhaatab karke baat karne ke liye aata hai.</text>\n</svg>\n</div>In misaalon se waazeh hai ke (أَنْتُمْ) ka matlab (tum log) hai aur yeh bahut se mardon ko mukhaatab karte huye unke baare mein baat karne ke liye istemaal hota hai. (أَنْتُمْ) aur uske baad jama ka lafz mil kar ek mukammal jumla banaate hain:",
+      "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0 18px 0;text-align:center;\">\n<svg viewBox=\"0 0 800 236\" width=\"100%\" style=\"max-width:800px;height:auto;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.08);background:#ffffff;border:1px solid #e2e8f0;\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"hdrGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n      <stop offset=\"0%\" stop-color=\"#0f766e\"/>\n      <stop offset=\"100%\" stop-color=\"#047857\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"58\" rx=\"16\" fill=\"url(#hdrGrad)\"/>\n  <rect y=\"42\" width=\"800\" height=\"16\" fill=\"url(#hdrGrad)\"/>\n  <text x=\"400\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#ffffff\">Unit 5 • Sabaq 9 (Page 67): Zameer Jama Mukhaatab (أَنْتُمْ — Tum Log)</text>\n  <text x=\"400\" y=\"46\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ccfbf1\">مُسْلِمُونَ (musalman) ← أَنْتُمْ مُسْلِمُونَ (tum log musalman ho)</text>\n  <rect x=\"18\" y=\"14\" width=\"110\" height=\"28\" rx=\"14\" fill=\"rgba(255,255,255,0.18)\"/>\n  <text x=\"73\" y=\"32\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#ffffff\">S5L9 • Pages 67–68</text>\n  \n        <g transform=\"translate(20, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#059669\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#059669\" direction=\"rtl\">أَنْتُمْ مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">musalman → tum log musalman ho</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Antum + Jama = Jumla</text>\n        </g>\n        <g transform=\"translate(280, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f0f9ff\" stroke=\"#0284c7\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">أَنْتُمْ مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#0284c7\" direction=\"rtl\">فَهَلْ أَنْتُمْ مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tum musalman ho → to kya tum musalman ho?</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Hal / Fahal (Sawaaliya)</text>\n        </g>\n        <g transform=\"translate(540, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f5f3ff\" stroke=\"#7c3aed\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">الْفُقَرَاءُ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#7c3aed\" direction=\"rtl\">أَنْتُمُ الْفُقَرَاءُ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">mohtaaj → tum log hi mohtaaj ho</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Antum + Al- = Hasr (hi)</text>\n        </g>\n  <rect x=\"30\" y=\"202\" width=\"740\" height=\"24\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"218\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#334155\">Qaa'ida: (أَنْتُمْ: tum log) bahut se mardon ko mukhaatab karke baat karne ke liye aata hai.</text>\n</svg>\n</div>In misaalon se waazeh hai ke (أَنْتُمْ) ka matlab (tum log) hai aur yeh bahut se mardon ko mukhaatab karte huye unke baare mein baat karne ke liye istemaal hota hai. (أَنْتُمْ) aur uske baad jama ka lafz mil kar ek mukammal jumla banaate hain:",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0 18px 0;text-align:center;\">\n<svg viewBox=\"0 0 800 236\" width=\"100%\" style=\"max-width:800px;height:auto;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.08);background:#ffffff;border:1px solid #e2e8f0;\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"hdrGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n      <stop offset=\"0%\" stop-color=\"#0f766e\"/>\n      <stop offset=\"100%\" stop-color=\"#047857\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"58\" rx=\"16\" fill=\"url(#hdrGrad)\"/>\n  <rect y=\"42\" width=\"800\" height=\"16\" fill=\"url(#hdrGrad)\"/>\n  <text x=\"400\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#ffffff\">Unit 5 • Sabaq 9 (Page 67): Zameer Jama Mukhaatab (أَنْتُمْ — Tum Log)</text>\n  <text x=\"400\" y=\"46\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ccfbf1\">مُسْلِمُونَ (musalman) ← أَنْتُمْ مُسْلِمُونَ (tum log musalman ho)</text>\n  <rect x=\"18\" y=\"14\" width=\"110\" height=\"28\" rx=\"14\" fill=\"rgba(255,255,255,0.18)\"/>\n  <text x=\"73\" y=\"32\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#ffffff\">S5L9 • Pages 67–68</text>\n  \n        <g transform=\"translate(20, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#059669\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#059669\" direction=\"rtl\">أَنْتُمْ مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">musalman → tum log musalman ho</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Antum + Jama = Jumla</text>\n        </g>\n        <g transform=\"translate(280, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f0f9ff\" stroke=\"#0284c7\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">أَنْتُمْ مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#0284c7\" direction=\"rtl\">فَهَلْ أَنْتُمْ مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tum musalman ho → to kya tum musalman ho?</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Hal / Fahal (Sawaaliya)</text>\n        </g>\n        <g transform=\"translate(540, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f5f3ff\" stroke=\"#7c3aed\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">الْفُقَرَاءُ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#7c3aed\" direction=\"rtl\">أَنْتُمُ الْفُقَرَاءُ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">mohtaaj → tum log hi mohtaaj ho</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Antum + Al- = Hasr (hi)</text>\n        </g>\n  <rect x=\"30\" y=\"202\" width=\"740\" height=\"24\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"218\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#334155\">Qaa'ida: (أَنْتُمْ: tum log) bahut se mardon ko mukhaatab karke baat karne ke liye aata hai.</text>\n</svg>\n</div>In misaalon se waazeh hai ke (أَنْتُمْ) ka matlab (tum log) hai aur yeh bahut se mardon ko mukhaatab karte huye unke baare mein baat karne ke liye istemaal hota hai. (أَنْتُمْ) aur uske baad jama ka lafz mil kar ek mukammal jumla banaate hain:",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0 18px 0;text-align:center;\">\n<svg viewBox=\"0 0 800 236\" width=\"100%\" style=\"max-width:800px;height:auto;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.08);background:#ffffff;border:1px solid #e2e8f0;\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"hdrGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n      <stop offset=\"0%\" stop-color=\"#0f766e\"/>\n      <stop offset=\"100%\" stop-color=\"#047857\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"58\" rx=\"16\" fill=\"url(#hdrGrad)\"/>\n  <rect y=\"42\" width=\"800\" height=\"16\" fill=\"url(#hdrGrad)\"/>\n  <text x=\"400\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#ffffff\">Unit 5 • Sabaq 9 (Page 67): Zameer Jama Mukhaatab (أَنْتُمْ — Tum Log)</text>\n  <text x=\"400\" y=\"46\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ccfbf1\">مُسْلِمُونَ (musalman) ← أَنْتُمْ مُسْلِمُونَ (tum log musalman ho)</text>\n  <rect x=\"18\" y=\"14\" width=\"110\" height=\"28\" rx=\"14\" fill=\"rgba(255,255,255,0.18)\"/>\n  <text x=\"73\" y=\"32\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#ffffff\">S5L9 • Pages 67–68</text>\n  \n        <g transform=\"translate(20, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#059669\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#059669\" direction=\"rtl\">أَنْتُمْ مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">musalman → tum log musalman ho</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Antum + Jama = Jumla</text>\n        </g>\n        <g transform=\"translate(280, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f0f9ff\" stroke=\"#0284c7\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">أَنْتُمْ مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#0284c7\" direction=\"rtl\">فَهَلْ أَنْتُمْ مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tum musalman ho → to kya tum musalman ho?</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Hal / Fahal (Sawaaliya)</text>\n        </g>\n        <g transform=\"translate(540, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f5f3ff\" stroke=\"#7c3aed\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">الْفُقَرَاءُ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#7c3aed\" direction=\"rtl\">أَنْتُمُ الْفُقَرَاءُ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">mohtaaj → tum log hi mohtaaj ho</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Antum + Al- = Hasr (hi)</text>\n        </g>\n  <rect x=\"30\" y=\"202\" width=\"740\" height=\"24\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"218\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#334155\">Qaa'ida: (أَنْتُمْ: tum log) bahut se mardon ko mukhaatab karke baat karne ke liye aata hai.</text>\n</svg>\n</div>In misaalon se waazeh hai ke (أَنْتُمْ) ka matlab (tum log) hai aur yeh bahut se mardon ko mukhaatab karte huye unke baare mein baat karne ke liye istemaal hota hai. (أَنْتُمْ) aur uske baad jama ka lafz mil kar ek mukammal jumla banaate hain:",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0 18px 0;text-align:center;\">\n<svg viewBox=\"0 0 800 236\" width=\"100%\" style=\"max-width:800px;height:auto;border-radius:16px;box-shadow:0 4px 16px rgba(0,0,0,0.08);background:#ffffff;border:1px solid #e2e8f0;\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"hdrGrad\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"0%\">\n      <stop offset=\"0%\" stop-color=\"#0f766e\"/>\n      <stop offset=\"100%\" stop-color=\"#047857\"/>\n    </linearGradient>\n  </defs>\n  <rect width=\"800\" height=\"58\" rx=\"16\" fill=\"url(#hdrGrad)\"/>\n  <rect y=\"42\" width=\"800\" height=\"16\" fill=\"url(#hdrGrad)\"/>\n  <text x=\"400\" y=\"26\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#ffffff\">Unit 5 • Sabaq 9 (Page 67): Zameer Jama Mukhaatab (أَنْتُمْ — Tum Log)</text>\n  <text x=\"400\" y=\"46\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#ccfbf1\">مُسْلِمُونَ (musalman) ← أَنْتُمْ مُسْلِمُونَ (tum log musalman ho)</text>\n  <rect x=\"18\" y=\"14\" width=\"110\" height=\"28\" rx=\"14\" fill=\"rgba(255,255,255,0.18)\"/>\n  <text x=\"73\" y=\"32\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" font-weight=\"bold\" fill=\"#ffffff\">S5L9 • Pages 67–68</text>\n  \n        <g transform=\"translate(20, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#059669\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#059669\" direction=\"rtl\">أَنْتُمْ مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">musalman → tum log musalman ho</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Antum + Jama = Jumla</text>\n        </g>\n        <g transform=\"translate(280, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f0f9ff\" stroke=\"#0284c7\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">أَنْتُمْ مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#0284c7\" direction=\"rtl\">فَهَلْ أَنْتُمْ مُسْلِمُونَ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">tum musalman ho → to kya tum musalman ho?</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Hal / Fahal (Sawaaliya)</text>\n        </g>\n        <g transform=\"translate(540, 74)\">\n          <rect width=\"240\" height=\"118\" rx=\"14\" fill=\"#f5f3ff\" stroke=\"#7c3aed\" stroke-width=\"2\"/>\n          <text x=\"120\" y=\"30\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#1e293b\" direction=\"rtl\">الْفُقَرَاءُ</text>\n          <text x=\"120\" y=\"52\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#7c3aed\">↓</text>\n          <text x=\"120\" y=\"76\" text-anchor=\"middle\" font-family=\"'Amiri','Scheherazade New',serif\" font-size=\"22\" font-weight=\"bold\" fill=\"#7c3aed\" direction=\"rtl\">أَنْتُمُ الْفُقَرَاءُ</text>\n          <text x=\"120\" y=\"96\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" font-weight=\"bold\" fill=\"#0f172a\">mohtaaj → tum log hi mohtaaj ho</text>\n          <text x=\"120\" y=\"111\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"10.5\" fill=\"#475569\">Antum + Al- = Hasr (hi)</text>\n        </g>\n  <rect x=\"30\" y=\"202\" width=\"740\" height=\"24\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" stroke-width=\"1\"/>\n  <text x=\"400\" y=\"218\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#334155\">Qaa'ida: (أَنْتُمْ: tum log) bahut se mardon ko mukhaatab karke baat karne ke liye aata hai.</text>\n</svg>\n</div>In misaalon se waazeh hai ke (أَنْتُمْ) ka matlab (tum log) hai aur yeh bahut se mardon ko mukhaatab karte huye unke baare mein baat karne ke liye istemaal hota hai. (أَنْتُمْ) aur uske baad jama ka lafz mil kar ek mukammal jumla banaate hain:"
+      }
+    },
+    {
+      "type": "section_label",
+      "text": "1. Jama ka Lafz ← أَنْتُمْ ke saath Qur'ani Jumle (16 Pairs)",
+      "title": "1. Jama ka Lafz ← أَنْتُمْ ke saath Qur'ani Jumle (16 Pairs)",
+      "label": "1. Jama ka Lafz ← أَنْتُمْ ke saath Qur'ani Jumle (16 Pairs)",
+      "data": {
+        "text": "1. Jama ka Lafz ← أَنْتُمْ ke saath Qur'ani Jumle (16 Pairs)",
+        "title": "1. Jama ka Lafz ← أَنْتُمْ ke saath Qur'ani Jumle (16 Pairs)",
+        "label": "1. Jama ka Lafz ← أَنْتُمْ ke saath Qur'ani Jumle (16 Pairs)"
+      }
+    },
+    {
+      "type": "two_col_numbered_list",
+      "is_numbered": false,
+      "items": [
+        {
+          "id": "s5l9_w_1",
+          "arabic": "مُسْلِمُونَ ← أَنْتُمْ مُسْلِمُونَ",
+          "hinglish": "Musalman → Tum musalman ho",
+          "urdu": "مسلمان ← تم مسلمان ہو",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Musalman → Tum musalman ho",
+            "en": "Muslims -> You are Muslims",
+            "ur": "مسلمان ← تم مسلمان ہو",
+            "hi": "मुसलमान -> तुम मुसलमान हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">مُسْلِمُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">مُسْلِمُونَ</span>",
+          "arabic_text": "مُسْلِمُونَ ← أَنْتُمْ مُسْلِمُونَ",
+          "displayOrder": 1
+        },
+        {
+          "id": "s5l9_w_9",
+          "arabic": "جَاهِلُونَ ← أَنْتُمْ جَاهِلُونَ",
+          "hinglish": "Nadaan/jahil → Tum nadaan ho",
+          "urdu": "نادان/جاہل ← تم نادان ہو",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Nadaan/jahil → Tum nadaan ho",
+            "en": "Ignorant ones -> You are ignorant",
+            "ur": "نادان/جاہل ← تم نادان ہو",
+            "hi": "नादान/जाहिल -> तुम नादान हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">جَاهِلُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">جَاهِلُونَ</span>",
+          "arabic_text": "جَاهِلُونَ ← أَنْتُمْ جَاهِلُونَ",
+          "displayOrder": 2
+        },
+        {
+          "id": "s5l9_w_2",
+          "arabic": "ظَالِمُونَ ← أَنْتُمْ ظَالِمُونَ",
+          "hinglish": "Zalim → Tum zalim ho",
+          "urdu": "ظالم ← تم ظالم ہو",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Zalim → Tum zalim ho",
+            "en": "Wrongdoers -> You are wrongdoers",
+            "ur": "ظالم ← تم ظالم ہو",
+            "hi": "ज़ालिम -> तुम ज़ालिम हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">ظَالِمُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">ظَالِمُونَ</span>",
+          "arabic_text": "ظَالِمُونَ ← أَنْتُمْ ظَالِمُونَ",
+          "displayOrder": 3
+        },
+        {
+          "id": "s5l9_w_10",
+          "arabic": "مُعْرِضُونَ ← أَنْتُمْ مُعْرِضُونَ",
+          "hinglish": "Munh modne wale → Tum aeraaz karne wale ho",
+          "urdu": "منہ موڑنے والے ← تم اعراض کرنے والے ہو",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Munh modne wale → Tum aeraaz karne wale ho",
+            "en": "Turning away -> You are turning away",
+            "ur": "منہ موڑنے والے ← تم اعراض کرنے والے ہو",
+            "hi": "मुँह मोड़ने वाले -> तुम मुँह मोड़ने वाले हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">مُعْرِضُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">مُعْرِضُونَ</span>",
+          "arabic_text": "مُعْرِضُونَ ← أَنْتُمْ مُعْرِضُونَ",
+          "displayOrder": 4
+        },
+        {
+          "id": "s5l9_w_3",
+          "arabic": "عَابِدُونَ ← أَنْتُمْ عَابِدُونَ",
+          "hinglish": "Ibadat karne wale → Tum ibadat karne wale ho",
+          "urdu": "عبادت کرنے والے ← تم عبادت کرنے والے ہو",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Ibadat karne wale → Tum ibadat karne wale ho",
+            "en": "Worshippers -> You are worshippers",
+            "ur": "عبادت کرنے والے ← تم عبادت کرنے والے ہو",
+            "hi": "इबादत करने वाले -> तुम इबादत करने वाले हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">عَابِدُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">عَابِدُونَ</span>",
+          "arabic_text": "عَابِدُونَ ← أَنْتُمْ عَابِدُونَ",
+          "displayOrder": 5
+        },
+        {
+          "id": "s5l9_w_11",
+          "arabic": "بَرِيئُونَ ← أَنْتُمْ بَرِيئُونَ",
+          "hinglish": "Baree-uz-zimma → Tum bezaar/baree-uz-zimma ho",
+          "urdu": "بری الذمہ ← تم بیزار/بری الذمہ ہو",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Baree-uz-zimma → Tum bezaar/baree-uz-zimma ho",
+            "en": "Free/Innocent -> You are free/innocent",
+            "ur": "بری الذمہ ← تم بیزار/بری الذمہ ہو",
+            "hi": "बरी -> तुम बरी/अलग हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">بَرِيئُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">بَرِيئُونَ</span>",
+          "arabic_text": "بَرِيئُونَ ← أَنْتُمْ بَرِيئُونَ",
+          "displayOrder": 6
+        },
+        {
+          "id": "s5l9_w_4",
+          "arabic": "صَامِتُونَ ← أَنْتُمْ صَامِتُونَ",
+          "hinglish": "Khamosh rehne waale -> Tum log khamosh rehne waale ho",
+          "urdu": "خاموش رہنے والے ← تم خاموش ہو",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Khamosh rehne waale -> Tum log khamosh rehne waale ho",
+            "en": "Silent ones -> You are silent",
+            "ur": "خاموش رہنے والے ← تم خاموش ہو",
+            "hi": "खामोश रहने वाले -> तुम खामोश हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">صَامِتُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">صَامِتُونَ</span>",
+          "arabic_text": "صَامِتُونَ ← أَنْتُمْ صَامِتُونَ",
+          "displayOrder": 7
+        },
+        {
+          "id": "s5l9_w_12",
+          "arabic": "شَاكِرُونَ ← أَنْتُمْ شَاكِرُونَ",
+          "hinglish": "Shukr karne wale → Tum shukr guzar ho",
+          "urdu": "شکر کرنے والے ← تم شکر گزار ہو",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Shukr karne wale → Tum shukr guzar ho",
+            "en": "Grateful ones -> You are grateful",
+            "ur": "شکر کرنے والے ← تم شکر گزار ہو",
+            "hi": "शुक्र करने वाले -> तुम शुक्रगुज़ार हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">شَاكِرُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">شَاكِرُونَ</span>",
+          "arabic_text": "شَاكِرُونَ ← أَنْتُمْ شَاكِرُونَ",
+          "displayOrder": 8
+        },
+        {
+          "id": "s5l9_w_5",
+          "arabic": "عَاكِفُونَ ← أَنْتُمْ عَاكِفُونَ",
+          "hinglish": "Jame baithne waale -> Tum log jame baithne waale ho",
+          "urdu": "اعتکاف کرنے والے ← تم جمے رہنے والے/معتکف ہو",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Jame baithne waale -> Tum log jame baithne waale ho",
+            "en": "Devoted ones -> You are devoted",
+            "ur": "اعتکاف کرنے والے ← تم جمے رہنے والے/معتکف ہو",
+            "hi": "मोतकिफ़ -> तुम एतिकाफ़ करने वाले/मोतकिफ़ हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">عَاكِفُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">عَاكِفُونَ</span>",
+          "arabic_text": "عَاكِفُونَ ← أَنْتُمْ عَاكِفُونَ",
+          "displayOrder": 9
+        },
+        {
+          "id": "s5l9_w_13",
+          "arabic": "وَارِدُونَ ← أَنْتُمْ وَارِدُونَ",
+          "hinglish": "Dakhil hone wale → Tum is mein utarne wale ho",
+          "urdu": "داخل ہونے والے ← تم اس میں اترنے والے ہو",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Dakhil hone wale → Tum is mein utarne wale ho",
+            "en": "Entering ones -> You will enter it",
+            "ur": "داخل ہونے والے ← تم اس میں اترنے والے ہو",
+            "hi": "दाखिल होने वाले -> तुम उसमें उतरने वाले हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">وَارِدُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">وَارِدُونَ</span>",
+          "arabic_text": "وَارِدُونَ ← أَنْتُمْ وَارِدُونَ",
+          "displayOrder": 10
+        },
+        {
+          "id": "s5l9_w_6",
+          "arabic": "مُجْتَمِعُونَ ← أَنْتُمْ مُجْتَمِعُونَ",
+          "hinglish": "Jama hone waale -> Tum log jama hone waale ho",
+          "urdu": "اکٹھے ہونے والے ← تم اکٹھے ہونے والے ہو",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Jama hone waale -> Tum log jama hone waale ho",
+            "en": "Gathering ones -> You are gathering together",
+            "ur": "اکٹھے ہونے والے ← تم اکٹھے ہونے والے ہو",
+            "hi": "इकट्ठा होने वाले -> तुम इकट्ठे होने वाले हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">مُجْتَمِعُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">مُجْتَمِعُونَ</span>",
+          "arabic_text": "مُجْتَمِعُونَ ← أَنْتُمْ مُجْتَمِعُونَ",
+          "displayOrder": 11
+        },
+        {
+          "id": "s5l9_w_14",
+          "arabic": "مُنْتَهُونَ ← أَنْتُمْ مُنْتَهُونَ",
+          "hinglish": "Baaz aane wale → Tum baaz aane wale ho",
+          "urdu": "باز آنے والے ← تم باز آنے والے ہو",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Baaz aane wale → Tum baaz aane wale ho",
+            "en": "Desisting ones -> You are desisting",
+            "ur": "باز آنے والے ← تم باز آنے والے ہو",
+            "hi": "बाज़ आने वाले -> तुम बाज़ आने वाले हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">مُنْتَهُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">مُنْتَهُونَ</span>",
+          "arabic_text": "مُنْتَهُونَ ← أَنْتُمْ مُنْتَهُونَ",
+          "displayOrder": 12
+        },
+        {
+          "id": "s5l9_w_7",
+          "arabic": "مُلْقُونَ ← أَنْتُمْ مُلْقُونَ",
+          "hinglish": "Daalne waale -> Tum log daalne waale ho",
+          "urdu": "پھینکنے/ڈالنے والے ← تم ڈالنے والے ہو",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Daalne waale -> Tum log daalne waale ho",
+            "en": "Throwing ones -> You are throwing",
+            "ur": "پھینکنے/ڈالنے والے ← تم ڈالنے والے ہو",
+            "hi": "फेंकने वाले -> तुम डालने वाले हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">مُلْقُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">مُلْقُونَ</span>",
+          "arabic_text": "مُلْقُونَ ← أَنْتُمْ مُلْقُونَ",
+          "displayOrder": 13
+        },
+        {
+          "id": "s5l9_w_15",
+          "arabic": "فُقَرَاءُ ← أَنْتُمْ فُقَرَاءُ",
+          "hinglish": "Muhtaaj → Tum muhtaaj ho",
+          "urdu": "محتاج ← تم محتاج ہو",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Muhtaaj → Tum muhtaaj ho",
+            "en": "The poor (in need) -> You are in need",
+            "ur": "محتاج ← تم محتاج ہو",
+            "hi": "मोहताज -> तुम मोहताज हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">فُقَرَاءُ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">فُقَرَاءُ</span>",
+          "arabic_text": "فُقَرَاءُ ← أَنْتُمْ فُقَرَاءُ",
+          "displayOrder": 14
+        },
+        {
+          "id": "s5l9_w_8",
+          "arabic": "بَشَرٌ ← أَنْتُمْ بَشَرٌ",
+          "hinglish": "Insaan/bashar → Tum bhi insaan hi ho",
+          "urdu": "انسان/بشر ← تم بھی انسان ہی ہو",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Insaan/bashar → Tum bhi insaan hi ho",
+            "en": "Human -> You are human",
+            "ur": "انسان/بشر ← تم بھی انسان ہی ہو",
+            "hi": "इंसान -> तुम भी इंसान ही हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">بَشَرٌ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">بَشَرٌ</span>",
+          "arabic_text": "بَشَرٌ ← أَنْتُمْ بَشَرٌ",
+          "displayOrder": 15
+        },
+        {
+          "id": "s5l9_w_16",
+          "arabic": "قَلِيلٌ ← أَنْتُمْ قَلِيلٌ",
+          "hinglish": "Thode → Tum thode ho",
+          "urdu": "تھوڑے ← تم تھوڑے ہو",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Thode → Tum thode ho",
+            "en": "Few -> You are few",
+            "ur": "تھوڑے ← تم تھوڑے ہو",
+            "hi": "थोड़े -> तुम थोड़े हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">قَلِيلٌ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">قَلِيلٌ</span>",
+          "arabic_text": "قَلِيلٌ ← أَنْتُمْ قَلِيلٌ",
+          "displayOrder": 16
+        }
+      ],
+      "data": {
+        "items": [
+          {
+            "id": "s5l9_w_1",
+            "arabic": "مُسْلِمُونَ ← أَنْتُمْ مُسْلِمُونَ",
+            "hinglish": "Musalman → Tum musalman ho",
+            "urdu": "مسلمان ← تم مسلمان ہو",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Musalman → Tum musalman ho",
+              "en": "Muslims -> You are Muslims",
+              "ur": "مسلمان ← تم مسلمان ہو",
+              "hi": "मुसलमान -> तुम मुसलमान हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مُسْلِمُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">مُسْلِمُونَ</span>",
+            "arabic_text": "مُسْلِمُونَ ← أَنْتُمْ مُسْلِمُونَ",
+            "displayOrder": 1
+          },
+          {
+            "id": "s5l9_w_9",
+            "arabic": "جَاهِلُونَ ← أَنْتُمْ جَاهِلُونَ",
+            "hinglish": "Nadaan/jahil → Tum nadaan ho",
+            "urdu": "نادان/جاہل ← تم نادان ہو",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Nadaan/jahil → Tum nadaan ho",
+              "en": "Ignorant ones -> You are ignorant",
+              "ur": "نادان/جاہل ← تم نادان ہو",
+              "hi": "नादान/जाहिल -> तुम नादान हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">جَاهِلُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">جَاهِلُونَ</span>",
+            "arabic_text": "جَاهِلُونَ ← أَنْتُمْ جَاهِلُونَ",
+            "displayOrder": 2
+          },
+          {
+            "id": "s5l9_w_2",
+            "arabic": "ظَالِمُونَ ← أَنْتُمْ ظَالِمُونَ",
+            "hinglish": "Zalim → Tum zalim ho",
+            "urdu": "ظالم ← تم ظالم ہو",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Zalim → Tum zalim ho",
+              "en": "Wrongdoers -> You are wrongdoers",
+              "ur": "ظالم ← تم ظالم ہو",
+              "hi": "ज़ालिम -> तुम ज़ालिम हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">ظَالِمُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">ظَالِمُونَ</span>",
+            "arabic_text": "ظَالِمُونَ ← أَنْتُمْ ظَالِمُونَ",
+            "displayOrder": 3
+          },
+          {
+            "id": "s5l9_w_10",
+            "arabic": "مُعْرِضُونَ ← أَنْتُمْ مُعْرِضُونَ",
+            "hinglish": "Munh modne wale → Tum aeraaz karne wale ho",
+            "urdu": "منہ موڑنے والے ← تم اعراض کرنے والے ہو",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Munh modne wale → Tum aeraaz karne wale ho",
+              "en": "Turning away -> You are turning away",
+              "ur": "منہ موڑنے والے ← تم اعراض کرنے والے ہو",
+              "hi": "मुँह मोड़ने वाले -> तुम मुँह मोड़ने वाले हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مُعْرِضُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">مُعْرِضُونَ</span>",
+            "arabic_text": "مُعْرِضُونَ ← أَنْتُمْ مُعْرِضُونَ",
+            "displayOrder": 4
+          },
+          {
+            "id": "s5l9_w_3",
+            "arabic": "عَابِدُونَ ← أَنْتُمْ عَابِدُونَ",
+            "hinglish": "Ibadat karne wale → Tum ibadat karne wale ho",
+            "urdu": "عبادت کرنے والے ← تم عبادت کرنے والے ہو",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ibadat karne wale → Tum ibadat karne wale ho",
+              "en": "Worshippers -> You are worshippers",
+              "ur": "عبادت کرنے والے ← تم عبادت کرنے والے ہو",
+              "hi": "इबादत करने वाले -> तुम इबादत करने वाले हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَابِدُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">عَابِدُونَ</span>",
+            "arabic_text": "عَابِدُونَ ← أَنْتُمْ عَابِدُونَ",
+            "displayOrder": 5
+          },
+          {
+            "id": "s5l9_w_11",
+            "arabic": "بَرِيئُونَ ← أَنْتُمْ بَرِيئُونَ",
+            "hinglish": "Baree-uz-zimma → Tum bezaar/baree-uz-zimma ho",
+            "urdu": "بری الذمہ ← تم بیزار/بری الذمہ ہو",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Baree-uz-zimma → Tum bezaar/baree-uz-zimma ho",
+              "en": "Free/Innocent -> You are free/innocent",
+              "ur": "بری الذمہ ← تم بیزار/بری الذمہ ہو",
+              "hi": "बरी -> तुम बरी/अलग हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">بَرِيئُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">بَرِيئُونَ</span>",
+            "arabic_text": "بَرِيئُونَ ← أَنْتُمْ بَرِيئُونَ",
+            "displayOrder": 6
+          },
+          {
+            "id": "s5l9_w_4",
+            "arabic": "صَامِتُونَ ← أَنْتُمْ صَامِتُونَ",
+            "hinglish": "Khamosh rehne waale -> Tum log khamosh rehne waale ho",
+            "urdu": "خاموش رہنے والے ← تم خاموش ہو",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Khamosh rehne waale -> Tum log khamosh rehne waale ho",
+              "en": "Silent ones -> You are silent",
+              "ur": "خاموش رہنے والے ← تم خاموش ہو",
+              "hi": "खामोश रहने वाले -> तुम खामोश हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">صَامِتُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">صَامِتُونَ</span>",
+            "arabic_text": "صَامِتُونَ ← أَنْتُمْ صَامِتُونَ",
+            "displayOrder": 7
+          },
+          {
+            "id": "s5l9_w_12",
+            "arabic": "شَاكِرُونَ ← أَنْتُمْ شَاكِرُونَ",
+            "hinglish": "Shukr karne wale → Tum shukr guzar ho",
+            "urdu": "شکر کرنے والے ← تم شکر گزار ہو",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Shukr karne wale → Tum shukr guzar ho",
+              "en": "Grateful ones -> You are grateful",
+              "ur": "شکر کرنے والے ← تم شکر گزار ہو",
+              "hi": "शुक्र करने वाले -> तुम शुक्रगुज़ार हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">شَاكِرُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">شَاكِرُونَ</span>",
+            "arabic_text": "شَاكِرُونَ ← أَنْتُمْ شَاكِرُونَ",
+            "displayOrder": 8
+          },
+          {
+            "id": "s5l9_w_5",
+            "arabic": "عَاكِفُونَ ← أَنْتُمْ عَاكِفُونَ",
+            "hinglish": "Jame baithne waale -> Tum log jame baithne waale ho",
+            "urdu": "اعتکاف کرنے والے ← تم جمے رہنے والے/معتکف ہو",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jame baithne waale -> Tum log jame baithne waale ho",
+              "en": "Devoted ones -> You are devoted",
+              "ur": "اعتکاف کرنے والے ← تم جمے رہنے والے/معتکف ہو",
+              "hi": "मोतकिफ़ -> तुम एतिकाफ़ करने वाले/मोतकिफ़ हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">عَاكِفُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">عَاكِفُونَ</span>",
+            "arabic_text": "عَاكِفُونَ ← أَنْتُمْ عَاكِفُونَ",
+            "displayOrder": 9
+          },
+          {
+            "id": "s5l9_w_13",
+            "arabic": "وَارِدُونَ ← أَنْتُمْ وَارِدُونَ",
+            "hinglish": "Dakhil hone wale → Tum is mein utarne wale ho",
+            "urdu": "داخل ہونے والے ← تم اس میں اترنے والے ہو",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Dakhil hone wale → Tum is mein utarne wale ho",
+              "en": "Entering ones -> You will enter it",
+              "ur": "داخل ہونے والے ← تم اس میں اترنے والے ہو",
+              "hi": "दाखिल होने वाले -> तुम उसमें उतरने वाले हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَارِدُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">وَارِدُونَ</span>",
+            "arabic_text": "وَارِدُونَ ← أَنْتُمْ وَارِدُونَ",
+            "displayOrder": 10
+          },
+          {
+            "id": "s5l9_w_6",
+            "arabic": "مُجْتَمِعُونَ ← أَنْتُمْ مُجْتَمِعُونَ",
+            "hinglish": "Jama hone waale -> Tum log jama hone waale ho",
+            "urdu": "اکٹھے ہونے والے ← تم اکٹھے ہونے والے ہو",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jama hone waale -> Tum log jama hone waale ho",
+              "en": "Gathering ones -> You are gathering together",
+              "ur": "اکٹھے ہونے والے ← تم اکٹھے ہونے والے ہو",
+              "hi": "इकट्ठा होने वाले -> तुम इकट्ठे होने वाले हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مُجْتَمِعُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">مُجْتَمِعُونَ</span>",
+            "arabic_text": "مُجْتَمِعُونَ ← أَنْتُمْ مُجْتَمِعُونَ",
+            "displayOrder": 11
+          },
+          {
+            "id": "s5l9_w_14",
+            "arabic": "مُنْتَهُونَ ← أَنْتُمْ مُنْتَهُونَ",
+            "hinglish": "Baaz aane wale → Tum baaz aane wale ho",
+            "urdu": "باز آنے والے ← تم باز آنے والے ہو",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Baaz aane wale → Tum baaz aane wale ho",
+              "en": "Desisting ones -> You are desisting",
+              "ur": "باز آنے والے ← تم باز آنے والے ہو",
+              "hi": "बाज़ आने वाले -> तुम बाज़ आने वाले हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مُنْتَهُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">مُنْتَهُونَ</span>",
+            "arabic_text": "مُنْتَهُونَ ← أَنْتُمْ مُنْتَهُونَ",
+            "displayOrder": 12
+          },
+          {
+            "id": "s5l9_w_7",
+            "arabic": "مُلْقُونَ ← أَنْتُمْ مُلْقُونَ",
+            "hinglish": "Daalne waale -> Tum log daalne waale ho",
+            "urdu": "پھینکنے/ڈالنے والے ← تم ڈالنے والے ہو",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Daalne waale -> Tum log daalne waale ho",
+              "en": "Throwing ones -> You are throwing",
+              "ur": "پھینکنے/ڈالنے والے ← تم ڈالنے والے ہو",
+              "hi": "फेंकने वाले -> तुम डालने वाले हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">مُلْقُونَ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">مُلْقُونَ</span>",
+            "arabic_text": "مُلْقُونَ ← أَنْتُمْ مُلْقُونَ",
+            "displayOrder": 13
+          },
+          {
+            "id": "s5l9_w_15",
+            "arabic": "فُقَرَاءُ ← أَنْتُمْ فُقَرَاءُ",
+            "hinglish": "Muhtaaj → Tum muhtaaj ho",
+            "urdu": "محتاج ← تم محتاج ہو",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Muhtaaj → Tum muhtaaj ho",
+              "en": "The poor (in need) -> You are in need",
+              "ur": "محتاج ← تم محتاج ہو",
+              "hi": "मोहताज -> तुम मोहताज हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">فُقَرَاءُ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">فُقَرَاءُ</span>",
+            "arabic_text": "فُقَرَاءُ ← أَنْتُمْ فُقَرَاءُ",
+            "displayOrder": 14
+          },
+          {
+            "id": "s5l9_w_8",
+            "arabic": "بَشَرٌ ← أَنْتُمْ بَشَرٌ",
+            "hinglish": "Insaan/bashar → Tum bhi insaan hi ho",
+            "urdu": "انسان/بشر ← تم بھی انسان ہی ہو",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Insaan/bashar → Tum bhi insaan hi ho",
+              "en": "Human -> You are human",
+              "ur": "انسان/بشر ← تم بھی انسان ہی ہو",
+              "hi": "इंसान -> तुम भी इंसान ही हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">بَشَرٌ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">بَشَرٌ</span>",
+            "arabic_text": "بَشَرٌ ← أَنْتُمْ بَشَرٌ",
+            "displayOrder": 15
+          },
+          {
+            "id": "s5l9_w_16",
+            "arabic": "قَلِيلٌ ← أَنْتُمْ قَلِيلٌ",
+            "hinglish": "Thode → Tum thode ho",
+            "urdu": "تھوڑے ← تم تھوڑے ہو",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Thode → Tum thode ho",
+              "en": "Few -> You are few",
+              "ur": "تھوڑے ← تم تھوڑے ہو",
+              "hi": "थोड़े -> तुम थोड़े हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">قَلِيلٌ ← </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">قَلِيلٌ</span>",
+            "arabic_text": "قَلِيلٌ ← أَنْتُمْ قَلِيلٌ",
+            "displayOrder": 16
+          }
+        ],
+        "is_numbered": false,
+        "sortedByDisplayOrder": true
+      },
+      "sortedByDisplayOrder": true
+    },
+    {
+      "type": "rule_paragraph",
+      "text": "(هَلْ) ka matlab: 'Kya...?' aur (فَهَلْ) ka matlab 'To kya...?' hai. Darj-e-zail Qur'ani jumlon ka tarjuma kijiye:",
+      "content": "(هَلْ) ka matlab: 'Kya...?' aur (فَهَلْ) ka matlab 'To kya...?' hai. Darj-e-zail Qur'ani jumlon ka tarjuma kijiye:",
+      "hinglish_text": "(هَلْ) ka matlab: 'Kya...?' aur (فَهَلْ) ka matlab 'To kya...?' hai. Darj-e-zail Qur'ani jumlon ka tarjuma kijiye:",
+      "data": {
+        "text": "(هَلْ) ka matlab: 'Kya...?' aur (فَهَلْ) ka matlab 'To kya...?' hai. Darj-e-zail Qur'ani jumlon ka tarjuma kijiye:",
+        "content": "(هَلْ) ka matlab: 'Kya...?' aur (فَهَلْ) ka matlab 'To kya...?' hai. Darj-e-zail Qur'ani jumlon ka tarjuma kijiye:",
+        "hinglish_text": "(هَلْ) ka matlab: 'Kya...?' aur (فَهَلْ) ka matlab 'To kya...?' hai. Darj-e-zail Qur'ani jumlon ka tarjuma kijiye:"
+      }
+    },
+    {
+      "type": "section_label",
+      "text": "2. Istifhaamiya Jumle: هَلْ أَنْتُمْ / فَهَلْ أَنْتُمْ (Numbered 1–6)",
+      "title": "2. Istifhaamiya Jumle: هَلْ أَنْتُمْ / فَهَلْ أَنْتُمْ (Numbered 1–6)",
+      "label": "2. Istifhaamiya Jumle: هَلْ أَنْتُمْ / فَهَلْ أَنْتُمْ (Numbered 1–6)",
+      "data": {
+        "text": "2. Istifhaamiya Jumle: هَلْ أَنْتُمْ / فَهَلْ أَنْتُمْ (Numbered 1–6)",
+        "title": "2. Istifhaamiya Jumle: هَلْ أَنْتُمْ / فَهَلْ أَنْتُمْ (Numbered 1–6)",
+        "label": "2. Istifhaamiya Jumle: هَلْ أَنْتُمْ / فَهَلْ أَنْتُمْ (Numbered 1–6)"
+      }
+    },
+    {
+      "type": "two_col_numbered_list",
+      "is_numbered": true,
+      "items": [
+        {
+          "id": "s5l9_q_1",
+          "arabic": "فَهَلْ أَنْتُمْ مُسْلِمُونَ",
+          "hinglish": "Toh kya tum itaat karne wale/musalman ho?",
+          "urdu": "تو کیا تم اطاعت کرنے والے/مسلمان ہو؟",
+          "is_filled": true,
+          "sentence_number": 1,
+          "translations": {
+            "hinglish": "Toh kya tum itaat karne wale/musalman ho?",
+            "en": "So will you be Muslims?",
+            "ur": "تو کیا تم اطاعت کرنے والے/مسلمان ہو؟",
+            "hi": "तो क्या तुम मुसलमान बनते हो?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">فَهَلْ أَنْتُمْ</span> <span class=\"arabic-root\">مُسْلِمُونَ</span>",
+          "arabic_text": "فَهَلْ أَنْتُمْ مُسْلِمُونَ"
+        },
+        {
+          "id": "s5l9_q_2",
+          "arabic": "فَهَلْ أَنْتُمْ شَاكِرُونَ",
+          "hinglish": "Toh kya tum shukr ada karne wale ho?",
+          "urdu": "تو کیا تم شکر ادا کرنے والے ہو؟",
+          "is_filled": true,
+          "sentence_number": 2,
+          "translations": {
+            "hinglish": "Toh kya tum shukr ada karne wale ho?",
+            "en": "So will you be grateful?",
+            "ur": "تو کیا تم شکر ادا کرنے والے ہو؟",
+            "hi": "तो क्या तुम शुक्रगुज़ार बनोगे?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">فَهَلْ أَنْتُمْ</span> <span class=\"arabic-root\">شَاكِرُونَ</span>",
+          "arabic_text": "فَهَلْ أَنْتُمْ شَاكِرُونَ"
+        },
+        {
+          "id": "s5l9_q_3",
+          "arabic": "هَلْ أَنْتُمْ مُطَّلِعُونَ",
+          "hinglish": "Kya tum jhaank kar dekhne wale ho?",
+          "urdu": "کیا تم جھانک کر دیکھنے والے ہو؟",
+          "is_filled": true,
+          "sentence_number": 3,
+          "translations": {
+            "hinglish": "Kya tum jhaank kar dekhne wale ho?",
+            "en": "Will you look down?",
+            "ur": "کیا تم جھانک کر دیکھنے والے ہو؟",
+            "hi": "क्या तुम झाँक कर देखने वाले हो?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">هَلْ أَنْتُمْ</span> <span class=\"arabic-root\">مُطَّلِعُونَ</span>",
+          "arabic_text": "هَلْ أَنْتُمْ مُطَّلِعُونَ"
+        },
+        {
+          "id": "s5l9_q_4",
+          "arabic": "فَهَلْ أَنْتُمْ مُنْتَهُونَ",
+          "hinglish": "Toh kya tum baaz aane wale ho?",
+          "urdu": "تو کیا تم باز آنے والے ہو؟",
+          "is_filled": true,
+          "sentence_number": 4,
+          "translations": {
+            "hinglish": "Toh kya tum baaz aane wale ho?",
+            "en": "So will you desist?",
+            "ur": "تو کیا تم باز آنے والے ہو؟",
+            "hi": "तो क्या तुम बाज़ आने वाले हो?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">فَهَلْ أَنْتُمْ</span> <span class=\"arabic-root\">مُنْتَهُونَ</span>",
+          "arabic_text": "فَهَلْ أَنْتُمْ مُنْتَهُونَ"
+        },
+        {
+          "id": "s5l9_q_5",
+          "arabic": "فَهَلْ أَنْتُمْ مُغْنُونَ",
+          "hinglish": "Toh kya tum hatane/bachane wale ho?",
+          "urdu": "تو کیا تم ہٹانے/بچانے والے ہو؟",
+          "is_filled": true,
+          "sentence_number": 5,
+          "translations": {
+            "hinglish": "Toh kya tum hatane/bachane wale ho?",
+            "en": "So can you avert (anything) from us?",
+            "ur": "تو کیا تم ہٹانے/بچانے والے ہو؟",
+            "hi": "तो क्या तुम टालने/बचाने वाले हो?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">فَهَلْ أَنْتُمْ</span> <span class=\"arabic-root\">مُغْنُونَ</span>",
+          "arabic_text": "فَهَلْ أَنْتُمْ مُغْنُونَ"
+        },
+        {
+          "id": "s5l9_q_6",
+          "arabic": "هَلْ أَنْتُمْ مُجْتَمِعُونَ",
+          "hinglish": "Kya tum ikatthe hone wale ho?",
+          "urdu": "کیا تم اکٹھے ہونے والے ہو؟",
+          "is_filled": true,
+          "sentence_number": 6,
+          "translations": {
+            "hinglish": "Kya tum ikatthe hone wale ho?",
+            "en": "Will you assemble?",
+            "ur": "کیا تم اکٹھے ہونے والے ہو؟",
+            "hi": "क्या तुम इकट्ठे होने वाले हो?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">هَلْ أَنْتُمْ</span> <span class=\"arabic-root\">مُجْتَمِعُونَ</span>",
+          "arabic_text": "هَلْ أَنْتُمْ مُجْتَمِعُونَ"
+        }
+      ],
+      "data": {
+        "items": [
+          {
+            "id": "s5l9_q_1",
+            "arabic": "فَهَلْ أَنْتُمْ مُسْلِمُونَ",
+            "hinglish": "Toh kya tum itaat karne wale/musalman ho?",
+            "urdu": "تو کیا تم اطاعت کرنے والے/مسلمان ہو؟",
+            "is_filled": true,
+            "sentence_number": 1,
+            "translations": {
+              "hinglish": "Toh kya tum itaat karne wale/musalman ho?",
+              "en": "So will you be Muslims?",
+              "ur": "تو کیا تم اطاعت کرنے والے/مسلمان ہو؟",
+              "hi": "तो क्या तुम मुसलमान बनते हो?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">فَهَلْ أَنْتُمْ</span> <span class=\"arabic-root\">مُسْلِمُونَ</span>",
+            "arabic_text": "فَهَلْ أَنْتُمْ مُسْلِمُونَ"
+          },
+          {
+            "id": "s5l9_q_2",
+            "arabic": "فَهَلْ أَنْتُمْ شَاكِرُونَ",
+            "hinglish": "Toh kya tum shukr ada karne wale ho?",
+            "urdu": "تو کیا تم شکر ادا کرنے والے ہو؟",
+            "is_filled": true,
+            "sentence_number": 2,
+            "translations": {
+              "hinglish": "Toh kya tum shukr ada karne wale ho?",
+              "en": "So will you be grateful?",
+              "ur": "تو کیا تم شکر ادا کرنے والے ہو؟",
+              "hi": "तो क्या तुम शुक्रगुज़ार बनोगे?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">فَهَلْ أَنْتُمْ</span> <span class=\"arabic-root\">شَاكِرُونَ</span>",
+            "arabic_text": "فَهَلْ أَنْتُمْ شَاكِرُونَ"
+          },
+          {
+            "id": "s5l9_q_3",
+            "arabic": "هَلْ أَنْتُمْ مُطَّلِعُونَ",
+            "hinglish": "Kya tum jhaank kar dekhne wale ho?",
+            "urdu": "کیا تم جھانک کر دیکھنے والے ہو؟",
+            "is_filled": true,
+            "sentence_number": 3,
+            "translations": {
+              "hinglish": "Kya tum jhaank kar dekhne wale ho?",
+              "en": "Will you look down?",
+              "ur": "کیا تم جھانک کر دیکھنے والے ہو؟",
+              "hi": "क्या तुम झाँक कर देखने वाले हो?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">هَلْ أَنْتُمْ</span> <span class=\"arabic-root\">مُطَّلِعُونَ</span>",
+            "arabic_text": "هَلْ أَنْتُمْ مُطَّلِعُونَ"
+          },
+          {
+            "id": "s5l9_q_4",
+            "arabic": "فَهَلْ أَنْتُمْ مُنْتَهُونَ",
+            "hinglish": "Toh kya tum baaz aane wale ho?",
+            "urdu": "تو کیا تم باز آنے والے ہو؟",
+            "is_filled": true,
+            "sentence_number": 4,
+            "translations": {
+              "hinglish": "Toh kya tum baaz aane wale ho?",
+              "en": "So will you desist?",
+              "ur": "تو کیا تم باز آنے والے ہو؟",
+              "hi": "तो क्या तुम बाज़ आने वाले हो?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">فَهَلْ أَنْتُمْ</span> <span class=\"arabic-root\">مُنْتَهُونَ</span>",
+            "arabic_text": "فَهَلْ أَنْتُمْ مُنْتَهُونَ"
+          },
+          {
+            "id": "s5l9_q_5",
+            "arabic": "فَهَلْ أَنْتُمْ مُغْنُونَ",
+            "hinglish": "Toh kya tum hatane/bachane wale ho?",
+            "urdu": "تو کیا تم ہٹانے/بچانے والے ہو؟",
+            "is_filled": true,
+            "sentence_number": 5,
+            "translations": {
+              "hinglish": "Toh kya tum hatane/bachane wale ho?",
+              "en": "So can you avert (anything) from us?",
+              "ur": "تو کیا تم ہٹانے/بچانے والے ہو؟",
+              "hi": "तो क्या तुम टालने/बचाने वाले हो?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">فَهَلْ أَنْتُمْ</span> <span class=\"arabic-root\">مُغْنُونَ</span>",
+            "arabic_text": "فَهَلْ أَنْتُمْ مُغْنُونَ"
+          },
+          {
+            "id": "s5l9_q_6",
+            "arabic": "هَلْ أَنْتُمْ مُجْتَمِعُونَ",
+            "hinglish": "Kya tum ikatthe hone wale ho?",
+            "urdu": "کیا تم اکٹھے ہونے والے ہو؟",
+            "is_filled": true,
+            "sentence_number": 6,
+            "translations": {
+              "hinglish": "Kya tum ikatthe hone wale ho?",
+              "en": "Will you assemble?",
+              "ur": "کیا تم اکٹھے ہونے والے ہو؟",
+              "hi": "क्या तुम इकट्ठे होने वाले हो?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">هَلْ أَنْتُمْ</span> <span class=\"arabic-root\">مُجْتَمِعُونَ</span>",
+            "arabic_text": "هَلْ أَنْتُمْ مُجْتَمِعُونَ"
+          }
+        ],
+        "is_numbered": true
+      }
+    },
+    {
+      "type": "rule_paragraph",
+      "text": "Jab (وَأَنْتُمْ) jumle ke darmiyaan aata hai to iska tarjuma 'aur tum' ya 'jabke tum / haalaanke tum' hota hai:",
+      "content": "Jab (وَأَنْتُمْ) jumle ke darmiyaan aata hai to iska tarjuma 'aur tum' ya 'jabke tum / haalaanke tum' hota hai:",
+      "hinglish_text": "Jab (وَأَنْتُمْ) jumle ke darmiyaan aata hai to iska tarjuma 'aur tum' ya 'jabke tum / haalaanke tum' hota hai:",
+      "data": {
+        "text": "Jab (وَأَنْتُمْ) jumle ke darmiyaan aata hai to iska tarjuma 'aur tum' ya 'jabke tum / haalaanke tum' hota hai:",
+        "content": "Jab (وَأَنْتُمْ) jumle ke darmiyaan aata hai to iska tarjuma 'aur tum' ya 'jabke tum / haalaanke tum' hota hai:",
+        "hinglish_text": "Jab (وَأَنْتُمْ) jumle ke darmiyaan aata hai to iska tarjuma 'aur tum' ya 'jabke tum / haalaanke tum' hota hai:"
+      }
+    },
+    {
+      "type": "section_label",
+      "text": "3. وَأَنْتُمْ (Aur Tum / Haalaanke Tum) waale Jumle (Numbered 1–12)",
+      "title": "3. وَأَنْتُمْ (Aur Tum / Haalaanke Tum) waale Jumle (Numbered 1–12)",
+      "label": "3. وَأَنْتُمْ (Aur Tum / Haalaanke Tum) waale Jumle (Numbered 1–12)",
+      "data": {
+        "text": "3. وَأَنْتُمْ (Aur Tum / Haalaanke Tum) waale Jumle (Numbered 1–12)",
+        "title": "3. وَأَنْتُمْ (Aur Tum / Haalaanke Tum) waale Jumle (Numbered 1–12)",
+        "label": "3. وَأَنْتُمْ (Aur Tum / Haalaanke Tum) waale Jumle (Numbered 1–12)"
+      }
+    },
+    {
+      "type": "two_col_numbered_list",
+      "is_numbered": true,
+      "items": [
+        {
+          "id": "s5l9_waw_1",
+          "arabic": "وَأَنْتُمْ مُسْلِمُونَ",
+          "hinglish": "Aur tum musalman ho / jabkeh tum musalman ho",
+          "urdu": "اور تم مسلمان ہو / جبکہ تم مسلمان ہو",
+          "is_filled": true,
+          "sentence_number": 1,
+          "translations": {
+            "hinglish": "Aur tum musalman ho / jabkeh tum musalman ho",
+            "en": "While you are Muslims",
+            "ur": "اور تم مسلمان ہو / جبکہ تم مسلمان ہو",
+            "hi": "और तुम मुसलमान हो / जबकि तुम मुसलमान हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">مُسْلِمُونَ</span>",
+          "arabic_text": "وَأَنْتُمْ مُسْلِمُونَ"
+        },
+        {
+          "id": "s5l9_waw_2",
+          "arabic": "وَأَنْتُمْ ظَالِمُونَ",
+          "hinglish": "Aur tum zalim ho / halankeh tum zalim ho",
+          "urdu": "اور تم ظالم ہو / حالانکہ تم ظالم ہو",
+          "is_filled": true,
+          "sentence_number": 2,
+          "translations": {
+            "hinglish": "Aur tum zalim ho / halankeh tum zalim ho",
+            "en": "While you are wrongdoers",
+            "ur": "اور تم ظالم ہو / حالانکہ تم ظالم ہو",
+            "hi": "और तुम ज़ालिम हो / हालाँकि तुम ज़ालिम हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">ظَالِمُونَ</span>",
+          "arabic_text": "وَأَنْتُمْ ظَالِمُونَ"
+        },
+        {
+          "id": "s5l9_waw_3",
+          "arabic": "وَأَنْتُمْ خَالِدُونَ",
+          "hinglish": "Aur tum hamesha rehne wale ho",
+          "urdu": "اور تم ہمیشہ رہنے والے ہو",
+          "is_filled": true,
+          "sentence_number": 3,
+          "translations": {
+            "hinglish": "Aur tum hamesha rehne wale ho",
+            "en": "While you abide eternally",
+            "ur": "اور تم ہمیشہ رہنے والے ہو",
+            "hi": "और तुम हमेशा रहने वाले हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">خَالِدُونَ</span>",
+          "arabic_text": "وَأَنْتُمْ خَالِدُونَ"
+        },
+        {
+          "id": "s5l9_waw_4",
+          "arabic": "وَأَنْتُمْ كَارِهُونَ",
+          "hinglish": "Halankeh tum napasand karne wale ho",
+          "urdu": "حالانکہ تم ناپسند کرنے والے ہو",
+          "is_filled": true,
+          "sentence_number": 4,
+          "translations": {
+            "hinglish": "Halankeh tum napasand karne wale ho",
+            "en": "While you are averse (to it)",
+            "ur": "حالانکہ تم ناپسند کرنے والے ہو",
+            "hi": "हालाँकि तुम नापसंद करने वाले हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">كَارِهُونَ</span>",
+          "arabic_text": "وَأَنْتُمْ كَارِهُونَ"
+        },
+        {
+          "id": "s5l9_waw_5",
+          "arabic": "وَأَنْتُمْ مُعْرِضُونَ",
+          "hinglish": "Aur tum munh modne wale ho",
+          "urdu": "اور تم منہ موڑنے والے ہو",
+          "is_filled": true,
+          "sentence_number": 5,
+          "translations": {
+            "hinglish": "Aur tum munh modne wale ho",
+            "en": "While you are turning away",
+            "ur": "اور تم منہ موڑنے والے ہو",
+            "hi": "और तुम मुँह मोड़ने वाले हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">مُعْرِضُونَ</span>",
+          "arabic_text": "وَأَنْتُمْ مُعْرِضُونَ"
+        },
+        {
+          "id": "s5l9_waw_6",
+          "arabic": "وَأَنْتُمْ غَافِلُونَ",
+          "hinglish": "Aur tum be-khabar/ghafil ho",
+          "urdu": "اور تم بے خبر/غافل ہو",
+          "is_filled": true,
+          "sentence_number": 6,
+          "translations": {
+            "hinglish": "Aur tum be-khabar/ghafil ho",
+            "en": "While you are heedless",
+            "ur": "اور تم بے خبر/غافل ہو",
+            "hi": "और तुम बेख़बर/ग़ाफ़िल हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">غَافِلُونَ</span>",
+          "arabic_text": "وَأَنْتُمْ غَافِلُونَ"
+        },
+        {
+          "id": "s5l9_waw_7",
+          "arabic": "وَأَنْتُمْ عَاكِفُونَ",
+          "hinglish": "Jabkeh tum aetikaaf mein ho",
+          "urdu": "جبکہ تم اعتکاف میں ہو",
+          "is_filled": true,
+          "sentence_number": 7,
+          "translations": {
+            "hinglish": "Jabkeh tum aetikaaf mein ho",
+            "en": "While you are secluded (in devotion)",
+            "ur": "جبکہ تم اعتکاف میں ہو",
+            "hi": "जबकि तुम एतिकाफ़ में हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">عَاكِفُونَ</span>",
+          "arabic_text": "وَأَنْتُمْ عَاكِفُونَ"
+        },
+        {
+          "id": "s5l9_waw_8",
+          "arabic": "وَأَنْتُمْ أَذِلَّةٌ",
+          "hinglish": "Halankeh tum kamzor/be-sar-o-samaan thay",
+          "urdu": "حالانکہ تم کمزور/بے سرو سامان تھے",
+          "is_filled": true,
+          "sentence_number": 8,
+          "translations": {
+            "hinglish": "Halankeh tum kamzor/be-sar-o-samaan thay",
+            "en": "While you were weak",
+            "ur": "حالانکہ تم کمزور/بے سرو سامان تھے",
+            "hi": "हालाँकि तुम कमज़ोर थे",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">أَذِلَّةٌ</span>",
+          "arabic_text": "وَأَنْتُمْ أَذِلَّةٌ"
+        },
+        {
+          "id": "s5l9_waw_9",
+          "arabic": "وَأَنْتُمْ شُهَدَاءُ",
+          "hinglish": "Aur tum gawah ho",
+          "urdu": "اور تم گواہ ہو",
+          "is_filled": true,
+          "sentence_number": 9,
+          "translations": {
+            "hinglish": "Aur tum gawah ho",
+            "en": "While you are witnesses",
+            "ur": "اور تم گواہ ہو",
+            "hi": "और तुम गवाह हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">شُهَدَاءُ</span>",
+          "arabic_text": "وَأَنْتُمْ شُهَدَاءُ"
+        },
+        {
+          "id": "s5l9_waw_10",
+          "arabic": "وَأَنْتُمْ لَهَا كَارِهُونَ",
+          "hinglish": "Aur tum isko napasand karne wale ho",
+          "urdu": "اور تم اس کو ناپسند کرنے والے ہو",
+          "is_filled": true,
+          "sentence_number": 10,
+          "translations": {
+            "hinglish": "Aur tum isko napasand karne wale ho",
+            "en": "While you are averse to it",
+            "ur": "اور تم اس کو ناپسند کرنے والے ہو",
+            "hi": "और तुम उसको नापसंद करने वाले हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">لَهَا كَارِهُونَ</span>",
+          "arabic_text": "وَأَنْتُمْ لَهَا كَارِهُونَ"
+        },
+        {
+          "id": "s5l9_waw_11",
+          "arabic": "وَأَنْتُمْ عَنْهُ غَافِلُونَ",
+          "hinglish": "Aur tum is se ghafil ho",
+          "urdu": "اور تم اس سے غافل ہو",
+          "is_filled": true,
+          "sentence_number": 11,
+          "translations": {
+            "hinglish": "Aur tum is se ghafil ho",
+            "en": "While you are heedless of it",
+            "ur": "اور تم اس سے غافل ہو",
+            "hi": "और तुम उससे ग़ाफ़िल हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">عَنْهُ غَافِلُونَ</span>",
+          "arabic_text": "وَأَنْتُمْ عَنْهُ غَافِلُونَ"
+        },
+        {
+          "id": "s5l9_waw_12",
+          "arabic": "وَأَنْتُمْ سُكَارَى",
+          "hinglish": "Jabkeh tum nashe ki halat mein ho",
+          "urdu": "جبکہ تم نشے کی حالت میں ہو",
+          "is_filled": true,
+          "sentence_number": 12,
+          "translations": {
+            "hinglish": "Jabkeh tum nashe ki halat mein ho",
+            "en": "While you are in a state of intoxication",
+            "ur": "جبکہ تم نشے کی حالت میں ہو",
+            "hi": "जबकि तुम नशे की हालत में हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">سُكَارَى</span>",
+          "arabic_text": "وَأَنْتُمْ سُكَارَى"
+        }
+      ],
+      "data": {
+        "items": [
+          {
+            "id": "s5l9_waw_1",
+            "arabic": "وَأَنْتُمْ مُسْلِمُونَ",
+            "hinglish": "Aur tum musalman ho / jabkeh tum musalman ho",
+            "urdu": "اور تم مسلمان ہو / جبکہ تم مسلمان ہو",
+            "is_filled": true,
+            "sentence_number": 1,
+            "translations": {
+              "hinglish": "Aur tum musalman ho / jabkeh tum musalman ho",
+              "en": "While you are Muslims",
+              "ur": "اور تم مسلمان ہو / جبکہ تم مسلمان ہو",
+              "hi": "और तुम मुसलमान हो / जबकि तुम मुसलमान हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">مُسْلِمُونَ</span>",
+            "arabic_text": "وَأَنْتُمْ مُسْلِمُونَ"
+          },
+          {
+            "id": "s5l9_waw_2",
+            "arabic": "وَأَنْتُمْ ظَالِمُونَ",
+            "hinglish": "Aur tum zalim ho / halankeh tum zalim ho",
+            "urdu": "اور تم ظالم ہو / حالانکہ تم ظالم ہو",
+            "is_filled": true,
+            "sentence_number": 2,
+            "translations": {
+              "hinglish": "Aur tum zalim ho / halankeh tum zalim ho",
+              "en": "While you are wrongdoers",
+              "ur": "اور تم ظالم ہو / حالانکہ تم ظالم ہو",
+              "hi": "और तुम ज़ालिम हो / हालाँकि तुम ज़ालिम हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">ظَالِمُونَ</span>",
+            "arabic_text": "وَأَنْتُمْ ظَالِمُونَ"
+          },
+          {
+            "id": "s5l9_waw_3",
+            "arabic": "وَأَنْتُمْ خَالِدُونَ",
+            "hinglish": "Aur tum hamesha rehne wale ho",
+            "urdu": "اور تم ہمیشہ رہنے والے ہو",
+            "is_filled": true,
+            "sentence_number": 3,
+            "translations": {
+              "hinglish": "Aur tum hamesha rehne wale ho",
+              "en": "While you abide eternally",
+              "ur": "اور تم ہمیشہ رہنے والے ہو",
+              "hi": "और तुम हमेशा रहने वाले हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">خَالِدُونَ</span>",
+            "arabic_text": "وَأَنْتُمْ خَالِدُونَ"
+          },
+          {
+            "id": "s5l9_waw_4",
+            "arabic": "وَأَنْتُمْ كَارِهُونَ",
+            "hinglish": "Halankeh tum napasand karne wale ho",
+            "urdu": "حالانکہ تم ناپسند کرنے والے ہو",
+            "is_filled": true,
+            "sentence_number": 4,
+            "translations": {
+              "hinglish": "Halankeh tum napasand karne wale ho",
+              "en": "While you are averse (to it)",
+              "ur": "حالانکہ تم ناپسند کرنے والے ہو",
+              "hi": "हालाँकि तुम नापसंद करने वाले हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">كَارِهُونَ</span>",
+            "arabic_text": "وَأَنْتُمْ كَارِهُونَ"
+          },
+          {
+            "id": "s5l9_waw_5",
+            "arabic": "وَأَنْتُمْ مُعْرِضُونَ",
+            "hinglish": "Aur tum munh modne wale ho",
+            "urdu": "اور تم منہ موڑنے والے ہو",
+            "is_filled": true,
+            "sentence_number": 5,
+            "translations": {
+              "hinglish": "Aur tum munh modne wale ho",
+              "en": "While you are turning away",
+              "ur": "اور تم منہ موڑنے والے ہو",
+              "hi": "और तुम मुँह मोड़ने वाले हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">مُعْرِضُونَ</span>",
+            "arabic_text": "وَأَنْتُمْ مُعْرِضُونَ"
+          },
+          {
+            "id": "s5l9_waw_6",
+            "arabic": "وَأَنْتُمْ غَافِلُونَ",
+            "hinglish": "Aur tum be-khabar/ghafil ho",
+            "urdu": "اور تم بے خبر/غافل ہو",
+            "is_filled": true,
+            "sentence_number": 6,
+            "translations": {
+              "hinglish": "Aur tum be-khabar/ghafil ho",
+              "en": "While you are heedless",
+              "ur": "اور تم بے خبر/غافل ہو",
+              "hi": "और तुम बेख़बर/ग़ाफ़िल हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">غَافِلُونَ</span>",
+            "arabic_text": "وَأَنْتُمْ غَافِلُونَ"
+          },
+          {
+            "id": "s5l9_waw_7",
+            "arabic": "وَأَنْتُمْ عَاكِفُونَ",
+            "hinglish": "Jabkeh tum aetikaaf mein ho",
+            "urdu": "جبکہ تم اعتکاف میں ہو",
+            "is_filled": true,
+            "sentence_number": 7,
+            "translations": {
+              "hinglish": "Jabkeh tum aetikaaf mein ho",
+              "en": "While you are secluded (in devotion)",
+              "ur": "جبکہ تم اعتکاف میں ہو",
+              "hi": "जबकि तुम एतिकाफ़ में हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">عَاكِفُونَ</span>",
+            "arabic_text": "وَأَنْتُمْ عَاكِفُونَ"
+          },
+          {
+            "id": "s5l9_waw_8",
+            "arabic": "وَأَنْتُمْ أَذِلَّةٌ",
+            "hinglish": "Halankeh tum kamzor/be-sar-o-samaan thay",
+            "urdu": "حالانکہ تم کمزور/بے سرو سامان تھے",
+            "is_filled": true,
+            "sentence_number": 8,
+            "translations": {
+              "hinglish": "Halankeh tum kamzor/be-sar-o-samaan thay",
+              "en": "While you were weak",
+              "ur": "حالانکہ تم کمزور/بے سرو سامان تھے",
+              "hi": "हालाँकि तुम कमज़ोर थे",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">أَذِلَّةٌ</span>",
+            "arabic_text": "وَأَنْتُمْ أَذِلَّةٌ"
+          },
+          {
+            "id": "s5l9_waw_9",
+            "arabic": "وَأَنْتُمْ شُهَدَاءُ",
+            "hinglish": "Aur tum gawah ho",
+            "urdu": "اور تم گواہ ہو",
+            "is_filled": true,
+            "sentence_number": 9,
+            "translations": {
+              "hinglish": "Aur tum gawah ho",
+              "en": "While you are witnesses",
+              "ur": "اور تم گواہ ہو",
+              "hi": "और तुम गवाह हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">شُهَدَاءُ</span>",
+            "arabic_text": "وَأَنْتُمْ شُهَدَاءُ"
+          },
+          {
+            "id": "s5l9_waw_10",
+            "arabic": "وَأَنْتُمْ لَهَا كَارِهُونَ",
+            "hinglish": "Aur tum isko napasand karne wale ho",
+            "urdu": "اور تم اس کو ناپسند کرنے والے ہو",
+            "is_filled": true,
+            "sentence_number": 10,
+            "translations": {
+              "hinglish": "Aur tum isko napasand karne wale ho",
+              "en": "While you are averse to it",
+              "ur": "اور تم اس کو ناپسند کرنے والے ہو",
+              "hi": "और तुम उसको नापसंद करने वाले हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">لَهَا كَارِهُونَ</span>",
+            "arabic_text": "وَأَنْتُمْ لَهَا كَارِهُونَ"
+          },
+          {
+            "id": "s5l9_waw_11",
+            "arabic": "وَأَنْتُمْ عَنْهُ غَافِلُونَ",
+            "hinglish": "Aur tum is se ghafil ho",
+            "urdu": "اور تم اس سے غافل ہو",
+            "is_filled": true,
+            "sentence_number": 11,
+            "translations": {
+              "hinglish": "Aur tum is se ghafil ho",
+              "en": "While you are heedless of it",
+              "ur": "اور تم اس سے غافل ہو",
+              "hi": "और तुम उससे ग़ाफ़िल हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">عَنْهُ غَافِلُونَ</span>",
+            "arabic_text": "وَأَنْتُمْ عَنْهُ غَافِلُونَ"
+          },
+          {
+            "id": "s5l9_waw_12",
+            "arabic": "وَأَنْتُمْ سُكَارَى",
+            "hinglish": "Jabkeh tum nashe ki halat mein ho",
+            "urdu": "جبکہ تم نشے کی حالت میں ہو",
+            "is_filled": true,
+            "sentence_number": 12,
+            "translations": {
+              "hinglish": "Jabkeh tum nashe ki halat mein ho",
+              "en": "While you are in a state of intoxication",
+              "ur": "جبکہ تم نشے کی حالت میں ہو",
+              "hi": "जबकि तुम नशे की हालत में हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمْ</span> <span class=\"arabic-root\">سُكَارَى</span>",
+            "arabic_text": "وَأَنْتُمْ سُكَارَى"
+          }
+        ],
+        "is_numbered": true
+      }
+    },
+    {
+      "type": "rule_paragraph",
+      "text": "Agar (أَنْتُمْ) ke baad (الْـ) waala lafz aaye to tarjume mein 'hi' ke izaafe se zor (hasr) paida hota hai, jaise أَنْتُمُ الْأَعْلَوْنَ (tum log hi ghaalib ho):",
+      "content": "Agar (أَنْتُمْ) ke baad (الْـ) waala lafz aaye to tarjume mein 'hi' ke izaafe se zor (hasr) paida hota hai, jaise أَنْتُمُ الْأَعْلَوْنَ (tum log hi ghaalib ho):",
+      "hinglish_text": "Agar (أَنْتُمْ) ke baad (الْـ) waala lafz aaye to tarjume mein 'hi' ke izaafe se zor (hasr) paida hota hai, jaise أَنْتُمُ الْأَعْلَوْنَ (tum log hi ghaalib ho):",
+      "data": {
+        "text": "Agar (أَنْتُمْ) ke baad (الْـ) waala lafz aaye to tarjume mein 'hi' ke izaafe se zor (hasr) paida hota hai, jaise أَنْتُمُ الْأَعْلَوْنَ (tum log hi ghaalib ho):",
+        "content": "Agar (أَنْتُمْ) ke baad (الْـ) waala lafz aaye to tarjume mein 'hi' ke izaafe se zor (hasr) paida hota hai, jaise أَنْتُمُ الْأَعْلَوْنَ (tum log hi ghaalib ho):",
+        "hinglish_text": "Agar (أَنْتُمْ) ke baad (الْـ) waala lafz aaye to tarjume mein 'hi' ke izaafe se zor (hasr) paida hota hai, jaise أَنْتُمُ الْأَعْلَوْنَ (tum log hi ghaalib ho):"
+      }
+    },
+    {
+      "type": "section_label",
+      "text": "4. Hasr wa Ikhtisaas: أَنْتُمُ الْـ (Tum Log Hi...) (Numbered 1–3)",
+      "title": "4. Hasr wa Ikhtisaas: أَنْتُمُ الْـ (Tum Log Hi...) (Numbered 1–3)",
+      "label": "4. Hasr wa Ikhtisaas: أَنْتُمُ الْـ (Tum Log Hi...) (Numbered 1–3)",
+      "data": {
+        "text": "4. Hasr wa Ikhtisaas: أَنْتُمُ الْـ (Tum Log Hi...) (Numbered 1–3)",
+        "title": "4. Hasr wa Ikhtisaas: أَنْتُمُ الْـ (Tum Log Hi...) (Numbered 1–3)",
+        "label": "4. Hasr wa Ikhtisaas: أَنْتُمُ الْـ (Tum Log Hi...) (Numbered 1–3)"
+      }
+    },
+    {
+      "type": "two_col_numbered_list",
+      "is_numbered": true,
+      "items": [
+        {
+          "id": "s5l9_hasr_1",
+          "arabic": "أَنْتُمُ الظَّالِمُونَ",
+          "hinglish": "Tum hi zalim ho",
+          "urdu": "تم ہی ظالم ہو",
+          "is_filled": true,
+          "sentence_number": 1,
+          "translations": {
+            "hinglish": "Tum hi zalim ho",
+            "en": "You are the wrongdoers",
+            "ur": "تم ہی ظالم ہو",
+            "hi": "तुम ही ज़ालिम हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">أَنْتُمُ ال</span><span class=\"arabic-root\">ظَّالِمُونَ</span>",
+          "arabic_text": "أَنْتُمُ الظَّالِمُونَ"
+        },
+        {
+          "id": "s5l9_hasr_2",
+          "arabic": "أَنْتُمُ الْفُقَرَاءُ",
+          "hinglish": "Tum hi muhtaaj ho",
+          "urdu": "تم ہی محتاج ہو",
+          "is_filled": true,
+          "sentence_number": 2,
+          "translations": {
+            "hinglish": "Tum hi muhtaaj ho",
+            "en": "You are the poor (in need of Allah)",
+            "ur": "تم ہی محتاج ہو",
+            "hi": "तुम ही मोहताज हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">أَنْتُمُ الْ</span><span class=\"arabic-root\">فُقَرَاءُ</span>",
+          "arabic_text": "أَنْتُمُ الْفُقَرَاءُ"
+        },
+        {
+          "id": "s5l9_hasr_3",
+          "arabic": "وَأَنْتُمُ الْأَعْلَوْنَ",
+          "hinglish": "Aur tum hi ghalib/buland raho ge",
+          "urdu": "اور تم ہی غالب/بلند رہو گے",
+          "is_filled": true,
+          "sentence_number": 3,
+          "translations": {
+            "hinglish": "Aur tum hi ghalib/buland raho ge",
+            "en": "And you will be superior",
+            "ur": "اور تم ہی غالب/بلند رہو گے",
+            "hi": "और तुम ही ग़ालिब/बुलंद रहोगे",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمُ الْ</span><span class=\"arabic-root\">أَعْلَوْنَ</span>",
+          "arabic_text": "وَأَنْتُمُ الْأَعْلَوْنَ"
+        }
+      ],
+      "data": {
+        "items": [
+          {
+            "id": "s5l9_hasr_1",
+            "arabic": "أَنْتُمُ الظَّالِمُونَ",
+            "hinglish": "Tum hi zalim ho",
+            "urdu": "تم ہی ظالم ہو",
+            "is_filled": true,
+            "sentence_number": 1,
+            "translations": {
+              "hinglish": "Tum hi zalim ho",
+              "en": "You are the wrongdoers",
+              "ur": "تم ہی ظالم ہو",
+              "hi": "तुम ही ज़ालिम हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">أَنْتُمُ ال</span><span class=\"arabic-root\">ظَّالِمُونَ</span>",
+            "arabic_text": "أَنْتُمُ الظَّالِمُونَ"
+          },
+          {
+            "id": "s5l9_hasr_2",
+            "arabic": "أَنْتُمُ الْفُقَرَاءُ",
+            "hinglish": "Tum hi muhtaaj ho",
+            "urdu": "تم ہی محتاج ہو",
+            "is_filled": true,
+            "sentence_number": 2,
+            "translations": {
+              "hinglish": "Tum hi muhtaaj ho",
+              "en": "You are the poor (in need of Allah)",
+              "ur": "تم ہی محتاج ہو",
+              "hi": "तुम ही मोहताज हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">أَنْتُمُ الْ</span><span class=\"arabic-root\">فُقَرَاءُ</span>",
+            "arabic_text": "أَنْتُمُ الْفُقَرَاءُ"
+          },
+          {
+            "id": "s5l9_hasr_3",
+            "arabic": "وَأَنْتُمُ الْأَعْلَوْنَ",
+            "hinglish": "Aur tum hi ghalib/buland raho ge",
+            "urdu": "اور تم ہی غالب/بلند رہو گے",
+            "is_filled": true,
+            "sentence_number": 3,
+            "translations": {
+              "hinglish": "Aur tum hi ghalib/buland raho ge",
+              "en": "And you will be superior",
+              "ur": "اور تم ہی غالب/بلند رہو گے",
+              "hi": "और तुम ही ग़ालिब/बुलंद रहोगे",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"nonroot\">وَأَنْتُمُ الْ</span><span class=\"arabic-root\">أَعْلَوْنَ</span>",
+            "arabic_text": "وَأَنْتُمُ الْأَعْلَوْنَ"
+          }
+        ],
+        "is_numbered": true
+      }
+    },
+    {
+      "type": "section_label",
+      "text": "5. Jaami' Qur'ani Aayaat ba-ma'a أَنْتُمْ (Numbered 4–9)",
+      "title": "5. Jaami' Qur'ani Aayaat ba-ma'a أَنْتُمْ (Numbered 4–9)",
+      "label": "5. Jaami' Qur'ani Aayaat ba-ma'a أَنْتُمْ (Numbered 4–9)",
+      "data": {
+        "text": "5. Jaami' Qur'ani Aayaat ba-ma'a أَنْتُمْ (Numbered 4–9)",
+        "title": "5. Jaami' Qur'ani Aayaat ba-ma'a أَنْتُمْ (Numbered 4–9)",
+        "label": "5. Jaami' Qur'ani Aayaat ba-ma'a أَنْتُمْ (Numbered 4–9)"
+      }
+    },
+    {
+      "type": "two_col_numbered_list",
+      "is_numbered": true,
+      "items": [
+        {
+          "id": "s5l9_v_4",
+          "arabic": "بَلْ أَنْتُمْ قَوْمٌ مُسْرِفُونَ",
+          "hinglish": "Balkeh tum hadd se badhne wale log ho",
+          "urdu": "بلکہ تم حد سے بڑھنے والے لوگ ہو",
+          "is_filled": true,
+          "sentence_number": 4,
+          "translations": {
+            "hinglish": "Balkeh tum hadd se badhne wale log ho",
+            "en": "Rather, you are a transgressing people",
+            "ur": "بلکہ تم حد سے بڑھنے والے لوگ ہو",
+            "hi": "बल्कि तुम हद से बढ़ने वाले लोग हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">بَلْ </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">قَوْمٌ مُسْرِفُونَ</span>",
+          "arabic_text": "بَلْ أَنْتُمْ قَوْمٌ مُسْرِفُونَ"
+        },
+        {
+          "id": "s5l9_v_5",
+          "arabic": "بَلْ أَنْتُمْ قَوْمٌ عَادُونَ",
+          "hinglish": "Balkeh tum zyadti karne wale log ho",
+          "urdu": "بلکہ تم زیادتی کرنے والے لوگ ہو",
+          "is_filled": true,
+          "sentence_number": 5,
+          "translations": {
+            "hinglish": "Balkeh tum zyadti karne wale log ho",
+            "en": "Rather, you are a transgressing people",
+            "ur": "بلکہ تم زیادتی کرنے والے لوگ ہو",
+            "hi": "बल्कि तुम ज़्यादती करने वाले लोग हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">بَلْ </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">قَوْمٌ عَادُونَ</span>",
+          "arabic_text": "بَلْ أَنْتُمْ قَوْمٌ عَادُونَ"
+        },
+        {
+          "id": "s5l9_v_6",
+          "arabic": "أَفَأَنْتُمْ لَهُ مُنْكِرُونَ",
+          "hinglish": "Toh kya tum iska inkaar karne wale ho?",
+          "urdu": "تو کیا تم اس کا انکار کرنے والے ہو؟",
+          "is_filled": true,
+          "sentence_number": 6,
+          "translations": {
+            "hinglish": "Toh kya tum iska inkaar karne wale ho?",
+            "en": "Do you then deny it?",
+            "ur": "تو کیا تم اس کا انکار کرنے والے ہو؟",
+            "hi": "तो क्या तुम उसका इंकार करने वाले हो?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">أَفَ</span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">لَهُ مُنْكِرُونَ</span>",
+          "arabic_text": "أَفَأَنْتُمْ لَهُ مُنْكِرُونَ"
+        },
+        {
+          "id": "s5l9_v_7",
+          "arabic": "لَا إِلٰهَ إِلَّا هُوَ فَهَلْ أَنْتُمْ مُسْلِمُونَ",
+          "hinglish": "Iske siwa koi mabood nahi, toh kya tum farmanbardar bante ho?",
+          "urdu": "اس کے سوا کوئی معبود نہیں، تو کیا تم فرمانبردار بنتے ہو؟",
+          "is_filled": true,
+          "sentence_number": 7,
+          "translations": {
+            "hinglish": "Iske siwa koi mabood nahi, toh kya tum farmanbardar bante ho?",
+            "en": "There is no deity except Him; so will you be Muslims?",
+            "ur": "اس کے سوا کوئی معبود نہیں، تو کیا تم فرمانبردار بنتے ہو؟",
+            "hi": "उसके सिवा कोई माबूद नहीं, तो क्या तुम फ़रमांबरदार बनते हो?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">لَا إِلٰهَ إِلَّا هُوَ </span><span class=\"nonroot\">فَهَلْ أَنْتُمْ</span> <span class=\"arabic-root\">مُسْلِمُونَ</span>",
+          "arabic_text": "لَا إِلٰهَ إِلَّا هُوَ فَهَلْ أَنْتُمْ مُسْلِمُونَ"
+        },
+        {
+          "id": "s5l9_v_8",
+          "arabic": "وَاللهُ الْغَنِيُّ وَأَنْتُمُ الْفُقَرَاءُ",
+          "hinglish": "Aur Allah be-niyaz hai aur tum sab mohtaj ho",
+          "urdu": "اور اللہ بے پرواہ/غنی ہے اور تم سب محتاج ہو",
+          "is_filled": true,
+          "sentence_number": 8,
+          "translations": {
+            "hinglish": "Aur Allah be-niyaz hai aur tum sab mohtaj ho",
+            "en": "And Allah is Free of need, while you are the needy",
+            "ur": "اور اللہ بے پرواہ/غنی ہے اور تم سب محتاج ہو",
+            "hi": "और अल्लाह बेनियाज़ है और तुम सब मोहताज हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">وَاللهُ الْغَنِيُّ </span><span class=\"nonroot\">وَأَنْتُمُ الْ</span><span class=\"arabic-root\">فُقَرَاءُ</span>",
+          "arabic_text": "وَاللهُ الْغَنِيُّ وَأَنْتُمُ الْفُقَرَاءُ"
+        },
+        {
+          "id": "s5l9_v_9",
+          "arabic": "يَا أَيُّهَا النَّاسُ أَنْتُمُ الْفُقَرَاءُ إِلَى اللهِ وَاللهُ هُوَ الْغَنِيُّ الْحَمِيدُ",
+          "hinglish": "Ae logo! Tum sab Allah ke mohtaj ho aur Allah hi be-niyaz aur qabil-e-tareef hai",
+          "urdu": "اے لوگو! تم سب اللہ کے محتاج ہو اور اللہ ہی بے نیاز اور تعریف کے لائق ہے",
+          "is_filled": true,
+          "sentence_number": 9,
+          "translations": {
+            "hinglish": "Ae logo! Tum sab Allah ke mohtaj ho aur Allah hi be-niyaz aur qabil-e-tareef hai",
+            "en": "O mankind, you are those in need of Allah, while Allah is the Free of need, the Praiseworthy",
+            "ur": "اے لوگو! تم سب اللہ کے محتاج ہو اور اللہ ہی بے نیاز اور تعریف کے لائق ہے",
+            "hi": "ऐ लोगो! तुम सब अल्लाह के मोहताज हो और अल्लाह ही बेनियाज़ और क़ाबिले-तारीफ़ है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          },
+          "arabic_markup": "<span class=\"arabic-root\">يَا أَيُّهَا النَّاسُ </span><span class=\"nonroot\">أَنْتُمُ الْ</span><span class=\"arabic-root\">فُقَرَاءُ إِلَى اللهِ وَاللهُ هُوَ الْغَنِيُّ الْحَمِيدُ</span>",
+          "arabic_text": "يَا أَيُّهَا النَّاسُ أَنْتُمُ الْفُقَرَاءُ إِلَى اللهِ وَاللهُ هُوَ الْغَنِيُّ الْحَمِيدُ"
+        }
+      ],
+      "data": {
+        "items": [
+          {
+            "id": "s5l9_v_4",
+            "arabic": "بَلْ أَنْتُمْ قَوْمٌ مُسْرِفُونَ",
+            "hinglish": "Balkeh tum hadd se badhne wale log ho",
+            "urdu": "بلکہ تم حد سے بڑھنے والے لوگ ہو",
+            "is_filled": true,
+            "sentence_number": 4,
+            "translations": {
+              "hinglish": "Balkeh tum hadd se badhne wale log ho",
+              "en": "Rather, you are a transgressing people",
+              "ur": "بلکہ تم حد سے بڑھنے والے لوگ ہو",
+              "hi": "बल्कि तुम हद से बढ़ने वाले लोग हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">بَلْ </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">قَوْمٌ مُسْرِفُونَ</span>",
+            "arabic_text": "بَلْ أَنْتُمْ قَوْمٌ مُسْرِفُونَ"
+          },
+          {
+            "id": "s5l9_v_5",
+            "arabic": "بَلْ أَنْتُمْ قَوْمٌ عَادُونَ",
+            "hinglish": "Balkeh tum zyadti karne wale log ho",
+            "urdu": "بلکہ تم زیادتی کرنے والے لوگ ہو",
+            "is_filled": true,
+            "sentence_number": 5,
+            "translations": {
+              "hinglish": "Balkeh tum zyadti karne wale log ho",
+              "en": "Rather, you are a transgressing people",
+              "ur": "بلکہ تم زیادتی کرنے والے لوگ ہو",
+              "hi": "बल्कि तुम ज़्यादती करने वाले लोग हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">بَلْ </span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">قَوْمٌ عَادُونَ</span>",
+            "arabic_text": "بَلْ أَنْتُمْ قَوْمٌ عَادُونَ"
+          },
+          {
+            "id": "s5l9_v_6",
+            "arabic": "أَفَأَنْتُمْ لَهُ مُنْكِرُونَ",
+            "hinglish": "Toh kya tum iska inkaar karne wale ho?",
+            "urdu": "تو کیا تم اس کا انکار کرنے والے ہو؟",
+            "is_filled": true,
+            "sentence_number": 6,
+            "translations": {
+              "hinglish": "Toh kya tum iska inkaar karne wale ho?",
+              "en": "Do you then deny it?",
+              "ur": "تو کیا تم اس کا انکار کرنے والے ہو؟",
+              "hi": "तो क्या तुम उसका इंकार करने वाले हो?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">أَفَ</span><span class=\"nonroot\">أَنْتُمْ</span> <span class=\"arabic-root\">لَهُ مُنْكِرُونَ</span>",
+            "arabic_text": "أَفَأَنْتُمْ لَهُ مُنْكِرُونَ"
+          },
+          {
+            "id": "s5l9_v_7",
+            "arabic": "لَا إِلٰهَ إِلَّا هُوَ فَهَلْ أَنْتُمْ مُسْلِمُونَ",
+            "hinglish": "Iske siwa koi mabood nahi, toh kya tum farmanbardar bante ho?",
+            "urdu": "اس کے سوا کوئی معبود نہیں، تو کیا تم فرمانبردار بنتے ہو؟",
+            "is_filled": true,
+            "sentence_number": 7,
+            "translations": {
+              "hinglish": "Iske siwa koi mabood nahi, toh kya tum farmanbardar bante ho?",
+              "en": "There is no deity except Him; so will you be Muslims?",
+              "ur": "اس کے سوا کوئی معبود نہیں، تو کیا تم فرمانبردار بنتے ہو؟",
+              "hi": "उसके सिवा कोई माबूद नहीं, तो क्या तुम फ़रमांबरदार बनते हो?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">لَا إِلٰهَ إِلَّا هُوَ </span><span class=\"nonroot\">فَهَلْ أَنْتُمْ</span> <span class=\"arabic-root\">مُسْلِمُونَ</span>",
+            "arabic_text": "لَا إِلٰهَ إِلَّا هُوَ فَهَلْ أَنْتُمْ مُسْلِمُونَ"
+          },
+          {
+            "id": "s5l9_v_8",
+            "arabic": "وَاللهُ الْغَنِيُّ وَأَنْتُمُ الْفُقَرَاءُ",
+            "hinglish": "Aur Allah be-niyaz hai aur tum sab mohtaj ho",
+            "urdu": "اور اللہ بے پرواہ/غنی ہے اور تم سب محتاج ہو",
+            "is_filled": true,
+            "sentence_number": 8,
+            "translations": {
+              "hinglish": "Aur Allah be-niyaz hai aur tum sab mohtaj ho",
+              "en": "And Allah is Free of need, while you are the needy",
+              "ur": "اور اللہ بے پرواہ/غنی ہے اور تم سب محتاج ہو",
+              "hi": "और अल्लाह बेनियाज़ है और तुम सब मोहताज हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">وَاللهُ الْغَنِيُّ </span><span class=\"nonroot\">وَأَنْتُمُ الْ</span><span class=\"arabic-root\">فُقَرَاءُ</span>",
+            "arabic_text": "وَاللهُ الْغَنِيُّ وَأَنْتُمُ الْفُقَرَاءُ"
+          },
+          {
+            "id": "s5l9_v_9",
+            "arabic": "يَا أَيُّهَا النَّاسُ أَنْتُمُ الْفُقَرَاءُ إِلَى اللهِ وَاللهُ هُوَ الْغَنِيُّ الْحَمِيدُ",
+            "hinglish": "Ae logo! Tum sab Allah ke mohtaj ho aur Allah hi be-niyaz aur qabil-e-tareef hai",
+            "urdu": "اے لوگو! تم سب اللہ کے محتاج ہو اور اللہ ہی بے نیاز اور تعریف کے لائق ہے",
+            "is_filled": true,
+            "sentence_number": 9,
+            "translations": {
+              "hinglish": "Ae logo! Tum sab Allah ke mohtaj ho aur Allah hi be-niyaz aur qabil-e-tareef hai",
+              "en": "O mankind, you are those in need of Allah, while Allah is the Free of need, the Praiseworthy",
+              "ur": "اے لوگو! تم سب اللہ کے محتاج ہو اور اللہ ہی بے نیاز اور تعریف کے لائق ہے",
+              "hi": "ऐ लोगो! तुम सब अल्लाह के मोहताज हो और अल्लाह ही बेनियाज़ और क़ाबिले-तारीफ़ है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            },
+            "arabic_markup": "<span class=\"arabic-root\">يَا أَيُّهَا النَّاسُ </span><span class=\"nonroot\">أَنْتُمُ الْ</span><span class=\"arabic-root\">فُقَرَاءُ إِلَى اللهِ وَاللهُ هُوَ الْغَنِيُّ الْحَمِيدُ</span>",
+            "arabic_text": "يَا أَيُّهَا النَّاسُ أَنْتُمُ الْفُقَرَاءُ إِلَى اللهِ وَاللهُ هُوَ الْغَنِيُّ الْحَمِيدُ"
+          }
+        ],
+        "is_numbered": true
+      }
+    }
+  ],
+  "lesson_key": "S5L9",
+  "stage_id": 5,
+  "book_page": 67,
+  "page_start": 67
+}

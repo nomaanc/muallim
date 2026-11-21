@@ -1,0 +1,3002 @@
+{
+  "lesson_id": 11,
+  "lesson_key": "S6L11",
+  "stage_id": 6,
+  "title": "Seegha Ta'budoona ke saath Mashhoor Qur'ani Muhaware",
+  "arabic_Focus": "وَأَنْتُمْ تَعْلَمُونَ / لَعَلَّكُمْ / أَفَلَا / كُنْتُمْ / مَا لَكُمْ لَا",
+  "hinglish_Focus": "Jabke tum jaante ho / Taake tum / Tum karte the / Tumhein kya hua?",
+  "page_numbers": "49-52",
+  "sections": [
+    {
+      "type": "hero_header",
+      "arabic": "تَعْمَلُونَ ← وَأَنْتُمْ تَعْلَمُونَ ، لَعَلَّكُمْ تَتَّقُونَ ، مَا لَكُمْ لَا تُؤْمِنُونَ",
+      "hinglish": "Tum log karte ho ← Jabke tum jaante ho, Taake tum bach jao, Tumhein kya hua ke tum imaan nahi laate?",
+      "arabic_word": "تَعْمَلُونَ",
+      "arabic_combined": "تَعْمَلُونَ ← وَأَنْتُمْ تَعْلَمُونَ ، لَعَلَّكُمْ تَتَّقُونَ ، مَا لَكُمْ لَا تُؤْمِنُونَ",
+      "hinglish_word": "Tum log karte ho",
+      "hinglish_combined": "Tum log karte ho ← Jabke tum jaante ho, Taake tum bach jao, Tumhein kya hua ke tum imaan nahi laate?",
+      "title_en": "Lesson 11: Seegha Ta'budoona ke saath Mashhoor Qur'ani Muhaware",
+      "subtitle": "Pages 49–52 | وَأَنْتُمْ ، لَعَلَّكُمْ ، أَفَلَا ، كُنْتُمْ ، مَا لَكُمْ لَا ، لِمَ ، لَوْلَا",
+      "transformations": [
+        {
+          "from_ar": "تَعْمَلُونَ",
+          "to_ar": "وَأَنْتُمْ تَعْلَمُونَ ، لَعَلَّكُمْ تَتَّقُونَ ، مَا لَكُمْ لَا تُؤْمِنُونَ",
+          "from_hn": "Tum log karte ho",
+          "to_hn": "Jabke tum jaante ho, Taake tum bach jao, Tumhein kya hua ke tum imaan nahi laate?"
+        }
+      ],
+      "data": {
+        "arabic": "تَعْمَلُونَ ← وَأَنْتُمْ تَعْلَمُونَ ، لَعَلَّكُمْ تَتَّقُونَ ، مَا لَكُمْ لَا تُؤْمِنُونَ",
+        "hinglish": "Tum log karte ho ← Jabke tum jaante ho, Taake tum bach jao, Tumhein kya hua ke tum imaan nahi laate?",
+        "arabic_word": "تَعْمَلُونَ",
+        "arabic_combined": "تَعْمَلُونَ ← وَأَنْتُمْ تَعْلَمُونَ ، لَعَلَّكُمْ تَتَّقُونَ ، مَا لَكُمْ لَا تُؤْمِنُونَ",
+        "hinglish_word": "Tum log karte ho",
+        "hinglish_combined": "Tum log karte ho ← Jabke tum jaante ho, Taake tum bach jao, Tumhein kya hua ke tum imaan nahi laate?",
+        "title_en": "Lesson 11: Seegha Ta'budoona ke saath Mashhoor Qur'ani Muhaware",
+        "subtitle": "Pages 49–52 | وَأَنْتُمْ ، لَعَلَّكُمْ ، أَفَلَا ، كُنْتُمْ ، مَا لَكُمْ لَا ، لِمَ ، لَوْلَا",
+        "transformations": [
+          {
+            "from_ar": "تَعْمَلُونَ",
+            "to_ar": "وَأَنْتُمْ تَعْلَمُونَ ، لَعَلَّكُمْ تَتَّقُونَ ، مَا لَكُمْ لَا تُؤْمِنُونَ",
+            "from_hn": "Tum log karte ho",
+            "to_hn": "Jabke tum jaante ho, Taake tum bach jao, Tumhein kya hua ke tum imaan nahi laate?"
+          }
+        ]
+      }
+    },
+    {
+      "type": "intro_table",
+      "title": "Seegha تَعْبُدُونَ / تَعْمَلُونَ ke 7 Mashhoor Qur'ani Muhaware (Pages 49–52)",
+      "headers": [
+        "# & Muhawarah",
+        "Arbi Misaal",
+        "Hinglish Tarjuma"
+      ],
+      "rows": [
+        [
+          "1. وَأَنْتُمْ (Haalanke tum...)",
+          "وَأَنْتُمْ تَعْلَمُونَ / وَأَنْتُمْ تَنْظُرُونَ",
+          "Haalanke tum jaante ho / Jabke tum dekh rahe ho"
+        ],
+        [
+          "2. لَعَلَّكُمْ (Taake tum...)",
+          "لَعَلَّكُمْ تَتَّقُونَ / لَعَلَّكُمْ تَشْكُرُونَ",
+          "Taake tum parhezgar bano / Taake tum shukr karo"
+        ],
+        [
+          "3. أَفَلَا (Toh kya tum nahi...?)",
+          "أَفَلَا تَعْقِلُونَ / أَفَلَا تَذَكَّرُونَ",
+          "Toh kya tum samajhte nahi? / naseehat haasil nahi karte?"
+        ],
+        [
+          "4. كُنْتُمْ (Tum karte the)",
+          "بِمَا كُنْتُمْ تَعْمَلُونَ / كُنْتُمْ تَكْفُرُونَ",
+          "Uss ke badle jo tum kiya karte the / kufr karte the"
+        ],
+        [
+          "5. مَا لَكُمْ لَا (Tumhein kya hua?)",
+          "مَا لَكُمْ لَا تُؤْمِنُونَ بِاللَّهِ",
+          "Tumhein kya ho gaya hai ke tum Allah par imaan nahi laate?"
+        ],
+        [
+          "6. لِمَ (Tum kyun...?)",
+          "لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ",
+          "Tum woh baat kyun kehte ho jo karte nahi?"
+        ],
+        [
+          "7. لَوْلَا (Tum kyun nahi...?)",
+          "لَوْلَا تَسْتَغْفِرُونَ اللَّهَ",
+          "Tum Allah se maafi kyun nahi maangte?"
+        ]
+      ],
+      "data": {
+        "title": "Seegha تَعْبُدُونَ / تَعْمَلُونَ ke 7 Mashhoor Qur'ani Muhaware (Pages 49–52)",
+        "headers": [
+          "# & Muhawarah",
+          "Arbi Misaal",
+          "Hinglish Tarjuma"
+        ],
+        "rows": [
+          [
+            "1. وَأَنْتُمْ (Haalanke tum...)",
+            "وَأَنْتُمْ تَعْلَمُونَ / وَأَنْتُمْ تَنْظُرُونَ",
+            "Haalanke tum jaante ho / Jabke tum dekh rahe ho"
+          ],
+          [
+            "2. لَعَلَّكُمْ (Taake tum...)",
+            "لَعَلَّكُمْ تَتَّقُونَ / لَعَلَّكُمْ تَشْكُرُونَ",
+            "Taake tum parhezgar bano / Taake tum shukr karo"
+          ],
+          [
+            "3. أَفَلَا (Toh kya tum nahi...?)",
+            "أَفَلَا تَعْقِلُونَ / أَفَلَا تَذَكَّرُونَ",
+            "Toh kya tum samajhte nahi? / naseehat haasil nahi karte?"
+          ],
+          [
+            "4. كُنْتُمْ (Tum karte the)",
+            "بِمَا كُنْتُمْ تَعْمَلُونَ / كُنْتُمْ تَكْفُرُونَ",
+            "Uss ke badle jo tum kiya karte the / kufr karte the"
+          ],
+          [
+            "5. مَا لَكُمْ لَا (Tumhein kya hua?)",
+            "مَا لَكُمْ لَا تُؤْمِنُونَ بِاللَّهِ",
+            "Tumhein kya ho gaya hai ke tum Allah par imaan nahi laate?"
+          ],
+          [
+            "6. لِمَ (Tum kyun...?)",
+            "لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ",
+            "Tum woh baat kyun kehte ho jo karte nahi?"
+          ],
+          [
+            "7. لَوْلَا (Tum kyun nahi...?)",
+            "لَوْلَا تَسْتَغْفِرُونَ اللَّهَ",
+            "Tum Allah se maafi kyun nahi maangte?"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "rule_paragraph",
+      "text": "<div class=\"lesson-concept-svg\" style=\"margin:12px 0 16px 0;\"><svg viewBox=\"0 0 800 236\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:linear-gradient(135deg,#f8fafc 0%,#eff6ff 100%);border:1px solid #cbd5e1;border-radius:14px;box-shadow:0 2px 8px rgba(15,23,42,0.05);\"><rect x=\"24\" y=\"16\" width=\"752\" height=\"34\" rx=\"8\" fill=\"#0f172a\"/><text x=\"400\" y=\"38\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#f8fafc\" text-anchor=\"middle\">UNIT 6 LESSON 11 • 7 QUR'ANIC IDIOMS WITH TA'MALOONA</text><rect x=\"32\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ffffff\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"190\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#475569\" text-anchor=\"middle\">JAMA MUKHAATAB</text><text x=\"190\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" direction=\"rtl\">تَعْمَلُونَ / تَعْلَمُونَ</text><text x=\"190\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\">Tum log karte ho / jaante ho</text><circle cx=\"400\" cy=\"139\" r=\"24\" fill=\"#059669\"/><text x=\"400\" y=\"146\" font-family=\"system-ui,sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#ffffff\" text-anchor=\"middle\">←</text><rect x=\"452\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/><text x=\"610\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#047857\" text-anchor=\"middle\">7 QUR'ANI MUHAWARE</text><text x=\"610\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#065f46\" text-anchor=\"middle\" direction=\"rtl\">وَأَنْتُمْ... / لَعَلَّكُمْ... / كُنْتُمْ... / مَا لَكُمْ لَا...</text><text x=\"610\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\">Jabke tum / Taake tum / Tum karte the / Tumhein kya hua?</text></svg></div>Jis tarah Sabaq 7 mein <b>يَعْلَمُونَ</b> ke saath mashhoor Qur'ani muhaware aaye the, usi tarah <b>تَعْمَلُونَ / تَعْلَمُونَ</b> ke saath saat (7) mashhoor muhaware Qur'an mein baar-baar aate hain: <b>وَأَنْتُمْ تَعْلَمُونَ</b> (jabke tum jaante ho), <b>لَعَلَّكُمْ تَتَّقُونَ</b> (taake tum bach jao), <b>أَفَلَا تَعْقِلُونَ</b> (kya tum samajhte nahi?), <b>كُنْتُمْ تَعْمَلُونَ</b> (tum kiya karte the), <b>مَا لَكُمْ لَا...</b> (tumhein kya hua ke nahi...), <b>لِمَ...</b> (tum kyun...), aur <b>لَوْلَا...</b> (tum kyun nahi...):",
+      "content": "<div class=\"lesson-concept-svg\" style=\"margin:12px 0 16px 0;\"><svg viewBox=\"0 0 800 236\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:linear-gradient(135deg,#f8fafc 0%,#eff6ff 100%);border:1px solid #cbd5e1;border-radius:14px;box-shadow:0 2px 8px rgba(15,23,42,0.05);\"><rect x=\"24\" y=\"16\" width=\"752\" height=\"34\" rx=\"8\" fill=\"#0f172a\"/><text x=\"400\" y=\"38\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#f8fafc\" text-anchor=\"middle\">UNIT 6 LESSON 11 • 7 QUR'ANIC IDIOMS WITH TA'MALOONA</text><rect x=\"32\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ffffff\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"190\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#475569\" text-anchor=\"middle\">JAMA MUKHAATAB</text><text x=\"190\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" direction=\"rtl\">تَعْمَلُونَ / تَعْلَمُونَ</text><text x=\"190\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\">Tum log karte ho / jaante ho</text><circle cx=\"400\" cy=\"139\" r=\"24\" fill=\"#059669\"/><text x=\"400\" y=\"146\" font-family=\"system-ui,sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#ffffff\" text-anchor=\"middle\">←</text><rect x=\"452\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/><text x=\"610\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#047857\" text-anchor=\"middle\">7 QUR'ANI MUHAWARE</text><text x=\"610\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#065f46\" text-anchor=\"middle\" direction=\"rtl\">وَأَنْتُمْ... / لَعَلَّكُمْ... / كُنْتُمْ... / مَا لَكُمْ لَا...</text><text x=\"610\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\">Jabke tum / Taake tum / Tum karte the / Tumhein kya hua?</text></svg></div>Jis tarah Sabaq 7 mein <b>يَعْلَمُونَ</b> ke saath mashhoor Qur'ani muhaware aaye the, usi tarah <b>تَعْمَلُونَ / تَعْلَمُونَ</b> ke saath saat (7) mashhoor muhaware Qur'an mein baar-baar aate hain: <b>وَأَنْتُمْ تَعْلَمُونَ</b> (jabke tum jaante ho), <b>لَعَلَّكُمْ تَتَّقُونَ</b> (taake tum bach jao), <b>أَفَلَا تَعْقِلُونَ</b> (kya tum samajhte nahi?), <b>كُنْتُمْ تَعْمَلُونَ</b> (tum kiya karte the), <b>مَا لَكُمْ لَا...</b> (tumhein kya hua ke nahi...), <b>لِمَ...</b> (tum kyun...), aur <b>لَوْلَا...</b> (tum kyun nahi...):",
+      "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:12px 0 16px 0;\"><svg viewBox=\"0 0 800 236\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:linear-gradient(135deg,#f8fafc 0%,#eff6ff 100%);border:1px solid #cbd5e1;border-radius:14px;box-shadow:0 2px 8px rgba(15,23,42,0.05);\"><rect x=\"24\" y=\"16\" width=\"752\" height=\"34\" rx=\"8\" fill=\"#0f172a\"/><text x=\"400\" y=\"38\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#f8fafc\" text-anchor=\"middle\">UNIT 6 LESSON 11 • 7 QUR'ANIC IDIOMS WITH TA'MALOONA</text><rect x=\"32\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ffffff\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"190\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#475569\" text-anchor=\"middle\">JAMA MUKHAATAB</text><text x=\"190\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" direction=\"rtl\">تَعْمَلُونَ / تَعْلَمُونَ</text><text x=\"190\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\">Tum log karte ho / jaante ho</text><circle cx=\"400\" cy=\"139\" r=\"24\" fill=\"#059669\"/><text x=\"400\" y=\"146\" font-family=\"system-ui,sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#ffffff\" text-anchor=\"middle\">←</text><rect x=\"452\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/><text x=\"610\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#047857\" text-anchor=\"middle\">7 QUR'ANI MUHAWARE</text><text x=\"610\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#065f46\" text-anchor=\"middle\" direction=\"rtl\">وَأَنْتُمْ... / لَعَلَّكُمْ... / كُنْتُمْ... / مَا لَكُمْ لَا...</text><text x=\"610\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\">Jabke tum / Taake tum / Tum karte the / Tumhein kya hua?</text></svg></div>Jis tarah Sabaq 7 mein <b>يَعْلَمُونَ</b> ke saath mashhoor Qur'ani muhaware aaye the, usi tarah <b>تَعْمَلُونَ / تَعْلَمُونَ</b> ke saath saat (7) mashhoor muhaware Qur'an mein baar-baar aate hain: <b>وَأَنْتُمْ تَعْلَمُونَ</b> (jabke tum jaante ho), <b>لَعَلَّكُمْ تَتَّقُونَ</b> (taake tum bach jao), <b>أَفَلَا تَعْقِلُونَ</b> (kya tum samajhte nahi?), <b>كُنْتُمْ تَعْمَلُونَ</b> (tum kiya karte the), <b>مَا لَكُمْ لَا...</b> (tumhein kya hua ke nahi...), <b>لِمَ...</b> (tum kyun...), aur <b>لَوْلَا...</b> (tum kyun nahi...):",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:12px 0 16px 0;\"><svg viewBox=\"0 0 800 236\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:linear-gradient(135deg,#f8fafc 0%,#eff6ff 100%);border:1px solid #cbd5e1;border-radius:14px;box-shadow:0 2px 8px rgba(15,23,42,0.05);\"><rect x=\"24\" y=\"16\" width=\"752\" height=\"34\" rx=\"8\" fill=\"#0f172a\"/><text x=\"400\" y=\"38\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#f8fafc\" text-anchor=\"middle\">UNIT 6 LESSON 11 • 7 QUR'ANIC IDIOMS WITH TA'MALOONA</text><rect x=\"32\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ffffff\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"190\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#475569\" text-anchor=\"middle\">JAMA MUKHAATAB</text><text x=\"190\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" direction=\"rtl\">تَعْمَلُونَ / تَعْلَمُونَ</text><text x=\"190\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\">Tum log karte ho / jaante ho</text><circle cx=\"400\" cy=\"139\" r=\"24\" fill=\"#059669\"/><text x=\"400\" y=\"146\" font-family=\"system-ui,sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#ffffff\" text-anchor=\"middle\">←</text><rect x=\"452\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/><text x=\"610\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#047857\" text-anchor=\"middle\">7 QUR'ANI MUHAWARE</text><text x=\"610\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#065f46\" text-anchor=\"middle\" direction=\"rtl\">وَأَنْتُمْ... / لَعَلَّكُمْ... / كُنْتُمْ... / مَا لَكُمْ لَا...</text><text x=\"610\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\">Jabke tum / Taake tum / Tum karte the / Tumhein kya hua?</text></svg></div>Jis tarah Sabaq 7 mein <b>يَعْلَمُونَ</b> ke saath mashhoor Qur'ani muhaware aaye the, usi tarah <b>تَعْمَلُونَ / تَعْلَمُونَ</b> ke saath saat (7) mashhoor muhaware Qur'an mein baar-baar aate hain: <b>وَأَنْتُمْ تَعْلَمُونَ</b> (jabke tum jaante ho), <b>لَعَلَّكُمْ تَتَّقُونَ</b> (taake tum bach jao), <b>أَفَلَا تَعْقِلُونَ</b> (kya tum samajhte nahi?), <b>كُنْتُمْ تَعْمَلُونَ</b> (tum kiya karte the), <b>مَا لَكُمْ لَا...</b> (tumhein kya hua ke nahi...), <b>لِمَ...</b> (tum kyun...), aur <b>لَوْلَا...</b> (tum kyun nahi...):",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:12px 0 16px 0;\"><svg viewBox=\"0 0 800 236\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:linear-gradient(135deg,#f8fafc 0%,#eff6ff 100%);border:1px solid #cbd5e1;border-radius:14px;box-shadow:0 2px 8px rgba(15,23,42,0.05);\"><rect x=\"24\" y=\"16\" width=\"752\" height=\"34\" rx=\"8\" fill=\"#0f172a\"/><text x=\"400\" y=\"38\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#f8fafc\" text-anchor=\"middle\">UNIT 6 LESSON 11 • 7 QUR'ANIC IDIOMS WITH TA'MALOONA</text><rect x=\"32\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ffffff\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"190\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#475569\" text-anchor=\"middle\">JAMA MUKHAATAB</text><text x=\"190\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" direction=\"rtl\">تَعْمَلُونَ / تَعْلَمُونَ</text><text x=\"190\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\">Tum log karte ho / jaante ho</text><circle cx=\"400\" cy=\"139\" r=\"24\" fill=\"#059669\"/><text x=\"400\" y=\"146\" font-family=\"system-ui,sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#ffffff\" text-anchor=\"middle\">←</text><rect x=\"452\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/><text x=\"610\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#047857\" text-anchor=\"middle\">7 QUR'ANI MUHAWARE</text><text x=\"610\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#065f46\" text-anchor=\"middle\" direction=\"rtl\">وَأَنْتُمْ... / لَعَلَّكُمْ... / كُنْتُمْ... / مَا لَكُمْ لَا...</text><text x=\"610\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\">Jabke tum / Taake tum / Tum karte the / Tumhein kya hua?</text></svg></div>Jis tarah Sabaq 7 mein <b>يَعْلَمُونَ</b> ke saath mashhoor Qur'ani muhaware aaye the, usi tarah <b>تَعْمَلُونَ / تَعْلَمُونَ</b> ke saath saat (7) mashhoor muhaware Qur'an mein baar-baar aate hain: <b>وَأَنْتُمْ تَعْلَمُونَ</b> (jabke tum jaante ho), <b>لَعَلَّكُمْ تَتَّقُونَ</b> (taake tum bach jao), <b>أَفَلَا تَعْقِلُونَ</b> (kya tum samajhte nahi?), <b>كُنْتُمْ تَعْمَلُونَ</b> (tum kiya karte the), <b>مَا لَكُمْ لَا...</b> (tumhein kya hua ke nahi...), <b>لِمَ...</b> (tum kyun...), aur <b>لَوْلَا...</b> (tum kyun nahi...):",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:12px 0 16px 0;\"><svg viewBox=\"0 0 800 236\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:linear-gradient(135deg,#f8fafc 0%,#eff6ff 100%);border:1px solid #cbd5e1;border-radius:14px;box-shadow:0 2px 8px rgba(15,23,42,0.05);\"><rect x=\"24\" y=\"16\" width=\"752\" height=\"34\" rx=\"8\" fill=\"#0f172a\"/><text x=\"400\" y=\"38\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#f8fafc\" text-anchor=\"middle\">UNIT 6 LESSON 11 • 7 QUR'ANIC IDIOMS WITH TA'MALOONA</text><rect x=\"32\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ffffff\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"190\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#475569\" text-anchor=\"middle\">JAMA MUKHAATAB</text><text x=\"190\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" direction=\"rtl\">تَعْمَلُونَ / تَعْلَمُونَ</text><text x=\"190\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\">Tum log karte ho / jaante ho</text><circle cx=\"400\" cy=\"139\" r=\"24\" fill=\"#059669\"/><text x=\"400\" y=\"146\" font-family=\"system-ui,sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#ffffff\" text-anchor=\"middle\">←</text><rect x=\"452\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/><text x=\"610\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#047857\" text-anchor=\"middle\">7 QUR'ANI MUHAWARE</text><text x=\"610\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#065f46\" text-anchor=\"middle\" direction=\"rtl\">وَأَنْتُمْ... / لَعَلَّكُمْ... / كُنْتُمْ... / مَا لَكُمْ لَا...</text><text x=\"610\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\">Jabke tum / Taake tum / Tum karte the / Tumhein kya hua?</text></svg></div>Jis tarah Sabaq 7 mein <b>يَعْلَمُونَ</b> ke saath mashhoor Qur'ani muhaware aaye the, usi tarah <b>تَعْمَلُونَ / تَعْلَمُونَ</b> ke saath saat (7) mashhoor muhaware Qur'an mein baar-baar aate hain: <b>وَأَنْتُمْ تَعْلَمُونَ</b> (jabke tum jaante ho), <b>لَعَلَّكُمْ تَتَّقُونَ</b> (taake tum bach jao), <b>أَفَلَا تَعْقِلُونَ</b> (kya tum samajhte nahi?), <b>كُنْتُمْ تَعْمَلُونَ</b> (tum kiya karte the), <b>مَا لَكُمْ لَا...</b> (tumhein kya hua ke nahi...), <b>لِمَ...</b> (tum kyun...), aur <b>لَوْلَا...</b> (tum kyun nahi...):"
+      }
+    },
+    {
+      "type": "section_label",
+      "text": "1. Muhawarah Grids: وَأَنْتُمْ ، لَعَلَّكُمْ ، أَفَلَا ، كُنْتُمْ ، لِمَ ، لَوْلَا (Pages 49–52)",
+      "title": "1. Muhawarah Grids: وَأَنْتُمْ ، لَعَلَّكُمْ ، أَفَلَا ، كُنْتُمْ ، لِمَ ، لَوْلَا (Pages 49–52)",
+      "label": "1. Muhawarah Grids: وَأَنْتُمْ ، لَعَلَّكُمْ ، أَفَلَا ، كُنْتُمْ ، لِمَ ، لَوْلَا (Pages 49–52)",
+      "data": {
+        "text": "1. Muhawarah Grids: وَأَنْتُمْ ، لَعَلَّكُمْ ، أَفَلَا ، كُنْتُمْ ، لِمَ ، لَوْلَا (Pages 49–52)",
+        "title": "1. Muhawarah Grids: وَأَنْتُمْ ، لَعَلَّكُمْ ، أَفَلَا ، كُنْتُمْ ، لِمَ ، لَوْلَا (Pages 49–52)",
+        "label": "1. Muhawarah Grids: وَأَنْتُمْ ، لَعَلَّكُمْ ، أَفَلَا ، كُنْتُمْ ، لِمَ ، لَوْلَا (Pages 49–52)"
+      }
+    },
+    {
+      "type": "two_col_numbered_list",
+      "is_numbered": false,
+      "items": [
+        {
+          "id": "s6l11_grid_w1",
+          "arabic": "وَأَنْتُمْ تَسْمَعُونَ",
+          "arabic_text": "وَأَنْتُمْ تَسْمَعُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تَسْمَعُونَ</span>",
+          "hinglish": "Jabke tum log sun rahe ho",
+          "hinglish_meaning": "Jabke tum log sun rahe ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Jabke tum log sun rahe ho",
+            "en": "While you hear",
+            "ur": "حالانکہ تم سنتے ہو",
+            "hi": "हालाँकि तुम सुनते हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w2",
+          "arabic": "وَأَنْتُمْ تُبْصِرُونَ",
+          "arabic_text": "وَأَنْتُمْ تُبْصِرُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تُبْصِرُونَ</span>",
+          "hinglish": "Jabke tum log dekh rahe ho",
+          "hinglish_meaning": "Jabke tum log dekh rahe ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Jabke tum log dekh rahe ho",
+            "en": "While you see",
+            "ur": "حالانکہ تم دیکھ رہے ہو",
+            "hi": "हालाँकि तुम देख रहे हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w3",
+          "arabic": "وَأَنْتُمْ تَشْهَدُونَ",
+          "arabic_text": "وَأَنْتُمْ تَشْهَدُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تَشْهَدُونَ</span>",
+          "hinglish": "Jabke tum log gawahi de rahe ho",
+          "hinglish_meaning": "Jabke tum log gawahi de rahe ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Jabke tum log gawahi de rahe ho",
+            "en": "While you bear witness",
+            "ur": "حالانکہ تم گواہی دیتے ہو",
+            "hi": "हालाँकि तुम गवाही देते हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w4",
+          "arabic": "وَأَنْتُمْ تَعْلَمُونَ",
+          "arabic_text": "وَأَنْتُمْ تَعْلَمُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تَعْلَمُونَ</span>",
+          "hinglish": "Haalanke tum log jaante ho",
+          "hinglish_meaning": "Haalanke tum log jaante ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Haalanke tum log jaante ho",
+            "en": "While you know",
+            "ur": "حالانکہ تم جانتے ہو",
+            "hi": "हालाँकि तुम जानते हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w5",
+          "arabic": "وَأَنْتُمْ تَنْظُرُونَ",
+          "arabic_text": "وَأَنْتُمْ تَنْظُرُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تَنْظُرُونَ</span>",
+          "hinglish": "Jabke tum log dekh rahe ho",
+          "hinglish_meaning": "Jabke tum log dekh rahe ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Jabke tum log dekh rahe ho",
+            "en": "While you are looking on",
+            "ur": "حالانکہ تم دیکھتے ہو",
+            "hi": "हालाँकि तुम देखते हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w6",
+          "arabic": "وَأَنْتُمْ تَتْلُونَ",
+          "arabic_text": "وَأَنْتُمْ تَتْلُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تَتْلُونَ</span>",
+          "hinglish": "Haalanke tum log tilawat karte ho",
+          "hinglish_meaning": "Haalanke tum log tilawat karte ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Haalanke tum log tilawat karte ho",
+            "en": "While you recite",
+            "ur": "حالانکہ تم تلاوت کرتے ہو",
+            "hi": "हालाँकि तुम तिलावत करते हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w7",
+          "arabic": "أَنْتُمْ تُشْرِكُونَ",
+          "arabic_text": "أَنْتُمْ تُشْرِكُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">أَنْتُمْ</span> <span class=\"nonroot\">تُشْرِكُونَ</span>",
+          "hinglish": "Tum log shirk karte ho",
+          "hinglish_meaning": "Tum log shirk karte ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tum log shirk karte ho",
+            "en": "You associate others [with Allah]",
+            "ur": "تم شرک کرتے ہو",
+            "hi": "तुम शिर्क करते हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w8",
+          "arabic": "أَنْتُمْ تَمْتَرُونَ",
+          "arabic_text": "أَنْتُمْ تَمْتَرُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">أَنْتُمْ</span> <span class=\"nonroot\">تَمْتَرُونَ</span>",
+          "hinglish": "Tum log shak karte ho",
+          "hinglish_meaning": "Tum log shak karte ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tum log shak karte ho",
+            "en": "You doubt",
+            "ur": "تم شک کرتے ہو",
+            "hi": "तुम शक करते हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w9",
+          "arabic": "أَنْتُمْ تَحْزَنُونَ",
+          "arabic_text": "أَنْتُمْ تَحْزَنُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">أَنْتُمْ</span> <span class=\"nonroot\">تَحْزَنُونَ</span>",
+          "hinglish": "Tum log ghamgeen hote ho",
+          "hinglish_meaning": "Tum log ghamgeen hote ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tum log ghamgeen hote ho",
+            "en": "You will grieve",
+            "ur": "تم غمگین ہوتے ہو",
+            "hi": "तुम ग़मगीन होते हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w10",
+          "arabic": "لَعَلَّكُمْ تَشْكُرُونَ",
+          "arabic_text": "لَعَلَّكُمْ تَشْكُرُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تَشْكُرُونَ</span>",
+          "hinglish": "Taake tum log shukr ada karo",
+          "hinglish_meaning": "Taake tum log shukr ada karo",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Taake tum log shukr ada karo",
+            "en": "That perhaps you would be grateful",
+            "ur": "تاکہ تم شکر کرو",
+            "hi": "ताकि तुम शुक्र करो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w11",
+          "arabic": "لَعَلَّكُمْ تَعْقِلُونَ",
+          "arabic_text": "لَعَلَّكُمْ تَعْقِلُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تَعْقِلُونَ</span>",
+          "hinglish": "Taake tum log aql se kaam lo",
+          "hinglish_meaning": "Taake tum log aql se kaam lo",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Taake tum log aql se kaam lo",
+            "en": "That perhaps you would understand",
+            "ur": "تاکہ تم عقل سے کام لو",
+            "hi": "ताकि तुम अक़्ल से काम लो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w12",
+          "arabic": "لَعَلَّكُمْ تُفْلِحُونَ",
+          "arabic_text": "لَعَلَّكُمْ تُفْلِحُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تُفْلِحُونَ</span>",
+          "hinglish": "Taake tum log falaah (kaamyabi) pao",
+          "hinglish_meaning": "Taake tum log falaah (kaamyabi) pao",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Taake tum log falaah (kaamyabi) pao",
+            "en": "That perhaps you would succeed",
+            "ur": "تاکہ تم کامیاب ہو جاؤ",
+            "hi": "ताकि तुम कामयाब हो जाओ",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w13",
+          "arabic": "لَعَلَّكُمْ تَتَّقُونَ",
+          "arabic_text": "لَعَلَّكُمْ تَتَّقُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تَتَّقُونَ</span>",
+          "hinglish": "Taake tum log taqwa ikhtiyar karo",
+          "hinglish_meaning": "Taake tum log taqwa ikhtiyar karo",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Taake tum log taqwa ikhtiyar karo",
+            "en": "That perhaps you would become righteous",
+            "ur": "تاکہ تم تقویٰ اختیار کرو",
+            "hi": "ताकि तुम तक़वा इख़्तियार करो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w14",
+          "arabic": "لَعَلَّكُمْ تَهْتَدُونَ",
+          "arabic_text": "لَعَلَّكُمْ تَهْتَدُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تَهْتَدُونَ</span>",
+          "hinglish": "Taake tum log hidayat pao",
+          "hinglish_meaning": "Taake tum log hidayat pao",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Taake tum log hidayat pao",
+            "en": "That perhaps you would be guided",
+            "ur": "تاکہ تم ہدایت پا جاؤ",
+            "hi": "ताकि तुम हिदायत पा जाओ",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w15",
+          "arabic": "لَعَلَّكُمْ تَذَكَّرُونَ",
+          "arabic_text": "لَعَلَّكُمْ تَذَكَّرُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تَذَكَّرُونَ</span>",
+          "hinglish": "Taake tum log naseehat haasil karo",
+          "hinglish_meaning": "Taake tum log naseehat haasil karo",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Taake tum log naseehat haasil karo",
+            "en": "That perhaps you would be reminded",
+            "ur": "تاکہ تم نصیحت حاصل کرو",
+            "hi": "ताकि तुम नसीहत हासिल करो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w16",
+          "arabic": "لَعَلَّكُمْ تَتَفَكَّرُونَ",
+          "arabic_text": "لَعَلَّكُمْ تَتَفَكَّرُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تَتَفَكَّرُونَ</span>",
+          "hinglish": "Taake tum log ghaur-o-fikr karo",
+          "hinglish_meaning": "Taake tum log ghaur-o-fikr karo",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Taake tum log ghaur-o-fikr karo",
+            "en": "That perhaps you would give thought",
+            "ur": "تاکہ تم غور و فکر کرو",
+            "hi": "ताकि तुम ग़ौर-ओ-फ़िक्र करो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w17",
+          "arabic": "لَعَلَّكُمْ تُسْلِمُونَ",
+          "arabic_text": "لَعَلَّكُمْ تُسْلِمُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تُسْلِمُونَ</span>",
+          "hinglish": "Taake tum log farmaanbardar bano",
+          "hinglish_meaning": "Taake tum log farmaanbardar bano",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Taake tum log farmaanbardar bano",
+            "en": "That perhaps you would submit [as Muslims]",
+            "ur": "تاکہ تم فرمانبردار بن جاؤ",
+            "hi": "ताकि तुम फ़रमाँबरदार बन जाओ",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w18",
+          "arabic": "أَفَلَا تَعْقِلُونَ",
+          "arabic_text": "أَفَلَا تَعْقِلُونَ",
+          "arabic_markup": "أَفَلَا <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">عْقِلُونَ</span>",
+          "hinglish": "Toh kya tum log samajhte nahi?",
+          "hinglish_meaning": "Toh kya tum log samajhte nahi?",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Toh kya tum log samajhte nahi?",
+            "en": "Then will you not reason?",
+            "ur": "کیا پھر تم عقل نہیں رکھتے؟",
+            "hi": "क्या फिर तुम अक़्ल नहीं रखते?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w19",
+          "arabic": "أَفَلَا تَذَكَّرُونَ",
+          "arabic_text": "أَفَلَا تَذَكَّرُونَ",
+          "arabic_markup": "أَفَلَا <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">ذَكَّرُونَ</span>",
+          "hinglish": "Toh kya tum log naseehat haasil nahi karte?",
+          "hinglish_meaning": "Toh kya tum log naseehat haasil nahi karte?",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Toh kya tum log naseehat haasil nahi karte?",
+            "en": "Then will you not be reminded?",
+            "ur": "کیا پھر تم نصیحت حاصل نہیں کرتے؟",
+            "hi": "क्या फिर तुम नसीहत हासिल नहीं करते?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w20",
+          "arabic": "أَفَلَا تُبْصِرُونَ",
+          "arabic_text": "أَفَلَا تُبْصِرُونَ",
+          "arabic_markup": "<span class=\"nonroot\">أَ</span><span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">بْصِر</span><span class=\"nonroot\">ُونَ</span>",
+          "hinglish": "Toh kya tum log dekhte nahi?",
+          "hinglish_meaning": "Toh kya tum log dekhte nahi?",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Toh kya tum log dekhte nahi?",
+            "ur": "Toh kya tum log dekhte nahi?",
+            "en": "Toh kya tum log dekhte nahi?",
+            "hi": "Toh kya tum log dekhte nahi?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w21",
+          "arabic": "أَفَلَا تَسْمَعُونَ",
+          "arabic_text": "أَفَلَا تَسْمَعُونَ",
+          "arabic_markup": "<span class=\"nonroot\">أَ</span><span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">سْمَع</span><span class=\"nonroot\">ُونَ</span>",
+          "hinglish": "Toh kya tum log sunte nahi?",
+          "hinglish_meaning": "Toh kya tum log sunte nahi?",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Toh kya tum log sunte nahi?",
+            "ur": "Toh kya tum log sunte nahi?",
+            "en": "Toh kya tum log sunte nahi?",
+            "hi": "Toh kya tum log sunte nahi?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w22",
+          "arabic": "أَفَلَا تَشْكُرُونَ",
+          "arabic_text": "أَفَلَا تَشْكُرُونَ",
+          "arabic_markup": "<span class=\"nonroot\">أَ</span><span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">شْكُر</span><span class=\"nonroot\">ُونَ</span>",
+          "hinglish": "Toh kya tum log shukr nahi karte?",
+          "hinglish_meaning": "Toh kya tum log shukr nahi karte?",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Toh kya tum log shukr nahi karte?",
+            "ur": "Toh kya tum log shukr nahi karte?",
+            "en": "Toh kya tum log shukr nahi karte?",
+            "hi": "Toh kya tum log shukr nahi karte?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w23",
+          "arabic": "أَفَلَا تَتَّقُونَ",
+          "arabic_text": "أَفَلَا تَتَّقُونَ",
+          "arabic_markup": "<span class=\"nonroot\">أَ</span><span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">تَّق</span><span class=\"nonroot\">ُونَ</span>",
+          "hinglish": "Toh kya tum log darte nahi?",
+          "hinglish_meaning": "Toh kya tum log darte nahi?",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Toh kya tum log darte nahi?",
+            "ur": "Toh kya tum log darte nahi?",
+            "en": "Toh kya tum log darte nahi?",
+            "hi": "Toh kya tum log darte nahi?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w24",
+          "arabic": "أَفَلَا تَتَفَكَّرُونَ",
+          "arabic_text": "أَفَلَا تَتَفَكَّرُونَ",
+          "arabic_markup": "<span class=\"nonroot\">أَ</span><span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">تَفَكَّر</span><span class=\"nonroot\">ُونَ</span>",
+          "hinglish": "Toh kya tum log ghaur nahi karte?",
+          "hinglish_meaning": "Toh kya tum log ghaur nahi karte?",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Toh kya tum log ghaur nahi karte?",
+            "ur": "Toh kya tum log ghaur nahi karte?",
+            "en": "Toh kya tum log ghaur nahi karte?",
+            "hi": "Toh kya tum log ghaur nahi karte?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w25",
+          "arabic": "بِمَا كُنْتُمْ تَعْمَلُونَ",
+          "arabic_text": "بِمَا كُنْتُمْ تَعْمَلُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">بِمَا</span> <span class=\"nonroot\">كُنْتُمْ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">عْمَل</span><span class=\"nonroot\">ُونَ</span>",
+          "hinglish": "Uss ke badle jo tum log kiya karte the",
+          "hinglish_meaning": "Uss ke badle jo tum log kiya karte the",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Uss ke badle jo tum log kiya karte the",
+            "ur": "Uss ke badle jo tum log kiya karte the",
+            "en": "Uss ke badle jo tum log kiya karte the",
+            "hi": "Uss ke badle jo tum log kiya karte the",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w26",
+          "arabic": "بِمَا كُنْتُمْ تَكْسِبُونَ",
+          "arabic_text": "بِمَا كُنْتُمْ تَكْسِبُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">بِمَا</span> <span class=\"nonroot\">كُنْتُمْ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">كْسِب</span><span class=\"nonroot\">ُونَ</span>",
+          "hinglish": "Uss ke badle jo tum log kamaya karte the",
+          "hinglish_meaning": "Uss ke badle jo tum log kamaya karte the",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Uss ke badle jo tum log kamaya karte the",
+            "ur": "Uss ke badle jo tum log kamaya karte the",
+            "en": "Uss ke badle jo tum log kamaya karte the",
+            "hi": "Uss ke badle jo tum log kamaya karte the",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w27",
+          "arabic": "بِمَا كُنْتُمْ تَكْفُرُونَ",
+          "arabic_text": "بِمَا كُنْتُمْ تَكْفُرُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">بِمَا</span> <span class=\"nonroot\">كُنْتُمْ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">كْفُر</span><span class=\"nonroot\">ُونَ</span>",
+          "hinglish": "Uss ke badle jo tum log kufr kiya karte the",
+          "hinglish_meaning": "Uss ke badle jo tum log kufr kiya karte the",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Uss ke badle jo tum log kufr kiya karte the",
+            "ur": "Uss ke badle jo tum log kufr kiya karte the",
+            "en": "Uss ke badle jo tum log kufr kiya karte the",
+            "hi": "Uss ke badle jo tum log kufr kiya karte the",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w28",
+          "arabic": "بِمَا كُنْتُمْ تَفْسُقُونَ",
+          "arabic_text": "بِمَا كُنْتُمْ تَفْسُقُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">بِمَا</span> <span class=\"nonroot\">كُنْتُمْ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">فْسُق</span><span class=\"nonroot\">ُونَ</span>",
+          "hinglish": "Uss ke badle jo tum log na-farmani kiya karte the",
+          "hinglish_meaning": "Uss ke badle jo tum log na-farmani kiya karte the",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Uss ke badle jo tum log na-farmani kiya karte the",
+            "ur": "Uss ke badle jo tum log na-farmani kiya karte the",
+            "en": "Uss ke badle jo tum log na-farmani kiya karte the",
+            "hi": "Uss ke badle jo tum log na-farmani kiya karte the",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w29",
+          "arabic": "لِمَ تَكْفُرُونَ بِآيَاتِ اللَّهِ",
+          "arabic_text": "لِمَ تَكْفُرُونَ بِآيَاتِ اللَّهِ",
+          "arabic_markup": "<span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">كْفُر</span><span class=\"nonroot\">ُونَ</span> <span class=\"arabic-root\">بِآي</span><span class=\"nonroot\">َاتِ</span> <span class=\"arabic-root\">اللَّهِ</span>",
+          "hinglish": "Tum Allah ki aayaton ka inkaar kyun karte ho?",
+          "hinglish_meaning": "Tum Allah ki aayaton ka inkaar kyun karte ho?",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tum Allah ki aayaton ka inkaar kyun karte ho?",
+            "ur": "Tum Allah ki aayaton ka inkaar kyun karte ho?",
+            "en": "Tum Allah ki aayaton ka inkaar kyun karte ho?",
+            "hi": "Tum Allah ki aayaton ka inkaar kyun karte ho?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w30",
+          "arabic": "لِمَ تَلْبِسُونَ الْحَقَّ بِالْبَاطِلِ",
+          "arabic_text": "لِمَ تَلْبِسُونَ الْحَقَّ بِالْبَاطِلِ",
+          "arabic_markup": "<span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">لْبِس</span><span class=\"nonroot\">ُونَ</span> <span class=\"arabic-root\">الْحَقَّ</span> <span class=\"arabic-root\">بِالْبَاطِلِ</span>",
+          "hinglish": "Tum haq ko baatil ke saath kyun milate ho?",
+          "hinglish_meaning": "Tum haq ko baatil ke saath kyun milate ho?",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tum haq ko baatil ke saath kyun milate ho?",
+            "ur": "Tum haq ko baatil ke saath kyun milate ho?",
+            "en": "Tum haq ko baatil ke saath kyun milate ho?",
+            "hi": "Tum haq ko baatil ke saath kyun milate ho?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w31",
+          "arabic": "لِمَ تَصُدُّونَ عَنْ سَبِيلِ اللَّهِ",
+          "arabic_text": "لِمَ تَصُدُّونَ عَنْ سَبِيلِ اللَّهِ",
+          "arabic_markup": "<span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">صُدُّونَ</span> <span class=\"nonroot\">عَنْ</span> <span class=\"arabic-root\">سَبِيلِ</span> <span class=\"arabic-root\">اللَّهِ</span>",
+          "hinglish": "Tum Allah ke raaste se kyun rokte ho?",
+          "hinglish_meaning": "Tum Allah ke raaste se kyun rokte ho?",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tum Allah ke raaste se kyun rokte ho?",
+            "ur": "Tum Allah ke raaste se kyun rokte ho?",
+            "en": "Tum Allah ke raaste se kyun rokte ho?",
+            "hi": "Tum Allah ke raaste se kyun rokte ho?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w32",
+          "arabic": "لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ",
+          "arabic_text": "لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَقُولُونَ</span> <span class=\"nonroot\">مَا</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَفْعَلُونَ</span>",
+          "hinglish": "Tum woh baat kyun kehte ho jo karte nahi?",
+          "hinglish_meaning": "Tum woh baat kyun kehte ho jo karte nahi?",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tum woh baat kyun kehte ho jo karte nahi?",
+            "en": "Why do you say what you do not do?",
+            "ur": "تم وہ بات کیوں کہتے ہو جو تم کرتے نہیں؟",
+            "hi": "तुम वह बात क्यों कहते हो जो तुम करते नहीं?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w33",
+          "arabic": "لَوْلَا تَسْتَغْفِرُونَ اللَّهَ",
+          "arabic_text": "لَوْلَا تَسْتَغْفِرُونَ اللَّهَ",
+          "arabic_markup": "<span class=\"arabic-root\">لَوْلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">سْتَغْفِر</span><span class=\"nonroot\">ُونَ</span> <span class=\"arabic-root\">اللَّهَ</span>",
+          "hinglish": "Tum Allah se maghfirat kyun nahi maangte?",
+          "hinglish_meaning": "Tum Allah se maghfirat kyun nahi maangte?",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tum Allah se maghfirat kyun nahi maangte?",
+            "ur": "Tum Allah se maghfirat kyun nahi maangte?",
+            "en": "Tum Allah se maghfirat kyun nahi maangte?",
+            "hi": "Tum Allah se maghfirat kyun nahi maangte?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w34",
+          "arabic": "فَلَوْلَا تَشْكُرُونَ",
+          "arabic_text": "فَلَوْلَا تَشْكُرُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">فَلَوْلَا</span> <span class=\"nonroot\">تَشْكُرُونَ</span>",
+          "hinglish": "Phir tum shukr kyun nahi karte?",
+          "hinglish_meaning": "Phir tum shukr kyun nahi karte?",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Phir tum shukr kyun nahi karte?",
+            "en": "Then why do you not give thanks?",
+            "ur": "پھر تم شکر کیوں نہیں کرتے؟",
+            "hi": "फिर तुम शुक्र क्यों नहीं करते?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w35",
+          "arabic": "لَوْلَا تُسَبِّحُونَ",
+          "arabic_text": "لَوْلَا تُسَبِّحُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">لَوْلَا</span> <span class=\"nonroot\">تُسَبِّحُونَ</span>",
+          "hinglish": "Tum tasbeeh kyun nahi karte?",
+          "hinglish_meaning": "Tum tasbeeh kyun nahi karte?",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tum tasbeeh kyun nahi karte?",
+            "en": "Why do you not exalt [Allah]?",
+            "ur": "تم تسبیح کیوں نہیں بیان کرتے؟",
+            "hi": "तुम तस्बीह क्यों नहीं बयान करते?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w36",
+          "arabic": "فَلَوْلَا تَذَكَّرُونَ",
+          "arabic_text": "فَلَوْلَا تَذَكَّرُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">فَلَوْلَا</span> <span class=\"nonroot\">تَذَكَّرُونَ</span>",
+          "hinglish": "Phir tum naseehat kyun nahi pakadte?",
+          "hinglish_meaning": "Phir tum naseehat kyun nahi pakadte?",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Phir tum naseehat kyun nahi pakadte?",
+            "en": "Then why do you not take heed?",
+            "ur": "پھر تم کیوں نصیحت حاصل نہیں کرتے؟",
+            "hi": "फिर तुम क्यों नसीहत हासिल नहीं करते?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_grid_w37",
+          "arabic": "فَلَوْلَا تُصَدِّقُونَ",
+          "arabic_text": "فَلَوْلَا تُصَدِّقُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">فَلَوْلَا</span> <span class=\"nonroot\">تُصَدِّقُونَ</span>",
+          "hinglish": "Phir tum tasdeeq (sach) kyun nahi maante?",
+          "hinglish_meaning": "Phir tum tasdeeq (sach) kyun nahi maante?",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Phir tum tasdeeq (sach) kyun nahi maante?",
+            "en": "Then why do you not admit the truth?",
+            "ur": "پھر تم سچ کیوں نہیں مانتے؟",
+            "hi": "फिर तुम सच क्यों नहीं मानते?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        }
+      ],
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s6l11_grid_w1",
+            "arabic": "وَأَنْتُمْ تَسْمَعُونَ",
+            "arabic_text": "وَأَنْتُمْ تَسْمَعُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تَسْمَعُونَ</span>",
+            "hinglish": "Jabke tum log sun rahe ho",
+            "hinglish_meaning": "Jabke tum log sun rahe ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jabke tum log sun rahe ho",
+              "en": "While you hear",
+              "ur": "حالانکہ تم سنتے ہو",
+              "hi": "हालाँकि तुम सुनते हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w2",
+            "arabic": "وَأَنْتُمْ تُبْصِرُونَ",
+            "arabic_text": "وَأَنْتُمْ تُبْصِرُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تُبْصِرُونَ</span>",
+            "hinglish": "Jabke tum log dekh rahe ho",
+            "hinglish_meaning": "Jabke tum log dekh rahe ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jabke tum log dekh rahe ho",
+              "en": "While you see",
+              "ur": "حالانکہ تم دیکھ رہے ہو",
+              "hi": "हालाँकि तुम देख रहे हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w3",
+            "arabic": "وَأَنْتُمْ تَشْهَدُونَ",
+            "arabic_text": "وَأَنْتُمْ تَشْهَدُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تَشْهَدُونَ</span>",
+            "hinglish": "Jabke tum log gawahi de rahe ho",
+            "hinglish_meaning": "Jabke tum log gawahi de rahe ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jabke tum log gawahi de rahe ho",
+              "en": "While you bear witness",
+              "ur": "حالانکہ تم گواہی دیتے ہو",
+              "hi": "हालाँकि तुम गवाही देते हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w4",
+            "arabic": "وَأَنْتُمْ تَعْلَمُونَ",
+            "arabic_text": "وَأَنْتُمْ تَعْلَمُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تَعْلَمُونَ</span>",
+            "hinglish": "Haalanke tum log jaante ho",
+            "hinglish_meaning": "Haalanke tum log jaante ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Haalanke tum log jaante ho",
+              "en": "While you know",
+              "ur": "حالانکہ تم جانتے ہو",
+              "hi": "हालाँकि तुम जानते हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w5",
+            "arabic": "وَأَنْتُمْ تَنْظُرُونَ",
+            "arabic_text": "وَأَنْتُمْ تَنْظُرُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تَنْظُرُونَ</span>",
+            "hinglish": "Jabke tum log dekh rahe ho",
+            "hinglish_meaning": "Jabke tum log dekh rahe ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jabke tum log dekh rahe ho",
+              "en": "While you are looking on",
+              "ur": "حالانکہ تم دیکھتے ہو",
+              "hi": "हालाँकि तुम देखते हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w6",
+            "arabic": "وَأَنْتُمْ تَتْلُونَ",
+            "arabic_text": "وَأَنْتُمْ تَتْلُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تَتْلُونَ</span>",
+            "hinglish": "Haalanke tum log tilawat karte ho",
+            "hinglish_meaning": "Haalanke tum log tilawat karte ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Haalanke tum log tilawat karte ho",
+              "en": "While you recite",
+              "ur": "حالانکہ تم تلاوت کرتے ہو",
+              "hi": "हालाँकि तुम तिलावत करते हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w7",
+            "arabic": "أَنْتُمْ تُشْرِكُونَ",
+            "arabic_text": "أَنْتُمْ تُشْرِكُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">أَنْتُمْ</span> <span class=\"nonroot\">تُشْرِكُونَ</span>",
+            "hinglish": "Tum log shirk karte ho",
+            "hinglish_meaning": "Tum log shirk karte ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tum log shirk karte ho",
+              "en": "You associate others [with Allah]",
+              "ur": "تم شرک کرتے ہو",
+              "hi": "तुम शिर्क करते हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w8",
+            "arabic": "أَنْتُمْ تَمْتَرُونَ",
+            "arabic_text": "أَنْتُمْ تَمْتَرُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">أَنْتُمْ</span> <span class=\"nonroot\">تَمْتَرُونَ</span>",
+            "hinglish": "Tum log shak karte ho",
+            "hinglish_meaning": "Tum log shak karte ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tum log shak karte ho",
+              "en": "You doubt",
+              "ur": "تم شک کرتے ہو",
+              "hi": "तुम शक करते हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w9",
+            "arabic": "أَنْتُمْ تَحْزَنُونَ",
+            "arabic_text": "أَنْتُمْ تَحْزَنُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">أَنْتُمْ</span> <span class=\"nonroot\">تَحْزَنُونَ</span>",
+            "hinglish": "Tum log ghamgeen hote ho",
+            "hinglish_meaning": "Tum log ghamgeen hote ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tum log ghamgeen hote ho",
+              "en": "You will grieve",
+              "ur": "تم غمگین ہوتے ہو",
+              "hi": "तुम ग़मगीन होते हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w10",
+            "arabic": "لَعَلَّكُمْ تَشْكُرُونَ",
+            "arabic_text": "لَعَلَّكُمْ تَشْكُرُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تَشْكُرُونَ</span>",
+            "hinglish": "Taake tum log shukr ada karo",
+            "hinglish_meaning": "Taake tum log shukr ada karo",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Taake tum log shukr ada karo",
+              "en": "That perhaps you would be grateful",
+              "ur": "تاکہ تم شکر کرو",
+              "hi": "ताकि तुम शुक्र करो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w11",
+            "arabic": "لَعَلَّكُمْ تَعْقِلُونَ",
+            "arabic_text": "لَعَلَّكُمْ تَعْقِلُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تَعْقِلُونَ</span>",
+            "hinglish": "Taake tum log aql se kaam lo",
+            "hinglish_meaning": "Taake tum log aql se kaam lo",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Taake tum log aql se kaam lo",
+              "en": "That perhaps you would understand",
+              "ur": "تاکہ تم عقل سے کام لو",
+              "hi": "ताकि तुम अक़्ल से काम लो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w12",
+            "arabic": "لَعَلَّكُمْ تُفْلِحُونَ",
+            "arabic_text": "لَعَلَّكُمْ تُفْلِحُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تُفْلِحُونَ</span>",
+            "hinglish": "Taake tum log falaah (kaamyabi) pao",
+            "hinglish_meaning": "Taake tum log falaah (kaamyabi) pao",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Taake tum log falaah (kaamyabi) pao",
+              "en": "That perhaps you would succeed",
+              "ur": "تاکہ تم کامیاب ہو جاؤ",
+              "hi": "ताकि तुम कामयाब हो जाओ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w13",
+            "arabic": "لَعَلَّكُمْ تَتَّقُونَ",
+            "arabic_text": "لَعَلَّكُمْ تَتَّقُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تَتَّقُونَ</span>",
+            "hinglish": "Taake tum log taqwa ikhtiyar karo",
+            "hinglish_meaning": "Taake tum log taqwa ikhtiyar karo",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Taake tum log taqwa ikhtiyar karo",
+              "en": "That perhaps you would become righteous",
+              "ur": "تاکہ تم تقویٰ اختیار کرو",
+              "hi": "ताकि तुम तक़वा इख़्तियार करो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w14",
+            "arabic": "لَعَلَّكُمْ تَهْتَدُونَ",
+            "arabic_text": "لَعَلَّكُمْ تَهْتَدُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تَهْتَدُونَ</span>",
+            "hinglish": "Taake tum log hidayat pao",
+            "hinglish_meaning": "Taake tum log hidayat pao",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Taake tum log hidayat pao",
+              "en": "That perhaps you would be guided",
+              "ur": "تاکہ تم ہدایت پا جاؤ",
+              "hi": "ताकि तुम हिदायत पा जाओ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w15",
+            "arabic": "لَعَلَّكُمْ تَذَكَّرُونَ",
+            "arabic_text": "لَعَلَّكُمْ تَذَكَّرُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تَذَكَّرُونَ</span>",
+            "hinglish": "Taake tum log naseehat haasil karo",
+            "hinglish_meaning": "Taake tum log naseehat haasil karo",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Taake tum log naseehat haasil karo",
+              "en": "That perhaps you would be reminded",
+              "ur": "تاکہ تم نصیحت حاصل کرو",
+              "hi": "ताकि तुम नसीहत हासिल करो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w16",
+            "arabic": "لَعَلَّكُمْ تَتَفَكَّرُونَ",
+            "arabic_text": "لَعَلَّكُمْ تَتَفَكَّرُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تَتَفَكَّرُونَ</span>",
+            "hinglish": "Taake tum log ghaur-o-fikr karo",
+            "hinglish_meaning": "Taake tum log ghaur-o-fikr karo",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Taake tum log ghaur-o-fikr karo",
+              "en": "That perhaps you would give thought",
+              "ur": "تاکہ تم غور و فکر کرو",
+              "hi": "ताकि तुम ग़ौर-ओ-फ़िक्र करो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w17",
+            "arabic": "لَعَلَّكُمْ تُسْلِمُونَ",
+            "arabic_text": "لَعَلَّكُمْ تُسْلِمُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تُسْلِمُونَ</span>",
+            "hinglish": "Taake tum log farmaanbardar bano",
+            "hinglish_meaning": "Taake tum log farmaanbardar bano",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Taake tum log farmaanbardar bano",
+              "en": "That perhaps you would submit [as Muslims]",
+              "ur": "تاکہ تم فرمانبردار بن جاؤ",
+              "hi": "ताकि तुम फ़रमाँबरदार बन जाओ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w18",
+            "arabic": "أَفَلَا تَعْقِلُونَ",
+            "arabic_text": "أَفَلَا تَعْقِلُونَ",
+            "arabic_markup": "أَفَلَا <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">عْقِلُونَ</span>",
+            "hinglish": "Toh kya tum log samajhte nahi?",
+            "hinglish_meaning": "Toh kya tum log samajhte nahi?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh kya tum log samajhte nahi?",
+              "en": "Then will you not reason?",
+              "ur": "کیا پھر تم عقل نہیں رکھتے؟",
+              "hi": "क्या फिर तुम अक़्ल नहीं रखते?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w19",
+            "arabic": "أَفَلَا تَذَكَّرُونَ",
+            "arabic_text": "أَفَلَا تَذَكَّرُونَ",
+            "arabic_markup": "أَفَلَا <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">ذَكَّرُونَ</span>",
+            "hinglish": "Toh kya tum log naseehat haasil nahi karte?",
+            "hinglish_meaning": "Toh kya tum log naseehat haasil nahi karte?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh kya tum log naseehat haasil nahi karte?",
+              "en": "Then will you not be reminded?",
+              "ur": "کیا پھر تم نصیحت حاصل نہیں کرتے؟",
+              "hi": "क्या फिर तुम नसीहत हासिल नहीं करते?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w20",
+            "arabic": "أَفَلَا تُبْصِرُونَ",
+            "arabic_text": "أَفَلَا تُبْصِرُونَ",
+            "arabic_markup": "<span class=\"nonroot\">أَ</span><span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تُ</span><span class=\"arabic-root\">بْصِر</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Toh kya tum log dekhte nahi?",
+            "hinglish_meaning": "Toh kya tum log dekhte nahi?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh kya tum log dekhte nahi?",
+              "ur": "Toh kya tum log dekhte nahi?",
+              "en": "Toh kya tum log dekhte nahi?",
+              "hi": "Toh kya tum log dekhte nahi?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w21",
+            "arabic": "أَفَلَا تَسْمَعُونَ",
+            "arabic_text": "أَفَلَا تَسْمَعُونَ",
+            "arabic_markup": "<span class=\"nonroot\">أَ</span><span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">سْمَع</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Toh kya tum log sunte nahi?",
+            "hinglish_meaning": "Toh kya tum log sunte nahi?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh kya tum log sunte nahi?",
+              "ur": "Toh kya tum log sunte nahi?",
+              "en": "Toh kya tum log sunte nahi?",
+              "hi": "Toh kya tum log sunte nahi?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w22",
+            "arabic": "أَفَلَا تَشْكُرُونَ",
+            "arabic_text": "أَفَلَا تَشْكُرُونَ",
+            "arabic_markup": "<span class=\"nonroot\">أَ</span><span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">شْكُر</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Toh kya tum log shukr nahi karte?",
+            "hinglish_meaning": "Toh kya tum log shukr nahi karte?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh kya tum log shukr nahi karte?",
+              "ur": "Toh kya tum log shukr nahi karte?",
+              "en": "Toh kya tum log shukr nahi karte?",
+              "hi": "Toh kya tum log shukr nahi karte?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w23",
+            "arabic": "أَفَلَا تَتَّقُونَ",
+            "arabic_text": "أَفَلَا تَتَّقُونَ",
+            "arabic_markup": "<span class=\"nonroot\">أَ</span><span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">تَّق</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Toh kya tum log darte nahi?",
+            "hinglish_meaning": "Toh kya tum log darte nahi?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh kya tum log darte nahi?",
+              "ur": "Toh kya tum log darte nahi?",
+              "en": "Toh kya tum log darte nahi?",
+              "hi": "Toh kya tum log darte nahi?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w24",
+            "arabic": "أَفَلَا تَتَفَكَّرُونَ",
+            "arabic_text": "أَفَلَا تَتَفَكَّرُونَ",
+            "arabic_markup": "<span class=\"nonroot\">أَ</span><span class=\"arabic-root\">فَلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">تَفَكَّر</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Toh kya tum log ghaur nahi karte?",
+            "hinglish_meaning": "Toh kya tum log ghaur nahi karte?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh kya tum log ghaur nahi karte?",
+              "ur": "Toh kya tum log ghaur nahi karte?",
+              "en": "Toh kya tum log ghaur nahi karte?",
+              "hi": "Toh kya tum log ghaur nahi karte?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w25",
+            "arabic": "بِمَا كُنْتُمْ تَعْمَلُونَ",
+            "arabic_text": "بِمَا كُنْتُمْ تَعْمَلُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">بِمَا</span> <span class=\"nonroot\">كُنْتُمْ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">عْمَل</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Uss ke badle jo tum log kiya karte the",
+            "hinglish_meaning": "Uss ke badle jo tum log kiya karte the",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uss ke badle jo tum log kiya karte the",
+              "ur": "Uss ke badle jo tum log kiya karte the",
+              "en": "Uss ke badle jo tum log kiya karte the",
+              "hi": "Uss ke badle jo tum log kiya karte the",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w26",
+            "arabic": "بِمَا كُنْتُمْ تَكْسِبُونَ",
+            "arabic_text": "بِمَا كُنْتُمْ تَكْسِبُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">بِمَا</span> <span class=\"nonroot\">كُنْتُمْ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">كْسِب</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Uss ke badle jo tum log kamaya karte the",
+            "hinglish_meaning": "Uss ke badle jo tum log kamaya karte the",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uss ke badle jo tum log kamaya karte the",
+              "ur": "Uss ke badle jo tum log kamaya karte the",
+              "en": "Uss ke badle jo tum log kamaya karte the",
+              "hi": "Uss ke badle jo tum log kamaya karte the",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w27",
+            "arabic": "بِمَا كُنْتُمْ تَكْفُرُونَ",
+            "arabic_text": "بِمَا كُنْتُمْ تَكْفُرُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">بِمَا</span> <span class=\"nonroot\">كُنْتُمْ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">كْفُر</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Uss ke badle jo tum log kufr kiya karte the",
+            "hinglish_meaning": "Uss ke badle jo tum log kufr kiya karte the",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uss ke badle jo tum log kufr kiya karte the",
+              "ur": "Uss ke badle jo tum log kufr kiya karte the",
+              "en": "Uss ke badle jo tum log kufr kiya karte the",
+              "hi": "Uss ke badle jo tum log kufr kiya karte the",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w28",
+            "arabic": "بِمَا كُنْتُمْ تَفْسُقُونَ",
+            "arabic_text": "بِمَا كُنْتُمْ تَفْسُقُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">بِمَا</span> <span class=\"nonroot\">كُنْتُمْ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">فْسُق</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Uss ke badle jo tum log na-farmani kiya karte the",
+            "hinglish_meaning": "Uss ke badle jo tum log na-farmani kiya karte the",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Uss ke badle jo tum log na-farmani kiya karte the",
+              "ur": "Uss ke badle jo tum log na-farmani kiya karte the",
+              "en": "Uss ke badle jo tum log na-farmani kiya karte the",
+              "hi": "Uss ke badle jo tum log na-farmani kiya karte the",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w29",
+            "arabic": "لِمَ تَكْفُرُونَ بِآيَاتِ اللَّهِ",
+            "arabic_text": "لِمَ تَكْفُرُونَ بِآيَاتِ اللَّهِ",
+            "arabic_markup": "<span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">كْفُر</span><span class=\"nonroot\">ُونَ</span> <span class=\"arabic-root\">بِآي</span><span class=\"nonroot\">َاتِ</span> <span class=\"arabic-root\">اللَّهِ</span>",
+            "hinglish": "Tum Allah ki aayaton ka inkaar kyun karte ho?",
+            "hinglish_meaning": "Tum Allah ki aayaton ka inkaar kyun karte ho?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tum Allah ki aayaton ka inkaar kyun karte ho?",
+              "ur": "Tum Allah ki aayaton ka inkaar kyun karte ho?",
+              "en": "Tum Allah ki aayaton ka inkaar kyun karte ho?",
+              "hi": "Tum Allah ki aayaton ka inkaar kyun karte ho?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w30",
+            "arabic": "لِمَ تَلْبِسُونَ الْحَقَّ بِالْبَاطِلِ",
+            "arabic_text": "لِمَ تَلْبِسُونَ الْحَقَّ بِالْبَاطِلِ",
+            "arabic_markup": "<span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">لْبِس</span><span class=\"nonroot\">ُونَ</span> <span class=\"arabic-root\">الْحَقَّ</span> <span class=\"arabic-root\">بِالْبَاطِلِ</span>",
+            "hinglish": "Tum haq ko baatil ke saath kyun milate ho?",
+            "hinglish_meaning": "Tum haq ko baatil ke saath kyun milate ho?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tum haq ko baatil ke saath kyun milate ho?",
+              "ur": "Tum haq ko baatil ke saath kyun milate ho?",
+              "en": "Tum haq ko baatil ke saath kyun milate ho?",
+              "hi": "Tum haq ko baatil ke saath kyun milate ho?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w31",
+            "arabic": "لِمَ تَصُدُّونَ عَنْ سَبِيلِ اللَّهِ",
+            "arabic_text": "لِمَ تَصُدُّونَ عَنْ سَبِيلِ اللَّهِ",
+            "arabic_markup": "<span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">صُدُّونَ</span> <span class=\"nonroot\">عَنْ</span> <span class=\"arabic-root\">سَبِيلِ</span> <span class=\"arabic-root\">اللَّهِ</span>",
+            "hinglish": "Tum Allah ke raaste se kyun rokte ho?",
+            "hinglish_meaning": "Tum Allah ke raaste se kyun rokte ho?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tum Allah ke raaste se kyun rokte ho?",
+              "ur": "Tum Allah ke raaste se kyun rokte ho?",
+              "en": "Tum Allah ke raaste se kyun rokte ho?",
+              "hi": "Tum Allah ke raaste se kyun rokte ho?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w32",
+            "arabic": "لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ",
+            "arabic_text": "لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَقُولُونَ</span> <span class=\"nonroot\">مَا</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَفْعَلُونَ</span>",
+            "hinglish": "Tum woh baat kyun kehte ho jo karte nahi?",
+            "hinglish_meaning": "Tum woh baat kyun kehte ho jo karte nahi?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tum woh baat kyun kehte ho jo karte nahi?",
+              "en": "Why do you say what you do not do?",
+              "ur": "تم وہ بات کیوں کہتے ہو جو تم کرتے نہیں؟",
+              "hi": "तुम वह बात क्यों कहते हो जो तुम करते नहीं?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w33",
+            "arabic": "لَوْلَا تَسْتَغْفِرُونَ اللَّهَ",
+            "arabic_text": "لَوْلَا تَسْتَغْفِرُونَ اللَّهَ",
+            "arabic_markup": "<span class=\"arabic-root\">لَوْلَا</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">سْتَغْفِر</span><span class=\"nonroot\">ُونَ</span> <span class=\"arabic-root\">اللَّهَ</span>",
+            "hinglish": "Tum Allah se maghfirat kyun nahi maangte?",
+            "hinglish_meaning": "Tum Allah se maghfirat kyun nahi maangte?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tum Allah se maghfirat kyun nahi maangte?",
+              "ur": "Tum Allah se maghfirat kyun nahi maangte?",
+              "en": "Tum Allah se maghfirat kyun nahi maangte?",
+              "hi": "Tum Allah se maghfirat kyun nahi maangte?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w34",
+            "arabic": "فَلَوْلَا تَشْكُرُونَ",
+            "arabic_text": "فَلَوْلَا تَشْكُرُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">فَلَوْلَا</span> <span class=\"nonroot\">تَشْكُرُونَ</span>",
+            "hinglish": "Phir tum shukr kyun nahi karte?",
+            "hinglish_meaning": "Phir tum shukr kyun nahi karte?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Phir tum shukr kyun nahi karte?",
+              "en": "Then why do you not give thanks?",
+              "ur": "پھر تم شکر کیوں نہیں کرتے؟",
+              "hi": "फिर तुम शुक्र क्यों नहीं करते?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w35",
+            "arabic": "لَوْلَا تُسَبِّحُونَ",
+            "arabic_text": "لَوْلَا تُسَبِّحُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">لَوْلَا</span> <span class=\"nonroot\">تُسَبِّحُونَ</span>",
+            "hinglish": "Tum tasbeeh kyun nahi karte?",
+            "hinglish_meaning": "Tum tasbeeh kyun nahi karte?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tum tasbeeh kyun nahi karte?",
+              "en": "Why do you not exalt [Allah]?",
+              "ur": "تم تسبیح کیوں نہیں بیان کرتے؟",
+              "hi": "तुम तस्बीह क्यों नहीं बयान करते?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w36",
+            "arabic": "فَلَوْلَا تَذَكَّرُونَ",
+            "arabic_text": "فَلَوْلَا تَذَكَّرُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">فَلَوْلَا</span> <span class=\"nonroot\">تَذَكَّرُونَ</span>",
+            "hinglish": "Phir tum naseehat kyun nahi pakadte?",
+            "hinglish_meaning": "Phir tum naseehat kyun nahi pakadte?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Phir tum naseehat kyun nahi pakadte?",
+              "en": "Then why do you not take heed?",
+              "ur": "پھر تم کیوں نصیحت حاصل نہیں کرتے؟",
+              "hi": "फिर तुम क्यों नसीहत हासिल नहीं करते?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_grid_w37",
+            "arabic": "فَلَوْلَا تُصَدِّقُونَ",
+            "arabic_text": "فَلَوْلَا تُصَدِّقُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">فَلَوْلَا</span> <span class=\"nonroot\">تُصَدِّقُونَ</span>",
+            "hinglish": "Phir tum tasdeeq (sach) kyun nahi maante?",
+            "hinglish_meaning": "Phir tum tasdeeq (sach) kyun nahi maante?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Phir tum tasdeeq (sach) kyun nahi maante?",
+              "en": "Then why do you not admit the truth?",
+              "ur": "پھر تم سچ کیوں نہیں مانتے؟",
+              "hi": "फिर तुम सच क्यों नहीं मानते?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "section_label",
+      "text": "2. Qur'ani Aayaat: Seegha تَعْمَلُونَ ke 7 Muhaware (Pages 49–52)",
+      "title": "2. Qur'ani Aayaat: Seegha تَعْمَلُونَ ke 7 Muhaware (Pages 49–52)",
+      "label": "2. Qur'ani Aayaat: Seegha تَعْمَلُونَ ke 7 Muhaware (Pages 49–52)",
+      "data": {
+        "text": "2. Qur'ani Aayaat: Seegha تَعْمَلُونَ ke 7 Muhaware (Pages 49–52)",
+        "title": "2. Qur'ani Aayaat: Seegha تَعْمَلُونَ ke 7 Muhaware (Pages 49–52)",
+        "label": "2. Qur'ani Aayaat: Seegha تَعْمَلُونَ ke 7 Muhaware (Pages 49–52)"
+      }
+    },
+    {
+      "type": "two_col_numbered_list",
+      "is_numbered": true,
+      "items": [
+        {
+          "id": "s6l11_v_s1",
+          "sentence_number": 1,
+          "arabic": "يَا أَهْلَ الْكِتَابِ/ لِمَ تَكْفُرُونَ بِآيَاتِ اللَّهِ/ وَأَنْتُمْ تَشْهَدُونَ",
+          "arabic_text": "يَا أَهْلَ الْكِتَابِ/ لِمَ تَكْفُرُونَ بِآيَاتِ اللَّهِ/ وَأَنْتُمْ تَشْهَدُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">أَهْلَ</span> <span class=\"arabic-root\">الْكِتَابِ</span>/ <span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَكْفُرُونَ</span> <span class=\"arabic-root\">بِآيَاتِ</span> <span class=\"arabic-root\">اللَّهِ</span>/ <span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تَشْهَدُونَ</span>",
+          "hinglish": "Aye kitabo walon kyun tum kufr karte ho Allah ki aayat ka haalan-ke tum log gawah ho",
+          "hinglish_meaning": "Aye kitabo walon kyun tum kufr karte ho Allah ki aayat ka haalan-ke tum log gawah ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aye kitabo walon kyun tum kufr karte ho Allah ki aayat ka haalan-ke tum log gawah ho",
+            "en": "O People of the Scripture, why do you disbelieve in the verses of Allah while you witness [to their truth]?",
+            "ur": "اے اہلِ کتاب! تم اللہ کی آیات کا انکار کیوں کرتے ہو حالانکہ تم گواہی دیتے ہو؟",
+            "hi": "ऐ अहले किताब! तुम अल्लाह की आयात का इंकार क्यों करते हो हालाँकि तुम गवाही देते हो?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s2",
+          "sentence_number": 2,
+          "arabic": "يَا أَهْلَ الْكِتَابِ/ لِمَ تَلْبِسُونَ الْحَقَّ بِالْبَاطِلِ/ وَتَكْتُمُونَ الْحَقَّ/ وَأَنْتُمْ تَعْلَمُونَ",
+          "arabic_text": "يَا أَهْلَ الْكِتَابِ/ لِمَ تَلْبِسُونَ الْحَقَّ بِالْبَاطِلِ/ وَتَكْتُمُونَ الْحَقَّ/ وَأَنْتُمْ تَعْلَمُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">أَهْلَ</span> <span class=\"arabic-root\">الْكِتَابِ</span>/ <span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَلْبِسُونَ</span> <span class=\"arabic-root\">الْحَقَّ</span> <span class=\"arabic-root\">بِالْبَاطِلِ</span>/ <span class=\"arabic-root\">وَتَكْتُمُونَ</span> <span class=\"arabic-root\">الْحَقَّ</span>/ <span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تَعْلَمُونَ</span>",
+          "hinglish": "Aye kitabo walon kyun tum milaate ho haq ko baatil ke saath aur chhupaate ho haq ko haalan-ke tum jaante ho",
+          "hinglish_meaning": "Aye kitabo walon kyun tum milaate ho haq ko baatil ke saath aur chhupaate ho haq ko haalan-ke tum jaante ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aye kitabo walon kyun tum milaate ho haq ko baatil ke saath aur chhupaate ho haq ko haalan-ke tum jaante ho",
+            "en": "O People of the Scripture, why do you confuse the truth with falsehood and conceal the truth while you know [it]?",
+            "ur": "اے اہلِ کتاب! تم حق کو باطل کے ساتھ کیوں ملاتے ہو اور حق کو چھپاتے ہو حالانکہ تم جانتے ہو؟",
+            "hi": "ऐ अहले किताब! तुम हक़ को बातिल के साथ क्यों मिलाते हो और हक़ को छुपाते हो हालाँकि तुम जानते हो?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s3",
+          "sentence_number": 3,
+          "arabic": "أَتَأْمُرُونَ النَّاسَ بِالْبِرِّ/ وَتَنْسَوْنَ أَنْفُسَكُمْ/ وَأَنْتُمْ تَتْلُونَ الْكِتَابَ",
+          "arabic_text": "أَتَأْمُرُونَ النَّاسَ بِالْبِرِّ/ وَتَنْسَوْنَ أَنْفُسَكُمْ/ وَأَنْتُمْ تَتْلُونَ الْكِتَابَ",
+          "arabic_markup": "<span class=\"arabic-root\">أَتَأْمُرُونَ</span> <span class=\"arabic-root\">النَّاسَ</span> <span class=\"arabic-root\">بِالْبِرِّ</span>/ <span class=\"arabic-root\">وَتَنْسَوْنَ</span> <span class=\"arabic-root\">أَنْفُسَكُمْ</span>/ <span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تَتْلُونَ</span> <span class=\"arabic-root\">الْكِتَابَ</span>",
+          "hinglish": "Kya tum hukm dete ho logon ko bhalai ka aur bhool jaate ho apne aap ko haalan-ke tum log tilawat karte ho kitab ki",
+          "hinglish_meaning": "Kya tum hukm dete ho logon ko bhalai ka aur bhool jaate ho apne aap ko haalan-ke tum log tilawat karte ho kitab ki",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Kya tum hukm dete ho logon ko bhalai ka aur bhool jaate ho apne aap ko haalan-ke tum log tilawat karte ho kitab ki",
+            "en": "Do you order righteousness of the people and forget yourselves while you recite the Scripture?",
+            "ur": "کیا تم لوگوں کو نیکی کا حکم دیتے ہو اور اپنے آپ کو بھول جاتے ہو حالانکہ تم کتاب کی تلاوت کرتے ہو؟",
+            "hi": "क्या तुम लोगों को नेकी का हुक्म देते हो और अपने आप को भूल जाते हो हालाँकि तुम किताब की तिलावत करते हो?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s4",
+          "sentence_number": 4,
+          "arabic": "اللَّهُ يُنَجِّيكُمْ مِنْهَا وَمِنْ كُلِّ كَرْبٍ/ ثُمَّ أَنْتُمْ تُشْرِكُونَ",
+          "arabic_text": "اللَّهُ يُنَجِّيكُمْ مِنْهَا وَمِنْ كُلِّ كَرْبٍ/ ثُمَّ أَنْتُمْ تُشْرِكُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">يُنَجِّيكُمْ</span> <span class=\"arabic-root\">مِنْهَا</span> <span class=\"arabic-root\">وَمِنْ</span> <span class=\"arabic-root\">كُلِّ</span> <span class=\"arabic-root\">كَرْبٍ</span>/ <span class=\"arabic-root\">ثُمَّ</span> <span class=\"arabic-root\">أَنْتُمْ</span> <span class=\"nonroot\">تُشْرِكُونَ</span>",
+          "hinglish": "Allah tumhein nijat deta hai us se aur har takleef se phir tum log shirk karte ho",
+          "hinglish_meaning": "Allah tumhein nijat deta hai us se aur har takleef se phir tum log shirk karte ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Allah tumhein nijat deta hai us se aur har takleef se phir tum log shirk karte ho",
+            "en": "Allah rescues you from it and from every distress; then you associate others [with Him]",
+            "ur": "اللہ تمہیں اس سے اور ہر تکلیف سے نجات دیتا ہے، پھر تم شرک کرتے ہو",
+            "hi": "अल्लाह तुम्हें उससे और हर तकलीफ़ से नजात देता है, फिर तुम शिर्क करते हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s5",
+          "sentence_number": 5,
+          "arabic": "هَلْ هَذَا إِلَّا بَشَرٌ مِثْلُكُمْ/ أَفَتَأْتُونَ السِّحْرَ/ وَأَنْتُمْ تُبْصِرُونَ",
+          "arabic_text": "هَلْ هَذَا إِلَّا بَشَرٌ مِثْلُكُمْ/ أَفَتَأْتُونَ السِّحْرَ/ وَأَنْتُمْ تُبْصِرُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">هَلْ</span> <span class=\"arabic-root\">هَذَا</span> <span class=\"arabic-root\">إِلَّا</span> <span class=\"arabic-root\">بَشَرٌ</span> <span class=\"arabic-root\">مِثْلُكُمْ</span>/ <span class=\"arabic-root\">أَفَتَأْتُونَ</span> <span class=\"arabic-root\">السِّحْرَ</span>/ <span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تُبْصِرُونَ</span>",
+          "hinglish": "Kya yeh nahin hai magar ek insan tumhari tarah phir kya tum aate ho jadoo ke paas haalan-ke tum log dekh rahe ho",
+          "hinglish_meaning": "Kya yeh nahin hai magar ek insan tumhari tarah phir kya tum aate ho jadoo ke paas haalan-ke tum log dekh rahe ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Kya yeh nahin hai magar ek insan tumhari tarah phir kya tum aate ho jadoo ke paas haalan-ke tum log dekh rahe ho",
+            "en": "Is this [prophet] but a human being like you, so would you approach magic while you are aware?",
+            "ur": "کیا یہ نہیں ہے مگر ایک انسان تمہاری طرح، پھر کیا تم جادو کے پاس آتے ہو حالانکہ تم دیکھ رہے ہو؟",
+            "hi": "क्या यह नहीं है मगर एक इंसान तुम्हारी तरह, फिर क्या तुम जादू के पास आते हो हालाँकि तुम देख रहे हो?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s6",
+          "sentence_number": 6,
+          "arabic": "الْأَخِلَّاءُ يَوْمَئِذٍ بَعْضُهُمْ لِبَعْضٍ عَدُوٌّ إِلَّا الْمُتَّقِينَ. يَا عِبَادِ/ لَا خَوْفٌ عَلَيْكُمُ الْيَوْمَ/ وَلَا أَنْتُمْ تَحْزَنُونَ",
+          "arabic_text": "الْأَخِلَّاءُ يَوْمَئِذٍ بَعْضُهُمْ لِبَعْضٍ عَدُوٌّ إِلَّا الْمُتَّقِينَ. يَا عِبَادِ/ لَا خَوْفٌ عَلَيْكُمُ الْيَوْمَ/ وَلَا أَنْتُمْ تَحْزَنُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">الْأَخِلَّاءُ</span> <span class=\"arabic-root\">يَوْمَئِذٍ</span> <span class=\"arabic-root\">بَعْضُهُمْ</span> <span class=\"arabic-root\">لِبَعْضٍ</span> <span class=\"arabic-root\">عَدُوٌّ</span> <span class=\"arabic-root\">إِلَّا</span> <span class=\"arabic-root\">الْمُتَّقِينَ</span>. <span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">عِبَادِ</span>/ <span class=\"arabic-root\">لَا</span> <span class=\"arabic-root\">خَوْفٌ</span> <span class=\"arabic-root\">عَلَيْكُمُ</span> <span class=\"arabic-root\">الْيَوْمَ</span>/ <span class=\"arabic-root\">وَلَا</span> <span class=\"arabic-root\">أَنْتُمْ</span> <span class=\"nonroot\">تَحْزَنُونَ</span>",
+          "hinglish": "Gahre dost us din ek doosre ke dushman honge siwaye muttaqeen ke. Aye mere bando koi khauf nahin tum par aaj ke din aur na tum log ghamgin ho ge",
+          "hinglish_meaning": "Gahre dost us din ek doosre ke dushman honge siwaye muttaqeen ke. Aye mere bando koi khauf nahin tum par aaj ke din aur na tum log ghamgin ho ge",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Gahre dost us din ek doosre ke dushman honge siwaye muttaqeen ke. Aye mere bando koi khauf nahin tum par aaj ke din aur na tum log ghamgin ho ge",
+            "en": "Close friends, that Day, will be enemies to each other, except for the righteous. [To whom Allah will say], \"O My servants, no fear will there be concerning you this Day, nor will you grieve\"",
+            "ur": "گہرے دوست اس دن ایک دوسرے کے دشمن ہوں گے سوائے پرہیزگاروں کے۔ اے میرے بندو! کوئی خوف نہیں تم پر آج کے دن اور نہ تم غمگین ہو گے",
+            "hi": "गहरे दोस्त उस दिन एक दूसरे के दुश्मन होंगे सिवाए परहेज़गारों के। ऐ मेरे बन्दो! कोई ख़ौफ़ नहीं तुम पर आज के दिन और न तुम ग़मगीन होगे",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s7",
+          "sentence_number": 7,
+          "arabic": "لَهُمْ عَذَابٌ أَلِيمٌ فِي الدُّنْيَا وَالْآخِرَةِ/ وَاللَّهُ يَعْلَمُ/ وَأَنْتُمْ لَا تَعْلَمُونَ",
+          "arabic_text": "لَهُمْ عَذَابٌ أَلِيمٌ فِي الدُّنْيَا وَالْآخِرَةِ/ وَاللَّهُ يَعْلَمُ/ وَأَنْتُمْ لَا تَعْلَمُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">لَهُمْ</span> <span class=\"arabic-root\">عَذَابٌ</span> <span class=\"arabic-root\">أَلِيمٌ</span> <span class=\"arabic-root\">فِي</span> <span class=\"arabic-root\">الدُّنْيَا</span> <span class=\"arabic-root\">وَالْآخِرَةِ</span>/ <span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"arabic-root\">يَعْلَمُ</span>/ <span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"arabic-root\">لَا</span> <span class=\"nonroot\">تَعْلَمُونَ</span>",
+          "hinglish": "Unke liye dardnaak azab hai duniya aur aakhirat mein aur Allah jaanta hai aur tum log nahin jaante",
+          "hinglish_meaning": "Unke liye dardnaak azab hai duniya aur aakhirat mein aur Allah jaanta hai aur tum log nahin jaante",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Unke liye dardnaak azab hai duniya aur aakhirat mein aur Allah jaanta hai aur tum log nahin jaante",
+            "en": "For them is a painful punishment in this world and the Hereafter. And Allah knows, while you do not know",
+            "ur": "ان کے لیے دردناک عذاب ہے دنیا اور آخرت میں، اور اللہ جانتا ہے اور تم نہیں جانتے",
+            "hi": "उनके लिए दर्दनाक अज़ाब है दुनिया और आख़िरत में, और अल्लाह जानता है और तुम नहीं जानते",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s8",
+          "sentence_number": 8,
+          "arabic": "أَفَتَأْتُونَ السِّحْرَ/ وَأَنْتُمْ تُبْصِرُونَ",
+          "arabic_text": "أَفَتَأْتُونَ السِّحْرَ/ وَأَنْتُمْ تُبْصِرُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">أَفَتَأْتُونَ</span> <span class=\"arabic-root\">السِّحْرَ</span>/ <span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تُبْصِرُونَ</span>",
+          "hinglish": "Phir kya tum aate ho jadoo ke paas haalan-ke tum log dekh rahe ho",
+          "hinglish_meaning": "Phir kya tum aate ho jadoo ke paas haalan-ke tum log dekh rahe ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Phir kya tum aate ho jadoo ke paas haalan-ke tum log dekh rahe ho",
+            "en": "So would you approach magic while you are aware?",
+            "ur": "پھر کیا تم جادو کے پاس آتے ہو حالانکہ تم دیکھ رہے ہو؟",
+            "hi": "फिर क्या तुम जादू के पास आते हो हालाँकि तुम देख रहे हो?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s9",
+          "sentence_number": 9,
+          "arabic": "أَتَأْتُونَ الْفَاحِشَةَ/ وَأَنْتُمْ تُبْصِرُونَ",
+          "arabic_text": "أَتَأْتُونَ الْفَاحِشَةَ/ وَأَنْتُمْ تُبْصِرُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">أَتَأْتُونَ</span> <span class=\"arabic-root\">الْفَاحِشَةَ</span>/ <span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تُبْصِرُونَ</span>",
+          "hinglish": "Kya tum aate ho be-hayai ke paas haalan-ke tum log dekh rahe ho",
+          "hinglish_meaning": "Kya tum aate ho be-hayai ke paas haalan-ke tum log dekh rahe ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Kya tum aate ho be-hayai ke paas haalan-ke tum log dekh rahe ho",
+            "en": "Do you commit immorality while you are seeing?",
+            "ur": "کیا تم بے حیائی کا کام کرتے ہو حالانکہ تم دیکھ رہے ہو؟",
+            "hi": "क्या तुम बेहयाई का काम करते हो हालाँकि तुम देख रहे हो?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s10",
+          "sentence_number": 10,
+          "arabic": "لَا خَوْفٌ عَلَيْكُمْ/ وَلَا أَنْتُمْ تَحْزَنُونَ",
+          "arabic_text": "لَا خَوْفٌ عَلَيْكُمْ/ وَلَا أَنْتُمْ تَحْزَنُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">لَا</span> <span class=\"arabic-root\">خَوْفٌ</span> <span class=\"arabic-root\">عَلَيْكُمْ</span>/ <span class=\"arabic-root\">وَلَا</span> <span class=\"arabic-root\">أَنْتُمْ</span> <span class=\"nonroot\">تَحْزَنُونَ</span>",
+          "hinglish": "Koi khauf nahin tum par aur na tum log ghamgin ho ge",
+          "hinglish_meaning": "Koi khauf nahin tum par aur na tum log ghamgin ho ge",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Koi khauf nahin tum par aur na tum log ghamgin ho ge",
+            "en": "No fear will there be concerning you, nor will you grieve",
+            "ur": "کوئی خوف نہیں تم پر اور نہ تم غمگین ہو گے",
+            "hi": "कोई ख़ौफ़ नहीं तुम पर और न तुम ग़मगीन होगे",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s11",
+          "sentence_number": 11,
+          "arabic": "وَأَجَلٌ مُسَمًّى عِنْدَهُ/ ثُمَّ أَنْتُمْ تَمْتَرُونَ",
+          "arabic_text": "وَأَجَلٌ مُسَمًّى عِنْدَهُ/ ثُمَّ أَنْتُمْ تَمْتَرُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">وَأَجَلٌ</span> <span class=\"arabic-root\">مُسَمًّى</span> <span class=\"arabic-root\">عِنْدَهُ</span>/ <span class=\"arabic-root\">ثُمَّ</span> <span class=\"arabic-root\">أَنْتُمْ</span> <span class=\"nonroot\">تَمْتَرُونَ</span>",
+          "hinglish": "Aur ek muqarrarah muddat hai uske paas phir tum log shak karte ho",
+          "hinglish_meaning": "Aur ek muqarrarah muddat hai uske paas phir tum log shak karte ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur ek muqarrarah muddat hai uske paas phir tum log shak karte ho",
+            "en": "And a specified time [is known] to Him; then you [still] doubt",
+            "ur": "اور ایک مقررہ مدت ہے اس کے پاس، پھر تم شک کرتے ہو",
+            "hi": "और एक मुक़र्ररह मुद्दत है उसके पास, फिर तुम शक करते हो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s12",
+          "sentence_number": 12,
+          "arabic": "كَذٰلِكَ يُبَيِّنُ اللَّهُ لَكُمْ آيَاتِهِ/ لَعَلَّكُمْ تَشْكُرُونَ",
+          "arabic_text": "كَذٰلِكَ يُبَيِّنُ اللَّهُ لَكُمْ آيَاتِهِ/ لَعَلَّكُمْ تَشْكُرُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">كَذٰلِكَ</span> <span class=\"arabic-root\">يُبَيِّنُ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">لَكُمْ</span> <span class=\"arabic-root\">آيَاتِهِ</span>/ <span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تَشْكُرُونَ</span>",
+          "hinglish": "Isi tarah bayan karta hai Allah tumhare liye apni nishaniyan taake tum log shukr karo",
+          "hinglish_meaning": "Isi tarah bayan karta hai Allah tumhare liye apni nishaniyan taake tum log shukr karo",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Isi tarah bayan karta hai Allah tumhare liye apni nishaniyan taake tum log shukr karo",
+            "en": "Thus does Allah make clear to you His verses that perhaps you would be grateful",
+            "ur": "اسی طرح بیان کرتا ہے اللہ تمہارے لیے اپنی نشانیاں تاکہ تم شکر کرو",
+            "hi": "इसी तरह बयान करता है अल्लाह तुम्हारे लिए अपनी निशानियाँ ताकि तुम शुक्र करो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s13",
+          "sentence_number": 13,
+          "arabic": "كَذٰلِكَ يُبَيِّنُ اللَّهُ لَكُمْ الْآيَاتِ/ لَعَلَّكُمْ تَعْقِلُونَ",
+          "arabic_text": "كَذٰلِكَ يُبَيِّنُ اللَّهُ لَكُمْ الْآيَاتِ/ لَعَلَّكُمْ تَعْقِلُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">كَذٰلِكَ</span> <span class=\"arabic-root\">يُبَيِّنُ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">لَكُمْ</span> <span class=\"arabic-root\">الْآيَاتِ</span>/ <span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تَعْقِلُونَ</span>",
+          "hinglish": "Isi tarah bayan karta hai Allah tumhare liye nishaniyan taake tum log aql se kaam lo",
+          "hinglish_meaning": "Isi tarah bayan karta hai Allah tumhare liye nishaniyan taake tum log aql se kaam lo",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Isi tarah bayan karta hai Allah tumhare liye nishaniyan taake tum log aql se kaam lo",
+            "en": "Thus does Allah make clear to you the verses that perhaps you would understand",
+            "ur": "اسی طرح بیان کرتا ہے اللہ تمہارے لیے نشانیاں تاکہ تم عقل سے کام لو",
+            "hi": "इसी तरह बयान करता है अल्लाह तुम्हारे लिए निशानियाँ ताकि तुम अक़्ल से काम लो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s14",
+          "sentence_number": 14,
+          "arabic": "كَذٰلِكَ يُبَيِّنُ اللَّهُ لَكُمْ آيَاتِهِ/ لَعَلَّكُمْ تَعْقِلُونَ",
+          "arabic_text": "كَذٰلِكَ يُبَيِّنُ اللَّهُ لَكُمْ آيَاتِهِ/ لَعَلَّكُمْ تَعْقِلُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">كَذٰلِكَ</span> <span class=\"arabic-root\">يُبَيِّنُ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">لَكُمْ</span> <span class=\"arabic-root\">آيَاتِهِ</span>/ <span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تَعْقِلُونَ</span>",
+          "hinglish": "Isi tarah bayan karta hai Allah tumhare liye apni nishaniyan taake tum log aql se kaam lo",
+          "hinglish_meaning": "Isi tarah bayan karta hai Allah tumhare liye apni nishaniyan taake tum log aql se kaam lo",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Isi tarah bayan karta hai Allah tumhare liye apni nishaniyan taake tum log aql se kaam lo",
+            "en": "Thus does Allah make clear to you His verses that perhaps you would understand",
+            "ur": "اسی طرح بیان کرتا ہے اللہ تمہارے لیے اپنی نشانیاں تاکہ تم عقل سے کام لو",
+            "hi": "इसी तरह बयान करता है अल्लाह तुम्हारे लिए अपनी निशानियाँ ताकि तुम अक़्ल से काम लो",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s15",
+          "sentence_number": 15,
+          "arabic": "كَذٰلِكَ يُبَيِّنُ اللَّهُ لَكُمْ آيَاتِهِ/ لَعَلَّكُمْ تَهْتَدُونَ",
+          "arabic_text": "كَذٰلِكَ يُبَيِّنُ اللَّهُ لَكُمْ آيَاتِهِ/ لَعَلَّكُمْ تَهْتَدُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">كَذٰلِكَ</span> <span class=\"arabic-root\">يُبَيِّنُ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">لَكُمْ</span> <span class=\"arabic-root\">آيَاتِهِ</span>/ <span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تَهْتَدُونَ</span>",
+          "hinglish": "Isi tarah bayan karta hai Allah tumhare liye apni nishaniyan taake tum log hidayat pa jao",
+          "hinglish_meaning": "Isi tarah bayan karta hai Allah tumhare liye apni nishaniyan taake tum log hidayat pa jao",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Isi tarah bayan karta hai Allah tumhare liye apni nishaniyan taake tum log hidayat pa jao",
+            "en": "Thus does Allah make clear to you His verses that perhaps you would be guided",
+            "ur": "اسی طرح بیان کرتا ہے اللہ تمہارے لیے اپنی نشانیاں تاکہ تم ہدایت پا جاؤ",
+            "hi": "इसी तरह बयान करता है अल्लाह तुम्हारे लिए अपनी निशानियाँ ताकि तुम हिदायत पा जाओ",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s16",
+          "sentence_number": 16,
+          "arabic": "وَمَا لَكُمْ / لَا تُؤْمِنُونَ بِاللهِ",
+          "arabic_text": "وَمَا لَكُمْ / لَا تُؤْمِنُونَ بِاللهِ",
+          "arabic_markup": "<span class=\"nonroot\">وَمَا</span> <span class=\"nonroot\">لَكُمْ</span> / <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تُؤْمِنُونَ</span> <span class=\"arabic-root\">بِاللهِ</span>",
+          "hinglish": "Aur tumhein kya hua hai tum Allah par imaan nahin laate",
+          "hinglish_meaning": "Aur tumhein kya hua hai tum Allah par imaan nahin laate",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur tumhein kya hua hai tum Allah par imaan nahin laate",
+            "en": "And what is [the matter] with you that you do not believe in Allah?",
+            "ur": "اور تمہیں کیا ہوا ہے کہ تم اللہ پر ایمان نہیں لاتے؟",
+            "hi": "और तुम्हें क्या हुआ है कि तुम अल्लाह पर ईमान नहीं लाते?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s17",
+          "sentence_number": 17,
+          "arabic": "وَمَا لَكُمْ / لَا تُقَاتِلُونَ فِي سَبِيلِ اللهِ",
+          "arabic_text": "وَمَا لَكُمْ / لَا تُقَاتِلُونَ فِي سَبِيلِ اللهِ",
+          "arabic_markup": "<span class=\"nonroot\">وَمَا</span> <span class=\"nonroot\">لَكُمْ</span> / <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تُقَاتِلُونَ</span> <span class=\"arabic-root\">فِي</span> <span class=\"arabic-root\">سَبِيلِ</span> <span class=\"arabic-root\">اللهِ</span>",
+          "hinglish": "Aur tumhein kya hua hai tum Allah ke raaste mein nahin larte",
+          "hinglish_meaning": "Aur tumhein kya hua hai tum Allah ke raaste mein nahin larte",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur tumhein kya hua hai tum Allah ke raaste mein nahin larte",
+            "en": "And what is [the matter] with you that you fight not in the cause of Allah?",
+            "ur": "اور تمہیں کیا ہوا ہے کہ تم اللہ کے راستے میں نہیں لڑتے؟",
+            "hi": "और तुम्हें क्या हुआ है कि तुम अल्लाह के रास्ते में नहीं लड़ते?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s18",
+          "sentence_number": 18,
+          "arabic": "مَا لَكُمْ / كَيْفَ تَحْكُمُونَ",
+          "arabic_text": "مَا لَكُمْ / كَيْفَ تَحْكُمُونَ",
+          "arabic_markup": "<span class=\"nonroot\">مَا</span> <span class=\"nonroot\">لَكُمْ</span> / <span class=\"nonroot\">كَيْفَ</span> <span class=\"nonroot\">تَحْكُمُونَ</span>",
+          "hinglish": "Tumhein kya hua hai tum kaisa faisla karte ho",
+          "hinglish_meaning": "Tumhein kya hua hai tum kaisa faisla karte ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tumhein kya hua hai tum kaisa faisla karte ho",
+            "en": "What is [the matter] with you? How do you judge?",
+            "ur": "تمہیں کیا ہوا ہے، تم کیسا فیصلہ کرتے ہو؟",
+            "hi": "तुम्हें क्या हुआ है, तुम कैसा फ़ैसला करते हो?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s19",
+          "sentence_number": 19,
+          "arabic": "مَا لَكُمْ لَا تَرْجُونَ لِلَّهِ وَقَارًا",
+          "arabic_text": "مَا لَكُمْ لَا تَرْجُونَ لِلَّهِ وَقَارًا",
+          "arabic_markup": "<span class=\"nonroot\">مَا</span> <span class=\"nonroot\">لَكُمْ</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَرْجُونَ</span> <span class=\"arabic-root\">لِلَّهِ</span> <span class=\"arabic-root\">وَقَارًا</span>",
+          "hinglish": "Tumhein kya hua hai tum Allah ki azmat ka khayal nahin rakhte",
+          "hinglish_meaning": "Tumhein kya hua hai tum Allah ki azmat ka khayal nahin rakhte",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tumhein kya hua hai tum Allah ki azmat ka khayal nahin rakhte",
+            "en": "What is [the matter] with you that you do not attribute to Allah [due] grandeur?",
+            "ur": "تمہیں کیا ہوا ہے کہ تم اللہ کی عظمت کا خیال نہیں رکھتے؟",
+            "hi": "तुम्हें क्या हुआ है कि तुम अल्लाह की अज़्मत का ख़याल नहीं रखते?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s20",
+          "sentence_number": 20,
+          "arabic": "مَا لَكُمْ / كَيْفَ تَحْكُمُونَ / أَفَلَا تَذَكَّرُونَ",
+          "arabic_text": "مَا لَكُمْ / كَيْفَ تَحْكُمُونَ / أَفَلَا تَذَكَّرُونَ",
+          "arabic_markup": "<span class=\"nonroot\">مَا</span> <span class=\"nonroot\">لَكُمْ</span> / <span class=\"nonroot\">كَيْفَ</span> <span class=\"nonroot\">تَحْكُمُونَ</span> / <span class=\"nonroot\">أَفَلَا</span> <span class=\"nonroot\">تَذَكَّرُونَ</span>",
+          "hinglish": "Tumhein kya hua hai tum kaisa faisla karte ho kya phir tum naseehat haasil nahin karte",
+          "hinglish_meaning": "Tumhein kya hua hai tum kaisa faisla karte ho kya phir tum naseehat haasil nahin karte",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tumhein kya hua hai tum kaisa faisla karte ho kya phir tum naseehat haasil nahin karte",
+            "en": "What is [the matter] with you? How do you judge? Then will you not be reminded?",
+            "ur": "تمہیں کیا ہوا ہے، تم کیسا فیصلہ کرتے ہو، کیا پھر تم نصیحت حاصل نہیں کرتے؟",
+            "hi": "तुम्हें क्या हुआ है, तुम कैसा फ़ैसला करते हो, क्या फिर तुम नसीहत हासिल नहीं करते?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s21",
+          "sentence_number": 21,
+          "arabic": "مَا لَكُمْ / لَا تَنْطِقُونَ",
+          "arabic_text": "مَا لَكُمْ / لَا تَنْطِقُونَ",
+          "arabic_markup": "<span class=\"nonroot\">مَا</span> <span class=\"nonroot\">لَكُمْ</span> / <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَنْطِقُونَ</span>",
+          "hinglish": "Tumhein kya hua hai tum bolte nahin",
+          "hinglish_meaning": "Tumhein kya hua hai tum bolte nahin",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tumhein kya hua hai tum bolte nahin",
+            "en": "What is [the matter] with you that you do not speak?",
+            "ur": "تمہیں کیا ہوا ہے کہ تم بولتے نہیں؟",
+            "hi": "तुम्हें क्या हुआ है कि तुम बोलते नहीं?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s22",
+          "sentence_number": 22,
+          "arabic": "مَا لَكُمْ / لَا تَنَاصَرُونَ",
+          "arabic_text": "مَا لَكُمْ / لَا تَنَاصَرُونَ",
+          "arabic_markup": "<span class=\"nonroot\">مَا</span> <span class=\"nonroot\">لَكُمْ</span> / <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَنَاصَرُونَ</span>",
+          "hinglish": "Tumhein kya hua hai tum aapas mein ek doosre ki madad nahin karte",
+          "hinglish_meaning": "Tumhein kya hua hai tum aapas mein ek doosre ki madad nahin karte",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tumhein kya hua hai tum aapas mein ek doosre ki madad nahin karte",
+            "en": "What is [the matter] with you that you do not help each other?",
+            "ur": "تمہیں کیا ہوا ہے کہ تم آپس میں ایک دوسرے کی مدد نہیں کرتے؟",
+            "hi": "तुम्हें क्या हुआ है कि तुम आपस में एक दूसरे की मदद नहीं करते?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s23",
+          "sentence_number": 23,
+          "arabic": "فَلِمَ تَقْتُلُونَ أَنْبِيَاءَ اللهِ مِنْ قَبْلُ",
+          "arabic_text": "فَلِمَ تَقْتُلُونَ أَنْبِيَاءَ اللهِ مِنْ قَبْلُ",
+          "arabic_markup": "<span class=\"arabic-root\">فَلِمَ</span> <span class=\"nonroot\">تَقْتُلُونَ</span> <span class=\"arabic-root\">أَنْبِيَاءَ</span> <span class=\"arabic-root\">اللهِ</span> <span class=\"arabic-root\">مِنْ</span> <span class=\"arabic-root\">قَبْلُ</span>",
+          "hinglish": "Phir tum is se pehle Allah ke Nabiyon ko kyun qatl karte thay?",
+          "hinglish_meaning": "Phir tum is se pehle Allah ke Nabiyon ko kyun qatl karte thay?",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Phir tum is se pehle Allah ke Nabiyon ko kyun qatl karte thay?",
+            "en": "Then why did you kill the prophets of Allah before?",
+            "ur": "پھر تم اس سے پہلے اللہ کے نبیوں کو کیوں قتل کرتے تھے؟",
+            "hi": "फिर तुम इससे पहले अल्लाह के नबियों को क्यों क़त्ल करते थे?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s24",
+          "sentence_number": 24,
+          "arabic": "يَا أَهْلَ الْكِتَابِ / لِمَ تَكْفُرُونَ بِآيَاتِ اللهِ",
+          "arabic_text": "يَا أَهْلَ الْكِتَابِ / لِمَ تَكْفُرُونَ بِآيَاتِ اللهِ",
+          "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">أَهْلَ</span> <span class=\"arabic-root\">الْكِتَابِ</span> / <span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَكْفُرُونَ</span> <span class=\"arabic-root\">بِآيَاتِ</span> <span class=\"arabic-root\">اللهِ</span>",
+          "hinglish": "Ae Ahle Kitaab tum Allah ki aayaat ka inkaar kyun karte ho",
+          "hinglish_meaning": "Ae Ahle Kitaab tum Allah ki aayaat ka inkaar kyun karte ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Ae Ahle Kitaab tum Allah ki aayaat ka inkaar kyun karte ho",
+            "en": "O People of the Scripture, why do you disbelieve in the verses of Allah?",
+            "ur": "اے اہلِ کتاب! تم اللہ کی آیات کا انکار کیوں کرتے ہو؟",
+            "hi": "ऐ अहले किताब! तुम अल्लाह की आयात का इंकार क्यों करते हो?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s25",
+          "sentence_number": 25,
+          "arabic": "يَا أَهْلَ الْكِتَابِ لِمَ تَصُدُّونَ عَنْ سَبِيلِ اللهِ",
+          "arabic_text": "يَا أَهْلَ الْكِتَابِ لِمَ تَصُدُّونَ عَنْ سَبِيلِ اللهِ",
+          "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">أَهْلَ</span> <span class=\"arabic-root\">الْكِتَابِ</span> <span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَصُدُّونَ</span> <span class=\"arabic-root\">عَنْ</span> <span class=\"arabic-root\">سَبِيلِ</span> <span class=\"arabic-root\">اللهِ</span>",
+          "hinglish": "Ae Ahle Kitaab tum Allah ke raaste se kyun rokte ho",
+          "hinglish_meaning": "Ae Ahle Kitaab tum Allah ke raaste se kyun rokte ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Ae Ahle Kitaab tum Allah ke raaste se kyun rokte ho",
+            "en": "O People of the Scripture, why do you avert [people] from the way of Allah?",
+            "ur": "اے اہلِ کتاب! تم اللہ کے راستے سے کیوں روکتے ہو؟",
+            "hi": "ऐ अहले किताब! तुम अल्लाह के रास्ते से क्यों रोकते हो?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s26",
+          "sentence_number": 26,
+          "arabic": "لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ",
+          "arabic_text": "لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَقُولُونَ</span> <span class=\"nonroot\">مَا</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَفْعَلُونَ</span>",
+          "hinglish": "Tum woh baat kyun kehte ho jo tum karte nahin",
+          "hinglish_meaning": "Tum woh baat kyun kehte ho jo tum karte nahin",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tum woh baat kyun kehte ho jo tum karte nahin",
+            "en": "Why do you say what you do not do?",
+            "ur": "تم وہ بات کیوں کہتے ہو جو تم کرتے نہیں؟",
+            "hi": "तुम वह बात क्यों कहते हो जो तुम करते नहीं?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s27",
+          "sentence_number": 27,
+          "arabic": "يَا أَهْلَ الْكِتَابِ لِمَ تُحَاجُّونَ فِي إِبْرَاهِيمَ",
+          "arabic_text": "يَا أَهْلَ الْكِتَابِ لِمَ تُحَاجُّونَ فِي إِبْرَاهِيمَ",
+          "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">أَهْلَ</span> <span class=\"arabic-root\">الْكِتَابِ</span> <span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تُحَاجُّونَ</span> <span class=\"arabic-root\">فِي</span> <span class=\"arabic-root\">إِبْرَاهِيمَ</span>",
+          "hinglish": "Ae Ahle Kitaab tum Ibrahim (A.S.) ke baare mein kyun jhagadte ho",
+          "hinglish_meaning": "Ae Ahle Kitaab tum Ibrahim (A.S.) ke baare mein kyun jhagadte ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Ae Ahle Kitaab tum Ibrahim (A.S.) ke baare mein kyun jhagadte ho",
+            "en": "O People of the Scripture, why do you argue about Abraham?",
+            "ur": "اے اہلِ کتاب! تم ابراہیم (علیہ السلام) کے بارے میں کیوں جھگڑتے ہو؟",
+            "hi": "ऐ अहले किताब! तुम इब्राहीम (अलैहिस्सलाम) के बारे में क्यों झगड़ते हो?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s28",
+          "sentence_number": 28,
+          "arabic": "فَلِمَ تُحَاجُّونَ / فِيمَا / لَيْسَ لَكُمْ بِهِ عِلْمٌ",
+          "arabic_text": "فَلِمَ تُحَاجُّونَ / فِيمَا / لَيْسَ لَكُمْ بِهِ عِلْمٌ",
+          "arabic_markup": "<span class=\"arabic-root\">فَلِمَ</span> <span class=\"nonroot\">تُحَاجُّونَ</span> / <span class=\"arabic-root\">فِيمَا</span> / <span class=\"arabic-root\">لَيْسَ</span> <span class=\"nonroot\">لَكُمْ</span> <span class=\"arabic-root\">بِهِ</span> <span class=\"arabic-root\">عِلْمٌ</span>",
+          "hinglish": "phir tum kyun jhagadte ho us baare mein jiska tumhein koi ilm nahin",
+          "hinglish_meaning": "phir tum kyun jhagadte ho us baare mein jiska tumhein koi ilm nahin",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "phir tum kyun jhagadte ho us baare mein jiska tumhein koi ilm nahin",
+            "en": "Then why do you argue about that whereof you have no knowledge?",
+            "ur": "پھر تم کیوں جھگڑتے ہو اس بارے میں جس کا تمہیں کوئی علم نہیں؟",
+            "hi": "फिर तुम क्यों झगड़ते हो उस बारे में जिसका तुम्हें कोई इल्म नहीं?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s29",
+          "sentence_number": 29,
+          "arabic": "لِمَ تَعِظُونَ قَوْمًا / اللهُ مُهْلِكُهُمْ أَوْ مُعَذِّبُهُمْ",
+          "arabic_text": "لِمَ تَعِظُونَ قَوْمًا / اللهُ مُهْلِكُهُمْ أَوْ مُعَذِّبُهُمْ",
+          "arabic_markup": "<span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَعِظُونَ</span> <span class=\"arabic-root\">قَوْمًا</span> / <span class=\"arabic-root\">اللهُ</span> <span class=\"arabic-root\">مُهْلِكُهُمْ</span> <span class=\"arabic-root\">أَوْ</span> <span class=\"arabic-root\">مُعَذِّبُهُمْ</span>",
+          "hinglish": "Tum aisi qom ko kyun naseehat karte ho jise Allah halak karne wala hai ya unhein azab dene wala hai",
+          "hinglish_meaning": "Tum aisi qom ko kyun naseehat karte ho jise Allah halak karne wala hai ya unhein azab dene wala hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tum aisi qom ko kyun naseehat karte ho jise Allah halak karne wala hai ya unhein azab dene wala hai",
+            "en": "Why do you advise a people whom Allah is [about] to destroy or to punish?",
+            "ur": "تم ایسی قوم کو کیوں نصیحت کرتے ہو جسے اللہ ہلاک کرنے والا ہے یا انہیں عذاب دینے والا ہے؟",
+            "hi": "तुम ऐसी क़ौम को क्यों नसीहत करते हो जिसे अल्लाह हलाक करने वाला है या उन्हें अज़ाब देने वाला है?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s30",
+          "sentence_number": 30,
+          "arabic": "يَا قَوْمِ لِمَ تَسْتَعْجِلُونَ بِالسَّيِّئَةِ قَبْلَ الْحَسَنَةِ",
+          "arabic_text": "يَا قَوْمِ لِمَ تَسْتَعْجِلُونَ بِالسَّيِّئَةِ قَبْلَ الْحَسَنَةِ",
+          "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">قَوْمِ</span> <span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَسْتَعْجِلُونَ</span> <span class=\"arabic-root\">بِالسَّيِّئَةِ</span> <span class=\"arabic-root\">قَبْلَ</span> <span class=\"arabic-root\">الْحَسَنَةِ</span>",
+          "hinglish": "Ae meri qom tum bhalai se pehle burai ki jaldi kyun maangte ho",
+          "hinglish_meaning": "Ae meri qom tum bhalai se pehle burai ki jaldi kyun maangte ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Ae meri qom tum bhalai se pehle burai ki jaldi kyun maangte ho",
+            "en": "O my people, why are you impatient for evil before good?",
+            "ur": "اے میری قوم! تم بھلائی سے پہلے برائی کی جلدی کیوں مانگتے ہو؟",
+            "hi": "ऐ मेरी क़ौम! तुम भलाई से पहले बुराई की जल्दी क्यों मांगते हो?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s31",
+          "sentence_number": 31,
+          "arabic": "لَوْلَا تَسْتَغْفِرُونَ اللهَ",
+          "arabic_text": "لَوْلَا تَسْتَغْفِرُونَ اللهَ",
+          "arabic_markup": "<span class=\"arabic-root\">لَوْلَا</span> <span class=\"nonroot\">تَسْتَغْفِرُونَ</span> <span class=\"arabic-root\">اللهَ</span>",
+          "hinglish": "Tum Allah se maghfirat kyun nahin maangte",
+          "hinglish_meaning": "Tum Allah se maghfirat kyun nahin maangte",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Tum Allah se maghfirat kyun nahin maangte",
+            "en": "Why do you not seek forgiveness of Allah?",
+            "ur": "تم اللہ سے مغفرت کیوں نہیں مانگتے؟",
+            "hi": "तुम अल्लाह से मग़फ़िरत क्यों नहीं मांगते?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s32",
+          "sentence_number": 32,
+          "arabic": "يَا قَوْمِ لِمَ تَسْتَعْجِلُونَ بِالسَّيِّئَةِ قَبْلَ الْحَسَنَةِ / لَوْلَا تَسْتَغْفِرُونَ اللهَ",
+          "arabic_text": "يَا قَوْمِ لِمَ تَسْتَعْجِلُونَ بِالسَّيِّئَةِ قَبْلَ الْحَسَنَةِ / لَوْلَا تَسْتَغْفِرُونَ اللهَ",
+          "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">قَوْمِ</span> <span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَسْتَعْجِلُونَ</span> <span class=\"arabic-root\">بِالسَّيِّئَةِ</span> <span class=\"arabic-root\">قَبْلَ</span> <span class=\"arabic-root\">الْحَسَنَةِ</span> / <span class=\"arabic-root\">لَوْلَا</span> <span class=\"nonroot\">تَسْتَغْفِرُونَ</span> <span class=\"arabic-root\">اللهَ</span>",
+          "hinglish": "Ae meri qom tum bhalai se pehle burai ki jaldi kyun maangte ho tum Allah se maghfirat kyun nahin maangte",
+          "hinglish_meaning": "Ae meri qom tum bhalai se pehle burai ki jaldi kyun maangte ho tum Allah se maghfirat kyun nahin maangte",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Ae meri qom tum bhalai se pehle burai ki jaldi kyun maangte ho tum Allah se maghfirat kyun nahin maangte",
+            "en": "O my people, why are you impatient for evil before good? Why do you not seek forgiveness of Allah?",
+            "ur": "اے میری قوم! تم بھلائی سے پہلے برائی کی جلدی کیوں مانگتے ہو، تم اللہ سے مغفرت کیوں نہیں مانگتے؟",
+            "hi": "ऐ मेरी क़ौम! तुम भलाई से पहले बुराई की जल्दी क्यों मांगते हो, तुम अल्लाह से मग़फ़िरत क्यों नहीं मांगते?",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s33",
+          "sentence_number": 33,
+          "arabic": "كُلُوا وَاشْرَبُوا هَنِيئًا بِمَا كُنْتُمْ تَعْمَلُونَ",
+          "arabic_text": "كُلُوا وَاشْرَبُوا هَنِيئًا بِمَا كُنْتُمْ تَعْمَلُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">كُل</span><span class=\"nonroot\">ُوا</span> <span class=\"arabic-root\">وَاشْرَب</span><span class=\"nonroot\">ُوا</span> <span class=\"arabic-root\">هَنِيئًا</span> <span class=\"arabic-root\">بِمَا</span> <span class=\"nonroot\">كُنْتُمْ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">عْمَل</span><span class=\"nonroot\">ُونَ</span>",
+          "hinglish": "Khao aur piyo khush-gawaari ke saath uss ke badle jo tum neik a'maal kiya karte the",
+          "hinglish_meaning": "Khao aur piyo khush-gawaari ke saath uss ke badle jo tum neik a'maal kiya karte the",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Khao aur piyo khush-gawaari ke saath uss ke badle jo tum neik a'maal kiya karte the",
+            "ur": "Khao aur piyo khush-gawaari ke saath uss ke badle jo tum neik a'maal kiya karte the",
+            "en": "Khao aur piyo khush-gawaari ke saath uss ke badle jo tum neik a'maal kiya karte the",
+            "hi": "Khao aur piyo khush-gawaari ke saath uss ke badle jo tum neik a'maal kiya karte the",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s34",
+          "sentence_number": 34,
+          "arabic": "ذُوقُوا العَذَابَ بِمَا كُنْتُمْ تَكْسِبُونَ",
+          "arabic_text": "ذُوقُوا العَذَابَ بِمَا كُنْتُمْ تَكْسِبُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">ذُوق</span><span class=\"nonroot\">ُوا</span> <span class=\"arabic-root\">العَذَابَ</span> <span class=\"arabic-root\">بِمَا</span> <span class=\"nonroot\">كُنْتُمْ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">كْسِب</span><span class=\"nonroot\">ُونَ</span>",
+          "hinglish": "Azaab ka maza chakho uss ke badle jo tum kamaya karte the",
+          "hinglish_meaning": "Azaab ka maza chakho uss ke badle jo tum kamaya karte the",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Azaab ka maza chakho uss ke badle jo tum kamaya karte the",
+            "ur": "Azaab ka maza chakho uss ke badle jo tum kamaya karte the",
+            "en": "Azaab ka maza chakho uss ke badle jo tum kamaya karte the",
+            "hi": "Azaab ka maza chakho uss ke badle jo tum kamaya karte the",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l11_v_s35",
+          "sentence_number": 35,
+          "arabic": "الْيَوْمَ نَخْتِمُ عَلَىٰ أَفْوَاهِهِمْ وَتُكَلِّمُنَا أَيْدِيهِمْ وَتَشْهَدُ أَرْجُلُهُمْ بِمَا كَانُوا يَكْسِبُونَ",
+          "arabic_text": "الْيَوْمَ نَخْتِمُ عَلَىٰ أَفْوَاهِهِمْ وَتُكَلِّمُنَا أَيْدِيهِمْ وَتَشْهَدُ أَرْجُلُهُمْ بِمَا كَانُوا يَكْسِبُونَ",
+          "arabic_markup": "<span class=\"arabic-root\">الْيَوْمَ</span> <span class=\"nonroot\">نَ</span><span class=\"arabic-root\">خْتِمُ</span> <span class=\"nonroot\">عَلَىٰ</span> <span class=\"nonroot\">أَ</span><span class=\"arabic-root\">فْوَاهِهِمْ</span> <span class=\"arabic-root\">وَتُكَلِّم</span><span class=\"nonroot\">ُنَا</span> <span class=\"nonroot\">أَ</span><span class=\"arabic-root\">يْد</span><span class=\"nonroot\">ِيهِمْ</span> <span class=\"nonroot\">وَتَ</span><span class=\"arabic-root\">شْهَدُ</span> <span class=\"nonroot\">أَ</span><span class=\"arabic-root\">رْجُل</span><span class=\"nonroot\">ُهُمْ</span> <span class=\"arabic-root\">بِمَا</span> <span class=\"nonroot\">كَانُوا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">كْسِب</span><span class=\"nonroot\">ُونَ</span>",
+          "hinglish": "Aaj Ham unke munh par mohar laga denge aur unke haath Ham se baat karenge aur unke paon gawahi denge uski jo woh kamaya karte thay",
+          "hinglish_meaning": "Aaj Ham unke munh par mohar laga denge aur unke haath Ham se baat karenge aur unke paon gawahi denge uski jo woh kamaya karte thay",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aaj Ham unke munh par mohar laga denge aur unke haath Ham se baat karenge aur unke paon gawahi denge uski jo woh kamaya karte thay",
+            "ur": "Aaj Ham unke munh par mohar laga denge aur unke haath Ham se baat karenge aur unke paon gawahi denge uski jo woh kamaya karte thay",
+            "en": "Aaj Ham unke munh par mohar laga denge aur unke haath Ham se baat karenge aur unke paon gawahi denge uski jo woh kamaya karte thay",
+            "hi": "Aaj Ham unke munh par mohar laga denge aur unke haath Ham se baat karenge aur unke paon gawahi denge uski jo woh kamaya karte thay",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        }
+      ],
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s6l11_v_s1",
+            "sentence_number": 1,
+            "arabic": "يَا أَهْلَ الْكِتَابِ/ لِمَ تَكْفُرُونَ بِآيَاتِ اللَّهِ/ وَأَنْتُمْ تَشْهَدُونَ",
+            "arabic_text": "يَا أَهْلَ الْكِتَابِ/ لِمَ تَكْفُرُونَ بِآيَاتِ اللَّهِ/ وَأَنْتُمْ تَشْهَدُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">أَهْلَ</span> <span class=\"arabic-root\">الْكِتَابِ</span>/ <span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَكْفُرُونَ</span> <span class=\"arabic-root\">بِآيَاتِ</span> <span class=\"arabic-root\">اللَّهِ</span>/ <span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تَشْهَدُونَ</span>",
+            "hinglish": "Aye kitabo walon kyun tum kufr karte ho Allah ki aayat ka haalan-ke tum log gawah ho",
+            "hinglish_meaning": "Aye kitabo walon kyun tum kufr karte ho Allah ki aayat ka haalan-ke tum log gawah ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aye kitabo walon kyun tum kufr karte ho Allah ki aayat ka haalan-ke tum log gawah ho",
+              "en": "O People of the Scripture, why do you disbelieve in the verses of Allah while you witness [to their truth]?",
+              "ur": "اے اہلِ کتاب! تم اللہ کی آیات کا انکار کیوں کرتے ہو حالانکہ تم گواہی دیتے ہو؟",
+              "hi": "ऐ अहले किताब! तुम अल्लाह की आयात का इंकार क्यों करते हो हालाँकि तुम गवाही देते हो?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s2",
+            "sentence_number": 2,
+            "arabic": "يَا أَهْلَ الْكِتَابِ/ لِمَ تَلْبِسُونَ الْحَقَّ بِالْبَاطِلِ/ وَتَكْتُمُونَ الْحَقَّ/ وَأَنْتُمْ تَعْلَمُونَ",
+            "arabic_text": "يَا أَهْلَ الْكِتَابِ/ لِمَ تَلْبِسُونَ الْحَقَّ بِالْبَاطِلِ/ وَتَكْتُمُونَ الْحَقَّ/ وَأَنْتُمْ تَعْلَمُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">أَهْلَ</span> <span class=\"arabic-root\">الْكِتَابِ</span>/ <span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَلْبِسُونَ</span> <span class=\"arabic-root\">الْحَقَّ</span> <span class=\"arabic-root\">بِالْبَاطِلِ</span>/ <span class=\"arabic-root\">وَتَكْتُمُونَ</span> <span class=\"arabic-root\">الْحَقَّ</span>/ <span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تَعْلَمُونَ</span>",
+            "hinglish": "Aye kitabo walon kyun tum milaate ho haq ko baatil ke saath aur chhupaate ho haq ko haalan-ke tum jaante ho",
+            "hinglish_meaning": "Aye kitabo walon kyun tum milaate ho haq ko baatil ke saath aur chhupaate ho haq ko haalan-ke tum jaante ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aye kitabo walon kyun tum milaate ho haq ko baatil ke saath aur chhupaate ho haq ko haalan-ke tum jaante ho",
+              "en": "O People of the Scripture, why do you confuse the truth with falsehood and conceal the truth while you know [it]?",
+              "ur": "اے اہلِ کتاب! تم حق کو باطل کے ساتھ کیوں ملاتے ہو اور حق کو چھپاتے ہو حالانکہ تم جانتے ہو؟",
+              "hi": "ऐ अहले किताब! तुम हक़ को बातिल के साथ क्यों मिलाते हो और हक़ को छुपाते हो हालाँकि तुम जानते हो?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s3",
+            "sentence_number": 3,
+            "arabic": "أَتَأْمُرُونَ النَّاسَ بِالْبِرِّ/ وَتَنْسَوْنَ أَنْفُسَكُمْ/ وَأَنْتُمْ تَتْلُونَ الْكِتَابَ",
+            "arabic_text": "أَتَأْمُرُونَ النَّاسَ بِالْبِرِّ/ وَتَنْسَوْنَ أَنْفُسَكُمْ/ وَأَنْتُمْ تَتْلُونَ الْكِتَابَ",
+            "arabic_markup": "<span class=\"arabic-root\">أَتَأْمُرُونَ</span> <span class=\"arabic-root\">النَّاسَ</span> <span class=\"arabic-root\">بِالْبِرِّ</span>/ <span class=\"arabic-root\">وَتَنْسَوْنَ</span> <span class=\"arabic-root\">أَنْفُسَكُمْ</span>/ <span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تَتْلُونَ</span> <span class=\"arabic-root\">الْكِتَابَ</span>",
+            "hinglish": "Kya tum hukm dete ho logon ko bhalai ka aur bhool jaate ho apne aap ko haalan-ke tum log tilawat karte ho kitab ki",
+            "hinglish_meaning": "Kya tum hukm dete ho logon ko bhalai ka aur bhool jaate ho apne aap ko haalan-ke tum log tilawat karte ho kitab ki",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kya tum hukm dete ho logon ko bhalai ka aur bhool jaate ho apne aap ko haalan-ke tum log tilawat karte ho kitab ki",
+              "en": "Do you order righteousness of the people and forget yourselves while you recite the Scripture?",
+              "ur": "کیا تم لوگوں کو نیکی کا حکم دیتے ہو اور اپنے آپ کو بھول جاتے ہو حالانکہ تم کتاب کی تلاوت کرتے ہو؟",
+              "hi": "क्या तुम लोगों को नेकी का हुक्म देते हो और अपने आप को भूल जाते हो हालाँकि तुम किताब की तिलावत करते हो?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s4",
+            "sentence_number": 4,
+            "arabic": "اللَّهُ يُنَجِّيكُمْ مِنْهَا وَمِنْ كُلِّ كَرْبٍ/ ثُمَّ أَنْتُمْ تُشْرِكُونَ",
+            "arabic_text": "اللَّهُ يُنَجِّيكُمْ مِنْهَا وَمِنْ كُلِّ كَرْبٍ/ ثُمَّ أَنْتُمْ تُشْرِكُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">يُنَجِّيكُمْ</span> <span class=\"arabic-root\">مِنْهَا</span> <span class=\"arabic-root\">وَمِنْ</span> <span class=\"arabic-root\">كُلِّ</span> <span class=\"arabic-root\">كَرْبٍ</span>/ <span class=\"arabic-root\">ثُمَّ</span> <span class=\"arabic-root\">أَنْتُمْ</span> <span class=\"nonroot\">تُشْرِكُونَ</span>",
+            "hinglish": "Allah tumhein nijat deta hai us se aur har takleef se phir tum log shirk karte ho",
+            "hinglish_meaning": "Allah tumhein nijat deta hai us se aur har takleef se phir tum log shirk karte ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah tumhein nijat deta hai us se aur har takleef se phir tum log shirk karte ho",
+              "en": "Allah rescues you from it and from every distress; then you associate others [with Him]",
+              "ur": "اللہ تمہیں اس سے اور ہر تکلیف سے نجات دیتا ہے، پھر تم شرک کرتے ہو",
+              "hi": "अल्लाह तुम्हें उससे और हर तकलीफ़ से नजात देता है, फिर तुम शिर्क करते हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s5",
+            "sentence_number": 5,
+            "arabic": "هَلْ هَذَا إِلَّا بَشَرٌ مِثْلُكُمْ/ أَفَتَأْتُونَ السِّحْرَ/ وَأَنْتُمْ تُبْصِرُونَ",
+            "arabic_text": "هَلْ هَذَا إِلَّا بَشَرٌ مِثْلُكُمْ/ أَفَتَأْتُونَ السِّحْرَ/ وَأَنْتُمْ تُبْصِرُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">هَلْ</span> <span class=\"arabic-root\">هَذَا</span> <span class=\"arabic-root\">إِلَّا</span> <span class=\"arabic-root\">بَشَرٌ</span> <span class=\"arabic-root\">مِثْلُكُمْ</span>/ <span class=\"arabic-root\">أَفَتَأْتُونَ</span> <span class=\"arabic-root\">السِّحْرَ</span>/ <span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تُبْصِرُونَ</span>",
+            "hinglish": "Kya yeh nahin hai magar ek insan tumhari tarah phir kya tum aate ho jadoo ke paas haalan-ke tum log dekh rahe ho",
+            "hinglish_meaning": "Kya yeh nahin hai magar ek insan tumhari tarah phir kya tum aate ho jadoo ke paas haalan-ke tum log dekh rahe ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kya yeh nahin hai magar ek insan tumhari tarah phir kya tum aate ho jadoo ke paas haalan-ke tum log dekh rahe ho",
+              "en": "Is this [prophet] but a human being like you, so would you approach magic while you are aware?",
+              "ur": "کیا یہ نہیں ہے مگر ایک انسان تمہاری طرح، پھر کیا تم جادو کے پاس آتے ہو حالانکہ تم دیکھ رہے ہو؟",
+              "hi": "क्या यह नहीं है मगर एक इंसान तुम्हारी तरह, फिर क्या तुम जादू के पास आते हो हालाँकि तुम देख रहे हो?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s6",
+            "sentence_number": 6,
+            "arabic": "الْأَخِلَّاءُ يَوْمَئِذٍ بَعْضُهُمْ لِبَعْضٍ عَدُوٌّ إِلَّا الْمُتَّقِينَ. يَا عِبَادِ/ لَا خَوْفٌ عَلَيْكُمُ الْيَوْمَ/ وَلَا أَنْتُمْ تَحْزَنُونَ",
+            "arabic_text": "الْأَخِلَّاءُ يَوْمَئِذٍ بَعْضُهُمْ لِبَعْضٍ عَدُوٌّ إِلَّا الْمُتَّقِينَ. يَا عِبَادِ/ لَا خَوْفٌ عَلَيْكُمُ الْيَوْمَ/ وَلَا أَنْتُمْ تَحْزَنُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">الْأَخِلَّاءُ</span> <span class=\"arabic-root\">يَوْمَئِذٍ</span> <span class=\"arabic-root\">بَعْضُهُمْ</span> <span class=\"arabic-root\">لِبَعْضٍ</span> <span class=\"arabic-root\">عَدُوٌّ</span> <span class=\"arabic-root\">إِلَّا</span> <span class=\"arabic-root\">الْمُتَّقِينَ</span>. <span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">عِبَادِ</span>/ <span class=\"arabic-root\">لَا</span> <span class=\"arabic-root\">خَوْفٌ</span> <span class=\"arabic-root\">عَلَيْكُمُ</span> <span class=\"arabic-root\">الْيَوْمَ</span>/ <span class=\"arabic-root\">وَلَا</span> <span class=\"arabic-root\">أَنْتُمْ</span> <span class=\"nonroot\">تَحْزَنُونَ</span>",
+            "hinglish": "Gahre dost us din ek doosre ke dushman honge siwaye muttaqeen ke. Aye mere bando koi khauf nahin tum par aaj ke din aur na tum log ghamgin ho ge",
+            "hinglish_meaning": "Gahre dost us din ek doosre ke dushman honge siwaye muttaqeen ke. Aye mere bando koi khauf nahin tum par aaj ke din aur na tum log ghamgin ho ge",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Gahre dost us din ek doosre ke dushman honge siwaye muttaqeen ke. Aye mere bando koi khauf nahin tum par aaj ke din aur na tum log ghamgin ho ge",
+              "en": "Close friends, that Day, will be enemies to each other, except for the righteous. [To whom Allah will say], \"O My servants, no fear will there be concerning you this Day, nor will you grieve\"",
+              "ur": "گہرے دوست اس دن ایک دوسرے کے دشمن ہوں گے سوائے پرہیزگاروں کے۔ اے میرے بندو! کوئی خوف نہیں تم پر آج کے دن اور نہ تم غمگین ہو گے",
+              "hi": "गहरे दोस्त उस दिन एक दूसरे के दुश्मन होंगे सिवाए परहेज़गारों के। ऐ मेरे बन्दो! कोई ख़ौफ़ नहीं तुम पर आज के दिन और न तुम ग़मगीन होगे",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s7",
+            "sentence_number": 7,
+            "arabic": "لَهُمْ عَذَابٌ أَلِيمٌ فِي الدُّنْيَا وَالْآخِرَةِ/ وَاللَّهُ يَعْلَمُ/ وَأَنْتُمْ لَا تَعْلَمُونَ",
+            "arabic_text": "لَهُمْ عَذَابٌ أَلِيمٌ فِي الدُّنْيَا وَالْآخِرَةِ/ وَاللَّهُ يَعْلَمُ/ وَأَنْتُمْ لَا تَعْلَمُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">لَهُمْ</span> <span class=\"arabic-root\">عَذَابٌ</span> <span class=\"arabic-root\">أَلِيمٌ</span> <span class=\"arabic-root\">فِي</span> <span class=\"arabic-root\">الدُّنْيَا</span> <span class=\"arabic-root\">وَالْآخِرَةِ</span>/ <span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"arabic-root\">يَعْلَمُ</span>/ <span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"arabic-root\">لَا</span> <span class=\"nonroot\">تَعْلَمُونَ</span>",
+            "hinglish": "Unke liye dardnaak azab hai duniya aur aakhirat mein aur Allah jaanta hai aur tum log nahin jaante",
+            "hinglish_meaning": "Unke liye dardnaak azab hai duniya aur aakhirat mein aur Allah jaanta hai aur tum log nahin jaante",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Unke liye dardnaak azab hai duniya aur aakhirat mein aur Allah jaanta hai aur tum log nahin jaante",
+              "en": "For them is a painful punishment in this world and the Hereafter. And Allah knows, while you do not know",
+              "ur": "ان کے لیے دردناک عذاب ہے دنیا اور آخرت میں، اور اللہ جانتا ہے اور تم نہیں جانتے",
+              "hi": "उनके लिए दर्दनाक अज़ाब है दुनिया और आख़िरत में, और अल्लाह जानता है और तुम नहीं जानते",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s8",
+            "sentence_number": 8,
+            "arabic": "أَفَتَأْتُونَ السِّحْرَ/ وَأَنْتُمْ تُبْصِرُونَ",
+            "arabic_text": "أَفَتَأْتُونَ السِّحْرَ/ وَأَنْتُمْ تُبْصِرُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">أَفَتَأْتُونَ</span> <span class=\"arabic-root\">السِّحْرَ</span>/ <span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تُبْصِرُونَ</span>",
+            "hinglish": "Phir kya tum aate ho jadoo ke paas haalan-ke tum log dekh rahe ho",
+            "hinglish_meaning": "Phir kya tum aate ho jadoo ke paas haalan-ke tum log dekh rahe ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Phir kya tum aate ho jadoo ke paas haalan-ke tum log dekh rahe ho",
+              "en": "So would you approach magic while you are aware?",
+              "ur": "پھر کیا تم جادو کے پاس آتے ہو حالانکہ تم دیکھ رہے ہو؟",
+              "hi": "फिर क्या तुम जादू के पास आते हो हालाँकि तुम देख रहे हो?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s9",
+            "sentence_number": 9,
+            "arabic": "أَتَأْتُونَ الْفَاحِشَةَ/ وَأَنْتُمْ تُبْصِرُونَ",
+            "arabic_text": "أَتَأْتُونَ الْفَاحِشَةَ/ وَأَنْتُمْ تُبْصِرُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">أَتَأْتُونَ</span> <span class=\"arabic-root\">الْفَاحِشَةَ</span>/ <span class=\"arabic-root\">وَأَنْتُمْ</span> <span class=\"nonroot\">تُبْصِرُونَ</span>",
+            "hinglish": "Kya tum aate ho be-hayai ke paas haalan-ke tum log dekh rahe ho",
+            "hinglish_meaning": "Kya tum aate ho be-hayai ke paas haalan-ke tum log dekh rahe ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kya tum aate ho be-hayai ke paas haalan-ke tum log dekh rahe ho",
+              "en": "Do you commit immorality while you are seeing?",
+              "ur": "کیا تم بے حیائی کا کام کرتے ہو حالانکہ تم دیکھ رہے ہو؟",
+              "hi": "क्या तुम बेहयाई का काम करते हो हालाँकि तुम देख रहे हो?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s10",
+            "sentence_number": 10,
+            "arabic": "لَا خَوْفٌ عَلَيْكُمْ/ وَلَا أَنْتُمْ تَحْزَنُونَ",
+            "arabic_text": "لَا خَوْفٌ عَلَيْكُمْ/ وَلَا أَنْتُمْ تَحْزَنُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">لَا</span> <span class=\"arabic-root\">خَوْفٌ</span> <span class=\"arabic-root\">عَلَيْكُمْ</span>/ <span class=\"arabic-root\">وَلَا</span> <span class=\"arabic-root\">أَنْتُمْ</span> <span class=\"nonroot\">تَحْزَنُونَ</span>",
+            "hinglish": "Koi khauf nahin tum par aur na tum log ghamgin ho ge",
+            "hinglish_meaning": "Koi khauf nahin tum par aur na tum log ghamgin ho ge",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Koi khauf nahin tum par aur na tum log ghamgin ho ge",
+              "en": "No fear will there be concerning you, nor will you grieve",
+              "ur": "کوئی خوف نہیں تم پر اور نہ تم غمگین ہو گے",
+              "hi": "कोई ख़ौफ़ नहीं तुम पर और न तुम ग़मगीन होगे",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s11",
+            "sentence_number": 11,
+            "arabic": "وَأَجَلٌ مُسَمًّى عِنْدَهُ/ ثُمَّ أَنْتُمْ تَمْتَرُونَ",
+            "arabic_text": "وَأَجَلٌ مُسَمًّى عِنْدَهُ/ ثُمَّ أَنْتُمْ تَمْتَرُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">وَأَجَلٌ</span> <span class=\"arabic-root\">مُسَمًّى</span> <span class=\"arabic-root\">عِنْدَهُ</span>/ <span class=\"arabic-root\">ثُمَّ</span> <span class=\"arabic-root\">أَنْتُمْ</span> <span class=\"nonroot\">تَمْتَرُونَ</span>",
+            "hinglish": "Aur ek muqarrarah muddat hai uske paas phir tum log shak karte ho",
+            "hinglish_meaning": "Aur ek muqarrarah muddat hai uske paas phir tum log shak karte ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur ek muqarrarah muddat hai uske paas phir tum log shak karte ho",
+              "en": "And a specified time [is known] to Him; then you [still] doubt",
+              "ur": "اور ایک مقررہ مدت ہے اس کے پاس، پھر تم شک کرتے ہو",
+              "hi": "और एक मुक़र्ररह मुद्दत है उसके पास, फिर तुम शक करते हो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s12",
+            "sentence_number": 12,
+            "arabic": "كَذٰلِكَ يُبَيِّنُ اللَّهُ لَكُمْ آيَاتِهِ/ لَعَلَّكُمْ تَشْكُرُونَ",
+            "arabic_text": "كَذٰلِكَ يُبَيِّنُ اللَّهُ لَكُمْ آيَاتِهِ/ لَعَلَّكُمْ تَشْكُرُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">كَذٰلِكَ</span> <span class=\"arabic-root\">يُبَيِّنُ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">لَكُمْ</span> <span class=\"arabic-root\">آيَاتِهِ</span>/ <span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تَشْكُرُونَ</span>",
+            "hinglish": "Isi tarah bayan karta hai Allah tumhare liye apni nishaniyan taake tum log shukr karo",
+            "hinglish_meaning": "Isi tarah bayan karta hai Allah tumhare liye apni nishaniyan taake tum log shukr karo",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Isi tarah bayan karta hai Allah tumhare liye apni nishaniyan taake tum log shukr karo",
+              "en": "Thus does Allah make clear to you His verses that perhaps you would be grateful",
+              "ur": "اسی طرح بیان کرتا ہے اللہ تمہارے لیے اپنی نشانیاں تاکہ تم شکر کرو",
+              "hi": "इसी तरह बयान करता है अल्लाह तुम्हारे लिए अपनी निशानियाँ ताकि तुम शुक्र करो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s13",
+            "sentence_number": 13,
+            "arabic": "كَذٰلِكَ يُبَيِّنُ اللَّهُ لَكُمْ الْآيَاتِ/ لَعَلَّكُمْ تَعْقِلُونَ",
+            "arabic_text": "كَذٰلِكَ يُبَيِّنُ اللَّهُ لَكُمْ الْآيَاتِ/ لَعَلَّكُمْ تَعْقِلُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">كَذٰلِكَ</span> <span class=\"arabic-root\">يُبَيِّنُ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">لَكُمْ</span> <span class=\"arabic-root\">الْآيَاتِ</span>/ <span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تَعْقِلُونَ</span>",
+            "hinglish": "Isi tarah bayan karta hai Allah tumhare liye nishaniyan taake tum log aql se kaam lo",
+            "hinglish_meaning": "Isi tarah bayan karta hai Allah tumhare liye nishaniyan taake tum log aql se kaam lo",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Isi tarah bayan karta hai Allah tumhare liye nishaniyan taake tum log aql se kaam lo",
+              "en": "Thus does Allah make clear to you the verses that perhaps you would understand",
+              "ur": "اسی طرح بیان کرتا ہے اللہ تمہارے لیے نشانیاں تاکہ تم عقل سے کام لو",
+              "hi": "इसी तरह बयान करता है अल्लाह तुम्हारे लिए निशानियाँ ताकि तुम अक़्ल से काम लो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s14",
+            "sentence_number": 14,
+            "arabic": "كَذٰلِكَ يُبَيِّنُ اللَّهُ لَكُمْ آيَاتِهِ/ لَعَلَّكُمْ تَعْقِلُونَ",
+            "arabic_text": "كَذٰلِكَ يُبَيِّنُ اللَّهُ لَكُمْ آيَاتِهِ/ لَعَلَّكُمْ تَعْقِلُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">كَذٰلِكَ</span> <span class=\"arabic-root\">يُبَيِّنُ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">لَكُمْ</span> <span class=\"arabic-root\">آيَاتِهِ</span>/ <span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تَعْقِلُونَ</span>",
+            "hinglish": "Isi tarah bayan karta hai Allah tumhare liye apni nishaniyan taake tum log aql se kaam lo",
+            "hinglish_meaning": "Isi tarah bayan karta hai Allah tumhare liye apni nishaniyan taake tum log aql se kaam lo",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Isi tarah bayan karta hai Allah tumhare liye apni nishaniyan taake tum log aql se kaam lo",
+              "en": "Thus does Allah make clear to you His verses that perhaps you would understand",
+              "ur": "اسی طرح بیان کرتا ہے اللہ تمہارے لیے اپنی نشانیاں تاکہ تم عقل سے کام لو",
+              "hi": "इसी तरह बयान करता है अल्लाह तुम्हारे लिए अपनी निशानियाँ ताकि तुम अक़्ल से काम लो",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s15",
+            "sentence_number": 15,
+            "arabic": "كَذٰلِكَ يُبَيِّنُ اللَّهُ لَكُمْ آيَاتِهِ/ لَعَلَّكُمْ تَهْتَدُونَ",
+            "arabic_text": "كَذٰلِكَ يُبَيِّنُ اللَّهُ لَكُمْ آيَاتِهِ/ لَعَلَّكُمْ تَهْتَدُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">كَذٰلِكَ</span> <span class=\"arabic-root\">يُبَيِّنُ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">لَكُمْ</span> <span class=\"arabic-root\">آيَاتِهِ</span>/ <span class=\"arabic-root\">لَعَلَّكُمْ</span> <span class=\"nonroot\">تَهْتَدُونَ</span>",
+            "hinglish": "Isi tarah bayan karta hai Allah tumhare liye apni nishaniyan taake tum log hidayat pa jao",
+            "hinglish_meaning": "Isi tarah bayan karta hai Allah tumhare liye apni nishaniyan taake tum log hidayat pa jao",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Isi tarah bayan karta hai Allah tumhare liye apni nishaniyan taake tum log hidayat pa jao",
+              "en": "Thus does Allah make clear to you His verses that perhaps you would be guided",
+              "ur": "اسی طرح بیان کرتا ہے اللہ تمہارے لیے اپنی نشانیاں تاکہ تم ہدایت پا جاؤ",
+              "hi": "इसी तरह बयान करता है अल्लाह तुम्हारे लिए अपनी निशानियाँ ताकि तुम हिदायत पा जाओ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s16",
+            "sentence_number": 16,
+            "arabic": "وَمَا لَكُمْ / لَا تُؤْمِنُونَ بِاللهِ",
+            "arabic_text": "وَمَا لَكُمْ / لَا تُؤْمِنُونَ بِاللهِ",
+            "arabic_markup": "<span class=\"nonroot\">وَمَا</span> <span class=\"nonroot\">لَكُمْ</span> / <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تُؤْمِنُونَ</span> <span class=\"arabic-root\">بِاللهِ</span>",
+            "hinglish": "Aur tumhein kya hua hai tum Allah par imaan nahin laate",
+            "hinglish_meaning": "Aur tumhein kya hua hai tum Allah par imaan nahin laate",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur tumhein kya hua hai tum Allah par imaan nahin laate",
+              "en": "And what is [the matter] with you that you do not believe in Allah?",
+              "ur": "اور تمہیں کیا ہوا ہے کہ تم اللہ پر ایمان نہیں لاتے؟",
+              "hi": "और तुम्हें क्या हुआ है कि तुम अल्लाह पर ईमान नहीं लाते?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s17",
+            "sentence_number": 17,
+            "arabic": "وَمَا لَكُمْ / لَا تُقَاتِلُونَ فِي سَبِيلِ اللهِ",
+            "arabic_text": "وَمَا لَكُمْ / لَا تُقَاتِلُونَ فِي سَبِيلِ اللهِ",
+            "arabic_markup": "<span class=\"nonroot\">وَمَا</span> <span class=\"nonroot\">لَكُمْ</span> / <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تُقَاتِلُونَ</span> <span class=\"arabic-root\">فِي</span> <span class=\"arabic-root\">سَبِيلِ</span> <span class=\"arabic-root\">اللهِ</span>",
+            "hinglish": "Aur tumhein kya hua hai tum Allah ke raaste mein nahin larte",
+            "hinglish_meaning": "Aur tumhein kya hua hai tum Allah ke raaste mein nahin larte",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur tumhein kya hua hai tum Allah ke raaste mein nahin larte",
+              "en": "And what is [the matter] with you that you fight not in the cause of Allah?",
+              "ur": "اور تمہیں کیا ہوا ہے کہ تم اللہ کے راستے میں نہیں لڑتے؟",
+              "hi": "और तुम्हें क्या हुआ है कि तुम अल्लाह के रास्ते में नहीं लड़ते?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s18",
+            "sentence_number": 18,
+            "arabic": "مَا لَكُمْ / كَيْفَ تَحْكُمُونَ",
+            "arabic_text": "مَا لَكُمْ / كَيْفَ تَحْكُمُونَ",
+            "arabic_markup": "<span class=\"nonroot\">مَا</span> <span class=\"nonroot\">لَكُمْ</span> / <span class=\"nonroot\">كَيْفَ</span> <span class=\"nonroot\">تَحْكُمُونَ</span>",
+            "hinglish": "Tumhein kya hua hai tum kaisa faisla karte ho",
+            "hinglish_meaning": "Tumhein kya hua hai tum kaisa faisla karte ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tumhein kya hua hai tum kaisa faisla karte ho",
+              "en": "What is [the matter] with you? How do you judge?",
+              "ur": "تمہیں کیا ہوا ہے، تم کیسا فیصلہ کرتے ہو؟",
+              "hi": "तुम्हें क्या हुआ है, तुम कैसा फ़ैसला करते हो?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s19",
+            "sentence_number": 19,
+            "arabic": "مَا لَكُمْ لَا تَرْجُونَ لِلَّهِ وَقَارًا",
+            "arabic_text": "مَا لَكُمْ لَا تَرْجُونَ لِلَّهِ وَقَارًا",
+            "arabic_markup": "<span class=\"nonroot\">مَا</span> <span class=\"nonroot\">لَكُمْ</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَرْجُونَ</span> <span class=\"arabic-root\">لِلَّهِ</span> <span class=\"arabic-root\">وَقَارًا</span>",
+            "hinglish": "Tumhein kya hua hai tum Allah ki azmat ka khayal nahin rakhte",
+            "hinglish_meaning": "Tumhein kya hua hai tum Allah ki azmat ka khayal nahin rakhte",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tumhein kya hua hai tum Allah ki azmat ka khayal nahin rakhte",
+              "en": "What is [the matter] with you that you do not attribute to Allah [due] grandeur?",
+              "ur": "تمہیں کیا ہوا ہے کہ تم اللہ کی عظمت کا خیال نہیں رکھتے؟",
+              "hi": "तुम्हें क्या हुआ है कि तुम अल्लाह की अज़्मत का ख़याल नहीं रखते?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s20",
+            "sentence_number": 20,
+            "arabic": "مَا لَكُمْ / كَيْفَ تَحْكُمُونَ / أَفَلَا تَذَكَّرُونَ",
+            "arabic_text": "مَا لَكُمْ / كَيْفَ تَحْكُمُونَ / أَفَلَا تَذَكَّرُونَ",
+            "arabic_markup": "<span class=\"nonroot\">مَا</span> <span class=\"nonroot\">لَكُمْ</span> / <span class=\"nonroot\">كَيْفَ</span> <span class=\"nonroot\">تَحْكُمُونَ</span> / <span class=\"nonroot\">أَفَلَا</span> <span class=\"nonroot\">تَذَكَّرُونَ</span>",
+            "hinglish": "Tumhein kya hua hai tum kaisa faisla karte ho kya phir tum naseehat haasil nahin karte",
+            "hinglish_meaning": "Tumhein kya hua hai tum kaisa faisla karte ho kya phir tum naseehat haasil nahin karte",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tumhein kya hua hai tum kaisa faisla karte ho kya phir tum naseehat haasil nahin karte",
+              "en": "What is [the matter] with you? How do you judge? Then will you not be reminded?",
+              "ur": "تمہیں کیا ہوا ہے، تم کیسا فیصلہ کرتے ہو، کیا پھر تم نصیحت حاصل نہیں کرتے؟",
+              "hi": "तुम्हें क्या हुआ है, तुम कैसा फ़ैसला करते हो, क्या फिर तुम नसीहत हासिल नहीं करते?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s21",
+            "sentence_number": 21,
+            "arabic": "مَا لَكُمْ / لَا تَنْطِقُونَ",
+            "arabic_text": "مَا لَكُمْ / لَا تَنْطِقُونَ",
+            "arabic_markup": "<span class=\"nonroot\">مَا</span> <span class=\"nonroot\">لَكُمْ</span> / <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَنْطِقُونَ</span>",
+            "hinglish": "Tumhein kya hua hai tum bolte nahin",
+            "hinglish_meaning": "Tumhein kya hua hai tum bolte nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tumhein kya hua hai tum bolte nahin",
+              "en": "What is [the matter] with you that you do not speak?",
+              "ur": "تمہیں کیا ہوا ہے کہ تم بولتے نہیں؟",
+              "hi": "तुम्हें क्या हुआ है कि तुम बोलते नहीं?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s22",
+            "sentence_number": 22,
+            "arabic": "مَا لَكُمْ / لَا تَنَاصَرُونَ",
+            "arabic_text": "مَا لَكُمْ / لَا تَنَاصَرُونَ",
+            "arabic_markup": "<span class=\"nonroot\">مَا</span> <span class=\"nonroot\">لَكُمْ</span> / <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَنَاصَرُونَ</span>",
+            "hinglish": "Tumhein kya hua hai tum aapas mein ek doosre ki madad nahin karte",
+            "hinglish_meaning": "Tumhein kya hua hai tum aapas mein ek doosre ki madad nahin karte",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tumhein kya hua hai tum aapas mein ek doosre ki madad nahin karte",
+              "en": "What is [the matter] with you that you do not help each other?",
+              "ur": "تمہیں کیا ہوا ہے کہ تم آپس میں ایک دوسرے کی مدد نہیں کرتے؟",
+              "hi": "तुम्हें क्या हुआ है कि तुम आपस में एक दूसरे की मदद नहीं करते?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s23",
+            "sentence_number": 23,
+            "arabic": "فَلِمَ تَقْتُلُونَ أَنْبِيَاءَ اللهِ مِنْ قَبْلُ",
+            "arabic_text": "فَلِمَ تَقْتُلُونَ أَنْبِيَاءَ اللهِ مِنْ قَبْلُ",
+            "arabic_markup": "<span class=\"arabic-root\">فَلِمَ</span> <span class=\"nonroot\">تَقْتُلُونَ</span> <span class=\"arabic-root\">أَنْبِيَاءَ</span> <span class=\"arabic-root\">اللهِ</span> <span class=\"arabic-root\">مِنْ</span> <span class=\"arabic-root\">قَبْلُ</span>",
+            "hinglish": "Phir tum is se pehle Allah ke Nabiyon ko kyun qatl karte thay?",
+            "hinglish_meaning": "Phir tum is se pehle Allah ke Nabiyon ko kyun qatl karte thay?",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Phir tum is se pehle Allah ke Nabiyon ko kyun qatl karte thay?",
+              "en": "Then why did you kill the prophets of Allah before?",
+              "ur": "پھر تم اس سے پہلے اللہ کے نبیوں کو کیوں قتل کرتے تھے؟",
+              "hi": "फिर तुम इससे पहले अल्लाह के नबियों को क्यों क़त्ल करते थे?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s24",
+            "sentence_number": 24,
+            "arabic": "يَا أَهْلَ الْكِتَابِ / لِمَ تَكْفُرُونَ بِآيَاتِ اللهِ",
+            "arabic_text": "يَا أَهْلَ الْكِتَابِ / لِمَ تَكْفُرُونَ بِآيَاتِ اللهِ",
+            "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">أَهْلَ</span> <span class=\"arabic-root\">الْكِتَابِ</span> / <span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَكْفُرُونَ</span> <span class=\"arabic-root\">بِآيَاتِ</span> <span class=\"arabic-root\">اللهِ</span>",
+            "hinglish": "Ae Ahle Kitaab tum Allah ki aayaat ka inkaar kyun karte ho",
+            "hinglish_meaning": "Ae Ahle Kitaab tum Allah ki aayaat ka inkaar kyun karte ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ae Ahle Kitaab tum Allah ki aayaat ka inkaar kyun karte ho",
+              "en": "O People of the Scripture, why do you disbelieve in the verses of Allah?",
+              "ur": "اے اہلِ کتاب! تم اللہ کی آیات کا انکار کیوں کرتے ہو؟",
+              "hi": "ऐ अहले किताब! तुम अल्लाह की आयात का इंकार क्यों करते हो?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s25",
+            "sentence_number": 25,
+            "arabic": "يَا أَهْلَ الْكِتَابِ لِمَ تَصُدُّونَ عَنْ سَبِيلِ اللهِ",
+            "arabic_text": "يَا أَهْلَ الْكِتَابِ لِمَ تَصُدُّونَ عَنْ سَبِيلِ اللهِ",
+            "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">أَهْلَ</span> <span class=\"arabic-root\">الْكِتَابِ</span> <span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَصُدُّونَ</span> <span class=\"arabic-root\">عَنْ</span> <span class=\"arabic-root\">سَبِيلِ</span> <span class=\"arabic-root\">اللهِ</span>",
+            "hinglish": "Ae Ahle Kitaab tum Allah ke raaste se kyun rokte ho",
+            "hinglish_meaning": "Ae Ahle Kitaab tum Allah ke raaste se kyun rokte ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ae Ahle Kitaab tum Allah ke raaste se kyun rokte ho",
+              "en": "O People of the Scripture, why do you avert [people] from the way of Allah?",
+              "ur": "اے اہلِ کتاب! تم اللہ کے راستے سے کیوں روکتے ہو؟",
+              "hi": "ऐ अहले किताब! तुम अल्लाह के रास्ते से क्यों रोकते हो?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s26",
+            "sentence_number": 26,
+            "arabic": "لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ",
+            "arabic_text": "لِمَ تَقُولُونَ مَا لَا تَفْعَلُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَقُولُونَ</span> <span class=\"nonroot\">مَا</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">تَفْعَلُونَ</span>",
+            "hinglish": "Tum woh baat kyun kehte ho jo tum karte nahin",
+            "hinglish_meaning": "Tum woh baat kyun kehte ho jo tum karte nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tum woh baat kyun kehte ho jo tum karte nahin",
+              "en": "Why do you say what you do not do?",
+              "ur": "تم وہ بات کیوں کہتے ہو جو تم کرتے نہیں؟",
+              "hi": "तुम वह बात क्यों कहते हो जो तुम करते नहीं?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s27",
+            "sentence_number": 27,
+            "arabic": "يَا أَهْلَ الْكِتَابِ لِمَ تُحَاجُّونَ فِي إِبْرَاهِيمَ",
+            "arabic_text": "يَا أَهْلَ الْكِتَابِ لِمَ تُحَاجُّونَ فِي إِبْرَاهِيمَ",
+            "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">أَهْلَ</span> <span class=\"arabic-root\">الْكِتَابِ</span> <span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تُحَاجُّونَ</span> <span class=\"arabic-root\">فِي</span> <span class=\"arabic-root\">إِبْرَاهِيمَ</span>",
+            "hinglish": "Ae Ahle Kitaab tum Ibrahim (A.S.) ke baare mein kyun jhagadte ho",
+            "hinglish_meaning": "Ae Ahle Kitaab tum Ibrahim (A.S.) ke baare mein kyun jhagadte ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ae Ahle Kitaab tum Ibrahim (A.S.) ke baare mein kyun jhagadte ho",
+              "en": "O People of the Scripture, why do you argue about Abraham?",
+              "ur": "اے اہلِ کتاب! تم ابراہیم (علیہ السلام) کے بارے میں کیوں جھگڑتے ہو؟",
+              "hi": "ऐ अहले किताब! तुम इब्राहीम (अलैहिस्सलाम) के बारे में क्यों झगड़ते हो?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s28",
+            "sentence_number": 28,
+            "arabic": "فَلِمَ تُحَاجُّونَ / فِيمَا / لَيْسَ لَكُمْ بِهِ عِلْمٌ",
+            "arabic_text": "فَلِمَ تُحَاجُّونَ / فِيمَا / لَيْسَ لَكُمْ بِهِ عِلْمٌ",
+            "arabic_markup": "<span class=\"arabic-root\">فَلِمَ</span> <span class=\"nonroot\">تُحَاجُّونَ</span> / <span class=\"arabic-root\">فِيمَا</span> / <span class=\"arabic-root\">لَيْسَ</span> <span class=\"nonroot\">لَكُمْ</span> <span class=\"arabic-root\">بِهِ</span> <span class=\"arabic-root\">عِلْمٌ</span>",
+            "hinglish": "phir tum kyun jhagadte ho us baare mein jiska tumhein koi ilm nahin",
+            "hinglish_meaning": "phir tum kyun jhagadte ho us baare mein jiska tumhein koi ilm nahin",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "phir tum kyun jhagadte ho us baare mein jiska tumhein koi ilm nahin",
+              "en": "Then why do you argue about that whereof you have no knowledge?",
+              "ur": "پھر تم کیوں جھگڑتے ہو اس بارے میں جس کا تمہیں کوئی علم نہیں؟",
+              "hi": "फिर तुम क्यों झगड़ते हो उस बारे में जिसका तुम्हें कोई इल्म नहीं?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s29",
+            "sentence_number": 29,
+            "arabic": "لِمَ تَعِظُونَ قَوْمًا / اللهُ مُهْلِكُهُمْ أَوْ مُعَذِّبُهُمْ",
+            "arabic_text": "لِمَ تَعِظُونَ قَوْمًا / اللهُ مُهْلِكُهُمْ أَوْ مُعَذِّبُهُمْ",
+            "arabic_markup": "<span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَعِظُونَ</span> <span class=\"arabic-root\">قَوْمًا</span> / <span class=\"arabic-root\">اللهُ</span> <span class=\"arabic-root\">مُهْلِكُهُمْ</span> <span class=\"arabic-root\">أَوْ</span> <span class=\"arabic-root\">مُعَذِّبُهُمْ</span>",
+            "hinglish": "Tum aisi qom ko kyun naseehat karte ho jise Allah halak karne wala hai ya unhein azab dene wala hai",
+            "hinglish_meaning": "Tum aisi qom ko kyun naseehat karte ho jise Allah halak karne wala hai ya unhein azab dene wala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tum aisi qom ko kyun naseehat karte ho jise Allah halak karne wala hai ya unhein azab dene wala hai",
+              "en": "Why do you advise a people whom Allah is [about] to destroy or to punish?",
+              "ur": "تم ایسی قوم کو کیوں نصیحت کرتے ہو جسے اللہ ہلاک کرنے والا ہے یا انہیں عذاب دینے والا ہے؟",
+              "hi": "तुम ऐसी क़ौम को क्यों नसीहत करते हो जिसे अल्लाह हलाक करने वाला है या उन्हें अज़ाब देने वाला है?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s30",
+            "sentence_number": 30,
+            "arabic": "يَا قَوْمِ لِمَ تَسْتَعْجِلُونَ بِالسَّيِّئَةِ قَبْلَ الْحَسَنَةِ",
+            "arabic_text": "يَا قَوْمِ لِمَ تَسْتَعْجِلُونَ بِالسَّيِّئَةِ قَبْلَ الْحَسَنَةِ",
+            "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">قَوْمِ</span> <span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَسْتَعْجِلُونَ</span> <span class=\"arabic-root\">بِالسَّيِّئَةِ</span> <span class=\"arabic-root\">قَبْلَ</span> <span class=\"arabic-root\">الْحَسَنَةِ</span>",
+            "hinglish": "Ae meri qom tum bhalai se pehle burai ki jaldi kyun maangte ho",
+            "hinglish_meaning": "Ae meri qom tum bhalai se pehle burai ki jaldi kyun maangte ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ae meri qom tum bhalai se pehle burai ki jaldi kyun maangte ho",
+              "en": "O my people, why are you impatient for evil before good?",
+              "ur": "اے میری قوم! تم بھلائی سے پہلے برائی کی جلدی کیوں مانگتے ہو؟",
+              "hi": "ऐ मेरी क़ौम! तुम भलाई से पहले बुराई की जल्दी क्यों मांगते हो?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s31",
+            "sentence_number": 31,
+            "arabic": "لَوْلَا تَسْتَغْفِرُونَ اللهَ",
+            "arabic_text": "لَوْلَا تَسْتَغْفِرُونَ اللهَ",
+            "arabic_markup": "<span class=\"arabic-root\">لَوْلَا</span> <span class=\"nonroot\">تَسْتَغْفِرُونَ</span> <span class=\"arabic-root\">اللهَ</span>",
+            "hinglish": "Tum Allah se maghfirat kyun nahin maangte",
+            "hinglish_meaning": "Tum Allah se maghfirat kyun nahin maangte",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tum Allah se maghfirat kyun nahin maangte",
+              "en": "Why do you not seek forgiveness of Allah?",
+              "ur": "تم اللہ سے مغفرت کیوں نہیں مانگتے؟",
+              "hi": "तुम अल्लाह से मग़फ़िरत क्यों नहीं मांगते?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s32",
+            "sentence_number": 32,
+            "arabic": "يَا قَوْمِ لِمَ تَسْتَعْجِلُونَ بِالسَّيِّئَةِ قَبْلَ الْحَسَنَةِ / لَوْلَا تَسْتَغْفِرُونَ اللهَ",
+            "arabic_text": "يَا قَوْمِ لِمَ تَسْتَعْجِلُونَ بِالسَّيِّئَةِ قَبْلَ الْحَسَنَةِ / لَوْلَا تَسْتَغْفِرُونَ اللهَ",
+            "arabic_markup": "<span class=\"arabic-root\">يَا</span> <span class=\"arabic-root\">قَوْمِ</span> <span class=\"arabic-root\">لِمَ</span> <span class=\"nonroot\">تَسْتَعْجِلُونَ</span> <span class=\"arabic-root\">بِالسَّيِّئَةِ</span> <span class=\"arabic-root\">قَبْلَ</span> <span class=\"arabic-root\">الْحَسَنَةِ</span> / <span class=\"arabic-root\">لَوْلَا</span> <span class=\"nonroot\">تَسْتَغْفِرُونَ</span> <span class=\"arabic-root\">اللهَ</span>",
+            "hinglish": "Ae meri qom tum bhalai se pehle burai ki jaldi kyun maangte ho tum Allah se maghfirat kyun nahin maangte",
+            "hinglish_meaning": "Ae meri qom tum bhalai se pehle burai ki jaldi kyun maangte ho tum Allah se maghfirat kyun nahin maangte",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ae meri qom tum bhalai se pehle burai ki jaldi kyun maangte ho tum Allah se maghfirat kyun nahin maangte",
+              "en": "O my people, why are you impatient for evil before good? Why do you not seek forgiveness of Allah?",
+              "ur": "اے میری قوم! تم بھلائی سے پہلے برائی کی جلدی کیوں مانگتے ہو، تم اللہ سے مغفرت کیوں نہیں مانگتے؟",
+              "hi": "ऐ मेरी क़ौम! तुम भलाई से पहले बुराई की जल्दी क्यों मांगते हो, तुम अल्लाह से मग़फ़िरत क्यों नहीं मांगते?",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s33",
+            "sentence_number": 33,
+            "arabic": "كُلُوا وَاشْرَبُوا هَنِيئًا بِمَا كُنْتُمْ تَعْمَلُونَ",
+            "arabic_text": "كُلُوا وَاشْرَبُوا هَنِيئًا بِمَا كُنْتُمْ تَعْمَلُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">كُل</span><span class=\"nonroot\">ُوا</span> <span class=\"arabic-root\">وَاشْرَب</span><span class=\"nonroot\">ُوا</span> <span class=\"arabic-root\">هَنِيئًا</span> <span class=\"arabic-root\">بِمَا</span> <span class=\"nonroot\">كُنْتُمْ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">عْمَل</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Khao aur piyo khush-gawaari ke saath uss ke badle jo tum neik a'maal kiya karte the",
+            "hinglish_meaning": "Khao aur piyo khush-gawaari ke saath uss ke badle jo tum neik a'maal kiya karte the",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Khao aur piyo khush-gawaari ke saath uss ke badle jo tum neik a'maal kiya karte the",
+              "ur": "Khao aur piyo khush-gawaari ke saath uss ke badle jo tum neik a'maal kiya karte the",
+              "en": "Khao aur piyo khush-gawaari ke saath uss ke badle jo tum neik a'maal kiya karte the",
+              "hi": "Khao aur piyo khush-gawaari ke saath uss ke badle jo tum neik a'maal kiya karte the",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s34",
+            "sentence_number": 34,
+            "arabic": "ذُوقُوا العَذَابَ بِمَا كُنْتُمْ تَكْسِبُونَ",
+            "arabic_text": "ذُوقُوا العَذَابَ بِمَا كُنْتُمْ تَكْسِبُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">ذُوق</span><span class=\"nonroot\">ُوا</span> <span class=\"arabic-root\">العَذَابَ</span> <span class=\"arabic-root\">بِمَا</span> <span class=\"nonroot\">كُنْتُمْ</span> <span class=\"nonroot\">تَ</span><span class=\"arabic-root\">كْسِب</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Azaab ka maza chakho uss ke badle jo tum kamaya karte the",
+            "hinglish_meaning": "Azaab ka maza chakho uss ke badle jo tum kamaya karte the",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Azaab ka maza chakho uss ke badle jo tum kamaya karte the",
+              "ur": "Azaab ka maza chakho uss ke badle jo tum kamaya karte the",
+              "en": "Azaab ka maza chakho uss ke badle jo tum kamaya karte the",
+              "hi": "Azaab ka maza chakho uss ke badle jo tum kamaya karte the",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l11_v_s35",
+            "sentence_number": 35,
+            "arabic": "الْيَوْمَ نَخْتِمُ عَلَىٰ أَفْوَاهِهِمْ وَتُكَلِّمُنَا أَيْدِيهِمْ وَتَشْهَدُ أَرْجُلُهُمْ بِمَا كَانُوا يَكْسِبُونَ",
+            "arabic_text": "الْيَوْمَ نَخْتِمُ عَلَىٰ أَفْوَاهِهِمْ وَتُكَلِّمُنَا أَيْدِيهِمْ وَتَشْهَدُ أَرْجُلُهُمْ بِمَا كَانُوا يَكْسِبُونَ",
+            "arabic_markup": "<span class=\"arabic-root\">الْيَوْمَ</span> <span class=\"nonroot\">نَ</span><span class=\"arabic-root\">خْتِمُ</span> <span class=\"nonroot\">عَلَىٰ</span> <span class=\"nonroot\">أَ</span><span class=\"arabic-root\">فْوَاهِهِمْ</span> <span class=\"arabic-root\">وَتُكَلِّم</span><span class=\"nonroot\">ُنَا</span> <span class=\"nonroot\">أَ</span><span class=\"arabic-root\">يْد</span><span class=\"nonroot\">ِيهِمْ</span> <span class=\"nonroot\">وَتَ</span><span class=\"arabic-root\">شْهَدُ</span> <span class=\"nonroot\">أَ</span><span class=\"arabic-root\">رْجُل</span><span class=\"nonroot\">ُهُمْ</span> <span class=\"arabic-root\">بِمَا</span> <span class=\"nonroot\">كَانُوا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">كْسِب</span><span class=\"nonroot\">ُونَ</span>",
+            "hinglish": "Aaj Ham unke munh par mohar laga denge aur unke haath Ham se baat karenge aur unke paon gawahi denge uski jo woh kamaya karte thay",
+            "hinglish_meaning": "Aaj Ham unke munh par mohar laga denge aur unke haath Ham se baat karenge aur unke paon gawahi denge uski jo woh kamaya karte thay",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aaj Ham unke munh par mohar laga denge aur unke haath Ham se baat karenge aur unke paon gawahi denge uski jo woh kamaya karte thay",
+              "ur": "Aaj Ham unke munh par mohar laga denge aur unke haath Ham se baat karenge aur unke paon gawahi denge uski jo woh kamaya karte thay",
+              "en": "Aaj Ham unke munh par mohar laga denge aur unke haath Ham se baat karenge aur unke paon gawahi denge uski jo woh kamaya karte thay",
+              "hi": "Aaj Ham unke munh par mohar laga denge aur unke haath Ham se baat karenge aur unke paon gawahi denge uski jo woh kamaya karte thay",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "book_page": 49,
+  "page_start": 49
+}

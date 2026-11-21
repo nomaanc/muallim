@@ -1,0 +1,2395 @@
+{
+  "lesson_id": 2,
+  "lesson_key": "S3L2",
+  "stage_id": 3,
+  "title": "Sifat-o-Mawsoof (2 — Ek Ism ke Mukhtalif Awsaf): عَذَابٌ ← عَذَابٌ شَدِيدٌ ، عَذَابٌ عَظِيمٌ",
+  "arabic_Focus": "عَذَابٌ ، كِتَابٌ ، قَوْلٌ ← عَذَابٌ شَدِيدٌ ، عَذَابٌ أَلِيمٌ ، عَذَابٌ عَظِيمٌ",
+  "hinglish_Focus": "Azaab, Kitaab, Baat → Sakht azaab, dardnaak azaab, bada azaab",
+  "page_numbers": "80–82",
+  "book_page": 80,
+  "status": "complete",
+  "title_i18n": {
+    "en": "Sifat-o-Mawsoof (2 — Ek Ism ke Mukhtalif Awsaf): عَذَابٌ ← عَذَابٌ شَدِيدٌ ، عَذَابٌ عَظِيمٌ",
+    "ur": "یونٹ 3 سبق 2: عَذَابٌ ، كِتَابٌ ، قَوْلٌ ← عَذَابٌ شَدِيدٌ ، عَذَابٌ أَلِيمٌ ، عَذَابٌ عَظِيمٌ",
+    "hi": "Sifat-o-Mawsoof (2 — Ek Ism ke Mukhtalif Awsaf): عَذَابٌ ← عَذَابٌ شَدِيدٌ ، عَذَابٌ عَظِيمٌ"
+  },
+  "sections": [
+    {
+      "id": "sec_hero",
+      "type": "hero_header",
+      "data": {
+        "arabic": "عَذَابٌ ، كِتَابٌ ، قَوْلٌ ← عَذَابٌ شَدِيدٌ ، عَذَابٌ أَلِيمٌ ، عَذَابٌ عَظِيمٌ",
+        "hinglish": "Azaab, Kitaab, Baat → Sakht azaab, dardnaak azaab, bada azaab",
+        "arabic_word": "عَذَابٌ ، كِتَابٌ ، قَوْلٌ",
+        "arabic_combined": "عَذَابٌ ، كِتَابٌ ، قَوْلٌ ← عَذَابٌ شَدِيدٌ ، عَذَابٌ أَلِيمٌ ، عَذَابٌ عَظِيمٌ",
+        "hinglish_word": "Azaab, Kitaab, Baat",
+        "hinglish_combined": "Azaab, Kitaab, Baat → Sakht azaab, dardnaak azaab, bada azaab",
+        "title_en": "Sifat-o-Mawsoof (2 — Ek Ism ke Mukhtalif Awsaf): عَذَابٌ ← عَذَابٌ شَدِيدٌ ، عَذَابٌ عَظِيمٌ",
+        "subtitle": "Unit 3 • Lesson 2 (Book Page 80–82)",
+        "transformations": [
+          {
+            "before_ar": "عَذَابٌ ، كِتَابٌ ، قَوْلٌ",
+            "after_ar": "عَذَابٌ شَدِيدٌ ، عَذَابٌ أَلِيمٌ ، عَذَابٌ عَظِيمٌ",
+            "before_hi": "Azaab, Kitaab, Baat",
+            "after_hi": "Sakht azaab, dardnaak azaab, bada azaab"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_intro_table",
+      "type": "intro_table",
+      "data": {
+        "title": "S3L2 — Sifat-o-Mawsoof (2 — Ek Ism ke Mukhtalif Awsaf): عَذَابٌ ← عَذَابٌ شَدِيدٌ ، عَذَابٌ عَظِيمٌ: Buniyadi Misaalein",
+        "caption": "S3L2 — Sifat-o-Mawsoof (2 — Ek Ism ke Mukhtalif Awsaf): عَذَابٌ ← عَذَابٌ شَدِيدٌ ، عَذَابٌ عَظِيمٌ: Buniyadi Misaalein",
+        "headers": [
+          "Qism / Wazan",
+          "Arabi Misaal",
+          "Hinglish Mafhoom"
+        ],
+        "rows": [
+          [
+            "عَذَابٌ ke Awsaf",
+            "عَذَابٌ شَدِيدٌ / أَلِيمٌ / عَظِيمٌ / مُهِينٌ",
+            "Sakht / dardnaak / bada / ruswa karne wala azaab"
+          ],
+          [
+            "كِتَابٌ / قُرْآنٌ ke Awsaf",
+            "كِتَابٌ مُبِينٌ / قُرْآنٌ مَجِيدٌ / كَرِيمٌ",
+            "Wazih Kitaab / Buland-shaan aur ba-izzat Qur'an"
+          ],
+          [
+            "قَوْلٌ / صِرَاطٌ ke Awsaf",
+            "قَوْلًا سَدِيدًا / قَوْلٌ مَعْرُوفٌ",
+            "Seedhi-sachchi baat / Bhali baat"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l2_concept",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 3 • LESSON 2</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Sifat-o-Mawsoof (2 — Ek Ism ke Mukhtalif Awsaf): عَذَابٌ ← عَذَابٌ شَدِيدٌ ، عَذَابٌ عَظِيمٌ (Page 80–82)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">عَذَابٌ ، كِتَابٌ ، قَوْلٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Mawsoof + Sifaat</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">عَذَابٌ شَدِيدٌ ، عَذَابٌ أَلِيمٌ ، عَذَابٌ عَظِيمٌ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• عَذَابٌ ، كِتَابٌ ، قَوْلٌ (Azaab, Kitaab, Baat) se عَذَابٌ شَدِيدٌ ، عَذَابٌ أَلِيمٌ ، عَذَابٌ عَظِيمٌ (Sakht azaab, dardnaak azaab, bada azaab) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Sifat-Mawsoof, Izaafat, Asmaa-ul-Faa'il aur Tasniyah Qur'ani tarakeeb ki buniyaad hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 80–82):** Is sabaq mein Qur'an Majeed ke 18 aham asmaa (`عَذَابٌ`، `كِتَابٌ`، `رَسُولٌ`، `قُرْآنٌ`، `قَوْلٌ`، `يَوْمٌ`، `شَيْءٌ`، `مَكَانٌ`، `سِحْرٌ`، `فَضْلٌ`، `كَلِمَةٌ`، `شَجَرَةٌ`، `ضَلَالٌ`، `أُمَّةٌ`، `عَدُوٌّ`، `أَجَلٌ`) ke saath aane wali mukhtalif sifaat yakja ki gayi hain.",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 3 • LESSON 2</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Sifat-o-Mawsoof (2 — Ek Ism ke Mukhtalif Awsaf): عَذَابٌ ← عَذَابٌ شَدِيدٌ ، عَذَابٌ عَظِيمٌ (Page 80–82)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">عَذَابٌ ، كِتَابٌ ، قَوْلٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Mawsoof + Sifaat</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">عَذَابٌ شَدِيدٌ ، عَذَابٌ أَلِيمٌ ، عَذَابٌ عَظِيمٌ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• عَذَابٌ ، كِتَابٌ ، قَوْلٌ (Azaab, Kitaab, Baat) se عَذَابٌ شَدِيدٌ ، عَذَابٌ أَلِيمٌ ، عَذَابٌ عَظِيمٌ (Sakht azaab, dardnaak azaab, bada azaab) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Sifat-Mawsoof, Izaafat, Asmaa-ul-Faa'il aur Tasniyah Qur'ani tarakeeb ki buniyaad hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 80–82):** Is sabaq mein Qur'an Majeed ke 18 aham asmaa (`عَذَابٌ`، `كِتَابٌ`، `رَسُولٌ`، `قُرْآنٌ`، `قَوْلٌ`، `يَوْمٌ`، `شَيْءٌ`، `مَكَانٌ`، `سِحْرٌ`، `فَضْلٌ`، `كَلِمَةٌ`، `شَجَرَةٌ`، `ضَلَالٌ`، `أُمَّةٌ`، `عَدُوٌّ`، `أَجَلٌ`) ke saath aane wali mukhtalif sifaat yakja ki gayi hain.",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 3 • LESSON 2</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Sifat-o-Mawsoof (2 — Ek Ism ke Mukhtalif Awsaf): عَذَابٌ ← عَذَابٌ شَدِيدٌ ، عَذَابٌ عَظِيمٌ (Page 80–82)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">عَذَابٌ ، كِتَابٌ ، قَوْلٌ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Mawsoof + Sifaat</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">عَذَابٌ شَدِيدٌ ، عَذَابٌ أَلِيمٌ ، عَذَابٌ عَظِيمٌ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• عَذَابٌ ، كِتَابٌ ، قَوْلٌ (Azaab, Kitaab, Baat) se عَذَابٌ شَدِيدٌ ، عَذَابٌ أَلِيمٌ ، عَذَابٌ عَظِيمٌ (Sakht azaab, dardnaak azaab, bada azaab) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Sifat-Mawsoof, Izaafat, Asmaa-ul-Faa'il aur Tasniyah Qur'ani tarakeeb ki buniyaad hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 80–82):** Is sabaq mein Qur'an Majeed ke 18 aham asmaa (`عَذَابٌ`، `كِتَابٌ`، `رَسُولٌ`، `قُرْآنٌ`، `قَوْلٌ`، `يَوْمٌ`، `شَيْءٌ`، `مَكَانٌ`، `سِحْرٌ`، `فَضْلٌ`، `كَلِمَةٌ`، `شَجَرَةٌ`، `ضَلَالٌ`، `أُمَّةٌ`، `عَدُوٌّ`، `أَجَلٌ`) ke saath aane wali mukhtalif sifaat yakja ki gayi hain."
+      }
+    },
+    {
+      "id": "sec_s3l2_r1",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Iss sabaq mein hum dekhenge ke ek hi Isim (Noun) ke saath mukhtalif Sifat (Adjectives) kis tarah aati hain. Iss sabaq mein Mausoof laal rang mein numayan hai, jabke Sifat siyah rang mein hai.",
+        "content": "Iss sabaq mein hum dekhenge ke ek hi Isim (Noun) ke saath mukhtalif Sifat (Adjectives) kis tarah aati hain. Iss sabaq mein Mausoof laal rang mein numayan hai, jabke Sifat siyah rang mein hai.",
+        "hinglish_text": "Iss sabaq mein hum dekhenge ke ek hi Isim (Noun) ke saath mukhtalif Sifat (Adjectives) kis tarah aati hain. Iss sabaq mein Mausoof laal rang mein numayan hai, jabke Sifat siyah rang mein hai."
+      }
+    },
+    {
+      "id": "sec_s3l2_lbl2",
+      "type": "section_label",
+      "data": {
+        "text": "عَذَابٌ — Azab (Azab ke mukhtalif awsaf)",
+        "title": "عَذَابٌ — Azab (Azab ke mukhtalif awsaf)",
+        "label": "عَذَابٌ — Azab (Azab ke mukhtalif awsaf)"
+      }
+    },
+    {
+      "id": "sec_s3l2_r3",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "عَذَابٌ lafz laal rang mein hai aur iski mukhtalif sifat (sakht, dardnaak, azeem) ka mutala karein.",
+        "content": "عَذَابٌ lafz laal rang mein hai aur iski mukhtalif sifat (sakht, dardnaak, azeem) ka mutala karein.",
+        "hinglish_text": "عَذَابٌ lafz laal rang mein hai aur iski mukhtalif sifat (sakht, dardnaak, azeem) ka mutala karein."
+      }
+    },
+    {
+      "id": "sec_s3l2_g4",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s3l2_g4_w1",
+            "arabic": "عَذَابٌ شَدِيدٌ",
+            "arabic_text": "عَذَابٌ شَدِيدٌ",
+            "arabic_markup": "<span class=\"nonroot\">عَذَابٌ</span> <span class=\"arabic-root\">شَدِيدٌ</span>",
+            "hinglish": "Sakht azab",
+            "hinglish_meaning": "Sakht azab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Sakht azab",
+              "en": "A severe punishment",
+              "ur": "سخت عذاب",
+              "hi": "सख़्त अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g4_w2",
+            "arabic": "عَذَابٌ أَلِيمٌ",
+            "arabic_text": "عَذَابٌ أَلِيمٌ",
+            "arabic_markup": "<span class=\"nonroot\">عَذَابٌ</span> <span class=\"arabic-root\">أَلِيمٌ</span>",
+            "hinglish": "Dardnaak azab",
+            "hinglish_meaning": "Dardnaak azab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Dardnaak azab",
+              "en": "A painful punishment",
+              "ur": "دردناک عذاب",
+              "hi": "दर्दनाक अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g4_w3",
+            "arabic": "عَذَابٌ عَظِيمٌ",
+            "arabic_text": "عَذَابٌ عَظِيمٌ",
+            "arabic_markup": "<span class=\"nonroot\">عَذَابٌ</span> <span class=\"arabic-root\">عَظِيمٌ</span>",
+            "hinglish": "Bada azab",
+            "hinglish_meaning": "Bada azab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bada azab",
+              "en": "A great punishment",
+              "ur": "بڑا عذاب",
+              "hi": "बड़ा अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g4_w4",
+            "arabic": "عَذَابٌ مُقِيمٌ",
+            "arabic_text": "عَذَابٌ مُقِيمٌ",
+            "arabic_markup": "<span class=\"nonroot\">عَذَابٌ</span> <span class=\"arabic-root\">مُقِيمٌ</span>",
+            "hinglish": "Hamesha rehne wala azab",
+            "hinglish_meaning": "Hamesha rehne wala azab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Hamesha rehne wala azab",
+              "en": "An enduring punishment",
+              "ur": "ہمیشہ رہنے والا عذاب",
+              "hi": "हमेशा रहने वाला अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g4_w5",
+            "arabic": "عَذَابٌ قَرِيبٌ",
+            "arabic_text": "عَذَابٌ قَرِيبٌ",
+            "arabic_markup": "<span class=\"nonroot\">عَذَابٌ</span> <span class=\"arabic-root\">قَرِيبٌ</span>",
+            "hinglish": "Qareeb ka azab",
+            "hinglish_meaning": "Qareeb ka azab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Qareeb ka azab",
+              "en": "A near punishment",
+              "ur": "قریب کا عذاب",
+              "hi": "क़रीब का अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g4_w6",
+            "arabic": "عَذَابٌ مُهِينٌ",
+            "arabic_text": "عَذَابٌ مُهِينٌ",
+            "arabic_markup": "<span class=\"nonroot\">عَذَابٌ</span> <span class=\"arabic-root\">مُهِينٌ</span>",
+            "hinglish": "Ruswa karne wala azab",
+            "hinglish_meaning": "Ruswa karne wala azab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ruswa karne wala azab",
+              "en": "A humiliating punishment",
+              "ur": "رسوا کرنے والا عذاب",
+              "hi": "रुसवा करने वाला अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g4_w7",
+            "arabic": "عَذَابًا شَدِيدًا",
+            "arabic_text": "عَذَابًا شَدِيدًا",
+            "arabic_markup": "<span class=\"nonroot\">عَذَابًا</span> <span class=\"arabic-root\">شَدِيدًا</span>",
+            "hinglish": "Sakht azab",
+            "hinglish_meaning": "Sakht azab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Sakht azab",
+              "en": "A severe punishment",
+              "ur": "سخت عذاب",
+              "hi": "सख़्त अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g4_w8",
+            "arabic": "عَذَابًا قَرِيبًا",
+            "arabic_text": "عَذَابًا قَرِيبًا",
+            "arabic_markup": "<span class=\"nonroot\">عَذَابًا</span> <span class=\"arabic-root\">قَرِيبًا</span>",
+            "hinglish": "Qareeb ka azab",
+            "hinglish_meaning": "Qareeb ka azab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Qareeb ka azab",
+              "en": "A near punishment",
+              "ur": "قریب کا عذاب",
+              "hi": "क़रीब का अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g4_w9",
+            "arabic": "عَذَابٌ غَلِيظٌ",
+            "arabic_text": "عَذَابٌ غَلِيظٌ",
+            "arabic_markup": "<span class=\"nonroot\">عَذَابٌ</span> <span class=\"arabic-root\">غَلِيظٌ</span>",
+            "hinglish": "Bhaari azab",
+            "hinglish_meaning": "Bhaari azab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bhaari azab",
+              "en": "A harsh punishment",
+              "ur": "بھاری عذاب",
+              "hi": "भारी अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g4_w10",
+            "arabic": "عَذَابًا كَبِيرًا",
+            "arabic_text": "عَذَابًا كَبِيرًا",
+            "arabic_markup": "<span class=\"nonroot\">عَذَابًا</span> <span class=\"arabic-root\">كَبِيرًا</span>",
+            "hinglish": "Bada azab",
+            "hinglish_meaning": "Bada azab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bada azab",
+              "en": "A great punishment",
+              "ur": "بڑا عذاب",
+              "hi": "बड़ा अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g4_w11",
+            "arabic": "عَذَابًا أَلِيمًا",
+            "arabic_text": "عَذَابًا أَلِيمًا",
+            "arabic_markup": "<span class=\"nonroot\">عَذَابًا</span> <span class=\"arabic-root\">أَلِيمًا</span>",
+            "hinglish": "Dardnaak azab",
+            "hinglish_meaning": "Dardnaak azab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Dardnaak azab",
+              "en": "A painful punishment",
+              "ur": "دردناک عذاب",
+              "hi": "दर्दनाक अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g4_w12",
+            "arabic": "عَذَابًا عَظِيمًا",
+            "arabic_text": "عَذَابًا عَظِيمًا",
+            "arabic_markup": "<span class=\"nonroot\">عَذَابًا</span> <span class=\"arabic-root\">عَظِيمًا</span>",
+            "hinglish": "Bada azab",
+            "hinglish_meaning": "Bada azab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bada azab",
+              "en": "A great punishment",
+              "ur": "بڑا عذاب",
+              "hi": "बड़ा अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g4_w13",
+            "arabic": "عَذَابٍ أَلِيمٍ",
+            "arabic_text": "عَذَابٍ أَلِيمٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَذَابٍ</span> <span class=\"arabic-root\">أَلِيمٍ</span>",
+            "hinglish": "Dardnaak azab",
+            "hinglish_meaning": "Dardnaak azab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Dardnaak azab",
+              "en": "A painful punishment",
+              "ur": "دردناک عذاب",
+              "hi": "दर्दनाक अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g4_w14",
+            "arabic": "عَذَابٍ عَظِيمٍ",
+            "arabic_text": "عَذَابٍ عَظِيمٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَذَابٍ</span> <span class=\"arabic-root\">عَظِيمٍ</span>",
+            "hinglish": "Bada azab",
+            "hinglish_meaning": "Bada azab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bada azab",
+              "en": "A great punishment",
+              "ur": "بڑا عذاب",
+              "hi": "बड़ा अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g4_w15",
+            "arabic": "عَذَابًا مُهِينًا",
+            "arabic_text": "عَذَابًا مُهِينًا",
+            "arabic_markup": "<span class=\"nonroot\">عَذَابًا</span> <span class=\"arabic-root\">مُهِينًا</span>",
+            "hinglish": "Ruswa karne wala azab",
+            "hinglish_meaning": "Ruswa karne wala azab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ruswa karne wala azab",
+              "en": "A humiliating punishment",
+              "ur": "رسوا کرنے والا عذاب",
+              "hi": "रुसवा करने वाला अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g4_w16",
+            "arabic": "الْعَذَابِ الْأَلِيمِ",
+            "arabic_text": "الْعَذَابِ الْأَلِيمِ",
+            "arabic_markup": "<span class=\"nonroot\">الْعَذَابِ</span> <span class=\"arabic-root\">الْأَلِيمِ</span>",
+            "hinglish": "Dardnaak azab",
+            "hinglish_meaning": "Dardnaak azab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Dardnaak azab",
+              "en": "The painful punishment",
+              "ur": "دردناک عذاب",
+              "hi": "दर्दनाक अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g4_w17",
+            "arabic": "الْعَذَابِ الشَّدِيدِ",
+            "arabic_text": "الْعَذَابِ الشَّدِيدِ",
+            "arabic_markup": "<span class=\"nonroot\">الْعَذَابِ</span> <span class=\"arabic-root\">الشَّدِيدِ</span>",
+            "hinglish": "Sakht azab",
+            "hinglish_meaning": "Sakht azab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Sakht azab",
+              "en": "The severe punishment",
+              "ur": "سخت عذاب",
+              "hi": "सख़्त अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g4_w18",
+            "arabic": "عَذَابٍ غَلِيظٍ",
+            "arabic_text": "عَذَابٍ غَلِيظٍ",
+            "arabic_markup": "<span class=\"nonroot\">عَذَابٍ</span> <span class=\"arabic-root\">غَلِيظٍ</span>",
+            "hinglish": "Bhaari azab",
+            "hinglish_meaning": "Bhaari azab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bhaari azab",
+              "en": "A harsh punishment",
+              "ur": "بھاری عذاب",
+              "hi": "भारी अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g4_w19",
+            "arabic": "الْعَذَابُ الْأَكْبَرُ",
+            "arabic_text": "الْعَذَابُ الْأَكْبَرُ",
+            "arabic_markup": "<span class=\"nonroot\">الْعَذَابُ</span> <span class=\"arabic-root\">الْأَكْبَرُ</span>",
+            "hinglish": "Bada azab",
+            "hinglish_meaning": "Bada azab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bada azab",
+              "en": "The greatest punishment",
+              "ur": "سب سے بڑا عذاب",
+              "hi": "सबसे बड़ा अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g4_w20",
+            "arabic": "الْعَذَابِ الْمُهِينِ",
+            "arabic_text": "الْعَذَابِ الْمُهِينِ",
+            "arabic_markup": "<span class=\"nonroot\">الْعَذَابِ</span> <span class=\"arabic-root\">الْمُهِينِ</span>",
+            "hinglish": "Ruswa karne wala azab",
+            "hinglish_meaning": "Ruswa karne wala azab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ruswa karne wala azab",
+              "en": "The humiliating punishment",
+              "ur": "رسوا کرنے والا عذاب",
+              "hi": "रुसवा करने वाला अज़ाब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l2_lbl5",
+      "type": "section_label",
+      "data": {
+        "text": "كِتَابٌ — Kitaab (Kitaab ke awsaf)",
+        "title": "كِتَابٌ — Kitaab (Kitaab ke awsaf)",
+        "label": "كِتَابٌ — Kitaab (Kitaab ke awsaf)"
+      }
+    },
+    {
+      "id": "sec_s3l2_r6",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "كِتَابٌ lafz ke mukhtalif awsaf jaise mubeen aur kareem.",
+        "content": "كِتَابٌ lafz ke mukhtalif awsaf jaise mubeen aur kareem.",
+        "hinglish_text": "كِتَابٌ lafz ke mukhtalif awsaf jaise mubeen aur kareem."
+      }
+    },
+    {
+      "id": "sec_s3l2_g7",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s3l2_g7_w1",
+            "arabic": "الْكِتَابِ الْمُبِينِ",
+            "arabic_text": "الْكِتَابِ الْمُبِينِ",
+            "arabic_markup": "<span class=\"nonroot\">الْكِتَابِ</span> <span class=\"arabic-root\">الْمُبِينِ</span>",
+            "hinglish": "Wazih kitab",
+            "hinglish_meaning": "Wazih kitab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Wazih kitab",
+              "en": "The clear Book",
+              "ur": "واضح کتاب",
+              "hi": "स्पष्ट किताब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g7_w2",
+            "arabic": "الْكِتَابِ الْمُنِيرِ",
+            "arabic_text": "الْكِتَابِ الْمُنِيرِ",
+            "arabic_markup": "<span class=\"nonroot\">الْكِتَابِ</span> <span class=\"arabic-root\">الْمُنِيرِ</span>",
+            "hinglish": "Roshni dene wali kitab",
+            "hinglish_meaning": "Roshni dene wali kitab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Roshni dene wali kitab",
+              "en": "The enlightening Book",
+              "ur": "روشنی دینے والی کتاب",
+              "hi": "रोशनी देने वाली किताब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g7_w3",
+            "arabic": "الْكِتَابِ الْحَكِيمِ",
+            "arabic_text": "الْكِتَابِ الْحَكِيمِ",
+            "arabic_markup": "<span class=\"nonroot\">الْكِتَابِ</span> <span class=\"arabic-root\">الْحَكِيمِ</span>",
+            "hinglish": "Hikmat wali kitab",
+            "hinglish_meaning": "Hikmat wali kitab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Hikmat wali kitab",
+              "en": "The wise Book",
+              "ur": "حکمت والی کتاب",
+              "hi": "हिकमत वाली किताब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g7_w4",
+            "arabic": "كِتَابٌ كَرِيمٌ",
+            "arabic_text": "كِتَابٌ كَرِيمٌ",
+            "arabic_markup": "<span class=\"nonroot\">كِتَابٌ</span> <span class=\"arabic-root\">كَرِيمٌ</span>",
+            "hinglish": "Izzat wali kitab",
+            "hinglish_meaning": "Izzat wali kitab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Izzat wali kitab",
+              "en": "A noble book",
+              "ur": "عزت والی کتاب",
+              "hi": "इज़्ज़त वाली किताब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g7_w5",
+            "arabic": "كِتَابٌ مُصَدِّقٌ",
+            "arabic_text": "كِتَابٌ مُصَدِّقٌ",
+            "arabic_markup": "<span class=\"nonroot\">كِتَابٌ</span> <span class=\"arabic-root\">مُصَدِّقٌ</span>",
+            "hinglish": "Tasdeeq karne wali kitab",
+            "hinglish_meaning": "Tasdeeq karne wali kitab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tasdeeq karne wali kitab",
+              "en": "A confirming book",
+              "ur": "تصدیق کرنے والی کتاب",
+              "hi": "तस्दीक़ करने वाली किताब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g7_w6",
+            "arabic": "كِتَابٌ مُبِينٌ",
+            "arabic_text": "كِتَابٌ مُبِينٌ",
+            "arabic_markup": "<span class=\"nonroot\">كِتَابٌ</span> <span class=\"arabic-root\">مُبِينٌ</span>",
+            "hinglish": "Wazih kitab",
+            "hinglish_meaning": "Wazih kitab",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Wazih kitab",
+              "en": "A clear book",
+              "ur": "واضح کتاب",
+              "hi": "स्पष्ट किताब",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l2_lbl8",
+      "type": "section_label",
+      "data": {
+        "text": "رَسُولٌ — Rasool (Rasool ke awsaf)",
+        "title": "رَسُولٌ — Rasool (Rasool ke awsaf)",
+        "label": "رَسُولٌ — Rasool (Rasool ke awsaf)"
+      }
+    },
+    {
+      "id": "sec_s3l2_r9",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "رَسُولٌ lafz ke awsaf jaise kareem aur ameen.",
+        "content": "رَسُولٌ lafz ke awsaf jaise kareem aur ameen.",
+        "hinglish_text": "رَسُولٌ lafz ke awsaf jaise kareem aur ameen."
+      }
+    },
+    {
+      "id": "sec_s3l2_g10",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s3l2_g10_w1",
+            "arabic": "رَسُولٌ كَرِيمٌ",
+            "arabic_text": "رَسُولٌ كَرِيمٌ",
+            "arabic_markup": "<span class=\"nonroot\">رَسُولٌ</span> <span class=\"arabic-root\">كَرِيمٌ</span>",
+            "hinglish": "Izzat wala Rasool",
+            "hinglish_meaning": "Izzat wala Rasool",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Izzat wala Rasool",
+              "en": "A noble Messenger",
+              "ur": "عزت والا رسول",
+              "hi": "इज़्ज़त वाला रसूल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g10_w2",
+            "arabic": "رَسُولٌ أَمِينٌ",
+            "arabic_text": "رَسُولٌ أَمِينٌ",
+            "arabic_markup": "<span class=\"nonroot\">رَسُولٌ</span> <span class=\"arabic-root\">أَمِينٌ</span>",
+            "hinglish": "Amanatdar Rasool",
+            "hinglish_meaning": "Amanatdar Rasool",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Amanatdar Rasool",
+              "en": "A trustworthy Messenger",
+              "ur": "امانت دار رسول",
+              "hi": "अमानतदार रसूल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g10_w3",
+            "arabic": "رَسُولٌ مُبِينٌ",
+            "arabic_text": "رَسُولٌ مُبِينٌ",
+            "arabic_markup": "<span class=\"nonroot\">رَسُولٌ</span> <span class=\"arabic-root\">مُبِينٌ</span>",
+            "hinglish": "Wazih Rasool",
+            "hinglish_meaning": "Wazih Rasool",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Wazih Rasool",
+              "en": "A clear Messenger",
+              "ur": "واضح رسول",
+              "hi": "स्पष्ट रसूल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g10_w4",
+            "arabic": "رَسُولٌ مُصَدِّقٌ",
+            "arabic_text": "رَسُولٌ مُصَدِّقٌ",
+            "arabic_markup": "<span class=\"nonroot\">رَسُولٌ</span> <span class=\"arabic-root\">مُصَدِّقٌ</span>",
+            "hinglish": "Tasdeeq karne wala Rasool",
+            "hinglish_meaning": "Tasdeeq karne wala Rasool",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tasdeeq karne wala Rasool",
+              "en": "A confirming Messenger",
+              "ur": "تصدیق کرنے والا رسول",
+              "hi": "तस्दीक़ करने वाला रसूल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l2_lbl11",
+      "type": "section_label",
+      "data": {
+        "text": "قُرْآنٌ — Quran (Quran ke awsaf)",
+        "title": "قُرْآنٌ — Quran (Quran ke awsaf)",
+        "label": "قُرْآنٌ — Quran (Quran ke awsaf)"
+      }
+    },
+    {
+      "id": "sec_s3l2_r12",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "قُرْآنٌ lafz ke awsaf jaise majeed, a'jami, aur hakeem.",
+        "content": "قُرْآنٌ lafz ke awsaf jaise majeed, a'jami, aur hakeem.",
+        "hinglish_text": "قُرْآنٌ lafz ke awsaf jaise majeed, a'jami, aur hakeem."
+      }
+    },
+    {
+      "id": "sec_s3l2_g13",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s3l2_g13_w1",
+            "arabic": "قُرْآنٌ مَجِيدٌ",
+            "arabic_text": "قُرْآنٌ مَجِيدٌ",
+            "arabic_markup": "<span class=\"nonroot\">قُرْآنٌ</span> <span class=\"arabic-root\">مَجِيدٌ</span>",
+            "hinglish": "Izzat wala Qur'an",
+            "hinglish_meaning": "Izzat wala Qur'an",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Izzat wala Qur'an",
+              "en": "A glorious Qur'an",
+              "ur": "بزرگی والا قرآن",
+              "hi": "बुज़ुर्गी वाला क़ुरआन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g13_w2",
+            "arabic": "قُرْآنٌ كَرِيمٌ",
+            "arabic_text": "قُرْآنٌ كَرِيمٌ",
+            "arabic_markup": "<span class=\"nonroot\">قُرْآنٌ</span> <span class=\"arabic-root\">كَرِيمٌ</span>",
+            "hinglish": "Izzat wala Qur'an",
+            "hinglish_meaning": "Izzat wala Qur'an",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Izzat wala Qur'an",
+              "en": "A noble Qur'an",
+              "ur": "عزت والا قرآن",
+              "hi": "इज़्ज़त वाला क़ुरआन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g13_w3",
+            "arabic": "قُرْآنٌ مُبِينٌ",
+            "arabic_text": "قُرْآنٌ مُبِينٌ",
+            "arabic_markup": "<span class=\"nonroot\">قُرْآنٌ</span> <span class=\"arabic-root\">مُبِينٌ</span>",
+            "hinglish": "Wazih Qur'an",
+            "hinglish_meaning": "Wazih Qur'an",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Wazih Qur'an",
+              "en": "A clear Qur'an",
+              "ur": "واضح قرآن",
+              "hi": "स्पष्ट क़ुरआन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g13_w4",
+            "arabic": "قُرْآنًا أَعْجَمِيًّا",
+            "arabic_text": "قُرْآنًا أَعْجَمِيًّا",
+            "arabic_markup": "<span class=\"nonroot\">قُرْآنًا</span> <span class=\"arabic-root\">أَعْجَمِيًّا</span>",
+            "hinglish": "A'jami Qur'an",
+            "hinglish_meaning": "A'jami Qur'an",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "A'jami Qur'an",
+              "en": "A non-Arabic Qur'an",
+              "ur": "عجمی قرآن",
+              "hi": "अजमी क़ुरआन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g13_w5",
+            "arabic": "قُرْآنًا عَرَبِيًّا",
+            "arabic_text": "قُرْآنًا عَرَبِيًّا",
+            "arabic_markup": "<span class=\"nonroot\">قُرْآنًا</span> <span class=\"arabic-root\">عَرَبِيًّا</span>",
+            "hinglish": "Arbi Qur'an",
+            "hinglish_meaning": "Arbi Qur'an",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Arbi Qur'an",
+              "en": "An Arabic Qur'an",
+              "ur": "عربی قرآن",
+              "hi": "अरबी क़ुरआन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g13_w6",
+            "arabic": "قُرْآنًا عَجَبًا",
+            "arabic_text": "قُرْآنًا عَجَبًا",
+            "arabic_markup": "<span class=\"nonroot\">قُرْآنًا</span> <span class=\"arabic-root\">عَجَبًا</span>",
+            "hinglish": "Anokha Qur'an",
+            "hinglish_meaning": "Anokha Qur'an",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Anokha Qur'an",
+              "en": "An amazing Qur'an",
+              "ur": "انوکھا قرآن",
+              "hi": "अनोखा क़ुरआन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g13_w7",
+            "arabic": "الْقُرْآنِ الْحَكِيمِ",
+            "arabic_text": "الْقُرْآنِ الْحَكِيمِ",
+            "arabic_markup": "<span class=\"nonroot\">الْقُرْآنِ</span> <span class=\"arabic-root\">الْحَكِيمِ</span>",
+            "hinglish": "Hikmat wala Qur'an",
+            "hinglish_meaning": "Hikmat wala Qur'an",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Hikmat wala Qur'an",
+              "en": "The wise Qur'an",
+              "ur": "حکمت والا قرآن",
+              "hi": "हिकमत वाला क़ुरआन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g13_w8",
+            "arabic": "الْقُرْآنِ الْعَظِيمِ",
+            "arabic_text": "الْقُرْآنِ الْعَظِيمِ",
+            "arabic_markup": "<span class=\"nonroot\">الْقُرْآنِ</span> <span class=\"arabic-root\">الْعَظِيمِ</span>",
+            "hinglish": "Azeem Qur'an",
+            "hinglish_meaning": "Azeem Qur'an",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Azeem Qur'an",
+              "en": "The great Qur'an",
+              "ur": "عظیم قرآن",
+              "hi": "अज़ीम क़ुरआन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g13_w9",
+            "arabic": "الْقُرْآنِ الْمَجِيدِ",
+            "arabic_text": "الْقُرْآنِ الْمَجِيدِ",
+            "arabic_markup": "<span class=\"nonroot\">الْقُرْآنِ</span> <span class=\"arabic-root\">الْمَجِيدِ</span>",
+            "hinglish": "Izzat wala Qur'an",
+            "hinglish_meaning": "Izzat wala Qur'an",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Izzat wala Qur'an",
+              "en": "The glorious Qur'an",
+              "ur": "بزرگی والا قرآن",
+              "hi": "बुज़ुर्गी वाला क़ुरआन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l2_lbl14",
+      "type": "section_label",
+      "data": {
+        "text": "قَوْلٌ — Qawl (Baat / Farman ke awsaf)",
+        "title": "قَوْلٌ — Qawl (Baat / Farman ke awsaf)",
+        "label": "قَوْلٌ — Qawl (Baat / Farman ke awsaf)"
+      }
+    },
+    {
+      "id": "sec_s3l2_r15",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "قَوْلٌ lafz ke awsaf jaise azeem, ma'roof, aur sadeed.",
+        "content": "قَوْلٌ lafz ke awsaf jaise azeem, ma'roof, aur sadeed.",
+        "hinglish_text": "قَوْلٌ lafz ke awsaf jaise azeem, ma'roof, aur sadeed."
+      }
+    },
+    {
+      "id": "sec_s3l2_g16",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s3l2_g16_w1",
+            "arabic": "قَوْلًا عَظِيمًا",
+            "arabic_text": "قَوْلًا عَظِيمًا",
+            "arabic_markup": "<span class=\"nonroot\">قَوْلًا</span> <span class=\"arabic-root\">عَظِيمًا</span>",
+            "hinglish": "Badi baat",
+            "hinglish_meaning": "Badi baat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Badi baat",
+              "en": "A grave word",
+              "ur": "بڑی بات",
+              "hi": "बड़ी बात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g16_w2",
+            "arabic": "قَوْلًا بَلِيغًا",
+            "arabic_text": "قَوْلًا بَلِيغًا",
+            "arabic_markup": "<span class=\"nonroot\">قَوْلًا</span> <span class=\"arabic-root\">بَلِيغًا</span>",
+            "hinglish": "Asar dar baat",
+            "hinglish_meaning": "Asar dar baat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Asar dar baat",
+              "en": "An effective word",
+              "ur": "اثر دار بات",
+              "hi": "असरदार बात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g16_w3",
+            "arabic": "قَوْلٌ مَعْرُوفٌ",
+            "arabic_text": "قَوْلٌ مَعْرُوفٌ",
+            "arabic_markup": "<span class=\"nonroot\">قَوْلٌ</span> <span class=\"arabic-root\">مَعْرُوفٌ</span>",
+            "hinglish": "Achhi baat",
+            "hinglish_meaning": "Achhi baat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Achhi baat",
+              "en": "A kind word",
+              "ur": "اچھی بات",
+              "hi": "अच्छी बात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g16_w4",
+            "arabic": "قَوْلًا مَعْرُوفًا",
+            "arabic_text": "قَوْلًا مَعْرُوفًا",
+            "arabic_markup": "<span class=\"nonroot\">قَوْلًا</span> <span class=\"arabic-root\">مَعْرُوفًا</span>",
+            "hinglish": "Achhi baat",
+            "hinglish_meaning": "Achhi baat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Achhi baat",
+              "en": "A kind word",
+              "ur": "اچھی بات",
+              "hi": "अच्छी बात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g16_w5",
+            "arabic": "قَوْلًا كَرِيمًا",
+            "arabic_text": "قَوْلًا كَرِيمًا",
+            "arabic_markup": "<span class=\"nonroot\">قَوْلًا</span> <span class=\"arabic-root\">كَرِيمًا</span>",
+            "hinglish": "Izzat wali baat",
+            "hinglish_meaning": "Izzat wali baat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Izzat wali baat",
+              "en": "A noble word",
+              "ur": "عزت والی بات",
+              "hi": "इज़्ज़त वाली बात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g16_w6",
+            "arabic": "قَوْلًا ثَقِيلًا",
+            "arabic_text": "قَوْلًا ثَقِيلًا",
+            "arabic_markup": "<span class=\"nonroot\">قَوْلًا</span> <span class=\"arabic-root\">ثَقِيلًا</span>",
+            "hinglish": "Bhaari baat",
+            "hinglish_meaning": "Bhaari baat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bhaari baat",
+              "en": "A heavy word",
+              "ur": "بھاری بات",
+              "hi": "भारी बात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g16_w7",
+            "arabic": "قَوْلٌ مُخْتَلِفٌ",
+            "arabic_text": "قَوْلٌ مُخْتَلِفٌ",
+            "arabic_markup": "<span class=\"nonroot\">قَوْلٌ</span> <span class=\"arabic-root\">مُخْتَلِفٌ</span>",
+            "hinglish": "Mukhtalif baat",
+            "hinglish_meaning": "Mukhtalif baat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Mukhtalif baat",
+              "en": "Differing speech",
+              "ur": "مختلف بات",
+              "hi": "मुख़्तलिफ़ बात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g16_w8",
+            "arabic": "قَوْلٌ فَصْلٌ",
+            "arabic_text": "قَوْلٌ فَصْلٌ",
+            "arabic_markup": "<span class=\"nonroot\">قَوْلٌ</span> <span class=\"arabic-root\">فَصْلٌ</span>",
+            "hinglish": "Faisla kun baat",
+            "hinglish_meaning": "Faisla kun baat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Faisla kun baat",
+              "en": "A decisive word",
+              "ur": "فیصلہ کن بات",
+              "hi": "फ़ैसलाकुन बात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g16_w9",
+            "arabic": "قَوْلًا سَدِيدًا",
+            "arabic_text": "قَوْلًا سَدِيدًا",
+            "arabic_markup": "<span class=\"nonroot\">قَوْلًا</span> <span class=\"arabic-root\">سَدِيدًا</span>",
+            "hinglish": "Seedhi baat",
+            "hinglish_meaning": "Seedhi baat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Seedhi baat",
+              "en": "A straight word",
+              "ur": "سیدھی بات",
+              "hi": "सीधी बात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l2_lbl17",
+      "type": "section_label",
+      "data": {
+        "text": "يَوْمٌ — Din (Yowm ke awsaf)",
+        "title": "يَوْمٌ — Din (Yowm ke awsaf)",
+        "label": "يَوْمٌ — Din (Yowm ke awsaf)"
+      }
+    },
+    {
+      "id": "sec_s3l2_r18",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "يَوْمٌ lafz ke awsaf jaise aleem, azeem, aur kabeer.",
+        "content": "يَوْمٌ lafz ke awsaf jaise aleem, azeem, aur kabeer.",
+        "hinglish_text": "يَوْمٌ lafz ke awsaf jaise aleem, azeem, aur kabeer."
+      }
+    },
+    {
+      "id": "sec_s3l2_g19",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s3l2_g19_w1",
+            "arabic": "يَوْمٌ أَلِيمٌ",
+            "arabic_text": "يَوْمٌ أَلِيمٌ",
+            "arabic_markup": "<span class=\"nonroot\">يَوْمٌ</span> <span class=\"arabic-root\">أَلِيمٌ</span>",
+            "hinglish": "Dardnaak din",
+            "hinglish_meaning": "Dardnaak din",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Dardnaak din",
+              "en": "A painful day",
+              "ur": "دردناک دن",
+              "hi": "दर्दनाक दिन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g19_w2",
+            "arabic": "يَوْمٍ كَبِيرٍ",
+            "arabic_text": "يَوْمٍ كَبِيرٍ",
+            "arabic_markup": "<span class=\"nonroot\">يَوْمٍ</span> <span class=\"arabic-root\">كَبِيرٍ</span>",
+            "hinglish": "Bada din",
+            "hinglish_meaning": "Bada din",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bada din",
+              "en": "A great day",
+              "ur": "بڑا دن",
+              "hi": "बड़ा दिन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g19_w3",
+            "arabic": "يَوْمٌ عَظِيمٌ",
+            "arabic_text": "يَوْمٌ عَظِيمٌ",
+            "arabic_markup": "<span class=\"nonroot\">يَوْمٌ</span> <span class=\"arabic-root\">عَظِيمٌ</span>",
+            "hinglish": "Bada din",
+            "hinglish_meaning": "Bada din",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bada din",
+              "en": "A tremendous day",
+              "ur": "بڑا دن",
+              "hi": "बड़ा दिन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g19_w4",
+            "arabic": "يَوْمٌ عَسِيرٌ",
+            "arabic_text": "يَوْمٌ عَسِيرٌ",
+            "arabic_markup": "<span class=\"nonroot\">يَوْمٌ</span> <span class=\"arabic-root\">عَسِيرٌ</span>",
+            "hinglish": "Sakht din",
+            "hinglish_meaning": "Sakht din",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Sakht din",
+              "en": "A difficult day",
+              "ur": "سخت دن",
+              "hi": "सख़्त दिन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g19_w5",
+            "arabic": "يَوْمٌ مَعْلُومٌ",
+            "arabic_text": "يَوْمٌ مَعْلُومٌ",
+            "arabic_markup": "<span class=\"nonroot\">يَوْمٌ</span> <span class=\"arabic-root\">مَعْلُومٌ</span>",
+            "hinglish": "Muqarrar din",
+            "hinglish_meaning": "Muqarrar din",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Muqarrar din",
+              "en": "A known day",
+              "ur": "مقرر دن",
+              "hi": "मुक़र्रर दिन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g19_w6",
+            "arabic": "يَوْمٌ مُحِيطٌ",
+            "arabic_text": "يَوْمٌ مُحِيطٌ",
+            "arabic_markup": "<span class=\"nonroot\">يَوْمٌ</span> <span class=\"arabic-root\">مُحِيطٌ</span>",
+            "hinglish": "Gherne wala din",
+            "hinglish_meaning": "Gherne wala din",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Gherne wala din",
+              "en": "An all-encompassing day",
+              "ur": "گھیرنے والا دن",
+              "hi": "घेरने वाला दिन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l2_lbl20",
+      "type": "section_label",
+      "data": {
+        "text": "شَيْءٌ — Cheez (Shay ke awsaf)",
+        "title": "شَيْءٌ — Cheez (Shay ke awsaf)",
+        "label": "شَيْءٌ — Cheez (Shay ke awsaf)"
+      }
+    },
+    {
+      "id": "sec_s3l2_r21",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "شَيْءٌ lafz ke awsaf jaise ajaab aur mazkoor.",
+        "content": "شَيْءٌ lafz ke awsaf jaise ajaab aur mazkoor.",
+        "hinglish_text": "شَيْءٌ lafz ke awsaf jaise ajaab aur mazkoor."
+      }
+    },
+    {
+      "id": "sec_s3l2_g22",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s3l2_g22_w1",
+            "arabic": "شَيْءٌ عَجَابٌ",
+            "arabic_text": "شَيْءٌ عَجَابٌ",
+            "arabic_markup": "<span class=\"nonroot\">شَيْءٌ</span> <span class=\"arabic-root\">عَجَابٌ</span>",
+            "hinglish": "Anokhi cheez",
+            "hinglish_meaning": "Anokhi cheez",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Anokhi cheez",
+              "en": "A thing most wonderful",
+              "ur": "بہت انوکھی چیز",
+              "hi": "बहुत अनोखी चीज़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g22_w2",
+            "arabic": "شَيْءٌ عَجِيبٌ",
+            "arabic_text": "شَيْءٌ عَجِيبٌ",
+            "arabic_markup": "<span class=\"nonroot\">شَيْءٌ</span> <span class=\"arabic-root\">عَجِيبٌ</span>",
+            "hinglish": "Anokhi cheez",
+            "hinglish_meaning": "Anokhi cheez",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Anokhi cheez",
+              "en": "An amazing thing",
+              "ur": "انوکھی چیز",
+              "hi": "अनोखी चीज़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g22_w3",
+            "arabic": "شَيْءٌ عَظِيمٌ",
+            "arabic_text": "شَيْءٌ عَظِيمٌ",
+            "arabic_markup": "<span class=\"nonroot\">شَيْءٌ</span> <span class=\"arabic-root\">عَظِيمٌ</span>",
+            "hinglish": "Badi cheez",
+            "hinglish_meaning": "Badi cheez",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Badi cheez",
+              "en": "A tremendous thing",
+              "ur": "بڑی چیز",
+              "hi": "बड़ी चीज़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g22_w4",
+            "arabic": "شَيْءٌ مُبِينٌ",
+            "arabic_text": "شَيْءٌ مُبِينٌ",
+            "arabic_markup": "<span class=\"nonroot\">شَيْءٌ</span> <span class=\"arabic-root\">مُبِينٌ</span>",
+            "hinglish": "Wazih cheez",
+            "hinglish_meaning": "Wazih cheez",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Wazih cheez",
+              "en": "A clear thing",
+              "ur": "واضح چیز",
+              "hi": "स्पष्ट चीज़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g22_w5",
+            "arabic": "شَيْئًا مَذْكُورًا",
+            "arabic_text": "شَيْئًا مَذْكُورًا",
+            "arabic_markup": "<span class=\"nonroot\">شَيْئًا</span> <span class=\"arabic-root\">مَذْكُورًا</span>",
+            "hinglish": "Zikr ki hui cheez",
+            "hinglish_meaning": "Zikr ki hui cheez",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Zikr ki hui cheez",
+              "en": "A thing mentioned",
+              "ur": "ذکر کی ہوئی چیز",
+              "hi": "ज़िक्र की हुई चीज़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g22_w6",
+            "arabic": "شَيْئًا قَلِيلًا",
+            "arabic_text": "شَيْئًا قَلِيلًا",
+            "arabic_markup": "<span class=\"nonroot\">شَيْئًا</span> <span class=\"arabic-root\">قَلِيلًا</span>",
+            "hinglish": "Thodi cheez",
+            "hinglish_meaning": "Thodi cheez",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Thodi cheez",
+              "en": "A little thing",
+              "ur": "تھوڑی چیز",
+              "hi": "थोड़ी चीज़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l2_lbl23",
+      "type": "section_label",
+      "data": {
+        "text": "مَكَانٌ — Jagah (Makaan ke awsaf)",
+        "title": "مَكَانٌ — Jagah (Makaan ke awsaf)",
+        "label": "مَكَانٌ — Jagah (Makaan ke awsaf)"
+      }
+    },
+    {
+      "id": "sec_s3l2_r24",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "مَكَانٌ lafz ke awsaf jaise dayyiq aur qareeb.",
+        "content": "مَكَانٌ lafz ke awsaf jaise dayyiq aur qareeb.",
+        "hinglish_text": "مَكَانٌ lafz ke awsaf jaise dayyiq aur qareeb."
+      }
+    },
+    {
+      "id": "sec_s3l2_g25",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s3l2_g25_w1",
+            "arabic": "مَكَانًا ضَيِّقًا",
+            "arabic_text": "مَكَانًا ضَيِّقًا",
+            "arabic_markup": "<span class=\"nonroot\">مَكَانًا</span> <span class=\"arabic-root\">ضَيِّقًا</span>",
+            "hinglish": "Tang jagah",
+            "hinglish_meaning": "Tang jagah",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tang jagah",
+              "en": "A narrow place",
+              "ur": "تنگ جگہ",
+              "hi": "तंग जगह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g25_w2",
+            "arabic": "مَكَانٍ قَرِيبٍ",
+            "arabic_text": "مَكَانٍ قَرِيبٍ",
+            "arabic_markup": "<span class=\"nonroot\">مَكَانٍ</span> <span class=\"arabic-root\">قَرِيبٍ</span>",
+            "hinglish": "Qareeb ki jagah",
+            "hinglish_meaning": "Qareeb ki jagah",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Qareeb ki jagah",
+              "en": "A near place",
+              "ur": "قریب کی جگہ",
+              "hi": "क़रीब की जगह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g25_w3",
+            "arabic": "مَكَانٍ بَعِيدٍ",
+            "arabic_text": "مَكَانٍ بَعِيدٍ",
+            "arabic_markup": "<span class=\"nonroot\">مَكَانٍ</span> <span class=\"arabic-root\">بَعِيدٍ</span>",
+            "hinglish": "Door ki jagah",
+            "hinglish_meaning": "Door ki jagah",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Door ki jagah",
+              "en": "A far place",
+              "ur": "دور کی جگہ",
+              "hi": "दूर की जगह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l2_lbl26",
+      "type": "section_label",
+      "data": {
+        "text": "سَاحِرٌ — Jaadugar (Saahir ke awsaf)",
+        "title": "سَاحِرٌ — Jaadugar (Saahir ke awsaf)",
+        "label": "سَاحِرٌ — Jaadugar (Saahir ke awsaf)"
+      }
+    },
+    {
+      "id": "sec_s3l2_r27",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "سَاحِرٌ lafz ke awsaf jaise kazzab aur aleem.",
+        "content": "سَاحِرٌ lafz ke awsaf jaise kazzab aur aleem.",
+        "hinglish_text": "سَاحِرٌ lafz ke awsaf jaise kazzab aur aleem."
+      }
+    },
+    {
+      "id": "sec_s3l2_g28",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s3l2_g28_w1",
+            "arabic": "سَاحِرٌ كَذَّابٌ",
+            "arabic_text": "سَاحِرٌ كَذَّابٌ",
+            "arabic_markup": "<span class=\"nonroot\">سَاحِرٌ</span> <span class=\"arabic-root\">كَذَّابٌ</span>",
+            "hinglish": "Jhoota jaadugar",
+            "hinglish_meaning": "Jhoota jaadugar",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jhoota jaadugar",
+              "en": "A lying magician",
+              "ur": "جھوٹا جادوگر",
+              "hi": "झूठा जादूगर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g28_w2",
+            "arabic": "سَاحِرٌ مُبِينٌ",
+            "arabic_text": "سَاحِرٌ مُبِينٌ",
+            "arabic_markup": "<span class=\"nonroot\">سَاحِرٌ</span> <span class=\"arabic-root\">مُبِينٌ</span>",
+            "hinglish": "Wazih jaadugar",
+            "hinglish_meaning": "Wazih jaadugar",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Wazih jaadugar",
+              "en": "A clear magician",
+              "ur": "واضح جادوگر",
+              "hi": "स्पष्ट जादूगर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g28_w3",
+            "arabic": "سَاحِرٌ عَلِيمٌ",
+            "arabic_text": "سَاحِرٌ عَلِيمٌ",
+            "arabic_markup": "<span class=\"nonroot\">سَاحِرٌ</span> <span class=\"arabic-root\">عَلِيمٌ</span>",
+            "hinglish": "Maahir jaadugar",
+            "hinglish_meaning": "Maahir jaadugar",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Maahir jaadugar",
+              "en": "A learned magician",
+              "ur": "ماہر جادوگر",
+              "hi": "माहिर जादूगर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l2_lbl29",
+      "type": "section_label",
+      "data": {
+        "text": "سِحْرٌ — Jaadu (Sehr ke awsaf)",
+        "title": "سِحْرٌ — Jaadu (Sehr ke awsaf)",
+        "label": "سِحْرٌ — Jaadu (Sehr ke awsaf)"
+      }
+    },
+    {
+      "id": "sec_s3l2_r30",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "سِحْرٌ lafz ke awsaf jaise azeem aur mubeen.",
+        "content": "سِحْرٌ lafz ke awsaf jaise azeem aur mubeen.",
+        "hinglish_text": "سِحْرٌ lafz ke awsaf jaise azeem aur mubeen."
+      }
+    },
+    {
+      "id": "sec_s3l2_g31",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s3l2_g31_w1",
+            "arabic": "سِحْرٌ عَظِيمٌ",
+            "arabic_text": "سِحْرٌ عَظِيمٌ",
+            "arabic_markup": "<span class=\"nonroot\">سِحْرٌ</span> <span class=\"arabic-root\">عَظِيمٌ</span>",
+            "hinglish": "Bada jadoo",
+            "hinglish_meaning": "Bada jadoo",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bada jadoo",
+              "en": "A great magic",
+              "ur": "بڑا جادو",
+              "hi": "बड़ा जादू",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g31_w2",
+            "arabic": "سِحْرٌ مُفْتَرًى",
+            "arabic_text": "سِحْرٌ مُفْتَرًى",
+            "arabic_markup": "<span class=\"nonroot\">سِحْرٌ</span> <span class=\"arabic-root\">مُفْتَرًى</span>",
+            "hinglish": "Ghada hua jadoo",
+            "hinglish_meaning": "Ghada hua jadoo",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ghada hua jadoo",
+              "en": "An invented magic",
+              "ur": "گھڑا ہوا جادو",
+              "hi": "गढ़ा हुआ जादू",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g31_w3",
+            "arabic": "سِحْرٌ مُبِينٌ",
+            "arabic_text": "سِحْرٌ مُبِينٌ",
+            "arabic_markup": "<span class=\"nonroot\">سِحْرٌ</span> <span class=\"arabic-root\">مُبِينٌ</span>",
+            "hinglish": "Wazih jadoo",
+            "hinglish_meaning": "Wazih jadoo",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Wazih jadoo",
+              "en": "A clear magic",
+              "ur": "واضح جادو",
+              "hi": "स्पष्ट जादू",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l2_lbl32",
+      "type": "section_label",
+      "data": {
+        "text": "إِفْكٌ — Jhoot / Bohtan (Ifk ke awsaf)",
+        "title": "إِفْكٌ — Jhoot / Bohtan (Ifk ke awsaf)",
+        "label": "إِفْكٌ — Jhoot / Bohtan (Ifk ke awsaf)"
+      }
+    },
+    {
+      "id": "sec_s3l2_r33",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "إِفْكٌ lafz ke awsaf jaise muftara aur mubeen.",
+        "content": "إِفْكٌ lafz ke awsaf jaise muftara aur mubeen.",
+        "hinglish_text": "إِفْكٌ lafz ke awsaf jaise muftara aur mubeen."
+      }
+    },
+    {
+      "id": "sec_s3l2_g34",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s3l2_g34_w1",
+            "arabic": "إِفْكٌ مُفْتَرًى",
+            "arabic_text": "إِفْكٌ مُفْتَرًى",
+            "arabic_markup": "<span class=\"nonroot\">إِفْكٌ</span> <span class=\"arabic-root\">مُفْتَرًى</span>",
+            "hinglish": "Ghada hua jhoot",
+            "hinglish_meaning": "Ghada hua jhoot",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ghada hua jhoot",
+              "en": "An invented lie",
+              "ur": "گھڑا ہوا جھوٹ",
+              "hi": "गढ़ा हुआ झूठ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g34_w2",
+            "arabic": "إِفْكٌ مُبِينٌ",
+            "arabic_text": "إِفْكٌ مُبِينٌ",
+            "arabic_markup": "<span class=\"nonroot\">إِفْكٌ</span> <span class=\"arabic-root\">مُبِينٌ</span>",
+            "hinglish": "Wazih jhoot",
+            "hinglish_meaning": "Wazih jhoot",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Wazih jhoot",
+              "en": "A clear lie",
+              "ur": "واضح جھوٹ",
+              "hi": "स्पष्ट झूठ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g34_w3",
+            "arabic": "إِفْكٌ قَدِيمٌ",
+            "arabic_text": "إِفْكٌ قَدِيمٌ",
+            "arabic_markup": "<span class=\"nonroot\">إِفْكٌ</span> <span class=\"arabic-root\">قَدِيمٌ</span>",
+            "hinglish": "Purana jhoot",
+            "hinglish_meaning": "Purana jhoot",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Purana jhoot",
+              "en": "An ancient lie",
+              "ur": "پرانا جھوٹ",
+              "hi": "पुराना झूठ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l2_lbl35",
+      "type": "section_label",
+      "data": {
+        "text": "الْفَضْلُ — Fazl / Karam (Fazl ke awsaf)",
+        "title": "الْفَضْلُ — Fazl / Karam (Fazl ke awsaf)",
+        "label": "الْفَضْلُ — Fazl / Karam (Fazl ke awsaf)"
+      }
+    },
+    {
+      "id": "sec_s3l2_r36",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "الْفَضْلُ lafz ke awsaf jaise kabeer aur azeem.",
+        "content": "الْفَضْلُ lafz ke awsaf jaise kabeer aur azeem.",
+        "hinglish_text": "الْفَضْلُ lafz ke awsaf jaise kabeer aur azeem."
+      }
+    },
+    {
+      "id": "sec_s3l2_g37",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s3l2_g37_w1",
+            "arabic": "الْفَضْلُ الْمُبِينُ",
+            "arabic_text": "الْفَضْلُ الْمُبِينُ",
+            "arabic_markup": "<span class=\"nonroot\">الْفَضْلُ</span> <span class=\"arabic-root\">الْمُبِينُ</span>",
+            "hinglish": "Wazih karam",
+            "hinglish_meaning": "Wazih karam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Wazih karam",
+              "en": "The clear bounty",
+              "ur": "واضح فضل",
+              "hi": "स्पष्ट फ़ज़्ल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g37_w2",
+            "arabic": "الْفَضْلُ الْكَبِيرُ",
+            "arabic_text": "الْفَضْلُ الْكَبِيرُ",
+            "arabic_markup": "<span class=\"nonroot\">الْفَضْلُ</span> <span class=\"arabic-root\">الْكَبِيرُ</span>",
+            "hinglish": "Bada karam",
+            "hinglish_meaning": "Bada karam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bada karam",
+              "en": "The great bounty",
+              "ur": "بڑا فضل",
+              "hi": "बड़ा फ़ज़्ल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g37_w3",
+            "arabic": "الْفَضْلِ الْعَظِيمِ",
+            "arabic_text": "الْفَضْلِ الْعَظِيمِ",
+            "arabic_markup": "<span class=\"nonroot\">الْفَضْلِ</span> <span class=\"arabic-root\">الْعَظِيمِ</span>",
+            "hinglish": "Bada karam",
+            "hinglish_meaning": "Bada karam",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bada karam",
+              "en": "The tremendous bounty",
+              "ur": "عظیم فضل",
+              "hi": "अज़ीम फ़ज़्ल",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l2_lbl38",
+      "type": "section_label",
+      "data": {
+        "text": "إِثْمٌ — Gunah (Ithm ke awsaf)",
+        "title": "إِثْمٌ — Gunah (Ithm ke awsaf)",
+        "label": "إِثْمٌ — Gunah (Ithm ke awsaf)"
+      }
+    },
+    {
+      "id": "sec_s3l2_r39",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "إِثْمٌ lafz ke awsaf jaise mubeen aur kabeer.",
+        "content": "إِثْمٌ lafz ke awsaf jaise mubeen aur kabeer.",
+        "hinglish_text": "إِثْمٌ lafz ke awsaf jaise mubeen aur kabeer."
+      }
+    },
+    {
+      "id": "sec_s3l2_g40",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s3l2_g40_w1",
+            "arabic": "إِثْمًا مُبِينًا",
+            "arabic_text": "إِثْمًا مُبِينًا",
+            "arabic_markup": "<span class=\"nonroot\">إِثْمًا</span> <span class=\"arabic-root\">مُبِينًا</span>",
+            "hinglish": "Wazih gunah",
+            "hinglish_meaning": "Wazih gunah",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Wazih gunah",
+              "en": "A clear sin",
+              "ur": "واضح گناہ",
+              "hi": "स्पष्ट गुनाह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g40_w2",
+            "arabic": "إِثْمًا عَظِيمًا",
+            "arabic_text": "إِثْمًا عَظِيمًا",
+            "arabic_markup": "<span class=\"nonroot\">إِثْمًا</span> <span class=\"arabic-root\">عَظِيمًا</span>",
+            "hinglish": "Bada gunah",
+            "hinglish_meaning": "Bada gunah",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bada gunah",
+              "en": "A tremendous sin",
+              "ur": "بڑا گناہ",
+              "hi": "बड़ा गुनाह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g40_w3",
+            "arabic": "إِثْمٌ كَبِيرٌ",
+            "arabic_text": "إِثْمٌ كَبِيرٌ",
+            "arabic_markup": "<span class=\"nonroot\">إِثْمٌ</span> <span class=\"arabic-root\">كَبِيرٌ</span>",
+            "hinglish": "Bada gunah",
+            "hinglish_meaning": "Bada gunah",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bada gunah",
+              "en": "A great sin",
+              "ur": "بڑا گناہ",
+              "hi": "बड़ा गुनाह",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l2_lbl41",
+      "type": "section_label",
+      "data": {
+        "text": "كَلِمَةٌ — Baat / Kalimah (Kalimah ke awsaf)",
+        "title": "كَلِمَةٌ — Baat / Kalimah (Kalimah ke awsaf)",
+        "label": "كَلِمَةٌ — Baat / Kalimah (Kalimah ke awsaf)"
+      }
+    },
+    {
+      "id": "sec_s3l2_r42",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "كَلِمَةٌ lafz ke awsaf jaise baqiyah aur tayyibah.",
+        "content": "كَلِمَةٌ lafz ke awsaf jaise baqiyah aur tayyibah.",
+        "hinglish_text": "كَلِمَةٌ lafz ke awsaf jaise baqiyah aur tayyibah."
+      }
+    },
+    {
+      "id": "sec_s3l2_g43",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s3l2_g43_w1",
+            "arabic": "كَلِمَةٌ بَاقِيَةٌ",
+            "arabic_text": "كَلِمَةٌ بَاقِيَةٌ",
+            "arabic_markup": "<span class=\"nonroot\">كَلِمَةٌ</span> <span class=\"arabic-root\">بَاقِيَةٌ</span>",
+            "hinglish": "Baqi rehne wali baat",
+            "hinglish_meaning": "Baqi rehne wali baat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Baqi rehne wali baat",
+              "en": "A lasting word",
+              "ur": "باقی رہنے والی بات",
+              "hi": "बाक़ी रहने वाली बात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g43_w2",
+            "arabic": "كَلِمَةٍ خَبِيثَةٍ",
+            "arabic_text": "كَلِمَةٍ خَبِيثَةٍ",
+            "arabic_markup": "<span class=\"nonroot\">كَلِمَةٍ</span> <span class=\"arabic-root\">خَبِيثَةٍ</span>",
+            "hinglish": "Buri baat",
+            "hinglish_meaning": "Buri baat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Buri baat",
+              "en": "An evil word",
+              "ur": "بری بات",
+              "hi": "बुरी बात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g43_w3",
+            "arabic": "كَلِمَةً طَيِّبَةً",
+            "arabic_text": "كَلِمَةً طَيِّبَةً",
+            "arabic_markup": "<span class=\"nonroot\">كَلِمَةً</span> <span class=\"arabic-root\">طَيِّبَةً</span>",
+            "hinglish": "Pakeeza baat",
+            "hinglish_meaning": "Pakeeza baat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Pakeeza baat",
+              "en": "A good word",
+              "ur": "پاکیزہ بات",
+              "hi": "पाकीज़ा बात",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l2_lbl44",
+      "type": "section_label",
+      "data": {
+        "text": "شَجَرَةٌ — Darakht (Shajarah ke awsaf)",
+        "title": "شَجَرَةٌ — Darakht (Shajarah ke awsaf)",
+        "label": "شَجَرَةٌ — Darakht (Shajarah ke awsaf)"
+      }
+    },
+    {
+      "id": "sec_s3l2_r45",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "شَجَرَةٌ lafz ke awsaf jaise mubarakah aur khabeethah.",
+        "content": "شَجَرَةٌ lafz ke awsaf jaise mubarakah aur khabeethah.",
+        "hinglish_text": "شَجَرَةٌ lafz ke awsaf jaise mubarakah aur khabeethah."
+      }
+    },
+    {
+      "id": "sec_s3l2_g46",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s3l2_g46_w1",
+            "arabic": "شَجَرَةٍ خَبِيثَةٍ",
+            "arabic_text": "شَجَرَةٍ خَبِيثَةٍ",
+            "arabic_markup": "<span class=\"nonroot\">شَجَرَةٍ</span> <span class=\"arabic-root\">خَبِيثَةٍ</span>",
+            "hinglish": "Buri jhaar",
+            "hinglish_meaning": "Buri jhaar",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Buri jhaar",
+              "en": "An evil tree",
+              "ur": "برا درخت",
+              "hi": "बुरा दरख़्त",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g46_w2",
+            "arabic": "شَجَرَةٍ طَيِّبَةٍ",
+            "arabic_text": "شَجَرَةٍ طَيِّبَةٍ",
+            "arabic_markup": "<span class=\"nonroot\">شَجَرَةٍ</span> <span class=\"arabic-root\">طَيِّبَةٍ</span>",
+            "hinglish": "Pakeeza darakht",
+            "hinglish_meaning": "Pakeeza darakht",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Pakeeza darakht",
+              "en": "A good tree",
+              "ur": "پاکیزہ درخت",
+              "hi": "पाकीज़ा दरख़्त",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g46_w3",
+            "arabic": "شَجَرَةٍ مُبَارَكَةٍ",
+            "arabic_text": "شَجَرَةٍ مُبَارَكَةٍ",
+            "arabic_markup": "<span class=\"nonroot\">شَجَرَةٍ</span> <span class=\"arabic-root\">مُبَارَكَةٍ</span>",
+            "hinglish": "Ba-barakat darakht",
+            "hinglish_meaning": "Ba-barakat darakht",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ba-barakat darakht",
+              "en": "A blessed tree",
+              "ur": "بابرکت درخت",
+              "hi": "बा-बरकत दरख़्त",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l2_lbl47",
+      "type": "section_label",
+      "data": {
+        "text": "ضَلَالٌ — Gumraahi (Zalaal ke awsaf)",
+        "title": "ضَلَالٌ — Gumraahi (Zalaal ke awsaf)",
+        "label": "ضَلَالٌ — Gumraahi (Zalaal ke awsaf)"
+      }
+    },
+    {
+      "id": "sec_s3l2_r48",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "ضَلَالٌ lafz ke awsaf jaise ba'eed aur mubeen.",
+        "content": "ضَلَالٌ lafz ke awsaf jaise ba'eed aur mubeen.",
+        "hinglish_text": "ضَلَالٌ lafz ke awsaf jaise ba'eed aur mubeen."
+      }
+    },
+    {
+      "id": "sec_s3l2_g49",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s3l2_g49_w1",
+            "arabic": "ضَلَالٍ بَعِيدٍ",
+            "arabic_text": "ضَلَالٍ بَعِيدٍ",
+            "arabic_markup": "<span class=\"nonroot\">ضَلَالٍ</span> <span class=\"arabic-root\">بَعِيدٍ</span>",
+            "hinglish": "Door ki gumraahi",
+            "hinglish_meaning": "Door ki gumraahi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Door ki gumraahi",
+              "en": "Extreme error",
+              "ur": "دور کی گمراہی",
+              "hi": "दूर की गुमराही",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g49_w2",
+            "arabic": "ضَلَالٍ مُبِينٍ",
+            "arabic_text": "ضَلَالٍ مُبِينٍ",
+            "arabic_markup": "<span class=\"nonroot\">ضَلَالٍ</span> <span class=\"arabic-root\">مُبِينٍ</span>",
+            "hinglish": "Wazih gumraahi",
+            "hinglish_meaning": "Wazih gumraahi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Wazih gumraahi",
+              "en": "Clear error",
+              "ur": "واضح گمراہی",
+              "hi": "स्पष्ट गुमराही",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g49_w3",
+            "arabic": "ضَلَالٌ كَبِيرٌ",
+            "arabic_text": "ضَلَالٌ كَبِيرٌ",
+            "arabic_markup": "<span class=\"nonroot\">ضَلَالٌ</span> <span class=\"arabic-root\">كَبِيرٌ</span>",
+            "hinglish": "Badi gumraahi",
+            "hinglish_meaning": "Badi gumraahi",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Badi gumraahi",
+              "en": "A great error",
+              "ur": "بڑی گمراہی",
+              "hi": "بڑی گمراہی",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l2_lbl50",
+      "type": "section_label",
+      "data": {
+        "text": "أُمَّةٌ — Giroh / Ummat (Ummat ke awsaf)",
+        "title": "أُمَّةٌ — Giroh / Ummat (Ummat ke awsaf)",
+        "label": "أُمَّةٌ — Giroh / Ummat (Ummat ke awsaf)"
+      }
+    },
+    {
+      "id": "sec_s3l2_r51",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "أُمَّةٌ lafz ke awsaf jaise qa'imah aur muqtasidah.",
+        "content": "أُمَّةٌ lafz ke awsaf jaise qa'imah aur muqtasidah.",
+        "hinglish_text": "أُمَّةٌ lafz ke awsaf jaise qa'imah aur muqtasidah."
+      }
+    },
+    {
+      "id": "sec_s3l2_g52",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s3l2_g52_w1",
+            "arabic": "أُمَّةٌ قَائِمَةٌ",
+            "arabic_text": "أُمَّةٌ قَائِمَةٌ",
+            "arabic_markup": "<span class=\"nonroot\">أُمَّةٌ</span> <span class=\"arabic-root\">قَائِمَةٌ</span>",
+            "hinglish": "Qaim rehne wali ummat",
+            "hinglish_meaning": "Qaim rehne wali ummat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Qaim rehne wali ummat",
+              "en": "An upright community",
+              "ur": "قائم رہنے والی جماعت",
+              "hi": "क़ायम रहने वाली उम्मत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g52_w2",
+            "arabic": "أُمَّةً وَاحِدَةً",
+            "arabic_text": "أُمَّةً وَاحِدَةً",
+            "arabic_markup": "<span class=\"nonroot\">أُمَّةً</span> <span class=\"arabic-root\">وَاحِدَةً</span>",
+            "hinglish": "Ek ummat",
+            "hinglish_meaning": "Ek ummat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ek ummat",
+              "en": "One community",
+              "ur": "ایک امت",
+              "hi": "एक उम्मत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g52_w3",
+            "arabic": "أُمَّةٌ مُسْلِمَةٌ",
+            "arabic_text": "أُمَّةٌ مُسْلِمَةٌ",
+            "arabic_markup": "<span class=\"nonroot\">أُمَّةٌ</span> <span class=\"arabic-root\">مُسْلِمَةٌ</span>",
+            "hinglish": "Farmanbardar ummat",
+            "hinglish_meaning": "Farmanbardar ummat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Farmanbardar ummat",
+              "en": "A submissive community",
+              "ur": "فرمانبردار امت",
+              "hi": "फ़रमांबरदार उम्मत",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l2_lbl53",
+      "type": "section_label",
+      "data": {
+        "text": "عَدُوٌّ — Dushman (Aduww ke awsaf)",
+        "title": "عَدُوٌّ — Dushman (Aduww ke awsaf)",
+        "label": "عَدُوٌّ — Dushman (Aduww ke awsaf)"
+      }
+    },
+    {
+      "id": "sec_s3l2_r54",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "عَدُوٌّ lafz ke awsaf jaise mudill aur mubeen.",
+        "content": "عَدُوٌّ lafz ke awsaf jaise mudill aur mubeen.",
+        "hinglish_text": "عَدُوٌّ lafz ke awsaf jaise mudill aur mubeen."
+      }
+    },
+    {
+      "id": "sec_s3l2_g55",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s3l2_g55_w1",
+            "arabic": "عَدُوٌّ مُضِلٌّ",
+            "arabic_text": "عَدُوٌّ مُضِلٌّ",
+            "arabic_markup": "<span class=\"nonroot\">عَدُوٌّ</span> <span class=\"arabic-root\">مُضِلٌّ</span>",
+            "hinglish": "Gumraah karne wala dushman",
+            "hinglish_meaning": "Gumraah karne wala dushman",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Gumraah karne wala dushman",
+              "en": "A misleading enemy",
+              "ur": "گمراہ کرنے والا دشمن",
+              "hi": "गुमराह करने वाला दुश्मन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g55_w2",
+            "arabic": "عَدُوٌّ مُبِينٌ",
+            "arabic_text": "عَدُوٌّ مُبِينٌ",
+            "arabic_markup": "<span class=\"nonroot\">عَدُوٌّ</span> <span class=\"arabic-root\">مُبِينٌ</span>",
+            "hinglish": "Wazih dushman",
+            "hinglish_meaning": "Wazih dushman",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Wazih dushman",
+              "en": "A clear enemy",
+              "ur": "واضح دشمن",
+              "hi": "स्पष्ट दुश्मन",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l2_lbl56",
+      "type": "section_label",
+      "data": {
+        "text": "أَجَلٌ — Waqt / Muddat (Ajal ke awsaf)",
+        "title": "أَجَلٌ — Waqt / Muddat (Ajal ke awsaf)",
+        "label": "أَجَلٌ — Waqt / Muddat (Ajal ke awsaf)"
+      }
+    },
+    {
+      "id": "sec_s3l2_r57",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "أَجَلٌ lafz ke awsaf jaise musamma aur qareeb.",
+        "content": "أَجَلٌ lafz ke awsaf jaise musamma aur qareeb.",
+        "hinglish_text": "أَجَلٌ lafz ke awsaf jaise musamma aur qareeb."
+      }
+    },
+    {
+      "id": "sec_s3l2_g58",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s3l2_g58_w1",
+            "arabic": "أَجَلٍ قَرِيبٍ",
+            "arabic_text": "أَجَلٍ قَرِيبٍ",
+            "arabic_markup": "<span class=\"nonroot\">أَجَلٍ</span> <span class=\"arabic-root\">قَرِيبٍ</span>",
+            "hinglish": "Qareeb ka waqt",
+            "hinglish_meaning": "Qareeb ka waqt",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Qareeb ka waqt",
+              "en": "A near term",
+              "ur": "قریب کا وقت",
+              "hi": "क़रीब का वक़्त",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s3l2_g58_w2",
+            "arabic": "أَجَلٌ مُسَمًّى",
+            "arabic_text": "أَجَلٌ مُسَمًّى",
+            "arabic_markup": "<span class=\"nonroot\">أَجَلٌ</span> <span class=\"arabic-root\">مُسَمًّى</span>",
+            "hinglish": "Muqarrar waqt",
+            "hinglish_meaning": "Muqarrar waqt",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Muqarrar waqt",
+              "en": "An appointed term",
+              "ur": "مقرر وقت",
+              "hi": "मुक़र्रर वक़्त",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s3l2_g59",
+      "type": "grace_box",
+      "data": {
+        "text": "Quran Majeed samajhte waqt aakhri harakat (aerab: pesh, zabar, zer) par ulajhne ki bajaye lafz ke asal ma'ani aur fiqre ke mafhoom par dhyan dein. Aakhri harakat ki tabdeeli mehez nahwi amal hoti hai, iss se lafz ka bunyadi ma'ani nahi badalta."
+      }
+    }
+  ],
+  "page_start": 80
+}

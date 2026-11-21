@@ -3738,5 +3738,225 @@
         }
       }
     ]
+  },
+  {
+    "lessonId": "s4l18",
+    "questions": [
+      {
+        "id": "s4l18-q1",
+        "type": "grammar-rule",
+        "correct": 0,
+        "question": {
+          "en": "In phrases like 'يَوْمُ الَّذِينَ' or 'أَعْمَالُ هَٰؤُلَاءِ', what grammatical role do 'الَّذِينَ' and 'هَٰؤُلَاءِ' play?",
+          "ur": "'يَوْمُ الَّذِينَ' اور 'أَعْمَالُ هَٰؤُلَاءِ' جیسے مرکبات میں 'الَّذِينَ' اور 'هَٰؤُلَاءِ' کیا نحوی حیثیت رکھتے ہیں؟",
+          "hi": "'يَوْمُ الَّذِينَ' और 'أَعْمَالُ هَٰؤُلَاءِ' जैसे मुरक्कबात में 'الَّذِينَ' और 'هَٰؤُلَاءِ' क्या नहवी हैसियत रखते हैं?",
+          "hinglish": "'يَوْمُ الَّذِينَ' aur 'أَعْمَالُ هَٰؤُلَاءِ' jaise murakkabaat mein 'الَّذِينَ' aur 'هَٰؤُلَاءِ' kya nahwi haisiyat rakhte hain?"
+        },
+        "options": {
+          "en": [
+            "Mudaaf Ilaih (possessive complement, Mabni in the genitive position)",
+            "Mawsoof (noun being described by an adjective)",
+            "Fe'l Maazi (past tense verb)",
+            "Harf-e-Jarr (preposition)"
+          ],
+          "ur": [
+            "مضاف الیہ (محلِّ جر میں مبنی اسمِ موصول یا اسمِ اشارہ)",
+            "موصوف (جس کی صفت بیان کی جائے)",
+            "فعل ماضی",
+            "حرفِ جر"
+          ],
+          "hi": [
+            "मुज़ाफ़ इलैह (महल्ले जर में मबनी इस्मे मौसूल या इस्मे इशारा)",
+            "मौसूफ़ (जिसकी सिफ़त बयान की जाए)",
+            "फ़ेले माज़ी",
+            "हर्फ़े जर"
+          ],
+          "hinglish": [
+            "Mudaaf Ilaih (mahall-e-jarr mein mabni Ism-e-Mawsool ya Ism-e-Ishaarah)",
+            "Mawsoof (jiski sifat bayan ki jaaye)",
+            "Fe'l Maazi",
+            "Harf-e-Jarr"
+          ]
+        },
+        "explanation": {
+          "en": "When a noun without 'الْـ' and without tanween precedes 'الَّذِينَ' or 'هَٰؤُلَاءِ', it acts as Mudaaf and the pronoun/relative noun is its Mudaaf Ilaih ('ka/ki/ke').",
+          "ur": "جب بغیر 'الْـ' اور بغیر تنوین کے کوئی اسم 'الَّذِينَ' یا 'هَٰؤُلَاءِ' سے پہلے آئے تو وہ مضاف ہوتا ہے اور اس کے بعد آنے والا اسمِ موصول یا اسمِ اشارہ مضاف الیہ ('کا/کی/کے') بنتا ہے۔",
+          "hi": "जब बग़ैर 'الْـ' और बग़ैर तनवीन के कोई इस्म 'الَّذِينَ' या 'هَٰؤُلَاءِ' से पहले आए तो वह मुज़ाफ़ होता है और उसके बाद आने वाला इस्मे मौसूल या इस्मे इशारा मुज़ाफ़ इलैह ('का/की/के') बनता है।",
+          "hinglish": "Jab baghair 'الْـ' aur baghair tanween ke koi ism 'الَّذِينَ' ya 'هَٰؤُلَاءِ' se pehle aaye toh woh Mudaaf hota hai aur uske ba'd aane waala Ism-e-Mawsool ya Ism-e-Ishaarah Mudaaf Ilaih ('ka/ki/ke') banta hai."
+        }
+      },
+      {
+        "id": "s4l18-q2",
+        "type": "meaning-match",
+        "correct": 1,
+        "question": {
+          "en": "What is the accurate translation of 'صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ'?",
+          "ur": "'صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ' کا درست ترجمہ کیا ہے؟",
+          "hi": "'صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ' का दुरुस्त तर्जुमा क्या है?",
+          "hinglish": "'صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ' ka durust tarjuma kya hai?"
+        },
+        "options": {
+          "en": [
+            "The path which is straight",
+            "The path of those upon whom You have bestowed favor",
+            "Those who walk on the path",
+            "In the path of the believers"
+          ],
+          "ur": [
+            "وہ راستہ جو سیدھا ہے",
+            "ان لوگوں کا راستہ جن پر تو نے انعام فرمایا",
+            "وہ لوگ جو راستے پر چلتے ہیں",
+            "مومنوں کے راستے میں"
+          ],
+          "hi": [
+            "वह रास्ता जो सीधा है",
+            "उन लोगों का रास्ता जिन पर तूने इनआम फ़रमाया",
+            "वह लोग जो रास्ते पर चलते हैं",
+            "मोमिनों के रास्ते में"
+          ],
+          "hinglish": [
+            "Woh raasta jo seedha hai",
+            "Un logon ka raasta jin par Tu ne in'aam farmaya",
+            "Woh log jo raaste par chalte hain",
+            "Mominon ke raaste mein"
+          ]
+        },
+        "explanation": {
+          "en": "'صِرَاطَ' is Mudaaf ('the path of') and 'الَّذِينَ' is Mudaaf Ilaih ('those who').",
+          "ur": "'صِرَاطَ' مضاف ہے اور 'الَّذِينَ' مضاف الیہ ہے، اس لیے ترجمہ 'ان لوگوں کا راستہ' ہوگا۔",
+          "hi": "'صِرَاطَ' मुज़ाफ़ है और 'الَّذِينَ' मुज़ाफ़ इलैह है, इसलिए तर्जुमा 'उन लोगों का रास्ता' होगा।",
+          "hinglish": "'صِرَاطَ' Mudaaf hai aur 'الَّذِينَ' Mudaaf Ilaih hai, is liye tarjuma 'un logon ka raasta' hoga."
+        }
+      },
+      {
+        "id": "s4l18-q3",
+        "type": "meaning-match",
+        "correct": 2,
+        "question": {
+          "en": "What does 'سَبِيلُ الَّذِينَ لَا يَعْلَمُونَ' mean?",
+          "ur": "'سَبِيلُ الَّذِينَ لَا يَعْلَمُونَ' کا کیا معنی ہے؟",
+          "hi": "'سَبِيلُ الَّذِينَ لَا يَعْلَمُونَ' का क्या मानी है?",
+          "hinglish": "'سَبِيلُ الَّذِينَ لَا يَعْلَمُونَ' ka kya ma'ni hai?"
+        },
+        "options": {
+          "en": [
+            "Those who do not know the way",
+            "A way for the knowledgeable",
+            "The way of those who do not know",
+            "They do not know the way"
+          ],
+          "ur": [
+            "وہ لوگ جو راستہ نہیں جانتے",
+            "جاننے والوں کے لیے ایک راستہ",
+            "ان لوگوں کا راستہ جو علم نہیں رکھتے (نہیں جانتے)",
+            "وہ راستہ نہیں جانتے"
+          ],
+          "hi": [
+            "वह लोग जो रास्ता नहीं जानते",
+            "जानने वालों के लिए एक रास्ता",
+            "उन लोगों का रास्ता जो इल्म नहीं रखते (नहीं जानते)",
+            "वह रास्ता नहीं जानते"
+          ],
+          "hinglish": [
+            "Woh log jo raasta nahin jaante",
+            "Jaanne waalon ke liye ek raasta",
+            "Un logon ka raasta jo ilm nahin rakhte (nahin jaante)",
+            "Woh raasta nahin jaante"
+          ]
+        },
+        "explanation": {
+          "en": "'سَبِيلُ' (Mudaaf) + 'الَّذِينَ لَا يَعْلَمُونَ' (Mudaaf Ilaih) = 'The way of those who do not know'.",
+          "ur": "'سَبِيلُ' مضاف اور 'الَّذِينَ لَا يَعْلَمُونَ' مضاف الیہ مل کر 'ان لوگوں کا راستہ جو نہیں جانتے' بنتا ہے۔",
+          "hi": "'سَبِيلُ' मुज़ाफ़ और 'الَّذِينَ لَا يَعْلَمُونَ' मुज़ाफ़ इलैह मिलकर 'उन लोगों का रास्ता जो नहीं जानते' बनता है।",
+          "hinglish": "'سَبِيلُ' Mudaaf aur 'الَّذِينَ لَا يَعْلَمُونَ' Mudaaf Ilaih mil kar 'un logon ka raasta jo nahin jaante' banta hai."
+        }
+      },
+      {
+        "id": "s4l18-q4",
+        "type": "morphological",
+        "correct": 0,
+        "question": {
+          "en": "Why does the ending of 'الَّذِينَ' or 'هَٰؤُلَاءِ' not visibly change to kasrah when it is Mudaaf Ilaih?",
+          "ur": "جب 'الَّذِينَ' یا 'هَٰؤُلَاءِ' مضاف الیہ بنتے ہیں تو ان کے آخر کی حرکت ظاہری طور پر کیوں نہیں بدلتی؟",
+          "hi": "जब 'الَّذِينَ' या 'هَٰؤُلَاءِ' मुज़ाफ़ इलैह बनते हैं तो उनके आख़िर की हरकत ज़ाहिरी तौर पर क्यों नहीं बदलती?",
+          "hinglish": "Jab 'الَّذِينَ' ya 'هَٰؤُلَاءِ' Mudaaf Ilaih bante hain toh unke aakhir ki harkat zaahiri taur par kyun nahin badalti?"
+        },
+        "options": {
+          "en": [
+            "Because they are Mabni (indeclinable nouns with fixed endings)",
+            "Because they are verbs",
+            "Because they have tanween",
+            "Because they are Mudaaf"
+          ],
+          "ur": [
+            "کیونکہ یہ اسماء مبنی ہیں (جن کے آخر کی حرکت ہمیشہ ایک جیسی رہتی ہے)",
+            "کیونکہ یہ فعل ہیں",
+            "کیونکہ ان پر تنوین ہے",
+            "کیونکہ یہ مضاف ہیں"
+          ],
+          "hi": [
+            "क्योंकि ये अस्मा मबनी हैं (जिनके आख़िर की हरकत हमेशा एक जैसी रहती है)",
+            "क्योंकि ये फ़ेल हैं",
+            "क्योंकि इन पर तनवीन है",
+            "क्योंकि ये मुज़ाफ़ हैं"
+          ],
+          "hinglish": [
+            "Kyunki yeh asmaa Mabni hain (jinke aakhir ki harkat hamesha ek jaisi rehti hai)",
+            "Kyunki yeh fe'l hain",
+            "Kyunki in par tanween hai",
+            "Kyunki yeh Mudaaf hain"
+          ]
+        },
+        "explanation": {
+          "en": "Relative pronouns ('الَّذِي، الَّذِينَ') and demonstratives ('هَٰذَا، ذَٰلِكَ، هَٰؤُلَاءِ، أُولَٰئِكَ') are Mabni (indeclinable).",
+          "ur": "اسمائے موصولہ اور اسمائے اشارہ مبنی ہوتے ہیں، اس لیے مضاف الیہ بننے پر بھی ان کی ظاہری شکل نہیں بدلتی۔",
+          "hi": "अस्माए मौसूला और अस्माए इशारा मबनी होते हैं, इसलिए मुज़ाफ़ इलैह बनने पर भी उनकी ज़ाहिरी शक्ल नहीं बदलती।",
+          "hinglish": "Asmaa-e-Mawsoolah aur Asmaa-e-Ishaarah Mabni hote hain, is liye Mudaaf Ilaih banne par bhi unki zaahiri shakl nahin badalti."
+        }
+      },
+      {
+        "id": "s4l18-q5",
+        "type": "meaning-match",
+        "correct": 3,
+        "question": {
+          "en": "How is 'مَثَلُ الَّذِينَ كَفَرُوا' translated?",
+          "ur": "'مَثَلُ الَّذِينَ كَفَرُوا' کا ترجمہ کیا ہوگا؟",
+          "hi": "'مَثَلُ الَّذِينَ كَفَرُوا' का तर्जुमा क्या होगा?",
+          "hinglish": "'مَثَلُ الَّذِينَ كَفَرُوا' ka tarjuma kya hoga?"
+        },
+        "options": {
+          "en": [
+            "Those who disbelieved in the example",
+            "Like the disbelievers",
+            "The disbelievers gave an example",
+            "The example (parable) of those who disbelieved"
+          ],
+          "ur": [
+            "وہ لوگ جنہوں نے مثال کا انکار کیا",
+            "کافروں کی طرح",
+            "کافروں نے مثال بیان کی",
+            "ان لوگوں کی مثال جنہوں نے کفر کیا"
+          ],
+          "hi": [
+            "वह लोग जिन्होंने मिसाल का इनकार किया",
+            "काफ़िरों की तरह",
+            "काफ़िरों ने मिसाल बयान की",
+            "उन लोगों की मिसाल जिन्होंने कुफ़्र किया"
+          ],
+          "hinglish": [
+            "Woh log jinhon ne misaal ka inkaar kiya",
+            "Kaafiron ki tarah",
+            "Kaafiron ne misaal bayan ki",
+            "Un logon ki misaal jinhon ne kufr kiya"
+          ]
+        },
+        "explanation": {
+          "en": "'مَثَلُ' (the example of) is Mudaaf to 'الَّذِينَ كَفَرُوا' (those who disbelieved).",
+          "ur": "'مَثَلُ' مضاف اور 'الَّذِينَ كَفَرُوا' مضاف الیہ ہے یعنی 'ان لوگوں کی مثال جنہوں نے کفر کیا'۔",
+          "hi": "'مَثَلُ' मुज़ाफ़ और 'الَّذِينَ كَفَرُوا' मुज़ाफ़ इलैह है यानी 'उन लोगों की मिसाल जिन्होंने कुफ़्र किया'।",
+          "hinglish": "'مَثَلُ' Mudaaf aur 'الَّذِينَ كَفَرُوا' Mudaaf Ilaih hai ya'ni 'un logon ki misaal jinhon ne kufr kiya'."
+        }
+      }
+    ]
   }
 ]

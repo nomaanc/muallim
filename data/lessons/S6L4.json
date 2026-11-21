@@ -1,0 +1,2020 @@
+{
+  "lesson_id": 4,
+  "lesson_key": "S6L4",
+  "stage_id": 6,
+  "title": "Mashhoor Qur'ani Muhawarah: Man Yashaa'u & Maa Yashaa'u",
+  "arabic_Focus": "يَشَاءُ ← مَنْ يَشَاءُ ، لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ",
+  "hinglish_Focus": "Jise woh chahta hai, Jiske liye, Jis par, Jo woh chahta hai",
+  "page_numbers": "20-22",
+  "sections": [
+    {
+      "type": "hero_header",
+      "arabic": "يَشَاءُ ← مَنْ يَشَاءُ ← لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ",
+      "hinglish": "Woh chahta hai ← Jise woh chahta hai ← Jiske liye woh chahta hai, Jis par woh chahta hai, Jo kuch woh chahta hai",
+      "arabic_word": "يَشَاءُ ← مَنْ يَشَاءُ",
+      "arabic_combined": "يَشَاءُ ← مَنْ يَشَاءُ ← لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ",
+      "hinglish_word": "Woh chahta hai ← Jise woh chahta hai",
+      "hinglish_combined": "Woh chahta hai ← Jise woh chahta hai ← Jiske liye woh chahta hai, Jis par woh chahta hai, Jo kuch woh chahta hai",
+      "title_en": "Lesson 4: Mashhoor Qur'ani Muhawarah — Man Yashaa'u & Maa Yashaa'u",
+      "subtitle": "Pages 20–22 | مَنْ يَشَاءُ ، لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ",
+      "transformations": [
+        {
+          "from_ar": "يَشَاءُ ← مَنْ يَشَاءُ",
+          "to_ar": "لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ",
+          "from_hn": "Woh chahta hai ← Jise woh chahta hai",
+          "to_hn": "Jiske liye woh chahta hai, Jis par woh chahta hai, Jo kuch woh chahta hai"
+        }
+      ],
+      "data": {
+        "arabic": "يَشَاءُ ← مَنْ يَشَاءُ ← لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ",
+        "hinglish": "Woh chahta hai ← Jise woh chahta hai ← Jiske liye woh chahta hai, Jis par woh chahta hai, Jo kuch woh chahta hai",
+        "arabic_word": "يَشَاءُ ← مَنْ يَشَاءُ",
+        "arabic_combined": "يَشَاءُ ← مَنْ يَشَاءُ ← لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ",
+        "hinglish_word": "Woh chahta hai ← Jise woh chahta hai",
+        "hinglish_combined": "Woh chahta hai ← Jise woh chahta hai ← Jiske liye woh chahta hai, Jis par woh chahta hai, Jo kuch woh chahta hai",
+        "title_en": "Lesson 4: Mashhoor Qur'ani Muhawarah — Man Yashaa'u & Maa Yashaa'u",
+        "subtitle": "Pages 20–22 | مَنْ يَشَاءُ ، لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ",
+        "transformations": [
+          {
+            "from_ar": "يَشَاءُ ← مَنْ يَشَاءُ",
+            "to_ar": "لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ",
+            "from_hn": "Woh chahta hai ← Jise woh chahta hai",
+            "to_hn": "Jiske liye woh chahta hai, Jis par woh chahta hai, Jo kuch woh chahta hai"
+          }
+        ]
+      }
+    },
+    {
+      "type": "intro_table",
+      "title": "مَنْ يَشَاءُ aur مَا يَشَاءُ ke Chaar Mashhoor Qur'ani Usool (Pages 20–22)",
+      "headers": [
+        "Qur'ani Muhawarah",
+        "Tarkeeb",
+        "Misaal",
+        "Hinglish Ma'na"
+      ],
+      "rows": [
+        [
+          "مَنْ يَشَاءُ",
+          "مَنْ (Jis ko) + يَشَاءُ (Woh chahta hai)",
+          "يَهْدِي مَنْ يَشَاءُ",
+          "Woh hidayat deta hai jise woh chahta hai"
+        ],
+        [
+          "لِمَنْ يَشَاءُ",
+          "لِـ (Ke liye) + مَنْ يَشَاءُ",
+          "يَغْفِرُ لِمَنْ يَشَاءُ",
+          "Woh bakhsh deta hai jiske liye woh chahta hai"
+        ],
+        [
+          "عَلَىٰ مَنْ يَشَاءُ",
+          "عَلَىٰ (Par) + مَنْ يَشَاءُ",
+          "يَتُوبُ اللَّهُ عَلَىٰ مَنْ يَشَاءُ",
+          "Allah tauba qubool farmata hai jis par woh chahta hai"
+        ],
+        [
+          "مَا يَشَاءُ",
+          "مَا (Jo kuch) + يَشَاءُ (Woh chahta hai)",
+          "يَفْعَلُ اللَّهُ مَا يَشَاءُ",
+          "Allah karta hai jo kuch woh chahta hai"
+        ]
+      ],
+      "data": {
+        "title": "مَنْ يَشَاءُ aur مَا يَشَاءُ ke Chaar Mashhoor Qur'ani Usool (Pages 20–22)",
+        "headers": [
+          "Qur'ani Muhawarah",
+          "Tarkeeb",
+          "Misaal",
+          "Hinglish Ma'na"
+        ],
+        "rows": [
+          [
+            "مَنْ يَشَاءُ",
+            "مَنْ (Jis ko) + يَشَاءُ (Woh chahta hai)",
+            "يَهْدِي مَنْ يَشَاءُ",
+            "Woh hidayat deta hai jise woh chahta hai"
+          ],
+          [
+            "لِمَنْ يَشَاءُ",
+            "لِـ (Ke liye) + مَنْ يَشَاءُ",
+            "يَغْفِرُ لِمَنْ يَشَاءُ",
+            "Woh bakhsh deta hai jiske liye woh chahta hai"
+          ],
+          [
+            "عَلَىٰ مَنْ يَشَاءُ",
+            "عَلَىٰ (Par) + مَنْ يَشَاءُ",
+            "يَتُوبُ اللَّهُ عَلَىٰ مَنْ يَشَاءُ",
+            "Allah tauba qubool farmata hai jis par woh chahta hai"
+          ],
+          [
+            "مَا يَشَاءُ",
+            "مَا (Jo kuch) + يَشَاءُ (Woh chahta hai)",
+            "يَفْعَلُ اللَّهُ مَا يَشَاءُ",
+            "Allah karta hai jo kuch woh chahta hai"
+          ]
+        ]
+      }
+    },
+    {
+      "type": "rule_paragraph",
+      "text": "<div class=\"lesson-concept-svg\" style=\"margin:12px 0 16px 0;\"><svg viewBox=\"0 0 800 236\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:linear-gradient(135deg,#f8fafc 0%,#eff6ff 100%);border:1px solid #cbd5e1;border-radius:14px;box-shadow:0 2px 8px rgba(15,23,42,0.05);\"><rect x=\"24\" y=\"16\" width=\"752\" height=\"34\" rx=\"8\" fill=\"#0f172a\"/><text x=\"400\" y=\"38\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#f8fafc\" text-anchor=\"middle\">UNIT 6 LESSON 4 • MAN YASHAA'U & MAA YASHAA'U IDIOMS</text><rect x=\"32\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ffffff\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"190\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#475569\" text-anchor=\"middle\">FE'L MUZARE (Chahna)</text><text x=\"190\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" direction=\"rtl\">يَشَاءُ</text><text x=\"190\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\">Woh chahta hai</text><circle cx=\"400\" cy=\"139\" r=\"24\" fill=\"#059669\"/><text x=\"400\" y=\"146\" font-family=\"system-ui,sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#ffffff\" text-anchor=\"middle\">←</text><rect x=\"452\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/><text x=\"610\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#047857\" text-anchor=\"middle\">QUR'ANI MUHAWARE</text><text x=\"610\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#065f46\" text-anchor=\"middle\" direction=\"rtl\">مَنْ يَشَاءُ / لِمَنْ يَشَاءُ / مَا يَشَاءُ</text><text x=\"610\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\">Jise woh chahta hai / Jiske liye / Jo woh chahta hai</text></svg></div>Qur'an Kareem ki saikdon aayaat mein <b>يَشَاءُ</b> (woh chahta hai) se pehle <b>مَنْ</b> (jis ko), <b>لِمَنْ</b> (jiske liye), <b>عَلَىٰ مَنْ</b> (jis par), ya <b>مَا</b> (jo kuch) aata hai aur ek mashhoor Qur'ani muhawarah ban jaata hai. Pehle in mukhtasir jumlon ko samjhein aur phir unke ba'd darj aayaat ka tarjuma karein:",
+      "content": "<div class=\"lesson-concept-svg\" style=\"margin:12px 0 16px 0;\"><svg viewBox=\"0 0 800 236\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:linear-gradient(135deg,#f8fafc 0%,#eff6ff 100%);border:1px solid #cbd5e1;border-radius:14px;box-shadow:0 2px 8px rgba(15,23,42,0.05);\"><rect x=\"24\" y=\"16\" width=\"752\" height=\"34\" rx=\"8\" fill=\"#0f172a\"/><text x=\"400\" y=\"38\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#f8fafc\" text-anchor=\"middle\">UNIT 6 LESSON 4 • MAN YASHAA'U & MAA YASHAA'U IDIOMS</text><rect x=\"32\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ffffff\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"190\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#475569\" text-anchor=\"middle\">FE'L MUZARE (Chahna)</text><text x=\"190\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" direction=\"rtl\">يَشَاءُ</text><text x=\"190\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\">Woh chahta hai</text><circle cx=\"400\" cy=\"139\" r=\"24\" fill=\"#059669\"/><text x=\"400\" y=\"146\" font-family=\"system-ui,sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#ffffff\" text-anchor=\"middle\">←</text><rect x=\"452\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/><text x=\"610\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#047857\" text-anchor=\"middle\">QUR'ANI MUHAWARE</text><text x=\"610\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#065f46\" text-anchor=\"middle\" direction=\"rtl\">مَنْ يَشَاءُ / لِمَنْ يَشَاءُ / مَا يَشَاءُ</text><text x=\"610\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\">Jise woh chahta hai / Jiske liye / Jo woh chahta hai</text></svg></div>Qur'an Kareem ki saikdon aayaat mein <b>يَشَاءُ</b> (woh chahta hai) se pehle <b>مَنْ</b> (jis ko), <b>لِمَنْ</b> (jiske liye), <b>عَلَىٰ مَنْ</b> (jis par), ya <b>مَا</b> (jo kuch) aata hai aur ek mashhoor Qur'ani muhawarah ban jaata hai. Pehle in mukhtasir jumlon ko samjhein aur phir unke ba'd darj aayaat ka tarjuma karein:",
+      "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:12px 0 16px 0;\"><svg viewBox=\"0 0 800 236\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:linear-gradient(135deg,#f8fafc 0%,#eff6ff 100%);border:1px solid #cbd5e1;border-radius:14px;box-shadow:0 2px 8px rgba(15,23,42,0.05);\"><rect x=\"24\" y=\"16\" width=\"752\" height=\"34\" rx=\"8\" fill=\"#0f172a\"/><text x=\"400\" y=\"38\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#f8fafc\" text-anchor=\"middle\">UNIT 6 LESSON 4 • MAN YASHAA'U & MAA YASHAA'U IDIOMS</text><rect x=\"32\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ffffff\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"190\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#475569\" text-anchor=\"middle\">FE'L MUZARE (Chahna)</text><text x=\"190\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" direction=\"rtl\">يَشَاءُ</text><text x=\"190\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\">Woh chahta hai</text><circle cx=\"400\" cy=\"139\" r=\"24\" fill=\"#059669\"/><text x=\"400\" y=\"146\" font-family=\"system-ui,sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#ffffff\" text-anchor=\"middle\">←</text><rect x=\"452\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/><text x=\"610\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#047857\" text-anchor=\"middle\">QUR'ANI MUHAWARE</text><text x=\"610\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#065f46\" text-anchor=\"middle\" direction=\"rtl\">مَنْ يَشَاءُ / لِمَنْ يَشَاءُ / مَا يَشَاءُ</text><text x=\"610\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\">Jise woh chahta hai / Jiske liye / Jo woh chahta hai</text></svg></div>Qur'an Kareem ki saikdon aayaat mein <b>يَشَاءُ</b> (woh chahta hai) se pehle <b>مَنْ</b> (jis ko), <b>لِمَنْ</b> (jiske liye), <b>عَلَىٰ مَنْ</b> (jis par), ya <b>مَا</b> (jo kuch) aata hai aur ek mashhoor Qur'ani muhawarah ban jaata hai. Pehle in mukhtasir jumlon ko samjhein aur phir unke ba'd darj aayaat ka tarjuma karein:",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:12px 0 16px 0;\"><svg viewBox=\"0 0 800 236\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:linear-gradient(135deg,#f8fafc 0%,#eff6ff 100%);border:1px solid #cbd5e1;border-radius:14px;box-shadow:0 2px 8px rgba(15,23,42,0.05);\"><rect x=\"24\" y=\"16\" width=\"752\" height=\"34\" rx=\"8\" fill=\"#0f172a\"/><text x=\"400\" y=\"38\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#f8fafc\" text-anchor=\"middle\">UNIT 6 LESSON 4 • MAN YASHAA'U & MAA YASHAA'U IDIOMS</text><rect x=\"32\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ffffff\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"190\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#475569\" text-anchor=\"middle\">FE'L MUZARE (Chahna)</text><text x=\"190\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" direction=\"rtl\">يَشَاءُ</text><text x=\"190\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\">Woh chahta hai</text><circle cx=\"400\" cy=\"139\" r=\"24\" fill=\"#059669\"/><text x=\"400\" y=\"146\" font-family=\"system-ui,sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#ffffff\" text-anchor=\"middle\">←</text><rect x=\"452\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/><text x=\"610\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#047857\" text-anchor=\"middle\">QUR'ANI MUHAWARE</text><text x=\"610\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#065f46\" text-anchor=\"middle\" direction=\"rtl\">مَنْ يَشَاءُ / لِمَنْ يَشَاءُ / مَا يَشَاءُ</text><text x=\"610\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\">Jise woh chahta hai / Jiske liye / Jo woh chahta hai</text></svg></div>Qur'an Kareem ki saikdon aayaat mein <b>يَشَاءُ</b> (woh chahta hai) se pehle <b>مَنْ</b> (jis ko), <b>لِمَنْ</b> (jiske liye), <b>عَلَىٰ مَنْ</b> (jis par), ya <b>مَا</b> (jo kuch) aata hai aur ek mashhoor Qur'ani muhawarah ban jaata hai. Pehle in mukhtasir jumlon ko samjhein aur phir unke ba'd darj aayaat ka tarjuma karein:",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:12px 0 16px 0;\"><svg viewBox=\"0 0 800 236\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:linear-gradient(135deg,#f8fafc 0%,#eff6ff 100%);border:1px solid #cbd5e1;border-radius:14px;box-shadow:0 2px 8px rgba(15,23,42,0.05);\"><rect x=\"24\" y=\"16\" width=\"752\" height=\"34\" rx=\"8\" fill=\"#0f172a\"/><text x=\"400\" y=\"38\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#f8fafc\" text-anchor=\"middle\">UNIT 6 LESSON 4 • MAN YASHAA'U & MAA YASHAA'U IDIOMS</text><rect x=\"32\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ffffff\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"190\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#475569\" text-anchor=\"middle\">FE'L MUZARE (Chahna)</text><text x=\"190\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" direction=\"rtl\">يَشَاءُ</text><text x=\"190\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\">Woh chahta hai</text><circle cx=\"400\" cy=\"139\" r=\"24\" fill=\"#059669\"/><text x=\"400\" y=\"146\" font-family=\"system-ui,sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#ffffff\" text-anchor=\"middle\">←</text><rect x=\"452\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/><text x=\"610\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#047857\" text-anchor=\"middle\">QUR'ANI MUHAWARE</text><text x=\"610\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#065f46\" text-anchor=\"middle\" direction=\"rtl\">مَنْ يَشَاءُ / لِمَنْ يَشَاءُ / مَا يَشَاءُ</text><text x=\"610\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\">Jise woh chahta hai / Jiske liye / Jo woh chahta hai</text></svg></div>Qur'an Kareem ki saikdon aayaat mein <b>يَشَاءُ</b> (woh chahta hai) se pehle <b>مَنْ</b> (jis ko), <b>لِمَنْ</b> (jiske liye), <b>عَلَىٰ مَنْ</b> (jis par), ya <b>مَا</b> (jo kuch) aata hai aur ek mashhoor Qur'ani muhawarah ban jaata hai. Pehle in mukhtasir jumlon ko samjhein aur phir unke ba'd darj aayaat ka tarjuma karein:",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:12px 0 16px 0;\"><svg viewBox=\"0 0 800 236\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:linear-gradient(135deg,#f8fafc 0%,#eff6ff 100%);border:1px solid #cbd5e1;border-radius:14px;box-shadow:0 2px 8px rgba(15,23,42,0.05);\"><rect x=\"24\" y=\"16\" width=\"752\" height=\"34\" rx=\"8\" fill=\"#0f172a\"/><text x=\"400\" y=\"38\" font-family=\"system-ui,sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#f8fafc\" text-anchor=\"middle\">UNIT 6 LESSON 4 • MAN YASHAA'U & MAA YASHAA'U IDIOMS</text><rect x=\"32\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ffffff\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"190\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#475569\" text-anchor=\"middle\">FE'L MUZARE (Chahna)</text><text x=\"190\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#0f172a\" text-anchor=\"middle\" direction=\"rtl\">يَشَاءُ</text><text x=\"190\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\">Woh chahta hai</text><circle cx=\"400\" cy=\"139\" r=\"24\" fill=\"#059669\"/><text x=\"400\" y=\"146\" font-family=\"system-ui,sans-serif\" font-size=\"20\" font-weight=\"700\" fill=\"#ffffff\" text-anchor=\"middle\">←</text><rect x=\"452\" y=\"64\" width=\"316\" height=\"150\" rx=\"12\" fill=\"#ecfdf5\" stroke=\"#059669\" stroke-width=\"2\"/><text x=\"610\" y=\"92\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"700\" fill=\"#047857\" text-anchor=\"middle\">QUR'ANI MUHAWARE</text><text x=\"610\" y=\"148\" font-family=\"'Traditional Arabic','Amiri',serif\" font-size=\"34\" font-weight=\"700\" fill=\"#065f46\" text-anchor=\"middle\" direction=\"rtl\">مَنْ يَشَاءُ / لِمَنْ يَشَاءُ / مَا يَشَاءُ</text><text x=\"610\" y=\"192\" font-family=\"system-ui,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\">Jise woh chahta hai / Jiske liye / Jo woh chahta hai</text></svg></div>Qur'an Kareem ki saikdon aayaat mein <b>يَشَاءُ</b> (woh chahta hai) se pehle <b>مَنْ</b> (jis ko), <b>لِمَنْ</b> (jiske liye), <b>عَلَىٰ مَنْ</b> (jis par), ya <b>مَا</b> (jo kuch) aata hai aur ek mashhoor Qur'ani muhawarah ban jaata hai. Pehle in mukhtasir jumlon ko samjhein aur phir unke ba'd darj aayaat ka tarjuma karein:"
+      }
+    },
+    {
+      "type": "section_label",
+      "text": "1. Muhawarah Grid: مَنْ يَشَاءُ ، لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ (Pages 20–22)",
+      "title": "1. Muhawarah Grid: مَنْ يَشَاءُ ، لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ (Pages 20–22)",
+      "label": "1. Muhawarah Grid: مَنْ يَشَاءُ ، لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ (Pages 20–22)",
+      "data": {
+        "text": "1. Muhawarah Grid: مَنْ يَشَاءُ ، لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ (Pages 20–22)",
+        "title": "1. Muhawarah Grid: مَنْ يَشَاءُ ، لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ (Pages 20–22)",
+        "label": "1. Muhawarah Grid: مَنْ يَشَاءُ ، لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ (Pages 20–22)"
+      }
+    },
+    {
+      "type": "two_col_numbered_list",
+      "is_numbered": false,
+      "items": [
+        {
+          "id": "s6l4_grid_w1",
+          "arabic": "يَهْدِي : يَهْدِي مَنْ يَشَاءُ",
+          "arabic_text": "يَهْدِي : يَهْدِي مَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">هْدِي</span> : <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">هْدِي</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+          "hinglish": "Woh hidayat deta hai : Woh jise chahta hai hidayat deta hai",
+          "hinglish_meaning": "Woh hidayat deta hai : Woh jise chahta hai hidayat deta hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Woh hidayat deta hai : Woh jise chahta hai hidayat deta hai",
+            "ur": "Woh hidayat deta hai : Woh jise chahta hai hidayat deta hai",
+            "en": "Woh hidayat deta hai : Woh jise chahta hai hidayat deta hai",
+            "hi": "Woh hidayat deta hai : Woh jise chahta hai hidayat deta hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_grid_w2",
+          "arabic": "يَرْحَمُ : يَرْحَمُ مَنْ يَشَاءُ",
+          "arabic_text": "يَرْحَمُ : يَرْحَمُ مَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">رْحَمُ</span> : <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">رْحَمُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+          "hinglish": "Woh raham karta hai : Woh jis par chahta hai raham karta hai",
+          "hinglish_meaning": "Woh raham karta hai : Woh jis par chahta hai raham karta hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Woh raham karta hai : Woh jis par chahta hai raham karta hai",
+            "ur": "Woh raham karta hai : Woh jis par chahta hai raham karta hai",
+            "en": "Woh raham karta hai : Woh jis par chahta hai raham karta hai",
+            "hi": "Woh raham karta hai : Woh jis par chahta hai raham karta hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_grid_w3",
+          "arabic": "يَرْزُقُ : يَرْزُقُ مَنْ يَشَاءُ",
+          "arabic_text": "يَرْزُقُ : يَرْزُقُ مَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">رْزُقُ</span> : <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">رْزُقُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+          "hinglish": "Woh rizq deta hai : Woh jise chahta hai rizq deta hai",
+          "hinglish_meaning": "Woh rizq deta hai : Woh jise chahta hai rizq deta hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Woh rizq deta hai : Woh jise chahta hai rizq deta hai",
+            "ur": "Woh rizq deta hai : Woh jise chahta hai rizq deta hai",
+            "en": "Woh rizq deta hai : Woh jise chahta hai rizq deta hai",
+            "hi": "Woh rizq deta hai : Woh jise chahta hai rizq deta hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_grid_w4",
+          "arabic": "يَخْتَصُّ : يَخْتَصُّ بِرَحْمَتِهِ مَنْ يَشَاءُ",
+          "arabic_text": "يَخْتَصُّ : يَخْتَصُّ بِرَحْمَتِهِ مَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">خْتَصُّ</span> : <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">خْتَصُّ</span> <span class=\"nonroot\">بِرَحْمَتِهِ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+          "hinglish": "Woh khaas karta hai : Woh apni rahmat ke saath jise chahta hai khaas karta hai",
+          "hinglish_meaning": "Woh khaas karta hai : Woh apni rahmat ke saath jise chahta hai khaas karta hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Woh khaas karta hai : Woh apni rahmat ke saath jise chahta hai khaas karta hai",
+            "ur": "Woh khaas karta hai : Woh apni rahmat ke saath jise chahta hai khaas karta hai",
+            "en": "Woh khaas karta hai : Woh apni rahmat ke saath jise chahta hai khaas karta hai",
+            "hi": "Woh khaas karta hai : Woh apni rahmat ke saath jise chahta hai khaas karta hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_grid_w5",
+          "arabic": "يُضِلُّ : يُضِلُّ مَنْ يَشَاءُ",
+          "arabic_text": "يُضِلُّ : يُضِلُّ مَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"nonroot\">يُ</span><span class=\"arabic-root\">ضِلُّ</span> : <span class=\"nonroot\">يُ</span><span class=\"arabic-root\">ضِلُّ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+          "hinglish": "Woh gumrah karta hai : Woh jise chahta hai gumrah karta hai",
+          "hinglish_meaning": "Woh gumrah karta hai : Woh jise chahta hai gumrah karta hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Woh gumrah karta hai : Woh jise chahta hai gumrah karta hai",
+            "ur": "Woh gumrah karta hai : Woh jise chahta hai gumrah karta hai",
+            "en": "Woh gumrah karta hai : Woh jise chahta hai gumrah karta hai",
+            "hi": "Woh gumrah karta hai : Woh jise chahta hai gumrah karta hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_grid_w6",
+          "arabic": "يُعَذِّبُ : يُعَذِّبُ مَنْ يَشَاءُ",
+          "arabic_text": "يُعَذِّبُ : يُعَذِّبُ مَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"nonroot\">يُ</span><span class=\"arabic-root\">عَذِّبُ</span> : <span class=\"nonroot\">يُ</span><span class=\"arabic-root\">عَذِّبُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+          "hinglish": "Woh azaab deta hai : Woh jise chahta hai azaab deta hai",
+          "hinglish_meaning": "Woh azaab deta hai : Woh jise chahta hai azaab deta hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Woh azaab deta hai : Woh jise chahta hai azaab deta hai",
+            "ur": "Woh azaab deta hai : Woh jise chahta hai azaab deta hai",
+            "en": "Woh azaab deta hai : Woh jise chahta hai azaab deta hai",
+            "hi": "Woh azaab deta hai : Woh jise chahta hai azaab deta hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_grid_w7",
+          "arabic": "يُؤْتِي : يُؤْتِي الْمُلْكَ مَنْ يَشَاءُ",
+          "arabic_text": "يُؤْتِي : يُؤْتِي الْمُلْكَ مَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"nonroot\">يُ</span><span class=\"arabic-root\">ؤْتِي</span> : <span class=\"nonroot\">يُ</span><span class=\"arabic-root\">ؤْتِي</span> <span class=\"nonroot\">الْمُلْكَ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+          "hinglish": "Woh deta hai : Woh jise chahta hai badshahi ata farmata hai",
+          "hinglish_meaning": "Woh deta hai : Woh jise chahta hai badshahi ata farmata hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Woh deta hai : Woh jise chahta hai badshahi ata farmata hai",
+            "ur": "Woh deta hai : Woh jise chahta hai badshahi ata farmata hai",
+            "en": "Woh deta hai : Woh jise chahta hai badshahi ata farmata hai",
+            "hi": "Woh deta hai : Woh jise chahta hai badshahi ata farmata hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_grid_w8",
+          "arabic": "يَجْتَبِي : يَجْتَبِي إِلَيْهِ مَنْ يَشَاءُ",
+          "arabic_text": "يَجْتَبِي : يَجْتَبِي إِلَيْهِ مَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">جْتَبِي</span> : <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">جْتَبِي</span> <span class=\"nonroot\">إِلَيْهِ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+          "hinglish": "Woh chunta hai : Woh apni taraf jise chahta hai chun leta hai",
+          "hinglish_meaning": "Woh chunta hai : Woh apni taraf jise chahta hai chun leta hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Woh chunta hai : Woh apni taraf jise chahta hai chun leta hai",
+            "ur": "Woh chunta hai : Woh apni taraf jise chahta hai chun leta hai",
+            "en": "Woh chunta hai : Woh apni taraf jise chahta hai chun leta hai",
+            "hi": "Woh chunta hai : Woh apni taraf jise chahta hai chun leta hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_grid_w9",
+          "arabic": "يَغْفِرُ : يَغْفِرُ لِمَنْ يَشَاءُ",
+          "arabic_text": "يَغْفِرُ : يَغْفِرُ لِمَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">غْفِرُ</span> : <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">غْفِرُ</span> <span class=\"nonroot\">لِمَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+          "hinglish": "Woh maaf karta hai : Woh jiske liye chahta hai bakhsh deta hai",
+          "hinglish_meaning": "Woh maaf karta hai : Woh jiske liye chahta hai bakhsh deta hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Woh maaf karta hai : Woh jiske liye chahta hai bakhsh deta hai",
+            "ur": "Woh maaf karta hai : Woh jiske liye chahta hai bakhsh deta hai",
+            "en": "Woh maaf karta hai : Woh jiske liye chahta hai bakhsh deta hai",
+            "hi": "Woh maaf karta hai : Woh jiske liye chahta hai bakhsh deta hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_grid_w10",
+          "arabic": "يَهَبُ : يَهَبُ لِمَنْ يَشَاءُ",
+          "arabic_text": "يَهَبُ : يَهَبُ لِمَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">هَبُ</span> : <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">هَبُ</span> <span class=\"nonroot\">لِمَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+          "hinglish": "Woh ata karta hai : Woh jiske liye chahta hai ata farmata hai",
+          "hinglish_meaning": "Woh ata karta hai : Woh jiske liye chahta hai ata farmata hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Woh ata karta hai : Woh jiske liye chahta hai ata farmata hai",
+            "ur": "Woh ata karta hai : Woh jiske liye chahta hai ata farmata hai",
+            "en": "Woh ata karta hai : Woh jiske liye chahta hai ata farmata hai",
+            "hi": "Woh ata karta hai : Woh jiske liye chahta hai ata farmata hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_grid_w11",
+          "arabic": "يُضَاعِفُ : يُضَاعِفُ لِمَنْ يَشَاءُ",
+          "arabic_text": "يُضَاعِفُ : يُضَاعِفُ لِمَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"nonroot\">يُ</span><span class=\"arabic-root\">ضَاعِفُ</span> : <span class=\"nonroot\">يُ</span><span class=\"arabic-root\">ضَاعِفُ</span> <span class=\"nonroot\">لِمَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+          "hinglish": "Woh dugna karta hai : Woh jiske liye chahta hai dugna kar deta hai",
+          "hinglish_meaning": "Woh dugna karta hai : Woh jiske liye chahta hai dugna kar deta hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Woh dugna karta hai : Woh jiske liye chahta hai dugna kar deta hai",
+            "ur": "Woh dugna karta hai : Woh jiske liye chahta hai dugna kar deta hai",
+            "en": "Woh dugna karta hai : Woh jiske liye chahta hai dugna kar deta hai",
+            "hi": "Woh dugna karta hai : Woh jiske liye chahta hai dugna kar deta hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_grid_w12",
+          "arabic": "يَبْسُطُ : يَبْسُطُ لِمَنْ يَشَاءُ",
+          "arabic_text": "يَبْسُطُ : يَبْسُطُ لِمَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">بْسُطُ</span> : <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">بْسُطُ</span> <span class=\"nonroot\">لِمَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+          "hinglish": "Woh kushada karta hai : Woh jiske liye chahta hai rizq kushada karta hai",
+          "hinglish_meaning": "Woh kushada karta hai : Woh jiske liye chahta hai rizq kushada karta hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Woh kushada karta hai : Woh jiske liye chahta hai rizq kushada karta hai",
+            "ur": "Woh kushada karta hai : Woh jiske liye chahta hai rizq kushada karta hai",
+            "en": "Woh kushada karta hai : Woh jiske liye chahta hai rizq kushada karta hai",
+            "hi": "Woh kushada karta hai : Woh jiske liye chahta hai rizq kushada karta hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_grid_w13",
+          "arabic": "يَتُوبُ عَلَىٰ مَنْ يَشَاءُ",
+          "arabic_text": "يَتُوبُ عَلَىٰ مَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">تُوبُ</span> <span class=\"nonroot\">عَلَىٰ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+          "hinglish": "Woh jis par chahta hai tauba (rujoo') farmata hai",
+          "hinglish_meaning": "Woh jis par chahta hai tauba (rujoo') farmata hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Woh jis par chahta hai tauba (rujoo') farmata hai",
+            "ur": "Woh jis par chahta hai tauba (rujoo') farmata hai",
+            "en": "Woh jis par chahta hai tauba (rujoo') farmata hai",
+            "hi": "Woh jis par chahta hai tauba (rujoo') farmata hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_grid_w14",
+          "arabic": "يُنَزِّلُ عَلَىٰ مَنْ يَشَاءُ",
+          "arabic_text": "يُنَزِّلُ عَلَىٰ مَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"nonroot\">يُ</span><span class=\"arabic-root\">نَزِّلُ</span> <span class=\"nonroot\">عَلَىٰ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+          "hinglish": "Woh jis par chahta hai naazil farmata hai",
+          "hinglish_meaning": "Woh jis par chahta hai naazil farmata hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Woh jis par chahta hai naazil farmata hai",
+            "ur": "Woh jis par chahta hai naazil farmata hai",
+            "en": "Woh jis par chahta hai naazil farmata hai",
+            "hi": "Woh jis par chahta hai naazil farmata hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_grid_w15",
+          "arabic": "يَمُنُّ عَلَىٰ مَنْ يَشَاءُ",
+          "arabic_text": "يَمُنُّ عَلَىٰ مَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">مُنُّ</span> <span class=\"nonroot\">عَلَىٰ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+          "hinglish": "Woh jis par chahta hai ehsaan farmata hai",
+          "hinglish_meaning": "Woh jis par chahta hai ehsaan farmata hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Woh jis par chahta hai ehsaan farmata hai",
+            "ur": "Woh jis par chahta hai ehsaan farmata hai",
+            "en": "Woh jis par chahta hai ehsaan farmata hai",
+            "hi": "Woh jis par chahta hai ehsaan farmata hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_grid_w16",
+          "arabic": "يَفْعَلُ مَا يَشَاءُ",
+          "arabic_text": "يَفْعَلُ مَا يَشَاءُ",
+          "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">فْعَلُ</span> <span class=\"nonroot\">مَا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+          "hinglish": "Woh jo chahta hai karta hai",
+          "hinglish_meaning": "Woh jo chahta hai karta hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Woh jo chahta hai karta hai",
+            "ur": "Woh jo chahta hai karta hai",
+            "en": "Woh jo chahta hai karta hai",
+            "hi": "Woh jo chahta hai karta hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_grid_w17",
+          "arabic": "يَحْكُمُ مَا يُرِيدُ",
+          "arabic_text": "يَحْكُمُ مَا يُرِيدُ",
+          "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">حْكُمُ</span> <span class=\"nonroot\">مَا</span> <span class=\"nonroot\">يُ</span><span class=\"arabic-root\">رِيدُ</span>",
+          "hinglish": "Woh jo chahta hai hukm (faisla) farmata hai",
+          "hinglish_meaning": "Woh jo chahta hai hukm (faisla) farmata hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Woh jo chahta hai hukm (faisla) farmata hai",
+            "ur": "Woh jo chahta hai hukm (faisla) farmata hai",
+            "en": "Woh jo chahta hai hukm (faisla) farmata hai",
+            "hi": "Woh jo chahta hai hukm (faisla) farmata hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_grid_w18",
+          "arabic": "يَخْلُقُ اللَّهُ مَا يَشَاءُ",
+          "arabic_text": "يَخْلُقُ اللَّهُ مَا يَشَاءُ",
+          "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">خْلُقُ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"nonroot\">مَا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+          "hinglish": "Allah jo chahta hai paida farmata hai",
+          "hinglish_meaning": "Allah jo chahta hai paida farmata hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Allah jo chahta hai paida farmata hai",
+            "ur": "Allah jo chahta hai paida farmata hai",
+            "en": "Allah jo chahta hai paida farmata hai",
+            "hi": "Allah jo chahta hai paida farmata hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        }
+      ],
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s6l4_grid_w1",
+            "arabic": "يَهْدِي : يَهْدِي مَنْ يَشَاءُ",
+            "arabic_text": "يَهْدِي : يَهْدِي مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">هْدِي</span> : <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">هْدِي</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+            "hinglish": "Woh hidayat deta hai : Woh jise chahta hai hidayat deta hai",
+            "hinglish_meaning": "Woh hidayat deta hai : Woh jise chahta hai hidayat deta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh hidayat deta hai : Woh jise chahta hai hidayat deta hai",
+              "ur": "Woh hidayat deta hai : Woh jise chahta hai hidayat deta hai",
+              "en": "Woh hidayat deta hai : Woh jise chahta hai hidayat deta hai",
+              "hi": "Woh hidayat deta hai : Woh jise chahta hai hidayat deta hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_grid_w2",
+            "arabic": "يَرْحَمُ : يَرْحَمُ مَنْ يَشَاءُ",
+            "arabic_text": "يَرْحَمُ : يَرْحَمُ مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">رْحَمُ</span> : <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">رْحَمُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+            "hinglish": "Woh raham karta hai : Woh jis par chahta hai raham karta hai",
+            "hinglish_meaning": "Woh raham karta hai : Woh jis par chahta hai raham karta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh raham karta hai : Woh jis par chahta hai raham karta hai",
+              "ur": "Woh raham karta hai : Woh jis par chahta hai raham karta hai",
+              "en": "Woh raham karta hai : Woh jis par chahta hai raham karta hai",
+              "hi": "Woh raham karta hai : Woh jis par chahta hai raham karta hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_grid_w3",
+            "arabic": "يَرْزُقُ : يَرْزُقُ مَنْ يَشَاءُ",
+            "arabic_text": "يَرْزُقُ : يَرْزُقُ مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">رْزُقُ</span> : <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">رْزُقُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+            "hinglish": "Woh rizq deta hai : Woh jise chahta hai rizq deta hai",
+            "hinglish_meaning": "Woh rizq deta hai : Woh jise chahta hai rizq deta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh rizq deta hai : Woh jise chahta hai rizq deta hai",
+              "ur": "Woh rizq deta hai : Woh jise chahta hai rizq deta hai",
+              "en": "Woh rizq deta hai : Woh jise chahta hai rizq deta hai",
+              "hi": "Woh rizq deta hai : Woh jise chahta hai rizq deta hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_grid_w4",
+            "arabic": "يَخْتَصُّ : يَخْتَصُّ بِرَحْمَتِهِ مَنْ يَشَاءُ",
+            "arabic_text": "يَخْتَصُّ : يَخْتَصُّ بِرَحْمَتِهِ مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">خْتَصُّ</span> : <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">خْتَصُّ</span> <span class=\"nonroot\">بِرَحْمَتِهِ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+            "hinglish": "Woh khaas karta hai : Woh apni rahmat ke saath jise chahta hai khaas karta hai",
+            "hinglish_meaning": "Woh khaas karta hai : Woh apni rahmat ke saath jise chahta hai khaas karta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh khaas karta hai : Woh apni rahmat ke saath jise chahta hai khaas karta hai",
+              "ur": "Woh khaas karta hai : Woh apni rahmat ke saath jise chahta hai khaas karta hai",
+              "en": "Woh khaas karta hai : Woh apni rahmat ke saath jise chahta hai khaas karta hai",
+              "hi": "Woh khaas karta hai : Woh apni rahmat ke saath jise chahta hai khaas karta hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_grid_w5",
+            "arabic": "يُضِلُّ : يُضِلُّ مَنْ يَشَاءُ",
+            "arabic_text": "يُضِلُّ : يُضِلُّ مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"nonroot\">يُ</span><span class=\"arabic-root\">ضِلُّ</span> : <span class=\"nonroot\">يُ</span><span class=\"arabic-root\">ضِلُّ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+            "hinglish": "Woh gumrah karta hai : Woh jise chahta hai gumrah karta hai",
+            "hinglish_meaning": "Woh gumrah karta hai : Woh jise chahta hai gumrah karta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh gumrah karta hai : Woh jise chahta hai gumrah karta hai",
+              "ur": "Woh gumrah karta hai : Woh jise chahta hai gumrah karta hai",
+              "en": "Woh gumrah karta hai : Woh jise chahta hai gumrah karta hai",
+              "hi": "Woh gumrah karta hai : Woh jise chahta hai gumrah karta hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_grid_w6",
+            "arabic": "يُعَذِّبُ : يُعَذِّبُ مَنْ يَشَاءُ",
+            "arabic_text": "يُعَذِّبُ : يُعَذِّبُ مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"nonroot\">يُ</span><span class=\"arabic-root\">عَذِّبُ</span> : <span class=\"nonroot\">يُ</span><span class=\"arabic-root\">عَذِّبُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+            "hinglish": "Woh azaab deta hai : Woh jise chahta hai azaab deta hai",
+            "hinglish_meaning": "Woh azaab deta hai : Woh jise chahta hai azaab deta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh azaab deta hai : Woh jise chahta hai azaab deta hai",
+              "ur": "Woh azaab deta hai : Woh jise chahta hai azaab deta hai",
+              "en": "Woh azaab deta hai : Woh jise chahta hai azaab deta hai",
+              "hi": "Woh azaab deta hai : Woh jise chahta hai azaab deta hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_grid_w7",
+            "arabic": "يُؤْتِي : يُؤْتِي الْمُلْكَ مَنْ يَشَاءُ",
+            "arabic_text": "يُؤْتِي : يُؤْتِي الْمُلْكَ مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"nonroot\">يُ</span><span class=\"arabic-root\">ؤْتِي</span> : <span class=\"nonroot\">يُ</span><span class=\"arabic-root\">ؤْتِي</span> <span class=\"nonroot\">الْمُلْكَ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+            "hinglish": "Woh deta hai : Woh jise chahta hai badshahi ata farmata hai",
+            "hinglish_meaning": "Woh deta hai : Woh jise chahta hai badshahi ata farmata hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh deta hai : Woh jise chahta hai badshahi ata farmata hai",
+              "ur": "Woh deta hai : Woh jise chahta hai badshahi ata farmata hai",
+              "en": "Woh deta hai : Woh jise chahta hai badshahi ata farmata hai",
+              "hi": "Woh deta hai : Woh jise chahta hai badshahi ata farmata hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_grid_w8",
+            "arabic": "يَجْتَبِي : يَجْتَبِي إِلَيْهِ مَنْ يَشَاءُ",
+            "arabic_text": "يَجْتَبِي : يَجْتَبِي إِلَيْهِ مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">جْتَبِي</span> : <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">جْتَبِي</span> <span class=\"nonroot\">إِلَيْهِ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+            "hinglish": "Woh chunta hai : Woh apni taraf jise chahta hai chun leta hai",
+            "hinglish_meaning": "Woh chunta hai : Woh apni taraf jise chahta hai chun leta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh chunta hai : Woh apni taraf jise chahta hai chun leta hai",
+              "ur": "Woh chunta hai : Woh apni taraf jise chahta hai chun leta hai",
+              "en": "Woh chunta hai : Woh apni taraf jise chahta hai chun leta hai",
+              "hi": "Woh chunta hai : Woh apni taraf jise chahta hai chun leta hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_grid_w9",
+            "arabic": "يَغْفِرُ : يَغْفِرُ لِمَنْ يَشَاءُ",
+            "arabic_text": "يَغْفِرُ : يَغْفِرُ لِمَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">غْفِرُ</span> : <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">غْفِرُ</span> <span class=\"nonroot\">لِمَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+            "hinglish": "Woh maaf karta hai : Woh jiske liye chahta hai bakhsh deta hai",
+            "hinglish_meaning": "Woh maaf karta hai : Woh jiske liye chahta hai bakhsh deta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh maaf karta hai : Woh jiske liye chahta hai bakhsh deta hai",
+              "ur": "Woh maaf karta hai : Woh jiske liye chahta hai bakhsh deta hai",
+              "en": "Woh maaf karta hai : Woh jiske liye chahta hai bakhsh deta hai",
+              "hi": "Woh maaf karta hai : Woh jiske liye chahta hai bakhsh deta hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_grid_w10",
+            "arabic": "يَهَبُ : يَهَبُ لِمَنْ يَشَاءُ",
+            "arabic_text": "يَهَبُ : يَهَبُ لِمَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">هَبُ</span> : <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">هَبُ</span> <span class=\"nonroot\">لِمَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+            "hinglish": "Woh ata karta hai : Woh jiske liye chahta hai ata farmata hai",
+            "hinglish_meaning": "Woh ata karta hai : Woh jiske liye chahta hai ata farmata hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh ata karta hai : Woh jiske liye chahta hai ata farmata hai",
+              "ur": "Woh ata karta hai : Woh jiske liye chahta hai ata farmata hai",
+              "en": "Woh ata karta hai : Woh jiske liye chahta hai ata farmata hai",
+              "hi": "Woh ata karta hai : Woh jiske liye chahta hai ata farmata hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_grid_w11",
+            "arabic": "يُضَاعِفُ : يُضَاعِفُ لِمَنْ يَشَاءُ",
+            "arabic_text": "يُضَاعِفُ : يُضَاعِفُ لِمَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"nonroot\">يُ</span><span class=\"arabic-root\">ضَاعِفُ</span> : <span class=\"nonroot\">يُ</span><span class=\"arabic-root\">ضَاعِفُ</span> <span class=\"nonroot\">لِمَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+            "hinglish": "Woh dugna karta hai : Woh jiske liye chahta hai dugna kar deta hai",
+            "hinglish_meaning": "Woh dugna karta hai : Woh jiske liye chahta hai dugna kar deta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh dugna karta hai : Woh jiske liye chahta hai dugna kar deta hai",
+              "ur": "Woh dugna karta hai : Woh jiske liye chahta hai dugna kar deta hai",
+              "en": "Woh dugna karta hai : Woh jiske liye chahta hai dugna kar deta hai",
+              "hi": "Woh dugna karta hai : Woh jiske liye chahta hai dugna kar deta hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_grid_w12",
+            "arabic": "يَبْسُطُ : يَبْسُطُ لِمَنْ يَشَاءُ",
+            "arabic_text": "يَبْسُطُ : يَبْسُطُ لِمَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">بْسُطُ</span> : <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">بْسُطُ</span> <span class=\"nonroot\">لِمَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+            "hinglish": "Woh kushada karta hai : Woh jiske liye chahta hai rizq kushada karta hai",
+            "hinglish_meaning": "Woh kushada karta hai : Woh jiske liye chahta hai rizq kushada karta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh kushada karta hai : Woh jiske liye chahta hai rizq kushada karta hai",
+              "ur": "Woh kushada karta hai : Woh jiske liye chahta hai rizq kushada karta hai",
+              "en": "Woh kushada karta hai : Woh jiske liye chahta hai rizq kushada karta hai",
+              "hi": "Woh kushada karta hai : Woh jiske liye chahta hai rizq kushada karta hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_grid_w13",
+            "arabic": "يَتُوبُ عَلَىٰ مَنْ يَشَاءُ",
+            "arabic_text": "يَتُوبُ عَلَىٰ مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">تُوبُ</span> <span class=\"nonroot\">عَلَىٰ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+            "hinglish": "Woh jis par chahta hai tauba (rujoo') farmata hai",
+            "hinglish_meaning": "Woh jis par chahta hai tauba (rujoo') farmata hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh jis par chahta hai tauba (rujoo') farmata hai",
+              "ur": "Woh jis par chahta hai tauba (rujoo') farmata hai",
+              "en": "Woh jis par chahta hai tauba (rujoo') farmata hai",
+              "hi": "Woh jis par chahta hai tauba (rujoo') farmata hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_grid_w14",
+            "arabic": "يُنَزِّلُ عَلَىٰ مَنْ يَشَاءُ",
+            "arabic_text": "يُنَزِّلُ عَلَىٰ مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"nonroot\">يُ</span><span class=\"arabic-root\">نَزِّلُ</span> <span class=\"nonroot\">عَلَىٰ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+            "hinglish": "Woh jis par chahta hai naazil farmata hai",
+            "hinglish_meaning": "Woh jis par chahta hai naazil farmata hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh jis par chahta hai naazil farmata hai",
+              "ur": "Woh jis par chahta hai naazil farmata hai",
+              "en": "Woh jis par chahta hai naazil farmata hai",
+              "hi": "Woh jis par chahta hai naazil farmata hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_grid_w15",
+            "arabic": "يَمُنُّ عَلَىٰ مَنْ يَشَاءُ",
+            "arabic_text": "يَمُنُّ عَلَىٰ مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">مُنُّ</span> <span class=\"nonroot\">عَلَىٰ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+            "hinglish": "Woh jis par chahta hai ehsaan farmata hai",
+            "hinglish_meaning": "Woh jis par chahta hai ehsaan farmata hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh jis par chahta hai ehsaan farmata hai",
+              "ur": "Woh jis par chahta hai ehsaan farmata hai",
+              "en": "Woh jis par chahta hai ehsaan farmata hai",
+              "hi": "Woh jis par chahta hai ehsaan farmata hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_grid_w16",
+            "arabic": "يَفْعَلُ مَا يَشَاءُ",
+            "arabic_text": "يَفْعَلُ مَا يَشَاءُ",
+            "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">فْعَلُ</span> <span class=\"nonroot\">مَا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+            "hinglish": "Woh jo chahta hai karta hai",
+            "hinglish_meaning": "Woh jo chahta hai karta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh jo chahta hai karta hai",
+              "ur": "Woh jo chahta hai karta hai",
+              "en": "Woh jo chahta hai karta hai",
+              "hi": "Woh jo chahta hai karta hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_grid_w17",
+            "arabic": "يَحْكُمُ مَا يُرِيدُ",
+            "arabic_text": "يَحْكُمُ مَا يُرِيدُ",
+            "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">حْكُمُ</span> <span class=\"nonroot\">مَا</span> <span class=\"nonroot\">يُ</span><span class=\"arabic-root\">رِيدُ</span>",
+            "hinglish": "Woh jo chahta hai hukm (faisla) farmata hai",
+            "hinglish_meaning": "Woh jo chahta hai hukm (faisla) farmata hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh jo chahta hai hukm (faisla) farmata hai",
+              "ur": "Woh jo chahta hai hukm (faisla) farmata hai",
+              "en": "Woh jo chahta hai hukm (faisla) farmata hai",
+              "hi": "Woh jo chahta hai hukm (faisla) farmata hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_grid_w18",
+            "arabic": "يَخْلُقُ اللَّهُ مَا يَشَاءُ",
+            "arabic_text": "يَخْلُقُ اللَّهُ مَا يَشَاءُ",
+            "arabic_markup": "<span class=\"nonroot\">يَ</span><span class=\"arabic-root\">خْلُقُ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"nonroot\">مَا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+            "hinglish": "Allah jo chahta hai paida farmata hai",
+            "hinglish_meaning": "Allah jo chahta hai paida farmata hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah jo chahta hai paida farmata hai",
+              "ur": "Allah jo chahta hai paida farmata hai",
+              "en": "Allah jo chahta hai paida farmata hai",
+              "hi": "Allah jo chahta hai paida farmata hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "section_label",
+      "text": "2. Qur'ani Aayaat: مَنْ يَشَاءُ ، لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ (Pages 20–22)",
+      "title": "2. Qur'ani Aayaat: مَنْ يَشَاءُ ، لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ (Pages 20–22)",
+      "label": "2. Qur'ani Aayaat: مَنْ يَشَاءُ ، لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ (Pages 20–22)",
+      "data": {
+        "text": "2. Qur'ani Aayaat: مَنْ يَشَاءُ ، لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ (Pages 20–22)",
+        "title": "2. Qur'ani Aayaat: مَنْ يَشَاءُ ، لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ (Pages 20–22)",
+        "label": "2. Qur'ani Aayaat: مَنْ يَشَاءُ ، لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ (Pages 20–22)"
+      }
+    },
+    {
+      "type": "two_col_numbered_list",
+      "is_numbered": true,
+      "items": [
+        {
+          "id": "s6l4_v_s1",
+          "sentence_number": 1,
+          "arabic": "وَاللَّهُ يَهْدِي مَنْ يَشَاءُ إِلَى صِرَاطٍ مُسْتَقِيمٍ",
+          "arabic_text": "وَاللَّهُ يَهْدِي مَنْ يَشَاءُ إِلَى صِرَاطٍ مُسْتَقِيمٍ",
+          "arabic_markup": "<span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"arabic-root\">يَهْدِي</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span> <span class=\"arabic-root\">إِلَى</span> <span class=\"arabic-root\">صِرَاطٍ</span> <span class=\"arabic-root\">مُسْتَقِيمٍ</span>",
+          "hinglish": "Aur Allah hidayat deta hai jise chahata hai seedhe raste ki taraf",
+          "hinglish_meaning": "Aur Allah hidayat deta hai jise chahata hai seedhe raste ki taraf",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur Allah hidayat deta hai jise chahata hai seedhe raste ki taraf",
+            "en": "And Allah guides whom He wills to a straight path",
+            "ur": "اور اللہ ہدایت دیتا ہے جسے چاہتا ہے سیدھے راستے کی طرف",
+            "hi": "और अल्लाह हिदायत देता है जिसे चाहता है सीधे रास्ते की तरफ़",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s2",
+          "sentence_number": 2,
+          "arabic": "ذَلِكَ هُدَى اللَّهِ يَهْدِي بِهِ مَنْ يَشَاءُ مِنْ عِبَادِهِ",
+          "arabic_text": "ذَلِكَ هُدَى اللَّهِ يَهْدِي بِهِ مَنْ يَشَاءُ مِنْ عِبَادِهِ",
+          "arabic_markup": "<span class=\"arabic-root\">ذَلِكَ</span> <span class=\"arabic-root\">هُدَى</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"arabic-root\">يَهْدِي</span> <span class=\"arabic-root\">بِهِ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span> <span class=\"arabic-root\">مِنْ</span> <span class=\"arabic-root\">عِبَادِهِ</span>",
+          "hinglish": "Yeh Allah ki hidayat hai woh us se apne bandon mein se jise chahata hai hidayat deta hai",
+          "hinglish_meaning": "Yeh Allah ki hidayat hai woh us se apne bandon mein se jise chahata hai hidayat deta hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Yeh Allah ki hidayat hai woh us se apne bandon mein se jise chahata hai hidayat deta hai",
+            "en": "That is the guidance of Allah with which He guides whomever He wills of His servants",
+            "ur": "یہ اللہ کی ہدایت ہے وہ اس سے اپنے بندوں میں سے جسے چاہتا ہے ہدایت دیتا ہے",
+            "hi": "यह अल्लाह की हिदायत है वो उससे अपने बंदों में से जिसे चाहता है हिदायत देता है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s3",
+          "sentence_number": 3,
+          "arabic": "فَإِنَّ اللَّهَ يُضِلُّ مَنْ يَشَاءُ وَيَهْدِي مَنْ يَشَاءُ",
+          "arabic_text": "فَإِنَّ اللَّهَ يُضِلُّ مَنْ يَشَاءُ وَيَهْدِي مَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"arabic-root\">فَإِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"arabic-root\">يُضِلُّ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span> <span class=\"arabic-root\">وَيَهْدِي</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+          "hinglish": "Toh beshak Allah gumrah karta hai jise chahata hai aur hidayat deta hai jise chahata hai",
+          "hinglish_meaning": "Toh beshak Allah gumrah karta hai jise chahata hai aur hidayat deta hai jise chahata hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Toh beshak Allah gumrah karta hai jise chahata hai aur hidayat deta hai jise chahata hai",
+            "en": "For indeed, Allah leaves astray whom He wills and guides whom He wills",
+            "ur": "تو بیشک اللہ گمراہ کرتا ہے جسے چاہتا ہے اور ہدایت دیتا ہے جسے چاہتا ہے",
+            "hi": "तो बेशक अल्लाह गुमराह करता है जिसे चाहता है और हिदायत देता है जिसे चाहता है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s4",
+          "sentence_number": 4,
+          "arabic": "يُعَذِّبُ مَنْ يَشَاءُ وَيَرْحَمُ مَنْ يَشَاءُ",
+          "arabic_text": "يُعَذِّبُ مَنْ يَشَاءُ وَيَرْحَمُ مَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"arabic-root\">يُعَذِّبُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span> <span class=\"arabic-root\">وَيَرْحَمُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+          "hinglish": "Woh 'azaab deta hai jise chahata hai aur rehmat karta hai jise chahata hai",
+          "hinglish_meaning": "Woh 'azaab deta hai jise chahata hai aur rehmat karta hai jise chahata hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Woh 'azaab deta hai jise chahata hai aur rehmat karta hai jise chahata hai",
+            "en": "He punishes whom He wills and has mercy upon whom He wills",
+            "ur": "وہ عذاب دیتا ہے جسے چاہتا ہے اور رحم کرتا ہے جسے چاہتا ہے",
+            "hi": "वह अज़ाब देता है जिसे चाहता है और रहम करता है जिसे चाहता है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s5",
+          "sentence_number": 5,
+          "arabic": "وَاللَّهُ يُؤْتِي مُلْكَهُ مَنْ يَشَاءُ",
+          "arabic_text": "وَاللَّهُ يُؤْتِي مُلْكَهُ مَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"arabic-root\">يُؤْتِي</span> <span class=\"arabic-root\">مُلْكَهُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+          "hinglish": "Aur Allah apni hukumat jise chahata hai ata karta hai",
+          "hinglish_meaning": "Aur Allah apni hukumat jise chahata hai ata karta hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur Allah apni hukumat jise chahata hai ata karta hai",
+            "en": "And Allah gives His sovereignty to whom He wills",
+            "ur": "اور اللہ اپنی حکومت جسے چاہتا ہے عطا کرتا ہے",
+            "hi": "और अल्लाह अपनी हुकूमत जिसे चाहता है अता करता है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s6",
+          "sentence_number": 6,
+          "arabic": "اللَّهُ لَطِيفٌ بِعِبَادِهِ يَرْزُقُ مَنْ يَشَاءُ",
+          "arabic_text": "اللَّهُ لَطِيفٌ بِعِبَادِهِ يَرْزُقُ مَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">لَطِيفٌ</span> <span class=\"arabic-root\">بِعِبَادِهِ</span> <span class=\"arabic-root\">يَرْزُقُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+          "hinglish": "Allah apne bandon par meharban hai woh rizq deta hai jise chahata hai",
+          "hinglish_meaning": "Allah apne bandon par meharban hai woh rizq deta hai jise chahata hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Allah apne bandon par meharban hai woh rizq deta hai jise chahata hai",
+            "en": "Allah is subtle with His servants; He gives provision to whom He wills",
+            "ur": "اللہ اپنے بندوں پر مہربان ہے وہ رزق دیتا ہے جسے چاہتا ہے",
+            "hi": "अल्लाह अपने बंदों पर मेहरबान है वो रिज़्क़ देता है जिसे चाहता है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s7",
+          "sentence_number": 7,
+          "arabic": "وَاللَّهُ يُؤَيِّدُ بِنَصْرِهِ مَنْ يَشَاءُ",
+          "arabic_text": "وَاللَّهُ يُؤَيِّدُ بِنَصْرِهِ مَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"arabic-root\">يُؤَيِّدُ</span> <span class=\"arabic-root\">بِنَصْرِهِ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+          "hinglish": "Aur Allah apni madad se jise chahata hai taaqat deta hai",
+          "hinglish_meaning": "Aur Allah apni madad se jise chahata hai taaqat deta hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur Allah apni madad se jise chahata hai taaqat deta hai",
+            "en": "And Allah supports with His victory whom He wills",
+            "ur": "اور اللہ اپنی مدد سے جسے چاہتا ہے تقویت دیتا ہے",
+            "hi": "और अल्लाह अपनी मदद से जिसे चाहता है ताक़त देता है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s8",
+          "sentence_number": 8,
+          "arabic": "وَيَجْعَلُ مَنْ يَشَاءُ عَقِيمًا",
+          "arabic_text": "وَيَجْعَلُ مَنْ يَشَاءُ عَقِيمًا",
+          "arabic_markup": "<span class=\"arabic-root\">وَيَجْعَلُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span> <span class=\"arabic-root\">عَقِيمًا</span>",
+          "hinglish": "Aur woh jise chahata hai be-aulaad kar deta hai",
+          "hinglish_meaning": "Aur woh jise chahata hai be-aulaad kar deta hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur woh jise chahata hai be-aulaad kar deta hai",
+            "en": "And He renders whom He wills barren",
+            "ur": "اور وہ جسے چاہتا ہے بے اولاد کر دیتا ہے",
+            "hi": "और वह जिसे चाहता है बेऔलाद कर देता है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s9",
+          "sentence_number": 9,
+          "arabic": "وَاللَّهُ يَخْتَصُّ بِرَحْمَتِهِ مَنْ يَشَاءُ",
+          "arabic_text": "وَاللَّهُ يَخْتَصُّ بِرَحْمَتِهِ مَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"arabic-root\">يَخْتَصُّ</span> <span class=\"arabic-root\">بِرَحْمَتِهِ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+          "hinglish": "Aur Allah apni rehmat ke saath jise chahata hai khas kar leta hai",
+          "hinglish_meaning": "Aur Allah apni rehmat ke saath jise chahata hai khas kar leta hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur Allah apni rehmat ke saath jise chahata hai khas kar leta hai",
+            "en": "And Allah selects for His mercy whom He wills",
+            "ur": "اور اللہ اپنی رحمت کے ساتھ جسے چاہتا ہے خاص کر لیتا ہے",
+            "hi": "और अल्लाह अपनी रहमत के साथ जिसे चाहता है ख़ास कर लेता है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s10",
+          "sentence_number": 10,
+          "arabic": "فَيَغْفِرُ لِمَنْ يَشَاءُ وَيُعَذِّبُ مَنْ يَشَاءُ",
+          "arabic_text": "فَيَغْفِرُ لِمَنْ يَشَاءُ وَيُعَذِّبُ مَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"arabic-root\">فَيَغْفِرُ</span> <span class=\"arabic-root\">لِمَنْ</span> <span class=\"nonroot\">يَشَاءُ</span> <span class=\"arabic-root\">وَيُعَذِّبُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+          "hinglish": "Toh woh maaf kar deta hai jiske liye chahata hai aur 'azaab deta hai jise chahata hai",
+          "hinglish_meaning": "Toh woh maaf kar deta hai jiske liye chahata hai aur 'azaab deta hai jise chahata hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Toh woh maaf kar deta hai jiske liye chahata hai aur 'azaab deta hai jise chahata hai",
+            "en": "Then He forgives whom He wills and punishes whom He wills",
+            "ur": "تو وہ معاف کر دیتا ہے جس کے لیے چاہتا ہے اور عذاب دیتا ہے جسے چاہتا ہے",
+            "hi": "तो वह माफ कर देता है जिसके लिए चाहता है और अज़ाब देता है जिसे चाहता है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s11",
+          "sentence_number": 11,
+          "arabic": "إِنَّ رَبَّكَ يَبْسُطُ الرِّزْقَ لِمَنْ يَشَاءُ وَيَقْدِرُ",
+          "arabic_text": "إِنَّ رَبَّكَ يَبْسُطُ الرِّزْقَ لِمَنْ يَشَاءُ وَيَقْدِرُ",
+          "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span> <span class=\"arabic-root\">رَبَّكَ</span> <span class=\"arabic-root\">يَبْسُطُ</span> <span class=\"arabic-root\">الرِّزْقَ</span> <span class=\"arabic-root\">لِمَنْ</span> <span class=\"nonroot\">يَشَاءُ</span> <span class=\"arabic-root\">وَيَقْدِرُ</span>",
+          "hinglish": "Beshak aap ka Rabb kushada karta hai rizq jiske liye chahata hai aur tang karta hai",
+          "hinglish_meaning": "Beshak aap ka Rabb kushada karta hai rizq jiske liye chahata hai aur tang karta hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Beshak aap ka Rabb kushada karta hai rizq jiske liye chahata hai aur tang karta hai",
+            "en": "Indeed, your Lord extends provision for whom He wills and restricts it",
+            "ur": "بیشک آپ کا رب کشادہ کرتا ہے رزق جس کے لیے چاہتا ہے اور تنگ کرتا ہے",
+            "hi": "बेशक आपका रब कुशादा करता है रिज़्क़ जिसके लिए चाहता है और तंग करता है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s12",
+          "sentence_number": 12,
+          "arabic": "وَاللَّهُ يُضَاعِفُ لِمَنْ يَشَاءُ",
+          "arabic_text": "وَاللَّهُ يُضَاعِفُ لِمَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"arabic-root\">يُضَاعِفُ</span> <span class=\"arabic-root\">لِمَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+          "hinglish": "Aur Allah dugna karta hai jiske liye chahata hai",
+          "hinglish_meaning": "Aur Allah dugna karta hai jiske liye chahata hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur Allah dugna karta hai jiske liye chahata hai",
+            "en": "And Allah multiplies for whom He wills",
+            "ur": "اور اللہ دگنا کرتا ہے جس کے لیے چاہتا ہے",
+            "hi": "और अल्लाह दुगना करता है जिसके लिए चाहता है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s13",
+          "sentence_number": 13,
+          "arabic": "عَلَى مَنْ يَشَاءُ",
+          "arabic_text": "عَلَى مَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"arabic-root\">عَلَى</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+          "hinglish": "jis par woh chahata hai",
+          "hinglish_meaning": "jis par woh chahata hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "jis par woh chahata hai",
+            "en": "upon whom He wills",
+            "ur": "جس پر وہ چاہتا ہے",
+            "hi": "जिस पर वह चाहता है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s14",
+          "sentence_number": 14,
+          "arabic": "ثُمَّ يَتُوبُ اللَّهُ مِنْ بَعْدِ ذَلِكَ عَلَى مَنْ يَشَاءُ",
+          "arabic_text": "ثُمَّ يَتُوبُ اللَّهُ مِنْ بَعْدِ ذَلِكَ عَلَى مَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"arabic-root\">ثُمَّ</span> <span class=\"arabic-root\">يَتُوبُ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">مِنْ</span> <span class=\"arabic-root\">بَعْدِ</span> <span class=\"arabic-root\">ذَلِكَ</span> <span class=\"arabic-root\">عَلَى</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+          "hinglish": "Phir Allah tauba qbool karta hai uske baad jis par chahata hai",
+          "hinglish_meaning": "Phir Allah tauba qbool karta hai uske baad jis par chahata hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Phir Allah tauba qbool karta hai uske baad jis par chahata hai",
+            "en": "Then Allah will accept repentance after that from whom He wills",
+            "ur": "پھر اللہ توبہ قبول کرتا ہے اس کے بعد جس پر چاہتا ہے",
+            "hi": "फिर अल्लाह तौबा क़बूल करता है उसके बाद जिस पर चाहता है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s15",
+          "sentence_number": 15,
+          "arabic": "وَلَكِنَّ اللَّهَ يُسَلِّطُ رُسُلَهُ عَلَى مَنْ يَشَاءُ",
+          "arabic_text": "وَلَكِنَّ اللَّهَ يُسَلِّطُ رُسُلَهُ عَلَى مَنْ يَشَاءُ",
+          "arabic_markup": "<span class=\"arabic-root\">وَلَكِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"arabic-root\">يُسَلِّطُ</span> <span class=\"arabic-root\">رُسُلَهُ</span> <span class=\"arabic-root\">عَلَى</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+          "hinglish": "Lekin Allah apne rasoolon ko jis par chahata hai masallat kar deta hai",
+          "hinglish_meaning": "Lekin Allah apne rasoolon ko jis par chahata hai masallat kar deta hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Lekin Allah apne rasoolon ko jis par chahata hai masallat kar deta hai",
+            "en": "But Allah gives His messengers power over whom He wills",
+            "ur": "لیکن اللہ اپنے رسولوں کو جس پر چاہتا ہے مسلط کر دیتا ہے",
+            "hi": "लेकिन अल्लाह अपने रसूलों को जिस पर चाहता है मुसल्लत कर देता है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s16",
+          "sentence_number": 16,
+          "arabic": "إِنَّ اللَّهَ يَفْعَلُ مَا يَشَاءُ",
+          "arabic_text": "إِنَّ اللَّهَ يَفْعَلُ مَا يَشَاءُ",
+          "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"arabic-root\">يَفْعَلُ</span> <span class=\"arabic-root\">مَا</span> <span class=\"nonroot\">يَشَاءُ</span>",
+          "hinglish": "Beshak Allah karta hai jo woh chahata hai",
+          "hinglish_meaning": "Beshak Allah karta hai jo woh chahata hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Beshak Allah karta hai jo woh chahata hai",
+            "en": "Indeed, Allah does whatever He wills",
+            "ur": "بیشک اللہ کرتا ہے جو وہ چاہتا ہے",
+            "hi": "बेशक अल्लाह करता है जो वह चाहता है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s17",
+          "sentence_number": 17,
+          "arabic": "كَذَلِكَ اللَّهُ يَخْلُقُ مَا يَشَاءُ",
+          "arabic_text": "كَذَلِكَ اللَّهُ يَخْلُقُ مَا يَشَاءُ",
+          "arabic_markup": "<span class=\"arabic-root\">كَذَلِكَ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">يَخْلُقُ</span> <span class=\"arabic-root\">مَا</span> <span class=\"nonroot\">يَشَاءُ</span>",
+          "hinglish": "Issi tarah Allah paida karta hai jo woh chahata hai",
+          "hinglish_meaning": "Issi tarah Allah paida karta hai jo woh chahata hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Issi tarah Allah paida karta hai jo woh chahata hai",
+            "en": "Thus Allah creates what He wills",
+            "ur": "اسی طرح اللہ پیدا کرتا ہے جو وہ چاہتا ہے",
+            "hi": "इसी तरह अल्लाह पैदा करता है जो वह चाहता है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s18",
+          "sentence_number": 18,
+          "arabic": "يَمْحُو اللَّهُ مَا يَشَاءُ وَيُثْبِتُ",
+          "arabic_text": "يَمْحُو اللَّهُ مَا يَشَاءُ وَيُثْبِتُ",
+          "arabic_markup": "<span class=\"arabic-root\">يَمْحُو</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">مَا</span> <span class=\"nonroot\">يَشَاءُ</span> <span class=\"arabic-root\">وَيُثْبِتُ</span>",
+          "hinglish": "Allah mitaata hai jo chahata hai aur baaqi rakhta hai",
+          "hinglish_meaning": "Allah mitaata hai jo chahata hai aur baaqi rakhta hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Allah mitaata hai jo chahata hai aur baaqi rakhta hai",
+            "en": "Allah eliminates what He wills or confirms",
+            "ur": "اللہ مٹاتا ہے جو چاہتا ہے اور باقی رکھتا ہے",
+            "hi": "अल्लाह मिटाता है जो चाहता है और बाक़ी रखता है",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s19",
+          "sentence_number": 19,
+          "arabic": "فَيَغْفِرُ لِمَنْ يَشَاءُ وَيُعَذِّبُ مَنْ يَشَاءُ / وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+          "arabic_text": "فَيَغْفِرُ لِمَنْ يَشَاءُ وَيُعَذِّبُ مَنْ يَشَاءُ / وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+          "arabic_markup": "<span class=\"nonroot\">فَيَ</span><span class=\"arabic-root\">غْفِرُ</span> <span class=\"arabic-root\">لِمَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span> <span class=\"arabic-root\">وَيُعَذِّبُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span> / <span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"nonroot\">عَلَىٰ</span> <span class=\"arabic-root\">كُلِّ</span> <span class=\"arabic-root\">شَيْءٍ</span> <span class=\"arabic-root\">قَدِيرٌ</span>",
+          "hinglish": "Pas woh jise chahta hai bakhsh deta hai aur jise chahta hai azaab deta hai, aur Allah har cheez par qaadir hai",
+          "hinglish_meaning": "Pas woh jise chahta hai bakhsh deta hai aur jise chahta hai azaab deta hai, aur Allah har cheez par qaadir hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Pas woh jise chahta hai bakhsh deta hai aur jise chahta hai azaab deta hai, aur Allah har cheez par qaadir hai",
+            "ur": "Pas woh jise chahta hai bakhsh deta hai aur jise chahta hai azaab deta hai, aur Allah har cheez par qaadir hai",
+            "en": "Pas woh jise chahta hai bakhsh deta hai aur jise chahta hai azaab deta hai, aur Allah har cheez par qaadir hai",
+            "hi": "Pas woh jise chahta hai bakhsh deta hai aur jise chahta hai azaab deta hai, aur Allah har cheez par qaadir hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s20",
+          "sentence_number": 20,
+          "arabic": "إِنَّ رَبَّكَ يَبْسُطُ الرِّزْقَ لِمَنْ يَشَاءُ وَيَقْدِرُ / إِنَّهُ كَانَ بِعِبَادِهِ خَبِيرًا بَصِيرًا",
+          "arabic_text": "إِنَّ رَبَّكَ يَبْسُطُ الرِّزْقَ لِمَنْ يَشَاءُ وَيَقْدِرُ / إِنَّهُ كَانَ بِعِبَادِهِ خَبِيرًا بَصِيرًا",
+          "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">رَبَّكَ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">بْسُطُ</span> <span class=\"arabic-root\">الرِّزْقَ</span> <span class=\"arabic-root\">لِمَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span> <span class=\"nonroot\">وَيَ</span><span class=\"arabic-root\">قْدِرُ</span> / <span class=\"nonroot\">إِنَّهُ</span> <span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">بِعِبَادِهِ</span> <span class=\"arabic-root\">خَبِيرًا</span> <span class=\"arabic-root\">بَصِيرًا</span>",
+          "hinglish": "Beshak aapka Rabb jiske liye chahta hai rizq kushada kar deta hai aur (jiske liye chahta hai) tang kar deta hai, beshak woh apne bandon se ba-khabar dekhne waala hai",
+          "hinglish_meaning": "Beshak aapka Rabb jiske liye chahta hai rizq kushada kar deta hai aur (jiske liye chahta hai) tang kar deta hai, beshak woh apne bandon se ba-khabar dekhne waala hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Beshak aapka Rabb jiske liye chahta hai rizq kushada kar deta hai aur (jiske liye chahta hai) tang kar deta hai, beshak woh apne bandon se ba-khabar dekhne waala hai",
+            "ur": "Beshak aapka Rabb jiske liye chahta hai rizq kushada kar deta hai aur (jiske liye chahta hai) tang kar deta hai, beshak woh apne bandon se ba-khabar dekhne waala hai",
+            "en": "Beshak aapka Rabb jiske liye chahta hai rizq kushada kar deta hai aur (jiske liye chahta hai) tang kar deta hai, beshak woh apne bandon se ba-khabar dekhne waala hai",
+            "hi": "Beshak aapka Rabb jiske liye chahta hai rizq kushada kar deta hai aur (jiske liye chahta hai) tang kar deta hai, beshak woh apne bandon se ba-khabar dekhne waala hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s21",
+          "sentence_number": 21,
+          "arabic": "وَاللَّهُ يُضَاعِفُ لِمَنْ يَشَاءُ / وَاللَّهُ وَاسِعٌ عَلِيمٌ",
+          "arabic_text": "وَاللَّهُ يُضَاعِفُ لِمَنْ يَشَاءُ / وَاللَّهُ وَاسِعٌ عَلِيمٌ",
+          "arabic_markup": "<span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"nonroot\">يُ</span><span class=\"arabic-root\">ضَاعِفُ</span> <span class=\"arabic-root\">لِمَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span> / <span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"arabic-root\">وَاسِعٌ</span> <span class=\"arabic-root\">عَلِيمٌ</span>",
+          "hinglish": "Aur Allah jiske liye chahta hai dugna (kai guna) kar deta hai, aur Allah wus'at waala, sab kuch jaanne waala hai",
+          "hinglish_meaning": "Aur Allah jiske liye chahta hai dugna (kai guna) kar deta hai, aur Allah wus'at waala, sab kuch jaanne waala hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur Allah jiske liye chahta hai dugna (kai guna) kar deta hai, aur Allah wus'at waala, sab kuch jaanne waala hai",
+            "ur": "Aur Allah jiske liye chahta hai dugna (kai guna) kar deta hai, aur Allah wus'at waala, sab kuch jaanne waala hai",
+            "en": "Aur Allah jiske liye chahta hai dugna (kai guna) kar deta hai, aur Allah wus'at waala, sab kuch jaanne waala hai",
+            "hi": "Aur Allah jiske liye chahta hai dugna (kai guna) kar deta hai, aur Allah wus'at waala, sab kuch jaanne waala hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s22",
+          "sentence_number": 22,
+          "arabic": "فَإِنَّ اللَّهَ لَا يَهْدِي مَنْ يُضِلُّ",
+          "arabic_text": "فَإِنَّ اللَّهَ لَا يَهْدِي مَنْ يُضِلُّ",
+          "arabic_markup": "<span class=\"arabic-root\">فَإِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">هْدِي</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يُ</span><span class=\"arabic-root\">ضِلُّ</span>",
+          "hinglish": "Pas beshak Allah uss shakhs ko hidayat nahi deta jise woh gumrah kar de",
+          "hinglish_meaning": "Pas beshak Allah uss shakhs ko hidayat nahi deta jise woh gumrah kar de",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Pas beshak Allah uss shakhs ko hidayat nahi deta jise woh gumrah kar de",
+            "ur": "Pas beshak Allah uss shakhs ko hidayat nahi deta jise woh gumrah kar de",
+            "en": "Pas beshak Allah uss shakhs ko hidayat nahi deta jise woh gumrah kar de",
+            "hi": "Pas beshak Allah uss shakhs ko hidayat nahi deta jise woh gumrah kar de",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s23",
+          "sentence_number": 23,
+          "arabic": "إِنَّ اللَّهَ لَا يَهْدِي مَنْ هُوَ مُسْرِفٌ كَذَّابٌ",
+          "arabic_text": "إِنَّ اللَّهَ لَا يَهْدِي مَنْ هُوَ مُسْرِفٌ كَذَّابٌ",
+          "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">هْدِي</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">هُوَ</span> <span class=\"arabic-root\">مُسْرِفٌ</span> <span class=\"arabic-root\">كَذَّابٌ</span>",
+          "hinglish": "Beshak Allah uss shakhs ko hidayat nahi deta jo hadd se badhne waala, bada jhoota ho",
+          "hinglish_meaning": "Beshak Allah uss shakhs ko hidayat nahi deta jo hadd se badhne waala, bada jhoota ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Beshak Allah uss shakhs ko hidayat nahi deta jo hadd se badhne waala, bada jhoota ho",
+            "ur": "Beshak Allah uss shakhs ko hidayat nahi deta jo hadd se badhne waala, bada jhoota ho",
+            "en": "Beshak Allah uss shakhs ko hidayat nahi deta jo hadd se badhne waala, bada jhoota ho",
+            "hi": "Beshak Allah uss shakhs ko hidayat nahi deta jo hadd se badhne waala, bada jhoota ho",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s24",
+          "sentence_number": 24,
+          "arabic": "إِنَّ اللَّهَ لَا يَهْدِي مَنْ هُوَ كَاذِبٌ كَفَّارٌ",
+          "arabic_text": "إِنَّ اللَّهَ لَا يَهْدِي مَنْ هُوَ كَاذِبٌ كَفَّارٌ",
+          "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">هْدِي</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">هُوَ</span> <span class=\"arabic-root\">كَاذِبٌ</span> <span class=\"arabic-root\">كَفَّارٌ</span>",
+          "hinglish": "Beshak Allah uss shakhs ko hidayat nahi deta jo jhoota, bada na-shukra (kaafir) ho",
+          "hinglish_meaning": "Beshak Allah uss shakhs ko hidayat nahi deta jo jhoota, bada na-shukra (kaafir) ho",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Beshak Allah uss shakhs ko hidayat nahi deta jo jhoota, bada na-shukra (kaafir) ho",
+            "ur": "Beshak Allah uss shakhs ko hidayat nahi deta jo jhoota, bada na-shukra (kaafir) ho",
+            "en": "Beshak Allah uss shakhs ko hidayat nahi deta jo jhoota, bada na-shukra (kaafir) ho",
+            "hi": "Beshak Allah uss shakhs ko hidayat nahi deta jo jhoota, bada na-shukra (kaafir) ho",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s25",
+          "sentence_number": 25,
+          "arabic": "وَأَنَّ اللَّهَ يَبْعَثُ مَنْ فِي الْقُبُورِ",
+          "arabic_text": "وَأَنَّ اللَّهَ يَبْعَثُ مَنْ فِي الْقُبُورِ",
+          "arabic_markup": "<span class=\"nonroot\">وَأَ</span><span class=\"arabic-root\">نَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">بْعَثُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْقُبُورِ</span>",
+          "hinglish": "Aur beshak Allah un sab ko uthayega jo qabron mein hain",
+          "hinglish_meaning": "Aur beshak Allah un sab ko uthayega jo qabron mein hain",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur beshak Allah un sab ko uthayega jo qabron mein hain",
+            "ur": "Aur beshak Allah un sab ko uthayega jo qabron mein hain",
+            "en": "Aur beshak Allah un sab ko uthayega jo qabron mein hain",
+            "hi": "Aur beshak Allah un sab ko uthayega jo qabron mein hain",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s26",
+          "sentence_number": 26,
+          "arabic": "وَيَتُوبُ اللَّهُ عَلَىٰ مَنْ يَشَاءُ / وَاللَّهُ عَلِيمٌ حَكِيمٌ",
+          "arabic_text": "وَيَتُوبُ اللَّهُ عَلَىٰ مَنْ يَشَاءُ / وَاللَّهُ عَلِيمٌ حَكِيمٌ",
+          "arabic_markup": "<span class=\"nonroot\">وَيَ</span><span class=\"arabic-root\">تُوبُ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"nonroot\">عَلَىٰ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span> / <span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"arabic-root\">عَلِيمٌ</span> <span class=\"arabic-root\">حَكِيمٌ</span>",
+          "hinglish": "Aur Allah jis par chahta hai tauba (rahmat se rujoo') farmata hai, aur Allah jaanne waala hikmat waala hai",
+          "hinglish_meaning": "Aur Allah jis par chahta hai tauba (rahmat se rujoo') farmata hai, aur Allah jaanne waala hikmat waala hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Aur Allah jis par chahta hai tauba (rahmat se rujoo') farmata hai, aur Allah jaanne waala hikmat waala hai",
+            "ur": "Aur Allah jis par chahta hai tauba (rahmat se rujoo') farmata hai, aur Allah jaanne waala hikmat waala hai",
+            "en": "Aur Allah jis par chahta hai tauba (rahmat se rujoo') farmata hai, aur Allah jaanne waala hikmat waala hai",
+            "hi": "Aur Allah jis par chahta hai tauba (rahmat se rujoo') farmata hai, aur Allah jaanne waala hikmat waala hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s27",
+          "sentence_number": 27,
+          "arabic": "يُنَزِّلُ اللَّهُ مِنْ فَضْلِهِ عَلَىٰ مَنْ يَشَاءُ مِنْ عِبَادِهِ",
+          "arabic_text": "يُنَزِّلُ اللَّهُ مِنْ فَضْلِهِ عَلَىٰ مَنْ يَشَاءُ مِنْ عِبَادِهِ",
+          "arabic_markup": "<span class=\"nonroot\">يُ</span><span class=\"arabic-root\">نَزِّلُ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">فَضْلِهِ</span> <span class=\"nonroot\">عَلَىٰ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">عِبَادِهِ</span>",
+          "hinglish": "Allah apne fazl mein se apne bandon mein se jis par chahta hai naazil farmata hai",
+          "hinglish_meaning": "Allah apne fazl mein se apne bandon mein se jis par chahta hai naazil farmata hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Allah apne fazl mein se apne bandon mein se jis par chahta hai naazil farmata hai",
+            "ur": "Allah apne fazl mein se apne bandon mein se jis par chahta hai naazil farmata hai",
+            "en": "Allah apne fazl mein se apne bandon mein se jis par chahta hai naazil farmata hai",
+            "hi": "Allah apne fazl mein se apne bandon mein se jis par chahta hai naazil farmata hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s28",
+          "sentence_number": 28,
+          "arabic": "كَذَٰلِكَ اللَّهُ يَفْعَلُ مَا يَشَاءُ",
+          "arabic_text": "كَذَٰلِكَ اللَّهُ يَفْعَلُ مَا يَشَاءُ",
+          "arabic_markup": "<span class=\"arabic-root\">كَذَٰلِكَ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">فْعَلُ</span> <span class=\"nonroot\">مَا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+          "hinglish": "Isi tarah Allah jo chahta hai karta hai",
+          "hinglish_meaning": "Isi tarah Allah jo chahta hai karta hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Isi tarah Allah jo chahta hai karta hai",
+            "ur": "Isi tarah Allah jo chahta hai karta hai",
+            "en": "Isi tarah Allah jo chahta hai karta hai",
+            "hi": "Isi tarah Allah jo chahta hai karta hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        },
+        {
+          "id": "s6l4_v_s29",
+          "sentence_number": 29,
+          "arabic": "إِنَّ اللَّهَ يَحْكُمُ مَا يُرِيدُ",
+          "arabic_text": "إِنَّ اللَّهَ يَحْكُمُ مَا يُرِيدُ",
+          "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">حْكُمُ</span> <span class=\"nonroot\">مَا</span> <span class=\"nonroot\">يُ</span><span class=\"arabic-root\">رِيدُ</span>",
+          "hinglish": "Beshak Allah jo chahta hai faisla farmata hai",
+          "hinglish_meaning": "Beshak Allah jo chahta hai faisla farmata hai",
+          "is_filled": true,
+          "translations": {
+            "hinglish": "Beshak Allah jo chahta hai faisla farmata hai",
+            "ur": "Beshak Allah jo chahta hai faisla farmata hai",
+            "en": "Beshak Allah jo chahta hai faisla farmata hai",
+            "hi": "Beshak Allah jo chahta hai faisla farmata hai",
+            "bn": null,
+            "ko": null,
+            "zh": null,
+            "es": null
+          }
+        }
+      ],
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s6l4_v_s1",
+            "sentence_number": 1,
+            "arabic": "وَاللَّهُ يَهْدِي مَنْ يَشَاءُ إِلَى صِرَاطٍ مُسْتَقِيمٍ",
+            "arabic_text": "وَاللَّهُ يَهْدِي مَنْ يَشَاءُ إِلَى صِرَاطٍ مُسْتَقِيمٍ",
+            "arabic_markup": "<span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"arabic-root\">يَهْدِي</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span> <span class=\"arabic-root\">إِلَى</span> <span class=\"arabic-root\">صِرَاطٍ</span> <span class=\"arabic-root\">مُسْتَقِيمٍ</span>",
+            "hinglish": "Aur Allah hidayat deta hai jise chahata hai seedhe raste ki taraf",
+            "hinglish_meaning": "Aur Allah hidayat deta hai jise chahata hai seedhe raste ki taraf",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah hidayat deta hai jise chahata hai seedhe raste ki taraf",
+              "en": "And Allah guides whom He wills to a straight path",
+              "ur": "اور اللہ ہدایت دیتا ہے جسے چاہتا ہے سیدھے راستے کی طرف",
+              "hi": "और अल्लाह हिदायत देता है जिसे चाहता है सीधे रास्ते की तरफ़",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s2",
+            "sentence_number": 2,
+            "arabic": "ذَلِكَ هُدَى اللَّهِ يَهْدِي بِهِ مَنْ يَشَاءُ مِنْ عِبَادِهِ",
+            "arabic_text": "ذَلِكَ هُدَى اللَّهِ يَهْدِي بِهِ مَنْ يَشَاءُ مِنْ عِبَادِهِ",
+            "arabic_markup": "<span class=\"arabic-root\">ذَلِكَ</span> <span class=\"arabic-root\">هُدَى</span> <span class=\"arabic-root\">اللَّهِ</span> <span class=\"arabic-root\">يَهْدِي</span> <span class=\"arabic-root\">بِهِ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span> <span class=\"arabic-root\">مِنْ</span> <span class=\"arabic-root\">عِبَادِهِ</span>",
+            "hinglish": "Yeh Allah ki hidayat hai woh us se apne bandon mein se jise chahata hai hidayat deta hai",
+            "hinglish_meaning": "Yeh Allah ki hidayat hai woh us se apne bandon mein se jise chahata hai hidayat deta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yeh Allah ki hidayat hai woh us se apne bandon mein se jise chahata hai hidayat deta hai",
+              "en": "That is the guidance of Allah with which He guides whomever He wills of His servants",
+              "ur": "یہ اللہ کی ہدایت ہے وہ اس سے اپنے بندوں میں سے جسے چاہتا ہے ہدایت دیتا ہے",
+              "hi": "यह अल्लाह की हिदायत है वो उससे अपने बंदों में से जिसे चाहता है हिदायत देता है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s3",
+            "sentence_number": 3,
+            "arabic": "فَإِنَّ اللَّهَ يُضِلُّ مَنْ يَشَاءُ وَيَهْدِي مَنْ يَشَاءُ",
+            "arabic_text": "فَإِنَّ اللَّهَ يُضِلُّ مَنْ يَشَاءُ وَيَهْدِي مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"arabic-root\">فَإِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"arabic-root\">يُضِلُّ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span> <span class=\"arabic-root\">وَيَهْدِي</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+            "hinglish": "Toh beshak Allah gumrah karta hai jise chahata hai aur hidayat deta hai jise chahata hai",
+            "hinglish_meaning": "Toh beshak Allah gumrah karta hai jise chahata hai aur hidayat deta hai jise chahata hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh beshak Allah gumrah karta hai jise chahata hai aur hidayat deta hai jise chahata hai",
+              "en": "For indeed, Allah leaves astray whom He wills and guides whom He wills",
+              "ur": "تو بیشک اللہ گمراہ کرتا ہے جسے چاہتا ہے اور ہدایت دیتا ہے جسے چاہتا ہے",
+              "hi": "तो बेशक अल्लाह गुमराह करता है जिसे चाहता है और हिदायत देता है जिसे चाहता है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s4",
+            "sentence_number": 4,
+            "arabic": "يُعَذِّبُ مَنْ يَشَاءُ وَيَرْحَمُ مَنْ يَشَاءُ",
+            "arabic_text": "يُعَذِّبُ مَنْ يَشَاءُ وَيَرْحَمُ مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"arabic-root\">يُعَذِّبُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span> <span class=\"arabic-root\">وَيَرْحَمُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+            "hinglish": "Woh 'azaab deta hai jise chahata hai aur rehmat karta hai jise chahata hai",
+            "hinglish_meaning": "Woh 'azaab deta hai jise chahata hai aur rehmat karta hai jise chahata hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh 'azaab deta hai jise chahata hai aur rehmat karta hai jise chahata hai",
+              "en": "He punishes whom He wills and has mercy upon whom He wills",
+              "ur": "وہ عذاب دیتا ہے جسے چاہتا ہے اور رحم کرتا ہے جسے چاہتا ہے",
+              "hi": "वह अज़ाब देता है जिसे चाहता है और रहम करता है जिसे चाहता है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s5",
+            "sentence_number": 5,
+            "arabic": "وَاللَّهُ يُؤْتِي مُلْكَهُ مَنْ يَشَاءُ",
+            "arabic_text": "وَاللَّهُ يُؤْتِي مُلْكَهُ مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"arabic-root\">يُؤْتِي</span> <span class=\"arabic-root\">مُلْكَهُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+            "hinglish": "Aur Allah apni hukumat jise chahata hai ata karta hai",
+            "hinglish_meaning": "Aur Allah apni hukumat jise chahata hai ata karta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah apni hukumat jise chahata hai ata karta hai",
+              "en": "And Allah gives His sovereignty to whom He wills",
+              "ur": "اور اللہ اپنی حکومت جسے چاہتا ہے عطا کرتا ہے",
+              "hi": "और अल्लाह अपनी हुकूमत जिसे चाहता है अता करता है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s6",
+            "sentence_number": 6,
+            "arabic": "اللَّهُ لَطِيفٌ بِعِبَادِهِ يَرْزُقُ مَنْ يَشَاءُ",
+            "arabic_text": "اللَّهُ لَطِيفٌ بِعِبَادِهِ يَرْزُقُ مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">لَطِيفٌ</span> <span class=\"arabic-root\">بِعِبَادِهِ</span> <span class=\"arabic-root\">يَرْزُقُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+            "hinglish": "Allah apne bandon par meharban hai woh rizq deta hai jise chahata hai",
+            "hinglish_meaning": "Allah apne bandon par meharban hai woh rizq deta hai jise chahata hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah apne bandon par meharban hai woh rizq deta hai jise chahata hai",
+              "en": "Allah is subtle with His servants; He gives provision to whom He wills",
+              "ur": "اللہ اپنے بندوں پر مہربان ہے وہ رزق دیتا ہے جسے چاہتا ہے",
+              "hi": "अल्लाह अपने बंदों पर मेहरबान है वो रिज़्क़ देता है जिसे चाहता है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s7",
+            "sentence_number": 7,
+            "arabic": "وَاللَّهُ يُؤَيِّدُ بِنَصْرِهِ مَنْ يَشَاءُ",
+            "arabic_text": "وَاللَّهُ يُؤَيِّدُ بِنَصْرِهِ مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"arabic-root\">يُؤَيِّدُ</span> <span class=\"arabic-root\">بِنَصْرِهِ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+            "hinglish": "Aur Allah apni madad se jise chahata hai taaqat deta hai",
+            "hinglish_meaning": "Aur Allah apni madad se jise chahata hai taaqat deta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah apni madad se jise chahata hai taaqat deta hai",
+              "en": "And Allah supports with His victory whom He wills",
+              "ur": "اور اللہ اپنی مدد سے جسے چاہتا ہے تقویت دیتا ہے",
+              "hi": "और अल्लाह अपनी मदद से जिसे चाहता है ताक़त देता है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s8",
+            "sentence_number": 8,
+            "arabic": "وَيَجْعَلُ مَنْ يَشَاءُ عَقِيمًا",
+            "arabic_text": "وَيَجْعَلُ مَنْ يَشَاءُ عَقِيمًا",
+            "arabic_markup": "<span class=\"arabic-root\">وَيَجْعَلُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span> <span class=\"arabic-root\">عَقِيمًا</span>",
+            "hinglish": "Aur woh jise chahata hai be-aulaad kar deta hai",
+            "hinglish_meaning": "Aur woh jise chahata hai be-aulaad kar deta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur woh jise chahata hai be-aulaad kar deta hai",
+              "en": "And He renders whom He wills barren",
+              "ur": "اور وہ جسے چاہتا ہے بے اولاد کر دیتا ہے",
+              "hi": "और वह जिसे चाहता है बेऔलाद कर देता है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s9",
+            "sentence_number": 9,
+            "arabic": "وَاللَّهُ يَخْتَصُّ بِرَحْمَتِهِ مَنْ يَشَاءُ",
+            "arabic_text": "وَاللَّهُ يَخْتَصُّ بِرَحْمَتِهِ مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"arabic-root\">يَخْتَصُّ</span> <span class=\"arabic-root\">بِرَحْمَتِهِ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+            "hinglish": "Aur Allah apni rehmat ke saath jise chahata hai khas kar leta hai",
+            "hinglish_meaning": "Aur Allah apni rehmat ke saath jise chahata hai khas kar leta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah apni rehmat ke saath jise chahata hai khas kar leta hai",
+              "en": "And Allah selects for His mercy whom He wills",
+              "ur": "اور اللہ اپنی رحمت کے ساتھ جسے چاہتا ہے خاص کر لیتا ہے",
+              "hi": "और अल्लाह अपनी रहमत के साथ जिसे चाहता है ख़ास कर लेता है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s10",
+            "sentence_number": 10,
+            "arabic": "فَيَغْفِرُ لِمَنْ يَشَاءُ وَيُعَذِّبُ مَنْ يَشَاءُ",
+            "arabic_text": "فَيَغْفِرُ لِمَنْ يَشَاءُ وَيُعَذِّبُ مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"arabic-root\">فَيَغْفِرُ</span> <span class=\"arabic-root\">لِمَنْ</span> <span class=\"nonroot\">يَشَاءُ</span> <span class=\"arabic-root\">وَيُعَذِّبُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+            "hinglish": "Toh woh maaf kar deta hai jiske liye chahata hai aur 'azaab deta hai jise chahata hai",
+            "hinglish_meaning": "Toh woh maaf kar deta hai jiske liye chahata hai aur 'azaab deta hai jise chahata hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Toh woh maaf kar deta hai jiske liye chahata hai aur 'azaab deta hai jise chahata hai",
+              "en": "Then He forgives whom He wills and punishes whom He wills",
+              "ur": "تو وہ معاف کر دیتا ہے جس کے لیے چاہتا ہے اور عذاب دیتا ہے جسے چاہتا ہے",
+              "hi": "तो वह माफ कर देता है जिसके लिए चाहता है और अज़ाब देता है जिसे चाहता है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s11",
+            "sentence_number": 11,
+            "arabic": "إِنَّ رَبَّكَ يَبْسُطُ الرِّزْقَ لِمَنْ يَشَاءُ وَيَقْدِرُ",
+            "arabic_text": "إِنَّ رَبَّكَ يَبْسُطُ الرِّزْقَ لِمَنْ يَشَاءُ وَيَقْدِرُ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span> <span class=\"arabic-root\">رَبَّكَ</span> <span class=\"arabic-root\">يَبْسُطُ</span> <span class=\"arabic-root\">الرِّزْقَ</span> <span class=\"arabic-root\">لِمَنْ</span> <span class=\"nonroot\">يَشَاءُ</span> <span class=\"arabic-root\">وَيَقْدِرُ</span>",
+            "hinglish": "Beshak aap ka Rabb kushada karta hai rizq jiske liye chahata hai aur tang karta hai",
+            "hinglish_meaning": "Beshak aap ka Rabb kushada karta hai rizq jiske liye chahata hai aur tang karta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak aap ka Rabb kushada karta hai rizq jiske liye chahata hai aur tang karta hai",
+              "en": "Indeed, your Lord extends provision for whom He wills and restricts it",
+              "ur": "بیشک آپ کا رب کشادہ کرتا ہے رزق جس کے لیے چاہتا ہے اور تنگ کرتا ہے",
+              "hi": "बेशक आपका रब कुशादा करता है रिज़्क़ जिसके लिए चाहता है और तंग करता है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s12",
+            "sentence_number": 12,
+            "arabic": "وَاللَّهُ يُضَاعِفُ لِمَنْ يَشَاءُ",
+            "arabic_text": "وَاللَّهُ يُضَاعِفُ لِمَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"arabic-root\">يُضَاعِفُ</span> <span class=\"arabic-root\">لِمَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+            "hinglish": "Aur Allah dugna karta hai jiske liye chahata hai",
+            "hinglish_meaning": "Aur Allah dugna karta hai jiske liye chahata hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah dugna karta hai jiske liye chahata hai",
+              "en": "And Allah multiplies for whom He wills",
+              "ur": "اور اللہ دگنا کرتا ہے جس کے لیے چاہتا ہے",
+              "hi": "और अल्लाह दुगना करता है जिसके लिए चाहता है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s13",
+            "sentence_number": 13,
+            "arabic": "عَلَى مَنْ يَشَاءُ",
+            "arabic_text": "عَلَى مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"arabic-root\">عَلَى</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+            "hinglish": "jis par woh chahata hai",
+            "hinglish_meaning": "jis par woh chahata hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "jis par woh chahata hai",
+              "en": "upon whom He wills",
+              "ur": "جس پر وہ چاہتا ہے",
+              "hi": "जिस पर वह चाहता है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s14",
+            "sentence_number": 14,
+            "arabic": "ثُمَّ يَتُوبُ اللَّهُ مِنْ بَعْدِ ذَلِكَ عَلَى مَنْ يَشَاءُ",
+            "arabic_text": "ثُمَّ يَتُوبُ اللَّهُ مِنْ بَعْدِ ذَلِكَ عَلَى مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"arabic-root\">ثُمَّ</span> <span class=\"arabic-root\">يَتُوبُ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">مِنْ</span> <span class=\"arabic-root\">بَعْدِ</span> <span class=\"arabic-root\">ذَلِكَ</span> <span class=\"arabic-root\">عَلَى</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+            "hinglish": "Phir Allah tauba qbool karta hai uske baad jis par chahata hai",
+            "hinglish_meaning": "Phir Allah tauba qbool karta hai uske baad jis par chahata hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Phir Allah tauba qbool karta hai uske baad jis par chahata hai",
+              "en": "Then Allah will accept repentance after that from whom He wills",
+              "ur": "پھر اللہ توبہ قبول کرتا ہے اس کے بعد جس پر چاہتا ہے",
+              "hi": "फिर अल्लाह तौबा क़बूल करता है उसके बाद जिस पर चाहता है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s15",
+            "sentence_number": 15,
+            "arabic": "وَلَكِنَّ اللَّهَ يُسَلِّطُ رُسُلَهُ عَلَى مَنْ يَشَاءُ",
+            "arabic_text": "وَلَكِنَّ اللَّهَ يُسَلِّطُ رُسُلَهُ عَلَى مَنْ يَشَاءُ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَكِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"arabic-root\">يُسَلِّطُ</span> <span class=\"arabic-root\">رُسُلَهُ</span> <span class=\"arabic-root\">عَلَى</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَشَاءُ</span>",
+            "hinglish": "Lekin Allah apne rasoolon ko jis par chahata hai masallat kar deta hai",
+            "hinglish_meaning": "Lekin Allah apne rasoolon ko jis par chahata hai masallat kar deta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Lekin Allah apne rasoolon ko jis par chahata hai masallat kar deta hai",
+              "en": "But Allah gives His messengers power over whom He wills",
+              "ur": "لیکن اللہ اپنے رسولوں کو جس پر چاہتا ہے مسلط کر دیتا ہے",
+              "hi": "लेकिन अल्लाह अपने रसूलों को जिस पर चाहता है मुसल्लत कर देता है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s16",
+            "sentence_number": 16,
+            "arabic": "إِنَّ اللَّهَ يَفْعَلُ مَا يَشَاءُ",
+            "arabic_text": "إِنَّ اللَّهَ يَفْعَلُ مَا يَشَاءُ",
+            "arabic_markup": "<span class=\"arabic-root\">إِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"arabic-root\">يَفْعَلُ</span> <span class=\"arabic-root\">مَا</span> <span class=\"nonroot\">يَشَاءُ</span>",
+            "hinglish": "Beshak Allah karta hai jo woh chahata hai",
+            "hinglish_meaning": "Beshak Allah karta hai jo woh chahata hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak Allah karta hai jo woh chahata hai",
+              "en": "Indeed, Allah does whatever He wills",
+              "ur": "بیشک اللہ کرتا ہے جو وہ چاہتا ہے",
+              "hi": "बेशक अल्लाह करता है जो वह चाहता है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s17",
+            "sentence_number": 17,
+            "arabic": "كَذَلِكَ اللَّهُ يَخْلُقُ مَا يَشَاءُ",
+            "arabic_text": "كَذَلِكَ اللَّهُ يَخْلُقُ مَا يَشَاءُ",
+            "arabic_markup": "<span class=\"arabic-root\">كَذَلِكَ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">يَخْلُقُ</span> <span class=\"arabic-root\">مَا</span> <span class=\"nonroot\">يَشَاءُ</span>",
+            "hinglish": "Issi tarah Allah paida karta hai jo woh chahata hai",
+            "hinglish_meaning": "Issi tarah Allah paida karta hai jo woh chahata hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Issi tarah Allah paida karta hai jo woh chahata hai",
+              "en": "Thus Allah creates what He wills",
+              "ur": "اسی طرح اللہ پیدا کرتا ہے جو وہ چاہتا ہے",
+              "hi": "इसी तरह अल्लाह पैदा करता है जो वह चाहता है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s18",
+            "sentence_number": 18,
+            "arabic": "يَمْحُو اللَّهُ مَا يَشَاءُ وَيُثْبِتُ",
+            "arabic_text": "يَمْحُو اللَّهُ مَا يَشَاءُ وَيُثْبِتُ",
+            "arabic_markup": "<span class=\"arabic-root\">يَمْحُو</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"arabic-root\">مَا</span> <span class=\"nonroot\">يَشَاءُ</span> <span class=\"arabic-root\">وَيُثْبِتُ</span>",
+            "hinglish": "Allah mitaata hai jo chahata hai aur baaqi rakhta hai",
+            "hinglish_meaning": "Allah mitaata hai jo chahata hai aur baaqi rakhta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah mitaata hai jo chahata hai aur baaqi rakhta hai",
+              "en": "Allah eliminates what He wills or confirms",
+              "ur": "اللہ مٹاتا ہے جو چاہتا ہے اور باقی رکھتا ہے",
+              "hi": "अल्लाह मिटाता है जो चाहता है और बाक़ी रखता है",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s19",
+            "sentence_number": 19,
+            "arabic": "فَيَغْفِرُ لِمَنْ يَشَاءُ وَيُعَذِّبُ مَنْ يَشَاءُ / وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+            "arabic_text": "فَيَغْفِرُ لِمَنْ يَشَاءُ وَيُعَذِّبُ مَنْ يَشَاءُ / وَاللَّهُ عَلَىٰ كُلِّ شَيْءٍ قَدِيرٌ",
+            "arabic_markup": "<span class=\"nonroot\">فَيَ</span><span class=\"arabic-root\">غْفِرُ</span> <span class=\"arabic-root\">لِمَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span> <span class=\"arabic-root\">وَيُعَذِّبُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span> / <span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"nonroot\">عَلَىٰ</span> <span class=\"arabic-root\">كُلِّ</span> <span class=\"arabic-root\">شَيْءٍ</span> <span class=\"arabic-root\">قَدِيرٌ</span>",
+            "hinglish": "Pas woh jise chahta hai bakhsh deta hai aur jise chahta hai azaab deta hai, aur Allah har cheez par qaadir hai",
+            "hinglish_meaning": "Pas woh jise chahta hai bakhsh deta hai aur jise chahta hai azaab deta hai, aur Allah har cheez par qaadir hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Pas woh jise chahta hai bakhsh deta hai aur jise chahta hai azaab deta hai, aur Allah har cheez par qaadir hai",
+              "ur": "Pas woh jise chahta hai bakhsh deta hai aur jise chahta hai azaab deta hai, aur Allah har cheez par qaadir hai",
+              "en": "Pas woh jise chahta hai bakhsh deta hai aur jise chahta hai azaab deta hai, aur Allah har cheez par qaadir hai",
+              "hi": "Pas woh jise chahta hai bakhsh deta hai aur jise chahta hai azaab deta hai, aur Allah har cheez par qaadir hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s20",
+            "sentence_number": 20,
+            "arabic": "إِنَّ رَبَّكَ يَبْسُطُ الرِّزْقَ لِمَنْ يَشَاءُ وَيَقْدِرُ / إِنَّهُ كَانَ بِعِبَادِهِ خَبِيرًا بَصِيرًا",
+            "arabic_text": "إِنَّ رَبَّكَ يَبْسُطُ الرِّزْقَ لِمَنْ يَشَاءُ وَيَقْدِرُ / إِنَّهُ كَانَ بِعِبَادِهِ خَبِيرًا بَصِيرًا",
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">رَبَّكَ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">بْسُطُ</span> <span class=\"arabic-root\">الرِّزْقَ</span> <span class=\"arabic-root\">لِمَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span> <span class=\"nonroot\">وَيَ</span><span class=\"arabic-root\">قْدِرُ</span> / <span class=\"nonroot\">إِنَّهُ</span> <span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">بِعِبَادِهِ</span> <span class=\"arabic-root\">خَبِيرًا</span> <span class=\"arabic-root\">بَصِيرًا</span>",
+            "hinglish": "Beshak aapka Rabb jiske liye chahta hai rizq kushada kar deta hai aur (jiske liye chahta hai) tang kar deta hai, beshak woh apne bandon se ba-khabar dekhne waala hai",
+            "hinglish_meaning": "Beshak aapka Rabb jiske liye chahta hai rizq kushada kar deta hai aur (jiske liye chahta hai) tang kar deta hai, beshak woh apne bandon se ba-khabar dekhne waala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak aapka Rabb jiske liye chahta hai rizq kushada kar deta hai aur (jiske liye chahta hai) tang kar deta hai, beshak woh apne bandon se ba-khabar dekhne waala hai",
+              "ur": "Beshak aapka Rabb jiske liye chahta hai rizq kushada kar deta hai aur (jiske liye chahta hai) tang kar deta hai, beshak woh apne bandon se ba-khabar dekhne waala hai",
+              "en": "Beshak aapka Rabb jiske liye chahta hai rizq kushada kar deta hai aur (jiske liye chahta hai) tang kar deta hai, beshak woh apne bandon se ba-khabar dekhne waala hai",
+              "hi": "Beshak aapka Rabb jiske liye chahta hai rizq kushada kar deta hai aur (jiske liye chahta hai) tang kar deta hai, beshak woh apne bandon se ba-khabar dekhne waala hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s21",
+            "sentence_number": 21,
+            "arabic": "وَاللَّهُ يُضَاعِفُ لِمَنْ يَشَاءُ / وَاللَّهُ وَاسِعٌ عَلِيمٌ",
+            "arabic_text": "وَاللَّهُ يُضَاعِفُ لِمَنْ يَشَاءُ / وَاللَّهُ وَاسِعٌ عَلِيمٌ",
+            "arabic_markup": "<span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"nonroot\">يُ</span><span class=\"arabic-root\">ضَاعِفُ</span> <span class=\"arabic-root\">لِمَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span> / <span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"arabic-root\">وَاسِعٌ</span> <span class=\"arabic-root\">عَلِيمٌ</span>",
+            "hinglish": "Aur Allah jiske liye chahta hai dugna (kai guna) kar deta hai, aur Allah wus'at waala, sab kuch jaanne waala hai",
+            "hinglish_meaning": "Aur Allah jiske liye chahta hai dugna (kai guna) kar deta hai, aur Allah wus'at waala, sab kuch jaanne waala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah jiske liye chahta hai dugna (kai guna) kar deta hai, aur Allah wus'at waala, sab kuch jaanne waala hai",
+              "ur": "Aur Allah jiske liye chahta hai dugna (kai guna) kar deta hai, aur Allah wus'at waala, sab kuch jaanne waala hai",
+              "en": "Aur Allah jiske liye chahta hai dugna (kai guna) kar deta hai, aur Allah wus'at waala, sab kuch jaanne waala hai",
+              "hi": "Aur Allah jiske liye chahta hai dugna (kai guna) kar deta hai, aur Allah wus'at waala, sab kuch jaanne waala hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s22",
+            "sentence_number": 22,
+            "arabic": "فَإِنَّ اللَّهَ لَا يَهْدِي مَنْ يُضِلُّ",
+            "arabic_text": "فَإِنَّ اللَّهَ لَا يَهْدِي مَنْ يُضِلُّ",
+            "arabic_markup": "<span class=\"arabic-root\">فَإِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">هْدِي</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يُ</span><span class=\"arabic-root\">ضِلُّ</span>",
+            "hinglish": "Pas beshak Allah uss shakhs ko hidayat nahi deta jise woh gumrah kar de",
+            "hinglish_meaning": "Pas beshak Allah uss shakhs ko hidayat nahi deta jise woh gumrah kar de",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Pas beshak Allah uss shakhs ko hidayat nahi deta jise woh gumrah kar de",
+              "ur": "Pas beshak Allah uss shakhs ko hidayat nahi deta jise woh gumrah kar de",
+              "en": "Pas beshak Allah uss shakhs ko hidayat nahi deta jise woh gumrah kar de",
+              "hi": "Pas beshak Allah uss shakhs ko hidayat nahi deta jise woh gumrah kar de",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s23",
+            "sentence_number": 23,
+            "arabic": "إِنَّ اللَّهَ لَا يَهْدِي مَنْ هُوَ مُسْرِفٌ كَذَّابٌ",
+            "arabic_text": "إِنَّ اللَّهَ لَا يَهْدِي مَنْ هُوَ مُسْرِفٌ كَذَّابٌ",
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">هْدِي</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">هُوَ</span> <span class=\"arabic-root\">مُسْرِفٌ</span> <span class=\"arabic-root\">كَذَّابٌ</span>",
+            "hinglish": "Beshak Allah uss shakhs ko hidayat nahi deta jo hadd se badhne waala, bada jhoota ho",
+            "hinglish_meaning": "Beshak Allah uss shakhs ko hidayat nahi deta jo hadd se badhne waala, bada jhoota ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak Allah uss shakhs ko hidayat nahi deta jo hadd se badhne waala, bada jhoota ho",
+              "ur": "Beshak Allah uss shakhs ko hidayat nahi deta jo hadd se badhne waala, bada jhoota ho",
+              "en": "Beshak Allah uss shakhs ko hidayat nahi deta jo hadd se badhne waala, bada jhoota ho",
+              "hi": "Beshak Allah uss shakhs ko hidayat nahi deta jo hadd se badhne waala, bada jhoota ho",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s24",
+            "sentence_number": 24,
+            "arabic": "إِنَّ اللَّهَ لَا يَهْدِي مَنْ هُوَ كَاذِبٌ كَفَّارٌ",
+            "arabic_text": "إِنَّ اللَّهَ لَا يَهْدِي مَنْ هُوَ كَاذِبٌ كَفَّارٌ",
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"nonroot\">لَا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">هْدِي</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">هُوَ</span> <span class=\"arabic-root\">كَاذِبٌ</span> <span class=\"arabic-root\">كَفَّارٌ</span>",
+            "hinglish": "Beshak Allah uss shakhs ko hidayat nahi deta jo jhoota, bada na-shukra (kaafir) ho",
+            "hinglish_meaning": "Beshak Allah uss shakhs ko hidayat nahi deta jo jhoota, bada na-shukra (kaafir) ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak Allah uss shakhs ko hidayat nahi deta jo jhoota, bada na-shukra (kaafir) ho",
+              "ur": "Beshak Allah uss shakhs ko hidayat nahi deta jo jhoota, bada na-shukra (kaafir) ho",
+              "en": "Beshak Allah uss shakhs ko hidayat nahi deta jo jhoota, bada na-shukra (kaafir) ho",
+              "hi": "Beshak Allah uss shakhs ko hidayat nahi deta jo jhoota, bada na-shukra (kaafir) ho",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s25",
+            "sentence_number": 25,
+            "arabic": "وَأَنَّ اللَّهَ يَبْعَثُ مَنْ فِي الْقُبُورِ",
+            "arabic_text": "وَأَنَّ اللَّهَ يَبْعَثُ مَنْ فِي الْقُبُورِ",
+            "arabic_markup": "<span class=\"nonroot\">وَأَ</span><span class=\"arabic-root\">نَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">بْعَثُ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">فِي</span> <span class=\"arabic-root\">الْقُبُورِ</span>",
+            "hinglish": "Aur beshak Allah un sab ko uthayega jo qabron mein hain",
+            "hinglish_meaning": "Aur beshak Allah un sab ko uthayega jo qabron mein hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur beshak Allah un sab ko uthayega jo qabron mein hain",
+              "ur": "Aur beshak Allah un sab ko uthayega jo qabron mein hain",
+              "en": "Aur beshak Allah un sab ko uthayega jo qabron mein hain",
+              "hi": "Aur beshak Allah un sab ko uthayega jo qabron mein hain",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s26",
+            "sentence_number": 26,
+            "arabic": "وَيَتُوبُ اللَّهُ عَلَىٰ مَنْ يَشَاءُ / وَاللَّهُ عَلِيمٌ حَكِيمٌ",
+            "arabic_text": "وَيَتُوبُ اللَّهُ عَلَىٰ مَنْ يَشَاءُ / وَاللَّهُ عَلِيمٌ حَكِيمٌ",
+            "arabic_markup": "<span class=\"nonroot\">وَيَ</span><span class=\"arabic-root\">تُوبُ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"nonroot\">عَلَىٰ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span> / <span class=\"arabic-root\">وَاللَّهُ</span> <span class=\"arabic-root\">عَلِيمٌ</span> <span class=\"arabic-root\">حَكِيمٌ</span>",
+            "hinglish": "Aur Allah jis par chahta hai tauba (rahmat se rujoo') farmata hai, aur Allah jaanne waala hikmat waala hai",
+            "hinglish_meaning": "Aur Allah jis par chahta hai tauba (rahmat se rujoo') farmata hai, aur Allah jaanne waala hikmat waala hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur Allah jis par chahta hai tauba (rahmat se rujoo') farmata hai, aur Allah jaanne waala hikmat waala hai",
+              "ur": "Aur Allah jis par chahta hai tauba (rahmat se rujoo') farmata hai, aur Allah jaanne waala hikmat waala hai",
+              "en": "Aur Allah jis par chahta hai tauba (rahmat se rujoo') farmata hai, aur Allah jaanne waala hikmat waala hai",
+              "hi": "Aur Allah jis par chahta hai tauba (rahmat se rujoo') farmata hai, aur Allah jaanne waala hikmat waala hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s27",
+            "sentence_number": 27,
+            "arabic": "يُنَزِّلُ اللَّهُ مِنْ فَضْلِهِ عَلَىٰ مَنْ يَشَاءُ مِنْ عِبَادِهِ",
+            "arabic_text": "يُنَزِّلُ اللَّهُ مِنْ فَضْلِهِ عَلَىٰ مَنْ يَشَاءُ مِنْ عِبَادِهِ",
+            "arabic_markup": "<span class=\"nonroot\">يُ</span><span class=\"arabic-root\">نَزِّلُ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">فَضْلِهِ</span> <span class=\"nonroot\">عَلَىٰ</span> <span class=\"nonroot\">مَنْ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">عِبَادِهِ</span>",
+            "hinglish": "Allah apne fazl mein se apne bandon mein se jis par chahta hai naazil farmata hai",
+            "hinglish_meaning": "Allah apne fazl mein se apne bandon mein se jis par chahta hai naazil farmata hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah apne fazl mein se apne bandon mein se jis par chahta hai naazil farmata hai",
+              "ur": "Allah apne fazl mein se apne bandon mein se jis par chahta hai naazil farmata hai",
+              "en": "Allah apne fazl mein se apne bandon mein se jis par chahta hai naazil farmata hai",
+              "hi": "Allah apne fazl mein se apne bandon mein se jis par chahta hai naazil farmata hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s28",
+            "sentence_number": 28,
+            "arabic": "كَذَٰلِكَ اللَّهُ يَفْعَلُ مَا يَشَاءُ",
+            "arabic_text": "كَذَٰلِكَ اللَّهُ يَفْعَلُ مَا يَشَاءُ",
+            "arabic_markup": "<span class=\"arabic-root\">كَذَٰلِكَ</span> <span class=\"arabic-root\">اللَّهُ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">فْعَلُ</span> <span class=\"nonroot\">مَا</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">شَاءُ</span>",
+            "hinglish": "Isi tarah Allah jo chahta hai karta hai",
+            "hinglish_meaning": "Isi tarah Allah jo chahta hai karta hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Isi tarah Allah jo chahta hai karta hai",
+              "ur": "Isi tarah Allah jo chahta hai karta hai",
+              "en": "Isi tarah Allah jo chahta hai karta hai",
+              "hi": "Isi tarah Allah jo chahta hai karta hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s6l4_v_s29",
+            "sentence_number": 29,
+            "arabic": "إِنَّ اللَّهَ يَحْكُمُ مَا يُرِيدُ",
+            "arabic_text": "إِنَّ اللَّهَ يَحْكُمُ مَا يُرِيدُ",
+            "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">اللَّهَ</span> <span class=\"nonroot\">يَ</span><span class=\"arabic-root\">حْكُمُ</span> <span class=\"nonroot\">مَا</span> <span class=\"nonroot\">يُ</span><span class=\"arabic-root\">رِيدُ</span>",
+            "hinglish": "Beshak Allah jo chahta hai faisla farmata hai",
+            "hinglish_meaning": "Beshak Allah jo chahta hai faisla farmata hai",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Beshak Allah jo chahta hai faisla farmata hai",
+              "ur": "Beshak Allah jo chahta hai faisla farmata hai",
+              "en": "Beshak Allah jo chahta hai faisla farmata hai",
+              "hi": "Beshak Allah jo chahta hai faisla farmata hai",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "book_page": 20,
+  "page_start": 20
+}

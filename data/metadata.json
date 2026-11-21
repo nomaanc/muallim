@@ -271,95 +271,235 @@
       "lessons": [
         {
           "number": 1,
-          "title": "Jama Muzakkar Salim: Al-Muslimoona (ـُونَ)"
+          "title": "Jama Muzakkar Salim: Al-Muslimoona (ـُونَ)",
+          "arabic_Focus": "الْمُسْلِمُ ← الْمُسْلِمُونَ",
+          "page_numbers": [
+            42,
+            43
+          ]
         },
         {
           "number": 2,
-          "title": "Jama Muzakkar Salim: Al-Muslimeena (ـِينَ)"
+          "title": "Jama Muzakkar Salim: Al-Muslimeena (ـِينَ)",
+          "arabic_Focus": "الْمُسْلِمُونَ ← الْمُسْلِمِينَ",
+          "page_numbers": [
+            44,
+            45,
+            46,
+            47,
+            48
+          ]
         },
         {
           "number": 3,
-          "title": "Murakkab-e-Izaafi Jama: Ajrul-Muslimeena"
+          "title": "Murakkab-e-Izaafi Jama: Ajrul-Muslimeena",
+          "arabic_Focus": "الْمُسْلِمُونَ ← أَجْرُ الْمُسْلِمِينَ",
+          "page_numbers": [
+            49,
+            50,
+            51
+          ]
         },
         {
           "number": 4,
-          "title": "Jama Mukassar (Broken Plurals): Ulamaa'u, Hukkaamun"
+          "title": "Jama Mukassar (Broken Plurals): Ulamaa'u, Hukkaamun",
+          "arabic_Focus": "عَالِمٌ ← عُلَمَاءُ ، حَاكِمٌ ← حُكَّامٌ",
+          "page_numbers": [
+            52,
+            53
+          ]
         },
         {
           "number": 5,
-          "title": "Zameer-e-Munfasil Jama: Hum Muslimoona (Woh musalman hain)"
+          "title": "Zameer-e-Munfasil Jama: Hum Muslimoona (Woh musalman hain)",
+          "arabic_Focus": "مُسْلِمُونَ ← هُمْ مُسْلِمُونَ",
+          "page_numbers": [
+            54,
+            55
+          ]
         },
         {
           "number": 6,
-          "title": "Kitaabun : Kitaabuhum (Unki Kitaab)"
+          "title": "Kitaabun : Kitaabuhum (Unki Kitaab)",
+          "arabic_Focus": "كِتَابٌ ← كِتَابُهُمْ",
+          "page_numbers": [
+            56,
+            57,
+            58
+          ]
         },
         {
           "number": 7,
-          "title": "Kitaabuhum : Fii Kitaabihim (Unki Kitaab Mein)"
+          "title": "Kitaabuhum : Fii Kitaabihim (Unki Kitaab Mein)",
+          "arabic_Focus": "كِتَابُهُمْ ← فِي كِتَابِهِمْ",
+          "page_numbers": [
+            59,
+            60,
+            61
+          ]
         },
         {
           "number": 8,
-          "title": "Huroof ke saath Zameer Jama: Lahum, Minhum, Innahum"
+          "title": "Huroof ke saath Zameer Jama: Lahum, Minhum, Innahum",
+          "arabic_Focus": "لِـ ← لَهُمْ ، مِنْ ← مِنْهُمْ ، إِنَّ ← إِنَّهُمْ",
+          "page_numbers": [
+            62,
+            63,
+            64,
+            65,
+            66
+          ]
         },
         {
           "number": 9,
-          "title": "Muslimoona : Antum Muslimoona (Tum Log Musalman Ho)"
+          "title": "Muslimoona : Antum Muslimoona (Tum Log Musalman Ho)",
+          "arabic_Focus": "مُسْلِمُونَ ← أَنْتُمْ مُسْلِمُونَ",
+          "page_numbers": [
+            67,
+            68
+          ]
         },
         {
           "number": 10,
-          "title": "Kitaabun : Kitaabukum (Tumhari Kitaab)"
+          "title": "Kitaabun : Kitaabukum (Tumhari Kitaab)",
+          "arabic_Focus": "كِتَابٌ ← كِتَابُكُمْ",
+          "page_numbers": [
+            69,
+            70,
+            71
+          ]
         },
         {
           "number": 11,
-          "title": "Kitaabukum : Fii Kitaabikum (Tumhari Kitaab Mein)"
+          "title": "Kitaabukum : Fii Kitaabikum (Tumhari Kitaab Mein)",
+          "arabic_Focus": "كِتَابُكُمْ ← فِي كِتَابِكُمْ",
+          "page_numbers": [
+            72,
+            73
+          ]
         },
         {
           "number": 12,
-          "title": "Huroof ke saath Zameer: Lakum, Minkum, Innakum"
+          "title": "Huroof ke saath Zameer: Lakum, Minkum, Innakum",
+          "arabic_Focus": "لِـ ← لَكُمْ ، مِنْ ← مِنْكُمْ ، إِنَّ ← إِنَّكُمْ",
+          "page_numbers": [
+            74,
+            75,
+            76,
+            77,
+            78,
+            79
+          ]
         },
         {
           "number": 13,
-          "title": "Muslimoona : Nahnu Muslimoona (Hum Musalman Hain)"
+          "title": "Muslimoona : Nahnu Muslimoona (Hum Musalman Hain)",
+          "arabic_Focus": "مُسْلِمُونَ ← نَحْنُ مُسْلِمُونَ",
+          "page_numbers": [
+            80
+          ]
         },
         {
           "number": 14,
-          "title": "Kitaabun : Kitaabunaa (Hamari Kitaab)"
+          "title": "Kitaabun : Kitaabunaa (Hamari Kitaab)",
+          "arabic_Focus": "كِتَابٌ ← كِتَابُنَا",
+          "page_numbers": [
+            81,
+            82
+          ]
         },
         {
           "number": 15,
-          "title": "Kitaabunaa : Fii Kitaabinaa (Hamari Kitaab Mein)"
+          "title": "Kitaabunaa → Fii Kitaabinaa (Hamaari Kitaab → Hamaari Kitaab Mein)",
+          "arabic_Focus": "كِتَابُنَا ← فِي كِتَابِنَا",
+          "page_numbers": [
+            83,
+            84
+          ]
         },
         {
           "number": 16,
-          "title": "Huroof ke saath Zameer: Lanaa, Minnaa, Innaa"
+          "title": "Li → Lanaa, 'Alaa → 'Alaynaa, Inna → Innaa (Huroof ke saath Zameer نَا)",
+          "arabic_Focus": "لِـ ← لَنَا ، مِنْ ← مِنَّا ، إِنَّ ← إِنَّنَا / إِنَّا",
+          "page_numbers": [
+            85,
+            86,
+            87
+          ]
         },
         {
           "number": 17,
-          "title": "Muslimoona : Ulaa'ika Muslimoona (Woh Log Musalman Hain)"
+          "title": "Muslimoona : Ulaa'ika Muslimoona (Woh Log Musalman Hain)",
+          "arabic_Focus": "مُسْلِمُونَ ← أُولَٰئِكَ مُسْلِمُونَ",
+          "page_numbers": [
+            88,
+            89,
+            90
+          ]
         },
         {
           "number": 18,
-          "title": "Muslimoona : Haa'ulaa'i Muslimoona (Yeh Log Musalman Hain)"
+          "title": "Muslimoona : Haa'ulaa'i Muslimoona (Yeh Log Musalman Hain)",
+          "arabic_Focus": "مُسْلِمُونَ ← هَٰؤُلَاءِ مُسْلِمُونَ",
+          "page_numbers": [
+            91
+          ]
         },
         {
           "number": 19,
-          "title": "Mashhoor Qur'ani Usloob: Hasr-o-Ta'keed (Maa/In... Illaa, Innamaa)"
+          "title": "Mashhoor Qur'ani Usloob: Hasr-o-Ta'keed (Maa/In... Illaa, Innamaa)",
+          "arabic_Focus": "مَا هَٰذَا إِلَّا سِحْرٌ ، إِنْ هَٰذَا إِلَّا سِحْرٌ ، إِنَّمَا أَنْتَ نَذِيرٌ",
+          "page_numbers": [
+            92,
+            93,
+            94
+          ]
         },
         {
           "number": 20,
-          "title": "Qur'ani Jumlon ke Shuru mein Aane Wale Aham Alfaaz (Laysa, Maa, Hal)"
+          "title": "Qur'ani Jumlon ke Shuru mein Aane Wale Aham Alfaaz (Laysa, Maa, Hal, Am, Annaa, Bal, Ka'anna)",
+          "arabic_Focus": "لَيْسَ ، مَا ، أَ / هَلْ ، أَمْ ، أَنَّىٰ ، بَلْ ، كَأَنَّ",
+          "page_numbers": [
+            95,
+            96,
+            97,
+            98
+          ]
         },
         {
           "number": 21,
-          "title": "Chand Mashhoor Qur'ani Muhaware (Alaa, Al-Yawma, Yawma'izin, Subhaana)"
+          "title": "Chand Mashhoor Qur'ani Muhaware (15 Key Qur'anic Idioms — Pages 99–106)",
+          "arabic_Focus": "أَلَا ، أَلَيْسَ ، الْيَوْمَ ، يَوْمَئِذٍ ، سُبْحَانَ ، وَمَا بَيْنَهُمَا ، قُلْ ، إِذًا ، بِئْسَ ، نِعْمَ ، كَلَّا ، مَا أَدْرَاكَ مَا ، حَسْبُ ، أَعْلَمُ بِـ ، الْمَصِير",
+          "page_numbers": [
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106
+          ]
         },
         {
           "number": 22,
-          "title": "Ism-e-Tafzeel aur Tamyeez: Deenun se Deenan (Ashaddu Quwwatan)"
+          "title": "Ism-e-Tafzeel aur Tamyeez: Deenun se Deenan (Ashaddu Quwwatan)",
+          "arabic_Focus": "دِينٌ ← دِينًا",
+          "page_numbers": [
+            107,
+            108,
+            109
+          ]
         },
         {
           "number": 23,
-          "title": "Nafi-e-Aam aur 'Min' Taakeed: Min Waliyyin wa laa Naseerin"
+          "title": "Nafi-e-Aam aur 'Min' Taakeed: Khaaliqin se Min Khaaliqin",
+          "arabic_Focus": "خَالِقٌ ← مِنْ خَالِقٍ",
+          "page_numbers": [
+            110,
+            111,
+            112
+          ]
         }
       ]
     },
@@ -370,87 +510,129 @@
       "lessons": [
         {
           "number": 1,
-          "title": "Aham Qur'ani Af'al — Fe'l Muzare (Ya'budu, Yasjudu)"
+          "title": "Aham Qur'ani Af'aal — Fe'l Muzare Wahid Ghaib (Ya'budu, Yasjudu)",
+          "arabic_Focus": "يَعْبُدُ ، يَسْجُدُ ، يُسَافِرُ",
+          "page_numbers": "2-3"
         },
         {
           "number": 2,
-          "title": "Fe'l Muzare ke saath Aane Wale Aham Alfaaz (Laa, Allazee, Maa)"
+          "title": "Qur'ani Af'aal ke saath Aane Waale Aham Alfaaz (Laa, Allazee, Maa)",
+          "arabic_Focus": "يُرْسِلُ ← لَا يُرْسِلُ ، الَّذِي يُرْسِلُ ، مَا يُرْسِلُ",
+          "page_numbers": "4-6"
         },
         {
           "number": 3,
-          "title": "Fe'l Muzare ke Baad Faa'il aur Maf'ool (Yaghfirullaahu)"
+          "title": "Fe'l Muzare ke ba'd Faa'il aur Maf'ool (Yaghfirullaahu-z-Zunooba)",
+          "arabic_Focus": "يَغْفِرُ ← يَغْفِرُ اللَّهُ ← يَغْفِرُ اللَّهُ الذُّنُوبَ",
+          "page_numbers": "7-19"
         },
         {
           "number": 4,
-          "title": "Mashhoor Qur'ani Muhawarah: Man Yashaa'u (Jise Woh Chahata Hai)"
+          "title": "Mashhoor Qur'ani Muhawarah: Man Yashaa'u & Maa Yashaa'u",
+          "arabic_Focus": "يَشَاءُ ← مَنْ يَشَاءُ ، لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ",
+          "page_numbers": "20-22"
         },
         {
           "number": 5,
-          "title": "Fe'l Muzare ke saath Maf'ool ki Zameer (Ya'murukum)"
+          "title": "Fe'l Muzare ke saath Maf'ool ki Zameer (Ya'murukum, Ya'muruhum)",
+          "arabic_Focus": "يَأْمُرُ ← يَأْمُرُكُمْ ، يَأْمُرُهُمْ ، يَأْمُرُهُ",
+          "page_numbers": "23-25"
         },
         {
           "number": 6,
-          "title": "Muzare Jama Muzakkar Ghaib: Ya'budoona (Woh Ibadat Karte Hain)"
+          "title": "Fe'l Muzare Jama Muzakkar Ghaib: Ya'budoona",
+          "arabic_Focus": "يَعْبُدُ ← يَعْبُدُونَ",
+          "page_numbers": "26-33"
         },
         {
           "number": 7,
-          "title": "Seegha 'Ya'budoona' ke sath Mashhoor Muhaware (Aksaran-Naasi laa Ya'lamoon)"
+          "title": "Seegha Ya'budoona ke saath Mashhoor Qur'ani Muhaware",
+          "arabic_Focus": "أَكْثَرُ النَّاسِ لَا يَعْلَمُونَ / لِقَوْمٍ يَعْلَمُونَ / لَعَلَّهُمْ / أَفَلَا",
+          "page_numbers": "34-36"
         },
         {
           "number": 8,
-          "title": "Ism-e-Mawsool 'Allazeena' Fe'l Muzare ke saath (Allazeena Yu'minoon)"
+          "title": "Ism-e-Mawsool 'Allazeena' Fe'l Muzare ke saath (Allazeena Yu'minoona)",
+          "arabic_Focus": "يُؤْمِنُونَ ← الَّذِينَ يُؤْمِنُونَ",
+          "page_numbers": "37-39"
         },
         {
           "number": 9,
-          "title": "Muzare Wahid Muzakkar Mukhatab: Ta'budu (Tu Ibadat Karta Hai)"
+          "title": "Fe'l Muzare Wahid Muzakkar Mukhaatab: Ta'budu & Taraa",
+          "arabic_Focus": "يَعْبُدُ ← تَعْبُدُ (تَرَىٰ ، وَلَوْ تَرَىٰ ، لَا تَجِدُ)",
+          "page_numbers": "40-42"
         },
         {
           "number": 10,
-          "title": "Muzare Jama Muzakkar Mukhatab: Ta'budoona (Bimaa Ta'maloon)"
+          "title": "Fe'l Muzare Jama Muzakkar Mukhaatab: Ta'budoona & Bimaa Ta'maloona",
+          "arabic_Focus": "تَعْبُدُ ← تَعْبُدُونَ / بِمَا تَعْمَلُونَ",
+          "page_numbers": "43-48"
         },
         {
           "number": 11,
-          "title": "Seegha 'Ta'budoona' ke sath Mashhoor Muhaware (Wa-antum Ta'lamoon)"
+          "title": "Seegha Ta'budoona ke saath Mashhoor Qur'ani Muhaware",
+          "arabic_Focus": "وَأَنْتُمْ تَعْلَمُونَ / لَعَلَّكُمْ / أَفَلَا / كُنْتُمْ / مَا لَكُمْ لَا",
+          "page_numbers": "49-52"
         },
         {
           "number": 12,
-          "title": "Muzare Wahid Mutakallim: A'budu (Main Ibadat Karta Hoon)"
+          "title": "Fe'l Muzare Wahid Mutakallim: A'budu, Uqsimu & Ad'ookum",
+          "arabic_Focus": "يَعْبُدُ ← أَعْبُدُ (لَا أُقْسِمُ ، أَدْعُوكُمْ)",
+          "page_numbers": "53-55"
         },
         {
           "number": 13,
-          "title": "Muzare Jama Mutakallim: Na'budu (Hum Ibadat Karte Hain)"
+          "title": "Fe'l Muzare Jama Mutakallim: Na'budu, Kazaalika Najzee & Nahshuruhum",
+          "arabic_Focus": "يَعْبُدُ ← نَعْبُدُ (كَذَٰلِكَ نَجْزِي ، يَوْمَ نَدْعُو ، إِنَّا نَعْلَمُ)",
+          "page_numbers": "56-60"
         },
         {
           "number": 14,
-          "title": "Fe'l Nahi Jama Muzakkar: Laa Taqtuloo (Tum Qatal Mat Karo)"
+          "title": "Fe'l Nahi Jama Muzakkar: Laa Taqtuloo",
+          "arabic_Focus": "تَقْتُلُونَ ← لَا تَقْتُلُوا",
+          "page_numbers": "61-63"
         },
         {
           "number": 15,
-          "title": "Fe'l Nahi Wahid aur Maf'ool ki Zama'ir: Tansuroonahu, Tansuroonanaa"
+          "title": "Fe'l Nahi Wahid Muzakkar: Laa Tazlim, Laa Tad'u & Laa Takhaf",
+          "arabic_Focus": "تَظْلِمُ ← لَا تَظْلِمْ (لَا تَدْعُ ، لَا تَخَفْ ، لَا تَقُلْ)",
+          "page_numbers": "64-65"
         },
         {
           "number": 16,
-          "title": "Man Shartiyyah aur Lan Naasibah: Lan Tanaaloo (Hargiz Nahi Paoge)"
+          "title": "Man Shartiyyah (Jazm) aur Lan Naasibah: Man Yashkur & Lan Yaj'ala",
+          "arabic_Focus": "يَشْكُرُ ← مَنْ يَشْكُرْ / يَجْعَلُ ← لَنْ يَجْعَلَ",
+          "page_numbers": "66-67"
         },
         {
           "number": 17,
-          "title": "Harf-e-Nasibah 'An': An Yatooba (Ke Woh Tauba Kare)"
+          "title": "Harf-e-Nasb 'An': An Yatooba, 'Asaa An & Maa Kaana Lahu An",
+          "arabic_Focus": "يَتُوبُ ← أَنْ يَتُوبَ (عَسَىٰ أَنْ يَتُوبَ)",
+          "page_numbers": "68-70"
         },
         {
           "number": 18,
-          "title": "Laam-ut-Ta'leel 'Li': Li-yaghfira (Taake Woh Bakhsh De)"
+          "title": "Laam-ut-Ta'leel 'Li': Li-yaghfira & Li-ya'lamoo",
+          "arabic_Focus": "يَغْفِرُ ← لِيَغْفِرَ (لِيَعْلَمُوا)",
+          "page_numbers": "71-72"
         },
         {
           "number": 19,
-          "title": "Harf-e-Jazm 'Lam': Lam Yaj'al (Usne Nahi Banaya)"
+          "title": "Harf-e-Jazm 'Lam': Lam Yaj'al, Alam Ya'lam & Man Lam Yajid",
+          "arabic_Focus": "يَجْعَلُ ← لَمْ يَجْعَلْ (أَلَمْ يَعْلَمْ؟ ، مَنْ لَمْ يَجِدْ)",
+          "page_numbers": "73-75"
         },
         {
           "number": 20,
-          "title": "Muzare Jama ke saath Maf'ool ki Zameerein: Yas'aloonaka (Poochhte Hain)"
+          "title": "Fe'l Muzare Jama ke saath Maf'ool ki Zameerein: Yas'aloonaka & Takhluqoonahu",
+          "arabic_Focus": "يَسْأَلُونَ ← يَسْأَلُونَكَ ، يَسْأَلُونَكُمْ ، تَخْلُقُونَهُ",
+          "page_numbers": "76-79"
         },
         {
           "number": 21,
-          "title": "Fe'l Ma'roof se Fe'l Majhool: Yurzaqoon (Rizq Diye Jaate Hain)"
+          "title": "Fe'l Ma'roof se Fe'l Majhool: Yurzaqu, Yurzaqoona & Turja'oona",
+          "arabic_Focus": "يَرْزُقُ ← يُرْزَقُ (يُرْزَقُونَ ، تُرْجَعُونَ)",
+          "page_numbers": "80-82"
         }
       ]
     },
@@ -501,5 +683,6 @@
         }
       ]
     }
-  ]
+  ],
+  "totalLessons": 114
 }

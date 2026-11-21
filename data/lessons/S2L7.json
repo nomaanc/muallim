@@ -1,0 +1,2285 @@
+{
+  "lesson_id": 7,
+  "lesson_key": "S2L7",
+  "stage_id": 2,
+  "title": "Harf-e-Jarr 'Bi' (Se / Ke saath / Par): الْكِتَابُ ← بِالْكِتَابِ",
+  "arabic_Focus": "الْكِتَابُ ، الْحَقُّ ← بِالْكِتَابِ ، بِالْحَقِّ",
+  "hinglish_Focus": "Kitaab, Haq → Kitaab ke saath, Haq ke saath",
+  "page_numbers": "64–65",
+  "book_page": 64,
+  "status": "complete",
+  "title_i18n": {
+    "en": "Harf-e-Jarr 'Bi' (Se / Ke saath / Par): الْكِتَابُ ← بِالْكِتَابِ",
+    "ur": "یونٹ 2 سبق 7: الْكِتَابُ ، الْحَقُّ ← بِالْكِتَابِ ، بِالْحَقِّ",
+    "hi": "Harf-e-Jarr 'Bi' (Se / Ke saath / Par): الْكِتَابُ ← بِالْكِتَابِ"
+  },
+  "sections": [
+    {
+      "id": "sec_hero",
+      "type": "hero_header",
+      "data": {
+        "arabic": "الْكِتَابُ ، الْحَقُّ ← بِالْكِتَابِ ، بِالْحَقِّ",
+        "hinglish": "Kitaab, Haq → Kitaab ke saath, Haq ke saath",
+        "arabic_word": "الْكِتَابُ ، الْحَقُّ",
+        "arabic_combined": "الْكِتَابُ ، الْحَقُّ ← بِالْكِتَابِ ، بِالْحَقِّ",
+        "hinglish_word": "Kitaab, Haq",
+        "hinglish_combined": "Kitaab, Haq → Kitaab ke saath, Haq ke saath",
+        "title_en": "Harf-e-Jarr 'Bi' (Se / Ke saath / Par): الْكِتَابُ ← بِالْكِتَابِ",
+        "subtitle": "Unit 2 • Lesson 7 (Book Page 64–65)",
+        "transformations": [
+          {
+            "before_ar": "الْكِتَابُ ، الْحَقُّ",
+            "after_ar": "بِالْكِتَابِ ، بِالْحَقِّ",
+            "before_hi": "Kitaab, Haq",
+            "after_hi": "Kitaab ke saath, Haq ke saath"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_intro_table",
+      "type": "intro_table",
+      "data": {
+        "title": "S2L7 — Harf-e-Jarr 'Bi' (Se / Ke saath / Par): الْكِتَابُ ← بِالْكِتَابِ: Buniyadi Misaalein",
+        "caption": "S2L7 — Harf-e-Jarr 'Bi' (Se / Ke saath / Par): الْكِتَابُ ← بِالْكِتَابِ: Buniyadi Misaalein",
+        "headers": [
+          "Qaa'ida / Halat",
+          "Arabi Misaal",
+          "Hinglish Mafhoom"
+        ],
+        "rows": [
+          [
+            "بِـ + الْـ (Zair ـِ)",
+            "بِالْكِتَابِ / بِالْحَقِّ / بِالْإِيمَانِ / بِالصَّبْرِ",
+            "Kitaab ke saath / Haq ke saath / Imaan ke saath / Sabr ke zariye"
+          ],
+          [
+            "بِـ + Nakirah (Do Zair ـٍ)",
+            "بِسُلْطَانٍ / بِشَيْءٍ / بِغَيْرِ حِسَابٍ",
+            "Kisi daleel ke saath / Kisi cheez ke saath / Be-hisaab"
+          ],
+          [
+            "بِـ (Ke badle mein)",
+            "النَّفْسَ بِالنَّفْسِ وَالْعَيْنَ بِالْعَيْنِ",
+            "Jaan ke badle jaan aur aankh ke badle aankh"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l7_concept",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 7</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Harf-e-Jarr 'Bi' (Se / Ke saath / Par): الْكِتَابُ ← بِالْكِتَابِ (Page 64–65)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، الْحَقُّ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Harf-e-Jarr (بِـ + ـِ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">بِالْكِتَابِ ، بِالْحَقِّ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، الْحَقُّ (Kitaab, Haq) se بِالْكِتَابِ ، بِالْحَقِّ (Kitaab ke saath, Haq ke saath) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 64–65):** **`بِـ`** ka matlab siyaaq ke mutabiq **'se / ke saath / ke zariye / par / ke badle'** hota hai, aur iske baad wale lafz ke neeche **Zair (`ـِ / ـٍ`)** aati hai: `بِالْكِتَابِ`، `بِالصَّبْرِ وَالصَّلَاةِ`، `يُؤْمِنُونَ بِالْغَيْبِ`.",
+        "content": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 7</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Harf-e-Jarr 'Bi' (Se / Ke saath / Par): الْكِتَابُ ← بِالْكِتَابِ (Page 64–65)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، الْحَقُّ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Harf-e-Jarr (بِـ + ـِ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">بِالْكِتَابِ ، بِالْحَقِّ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، الْحَقُّ (Kitaab, Haq) se بِالْكِتَابِ ، بِالْحَقِّ (Kitaab ke saath, Haq ke saath) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 64–65):** **`بِـ`** ka matlab siyaaq ke mutabiq **'se / ke saath / ke zariye / par / ke badle'** hota hai, aur iske baad wale lafz ke neeche **Zair (`ـِ / ـٍ`)** aati hai: `بِالْكِتَابِ`، `بِالصَّبْرِ وَالصَّلَاةِ`، `يُؤْمِنُونَ بِالْغَيْبِ`.",
+        "hinglish_text": "<div class=\"lesson-concept-svg\" style=\"margin:14px 0;padding:12px;border-radius:12px;background:linear-gradient(135deg,#0f172a,#1e293b);border:1px solid #334155;\">\n<svg viewBox=\"0 0 760 190\" width=\"100%\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <linearGradient id=\"u123grad\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0%\" stop-color=\"#0d9488\"/>\n      <stop offset=\"100%\" stop-color=\"#0284c7\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"8\" y=\"8\" width=\"744\" height=\"174\" rx=\"12\" fill=\"#0f172a\" stroke=\"#1e293b\" stroke-width=\"2\"/>\n  <rect x=\"22\" y=\"20\" width=\"150\" height=\"26\" rx=\"13\" fill=\"url(#u123grad)\"/>\n  <text x=\"97\" y=\"37\" fill=\"#ffffff\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">UNIT 2 • LESSON 7</text>\n  <text x=\"188\" y=\"38\" fill=\"#f8fafc\" font-size=\"15\" font-weight=\"700\" font-family=\"sans-serif\">Harf-e-Jarr 'Bi' (Se / Ke saath / Par): الْكِتَابُ ← بِالْكِتَابِ (Page 64–65)</text>\n  <rect x=\"24\" y=\"58\" width=\"220\" height=\"68\" rx=\"10\" fill=\"#1e293b\" stroke=\"#475569\"/>\n  <text x=\"134\" y=\"98\" fill=\"#fbbf24\" font-size=\"24\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">الْكِتَابُ ، الْحَقُّ</text>\n  <circle cx=\"288\" cy=\"92\" r=\"22\" fill=\"#0d9488\"/>\n  <text x=\"288\" y=\"98\" fill=\"#ffffff\" font-size=\"14\" font-weight=\"700\" text-anchor=\"middle\" font-family=\"sans-serif\">Harf-e-Jarr (بِـ + ـِ)</text>\n  <rect x=\"332\" y=\"58\" width=\"402\" height=\"68\" rx=\"10\" fill=\"#0f292a\" stroke=\"#14b8a6\" stroke-width=\"1.5\"/>\n  <text x=\"533\" y=\"98\" fill=\"#34d399\" font-size=\"23\" font-weight=\"700\" text-anchor=\"middle\" direction=\"rtl\" font-family=\"Traditional Arabic,Amiri,serif\">بِالْكِتَابِ ، بِالْحَقِّ</text>\n  <text x=\"26\" y=\"150\" fill=\"#cbd5e1\" font-size=\"12.5\" font-family=\"sans-serif\">• الْكِتَابُ ، الْحَقُّ (Kitaab, Haq) se بِالْكِتَابِ ، بِالْحَقِّ (Kitaab ke saath, Haq ke saath) banta hai.</text>\n  <text x=\"26\" y=\"170\" fill=\"#94a3b8\" font-size=\"12\" font-family=\"sans-serif\">• Huroof-e-Jarr, Inna, Laa, Illaa, Kaana aur Yaa Qur'ani jumlon ki buniyadi chabiyan hain.</text>\n</svg>\n</div>\n**Qaa'ida (Pages 64–65):** **`بِـ`** ka matlab siyaaq ke mutabiq **'se / ke saath / ke zariye / par / ke badle'** hota hai, aur iske baad wale lafz ke neeche **Zair (`ـِ / ـٍ`)** aati hai: `بِالْكِتَابِ`، `بِالصَّبْرِ وَالصَّلَاةِ`، `يُؤْمِنُونَ بِالْغَيْبِ`."
+      }
+    },
+    {
+      "id": "sec_s2l7_r2",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Pehle column ke teeno alfaaz ko column 2 mein shuru mein (بِـ) laga kar dobara likha gaya hai. Aur iss izaafe ke saath har lafz ke aakhir mein zer (kasrah) aane se iska matlab 'ko / ke saath / se / ke liye / mein' (toh/zariye/saath/ke liye/mein) banta hai. • (بِـ) ek khaas Arabi lafz hai jiska tarjuma context (siyaaq-o-sabaaq) ke mutabiq hota hai. Iska matlab 'ko / ke saath / se / ke liye / mein' ho sakta hai. Pehli misaal dekh kar darj zail Qur'ani fiqron ka tarjuma khud kijiye:",
+        "content": "Pehle column ke teeno alfaaz ko column 2 mein shuru mein (بِـ) laga kar dobara likha gaya hai. Aur iss izaafe ke saath har lafz ke aakhir mein zer (kasrah) aane se iska matlab 'ko / ke saath / se / ke liye / mein' (toh/zariye/saath/ke liye/mein) banta hai. • (بِـ) ek khaas Arabi lafz hai jiska tarjuma context (siyaaq-o-sabaaq) ke mutabiq hota hai. Iska matlab 'ko / ke saath / se / ke liye / mein' ho sakta hai. Pehli misaal dekh kar darj zail Qur'ani fiqron ka tarjuma khud kijiye:",
+        "hinglish_text": "Pehle column ke teeno alfaaz ko column 2 mein shuru mein (بِـ) laga kar dobara likha gaya hai. Aur iss izaafe ke saath har lafz ke aakhir mein zer (kasrah) aane se iska matlab 'ko / ke saath / se / ke liye / mein' (toh/zariye/saath/ke liye/mein) banta hai. • (بِـ) ek khaas Arabi lafz hai jiska tarjuma context (siyaaq-o-sabaaq) ke mutabiq hota hai. Iska matlab 'ko / ke saath / se / ke liye / mein' ho sakta hai. Pehli misaal dekh kar darj zail Qur'ani fiqron ka tarjuma khud kijiye:"
+      }
+    },
+    {
+      "id": "sec_s2l7_g3",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l7_g3_w1",
+            "arabic": "بِالْبَاطِلِ",
+            "arabic_text": "بِالْبَاطِلِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْبَاطِلِ</span>",
+            "hinglish": "Baatil ke saath",
+            "hinglish_meaning": "Baatil ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Baatil ke saath",
+              "en": "With falsehood",
+              "ur": "باطل کے ساتھ",
+              "hi": "बातिल के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w2",
+            "arabic": "بِالْإِيمَانِ",
+            "arabic_text": "بِالْإِيمَانِ",
+            "arabic_markup": "<span class=\"arabic-root\">بِالْإِيمَانِ</span>",
+            "hinglish": "Eemaan ke saath",
+            "hinglish_meaning": "Eemaan ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Eemaan ke saath",
+              "en": "With faith",
+              "ur": "ایمان کے ساتھ",
+              "hi": "ईमान के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w3",
+            "arabic": "بِالرَّحْمَنِ",
+            "arabic_text": "بِالرَّحْمَنِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الرَّحْمَنِ</span>",
+            "hinglish": "Rahman ke saath",
+            "hinglish_meaning": "Rahman ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Rahman ke saath",
+              "en": "In the Most Merciful",
+              "ur": "رحمٰن پر / رحمٰن کے ساتھ",
+              "hi": "रहमान पर / रहमान के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w4",
+            "arabic": "بِاللَّهِ",
+            "arabic_text": "بِاللَّهِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">اللَّهِ</span>",
+            "hinglish": "Allah ke saath / se",
+            "hinglish_meaning": "Allah ke saath / se",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah ke saath / se",
+              "en": "In Allah / with Allah",
+              "ur": "اللہ پر / اللہ کے ساتھ",
+              "hi": "अल्लाह पर / अल्लाह के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w5",
+            "arabic": "بِالْحَيَاةِ",
+            "arabic_text": "بِالْحَيَاةِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْحَيَاةِ</span>",
+            "hinglish": "Zindagi ke saath",
+            "hinglish_meaning": "Zindagi ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Zindagi ke saath",
+              "en": "With life",
+              "ur": "زندگی کے ساتھ",
+              "hi": "ज़िंदगी के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w6",
+            "arabic": "بِالْأَمْنِ",
+            "arabic_text": "بِالْأَمْنِ",
+            "arabic_markup": "<span class=\"arabic-root\">بِالْأَمْنِ</span>",
+            "hinglish": "Amn ke saath",
+            "hinglish_meaning": "Amn ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Amn ke saath",
+              "en": "With security / peace",
+              "ur": "امن کے ساتھ",
+              "hi": "अम्न के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w7",
+            "arabic": "بِالذِّكْرِ",
+            "arabic_text": "بِالذِّكْرِ",
+            "arabic_markup": "<span class=\"arabic-root\">بِالذِّكْرِ</span>",
+            "hinglish": "Zikr ke saath",
+            "hinglish_meaning": "Zikr ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Zikr ke saath",
+              "en": "With remembrance",
+              "ur": "ذکر کے ساتھ",
+              "hi": "ज़िक्र के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w8",
+            "arabic": "بِالْآخِرَةِ",
+            "arabic_text": "بِالْآخِرَةِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْآخِرَةِ</span>",
+            "hinglish": "Aakhirat ke saath",
+            "hinglish_meaning": "Aakhirat ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aakhirat ke saath",
+              "en": "In the Hereafter",
+              "ur": "آخرت پر / آخرت کے ساتھ",
+              "hi": "आख़िरत पर / आख़िरत के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w9",
+            "arabic": "بِالْحُكْمَةِ",
+            "arabic_text": "بِالْحُكْمَةِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْحُكْمَةِ</span>",
+            "hinglish": "Hikmat ke saath",
+            "hinglish_meaning": "Hikmat ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Hikmat ke saath",
+              "en": "With wisdom",
+              "ur": "حکمت کے ساتھ",
+              "hi": "हिकमत के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w10",
+            "arabic": "بِالْكُفْرِ",
+            "arabic_text": "بِالْكُفْرِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْكُفْرِ</span>",
+            "hinglish": "Kufr ke saath",
+            "hinglish_meaning": "Kufr ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kufr ke saath",
+              "en": "With disbelief",
+              "ur": "کفر کے ساتھ",
+              "hi": "कुफ़्र के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w11",
+            "arabic": "بِالسَّاعَةِ",
+            "arabic_text": "بِالسَّاعَةِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">السَّاعَةِ</span>",
+            "hinglish": "Qayamat ke saath",
+            "hinglish_meaning": "Qayamat ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Qayamat ke saath",
+              "en": "In the Hour (Resurrection)",
+              "ur": "قیامت پر / قیامت کے ساتھ",
+              "hi": "क़यामत पर / क़यामत के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w12",
+            "arabic": "بِالدِّينِ",
+            "arabic_text": "بِالدِّينِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الدِّينِ</span>",
+            "hinglish": "Deen ke saath",
+            "hinglish_meaning": "Deen ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Deen ke saath",
+              "en": "In the Judgement / religion",
+              "ur": "دین / جزا کے دن پر",
+              "hi": "दीन / बदले के दिन पर",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w13",
+            "arabic": "بِالْقَوْلِ",
+            "arabic_text": "بِالْقَوْلِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْقَوْلِ</span>",
+            "hinglish": "Baat ke saath",
+            "hinglish_meaning": "Baat ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Baat ke saath",
+              "en": "With the speech / word",
+              "ur": "بات / قول کے ساتھ",
+              "hi": "बात / क़ौल के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w14",
+            "arabic": "بِالشَّمْسِ",
+            "arabic_text": "بِالشَّمْسِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الشَّمْسِ</span>",
+            "hinglish": "Suraj ke saath",
+            "hinglish_meaning": "Suraj ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Suraj ke saath",
+              "en": "With the sun",
+              "ur": "سورج کے ساتھ",
+              "hi": "सूरज के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w15",
+            "arabic": "بِالسُّوءِ",
+            "arabic_text": "بِالسُّوءِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">السُّوءِ</span>",
+            "hinglish": "Buraai ke saath",
+            "hinglish_meaning": "Buraai ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Buraai ke saath",
+              "en": "With evil",
+              "ur": "برائی کے ساتھ",
+              "hi": "बुराई के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w16",
+            "arabic": "بِالْحَسَنَةِ",
+            "arabic_text": "بِالْحَسَنَةِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْحَسَنَةِ</span>",
+            "hinglish": "Neki ke saath",
+            "hinglish_meaning": "Neki ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Neki ke saath",
+              "en": "With good / a good deed",
+              "ur": "نیکی کے ساتھ",
+              "hi": "नेकी के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w17",
+            "arabic": "بِالطَّاغُوتِ",
+            "arabic_text": "بِالطَّاغُوتِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الطَّاغُوتِ</span>",
+            "hinglish": "Taghoot ke saath",
+            "hinglish_meaning": "Taghoot ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Taghoot ke saath",
+              "en": "In Taghut (false deities)",
+              "ur": "طاغوت پر / طاغوت کے ساتھ",
+              "hi": "ताग़ूत पर / ताग़ूत के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w18",
+            "arabic": "بِالرُّوحِ",
+            "arabic_text": "بِالرُّوحِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الرُّوحِ</span>",
+            "hinglish": "Rooh ke saath",
+            "hinglish_meaning": "Rooh ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Rooh ke saath",
+              "en": "With the Spirit (Gabriel)",
+              "ur": "روح کے ساتھ",
+              "hi": "रूह के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w19",
+            "arabic": "بِالْمَعْرُوفِ",
+            "arabic_text": "بِالْمَعْرُوفِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْمَعْرُوفِ</span>",
+            "hinglish": "Bhalai ke saath",
+            "hinglish_meaning": "Bhalai ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bhalai ke saath",
+              "en": "With what is right / goodness",
+              "ur": "بھلائی / معروف کے ساتھ",
+              "hi": "भलाई / मारूफ़ के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w20",
+            "arabic": "بِالْفَحْشَاءِ",
+            "arabic_text": "بِالْفَحْشَاءِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْفَحْشَاءِ</span>",
+            "hinglish": "Be-hayai ke saath",
+            "hinglish_meaning": "Be-hayai ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Be-hayai ke saath",
+              "en": "With immorality / indecency",
+              "ur": "بے حیائی کے ساتھ",
+              "hi": "बेहयाई के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w21",
+            "arabic": "بِالشَّرِّ",
+            "arabic_text": "بِالشَّرِّ",
+            "arabic_markup": "<span class=\"arabic-root\">بِالشَّرِّ</span>",
+            "hinglish": "Shar ke saath",
+            "hinglish_meaning": "Shar ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Shar ke saath",
+              "en": "With evil / harm",
+              "ur": "شر (برائی) کے ساتھ",
+              "hi": "शर (बुराई) के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w22",
+            "arabic": "بِالْخَيْرِ",
+            "arabic_text": "بِالْخَيْرِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْخَيْرِ</span>",
+            "hinglish": "Bhalai ke saath",
+            "hinglish_meaning": "Bhalai ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bhalai ke saath",
+              "en": "With good",
+              "ur": "بھلائی / خیر کے ساتھ",
+              "hi": "भलाई / ख़ैर के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w23",
+            "arabic": "بِالْمَغْفِرَةِ",
+            "arabic_text": "بِالْمَغْفِرَةِ",
+            "arabic_markup": "<span class=\"arabic-root\">بِالْمَغْفِرَةِ</span>",
+            "hinglish": "Maghfeerat ke saath",
+            "hinglish_meaning": "Maghfeerat ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Maghfeerat ke saath",
+              "en": "With forgiveness",
+              "ur": "مغفرت کے ساتھ",
+              "hi": "मग़फ़िरत के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w24",
+            "arabic": "بِالْجَنَّةِ",
+            "arabic_text": "بِالْجَنَّةِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْجَنَّةِ</span>",
+            "hinglish": "Jannat ke saath",
+            "hinglish_meaning": "Jannat ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jannat ke saath",
+              "en": "With Paradise",
+              "ur": "جنت کے ساتھ",
+              "hi": "जन्नत के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w25",
+            "arabic": "بِالْقَلَمِ",
+            "arabic_text": "بِالْقَلَمِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْقَلَمِ</span>",
+            "hinglish": "Qalam ke saath",
+            "hinglish_meaning": "Qalam ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Qalam ke saath",
+              "en": "By the pen / with the pen",
+              "ur": "قلم کے ساتھ / قلم سے",
+              "hi": "क़लम के साथ / क़लम से",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w26",
+            "arabic": "بِالْحَجِّ",
+            "arabic_text": "بِالْحَجِّ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْحَجِّ</span>",
+            "hinglish": "Hajj ke saath",
+            "hinglish_meaning": "Hajj ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Hajj ke saath",
+              "en": "With Hajj",
+              "ur": "حج کے ساتھ",
+              "hi": "हज्ज के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w27",
+            "arabic": "بِالْقُرْآنِ",
+            "arabic_text": "بِالْقُرْآنِ",
+            "arabic_markup": "<span class=\"arabic-root\">بِالْقُرْآنِ</span>",
+            "hinglish": "Qur'an ke saath",
+            "hinglish_meaning": "Qur'an ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Qur'an ke saath",
+              "en": "With the Qur'an",
+              "ur": "قرآن کے ساتھ",
+              "hi": "क़ुरआन के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w28",
+            "arabic": "بِالتَّوْرَاةِ",
+            "arabic_text": "بِالتَّوْرَاةِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">التَّوْرَاةِ</span>",
+            "hinglish": "Tawrat ke saath",
+            "hinglish_meaning": "Tawrat ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tawrat ke saath",
+              "en": "With the Torah",
+              "ur": "تورات کے ساتھ",
+              "hi": "तौरात के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w29",
+            "arabic": "بِالْعُمْرَةِ",
+            "arabic_text": "بِالْعُمْرَةِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْعُمْرَةِ</span>",
+            "hinglish": "Umrah ke saath",
+            "hinglish_meaning": "Umrah ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Umrah ke saath",
+              "en": "With Umrah",
+              "ur": "عمرہ کے ساتھ",
+              "hi": "उमराह के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w30",
+            "arabic": "بِالْعَدْلِ",
+            "arabic_text": "بِالْعَدْلِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْعَدْلِ</span>",
+            "hinglish": "Adl ke saath",
+            "hinglish_meaning": "Adl ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Adl ke saath",
+              "en": "With justice",
+              "ur": "عدل (انصاف) کے ساتھ",
+              "hi": "अद्ल (इंसाफ़) के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w31",
+            "arabic": "بِالصَّلَاةِ",
+            "arabic_text": "بِالصَّلَاةِ",
+            "arabic_markup": "<span class=\"arabic-root\">بِالصَّلَاةِ</span>",
+            "hinglish": "Namaz ke saath",
+            "hinglish_meaning": "Namaz ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Namaz ke saath",
+              "en": "With prayer",
+              "ur": "نماز کے ساتھ",
+              "hi": "नमाज़ के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w32",
+            "arabic": "بِالصَّبْرِ",
+            "arabic_text": "بِالصَّبْرِ",
+            "arabic_markup": "<span class=\"arabic-root\">بِالصَّبْرِ</span>",
+            "hinglish": "Sabr ke saath",
+            "hinglish_meaning": "Sabr ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Sabr ke saath",
+              "en": "With patience",
+              "ur": "صبر کے ساتھ",
+              "hi": "सब्र के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w33",
+            "arabic": "بِالنَّاسِ",
+            "arabic_text": "بِالنَّاسِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">النَّاسِ</span>",
+            "hinglish": "Logon ke saath",
+            "hinglish_meaning": "Logon ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Logon ke saath",
+              "en": "With the people",
+              "ur": "لوگوں کے ساتھ",
+              "hi": "लोगों के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w34",
+            "arabic": "بِالْبِرِّ",
+            "arabic_text": "بِالْبِرِّ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْبِرِّ</span>",
+            "hinglish": "Neki ke saath",
+            "hinglish_meaning": "Neki ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Neki ke saath",
+              "en": "With righteousness",
+              "ur": "نیکی کے ساتھ",
+              "hi": "नेकी के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w35",
+            "arabic": "بِالصِّدْقِ",
+            "arabic_text": "بِالصِّدْقِ",
+            "arabic_markup": "<span class=\"arabic-root\">بِالصِّدْقِ</span>",
+            "hinglish": "Sach ke saath",
+            "hinglish_meaning": "Sach ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Sach ke saath",
+              "en": "With truth",
+              "ur": "سچائی کے ساتھ",
+              "hi": "सच्चाई के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w36",
+            "arabic": "بِالتَّقْوَى",
+            "arabic_text": "بِالتَّقْوَى",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">التَّقْوَى</span>",
+            "hinglish": "Taqwa ke saath",
+            "hinglish_meaning": "Taqwa ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Taqwa ke saath",
+              "en": "With piety / Taqwa",
+              "ur": "تقویٰ کے ساتھ",
+              "hi": "तक़वा के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w37",
+            "arabic": "بِالْمُلْكِ",
+            "arabic_text": "بِالْمُلْكِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْمُلْكِ</span>",
+            "hinglish": "Badshahat ke saath",
+            "hinglish_meaning": "Badshahat ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Badshahat ke saath",
+              "en": "With kingship / dominion",
+              "ur": "بادشاہت کے ساتھ",
+              "hi": "बादशाहत के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w38",
+            "arabic": "بِاللَّغْوِ",
+            "arabic_text": "بِاللَّغْوِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">اللَّغْوِ</span>",
+            "hinglish": "Laghw ke saath",
+            "hinglish_meaning": "Laghw ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Laghw ke saath",
+              "en": "In vain talk",
+              "ur": "لغو (فضول بات) کے ساتھ",
+              "hi": "लग़्व (व्यर्थ बात) के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w39",
+            "arabic": "بِالْحَقِّ",
+            "arabic_text": "بِالْحَقِّ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْحَقِّ</span>",
+            "hinglish": "Haq ke saath",
+            "hinglish_meaning": "Haq ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Haq ke saath",
+              "en": "With truth",
+              "ur": "حق کے ساتھ",
+              "hi": "हक़ के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w40",
+            "arabic": "بِالْفَتْحِ",
+            "arabic_text": "بِالْفَتْحِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْفَتْحِ</span>",
+            "hinglish": "Fatah ke saath",
+            "hinglish_meaning": "Fatah ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Fatah ke saath",
+              "en": "With victory",
+              "ur": "فتح کے ساتھ",
+              "hi": "फ़तह के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w41",
+            "arabic": "بِالْغَيْبِ",
+            "arabic_text": "بِالْغَيْبِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْغَيْبِ</span>",
+            "hinglish": "Ghaib par / ke saath",
+            "hinglish_meaning": "Ghaib par / ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ghaib par / ke saath",
+              "en": "In the unseen",
+              "ur": "غیب پر / غیب کے ساتھ",
+              "hi": "ग़ैब पर / ग़ैब के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w42",
+            "arabic": "بِيَحْيَى",
+            "arabic_text": "بِيَحْيَى",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">يَحْيَى</span>",
+            "hinglish": "Yahya (Alaihis Salam) ke saath",
+            "hinglish_meaning": "Yahya (Alaihis Salam) ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Yahya (Alaihis Salam) ke saath",
+              "en": "With John (Yahya, peace be upon him)",
+              "ur": "یحییٰ (علیہ السلام) کے ساتھ",
+              "hi": "यहया (अलैहिस्सलाम) के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w43",
+            "arabic": "بِإِبْرَاهِيمَ",
+            "arabic_text": "بِإِبْرَاهِيمَ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">إِبْرَاهِيمَ</span>",
+            "hinglish": "Ibrahim (Alaihis Salam) ke saath",
+            "hinglish_meaning": "Ibrahim (Alaihis Salam) ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ibrahim (Alaihis Salam) ke saath",
+              "en": "With Abraham (peace be upon him)",
+              "ur": "ابراہیم (علیہ السلام) کے ساتھ",
+              "hi": "इब्राहीम (अलैहिस्सलाम) के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w44",
+            "arabic": "بِالْقِسْطِ",
+            "arabic_text": "بِالْقِسْطِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْقِسْطِ</span>",
+            "hinglish": "Insaaf ke saath",
+            "hinglish_meaning": "Insaaf ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Insaaf ke saath",
+              "en": "With justice / in equity",
+              "ur": "انصاف کے ساتھ",
+              "hi": "इंसाफ़ के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w45",
+            "arabic": "بِالْحَسَنَاتِ",
+            "arabic_text": "بِالْحَسَنَاتِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْحَسَنَاتِ</span>",
+            "hinglish": "Bhalaion ke saath",
+            "hinglish_meaning": "Bhalaion ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bhalaion ke saath",
+              "en": "With good deeds",
+              "ur": "بھلائیوں / نیکیوں کے ساتھ",
+              "hi": "भलाइयों / नेकियों के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w46",
+            "arabic": "بِالزُّبُرِ",
+            "arabic_text": "بِالزُّبُرِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الزُّبُرِ</span>",
+            "hinglish": "Saheefon ke saath",
+            "hinglish_meaning": "Saheefon ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Saheefon ke saath",
+              "en": "With the scriptures",
+              "ur": "صحیفوں کے ساتھ",
+              "hi": "सहीफ़ों के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w47",
+            "arabic": "بِالْبَيِّنَاتِ",
+            "arabic_text": "بِالْبَيِّنَاتِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْبَيِّنَاتِ</span>",
+            "hinglish": "Wazeh nishaniyon ke saath",
+            "hinglish_meaning": "Wazeh nishaniyon ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Wazeh nishaniyon ke saath",
+              "en": "With clear proofs",
+              "ur": "واضح نشانیوں کے ساتھ",
+              "hi": "वाज़ेह निशानियों के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g3_w48",
+            "arabic": "بِالْآيَاتِ",
+            "arabic_text": "بِالْآيَاتِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْآيَاتِ</span>",
+            "hinglish": "Nishaniyon ke saath",
+            "hinglish_meaning": "Nishaniyon ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Nishaniyon ke saath",
+              "en": "With signs / verses",
+              "ur": "نشانیوں / آیات کے ساتھ",
+              "hi": "निशानियों / आयतों के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l7_r4",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Agar (بِـ) ke baad aane wale lafz par (ال) na ho, toh tarjume mein 'koi' (any / ek) ka mafhoom jud jata hai. mein Qur'ani fiqron ko samjhein aur tarjuma kijiye:",
+        "content": "Agar (بِـ) ke baad aane wale lafz par (ال) na ho, toh tarjume mein 'koi' (any / ek) ka mafhoom jud jata hai. mein Qur'ani fiqron ko samjhein aur tarjuma kijiye:",
+        "hinglish_text": "Agar (بِـ) ke baad aane wale lafz par (ال) na ho, toh tarjume mein 'koi' (any / ek) ka mafhoom jud jata hai. mein Qur'ani fiqron ko samjhein aur tarjuma kijiye:"
+      }
+    },
+    {
+      "id": "sec_s2l7_g5",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l7_g5_w1",
+            "arabic": "بِنَهَرٍ",
+            "arabic_text": "بِنَهَرٍ",
+            "arabic_markup": "<span class=\"arabic-root\">بِنَهَرٍ</span>",
+            "hinglish": "Kisi nahar ke saath",
+            "hinglish_meaning": "Kisi nahar ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi nahar ke saath",
+              "en": "With a river",
+              "ur": "کسی نہر کے ساتھ",
+              "hi": "किसी नहर के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g5_w2",
+            "arabic": "بِإِحْسَانٍ",
+            "arabic_text": "بِإِحْسَانٍ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">إِحْسَانٍ</span>",
+            "hinglish": "Kisi ahsaan ke saath",
+            "hinglish_meaning": "Kisi ahsaan ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi ahsaan ke saath",
+              "en": "In righteousness / good conduct",
+              "ur": "کسی اچھے طریقے / احسان کے ساتھ",
+              "hi": "किसी एहसान (अच्छे तरीक़े) के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g5_w3",
+            "arabic": "بِنِعْمَةٍ",
+            "arabic_text": "بِنِعْمَةٍ",
+            "arabic_markup": "<span class=\"arabic-root\">بِنِعْمَةٍ</span>",
+            "hinglish": "Kisi ne'mat ke saath",
+            "hinglish_meaning": "Kisi ne'mat ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi ne'mat ke saath",
+              "en": "With a blessing / favor",
+              "ur": "کسی نعمت کے ساتھ",
+              "hi": "किसी नेअमत के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g5_w4",
+            "arabic": "بِغَضَبٍ",
+            "arabic_text": "بِغَضَبٍ",
+            "arabic_markup": "<span class=\"arabic-root\">بِغَضَبٍ</span>",
+            "hinglish": "Kisi gusse ke saath",
+            "hinglish_meaning": "Kisi gusse ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi gusse ke saath",
+              "en": "With wrath / anger",
+              "ur": "کسی غضب (غصے) کے ساتھ",
+              "hi": "किसी ग़ज़ब (क्रोध) के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g5_w5",
+            "arabic": "بِغُمٍّ",
+            "arabic_text": "بِغُمٍّ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">غُمٍّ</span>",
+            "hinglish": "Kisi gham ke saath",
+            "hinglish_meaning": "Kisi gham ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi gham ke saath",
+              "en": "With sorrow / grief",
+              "ur": "کسی غم کے ساتھ",
+              "hi": "किसी ग़म के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g5_w6",
+            "arabic": "بِكَلِمَةٍ",
+            "arabic_text": "بِكَلِمَةٍ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">كَلِمَةٍ</span>",
+            "hinglish": "Kisi kalime ke saath",
+            "hinglish_meaning": "Kisi kalime ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi kalime ke saath",
+              "en": "With a word",
+              "ur": "کسی کلمے (بات) کے ساتھ",
+              "hi": "किसी कलिमे (बात) के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g5_w7",
+            "arabic": "بِدِينَارٍ",
+            "arabic_text": "بِدِينَارٍ",
+            "arabic_markup": "<span class=\"arabic-root\">بِدِينَارٍ</span>",
+            "hinglish": "Kisi denar ke saath",
+            "hinglish_meaning": "Kisi denar ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi denar ke saath",
+              "en": "With a dinar",
+              "ur": "کسی دینار کے ساتھ",
+              "hi": "किसी दीनार के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g5_w8",
+            "arabic": "بِآيَةٍ",
+            "arabic_text": "بِآيَةٍ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">آيَةٍ</span>",
+            "hinglish": "Kisi nishani ke saath",
+            "hinglish_meaning": "Kisi nishani ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi nishani ke saath",
+              "en": "With a sign / verse",
+              "ur": "کسی نشانی کے ساتھ",
+              "hi": "किसी निशानी के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g5_w9",
+            "arabic": "بِخَيْرٍ",
+            "arabic_text": "بِخَيْرٍ",
+            "arabic_markup": "<span class=\"arabic-root\">بِخَيْرٍ</span>",
+            "hinglish": "Kisi bhalai ke saath",
+            "hinglish_meaning": "Kisi bhalai ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi bhalai ke saath",
+              "en": "With some good",
+              "ur": "کسی بھلائی کے ساتھ",
+              "hi": "किसी भलाई के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g5_w10",
+            "arabic": "بِمَعْرُوفٍ",
+            "arabic_text": "بِمَعْرُوفٍ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">مَعْرُوفٍ</span>",
+            "hinglish": "Kisi bhalai ke saath",
+            "hinglish_meaning": "Kisi bhalai ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi bhalai ke saath",
+              "en": "In an honorable manner",
+              "ur": "کسی بھلائی / معروف طریقے کے ساتھ",
+              "hi": "किसी भलाई / भले तरीक़े के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g5_w11",
+            "arabic": "بِقُوَّةٍ",
+            "arabic_text": "بِقُوَّةٍ",
+            "arabic_markup": "<span class=\"arabic-root\">بِقُوَّةٍ</span>",
+            "hinglish": "Kisi quwwat ke saath",
+            "hinglish_meaning": "Kisi quwwat ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi quwwat ke saath",
+              "en": "With strength / power",
+              "ur": "کسی قوت کے ساتھ",
+              "hi": "किसी क़ुव्वत (ताक़त) के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g5_w12",
+            "arabic": "بِشَيْءٍ",
+            "arabic_text": "بِشَيْءٍ",
+            "arabic_markup": "<span class=\"arabic-root\">بِشَيْءٍ</span>",
+            "hinglish": "Kisi cheez ke saath",
+            "hinglish_meaning": "Kisi cheez ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi cheez ke saath",
+              "en": "With anything / a thing",
+              "ur": "کسی چیز کے ساتھ",
+              "hi": "किसी चीज़ के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l7_r6",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "Agar (بِـ) ke baad do ya zyada alfaaz (وَ) ke zariye jude hon, toh unka matlab milaa kar samjha jata hai. Darj zail Qur'ani fiqron ko khud samjhein aur tarjuma kijiye:",
+        "content": "Agar (بِـ) ke baad do ya zyada alfaaz (وَ) ke zariye jude hon, toh unka matlab milaa kar samjha jata hai. Darj zail Qur'ani fiqron ko khud samjhein aur tarjuma kijiye:",
+        "hinglish_text": "Agar (بِـ) ke baad do ya zyada alfaaz (وَ) ke zariye jude hon, toh unka matlab milaa kar samjha jata hai. Darj zail Qur'ani fiqron ko khud samjhein aur tarjuma kijiye:"
+      }
+    },
+    {
+      "id": "sec_s2l7_g7",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l7_g7_w1",
+            "arabic": "بِالصَّبْرِ وَالصَّلَاةِ",
+            "arabic_text": "بِالصَّبْرِ وَالصَّلَاةِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الصَّبْرِ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الصَّلَاةِ</span>",
+            "hinglish": "Sabr aur namaz ke saath",
+            "hinglish_meaning": "Sabr aur namaz ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Sabr aur namaz ke saath",
+              "en": "Through patience and prayer",
+              "ur": "صبر اور نماز کے ساتھ (کے ذریعے)",
+              "hi": "सब्र और नमाज़ के साथ (के ज़रिए)",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g7_w2",
+            "arabic": "بِالشَّرِّ وَالْخَيْرِ",
+            "arabic_text": "بِالشَّرِّ وَالْخَيْرِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الشَّرِّ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْخَيْرِ</span>",
+            "hinglish": "Shar aur bhalai ke saath",
+            "hinglish_meaning": "Shar aur bhalai ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Shar aur bhalai ke saath",
+              "en": "With bad and good",
+              "ur": "برائی اور بھلائی کے ساتھ",
+              "hi": "बुराई और भलाई के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g7_w3",
+            "arabic": "بِاللَّهِ وَالنَّبِيِّ",
+            "arabic_text": "بِاللَّهِ وَالنَّبِيِّ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">اللَّهِ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">النَّبِيِّ</span>",
+            "hinglish": "Allah aur Nabi ke saath",
+            "hinglish_meaning": "Allah aur Nabi ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Allah aur Nabi ke saath",
+              "en": "In Allah and the Prophet",
+              "ur": "اللہ اور نبی پر / کے ساتھ",
+              "hi": "अल्लाह और नबी पर / के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g7_w4",
+            "arabic": "بِالْفَحْشَاءِ وَالْمُنْكَرِ",
+            "arabic_text": "بِالْفَحْشَاءِ وَالْمُنْكَرِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْفَحْشَاءِ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْمُنْكَرِ</span>",
+            "hinglish": "Be-hayai aur buraai ke saath",
+            "hinglish_meaning": "Be-hayai aur buraai ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Be-hayai aur buraai ke saath",
+              "en": "With immorality and wrongdoing",
+              "ur": "بے حیائی اور برائی کے ساتھ",
+              "hi": "बेहयाई और बुराई के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g7_w5",
+            "arabic": "بِالْعَدْلِ وَالْإِحْسَانِ",
+            "arabic_text": "بِالْعَدْلِ وَالْإِحْسَانِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْعَدْلِ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْإِحْسَانِ</span>",
+            "hinglish": "Adl aur ahsaan ke saath",
+            "hinglish_meaning": "Adl aur ahsaan ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Adl aur ahsaan ke saath",
+              "en": "With justice and good conduct",
+              "ur": "عدل اور احسان کے ساتھ",
+              "hi": "अद्ल और एहसान के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g7_w6",
+            "arabic": "بِالصَّلَاةِ وَالزَّكَاةِ",
+            "arabic_text": "بِالصَّلَاةِ وَالزَّكَاةِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الصَّلَاةِ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الزَّكَاةِ</span>",
+            "hinglish": "Namaz aur zakat ke saath",
+            "hinglish_meaning": "Namaz aur zakat ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Namaz aur zakat ke saath",
+              "en": "With prayer and zakat",
+              "ur": "نماز اور زکوٰۃ کے ساتھ",
+              "hi": "नमाज़ और ज़कात के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g7_w7",
+            "arabic": "بِالْإِثْمِ وَالْعُدْوَانِ",
+            "arabic_text": "بِالْإِثْمِ وَالْعُدْوَانِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْإِثْمِ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْعُدْوَانِ</span>",
+            "hinglish": "Gunah aur ziyaadti ke saath",
+            "hinglish_meaning": "Gunah aur ziyaadti ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Gunah aur ziyaadti ke saath",
+              "en": "In sin and aggression",
+              "ur": "گناہ اور زیادتی کے ساتھ",
+              "hi": "गुनाह और ज़्यादती के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g7_w8",
+            "arabic": "بِاللَّيْلِ وَالنَّهَارِ",
+            "arabic_text": "بِاللَّيْلِ وَالنَّهَارِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">اللَّيْلِ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">النَّهَارِ</span>",
+            "hinglish": "Raat aur din ke saath",
+            "hinglish_meaning": "Raat aur din ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Raat aur din ke saath",
+              "en": "By night and day",
+              "ur": "رات اور دن کے ساتھ",
+              "hi": "रात और दिन के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g7_w9",
+            "arabic": "بِالسُّوءِ وَالْفَحْشَاءِ",
+            "arabic_text": "بِالسُّوءِ وَالْفَحْشَاءِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">السُّوءِ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْفَحْشَاءِ</span>",
+            "hinglish": "Buraai aur be-hayai ke saath",
+            "hinglish_meaning": "Buraai aur be-hayai ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Buraai aur be-hayai ke saath",
+              "en": "With evil and immorality",
+              "ur": "برائی اور بے حیائی کے ساتھ",
+              "hi": "बुराई और बेहयाई के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g7_w10",
+            "arabic": "بِالْبَيِّنَاتِ وَالزُّبُرِ وَالْكِتَابِ",
+            "arabic_text": "بِالْبَيِّنَاتِ وَالزُّبُرِ وَالْكِتَابِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْبَيِّنَاتِ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الزُّبُرِ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْكِتَابِ</span>",
+            "hinglish": "Wazeh nishaniyon, saheefon aur kitaab ke saath",
+            "hinglish_meaning": "Wazeh nishaniyon, saheefon aur kitaab ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Wazeh nishaniyon, saheefon aur kitaab ke saath",
+              "en": "With clear proofs, scriptures, and the Book",
+              "ur": "واضح نشانیوں، صحیفوں اور کتاب کے ساتھ",
+              "hi": "वाज़ेह निशानियों, सहीफ़ों और किताब के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g7_w11",
+            "arabic": "بِالْحَسَنَاتِ وَالسَّيِّئَاتِ",
+            "arabic_text": "بِالْحَسَنَاتِ وَالسَّيِّئَاتِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْحَسَنَاتِ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">السَّيِّئَاتِ</span>",
+            "hinglish": "Bhalaion aur buraion ke saath",
+            "hinglish_meaning": "Bhalaion aur buraion ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Bhalaion aur buraion ke saath",
+              "en": "With good things and bad things",
+              "ur": "بھلائیوں اور برائیوں کے ساتھ",
+              "hi": "भलाइयों और बुराइयों के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g7_w12",
+            "arabic": "بِالْغَدَاةِ وَالْعَشِيِّ",
+            "arabic_text": "بِالْغَدَاةِ وَالْعَشِيِّ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْغَدَاةِ </span><span class=\"nonroot\">وَ</span><span class=\"arabic-root\">الْعَشِيِّ</span>",
+            "hinglish": "Subah aur shaam ke saath",
+            "hinglish_meaning": "Subah aur shaam ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Subah aur shaam ke saath",
+              "en": "In the morning and the evening",
+              "ur": "صبح اور شام",
+              "hi": "सुबह और शाम",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l7_r8",
+      "type": "rule_paragraph",
+      "data": {
+        "text": "• (بِـ) ka istemaal 'badle mein' (ke liye / meke badle mein) ke liye bhi hota hai. Pehli misaal ki roshni mein darj zail Qur'ani fiqron ko samjhein aur tarjuma kijiye:",
+        "content": "• (بِـ) ka istemaal 'badle mein' (ke liye / meke badle mein) ke liye bhi hota hai. Pehli misaal ki roshni mein darj zail Qur'ani fiqron ko samjhein aur tarjuma kijiye:",
+        "hinglish_text": "• (بِـ) ka istemaal 'badle mein' (ke liye / meke badle mein) ke liye bhi hota hai. Pehli misaal ki roshni mein darj zail Qur'ani fiqron ko samjhein aur tarjuma kijiye:"
+      }
+    },
+    {
+      "id": "sec_s2l7_g9",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l7_g9_w1",
+            "arabic": "بِالْأُذُنِ",
+            "arabic_text": "بِالْأُذُنِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْأُذُنِ</span>",
+            "hinglish": "Kaan ke badle",
+            "hinglish_meaning": "Kaan ke badle",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kaan ke badle",
+              "en": "For the ear",
+              "ur": "کان کے بدلے",
+              "hi": "कान के बदले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g9_w2",
+            "arabic": "بِالْأَنْفِ",
+            "arabic_text": "بِالْأَنْفِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْأَنْفِ</span>",
+            "hinglish": "Naak ke badle",
+            "hinglish_meaning": "Naak ke badle",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Naak ke badle",
+              "en": "For the nose",
+              "ur": "ناک کے بدلے",
+              "hi": "नाक के बदले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g9_w3",
+            "arabic": "بِالْعَيْنِ",
+            "arabic_text": "بِالْعَيْنِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْعَيْنِ</span>",
+            "hinglish": "Aankh ke badle",
+            "hinglish_meaning": "Aankh ke badle",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aankh ke badle",
+              "en": "For the eye",
+              "ur": "آنکھ کے بدلے",
+              "hi": "आँख के बदले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g9_w4",
+            "arabic": "بِالنَّفْسِ",
+            "arabic_text": "بِالنَّفْسِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">النَّفْسِ</span>",
+            "hinglish": "Jaan ke badle / jaan se",
+            "hinglish_meaning": "Jaan ke badle / jaan se",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jaan ke badle / jaan se",
+              "en": "For the life",
+              "ur": "جان کے بدلے",
+              "hi": "जान के बदले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g9_w5",
+            "arabic": "بِالْحُرِّ",
+            "arabic_text": "بِالْحُرِّ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْحُرِّ</span>",
+            "hinglish": "Azaad ke badle",
+            "hinglish_meaning": "Azaad ke badle",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Azaad ke badle",
+              "en": "For the free man",
+              "ur": "آزاد کے بدلے",
+              "hi": "आज़ाद के बदले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g9_w6",
+            "arabic": "بِالسِّنِّ",
+            "arabic_text": "بِالسِّنِّ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">السِّنِّ</span>",
+            "hinglish": "Tooth",
+            "hinglish_meaning": "Tooth",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tooth",
+              "en": "For the tooth",
+              "ur": "دانت کے بدلے",
+              "hi": "दांत के बदले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g9_w7",
+            "arabic": "بِالْأُنْثَى",
+            "arabic_text": "بِالْأُنْثَى",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْأُنْثَى</span>",
+            "hinglish": "Aurat ke badle",
+            "hinglish_meaning": "Aurat ke badle",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aurat ke badle",
+              "en": "For the female",
+              "ur": "عورت کے بدلے",
+              "hi": "औरत के बदले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g9_w8",
+            "arabic": "بِالْعَبْدِ",
+            "arabic_text": "بِالْعَبْدِ",
+            "arabic_markup": "<span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الْعَبْدِ</span>",
+            "hinglish": "Gulaam ke badle",
+            "hinglish_meaning": "Gulaam ke badle",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Gulaam ke badle",
+              "en": "For the slave",
+              "ur": "غلام کے بدلے",
+              "hi": "ग़ुलाम के बदले",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l7_lbl10",
+      "type": "section_label",
+      "data": {
+        "text": "Ab aap yeh Qur'ani qanoon khud samajh sakte hain:",
+        "title": "Ab aap yeh Qur'ani qanoon khud samajh sakte hain:",
+        "label": "Ab aap yeh Qur'ani qanoon khud samajh sakte hain:"
+      }
+    },
+    {
+      "id": "sec_s2l7_v11",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s2l7_v11_s1",
+            "sentence_number": 1,
+            "arabic": "النَّفْسَ بِالنَّفْسِ / وَالْعَيْنَ بِالْعَيْنِ / وَالْأَنْفَ بِالْأَنْفِ / وَالْأُذُنَ بِالْأُذُنِ / وَالسِّنَّ بِالسِّنِّ",
+            "arabic_text": "النَّفْسَ بِالنَّفْسِ / وَالْعَيْنَ بِالْعَيْنِ / وَالْأَنْفَ بِالْأَنْفِ / وَالْأُذُنَ بِالْأُذُنِ / وَالسِّنَّ بِالسِّنِّ",
+            "arabic_markup": "<span class=\"arabic-root\">النَّفْسَ</span> <span class=\"nonroot\">بِ</span><span class=\"arabic-root\">النَّفْسِ</span> / <span class=\"nonroot\">وَالْ</span><span class=\"arabic-root\">عَيْنَ</span> <span class=\"arabic-root\">بِالْع</span><span class=\"nonroot\">َيْنِ</span> / <span class=\"nonroot\">وَالْ</span><span class=\"arabic-root\">أَنْفَ</span> <span class=\"nonroot\">بِالْ</span><span class=\"arabic-root\">أَنْفِ</span> / <span class=\"nonroot\">وَالْ</span><span class=\"arabic-root\">أُذُنَ</span> <span class=\"nonroot\">بِالْ</span><span class=\"arabic-root\">أُذُنِ</span> / <span class=\"arabic-root\">وَالسِّنَّ</span> <span class=\"nonroot\">بِ</span><span class=\"arabic-root\">السِّنِّ</span>",
+            "hinglish": "Jaan ke badle jaan / aur aankh ke badle aankh / aur naak ke badle naak / aur kaan ke badle kaan / aur daant ke badle daant",
+            "hinglish_meaning": "Jaan ke badle jaan / aur aankh ke badle aankh / aur naak ke badle naak / aur kaan ke badle kaan / aur daant ke badle daant",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Jaan ke badle jaan / aur aankh ke badle aankh / aur naak ke badle naak / aur kaan ke badle kaan / aur daant ke badle daant",
+              "ur": "Jaan ke badle jaan / aur aankh ke badle aankh / aur naak ke badle naak / aur kaan ke badle kaan / aur daant ke badle daant",
+              "en": "Jaan ke badle jaan / aur aankh ke badle aankh / aur naak ke badle naak / aur kaan ke badle kaan / aur daant ke badle daant",
+              "hi": "Jaan ke badle jaan / aur aankh ke badle aankh / aur naak ke badle naak / aur kaan ke badle kaan / aur daant ke badle daant",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_v11_s2",
+            "sentence_number": 2,
+            "arabic": "الْحُرُّ بِالْحُرِّ / وَالْعَبْدُ بِالْعَبْدِ / وَالْأُنْثَى بِالْأُنْثَى",
+            "arabic_text": "الْحُرُّ بِالْحُرِّ / وَالْعَبْدُ بِالْعَبْدِ / وَالْأُنْثَى بِالْأُنْثَى",
+            "arabic_markup": "<span class=\"nonroot\">الْ</span><span class=\"arabic-root\">حُرُّ</span> <span class=\"nonroot\">بِالْ</span><span class=\"arabic-root\">حُرِّ</span> / <span class=\"nonroot\">وَالْ</span><span class=\"arabic-root\">عَبْدُ</span> <span class=\"nonroot\">بِالْ</span><span class=\"arabic-root\">عَبْدِ</span> / <span class=\"nonroot\">وَالْ</span><span class=\"arabic-root\">أُنْثَى</span> <span class=\"nonroot\">بِالْ</span><span class=\"arabic-root\">أُنْثَى</span>",
+            "hinglish": "Azaad ke badle azaad / aur gulaam ke badle gulaam / aur aurat ke badle aurat",
+            "hinglish_meaning": "Azaad ke badle azaad / aur gulaam ke badle gulaam / aur aurat ke badle aurat",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Azaad ke badle azaad / aur gulaam ke badle gulaam / aur aurat ke badle aurat",
+              "ur": "Azaad ke badle azaad / aur gulaam ke badle gulaam / aur aurat ke badle aurat",
+              "en": "Azaad ke badle azaad / aur gulaam ke badle gulaam / aur aurat ke badle aurat",
+              "hi": "Azaad ke badle azaad / aur gulaam ke badle gulaam / aur aurat ke badle aurat",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l7_lbl12",
+      "type": "section_label",
+      "data": {
+        "text": "Exercise",
+        "title": "Exercise",
+        "label": "Exercise"
+      }
+    },
+    {
+      "id": "sec_s2l7_lbl13",
+      "type": "section_label",
+      "data": {
+        "text": "Q-1 Darj zail Qur'ani aayaton mein us hisse ko pehchaniye jahan (بِـ) aur agla lafz mil kar woh fiqra banate hain jise aap khud samajh rahe hain:",
+        "title": "Q-1 Darj zail Qur'ani aayaton mein us hisse ko pehchaniye jahan (بِـ) aur agla lafz mil kar woh fiqra banate hain jise aap khud samajh rahe hain:",
+        "label": "Q-1 Darj zail Qur'ani aayaton mein us hisse ko pehchaniye jahan (بِـ) aur agla lafz mil kar woh fiqra banate hain jise aap khud samajh rahe hain:"
+      }
+    },
+    {
+      "id": "sec_s2l7_v14",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": true,
+        "items": [
+          {
+            "id": "s2l7_v14_s1",
+            "sentence_number": 1,
+            "arabic": "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ",
+            "arabic_text": "الَّذِينَ يُؤْمِنُونَ بِالْغَيْبِ",
+            "arabic_markup": "<span class=\"nonroot\">الَّذِينَ</span> <span class=\"arabic-root\">يُؤْمِن</span><span class=\"nonroot\">ُونَ</span> <span class=\"nonroot\">بِالْ</span><span class=\"arabic-root\">غَيْبِ</span>",
+            "hinglish": "Woh jo ghaib par eemaan laate hain",
+            "hinglish_meaning": "Woh jo ghaib par eemaan laate hain",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Woh jo ghaib par eemaan laate hain",
+              "ur": "Woh jo ghaib par eemaan laate hain",
+              "en": "Woh jo ghaib par eemaan laate hain",
+              "hi": "Woh jo ghaib par eemaan laate hain",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_v14_s2",
+            "sentence_number": 2,
+            "arabic": "آمَنَّا بِاللَّهِ وَبِالْيَوْمِ الْآخِرِ",
+            "arabic_text": "آمَنَّا بِاللَّهِ وَبِالْيَوْمِ الْآخِرِ",
+            "arabic_markup": "<span class=\"arabic-root\">آمَنَّا</span> <span class=\"nonroot\">بِ</span><span class=\"arabic-root\">اللَّهِ</span> <span class=\"arabic-root\">وَبِالْيَوْمِ</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">آخِرِ</span>",
+            "hinglish": "Hum Allah par aur aakhirat ke din par eemaan laaye",
+            "hinglish_meaning": "Hum Allah par aur aakhirat ke din par eemaan laaye",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Hum Allah par aur aakhirat ke din par eemaan laaye",
+              "ur": "Hum Allah par aur aakhirat ke din par eemaan laaye",
+              "en": "Hum Allah par aur aakhirat ke din par eemaan laaye",
+              "hi": "Hum Allah par aur aakhirat ke din par eemaan laaye",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_v14_s3",
+            "sentence_number": 3,
+            "arabic": "اشْتَرَوُا الضَّلَالَةَ بِالْهُدَى",
+            "arabic_text": "اشْتَرَوُا الضَّلَالَةَ بِالْهُدَى",
+            "arabic_markup": "<span class=\"arabic-root\">اشْتَرَوُا</span> <span class=\"arabic-root\">الضَّلَالَةَ</span> <span class=\"nonroot\">بِالْ</span><span class=\"arabic-root\">هُدَى</span>",
+            "hinglish": "Unhon ne hidayat ke badle gumraahi khareed li",
+            "hinglish_meaning": "Unhon ne hidayat ke badle gumraahi khareed li",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Unhon ne hidayat ke badle gumraahi khareed li",
+              "ur": "Unhon ne hidayat ke badle gumraahi khareed li",
+              "en": "Unhon ne hidayat ke badle gumraahi khareed li",
+              "hi": "Unhon ne hidayat ke badle gumraahi khareed li",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_v14_s4",
+            "sentence_number": 4,
+            "arabic": "وَلَا تَلْبِسُوا الْحَقَّ بِالْبَاطِلِ",
+            "arabic_text": "وَلَا تَلْبِسُوا الْحَقَّ بِالْبَاطِلِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَلَا</span> <span class=\"arabic-root\">تَلْبِس</span><span class=\"nonroot\">ُوا</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">حَقَّ</span> <span class=\"nonroot\">بِالْ</span><span class=\"arabic-root\">بَاطِلِ</span>",
+            "hinglish": "Aur haq ko baatil ke saath na milao",
+            "hinglish_meaning": "Aur haq ko baatil ke saath na milao",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur haq ko baatil ke saath na milao",
+              "ur": "Aur haq ko baatil ke saath na milao",
+              "en": "Aur haq ko baatil ke saath na milao",
+              "hi": "Aur haq ko baatil ke saath na milao",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_v14_s5",
+            "sentence_number": 5,
+            "arabic": "أَتَأْمُرُونَ النَّاسَ بِالْبِرِّ",
+            "arabic_text": "أَتَأْمُرُونَ النَّاسَ بِالْبِرِّ",
+            "arabic_markup": "<span class=\"arabic-root\">أَتَأْمُر</span><span class=\"nonroot\">ُونَ</span> <span class=\"arabic-root\">النَّاسَ</span> <span class=\"nonroot\">بِالْ</span><span class=\"arabic-root\">بِرِّ</span>",
+            "hinglish": "Kya tum logon ko neki ka hukm dete ho",
+            "hinglish_meaning": "Kya tum logon ko neki ka hukm dete ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kya tum logon ko neki ka hukm dete ho",
+              "ur": "Kya tum logon ko neki ka hukm dete ho",
+              "en": "Kya tum logon ko neki ka hukm dete ho",
+              "hi": "Kya tum logon ko neki ka hukm dete ho",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_v14_s6",
+            "sentence_number": 6,
+            "arabic": "وَاسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ",
+            "arabic_text": "وَاسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ",
+            "arabic_markup": "<span class=\"arabic-root\">وَاسْتَعِين</span><span class=\"nonroot\">ُوا</span> <span class=\"nonroot\">بِ</span><span class=\"arabic-root\">الصَّبْرِ</span> <span class=\"arabic-root\">وَالصَّلَاةِ</span>",
+            "hinglish": "Aur sabr aur namaz ke zariye madad mango",
+            "hinglish_meaning": "Aur sabr aur namaz ke zariye madad mango",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Aur sabr aur namaz ke zariye madad mango",
+              "ur": "Aur sabr aur namaz ke zariye madad mango",
+              "en": "Aur sabr aur namaz ke zariye madad mango",
+              "hi": "Aur sabr aur namaz ke zariye madad mango",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_v14_s7",
+            "sentence_number": 7,
+            "arabic": "الْآنَ جِئْتَ بِالْحَقِّ",
+            "arabic_text": "الْآنَ جِئْتَ بِالْحَقِّ",
+            "arabic_markup": "<span class=\"nonroot\">الْ</span><span class=\"arabic-root\">آنَ</span> <span class=\"arabic-root\">جِئ</span><span class=\"nonroot\">ْتَ</span> <span class=\"nonroot\">بِالْ</span><span class=\"arabic-root\">حَقِّ</span>",
+            "hinglish": "Ab tum haq baat le kar aaye ho",
+            "hinglish_meaning": "Ab tum haq baat le kar aaye ho",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Ab tum haq baat le kar aaye ho",
+              "ur": "Ab tum haq baat le kar aaye ho",
+              "en": "Ab tum haq baat le kar aaye ho",
+              "hi": "Ab tum haq baat le kar aaye ho",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_v14_s8",
+            "sentence_number": 8,
+            "arabic": "اشْتَرَوُا الْحَيَاةَ الدُّنْيَا بِالْآخِرَةِ",
+            "arabic_text": "اشْتَرَوُا الْحَيَاةَ الدُّنْيَا بِالْآخِرَةِ",
+            "arabic_markup": "<span class=\"arabic-root\">اشْتَرَوُا</span> <span class=\"nonroot\">الْ</span><span class=\"arabic-root\">حَيَاةَ</span> <span class=\"arabic-root\">الدُّنْيَا</span> <span class=\"nonroot\">بِالْ</span><span class=\"arabic-root\">آخِرَةِ</span>",
+            "hinglish": "Unhon ne aakhirat ke badle duniya ki zindagi khareed li",
+            "hinglish_meaning": "Unhon ne aakhirat ke badle duniya ki zindagi khareed li",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Unhon ne aakhirat ke badle duniya ki zindagi khareed li",
+              "ur": "Unhon ne aakhirat ke badle duniya ki zindagi khareed li",
+              "en": "Unhon ne aakhirat ke badle duniya ki zindagi khareed li",
+              "hi": "Unhon ne aakhirat ke badle duniya ki zindagi khareed li",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_v14_s9",
+            "sentence_number": 9,
+            "arabic": "جَاءَكُمْ مُوسَى بِالْبَيِّنَاتِ",
+            "arabic_text": "جَاءَكُمْ مُوسَى بِالْبَيِّنَاتِ",
+            "arabic_markup": "<span class=\"arabic-root\">جَاء</span><span class=\"nonroot\">َكُمْ</span> <span class=\"arabic-root\">مُوسَى</span> <span class=\"arabic-root\">بِالْبَيِّن</span><span class=\"nonroot\">َاتِ</span>",
+            "hinglish": "Tumhare paas Musa wazeh nishaniyan le kar aaye",
+            "hinglish_meaning": "Tumhare paas Musa wazeh nishaniyan le kar aaye",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Tumhare paas Musa wazeh nishaniyan le kar aaye",
+              "ur": "Tumhare paas Musa wazeh nishaniyan le kar aaye",
+              "en": "Tumhare paas Musa wazeh nishaniyan le kar aaye",
+              "hi": "Tumhare paas Musa wazeh nishaniyan le kar aaye",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l7_lbl15",
+      "type": "section_label",
+      "data": {
+        "text": "Q-2 (بِـ) ke baad (ال) ki maujoodgi ya ghair-maujoodgi ko dhyan mein rakhte hue, darj zail Qur'ani fiqron ka zubani tarjuma kijiye:",
+        "title": "Q-2 (بِـ) ke baad (ال) ki maujoodgi ya ghair-maujoodgi ko dhyan mein rakhte hue, darj zail Qur'ani fiqron ka zubani tarjuma kijiye:",
+        "label": "Q-2 (بِـ) ke baad (ال) ki maujoodgi ya ghair-maujoodgi ko dhyan mein rakhte hue, darj zail Qur'ani fiqron ka zubani tarjuma kijiye:"
+      }
+    },
+    {
+      "id": "sec_s2l7_g16",
+      "type": "two_col_numbered_list",
+      "data": {
+        "is_numbered": false,
+        "items": [
+          {
+            "id": "s2l7_g16_w1",
+            "arabic": "بِالْإِيمَانِ",
+            "arabic_text": "بِالْإِيمَانِ",
+            "arabic_markup": "<span class=\"arabic-root\">بِالْإِيمَانِ</span>",
+            "hinglish": "Eemaan ke saath",
+            "hinglish_meaning": "Eemaan ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Eemaan ke saath",
+              "en": "With faith",
+              "ur": "ایمان کے ساتھ",
+              "hi": "ईमान के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g16_w2",
+            "arabic": "بِالصَّلَاةِ",
+            "arabic_text": "بِالصَّلَاةِ",
+            "arabic_markup": "<span class=\"arabic-root\">بِالصَّلَاةِ</span>",
+            "hinglish": "Namaz ke saath",
+            "hinglish_meaning": "Namaz ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Namaz ke saath",
+              "en": "With prayer",
+              "ur": "نماز کے ساتھ",
+              "hi": "नमाज़ के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g16_w3",
+            "arabic": "بِغَمٍّ",
+            "arabic_text": "بِغَمٍّ",
+            "arabic_markup": "<span class=\"arabic-root\">بِغَمٍّ</span>",
+            "hinglish": "Kisi gham ke saath",
+            "hinglish_meaning": "Kisi gham ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi gham ke saath",
+              "en": "With sorrow / grief",
+              "ur": "کسی غم کے ساتھ",
+              "hi": "किसी ग़म के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g16_w4",
+            "arabic": "بِالْقُرْآنِ",
+            "arabic_text": "بِالْقُرْآنِ",
+            "arabic_markup": "<span class=\"arabic-root\">بِالْقُرْآنِ</span>",
+            "hinglish": "Qur'an ke saath",
+            "hinglish_meaning": "Qur'an ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Qur'an ke saath",
+              "en": "With the Qur'an",
+              "ur": "قرآن کے ساتھ",
+              "hi": "क़ुरआन के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g16_w5",
+            "arabic": "بِالْمَغْفِرَةِ",
+            "arabic_text": "بِالْمَغْفِرَةِ",
+            "arabic_markup": "<span class=\"arabic-root\">بِالْمَغْفِرَةِ</span>",
+            "hinglish": "Maghfeerat ke saath",
+            "hinglish_meaning": "Maghfeerat ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Maghfeerat ke saath",
+              "en": "With forgiveness",
+              "ur": "مغفرت کے ساتھ",
+              "hi": "मग़फ़िरत के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g16_w6",
+            "arabic": "بِالشَّرِّ",
+            "arabic_text": "بِالشَّرِّ",
+            "arabic_markup": "<span class=\"arabic-root\">بِالشَّرِّ</span>",
+            "hinglish": "Shar ke saath",
+            "hinglish_meaning": "Shar ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Shar ke saath",
+              "en": "With evil / harm",
+              "ur": "شر (برائی) کے ساتھ",
+              "hi": "शर (बुराई) के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g16_w7",
+            "arabic": "بِالْأَمْنِ",
+            "arabic_text": "بِالْأَمْنِ",
+            "arabic_markup": "<span class=\"arabic-root\">بِالْأَمْنِ</span>",
+            "hinglish": "Amn ke saath",
+            "hinglish_meaning": "Amn ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Amn ke saath",
+              "en": "With security / peace",
+              "ur": "امن کے ساتھ",
+              "hi": "अम्न के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g16_w8",
+            "arabic": "بِخَيْرٍ",
+            "arabic_text": "بِخَيْرٍ",
+            "arabic_markup": "<span class=\"arabic-root\">بِخَيْرٍ</span>",
+            "hinglish": "Kisi bhalai ke saath",
+            "hinglish_meaning": "Kisi bhalai ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi bhalai ke saath",
+              "en": "With some good",
+              "ur": "کسی بھلائی کے ساتھ",
+              "hi": "किसी भलाई के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g16_w9",
+            "arabic": "بِالذِّكْرِ",
+            "arabic_text": "بِالذِّكْرِ",
+            "arabic_markup": "<span class=\"arabic-root\">بِالذِّكْرِ</span>",
+            "hinglish": "Zikr ke saath",
+            "hinglish_meaning": "Zikr ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Zikr ke saath",
+              "en": "With remembrance",
+              "ur": "ذکر کے ساتھ",
+              "hi": "ज़िक्र के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g16_w10",
+            "arabic": "بِالصَّبْرِ",
+            "arabic_text": "بِالصَّبْرِ",
+            "arabic_markup": "<span class=\"arabic-root\">بِالصَّبْرِ</span>",
+            "hinglish": "Sabr ke saath",
+            "hinglish_meaning": "Sabr ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Sabr ke saath",
+              "en": "With patience",
+              "ur": "صبر کے ساتھ",
+              "hi": "सब्र के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g16_w11",
+            "arabic": "بِغَضَبٍ",
+            "arabic_text": "بِغَضَبٍ",
+            "arabic_markup": "<span class=\"arabic-root\">بِغَضَبٍ</span>",
+            "hinglish": "Kisi gusse ke saath",
+            "hinglish_meaning": "Kisi gusse ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi gusse ke saath",
+              "en": "With wrath / anger",
+              "ur": "کسی غضب (غصے) کے ساتھ",
+              "hi": "किसी ग़ज़ब (क्रोध) के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g16_w12",
+            "arabic": "بِنَهَرٍ",
+            "arabic_text": "بِنَهَرٍ",
+            "arabic_markup": "<span class=\"arabic-root\">بِنَهَرٍ</span>",
+            "hinglish": "Kisi nahar ke saath",
+            "hinglish_meaning": "Kisi nahar ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi nahar ke saath",
+              "en": "With a river",
+              "ur": "کسی نہر کے ساتھ",
+              "hi": "किसी नहर के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g16_w13",
+            "arabic": "بِدِينَارٍ",
+            "arabic_text": "بِدِينَارٍ",
+            "arabic_markup": "<span class=\"arabic-root\">بِدِينَارٍ</span>",
+            "hinglish": "Kisi denar ke saath",
+            "hinglish_meaning": "Kisi denar ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi denar ke saath",
+              "en": "With a dinar",
+              "ur": "کسی دینار کے ساتھ",
+              "hi": "किसी दीनार के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g16_w14",
+            "arabic": "بِنِعْمَةٍ",
+            "arabic_text": "بِنِعْمَةٍ",
+            "arabic_markup": "<span class=\"arabic-root\">بِنِعْمَةٍ</span>",
+            "hinglish": "Kisi ne'mat ke saath",
+            "hinglish_meaning": "Kisi ne'mat ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi ne'mat ke saath",
+              "en": "With a blessing / favor",
+              "ur": "کسی نعمت کے ساتھ",
+              "hi": "किसी नेअमत के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g16_w15",
+            "arabic": "بِالصِّدْقِ",
+            "arabic_text": "بِالصِّدْقِ",
+            "arabic_markup": "<span class=\"arabic-root\">بِالصِّدْقِ</span>",
+            "hinglish": "Sach ke saath",
+            "hinglish_meaning": "Sach ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Sach ke saath",
+              "en": "With truth",
+              "ur": "سچائی کے ساتھ",
+              "hi": "सच्चाई के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g16_w16",
+            "arabic": "بِقُوَّةٍ",
+            "arabic_text": "بِقُوَّةٍ",
+            "arabic_markup": "<span class=\"arabic-root\">بِقُوَّةٍ</span>",
+            "hinglish": "Kisi quwwat ke saath",
+            "hinglish_meaning": "Kisi quwwat ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi quwwat ke saath",
+              "en": "With strength / power",
+              "ur": "کسی قوت کے ساتھ",
+              "hi": "किसी क़ुव्वत (ताक़त) के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          },
+          {
+            "id": "s2l7_g16_w17",
+            "arabic": "بِشَيْءٍ",
+            "arabic_text": "بِشَيْءٍ",
+            "arabic_markup": "<span class=\"arabic-root\">بِشَيْءٍ</span>",
+            "hinglish": "Kisi cheez ke saath",
+            "hinglish_meaning": "Kisi cheez ke saath",
+            "is_filled": true,
+            "translations": {
+              "hinglish": "Kisi cheez ke saath",
+              "en": "With anything / a thing",
+              "ur": "کسی چیز کے ساتھ",
+              "hi": "किसी चीज़ के साथ",
+              "bn": null,
+              "ko": null,
+              "zh": null,
+              "es": null
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "sec_s2l7_g17",
+      "type": "grace_box",
+      "data": {
+        "text": "Sirf grammar padhne se Qur'an samajh nahi aayega, lekin Qur'an samajhne se Arabi grammar zaroor samajh aa jayegi!"
+      }
+    }
+  ],
+  "page_start": 64
+}
