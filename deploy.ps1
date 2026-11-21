@@ -35,7 +35,8 @@ if (-not $fbProject) { $fbProject = "muallim-123" }
 Write-Host "`n=== [1/2] Deploying to GitHub Pages (origin/main) ===" -ForegroundColor Yellow
 if ($ghToken) {
     Write-Host "[Deploy] Using GITHUB_TOKEN from .env..." -ForegroundColor Green
-    $repoUrl = "https://$($ghToken)@github.com/nomaanc/muallim.git"
+    $authPrefix = if ($ghToken.StartsWith("ghp_")) { "$ghToken" } else { "x-access-token:$ghToken" }
+    $repoUrl = "https://$($authPrefix)@github.com/nomaanc/muallim.git"
     git push $repoUrl main 2>&1
 } else {
     Write-Host "[Deploy] GITHUB_TOKEN not set in .env. Attempting push with default git credentials..." -ForegroundColor Yellow
