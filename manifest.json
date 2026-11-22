@@ -1,7 +1,7 @@
 {
   "name": "Muallim ul-Qur'an",
   "short_name": "Muallim",
-  "description": "Interactive Quranic Arabic workbook with Hinglish translations. 7 Stages, 114 Lessons.",
+  "description": "Interactive Quranic Arabic workbook with 4-language translations. 7 Units, 114 Lessons.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

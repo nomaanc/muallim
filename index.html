@@ -1,527 +1,239 @@
 <!DOCTYPE html>
-<html lang="ur-Latn" dir="ltr" data-theme="light" data-mode="teacher">
+<html lang="ur-Latn" dir="ltr" data-theme="parchment" data-mode="teacher" data-lang="hinglish">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Muallim ul-Qur'an — Unit 1 Lesson 1</title>
-  <meta name="description" content="Offline-first interactive Muallim ul-Qur'an Arabic workbook with Hinglish translations, audio recitation, custom notes, and spaced repetition.">
-  <meta name="theme-color" content="#1B4332">
+  <meta name="description" content="Offline-first interactive Muallim ul-Qur'an Arabic workbook with 4-language translations, Qari recitation, morphology builder, and spaced repetition.">
+  <meta name="theme-color" id="meta-theme-color" content="#FAF7F2">
   <link rel="manifest" href="./manifest.json">
+  <link rel="icon" type="image/svg+xml" href="./icons/icon.svg">
+  <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
 
-
-  <!-- Firebase auto-config: all devices connect automatically -->
-  <script id="firebase-module-loader">
-    // Pre-populate localStorage with real Firebase config on first load
-    // so every student device auto-connects to Firestore without manual setup.
-    try {
-      if (!localStorage.getItem('muallim_firebase_config')) {
-        localStorage.setItem('muallim_firebase_config', JSON.stringify({
-          apiKey: "AIzaSyAjBnuLSADlXBZ7OY7daQ7mOta3VaHXVNg",
-          authDomain: "muallim-123.firebaseapp.com",
-          projectId: "muallim-123",
-          storageBucket: "muallim-123.firebasestorage.app",
-          messagingSenderId: "226964645326",
-          appId: "1:226964645326:web:0a219c95dad277b4cd379f"
-        }));
-      }
-    } catch(e) { /* localStorage unavailable - silently skip */ }
-  </script>
-  <!-- Zero-FOUC Theme & Mode Initializer -->
+  <!-- Zero-FOUC Theme, Mode, Language & Typography Initializer -->
   <script>
-    (function() {
+    (function () {
       try {
-        var savedTheme = localStorage.getItem('muallim_theme') || 'light';
-        var savedMode = localStorage.getItem('muallim_mode') || 'teacher';
-        var savedArScale = localStorage.getItem('muallim_ar_scale') || '26';
-        var savedLatScale = localStorage.getItem('muallim_lat_scale') || '15';
-        document.documentElement.setAttribute('data-theme', savedTheme);
-        document.documentElement.setAttribute('data-mode', savedMode);
-        document.documentElement.style.setProperty('--arabic-scale', savedArScale + 'px');
-        document.documentElement.style.setProperty('--hinglish-scale', savedLatScale + 'px');
-      } catch(e) {}
+        var rawTheme = localStorage.getItem('muallim_theme') || 'parchment';
+        var themeMap = { light: 'parchment', dark: 'night', parchment: 'parchment', night: 'night', sepia: 'sepia' };
+        var theme = themeMap[rawTheme] || 'parchment';
+        var rawMode = localStorage.getItem('muallim_mode') || 'teacher';
+        var mode = rawMode === 'student' ? 'student' : 'teacher';
+        var rawLang = localStorage.getItem('muallim_lang') || 'hinglish';
+        var validLangs = { hinglish: 'hinglish', en: 'en', ur: 'ur', hi: 'hi' };
+        var lang = validLangs[rawLang] || (['bn', 'ko', 'zh', 'es'].indexOf(rawLang) >= 0 ? 'en' : 'hinglish');
+        var rawScale = parseInt(localStorage.getItem('muallim_ar_scale') || '26', 10);
+        var arScale = isNaN(rawScale) ? 26 : Math.min(42, Math.max(18, rawScale));
+        var root = document.documentElement;
+        root.setAttribute('data-theme', theme);
+        root.setAttribute('data-mode', mode);
+        root.setAttribute('data-lang', lang);
+        root.style.setProperty('--arabic-scale', arScale + 'px');
+        var metaTheme = document.getElementById('meta-theme-color');
+        if (metaTheme) {
+          var metaColors = { parchment: '#FAF7F2', sepia: '#F2E7D5', night: '#161922' };
+          metaTheme.setAttribute('content', metaColors[theme] || '#FAF7F2');
+        }
+      } catch (err) {
+        if (window.console && console.warn) console.warn('Theme init skipped:', err);
+      }
     })();
   </script>
 
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/layout.css">
-
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Skip to lesson content</a>
 
-  <!-- App Header Bar -->
+  <!-- Top Navigation Header -->
   <header class="app-header">
-    <div class="header-left">
-      <span class="brand-title">📖 Muallim</span>
-      <button id="btn-lesson-picker" class="picker-btn" title="Select Unit and Lesson">
-        <span id="current-lesson-label">Unit 1 Lesson 1</span>
-        <span style="font-size:0.75rem;">▼</span>
+    <div class="header-start">
+      <a href="#u1/l1" class="brand-mark" aria-label="Muallim ul-Qur'an home">
+        <span class="brand-glyph" aria-hidden="true">م</span>
+        <span class="brand-name">Muallim</span>
+      </a>
+      <button type="button" id="btn-lesson-picker" class="picker-trigger" aria-haspopup="dialog" aria-label="Choose Unit and Lesson">
+        <span id="current-lesson-label" class="tabular-nums">Unit 1 · Lesson 1</span>
+        <svg class="icon-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
       </button>
     </div>
 
-    <div class="header-right">
-      <button id="btn-menu" class="icon-btn" popovertarget="settings-popover" title="Settings Menu">☰</button>
+    <div class="header-end">
+      <div id="streak-pill" class="streak-pill tabular-nums" title="Daily study streak" aria-label="Study streak">
+        <span class="streak-flame" aria-hidden="true">🔥</span>
+        <span id="streak-count-val">0d</span>
+      </div>
+
+      <button type="button" id="btn-header-mode" class="header-chip-btn desktop-only" aria-pressed="false" title="Toggle Student Mode (Space to reveal)">
+        <span id="header-mode-label">Student Mode</span>
+      </button>
+
+      <button type="button" aria-label="Search workbook (/)" title="Search (/)" id="btn-header-search" class="icon-btn desktop-only">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+          <path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+
+      <button type="button" aria-label="Open SRS Flashcard Drill" title="SRS Flashcards &amp; Drill" id="btn-header-drill" class="icon-btn desktop-only">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <rect x="3" y="6" width="14" height="14" rx="2" stroke="currentColor" stroke-width="2"/>
+          <path d="M7 4h12a2 2 0 0 1 2 2v10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </button>
+
+      <button type="button" aria-label="Open Settings and Sync" title="Settings &amp; Sync" id="btn-open-settings" class="icon-btn" aria-haspopup="dialog">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9c.26.6.77 1.02 1.4 1.11H21a2 2 0 1 1 0 4h-.09c-.63.09-1.14.51-1.51 1.11z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
     </div>
   </header>
 
-  <!-- Settings Popover Menu (Native HTML Popover API) -->
-  <div id="settings-popover" class="popover-menu" popover role="dialog" aria-modal="true" aria-label="Settings Menu">
-    <!-- Header: Muallim with close button -->
-    <div class="popover-header">
-      <div class="popover-title">Muallim ul-Qur'an</div>
-      <button class="icon-btn" onclick="var p=document.getElementById('settings-popover'); if(p&&p.hidePopover){try{if(!p.matches||p.matches(':popover-open'))p.hidePopover();}catch(e){}}" aria-label="Close menu" style="font-size:1.2rem; padding:4px 8px; line-height:1;">✕</button>
-    </div>
+  <!-- Main Reading Area -->
+  <main id="main-content" class="app-main">
+    <div id="resume-banner-mount" aria-live="polite"></div>
 
-    <!-- QUICK ACTIONS (2-col grid) -->
-    <div class="menu-section-header">QUICK ACTIONS</div>
-    <div class="quick-actions-row">
-      <button class="quick-action-btn" id="menu-btn-search">🔍 Search</button>
-      <button class="quick-action-btn" id="menu-btn-drill">🔀 Drill & SRS</button>
-      <button class="quick-action-btn" id="menu-btn-exercise">⚡ Exercises</button>
-      <button class="quick-action-btn" id="menu-btn-favs">★ Starred</button>
-      <button class="quick-action-btn" id="menu-btn-custom" style="grid-column: span 2;">📝 My Custom Answers</button>
-    </div>
-
-    <hr class="menu-divider">
-
-    <!-- EXAM -->
-    <div class="menu-section-header">EXAM</div>
-    <div class="exam-actions-row">
-      <button class="quick-action-btn" id="menu-btn-exam">🎓 Practice Exam</button>
-      <button class="quick-action-btn" id="menu-btn-ustaad-exam">📋 Ustaad ki Exam</button>
-    </div>
-
-    <hr class="menu-divider">
-
-    <!-- APPEARANCE -->
-    <div class="menu-section-header">APPEARANCE</div>
-
-    <div class="menu-group">
-      <div class="menu-label">Theme</div>
-      <div class="toggle-btn-group">
-        <button id="theme-light-btn" class="toggle-opt selected" onclick="App.setTheme('light')">Parchment</button>
-        <button id="theme-dark-btn" class="toggle-opt" onclick="App.setTheme('dark')">Night Dark</button>
-      </div>
-    </div>
-
-    <div class="menu-group">
-      <div class="menu-label">Language / Zaban</div>
-      <select id="setting-lang-select" class="lang-picker-select" onchange="App.setLang(this.value)">
-        <option value="hinglish">Roman Urdu (Hinglish)</option>
-        <option value="en">English</option>
-        <option value="ur">Urdu (اردو)</option>
-        <option value="hi">Hindi (हिंदी)</option>
-        <option value="bn">Bengali (বাংলা)</option>
-        <option value="ko">Korean (한국어)</option>
-        <option value="zh">Chinese (中文)</option>
-        <option value="es">Spanish (Español)</option>
-      </select>
-    </div>
-
-    <div class="menu-group">
-      <div class="menu-label">Workbook Mode</div>
-      <div class="toggle-btn-group">
-        <button id="mode-teacher-btn" class="toggle-opt selected" onclick="App.setMode('teacher')">Teacher</button>
-        <button id="mode-student-btn" class="toggle-opt" onclick="App.setMode('student')">Student (Blank)</button>
-      </div>
-    </div>
-
-    <div class="menu-group">
-      <div class="menu-label">
-        <span>Speech Speed</span>
-        <span id="speed-val-label">1.0x</span>
-      </div>
-      <input type="range" id="speech-rate-slider" min="0.5" max="1.5" step="0.05" value="1.0" style="width:100%;" oninput="App.setAudioSpeed(this.value)">
-    </div>
-
-    <div class="menu-group">
-      <div class="menu-label">Arabic Font Size</div>
-      <input type="range" id="arabic-size-slider" min="20" max="38" value="26" style="width:100%;" oninput="App.setFontSize('arabic', this.value)">
-    </div>
-
-    <hr class="menu-divider">
-
-    <!-- DATA -->
-    <div class="menu-section-header">DATA</div>
-    <div class="menu-group">
-      <div style="display:flex; gap:6px;">
-        <button class="btn-secondary" style="flex:1; padding:8px 6px; font-size:0.82rem; font-weight:600;" onclick="App.openExportDialog()">📤 Export JSON</button>
-        <button class="btn-secondary" style="flex:1; padding:8px 6px; font-size:0.82rem; font-weight:600;" onclick="document.getElementById('import-data-input').click()">📥 Import JSON</button>
-        <input type="file" id="import-data-input" accept=".json" style="display:none;" onchange="App.importDataBackup(this.files[0])">
-      </div>
-    </div>
-
-    <hr class="menu-divider">
-
-    <!-- ACCOUNT -->
-    <div class="menu-section-header">ACCOUNT</div>
-    <div class="menu-group" id="admin-access-group">
-      <!-- Logged Out View (Guest) -->
-      <div id="auth-logged-out-view">
-        <p style="font-size:0.8rem; color:var(--text-muted); margin:0 0 8px; line-height:1.4;">
-          Guest Mode • Cloud sync aur exam features ke liye login karein.
-        </p>
-        <button class="btn-secondary" style="width:100%; padding:8px; font-size:0.85rem; font-weight:600;" onclick="App.openLoginModal()">
-          🔑 Login (Teacher / Student)
-        </button>
-      </div>
-
-      <!-- Logged In View (Student / Teacher) -->
-      <div id="auth-logged-in-view" style="display:none;">
-        <div style="padding:10px 12px; background:var(--bg-surface-elevated, #f8f9fa); border-radius:8px; border:1px solid var(--border-color, #ddd);">
-          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
-            <div>
-              <div id="auth-user-display" style="font-weight:700; font-size:0.88rem;">User</div>
-              <div id="auth-user-role" style="font-size:0.75rem; color:var(--text-muted);">student</div>
-            </div>
-            <div style="display:flex; gap:6px; align-items:center;">
-              <a href="#" onclick="App.doLogout(); return false;" style="font-size:0.75rem; color:var(--text-muted); text-decoration:underline; cursor:pointer;">Sign Out</a>
-            </div>
-          </div>
-          <!-- Admin Panel link (shown only for role === 'admin') -->
-          <div id="admin-unlocked-view" style="display:none; margin-top:8px; padding-top:8px; border-top:1px solid var(--border, #eee);">
-            <a href="./admin.html" class="btn-primary" style="display:flex; align-items:center; justify-content:center; gap:6px; width:100%; box-sizing:border-box; padding:8px; text-decoration:none; font-size:0.82rem; font-weight:600; text-align:center;">
-              ⚙️ Admin Dashboard ↗
-            </a>
-          </div>
+    <div id="lesson-content-mount">
+      <!-- Exact-height initial skeleton matching lesson banner + visual + grid (CLS < 0.05) -->
+      <div class="lesson-skeleton" aria-busy="true" aria-label="Loading lesson">
+        <div class="skeleton-block skeleton-banner"></div>
+        <div class="skeleton-block skeleton-visual"></div>
+        <div class="skeleton-grid">
+          <div class="skeleton-block skeleton-card"></div>
+          <div class="skeleton-block skeleton-card"></div>
+          <div class="skeleton-block skeleton-card"></div>
+          <div class="skeleton-block skeleton-card"></div>
         </div>
       </div>
     </div>
 
-    <hr class="menu-divider">
-
-    <!-- NOTIFICATIONS -->
-    <div class="menu-section-header">NOTIFICATIONS</div>
-    <div class="menu-group">
-      <button id="notif-btn" class="btn-secondary" style="width:100%; padding:8px; font-size:0.85rem; font-weight:600;" onclick="App.enablePushNotifications()">
-        🔔 Allow Notifications
-      </button>
-      <div id="notif-status" style="font-size:0.75rem; color:var(--text-muted); margin-top:4px; text-align:center;"></div>
-    </div>
-
-    <!-- INSTALL APP (if available) -->
-    <div class="menu-group" id="install-app-group" style="display:none;">
-      <button id="install-app-btn" class="btn-secondary" style="width:100%; padding:8px; font-size:0.85rem; font-weight:600;" onclick="App.promptInstall()">
-        📲 Install App
-      </button>
-    </div>
-
-    <!-- Version Footer -->
-    <div class="menu-version-footer">
-      Muallim v2.0.0
-    </div>
-  </div>
-
-  <!-- Main Lesson Reading Area -->
-  <main class="app-main">
-    <div id="lesson-content-mount"></div>
     <div id="bottom-nav-mount"></div>
   </main>
 
-  <!-- Breadcrumb Unit & Lesson Picker Modal -->
-  <dialog id="lesson-picker-modal" class="app-modal">
-    <div class="modal-header">
-      <div class="modal-title">Select Unit & Lesson</div>
-      <button class="icon-btn" onclick="document.getElementById('lesson-picker-modal').close()">✕</button>
+  <!-- Mobile Thumb-Friendly Bottom Bar -->
+  <nav class="mobile-bottom-bar" aria-label="Mobile study controls">
+    <button type="button" id="mbar-prev" class="mbar-btn" aria-label="Previous lesson">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>Prev</span>
+    </button>
+
+    <button type="button" id="mbar-student" class="mbar-btn" aria-pressed="false" aria-label="Toggle Student Hide or Reveal">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z" stroke="currentColor" stroke-width="2"/>
+        <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
+      </svg>
+      <span id="mbar-student-label">Hide</span>
+    </button>
+
+    <button type="button" id="mbar-drill" class="mbar-btn" aria-label="Open SRS Drill">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <rect x="3" y="6" width="14" height="14" rx="2" stroke="currentColor" stroke-width="2"/>
+        <path d="M7 4h12a2 2 0 0 1 2 2v10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <span>Drill</span>
+    </button>
+
+    <button type="button" id="mbar-search" class="mbar-btn" aria-label="Open Search">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/>
+        <path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <span>Search</span>
+    </button>
+
+    <button type="button" id="mbar-next" class="mbar-btn" aria-label="Next lesson">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span>Next</span>
+    </button>
+  </nav>
+
+  <!-- Toast Notification -->
+  <div id="app-toast" class="app-toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- DIALOG 1 of 5: Lesson Picker -->
+  <dialog id="lesson-picker-dialog" class="app-dialog" aria-labelledby="picker-dialog-title">
+    <div class="dialog-header">
+      <h2 id="picker-dialog-title" class="dialog-title">Units &amp; Lessons</h2>
+      <button type="button" class="icon-btn dialog-close-btn" data-close-dialog="lesson-picker-dialog" aria-label="Close lesson picker">✕</button>
     </div>
-    <div class="modal-body">
-      <div class="stage-tabs" id="stage-tabs-mount"></div>
-      <div class="lesson-grid" id="stage-lessons-mount"></div>
-    </div>
-  </dialog>
-
-  <!-- Vocabulary Drill Modal -->
-  <dialog id="spinner-modal" class="app-modal">
-    <div class="modal-header">
-      <div class="modal-title">🔀 Vocabulary Drill</div>
-      <button class="icon-btn" onclick="document.getElementById('spinner-modal').close()">✕</button>
-    </div>
-    <div class="modal-body">
-
-      <!-- SETUP VIEW -->
-      <div id="drill-setup-view">
-        <div class="drill-pool-tabs">
-          <button class="drill-pool-tab active" id="drill-tab-starred" onclick="App.switchDrillTab('starred')">⭐ Starred (<span id="starred-count-badge">0</span>)</button>
-          <button class="drill-pool-tab" id="drill-tab-custom" onclick="App.switchDrillTab('custom')">📚 Select Lessons</button>
-          <button class="drill-pool-tab" id="drill-tab-srs" onclick="App.switchDrillTab('srs')">🧠 Smart SRS (<span id="srs-due-badge">0</span>)</button>
-        </div>
-
-        <!-- Custom lesson selection accordion -->
-        <div id="drill-custom-panel" style="display:none;">
-          <div class="drill-select-all-row">
-            <button onclick="App.drillSelectAll()">Select All</button>
-            <button onclick="App.drillClearAll()">Clear All</button>
-          </div>
-          <div class="lesson-accordion" id="lesson-accordion-mount">
-            <!-- Generated by JS -->
-          </div>
-          <div class="drill-card-count" id="drill-card-count-label">0 cards selected</div>
-          <button class="btn-primary" style="width:100%;" onclick="App.startCustomDrill()">▶ Start Drill</button>
-        </div>
-
-        <div id="drill-starred-panel">
-          <button class="btn-primary" style="width:100%; margin-bottom:8px;" onclick="App.startStarredDrill()">▶ Start Starred Drill</button>
-        </div>
-
-        <!-- SRS Leitner 5-Box Panel -->
-        <div id="drill-srs-panel" style="display:none;">
-          <div style="background:var(--bg-surface-elevated, #f9fafb); border:1px solid var(--border-color, #e5e7eb); border-radius:12px; padding:12px; margin-bottom:12px;">
-            <div style="font-size:0.85rem; font-weight:700; margin-bottom:8px; color:var(--accent-emerald, #1B4332); display:flex; justify-content:space-between; align-items:center;">
-              <span>Leitner 5-Box Spaced Repetition</span>
-              <span style="font-size:0.75rem; color:#d97706; font-weight:800;" id="srs-total-tracked">0 tracked</span>
-            </div>
-            <div style="display:grid; grid-template-columns:repeat(5, 1fr); gap:4px; text-align:center;">
-              <div style="background:var(--bg-surface, #fff); padding:6px 2px; border-radius:8px; border:1px solid var(--border-color, #e5e7eb);">
-                <div style="font-weight:800; font-size:0.9rem; color:#dc2626;" id="srs-box-1-count">0</div>
-                <div style="font-size:0.65rem; color:var(--text-muted); font-weight:600;">Box 1<br>(1d)</div>
-              </div>
-              <div style="background:var(--bg-surface, #fff); padding:6px 2px; border-radius:8px; border:1px solid var(--border-color, #e5e7eb);">
-                <div style="font-weight:800; font-size:0.9rem; color:#d97706;" id="srs-box-2-count">0</div>
-                <div style="font-size:0.65rem; color:var(--text-muted); font-weight:600;">Box 2<br>(3d)</div>
-              </div>
-              <div style="background:var(--bg-surface, #fff); padding:6px 2px; border-radius:8px; border:1px solid var(--border-color, #e5e7eb);">
-                <div style="font-weight:800; font-size:0.9rem; color:#2563eb;" id="srs-box-3-count">0</div>
-                <div style="font-size:0.65rem; color:var(--text-muted); font-weight:600;">Box 3<br>(7d)</div>
-              </div>
-              <div style="background:var(--bg-surface, #fff); padding:6px 2px; border-radius:8px; border:1px solid var(--border-color, #e5e7eb);">
-                <div style="font-weight:800; font-size:0.9rem; color:#7c3aed;" id="srs-box-4-count">0</div>
-                <div style="font-size:0.65rem; color:var(--text-muted); font-weight:600;">Box 4<br>(14d)</div>
-              </div>
-              <div style="background:var(--bg-surface, #fff); padding:6px 2px; border-radius:8px; border:1px solid var(--border-color, #e5e7eb);">
-                <div style="font-weight:800; font-size:0.9rem; color:#059669;" id="srs-box-5-count">0</div>
-                <div style="font-size:0.65rem; color:var(--text-muted); font-weight:600;">Box 5 🌟<br>(30d)</div>
-              </div>
-            </div>
-            <div style="font-size:0.75rem; color:var(--text-muted); margin-top:8px; text-align:center;" id="srs-due-summary">Aaj ke liye due cards check ho rahe hain...</div>
-          </div>
-          <button class="btn-primary" style="width:100%; margin-bottom:8px;" onclick="App.startSrsDrill()">🧠 Start Smart SRS Review</button>
-        </div>
-      </div>
-
-      <!-- DRILL VIEW (card) -->
-      <div id="drill-card-view" style="display:none;">
-        <div class="spinner-pool-toggle" style="display:flex; gap:4px; margin-bottom:10px; align-items:center;">
-          <span style="flex:1; font-size:0.8rem; color:var(--text-muted); display:flex; align-items:center;" id="drill-progress-label">Card 1 of 0</span>
-          <span id="drill-srs-box-badge" style="font-size:0.72rem; font-weight:700; padding:2px 8px; border-radius:10px; background:rgba(217,119,6,0.15); color:#d97706; margin-right:6px;">📦 Box 1</span>
-          <button class="btn-secondary" style="padding:5px 10px; font-size:0.8rem;" onclick="App.endDrill()">✕ End</button>
-        </div>
-        <div id="spinner-card" class="spinner-card" onclick="App.toggleSpinnerReveal()">
-          <div id="spinner-arabic" class="spinner-arabic">...</div>
-          <div id="spinner-hinglish" class="spinner-hinglish" style="display:none;">...</div>
-          <div id="spinner-hint" class="spinner-hint">(tap card to reveal translation)</div>
-        </div>
-
-        <!-- SRS Rating Row (Shown when card is revealed) -->
-        <div id="drill-srs-rating-row" style="display:none; margin-bottom:12px;">
-          <div style="font-size:0.75rem; color:var(--text-muted); text-align:center; margin-bottom:6px; font-weight:600;">Yaad-daasht ki taaqat rate karein:</div>
-          <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:6px;">
-            <button class="btn-secondary" style="border:1.5px solid #dc2626; color:#dc2626; padding:8px 2px; font-size:0.75rem; font-weight:700; border-radius:8px;" onclick="App.rateCurrentCard('again')">🔴 Again<br><span style="font-size:0.65rem; font-weight:normal; opacity:0.85;">Box 1</span></button>
-            <button class="btn-secondary" style="border:1.5px solid #d97706; color:#d97706; padding:8px 2px; font-size:0.75rem; font-weight:700; border-radius:8px;" onclick="App.rateCurrentCard('hard')">🟡 Hard<br><span style="font-size:0.65rem; font-weight:normal; opacity:0.85;">Same Box</span></button>
-            <button class="btn-secondary" style="border:1.5px solid #2563eb; color:#2563eb; padding:8px 2px; font-size:0.75rem; font-weight:700; border-radius:8px;" onclick="App.rateCurrentCard('good')">🟢 Good<br><span style="font-size:0.65rem; font-weight:normal; opacity:0.85;">+1 Box</span></button>
-            <button class="btn-secondary" style="border:1.5px solid #059669; color:#059669; padding:8px 2px; font-size:0.75rem; font-weight:700; border-radius:8px;" onclick="App.rateCurrentCard('easy')">🔵 Easy<br><span style="font-size:0.65rem; font-weight:normal; opacity:0.85;">+2 Boxes</span></button>
-          </div>
-        </div>
-
-        <div class="spinner-controls">
-          <button class="btn-secondary" onclick="App.playCurrentSpinnerAudio()">🔊 Hear</button>
-          <button class="btn-primary" onclick="App.nextSpinnerCard()">Next Card →</button>
-        </div>
-      </div>
-
+    <div class="dialog-body">
+      <div id="picker-units-mount" class="unit-tabs-grid" role="tablist" aria-label="Curriculum Units"></div>
+      <div id="picker-unit-summary" class="picker-unit-summary"></div>
+      <div id="picker-lessons-mount" class="lesson-picker-grid"></div>
     </div>
   </dialog>
 
-  <!-- Interactive Grammar Exercise Modal -->
-  <dialog id="grammar-exercise-modal" class="app-modal" style="max-width:540px; width:94vw; border-radius:16px;">
-    <div class="modal-header">
-      <div class="modal-title">⚡ Grammar Exercises — <span id="exercise-lesson-title">Lesson</span></div>
-      <button class="icon-btn" onclick="document.getElementById('grammar-exercise-modal').close()">✕</button>
+  <!-- DIALOG 2 of 5: Quick Search -->
+  <dialog id="search-dialog" class="app-dialog" aria-labelledby="search-dialog-title">
+    <div class="dialog-header">
+      <h2 id="search-dialog-title" class="dialog-title">Quick Search</h2>
+      <button type="button" class="icon-btn dialog-close-btn" data-close-dialog="search-dialog" aria-label="Close search">✕</button>
     </div>
-    <div class="modal-body" style="padding:16px;">
-      <!-- ACTIVE QUIZ VIEW -->
-      <div id="exercise-quiz-view">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px; font-size:0.82rem; color:var(--text-muted);">
-          <span id="exercise-q-progress">Question 1 of 5</span>
-          <span id="exercise-q-score" style="font-weight:700; color:var(--accent-emerald, #1B4332);">Score: 0 / 0</span>
-        </div>
-        <div id="exercise-prompt-text" style="font-size:0.95rem; font-weight:700; color:var(--text-primary); margin-bottom:10px; text-align:center;">
-          ...
-        </div>
-        <div id="exercise-arabic-box" style="font-family:var(--font-arabic, 'Amiri', serif); font-size:2.4rem; text-align:center; color:var(--accent-emerald, #1B4332); background:var(--bg-surface-elevated, #fdfbf7); padding:16px; border-radius:12px; border:1px solid var(--border-color, #e5e7eb); margin-bottom:14px; direction:rtl;">
-          ...
-        </div>
-        <div id="exercise-options-mount" style="display:grid; grid-template-columns:1fr; gap:8px; margin-bottom:14px;">
-          <!-- Option buttons generated by JS -->
-        </div>
-        <div id="exercise-explanation-box" style="display:none; padding:10px 14px; border-radius:8px; font-size:0.85rem; line-height:1.4; margin-bottom:12px;">
-          ...
-        </div>
-        <button id="exercise-next-btn" class="btn-primary" style="display:none; width:100%;" onclick="App.nextExerciseQuestion()">Agla Sawal (Next Question) ➔</button>
-      </div>
-
-      <!-- SCORECARD VIEW -->
-      <div id="exercise-scorecard-view" style="display:none; text-align:center; padding:16px 0;">
-        <div style="font-size:2.8rem; margin-bottom:8px;" id="exercise-score-icon">🏆</div>
-        <div style="font-size:1.2rem; font-weight:700; color:var(--accent-emerald, #1B4332); margin-bottom:4px;">MashaAllah! Exercise Complete!</div>
-        <div style="font-size:0.9rem; color:var(--text-muted); margin-bottom:16px;" id="exercise-final-score-text">Aapne 5 mein se 5 sahi jawabat diye</div>
-        <div style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap;">
-          <button class="btn-secondary" onclick="App.restartGrammarExercise()">🔄 Dobara Koshish Karein</button>
-          <button class="btn-primary" onclick="document.getElementById('grammar-exercise-modal').close()">📖 Sabaq par Wapas Jayein</button>
+    <div class="dialog-body">
+      <div class="search-field-group">
+        <label for="search-input" class="field-label">Search Arabic, transliteration, root, or translation</label>
+        <div class="search-input-wrap">
+          <input type="text" id="search-input" class="text-input" placeholder="e.g. kitab, sabr, يَعْبُدُ, رحمت" autocomplete="off">
+          <button type="button" id="search-clear-btn" class="btn-ghost btn-sm" hidden>Clear</button>
         </div>
       </div>
+      <div id="search-status-line" class="search-status-line tabular-nums"></div>
+      <div id="search-results-mount" class="search-results-list"></div>
     </div>
   </dialog>
 
-  <!-- Custom Answers Dialog -->
-  <dialog id="custom-answers-modal" class="modal-dialog" style="max-width:480px; width:94vw; max-height:80vh; overflow-y:auto; border-radius:16px; padding:0; border:none;">
-    <div class="modal-header" style="display:flex; align-items:center; justify-content:space-between; padding:16px 16px 12px; border-bottom:1px solid var(--divider-light);">
-      <div class="modal-title">📝 My Answers</div>
-      <button class="icon-btn" onclick="App.closeCustomAnswersModal()" style="font-size:1.2rem;" aria-label="Close">✕</button>
+  <!-- DIALOG 3 of 5: SRS Flashcard / Drill -->
+  <dialog id="drill-dialog" class="app-dialog" aria-labelledby="drill-dialog-title">
+    <div class="dialog-header">
+      <h2 id="drill-dialog-title" class="dialog-title">SRS Flashcard Drill</h2>
+      <button type="button" class="icon-btn dialog-close-btn" data-close-dialog="drill-dialog" aria-label="Close flashcard drill">✕</button>
     </div>
-    <div style="padding:10px 16px 4px;">
-      <input type="text" id="custom-answers-search" class="search-box" placeholder="Search custom answers or lessons..." oninput="App.filterCustomAnswers(this.value)" style="width:100%; box-sizing:border-box; margin:0; padding:8px 12px; border-radius:8px; border:1px solid var(--border,#ccc); font-size:0.9rem;">
-    </div>
-    <div id="custom-answers-body" style="padding:8px 16px 20px;"></div>
+    <div class="dialog-body" id="drill-dialog-body"></div>
   </dialog>
 
-  <!-- Favourites Dialog -->
-  <dialog id="favs-modal" class="app-modal">
-    <div class="modal-header">
-      <div class="modal-title">★ Starred Vocabulary & Verses</div>
-      <button class="icon-btn" onclick="document.getElementById('favs-modal').close()">✕</button>
+  <!-- DIALOG 4 of 5: Practice Quiz & Morphology Builder -->
+  <dialog id="practice-dialog" class="app-dialog" aria-labelledby="practice-dialog-title">
+    <div class="dialog-header">
+      <div class="dialog-title-group">
+        <h2 id="practice-dialog-title" class="dialog-title">Practice Studio</h2>
+        <span id="practice-lesson-tag" class="dialog-subtitle tabular-nums">Unit 1 · Lesson 1</span>
+      </div>
+      <button type="button" class="icon-btn dialog-close-btn" data-close-dialog="practice-dialog" aria-label="Close practice studio">✕</button>
     </div>
-    <div class="modal-body">
-      <div id="favs-list-mount"></div>
-    </div>
-  </dialog>
-
-  <!-- Full-Text Search Modal -->
-  <dialog id="search-modal" class="app-modal">
-    <div class="modal-header">
-      <div class="modal-title">🔍 Search Workbook</div>
-      <button class="icon-btn" onclick="document.getElementById('search-modal').close()">✕</button>
-    </div>
-    <div class="modal-body">
-      <input type="text" id="search-input" class="search-box" placeholder="Search Arabic, Transliteration, English, or Hinglish..." oninput="App.performSearch(this.value)">
-      <div id="search-results-mount" class="search-results-list">
-        <p style="text-align:center; color:var(--text-muted); padding:20px;">Type at least 2 characters to search across Arabic, Transliteration, English, and Hinglish.</p>
+    <div class="dialog-subnav">
+      <div class="segmented-tabs" role="tablist" aria-label="Practice mode">
+        <button type="button" id="tab-practice-quiz" class="seg-tab active" role="tab" aria-selected="true">Practice Quiz</button>
+        <button type="button" id="tab-practice-morph" class="seg-tab" role="tab" aria-selected="false">Morphology Builder</button>
       </div>
     </div>
+    <div class="dialog-body" id="practice-dialog-body"></div>
   </dialog>
 
-  <!-- Custom Answer Editor Dialog -->
-  <dialog id="custom-edit-modal" class="app-modal">
-    <div class="modal-header">
-      <div class="modal-title">✏️ Personal Translation / Note</div>
-      <button class="icon-btn" onclick="document.getElementById('custom-edit-modal').close()">✕</button>
+  <!-- DIALOG 5 of 5: Settings & Sync -->
+  <dialog id="settings-dialog" class="app-dialog" aria-labelledby="settings-dialog-title">
+    <div class="dialog-header">
+      <h2 id="settings-dialog-title" class="dialog-title">Settings &amp; Sync</h2>
+      <button type="button" class="icon-btn dialog-close-btn" data-close-dialog="settings-dialog" aria-label="Close settings">✕</button>
     </div>
-    <div class="modal-body">
-      <div id="edit-arabic-preview" class="arabic-text" style="font-size:1.3rem; margin-bottom:10px; text-align:center;"></div>
-      <div style="font-size:0.8rem; color:var(--text-muted); margin-bottom:4px;">Original Translation:</div>
-      <div id="edit-orig-preview" style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:12px; font-style:italic;"></div>
-      <div style="font-size:0.85rem; font-weight:600; margin-bottom:4px;">Your Custom Answer:</div>
-      <textarea id="custom-answer-input" class="edit-textarea" placeholder="Enter your personal translation or teacher correction..."></textarea>
-      <div style="display:flex; justify-content:space-between; gap:10px;">
-        <button class="btn-secondary" style="color:var(--danger);" onclick="App.deleteCustomAnswer()">Clear Custom</button>
-        <button class="btn-primary" onclick="App.saveCustomAnswer()">Save Answer</button>
+    <div class="dialog-subnav">
+      <div class="segmented-tabs" role="tablist" aria-label="Settings sections">
+        <button type="button" id="tab-settings-prefs" class="seg-tab active" role="tab" aria-selected="true">Reading</button>
+        <button type="button" id="tab-settings-starred" class="seg-tab" role="tab" aria-selected="false">Starred (<span id="settings-starred-count" class="tabular-nums">0</span>)</button>
+        <button type="button" id="tab-settings-sync" class="seg-tab" role="tab" aria-selected="false">Backup &amp; Sync</button>
       </div>
     </div>
+    <div class="dialog-body" id="settings-dialog-body"></div>
   </dialog>
 
-  <!-- Export Selection Dialog -->
-  <dialog id="export-modal" class="app-modal">
-    <div class="modal-header">
-      <div class="modal-title">💾 Export Data Backup</div>
-      <button class="icon-btn" onclick="document.getElementById('export-modal').close()">✕</button>
-    </div>
-    <div class="modal-body">
-      <p style="font-size:0.9rem; color:var(--text-secondary); margin-bottom:16px;">
-        Choose what you would like to export to JSON format:
-      </p>
-      <div style="display:flex; flex-direction:column; gap:10px;">
-        <button class="btn-primary" style="justify-content:center;" onclick="App.doExport('both')">
-          📦 Export All (Starred Items + Custom Answers)
-        </button>
-        <button class="btn-secondary" style="text-align:center;" onclick="App.doExport('favs')">
-          ★ Export Starred Items Only (<span id="export-favs-count">0</span>)
-        </button>
-        <button class="btn-secondary" style="text-align:center;" onclick="App.doExport('custom')">
-          ✏️ Export Custom Answers Only (<span id="export-custom-count">0</span>)
-        </button>
-      </div>
-    </div>
-  </dialog>
-
-  <!-- Exam modal -->
-  <dialog id="exam-modal" class="app-modal" style="max-width:700px; width:95vw; max-height:92vh;">
-    <div class="modal-header">
-      <div class="modal-title">🎴 Ustaad ki Exam</div>
-      <button class="icon-btn" onclick="App.closeExam()">✖</button>
-    </div>
-    <div class="modal-body" id="exam-modal-body">
-      <!-- Dynamically rendered by JS -->
-    </div>
-  </dialog>
-
-  <!-- Onboarding modal (smart prompts: name → notification → install) -->
-  <dialog id="onboard-modal" class="onboard-modal">
-    <div class="onboard-body" id="onboard-body">
-      <!-- Content injected by JS -->
-    </div>
-  </dialog>
-
-  <!-- Firebase Auth Login Modal -->
-  <dialog id="login-modal" class="login-modal">
-    <div class="login-body" style="position:relative;">
-      <button type="button" onclick="App.closeLoginModal()" title="Band karein (Guest Mode)"
-        style="position:absolute; top:12px; right:14px; background:none; border:none; font-size:1.3rem; cursor:pointer; color:var(--text-muted, #888); line-height:1; padding:4px;">✖</button>
-      <div class="login-logo">📛</div>
-      <h2 class="login-title">Muallim ul-Qur'an</h2>
-      <p class="login-subtitle">Apna account mein login karein</p>
-      <div class="login-field">
-        <label for="login-email">Email</label>
-        <input type="email" id="login-email" placeholder="email@example.com" autocomplete="email">
-      </div>
-      <div class="login-field" style="position:relative;">
-        <label for="login-password">Password</label>
-        <input type="password" id="login-password" placeholder="Password" autocomplete="current-password"
-               onkeydown="if(event.key==='Enter') App.doLogin()">
-        <button class="show-password-btn" type="button"
-          onclick="(function(){var i=document.getElementById('login-password');i.type=i.type==='password'?'text':'password';})()">👁</button>
-      </div>
-      <p id="login-error" class="login-error" style="display:none"></p>
-      <button class="btn-primary login-submit" onclick="App.doLogin()">Login</button>
-      <div style="display:flex; align-items:center; gap:8px; margin: 12px 0 8px;">
-        <hr style="flex:1; border:none; border-top:1px solid var(--border,#e2d9cc);">
-        <span style="font-size:0.75rem; color:var(--text-muted,#888); text-transform:uppercase;">Ya Phir</span>
-        <hr style="flex:1; border:none; border-top:1px solid var(--border,#e2d9cc);">
-      </div>
-      <button class="btn-secondary google-signin-btn" type="button" onclick="App.doGoogleLogin()"
-        style="width:100%; display:flex; align-items:center; justify-content:center; gap:10px; padding:10px; border-radius:10px; border:1px solid var(--border,#e2d9cc); background:var(--surface,#fff); font-weight:600; cursor:pointer; font-size:0.9rem; color:var(--text,#1f2937); box-shadow:0 1px 3px rgba(0,0,0,0.06);">
-        <svg width="18" height="18" viewBox="0 0 18 18"><path fill="#4285F4" d="M17.64 9.2c0-.637-.057-1.251-.164-1.84H9v3.481h4.844c-.209 1.125-.843 2.078-1.796 2.717v2.258h2.908c1.702-1.567 2.684-3.874 2.684-6.616z"/><path fill="#34A853" d="M9 18c2.43 0 4.467-.806 5.956-2.184l-2.908-2.258c-.806.54-1.837.86-3.048.86-2.344 0-4.328-1.584-5.036-3.711H.957v2.332C2.438 15.983 5.482 18 9 18z"/><path fill="#FBBC05" d="M3.964 10.707c-.18-.54-.282-1.117-.282-1.707s.102-1.167.282-1.707V4.961H.957C.347 6.175 0 7.55 0 9s.348 2.825.957 4.039l3.007-2.332z"/><path fill="#EA4335" d="M9 3.58c1.321 0 2.508.454 3.44 1.345l2.582-2.58C13.463.891 11.426 0 9 0 5.482 0 2.438 2.017.957 4.961L3.964 7.293C4.672 5.166 6.656 3.58 9 3.58z"/></svg>
-        <span>Google se Login Karein</span>
-      </button>
-      <div style="display:flex; justify-content:space-between; align-items:center; margin-top:8px;">
-        <button class="btn-ghost" type="button" onclick="App.forgotPassword()" style="font-size:0.82rem; padding:4px; background:none; border:none; color:var(--text-muted, #666); cursor:pointer;">Password bhool gaye?</button>
-        <button class="btn-ghost" type="button" onclick="App.closeLoginModal()" style="font-size:0.82rem; padding:4px; background:none; border:none; color:var(--text-muted, #666); cursor:pointer;">Guest Mode</button>
-      </div>
-    </div>
-  </dialog>
-
-  <!-- Teacher nav tab (hidden until role===teacher or admin) -->
-  <a id="teacher-nav-tab" href="teacher.html" class="nav-tab"
-    style="display:none; position:fixed; bottom:68px; right:16px; z-index:200; background:#1d4ed8; color:#fff; text-decoration:none; border-radius:12px; padding:10px 18px; font-size:0.85rem; font-weight:700; cursor:pointer; box-shadow:0 4px 16px rgba(0,0,0,0.25);">
-    👨‍🏫 Ustaad Portal
-  </a>
-
-  <!-- Admin nav tab (hidden until role===admin) -->
-  <button id="admin-nav-tab" class="nav-tab" onclick="App.openAdminDashboard()"
-    style="display:none; position:fixed; bottom:16px; right:16px; z-index:200; background:var(--accent,#1B4332); color:#fff; border:none; border-radius:12px; padding:10px 18px; font-size:0.85rem; font-weight:700; cursor:pointer; box-shadow:0 4px 16px rgba(0,0,0,0.25);">
-    🛡 Admin
-  </button>
-
-  <script src="js/grammar-visuals.js"></script>
-  <script type="module" src="js/visuals/loader.js"></script>
-  <script type="module" src="js/audio-fx.js"></script>
-  <script src="js/app.js"></script>
+  <script type="module" src="js/app.js"></script>
 </body>
 </html>
