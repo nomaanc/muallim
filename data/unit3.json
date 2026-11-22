@@ -506,9 +506,9 @@
               },
               {
                 "id": "s3l1_g3_w22",
-                "arabic": "النَّبَأُ الْعَظِيمُ",
-                "arabic_text": "النَّبَأُ الْعَظِيمُ",
-                "arabic_markup": "<span class=\"arabic-root\">النَّبَأُ</span> <span class=\"nonroot\">الْعَظِيمُ</span>",
+                "arabic": "النَّبَإِ الْعَظِيمِ",
+                "arabic_text": "النَّبَإِ الْعَظِيمِ",
+                "arabic_markup": "<span class=\"arabic-root\">النَّبَإِ</span> <span class=\"nonroot\">الْعَظِيمِ</span>",
                 "hinglish": "Badi khabar",
                 "hinglish_meaning": "Badi khabar",
                 "is_filled": true,
@@ -561,7 +561,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -771,7 +772,7 @@
                   "hinglish": "Badi kamyabi",
                   "en": "The great success",
                   "ur": "بڑی کامیابی",
-                  "hi": "बड़ी کامیابی",
+                  "hi": "बड़ी कामयाबी",
                   "bn": null,
                   "ko": null,
                   "zh": null,
@@ -799,9 +800,9 @@
               },
               {
                 "id": "s3l1_g6_w12",
-                "arabic": "ضَلَالٌ كَبِيرٌ",
-                "arabic_text": "ضَلَالٌ كَبِيرٌ",
-                "arabic_markup": "<span class=\"nonroot\">ضَلَالٌ</span> <span class=\"arabic-root\">كَبِيرٌ</span>",
+                "arabic": "ضَلَالٍ كَبِيرٍ",
+                "arabic_text": "ضَلَالٍ كَبِيرٍ",
+                "arabic_markup": "<span class=\"nonroot\">ضَلَالٍ</span> <span class=\"arabic-root\">كَبِيرٍ</span>",
                 "hinglish": "Badi gumraahi",
                 "hinglish_meaning": "Badi gumraahi",
                 "is_filled": true,
@@ -809,14 +810,15 @@
                   "hinglish": "Badi gumraahi",
                   "en": "A great error",
                   "ur": "بڑی گمراہی",
-                  "hi": "بڑی گمراہی",
+                  "hi": "बड़ी गुमराही",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -860,7 +862,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 1
               },
               {
                 "id": "s3l1_g9_w2",
@@ -879,7 +882,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 2
               },
               {
                 "id": "s3l1_g9_w3",
@@ -898,7 +902,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 3
               },
               {
                 "id": "s3l1_g9_w4",
@@ -917,7 +922,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 4
               },
               {
                 "id": "s3l1_g9_w5",
@@ -936,7 +942,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 5
               },
               {
                 "id": "s3l1_g9_w6",
@@ -955,7 +962,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 6
               },
               {
                 "id": "s3l1_g9_w7",
@@ -974,7 +982,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 7
               },
               {
                 "id": "s3l1_g9_w8",
@@ -993,7 +1002,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 8
               },
               {
                 "id": "s3l1_g9_w9",
@@ -1012,7 +1022,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 9
               },
               {
                 "id": "s3l1_g9_w10",
@@ -1031,7 +1042,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 10
               },
               {
                 "id": "s3l1_g9_w11",
@@ -1050,7 +1062,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 11
               },
               {
                 "id": "s3l1_g9_w12",
@@ -1069,7 +1082,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 12
               },
               {
                 "id": "s3l1_g9_w13",
@@ -1088,26 +1102,28 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 13
               },
               {
-                "id": "s3l1_g9_w14",
-                "arabic": "خُسْرَانًا مُبِينًا",
-                "arabic_text": "خُسْرَانًا مُبِينًا",
-                "arabic_markup": "<span class=\"arabic-root\">خُسْرَانًا</span> <span class=\"nonroot\">مُبِينًا</span>",
-                "hinglish": "Wazih nuqsaan",
-                "hinglish_meaning": "Wazih nuqsaan",
+                "id": "s3l1_g9_w27",
+                "arabic": "عَدُوًّا مُبِينًا",
+                "arabic_text": "عَدُوًّا مُبِينًا",
+                "arabic_markup": "<span class=\"nonroot\">عَدُوًّا</span> <span class=\"arabic-root\">مُبِينًا</span>",
+                "hinglish": "Wazih dushman",
+                "hinglish_meaning": "Wazih dushman",
                 "is_filled": true,
                 "translations": {
-                  "hinglish": "Wazih nuqsaan",
-                  "en": "A manifest loss",
-                  "ur": "واضح نقصان",
-                  "hi": "वाज़ेह नुक़सान",
+                  "hinglish": "Wazih dushman",
+                  "en": "A clear enemy",
+                  "ur": "کھلا دشمن",
+                  "hi": "खुला दुश्मन",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 14
               },
               {
                 "id": "s3l1_g9_w15",
@@ -1126,7 +1142,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 15
               },
               {
                 "id": "s3l1_g9_w16",
@@ -1145,26 +1162,28 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 16
               },
               {
-                "id": "s3l1_g9_w17",
-                "arabic": "سُلْطَانٍ مُبِينٍ",
-                "arabic_text": "سُلْطَانٍ مُبِينٍ",
-                "arabic_markup": "<span class=\"arabic-root\">سُلْطَانٍ</span> <span class=\"nonroot\">مُبِينٍ</span>",
-                "hinglish": "Wazih daleel",
-                "hinglish_meaning": "Wazih daleel",
+                "id": "s3l1_g9_w14",
+                "arabic": "خُسْرَانًا مُبِينًا",
+                "arabic_text": "خُسْرَانًا مُبِينًا",
+                "arabic_markup": "<span class=\"arabic-root\">خُسْرَانًا</span> <span class=\"nonroot\">مُبِينًا</span>",
+                "hinglish": "Wazih nuqsaan",
+                "hinglish_meaning": "Wazih nuqsaan",
                 "is_filled": true,
                 "translations": {
-                  "hinglish": "Wazih daleel",
-                  "en": "A clear proof",
-                  "ur": "واضح دلیل",
-                  "hi": "वाज़ेह दलील",
+                  "hinglish": "Wazih nuqsaan",
+                  "en": "A manifest loss",
+                  "ur": "واضح نقصان",
+                  "hi": "वाज़ेह नुक़सान",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 17
               },
               {
                 "id": "s3l1_g9_w18",
@@ -1183,7 +1202,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 18
               },
               {
                 "id": "s3l1_g9_w19",
@@ -1202,26 +1222,28 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 19
               },
               {
-                "id": "s3l1_g9_w20",
-                "arabic": "الْفَوْزُ الْمُبِينُ",
-                "arabic_text": "الْفَوْزُ الْمُبِينُ",
-                "arabic_markup": "<span class=\"arabic-root\">الْفَوْزُ</span> <span class=\"nonroot\">الْمُبِينُ</span>",
-                "hinglish": "Wazih kamyabi",
-                "hinglish_meaning": "Wazih kamyabi",
+                "id": "s3l1_g9_w17",
+                "arabic": "سُلْطَانٍ مُبِينٍ",
+                "arabic_text": "سُلْطَانٍ مُبِينٍ",
+                "arabic_markup": "<span class=\"arabic-root\">سُلْطَانٍ</span> <span class=\"nonroot\">مُبِينٍ</span>",
+                "hinglish": "Wazih daleel",
+                "hinglish_meaning": "Wazih daleel",
                 "is_filled": true,
                 "translations": {
-                  "hinglish": "Wazih kamyabi",
-                  "en": "The clear success",
-                  "ur": "واضح کامیابی",
-                  "hi": "वाज़ेह कामयाबी",
+                  "hinglish": "Wazih daleel",
+                  "en": "A clear proof",
+                  "ur": "واضح دلیل",
+                  "hi": "वाज़ेह दलील",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 20
               },
               {
                 "id": "s3l1_g9_w21",
@@ -1240,7 +1262,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 21
               },
               {
                 "id": "s3l1_g9_w22",
@@ -1259,26 +1282,28 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 22
               },
               {
-                "id": "s3l1_g9_w23",
-                "arabic": "الْخُسْرَانُ الْمُبِينُ",
-                "arabic_text": "الْخُسْرَانُ الْمُبِينُ",
-                "arabic_markup": "<span class=\"arabic-root\">الْخُسْرَانُ</span> <span class=\"nonroot\">الْمُبِينُ</span>",
-                "hinglish": "Wazih nuqsaan",
-                "hinglish_meaning": "Wazih nuqsaan",
+                "id": "s3l1_g9_w20",
+                "arabic": "الْفَوْزُ الْمُبِينُ",
+                "arabic_text": "الْفَوْزُ الْمُبِينُ",
+                "arabic_markup": "<span class=\"arabic-root\">الْفَوْزُ</span> <span class=\"nonroot\">الْمُبِينُ</span>",
+                "hinglish": "Wazih kamyabi",
+                "hinglish_meaning": "Wazih kamyabi",
                 "is_filled": true,
                 "translations": {
-                  "hinglish": "Wazih nuqsaan",
-                  "en": "The manifest loss",
-                  "ur": "واضح نقصان",
-                  "hi": "वाज़ेह नुक़सान",
+                  "hinglish": "Wazih kamyabi",
+                  "en": "The clear success",
+                  "ur": "واضح کامیابی",
+                  "hi": "वाज़ेह कामयाबी",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 23
               },
               {
                 "id": "s3l1_g9_w24",
@@ -1297,7 +1322,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 24
               },
               {
                 "id": "s3l1_g9_w25",
@@ -1316,7 +1342,28 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 25
+              },
+              {
+                "id": "s3l1_g9_w23",
+                "arabic": "الْخُسْرَانُ الْمُبِينُ",
+                "arabic_text": "الْخُسْرَانُ الْمُبِينُ",
+                "arabic_markup": "<span class=\"arabic-root\">الْخُسْرَانُ</span> <span class=\"nonroot\">الْمُبِينُ</span>",
+                "hinglish": "Wazih nuqsaan",
+                "hinglish_meaning": "Wazih nuqsaan",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Wazih nuqsaan",
+                  "en": "The manifest loss",
+                  "ur": "واضح نقصان",
+                  "hi": "वाज़ेह नुक़सान",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "displayOrder": 26
               },
               {
                 "id": "s3l1_g9_w26",
@@ -1335,9 +1382,11 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 27
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -1535,7 +1584,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -1563,10 +1613,10 @@
             "is_numbered": false,
             "items": [
               {
-                "id": "s3l1_g15_w1",
-                "arabic": "عَذَابٌ شَدِيدٌ",
-                "arabic_text": "عَذَابٌ شَدِيدٌ",
-                "arabic_markup": "<span class=\"nonroot\">عَذَابٌ</span> <span class=\"arabic-root\">شَدِيدٌ</span>",
+                "id": "s3l1_g15_w3",
+                "arabic": "عَذَابًا شَدِيدًا",
+                "arabic_text": "عَذَابًا شَدِيدًا",
+                "arabic_markup": "<span class=\"nonroot\">عَذَابًا</span> <span class=\"arabic-root\">شَدِيدًا</span>",
                 "hinglish": "Sakht azab",
                 "hinglish_meaning": "Sakht azab",
                 "is_filled": true,
@@ -1579,7 +1629,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 1
               },
               {
                 "id": "s3l1_g15_w2",
@@ -1598,13 +1649,14 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 2
               },
               {
-                "id": "s3l1_g15_w3",
-                "arabic": "عَذَابًا شَدِيدًا",
-                "arabic_text": "عَذَابًا شَدِيدًا",
-                "arabic_markup": "<span class=\"nonroot\">عَذَابًا</span> <span class=\"arabic-root\">شَدِيدًا</span>",
+                "id": "s3l1_g15_w1",
+                "arabic": "عَذَابٌ شَدِيدٌ",
+                "arabic_text": "عَذَابٌ شَدِيدٌ",
+                "arabic_markup": "<span class=\"nonroot\">عَذَابٌ</span> <span class=\"arabic-root\">شَدِيدٌ</span>",
                 "hinglish": "Sakht azab",
                 "hinglish_meaning": "Sakht azab",
                 "is_filled": true,
@@ -1617,45 +1669,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
-              },
-              {
-                "id": "s3l1_g15_w4",
-                "arabic": "عَذَابٍ شَدِيدٍ",
-                "arabic_text": "عَذَابٍ شَدِيدٍ",
-                "arabic_markup": "<span class=\"arabic-root\">عَذَابٍ</span> <span class=\"nonroot\">شَدِيدٍ</span>",
-                "hinglish": "Sakht azab",
-                "hinglish_meaning": "Sakht azab",
-                "is_filled": true,
-                "translations": {
-                  "hinglish": "Sakht azab",
-                  "en": "A severe punishment",
-                  "ur": "سخت عذاب",
-                  "hi": "सख़्त अज़ाब",
-                  "bn": null,
-                  "ko": null,
-                  "zh": null,
-                  "es": null
-                }
-              },
-              {
-                "id": "s3l1_g15_w5",
-                "arabic": "زِلْزَالًا شَدِيدًا",
-                "arabic_text": "زِلْزَالًا شَدِيدًا",
-                "arabic_markup": "<span class=\"arabic-root\">زِلْزَالًا</span> <span class=\"nonroot\">شَدِيدًا</span>",
-                "hinglish": "Sakht zalzala",
-                "hinglish_meaning": "Sakht zalzala",
-                "is_filled": true,
-                "translations": {
-                  "hinglish": "Sakht zalzala",
-                  "en": "A severe earthquake",
-                  "ur": "سخت زلزلہ",
-                  "hi": "सख़्त ज़लज़ला",
-                  "bn": null,
-                  "ko": null,
-                  "zh": null,
-                  "es": null
-                }
+                },
+                "displayOrder": 3
               },
               {
                 "id": "s3l1_g15_w6",
@@ -1674,9 +1689,51 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 4
+              },
+              {
+                "id": "s3l1_g15_w5",
+                "arabic": "زِلْزَالًا شَدِيدًا",
+                "arabic_text": "زِلْزَالًا شَدِيدًا",
+                "arabic_markup": "<span class=\"arabic-root\">زِلْزَالًا</span> <span class=\"nonroot\">شَدِيدًا</span>",
+                "hinglish": "Sakht zalzala",
+                "hinglish_meaning": "Sakht zalzala",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Sakht zalzala",
+                  "en": "A severe earthquake",
+                  "ur": "سخت زلزلہ",
+                  "hi": "सख़्त ज़लज़ला",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "displayOrder": 5
+              },
+              {
+                "id": "s3l1_g15_w4",
+                "arabic": "عَذَابٍ شَدِيدٍ",
+                "arabic_text": "عَذَابٍ شَدِيدٍ",
+                "arabic_markup": "<span class=\"arabic-root\">عَذَابٍ</span> <span class=\"nonroot\">شَدِيدٍ</span>",
+                "hinglish": "Sakht azab",
+                "hinglish_meaning": "Sakht azab",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Sakht azab",
+                  "en": "A severe punishment",
+                  "ur": "سخت عذاب",
+                  "hi": "सख़्त अज़ाब",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "displayOrder": 6
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -1704,23 +1761,24 @@
             "is_numbered": false,
             "items": [
               {
-                "id": "s3l1_g18_w1",
-                "arabic": "خَيْرًا كَثِيرًا",
-                "arabic_text": "خَيْرًا كَثِيرًا",
-                "arabic_markup": "<span class=\"arabic-root\">خَيْرًا</span> <span class=\"nonroot\">كَثِيرًا</span>",
-                "hinglish": "Zyada bhalai",
-                "hinglish_meaning": "Zyada bhalai",
+                "id": "s3l1_g18_w3",
+                "arabic": "ذِكْرًا كَثِيرًا",
+                "arabic_text": "ذِكْرًا كَثِيرًا",
+                "arabic_markup": "<span class=\"arabic-root\">ذِكْرًا</span> <span class=\"nonroot\">كَثِيرًا</span>",
+                "hinglish": "Zyada dhikr",
+                "hinglish_meaning": "Zyada dhikr",
                 "is_filled": true,
                 "translations": {
-                  "hinglish": "Zyada bhalai",
-                  "en": "Much good",
-                  "ur": "بہت بھلائی",
-                  "hi": "बहुत भलाई",
+                  "hinglish": "Zyada dhikr",
+                  "en": "Much remembrance",
+                  "ur": "بہت ذکر",
+                  "hi": "बहुत ज़िक्र",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 1
               },
               {
                 "id": "s3l1_g18_w2",
@@ -1739,64 +1797,28 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 2
               },
               {
-                "id": "s3l1_g18_w3",
-                "arabic": "ذِكْرًا كَثِيرًا",
-                "arabic_text": "ذِكْرًا كَثِيرًا",
-                "arabic_markup": "<span class=\"arabic-root\">ذِكْرًا</span> <span class=\"nonroot\">كَثِيرًا</span>",
-                "hinglish": "Zyada dhikr",
-                "hinglish_meaning": "Zyada dhikr",
+                "id": "s3l1_g18_w1",
+                "arabic": "خَيْرًا كَثِيرًا",
+                "arabic_text": "خَيْرًا كَثِيرًا",
+                "arabic_markup": "<span class=\"arabic-root\">خَيْرًا</span> <span class=\"nonroot\">كَثِيرًا</span>",
+                "hinglish": "Zyada bhalai",
+                "hinglish_meaning": "Zyada bhalai",
                 "is_filled": true,
                 "translations": {
-                  "hinglish": "Zyada dhikr",
-                  "en": "Much remembrance",
-                  "ur": "بہت ذکر",
-                  "hi": "बहुत ज़िक्र",
+                  "hinglish": "Zyada bhalai",
+                  "en": "Much good",
+                  "ur": "بہت بھلائی",
+                  "hi": "बहुत भलाई",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
-              },
-              {
-                "id": "s3l1_g18_w4",
-                "arabic": "أَذًى كَثِيرًا",
-                "arabic_text": "أَذًى كَثِيرًا",
-                "arabic_markup": "<span class=\"arabic-root\">أَذًى</span> <span class=\"nonroot\">كَثِيرًا</span>",
-                "hinglish": "Zyada takleef",
-                "hinglish_meaning": "Zyada takleef",
-                "is_filled": true,
-                "translations": {
-                  "hinglish": "Zyada takleef",
-                  "en": "Much harm",
-                  "ur": "بہت تکلیف",
-                  "hi": "बहुत तकलीफ़",
-                  "bn": null,
-                  "ko": null,
-                  "zh": null,
-                  "es": null
-                }
-              },
-              {
-                "id": "s3l1_g18_w5",
-                "arabic": "فَاكِهَةٍ كَثِيرَةٍ",
-                "arabic_text": "فَاكِهَةٍ كَثِيرَةٍ",
-                "arabic_markup": "<span class=\"arabic-root\">فَاكِهَةٍ</span> <span class=\"nonroot\">كَثِيرَةٍ</span>",
-                "hinglish": "Zyada phal",
-                "hinglish_meaning": "Zyada phal",
-                "is_filled": true,
-                "translations": {
-                  "hinglish": "Zyada phal",
-                  "en": "Abundant fruit",
-                  "ur": "بہت سے پھل",
-                  "hi": "बहुत से फल",
-                  "bn": null,
-                  "ko": null,
-                  "zh": null,
-                  "es": null
-                }
+                },
+                "displayOrder": 3
               },
               {
                 "id": "s3l1_g18_w6",
@@ -1815,9 +1837,51 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 4
+              },
+              {
+                "id": "s3l1_g18_w5",
+                "arabic": "فَاكِهَةٍ كَثِيرَةٍ",
+                "arabic_text": "فَاكِهَةٍ كَثِيرَةٍ",
+                "arabic_markup": "<span class=\"arabic-root\">فَاكِهَةٍ</span> <span class=\"nonroot\">كَثِيرَةٍ</span>",
+                "hinglish": "Zyada phal",
+                "hinglish_meaning": "Zyada phal",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Zyada phal",
+                  "en": "Abundant fruit",
+                  "ur": "بہت سے پھل",
+                  "hi": "बहुत से फल",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "displayOrder": 5
+              },
+              {
+                "id": "s3l1_g18_w4",
+                "arabic": "أَذًى كَثِيرًا",
+                "arabic_text": "أَذًى كَثِيرًا",
+                "arabic_markup": "<span class=\"arabic-root\">أَذًى</span> <span class=\"nonroot\">كَثِيرًا</span>",
+                "hinglish": "Zyada takleef",
+                "hinglish_meaning": "Zyada takleef",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Zyada takleef",
+                  "en": "Much harm",
+                  "ur": "بہت تکلیف",
+                  "hi": "बहुत तकलीफ़",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "displayOrder": 6
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -1845,23 +1909,24 @@
             "is_numbered": false,
             "items": [
               {
-                "id": "s3l1_g21_w1",
-                "arabic": "رَجْعٌ بَعِيدٌ",
-                "arabic_text": "رَجْعٌ بَعِيدٌ",
-                "arabic_markup": "<span class=\"arabic-root\">رَجْعٌ</span> <span class=\"nonroot\">بَعِيدٌ</span>",
-                "hinglish": "Door ka lotna",
-                "hinglish_meaning": "Door ka lotna",
+                "id": "s3l1_g21_w3",
+                "arabic": "الضَّلَالُ الْبَعِيدُ",
+                "arabic_text": "الضَّلَالُ الْبَعِيدُ",
+                "arabic_markup": "<span class=\"arabic-root\">الضَّلَالُ</span> <span class=\"nonroot\">الْبَعِيدُ</span>",
+                "hinglish": "Door ki gumraahi",
+                "hinglish_meaning": "Door ki gumraahi",
                 "is_filled": true,
                 "translations": {
-                  "hinglish": "Door ka lotna",
-                  "en": "A distant return",
-                  "ur": "دور کا لوٹنا",
-                  "hi": "दूर का लौटना",
+                  "hinglish": "Door ki gumraahi",
+                  "en": "The extreme error",
+                  "ur": "دور کی گمراہی",
+                  "hi": "दूर की गुमराही",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 1
               },
               {
                 "id": "s3l1_g21_w2",
@@ -1880,64 +1945,28 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 2
               },
               {
-                "id": "s3l1_g21_w3",
-                "arabic": "الضَّلَالُ الْبَعِيدُ",
-                "arabic_text": "الضَّلَالُ الْبَعِيدُ",
-                "arabic_markup": "<span class=\"arabic-root\">الضَّلَالُ</span> <span class=\"nonroot\">الْبَعِيدُ</span>",
-                "hinglish": "Door ki gumraahi",
-                "hinglish_meaning": "Door ki gumraahi",
+                "id": "s3l1_g21_w1",
+                "arabic": "رَجْعٌ بَعِيدٌ",
+                "arabic_text": "رَجْعٌ بَعِيدٌ",
+                "arabic_markup": "<span class=\"arabic-root\">رَجْعٌ</span> <span class=\"nonroot\">بَعِيدٌ</span>",
+                "hinglish": "Door ka lotna",
+                "hinglish_meaning": "Door ka lotna",
                 "is_filled": true,
                 "translations": {
-                  "hinglish": "Door ki gumraahi",
-                  "en": "The extreme error",
-                  "ur": "دور کی گمراہی",
-                  "hi": "دور کی گمراہی",
+                  "hinglish": "Door ka lotna",
+                  "en": "A distant return",
+                  "ur": "دور کا لوٹنا",
+                  "hi": "दूर का लौटना",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
-              },
-              {
-                "id": "s3l1_g21_w4",
-                "arabic": "عَذَابًا قَرِيبًا",
-                "arabic_text": "عَذَابًا قَرِيبًا",
-                "arabic_markup": "<span class=\"nonroot\">عَذَابًا</span> <span class=\"arabic-root\">قَرِيبًا</span>",
-                "hinglish": "Qareeb ka azab",
-                "hinglish_meaning": "Qareeb ka azab",
-                "is_filled": true,
-                "translations": {
-                  "hinglish": "Qareeb ka azab",
-                  "en": "A near punishment",
-                  "ur": "قریب کا عذاب",
-                  "hi": "क़रीब का अज़ाब",
-                  "bn": null,
-                  "ko": null,
-                  "zh": null,
-                  "es": null
-                }
-              },
-              {
-                "id": "s3l1_g21_w5",
-                "arabic": "فَتْحًا قَرِيبًا",
-                "arabic_text": "فَتْحًا قَرِيبًا",
-                "arabic_markup": "<span class=\"arabic-root\">فَتْحًا</span> <span class=\"nonroot\">قَرِيبًا</span>",
-                "hinglish": "Qareeb ki fatah",
-                "hinglish_meaning": "Qareeb ki fatah",
-                "is_filled": true,
-                "translations": {
-                  "hinglish": "Qareeb ki fatah",
-                  "en": "A near victory",
-                  "ur": "قریب کی فتح",
-                  "hi": "क़रीब की फ़तह",
-                  "bn": null,
-                  "ko": null,
-                  "zh": null,
-                  "es": null
-                }
+                },
+                "displayOrder": 3
               },
               {
                 "id": "s3l1_g21_w6",
@@ -1956,13 +1985,14 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 4
               },
               {
-                "id": "s3l1_g21_w7",
-                "arabic": "فَتْحٌ قَرِيبٌ",
-                "arabic_text": "فَتْحٌ قَرِيبٌ",
-                "arabic_markup": "<span class=\"arabic-root\">فَتْحٌ</span> <span class=\"nonroot\">قَرِيبٌ</span>",
+                "id": "s3l1_g21_w5",
+                "arabic": "فَتْحًا قَرِيبًا",
+                "arabic_text": "فَتْحًا قَرِيبًا",
+                "arabic_markup": "<span class=\"arabic-root\">فَتْحًا</span> <span class=\"nonroot\">قَرِيبًا</span>",
                 "hinglish": "Qareeb ki fatah",
                 "hinglish_meaning": "Qareeb ki fatah",
                 "is_filled": true,
@@ -1975,26 +2005,28 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 5
               },
               {
-                "id": "s3l1_g21_w8",
-                "arabic": "أَجَلٍ قَرِيبٍ",
-                "arabic_text": "أَجَلٍ قَرِيبٍ",
-                "arabic_markup": "<span class=\"nonroot\">أَجَلٍ</span> <span class=\"arabic-root\">قَرِيبٍ</span>",
-                "hinglish": "Qareeb ka waqt",
-                "hinglish_meaning": "Qareeb ka waqt",
+                "id": "s3l1_g21_w4",
+                "arabic": "عَذَابًا قَرِيبًا",
+                "arabic_text": "عَذَابًا قَرِيبًا",
+                "arabic_markup": "<span class=\"nonroot\">عَذَابًا</span> <span class=\"arabic-root\">قَرِيبًا</span>",
+                "hinglish": "Qareeb ka azab",
+                "hinglish_meaning": "Qareeb ka azab",
                 "is_filled": true,
                 "translations": {
-                  "hinglish": "Qareeb ka waqt",
-                  "en": "A near term",
-                  "ur": "قریب کا وقت",
-                  "hi": "क़रीब का वक़्त",
+                  "hinglish": "Qareeb ka azab",
+                  "en": "A near punishment",
+                  "ur": "قریب کا عذاب",
+                  "hi": "क़रीब का अज़ाब",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 6
               },
               {
                 "id": "s3l1_g21_w9",
@@ -2013,9 +2045,51 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 7
+              },
+              {
+                "id": "s3l1_g21_w8",
+                "arabic": "أَجَلٍ قَرِيبٍ",
+                "arabic_text": "أَجَلٍ قَرِيبٍ",
+                "arabic_markup": "<span class=\"nonroot\">أَجَلٍ</span> <span class=\"arabic-root\">قَرِيبٍ</span>",
+                "hinglish": "Qareeb ka waqt",
+                "hinglish_meaning": "Qareeb ka waqt",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Qareeb ka waqt",
+                  "en": "A near term",
+                  "ur": "قریب کا وقت",
+                  "hi": "क़रीब का वक़्त",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "displayOrder": 8
+              },
+              {
+                "id": "s3l1_g21_w7",
+                "arabic": "فَتْحٌ قَرِيبٌ",
+                "arabic_text": "فَتْحٌ قَرِيبٌ",
+                "arabic_markup": "<span class=\"arabic-root\">فَتْحٌ</span> <span class=\"nonroot\">قَرِيبٌ</span>",
+                "hinglish": "Qareeb ki fatah",
+                "hinglish_meaning": "Qareeb ki fatah",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Qareeb ki fatah",
+                  "en": "A near victory",
+                  "ur": "قریب کی فتح",
+                  "hi": "क़रीब की फ़तह",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "displayOrder": 9
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -2044,9 +2118,9 @@
             "items": [
               {
                 "id": "s3l1_g24_w1",
-                "arabic": "رِيحٌ طَيِّبَةٌ",
-                "arabic_text": "رِيحٌ طَيِّبَةٌ",
-                "arabic_markup": "<span class=\"arabic-root\">رِيحٌ</span> <span class=\"nonroot\">طَيِّبَةٌ</span>",
+                "arabic": "رِيحٍ طَيِّبَةٍ",
+                "arabic_text": "رِيحٍ طَيِّبَةٍ",
+                "arabic_markup": "<span class=\"arabic-root\">رِيحٍ</span> <span class=\"nonroot\">طَيِّبَةٍ</span>",
                 "hinglish": "Pakeeza hawa",
                 "hinglish_meaning": "Pakeeza hawa",
                 "is_filled": true,
@@ -2194,7 +2268,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -2278,7 +2353,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -2402,9 +2478,9 @@
               },
               {
                 "id": "s3l1_g30_w6",
-                "arabic": "مَاءٌ وَاحِدٌ",
-                "arabic_text": "مَاءٌ وَاحِدٌ",
-                "arabic_markup": "<span class=\"arabic-root\">مَاءٌ</span> <span class=\"nonroot\">وَاحِدٌ</span>",
+                "arabic": "مَاءٍ وَاحِدٍ",
+                "arabic_text": "مَاءٍ وَاحِدٍ",
+                "arabic_markup": "<span class=\"arabic-root\">مَاءٍ</span> <span class=\"nonroot\">وَاحِدٍ</span>",
                 "hinglish": "Ek paani",
                 "hinglish_meaning": "Ek paani",
                 "is_filled": true,
@@ -2476,7 +2552,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -2560,7 +2637,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -2637,14 +2715,15 @@
                   "hinglish": "Badi nishani",
                   "en": "The greatest sign",
                   "ur": "بڑی نشانی",
-                  "hi": "बड़ी निशانی",
+                  "hi": "बड़ी निशानी",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -2728,7 +2807,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -2793,7 +2873,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 2
           }
         }
       ],
@@ -3253,9 +3334,9 @@
               },
               {
                 "id": "s3l2_g4_w19",
-                "arabic": "الْعَذَابُ الْأَكْبَرُ",
-                "arabic_text": "الْعَذَابُ الْأَكْبَرُ",
-                "arabic_markup": "<span class=\"nonroot\">الْعَذَابُ</span> <span class=\"arabic-root\">الْأَكْبَرُ</span>",
+                "arabic": "الْعَذَابِ الْأَكْبَرِ",
+                "arabic_text": "الْعَذَابِ الْأَكْبَرِ",
+                "arabic_markup": "<span class=\"nonroot\">الْعَذَابِ</span> <span class=\"arabic-root\">الْأَكْبَرِ</span>",
                 "hinglish": "Bada azab",
                 "hinglish_meaning": "Bada azab",
                 "is_filled": true,
@@ -3289,7 +3370,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -3430,7 +3512,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -3533,7 +3616,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -3695,9 +3779,9 @@
               },
               {
                 "id": "s3l2_g13_w8",
-                "arabic": "الْقُرْآنِ الْعَظِيمِ",
-                "arabic_text": "الْقُرْآنِ الْعَظِيمِ",
-                "arabic_markup": "<span class=\"nonroot\">الْقُرْآنِ</span> <span class=\"arabic-root\">الْعَظِيمِ</span>",
+                "arabic": "الْقُرْآنَ الْعَظِيمَ",
+                "arabic_text": "الْقُرْآنَ الْعَظِيمَ",
+                "arabic_markup": "<span class=\"nonroot\">الْقُرْآنَ</span> <span class=\"arabic-root\">الْعَظِيمَ</span>",
                 "hinglish": "Azeem Qur'an",
                 "hinglish_meaning": "Azeem Qur'an",
                 "is_filled": true,
@@ -3731,7 +3815,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -3874,9 +3959,9 @@
               },
               {
                 "id": "s3l2_g16_w7",
-                "arabic": "قَوْلٌ مُخْتَلِفٌ",
-                "arabic_text": "قَوْلٌ مُخْتَلِفٌ",
-                "arabic_markup": "<span class=\"nonroot\">قَوْلٌ</span> <span class=\"arabic-root\">مُخْتَلِفٌ</span>",
+                "arabic": "قَوْلٍ مُخْتَلِفٍ",
+                "arabic_text": "قَوْلٍ مُخْتَلِفٍ",
+                "arabic_markup": "<span class=\"nonroot\">قَوْلٍ</span> <span class=\"arabic-root\">مُخْتَلِفٍ</span>",
                 "hinglish": "Mukhtalif baat",
                 "hinglish_meaning": "Mukhtalif baat",
                 "is_filled": true,
@@ -3929,7 +4014,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -3958,9 +4044,9 @@
             "items": [
               {
                 "id": "s3l2_g19_w1",
-                "arabic": "يَوْمٌ أَلِيمٌ",
-                "arabic_text": "يَوْمٌ أَلِيمٌ",
-                "arabic_markup": "<span class=\"nonroot\">يَوْمٌ</span> <span class=\"arabic-root\">أَلِيمٌ</span>",
+                "arabic": "يَوْمٍ أَلِيمٍ",
+                "arabic_text": "يَوْمٍ أَلِيمٍ",
+                "arabic_markup": "<span class=\"nonroot\">يَوْمٍ</span> <span class=\"arabic-root\">أَلِيمٍ</span>",
                 "hinglish": "Dardnaak din",
                 "hinglish_meaning": "Dardnaak din",
                 "is_filled": true,
@@ -3996,9 +4082,9 @@
               },
               {
                 "id": "s3l2_g19_w3",
-                "arabic": "يَوْمٌ عَظِيمٌ",
-                "arabic_text": "يَوْمٌ عَظِيمٌ",
-                "arabic_markup": "<span class=\"nonroot\">يَوْمٌ</span> <span class=\"arabic-root\">عَظِيمٌ</span>",
+                "arabic": "يَوْمٍ عَظِيمٍ",
+                "arabic_text": "يَوْمٍ عَظِيمٍ",
+                "arabic_markup": "<span class=\"nonroot\">يَوْمٍ</span> <span class=\"arabic-root\">عَظِيمٍ</span>",
                 "hinglish": "Bada din",
                 "hinglish_meaning": "Bada din",
                 "is_filled": true,
@@ -4034,9 +4120,9 @@
               },
               {
                 "id": "s3l2_g19_w5",
-                "arabic": "يَوْمٌ مَعْلُومٌ",
-                "arabic_text": "يَوْمٌ مَعْلُومٌ",
-                "arabic_markup": "<span class=\"nonroot\">يَوْمٌ</span> <span class=\"arabic-root\">مَعْلُومٌ</span>",
+                "arabic": "يَوْمٍ مَعْلُومٍ",
+                "arabic_text": "يَوْمٍ مَعْلُومٍ",
+                "arabic_markup": "<span class=\"nonroot\">يَوْمٍ</span> <span class=\"arabic-root\">مَعْلُومٍ</span>",
                 "hinglish": "Muqarrar din",
                 "hinglish_meaning": "Muqarrar din",
                 "is_filled": true,
@@ -4053,9 +4139,9 @@
               },
               {
                 "id": "s3l2_g19_w6",
-                "arabic": "يَوْمٌ مُحِيطٌ",
-                "arabic_text": "يَوْمٌ مُحِيطٌ",
-                "arabic_markup": "<span class=\"nonroot\">يَوْمٌ</span> <span class=\"arabic-root\">مُحِيطٌ</span>",
+                "arabic": "يَوْمٍ مُحِيطٍ",
+                "arabic_text": "يَوْمٍ مُحِيطٍ",
+                "arabic_markup": "<span class=\"nonroot\">يَوْمٍ</span> <span class=\"arabic-root\">مُحِيطٍ</span>",
                 "hinglish": "Gherne wala din",
                 "hinglish_meaning": "Gherne wala din",
                 "is_filled": true,
@@ -4070,7 +4156,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -4099,9 +4186,9 @@
             "items": [
               {
                 "id": "s3l2_g22_w1",
-                "arabic": "شَيْءٌ عَجَابٌ",
-                "arabic_text": "شَيْءٌ عَجَابٌ",
-                "arabic_markup": "<span class=\"nonroot\">شَيْءٌ</span> <span class=\"arabic-root\">عَجَابٌ</span>",
+                "arabic": "شَيْءٌ عُجَابٌ",
+                "arabic_text": "شَيْءٌ عُجَابٌ",
+                "arabic_markup": "<span class=\"nonroot\">شَيْءٌ</span> <span class=\"arabic-root\">عُجَابٌ</span>",
                 "hinglish": "Anokhi cheez",
                 "hinglish_meaning": "Anokhi cheez",
                 "is_filled": true,
@@ -4156,9 +4243,9 @@
               },
               {
                 "id": "s3l2_g22_w4",
-                "arabic": "شَيْءٌ مُبِينٌ",
-                "arabic_text": "شَيْءٌ مُبِينٌ",
-                "arabic_markup": "<span class=\"nonroot\">شَيْءٌ</span> <span class=\"arabic-root\">مُبِينٌ</span>",
+                "arabic": "شَيْءٍ مُبِينٍ",
+                "arabic_text": "شَيْءٍ مُبِينٍ",
+                "arabic_markup": "<span class=\"nonroot\">شَيْءٍ</span> <span class=\"arabic-root\">مُبِينٍ</span>",
                 "hinglish": "Wazih cheez",
                 "hinglish_meaning": "Wazih cheez",
                 "is_filled": true,
@@ -4211,7 +4298,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -4295,7 +4383,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -4379,7 +4468,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -4463,7 +4553,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -4547,7 +4638,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -4631,7 +4723,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -4715,7 +4808,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -4744,9 +4838,9 @@
             "items": [
               {
                 "id": "s3l2_g43_w1",
-                "arabic": "كَلِمَةٌ بَاقِيَةٌ",
-                "arabic_text": "كَلِمَةٌ بَاقِيَةٌ",
-                "arabic_markup": "<span class=\"nonroot\">كَلِمَةٌ</span> <span class=\"arabic-root\">بَاقِيَةٌ</span>",
+                "arabic": "كَلِمَةً بَاقِيَةً",
+                "arabic_text": "كَلِمَةً بَاقِيَةً",
+                "arabic_markup": "<span class=\"nonroot\">كَلِمَةً</span> <span class=\"arabic-root\">بَاقِيَةً</span>",
                 "hinglish": "Baqi rehne wali baat",
                 "hinglish_meaning": "Baqi rehne wali baat",
                 "is_filled": true,
@@ -4799,7 +4893,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -4883,7 +4978,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -4950,9 +5046,9 @@
               },
               {
                 "id": "s3l2_g49_w3",
-                "arabic": "ضَلَالٌ كَبِيرٌ",
-                "arabic_text": "ضَلَالٌ كَبِيرٌ",
-                "arabic_markup": "<span class=\"nonroot\">ضَلَالٌ</span> <span class=\"arabic-root\">كَبِيرٌ</span>",
+                "arabic": "ضَلَالٍ كَبِيرٍ",
+                "arabic_text": "ضَلَالٍ كَبِيرٍ",
+                "arabic_markup": "<span class=\"nonroot\">ضَلَالٍ</span> <span class=\"arabic-root\">كَبِيرٍ</span>",
                 "hinglish": "Badi gumraahi",
                 "hinglish_meaning": "Badi gumraahi",
                 "is_filled": true,
@@ -4960,14 +5056,15 @@
                   "hinglish": "Badi gumraahi",
                   "en": "A great error",
                   "ur": "بڑی گمراہی",
-                  "hi": "بڑی گمراہی",
+                  "hi": "बड़ी गुमराही",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -5034,9 +5131,9 @@
               },
               {
                 "id": "s3l2_g52_w3",
-                "arabic": "أُمَّةٌ مُسْلِمَةٌ",
-                "arabic_text": "أُمَّةٌ مُسْلِمَةٌ",
-                "arabic_markup": "<span class=\"nonroot\">أُمَّةٌ</span> <span class=\"arabic-root\">مُسْلِمَةٌ</span>",
+                "arabic": "أُمَّةً مُسْلِمَةً",
+                "arabic_text": "أُمَّةً مُسْلِمَةً",
+                "arabic_markup": "<span class=\"nonroot\">أُمَّةً</span> <span class=\"arabic-root\">مُسْلِمَةً</span>",
                 "hinglish": "Farmanbardar ummat",
                 "hinglish_meaning": "Farmanbardar ummat",
                 "is_filled": true,
@@ -5051,7 +5148,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -5116,7 +5214,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 2
           }
         },
         {
@@ -5181,7 +5280,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 2
           }
         },
         {
@@ -5331,7 +5431,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "27:79"
               },
               {
                 "id": "s3l3_g3_w3",
@@ -5350,7 +5451,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "56:46"
               },
               {
                 "id": "s3l3_g3_w4",
@@ -5369,7 +5471,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "2:61"
               },
               {
                 "id": "s3l3_g3_w5",
@@ -5445,7 +5548,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "85:22"
               },
               {
                 "id": "s3l3_g3_w9",
@@ -5521,7 +5625,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "17:1"
               },
               {
                 "id": "s3l3_g3_w13",
@@ -5540,7 +5645,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "12:67"
               },
               {
                 "id": "s3l3_g3_w14",
@@ -5559,35 +5665,9 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
-              }
-            ]
-          }
-        },
-        {
-          "id": "sec_s3l3_r4",
-          "type": "rule_paragraph",
-          "data": {
-            "text": "Harf Laam-e-Ta'keed (لَـ) fiqre mein zor aur yaqeen paida karne ke liye shuru mein lagaya jaata hai. Neeche diye gaye murakkabaat mein laal Laam par khas tawajjuh dein.",
-            "content": "Harf Laam-e-Ta'keed (لَـ) fiqre mein zor aur yaqeen paida karne ke liye shuru mein lagaya jaata hai. Neeche diye gaye murakkabaat mein laal Laam par khas tawajjuh dein.",
-            "hinglish_text": "Harf Laam-e-Ta'keed (لَـ) fiqre mein zor aur yaqeen paida karne ke liye shuru mein lagaya jaata hai. Neeche diye gaye murakkabaat mein laal Laam par khas tawajjuh dein."
-          }
-        },
-        {
-          "id": "sec_s3l3_lbl5",
-          "type": "section_label",
-          "data": {
-            "text": "Laam-e-Ta'keed (لَـ) — Ta'keed aur Zor",
-            "title": "Laam-e-Ta'keed (لَـ) — Ta'keed aur Zor",
-            "label": "Laam-e-Ta'keed (لَـ) — Ta'keed aur Zor"
-          }
-        },
-        {
-          "id": "sec_s3l3_g6",
-          "type": "two_col_numbered_list",
-          "data": {
-            "is_numbered": false,
-            "items": [
+                },
+                "ref": "36:80"
+              },
               {
                 "id": "s3l3_g6_w1",
                 "arabic": "بِسِحْرٍ عَظِيمٍ",
@@ -5624,7 +5704,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "17:1"
               },
               {
                 "id": "s3l3_g6_w3",
@@ -5663,7 +5744,34 @@
                   "zh": null,
                   "es": null
                 }
-              },
+              }
+            ]
+          }
+        },
+        {
+          "id": "sec_s3l3_r4",
+          "type": "rule_paragraph",
+          "data": {
+            "text": "Harf Laam-e-Ta'keed (لَـ) fiqre mein zor aur yaqeen paida karne ke liye shuru mein lagaya jaata hai. Neeche diye gaye murakkabaat mein laal Laam par khas tawajjuh dein.",
+            "content": "Harf Laam-e-Ta'keed (لَـ) fiqre mein zor aur yaqeen paida karne ke liye shuru mein lagaya jaata hai. Neeche diye gaye murakkabaat mein laal Laam par khas tawajjuh dein.",
+            "hinglish_text": "Harf Laam-e-Ta'keed (لَـ) fiqre mein zor aur yaqeen paida karne ke liye shuru mein lagaya jaata hai. Neeche diye gaye murakkabaat mein laal Laam par khas tawajjuh dein."
+          }
+        },
+        {
+          "id": "sec_s3l3_lbl5",
+          "type": "section_label",
+          "data": {
+            "text": "Laam-e-Ta'keed (لَـ) — Ta'keed aur Zor",
+            "title": "Laam-e-Ta'keed (لَـ) — Ta'keed aur Zor",
+            "label": "Laam-e-Ta'keed (لَـ) — Ta'keed aur Zor"
+          }
+        },
+        {
+          "id": "sec_s3l3_g6",
+          "type": "two_col_numbered_list",
+          "data": {
+            "is_numbered": false,
+            "items": [
               {
                 "id": "s3l3_g6_w5",
                 "arabic": "لَسَاحِرٌ عَلِيمٌ",
@@ -5695,7 +5803,7 @@
                   "hinglish": "Yaqeenan bada zulm hai",
                   "en": "Indeed a tremendous injustice",
                   "ur": "یقیناً بڑا ظلم ہے",
-                  "hi": "यक़ीनन बड़ा ज़ुल्م है",
+                  "hi": "यक़ीनन बड़ा ज़ुल्म है",
                   "bn": null,
                   "ko": null,
                   "zh": null,
@@ -5704,9 +5812,9 @@
               },
               {
                 "id": "s3l3_g6_w7",
-                "arabic": "لَشَيْءٌ عَجَابٌ",
-                "arabic_text": "لَشَيْءٌ عَجَابٌ",
-                "arabic_markup": "<span class=\"nonroot\">لَ</span><span class=\"arabic-root\">شَيْءٌ عَجَابٌ</span>",
+                "arabic": "لَشَيْءٌ عُجَابٌ",
+                "arabic_text": "لَشَيْءٌ عُجَابٌ",
+                "arabic_markup": "<span class=\"nonroot\">لَشَيْءٌ</span> <span class=\"arabic-root\">عُجَابٌ</span>",
                 "hinglish": "Yaqeenan bohot anokhi cheez hai",
                 "hinglish_meaning": "Yaqeenan bohot anokhi cheez hai",
                 "is_filled": true,
@@ -5837,9 +5945,9 @@
               },
               {
                 "id": "s3l3_g6_w14",
-                "arabic": "لَلَّدَارُ الْآخِرَةُ",
-                "arabic_text": "لَلَّدَارُ الْآخِرَةُ",
-                "arabic_markup": "<span class=\"nonroot\">لَ</span><span class=\"arabic-root\">لَّدَارُ الْآخِرَةُ</span>",
+                "arabic": "لَلدَّارُ الْآخِرَةُ",
+                "arabic_text": "لَلدَّارُ الْآخِرَةُ",
+                "arabic_markup": "<span class=\"nonroot\">لَلدَّارُ</span> <span class=\"arabic-root\">الْآخِرَةُ</span>",
                 "hinglish": "Yaqeenan aakhirat ka ghar hai",
                 "hinglish_meaning": "Yaqeenan aakhirat ka ghar hai",
                 "is_filled": true,
@@ -5882,25 +5990,6 @@
             "is_numbered": false,
             "items": [
               {
-                "id": "s3l3_gu9_w1",
-                "arabic": "إِلَى الْحَقِّ وَإِلَى طَرِيقٍ مُسْتَقِيمٍ",
-                "arabic_text": "إِلَى الْحَقِّ وَإِلَى طَرِيقٍ مُسْتَقِيمٍ",
-                "arabic_markup": "<span class=\"nonroot\">إِلَى الْحَقِّ</span> <span class=\"arabic-root\">وَ</span><span class=\"nonroot\">إِلَى طَرِيقٍ مُسْتَقِيمٍ</span>",
-                "hinglish": "Haq ki taraf aur seedhe raste ki taraf",
-                "hinglish_meaning": "Haq ki taraf aur seedhe raste ki taraf",
-                "is_filled": true,
-                "translations": {
-                  "hinglish": "Haq ki taraf aur seedhe raste ki taraf",
-                  "en": "To the truth and to a straight path",
-                  "ur": "حق کی طرف اور سیدھے راستے کی طرف",
-                  "hi": "हक़ की तरफ़ और सीधे रास्ते की तरफ़",
-                  "bn": null,
-                  "ko": null,
-                  "zh": null,
-                  "es": null
-                }
-              },
-              {
                 "id": "s3l3_gu9_w2",
                 "arabic": "إِلَى فِرْعَوْنَ بِسُلْطَانٍ مُبِينٍ",
                 "arabic_text": "إِلَى فِرْعَوْنَ بِسُلْطَانٍ مُبِينٍ",
@@ -5917,26 +6006,30 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 1,
+                "ref": "51:38"
               },
               {
-                "id": "s3l3_gu9_w3",
-                "arabic": "زِينَةً وَأَمْوَالًا فِي الْحَيَاةِ الدُّنْيَا",
-                "arabic_text": "زِينَةً وَأَمْوَالًا فِي الْحَيَاةِ الدُّنْيَا",
-                "arabic_markup": "<span class=\"arabic-root\">زِينَةً وَأَمْوَالًا</span> <span class=\"nonroot\">فِي الْحَيَاةِ الدُّنْيَا</span>",
-                "hinglish": "Zeenat aur maal duniya ki zindagi mein",
-                "hinglish_meaning": "Zeenat aur maal duniya ki zindagi mein",
+                "id": "s3l3_gu9_w1",
+                "arabic": "إِلَى الْحَقِّ وَإِلَى طَرِيقٍ مُسْتَقِيمٍ",
+                "arabic_text": "إِلَى الْحَقِّ وَإِلَى طَرِيقٍ مُسْتَقِيمٍ",
+                "arabic_markup": "<span class=\"nonroot\">إِلَى الْحَقِّ</span> <span class=\"arabic-root\">وَ</span><span class=\"nonroot\">إِلَى طَرِيقٍ مُسْتَقِيمٍ</span>",
+                "hinglish": "Haq ki taraf aur seedhe raste ki taraf",
+                "hinglish_meaning": "Haq ki taraf aur seedhe raste ki taraf",
                 "is_filled": true,
                 "translations": {
-                  "hinglish": "Zeenat aur maal duniya ki zindagi mein",
-                  "en": "Adornment and wealth in the worldly life",
-                  "ur": "زینت اور مال دنیا کی زندگی میں",
-                  "hi": "ज़ीनत और माल दुनिया की ज़िंदगी में",
+                  "hinglish": "Haq ki taraf aur seedhe raste ki taraf",
+                  "en": "To the truth and to a straight path",
+                  "ur": "حق کی طرف اور سیدھے راستے کی طرف",
+                  "hi": "हक़ की तरफ़ और सीधे रास्ते की तरफ़",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 2,
+                "ref": "46:30"
               },
               {
                 "id": "s3l3_gu9_w4",
@@ -5955,26 +6048,29 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 3
               },
               {
-                "id": "s3l3_gu9_w5",
-                "arabic": "مِنَ السَّمَاءِ مَاءً مُبَارَكًا",
-                "arabic_text": "مِنَ السَّمَاءِ مَاءً مُبَارَكًا",
-                "arabic_markup": "<span class=\"arabic-root\">مِنَ السَّمَاءِ</span> <span class=\"nonroot\">مَاءً مُبَارَكًا</span>",
-                "hinglish": "Aasman se ba-barakat paani",
-                "hinglish_meaning": "Aasman se ba-barakat paani",
+                "id": "s3l3_gu9_w3",
+                "arabic": "زِينَةً وَأَمْوَالًا فِي الْحَيَاةِ الدُّنْيَا",
+                "arabic_text": "زِينَةً وَأَمْوَالًا فِي الْحَيَاةِ الدُّنْيَا",
+                "arabic_markup": "<span class=\"arabic-root\">زِينَةً وَأَمْوَالًا</span> <span class=\"nonroot\">فِي الْحَيَاةِ الدُّنْيَا</span>",
+                "hinglish": "Zeenat aur maal duniya ki zindagi mein",
+                "hinglish_meaning": "Zeenat aur maal duniya ki zindagi mein",
                 "is_filled": true,
                 "translations": {
-                  "hinglish": "Aasman se ba-barakat paani",
-                  "en": "From the sky blessed water",
-                  "ur": "آسمان سے بابرکت پانی",
-                  "hi": "आसमान से बा-बरकत पानी",
+                  "hinglish": "Zeenat aur maal duniya ki zindagi mein",
+                  "en": "Adornment and wealth in the worldly life",
+                  "ur": "زینت اور مال دنیا کی زندگی میں",
+                  "hi": "ज़ीनत और माल दुनिया की ज़िंदगी में",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 4,
+                "ref": "10:88"
               },
               {
                 "id": "s3l3_gu9_w6",
@@ -5993,7 +6089,30 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 5,
+                "ref": "7:38"
+              },
+              {
+                "id": "s3l3_gu9_w5",
+                "arabic": "مِنَ السَّمَاءِ مَاءً مُبَارَكًا",
+                "arabic_text": "مِنَ السَّمَاءِ مَاءً مُبَارَكًا",
+                "arabic_markup": "<span class=\"arabic-root\">مِنَ السَّمَاءِ</span> <span class=\"nonroot\">مَاءً مُبَارَكًا</span>",
+                "hinglish": "Aasman se ba-barakat paani",
+                "hinglish_meaning": "Aasman se ba-barakat paani",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Aasman se ba-barakat paani",
+                  "en": "From the sky blessed water",
+                  "ur": "آسمان سے بابرکت پانی",
+                  "hi": "आसमान से बा-बरकत पानी",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "displayOrder": 6,
+                "ref": "50:9"
               },
               {
                 "id": "s3l3_gu9_w7",
@@ -6012,7 +6131,9 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 7,
+                "ref": "17:1"
               }
             ]
           }
@@ -6050,7 +6171,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "36:2"
               },
               {
                 "id": "s3l3_sn9_s2",
@@ -6070,7 +6192,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "50:1"
               },
               {
                 "id": "s3l3_sn9_s3",
@@ -6110,7 +6233,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "52:1-2"
               },
               {
                 "id": "s3l3_sn9_s5",
@@ -6130,7 +6254,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "52:4"
               },
               {
                 "id": "s3l3_sn9_s6",
@@ -6150,27 +6275,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
-              },
-              {
-                "id": "s3l3_sn9_s7",
-                "sentence_number": 7,
-                "arabic": "هٰذَا سِحْرٌ مُبِينٌ",
-                "arabic_text": "هٰذَا سِحْرٌ مُبِينٌ",
-                "arabic_markup": "<span class=\"arabic-root\">هٰذَا</span> <span class=\"nonroot\">سِحْرٌ مُبِينٌ</span>",
-                "hinglish": "Yeh khula jadoo hai",
-                "hinglish_meaning": "Yeh khula jadoo hai",
-                "is_filled": true,
-                "translations": {
-                  "hinglish": "Yeh khula jadoo hai",
-                  "en": "This is clear magic",
-                  "ur": "یہ کھلا جادو ہے",
-                  "hi": "यह खुला जादू है",
-                  "bn": null,
-                  "ko": null,
-                  "zh": null,
-                  "es": null
-                }
+                },
+                "ref": "52:5"
               }
             ]
           }
@@ -6200,8 +6306,29 @@
             "is_numbered": true,
             "items": [
               {
-                "id": "s3l3_s12_s1",
+                "id": "s3l3_sn9_s7",
                 "sentence_number": 1,
+                "arabic": "هٰذَا سِحْرٌ مُبِينٌ",
+                "arabic_text": "هٰذَا سِحْرٌ مُبِينٌ",
+                "arabic_markup": "<span class=\"arabic-root\">هٰذَا</span> <span class=\"nonroot\">سِحْرٌ مُبِينٌ</span>",
+                "hinglish": "Yeh khula jadoo hai",
+                "hinglish_meaning": "Yeh khula jadoo hai",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Yeh khula jadoo hai",
+                  "en": "This is clear magic",
+                  "ur": "یہ کھلا جادو ہے",
+                  "hi": "यह खुला जादू है",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "displayOrder": 1
+              },
+              {
+                "id": "s3l3_s12_s1",
+                "sentence_number": 2,
                 "arabic": "هٰذَا صِرَاطٌ مُسْتَقِيمٌ",
                 "arabic_text": "هٰذَا صِرَاطٌ مُسْتَقِيمٌ",
                 "arabic_markup": "<span class=\"arabic-root\">هٰذَا</span> <span class=\"nonroot\">صِرَاطٌ مُسْتَقِيمٌ</span>",
@@ -6217,11 +6344,12 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 2
               },
               {
                 "id": "s3l3_s12_s2",
-                "sentence_number": 2,
+                "sentence_number": 3,
                 "arabic": "هٰذَا سَاحِرٌ كَذَّابٌ",
                 "arabic_text": "هٰذَا سَاحِرٌ كَذَّابٌ",
                 "arabic_markup": "<span class=\"arabic-root\">هٰذَا سَاحِرٌ </span><span class=\"nonroot\">كَذَّابٌ</span>",
@@ -6237,11 +6365,13 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 3,
+                "ref": "38:4"
               },
               {
                 "id": "s3l3_s12_s3",
-                "sentence_number": 3,
+                "sentence_number": 4,
                 "arabic": "وَهٰذَا لِسَانٌ عَرَبِيٌّ مُبِينٌ",
                 "arabic_text": "وَهٰذَا لِسَانٌ عَرَبِيٌّ مُبِينٌ",
                 "arabic_markup": "<span class=\"arabic-root\">وَهٰذَا</span> <span class=\"nonroot\">لِسَانٌ عَرَبِيٌّ مُبِينٌ</span>",
@@ -6257,11 +6387,13 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 4,
+                "ref": "16:103"
               },
               {
                 "id": "s3l3_s12_s4",
-                "sentence_number": 4,
+                "sentence_number": 5,
                 "arabic": "كُلٌّ فِي كِتَابٍ مُبِينٍ",
                 "arabic_text": "كُلٌّ فِي كِتَابٍ مُبِينٍ",
                 "arabic_markup": "<span class=\"arabic-root\">كُلٌّ فِي</span> <span class=\"nonroot\">كِتَابٍ مُبِينٍ</span>",
@@ -6277,11 +6409,13 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 5,
+                "ref": "11:6"
               },
               {
                 "id": "s3l3_s12_s5",
-                "sentence_number": 5,
+                "sentence_number": 6,
                 "arabic": "وَفِي الْآخِرَةِ عَذَابٌ شَدِيدٌ",
                 "arabic_text": "وَفِي الْآخِرَةِ عَذَابٌ شَدِيدٌ",
                 "arabic_markup": "<span class=\"arabic-root\">وَفِي الْآخِرَةِ</span> <span class=\"nonroot\">عَذَابٌ شَدِيدٌ</span>",
@@ -6297,11 +6431,13 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 6,
+                "ref": "57:20"
               },
               {
                 "id": "s3l3_s12_s6",
-                "sentence_number": 6,
+                "sentence_number": 7,
                 "arabic": "لِلَّهِ الدِّينُ الْخَالِصُ",
                 "arabic_text": "لِلَّهِ الدِّينُ الْخَالِصُ",
                 "arabic_markup": "<span class=\"arabic-root\">لِلَّهِ</span> <span class=\"nonroot\">الدِّينُ الْخَالِصُ</span>",
@@ -6317,11 +6453,13 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 7,
+                "ref": "39:3"
               },
               {
                 "id": "s3l3_s12_s7",
-                "sentence_number": 7,
+                "sentence_number": 8,
                 "arabic": "فَلِلَّهِ الْحُجَّةُ الْبَالِغَةُ",
                 "arabic_text": "فَلِلَّهِ الْحُجَّةُ الْبَالِغَةُ",
                 "arabic_markup": "<span class=\"arabic-root\">فَلِلَّهِ</span> <span class=\"nonroot\">الْحُجَّةُ الْبَالِغَةُ</span>",
@@ -6337,11 +6475,13 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 8,
+                "ref": "6:149"
               },
               {
                 "id": "s3l3_s12_s8",
-                "sentence_number": 8,
+                "sentence_number": 9,
                 "arabic": "إِنَّ الشِّرْكَ لَظُلْمٌ عَظِيمٌ",
                 "arabic_text": "إِنَّ الشِّرْكَ لَظُلْمٌ عَظِيمٌ",
                 "arabic_markup": "<span class=\"arabic-root\">إِنَّ الشِّرْكَ</span> <span class=\"nonroot\">لَظُلْمٌ عَظِيمٌ</span>",
@@ -6357,11 +6497,13 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 9,
+                "ref": "31:13"
               },
               {
                 "id": "s3l3_s12_s9",
-                "sentence_number": 9,
+                "sentence_number": 10,
                 "arabic": "وَلَدَارُ الْآخِرَةِ خَيْرٌ",
                 "arabic_text": "وَلَدَارُ الْآخِرَةِ خَيْرٌ",
                 "arabic_markup": "<span class=\"nonroot\">وَلَدَارُ الْآخِرَةِ</span> <span class=\"arabic-root\">خَيْرٌ</span>",
@@ -6377,11 +6519,12 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 10
               },
               {
                 "id": "s3l3_s12_s10",
-                "sentence_number": 10,
+                "sentence_number": 11,
                 "arabic": "إِنَّ هٰذَا لَسَاحِرٌ عَلِيمٌ",
                 "arabic_text": "إِنَّ هٰذَا لَسَاحِرٌ عَلِيمٌ",
                 "arabic_markup": "<span class=\"arabic-root\">إِنَّ هٰذَا</span> <span class=\"nonroot\">لَسَاحِرٌ عَلِيمٌ</span>",
@@ -6397,11 +6540,13 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 11,
+                "ref": "7:109"
               },
               {
                 "id": "s3l3_s12_s11",
-                "sentence_number": 11,
+                "sentence_number": 12,
                 "arabic": "إِنَّ هٰذَا لَشَيْءٌ عَجِيبٌ",
                 "arabic_text": "إِنَّ هٰذَا لَشَيْءٌ عَجِيبٌ",
                 "arabic_markup": "<span class=\"arabic-root\">إِنَّ هٰذَا</span> <span class=\"nonroot\">لَشَيْءٌ عَجِيبٌ</span>",
@@ -6417,11 +6562,13 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 12,
+                "ref": "11:72"
               },
               {
                 "id": "s3l3_s12_s12",
-                "sentence_number": 12,
+                "sentence_number": 13,
                 "arabic": "إِنَّ هٰذَا لَشَيْءٌ عُجَابٌ",
                 "arabic_text": "إِنَّ هٰذَا لَشَيْءٌ عُجَابٌ",
                 "arabic_markup": "<span class=\"arabic-root\">إِنَّ هٰذَا</span> <span class=\"nonroot\">لَشَيْءٌ عُجَابٌ</span>",
@@ -6437,11 +6584,13 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 13,
+                "ref": "38:5"
               },
               {
                 "id": "s3l3_s12_s13",
-                "sentence_number": 13,
+                "sentence_number": 14,
                 "arabic": "إِنَّ إِبْرَاهِيمَ كَانَ أُمَّةً قَانِتًا لِلَّهِ",
                 "arabic_text": "إِنَّ إِبْرَاهِيمَ كَانَ أُمَّةً قَانِتًا لِلَّهِ",
                 "arabic_markup": "<span class=\"arabic-root\">إِنَّ إِبْرَاهِيمَ كَانَ</span> <span class=\"nonroot\">أُمَّةً قَانِتًا</span> <span class=\"arabic-root\">لِلَّهِ</span>",
@@ -6457,11 +6606,13 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 14,
+                "ref": "16:120"
               },
               {
                 "id": "s3l3_s12_s14",
-                "sentence_number": 14,
+                "sentence_number": 15,
                 "arabic": "وَلَأَمَةٌ مُؤْمِنَةٌ خَيْرٌ مِنْ مُشْرِكَةٍ",
                 "arabic_text": "وَلَأَمَةٌ مُؤْمِنَةٌ خَيْرٌ مِنْ مُشْرِكَةٍ",
                 "arabic_markup": "<span class=\"nonroot\">وَلَأَمَةٌ مُؤْمِنَةٌ</span> <span class=\"arabic-root\">خَيْرٌ مِنْ مُشْرِكَةٍ</span>",
@@ -6477,7 +6628,262 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 15,
+                "ref": "2:221"
+              },
+              {
+                "id": "s3l3_s12_s15",
+                "arabic": "وَلَعَبْدٌ مُؤْمِنٌ خَيْرٌ مِنْ مُشْرِكٍ",
+                "arabic_text": "وَلَعَبْدٌ مُؤْمِنٌ خَيْرٌ مِنْ مُشْرِكٍ",
+                "arabic_markup": "<span class=\"nonroot\">وَلَ</span><span class=\"arabic-root\">عَبْدٌ مُؤْمِنٌ خَيْرٌ</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">مُشْرِكٍ</span>",
+                "hinglish": "Aur yaqeenan ek momin ghulam kisi mushrik se behtar hai",
+                "hinglish_meaning": "Aur yaqeenan ek momin ghulam kisi mushrik se behtar hai",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Aur yaqeenan ek momin ghulam kisi mushrik se behtar hai",
+                  "en": "And a believing slave is better than a polytheist",
+                  "ur": "اور یقیناً ایک مومن غلام کسی مشرک سے بہتر ہے",
+                  "hi": "और यक़ीनन एक मोमिन ग़ुलाम किसी मुश्रिक से बेहतर है",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "sentence_number": 16,
+                "displayOrder": 16,
+                "ref": "2:221"
+              },
+              {
+                "id": "s3l3_s12_s16",
+                "arabic": "إِنَّ الشَّيْطَانَ لِلْإِنْسَانِ عَدُوٌّ مُبِينٌ",
+                "arabic_text": "إِنَّ الشَّيْطَانَ لِلْإِنْسَانِ عَدُوٌّ مُبِينٌ",
+                "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">الشَّيْطَانَ لِلْإِنْسَانِ عَدُوٌّ مُبِينٌ</span>",
+                "hinglish": "Beshak Shaytan insaan ke liye khula dushman hai",
+                "hinglish_meaning": "Beshak Shaytan insaan ke liye khula dushman hai",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Beshak Shaytan insaan ke liye khula dushman hai",
+                  "en": "Indeed Satan, to man, is a clear enemy",
+                  "ur": "بیشک شیطان انسان کے لیے کھلا دشمن ہے",
+                  "hi": "बेशक शैतान इंसान के लिए खुला दुश्मन है",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "full_width": true,
+                "sentence_number": 17,
+                "displayOrder": 17,
+                "ref": "12:5"
+              },
+              {
+                "id": "s3l3_s12_s17",
+                "arabic": "قَوْلٌ مَعْرُوفٌ وَمَغْفِرَةٌ خَيْرٌ مِنْ صَدَقَةٍ",
+                "arabic_text": "قَوْلٌ مَعْرُوفٌ وَمَغْفِرَةٌ خَيْرٌ مِنْ صَدَقَةٍ",
+                "arabic_markup": "<span class=\"arabic-root\">قَوْلٌ مَعْرُوفٌ وَمَغْفِرَةٌ خَيْرٌ</span> <span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">صَدَقَةٍ</span>",
+                "hinglish": "Achhi baat kehna aur darguzar karna us sadqe se behtar hai",
+                "hinglish_meaning": "Achhi baat kehna aur darguzar karna us sadqe se behtar hai",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Achhi baat kehna aur darguzar karna us sadqe se behtar hai",
+                  "en": "Kind speech and forgiveness are better than charity",
+                  "ur": "اچھی بات کہنا اور درگزر کرنا اس صدقے سے بہتر ہے",
+                  "hi": "अच्छी बात कहना और दरगुज़र करना उस सदक़े से बेहतर है",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "full_width": true,
+                "sentence_number": 18,
+                "displayOrder": 18,
+                "ref": "2:263"
+              },
+              {
+                "id": "s3l3_s12_s18",
+                "arabic": "وَفِي الْآخِرَةِ عَذَابٌ شَدِيدٌ وَمَغْفِرَةٌ مِنَ اللَّهِ وَرِضْوَانٌ",
+                "arabic_text": "وَفِي الْآخِرَةِ عَذَابٌ شَدِيدٌ وَمَغْفِرَةٌ مِنَ اللَّهِ وَرِضْوَانٌ",
+                "arabic_markup": "<span class=\"nonroot\">وَفِي</span> <span class=\"arabic-root\">الْآخِرَةِ عَذَابٌ شَدِيدٌ وَمَغْفِرَةٌ مِنَ اللَّهِ وَرِضْوَانٌ</span>",
+                "hinglish": "Aur Aakhirat mein sakht azaab hai aur Allah ki taraf se maghfirat aur khushnoodi hai",
+                "hinglish_meaning": "Aur Aakhirat mein sakht azaab hai aur Allah ki taraf se maghfirat aur khushnoodi hai",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Aur Aakhirat mein sakht azaab hai aur Allah ki taraf se maghfirat aur khushnoodi hai",
+                  "en": "And in the Hereafter is severe punishment and forgiveness from Allah and approval",
+                  "ur": "اور آخرت میں سخت عذاب ہے اور اللہ کی طرف سے مغفرت اور خوشنودی ہے",
+                  "hi": "और आख़िरत में सख़्त अज़ाब है और अल्लाह की तरफ़ से मग़फ़िरत और ख़ुशनूदी है",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "full_width": true,
+                "sentence_number": 19,
+                "displayOrder": 19,
+                "ref": "57:20"
+              }
+            ]
+          }
+        },
+        {
+          "type": "rule_paragraph",
+          "data": {
+            "text": "Arabi mein (إِنَّمَا) jumle mein shadeed ta'keed (sirf / bas / yaqeenan) ke liye aata hai. Darj zail aayaat ko samjhein aur tarjuma karein:"
+          }
+        },
+        {
+          "type": "two_col_numbered_list",
+          "data": {
+            "cols": 2,
+            "is_numbered": true,
+            "items": [
+              {
+                "id": "s3l3_innama_s1",
+                "arabic": "﴿إِنَّمَا اللَّهُ إِلَٰهٌ وَاحِدٌ﴾",
+                "arabic_text": "﴿إِنَّمَا اللَّهُ إِلَٰهٌ وَاحِدٌ﴾",
+                "arabic_markup": "﴿<span class=\"nonroot\">إِنَّمَا</span> <span class=\"arabic-root\">اللَّهُ إِلَٰهٌ وَاحِدٌ</span>﴾",
+                "hinglish": "Beshak Allah hi ek akela Ma'bood hai",
+                "hinglish_meaning": "Beshak Allah hi ek akela Ma'bood hai",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Beshak Allah hi ek akela Ma'bood hai",
+                  "en": "Allah is only One God",
+                  "ur": "بیشک اللہ ہی ایک اکیلا معبود ہے",
+                  "hi": "बेशक अल्लाह ही एक अकेला माबूद है",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "sentence_number": 1,
+                "displayOrder": 1,
+                "ref": "4:171"
+              },
+              {
+                "id": "s3l3_innama_s2",
+                "arabic": "﴿إِنَّمَا الْحَيَاةُ الدُّنْيَا لَعِبٌ وَلَهْوٌ﴾",
+                "arabic_text": "﴿إِنَّمَا الْحَيَاةُ الدُّنْيَا لَعِبٌ وَلَهْوٌ﴾",
+                "arabic_markup": "﴿<span class=\"nonroot\">إِنَّمَا</span> <span class=\"arabic-root\">الْحَيَاةُ الدُّنْيَا لَعِبٌ وَلَهْوٌ</span>﴾",
+                "hinglish": "Dunya ki zindagi toh bas khel aur tamasha hai",
+                "hinglish_meaning": "Dunya ki zindagi toh bas khel aur tamasha hai",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Dunya ki zindagi toh bas khel aur tamasha hai",
+                  "en": "The worldly life is only play and amusement",
+                  "ur": "دنیا کی زندگی تو بس کھیل اور تماشا ہے",
+                  "hi": "दुनिया की ज़िंदगी तो बस खेल और तमाशा है",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "sentence_number": 2,
+                "displayOrder": 2,
+                "ref": "47:36"
+              },
+              {
+                "id": "s3l3_innama_s3",
+                "arabic": "﴿إِنَّمَا هَٰذِهِ الْحَيَاةُ الدُّنْيَا مَتَاعٌ﴾",
+                "arabic_text": "﴿إِنَّمَا هَٰذِهِ الْحَيَاةُ الدُّنْيَا مَتَاعٌ﴾",
+                "arabic_markup": "﴿<span class=\"nonroot\">إِنَّمَا هَٰذِهِ</span> <span class=\"arabic-root\">الْحَيَاةُ الدُّنْيَا مَتَاعٌ</span>﴾",
+                "hinglish": "Yeh dunya ki zindagi toh bas chand roz ka samaan hai",
+                "hinglish_meaning": "Yeh dunya ki zindagi toh bas chand roz ka samaan hai",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Yeh dunya ki zindagi toh bas chand roz ka samaan hai",
+                  "en": "This worldly life is only temporary enjoyment",
+                  "ur": "یہ دنیا کی زندگی تو بس چند روز کا سامان ہے",
+                  "hi": "यह दुनिया की ज़िंदगी तो बस चंद रोज़ का सामान है",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "sentence_number": 3,
+                "displayOrder": 3,
+                "ref": "40:39"
+              }
+            ]
+          }
+        },
+        {
+          "type": "rule_paragraph",
+          "data": {
+            "text": "(مَا : nahin) aur (إِلَّا : magar / siwaaye) ko zehen mein rakhte hue darj zail aayaat ka tarjuma karein:"
+          }
+        },
+        {
+          "type": "two_col_numbered_list",
+          "data": {
+            "cols": 2,
+            "is_numbered": true,
+            "items": [
+              {
+                "id": "s3l3_ma_illa_s1",
+                "arabic": "﴿وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ﴾",
+                "arabic_text": "﴿وَمَا عَلَى الرَّسُولِ إِلَّا الْبَلَاغُ الْمُبِينُ﴾",
+                "arabic_markup": "﴿<span class=\"nonroot\">وَمَا عَلَى</span> <span class=\"arabic-root\">الرَّسُولِ</span> <span class=\"nonroot\">إِلَّا</span> <span class=\"arabic-root\">الْبَلَاغُ الْمُبِينُ</span>﴾",
+                "hinglish": "Aur Rasool par saaf paigham pahuncha dene ke siwa kuch nahin",
+                "hinglish_meaning": "Aur Rasool par saaf paigham pahuncha dene ke siwa kuch nahin",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Aur Rasool par saaf paigham pahuncha dene ke siwa kuch nahin",
+                  "en": "And not upon the Messenger is anything except clear notification",
+                  "ur": "اور رسول پر صاف پیغام پہنچا دینے کے سوا کچھ نہیں",
+                  "hi": "और रसूल पर साफ़ पैग़ाम पहुँचा देने के सिवा कुछ नहीं",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "sentence_number": 1,
+                "displayOrder": 1,
+                "ref": "24:54"
+              },
+              {
+                "id": "s3l3_ma_illa_s2",
+                "arabic": "﴿وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا لَعِبٌ وَلَهْوٌ﴾",
+                "arabic_text": "﴿وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا لَعِبٌ وَلَهْوٌ﴾",
+                "arabic_markup": "﴿<span class=\"nonroot\">وَمَا</span> <span class=\"arabic-root\">الْحَيَاةُ الدُّنْيَا</span> <span class=\"nonroot\">إِلَّا</span> <span class=\"arabic-root\">لَعِبٌ وَلَهْوٌ</span>﴾",
+                "hinglish": "Aur dunya ki zindagi khel aur tamashe ke siwa kuch nahin",
+                "hinglish_meaning": "Aur dunya ki zindagi khel aur tamashe ke siwa kuch nahin",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Aur dunya ki zindagi khel aur tamashe ke siwa kuch nahin",
+                  "en": "And the worldly life is not but play and amusement",
+                  "ur": "اور دنیا کی زندگی کھیل اور تماشے کے سوا کچھ نہیں",
+                  "hi": "और दुनिया की ज़िंदगी खेल और तमाशे के सिवा कुछ नहीं",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "sentence_number": 2,
+                "displayOrder": 2,
+                "ref": "6:32"
+              },
+              {
+                "id": "s3l3_ma_illa_s3",
+                "arabic": "﴿وَمَا الْحَيَاةُ الدُّنْيَا فِي الْآخِرَةِ إِلَّا مَتَاعٌ﴾",
+                "arabic_text": "﴿وَمَا الْحَيَاةُ الدُّنْيَا فِي الْآخِرَةِ إِلَّا مَتَاعٌ﴾",
+                "arabic_markup": "﴿<span class=\"nonroot\">وَمَا</span> <span class=\"arabic-root\">الْحَيَاةُ الدُّنْيَا فِي الْآخِرَةِ</span> <span class=\"nonroot\">إِلَّا</span> <span class=\"arabic-root\">مَتَاعٌ</span>﴾",
+                "hinglish": "Aur Aakhirat ke muqable mein dunya ki zindagi mamooli samaan ke siwa kuch nahin",
+                "hinglish_meaning": "Aur Aakhirat ke muqable mein dunya ki zindagi mamooli samaan ke siwa kuch nahin",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Aur Aakhirat ke muqable mein dunya ki zindagi mamooli samaan ke siwa kuch nahin",
+                  "en": "And the worldly life is not, compared to the Hereafter, except brief enjoyment",
+                  "ur": "اور آخرت کے مقابلے میں دنیا کی زندگی معمولی سامان کے سوا کچھ نہیں",
+                  "hi": "और आख़िरत के मुक़ाबले में दुनिया की ज़िंदगी मामूली सामान के सिवा कुछ नहीं",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "sentence_number": 3,
+                "displayOrder": 3,
+                "ref": "13:26"
               }
             ]
           }
@@ -6783,7 +7189,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "106:3"
               },
               {
                 "id": "s3l4_g4_w11",
@@ -6861,7 +7268,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -7102,11 +7510,11 @@
                 "arabic": "يَوْمُ الْوَعِيدِ",
                 "arabic_text": "يَوْمُ الْوَعِيدِ",
                 "arabic_markup": "<span class=\"nonroot\">يَوْمُ</span> <span class=\"arabic-root\">الْوَعِيدِ</span>",
-                "hinglish": "Khawf ki dhabki ka din",
-                "hinglish_meaning": "Khawf ki dhabki ka din",
+                "hinglish": "Khawf ki dhamki ka din",
+                "hinglish_meaning": "Khawf ki dhamki ka din",
                 "is_filled": true,
                 "translations": {
-                  "hinglish": "Khawf ki dhabki ka din",
+                  "hinglish": "Khawf ki dhamki ka din",
                   "en": "Day of the Threat",
                   "ur": "خوف کی دھمکی کا دن",
                   "hi": "ख़ौफ़ की धमकी का दिन",
@@ -7154,7 +7562,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -7447,7 +7856,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -7747,7 +8157,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -8040,7 +8451,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -8333,7 +8745,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -8609,9 +9022,9 @@
               },
               {
                 "id": "s3l4_g23_w14",
-                "arabic": "غَيْرُ اللَّهِ",
-                "arabic_text": "غَيْرُ اللَّهِ",
-                "arabic_markup": "<span class=\"nonroot\">غَيْرُ</span> <span class=\"arabic-root\">اللَّهِ</span>",
+                "arabic": "غَيْرَ اللَّهِ",
+                "arabic_text": "غَيْرَ اللَّهِ",
+                "arabic_markup": "<span class=\"nonroot\">غَيْرَ</span> <span class=\"arabic-root\">اللَّهِ</span>",
                 "hinglish": "Allah ke siwa",
                 "hinglish_meaning": "Allah ke siwa",
                 "is_filled": true,
@@ -8626,7 +9039,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -8655,9 +9069,9 @@
             "items": [
               {
                 "id": "s3l4_g26_w1",
-                "arabic": "غَيْرُ الْحَقِّ",
-                "arabic_text": "غَيْرُ الْحَقِّ",
-                "arabic_markup": "<span class=\"nonroot\">غَيْرُ</span> <span class=\"arabic-root\">الْحَقِّ</span>",
+                "arabic": "غَيْرَ الْحَقِّ",
+                "arabic_text": "غَيْرَ الْحَقِّ",
+                "arabic_markup": "<span class=\"nonroot\">غَيْرَ</span> <span class=\"arabic-root\">الْحَقِّ</span>",
                 "hinglish": "Haq ke siwa",
                 "hinglish_meaning": "Haq ke siwa",
                 "is_filled": true,
@@ -8674,9 +9088,9 @@
               },
               {
                 "id": "s3l4_g26_w2",
-                "arabic": "غَيْرُ الْإِسْلَامِ",
-                "arabic_text": "غَيْرُ الْإِسْلَامِ",
-                "arabic_markup": "<span class=\"nonroot\">غَيْرُ</span> <span class=\"arabic-root\">الْإِسْلَامِ</span>",
+                "arabic": "غَيْرَ الْإِسْلَامِ",
+                "arabic_text": "غَيْرَ الْإِسْلَامِ",
+                "arabic_markup": "<span class=\"nonroot\">غَيْرَ</span> <span class=\"arabic-root\">الْإِسْلَامِ</span>",
                 "hinglish": "Islam ke siwa",
                 "hinglish_meaning": "Islam ke siwa",
                 "is_filled": true,
@@ -8693,9 +9107,9 @@
               },
               {
                 "id": "s3l4_g26_w3",
-                "arabic": "غَيْرُ تَخْسِيرٍ",
-                "arabic_text": "غَيْرُ تَخْسِيرٍ",
-                "arabic_markup": "<span class=\"nonroot\">غَيْرُ</span> <span class=\"arabic-root\">تَخْسِيرٍ</span>",
+                "arabic": "غَيْرَ تَخْسِيرٍ",
+                "arabic_text": "غَيْرَ تَخْسِيرٍ",
+                "arabic_markup": "<span class=\"nonroot\">غَيْرَ</span> <span class=\"arabic-root\">تَخْسِيرٍ</span>",
                 "hinglish": "Nuqsaan ke siwa",
                 "hinglish_meaning": "Nuqsaan ke siwa",
                 "is_filled": true,
@@ -8712,9 +9126,9 @@
               },
               {
                 "id": "s3l4_g26_w4",
-                "arabic": "غَيْرُ الْأَرْضِ",
-                "arabic_text": "غَيْرُ الْأَرْضِ",
-                "arabic_markup": "<span class=\"nonroot\">غَيْرُ</span> <span class=\"arabic-root\">الْأَرْضِ</span>",
+                "arabic": "غَيْرَ الْأَرْضِ",
+                "arabic_text": "غَيْرَ الْأَرْضِ",
+                "arabic_markup": "<span class=\"nonroot\">غَيْرَ</span> <span class=\"arabic-root\">الْأَرْضِ</span>",
                 "hinglish": "Zameen ke siwa",
                 "hinglish_meaning": "Zameen ke siwa",
                 "is_filled": true,
@@ -8919,7 +9333,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -9212,7 +9627,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -9505,7 +9921,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -9798,7 +10215,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -9982,14 +10400,14 @@
                 "arabic": "سُوءُ الدَّارِ",
                 "arabic_text": "سُوءُ الدَّارِ",
                 "arabic_markup": "<span class=\"nonroot\">سُوءُ</span> <span class=\"arabic-root\">الدَّارِ</span>",
-                "hinglish": "Bura anjaam",
-                "hinglish_meaning": "Bura anjaam",
+                "hinglish": "Bura ghar",
+                "hinglish_meaning": "Bura ghar",
                 "is_filled": true,
                 "translations": {
-                  "hinglish": "Bura anjaam",
-                  "en": "Evil of the home (wretched abode)",
-                  "ur": "برا انجام",
-                  "hi": "बुरा अंजाम",
+                  "hinglish": "Bura ghar",
+                  "en": "The evil home",
+                  "ur": "برا گھر",
+                  "hi": "बुरा घर",
                   "bn": null,
                   "ko": null,
                   "zh": null,
@@ -10033,8 +10451,199 @@
                   "zh": null,
                   "es": null
                 }
+              },
+              {
+                "id": "s3l4_g38_w12",
+                "arabic": "حُبُّ اللَّهِ",
+                "arabic_text": "حُبُّ اللَّهِ",
+                "arabic_markup": "<span class=\"nonroot\">حُبُّ</span> <span class=\"arabic-root\">اللَّهِ</span>",
+                "hinglish": "Allah ki muhabbat",
+                "hinglish_meaning": "Allah ki muhabbat",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Allah ki muhabbat",
+                  "en": "Love of Allah",
+                  "ur": "اللہ کی محبت",
+                  "hi": "अल्लाह की मुहब्बत",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                }
+              },
+              {
+                "id": "s3l4_g38_w13",
+                "arabic": "حُبُّ الشَّهَوَاتِ",
+                "arabic_text": "حُبُّ الشَّهَوَاتِ",
+                "arabic_markup": "<span class=\"nonroot\">حُبُّ</span> <span class=\"arabic-root\">الشَّهَوَاتِ</span>",
+                "hinglish": "Khwahishat ki muhabbat",
+                "hinglish_meaning": "Khwahishat ki muhabbat",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Khwahishat ki muhabbat",
+                  "en": "Love of desires",
+                  "ur": "خواہشات کی محبت",
+                  "hi": "ख़्वाहिशात की मुहब्बत",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                }
+              },
+              {
+                "id": "s3l4_g38_w14",
+                "arabic": "حُبُّ الْخَيْرِ",
+                "arabic_text": "حُبُّ الْخَيْرِ",
+                "arabic_markup": "<span class=\"nonroot\">حُبُّ</span> <span class=\"arabic-root\">الْخَيْرِ</span>",
+                "hinglish": "Maal (bhalai) ki muhabbat",
+                "hinglish_meaning": "Maal (bhalai) ki muhabbat",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Maal (bhalai) ki muhabbat",
+                  "en": "Love of wealth / good",
+                  "ur": "مال (بھلائی) کی محبت",
+                  "hi": "माल (भलाई) की मुहब्बत",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                }
+              },
+              {
+                "id": "s3l4_g38_w15",
+                "arabic": "بَعْضُ الْكِتَابِ",
+                "arabic_text": "بَعْضُ الْكِتَابِ",
+                "arabic_markup": "<span class=\"nonroot\">بَعْضُ</span> <span class=\"arabic-root\">الْكِتَابِ</span>",
+                "hinglish": "Kitaab ka kuch hissa",
+                "hinglish_meaning": "Kitaab ka kuch hissa",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Kitaab ka kuch hissa",
+                  "en": "Part of the Book",
+                  "ur": "کتاب کا کچھ حصہ",
+                  "hi": "किताब का कुछ हिस्सा",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                }
+              },
+              {
+                "id": "s3l4_g38_w16",
+                "arabic": "بَعْضُ الْأَمْرِ",
+                "arabic_text": "بَعْضُ الْأَمْرِ",
+                "arabic_markup": "<span class=\"nonroot\">بَعْضُ</span> <span class=\"arabic-root\">الْأَمْرِ</span>",
+                "hinglish": "Kaam ka kuch hissa",
+                "hinglish_meaning": "Kaam ka kuch hissa",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Kaam ka kuch hissa",
+                  "en": "Some of the matter",
+                  "ur": "معاملے کا کچھ حصہ",
+                  "hi": "मामले का कुछ हिस्सा",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                }
+              },
+              {
+                "id": "s3l4_g38_w17",
+                "arabic": "بَعْضُ الظَّنِّ",
+                "arabic_text": "بَعْضُ الظَّنِّ",
+                "arabic_markup": "<span class=\"nonroot\">بَعْضُ</span> <span class=\"arabic-root\">الظَّنِّ</span>",
+                "hinglish": "Kuch gumaan",
+                "hinglish_meaning": "Kuch gumaan",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Kuch gumaan",
+                  "en": "Some suspicion",
+                  "ur": "کچھ گمان",
+                  "hi": "कुछ गुमान",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                }
+              },
+              {
+                "id": "s3l4_g38_w18",
+                "arabic": "سَرِيعُ الْحِسَابِ",
+                "arabic_text": "سَرِيعُ الْحِسَابِ",
+                "arabic_markup": "<span class=\"nonroot\">سَرِيعُ</span> <span class=\"arabic-root\">الْحِسَابِ</span>",
+                "hinglish": "Jald hisaab lene wala",
+                "hinglish_meaning": "Jald hisaab lene wala",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Jald hisaab lene wala",
+                  "en": "Swift in account",
+                  "ur": "جلد حساب لینے والا",
+                  "hi": "जल्द हिसाब लेने वाला",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                }
+              },
+              {
+                "id": "s3l4_g38_w19",
+                "arabic": "سَرِيعُ الْعِقَابِ",
+                "arabic_text": "سَرِيعُ الْعِقَابِ",
+                "arabic_markup": "<span class=\"nonroot\">سَرِيعُ</span> <span class=\"arabic-root\">الْعِقَابِ</span>",
+                "hinglish": "Jald saza dene wala",
+                "hinglish_meaning": "Jald saza dene wala",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Jald saza dene wala",
+                  "en": "Swift in punishment",
+                  "ur": "جلد سزا دینے والا",
+                  "hi": "जल्द सज़ा देने वाला",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                }
+              },
+              {
+                "id": "s3l4_g38_w20",
+                "arabic": "شَدِيدُ الْعَذَابِ",
+                "arabic_text": "شَدِيدُ الْعَذَابِ",
+                "arabic_markup": "<span class=\"nonroot\">شَدِيدُ</span> <span class=\"arabic-root\">الْعَذَابِ</span>",
+                "hinglish": "Sakht azaab dene wala",
+                "hinglish_meaning": "Sakht azaab dene wala",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Sakht azaab dene wala",
+                  "en": "Severe in torment",
+                  "ur": "سخت عذاب دینے والا",
+                  "hi": "सख़्त अज़ाब देने वाला",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                }
+              },
+              {
+                "id": "s3l4_g38_w21",
+                "arabic": "شَدِيدُ الْعِقَابِ",
+                "arabic_text": "شَدِيدُ الْعِقَابِ",
+                "arabic_markup": "<span class=\"nonroot\">شَدِيدُ</span> <span class=\"arabic-root\">الْعِقَابِ</span>",
+                "hinglish": "Sakht saza dene wala",
+                "hinglish_meaning": "Sakht saza dene wala",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Sakht saza dene wala",
+                  "en": "Severe in penalty",
+                  "ur": "سخت سزا دینے والا",
+                  "hi": "सख़्त सज़ा देने वाला",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                }
               }
-            ]
+            ],
+            "cols": 3
           }
         }
       ],
@@ -10958,7 +11567,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -11185,7 +11795,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -11317,7 +11928,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -11449,7 +12061,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -11562,7 +12175,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -11694,7 +12308,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -11826,7 +12441,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -11901,7 +12517,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -12090,7 +12707,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -12165,7 +12783,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -12240,7 +12859,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -12315,7 +12935,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -12454,9 +13075,11 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "4:134"
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -12654,7 +13277,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -12699,7 +13323,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "37:20"
               },
               {
                 "id": "s3l5_s34_s2",
@@ -12739,7 +13364,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "31:11"
               },
               {
                 "id": "s3l5_s34_s4",
@@ -12759,7 +13385,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "30:56"
               },
               {
                 "id": "s3l5_s34_s5",
@@ -12779,7 +13406,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "65:5"
               },
               {
                 "id": "s3l5_s34_s6",
@@ -12879,7 +13507,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "39:10"
               },
               {
                 "id": "s3l5_s34_s11",
@@ -12899,7 +13528,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "48:29"
               },
               {
                 "id": "s3l5_s34_s12",
@@ -12919,7 +13549,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "28:80"
               },
               {
                 "id": "s3l5_s34_s13",
@@ -12939,7 +13570,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "4:77"
               },
               {
                 "id": "s3l5_s34_s14",
@@ -12959,7 +13591,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "24:35"
               },
               {
                 "id": "s3l5_s34_s15",
@@ -12979,7 +13612,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "39:1"
               },
               {
                 "id": "s3l5_s34_s16",
@@ -12999,7 +13633,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "31:22"
               },
               {
                 "id": "s3l5_s34_s17",
@@ -13019,7 +13654,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "22:41"
               },
               {
                 "id": "s3l5_s34_s18",
@@ -13079,7 +13715,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "63:7"
               },
               {
                 "id": "s3l5_s34_s21",
@@ -13099,7 +13736,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "32:6"
               },
               {
                 "id": "s3l5_s34_s22",
@@ -13119,7 +13757,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "3:189"
               },
               {
                 "id": "s3l5_s34_s23",
@@ -13139,7 +13778,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "11:123"
               },
               {
                 "id": "s3l5_s34_s24",
@@ -13159,7 +13799,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "48:4"
               },
               {
                 "id": "s3l5_s34_s25",
@@ -13179,7 +13820,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "3:97"
               },
               {
                 "id": "s3l5_s34_s26",
@@ -13199,7 +13841,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "40:17"
               },
               {
                 "id": "s3l5_s34_s27",
@@ -13219,7 +13862,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "2:243"
               },
               {
                 "id": "s3l5_s34_s28",
@@ -13239,7 +13883,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "9:78"
               },
               {
                 "id": "s3l5_s34_s29",
@@ -13259,7 +13904,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "2:196"
               },
               {
                 "id": "s3l5_s34_s30",
@@ -13279,7 +13925,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "8:52"
               },
               {
                 "id": "s3l5_s34_s31",
@@ -13299,7 +13946,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "2:165"
               },
               {
                 "id": "s3l5_s34_s32",
@@ -13319,7 +13967,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "3:199"
               },
               {
                 "id": "s3l5_s34_s33",
@@ -13339,7 +13988,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "13:16"
               },
               {
                 "id": "s3l5_s34_s34",
@@ -13359,7 +14009,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "27:60"
               },
               {
                 "id": "s3l5_s34_s35",
@@ -13379,7 +14030,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "10:32"
               },
               {
                 "id": "s3l5_s34_s36",
@@ -13399,7 +14051,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "6:46"
               },
               {
                 "id": "s3l5_s34_s37",
@@ -13419,7 +14072,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "29:45"
               },
               {
                 "id": "s3l5_s34_s38",
@@ -13439,7 +14093,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "16:41"
               },
               {
                 "id": "s3l5_s34_s39",
@@ -13479,7 +14134,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "12:57"
               },
               {
                 "id": "s3l5_s34_s41",
@@ -13499,7 +14155,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "40:10"
               },
               {
                 "id": "s3l5_s34_s42",
@@ -13539,7 +14196,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "41:16"
               },
               {
                 "id": "s3l5_s34_s44",
@@ -13559,7 +14217,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "20:127"
               },
               {
                 "id": "s3l5_s34_s45",
@@ -13579,7 +14238,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "46:23"
               },
               {
                 "id": "s3l5_s34_s46",
@@ -13599,9 +14259,11 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "6:109"
               }
-            ]
+            ],
+            "cols": 2
           }
         },
         {
@@ -13646,7 +14308,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "3:73"
               },
               {
                 "id": "s3l5_s37_s2",
@@ -13666,7 +14329,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "3:19"
               },
               {
                 "id": "s3l5_s37_s3",
@@ -13686,7 +14350,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "13:16"
               },
               {
                 "id": "s3l5_s37_s4",
@@ -13706,7 +14371,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "35:38"
               },
               {
                 "id": "s3l5_s37_s5",
@@ -13726,7 +14392,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "4:134"
               },
               {
                 "id": "s3l5_s37_s6",
@@ -13746,7 +14413,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "4:77"
               },
               {
                 "id": "s3l5_s37_s7",
@@ -13766,7 +14434,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "2:165"
               },
               {
                 "id": "s3l5_s37_s8",
@@ -13786,7 +14455,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "48:4"
               },
               {
                 "id": "s3l5_s37_s9",
@@ -13806,7 +14476,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "24:42"
               },
               {
                 "id": "s3l5_s37_s10",
@@ -13826,14 +14497,15 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "3:199"
               },
               {
                 "id": "s3l5_s37_s11",
                 "sentence_number": 11,
-                "arabic": "إِاَّنَّ الدِّينَ عِنْدَ اللَّهِ الْإِسْلَامُ",
-                "arabic_text": "إِاَّنَّ الدِّينَ عِنْدَ اللَّهِ الْإِسْلَامُ",
-                "arabic_markup": "<span class=\"arabic-root\">إِاَّنَّ الدِّينَ</span> <span class=\"nonroot\">عِنْدَ اللَّهِ</span> <span class=\"arabic-root\">الْإِسْلَامُ</span>",
+                "arabic": "إِنَّ الدِّينَ عِنْدَ اللَّهِ الْإِسْلَامُ",
+                "arabic_text": "إِنَّ الدِّينَ عِنْدَ اللَّهِ الْإِسْلَامُ",
+                "arabic_markup": "<span class=\"nonroot\">إِنَّ</span> <span class=\"arabic-root\">الدِّينَ عِنْدَ اللَّهِ الْإِسْلَامُ</span>",
                 "hinglish": "Beshak deen Allah ke nazdeek sirf Islam hai",
                 "hinglish_meaning": "Beshak deen Allah ke nazdeek sirf Islam hai",
                 "is_filled": true,
@@ -13846,19 +14518,36 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
-              },
+                },
+                "ref": "3:19"
+              }
+            ],
+            "cols": 2
+          }
+        },
+        {
+          "type": "rule_paragraph",
+          "data": {
+            "text": "Sabaq (كَانَ) ko zehen mein rakhte hue darj zail Qur'ani aayaat ka tarjuma karein:"
+          }
+        },
+        {
+          "type": "two_col_numbered_list",
+          "data": {
+            "cols": 2,
+            "is_numbered": true,
+            "items": [
               {
                 "id": "s3l5_s37_s12",
-                "sentence_number": 12,
+                "sentence_number": 1,
                 "arabic": "وَكَانَ أَمْرُ اللَّهِ مَفْعُولًا",
                 "arabic_text": "وَكَانَ أَمْرُ اللَّهِ مَفْعُولًا",
                 "arabic_markup": "<span class=\"arabic-root\">وَكَانَ</span> <span class=\"nonroot\">أَمْرُ اللَّهِ</span> <span class=\"arabic-root\">مَفْعُولًا</span>",
-                "hinglish": "Aur Allah ka hukm poora hone wala tha",
-                "hinglish_meaning": "Aur Allah ka hukm poora hone wala tha",
+                "hinglish": "Aur Allah ka hukm hokar rehne wala hai",
+                "hinglish_meaning": "Aur Allah ka hukm hokar rehne wala hai",
                 "is_filled": true,
                 "translations": {
-                  "hinglish": "Aur Allah ka hukm poora hone wala tha",
+                  "hinglish": "Aur Allah ka hukm hokar rehne wala hai",
                   "en": "And the command of Allah is destined to be executed.",
                   "ur": "اور اللہ کا حکم تو پورا ہو کر ہی رہنے والا تھا۔",
                   "hi": "और अल्लाह का हुक्म तो पूरा होकर ही रहने वाला था।",
@@ -13866,7 +14555,259 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "displayOrder": 1,
+                "ref": "4:47"
+              },
+              {
+                "id": "s3l5_kana_s2",
+                "arabic": "﴿كُلُّ الطَّعَامِ كَانَ حِلًّا﴾",
+                "arabic_text": "﴿كُلُّ الطَّعَامِ كَانَ حِلًّا﴾",
+                "arabic_markup": "﴿<span class=\"nonroot\">كُلُّ</span> <span class=\"arabic-root\">الطَّعَامِ كَانَ حِلًّا</span>﴾",
+                "hinglish": "Har khana halaal tha",
+                "hinglish_meaning": "Har khana halaal tha",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Har khana halaal tha",
+                  "en": "All food was lawful",
+                  "ur": "ہر کھانا حلال تھا",
+                  "hi": "हर खाना हलाल था",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "sentence_number": 2,
+                "displayOrder": 2,
+                "ref": "3:93"
+              },
+              {
+                "id": "s3l5_kana_s3",
+                "arabic": "﴿وَكَانَ عِنْدَ اللَّهِ وَجِيهًا﴾",
+                "arabic_text": "﴿وَكَانَ عِنْدَ اللَّهِ وَجِيهًا﴾",
+                "arabic_markup": "﴿<span class=\"nonroot\">وَكَانَ عِنْدَ</span> <span class=\"arabic-root\">اللَّهِ وَجِيهًا</span>﴾",
+                "hinglish": "Aur woh Allah ke nazdeek ba-izzat tha",
+                "hinglish_meaning": "Aur woh Allah ke nazdeek ba-izzat tha",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Aur woh Allah ke nazdeek ba-izzat tha",
+                  "en": "And he was honorable in the sight of Allah",
+                  "ur": "اور وہ اللہ کے نزدیک باعزت تھا",
+                  "hi": "और वह अल्लाह के नज़दीक बा-इज़्ज़त था",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "sentence_number": 3,
+                "displayOrder": 3,
+                "ref": "33:69"
+              },
+              {
+                "id": "s3l5_kana_s4",
+                "arabic": "﴿وَكَانَ عَهْدُ اللَّهِ مَسْئُولًا﴾",
+                "arabic_text": "﴿وَكَانَ عَهْدُ اللَّهِ مَسْئُولًا﴾",
+                "arabic_markup": "﴿<span class=\"nonroot\">وَكَانَ</span> <span class=\"arabic-root\">عَهْدُ اللَّهِ مَسْئُولًا</span>﴾",
+                "hinglish": "Aur Allah ke ahad ke baare mein poochha jayega",
+                "hinglish_meaning": "Aur Allah ke ahad ke baare mein poochha jayega",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Aur Allah ke ahad ke baare mein poochha jayega",
+                  "en": "And ever is the covenant of Allah questioned about",
+                  "ur": "اور اللہ کے عہد کے بارے میں پوچھا جائے گا",
+                  "hi": "और अल्लाह के अहद के बारे में पूछा जाएगा",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "sentence_number": 4,
+                "displayOrder": 4,
+                "ref": "33:15"
+              }
+            ]
+          }
+        },
+        {
+          "type": "rule_paragraph",
+          "data": {
+            "text": "(مَا : nahin) aur (إِلَّا : magar / siwaaye) ko zehen mein rakhte hue darj zail Qur'ani aayaat ka tarjuma karein:"
+          }
+        },
+        {
+          "type": "two_col_numbered_list",
+          "data": {
+            "cols": 1,
+            "is_numbered": true,
+            "items": [
+              {
+                "id": "s3l5_ma_illa_s1",
+                "arabic": "﴿مَا الْمَسِيحُ ابْنُ مَرْيَمَ إِلَّا رَسُولٌ﴾",
+                "arabic_text": "﴿مَا الْمَسِيحُ ابْنُ مَرْيَمَ إِلَّا رَسُولٌ﴾",
+                "arabic_markup": "﴿<span class=\"nonroot\">مَا</span> <span class=\"arabic-root\">الْمَسِيحُ ابْنُ مَرْيَمَ</span> <span class=\"nonroot\">إِلَّا</span> <span class=\"arabic-root\">رَسُولٌ</span>﴾",
+                "hinglish": "Maseeh ibn-e-Maryam ek Rasool ke siwa kuch nahin",
+                "hinglish_meaning": "Maseeh ibn-e-Maryam ek Rasool ke siwa kuch nahin",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Maseeh ibn-e-Maryam ek Rasool ke siwa kuch nahin",
+                  "en": "The Messiah, son of Mary, was not but a messenger",
+                  "ur": "مسیح ابن مریم ایک رسول کے سوا کچھ نہیں",
+                  "hi": "मसीह इब्न मरयम एक रसूल के सिवा कुछ नहीं",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "sentence_number": 1,
+                "displayOrder": 1,
+                "ref": "5:75"
+              },
+              {
+                "id": "s3l5_ma_illa_s2",
+                "arabic": "﴿وَمَا الْحَيَاةُ الدُّنْيَا فِي الْآخِرَةِ إِلَّا مَتَاعٌ﴾",
+                "arabic_text": "﴿وَمَا الْحَيَاةُ الدُّنْيَا فِي الْآخِرَةِ إِلَّا مَتَاعٌ﴾",
+                "arabic_markup": "﴿<span class=\"nonroot\">وَمَا</span> <span class=\"arabic-root\">الْحَيَاةُ الدُّنْيَا فِي الْآخِرَةِ</span> <span class=\"nonroot\">إِلَّا</span> <span class=\"arabic-root\">مَتَاعٌ</span>﴾",
+                "hinglish": "Aur Aakhirat ke muqable mein dunya ki zindagi mamooli samaan ke siwa kuch nahin",
+                "hinglish_meaning": "Aur Aakhirat ke muqable mein dunya ki zindagi mamooli samaan ke siwa kuch nahin",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Aur Aakhirat ke muqable mein dunya ki zindagi mamooli samaan ke siwa kuch nahin",
+                  "en": "And the worldly life is not, in the Hereafter, except brief enjoyment",
+                  "ur": "اور آخرت کے مقابلے میں دنیا کی زندگی معمولی سامان کے سوا کچھ نہیں",
+                  "hi": "और आख़िरत के मुक़ाबले में दुनिया की ज़िंदगी मामूली सामान के सिवा कुछ नहीं",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "sentence_number": 2,
+                "displayOrder": 2,
+                "ref": "13:26"
+              },
+              {
+                "id": "s3l5_ma_illa_s3",
+                "arabic": "﴿وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا مَتَاعُ الْغُرُورِ﴾",
+                "arabic_text": "﴿وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا مَتَاعُ الْغُرُورِ﴾",
+                "arabic_markup": "﴿<span class=\"nonroot\">وَمَا</span> <span class=\"arabic-root\">الْحَيَاةُ الدُّنْيَا</span> <span class=\"nonroot\">إِلَّا</span> <span class=\"arabic-root\">مَتَاعُ الْغُرُورِ</span>﴾",
+                "hinglish": "Aur dunya ki zindagi dhoke ke samaan ke siwa kuch nahin",
+                "hinglish_meaning": "Aur dunya ki zindagi dhoke ke samaan ke siwa kuch nahin",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Aur dunya ki zindagi dhoke ke samaan ke siwa kuch nahin",
+                  "en": "And the worldly life is not but the enjoyment of delusion",
+                  "ur": "اور دنیا کی زندگی دھوکے کے سامان کے سوا کچھ نہیں",
+                  "hi": "और दुनिया की ज़िंदगी धोखे के सामान के सिवा कुछ नहीं",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "sentence_number": 3,
+                "displayOrder": 3,
+                "ref": "3:185"
+              }
+            ]
+          }
+        },
+        {
+          "type": "rule_paragraph",
+          "data": {
+            "text": "Darj zail Qur'ani jumlon ke maani likhein — kya aap jaante hain yeh baatein kinhon ne aur kyun kahin?"
+          }
+        },
+        {
+          "type": "two_col_numbered_list",
+          "data": {
+            "cols": 2,
+            "is_numbered": true,
+            "items": [
+              {
+                "id": "s3l5_q_s1",
+                "arabic": "﴿عُزَيْرٌ ابْنُ اللَّهِ﴾",
+                "arabic_text": "﴿عُزَيْرٌ ابْنُ اللَّهِ﴾",
+                "arabic_markup": "﴿<span class=\"arabic-root\">عُزَيْرٌ ابْنُ اللَّهِ</span>﴾",
+                "hinglish": "(Yahoodiyon ka qaul:) Uzair Allah ke bete hain",
+                "hinglish_meaning": "(Yahoodiyon ka qaul:) Uzair Allah ke bete hain",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "(Yahoodiyon ka qaul:) Uzair Allah ke bete hain",
+                  "en": "(The Jews said:) 'Uzayr is the son of Allah",
+                  "ur": "(یہودیوں کا قول:) عزیر اللہ کے بیٹے ہیں",
+                  "hi": "(यहूदियों का क़ौल:) उज़ैर अल्लाह के बेटे हैं",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "sentence_number": 1,
+                "displayOrder": 1,
+                "ref": "9:30"
+              },
+              {
+                "id": "s3l5_q_s2",
+                "arabic": "﴿الْمَسِيحُ ابْنُ اللَّهِ﴾",
+                "arabic_text": "﴿الْمَسِيحُ ابْنُ اللَّهِ﴾",
+                "arabic_markup": "﴿<span class=\"arabic-root\">الْمَسِيحُ ابْنُ اللَّهِ</span>﴾",
+                "hinglish": "(Nasara ka qaul:) Maseeh Allah ke bete hain",
+                "hinglish_meaning": "(Nasara ka qaul:) Maseeh Allah ke bete hain",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "(Nasara ka qaul:) Maseeh Allah ke bete hain",
+                  "en": "(The Christians said:) The Messiah is the son of Allah",
+                  "ur": "(نصاریٰ کا قول:) مسیح اللہ کے بیٹے ہیں",
+                  "hi": "(नसारा का क़ौल:) मसीह अल्लाह के बेटे हैं",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "sentence_number": 2,
+                "displayOrder": 2,
+                "ref": "9:30"
+              },
+              {
+                "id": "s3l5_q_s3",
+                "arabic": "﴿إِنَّمَا الْبَيْعُ مِثْلُ الرِّبَا﴾",
+                "arabic_text": "﴿إِنَّمَا الْبَيْعُ مِثْلُ الرِّبَا﴾",
+                "arabic_markup": "﴿<span class=\"nonroot\">إِنَّمَا</span> <span class=\"arabic-root\">الْبَيْعُ مِثْلُ الرِّبَا</span>﴾",
+                "hinglish": "(Kuffar ka qaul:) Tijarat bhi toh sood hi ki tarah hai",
+                "hinglish_meaning": "(Kuffar ka qaul:) Tijarat bhi toh sood hi ki tarah hai",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "(Kuffar ka qaul:) Tijarat bhi toh sood hi ki tarah hai",
+                  "en": "(The disbelievers said:) Trade is only like interest",
+                  "ur": "(کفار کا قول:) تجارت بھی تو سود ہی کی طرح ہے",
+                  "hi": "(कुफ़्फ़ार का क़ौल:) तिजारत भी तो सूद ही की तरह है",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "sentence_number": 3,
+                "displayOrder": 3,
+                "ref": "2:275"
+              },
+              {
+                "id": "s3l5_q_s4",
+                "arabic": "﴿يَدُ اللَّهِ مَغْلُولَةٌ﴾",
+                "arabic_text": "﴿يَدُ اللَّهِ مَغْلُولَةٌ﴾",
+                "arabic_markup": "﴿<span class=\"arabic-root\">يَدُ اللَّهِ مَغْلُولَةٌ</span>﴾",
+                "hinglish": "(Yahoodiyon ka qaul:) Allah ka haath bandha hua hai",
+                "hinglish_meaning": "(Yahoodiyon ka qaul:) Allah ka haath bandha hua hai",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "(Yahoodiyon ka qaul:) Allah ka haath bandha hua hai",
+                  "en": "(The Jews said:) The hand of Allah is chained",
+                  "ur": "(یہودیوں کا قول:) اللہ کا ہاتھ بندھا ہوا ہے",
+                  "hi": "(यहूदियों का क़ौल:) अल्लाह का हाथ बँधा हुआ है",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "sentence_number": 4,
+                "displayOrder": 4,
+                "ref": "5:64"
               }
             ]
           }
@@ -14068,7 +15009,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "3:107"
               },
               {
                 "id": "s3l6_g3_w6",
@@ -14125,7 +15067,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "43:74"
               },
               {
                 "id": "s3l6_g3_w9",
@@ -14144,7 +15087,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "97:1"
               },
               {
                 "id": "s3l6_g3_w10",
@@ -14182,7 +15126,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "12:68"
               },
               {
                 "id": "s3l6_g3_w12",
@@ -14201,7 +15146,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "10:6"
               },
               {
                 "id": "s3l6_g3_w13",
@@ -14239,7 +15185,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "6:59"
               },
               {
                 "id": "s3l6_g3_w15",
@@ -14277,7 +15224,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "47:26"
               },
               {
                 "id": "s3l6_g3_w17",
@@ -14296,7 +15244,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "114:5"
               },
               {
                 "id": "s3l6_g3_w18",
@@ -14315,7 +15264,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "30:39"
               },
               {
                 "id": "s3l6_g3_w19",
@@ -14334,9 +15284,11 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "82:8"
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -14390,7 +15342,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "24:33"
               },
               {
                 "id": "s3l6_g5_w3",
@@ -14485,7 +15438,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "40:29"
               },
               {
                 "id": "s3l6_g5_w8",
@@ -14504,7 +15458,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "39:53"
               },
               {
                 "id": "s3l6_g5_w9",
@@ -14523,7 +15478,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "39:22"
               },
               {
                 "id": "s3l6_g5_w10",
@@ -14542,7 +15498,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "12:87"
               },
               {
                 "id": "s3l6_g5_w11",
@@ -14580,7 +15537,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "2:60"
               },
               {
                 "id": "s3l6_g5_w13",
@@ -14599,7 +15557,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "2:188"
               },
               {
                 "id": "s3l6_g5_w14",
@@ -14618,7 +15577,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "19:6"
               },
               {
                 "id": "s3l6_g5_w15",
@@ -14675,7 +15635,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "9:101"
               },
               {
                 "id": "s3l6_g5_w18",
@@ -14713,7 +15674,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "20:96"
               },
               {
                 "id": "s3l6_g5_w20",
@@ -14751,7 +15713,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "62:9"
               },
               {
                 "id": "s3l6_g5_w22",
@@ -14808,7 +15771,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "28:76"
               },
               {
                 "id": "s3l6_g5_w25",
@@ -14827,7 +15791,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "114:4"
               },
               {
                 "id": "s3l6_g5_w26",
@@ -14846,7 +15811,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "44:48"
               },
               {
                 "id": "s3l6_g5_w27",
@@ -14865,7 +15831,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "41:49"
               },
               {
                 "id": "s3l6_g5_w28",
@@ -14903,7 +15870,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "113:5"
               },
               {
                 "id": "s3l6_g5_w30",
@@ -14922,7 +15890,28 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "113:3"
+              },
+              {
+                "id": "s3l6_g5_w34",
+                "arabic": "مِنْ أَلْفِ شَهْرٍ",
+                "arabic_text": "مِنْ أَلْفِ شَهْرٍ",
+                "arabic_markup": "<span class=\"nonroot\">مِنْ</span> <span class=\"arabic-root\">أَلْفِ شَهْرٍ</span>",
+                "hinglish": "Hazaar mahinon se",
+                "hinglish_meaning": "Hazaar mahinon se",
+                "is_filled": true,
+                "translations": {
+                  "hinglish": "Hazaar mahinon se",
+                  "en": "Than a thousand months",
+                  "ur": "ہزار مہینوں سے",
+                  "hi": "हज़ार महीनों से",
+                  "bn": null,
+                  "ko": null,
+                  "zh": null,
+                  "es": null
+                },
+                "ref": "97:3"
               },
               {
                 "id": "s3l6_g5_w31",
@@ -14941,8 +15930,28 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
-              },
+                },
+                "ref": "80:18"
+              }
+            ],
+            "cols": 3
+          }
+        },
+        {
+          "id": "sec_s3l6_lbl6",
+          "type": "section_label",
+          "data": {
+            "text": "Harf-e-Jarr 'Ilaa' (إِلَى) ke saath Izaafi Murakkabaat",
+            "title": "Harf-e-Jarr 'Ilaa' (إِلَى) ke saath Izaafi Murakkabaat",
+            "label": "Harf-e-Jarr 'Ilaa' (إِلَى) ke saath Izaafi Murakkabaat"
+          }
+        },
+        {
+          "id": "sec_s3l6_g7",
+          "type": "two_col_numbered_list",
+          "data": {
+            "is_numbered": false,
+            "items": [
               {
                 "id": "s3l6_g5_w32",
                 "arabic": "إِلَى أَمْرِ اللَّهِ",
@@ -14960,7 +15969,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "49:9"
               },
               {
                 "id": "s3l6_g5_w33",
@@ -14979,26 +15989,9 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
-              }
-            ]
-          }
-        },
-        {
-          "id": "sec_s3l6_lbl6",
-          "type": "section_label",
-          "data": {
-            "text": "Harf-e-Jarr 'Ilaa' (إِلَى) ke saath Izaafi Murakkabaat",
-            "title": "Harf-e-Jarr 'Ilaa' (إِلَى) ke saath Izaafi Murakkabaat",
-            "label": "Harf-e-Jarr 'Ilaa' (إِلَى) ke saath Izaafi Murakkabaat"
-          }
-        },
-        {
-          "id": "sec_s3l6_g7",
-          "type": "two_col_numbered_list",
-          "data": {
-            "is_numbered": false,
-            "items": [
+                },
+                "ref": "3:23"
+              },
               {
                 "id": "s3l6_g7_w1",
                 "arabic": "إِلَى ذِكْرِ اللَّهِ",
@@ -15054,7 +16047,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "52:13"
               },
               {
                 "id": "s3l6_g7_w4",
@@ -15073,7 +16067,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "2:126"
               },
               {
                 "id": "s3l6_g7_w5",
@@ -15092,7 +16087,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "10:25"
               },
               {
                 "id": "s3l6_g7_w6",
@@ -15130,7 +16126,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "30:56"
               },
               {
                 "id": "s3l6_g7_w8",
@@ -15187,7 +16184,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "11:70"
               },
               {
                 "id": "s3l6_g7_w11",
@@ -15206,7 +16204,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "17:42"
               },
               {
                 "id": "s3l6_g7_w12",
@@ -15225,7 +16224,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "28:7"
               },
               {
                 "id": "s3l6_g7_w13",
@@ -15245,7 +16245,26 @@
                   "zh": null,
                   "es": null
                 }
-              },
+              }
+            ],
+            "cols": 3
+          }
+        },
+        {
+          "id": "sec_s3l6_lbl8",
+          "type": "section_label",
+          "data": {
+            "text": "Harf-e-Jarr 'Alaa' (عَلَى) ke saath Izaafi Murakkabaat",
+            "title": "Harf-e-Jarr 'Alaa' (عَلَى) ke saath Izaafi Murakkabaat",
+            "label": "Harf-e-Jarr 'Alaa' (عَلَى) ke saath Izaafi Murakkabaat"
+          }
+        },
+        {
+          "id": "sec_s3l6_g9",
+          "type": "two_col_numbered_list",
+          "data": {
+            "is_numbered": false,
+            "items": [
               {
                 "id": "s3l6_g7_w14",
                 "arabic": "عَلَى رَبِّ الْعَالَمِينَ",
@@ -15282,26 +16301,9 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
-              }
-            ]
-          }
-        },
-        {
-          "id": "sec_s3l6_lbl8",
-          "type": "section_label",
-          "data": {
-            "text": "Harf-e-Jarr 'Alaa' (عَلَى) ke saath Izaafi Murakkabaat",
-            "title": "Harf-e-Jarr 'Alaa' (عَلَى) ke saath Izaafi Murakkabaat",
-            "label": "Harf-e-Jarr 'Alaa' (عَلَى) ke saath Izaafi Murakkabaat"
-          }
-        },
-        {
-          "id": "sec_s3l6_g9",
-          "type": "two_col_numbered_list",
-          "data": {
-            "is_numbered": false,
-            "items": [
+                },
+                "ref": "12:55"
+              },
               {
                 "id": "s3l6_g9_w1",
                 "arabic": "عَلَى لِسَانِ دَاوُودَ",
@@ -15319,7 +16321,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "5:78"
               },
               {
                 "id": "s3l6_g9_w2",
@@ -15338,8 +16341,28 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
-              },
+                },
+                "ref": "28:12"
+              }
+            ],
+            "cols": 3
+          }
+        },
+        {
+          "id": "sec_s3l6_lbl10",
+          "type": "section_label",
+          "data": {
+            "text": "Harf-e-Ta'keed 'Inna' (إِنَّ) ke saath Izaafi Murakkabaat",
+            "title": "Harf-e-Ta'keed 'Inna' (إِنَّ) ke saath Izaafi Murakkabaat",
+            "label": "Harf-e-Ta'keed 'Inna' (إِنَّ) ke saath Izaafi Murakkabaat"
+          }
+        },
+        {
+          "id": "sec_s3l6_g11",
+          "type": "two_col_numbered_list",
+          "data": {
+            "is_numbered": false,
+            "items": [
               {
                 "id": "s3l6_g9_w3",
                 "arabic": "إِنَّ رَحْمَةَ اللَّهِ",
@@ -15357,7 +16380,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "7:56"
               },
               {
                 "id": "s3l6_g9_w4",
@@ -15376,26 +16400,9 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
-              }
-            ]
-          }
-        },
-        {
-          "id": "sec_s3l6_lbl10",
-          "type": "section_label",
-          "data": {
-            "text": "Harf-e-Ta'keed 'Inna' (إِنَّ) ke saath Izaafi Murakkabaat",
-            "title": "Harf-e-Ta'keed 'Inna' (إِنَّ) ke saath Izaafi Murakkabaat",
-            "label": "Harf-e-Ta'keed 'Inna' (إِنَّ) ke saath Izaafi Murakkabaat"
-          }
-        },
-        {
-          "id": "sec_s3l6_g11",
-          "type": "two_col_numbered_list",
-          "data": {
-            "is_numbered": false,
-            "items": [
+                },
+                "ref": "2:214"
+              },
               {
                 "id": "s3l6_g11_w1",
                 "arabic": "إِنَّ هُدَى اللَّهِ",
@@ -15432,7 +16439,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "58:19"
               },
               {
                 "id": "s3l6_g11_w3",
@@ -15451,7 +16459,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "58:22"
               },
               {
                 "id": "s3l6_g11_w4",
@@ -15489,7 +16498,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "17:78"
               },
               {
                 "id": "s3l6_g11_w6",
@@ -15508,7 +16518,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "3:59"
               },
               {
                 "id": "s3l6_g11_w7",
@@ -15527,7 +16538,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "4:76"
               },
               {
                 "id": "s3l6_g11_w8",
@@ -15546,7 +16558,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "49:12"
               },
               {
                 "id": "s3l6_g11_w9",
@@ -15565,7 +16578,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "22:1"
               },
               {
                 "id": "s3l6_g11_w10",
@@ -15585,7 +16599,24 @@
                   "zh": null,
                   "es": null
                 }
-              },
+              }
+            ],
+            "cols": 3
+          }
+        },
+        {
+          "type": "section_label",
+          "data": {
+            "text": "Nida (يَا : Ae) se shuru hone wale izafi murakkabaat:",
+            "title": "Nida (يَا) Phrases"
+          }
+        },
+        {
+          "type": "two_col_numbered_list",
+          "data": {
+            "cols": 2,
+            "is_numbered": false,
+            "items": [
               {
                 "id": "s3l6_g11_w11",
                 "arabic": "يَا أَهْلَ يَثْرِبَ",
@@ -15603,7 +16634,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "33:13"
               },
               {
                 "id": "s3l6_g11_w12",
@@ -15737,7 +16769,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -15782,7 +16815,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "12:38"
               },
               {
                 "id": "s3l6_s16_s2",
@@ -15802,7 +16836,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "28:15"
               },
               {
                 "id": "s3l6_s16_s3",
@@ -15822,7 +16857,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "3:44"
               },
               {
                 "id": "s3l6_s16_s4",
@@ -15842,7 +16878,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "57:29"
               },
               {
                 "id": "s3l6_s16_s5",
@@ -15862,7 +16899,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "97:3"
               },
               {
                 "id": "s3l6_s16_s6",
@@ -15882,7 +16920,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "2:158"
               },
               {
                 "id": "s3l6_s16_s7",
@@ -15902,7 +16941,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "40:57"
               },
               {
                 "id": "s3l6_s16_s8",
@@ -15922,7 +16962,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "3:190"
               },
               {
                 "id": "s3l6_s16_s9",
@@ -15942,7 +16983,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "35:1"
               },
               {
                 "id": "s3l6_s16_s10",
@@ -15962,7 +17004,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "14:10"
               },
               {
                 "id": "s3l6_s16_s11",
@@ -15982,7 +17025,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "22:2"
               },
               {
                 "id": "s3l6_s16_s12",
@@ -16002,7 +17046,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "7:26"
               },
               {
                 "id": "s3l6_s16_s13",
@@ -16022,7 +17067,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "4:78"
               },
               {
                 "id": "s3l6_s16_s14",
@@ -16042,7 +17088,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "56:80"
               },
               {
                 "id": "s3l6_s16_s15",
@@ -16062,9 +17109,11 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "7:159"
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -16100,7 +17149,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "7:56"
               },
               {
                 "id": "s3l6_s18_s2",
@@ -16120,7 +17170,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "49:12"
               },
               {
                 "id": "s3l6_s18_s3",
@@ -16140,7 +17191,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "94:6"
               },
               {
                 "id": "s3l6_s18_s4",
@@ -16160,7 +17212,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "29:5"
               },
               {
                 "id": "s3l6_s18_s5",
@@ -16180,7 +17233,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "2:214"
               },
               {
                 "id": "s3l6_s18_s6",
@@ -16200,7 +17254,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "2:197"
               },
               {
                 "id": "s3l6_s18_s7",
@@ -16220,7 +17275,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "10:55"
               },
               {
                 "id": "s3l6_s18_s8",
@@ -16240,7 +17296,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "3:59"
               },
               {
                 "id": "s3l6_s18_s9",
@@ -16260,7 +17317,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "94:5"
               },
               {
                 "id": "s3l6_s18_s10",
@@ -16280,9 +17338,11 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "35:5"
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -16318,7 +17378,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "30:30"
               },
               {
                 "id": "s3l6_s20_s2",
@@ -16338,9 +17399,11 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "11:43"
               }
-            ]
+            ],
+            "cols": 2
           }
         },
         {
@@ -16376,7 +17439,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "4:76"
               },
               {
                 "id": "s3l6_s22_s2",
@@ -16384,11 +17448,11 @@
                 "arabic": "إِنَّ قُرْآنَ الْفَجْرِ كَانَ مَشْهُودًا",
                 "arabic_text": "إِنَّ قُرْآنَ الْفَجْرِ كَانَ مَشْهُودًا",
                 "arabic_markup": "<span class=\"arabic-root\">إِنَّ قُرْآنَ الْفَجْرِ</span> <span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">مَشْهُودًا</span>",
-                "hinglish": "Yaqeenan fajr ka Qur'an mehsos kiya jata tha hai",
-                "hinglish_meaning": "Yaqeenan fajr ka Qur'an mehsos kiya jata tha hai",
+                "hinglish": "Aur kya cheez aapko bataye ke shab-e-qadr kya hai",
+                "hinglish_meaning": "Aur kya cheez aapko bataye ke shab-e-qadr kya hai",
                 "is_filled": true,
                 "translations": {
-                  "hinglish": "Yaqeenan fajr ka Qur'an mehsos kiya jata tha hai",
+                  "hinglish": "Aur kya cheez aapko bataye ke shab-e-qadr kya hai",
                   "en": "Indeed, the recitation of dawn is ever witnessed",
                   "ur": "یقیناً فجر کا قرآن مشہود ہے (فرشتوں کی حاضری کا وقت ہے)",
                   "hi": "यक़ीनन फ़ज्र का क़ुरआन मश्हूद है (हाज़िरी का वक़्त है)",
@@ -16396,7 +17460,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "17:78"
               },
               {
                 "id": "s3l6_s22_s3",
@@ -16404,11 +17469,11 @@
                 "arabic": "إِنَّ يَوْمَ الْفَصْلِ كَانَ مِيقَاتًا",
                 "arabic_text": "إِنَّ يَوْمَ الْفَصْلِ كَانَ مِيقَاتًا",
                 "arabic_markup": "<span class=\"arabic-root\">إِنَّ يَوْمَ الْفَصْلِ</span> <span class=\"nonroot\">كَانَ</span> <span class=\"arabic-root\">مِيقَاتًا</span>",
-                "hinglish": "Yaqeenan faisle ka din muqarrar waqt tha hai",
-                "hinglish_meaning": "Yaqeenan faisle ka din muqarrar waqt tha hai",
+                "hinglish": "Aur jab unhein hamara azaab mehsoos hua",
+                "hinglish_meaning": "Aur jab unhein hamara azaab mehsoos hua",
                 "is_filled": true,
                 "translations": {
-                  "hinglish": "Yaqeenan faisle ka din muqarrar waqt tha hai",
+                  "hinglish": "Aur jab unhein hamara azaab mehsoos hua",
                   "en": "Indeed, the Day of Judgement is an appointed time",
                   "ur": "یقیناً فیصلے کا دن ایک مقرر وقت ہے",
                   "hi": "यक़ीनन फ़ैसले का दिन एक मुक़र्रर वक़्त है",
@@ -16416,7 +17481,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "78:17"
               },
               {
                 "id": "s3l6_s22_s4",
@@ -16436,9 +17502,11 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "28:76"
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -16474,7 +17542,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "8:10"
               },
               {
                 "id": "s3l6_s24_s2",
@@ -16494,9 +17563,11 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "3:126"
               }
-            ]
+            ],
+            "cols": 2
           }
         },
         {
@@ -16541,7 +17612,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "10:1"
               },
               {
                 "id": "s3l6_s27_s2",
@@ -16561,7 +17633,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "12:1"
               },
               {
                 "id": "s3l6_s27_s3",
@@ -16581,7 +17654,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "27:1"
               },
               {
                 "id": "s3l6_s27_s4",
@@ -16601,7 +17675,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "15:1"
               },
               {
                 "id": "s3l6_s27_s5",
@@ -16621,7 +17696,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "22:1"
               },
               {
                 "id": "s3l6_s27_s6",
@@ -16641,7 +17717,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "48:5"
               },
               {
                 "id": "s3l6_s27_s7",
@@ -16661,7 +17738,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "39:1"
               },
               {
                 "id": "s3l6_s27_s8",
@@ -16681,7 +17759,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "33:38"
               },
               {
                 "id": "s3l6_s27_s9",
@@ -16701,7 +17780,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "3:113"
               },
               {
                 "id": "s3l6_s27_s10",
@@ -16721,7 +17801,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "27:26"
               },
               {
                 "id": "s3l6_s27_s11",
@@ -16741,9 +17822,11 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "87:17-19"
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -17076,7 +18159,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -17111,7 +18195,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "9:122"
               },
               {
                 "id": "s3l7_g4_w2",
@@ -17168,7 +18253,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "13:23"
               },
               {
                 "id": "s3l7_g4_w5",
@@ -17225,7 +18311,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "97:4"
               },
               {
                 "id": "s3l7_g4_w8",
@@ -17282,7 +18369,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "13:33"
               },
               {
                 "id": "s3l7_g4_w11",
@@ -17301,7 +18389,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "40:35"
               },
               {
                 "id": "s3l7_g4_w12",
@@ -17339,7 +18428,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "41:12"
               },
               {
                 "id": "s3l7_g4_w14",
@@ -17379,7 +18469,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -17424,7 +18515,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "2:20"
               },
               {
                 "id": "s3l7_s7_s2",
@@ -17444,7 +18536,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "22:17"
               },
               {
                 "id": "s3l7_s7_s3",
@@ -17464,7 +18557,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "2:231"
               },
               {
                 "id": "s3l7_s7_s4",
@@ -17484,7 +18578,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "3:185"
               },
               {
                 "id": "s3l7_s7_s5",
@@ -17504,7 +18599,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "10:47"
               },
               {
                 "id": "s3l7_s7_s6",
@@ -17524,7 +18620,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "34:9"
               },
               {
                 "id": "s3l7_s7_s7",
@@ -17544,7 +18641,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "3:189"
               },
               {
                 "id": "s3l7_s7_s8",
@@ -17564,7 +18662,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "4:126"
               },
               {
                 "id": "s3l7_s7_s9",
@@ -17584,7 +18683,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "58:6"
               },
               {
                 "id": "s3l7_s7_s10",
@@ -17604,7 +18704,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "2:282"
               },
               {
                 "id": "s3l7_s7_s11",
@@ -17624,7 +18725,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "4:86"
               },
               {
                 "id": "s3l7_s7_s12",
@@ -17644,7 +18746,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "33:54"
               },
               {
                 "id": "s3l7_s7_s13",
@@ -17664,7 +18767,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "7:34"
               }
             ]
           }
@@ -18524,7 +19628,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 4
           }
         },
         {
@@ -18855,7 +19960,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 4
           }
         },
         {
@@ -18900,7 +20006,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "12:21"
               },
               {
                 "id": "s3l8_s8_s2",
@@ -18920,7 +20027,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "6:37"
               },
               {
                 "id": "s3l8_s8_s3",
@@ -18940,7 +20048,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "49:12"
               },
               {
                 "id": "s3l8_s8_s4",
@@ -18960,7 +20069,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "24:10"
               },
               {
                 "id": "s3l8_s8_s5",
@@ -18980,7 +20090,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "9:78"
               },
               {
                 "id": "s3l8_s8_s6",
@@ -19000,7 +20111,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "4:16"
               },
               {
                 "id": "s3l8_s8_s7",
@@ -19020,7 +20132,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "3:182"
               },
               {
                 "id": "s3l8_s8_s8",
@@ -19040,7 +20153,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "38:4"
               },
               {
                 "id": "s3l8_s8_s9",
@@ -19060,7 +20174,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "12:53"
               },
               {
                 "id": "s3l8_s8_s10",
@@ -19080,7 +20195,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "14:34"
               },
               {
                 "id": "s3l8_s8_s11",
@@ -19100,7 +20216,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "9:114"
               },
               {
                 "id": "s3l8_s8_s12",
@@ -19120,7 +20237,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "11:75"
               },
               {
                 "id": "s3l8_s8_s13",
@@ -19140,7 +20258,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "2:158"
               },
               {
                 "id": "s3l8_s8_s14",
@@ -19160,7 +20279,8 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "14:5"
               },
               {
                 "id": "s3l8_s8_s15",
@@ -19180,9 +20300,11 @@
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "40:16"
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -19314,7 +20436,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -19551,7 +20674,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 4
           }
         },
         {
@@ -19788,7 +20912,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 4
           }
         }
       ],
@@ -20570,7 +21695,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -20901,7 +22027,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 4
           }
         },
         {
@@ -20938,13 +22065,14 @@
                 "translations": {
                   "hinglish": "Aap toh sirf darane wale hain aur har qom ke liye ek rehnuma hai",
                   "en": "You are only a warner, and for every people is a guide",
-                  "ur": "صرف تم ڈرانے والے ہو اور ہر قوم کے لیے ہدایت دینے والا ہے",
-                  "hi": "सिर्फ़ तुम डराने वाले हो और हर क़ौम के लिए हिदायत देने वाला है",
+                  "ur": "آپ تو صرف خبردار کرنے والے ہیں اور ہر قوم کے لیے ایک رہنما ہے",
+                  "hi": "आप तो सिर्फ़ ख़बरदार करने वाले हैं और हर क़ौम के लिए एक रहनुमा है",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "13:7"
               },
               {
                 "id": "s3l9_v_s2",
@@ -20957,14 +22085,15 @@
                 "is_filled": true,
                 "translations": {
                   "hinglish": "Aur jo apna rukh Allah ki taraf jhuka de is haal mein ke woh muhsin (neki karne wala) ho toh usne mazboot kade ko thaam liya",
-                  "ur": "Aur jo apna rukh Allah ki taraf jhuka de is haal mein ke woh muhsin (neki karne wala) ho toh usne mazboot kade ko thaam liya",
-                  "en": "Aur jo apna rukh Allah ki taraf jhuka de is haal mein ke woh muhsin (neki karne wala) ho toh usne mazboot kade ko thaam liya",
-                  "hi": "Aur jo apna rukh Allah ki taraf jhuka de is haal mein ke woh muhsin (neki karne wala) ho toh usne mazboot kade ko thaam liya",
+                  "ur": "اور جو اپنا رخ اللہ کی طرف جھکا دے اس حال میں کہ وہ نیکی کرنے والا ہو تو اس نے مضبوط کڑا تھام لیا",
+                  "en": "And whoever submits his face to Allah while being a doer of good has grasped the most trustworthy handhold",
+                  "hi": "और जो अपना रुख़ अल्लाह की तरफ़ झुका दे इस हाल में कि वह नेकी करने वाला हो तो उसने मज़बूत कड़ा थाम लिया",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "31:22"
               },
               {
                 "id": "s3l9_v_s3",
@@ -20977,14 +22106,15 @@
                 "is_filled": true,
                 "translations": {
                   "hinglish": "Ba-izzat sahifon mein jo buland-martaba aur paakiza hain",
-                  "ur": "Ba-izzat sahifon mein jo buland-martaba aur paakiza hain",
-                  "en": "Ba-izzat sahifon mein jo buland-martaba aur paakiza hain",
-                  "hi": "Ba-izzat sahifon mein jo buland-martaba aur paakiza hain",
+                  "ur": "بڑے باعزت، بلند مرتبہ اور پاکیزہ صحیفوں میں",
+                  "en": "In honored, exalted, and purified scriptures",
+                  "hi": "बड़े बा-इज़्ज़त, बुलंद मर्तबा और पाकीज़ा सहीफ़ों में",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "80:13-14"
               },
               {
                 "id": "s3l9_v_s4",
@@ -20997,14 +22127,15 @@
                 "is_filled": true,
                 "translations": {
                   "hinglish": "Aur Usne tumhare liye sooraj aur chaand ko musalsal kaam mein lagaya",
-                  "ur": "Aur Usne tumhare liye sooraj aur chaand ko musalsal kaam mein lagaya",
-                  "en": "Aur Usne tumhare liye sooraj aur chaand ko musalsal kaam mein lagaya",
-                  "hi": "Aur Usne tumhare liye sooraj aur chaand ko musalsal kaam mein lagaya",
+                  "ur": "بیشک متقین باغات اور چشموں میں ہوں گے",
+                  "en": "Indeed, the righteous will be in gardens and springs",
+                  "hi": "बेशक मुत्तक़ीन बाग़ात और चश्मों में होंगे",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "14:33"
               }
             ]
           }
@@ -21467,17 +22598,17 @@
               },
               {
                 "id": "s3l10_g2_w20",
-                "arabic": "الرَّجُلُ : الرَّجُلاَنِ",
-                "arabic_text": "الرَّجُلُ : الرَّجُلاَنِ",
-                "arabic_markup": "<span class=\"arabic-root\">الرَّجُلُ : </span><span class=\"nonroot\">الرَّجُلاَنِ</span>",
-                "hinglish": "Ek mard : Do mard",
-                "hinglish_meaning": "Ek mard : Do mard",
+                "arabic": "الرِّجْلُ : الرِّجْلَانِ",
+                "arabic_text": "الرِّجْلُ : الرِّجْلَانِ",
+                "arabic_markup": "<span class=\"arabic-root\">الرِّجْلُ</span> : <span class=\"arabic-root\">الرِّجْلَانِ</span>",
+                "hinglish": "Ek pair : Do pair",
+                "hinglish_meaning": "Ek pair : Do pair",
                 "is_filled": true,
                 "translations": {
-                  "hinglish": "Ek mard : Do mard",
-                  "en": "One man : Two men",
-                  "ur": "ایک مرد : دو مرد",
-                  "hi": "एक मर्द : दो मर्द",
+                  "hinglish": "Ek pair : Do pair",
+                  "en": "The leg/foot : The two legs/feet",
+                  "ur": "ایک پاؤں : دو پاؤں",
+                  "hi": "एक पैर : दो पैर",
                   "bn": null,
                   "ko": null,
                   "zh": null,
@@ -21731,7 +22862,8 @@
                   "es": null
                 }
               }
-            ]
+            ],
+            "cols": 3
           }
         },
         {
@@ -21785,14 +22917,15 @@
                 "is_filled": true,
                 "translations": {
                   "hinglish": "Aur Allah ne farmaya: Do ma'bood mat banao, woh toh bas ek hi Ma'bood hai",
-                  "ur": "Aur Allah ne farmaya: Do ma'bood mat banao, woh toh bas ek hi Ma'bood hai",
-                  "en": "Aur Allah ne farmaya: Do ma'bood mat banao, woh toh bas ek hi Ma'bood hai",
-                  "hi": "Aur Allah ne farmaya: Do ma'bood mat banao, woh toh bas ek hi Ma'bood hai",
+                  "ur": "اور اللہ نے فرمایا: دو معبود نہ بناؤ، معبود تو بس ایک ہی ہے",
+                  "en": "And Allah has said: Do not take for yourselves two deities; He is only One God",
+                  "hi": "और अल्लाह ने फ़रमाया: दो माबूद न बनाओ, माबूद तो बस एक ही है",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "16:51"
               },
               {
                 "id": "s3l10_v_s2",
@@ -21805,14 +22938,15 @@
                 "is_filled": true,
                 "translations": {
                   "hinglish": "Aur Allah ne do mardon ki misaal bayaan ki jin mein se ek goonga hai jo kisi cheez par qudrat nahin rakhta",
-                  "ur": "Aur Allah ne do mardon ki misaal bayaan ki jin mein se ek goonga hai jo kisi cheez par qudrat nahin rakhta",
-                  "en": "Aur Allah ne do mardon ki misaal bayaan ki jin mein se ek goonga hai jo kisi cheez par qudrat nahin rakhta",
-                  "hi": "Aur Allah ne do mardon ki misaal bayaan ki jin mein se ek goonga hai jo kisi cheez par qudrat nahin rakhta",
+                  "ur": "اور اللہ نے دو آدمیوں کی مثال بیان فرمائی جن میں سے ایک گونگا ہے اور کسی چیز پر قدرت نہیں رکھتا",
+                  "en": "And Allah presents an example of two men, one of them dumb and unable to do a thing",
+                  "hi": "और अल्लाह ने दो आदमियों की मिसाल बयान फ़रमाई जिनमें से एक गूँगा है और किसी चीज़ पर क़ुदरत नहीं रखता",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "16:76"
               },
               {
                 "id": "s3l10_v_s3",
@@ -21825,14 +22959,15 @@
                 "is_filled": true,
                 "translations": {
                   "hinglish": "Yaqeenan Saba walon ke liye unke rehne ki jagah mein ek nishani thi: do baagh daayein aur baayein",
-                  "ur": "Yaqeenan Saba walon ke liye unke rehne ki jagah mein ek nishani thi: do baagh daayein aur baayein",
-                  "en": "Yaqeenan Saba walon ke liye unke rehne ki jagah mein ek nishani thi: do baagh daayein aur baayein",
-                  "hi": "Yaqeenan Saba walon ke liye unke rehne ki jagah mein ek nishani thi: do baagh daayein aur baayein",
+                  "ur": "بیشک قومِ سبا کے لیے ان کے مسکن ہی میں ایک نشانی تھی: دائیں اور بائیں دو باغ",
+                  "en": "There was for Saba' in their dwelling place a sign: two gardens on the right and on the left",
+                  "hi": "बेशक क़ौम-ए-सबा के लिए उनके मस्कन ही में एक निशानी थी: दाएँ और बाएँ दो बाग़",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "34:15"
               },
               {
                 "id": "s3l10_v_s4",
@@ -21845,14 +22980,15 @@
                 "is_filled": true,
                 "translations": {
                   "hinglish": "Aur hamne insaan ko uske maa-baap ke saath bhalai karne ki takeed ki",
-                  "ur": "Aur hamne insaan ko uske maa-baap ke saath bhalai karne ki takeed ki",
-                  "en": "Aur hamne insaan ko uske maa-baap ke saath bhalai karne ki takeed ki",
-                  "hi": "Aur hamne insaan ko uske maa-baap ke saath bhalai karne ki takeed ki",
+                  "ur": "اور ہم نے انسان کو اس کے ماں باپ کے ساتھ بھلائی کرنے کی تاکید کی",
+                  "en": "And We have enjoined upon man goodness to his parents",
+                  "hi": "और हमने इंसान को उसके माँ-बाप के साथ भलाई करने की ताकीद की",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "46:15"
               },
               {
                 "id": "s3l10_v_s5",
@@ -21865,14 +23001,15 @@
                 "is_filled": true,
                 "translations": {
                   "hinglish": "Usne do samandar chhode jo aapas mein milte hain, un dono ke darmiyan ek aisi aadh hai ke woh hadd se nahin badhte",
-                  "ur": "Usne do samandar chhode jo aapas mein milte hain, un dono ke darmiyan ek aisi aadh hai ke woh hadd se nahin badhte",
-                  "en": "Usne do samandar chhode jo aapas mein milte hain, un dono ke darmiyan ek aisi aadh hai ke woh hadd se nahin badhte",
-                  "hi": "Usne do samandar chhode jo aapas mein milte hain, un dono ke darmiyan ek aisi aadh hai ke woh hadd se nahin badhte",
+                  "ur": "اس نے دو سمندروں کو رواں کیا جو آپس میں ملتے ہیں، ان دونوں کے درمیان ایک آڑ ہے کہ وہ حد سے تجاوز نہیں کرتے",
+                  "en": "He released the two seas, meeting side by side; between them is a barrier so neither of them transgresses",
+                  "hi": "उसने दो समुंदरों को रवाँ किया जो आपस में मिलते हैं, उन दोनों के दरमियान एक आड़ है कि वे हद से तजावुज़ नहीं करते",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "55:19-20"
               },
               {
                 "id": "s3l10_v_s6",
@@ -21885,14 +23022,15 @@
                 "is_filled": true,
                 "translations": {
                   "hinglish": "Aur jo apne Rabb ke saamne khade hone se dara uske liye do baagh hain",
-                  "ur": "Aur jo apne Rabb ke saamne khade hone se dara uske liye do baagh hain",
-                  "en": "Aur jo apne Rabb ke saamne khade hone se dara uske liye do baagh hain",
-                  "hi": "Aur jo apne Rabb ke saamne khade hone se dara uske liye do baagh hain",
+                  "ur": "اور جو شخص اپنے رب کے سامنے کھڑے ہونے سے ڈرا اس کے لیے دو جنتیں ہیں",
+                  "en": "And for he who feared the standing before his Lord are two gardens",
+                  "hi": "और जो शख़्स अपने रब के सामने खड़े होने से डरा उसके लिए दो जन्नतें हैं",
                   "bn": null,
                   "ko": null,
                   "zh": null,
                   "es": null
-                }
+                },
+                "ref": "55:46"
               }
             ]
           }
