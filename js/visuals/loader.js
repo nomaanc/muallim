@@ -76,10 +76,39 @@ export function destroyVisual(containerId) {
   if (el) el.innerHTML = '';
 }
 
-// Attach to window for non-module script consumption if needed
+// Attach to window for non-module script consumption and legacy GrammarVisuals compatibility
 if (typeof window !== 'undefined') {
   /** @type {any} */ (window).VisualLoader = {
     loadVisual,
     destroyVisual
+  };
+
+  const existingRegistry = /** @type {any} */ (window).GrammarVisuals?.Registry || {};
+
+  /** @type {any} */ (window).GrammarVisuals = {
+    Registry: existingRegistry,
+    /**
+     * Compatibility shim delegating legacy GrammarVisuals.mount(lessonKey, containerId) to VisualLoader.
+     * @param {string} lessonKey
+     * @param {string | HTMLElement} containerId
+     * @returns {Promise<void>}
+     */
+    mount(lessonKey, containerId) {
+      return loadVisual(lessonKey, containerId);
+    },
+    /**
+     * @param {string | HTMLElement} containerId
+     * @returns {void}
+     */
+    destroy(containerId) {
+      destroyVisual(containerId);
+    },
+    /**
+     * @param {string} _lessonKey
+     * @returns {boolean}
+     */
+    has(_lessonKey) {
+      return true;
+    }
   };
 }
