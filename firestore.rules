@@ -12,9 +12,12 @@ rules_version = '2';
 //   - deviceId: string (optional, 1-128 chars)
 //   - role: string (optional, 'student' or 'guest' only — never privileged)
 //   - preferredLang: string (optional, 1-16 chars)
-//   - theme: string (optional, 'light' or 'dark')
+//   - theme: string (optional, 'parchment', 'night', 'sepia', 'light', or 'dark')
 //   - currentStage: int (optional, 1..7)
 //   - currentLesson: int (optional, 1..30)
+//   - streak: map (optional, max 10 keys — daily study streak state)
+//   - completedLessons: map (optional, max 200 entries — completed lesson map)
+//   - studyLog: map (optional, max 400 entries — daily YYYY-MM-DD activity counts)
 //   - starredItems: list (optional, max 2500 items)
 //   - starred: list (optional, max 2500 items — legacy alias)
 //   - customTranslations: map (optional, max 2500 entries)
@@ -126,6 +129,9 @@ service cloud.firestore {
         'examHistory',
         'examResults',
         'mergedFromGuest',
+        'streak',
+        'completedLessons',
+        'studyLog',
         'createdAt',
         'lastSeen',
         'updatedAt'
@@ -137,9 +143,12 @@ service cloud.firestore {
         && isValidOptionalString(data, 'deviceId', 1, 128)
         && (!('role' in data) || (data.role is string && data.role in ['student', 'guest']))
         && isValidOptionalString(data, 'preferredLang', 1, 16)
-        && (!('theme' in data) || (data.theme is string && data.theme in ['light', 'dark']))
+        && (!('theme' in data) || (data.theme is string && data.theme in ['parchment', 'night', 'sepia', 'light', 'dark']))
         && (!('currentStage' in data) || (data.currentStage is int && data.currentStage >= 1 && data.currentStage <= 7))
         && (!('currentLesson' in data) || (data.currentLesson is int && data.currentLesson >= 1 && data.currentLesson <= 30))
+        && isValidOptionalMap(data, 'streak', 10)
+        && isValidOptionalMap(data, 'completedLessons', 200)
+        && isValidOptionalMap(data, 'studyLog', 400)
         && isValidOptionalList(data, 'starredItems', 2500)
         && isValidOptionalList(data, 'starred', 2500)
         && isValidOptionalMap(data, 'customTranslations', 2500)
