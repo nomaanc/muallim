@@ -30,4 +30,5 @@ update-app/
 # Node and test artifacts
 node_modules/
 test-results/
+playwright-report/
 latest-update/

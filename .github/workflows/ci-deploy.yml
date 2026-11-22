@@ -1,0 +1,159 @@
+name: CI Verify & Deploy (v6.0)
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    name: Invariant Gate & Playwright E2E
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Run Python v6.0 invariant gate
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python scripts/verify_v6.py
+
+      - name: Install Playwright test runner
+        run: npm ci
+
+      - name: Install Chromium browser & OS dependencies
+        run: npx playwright install --with-deps chromium
+
+      - name: Run Playwright E2E playtest suite
+        run: npx playwright test
+
+      - name: Upload Playwright report on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: |
+            playwright-report/
+            test-results/
+          retention-days: 7
+
+  deploy-pages:
+    name: Deploy to GitHub Pages
+    needs: verify
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build clean deploy staging directory
+        run: |
+          mkdir -p _site
+          rsync -av \
+            --exclude='.git/' \
+            --exclude='.github/' \
+            --exclude='.firebase/' \
+            --exclude='.gemini/' \
+            --exclude='.env*' \
+            --exclude='.firebaserc' \
+            --exclude='.gitignore' \
+            --exclude='images/' \
+            --exclude='tests/' \
+            --exclude='test-results/' \
+            --exclude='playwright-report/' \
+            --exclude='scripts/' \
+            --exclude='node_modules/' \
+            --exclude='docs/' \
+            --exclude='skills/' \
+            --exclude='latest-update/' \
+            --exclude='security_rules_test_firestore/' \
+            --exclude='*.md' \
+            --exclude='*.py' \
+            --exclude='*.txt' \
+            --exclude='*.ps1' \
+            --exclude='firebase*.json' \
+            --exclude='firestore.*' \
+            --exclude='package*.json' \
+            --exclude='playwright.config.js' \
+            --exclude='data/da_audit_log.json' \
+            --exclude='_site/' \
+            ./ _site/
+          touch _site/.nojekyll
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  deploy-firebase:
+    name: Deploy to Firebase Hosting & Firestore Rules
+    needs: verify
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check Firebase service account secret
+        id: fb_check
+        env:
+          FIREBASE_SA: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MUALLIM_123 }}
+        run: |
+          if [ -n "$FIREBASE_SA" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::FIREBASE_SERVICE_ACCOUNT_MUALLIM_123 secret is not configured; skipping Firebase deploy."
+          fi
+
+      - name: Set up Node.js 20
+        if: steps.fb_check.outputs.enabled == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Deploy Firebase Hosting & Firestore rules
+        if: steps.fb_check.outputs.enabled == 'true'
+        env:
+          FIREBASE_SA: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MUALLIM_123 }}
+        run: |
+          printf '%s' "$FIREBASE_SA" > "$RUNNER_TEMP/firebase-sa.json"
+          chmod 600 "$RUNNER_TEMP/firebase-sa.json"
+          GOOGLE_APPLICATION_CREDENTIALS="$RUNNER_TEMP/firebase-sa.json" \
+            npx --yes firebase-tools deploy --only hosting,firestore:rules --project muallim-123 --non-interactive
+
+      - name: Clean up temporary Firebase credentials
+        if: always()
+        run: rm -f "$RUNNER_TEMP/firebase-sa.json"

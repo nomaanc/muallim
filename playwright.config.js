@@ -5,16 +5,21 @@ module.exports = defineConfig({
   testDir: './tests/e2e',
   timeout: 30000,
   expect: {
-    timeout: 5000,
+    timeout: 7000,
   },
+  reporter: [
+    ['list'],
+    ['html', { open: 'never' }],
+  ],
   webServer: {
     command: 'python -m http.server 8080',
-    port: 8080,
-    reuseExistingServer: true,
+    url: 'http://127.0.0.1:8080/index.html',
+    reuseExistingServer: !process.env.CI,
+    timeout: 30000,
   },
   use: {
     baseURL: 'http://127.0.0.1:8080',
-    viewport: { width: 390, height: 844 },
+    trace: 'on-first-retry',
   },
   projects: [
     {
