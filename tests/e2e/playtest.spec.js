@@ -371,12 +371,17 @@ test.describe("Muallim ul-Qur'an v6.0 E2E Playtest Suite", () => {
     await expect(refBadge).toBeVisible();
     await expect(refBadge).toHaveText(/\d+:\d+/);
 
-    // Clicking the Surah:Ayah badge requests everyayah.com and falls back to Arabic Web Speech TTS
+    // 1. Clicking the normal speaker icon (🔊) uses browser Arabic TTS directly (does NOT call everyayah.com)
+    const speakerBtn = refBadge.locator('xpath=ancestor::article').locator('[data-action="play-tts"]').first();
+    await speakerBtn.click();
+    await expect.poll(() => page.evaluate(() => /** @type {any} */ (window).__ttsCalls.length)).toBeGreaterThanOrEqual(1);
+    expect(qariUrls.length).toBe(0);
+
+    // 2. Clicking the Surah:Ayah citation badge requests Qari Mishary Alafasy MP3 from everyayah.com
     await refBadge.click();
     await expect.poll(() => qariUrls.length).toBeGreaterThanOrEqual(1);
     expect(qariUrls[0]).toMatch(/^https:\/\/everyayah\.com\/data\/Alafasy_128kbps\/\d{6}\.mp3$/);
 
-    await expect.poll(() => page.evaluate(() => /** @type {any} */ (window).__ttsCalls.length)).toBeGreaterThanOrEqual(1);
     const ttsCall = await page.evaluate(() => /** @type {any} */ (window).__ttsCalls[0]);
     expect(ttsCall.lang).toBe('ar-SA');
     expect(ttsCall.text.length).toBeGreaterThan(0);

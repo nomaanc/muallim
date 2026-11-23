@@ -414,16 +414,34 @@ export async function renderLessonView(opts) {
       return;
     }
 
-    const audioBtn = target.closest('[data-action="play-audio"]');
-    if (audioBtn) {
-      const key = audioBtn.getAttribute('data-item-key') || '';
+    const qariBtn = target.closest('[data-action="play-qari"]');
+    if (qariBtn) {
+      const key = qariBtn.getAttribute('data-item-key') || '';
       const entry = itemRegistry.get(key);
       if (entry) {
         audioPlayer.play({
           arabic: entry.item.arabic || '',
           ref: entry.item.ref || '',
           key,
-          buttonEl: /** @type {HTMLElement} */ (audioBtn),
+          mode: 'qari',
+          buttonEl: /** @type {HTMLElement} */ (qariBtn),
+          onNotify
+        });
+      }
+      return;
+    }
+
+    const ttsBtn = target.closest('[data-action="play-tts"], [data-action="play-audio"]');
+    if (ttsBtn) {
+      const key = ttsBtn.getAttribute('data-item-key') || '';
+      const entry = itemRegistry.get(key);
+      if (entry) {
+        audioPlayer.play({
+          arabic: entry.item.arabic || '',
+          ref: '',
+          key,
+          mode: 'tts',
+          buttonEl: /** @type {HTMLElement} */ (ttsBtn),
           onNotify
         });
       }
@@ -544,14 +562,14 @@ function _renderVocabCard(it, itemKey, legacyKey, fullCls, isUrdu) {
         <div class="card-meta-badges">
           ${num ? `<span class="card-number tabular-nums">${escHtml(String(num))}</span>` : ''}
           ${ref ? `
-            <button type="button" class="ref-badge-btn tabular-nums" data-action="play-audio" data-item-key="${escHtml(itemKey)}" aria-label="Play Surah Ayah ${escHtml(ref)}" title="Recite ${escHtml(ref)}">
+            <button type="button" class="ref-badge-btn tabular-nums" data-action="play-qari" data-item-key="${escHtml(itemKey)}" aria-label="Play Ayah ${escHtml(ref)} (Qari Mishary Alafasy)" title="Recite Ayah ${escHtml(ref)} — Qari Mishary Alafasy">
               <span>▶</span>
               <span>${escHtml(ref)}</span>
             </button>
           ` : ''}
         </div>
         <div class="card-actions">
-          <button type="button" class="card-action-btn" data-action="play-audio" data-item-key="${escHtml(itemKey)}" aria-label="Listen to Arabic" title="Listen">🔊</button>
+          <button type="button" class="card-action-btn" data-action="play-tts" data-item-key="${escHtml(itemKey)}" aria-label="Listen via browser Arabic voice (TTS)" title="Browser Arabic TTS">🔊</button>
           <button type="button" class="card-action-btn ${starred ? 'starred' : ''}" data-action="toggle-star" data-item-key="${escHtml(itemKey)}" aria-pressed="${starred}" aria-label="${starred ? 'Remove star' : 'Star this item'}" title="Star">${starred ? '★' : '☆'}</button>
           <button type="button" class="card-action-btn ${bookmarked ? 'bookmarked' : ''}" data-action="toggle-bookmark" data-item-key="${escHtml(itemKey)}" aria-pressed="${Boolean(bookmarked)}" aria-label="Bookmark this item" title="Bookmark">🔖</button>
         </div>
@@ -598,10 +616,10 @@ function _renderPairedCard(rootIt, derIt, rootKey, derKey, fullCls, isUrdu) {
     <article class="paired-card ${fullCls}">
       <div class="card-top">
         <div class="card-meta-badges">
-          ${derIt.ref ? `<button type="button" class="ref-badge-btn tabular-nums" data-action="play-audio" data-item-key="${escHtml(derKey)}" aria-label="Play ${escHtml(derIt.ref)}">▶ ${escHtml(derIt.ref)}</button>` : ''}
+          ${derIt.ref ? `<button type="button" class="ref-badge-btn tabular-nums" data-action="play-qari" data-item-key="${escHtml(derKey)}" aria-label="Play Ayah ${escHtml(derIt.ref)} (Qari Mishary Alafasy)" title="Recite Ayah ${escHtml(derIt.ref)} — Qari Mishary Alafasy">▶ ${escHtml(derIt.ref)}</button>` : ''}
         </div>
         <div class="card-actions">
-          <button type="button" class="card-action-btn" data-action="play-audio" data-item-key="${escHtml(derKey)}" aria-label="Listen to derived word">🔊</button>
+          <button type="button" class="card-action-btn" data-action="play-tts" data-item-key="${escHtml(derKey)}" aria-label="Listen to derived word via TTS" title="Browser Arabic TTS">🔊</button>
           <button type="button" class="card-action-btn ${rootStarred ? 'starred' : ''}" data-action="toggle-star" data-item-key="${escHtml(rootKey)}" aria-pressed="${rootStarred}" aria-label="Star base word">${rootStarred ? '★' : '☆'}</button>
           <button type="button" class="card-action-btn ${derStarred ? 'starred' : ''}" data-action="toggle-star" data-item-key="${escHtml(derKey)}" aria-pressed="${derStarred}" aria-label="Star derived word">${derStarred ? '★' : '☆'}</button>
         </div>

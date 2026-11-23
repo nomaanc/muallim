@@ -110,18 +110,20 @@ class AudioPlayer {
   }
 
   /**
-   * Play Qari recitation if ref exists and online, otherwise fall back to Web Speech TTS (ar-SA).
+   * Play Qari recitation (mode='qari', default when ref exists) or device Web Speech TTS (mode='tts').
    * @param {{
    *   arabic: string,
    *   ref?: string | null,
    *   key?: string,
+   *   mode?: 'qari' | 'tts',
    *   buttonEl?: HTMLElement | null,
    *   onNotify?: (msg: string) => void
    * }} opts
    * @returns {Promise<'qari' | 'tts' | 'stopped' | 'unavailable'>}
    */
   async play(opts) {
-    const playKey = opts.key || opts.ref || opts.arabic;
+    const mode = opts.mode || (opts.ref ? 'qari' : 'tts');
+    const playKey = `${opts.key || opts.ref || opts.arabic}:${mode}`;
     // Clicking the currently active button toggles playback off
     if (this._activeKey && this._activeKey === playKey && (this._audio || (window.speechSynthesis && window.speechSynthesis.speaking))) {
       this.stop();
@@ -132,6 +134,11 @@ class AudioPlayer {
     const token = ++this._playToken;
     this._activeKey = playKey;
     this._activeBtn = opts.buttonEl || null;
+
+    if (mode === 'tts') {
+      const ttsResult = this.speakTTS(opts.arabic, token, opts.buttonEl || null, opts.onNotify);
+      return ttsResult ? 'tts' : 'unavailable';
+    }
 
     const parsedRef = parseRefAudio(opts.ref);
     const isOnline = typeof navigator === 'undefined' ? true : navigator.onLine !== false;

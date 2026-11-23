@@ -272,8 +272,34 @@ function renderSettingsBody() {
   if (!body) return;
 
   if (_settingsTab === 'starred') {
-    const noteEntries = Object.entries(store.customNotes || {}).filter(([, val]) => typeof val === 'string' && val.trim());
-    if (store.favs.length === 0 && noteEntries.length === 0) {
+    const sortedFavs = [...store.favs].sort((a, b) =>
+      (Number(a.stage) - Number(b.stage))
+      || (Number(a.lesson) - Number(b.lesson))
+      || String(a.key || '').localeCompare(String(b.key || ''))
+    );
+    /** @type {Map<string, {stage: number, lesson: number, items: typeof sortedFavs}>} */
+    const favGroups = new Map();
+    for (const f of sortedFavs) {
+      const u = Number(f.stage) || 1;
+      const l = Number(f.lesson) || 1;
+      const gk = `${u}:${l}`;
+      if (!favGroups.has(gk)) favGroups.set(gk, { stage: u, lesson: l, items: [] });
+      favGroups.get(gk)?.items.push(f);
+    }
+
+    const noteEntries = Object.entries(store.customNotes || {})
+      .filter(([, val]) => typeof val === 'string' && val.trim())
+      .sort(([ka], [kb]) => {
+        const ma = String(ka).match(/^s(\d+)l(\d+)/i);
+        const mb = String(kb).match(/^s(\d+)l(\d+)/i);
+        const ua = ma ? Number(ma[1]) : 99;
+        const ub = mb ? Number(mb[1]) : 99;
+        const la = ma ? Number(ma[2]) : 999;
+        const lb = mb ? Number(mb[2]) : 999;
+        return (ua - ub) || (la - lb) || String(ka).localeCompare(String(kb));
+      });
+
+    if (sortedFavs.length === 0 && noteEntries.length === 0) {
       body.innerHTML = `
         <div class="empty-state">
           <div class="empty-state-title">No starred items or personal notes yet</div>
@@ -284,18 +310,22 @@ function renderSettingsBody() {
     }
     body.innerHTML = `
       <div class="settings-stack">
-        ${store.favs.length > 0 ? `
+        ${sortedFavs.length > 0 ? `
           <section class="settings-section">
-            <span class="field-label">Starred Items (${store.favs.length})</span>
+            <span class="field-label">Starred Items — Sorted by Lesson (${sortedFavs.length})</span>
             <div class="starred-list-stack">
-              ${store.favs.map(f => `
-                <div class="starred-item-row">
-                  <button type="button" style="flex:1; text-align:left; min-width:0;" data-jump-star="${f.stage}:${f.lesson}">
-                    <div class="search-result-unit tabular-nums">Unit ${f.stage} · Lesson ${f.lesson}</div>
-                    <div class="arabic-text" style="font-size:1.35rem; line-height:1.5">${escHtml(f.arabic)}</div>
-                    <div class="search-result-gloss">${escHtml(f.hinglish)}</div>
-                  </button>
-                  <button type="button" class="btn-ghost btn-sm" data-unstar-key="${escHtml(f.key)}" aria-label="Remove star">Remove</button>
+              ${Array.from(favGroups.values()).map(grp => `
+                <div class="starred-lesson-group">
+                  <div class="search-result-unit tabular-nums" style="margin:6px 0 4px; font-weight:700; color:var(--accent-primary);">Unit ${grp.stage} · Lesson ${grp.lesson} (${grp.items.length})</div>
+                  ${grp.items.map(f => `
+                    <div class="starred-item-row">
+                      <button type="button" style="flex:1; text-align:left; min-width:0;" data-jump-star="${f.stage}:${f.lesson}">
+                        <div class="arabic-text" style="font-size:1.35rem; line-height:1.5">${escHtml(f.arabic)}</div>
+                        <div class="search-result-gloss">${escHtml(f.hinglish)}</div>
+                      </button>
+                      <button type="button" class="btn-ghost btn-sm" data-unstar-key="${escHtml(f.key)}" aria-label="Remove star">Remove</button>
+                    </div>
+                  `).join('')}
                 </div>
               `).join('')}
             </div>
