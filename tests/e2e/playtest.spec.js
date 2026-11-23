@@ -403,7 +403,7 @@ test.describe("Muallim ul-Qur'an v6.0 E2E Playtest Suite", () => {
     expect(errors).toEqual([]);
   });
 
-  test('Flow 13: Service Worker muallim-v6.0.0-cache registration & offline asset serving', async ({ page, context }) => {
+  test('Flow 13: Service Worker muallim-v6.x cache registration & offline asset serving', async ({ page, context }) => {
     const errors = trackPageErrors(page);
 
     await page.goto('./index.html#u1/l1');
@@ -415,8 +415,9 @@ test.describe("Muallim ul-Qur'an v6.0 E2E Playtest Suite", () => {
         if (!('serviceWorker' in navigator) || !('caches' in window)) return false;
         await navigator.serviceWorker.ready;
         const keys = await caches.keys();
-        if (!keys.includes('muallim-v6.0.0-cache')) return false;
-        const cache = await caches.open('muallim-v6.0.0-cache');
+        const v6Key = keys.find(k => /^muallim-v6\.\d+\.\d+-cache$/.test(k));
+        if (!v6Key) return false;
+        const cache = await caches.open(v6Key);
         const cachedIndex = await cache.match('./index.html');
         return Boolean(cachedIndex);
       });
@@ -427,7 +428,10 @@ test.describe("Muallim ul-Qur'an v6.0 E2E Playtest Suite", () => {
     await expect(page.locator('.lesson-banner-title')).toBeVisible();
     await expect.poll(async () => {
       return await page.evaluate(async () => {
-        const cache = await caches.open('muallim-v6.0.0-cache');
+        const keys = await caches.keys();
+        const v6Key = keys.find(k => /^muallim-v6\.\d+\.\d+-cache$/.test(k));
+        if (!v6Key) return false;
+        const cache = await caches.open(v6Key);
         return Boolean(await cache.match('./data/unit1.json'));
       });
     }, { timeout: 10000 }).toBe(true);
@@ -439,6 +443,32 @@ test.describe("Muallim ul-Qur'an v6.0 E2E Playtest Suite", () => {
     await expect(page.locator('#lesson-content-mount .vocab-card').first()).toBeVisible();
     await context.setOffline(false);
 
+    expect(errors).toEqual([]);
+  });
+
+  test('Flow 15: U5L15 & U5L16 render hero markup and concept SVG without raw HTML + mobile SVG lightbox', async ({ page }) => {
+    const errors = trackPageErrors(page);
+    await page.setViewportSize({ width: 390, height: 844 });
+
+    await page.goto('./index.html#u5/l15');
+    await expect(page.locator('.hero-arabic')).toBeVisible();
+    const heroText = await page.locator('.hero-arabic').textContent();
+    expect(heroText || '').not.toContain('<span');
+    expect(await page.locator('.hero-arabic .arabic-root').count()).toBeGreaterThan(0);
+
+    const ruleText = await page.locator('.rule-card').first().textContent();
+    expect(ruleText || '').not.toContain('<svg');
+    await expect(page.locator('.concept-svg-card svg').first()).toBeVisible();
+
+    // Expand SVG lightbox and close cleanly
+    await page.locator('[data-action="expand-svg"]').first().click();
+    await expect(page.locator('#svg-lightbox-overlay svg')).toBeVisible();
+    await page.locator('.svg-lightbox-close').click();
+    await expect(page.locator('#svg-lightbox-overlay')).toHaveCount(0);
+
+    // Zero horizontal page overflow at 390px
+    const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
+    expect(overflow).toBe(false);
     expect(errors).toEqual([]);
   });
 

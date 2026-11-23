@@ -681,6 +681,9 @@
 }
 
 /* ── Grammar Visuals Integration (js/visuals/*.js) ── */
+#grammar-visual-mount {
+  min-height: 240px;
+}
 .gv-card {
   background-color: var(--bg-surface);
   border: 1px solid var(--border-default);

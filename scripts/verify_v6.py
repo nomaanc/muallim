@@ -304,7 +304,7 @@ def verify_assets_and_shell(failures: list[str], skip_node: bool) -> list[tuple[
         record("sw.js cache & ASSETS", "sw.js missing", False)
     else:
         sw_text = sw_path.read_text(encoding="utf-8")
-        has_cache = "muallim-v6.0.0-cache" in sw_text
+        has_cache = bool(re.search(r"muallim-v6\.\d+\.\d+-cache", sw_text))
         m_assets = re.search(r"const\s+ASSETS\s*=\s*\[(.*?)\];", sw_text, re.DOTALL)
         missing_assets: list[str] = []
         asset_count = 0

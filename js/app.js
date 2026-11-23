@@ -272,27 +272,56 @@ function renderSettingsBody() {
   if (!body) return;
 
   if (_settingsTab === 'starred') {
-    if (store.favs.length === 0) {
+    const noteEntries = Object.entries(store.customNotes || {}).filter(([, val]) => typeof val === 'string' && val.trim());
+    if (store.favs.length === 0 && noteEntries.length === 0) {
       body.innerHTML = `
         <div class="empty-state">
-          <div class="empty-state-title">No starred items yet</div>
-          <p class="empty-state-desc">Tap ★ on any vocabulary card to save it here for quick revision.</p>
+          <div class="empty-state-title">No starred items or personal notes yet</div>
+          <p class="empty-state-desc">Tap ★ to star a card or ✏️ to save a Personal Note (Custom Translation). Both sync to cloud and export in Backup JSON.</p>
         </div>
       `;
       return;
     }
     body.innerHTML = `
-      <div class="starred-list-stack">
-        ${store.favs.map(f => `
-          <div class="starred-item-row">
-            <button type="button" style="flex:1; text-align:left; min-width:0;" data-jump-star="${f.stage}:${f.lesson}">
-              <div class="search-result-unit tabular-nums">Unit ${f.stage} · Lesson ${f.lesson}</div>
-              <div class="arabic-text" style="font-size:1.35rem; line-height:1.5">${escHtml(f.arabic)}</div>
-              <div class="search-result-gloss">${escHtml(f.hinglish)}</div>
-            </button>
-            <button type="button" class="btn-ghost btn-sm" data-unstar-key="${escHtml(f.key)}" aria-label="Remove star">Remove</button>
-          </div>
-        `).join('')}
+      <div class="settings-stack">
+        ${store.favs.length > 0 ? `
+          <section class="settings-section">
+            <span class="field-label">Starred Items (${store.favs.length})</span>
+            <div class="starred-list-stack">
+              ${store.favs.map(f => `
+                <div class="starred-item-row">
+                  <button type="button" style="flex:1; text-align:left; min-width:0;" data-jump-star="${f.stage}:${f.lesson}">
+                    <div class="search-result-unit tabular-nums">Unit ${f.stage} · Lesson ${f.lesson}</div>
+                    <div class="arabic-text" style="font-size:1.35rem; line-height:1.5">${escHtml(f.arabic)}</div>
+                    <div class="search-result-gloss">${escHtml(f.hinglish)}</div>
+                  </button>
+                  <button type="button" class="btn-ghost btn-sm" data-unstar-key="${escHtml(f.key)}" aria-label="Remove star">Remove</button>
+                </div>
+              `).join('')}
+            </div>
+          </section>
+        ` : ''}
+        ${noteEntries.length > 0 ? `
+          <section class="settings-section">
+            <span class="field-label">Personal Notes / Custom Translations (${noteEntries.length})</span>
+            <div class="starred-list-stack">
+              ${noteEntries.map(([key, noteText]) => {
+                const m = String(key).match(/^s(\d+)l(\d+)/i);
+                const jumpAttr = m ? `data-jump-star="${Number(m[1])}:${Number(m[2])}"` : '';
+                const label = m ? `Unit ${Number(m[1])} · Lesson ${Number(m[2])}` : key;
+                return `
+                  <div class="starred-item-row">
+                    <button type="button" style="flex:1; text-align:left; min-width:0;" ${jumpAttr}>
+                      <div class="search-result-unit tabular-nums">${escHtml(label)}</div>
+                      <div class="search-result-gloss">${escHtml(noteText)}</div>
+                    </button>
+                    <button type="button" class="btn-ghost btn-sm" data-del-note-key="${escHtml(key)}" aria-label="Delete personal note">Clear</button>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          </section>
+        ` : ''}
       </div>
     `;
     body.querySelectorAll('[data-jump-star]').forEach(btn => {
@@ -309,19 +338,36 @@ function renderSettingsBody() {
         renderSettingsBody();
       });
     });
+    body.querySelectorAll('[data-del-note-key]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const key = btn.getAttribute('data-del-note-key') || '';
+        store.saveCustomNote(key, '');
+        renderSettingsBody();
+      });
+    });
     return;
   }
 
   if (_settingsTab === 'sync') {
     const user = cloudSync.user;
+    const notesCount = Object.keys(store.customNotes || {}).length;
     body.innerHTML = `
       <div class="settings-stack">
         <section class="settings-section">
-          <label class="field-label">Local JSON Backup</label>
+          <label class="field-label">Local JSON Backup &amp; Restore</label>
+          <p class="search-status-line" style="margin:0 0 6px">Includes ${store.favs.length} starred items, ${notesCount} personal notes (custom translations), SRS boxes, streak &amp; completed lessons.</p>
           <div class="lesson-action-group">
             <button type="button" class="btn-secondary" id="btn-export-json">Export JSON</button>
             <button type="button" class="btn-secondary" id="btn-import-json">Import JSON</button>
             <input type="file" id="input-import-json" accept=".json" hidden>
+          </div>
+        </section>
+
+        <section class="settings-section">
+          <label class="field-label">App Version &amp; Cache (v6.0.1)</label>
+          <p class="search-status-line" style="margin:0 0 6px">If an older version appears cached on your device, clear the offline cache and reload fresh.</p>
+          <div class="lesson-action-group">
+            <button type="button" class="btn-secondary btn-sm" id="btn-force-refresh">Force Refresh App</button>
           </div>
         </section>
 
@@ -436,6 +482,22 @@ function renderSettingsBody() {
       await cloudSync.signOut();
       showToast('Signed out.');
       renderSettingsBody();
+    });
+
+    body.querySelector('#btn-force-refresh')?.addEventListener('click', async () => {
+      try {
+        if ('caches' in window) {
+          const keys = await caches.keys();
+          await Promise.all(keys.map(k => caches.delete(k)));
+        }
+        if ('serviceWorker' in navigator) {
+          const regs = await navigator.serviceWorker.getRegistrations();
+          await Promise.all(regs.map(r => r.unregister()));
+        }
+      } catch (err) {
+        console.warn('[Cache] Clear failed:', err);
+      }
+      window.location.reload();
     });
     return;
   }
@@ -612,6 +674,9 @@ function initApp() {
     onEscape: () => {
       const openDlg = /** @type {HTMLDialogElement | null} */ (document.querySelector('dialog[open]'));
       if (openDlg) openDlg.close();
+      if (document.activeElement instanceof HTMLElement) {
+        document.activeElement.blur();
+      }
       document.querySelectorAll('[data-note-editor-slot]').forEach(el => {
         el.innerHTML = '';
       });
@@ -657,9 +722,27 @@ function initApp() {
 
   cloudSync.restoreIfOptedIn();
 
-  // Register Service Worker on HTTP(S)
+  // Register Service Worker on HTTP(S) with automatic update activation
   if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
-    navigator.serviceWorker.register('./sw.js').catch(err => {
+    const hadController = Boolean(navigator.serviceWorker.controller);
+    let swReloading = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => {
+      if (!hadController || swReloading) return;
+      swReloading = true;
+      window.location.reload();
+    });
+    navigator.serviceWorker.register('./sw.js').then((reg) => {
+      reg.update().catch(() => { /* offline check skipped */ });
+      reg.addEventListener('updatefound', () => {
+        const next = reg.installing;
+        if (!next) return;
+        next.addEventListener('statechange', () => {
+          if (next.state === 'installed' && navigator.serviceWorker.controller) {
+            next.postMessage({ type: 'SKIP_WAITING' });
+          }
+        });
+      });
+    }).catch(err => {
       console.warn('[SW] Registration skipped:', err);
     });
   }

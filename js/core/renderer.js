@@ -35,23 +35,98 @@ function sanitizeCopy(text) {
 }
 
 /**
- * Format rule_paragraph text: preserve embedded .lesson-concept-svg HTML while
- * converting simple Markdown **bold** and `code` tokens cleanly.
+ * Safely render Arabic markup allowing ONLY root/nonroot spans and &nbsp;.
+ * Escapes all other HTML to prevent XSS while rendering textbook markup cleanly.
+ * @param {string} raw
+ * @returns {string}
+ */
+export function renderSafeArabicMarkup(raw) {
+  const tokens = [];
+  const withPlaceholders = String(raw || '')
+    .replace(/<span\s+class="(arabic-root|nonroot)">/gi, (_, cls) => {
+      const idx = tokens.push(`<span class="${cls.toLowerCase()}">`) - 1;
+      return `@@TOK${idx}@@`;
+    })
+    .replace(/<\/span>/gi, () => {
+      const idx = tokens.push('</span>') - 1;
+      return `@@TOK${idx}@@`;
+    })
+    .replace(/&nbsp;/gi, () => {
+      const idx = tokens.push('&nbsp;') - 1;
+      return `@@TOK${idx}@@`;
+    });
+  return escHtml(withPlaceholders).replace(/@@TOK(\d+)@@/g, (_, n) => tokens[Number(n)] || '');
+}
+
+/**
+ * Format page numbers cleanly (e.g. [56, 57, 58] -> "56–58").
+ * @param {any} raw
+ * @returns {string}
+ */
+function formatPageLabel(raw) {
+  if (Array.isArray(raw)) {
+    const nums = raw.map(Number).filter(Number.isFinite);
+    if (nums.length === 0) return '';
+    if (nums.length === 1) return String(nums[0]);
+    const isContiguous = nums.every((n, i) => i === 0 || n === nums[i - 1] + 1);
+    return isContiguous ? `${nums[0]}–${nums[nums.length - 1]}` : nums.join(', ');
+  }
+  return String(raw || '');
+}
+
+/**
+ * Wrap a concept SVG block in a mobile-legible horizontal-pan card with an Expand button.
+ * @param {string} svgMarkup
+ * @returns {string}
+ */
+function wrapConceptSvg(svgMarkup) {
+  return `
+    <div class="concept-svg-card">
+      <div class="concept-svg-bar">
+        <span class="concept-svg-label">Concept Diagram</span>
+        <span class="concept-svg-hint">Swipe or expand</span>
+        <button type="button" class="btn-ghost btn-sm concept-svg-expand-btn" data-action="expand-svg" aria-label="Expand concept diagram">⤢ Expand</button>
+      </div>
+      <div class="concept-svg-scroll" tabindex="0" aria-label="Scrollable concept diagram">${svgMarkup}</div>
+    </div>
+  `;
+}
+
+/**
+ * Format rule_paragraph text: preserve embedded .lesson-concept-svg or bare <svg>
+ * blocks while converting simple Markdown **bold** and `code` tokens cleanly.
  * @param {string} raw
  * @returns {string}
  */
 function formatRuleContent(raw) {
   const txt = sanitizeCopy(raw);
-  const svgEnd = txt.indexOf('</div>');
-  if (txt.trim().startsWith('<div class="lesson-concept-svg"') && svgEnd > 0) {
-    const svgHtml = txt.slice(0, svgEnd + 6);
-    const rest = txt.slice(svgEnd + 6).trim();
-    const formattedRest = escHtml(rest)
+  const formatProse = (prose) => {
+    if (!prose) return '';
+    const formatted = escHtml(prose)
       .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
       .replace(/`([^`]+)`/g, '<code>$1</code>')
       .replace(/\n/g, '<br>');
-    return `${svgHtml}${formattedRest ? `<div class="rule-body-text">${formattedRest}</div>` : ''}`;
+    return `<div class="rule-body-text">${formatted}</div>`;
+  };
+
+  // Case 1: <div class="lesson-concept-svg"...>...</div>
+  const divMatch = txt.match(/<div\s+class="lesson-concept-svg"[^>]*>[\s\S]*?<\/div>/i);
+  if (divMatch && divMatch.index !== undefined) {
+    const before = txt.slice(0, divMatch.index).trim();
+    const svgInnerMatch = divMatch[0].match(/<svg[\s\S]*?<\/svg>/i);
+    const svgMarkup = svgInnerMatch ? svgInnerMatch[0] : divMatch[0];
+    const after = txt.slice(divMatch.index + divMatch[0].length).trim();
+    return `${formatProse(before)}${wrapConceptSvg(svgMarkup)}${formatProse(after)}`;
   }
+
+  // Case 2: Bare <svg ...>...</svg> (e.g. Unit 5 Lesson 15 & 16)
+  const svgMatch = txt.match(/<svg\b[\s\S]*?<\/svg>/i);
+  if (svgMatch && svgMatch.index !== undefined) {
+    const before = txt.slice(0, svgMatch.index).trim();
+    const after = txt.slice(svgMatch.index + svgMatch[0].length).trim();
+    return `${formatProse(before)}${wrapConceptSvg(svgMatch[0])}${formatProse(after)}`;
+  }
+
   return escHtml(txt)
     .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
     .replace(/`([^`]+)`/g, '<code>$1</code>')
@@ -185,7 +260,7 @@ export async function renderLessonView(opts) {
   const rawTitle = (lesson.title_i18n && lesson.title_i18n[lang]) || lesson.title || `Unit ${unit} Lesson ${lid}`;
   const title = sanitizeCopy(rawTitle);
   const focusAr = lesson.arabic_Focus || '';
-  const pageLabel = lesson.page_numbers || lesson.book_page || lesson.page_start || '';
+  const pageLabel = formatPageLabel(lesson.page_numbers) || formatPageLabel(lesson.book_page) || formatPageLabel(lesson.page_start) || '';
   const isDone = store.isLessonCompleted(unit, lid);
   const mastery = store.getUnitMastery(unit);
 
@@ -229,7 +304,7 @@ export async function renderLessonView(opts) {
       if (heroAr || heroSub) {
         html += `
           <section class="hero-section">
-            ${heroAr ? `<div class="hero-arabic">${escHtml(heroAr)}</div>` : ''}
+            ${heroAr ? `<div class="hero-arabic">${renderSafeArabicMarkup(heroAr)}</div>` : ''}
             ${heroSub ? `<div class="hero-hinglish">${escHtml(sanitizeCopy(heroSub))}</div>` : ''}
           </section>
         `;
@@ -270,7 +345,11 @@ export async function renderLessonView(opts) {
       html += '<tbody>';
       for (const row of rows) {
         const cells = Array.isArray(row) ? row : Object.values(row || {});
-        html += `<tr>${cells.map(c => `<td>${escHtml(sanitizeCopy(String(c ?? '')))}</td>`).join('')}</tr>`;
+        html += `<tr>${cells.map(c => {
+          const s = sanitizeCopy(String(c ?? ''));
+          const isAr = /[\u0600-\u06FF]/.test(s);
+          return `<td${isAr ? ' class="is-arabic-cell" dir="rtl"' : ''}>${escHtml(s)}</td>`;
+        }).join('')}</tr>`;
       }
       html += '</tbody></table></div>';
       return;
@@ -279,7 +358,7 @@ export async function renderLessonView(opts) {
     if (secType === 'two_col_numbered_list' || secType === 'three_col_numbered_list' || secType === 'verse_block' || secType === 'exercise_verses' || secType === 'tashbeeh_grid' || secType === 'ayah_pause_block') {
       const defaultCols = secType === 'three_col_numbered_list' ? 3 : (secType === 'verse_block' || secType === 'exercise_verses' ? 1 : 2);
       const rawCols = Number(d.cols || sec.cols || defaultCols);
-      const cols = Math.min(4, Math.max(1, Number.isFinite(rawCols) ? rawCols : defaultCols));
+      const cols = Math.min(5, Math.max(1, Number.isFinite(rawCols) ? rawCols : defaultCols));
       const secFullWidth = Boolean(d.full_width || sec.full_width);
       const rawItems = Array.isArray(d.items) ? d.items : (Array.isArray(d.verses) ? d.verses : []);
       const items = rawItems.some(it => it && it.displayOrder !== undefined)
@@ -327,6 +406,13 @@ export async function renderLessonView(opts) {
   mount.addEventListener('click', (ev) => {
     const target = /** @type {HTMLElement | null} */ (ev.target);
     if (!target) return;
+
+    const expandSvgBtn = target.closest('[data-action="expand-svg"]');
+    if (expandSvgBtn) {
+      const svgEl = expandSvgBtn.closest('.concept-svg-card')?.querySelector('svg');
+      if (svgEl) _openSvgLightbox(svgEl.outerHTML);
+      return;
+    }
 
     const audioBtn = target.closest('[data-action="play-audio"]');
     if (audioBtn) {
@@ -586,4 +672,38 @@ function _toggleInlineNoteEditor(slot, itemKey, legacyKey) {
       }
     }
   });
+}
+
+/**
+ * Full-viewport zoomable lightbox for wide Concept SVGs on mobile & desktop.
+ * Uses a div overlay (not an extra <dialog>) to keep the 5-modal shell invariant.
+ * @param {string} svgOuterHtml
+ */
+function _openSvgLightbox(svgOuterHtml) {
+  document.getElementById('svg-lightbox-overlay')?.remove();
+  const overlay = document.createElement('div');
+  overlay.id = 'svg-lightbox-overlay';
+  overlay.className = 'svg-lightbox';
+  overlay.setAttribute('role', 'region');
+  overlay.setAttribute('aria-label', 'Expanded concept diagram');
+  overlay.innerHTML = `
+    <div class="svg-lightbox-bar">
+      <span class="svg-lightbox-title">Concept Diagram · Pinch or Scroll to Pan</span>
+      <button type="button" class="icon-btn svg-lightbox-close" aria-label="Close diagram">✕</button>
+    </div>
+    <div class="svg-lightbox-stage">${svgOuterHtml}</div>
+  `;
+  const close = () => {
+    overlay.remove();
+    document.removeEventListener('keydown', onKey);
+  };
+  const onKey = (/** @type {KeyboardEvent} */ e) => {
+    if (e.key === 'Escape') close();
+  };
+  overlay.querySelector('.svg-lightbox-close')?.addEventListener('click', close);
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) close();
+  });
+  document.addEventListener('keydown', onKey);
+  document.body.appendChild(overlay);
 }
