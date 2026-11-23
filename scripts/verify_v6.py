@@ -32,11 +32,11 @@ UNIT_SIZE_BUDGETS = {
     3: 1_048_576,  # 1.0 MB
     4: 1_572_864,  # 1.5 MB
     5: 3_670_016,  # 3.5 MB
-    6: 3_984_588,  # 3.8 MB
-    7: 6_291_456,  # 6.0 MB
+    6: 4_404_019,  # 4.2 MB (v6.0.2 backfill: +816 omitted items)
+    7: 7_340_032,  # 7.0 MB (v6.0.2 backfill: +1,455 omitted items)
 }
 
-SEARCH_INDEX_BUDGET = 4_718_592  # 4.5 MB
+SEARCH_INDEX_BUDGET = 5_033_164  # 4.8 MB (v6.0.2 backfill: 14,956 items)
 STYLES_CSS_BUDGET = 61_440       # 60 KB
 LAYOUT_CSS_BUDGET = 35_840       # 35 KB
 

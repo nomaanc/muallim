@@ -1,6 +1,6 @@
 // @ts-check
-// v6.0.1 — Student-only PWA: 7 units, 114 lessons, 12,685 items, 570 quiz questions
-const CACHE_NAME = 'muallim-v6.0.1-cache';
+// v6.0.2 — Student-only PWA: 7 units, 114 lessons, 14,956 items, 570 quiz questions
+const CACHE_NAME = 'muallim-v6.0.2-cache';
 const ASSETS = [
   './',
   './index.html',

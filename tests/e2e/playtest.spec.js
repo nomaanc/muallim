@@ -45,8 +45,8 @@ test.describe("Muallim ul-Qur'an v6.0 E2E Playtest Suite", () => {
       await expect(page.locator('#grammar-visual-mount')).toBeAttached();
     }
 
-    // Verify S7L6 3-column grid renders 35 cards
-    await expect(page.locator('#lesson-content-mount .bidi-grid.cols-3 .vocab-card')).toHaveCount(35);
+    // Verify S7L6 3-column grid renders all 89 cards (35 original + 54 backfilled)
+    await expect(page.locator('#lesson-content-mount .bidi-grid.cols-3 .vocab-card')).toHaveCount(89);
 
     // Verify S5L6 RTL order (first 4 cards)
     await page.goto('./index.html#u5/l6');
