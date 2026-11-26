@@ -307,11 +307,12 @@ export class ExamsController {
   _extractPaper(data, examId) {
     if (!data) return null;
     const key = String(examId || 'vol1').toLowerCase();
-    if (data.papers) {
-      if (Array.isArray(data.papers)) {
-        return data.papers.find(p => String(p.id || p.examId || '').toLowerCase() === key) || data.papers[0];
+    const container = data.exams || data.papers;
+    if (container) {
+      if (Array.isArray(container)) {
+        return container.find(p => String(p.id || p.examId || '').toLowerCase() === key) || container[0];
       }
-      return data.papers[key] || null;
+      return container[key] || null;
     }
     if (Array.isArray(data)) {
       return data.find(p => String(p.id || p.examId || '').toLowerCase() === key) || data[0];
@@ -436,9 +437,9 @@ export class ExamsController {
         } else if (status === 'missed') {
           missedEntries.push({
             key: item.itemKey || `S${item.unit || item.stage || (examId === 'u7' ? 7 : examId === 'u5' ? 5 : examId === 'u4' ? 4 : 1)}L${item.lesson || 1}_num_${item.id || iKey}`,
-            arabic: item.arabic || '',
-            gloss: pickLang(item.translations || item.answer || item.meaning),
-            ref: item.ref || '',
+            arabic: item.arabic || (Array.isArray(item.ayahs) ? item.ayahs.map(a => a.arabic || '').join(' ') : ''),
+            gloss: pickLang(item.answer_i18n || item.targetGloss_i18n || item.theme_i18n || item.translations || item.answer || item.meaning),
+            ref: item.ref || (Array.isArray(item.ayahs) && item.ayahs[0]?.ref) || '',
             stage: Number(item.unit || item.stage || (examId === 'u7' ? 7 : examId === 'u5' ? 5 : examId === 'u4' ? 4 : 1)),
             lesson: Number(item.lesson || 1)
           });
@@ -459,7 +460,9 @@ export class ExamsController {
 
     const sectionsHtml = sections.map((sec, sIdx) => {
       const items = Array.isArray(sec.items) ? sec.items : [];
-      const cols = Number(sec.columns) || (sec.type === 'bayyinat' || sec.type === 'thematic' ? 1 : 2);
+      const layoutStr = String(sec.layout || '').toLowerCase();
+      const layoutCols = layoutStr.includes('3') ? 3 : layoutStr.includes('1') || layoutStr.includes('bayyinat') || layoutStr.includes('thematic') ? 1 : layoutStr.includes('2') ? 2 : 0;
+      const cols = Number(sec.columns) || layoutCols || (sec.type === 'bayyinat' || sec.type === 'thematic' ? 1 : 2);
       const secTitle = pickLang(sec.title_i18n || sec.title, `Question ${sIdx + 1}`);
       const secRubric = pickLang(sec.rubric_i18n || sec.rubric || sec.instructions, '');
       const secMarks = Number(sec.marks || sec.totalMarks) || 0;
@@ -468,19 +471,27 @@ export class ExamsController {
         const iKey = `${examId}_s${sIdx}_i${iIdx}`;
         const status = this._grades[iKey] || '';
         const isRev = this._revealedAnswers.has(iKey) || this._submitted;
-        const answerText = pickLang(item.translations || item.answer || item.meaning || item.explanation, '');
-        const hasAudio = Boolean(item.ref || item.arabic);
+        const answerText = pickLang(
+          item.answer_i18n || item.targetGloss_i18n || item.theme_i18n || item.translations || item.answer || item.meaning || item.explanation,
+          ''
+        );
+        const themeText = item.answer_i18n && item.theme_i18n ? pickLang(item.theme_i18n, '') : '';
+        const targetGloss = item.answer_i18n && item.targetGloss_i18n ? pickLang(item.targetGloss_i18n, '') : '';
+        const glossHints = Array.isArray(item.glossHints) ? item.glossHints : [];
+        const itemRef = item.ref || (Array.isArray(item.ayahs) && item.ayahs[0]?.ref) || '';
+        const hasAudio = Boolean(itemRef || item.arabic || (Array.isArray(item.ayahs) && item.ayahs.length > 0));
 
         return `
           <article class="exam-item-card ${status === 'correct' ? 'is-correct' : status === 'missed' ? 'is-missed' : ''}" data-exam-item="${iKey}">
             <div class="card-top">
               <div class="card-meta-badges">
                 <span class="card-number tabular-nums">${sIdx + 1}.${iIdx + 1}</span>
-                ${item.ref ? `<span class="ref-badge-btn">${esc(item.ref)}</span>` : ''}
+                ${itemRef ? `<span class="ref-badge-btn">${esc(itemRef)}</span>` : ''}
+                ${item.marks ? `<span class="dialog-subtitle tabular-nums">${esc(String(item.marks))}m</span>` : ''}
               </div>
               <div class="card-actions">
                 ${hasAudio ? `
-                  ${item.ref ? `<button type="button" class="card-action-btn" data-exam-audio="qari" data-item-key="${iKey}" aria-label="Play Qari recitation">${ICON_PLAY}</button>` : ''}
+                  ${itemRef ? `<button type="button" class="card-action-btn" data-exam-audio="qari" data-item-key="${iKey}" aria-label="Play Qari recitation">${ICON_PLAY}</button>` : ''}
                   <button type="button" class="card-action-btn" data-exam-audio="tts" data-item-key="${iKey}" aria-label="Speak Arabic">${ICON_SPEAK}</button>
                 ` : ''}
               </div>
@@ -488,9 +499,17 @@ export class ExamsController {
 
             ${renderExamArabicHtml(item)}
 
-            ${isRev && answerText ? `
+            ${glossHints.length > 0 ? `
+              <div class="search-status-line" style="margin:0;">
+                Lexical gloss: ${glossHints.map(h => typeof h === 'string' ? esc(h) : `${esc(h.word || h.ar || '')}: ${esc(pickLang(h.gloss_i18n || h.gloss || h.meaning, ''))}`).join(' · ')}
+              </div>
+            ` : ''}
+
+            ${isRev && (answerText || targetGloss || themeText) ? `
               <div class="exam-answer-box" ${isUrdu ? 'dir="rtl" lang="ur"' : ''}>
-                <div class="gloss-text">${esc(answerText)}</div>
+                ${targetGloss ? `<div class="gloss-text"><strong>Target (${esc(item.targetWord || '')}):</strong> ${esc(targetGloss)}</div>` : ''}
+                ${answerText ? `<div class="gloss-text">${esc(answerText)}</div>` : ''}
+                ${themeText ? `<div class="gloss-text" style="margin-top:4px;"><strong>Theme:</strong> ${esc(themeText)}</div>` : ''}
               </div>
             ` : ''}
 
@@ -647,10 +666,12 @@ export class ExamsController {
         const iKey = btn.getAttribute('data-item-key') || '';
         const item = findItem(iKey);
         if (!item) return;
-        const arabic = item.arabic || (Array.isArray(item.verses) ? item.verses.map(v => v.arabic || v).join(' ') : '');
+        const listSrc = Array.isArray(item.ayahs) ? item.ayahs : Array.isArray(item.verses) ? item.verses : [];
+        const arabic = item.arabic || listSrc.map(v => v.arabic || v).join(' ');
+        const ref = item.ref || (listSrc[0] && listSrc[0].ref) || '';
         audioPlayer.play({
           arabic,
-          ref: item.ref || '',
+          ref,
           key: `exam_${iKey}`,
           mode,
           buttonEl: /** @type {HTMLElement} */ (e.currentTarget),
@@ -772,11 +793,15 @@ export class ExamsController {
 
   _isTokenLearned(token) {
     const unit = Number(token.unit || token.stage || 0);
-    const isUnlearned = Boolean(token.blackout || token.unlearned || unit === 0 || unit > 7);
+    const hasExplicitBlackout = typeof token.blackout === 'boolean';
+    const isUnlearned = hasExplicitBlackout
+      ? Boolean(token.blackout || token.unlearned || unit > 7)
+      : Boolean(token.unlearned || unit === 0 || unit > 7);
     if (this._mushafMode === 'benchmark') {
       return !isUnlearned;
     }
     if (isUnlearned) return false;
+    if (unit === 0) return true;
     if (token.lesson) {
       return store.isLessonCompleted(unit, Number(token.lesson));
     }
@@ -791,13 +816,25 @@ export class ExamsController {
     const completedUnits = [1, 2, 3, 4, 5, 6, 7].filter(u => store.getUnitMastery(u).completed > 0);
 
     const cardsHtml = pages.map((page, pIdx) => {
-      const tokens = Array.isArray(page.tokens)
-        ? page.tokens
-        : Array.isArray(page.spans)
-          ? page.spans
-          : Array.isArray(page.segments)
-            ? page.segments
-            : [];
+      // Support both flat page.tokens/spans AND nested page.ayahs[{ ayah, ref, spans }]
+      let tokens = [];
+      if (Array.isArray(page.ayahs)) {
+        for (const a of page.ayahs) {
+          for (const sp of (Array.isArray(a.spans) ? a.spans : [])) {
+            tokens.push(sp);
+          }
+          if (a.ayah !== undefined && a.ayah !== null) {
+            tokens.push({ isMarker: true, arabic: String(a.ayah) });
+          }
+        }
+      } else if (Array.isArray(page.tokens)) {
+        tokens = page.tokens;
+      } else if (Array.isArray(page.spans)) {
+        tokens = page.spans;
+      } else if (Array.isArray(page.segments)) {
+        tokens = page.segments;
+      }
+
       let pageTotal = 0;
       let pageLearned = 0;
       const passageArabicList = [];
@@ -805,11 +842,11 @@ export class ExamsController {
       const flowHtml = tokens.map((tok, tIdx) => {
         const arabic = tok.arabic || tok.text || '';
         if (!arabic) return '';
-        passageArabicList.push(arabic);
+        if (!tok.isMarker) passageArabicList.push(arabic);
 
         // Punctuation/ayah markers don't count as vocabulary masks
         if (tok.isMarker || tok.type === 'ayah_marker' || /^[﴿﴾۝٠-٩\d().\s]+$/.test(arabic)) {
-          return `<span class="ayah-medallion">${esc(arabic)}</span>`;
+          return `<span class="ayah-medallion tabular-nums">${esc(arabic)}</span>`;
         }
 
         pageTotal++;
@@ -823,7 +860,7 @@ export class ExamsController {
           return `<span class="mushaf-token">${esc(arabic)}</span>`;
         }
 
-        const gloss = pickLang(tok.translations || tok.gloss || tok.meaning, 'Unlearned vocabulary');
+        const gloss = pickLang(tok.gloss_i18n || tok.translations || tok.gloss || tok.meaning, 'Unlearned vocabulary');
         return `
           <button type="button" class="mushaf-blackout ${peeked ? 'is-peeked' : ''}" data-mushaf-peek="${maskKey}" aria-expanded="${peeked}">
             <span class="mushaf-blackout-ar">${esc(arabic)}</span>
@@ -833,8 +870,8 @@ export class ExamsController {
       }).join(' ');
 
       const pagePct = pageTotal > 0 ? Math.round((pageLearned / pageTotal) * 100) : 100;
-      const title = pickLang(page.title_i18n || page.surah_name || page.title, `Page ${pIdx + 1}`);
-      const ref = page.ref || page.ayah_range || '';
+      const title = pickLang(page.surahName_i18n || page.title_i18n || page.surah_name || page.title, `Page ${pIdx + 1}`);
+      const ref = page.ref || page.ayahRange || page.ayah_range || '';
       const fullArabic = page.arabic || passageArabicList.join(' ');
 
       return `
@@ -1129,7 +1166,14 @@ export class ExamsController {
           ${summary ? `<p class="empty-state-desc" style="text-align:left; max-width:none;">${esc(summary)}</p>` : ''}
           ${examples.length > 0 ? `
             <div class="spiral-examples-row" dir="rtl" lang="ar">
-              ${examples.map(ex => `<span class="exam-clause-chip">${esc(ex)}</span>`).join('')}
+              ${examples.map(ex => {
+                if (typeof ex === 'string') {
+                  return `<span class="exam-clause-chip">${esc(ex)}</span>`;
+                }
+                const ar = ex.ar || ex.arabic || '';
+                const tr = pickLang(ex, ex.hinglish || ex.en || '');
+                return `<span class="exam-clause-chip" title="${esc(tr)}">${esc(ar)}${tr ? ` <small style="direction:ltr; unicode-bidi:isolate;">(${esc(tr)})</small>` : ''}</span>`;
+              }).join('')}
             </div>
           ` : ''}
           <div class="spiral-chain-row" aria-label="Lesson progression chain">
