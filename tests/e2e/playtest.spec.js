@@ -507,18 +507,26 @@ test.describe("Muallim ul-Qur'an v7.0 E2E Playtest Suite", () => {
     /** @type {string[]} */
     const unitResponses = [];
 
-    page.on('response', async (res) => {
+    page.on('response', (res) => {
       const url = res.url();
-      if (/\/data\/lessons\/s\d+l\d+\.json$/i.test(url)) {
-        const body = await res.body().catch(() => Buffer.alloc(0));
-        chunkResponses.push({ url, size: body.length });
-      } else if (/\/data\/unit\d+\.json$/i.test(url)) {
+      if (/\/data\/unit\d+\.json$/i.test(url)) {
         unitResponses.push(url);
       }
     });
 
-    for (const hash of ['#u1/l1', '#u5/l6', '#u7/l6']) {
-      await page.goto(`./index.html${hash}`);
+    const targets = [
+      { hash: '#u1/l1', chunkRe: /\/data\/lessons\/s1l1\.json$/i, label: 'Unit 1, Lesson 1' },
+      { hash: '#u5/l6', chunkRe: /\/data\/lessons\/s5l6\.json$/i, label: 'Unit 5, Lesson 6' },
+      { hash: '#u7/l6', chunkRe: /\/data\/lessons\/s7l6\.json$/i, label: 'Unit 7, Lesson 6' }
+    ];
+
+    for (const target of targets) {
+      const respPromise = page.waitForResponse((r) => target.chunkRe.test(r.url()) && r.status() === 200);
+      await page.goto(`./index.html${target.hash}`);
+      const resp = await respPromise;
+      const body = await resp.body();
+      chunkResponses.push({ url: resp.url(), size: body.length });
+      await expect(page.locator('#current-lesson-label')).toContainText(target.label);
       await expect(page.locator('#lesson-content-mount .vocab-card').first()).toBeVisible();
     }
 
