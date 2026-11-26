@@ -59,6 +59,30 @@ function scoreMatch(fieldNorm, qNorm) {
 }
 
 /**
+ * Normalize hamza carriers (`ء`, `ؤ`, `ئ`) to `ا` for root-consonant matching.
+ * @param {string} val
+ * @returns {string}
+ */
+function foldHamzaToAlif(val) {
+  return String(val || '').replace(/[\u0621\u0624\u0626]/g, 'ا');
+}
+
+/**
+ * Check if `target` contains every character of `subseq` in order.
+ * @param {string} target
+ * @param {string} subseq
+ * @returns {boolean}
+ */
+function isOrderedSubsequence(target, subseq) {
+  if (!subseq) return false;
+  let j = 0;
+  for (let i = 0; i < target.length && j < subseq.length; i++) {
+    if (target[i] === subseq[j]) j++;
+  }
+  return j === subseq.length;
+}
+
+/**
  * @param {string} val
  * @returns {string}
  */
@@ -231,25 +255,67 @@ export class SearchController {
     if (!qCompact || !this._indexData) {
       return { tr: '', root: cleanRoot, matches: [] };
     }
+
+    /** @type {Array<any>} */
+    const matches = [];
+    /** @type {Set<any>} */
+    const seenEntries = new Set();
+    /** @type {Set<string>} */
+    const seenIds = new Set();
+
+    /** @param {any} entry */
+    const pushUnique = (entry) => {
+      if (!entry || seenEntries.has(entry)) return;
+      if (entry.id !== undefined && entry.id !== null) {
+        const idKey = `${entry.s}:${entry.l}:${entry.id}`;
+        if (seenIds.has(idKey)) return;
+        seenIds.add(idKey);
+      }
+      seenEntries.add(entry);
+      matches.push(entry);
+    };
+
     const exact = this._byRootMap.get(qCompact);
     if (exact && exact.length > 0) {
-      return {
-        tr: exact[0].tr || '',
-        root: exact[0].root || cleanRoot,
-        matches: exact
-      };
+      for (const e of exact) pushUnique(e);
     }
-    /** @type {Array<any>} */
-    const partial = [];
+
+    const minSubLen = Math.min(3, qCompact.length);
     for (const [rKey, entries] of this._byRootMap.entries()) {
-      if (rKey.includes(qCompact) || qCompact.includes(rKey)) {
-        for (const e of entries) partial.push(e);
+      if (rKey.includes(qCompact) || (rKey.length >= minSubLen && qCompact.includes(rKey))) {
+        for (const e of entries) pushUnique(e);
       }
     }
+
+    if (qCompact.length >= 2 && /[\u0621-\u064A]/.test(qCompact)) {
+      const qRoot = normalizeQuery(foldHamzaToAlif(cleanRoot)).replace(/\s+/g, '');
+      for (let i = 0; i < this._indexData.length; i++) {
+        const entry = this._indexData[i];
+        const arText = entry.ar && /[\u0621\u0624\u0626]/.test(entry.ar)
+          ? normalizeQuery(foldHamzaToAlif(entry.ar))
+          : foldHamzaToAlif(entry.arNorm || normalizeQuery(entry.ar));
+        if (!arText) continue;
+        const tokens = arText.split(/\s+/);
+        let matched = false;
+        for (let t = 0; t < tokens.length; t++) {
+          const arabicToken = tokens[t].replace(/[^\u0621-\u064A]/g, '');
+          if (arabicToken.length < qRoot.length) continue;
+          const stripped = arabicToken.startsWith('ال') && arabicToken.length > 2
+            ? arabicToken.slice(2)
+            : arabicToken;
+          if (isOrderedSubsequence(stripped, qRoot)) {
+            matched = true;
+            break;
+          }
+        }
+        if (matched) pushUnique(entry);
+      }
+    }
+
     return {
-      tr: partial[0]?.tr || '',
-      root: partial[0]?.root || cleanRoot,
-      matches: partial
+      tr: matches[0]?.tr || '',
+      root: matches[0]?.root || cleanRoot,
+      matches
     };
   }
 
