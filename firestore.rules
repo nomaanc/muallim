@@ -1,7 +1,7 @@
 rules_version = '2';
 
 // ===============================================================
-// Assumed Data Model (Muallim ul-Qur'an PWA v6.0 — Student-Only)
+// Assumed Data Model (Muallim ul-Qur'an PWA v7.0 — Student-Only)
 // ===============================================================
 //
 // Collection: user_data
@@ -32,6 +32,8 @@ rules_version = '2';
 //   - examHistory: list (optional, max 200 entries)
 //   - examResults: list (optional, max 200 entries — legacy alias)
 //   - mergedFromGuest: string (optional, 1-128 chars)
+//   - deletedItems: map (optional, max 5000 entries — deletion tombstones keyed by item/lesson ID with timestamp numbers)
+//   - fieldUpdatedAt: map (optional, max 50 entries — per-field sync timestamps)
 //   - createdAt: timestamp (optional, immutable once set)
 //   - lastSeen: timestamp (optional)
 //   - updatedAt: timestamp (optional)
@@ -132,6 +134,8 @@ service cloud.firestore {
         'streak',
         'completedLessons',
         'studyLog',
+        'deletedItems',
+        'fieldUpdatedAt',
         'createdAt',
         'lastSeen',
         'updatedAt'
@@ -163,6 +167,8 @@ service cloud.firestore {
         && isValidOptionalList(data, 'examHistory', 200)
         && isValidOptionalList(data, 'examResults', 200)
         && isValidOptionalString(data, 'mergedFromGuest', 1, 128)
+        && isValidOptionalMap(data, 'deletedItems', 5000)
+        && isValidOptionalMap(data, 'fieldUpdatedAt', 50)
         && isValidOptionalTimestamp(data, 'createdAt')
         && isValidOptionalTimestamp(data, 'lastSeen')
         && isValidOptionalTimestamp(data, 'updatedAt');

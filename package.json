@@ -1,6 +1,7 @@
 {
   "name": "muallim-pwa",
-  "version": "6.0.2",
+  "version": "7.0.0",
+  "type": "module",
   "description": "Muallim ul-Qur'an offline-first Arabic workbook PWA (vanilla ES modules; devDependencies used strictly for Playwright E2E tests)",
   "private": true,
   "directories": {
@@ -8,7 +9,9 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "playwright test"
+    "test:unit": "node --test tests/unit/*.test.js",
+    "test:e2e": "playwright test",
+    "test": "node --test tests/unit/*.test.js && playwright test"
   },
   "repository": {
     "type": "git",
