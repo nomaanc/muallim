@@ -2,8 +2,7 @@
 import { renderVisual } from './visual-helper.js';
 
 /**
- * Muallim ul-Qur'an — Unit 2 Grammar Visuals Module (v2.0)
- * Aligned 100% with the official Unit 2 Table of Contents (Book Pages 52–74).
+ * Muallim ul-Qur'an — Unit 2 Grammar Visuals Module (v7.0)
  * Exports standard mount/destroy interface for all lessons in Unit 2.
  */
 
@@ -19,13 +18,13 @@ export const visuals = {
     "lessonKey": "s2l1",
     "title": "S2L1: Harf-e-Ta'keed 'Inna': الْكِتَابُ ← إِنَّ الْكِتَابَ",
     "badge": "Inna (إِنَّ + ـَ)",
-    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"28\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-root\">الْكِتَابُ ، اللَّهُ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab, Allah (Pesh ـُ)</text>\n  </svg>",
-    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Inna (إِنَّ + ـَ))</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"26\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-suffix\">إِنَّ الْكِتَابَ ، إِنَّ اللَّهَ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Beshak Kitaab, Beshak Allah (Zabar ـَ)</text>\n  </svg>",
+    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"var(--border-subtle)\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"var(--ink-secondary)\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"28\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-root\">الْكِتَابُ ، اللَّهُ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab, Allah (Pesh ـُ)</text>\n  </svg>",
+    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Inna (إِنَّ + ـَ))</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"26\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-suffix\">إِنَّ الْكِتَابَ ، إِنَّ اللَّهَ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Beshak Kitaab, Beshak Allah (Zabar ـَ)</text>\n  </svg>",
     "prediction": {
       "question": "Jab 'الْكِتَابُ ، اللَّهُ' par Inna (إِنَّ + ـَ) ka qaa'ida laagu hota hai toh kya shakl aur ma'ni banta hai?",
       "options": [
         "'إِنَّ الْكِتَابَ ، إِنَّ اللَّهَ' (Beshak Kitaab, Beshak Allah (Zabar ـَ)) banta hai",
-        "Lafz aur ma'ni mein koi tabdeeli nahin aati"
+        "Aakhir par pesh (ـُ) barqarar rehti hai: 'إِنَّ الْكِتَابُ'"
       ],
       "correct": 0,
       "explanation": "Inna (إِنَّ + ـَ) ke qaa'ide se 'الْكِتَابُ ، اللَّهُ' badal kar 'إِنَّ الْكِتَابَ ، إِنَّ اللَّهَ' (Beshak Kitaab, Beshak Allah (Zabar ـَ)) ban jata hai."
@@ -50,15 +49,15 @@ export const visuals = {
     "steps": [
       {
         "title": "1. إِنَّ + Ism (Zabar ـَ)",
-        "description": "إِنَّ اللَّهَ / إِنَّ الْكِتَابَ / إِنَّ الْإِنْسَانَ — Beshak Allah / Beshak Kitaab / Beshak insaan"
+        "description": "إِنَّ اللَّهَ / إِنَّ الْكِتَابَ / إِنَّ الْإِنْسَانَ: Beshak Allah / Beshak Kitaab / Beshak insaan"
       },
       {
         "title": "2. فَإِنَّ (Toh beshak)",
-        "description": "فَإِنَّ اللَّهَ غَفُورٌ رَحِيمٌ — Pas beshak Allah bakhshne wala meherbaan hai"
+        "description": "فَإِنَّ اللَّهَ غَفُورٌ رَحِيمٌ: Pas beshak Allah bakhshne wala meherbaan hai"
       },
       {
         "title": "3. إِنَّ ... لَـ (Dohri Ta'keed)",
-        "description": "إِنَّ هَٰذَا لَسَاحِرٌ / إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ — Beshak yeh yaqeenan jaadugar hai / Beshak nek log ne'mat mein hain"
+        "description": "إِنَّ هَٰذَا لَسَاحِرٌ / إِنَّ الْأَبْرَارَ لَفِي نَعِيمٍ: Beshak yeh yaqeenan jaadugar hai / Beshak nek log ne'mat mein hain"
       }
     ],
     "examples": [
@@ -80,13 +79,13 @@ export const visuals = {
     "lessonKey": "s2l2",
     "title": "S2L2: Harf-e-Jarr 'Li' (Ke liye): الْكِتَابُ ← لِلْكِتَابِ",
     "badge": "Harf-e-Jarr (لِـ + ـِ)",
-    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"28\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-root\">الْكِتَابُ ، اللَّهُ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab, Allah</text>\n  </svg>",
-    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Harf-e-Jarr (لِـ + ـِ))</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"26\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-suffix\">لِلْكِتَابِ ، لِلَّهِ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab ke liye, Allah ke liye</text>\n  </svg>",
+    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"var(--border-subtle)\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"var(--ink-secondary)\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"28\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-root\">الْكِتَابُ ، اللَّهُ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab, Allah</text>\n  </svg>",
+    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Harf-e-Jarr (لِـ + ـِ))</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"26\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-suffix\">لِلْكِتَابِ ، لِلَّهِ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab ke liye, Allah ke liye</text>\n  </svg>",
     "prediction": {
       "question": "Jab 'الْكِتَابُ ، اللَّهُ' par Harf-e-Jarr (لِـ + ـِ) ka qaa'ida laagu hota hai toh kya shakl aur ma'ni banta hai?",
       "options": [
         "'لِلْكِتَابِ ، لِلَّهِ' (Kitaab ke liye, Allah ke liye) banta hai",
-        "Lafz aur ma'ni mein koi tabdeeli nahin aati"
+        "Aakhir par zabar (ـَ) aati hai aur ma'na 'beshak' ho jaata hai"
       ],
       "correct": 0,
       "explanation": "Harf-e-Jarr (لِـ + ـِ) ke qaa'ide se 'الْكِتَابُ ، اللَّهُ' badal kar 'لِلْكِتَابِ ، لِلَّهِ' (Kitaab ke liye, Allah ke liye) ban jata hai."
@@ -111,15 +110,15 @@ export const visuals = {
     "steps": [
       {
         "title": "1. لِـ + الْـ (Alif gir jata hai)",
-        "description": "لِلَّهِ / لِلْكِتَابِ / لِلنَّاسِ / لِلْمُتَّقِينَ — Allah ke liye / Kitaab ke liye / Logon ke liye / Parhezgaron ke liye"
+        "description": "لِلَّهِ / لِلْكِتَابِ / لِلنَّاسِ / لِلْمُتَّقِينَ: Allah ke liye / Kitaab ke liye / Logon ke liye / Parhezgaron ke liye"
       },
       {
         "title": "2. لِـ + Nakirah (Tanween Zair ـٍ)",
-        "description": "لِقَوْمٍ / لِأُمَّةٍ / لِنَفْسٍ — Kisi qom ke liye / Ek ummat ke liye / Kisi jaan ke liye"
+        "description": "لِقَوْمٍ / لِأُمَّةٍ / لِنَفْسٍ: Kisi qom ke liye / Ek ummat ke liye / Kisi jaan ke liye"
       },
       {
         "title": "3. وَلِلَّهِ / فَلِلَّهِ (Muqaddam = Hasr)",
-        "description": "الْحَمْدُ لِلَّهِ / وَلِلَّهِ الْعِزَّةُ — Sab ta'reef Allah ke liye hai / Aur izzat sirf Allah ke liye hai"
+        "description": "الْحَمْدُ لِلَّهِ / وَلِلَّهِ الْعِزَّةُ: Sab ta'reef Allah ke liye hai / Aur izzat sirf Allah ke liye hai"
       }
     ],
     "examples": [
@@ -141,13 +140,13 @@ export const visuals = {
     "lessonKey": "s2l3",
     "title": "S2L3: Harf-e-Jarr 'Fii' (Mein): الْكِتَابُ ← فِي الْكِتَابِ",
     "badge": "Harf-e-Jarr (فِي + ـِ)",
-    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"28\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-root\">الْكِتَابُ ، الْأَرْضُ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab, Zameen</text>\n  </svg>",
-    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Harf-e-Jarr (فِي + ـِ))</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"26\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-suffix\">فِي الْكِتَابِ ، فِي الْأَرْضِ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab mein, Zameen mein</text>\n  </svg>",
+    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"var(--border-subtle)\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"var(--ink-secondary)\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"28\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-root\">الْكِتَابُ ، الْأَرْضُ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab, Zameen</text>\n  </svg>",
+    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Harf-e-Jarr (فِي + ـِ))</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"26\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-suffix\">فِي الْكِتَابِ ، فِي الْأَرْضِ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab mein, Zameen mein</text>\n  </svg>",
     "prediction": {
       "question": "Jab 'الْكِتَابُ ، الْأَرْضُ' par Harf-e-Jarr (فِي + ـِ) ka qaa'ida laagu hota hai toh kya shakl aur ma'ni banta hai?",
       "options": [
         "'فِي الْكِتَابِ ، فِي الْأَرْضِ' (Kitaab mein, Zameen mein) banta hai",
-        "Lafz aur ma'ni mein koi tabdeeli nahin aati"
+        "Aakhir par pesh (ـُ) aati hai aur ma'na 'par' ho jaata hai"
       ],
       "correct": 0,
       "explanation": "Harf-e-Jarr (فِي + ـِ) ke qaa'ide se 'الْكِتَابُ ، الْأَرْضُ' badal kar 'فِي الْكِتَابِ ، فِي الْأَرْضِ' (Kitaab mein, Zameen mein) ban jata hai."
@@ -172,15 +171,15 @@ export const visuals = {
     "steps": [
       {
         "title": "1. فِي + الْـ (Zair ـِ)",
-        "description": "فِي الْكِتَابِ / فِي السَّمَاوَاتِ وَالْأَرْضِ — Kitaab mein / Aasmanon aur zameen mein"
+        "description": "فِي الْكِتَابِ / فِي السَّمَاوَاتِ وَالْأَرْضِ: Kitaab mein / Aasmanon aur zameen mein"
       },
       {
         "title": "2. فِي + Nakirah (Do Zair ـٍ)",
-        "description": "فِي كِتَابٍ / فِي ضَلَالٍ / فِي شَكٍّ — Ek kitaab mein / Kisi gumraahi mein / Kisi shak mein"
+        "description": "فِي كِتَابٍ / فِي ضَلَالٍ / فِي شَكٍّ: Ek kitaab mein / Kisi gumraahi mein / Kisi shak mein"
       },
       {
         "title": "3. لَفِي (Yaqeenan ... mein)",
-        "description": "لَفِي خُسْرٍ / لَفِي نَعِيمٍ / لَفِي ضَلَالٍ مُبِينٍ — Yaqeenan khasaare mein / Yaqeenan ne'mat mein"
+        "description": "لَفِي خُسْرٍ / لَفِي نَعِيمٍ / لَفِي ضَلَالٍ مُبِينٍ: Yaqeenan khasaare mein / Yaqeenan ne'mat mein"
       }
     ],
     "examples": [
@@ -202,13 +201,13 @@ export const visuals = {
     "lessonKey": "s2l4",
     "title": "S2L4: Harf-e-Jarr 'Alaa' (Par): الْكِتَابُ ← عَلَى الْكِتَابِ",
     "badge": "Harf-e-Jarr (عَلَىٰ + ـِ)",
-    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"28\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-root\">الْكِتَابُ ، الْعَرْشُ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab, Arsh</text>\n  </svg>",
-    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Harf-e-Jarr (عَلَىٰ + ـِ))</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"26\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-suffix\">عَلَى الْكِتَابِ ، عَلَى الْعَرْشِ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab par, Arsh par</text>\n  </svg>",
+    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"var(--border-subtle)\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"var(--ink-secondary)\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"28\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-root\">الْكِتَابُ ، الْعَرْشُ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab, Arsh</text>\n  </svg>",
+    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Harf-e-Jarr (عَلَىٰ + ـِ))</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"26\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-suffix\">عَلَى الْكِتَابِ ، عَلَى الْعَرْشِ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab par, Arsh par</text>\n  </svg>",
     "prediction": {
       "question": "Jab 'الْكِتَابُ ، الْعَرْشُ' par Harf-e-Jarr (عَلَىٰ + ـِ) ka qaa'ida laagu hota hai toh kya shakl aur ma'ni banta hai?",
       "options": [
         "'عَلَى الْكِتَابِ ، عَلَى الْعَرْشِ' (Kitaab par, Arsh par) banta hai",
-        "Lafz aur ma'ni mein koi tabdeeli nahin aati"
+        "Ma'na 'ke andar' hota hai aur ism ke aakhir par zabar aati hai"
       ],
       "correct": 0,
       "explanation": "Harf-e-Jarr (عَلَىٰ + ـِ) ke qaa'ide se 'الْكِتَابُ ، الْعَرْشُ' badal kar 'عَلَى الْكِتَابِ ، عَلَى الْعَرْشِ' (Kitaab par, Arsh par) ban jata hai."
@@ -233,15 +232,15 @@ export const visuals = {
     "steps": [
       {
         "title": "1. عَلَىٰ + الْـ (Zair ـِ)",
-        "description": "عَلَى الْكِتَابِ / عَلَى الْعَرْشِ / عَلَى النَّبِيِّ — Kitaab par / Arsh par / Nabi par"
+        "description": "عَلَى الْكِتَابِ / عَلَى الْعَرْشِ / عَلَى النَّبِيِّ: Kitaab par / Arsh par / Nabi par"
       },
       {
         "title": "2. عَلَىٰ + Nakirah (Do Zair ـٍ)",
-        "description": "عَلَىٰ هُدًى / عَلَىٰ بَيِّنَةٍ / عَلَىٰ صِرَاطٍ — Hidayat par / Roshan daleel par / Ek raaste par"
+        "description": "عَلَىٰ هُدًى / عَلَىٰ بَيِّنَةٍ / عَلَىٰ صِرَاطٍ: Hidayat par / Roshan daleel par / Ek raaste par"
       },
       {
         "title": "3. لَعَلَىٰ (Yaqeenan ... par)",
-        "description": "وَإِنَّكَ لَعَلَىٰ خُلُقٍ عَظِيمٍ — Aur beshak aap bade azeem akhlaaq par fa'iz hain"
+        "description": "وَإِنَّكَ لَعَلَىٰ خُلُقٍ عَظِيمٍ: Aur beshak aap bade azeem akhlaaq par fa'iz hain"
       }
     ],
     "examples": [
@@ -263,13 +262,13 @@ export const visuals = {
     "lessonKey": "s2l5",
     "title": "S2L5: Harf-e-Jarr 'Min' (Se): الْكِتَابُ ← مِنَ الْكِتَابِ",
     "badge": "Harf-e-Jarr (مِنْ + ـِ)",
-    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"28\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-root\">الْكِتَابُ ، السَّمَاءُ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab, Aasman</text>\n  </svg>",
-    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Harf-e-Jarr (مِنْ + ـِ))</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"26\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-suffix\">مِنَ الْكِتَابِ ، مِنَ السَّمَاءِ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab se, Aasman se</text>\n  </svg>",
+    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"var(--border-subtle)\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"var(--ink-secondary)\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"28\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-root\">الْكِتَابُ ، السَّمَاءُ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab, Aasman</text>\n  </svg>",
+    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Harf-e-Jarr (مِنْ + ـِ))</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"26\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-suffix\">مِنَ الْكِتَابِ ، مِنَ السَّمَاءِ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab se, Aasman se</text>\n  </svg>",
     "prediction": {
       "question": "Jab 'الْكِتَابُ ، السَّمَاءُ' par Harf-e-Jarr (مِنْ + ـِ) ka qaa'ida laagu hota hai toh kya shakl aur ma'ni banta hai?",
       "options": [
         "'مِنَ الْكِتَابِ ، مِنَ السَّمَاءِ' (Kitaab se, Aasman se) banta hai",
-        "Lafz aur ma'ni mein koi tabdeeli nahin aati"
+        "Ma'na 'ki taraf' hota hai aur 'الْـ' hat jaata hai"
       ],
       "correct": 0,
       "explanation": "Harf-e-Jarr (مِنْ + ـِ) ke qaa'ide se 'الْكِتَابُ ، السَّمَاءُ' badal kar 'مِنَ الْكِتَابِ ، مِنَ السَّمَاءِ' (Kitaab se, Aasman se) ban jata hai."
@@ -294,15 +293,15 @@ export const visuals = {
     "steps": [
       {
         "title": "1. مِنَ + الْـ (Zair ـِ)",
-        "description": "مِنَ الْكِتَابِ / مِنَ السَّمَاءِ / مِنَ النَّاسِ — Kitaab se / Aasman se / Logon mein se"
+        "description": "مِنَ الْكِتَابِ / مِنَ السَّمَاءِ / مِنَ النَّاسِ: Kitaab se / Aasman se / Logon mein se"
       },
       {
         "title": "2. مِنْ + Nakirah (Do Zair ـٍ)",
-        "description": "مِنْ مَاءٍ / مِنْ طِينٍ / مِنْ عِلْمٍ — Paani se / Mitti se / Kisi ilm se"
+        "description": "مِنْ مَاءٍ / مِنْ طِينٍ / مِنْ عِلْمٍ: Paani se / Mitti se / Kisi ilm se"
       },
       {
         "title": "3. مِنْ ba'd Ism-ut-Tafzeel",
-        "description": "وَالْفِتْنَةُ أَكْبَرُ مِنَ الْقَتْلِ — Aur fitna qatl se bada hai ('se' muwazane ke liye)"
+        "description": "وَالْفِتْنَةُ أَكْبَرُ مِنَ الْقَتْلِ: Aur fitna qatl se bada hai ('se' muwazane ke liye)"
       }
     ],
     "examples": [
@@ -324,13 +323,13 @@ export const visuals = {
     "lessonKey": "s2l6",
     "title": "S2L6: Harf-e-Jarr 'Ilaa' (Ki taraf / Tak): الْكِتَابُ ← إِلَى الْكِتَابِ",
     "badge": "Harf-e-Jarr (إِلَىٰ + ـِ)",
-    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"28\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-root\">الْكِتَابُ ، الصِّرَاطُ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab, Raasta</text>\n  </svg>",
-    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Harf-e-Jarr (إِلَىٰ + ـِ))</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"26\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-suffix\">إِلَى الْكِتَابِ ، إِلَى الصِّرَاطِ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab ki taraf, Raaste ki taraf</text>\n  </svg>",
+    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"var(--border-subtle)\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"var(--ink-secondary)\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"28\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-root\">الْكِتَابُ ، الصِّرَاطُ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab, Raasta</text>\n  </svg>",
+    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Harf-e-Jarr (إِلَىٰ + ـِ))</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"26\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-suffix\">إِلَى الْكِتَابِ ، إِلَى الصِّرَاطِ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab ki taraf, Raaste ki taraf</text>\n  </svg>",
     "prediction": {
       "question": "Jab 'الْكِتَابُ ، الصِّرَاطُ' par Harf-e-Jarr (إِلَىٰ + ـِ) ka qaa'ida laagu hota hai toh kya shakl aur ma'ni banta hai?",
       "options": [
         "'إِلَى الْكِتَابِ ، إِلَى الصِّرَاطِ' (Kitaab ki taraf, Raaste ki taraf) banta hai",
-        "Lafz aur ma'ni mein koi tabdeeli nahin aati"
+        "Ma'na 'se' hota hai aur ism par do pesh (ـٌ) lag jaati hai"
       ],
       "correct": 0,
       "explanation": "Harf-e-Jarr (إِلَىٰ + ـِ) ke qaa'ide se 'الْكِتَابُ ، الصِّرَاطُ' badal kar 'إِلَى الْكِتَابِ ، إِلَى الصِّرَاطِ' (Kitaab ki taraf, Raaste ki taraf) ban jata hai."
@@ -355,15 +354,15 @@ export const visuals = {
     "steps": [
       {
         "title": "1. إِلَىٰ + الْـ (Zair ـِ)",
-        "description": "إِلَى الْكِتَابِ / إِلَى اللَّهِ / إِلَى النُّورِ — Kitaab ki taraf / Allah ki taraf / Roshni ki taraf"
+        "description": "إِلَى الْكِتَابِ / إِلَى اللَّهِ / إِلَى النُّورِ: Kitaab ki taraf / Allah ki taraf / Roshni ki taraf"
       },
       {
         "title": "2. إِلَىٰ + Nakirah (Do Zair ـٍ)",
-        "description": "إِلَىٰ عَذَابٍ / إِلَىٰ صِرَاطٍ مُسْتَقِيمٍ — Ek azaab ki taraf / Seedhe raaste ki taraf"
+        "description": "إِلَىٰ عَذَابٍ / إِلَىٰ صِرَاطٍ مُسْتَقِيمٍ: Ek azaab ki taraf / Seedhe raaste ki taraf"
       },
       {
         "title": "3. مِنْ ... إِلَىٰ ... (Se ... Tak)",
-        "description": "مِنَ الظُّلُمَاتِ إِلَى النُّورِ / مِنَ السَّمَاءِ إِلَى الْأَرْضِ — Andheron se roshni ki taraf / Aasman se zameen tak"
+        "description": "مِنَ الظُّلُمَاتِ إِلَى النُّورِ / مِنَ السَّمَاءِ إِلَى الْأَرْضِ: Andheron se roshni ki taraf / Aasman se zameen tak"
       }
     ],
     "examples": [
@@ -385,13 +384,13 @@ export const visuals = {
     "lessonKey": "s2l7",
     "title": "S2L7: Harf-e-Jarr 'Bi' (Se / Ke saath / Par): الْكِتَابُ ← بِالْكِتَابِ",
     "badge": "Harf-e-Jarr (بِـ + ـِ)",
-    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"28\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-root\">الْكِتَابُ ، الْحَقُّ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab, Haq</text>\n  </svg>",
-    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Harf-e-Jarr (بِـ + ـِ))</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"26\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-suffix\">بِالْكِتَابِ ، بِالْحَقِّ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab ke saath, Haq ke saath</text>\n  </svg>",
+    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"var(--border-subtle)\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"var(--ink-secondary)\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"28\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-root\">الْكِتَابُ ، الْحَقُّ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab, Haq</text>\n  </svg>",
+    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Harf-e-Jarr (بِـ + ـِ))</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"26\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-suffix\">بِالْكِتَابِ ، بِالْحَقِّ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab ke saath, Haq ke saath</text>\n  </svg>",
     "prediction": {
       "question": "Jab 'الْكِتَابُ ، الْحَقُّ' par Harf-e-Jarr (بِـ + ـِ) ka qaa'ida laagu hota hai toh kya shakl aur ma'ni banta hai?",
       "options": [
         "'بِالْكِتَابِ ، بِالْحَقِّ' (Kitaab ke saath, Haq ke saath) banta hai",
-        "Lafz aur ma'ni mein koi tabdeeli nahin aati"
+        "Ism ke aakhir par zabar (ـَ) aati hai aur ma'na 'siwaaye' hota hai"
       ],
       "correct": 0,
       "explanation": "Harf-e-Jarr (بِـ + ـِ) ke qaa'ide se 'الْكِتَابُ ، الْحَقُّ' badal kar 'بِالْكِتَابِ ، بِالْحَقِّ' (Kitaab ke saath, Haq ke saath) ban jata hai."
@@ -416,15 +415,15 @@ export const visuals = {
     "steps": [
       {
         "title": "1. بِـ + الْـ (Zair ـِ)",
-        "description": "بِالْكِتَابِ / بِالْحَقِّ / بِالْإِيمَانِ / بِالصَّبْرِ — Kitaab ke saath / Haq ke saath / Imaan ke saath / Sabr ke zariye"
+        "description": "بِالْكِتَابِ / بِالْحَقِّ / بِالْإِيمَانِ / بِالصَّبْرِ: Kitaab ke saath / Haq ke saath / Imaan ke saath / Sabr ke zariye"
       },
       {
         "title": "2. بِـ + Nakirah (Do Zair ـٍ)",
-        "description": "بِسُلْطَانٍ / بِشَيْءٍ / بِغَيْرِ حِسَابٍ — Kisi daleel ke saath / Kisi cheez ke saath / Be-hisaab"
+        "description": "بِسُلْطَانٍ / بِشَيْءٍ / بِغَيْرِ حِسَابٍ: Kisi daleel ke saath / Kisi cheez ke saath / Be-hisaab"
       },
       {
         "title": "3. بِـ (Ke badle mein)",
-        "description": "النَّفْسَ بِالنَّفْسِ وَالْعَيْنَ بِالْعَيْنِ — Jaan ke badle jaan aur aankh ke badle aankh"
+        "description": "النَّفْسَ بِالنَّفْسِ وَالْعَيْنَ بِالْعَيْنِ: Jaan ke badle jaan aur aankh ke badle aankh"
       }
     ],
     "examples": [
@@ -446,13 +445,13 @@ export const visuals = {
     "lessonKey": "s2l8",
     "title": "S2L8: Harf-e-Nafy-e-Jins 'Laa' (Koi ... nahin): كِتَابٌ ← لَا كِتَابَ",
     "badge": "Laa Nafy-e-Jins (لَا + ـَ)",
-    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"28\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-root\">كِتَابٌ ، رَيْبٌ ، إِكْرَاهٌ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Ek kitaab, shak, zabardasti (ـٌ)</text>\n  </svg>",
-    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Laa Nafy-e-Jins (لَا + ـَ))</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"26\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-suffix\">لَا كِتَابَ ، لَا رَيْبَ ، لَا إِكْرَاهَ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Koi kitaab nahin, koi shak nahin, koi zabardasti nahin (ـَ)</text>\n  </svg>",
+    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"var(--border-subtle)\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"var(--ink-secondary)\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"28\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-root\">كِتَابٌ ، رَيْبٌ ، إِكْرَاهٌ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Ek kitaab, shak, zabardasti (ـٌ)</text>\n  </svg>",
+    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Laa Nafy-e-Jins (لَا + ـَ))</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"26\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-suffix\">لَا كِتَابَ ، لَا رَيْبَ ، لَا إِكْرَاهَ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Koi kitaab nahin, koi shak nahin, koi zabardasti nahin (ـَ)</text>\n  </svg>",
     "prediction": {
       "question": "Jab 'كِتَابٌ ، رَيْبٌ ، إِكْرَاهٌ' par Laa Nafy-e-Jins (لَا + ـَ) ka qaa'ida laagu hota hai toh kya shakl aur ma'ni banta hai?",
       "options": [
         "'لَا كِتَابَ ، لَا رَيْبَ ، لَا إِكْرَاهَ' (Koi kitaab nahin, koi shak nahin, koi zabardasti nahin (ـَ)) banta hai",
-        "Lafz aur ma'ni mein koi tabdeeli nahin aati"
+        "Tanween (ـٌ) barqarar rehti hai aur ma'na 'haan, ek kitaab hai' hota hai"
       ],
       "correct": 0,
       "explanation": "Laa Nafy-e-Jins (لَا + ـَ) ke qaa'ide se 'كِتَابٌ ، رَيْبٌ ، إِكْرَاهٌ' badal kar 'لَا كِتَابَ ، لَا رَيْبَ ، لَا إِكْرَاهَ' (Koi kitaab nahin, koi shak nahin, koi zabardasti nahin (ـَ)) ban jata hai."
@@ -477,15 +476,15 @@ export const visuals = {
     "steps": [
       {
         "title": "1. لَا + Ism (Ek Zabar ـَ)",
-        "description": "لَا رَيْبَ / لَا إِكْرَاهَ / لَا خَوْفٌ / لَا ظُلْمَ — Koi shak nahin / Koi zabardasti nahin / Koi zulm nahin"
+        "description": "لَا رَيْبَ / لَا إِكْرَاهَ / لَا خَوْفٌ / لَا ظُلْمَ: Koi shak nahin / Koi zabardasti nahin / Koi zulm nahin"
       },
       {
         "title": "2. فَلَا / وَلَا + Ism",
-        "description": "فَلَا خَوْفٌ / وَلَا جِدَالَ فِي الْحَجِّ — Pas koi khauf nahin / Aur Hajj mein koi jhagda nahin"
+        "description": "فَلَا خَوْفٌ / وَلَا جِدَالَ فِي الْحَجِّ: Pas koi khauf nahin / Aur Hajj mein koi jhagda nahin"
       },
       {
         "title": "3. Qur'ani Qaanoon",
-        "description": "لَا إِكْرَاهَ فِي الدِّينِ / ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ — Deen mein koi zabardasti nahin / Yeh woh Kitaab hai jismein koi shak nahin"
+        "description": "لَا إِكْرَاهَ فِي الدِّينِ / ذَٰلِكَ الْكِتَابُ لَا رَيْبَ فِيهِ: Deen mein koi zabardasti nahin / Yeh woh Kitaab hai jismein koi shak nahin"
       }
     ],
     "examples": [
@@ -507,13 +506,13 @@ export const visuals = {
     "lessonKey": "s2l9",
     "title": "S2L9: Harf-e-Istisna 'Illaa' (Magar / Siwaaye): الْكِتَابُ ← إِلَّا الْكِتَابَ",
     "badge": "Istisna (إِلَّا)",
-    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"28\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-root\">الْكِتَابُ ، قَلِيلٌ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab, Thode</text>\n  </svg>",
-    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Istisna (إِلَّا))</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"26\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-suffix\">إِلَّا الْكِتَابَ ، إِلَّا قَلِيلًا</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Magar Kitaab, Magar thode</text>\n  </svg>",
+    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"var(--border-subtle)\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"var(--ink-secondary)\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"28\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-root\">الْكِتَابُ ، قَلِيلٌ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab, Thode</text>\n  </svg>",
+    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Istisna (إِلَّا))</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"26\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-suffix\">إِلَّا الْكِتَابَ ، إِلَّا قَلِيلًا</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Magar Kitaab, Magar thode</text>\n  </svg>",
     "prediction": {
       "question": "Jab 'الْكِتَابُ ، قَلِيلٌ' par Istisna (إِلَّا) ka qaa'ida laagu hota hai toh kya shakl aur ma'ni banta hai?",
       "options": [
         "'إِلَّا الْكِتَابَ ، إِلَّا قَلِيلًا' (Magar Kitaab, Magar thode) banta hai",
-        "Lafz aur ma'ni mein koi tabdeeli nahin aati"
+        "Iska ma'na 'aur' hota hai aur baad wala ism hamesha majroor rehta hai"
       ],
       "correct": 0,
       "explanation": "Istisna (إِلَّا) ke qaa'ide se 'الْكِتَابُ ، قَلِيلٌ' badal kar 'إِلَّا الْكِتَابَ ، إِلَّا قَلِيلًا' (Magar Kitaab, Magar thode) ban jata hai."
@@ -538,15 +537,15 @@ export const visuals = {
     "steps": [
       {
         "title": "1. إِلَّا + Ism (Siwaaye / Magar)",
-        "description": "إِلَّا اللَّهُ / إِلَّا الْبَلَاغُ / إِلَّا قَلِيلًا — Siwaaye Allah ke / Siwaaye paigham pahunchane ke / Magar thode"
+        "description": "إِلَّا اللَّهُ / إِلَّا الْبَلَاغُ / إِلَّا قَلِيلًا: Siwaaye Allah ke / Siwaaye paigham pahunchane ke / Magar thode"
       },
       {
         "title": "2. لَا ... إِلَّا ... (Nafi + Istisna)",
-        "description": "لَا إِلَٰهَ إِلَّا اللَّهُ / لَا قُوَّةَ إِلَّا بِاللَّهِ — Allah ke siwa koi ma'bood nahin / Allah ke baghair koi quwwat nahin"
+        "description": "لَا إِلَٰهَ إِلَّا اللَّهُ / لَا قُوَّةَ إِلَّا بِاللَّهِ: Allah ke siwa koi ma'bood nahin / Allah ke baghair koi quwwat nahin"
       },
       {
         "title": "3. مَا / إِنْ ... إِلَّا ... (Sirf / Bas)",
-        "description": "مَا هَٰذَا إِلَّا بَشَرٌ / إِنْ هُوَ إِلَّا وَحْيٌ — Yeh toh bas ek insaan hai / Woh toh sirf wahi hai"
+        "description": "مَا هَٰذَا إِلَّا بَشَرٌ / إِنْ هُوَ إِلَّا وَحْيٌ: Yeh toh bas ek insaan hai / Woh toh sirf wahi hai"
       }
     ],
     "examples": [
@@ -568,13 +567,13 @@ export const visuals = {
     "lessonKey": "s2l10",
     "title": "S2L10: Waw-e-Qasam (Ki Qasam): الْكِتَابُ ← وَالْكِتَابِ ، وَالْعَصْرِ",
     "badge": "Waw-e-Qasam (وَ + ـِ)",
-    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"28\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-root\">الْكِتَابُ ، الْعَصْرُ ، التِّينُ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab, Zamana, Injeer (ـُ)</text>\n  </svg>",
-    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Waw-e-Qasam (وَ + ـِ))</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"26\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-suffix\">وَالْكِتَابِ ، وَالْعَصْرِ ، وَالتِّينِ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab ki qasam, Zamane ki qasam, Injeer ki qasam (ـِ)</text>\n  </svg>",
+    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"var(--border-subtle)\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"var(--ink-secondary)\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"28\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-root\">الْكِتَابُ ، الْعَصْرُ ، التِّينُ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab, Zamana, Injeer (ـُ)</text>\n  </svg>",
+    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Waw-e-Qasam (وَ + ـِ))</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"26\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-suffix\">وَالْكِتَابِ ، وَالْعَصْرِ ، وَالتِّينِ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab ki qasam, Zamane ki qasam, Injeer ki qasam (ـِ)</text>\n  </svg>",
     "prediction": {
       "question": "Jab 'الْكِتَابُ ، الْعَصْرُ ، التِّينُ' par Waw-e-Qasam (وَ + ـِ) ka qaa'ida laagu hota hai toh kya shakl aur ma'ni banta hai?",
       "options": [
         "'وَالْكِتَابِ ، وَالْعَصْرِ ، وَالتِّينِ' (Kitaab ki qasam, Zamane ki qasam, Injeer ki qasam (ـِ)) banta hai",
-        "Lafz aur ma'ni mein koi tabdeeli nahin aati"
+        "Harf-e-'atf 'aur' ka ma'na deta hai aur aakhir par pesh aati hai"
       ],
       "correct": 0,
       "explanation": "Waw-e-Qasam (وَ + ـِ) ke qaa'ide se 'الْكِتَابُ ، الْعَصْرُ ، التِّينُ' badal kar 'وَالْكِتَابِ ، وَالْعَصْرِ ، وَالتِّينِ' (Kitaab ki qasam, Zamane ki qasam, Injeer ki qasam (ـِ)) ban jata hai."
@@ -599,15 +598,15 @@ export const visuals = {
     "steps": [
       {
         "title": "1. وَ + الْـ (Qasam + Zair ـِ)",
-        "description": "وَالْعَصْرِ / وَالْفَجْرِ / وَالشَّمْسِ / وَاللَّيْلِ — Zamane ki qasam / Fajr ki qasam / Sooraj ki qasam / Raat ki qasam"
+        "description": "وَالْعَصْرِ / وَالْفَجْرِ / وَالشَّمْسِ / وَاللَّيْلِ: Zamane ki qasam / Fajr ki qasam / Sooraj ki qasam / Raat ki qasam"
       },
       {
         "title": "2. وَ + Nakirah (Do Zair ـٍ)",
-        "description": "وَشَاهِدٍ وَمَشْهُودٍ / وَوَالِدٍ وَمَا وَلَدَ — Gawah aur haazri ke din ki qasam / Baap aur aulad ki qasam"
+        "description": "وَشَاهِدٍ وَمَشْهُودٍ / وَوَالِدٍ وَمَا وَلَدَ: Gawah aur haazri ke din ki qasam / Baap aur aulad ki qasam"
       },
       {
         "title": "3. Qasam + Jawaab-e-Qasam (إِنَّ...لَـ)",
-        "description": "وَالْعَصْرِ إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ — Zamane ki qasam! Beshak insaan yaqeenan khasaare mein hai"
+        "description": "وَالْعَصْرِ إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ: Zamane ki qasam! Beshak insaan yaqeenan khasaare mein hai"
       }
     ],
     "examples": [
@@ -629,13 +628,13 @@ export const visuals = {
     "lessonKey": "s2l11",
     "title": "S2L11: Harf 'Anna' (Ke): الْكِتَابُ ← أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ",
     "badge": "Anna (أَنَّ + ـَ)",
-    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"28\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-root\">الْكِتَابُ ، اللَّهُ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab, Allah (ـُ)</text>\n  </svg>",
-    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Anna (أَنَّ + ـَ))</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"26\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-suffix\">أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Ke Kitaab, Ke beshak Allah (ـَ)</text>\n  </svg>",
+    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"var(--border-subtle)\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"var(--ink-secondary)\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"28\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-root\">الْكِتَابُ ، اللَّهُ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Kitaab, Allah (ـُ)</text>\n  </svg>",
+    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Anna (أَنَّ + ـَ))</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"26\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-suffix\">أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Ke Kitaab, Ke beshak Allah (ـَ)</text>\n  </svg>",
     "prediction": {
       "question": "Jab 'الْكِتَابُ ، اللَّهُ' par Anna (أَنَّ + ـَ) ka qaa'ida laagu hota hai toh kya shakl aur ma'ni banta hai?",
       "options": [
         "'أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ' (Ke Kitaab, Ke beshak Allah (ـَ)) banta hai",
-        "Lafz aur ma'ni mein koi tabdeeli nahin aati"
+        "Aakhir par zer (ـِ) aati hai aur ma'na 'kya' (sawaal) hota hai"
       ],
       "correct": 0,
       "explanation": "Anna (أَنَّ + ـَ) ke qaa'ide se 'الْكِتَابُ ، اللَّهُ' badal kar 'أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ' (Ke Kitaab, Ke beshak Allah (ـَ)) ban jata hai."
@@ -660,15 +659,15 @@ export const visuals = {
     "steps": [
       {
         "title": "1. أَنَّ + Ism (Zabar ـَ)",
-        "description": "أَنَّ اللَّهَ / أَنَّ الْقُوَّةَ / أَنَّ السَّاعَةَ — Ke Allah / Ke saari quwwat / Ke Qiyamat ki ghadi"
+        "description": "أَنَّ اللَّهَ / أَنَّ الْقُوَّةَ / أَنَّ السَّاعَةَ: Ke Allah / Ke saari quwwat / Ke Qiyamat ki ghadi"
       },
       {
         "title": "2. بِأَنَّ (Is wajah se ke)",
-        "description": "ذَٰلِكَ بِأَنَّ اللَّهَ هُوَ الْحَقُّ — Yeh is wajah se hai ke Allah hi Haq hai"
+        "description": "ذَٰلِكَ بِأَنَّ اللَّهَ هُوَ الْحَقُّ: Yeh is wajah se hai ke Allah hi Haq hai"
       },
       {
         "title": "3. Qur'ani Jumle",
-        "description": "أَنَّ الْقُوَّةَ لِلَّهِ جَمِيعًا وَأَنَّ اللَّهَ شَدِيدُ الْعَذَابِ — Ke saari quwwat Allah hi ke liye hai aur yeh ke Allah sakht azaab dene wala hai"
+        "description": "أَنَّ الْقُوَّةَ لِلَّهِ جَمِيعًا وَأَنَّ اللَّهَ شَدِيدُ الْعَذَابِ: Ke saari quwwat Allah hi ke liye hai aur yeh ke Allah sakht azaab dene wala hai"
       }
     ],
     "examples": [
@@ -690,13 +689,13 @@ export const visuals = {
     "lessonKey": "s2l12",
     "title": "S2L12: Fe'l Naaqis 'Kaana' (Tha / Hai): رَسُولٌ ← كَانَ رَسُولًا",
     "badge": "Kaana (كَانَ + ـًا)",
-    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"28\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-root\">رَسُولٌ ، غَفُورٌ رَحِيمٌ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Ek Rasool, Bakhshne wala (ـٌ)</text>\n  </svg>",
-    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Kaana (كَانَ + ـًا))</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"26\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-suffix\">كَانَ رَسُولًا ، وَكَانَ اللَّهُ غَفُورًا رَحِيمًا</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Woh ek Rasool tha, Aur Allah bakhshne wala hai (ـًا)</text>\n  </svg>",
+    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"var(--border-subtle)\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"var(--ink-secondary)\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"28\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-root\">رَسُولٌ ، غَفُورٌ رَحِيمٌ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Ek Rasool, Bakhshne wala (ـٌ)</text>\n  </svg>",
+    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Kaana (كَانَ + ـًا))</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"26\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-suffix\">كَانَ رَسُولًا ، وَكَانَ اللَّهُ غَفُورًا رَحِيمًا</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Woh ek Rasool tha, Aur Allah bakhshne wala hai (ـًا)</text>\n  </svg>",
     "prediction": {
       "question": "Jab 'رَسُولٌ ، غَفُورٌ رَحِيمٌ' par Kaana (كَانَ + ـًا) ka qaa'ida laagu hota hai toh kya shakl aur ma'ni banta hai?",
       "options": [
         "'كَانَ رَسُولًا ، وَكَانَ اللَّهُ غَفُورًا رَحِيمًا' (Woh ek Rasool tha, Aur Allah bakhshne wala hai (ـًا)) banta hai",
-        "Lafz aur ma'ni mein koi tabdeeli nahin aati"
+        "Khabar par pesh (ـٌ) rehti hai aur ma'na haal ya mustaqbil ka hota hai"
       ],
       "correct": 0,
       "explanation": "Kaana (كَانَ + ـًا) ke qaa'ide se 'رَسُولٌ ، غَفُورٌ رَحِيمٌ' badal kar 'كَانَ رَسُولًا ، وَكَانَ اللَّهُ غَفُورًا رَحِيمًا' (Woh ek Rasool tha, Aur Allah bakhshne wala hai (ـًا)) ban jata hai."
@@ -721,15 +720,15 @@ export const visuals = {
     "steps": [
       {
         "title": "1. كَانَ + Khabar (Do Zabar ـًا)",
-        "description": "كَانَ رَسُولًا / كَانَ صِدِّيقًا نَبِيًّا — Woh ek Rasool thay / Woh sachche Nabi thay"
+        "description": "كَانَ رَسُولًا / كَانَ صِدِّيقًا نَبِيًّا: Woh ek Rasool thay / Woh sachche Nabi thay"
       },
       {
         "title": "2. وَكَانَ اللَّهُ ... (Hamesha se hai)",
-        "description": "وَكَانَ اللَّهُ غَفُورًا رَحِيمًا / عَلِيمًا حَكِيمًا — Aur Allah hamesha se bakhshne wala meherbaan hai"
+        "description": "وَكَانَ اللَّهُ غَفُورًا رَحِيمًا / عَلِيمًا حَكِيمًا: Aur Allah hamesha se bakhshne wala meherbaan hai"
       },
       {
         "title": "3. مَا كَانَ ... (Nahin tha)",
-        "description": "مَا كَانَ إِبْرَاهِيمُ يَهُودِيًّا وَلَا نَصْرَانِيًّا — Ibrahim (A.S.) na Yahoodi thay aur na Nasrani"
+        "description": "مَا كَانَ إِبْرَاهِيمُ يَهُودِيًّا وَلَا نَصْرَانِيًّا: Ibrahim (A.S.) na Yahoodi thay aur na Nasrani"
       }
     ],
     "examples": [
@@ -751,13 +750,13 @@ export const visuals = {
     "lessonKey": "s2l13",
     "title": "S2L13: Harf-e-Nida 'Yaa' aur 'Yaa Ayyuha': آدَمُ ← يَا آدَمُ ، يَا أَيُّهَا النَّاسُ",
     "badge": "Nida (يَا / يَا أَيُّهَا)",
-    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#e2e8f0\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#64748b\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"28\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-root\">آدَمُ ، النَّاسُ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Adam, Log</text>\n  </svg>",
-    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f8fafc; border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"#ffffff\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Nida (يَا / يَا أَيُّهَا))</text>\n    <text x=\"180\" y=\"95\" font-family=\"'Traditional Arabic', serif\" font-size=\"26\" fill=\"#0f172a\" text-anchor=\"middle\" class=\"v-suffix\">يَا آدَمُ ، يَا أَيُّهَا النَّاسُ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Aye Adam!, Aye logo!</text>\n  </svg>",
+    "svgOriginal": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"var(--border-subtle)\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"var(--ink-secondary)\" text-anchor=\"middle\">ASAL (Bunyadi Halat)</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"28\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-root\">آدَمُ ، النَّاسُ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#dc2626\" text-anchor=\"middle\" class=\"v-vowel\">Adam, Log</text>\n  </svg>",
+    "svgTransformed": "<svg viewBox=\"0 0 360 160\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:var(--bg-surface-elevated); border-radius:10px;\">\n    <rect x=\"20\" y=\"20\" width=\"320\" height=\"120\" rx=\"12\" fill=\"var(--bg-surface)\" stroke=\"#059669\" stroke-width=\"2\"/>\n    <text x=\"180\" y=\"50\" font-size=\"13\" font-weight=\"700\" fill=\"#059669\" text-anchor=\"middle\">BADLA HUA (Nida (يَا / يَا أَيُّهَا))</text>\n    <text x=\"180\" y=\"95\" font-family=\"var(--font-arabic)\" font-size=\"26\" fill=\"var(--ink-primary)\" text-anchor=\"middle\" class=\"v-suffix\">يَا آدَمُ ، يَا أَيُّهَا النَّاسُ</text>\n    <text x=\"180\" y=\"125\" font-size=\"12\" font-weight=\"600\" fill=\"#059669\" text-anchor=\"middle\" class=\"v-vowel\">Aye Adam!, Aye logo!</text>\n  </svg>",
     "prediction": {
       "question": "Jab 'آدَمُ ، النَّاسُ' par Nida (يَا / يَا أَيُّهَا) ka qaa'ida laagu hota hai toh kya shakl aur ma'ni banta hai?",
       "options": [
         "'يَا آدَمُ ، يَا أَيُّهَا النَّاسُ' (Aye Adam!, Aye logo!) banta hai",
-        "Lafz aur ma'ni mein koi tabdeeli nahin aati"
+        "Ism ke aakhir par do zer (ـٍ) aati hai aur pukarne ka ma'na nahin hota"
       ],
       "correct": 0,
       "explanation": "Nida (يَا / يَا أَيُّهَا) ke qaa'ide se 'آدَمُ ، النَّاسُ' badal kar 'يَا آدَمُ ، يَا أَيُّهَا النَّاسُ' (Aye Adam!, Aye logo!) ban jata hai."
@@ -782,15 +781,15 @@ export const visuals = {
     "steps": [
       {
         "title": "1. يَا + Naam (Ek Pesh ـُ)",
-        "description": "يَا آدَمُ / يَا مُوسَىٰ / يَا مَرْيَمُ / يَا نُوحُ — Aye Adam! / Aye Musa! / Aye Maryam! / Aye Nuh!"
+        "description": "يَا آدَمُ / يَا مُوسَىٰ / يَا مَرْيَمُ / يَا نُوحُ: Aye Adam! / Aye Musa! / Aye Maryam! / Aye Nuh!"
       },
       {
         "title": "2. يَا أَيُّهَا + الْـ (Muzakkar)",
-        "description": "يَا أَيُّهَا النَّاسُ / يَا أَيُّهَا النَّبِيُّ / يَا أَيُّهَا الْمُزَّمِّلُ — Aye logo! / Aye Nabi! / Aye kapda lapetne wale!"
+        "description": "يَا أَيُّهَا النَّاسُ / يَا أَيُّهَا النَّبِيُّ / يَا أَيُّهَا الْمُزَّمِّلُ: Aye logo! / Aye Nabi! / Aye kapda lapetne wale!"
       },
       {
         "title": "3. يَا أَيَّتُهَا + الْـ (Mu'annas)",
-        "description": "يَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ — Aye itminan paane wali jaan!"
+        "description": "يَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ: Aye itminan paane wali jaan!"
       }
     ],
     "examples": [
@@ -812,7 +811,7 @@ export const visuals = {
 
 /**
  * Mount visual for a lesson in Unit 2.
- * @param {string} containerId - Container DOM ID
+ * @param {string | HTMLElement} containerId - Container DOM ID or element
  * @param {string} [lessonKey] - Lesson key (e.g. "s2l1")
  * @returns {void}
  */
@@ -836,18 +835,9 @@ export function destroy() {
   if (_activeTeardown) {
     try {
       _activeTeardown();
-    } catch (e) {
-      console.warn('[Visual] Teardown error:', e);
+    } catch (err) {
+      console.warn('[Visual] Teardown error:', err);
     }
     _activeTeardown = null;
   }
-}
-
-// Auto-register to GrammarVisuals.Registry for legacy compatibility
-if (typeof window !== 'undefined' && /** @type {any} */ (window).GrammarVisuals) {
-  const gv = /** @type {any} */ (window).GrammarVisuals;
-  if (!gv.Registry) gv.Registry = {};
-  Object.keys(visuals).forEach(k => {
-    gv.Registry[k] = (containerId) => mount(containerId, k);
-  });
 }
