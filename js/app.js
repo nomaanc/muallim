@@ -1,17 +1,19 @@
 // @ts-check
 
 /**
- * Muallim ul-Qur'an — Application Bootstrap & Modal Orchestrator (v6.0)
+ * Muallim ul-Qur'an — Application Bootstrap & Modal Orchestrator (v7.0)
  * Native ES module entrypoint linking store, router, renderer, audio, SRS,
- * search, practice quiz / morphology builder, and optional cloud sync.
+ * search, practice quiz / morphology builder, summative exams / Mushaf showcase /
+ * 9-pillar spiral explorer, and optional cloud sync.
  */
 
-import { store } from './core/store.js';
-import { AppRouter, getResumeCandidate, bindKeyboardShortcuts } from './core/router.js';
+import { store, toLocalDateKey } from './core/store.js';
+import { AppRouter, parseRoute, getResumeCandidate, bindKeyboardShortcuts } from './core/router.js';
 import { audioPlayer } from './core/audio.js';
 import { SrsController } from './core/srs.js';
 import { SearchController } from './core/search.js';
 import { PracticeController } from './core/quiz.js';
+import { ExamsController } from './core/exams.js';
 import { cloudSync } from './core/sync.js';
 import {
   escHtml,
@@ -19,14 +21,33 @@ import {
   renderLessonSkeleton,
   renderLessonError,
   renderResumeBanner,
-  renderLessonView
+  renderLessonView,
+  updateLessonHintsInPlace,
+  syncGlossBoxModeAttributes,
+  syncCardStarsInPlace,
+  syncCardBookmarksInPlace,
+  syncCardNotesInPlace,
+  syncCompletionInPlace
 } from './core/renderer.js';
+
+const HTML_LANG_MAP = {
+  hinglish: 'ur-Latn',
+  en: 'en',
+  ur: 'ur',
+  hi: 'hi'
+};
 
 let _toastTimer = 0;
 /** @type {'prefs' | 'starred' | 'sync'} */
 let _settingsTab = 'prefs';
 let _pickerUnit = 1;
 let _resumeDismissed = false;
+let _navToken = 0;
+/** @type {'lesson' | 'exam' | 'mushaf-check' | 'spiral'} */
+let _activeView = 'lesson';
+let _activeExamId = 'vol1';
+/** @type {{root?: string, pillar?: number}} */
+let _activeSpiralParams = {};
 
 /**
  * Show a temporary accessible status toast.
@@ -52,32 +73,201 @@ let searchCtrl;
 let srsCtrl;
 /** @type {PracticeController} */
 let practiceCtrl;
+/** @type {any} */
+let examsCtrl;
+
+function _syncDocumentLang() {
+  document.documentElement.lang = HTML_LANG_MAP[store.lang] || 'ur-Latn';
+}
 
 /**
- * Load unit JSON if needed and render the requested lesson.
+ * Smoothly scroll to a specific card key inside the lesson mount.
+ * @param {HTMLElement} mount
+ * @param {string} itemKey
+ */
+function _scrollToCardKey(mount, itemKey) {
+  if (!itemKey) return;
+  const escKey = CSS.escape(String(itemKey));
+  const target =
+    mount.querySelector(`[data-card-key="${escKey}"]`) ||
+    mount.querySelector(`[data-root-key="${escKey}"]`) ||
+    mount.querySelector(`[data-legacy-key="${escKey}"]`);
+  if (target instanceof HTMLElement) {
+    requestAnimationFrame(() => {
+      target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      target.classList.add('is-scroll-target');
+      window.setTimeout(() => target.classList.remove('is-scroll-target'), 2200);
+    });
+  }
+}
+
+/**
+ * Push or replace hash URL for non-lesson views without re-triggering hashchange loops.
+ * @param {string} hash
+ * @param {boolean} [push]
+ */
+function _syncNonLessonHash(hash, push = true) {
+  const norm = hash.startsWith('#') ? hash : `#${hash}`;
+  if (typeof router?.syncHash === 'function') {
+    router.syncHash(norm, { hash: norm }, push);
+    return;
+  }
+  if (window.location.hash === norm) return;
+  try {
+    if (push) {
+      history.pushState({ hash: norm }, '', `${window.location.pathname}${norm}`);
+    } else {
+      history.replaceState({ hash: norm }, '', `${window.location.pathname}${norm}`);
+    }
+  } catch (err) {
+    console.warn('[App] History update skipped:', err);
+  }
+}
+
+/**
+ * Navigate to a hash route (#exam/vol1, #mushaf-check, #spiral, #u1/l1, #bookmarks, #favourites).
+ * @param {string} hash
+ */
+async function navigateToHash(hash) {
+  const norm = hash.startsWith('#') ? hash : `#${hash}`;
+  const parsed = parseRoute(norm, '');
+  if (parsed) {
+    await handleRoute(parsed, { fromHistory: false, rawHash: norm });
+  }
+}
+
+/**
+ * Dispatch a discriminated route object to the active view controller.
+ * @param {any} route
+ * @param {{fromHistory?: boolean, rawHash?: string}} [opts]
+ */
+async function handleRoute(route, opts = {}) {
+  const rawHash = opts.rawHash || window.location.hash;
+  if (rawHash === '#bookmarks' || route?.view === 'bookmarks') {
+    const bm = store.bookmark;
+    if (bm && bm.stage && bm.lesson) {
+      await goToLesson(bm.stage, bm.lesson, { fromHistory: opts.fromHistory, itemKey: bm.itemId });
+    } else {
+      showToast('No bookmark saved yet. Tap the bookmark icon on any card.');
+      if (_activeView !== 'lesson' || !document.querySelector('#lesson-content-mount .lesson-banner')) {
+        await goToLesson(store.currentUnit, store.currentLesson, { fromHistory: true });
+      }
+    }
+    return;
+  }
+
+  if (rawHash === '#favourites' || route?.view === 'favourites') {
+    if (!document.querySelector('#lesson-content-mount .lesson-banner')) {
+      await goToLesson(store.currentUnit, store.currentLesson, { fromHistory: true });
+    }
+    openSettingsDialog('starred');
+    return;
+  }
+
+  if (!route || route.view === 'lesson' || (!route.view && route.unit && route.lesson)) {
+    const u = route?.unit || 1;
+    const l = route?.lesson || 1;
+    await goToLesson(u, l, { fromHistory: opts.fromHistory, itemKey: route?.itemKey });
+    return;
+  }
+
+  const mount = document.getElementById('lesson-content-mount');
+  const bottomMount = document.getElementById('bottom-nav-mount');
+  if (!mount || !bottomMount) return;
+
+  const token = ++_navToken;
+  audioPlayer.stop();
+  examsCtrl?.destroy?.();
+  bottomMount.innerHTML = '';
+
+  const viewCallbacks = {
+    onNavigateLesson: (u, l, itemKey) => goToLesson(u, l, { itemKey }),
+    onOpenExam: (examId) => navigateToHash(`#exam/${examId}`),
+    onOpenRoute: (h) => navigateToHash(h),
+    onNotify: showToast
+  };
+
+  if (route.view === 'exam') {
+    const examId = route.examId || 'vol1';
+    _activeView = 'exam';
+    _activeExamId = examId;
+    if (!opts.fromHistory) _syncNonLessonHash(`#exam/${examId}`, true);
+    _updateChromeLabels();
+    window.scrollTo({ top: 0, behavior: 'auto' });
+    await examsCtrl.renderExamView(mount, examId, viewCallbacks);
+    if (token !== _navToken) return;
+    return;
+  }
+
+  if (route.view === 'mushaf-check') {
+    _activeView = 'mushaf-check';
+    if (!opts.fromHistory) _syncNonLessonHash('#mushaf-check', true);
+    _updateChromeLabels();
+    window.scrollTo({ top: 0, behavior: 'auto' });
+    await examsCtrl.renderMushafShowcase(mount, viewCallbacks);
+    if (token !== _navToken) return;
+    return;
+  }
+
+  if (route.view === 'spiral') {
+    _activeView = 'spiral';
+    _activeSpiralParams = { root: route.root, pillar: route.pillar };
+    const hash = route.root
+      ? `#spiral/root/${encodeURIComponent(route.root)}`
+      : (route.pillar ? `#spiral/p${route.pillar}` : '#spiral');
+    if (!opts.fromHistory) _syncNonLessonHash(hash, true);
+    _updateChromeLabels();
+    window.scrollTo({ top: 0, behavior: 'auto' });
+    await examsCtrl.renderSpiralExplorer(mount, _activeSpiralParams, viewCallbacks);
+    if (token !== _navToken) return;
+  }
+}
+
+/**
+ * Load per-lesson chunk (or unit JSON) and render the requested lesson cleanly.
+ * Guarded by monotonic ++_navToken to prevent out-of-order async overwrites.
  * @param {number} unitNum
  * @param {number} lessonNum
- * @param {{fromHistory?: boolean}} [opts]
+ * @param {{fromHistory?: boolean, itemKey?: string}} [opts]
  */
 async function goToLesson(unitNum, lessonNum, opts = {}) {
+  const token = ++_navToken;
+  _activeView = 'lesson';
   const unit = Math.min(7, Math.max(1, Number(unitNum) || 1));
   const mount = document.getElementById('lesson-content-mount');
   const bottomMount = document.getElementById('bottom-nav-mount');
   if (!mount || !bottomMount) return;
 
   audioPlayer.stop();
+  examsCtrl?.destroy?.();
   renderLessonSkeleton(mount);
 
   try {
     await store.loadMetadata();
-    await store.loadUnit(unit);
+    if (token !== _navToken) return;
+
     const maxLesson = store.getUnitLessonCount(unit);
     const lessonId = Math.min(maxLesson, Math.max(1, Number(lessonNum) || 1));
-    const lesson = store.getLesson(unit, lessonId);
+    let lesson = null;
+    if (typeof store.loadLessonChunk === 'function') {
+      lesson = await store.loadLessonChunk(unit, lessonId);
+    } else {
+      await store.loadUnit(unit);
+      lesson = store.getLesson(unit, lessonId);
+    }
+    if (token !== _navToken) return;
 
     store.setCurrentPosition(unit, lessonId, lesson?.title || '');
     router.syncUrl(unit, lessonId, !opts.fromHistory);
     _updateChromeLabels();
+
+    if (store.showHints && typeof searchCtrl?.ensureIndexLoaded === 'function') {
+      searchCtrl.ensureIndexLoaded().then(() => {
+        if (token === _navToken && _activeView === 'lesson') {
+          updateLessonHintsInPlace(mount, unit, lessonId, (u, l, id) => searchCtrl.getItemMeta?.(u, l, id) || null);
+        }
+      }).catch(err => console.warn('[App] Hints index load skipped:', err));
+    }
 
     await renderLessonView({
       unit,
@@ -87,32 +277,47 @@ async function goToLesson(unitNum, lessonNum, opts = {}) {
       onOpenPractice: (mode) => practiceCtrl.open(mode),
       onPrevLesson: navigatePrevLesson,
       onNextLesson: navigateNextLesson,
-      onNotify: showToast
+      onNotify: showToast,
+      getItemMeta: (u, l, id) => searchCtrl?.getItemMeta?.(u, l, id) || null
     });
+    if (token !== _navToken) return;
 
-    // Clear resume banner once the learner explicitly navigates elsewhere
     if (!opts.fromHistory && unit === store.currentUnit && lessonId === store.currentLesson) {
       const resumeMount = document.getElementById('resume-banner-mount');
       if (resumeMount && _resumeDismissed) resumeMount.innerHTML = '';
     }
-    window.scrollTo({ top: 0, behavior: 'auto' });
+
+    if (opts.itemKey) {
+      _scrollToCardKey(mount, opts.itemKey);
+    } else {
+      window.scrollTo({ top: 0, behavior: 'auto' });
+    }
   } catch (err) {
-    const detail = err instanceof Error ? err.message : 'Unable to fetch unit data';
+    if (token !== _navToken) return;
+    const detail = err instanceof Error ? err.message : 'Unable to fetch lesson data';
     renderLessonError(mount, detail, () => goToLesson(unitNum, lessonNum, opts));
   }
 }
 
 async function navigatePrevLesson() {
+  if (_activeView !== 'lesson') {
+    await goToLesson(store.currentUnit, store.currentLesson);
+    return;
+  }
   if (store.currentLesson > 1) {
     await goToLesson(store.currentUnit, store.currentLesson - 1);
   } else if (store.currentUnit > 1) {
     const prevUnit = store.currentUnit - 1;
-    await store.loadUnit(prevUnit);
+    await store.loadMetadata();
     await goToLesson(prevUnit, store.getUnitLessonCount(prevUnit));
   }
 }
 
 async function navigateNextLesson() {
+  if (_activeView !== 'lesson') {
+    await goToLesson(store.currentUnit, store.currentLesson);
+    return;
+  }
   const count = store.getUnitLessonCount(store.currentUnit);
   if (store.currentLesson < count) {
     await goToLesson(store.currentUnit, store.currentLesson + 1);
@@ -123,14 +328,35 @@ async function navigateNextLesson() {
 
 function _updateChromeLabels() {
   const lbl = document.getElementById('current-lesson-label');
-  if (lbl) lbl.textContent = `Unit ${store.currentUnit} · Lesson ${store.currentLesson}`;
-  document.title = `Muallim ul-Qur'an — Unit ${store.currentUnit} Lesson ${store.currentLesson}`;
+  if (_activeView === 'exam') {
+    const examTitles = {
+      vol1: 'Vol. 1 Model Exam',
+      u4: 'Unit 4 Model Exam',
+      u5: 'Unit 5 Model Exam',
+      u7: 'Unit 7 Model Exam'
+    };
+    const t = examTitles[_activeExamId] || 'Model Exam';
+    if (lbl) lbl.textContent = t;
+    document.title = `Muallim ul-Qur'an: ${t}`;
+  } else if (_activeView === 'mushaf-check') {
+    if (lbl) lbl.textContent = 'Mushaf 85% Showcase';
+    document.title = "Muallim ul-Qur'an: Mushaf 85% Showcase";
+  } else if (_activeView === 'spiral') {
+    if (lbl) lbl.textContent = '9-Pillar & Root Explorer';
+    document.title = "Muallim ul-Qur'an: 9-Pillar & Root Explorer";
+  } else {
+    if (lbl) lbl.textContent = `Unit ${store.currentUnit}, Lesson ${store.currentLesson}`;
+    document.title = `Muallim ul-Qur'an: Unit ${store.currentUnit} Lesson ${store.currentLesson}`;
+  }
 
   const streakVal = document.getElementById('streak-count-val');
   const streakPill = document.getElementById('streak-pill');
   const curStreak = store.streak.current || 0;
   if (streakVal) streakVal.textContent = `${curStreak}d`;
-  if (streakPill) streakPill.classList.toggle('is-active', curStreak > 0);
+  if (streakPill) {
+    streakPill.classList.toggle('is-active', curStreak > 0);
+    streakPill.title = `Current streak: ${curStreak}d | Longest: ${store.streak.longest || 0}d`;
+  }
 
   const isStudent = store.mode === 'student';
   const hdrModeBtn = document.getElementById('btn-header-mode');
@@ -145,8 +371,8 @@ function _updateChromeLabels() {
 
   const mbarPrev = /** @type {HTMLButtonElement | null} */ (document.getElementById('mbar-prev'));
   const mbarNext = /** @type {HTMLButtonElement | null} */ (document.getElementById('mbar-next'));
-  if (mbarPrev) mbarPrev.disabled = store.currentUnit === 1 && store.currentLesson === 1;
-  if (mbarNext) mbarNext.disabled = store.currentUnit === 7 && store.currentLesson >= store.getUnitLessonCount(7);
+  if (mbarPrev) mbarPrev.disabled = _activeView === 'lesson' && store.currentUnit === 1 && store.currentLesson === 1;
+  if (mbarNext) mbarNext.disabled = _activeView === 'lesson' && store.currentUnit === 7 && store.currentLesson >= store.getUnitLessonCount(7);
 
   const starCountBadge = document.getElementById('settings-starred-count');
   if (starCountBadge) starCountBadge.textContent = String(store.favs.length);
@@ -166,6 +392,41 @@ function handleSpaceKey() {
   return true;
 }
 
+/**
+ * Render last-7-days activity strip using DST-safe local calendar arithmetic.
+ * @returns {string}
+ */
+function _renderStudyActivityHtml() {
+  const days = [];
+  const log = store.studyLog || {};
+  for (let offset = 6; offset >= 0; offset--) {
+    const d = new Date();
+    d.setDate(d.getDate() - offset);
+    const key = toLocalDateKey(d);
+    const count = Number(log[key]) || 0;
+    const label = d.toLocaleDateString(undefined, { weekday: 'short' });
+    days.push({ key, count, label, isToday: offset === 0 });
+  }
+  const cur = store.streak?.current || 0;
+  const best = store.streak?.longest || 0;
+  return `
+    <div class="study-activity-card">
+      <div class="study-streak-row tabular-nums">
+        <span>Current Streak: <strong>${cur}d</strong></span>
+        <span>Longest Streak: <strong>${best}d</strong></span>
+      </div>
+      <div class="study-week-grid" aria-label="Last 7 days study activity">
+        ${days.map(day => `
+          <div class="study-day-cell ${day.count > 0 ? 'is-active' : ''} ${day.isToday ? 'is-today' : ''}" title="${escHtml(day.key)}: ${day.count} study action(s)">
+            <span class="study-day-name">${escHtml(day.label)}</span>
+            <span class="study-day-count tabular-nums">${day.count}</span>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
 /* ── Lesson Picker Modal (#lesson-picker-dialog) ── */
 async function openLessonPicker() {
   const dlg = /** @type {HTMLDialogElement | null} */ (document.getElementById('lesson-picker-dialog'));
@@ -176,13 +437,38 @@ async function openLessonPicker() {
 }
 
 async function renderLessonPicker() {
+  const bmMount = document.getElementById('picker-bookmark-mount');
   const unitsMount = document.getElementById('picker-units-mount');
   const summaryMount = document.getElementById('picker-unit-summary');
   const lessonsMount = document.getElementById('picker-lessons-mount');
   if (!unitsMount || !lessonsMount) return;
 
+  if (bmMount) {
+    const bm = store.bookmark;
+    if (bm && bm.stage && bm.lesson) {
+      bmMount.innerHTML = `
+        <div class="picker-bookmark-bar">
+          <div class="picker-bookmark-info">
+            <span class="picker-bookmark-label tabular-nums">Bookmark: Unit ${bm.stage}, Lesson ${bm.lesson}</span>
+            ${bm.arabic ? `<span class="picker-bookmark-ar" dir="rtl">${escHtml(bm.arabic)}</span>` : ''}
+          </div>
+          <button type="button" class="btn-primary btn-sm" id="btn-picker-jump-bm">Jump to Bookmark</button>
+        </div>
+      `;
+      bmMount.querySelector('#btn-picker-jump-bm')?.addEventListener('click', async () => {
+        /** @type {HTMLDialogElement | null} */ (document.getElementById('lesson-picker-dialog'))?.close();
+        await goToLesson(bm.stage, bm.lesson, { itemKey: bm.itemId });
+      });
+    } else {
+      bmMount.innerHTML = '';
+    }
+  }
+
   await store.loadMetadata();
-  if (!store.unitsCache[_pickerUnit]) {
+  const metaLessons = store.metadata?.units?.[_pickerUnit - 1]?.lessons;
+  const hasRichMeta = Array.isArray(metaLessons) && metaLessons.length > 0 && metaLessons.every(x => x.title_i18n || x.title);
+
+  if (!store.unitsCache[_pickerUnit] && !hasRichMeta) {
     lessonsMount.innerHTML = `
       <div class="skeleton-block" style="height:52px"></div>
       <div class="skeleton-block" style="height:52px"></div>
@@ -206,17 +492,22 @@ async function renderLessonPicker() {
   unitsMount.innerHTML = unitTabsHtml;
 
   const activeMastery = store.getUnitMastery(_pickerUnit);
+  const curStreak = store.streak?.current || 0;
+  const bestStreak = store.streak?.longest || 0;
   if (summaryMount) {
     summaryMount.innerHTML = `
-      <span>Unit ${_pickerUnit} Progress</span>
+      <div class="picker-summary-text">
+        <span>Unit ${_pickerUnit} Progress</span>
+        <span class="picker-streak-meta tabular-nums">Streak: ${curStreak}d (Best: ${bestStreak}d)</span>
+      </div>
       ${renderMasteryRing(activeMastery.pct, activeMastery.completed, activeMastery.total)}
     `;
   }
 
-  const lessons = store.unitsCache[_pickerUnit] || [];
-  lessonsMount.innerHTML = lessons.map(l => {
-    const lid = Number(l.lesson_id);
-    const isActive = _pickerUnit === store.currentUnit && lid === store.currentLesson;
+  const lessonList = store.unitsCache[_pickerUnit] || metaLessons || [];
+  lessonsMount.innerHTML = lessonList.map(l => {
+    const lid = Number(l.lesson_id ?? l.number);
+    const isActive = _activeView === 'lesson' && _pickerUnit === store.currentUnit && lid === store.currentLesson;
     const isDone = store.isLessonCompleted(_pickerUnit, lid);
     const title = (l.title_i18n && l.title_i18n[store.lang]) || l.title || `Lesson ${lid}`;
     return `
@@ -303,7 +594,7 @@ function renderSettingsBody() {
       body.innerHTML = `
         <div class="empty-state">
           <div class="empty-state-title">No starred items or personal notes yet</div>
-          <p class="empty-state-desc">Tap ★ to star a card or ✏️ to save a Personal Note (Custom Translation). Both sync to cloud and export in Backup JSON.</p>
+          <p class="empty-state-desc">Tap the star icon on a card or open Personal Note to save a custom translation. Both sync to cloud and export in Backup JSON.</p>
         </div>
       `;
       return;
@@ -312,14 +603,14 @@ function renderSettingsBody() {
       <div class="settings-stack">
         ${sortedFavs.length > 0 ? `
           <section class="settings-section">
-            <span class="field-label">Starred Items — Sorted by Lesson (${sortedFavs.length})</span>
+            <span class="field-label">Starred Items (Sorted by Lesson: ${sortedFavs.length})</span>
             <div class="starred-list-stack">
               ${Array.from(favGroups.values()).map(grp => `
                 <div class="starred-lesson-group">
-                  <div class="search-result-unit tabular-nums" style="margin:6px 0 4px; font-weight:700; color:var(--accent-primary);">Unit ${grp.stage} · Lesson ${grp.lesson} (${grp.items.length})</div>
+                  <div class="search-result-unit tabular-nums" style="margin:6px 0 4px; font-weight:700; color:var(--accent-primary);">Unit ${grp.stage}, Lesson ${grp.lesson} (${grp.items.length})</div>
                   ${grp.items.map(f => `
                     <div class="starred-item-row">
-                      <button type="button" style="flex:1; text-align:left; min-width:0;" data-jump-star="${f.stage}:${f.lesson}">
+                      <button type="button" style="flex:1; text-align:left; min-width:0;" data-jump-star="${f.stage}:${f.lesson}" data-jump-key="${escHtml(f.key)}">
                         <div class="arabic-text" style="font-size:1.35rem; line-height:1.5">${escHtml(f.arabic)}</div>
                         <div class="search-result-gloss">${escHtml(f.hinglish)}</div>
                       </button>
@@ -337,8 +628,8 @@ function renderSettingsBody() {
             <div class="starred-list-stack">
               ${noteEntries.map(([key, noteText]) => {
                 const m = String(key).match(/^s(\d+)l(\d+)/i);
-                const jumpAttr = m ? `data-jump-star="${Number(m[1])}:${Number(m[2])}"` : '';
-                const label = m ? `Unit ${Number(m[1])} · Lesson ${Number(m[2])}` : key;
+                const jumpAttr = m ? `data-jump-star="${Number(m[1])}:${Number(m[2])}" data-jump-key="${escHtml(key)}"` : '';
+                const label = m ? `Unit ${Number(m[1])}, Lesson ${Number(m[2])}` : key;
                 return `
                   <div class="starred-item-row">
                     <button type="button" style="flex:1; text-align:left; min-width:0;" ${jumpAttr}>
@@ -357,8 +648,9 @@ function renderSettingsBody() {
     body.querySelectorAll('[data-jump-star]').forEach(btn => {
       btn.addEventListener('click', async () => {
         const [u, l] = (btn.getAttribute('data-jump-star') || '1:1').split(':').map(Number);
+        const itemKey = btn.getAttribute('data-jump-key') || undefined;
         /** @type {HTMLDialogElement | null} */ (document.getElementById('settings-dialog'))?.close();
-        await goToLesson(u, l);
+        await goToLesson(u, l, { itemKey });
       });
     });
     body.querySelectorAll('[data-unstar-key]').forEach(btn => {
@@ -385,7 +677,7 @@ function renderSettingsBody() {
       <div class="settings-stack">
         <section class="settings-section">
           <label class="field-label">Local JSON Backup &amp; Restore</label>
-          <p class="search-status-line" style="margin:0 0 6px">Includes ${store.favs.length} starred items, ${notesCount} personal notes (custom translations), SRS boxes, streak &amp; completed lessons.</p>
+          <p class="search-status-line" style="margin:0 0 6px">Includes ${store.favs.length} starred items, ${notesCount} personal notes (custom translations), SRS boxes, streak, weak words, exam history &amp; completed lessons.</p>
           <div class="lesson-action-group">
             <button type="button" class="btn-secondary" id="btn-export-json">Export JSON</button>
             <button type="button" class="btn-secondary" id="btn-import-json">Import JSON</button>
@@ -394,7 +686,7 @@ function renderSettingsBody() {
         </section>
 
         <section class="settings-section">
-          <label class="field-label">App Version &amp; Cache (v6.0.1)</label>
+          <label class="field-label">App Version &amp; Cache (v7.0.0)</label>
           <p class="search-status-line" style="margin:0 0 6px">If an older version appears cached on your device, clear the offline cache and reload fresh.</p>
           <div class="lesson-action-group">
             <button type="button" class="btn-secondary btn-sm" id="btn-force-refresh">Force Refresh App</button>
@@ -432,6 +724,7 @@ function renderSettingsBody() {
               <div id="auth-error-box" class="search-status-line" style="color:var(--accent-danger); margin:0" hidden></div>
               <div class="lesson-action-group" style="justify-content:space-between">
                 <button type="button" class="btn-ghost btn-sm" id="btn-email-signup">Create Account</button>
+                <button type="button" class="btn-ghost btn-sm" id="btn-forgot-password">Forgot Password?</button>
                 <button type="button" class="btn-primary btn-sm" id="btn-email-signin">Sign In</button>
               </div>
             </div>
@@ -443,10 +736,12 @@ function renderSettingsBody() {
     body.querySelector('#btn-export-json')?.addEventListener('click', () => {
       const json = store.exportBackupJson();
       const blob = new Blob([json], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = `muallim_backup_v6.json`;
+      a.href = url;
+      a.download = 'muallim_backup_v7.json';
       a.click();
+      window.setTimeout(() => URL.revokeObjectURL(url), 1000);
       showToast('Backup JSON exported.');
     });
 
@@ -504,6 +799,29 @@ function renderSettingsBody() {
 
     body.querySelector('#btn-email-signin')?.addEventListener('click', () => doEmailAuth(false));
     body.querySelector('#btn-email-signup')?.addEventListener('click', () => doEmailAuth(true));
+
+    body.querySelector('#btn-forgot-password')?.addEventListener('click', async () => {
+      const email = /** @type {HTMLInputElement | null} */ (body.querySelector('#auth-email-in'))?.value.trim() || '';
+      const errBox = /** @type {HTMLElement | null} */ (body.querySelector('#auth-error-box'));
+      if (!email) {
+        if (errBox) {
+          errBox.textContent = 'Enter your email address first to send a reset link.';
+          errBox.hidden = false;
+        }
+        return;
+      }
+      try {
+        await cloudSync.sendPasswordReset(email);
+        if (errBox) errBox.hidden = true;
+        showToast('Password reset email sent.');
+      } catch (err) {
+        if (errBox) {
+          errBox.textContent = err instanceof Error ? err.message : 'Could not send reset email.';
+          errBox.hidden = false;
+        }
+      }
+    });
+
     body.querySelector('#btn-sync-now')?.addEventListener('click', async () => {
       await cloudSync.pushToCloud();
       showToast('Synced to cloud.');
@@ -533,8 +851,14 @@ function renderSettingsBody() {
   }
 
   // Reading Preferences Tab
+  const hintsOn = Boolean(store.showHints);
   body.innerHTML = `
     <div class="settings-stack">
+      <section class="settings-section">
+        <span class="field-label">Study Streak &amp; Weekly Log</span>
+        ${_renderStudyActivityHtml()}
+      </section>
+
       <section class="settings-section">
         <span class="field-label">Reading Theme</span>
         <div class="theme-pill-grid">
@@ -572,6 +896,16 @@ function renderSettingsBody() {
       </section>
 
       <section class="settings-section">
+        <div class="settings-toggle-row">
+          <div>
+            <label class="field-label" for="setting-show-hints" style="margin-bottom:2px">Show Root &amp; Transliteration Hints</label>
+            <p class="search-status-line" style="margin:0">Display transliteration and clickable root pills below Arabic cards.</p>
+          </div>
+          <button type="button" id="setting-show-hints" class="header-chip-btn" aria-pressed="${hintsOn}">${hintsOn ? 'On' : 'Off'}</button>
+        </div>
+      </section>
+
+      <section class="settings-section">
         <div style="display:flex; justify-content:space-between;">
           <label class="field-label" for="setting-arabic-size">Arabic Text Size</label>
           <span class="tabular-nums" style="font-size:0.82rem; font-weight:700" id="lbl-ar-size">${store.arabicScale}px</span>
@@ -599,7 +933,19 @@ function renderSettingsBody() {
   body.querySelector('#setting-lang-select')?.addEventListener('change', (e) => {
     const val = /** @type {HTMLSelectElement} */ (e.currentTarget).value;
     store.setLang(val);
-    goToLesson(store.currentUnit, store.currentLesson, { fromHistory: true });
+    _syncDocumentLang();
+    if (_activeView === 'lesson') {
+      const y = window.scrollY;
+      goToLesson(store.currentUnit, store.currentLesson, { fromHistory: true }).then(() => {
+        window.scrollTo({ top: y, behavior: 'auto' });
+      });
+    } else if (_activeView === 'exam') {
+      handleRoute({ view: 'exam', examId: _activeExamId }, { fromHistory: true });
+    } else if (_activeView === 'mushaf-check') {
+      handleRoute({ view: 'mushaf-check' }, { fromHistory: true });
+    } else if (_activeView === 'spiral') {
+      handleRoute({ view: 'spiral', ..._activeSpiralParams }, { fromHistory: true });
+    }
   });
 
   body.querySelectorAll('[data-set-mode]').forEach(btn => {
@@ -608,6 +954,19 @@ function renderSettingsBody() {
       store.setMode(m);
       renderSettingsBody();
     });
+  });
+
+  body.querySelector('#setting-show-hints')?.addEventListener('click', (e) => {
+    const next = !store.showHints;
+    if (typeof store.setShowHints === 'function') {
+      store.setShowHints(next);
+    } else {
+      store.showHints = next;
+      store.emit('hints', false);
+    }
+    const btn = /** @type {HTMLElement} */ (e.currentTarget);
+    btn.setAttribute('aria-pressed', String(next));
+    btn.textContent = next ? 'On' : 'Off';
   });
 
   body.querySelector('#setting-arabic-size')?.addEventListener('input', (e) => {
@@ -628,6 +987,7 @@ function renderSettingsBody() {
 
 function initApp() {
   store.init();
+  _syncDocumentLang();
   audioPlayer.setRate(store.audioSpeed);
   store.setSyncHook(() => cloudSync.queuePush());
 
@@ -635,8 +995,34 @@ function initApp() {
   const initialLastSession = store.lastSession;
   const initialBookmark = store.bookmark;
 
-  router = new AppRouter((u, l, opts) => goToLesson(u, l, opts));
+  router = new AppRouter(
+    (arg1, arg2, arg3) => {
+      if (arg1 && typeof arg1 === 'object') {
+        return handleRoute(arg1, arg2 || {});
+      }
+      return handleRoute(
+        { view: 'lesson', unit: Number(arg1) || 1, lesson: Number(arg2) || 1, itemKey: arg3?.itemKey },
+        arg3 || {}
+      );
+    },
+    (route, opts) => handleRoute(route, opts || {})
+  );
   const initialRoute = router.init();
+
+  // Fallback hashchange listener if router.js lacks syncHash/onRoute support
+  if (typeof router.syncHash !== 'function') {
+    window.addEventListener('hashchange', () => {
+      const h = window.location.hash;
+      if (h === '#bookmarks' || h === '#favourites') {
+        handleRoute({ view: h.slice(1) }, { fromHistory: true, rawHash: h });
+        return;
+      }
+      const r = parseRoute(h, window.location.search);
+      if (r && r.view && r.view !== 'lesson') {
+        handleRoute(r, { fromHistory: true, rawHash: h });
+      }
+    });
+  }
 
   searchCtrl = new SearchController((u, l) => goToLesson(u, l));
   searchCtrl.bind();
@@ -648,6 +1034,8 @@ function initApp() {
     onJumpToLesson: (u, l) => goToLesson(u, l)
   });
   practiceCtrl.bindTabs();
+
+  examsCtrl = typeof ExamsController === 'function' ? new ExamsController({ searchCtrl }) : ExamsController;
 
   // Wire header & mobile bottom bar controls
   document.getElementById('btn-lesson-picker')?.addEventListener('click', openLessonPicker);
@@ -665,6 +1053,16 @@ function initApp() {
   });
   document.getElementById('mbar-drill')?.addEventListener('click', () => srsCtrl.open('srs'));
   document.getElementById('mbar-search')?.addEventListener('click', () => searchCtrl.open());
+
+  // Quick-launch buttons inside #lesson-picker-dialog and #practice-dialog
+  document.querySelectorAll('[data-quick-route]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const hash = btn.getAttribute('data-quick-route') || '';
+      const dlg = btn.closest('dialog');
+      if (dlg instanceof HTMLDialogElement && dlg.open) dlg.close();
+      if (hash) navigateToHash(hash);
+    });
+  });
 
   // Settings tab buttons
   document.getElementById('tab-settings-prefs')?.addEventListener('click', () => {
@@ -713,10 +1111,50 @@ function initApp() {
     }
   });
 
+  // Surgical in-place store updates (never reset window.scrollY on active lesson)
   store.subscribe((reason) => {
     _updateChromeLabels();
-    if (reason === 'progress' || reason === 'cloudPull') {
-      goToLesson(store.currentUnit, store.currentLesson, { fromHistory: true });
+    if (reason === 'lang') {
+      _syncDocumentLang();
+    }
+    const mount = document.getElementById('lesson-content-mount');
+    if (!mount || _activeView !== 'lesson') return;
+
+    if (reason === 'mode') {
+      syncGlossBoxModeAttributes(mount, store.mode);
+    } else if (reason === 'progress') {
+      syncCompletionInPlace(mount, store.currentUnit, store.currentLesson);
+    } else if (reason === 'favs') {
+      syncCardStarsInPlace(mount);
+    } else if (reason === 'notes') {
+      syncCardNotesInPlace(mount);
+    } else if (reason === 'bookmark') {
+      syncCardBookmarksInPlace(mount);
+    } else if (reason === 'hints') {
+      if (store.showHints && typeof searchCtrl?.ensureIndexLoaded === 'function') {
+        searchCtrl.ensureIndexLoaded().then(() => {
+          if (_activeView === 'lesson') {
+            updateLessonHintsInPlace(mount, store.currentUnit, store.currentLesson, (u, l, id) => searchCtrl.getItemMeta?.(u, l, id) || null);
+          }
+        }).catch(err => console.warn('[App] Hints load error:', err));
+      } else {
+        updateLessonHintsInPlace(mount, store.currentUnit, store.currentLesson);
+      }
+    } else if (reason === 'cloudPull') {
+      _syncDocumentLang();
+      syncCompletionInPlace(mount, store.currentUnit, store.currentLesson);
+      syncCardStarsInPlace(mount);
+      syncCardBookmarksInPlace(mount);
+      syncCardNotesInPlace(mount);
+      if (store.showHints && typeof searchCtrl?.ensureIndexLoaded === 'function') {
+        searchCtrl.ensureIndexLoaded().then(() => {
+          if (_activeView === 'lesson') {
+            updateLessonHintsInPlace(mount, store.currentUnit, store.currentLesson, (u, l, id) => searchCtrl.getItemMeta?.(u, l, id) || null);
+          }
+        }).catch(err => console.warn('[App] Hints load error:', err));
+      } else {
+        updateLessonHintsInPlace(mount, store.currentUnit, store.currentLesson);
+      }
     }
   });
 
@@ -727,19 +1165,25 @@ function initApp() {
     }
   });
 
-  // Load initial lesson + show Resume banner if landing on bare URL with prior progress
-  goToLesson(initialRoute.unit, initialRoute.lesson, { fromHistory: true }).then(() => {
-    if (!initialRoute.explicit && !_resumeDismissed) {
+  // Dispatch initial route + show Resume banner if landing on bare URL with prior progress
+  const rawHash = window.location.hash;
+  const resolvedInitial =
+    rawHash === '#bookmarks' || rawHash === '#favourites'
+      ? { view: rawHash.slice(1) }
+      : (initialRoute && initialRoute.view ? initialRoute : parseRoute(rawHash, window.location.search) || initialRoute);
+
+  handleRoute(resolvedInitial, { fromHistory: true, rawHash }).then(() => {
+    if (!initialRoute.explicit && !_resumeDismissed && _activeView === 'lesson') {
       const resumeMount = document.getElementById('resume-banner-mount');
-      const candidate = getResumeCandidate(initialLastSession, initialBookmark, initialRoute.unit, initialRoute.lesson);
+      const candidate = getResumeCandidate(initialLastSession, initialBookmark, initialRoute.unit || 1, initialRoute.lesson || 1);
       if (resumeMount && candidate) {
         renderResumeBanner(
           resumeMount,
           candidate,
-          (u, l) => {
+          (u, l, itemKey) => {
             _resumeDismissed = true;
             resumeMount.innerHTML = '';
-            goToLesson(u, l);
+            goToLesson(u, l, { itemKey });
           },
           () => {
             _resumeDismissed = true;
@@ -762,7 +1206,7 @@ function initApp() {
       window.location.reload();
     });
     navigator.serviceWorker.register('./sw.js').then((reg) => {
-      reg.update().catch(() => { /* offline check skipped */ });
+      reg.update().catch(err => console.warn('[SW] Update check skipped:', err));
       reg.addEventListener('updatefound', () => {
         const next = reg.installing;
         if (!next) return;
@@ -780,6 +1224,7 @@ function initApp() {
   // Expose minimal debug/API facade
   /** @type {any} */ (window).Muallim = {
     goToLesson,
+    navigateToHash,
     openLessonPicker,
     openSearch: () => searchCtrl.open(),
     openDrill: (t) => srsCtrl.open(t),

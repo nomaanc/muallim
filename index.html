@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>Muallim ul-Qur'an — Unit 1 Lesson 1</title>
-  <meta name="description" content="Offline-first interactive Muallim ul-Qur'an Arabic workbook with 4-language translations, Qari recitation, morphology builder, and spaced repetition.">
+  <title>Muallim ul-Qur'an: Unit 1 Lesson 1</title>
+  <meta name="description" content="Offline-first interactive Muallim ul-Qur'an Arabic workbook with 4-language translations, Qari recitation, morphology builder, model exams, and spaced repetition.">
   <meta name="theme-color" id="meta-theme-color" content="#FAF7F2">
   <link rel="manifest" href="./manifest.json">
   <link rel="icon" type="image/svg+xml" href="./icons/icon.svg">
@@ -22,12 +22,14 @@
         var rawLang = localStorage.getItem('muallim_lang') || 'hinglish';
         var validLangs = { hinglish: 'hinglish', en: 'en', ur: 'ur', hi: 'hi' };
         var lang = validLangs[rawLang] || (['bn', 'ko', 'zh', 'es'].indexOf(rawLang) >= 0 ? 'en' : 'hinglish');
+        var htmlLangMap = { hinglish: 'ur-Latn', en: 'en', ur: 'ur', hi: 'hi' };
         var rawScale = parseInt(localStorage.getItem('muallim_ar_scale') || '26', 10);
         var arScale = isNaN(rawScale) ? 26 : Math.min(42, Math.max(18, rawScale));
         var root = document.documentElement;
         root.setAttribute('data-theme', theme);
         root.setAttribute('data-mode', mode);
         root.setAttribute('data-lang', lang);
+        root.setAttribute('lang', htmlLangMap[lang] || 'ur-Latn');
         root.style.setProperty('--arabic-scale', arScale + 'px');
         var metaTheme = document.getElementById('meta-theme-color');
         if (metaTheme) {
@@ -50,11 +52,11 @@
   <header class="app-header">
     <div class="header-start">
       <a href="#u1/l1" class="brand-mark" aria-label="Muallim ul-Qur'an home">
-        <img src="./icons/icon.svg" alt="" class="brand-logo-img" width="30" height="30" style="border-radius:8px; display:block;">
+        <img src="./icons/icon.svg" alt="" class="brand-logo-img" width="30" height="30">
         <span class="brand-name">Muallim</span>
       </a>
       <button type="button" id="btn-lesson-picker" class="picker-trigger" aria-haspopup="dialog" aria-label="Choose Unit and Lesson">
-        <span id="current-lesson-label" class="tabular-nums">Unit 1 · Lesson 1</span>
+        <span id="current-lesson-label" class="tabular-nums">Unit 1, Lesson 1</span>
         <svg class="icon-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
           <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
@@ -63,7 +65,9 @@
 
     <div class="header-end">
       <div id="streak-pill" class="streak-pill tabular-nums" title="Daily study streak" aria-label="Study streak">
-        <span class="streak-flame" aria-hidden="true">🔥</span>
+        <svg class="streak-flame" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M12.7 2.3a1 1 0 0 0-1.4.2C8.9 5.5 7 8.4 7 12a5 5 0 0 0 10 0c0-1.6-.6-3.1-1.5-4.4a1 1 0 0 0-1.6.1 3.7 3.7 0 0 1-.8 1.1c-.1-2.3-.3-4.6-.4-6.5zm-.7 14.2a2.5 2.5 0 0 1-2.5-2.5c0-1.2.5-2.3 1.4-3.4.3.9.9 1.6 1.7 2 .4.2.9.1 1.2-.2.3.5.7 1.1.7 1.6a2.5 2.5 0 0 1-2.5 2.5z"/>
+        </svg>
         <span id="streak-count-val">0d</span>
       </div>
 
@@ -78,14 +82,14 @@
         </svg>
       </button>
 
-      <button type="button" aria-label="Open SRS Flashcard Drill" title="SRS Flashcards &amp; Drill" id="btn-header-drill" class="icon-btn desktop-only">
+      <button type="button" aria-label="Open SRS Flashcard Drill" title="SRS Flashcards and Drill" id="btn-header-drill" class="icon-btn desktop-only">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
           <rect x="3" y="6" width="14" height="14" rx="2" stroke="currentColor" stroke-width="2"/>
           <path d="M7 4h12a2 2 0 0 1 2 2v10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
         </svg>
       </button>
 
-      <button type="button" aria-label="Open Settings and Sync" title="Settings &amp; Sync" id="btn-open-settings" class="icon-btn" aria-haspopup="dialog">
+      <button type="button" aria-label="Open Settings and Sync" title="Settings and Sync" id="btn-open-settings" class="icon-btn" aria-haspopup="dialog">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
           <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2"/>
           <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9c.26.6.77 1.02 1.4 1.11H21a2 2 0 1 1 0 4h-.09c-.63.09-1.14.51-1.51 1.11z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
@@ -166,9 +170,21 @@
       <button type="button" class="icon-btn dialog-close-btn" data-close-dialog="lesson-picker-dialog" aria-label="Close lesson picker">✕</button>
     </div>
     <div class="dialog-body">
+      <div id="picker-bookmark-mount"></div>
       <div id="picker-units-mount" class="unit-tabs-grid" role="tablist" aria-label="Curriculum Units"></div>
       <div id="picker-unit-summary" class="picker-unit-summary"></div>
       <div id="picker-lessons-mount" class="lesson-picker-grid"></div>
+      <section class="picker-quick-launch" aria-label="Assessments and Curriculum Explorers">
+        <span class="field-label">Model Exams, Mushaf Check &amp; Spiral Explorer</span>
+        <div class="quick-launch-grid">
+          <button type="button" class="btn-secondary btn-sm" data-quick-route="#exam/vol1">Vol. 1 Exam (50m)</button>
+          <button type="button" class="btn-secondary btn-sm" data-quick-route="#exam/u4">Unit 4 Exam (50m)</button>
+          <button type="button" class="btn-secondary btn-sm" data-quick-route="#exam/u5">Unit 5 Exam (60m)</button>
+          <button type="button" class="btn-secondary btn-sm" data-quick-route="#exam/u7">Unit 7 Exam (100m)</button>
+          <button type="button" class="btn-secondary btn-sm" data-quick-route="#mushaf-check">Mushaf 85% Showcase</button>
+          <button type="button" class="btn-secondary btn-sm" data-quick-route="#spiral">9-Pillar &amp; Root Explorer</button>
+        </div>
+      </section>
     </div>
   </dialog>
 
@@ -205,7 +221,7 @@
     <div class="dialog-header">
       <div class="dialog-title-group">
         <h2 id="practice-dialog-title" class="dialog-title">Practice Studio</h2>
-        <span id="practice-lesson-tag" class="dialog-subtitle tabular-nums">Unit 1 · Lesson 1</span>
+        <span id="practice-lesson-tag" class="dialog-subtitle tabular-nums">Unit 1, Lesson 1</span>
       </div>
       <button type="button" class="icon-btn dialog-close-btn" data-close-dialog="practice-dialog" aria-label="Close practice studio">✕</button>
     </div>
@@ -216,6 +232,17 @@
       </div>
     </div>
     <div class="dialog-body" id="practice-dialog-body"></div>
+    <div class="dialog-footer-launch" aria-label="Summative Model Exams and Explorers">
+      <span class="field-label">Summative Exams &amp; Explorers</span>
+      <div class="quick-launch-grid">
+        <button type="button" class="btn-secondary btn-sm" data-quick-route="#exam/vol1">Vol. 1 Exam</button>
+        <button type="button" class="btn-secondary btn-sm" data-quick-route="#exam/u4">Unit 4 Exam</button>
+        <button type="button" class="btn-secondary btn-sm" data-quick-route="#exam/u5">Unit 5 Exam</button>
+        <button type="button" class="btn-secondary btn-sm" data-quick-route="#exam/u7">Unit 7 Exam</button>
+        <button type="button" class="btn-secondary btn-sm" data-quick-route="#mushaf-check">Mushaf 85%</button>
+        <button type="button" class="btn-secondary btn-sm" data-quick-route="#spiral">9-Pillar Explorer</button>
+      </div>
+    </div>
   </dialog>
 
   <!-- DIALOG 5 of 5: Settings & Sync -->

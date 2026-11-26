@@ -1,7 +1,7 @@
 {
   "name": "Muallim ul-Qur'an",
   "short_name": "Muallim",
-  "description": "Interactive Quranic Arabic workbook with 4-language translations. 7 Units, 114 Lessons.",
+  "description": "Offline-first interactive Quranic Arabic workbook with 4-language translations, Model Exams, Mushaf Showcase, and 9-Pillar Explorer. 7 Units, 114 Lessons.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -27,6 +27,16 @@
     {
       "name": "Starred Items",
       "url": "./index.html#favourites",
+      "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Model Exams",
+      "url": "./index.html#exam/vol1",
+      "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "9-Pillar Explorer",
+      "url": "./index.html#spiral",
       "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }]
     }
   ]
