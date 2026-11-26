@@ -32,7 +32,7 @@ class AudioFXEngine {
     if (!this.ctx) return;
     try {
       if (this.ctx.state === 'suspended') {
-        this.ctx.resume();
+        this.ctx.resume().catch(() => {});
       }
       const now = this.ctx.currentTime;
       const osc = this.ctx.createOscillator();

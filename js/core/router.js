@@ -1,23 +1,86 @@
 // @ts-check
 
 /**
- * Muallim ul-Qur'an — Hash & Query Deep-Link Router + Keyboard Shortcuts (v6.0)
- * Supports #u5/l6 and ?u=5&l=6, Back/Forward history navigation, and Resume banner tracking.
+ * Muallim ul-Qur'an — Hash & Query Deep-Link Router + Keyboard Shortcuts (v7.0)
+ * Supports lesson routes (#u5/l6, ?u=5&l=6, #u5/l6@itemKey), Model Exams (#exam/*),
+ * Mushaf Showcase (#mushaf-check), 9-Pillar Spiral & Root Explorer (#spiral*),
+ * and modal shortcut triggers (#bookmarks, #favourites).
+ */
+
+import { store } from './store.js';
+
+/**
+ * @typedef {
+ *   | {view: 'lesson', unit: number, lesson: number, itemKey?: string}
+ *   | {view: 'exam', examId: 'vol1' | 'u4' | 'u5' | 'u7'}
+ *   | {view: 'mushaf-check'}
+ *   | {view: 'spiral', root?: string, pillar?: number}
+ *   | {view: 'bookmarks'}
+ *   | {view: 'favourites'}
+ * } ParsedRoute
  */
 
 /**
- * Parse unit & lesson from a hash or search string.
+ * Parse route from a hash or search string into a discriminated route object.
  * @param {string} hash
- * @param {string} search
- * @returns {{unit: number, lesson: number} | null}
+ * @param {string} [search]
+ * @returns {ParsedRoute | null}
  */
-export function parseRoute(hash, search) {
+export function parseRoute(hash, search = '') {
   const h = String(hash || '').trim();
-  const hashMatch = h.match(/^#?u(\d+)\s*\/\s*l(\d+)$/i) || h.match(/^#?u(\d+)l(\d+)$/i);
+
+  if (/^#?bookmarks\/?$/i.test(h)) {
+    return { view: 'bookmarks' };
+  }
+
+  if (/^#?favou?rites\/?$/i.test(h)) {
+    return { view: 'favourites' };
+  }
+
+  if (/^#?mushaf-check\/?$/i.test(h)) {
+    return { view: 'mushaf-check' };
+  }
+
+  const examMatch = h.match(/^#?exam\/(vol1|u4|u5|u7)\/?$/i);
+  if (examMatch) {
+    return {
+      view: 'exam',
+      examId: /** @type {'vol1' | 'u4' | 'u5' | 'u7'} */ (examMatch[1].toLowerCase())
+    };
+  }
+
+  const spiralRootMatch = h.match(/^#?spiral\/root\/(.+)$/i);
+  if (spiralRootMatch) {
+    let root = spiralRootMatch[1].trim();
+    try {
+      root = decodeURIComponent(root);
+    } catch (_) {
+      // Keep raw value if malformed URI component
+    }
+    return { view: 'spiral', root };
+  }
+
+  const spiralPillarMatch = h.match(/^#?spiral\/p(\d+)\/?$/i);
+  if (spiralPillarMatch) {
+    return { view: 'spiral', pillar: parseInt(spiralPillarMatch[1], 10) };
+  }
+
+  if (/^#?spiral\/?$/i.test(h)) {
+    return { view: 'spiral' };
+  }
+
+  const hashMatch = h.match(/^#?u(\d+)\s*\/\s*l(\d+)(?:@([^\s#]+))?$/i)
+    || h.match(/^#?u(\d+)l(\d+)(?:@([^\s#]+))?$/i);
   if (hashMatch) {
     const unit = Math.min(7, Math.max(1, parseInt(hashMatch[1], 10)));
     const lesson = Math.max(1, parseInt(hashMatch[2], 10));
-    return { unit, lesson };
+    let itemKey = hashMatch[3] ? hashMatch[3].trim() : '';
+    if (itemKey) {
+      try { itemKey = decodeURIComponent(itemKey); } catch (_) { /* keep raw */ }
+    }
+    return itemKey
+      ? { view: 'lesson', unit, lesson, itemKey }
+      : { view: 'lesson', unit, lesson };
   }
 
   if (search) {
@@ -28,7 +91,10 @@ export function parseRoute(hash, search) {
       const unit = Math.min(7, Math.max(1, parseInt(rawU, 10)));
       const lesson = Math.max(1, parseInt(rawL, 10));
       if (Number.isFinite(unit) && Number.isFinite(lesson)) {
-        return { unit, lesson };
+        const itemKey = (params.get('item') || params.get('key') || '').trim();
+        return itemKey
+          ? { view: 'lesson', unit, lesson, itemKey }
+          : { view: 'lesson', unit, lesson };
       }
     }
   }
@@ -36,50 +102,76 @@ export function parseRoute(hash, search) {
 }
 
 /**
- * Format canonical hash route.
+ * Format canonical lesson hash route.
  * @param {number} unit
  * @param {number} lesson
+ * @param {string} [itemKey]
  * @returns {string}
  */
-export function formatRouteHash(unit, lesson) {
-  return `#u${unit}/l${lesson}`;
+export function formatRouteHash(unit, lesson, itemKey = '') {
+  return itemKey ? `#u${unit}/l${lesson}@${encodeURIComponent(itemKey)}` : `#u${unit}/l${lesson}`;
 }
 
 export class AppRouter {
   /**
-   * @param {(unit: number, lesson: number, opts?: {fromHistory?: boolean}) => Promise<void>} onNavigate
+   * @param {(unit: number, lesson: number, opts?: {fromHistory?: boolean, itemKey?: string, route?: ParsedRoute}) => Promise<void>} onNavigate
+   * @param {(route: ParsedRoute, opts?: {fromHistory?: boolean}) => Promise<void> | void} [onRoute]
    */
-  constructor(onNavigate) {
+  constructor(onNavigate, onRoute) {
     this.onNavigate = onNavigate;
+    this.onRoute = onRoute || null;
     this.hasExplicitInitialRoute = false;
     this._suppressHashEvent = false;
   }
 
   /**
+   * Dispatch a parsed route to the appropriate callback.
+   * @param {ParsedRoute} route
+   * @param {boolean} fromHistory
+   */
+  _dispatch(route, fromHistory) {
+    if (route.view === 'lesson') {
+      this.onNavigate(route.unit, route.lesson, {
+        fromHistory,
+        itemKey: route.itemKey,
+        route
+      });
+    } else if (this.onRoute) {
+      this.onRoute(route, { fromHistory });
+    } else {
+      // Fallback for single-callback callers
+      /** @type {any} */ (this.onNavigate)(route, null, { fromHistory, route });
+    }
+  }
+
+  /**
    * Resolve initial URL route and attach history listeners.
-   * @returns {{unit: number, lesson: number, explicit: boolean}}
+   * @returns {ParsedRoute & {unit?: number, lesson?: number, explicit: boolean}}
    */
   init() {
     const parsed = parseRoute(window.location.hash, window.location.search);
     this.hasExplicitInitialRoute = Boolean(parsed);
-    const target = parsed || { unit: 1, lesson: 1 };
+    const target = parsed || { view: /** @type {const} */ ('lesson'), unit: 1, lesson: 1 };
 
-    // Normalize ?u=5&l=6 or empty root cleanly in current history entry
-    const hashStr = formatRouteHash(target.unit, target.lesson);
-    if (window.location.hash !== hashStr) {
-      try {
-        history.replaceState({ unit: target.unit, lesson: target.lesson }, '', `${window.location.pathname}${hashStr}`);
-      } catch (err) {
-        console.warn('[Router] replaceState skipped:', err);
+    if (target.view === 'lesson') {
+      const hashStr = formatRouteHash(target.unit, target.lesson, target.itemKey);
+      if (window.location.hash !== hashStr) {
+        try {
+          history.replaceState(target, '', `${window.location.pathname}${hashStr}`);
+        } catch (err) {
+          console.warn('[Router] replaceState skipped:', err);
+        }
       }
     }
 
     window.addEventListener('popstate', (ev) => {
-      const stateRoute = ev.state && ev.state.unit && ev.state.lesson
-        ? { unit: Number(ev.state.unit), lesson: Number(ev.state.lesson) }
-        : parseRoute(window.location.hash, window.location.search);
+      const stateRoute = ev.state && ev.state.view
+        ? /** @type {ParsedRoute} */ (ev.state)
+        : (ev.state && ev.state.unit && ev.state.lesson
+          ? { view: /** @type {const} */ ('lesson'), unit: Number(ev.state.unit), lesson: Number(ev.state.lesson), itemKey: ev.state.itemKey }
+          : parseRoute(window.location.hash, window.location.search));
       if (stateRoute) {
-        this.onNavigate(stateRoute.unit, stateRoute.lesson, { fromHistory: true });
+        this._dispatch(stateRoute, true);
       }
     });
 
@@ -87,11 +179,14 @@ export class AppRouter {
       if (this._suppressHashEvent) return;
       const route = parseRoute(window.location.hash, '');
       if (route) {
-        this.onNavigate(route.unit, route.lesson, { fromHistory: true });
+        this._dispatch(route, true);
       }
     });
 
-    return { ...target, explicit: this.hasExplicitInitialRoute };
+    if (target.view === 'lesson') {
+      return { ...target, explicit: this.hasExplicitInitialRoute };
+    }
+    return { ...target, unit: 1, lesson: 1, explicit: true };
   }
 
   /**
@@ -99,16 +194,29 @@ export class AppRouter {
    * @param {number} unit
    * @param {number} lesson
    * @param {boolean} [push]
+   * @param {string} [itemKey]
    */
-  syncUrl(unit, lesson, push = true) {
-    const hashStr = formatRouteHash(unit, lesson);
-    if (window.location.hash === hashStr) return;
+  syncUrl(unit, lesson, push = true, itemKey = '') {
+    const hashStr = formatRouteHash(unit, lesson, itemKey);
+    const stateObj = itemKey ? { view: 'lesson', unit, lesson, itemKey } : { view: 'lesson', unit, lesson };
+    this.syncHash(hashStr, stateObj, push);
+  }
+
+  /**
+   * Update location hash for any route view without firing redundant hashchange loops.
+   * @param {string} hashStr
+   * @param {object} [stateObj]
+   * @param {boolean} [push]
+   */
+  syncHash(hashStr, stateObj = {}, push = true) {
+    const normalized = hashStr.startsWith('#') ? hashStr : `#${hashStr}`;
+    if (window.location.hash === normalized) return;
     this._suppressHashEvent = true;
     try {
       if (push) {
-        history.pushState({ unit, lesson }, '', `${window.location.pathname}${hashStr}`);
+        history.pushState(stateObj, '', `${window.location.pathname}${normalized}`);
       } else {
-        history.replaceState({ unit, lesson }, '', `${window.location.pathname}${hashStr}`);
+        history.replaceState(stateObj, '', `${window.location.pathname}${normalized}`);
       }
     } catch (err) {
       console.warn('[Router] History update skipped:', err);
@@ -121,31 +229,49 @@ export class AppRouter {
 }
 
 /**
- * Determine whether a resume banner should be displayed on landing.
- * @param {{stage: number, lesson: number, title?: string} | null} lastSession
- * @param {{stage: number, lesson: number, arabic?: string} | null} bookmark
- * @param {number} activeUnit
- * @param {number} activeLesson
- * @returns {{unit: number, lesson: number, label: string} | null}
+ * Compute both last-session and bookmark resume candidates independently.
+ * @param {{stage: number, lesson: number, title?: string} | null} [lastSession]
+ * @param {{stage: number, lesson: number, itemId?: string, arabic?: string} | null} [bookmark]
+ * @param {number} [activeUnit]
+ * @param {number} [activeLesson]
+ * @returns {{
+ *   sessionCandidate: {unit: number, lesson: number, label: string} | null,
+ *   bookmarkCandidate: {unit: number, lesson: number, itemKey: string, arabic: string, label: string} | null
+ * }}
  */
-export function getResumeCandidate(lastSession, bookmark, activeUnit, activeLesson) {
-  const candidate = lastSession && lastSession.stage && lastSession.lesson
-    ? {
-        unit: Number(lastSession.stage),
-        lesson: Number(lastSession.lesson),
-        label: lastSession.title || `Unit ${lastSession.stage} · Lesson ${lastSession.lesson}`
-      }
-    : (bookmark && bookmark.stage && bookmark.lesson
-        ? {
-            unit: Number(bookmark.stage),
-            lesson: Number(bookmark.lesson),
-            label: `Bookmarked — Unit ${bookmark.stage} · Lesson ${bookmark.lesson}`
-          }
-        : null);
+export function getResumeCandidate(
+  lastSession = store.lastSession,
+  bookmark = store.bookmark,
+  activeUnit = store.currentUnit,
+  activeLesson = store.currentLesson
+) {
+  let sessionCandidate = null;
+  if (lastSession && lastSession.stage && lastSession.lesson) {
+    const su = Number(lastSession.stage);
+    const sl = Number(lastSession.lesson);
+    if (su !== activeUnit || sl !== activeLesson) {
+      sessionCandidate = {
+        unit: su,
+        lesson: sl,
+        label: lastSession.title || `Unit ${su} · Lesson ${sl}`
+      };
+    }
+  }
 
-  if (!candidate) return null;
-  if (candidate.unit === activeUnit && candidate.lesson === activeLesson) return null;
-  return candidate;
+  let bookmarkCandidate = null;
+  if (bookmark && bookmark.stage && bookmark.lesson) {
+    const bu = Number(bookmark.stage);
+    const bl = Number(bookmark.lesson);
+    bookmarkCandidate = {
+      unit: bu,
+      lesson: bl,
+      itemKey: String(bookmark.itemId || ''),
+      arabic: String(bookmark.arabic || ''),
+      label: `Bookmarked: Unit ${bu} · Lesson ${bl}`
+    };
+  }
+
+  return { sessionCandidate, bookmarkCandidate };
 }
 
 /**
