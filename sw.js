@@ -1,6 +1,6 @@
 // @ts-check
-// v6.0.2 — Student-only PWA: 7 units, 114 lessons, 14,956 items, 570 quiz questions
-const CACHE_NAME = 'muallim-v6.0.2-cache';
+// v7.0.0 — Student-only PWA: 7 units, 114 lessons, 14,956 items, 570 quizzes, 4 model exams, Mushaf showcase
+const CACHE_NAME = 'muallim-v7.0.0-cache';
 const ASSETS = [
   './',
   './index.html',
@@ -11,6 +11,7 @@ const ASSETS = [
   './js/app.js',
   './js/audio-fx.js',
   './js/core/audio.js',
+  './js/core/exams.js',
   './js/core/quiz.js',
   './js/core/renderer.js',
   './js/core/router.js',
@@ -18,23 +19,8 @@ const ASSETS = [
   './js/core/srs.js',
   './js/core/store.js',
   './js/core/sync.js',
-  './js/visuals/archetypes.js',
   './js/visuals/loader.js',
   './js/visuals/visual-helper.js',
-  './js/visuals/unit1.js',
-  './js/visuals/unit2.js',
-  './js/visuals/unit3.js',
-  './js/visuals/unit4.js',
-  './js/visuals/unit5.js',
-  './js/visuals/unit6.js',
-  './js/visuals/unit7.js',
-  './data/quizzes/unit1.json',
-  './data/quizzes/unit2.json',
-  './data/quizzes/unit3.json',
-  './data/quizzes/unit4.json',
-  './data/quizzes/unit5.json',
-  './data/quizzes/unit6.json',
-  './data/quizzes/unit7.json',
   './data/metadata.json',
   './manifest.json',
   './icons/icon.svg',
@@ -62,27 +48,126 @@ self.addEventListener('message', (e) => {
   }
 });
 
+/**
+ * Determine whether a same-origin path belongs to lazy-cached curriculum/visual assets.
+ * @param {string} pathname
+ * @returns {boolean}
+ */
+function isLazyCachedPath(pathname) {
+  return (
+    pathname.includes('/data/lessons/') ||
+    pathname.includes('/data/unit') ||
+    pathname.includes('/data/quizzes/') ||
+    pathname.includes('/data/exams/') ||
+    pathname.includes('/data/search-index') ||
+    /\/js\/visuals\/unit\d+\.js$/i.test(pathname)
+  );
+}
+
+/**
+ * Determine whether a request is an app-shell HTML/JS/CSS asset for Stale-While-Revalidate.
+ * @param {Request} request
+ * @param {URL} reqUrl
+ * @returns {boolean}
+ */
+function isAppShellRequest(request, reqUrl) {
+  if (request.mode === 'navigate') return true;
+  const p = reqUrl.pathname;
+  if (p.endsWith('/') || p.endsWith('/index.html')) return true;
+  if (isLazyCachedPath(p)) return false;
+  return p.endsWith('.html') || p.endsWith('.js') || p.endsWith('.css');
+}
+
+/**
+ * Build a clean JSON 503 error response for uncached data requests while offline.
+ * @param {string} message
+ * @returns {Response}
+ */
+function offlineJsonResponse(message) {
+  return new Response(
+    JSON.stringify({ error: message, offline: true }),
+    {
+      status: 503,
+      statusText: 'Service Unavailable',
+      headers: { 'Content-Type': 'application/json; charset=utf-8' }
+    }
+  );
+}
+
 self.addEventListener('fetch', (e) => {
   if (e.request.method !== 'GET') return;
   const reqUrl = new URL(e.request.url);
-  // Leave cross-origin audio (everyayah.com) and CDNs strictly network-only
+  // Leave cross-origin audio (everyayah.com) and CDNs network-only
   if (reqUrl.origin !== self.location.origin) return;
 
-  e.respondWith(
-    caches.match(e.request).then((cached) => {
-      if (cached) return cached;
-      return fetch(e.request).then((resp) => {
-        if (
-          resp.ok &&
-          (reqUrl.pathname.includes('/data/unit') ||
-            reqUrl.pathname.includes('/data/quizzes') ||
-            reqUrl.pathname.includes('/data/search-index'))
-        ) {
-          const clone = resp.clone();
-          caches.open(CACHE_NAME).then((c) => c.put(e.request, clone));
-        }
-        return resp;
-      });
-    })
-  );
+  const isIndexOrNav =
+    e.request.mode === 'navigate' ||
+    reqUrl.pathname.endsWith('/') ||
+    reqUrl.pathname.endsWith('/index.html');
+
+  // Stale-While-Revalidate for app-shell HTML / JS / CSS
+  if (isAppShellRequest(e.request, reqUrl)) {
+    e.respondWith((async () => {
+      const cache = await caches.open(CACHE_NAME);
+      const matchOpts = isIndexOrNav ? { ignoreSearch: true } : undefined;
+      const cached =
+        (await cache.match(e.request, matchOpts)) ||
+        (isIndexOrNav ? await cache.match('./index.html', { ignoreSearch: true }) : undefined);
+
+      const networkPromise = fetch(e.request)
+        .then((resp) => {
+          if (resp && resp.ok) {
+            const cacheKey = isIndexOrNav ? './index.html' : e.request;
+            cache.put(cacheKey, resp.clone());
+          }
+          return resp;
+        })
+        .catch(async () => {
+          if (e.request.mode === 'navigate') {
+            const fallback = await cache.match('./index.html', { ignoreSearch: true });
+            if (fallback) return fallback;
+          }
+          return null;
+        });
+
+      if (cached) {
+        e.waitUntil(networkPromise);
+        return cached;
+      }
+
+      const netResp = await networkPromise;
+      if (netResp) return netResp;
+
+      if (e.request.mode === 'navigate') {
+        const fallback = await cache.match('./index.html', { ignoreSearch: true });
+        if (fallback) return fallback;
+      }
+      return new Response('Offline', { status: 503, statusText: 'Service Unavailable' });
+    })());
+    return;
+  }
+
+  // Cache-first with lazy on-demand caching + offline fallback for data, unit visuals, fonts, icons
+  e.respondWith((async () => {
+    const cache = await caches.open(CACHE_NAME);
+    const cached = await cache.match(e.request);
+    if (cached) return cached;
+
+    try {
+      const resp = await fetch(e.request);
+      if (resp && resp.ok && (isLazyCachedPath(reqUrl.pathname) || reqUrl.pathname.includes('/data/'))) {
+        cache.put(e.request, resp.clone());
+      }
+      return resp;
+    } catch (_err) {
+      if (e.request.mode === 'navigate') {
+        const fallback = await cache.match('./index.html', { ignoreSearch: true });
+        if (fallback) return fallback;
+      }
+      if (reqUrl.pathname.includes('/data/') || reqUrl.pathname.endsWith('.json')) {
+        return offlineJsonResponse('Resource unavailable offline in cache.');
+      }
+      return new Response('Offline', { status: 503, statusText: 'Service Unavailable' });
+    }
+  })());
 });
