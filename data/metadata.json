@@ -7,79 +7,231 @@
       "lessons": [
         {
           "number": 1,
-          "title": "A Few Simple Quranic Words"
+          "title": "Aasaan Qur'ani Alfaaz (Set 1 — Ma'rifah الْـ ki Pehchaan)",
+          "title_i18n": {
+            "hinglish": "Aasaan Qur'ani Alfaaz (Set 1 — Ma'rifah الْـ ki Pehchaan)",
+            "en": "Easy Qur'anic Words (Set 1 — Definite Article Al- الْـ)",
+            "ur": "آسان قرآنی الفاظ (سیٹ ۱ — معرفہ الْـ کی پہچان)",
+            "hi": "आसान क़ुरआनी अल्फ़ाज़ (सेट 1 — मारिफ़ा الْـ की पहचान)"
+          },
+          "itemCount": 91,
+          "page_numbers": "14–15"
         },
         {
           "number": 2,
-          "title": "A Few More Quranic Words"
+          "title": "Mazeed Aasaan Qur'ani Alfaaz (Set 2 — Gol Taa ة Mu'annas)",
+          "title_i18n": {
+            "hinglish": "Mazeed Aasaan Qur'ani Alfaaz (Set 2 — Gol Taa ة Mu'annas)",
+            "en": "More Easy Qur'anic Words (Set 2 — Feminine Taa Marbootah ة)",
+            "ur": "مزید آسان قرآنی الفاظ (سیٹ ۲ — گول تا ة مؤنث)",
+            "hi": "मज़ीद आसान क़ुरआनी अल्फ़ाज़ (सेट 2 — गोल ता ة मुअन्नस)"
+          },
+          "itemCount": 45,
+          "page_numbers": "16–17"
         },
         {
           "number": 3,
-          "title": "Common Quranic Vocabulary"
+          "title": "Ma'roof Qur'ani Alfaaz (Set 3 — Ibadat wa Hidayat ke Alfaaz)",
+          "title_i18n": {
+            "hinglish": "Ma'roof Qur'ani Alfaaz (Set 3 — Ibadat wa Hidayat ke Alfaaz)",
+            "en": "Common Qur'anic Words (Set 3 — Worship & Guidance Vocabulary)",
+            "ur": "معروف قرآنی الفاظ (سیٹ ۳ — عبادت و ہدایت کے الفاظ)",
+            "hi": "मारूफ़ क़ुरआनी अल्फ़ाज़ (सेट 3 — इबादत व हिदायत के अल्फ़ाज़)"
+          },
+          "itemCount": 45,
+          "page_numbers": "18–19"
         },
         {
           "number": 4,
-          "title": "Some Famous Quranic Words"
+          "title": "Mash'hoor Qur'ani Alfaaz (Set 4 — Sifaat wa Kirdar)",
+          "title_i18n": {
+            "hinglish": "Mash'hoor Qur'ani Alfaaz (Set 4 — Sifaat wa Kirdar)",
+            "en": "Famous Qur'anic Words (Set 4 — Attributes & Character)",
+            "ur": "مشہور قرآنی الفاظ (سیٹ ۴ — صفات و کردار)",
+            "hi": "मशहूर क़ुरआनी अल्फ़ाज़ (सेट 4 — सिफ़ात व किरदार)"
+          },
+          "itemCount": 48,
+          "page_numbers": "20–21"
         },
         {
           "number": 5,
-          "title": "Important Quranic Nouns"
+          "title": "Aham Qur'ani Asmaa (Set 5 — A'maal wa Jaza)",
+          "title_i18n": {
+            "hinglish": "Aham Qur'ani Asmaa (Set 5 — A'maal wa Jaza)",
+            "en": "Important Qur'anic Nouns (Set 5 — Deeds & Recompense)",
+            "ur": "اہم قرآنی اسماء (سیٹ ۵ — اعمال و جزا)",
+            "hi": "अहम क़ुरआनी अस्मा (सेट 5 — आमाल व जज़ा)"
+          },
+          "itemCount": 48,
+          "page_numbers": "22–23"
         },
         {
           "number": 6,
-          "title": "Easy Quranic Vocabulary"
+          "title": "Aasaan Qur'ani Alfaaz (Set 6 — Marfoo' Pesh ـُ ki Pehchaan)",
+          "title_i18n": {
+            "hinglish": "Aasaan Qur'ani Alfaaz (Set 6 — Marfoo' Pesh ـُ ki Pehchaan)",
+            "en": "Easy Qur'anic Words (Set 6 — Nominative Dammah ـُ)",
+            "ur": "آسان قرآنی الفاظ (سیٹ ۶ — مرفوع پیش ـُ کی پہچان)",
+            "hi": "आसान क़ुरआनी अल्फ़ाज़ (सेट 6 — मरफ़ू पेश ـُ की पहचान)"
+          },
+          "itemCount": 48,
+          "page_numbers": "24–25"
         },
         {
           "number": 7,
-          "title": "Simple and Famous Quranic Words"
+          "title": "Sada aur Mash'hoor Qur'ani Alfaaz (Set 7 — Masadir wa Asmaa)",
+          "title_i18n": {
+            "hinglish": "Sada aur Mash'hoor Qur'ani Alfaaz (Set 7 — Masadir wa Asmaa)",
+            "en": "Simple & Famous Qur'anic Words (Set 7 — Verbal Nouns & Concepts)",
+            "ur": "سادہ اور مشہور قرآنی الفاظ (سیٹ ۷ — مصادر و اسماء)",
+            "hi": "सादा और मशहूर क़ुरआनी अल्फ़ाज़ (सेट 7 — मसादर व अस्मा)"
+          },
+          "itemCount": 48,
+          "page_numbers": "26–27"
         },
         {
           "number": 8,
-          "title": "Essential Quranic Vocabulary"
+          "title": "Buniyadi Qur'ani Alfaaz (Set 8 — Mukammal Buniyadi Zakheera)",
+          "title_i18n": {
+            "hinglish": "Buniyadi Qur'ani Alfaaz (Set 8 — Mukammal Buniyadi Zakheera)",
+            "en": "Foundational Qur'anic Words (Set 8 — Core Vocabulary Complete)",
+            "ur": "بنیادی قرآنی الفاظ (سیٹ ۸ — مکمل بنیادی ذخیرہ)",
+            "hi": "बुनियादी क़ुरआनी अल्फ़ाज़ (सेट 8 — मुकम्मल बुनियादी ज़ख़ीरा)"
+          },
+          "itemCount": 48,
+          "page_numbers": "28–29"
         },
         {
           "number": 9,
-          "title": "Famous Attributes of Allah (Asma-ul-Husna)"
+          "title": "Allah Ta'ala ki Mash'hoor Sifaat (Asmaa-ul-Husna)",
+          "title_i18n": {
+            "hinglish": "Allah Ta'ala ki Mash'hoor Sifaat (Asmaa-ul-Husna)",
+            "en": "Famous Attributes of Allah (Al-Asma al-Husna)",
+            "ur": "اللہ تعالیٰ کی مشہور صفات (اسماء الحسنیٰ)",
+            "hi": "अल्लाह तआला की मशहूर सिफ़ात (अस्मा-उल-हुस्ना)"
+          },
+          "itemCount": 36,
+          "page_numbers": "30–31"
         },
         {
           "number": 10,
-          "title": "Quranic Words in Plural Form (Part 1)"
+          "title": "Jama ke Aasaan Qur'ani Alfaaz (1 — Jama Mukassar)",
+          "title_i18n": {
+            "hinglish": "Jama ke Aasaan Qur'ani Alfaaz (1 — Jama Mukassar)",
+            "en": "Easy Plural Qur'anic Words (1 — Broken Plurals)",
+            "ur": "جمع کے آسان قرآنی الفاظ (۱ — جمع مکسر)",
+            "hi": "जमा के आसान क़ुरआनी अल्फ़ाज़ (1 — जमा मुकस्सर)"
+          },
+          "itemCount": 39,
+          "page_numbers": "32–33"
         },
         {
           "number": 11,
-          "title": "Quranic Words in Plural Form (Part 2)"
+          "title": "Jama ke Mazeed Qur'ani Alfaaz (2 — Jama Mu'annas Saalim ـَاتٌ)",
+          "title_i18n": {
+            "hinglish": "Jama ke Mazeed Qur'ani Alfaaz (2 — Jama Mu'annas Saalim ـَاتٌ)",
+            "en": "More Plural Qur'anic Words (2 — Sound Feminine Plurals ـَاتٌ)",
+            "ur": "جمع کے مزید قرآنی الفاظ (۲ — جمع مؤنث سالم ـَاتٌ)",
+            "hi": "जमा के मज़ीद क़ुरआनी अल्फ़ाज़ (2 — जमा मुअन्नस सालिम ـَاتٌ)"
+          },
+          "itemCount": 39,
+          "page_numbers": "34–35"
         },
         {
           "number": 12,
-          "title": "Al-Kitabu wal-Qalamu — Harf-e-Atf 'Waw'"
+          "title": "Harf-e-'Atf 'Waw' (Aur): الْكِتَابُ ، الْقَلَمُ ← الْكِتَابُ وَالْقَلَمُ",
+          "title_i18n": {
+            "hinglish": "Harf-e-'Atf 'Waw' (Aur): الْكِتَابُ ، الْقَلَمُ ← الْكِتَابُ وَالْقَلَمُ",
+            "en": "Conjunction 'Waw' (And): الْكِتَابُ ، الْقَلَمُ ← الْكِتَابُ وَالْقَلَمُ",
+            "ur": "حرفِ عطف 'و' (اور): الْكِتَابُ ، الْقَلَمُ ← الْكِتَابُ وَالْقَلَمُ",
+            "hi": "हर्फ़-ए-अत्फ़ 'वाव' (और): الْكِتَابُ ، الْقَلَمُ ← الْكِتَابُ وَالْقَلَمُ"
+          },
+          "itemCount": 60,
+          "page_numbers": "36–37"
         },
         {
           "number": 13,
-          "title": "Nakirah se Ma'rifah: Kitaabun se Al-Kitaabu (1)"
+          "title": "Ma'rifah se Nakirah (1): الْكِتَابُ ← كِتَابٌ (Koi / Ek)",
+          "title_i18n": {
+            "hinglish": "Ma'rifah se Nakirah (1): الْكِتَابُ ← كِتَابٌ (Koi / Ek)",
+            "en": "Definite to Indefinite (1): الْكِتَابُ ← كِتَابٌ (A / Any Book)",
+            "ur": "معرفہ سے نکرہ (۱): الْكِتَابُ ← كِتَابٌ (کوئی / ایک)",
+            "hi": "मारिफ़ा से नकिरा (1): الْكِتَابُ ← كِتَابٌ (कोई / एक)"
+          },
+          "itemCount": 91,
+          "page_numbers": "38–39"
         },
         {
           "number": 14,
-          "title": "Nakirah se Ma'rifah: Kitaabun se Al-Kitaabu (2)"
+          "title": "Ma'rifah se Nakirah (2 — Jumle mein 'Hai'): الْكِتَابُ ← كِتَابٌ ، وَاللَّهُ عَلِيمٌ",
+          "title_i18n": {
+            "hinglish": "Ma'rifah se Nakirah (2 — Jumle mein 'Hai'): الْكِتَابُ ← كِتَابٌ ، وَاللَّهُ عَلِيمٌ",
+            "en": "Definite to Indefinite (2 — Predicate 'Is'): الْكِتَابُ ← كِتَابٌ ، وَاللَّهُ عَلِيمٌ",
+            "ur": "معرفہ سے نکرہ (۲ — جملے میں 'ہے'): الْكِتَابُ ← كِتَابٌ ، وَاللَّهُ عَلِيمٌ",
+            "hi": "मारिफ़ा से नकिरा (2 — जुमले में 'है'): الْكِتَابُ ← كِتَابٌ ، وَاللَّهُ عَلِيمٌ"
+          },
+          "itemCount": 71,
+          "page_numbers": "40–41"
         },
         {
           "number": 15,
-          "title": "Ism-e-Ishaarah: Haaza Kitaabun (Yeh Kitaab Hai)"
+          "title": "Ism-e-Ishaarah Qareeb (Muzakkar): كِتَابٌ ← هَٰذَا كِتَابٌ",
+          "title_i18n": {
+            "hinglish": "Ism-e-Ishaarah Qareeb (Muzakkar): كِتَابٌ ← هَٰذَا كِتَابٌ",
+            "en": "Near Demonstrative (Masculine): كِتَابٌ ← هَٰذَا كِتَابٌ (This is a book)",
+            "ur": "اسمِ اشارہ قریب (مذکر): كِتَابٌ ← هَٰذَا كِتَابٌ",
+            "hi": "इस्म-ए-इशारा क़रीब (मुज़क्कर): كِتَابٌ ← هَٰذَا كِتَابٌ"
+          },
+          "itemCount": 50,
+          "page_numbers": "42–43"
         },
         {
           "number": 16,
-          "title": "Ism-e-Ishaarah: Zaalika Kitaabun (Woh Kitaab Hai)"
+          "title": "Ism-e-Ishaarah Ba'eed (Muzakkar): كِتَابٌ ← ذَٰلِكَ كِتَابٌ",
+          "title_i18n": {
+            "hinglish": "Ism-e-Ishaarah Ba'eed (Muzakkar): كِتَابٌ ← ذَٰلِكَ كِتَابٌ",
+            "en": "Far Demonstrative (Masculine): كِتَابٌ ← ذَٰلِكَ كِتَابٌ (That is a book)",
+            "ur": "اسمِ اشارہ بعید (مذکر): كِتَابٌ ← ذَٰلِكَ كِتَابٌ",
+            "hi": "इस्म-ए-इशारा बईद (मुज़क्कर): كِتَابٌ ← ذَٰلِكَ كِتَابٌ"
+          },
+          "itemCount": 41,
+          "page_numbers": "44–45"
         },
         {
           "number": 17,
-          "title": "Ism-e-Ishaarah Muannath: Haazihi Aayatun"
+          "title": "Ism-e-Ishaarah Mu'annas: آيَةٌ ← هَٰذِهِ آيَةٌ ، تِلْكَ آيَةٌ",
+          "title_i18n": {
+            "hinglish": "Ism-e-Ishaarah Mu'annas: آيَةٌ ← هَٰذِهِ آيَةٌ ، تِلْكَ آيَةٌ",
+            "en": "Feminine Demonstratives: آيَةٌ ← هَٰذِهِ آيَةٌ ، تِلْكَ آيَةٌ (This / That sign)",
+            "ur": "اسمِ اشارہ مؤنث: آيَةٌ ← هَٰذِهِ آيَةٌ ، تِلْكَ آيَةٌ",
+            "hi": "इस्म-ए-इशारा मुअन्नस: آيَةٌ ← هَٰذِهِ آيَةٌ ، تِلْكَ آيَةٌ"
+          },
+          "itemCount": 35,
+          "page_numbers": "46–47"
         },
         {
           "number": 18,
-          "title": "Laam-e-Ta'keed: La-kitaabun (Yaqeenan Kitaab Hai)"
+          "title": "Laam-e-Ta'keed: كِتَابٌ ← لَكِتَابٌ (Yaqeenan Kitaab hai)",
+          "title_i18n": {
+            "hinglish": "Laam-e-Ta'keed: كِتَابٌ ← لَكِتَابٌ (Yaqeenan Kitaab hai)",
+            "en": "Emphatic Laam: كِتَابٌ ← لَكِتَابٌ (Verily / Surely a book)",
+            "ur": "لامِ تاکید: كِتَابٌ ← لَكِتَابٌ (یقیناً کتاب ہے)",
+            "hi": "लाम-ए-ताकीद: كِتَابٌ ← لَكِتَابٌ (यक़ीनन किताब है)"
+          },
+          "itemCount": 41,
+          "page_numbers": "48–49"
         },
         {
           "number": 19,
-          "title": "Ism-e-Tafzeel: Kabeerun se Akbaru"
+          "title": "Ism-ut-Tafzeel (Sabse / Zyada): كَبِيرٌ ← أَكْبَرُ ، عَلِيمٌ ← أَعْلَمُ",
+          "title_i18n": {
+            "hinglish": "Ism-ut-Tafzeel (Sabse / Zyada): كَبِيرٌ ← أَكْبَرُ ، عَلِيمٌ ← أَعْلَمُ",
+            "en": "Superlative / Comparative Pattern: كَبِيرٌ ← أَكْبَرُ ، عَلِيمٌ ← أَعْلَمُ",
+            "ur": "اسمِ تفضیل (سب سے / زیادہ): كَبِيرٌ ← أَكْبَرُ ، عَلِيمٌ ← أَعْلَمُ",
+            "hi": "इस्म-उत-तफ़ज़ील (सबसे / ज़्यादा): كَبِيرٌ ← أَكْبَرُ ، عَلِيمٌ ← أَعْلَمُ"
+          },
+          "itemCount": 37,
+          "page_numbers": "50"
         }
       ]
     },
@@ -90,55 +242,159 @@
       "lessons": [
         {
           "number": 1,
-          "title": "Inna al-Kitaaba — Harf-e-Ta'keed 'Inna'"
+          "title": "Harf-e-Ta'keed 'Inna': الْكِتَابُ ← إِنَّ الْكِتَابَ",
+          "title_i18n": {
+            "hinglish": "Harf-e-Ta'keed 'Inna': الْكِتَابُ ← إِنَّ الْكِتَابَ",
+            "en": "Emphatic Particle 'Inna' (Verily): الْكِتَابُ ← إِنَّ الْكِتَابَ",
+            "ur": "حرفِ تاکید 'إِنَّ': الْكِتَابُ ← إِنَّ الْكِتَابَ",
+            "hi": "हर्फ़-ए-ताकीद 'इन्ना': الْكِتَابُ ← إِنَّ الْكِتَابَ"
+          },
+          "itemCount": 82,
+          "page_numbers": "52–53"
         },
         {
           "number": 2,
-          "title": "Lil-Kitaabi — Harf-e-Jarr 'Li' (Kitaab ke liye)"
+          "title": "Harf-e-Jarr 'Li' (Ke liye): الْكِتَابُ ← لِلْكِتَابِ",
+          "title_i18n": {
+            "hinglish": "Harf-e-Jarr 'Li' (Ke liye): الْكِتَابُ ← لِلْكِتَابِ",
+            "en": "Preposition 'Li-' (For / Belonging to): الْكِتَابُ ← لِلْكِتَابِ",
+            "ur": "حرفِ جر 'لِـ' (کے لیے): الْكِتَابُ ← لِلْكِتَابِ",
+            "hi": "हर्फ़-ए-जर्र 'लि' (के लिए): الْكِتَابُ ← لِلْكِتَابِ"
+          },
+          "itemCount": 101,
+          "page_numbers": "54–55"
         },
         {
           "number": 3,
-          "title": "Fil-Kitaabi — Harf-e-Jarr 'Fii' (Kitaab mein)"
+          "title": "Harf-e-Jarr 'Fii' (Mein): الْكِتَابُ ← فِي الْكِتَابِ",
+          "title_i18n": {
+            "hinglish": "Harf-e-Jarr 'Fii' (Mein): الْكِتَابُ ← فِي الْكِتَابِ",
+            "en": "Preposition 'Fii' (In): الْكِتَابُ ← فِي الْكِتَابِ",
+            "ur": "حرفِ جر 'فِي' (میں): الْكِتَابُ ← فِي الْكِتَابِ",
+            "hi": "हर्फ़-ए-जर्र 'फ़ी' (में): الْكِتَابُ ← فِي الْكِتَابِ"
+          },
+          "itemCount": 103,
+          "page_numbers": "56–57"
         },
         {
           "number": 4,
-          "title": "Alal-Kitaabi — Harf-e-Jarr 'Alaa' (Kitaab par)"
+          "title": "Harf-e-Jarr 'Alaa' (Par): الْكِتَابُ ← عَلَى الْكِتَابِ",
+          "title_i18n": {
+            "hinglish": "Harf-e-Jarr 'Alaa' (Par): الْكِتَابُ ← عَلَى الْكِتَابِ",
+            "en": "Preposition 'Alaa' (On / Upon): الْكِتَابُ ← عَلَى الْكِتَابِ",
+            "ur": "حرفِ جر 'عَلَىٰ' (پر): الْكِتَابُ ← عَلَى الْكِتَابِ",
+            "hi": "हर्फ़-ए-जर्र 'अला' (पर): الْكِتَابُ ← عَلَى الْكِتَابِ"
+          },
+          "itemCount": 104,
+          "page_numbers": "58–59"
         },
         {
           "number": 5,
-          "title": "Minal-Kitaabi — Harf-e-Jarr 'Min' (Kitaab se)"
+          "title": "Harf-e-Jarr 'Min' (Se): الْكِتَابُ ← مِنَ الْكِتَابِ",
+          "title_i18n": {
+            "hinglish": "Harf-e-Jarr 'Min' (Se): الْكِتَابُ ← مِنَ الْكِتَابِ",
+            "en": "Preposition 'Min' (From / Of): الْكِتَابُ ← مِنَ الْكِتَابِ",
+            "ur": "حرفِ جر 'مِنْ' (سے): الْكِتَابُ ← مِنَ الْكِتَابِ",
+            "hi": "हर्फ़-ए-जर्र 'मिन' (से): الْكِتَابُ ← مِنَ الْكِتَابِ"
+          },
+          "itemCount": 106,
+          "page_numbers": "60–61"
         },
         {
           "number": 6,
-          "title": "Ilal-Kitaabi — Harf-e-Jarr 'Ilaa' (Kitaab ki taraf)"
+          "title": "Harf-e-Jarr 'Ilaa' (Ki taraf / Tak): الْكِتَابُ ← إِلَى الْكِتَابِ",
+          "title_i18n": {
+            "hinglish": "Harf-e-Jarr 'Ilaa' (Ki taraf / Tak): الْكِتَابُ ← إِلَى الْكِتَابِ",
+            "en": "Preposition 'Ilaa' (To / Toward): الْكِتَابُ ← إِلَى الْكِتَابِ",
+            "ur": "حرفِ جر 'إِلَىٰ' (کی طرف / تک): الْكِتَابُ ← إِلَى الْكِتَابِ",
+            "hi": "हर्फ़-ए-जर्र 'इला' (की तरफ़ / तक): الْكِتَابُ ← إِلَى الْكِتَابِ"
+          },
+          "itemCount": 91,
+          "page_numbers": "62–63"
         },
         {
           "number": 7,
-          "title": "Bil-Kitaabi — Harf-e-Jarr 'Bi' (Kitaab ke saath / se)"
+          "title": "Harf-e-Jarr 'Bi' (Se / Ke saath / Par): الْكِتَابُ ← بِالْكِتَابِ",
+          "title_i18n": {
+            "hinglish": "Harf-e-Jarr 'Bi' (Se / Ke saath / Par): الْكِتَابُ ← بِالْكِتَابِ",
+            "en": "Preposition 'Bi-' (With / By): الْكِتَابُ ← بِالْكِتَابِ",
+            "ur": "حرفِ جر 'بِـ' (سے / کے ساتھ / پر): الْكِتَابُ ← بِالْكِتَابِ",
+            "hi": "हर्फ़-ए-जर्र 'बि' (से / के साथ / पर): الْكِتَابُ ← بِالْكِتَابِ"
+          },
+          "itemCount": 109,
+          "page_numbers": "64–65"
         },
         {
           "number": 8,
-          "title": "Laa Kitaaba — Harf-e-Nafy-e-Jins 'Laa' (Koi kitaab nahi)"
+          "title": "Harf-e-Nafy-e-Jins 'Laa' (Koi ... nahin): كِتَابٌ ← لَا كِتَابَ",
+          "title_i18n": {
+            "hinglish": "Harf-e-Nafy-e-Jins 'Laa' (Koi ... nahin): كِتَابٌ ← لَا كِتَابَ",
+            "en": "Categorical Negation 'Laa' (No / None): كِتَابٌ ← لَا كِتَابَ",
+            "ur": "حرفِ نفی جنس 'لَا' (کوئی نہیں): كِتَابٌ ← لَا كِتَابَ",
+            "hi": "हर्फ़-ए-नफ़ी-ए-जिंस 'ला' (कोई ... नहीं): كِتَابٌ ← لَا كِتَابَ"
+          },
+          "itemCount": 60,
+          "page_numbers": "66–67"
         },
         {
           "number": 9,
-          "title": "Illal-Kitaaba — Harf-e-Istisna 'Illaa' (Siwaaye kitaab ke)"
+          "title": "Harf-e-Istisna 'Illaa' (Magar / Siwaaye): الْكِتَابُ ← إِلَّا الْكِتَابَ",
+          "title_i18n": {
+            "hinglish": "Harf-e-Istisna 'Illaa' (Magar / Siwaaye): الْكِتَابُ ← إِلَّا الْكِتَابَ",
+            "en": "Exceptive Particle 'Illaa' (Except / Only): الْكِتَابُ ← إِلَّا الْكِتَابَ",
+            "ur": "حرفِ استثناء 'إِلَّا' (مگر / سوائے): الْكِتَابُ ← إِلَّا الْكِتَابَ",
+            "hi": "हर्फ़-ए-इस्तिस्ना 'इल्ला' (मगर / सिवाए): الْكِتَابُ ← إِلَّا الْكِتَابَ"
+          },
+          "itemCount": 80,
+          "page_numbers": "68–69"
         },
         {
           "number": 10,
-          "title": "Wal-Kitaabi — Waw-e-Qasam (Kitaab ki qasam)"
+          "title": "Waw-e-Qasam (Ki Qasam): الْكِتَابُ ← وَالْكِتَابِ ، وَالْعَصْرِ",
+          "title_i18n": {
+            "hinglish": "Waw-e-Qasam (Ki Qasam): الْكِتَابُ ← وَالْكِتَابِ ، وَالْعَصْرِ",
+            "en": "Oath Particle 'Waw' (By the ...): الْكِتَابُ ← وَالْكِتَابِ ، وَالْعَصْرِ",
+            "ur": "واؤِ قسم (کی قسم): الْكِتَابُ ← وَالْكِتَابِ ، وَالْعَصْرِ",
+            "hi": "वाव-ए-क़सम (की क़सम): الْكِتَابُ ← وَالْكِتَابِ ، وَالْعَصْرِ"
+          },
+          "itemCount": 36,
+          "page_numbers": "70"
         },
         {
           "number": 11,
-          "title": "Anna al-Kitaaba — Harf 'Anna' (Ke kitaab)"
+          "title": "Harf 'Anna' (Ke): الْكِتَابُ ← أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ",
+          "title_i18n": {
+            "hinglish": "Harf 'Anna' (Ke): الْكِتَابُ ← أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ",
+            "en": "Subordinating Emphatic 'Anna' (That): الْكِتَابُ ← أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ",
+            "ur": "حرفِ 'أَنَّ' (کہ بےشک): الْكِتَابُ ← أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ",
+            "hi": "हर्फ़ 'अन्ना' (कि बेशक): الْكِتَابُ ← أَنَّ الْكِتَابَ ، أَنَّ اللَّهَ"
+          },
+          "itemCount": 27,
+          "page_numbers": "71"
         },
         {
           "number": 12,
-          "title": "Kaana Rasoolan — Fe'l Naaqis 'Kaana' (Rasool tha)"
+          "title": "Fe'l Naaqis 'Kaana' (Tha / Hai): رَسُولٌ ← كَانَ رَسُولًا",
+          "title_i18n": {
+            "hinglish": "Fe'l Naaqis 'Kaana' (Tha / Hai): رَسُولٌ ← كَانَ رَسُولًا",
+            "en": "Copular Verb 'Kaana' (Was / Is): رَسُولٌ ← كَانَ رَسُولًا",
+            "ur": "فعلِ ناقص 'كَانَ' (تھا / ہے): رَسُولٌ ← كَانَ رَسُولًا",
+            "hi": "फ़ेल नाक़िस 'काना' (था / है): رَسُولٌ ← كَانَ رَسُولًا"
+          },
+          "itemCount": 61,
+          "page_numbers": "72–73"
         },
         {
           "number": 13,
-          "title": "Yaa Aadamu — Harf-e-Nida 'Yaa' (Ae Adam)"
+          "title": "Harf-e-Nida 'Yaa' aur 'Yaa Ayyuha': آدَمُ ← يَا آدَمُ ، يَا أَيُّهَا النَّاسُ",
+          "title_i18n": {
+            "hinglish": "Harf-e-Nida 'Yaa' aur 'Yaa Ayyuha': آدَمُ ← يَا آدَمُ ، يَا أَيُّهَا النَّاسُ",
+            "en": "Vocative Particles 'Yaa' & 'Yaa Ayyuha' (O!): آدَمُ ← يَا آدَمُ ، يَا أَيُّهَا النَّاسُ",
+            "ur": "حرفِ ندا 'يَا' اور 'يَا أَيُّهَا': آدَمُ ← يَا آدَمُ ، يَا أَيُّهَا النَّاسُ",
+            "hi": "हर्फ़-ए-निदा 'या' और 'या अय्युहा': آدَمُ ← يَا آدَمُ ، يَا أَيُّهَا النَّاسُ"
+          },
+          "itemCount": 44,
+          "page_numbers": "74"
         }
       ]
     },
@@ -149,43 +405,123 @@
       "lessons": [
         {
           "number": 1,
-          "title": "Murakkab-e-Tawseefi: Shay'un Azeemun (Badi cheez)"
+          "title": "Murakkab-e-Tawseefi (Sifat-Mawsoof 1): عَظِيمٌ ← شَيْءٌ عَظِيمٌ ، عَذَابٌ عَظِيمٌ",
+          "title_i18n": {
+            "hinglish": "Murakkab-e-Tawseefi (Sifat-Mawsoof 1): عَظِيمٌ ← شَيْءٌ عَظِيمٌ ، عَذَابٌ عَظِيمٌ",
+            "en": "Attributive Phrase (Sifat-Mawsoof 1): عَظِيمٌ ← شَيْءٌ عَظِيمٌ ، عَذَابٌ عَظِيمٌ",
+            "ur": "مرکبِ توصیفی (صفت و موصوف ۱): عَظِيمٌ ← شَيْءٌ عَظِيمٌ ، عَذَابٌ عَظِيمٌ",
+            "hi": "मुरक्कब-ए-तौसीफ़ी (सिफ़त-मौसूफ़ 1): عَظِيمٌ ← شَيْءٌ عَظِيمٌ ، عَذَابٌ عَظِيمٌ"
+          },
+          "itemCount": 124,
+          "page_numbers": "77–79"
         },
         {
           "number": 2,
-          "title": "Sifat-o-Mawsoof: Azaabun Shadeedun (Sakht azaab)"
+          "title": "Sifat-o-Mawsoof (2 — Ek Ism ke Mukhtalif Awsaf): عَذَابٌ ← عَذَابٌ شَدِيدٌ ، عَذَابٌ عَظِيمٌ",
+          "title_i18n": {
+            "hinglish": "Sifat-o-Mawsoof (2 — Ek Ism ke Mukhtalif Awsaf): عَذَابٌ ← عَذَابٌ شَدِيدٌ ، عَذَابٌ عَظِيمٌ",
+            "en": "Attributive Phrase (2 — Multiple Adjectives): عَذَابٌ ← عَذَابٌ شَدِيدٌ ، عَذَابٌ عَظِيمٌ",
+            "ur": "صفت و موصوف (۲ — ایک اسم کے مختلف اوصاف): عَذَابٌ ← عَذَابٌ شَدِيدٌ ، عَذَابٌ عَظِيمٌ",
+            "hi": "सिफ़त-ओ-मौसूफ़ (2 — एक इस्म के मुख़्तलिफ़ औसाफ़): عَذَابٌ ← عَذَابٌ شَدِيدٌ ، عَذَابٌ عَظِيمٌ"
+          },
+          "itemCount": 94,
+          "page_numbers": "80–82"
         },
         {
           "number": 3,
-          "title": "Harf-e-Jarr ba-Murakkab-e-Tawseefi: Fii Azaabin Azeemin"
+          "title": "Harf-e-Jarr ba-Murakkab-e-Tawseefi: عَذَابٌ عَظِيمٌ ← فِي عَذَابٍ عَظِيمٍ",
+          "title_i18n": {
+            "hinglish": "Harf-e-Jarr ba-Murakkab-e-Tawseefi: عَذَابٌ عَظِيمٌ ← فِي عَذَابٍ عَظِيمٍ",
+            "en": "Prepositions with Attributive Phrases: عَذَابٌ عَظِيمٌ ← فِي عَذَابٍ عَظِيمٍ",
+            "ur": "حرفِ جر بمع مرکبِ توصیفی: عَذَابٌ عَظِيمٌ ← فِي عَذَابٍ عَظِيمٍ",
+            "hi": "हर्फ़-ए-जर्र ब-मुरक्कब-ए-तौसीफ़ी: عَذَابٌ عَظِيمٌ ← فِي عَذَابٍ عَظِيمٍ"
+          },
+          "itemCount": 66,
+          "page_numbers": "83–84"
         },
         {
           "number": 4,
-          "title": "Murakkab-e-Izaafi: Rabbul-Mashriqi (Mashriq ka Rabb)"
+          "title": "Murakkab-e-Izaafi (Mudaaf-o-Mudaaf Ilaih 1): رَبٌّ ← رَبُّ الْمَشْرِقِ",
+          "title_i18n": {
+            "hinglish": "Murakkab-e-Izaafi (Mudaaf-o-Mudaaf Ilaih 1): رَبٌّ ← رَبُّ الْمَشْرِقِ",
+            "en": "Possessive Construct (Idaafah 1): رَبٌّ ← رَبُّ الْمَشْرِقِ",
+            "ur": "مرکبِ اضافی (مضاف و مضاف الیہ ۱): رَبٌّ ← رَبُّ الْمَشْرِقِ",
+            "hi": "मुरक्कब-ए-इज़ाफ़ी (मुज़ाफ़-ओ-मुज़ाफ़ इलैह 1): رَبٌّ ← رَبُّ الْمَشْرِقِ"
+          },
+          "itemCount": 175,
+          "page_numbers": "85–88"
         },
         {
           "number": 5,
-          "title": "Mudaaf-o-Mudaaf Ilaih: Kitaabullaahi (Allah ki kitaab)"
+          "title": "Mudaaf-o-Mudaaf Ilaih (2): اللَّهُ ← كِتَابُ اللَّهِ",
+          "title_i18n": {
+            "hinglish": "Mudaaf-o-Mudaaf Ilaih (2): اللَّهُ ← كِتَابُ اللَّهِ",
+            "en": "Possessive Construct (Idaafah 2): اللَّهُ ← كِتَابُ اللَّهِ",
+            "ur": "مضاف و مضاف الیہ (۲): اللَّهُ ← كِتَابُ اللَّهِ",
+            "hi": "मुज़ाफ़-ओ-मुज़ाफ़ इलैह (2): اللَّهُ ← كِتَابُ اللَّهِ"
+          },
+          "itemCount": 187,
+          "page_numbers": "89–93"
         },
         {
           "number": 6,
-          "title": "Harf-e-Jarr ba-Murakkab-e-Izaafi: Fii Kitaabillaahi"
+          "title": "Harf-e-Jarr ba-Murakkab-e-Izaafi: كِتَابُ اللَّهِ ← فِي كِتَابِ اللَّهِ",
+          "title_i18n": {
+            "hinglish": "Harf-e-Jarr ba-Murakkab-e-Izaafi: كِتَابُ اللَّهِ ← فِي كِتَابِ اللَّهِ",
+            "en": "Prepositions with Possessive Constructs: كِتَابُ اللَّهِ ← فِي كِتَابِ اللَّهِ",
+            "ur": "حرفِ جر بمع مرکبِ اضافی: كِتَابُ اللَّهِ ← فِي كِتَابِ اللَّهِ",
+            "hi": "हर्फ़-ए-जर्र ब-मुरक्कब-ए-इज़ाफ़ी: كِتَابُ اللَّهِ ← فِي كِتَابِ اللَّهِ"
+          },
+          "itemCount": 133,
+          "page_numbers": "94–97"
         },
         {
           "number": 7,
-          "title": "Kullu Kitaabin — Lafz 'Kull' ka Istemal (Har kitaab)"
+          "title": "Lafz 'Kull' ka Istemal: كُلٌّ ← كُلُّ كِتَابٍ ، عَلَىٰ كُلِّ شَيْءٍ",
+          "title_i18n": {
+            "hinglish": "Lafz 'Kull' ka Istemal: كُلٌّ ← كُلُّ كِتَابٍ ، عَلَىٰ كُلِّ شَيْءٍ",
+            "en": "Universal Quantifier 'Kull' (Every / All): كُلٌّ ← كُلُّ كِتَابٍ ، عَلَىٰ كُلِّ شَيْءٍ",
+            "ur": "لفظِ 'كُلّ' کا استعمال: كُلٌّ ← كُلُّ كِتَابٍ ، عَلَىٰ كُلِّ شَيْءٍ",
+            "hi": "लफ़्ज़ 'कुल्ल' का इस्तेमाल: كُلٌّ ← كُلُّ كِتَابٍ ، عَلَىٰ كُلِّ شَيْءٍ"
+          },
+          "itemCount": 40,
+          "page_numbers": "98"
         },
         {
           "number": 8,
-          "title": "Asmaa-ul-Faa'il: Haafizun, Raaziqun, Khaaliqun"
+          "title": "Asmaa-ul-Faa'il aur Mubalaghah: حَافِظٌ ، رَازِقٌ ، خَالِقٌ ← خَلَّاقٌ",
+          "title_i18n": {
+            "hinglish": "Asmaa-ul-Faa'il aur Mubalaghah: حَافِظٌ ، رَازِقٌ ، خَالِقٌ ← خَلَّاقٌ",
+            "en": "Active Participles & Intensive Forms: حَافِظٌ ، رَازِقٌ ، خَالِقٌ ← خَلَّاقٌ",
+            "ur": "اسماء الفاعل اور مبالغہ: حَافِظٌ ، رَازِقٌ ، خَالِقٌ ← خَلَّاقٌ",
+            "hi": "अस्मा-उल-फ़ाइल और मुबालग़ा: حَافِظٌ ، رَازِقٌ ، خَالِقٌ ← خَلَّاقٌ"
+          },
+          "itemCount": 101,
+          "page_numbers": "99–100"
         },
         {
           "number": 9,
-          "title": "Mazeed Asmaa-ul-Faa'il: Muntazirun, Muhaajirun, Muslimun"
+          "title": "Mazeed Asmaa-ul-Faa'il wa Maf'ool: مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ",
+          "title_i18n": {
+            "hinglish": "Mazeed Asmaa-ul-Faa'il wa Maf'ool: مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ",
+            "en": "Derived Active & Passive Participles (مُـ): مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ",
+            "ur": "مزید اسماء الفاعل و مفعول: مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ",
+            "hi": "मज़ीद अस्मा-उल-फ़ाइल व मफ़ऊल: مُنْتَظِرٌ ، مُهَاجِرٌ ، مُسْلِمٌ"
+          },
+          "itemCount": 56,
+          "page_numbers": "101"
         },
         {
           "number": 10,
-          "title": "Tasniyah (Dual): Mu'minaani se Mu'minun (Do momin)"
+          "title": "Tasniyah (Dual — Do Cheezein / Afraad): مُؤْمِنٌ ← مُؤْمِنَانِ ، مُؤْمِنَيْنِ",
+          "title_i18n": {
+            "hinglish": "Tasniyah (Dual — Do Cheezein / Afraad): مُؤْمِنٌ ← مُؤْمِنَانِ ، مُؤْمِنَيْنِ",
+            "en": "Dual Form (Tasniyah): مُؤْمِنٌ ← مُؤْمِنَانِ ، مُؤْمِنَيْنِ",
+            "ur": "تثنیہ (دو چیزیں / افراد): مُؤْمِنٌ ← مُؤْمِنَانِ ، مُؤْمِنَيْنِ",
+            "hi": "तस्निया (दो चीज़ें / अफ़राद): مُؤْمِنٌ ← مُؤْمِنَانِ ، مُؤْمِنَيْنِ"
+          },
+          "itemCount": 39,
+          "page_numbers": "102"
         }
       ]
     },
@@ -196,71 +532,219 @@
       "lessons": [
         {
           "number": 1,
-          "title": "Zameer-e-Munfasil Huwa: Huwa Rasoolun (Woh Rasool hai)"
+          "title": "Zameer-e-Munfasil Muzakkar Ghaib: رَسُولٌ ← هُوَ رَسُولٌ",
+          "title_i18n": {
+            "hinglish": "Zameer-e-Munfasil Muzakkar Ghaib: رَسُولٌ ← هُوَ رَسُولٌ",
+            "en": "3rd Person Masc. Singular Detached Pronoun (He): رَسُولٌ ← هُوَ رَسُولٌ",
+            "ur": "ضمیرِ منفصل مذکر غائب: رَسُولٌ ← هُوَ رَسُولٌ",
+            "hi": "ज़मीर-ए-मुन्फ़सिल मुज़क्कर ग़ायब: رَسُولٌ ← هُوَ رَسُولٌ"
+          },
+          "itemCount": 140,
+          "page_numbers": "2–5"
         },
         {
           "number": 2,
-          "title": "Zameer-e-Muttasil Muzakkar: Baytuhu (Uska ghar)"
+          "title": "Zameer-e-Muttasil Muzakkar Ghaib: بَيْتٌ ← بَيْتُهُ",
+          "title_i18n": {
+            "hinglish": "Zameer-e-Muttasil Muzakkar Ghaib: بَيْتٌ ← بَيْتُهُ",
+            "en": "3rd Person Masc. Singular Attached Pronoun (His): بَيْتٌ ← بَيْتُهُ",
+            "ur": "ضمیرِ متصل مذکر غائب: بَيْتٌ ← بَيْتُهُ",
+            "hi": "ज़मीर-ए-मुत्तसिल मुज़क्कर ग़ायब: بَيْتٌ ← بَيْتُهُ"
+          },
+          "itemCount": 85,
+          "page_numbers": "6–7"
         },
         {
           "number": 3,
-          "title": "Harf-e-Jarr ba-Zameer: Fii Baytihi (Uske ghar mein)"
+          "title": "Harf-e-Jarr ba-Zameer: بَيْتُهُ ← فِي بَيْتِهِ",
+          "title_i18n": {
+            "hinglish": "Harf-e-Jarr ba-Zameer: بَيْتُهُ ← فِي بَيْتِهِ",
+            "en": "Prepositions with Attached Pronoun (In his house): بَيْتُهُ ← فِي بَيْتِهِ",
+            "ur": "حرفِ جر بمع ضمیر: بَيْتُهُ ← فِي بَيْتِهِ",
+            "hi": "हर्फ़-ए-जर्र ब-ज़मीर: بَيْتُهُ ← فِي بَيْتِهِ"
+          },
+          "itemCount": 126,
+          "page_numbers": "8–10"
         },
         {
           "number": 4,
-          "title": "Huroof ke saath Zameer: Lahu, Minhu, Feehi"
+          "title": "Huroof ke saath Zameer: لِـ ← لَهُ ، مِنْ ← مِنْهُ ، فِي ← فِيهِ",
+          "title_i18n": {
+            "hinglish": "Huroof ke saath Zameer: لِـ ← لَهُ ، مِنْ ← مِنْهُ ، فِي ← فِيهِ",
+            "en": "Particles Fused with 3rd Masc. Pronoun: لَهُ ، مِنْهُ ، فِيهِ",
+            "ur": "حروف کے ساتھ ضمیر: لِـ ← لَهُ ، مِنْ ← مِنْهُ ، فِي ← فِيهِ",
+            "hi": "हुरूफ़ के साथ ज़मीर: لِـ ← لَهُ ، مِنْ ← مِنْهُ ، فِي ← فِيهِ"
+          },
+          "itemCount": 163,
+          "page_numbers": "11–14"
         },
         {
           "number": 5,
-          "title": "Zameer-e-Munfasil Anta: Anta Yoosufu (Tu Yusuf hai)"
+          "title": "Zameer-e-Munfasil Mukhaatab: يُوسُفُ ← أَنْتَ يُوسُفُ",
+          "title_i18n": {
+            "hinglish": "Zameer-e-Munfasil Mukhaatab: يُوسُفُ ← أَنْتَ يُوسُفُ",
+            "en": "2nd Person Masc. Singular Detached Pronoun (You): يُوسُفُ ← أَنْتَ يُوسُفُ",
+            "ur": "ضمیرِ منفصل مخاطب: يُوسُفُ ← أَنْتَ يُوسُفُ",
+            "hi": "ज़मीर-ए-मुन्फ़सिल मुख़ातब: يُوسُفُ ← أَنْتَ يُوسُفُ"
+          },
+          "itemCount": 20,
+          "page_numbers": "15"
         },
         {
           "number": 6,
-          "title": "Zameer-e-Muttasil Mukhatab: Baytuka (Tera ghar)"
+          "title": "Zameer-e-Muttasil Mukhaatab: بَيْتٌ ← بَيْتُكَ",
+          "title_i18n": {
+            "hinglish": "Zameer-e-Muttasil Mukhaatab: بَيْتٌ ← بَيْتُكَ",
+            "en": "2nd Person Masc. Singular Attached Pronoun (Your): بَيْتٌ ← بَيْتُكَ",
+            "ur": "ضمیرِ متصل مخاطب: بَيْتٌ ← بَيْتُكَ",
+            "hi": "ज़मीर-ए-मुत्तसिल मुख़ातब: بَيْتٌ ← بَيْتُكَ"
+          },
+          "itemCount": 32,
+          "page_numbers": "16"
         },
         {
           "number": 7,
-          "title": "Harf-e-Jarr ba-Zameer: Fii Baytika (Tere ghar mein)"
+          "title": "Harf-e-Jarr ba-Zameer: بَيْتُكَ ← فِي بَيْتِكَ",
+          "title_i18n": {
+            "hinglish": "Harf-e-Jarr ba-Zameer: بَيْتُكَ ← فِي بَيْتِكَ",
+            "en": "Prepositions with Attached Pronoun (In your house): بَيْتُكَ ← فِي بَيْتِكَ",
+            "ur": "حرفِ جر بمع ضمیر: بَيْتُكَ ← فِي بَيْتِكَ",
+            "hi": "हर्फ़-ए-जर्र ब-ज़मीर: بَيْتُكَ ← فِي بَيْتِكَ"
+          },
+          "itemCount": 123,
+          "page_numbers": "17–19"
         },
         {
           "number": 8,
-          "title": "Huroof ke saath Zameer: Laka, Minka, Feeka"
+          "title": "Huroof ke saath Zameer: لِـ ← لَكَ ، مِنْ ← مِنْكَ ، فِي ← فِيكَ",
+          "title_i18n": {
+            "hinglish": "Huroof ke saath Zameer: لِـ ← لَكَ ، مِنْ ← مِنْكَ ، فِي ← فِيكَ",
+            "en": "Particles Fused with 2nd Masc. Pronoun: لَكَ ، مِنْكَ ، فِيكَ",
+            "ur": "حروف کے ساتھ ضمیر: لِـ ← لَكَ ، مِنْ ← مِنْكَ ، فِي ← فِيكَ",
+            "hi": "हुरूफ़ के साथ ज़मीर: لِـ ← لَكَ ، مِنْ ← مِنْكَ ، فِي ← فِيكَ"
+          },
+          "itemCount": 111,
+          "page_numbers": "20–22"
         },
         {
           "number": 9,
-          "title": "Zameer-e-Munfasil Muannath: Hiya Fitnatun (Woh aazmaish hai)"
+          "title": "Zameer-e-Munfasil Mu'annas Ghaib: فِتْنَةٌ ← هِيَ فِتْنَةٌ",
+          "title_i18n": {
+            "hinglish": "Zameer-e-Munfasil Mu'annas Ghaib: فِتْنَةٌ ← هِيَ فِتْنَةٌ",
+            "en": "3rd Person Fem. Singular Detached Pronoun (She / It): فِتْنَةٌ ← هِيَ فِتْنَةٌ",
+            "ur": "ضمیرِ منفصل مؤنث غائب: فِتْنَةٌ ← هِيَ فِتْنَةٌ",
+            "hi": "ज़मीर-ए-मुन्फ़सिल मुअन्नस ग़ायब: فِتْنَةٌ ← هِيَ فِتْنَةٌ"
+          },
+          "itemCount": 29,
+          "page_numbers": "23"
         },
         {
           "number": 10,
-          "title": "Zameer-e-Muttasil Muannath: Baytuhaa (Us aurat ka ghar)"
+          "title": "Zameer-e-Muttasil Mu'annas Ghaib: بَيْتٌ ← بَيْتُهَا",
+          "title_i18n": {
+            "hinglish": "Zameer-e-Muttasil Mu'annas Ghaib: بَيْتٌ ← بَيْتُهَا",
+            "en": "3rd Person Fem. Singular Attached Pronoun (Her / Its): بَيْتٌ ← بَيْتُهَا",
+            "ur": "ضمیرِ متصل مؤنث غائب: بَيْتٌ ← بَيْتُهَا",
+            "hi": "ज़मीर-ए-मुत्तसिल मुअन्नस ग़ायब: بَيْتٌ ← بَيْتُهَا"
+          },
+          "itemCount": 83,
+          "page_numbers": "24"
         },
         {
           "number": 11,
-          "title": "Harf-e-Jarr ba-Zameer Muannath: Fii Baytihaa"
+          "title": "Harf-e-Jarr ba-Zameer Mu'annas: بَيْتُهَا ← فِي بَيْتِهَا",
+          "title_i18n": {
+            "hinglish": "Harf-e-Jarr ba-Zameer Mu'annas: بَيْتُهَا ← فِي بَيْتِهَا",
+            "en": "Prepositions with Feminine Pronoun (In her house): بَيْتُهَا ← فِي بَيْتِهَا",
+            "ur": "حرفِ جر بمع ضمیرِ مؤنث: بَيْتُهَا ← فِي بَيْتِهَا",
+            "hi": "हर्फ़-ए-जर्र ब-ज़मीर मुअन्नस: بَيْتُهَا ← فِي بَيْتِهَا"
+          },
+          "itemCount": 60,
+          "page_numbers": "25–26"
         },
         {
           "number": 12,
-          "title": "Huroof ke saath Zameer Muannath: Lahaa, Minhaa, Feehaa"
+          "title": "Huroof ke saath Zameer Mu'annas: لِـ ← لَهَا ، مِنْ ← مِنْهَا ، فِي ← فِيهَا",
+          "title_i18n": {
+            "hinglish": "Huroof ke saath Zameer Mu'annas: لِـ ← لَهَا ، مِنْ ← مِنْهَا ، فِي ← فِيهَا",
+            "en": "Particles Fused with 3rd Fem. Pronoun: لَهَا ، مِنْهَا ، فِيهَا",
+            "ur": "حروف کے ساتھ ضمیرِ مؤنث: لِـ ← لَهَا ، مِنْ ← مِنْهَا ، فِي ← فِيهَا",
+            "hi": "हुरूफ़ के साथ ज़मीर मुअन्नस: لِـ ← لَهَا ، مِنْ ← مِنْهَا ، فِي ← فِيهَا"
+          },
+          "itemCount": 109,
+          "page_numbers": "27–29"
         },
         {
           "number": 13,
-          "title": "Zameer-e-Munfasil Mutakallim: Ana Yoosufu (Main Yusuf hoon)"
+          "title": "Zameer-e-Munfasil Mutakallim: يُوسُفُ ← أَنَا يُوسُفُ",
+          "title_i18n": {
+            "hinglish": "Zameer-e-Munfasil Mutakallim: يُوسُفُ ← أَنَا يُوسُفُ",
+            "en": "1st Person Singular Detached Pronoun (I): يُوسُفُ ← أَنَا يُوسُفُ",
+            "ur": "ضمیرِ منفصل متکلم: يُوسُفُ ← أَنَا يُوسُفُ",
+            "hi": "ज़मीर-ए-मुन्फ़सिल मुतकल्लिम: يُوسُفُ ← أَنَا يُوسُفُ"
+          },
+          "itemCount": 28,
+          "page_numbers": "30"
         },
         {
           "number": 14,
-          "title": "Zameer-e-Muttasil Mutakallim: Baytee (Mera ghar)"
+          "title": "Zameer-e-Muttasil Mutakallim: بَيْتٌ ← بَيْتِي",
+          "title_i18n": {
+            "hinglish": "Zameer-e-Muttasil Mutakallim: بَيْتٌ ← بَيْتِي",
+            "en": "1st Person Singular Attached Pronoun (My): بَيْتٌ ← بَيْتِي",
+            "ur": "ضمیرِ متصل متکلم: بَيْتٌ ← بَيْتِي",
+            "hi": "ज़मीर-ए-मुत्तसिल मुतकल्लिम: بَيْتٌ ← بَيْتِي"
+          },
+          "itemCount": 140,
+          "page_numbers": "31–32"
         },
         {
           "number": 15,
-          "title": "Harf-e-Jarr ba-Zameer Mutakallim: Fii Baytee (Mere ghar mein)"
+          "title": "Harf-e-Jarr ba-Zameer Mutakallim: بَيْتِي ← فِي بَيْتِي",
+          "title_i18n": {
+            "hinglish": "Harf-e-Jarr ba-Zameer Mutakallim: بَيْتِي ← فِي بَيْتِي",
+            "en": "Prepositions with 1st Person Pronoun (In my house): بَيْتِي ← فِي بَيْتِي",
+            "ur": "حرفِ جر بمع ضمیرِ متکلم: بَيْتِي ← فِي بَيْتِي",
+            "hi": "हर्फ़-ए-जर्र ब-ज़मीर मुतकल्लिम: بَيْتِي ← فِي بَيْتِي"
+          },
+          "itemCount": 53,
+          "page_numbers": "33–34"
         },
         {
           "number": 16,
-          "title": "Huroof ke saath Zameer Mutakallim: Lee, Minnee, Alayya"
+          "title": "Huroof ke saath Zameer Mutakallim: لِـ ← لِي ، مِنْ ← مِنِّي ، عَلَىٰ ← عَلَيَّ",
+          "title_i18n": {
+            "hinglish": "Huroof ke saath Zameer Mutakallim: لِـ ← لِي ، مِنْ ← مِنِّي ، عَلَىٰ ← عَلَيَّ",
+            "en": "Particles Fused with 1st Person Pronoun: لِي ، مِنِّي ، عَلَيَّ",
+            "ur": "حروف کے ساتھ ضمیرِ متکلم: لِـ ← لِي ، مِنْ ← مِنِّي ، عَلَىٰ ← عَلَيَّ",
+            "hi": "हुरूफ़ के साथ ज़मीर मुतकल्लिम: لِـ ← لِي ، مِنْ ← مِنِّي ، عَلَىٰ ← عَلَيَّ"
+          },
+          "itemCount": 92,
+          "page_numbers": "35–37"
         },
         {
           "number": 17,
-          "title": "Haalat-e-Nasb: Mujrimun se Mujriman (Do zabar)"
+          "title": "Haalat-e-Nasb (Haal): مُجْرِمٌ ← مُجْرِمًا (Do Zabar)",
+          "title_i18n": {
+            "hinglish": "Haalat-e-Nasb (Haal): مُجْرِمٌ ← مُجْرِمًا (Do Zabar)",
+            "en": "Accusative State (Haal / Adverbial): مُجْرِمٌ ← مُجْرِمًا",
+            "ur": "حالتِ نصب (حال): مُجْرِمٌ ← مُجْرِمًا (دو زبر)",
+            "hi": "हालत-ए-नस्ब (हाल): مُجْرِمٌ ← مُجْرِمًا (दो ज़बर)"
+          },
+          "itemCount": 62,
+          "page_numbers": "38–39"
+        },
+        {
+          "number": 18,
+          "title": "Ism-ul-Maf'ool (Jis par kaam hua): مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ",
+          "title_i18n": {
+            "hinglish": "Ism-ul-Maf'ool (Jis par kaam hua): مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ",
+            "en": "Passive Participle (Ism al-Maf'ool): مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ",
+            "ur": "اسمِ مفعول (جس پر کام ہوا): مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ",
+            "hi": "इस्म-उल-मफ़ऊल (जिस पर काम हुआ): مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ"
+          },
+          "itemCount": 31,
+          "page_numbers": "39"
         }
       ]
     },
@@ -272,7 +756,13 @@
         {
           "number": 1,
           "title": "Jama Muzakkar Salim: Al-Muslimoona (ـُونَ)",
-          "arabic_Focus": "الْمُسْلِمُ ← الْمُسْلِمُونَ",
+          "title_i18n": {
+            "hinglish": "Jama Muzakkar Salim: Al-Muslimoona (ـُونَ)",
+            "en": "Sound Masculine Plural (Nominative ـُونَ): الْمُسْلِمُ ← الْمُسْلِمُونَ",
+            "ur": "جمع مذکر سالم (مرفوع ـُونَ): الْمُسْلِمُ ← الْمُسْلِمُونَ",
+            "hi": "जमा मुज़क्कर सालिम (मरफ़ू ـُونَ): الْمُسْلِمُ ← الْمُسْلِمُونَ"
+          },
+          "itemCount": 123,
           "page_numbers": [
             42,
             43
@@ -281,7 +771,13 @@
         {
           "number": 2,
           "title": "Jama Muzakkar Salim: Al-Muslimeena (ـِينَ)",
-          "arabic_Focus": "الْمُسْلِمُونَ ← الْمُسْلِمِينَ",
+          "title_i18n": {
+            "hinglish": "Jama Muzakkar Salim: Al-Muslimeena (ـِينَ)",
+            "en": "Sound Masculine Plural (Acc./Gen. ـِينَ): الْمُسْلِمُونَ ← الْمُسْلِمِينَ",
+            "ur": "جمع مذکر سالم (منصوب/مجرور ـِينَ): الْمُسْلِمُونَ ← الْمُسْلِمِينَ",
+            "hi": "जमा मुज़क्कर सालिम (मंसूब/मजरूर ـِينَ): الْمُسْلِمُونَ ← الْمُسْلِمِينَ"
+          },
+          "itemCount": 200,
           "page_numbers": [
             44,
             45,
@@ -293,7 +789,13 @@
         {
           "number": 3,
           "title": "Murakkab-e-Izaafi Jama: Ajrul-Muslimeena",
-          "arabic_Focus": "الْمُسْلِمُونَ ← أَجْرُ الْمُسْلِمِينَ",
+          "title_i18n": {
+            "hinglish": "Murakkab-e-Izaafi Jama: Ajrul-Muslimeena",
+            "en": "Plural Possessive Construct: أَجْرُ الْمُسْلِمِينَ (Reward of the Muslims)",
+            "ur": "مرکبِ اضافی جمع: الْمُسْلِمُونَ ← أَجْرُ الْمُسْلِمِينَ",
+            "hi": "मुरक्कब-ए-इज़ाफ़ी जमा: أَجْرُ الْمُسْلِمِينَ"
+          },
+          "itemCount": 99,
           "page_numbers": [
             49,
             50,
@@ -303,7 +805,13 @@
         {
           "number": 4,
           "title": "Jama Mukassar (Broken Plurals): Ulamaa'u, Hukkaamun",
-          "arabic_Focus": "عَالِمٌ ← عُلَمَاءُ ، حَاكِمٌ ← حُكَّامٌ",
+          "title_i18n": {
+            "hinglish": "Jama Mukassar (Broken Plurals): Ulamaa'u, Hukkaamun",
+            "en": "Broken Plurals (Jama Mukassar): عَالِمٌ ← عُلَمَاءُ ، حَاكِمٌ ← حُكَّامٌ",
+            "ur": "جمع مکسر: عَالِمٌ ← عُلَمَاءُ ، حَاكِمٌ ← حُكَّامٌ",
+            "hi": "जमा मुकस्सर (टूटे हुए बहुवचन): عَالِمٌ ← عُلَمَاءُ ، حَاكِمٌ ← حُكَّامٌ"
+          },
+          "itemCount": 98,
           "page_numbers": [
             52,
             53
@@ -312,7 +820,13 @@
         {
           "number": 5,
           "title": "Zameer-e-Munfasil Jama: Hum Muslimoona (Woh musalman hain)",
-          "arabic_Focus": "مُسْلِمُونَ ← هُمْ مُسْلِمُونَ",
+          "title_i18n": {
+            "hinglish": "Zameer-e-Munfasil Jama: Hum Muslimoona (Woh musalman hain)",
+            "en": "3rd Person Plural Detached Pronoun (They): مُسْلِمُونَ ← هُمْ مُسْلِمُونَ",
+            "ur": "ضمیرِ منفصل جمع غائب: مُسْلِمُونَ ← هُمْ مُسْلِمُونَ",
+            "hi": "ज़मीर-ए-मुन्फ़सिल जमा ग़ायब: مُسْلِمُونَ ← هُمْ مُسْلِمُونَ"
+          },
+          "itemCount": 66,
           "page_numbers": [
             54,
             55
@@ -321,7 +835,13 @@
         {
           "number": 6,
           "title": "Kitaabun : Kitaabuhum (Unki Kitaab)",
-          "arabic_Focus": "كِتَابٌ ← كِتَابُهُمْ",
+          "title_i18n": {
+            "hinglish": "Kitaabun : Kitaabuhum (Unki Kitaab)",
+            "en": "3rd Person Plural Attached Pronoun (Their): كِتَابٌ ← كِتَابُهُمْ",
+            "ur": "ضمیرِ متصل جمع غائب: كِتَابٌ ← كِتَابُهُمْ (ان کی کتاب)",
+            "hi": "ज़मीर-ए-मुत्तसिल जमा ग़ायब: كِتَابٌ ← كِتَابُهُمْ (उनकी किताब)"
+          },
+          "itemCount": 126,
           "page_numbers": [
             56,
             57,
@@ -331,7 +851,13 @@
         {
           "number": 7,
           "title": "Kitaabuhum : Fii Kitaabihim (Unki Kitaab Mein)",
-          "arabic_Focus": "كِتَابُهُمْ ← فِي كِتَابِهِمْ",
+          "title_i18n": {
+            "hinglish": "Kitaabuhum : Fii Kitaabihim (Unki Kitaab Mein)",
+            "en": "Prepositions with 3rd Plural Pronoun (In their book): كِتَابُهُمْ ← فِي كِتَابِهِمْ",
+            "ur": "حرفِ جر بمع ضمیرِ جمع غائب: كِتَابُهُمْ ← فِي كِتَابِهِمْ (ان کی کتاب میں)",
+            "hi": "हर्फ़-ए-जर्र ब-ज़मीर जमा ग़ायब: كِتَابُهُمْ ← فِي كِتَابِهِمْ (उनकी किताब में)"
+          },
+          "itemCount": 101,
           "page_numbers": [
             59,
             60,
@@ -341,7 +867,13 @@
         {
           "number": 8,
           "title": "Huroof ke saath Zameer Jama: Lahum, Minhum, Innahum",
-          "arabic_Focus": "لِـ ← لَهُمْ ، مِنْ ← مِنْهُمْ ، إِنَّ ← إِنَّهُمْ",
+          "title_i18n": {
+            "hinglish": "Huroof ke saath Zameer Jama: Lahum, Minhum, Innahum",
+            "en": "Particles Fused with 3rd Plural Pronoun: لَهُمْ ، مِنْهُمْ ، إِنَّهُمْ",
+            "ur": "حروف کے ساتھ ضمیرِ جمع غائب: لَهُمْ ، مِنْهُمْ ، إِنَّهُمْ",
+            "hi": "हुरूफ़ के साथ ज़मीर जमा ग़ायब: لَهُمْ ، مِنْهُمْ ، إِنَّهُمْ"
+          },
+          "itemCount": 167,
           "page_numbers": [
             62,
             63,
@@ -353,7 +885,13 @@
         {
           "number": 9,
           "title": "Muslimoona : Antum Muslimoona (Tum Log Musalman Ho)",
-          "arabic_Focus": "مُسْلِمُونَ ← أَنْتُمْ مُسْلِمُونَ",
+          "title_i18n": {
+            "hinglish": "Muslimoona : Antum Muslimoona (Tum Log Musalman Ho)",
+            "en": "2nd Person Plural Detached Pronoun (You all): مُسْلِمُونَ ← أَنْتُمْ مُسْلِمُونَ",
+            "ur": "ضمیرِ منفصل جمع مخاطب: مُسْلِمُونَ ← أَنْتُمْ مُسْلِمُونَ (تم لوگ مسلمان ہو)",
+            "hi": "ज़मीर-ए-मुन्फ़सिल जमा मुख़ातब: مُسْلِمُونَ ← أَنْتُمْ مُسْلِمُونَ (तुम लोग मुसलमान हो)"
+          },
+          "itemCount": 43,
           "page_numbers": [
             67,
             68
@@ -362,7 +900,13 @@
         {
           "number": 10,
           "title": "Kitaabun : Kitaabukum (Tumhari Kitaab)",
-          "arabic_Focus": "كِتَابٌ ← كِتَابُكُمْ",
+          "title_i18n": {
+            "hinglish": "Kitaabun : Kitaabukum (Tumhari Kitaab)",
+            "en": "2nd Person Plural Attached Pronoun (Your): كِتَابٌ ← كِتَابُكُمْ",
+            "ur": "ضمیرِ متصل جمع مخاطب: كِتَابٌ ← كِتَابُكُمْ (تمہاری کتاب)",
+            "hi": "ज़मीर-ए-मुत्तसिल जमा मुख़ातब: كِتَابٌ ← كِتَابُكُمْ (तुम्हारी किताब)"
+          },
+          "itemCount": 105,
           "page_numbers": [
             69,
             70,
@@ -372,7 +916,13 @@
         {
           "number": 11,
           "title": "Kitaabukum : Fii Kitaabikum (Tumhari Kitaab Mein)",
-          "arabic_Focus": "كِتَابُكُمْ ← فِي كِتَابِكُمْ",
+          "title_i18n": {
+            "hinglish": "Kitaabukum : Fii Kitaabikum (Tumhari Kitaab Mein)",
+            "en": "Prepositions with 2nd Plural Pronoun (In your book): كِتَابُكُمْ ← فِي كِتَابِكُمْ",
+            "ur": "حرفِ جر بمع ضمیرِ جمع مخاطب: كِتَابُكُمْ ← فِي كِتَابِكُمْ (تمہاری کتاب میں)",
+            "hi": "हर्फ़-ए-जर्र ब-ज़मीर जमा मुख़ातब: كِتَابُكُمْ ← فِي كِتَابِكُمْ (तुम्हारी किताब में)"
+          },
+          "itemCount": 58,
           "page_numbers": [
             72,
             73
@@ -381,7 +931,13 @@
         {
           "number": 12,
           "title": "Huroof ke saath Zameer: Lakum, Minkum, Innakum",
-          "arabic_Focus": "لِـ ← لَكُمْ ، مِنْ ← مِنْكُمْ ، إِنَّ ← إِنَّكُمْ",
+          "title_i18n": {
+            "hinglish": "Huroof ke saath Zameer: Lakum, Minkum, Innakum",
+            "en": "Particles Fused with 2nd Plural Pronoun: لَكُمْ ، مِنْكُمْ ، إِنَّكُمْ",
+            "ur": "حروف کے ساتھ ضمیرِ جمع مخاطب: لَكُمْ ، مِنْكُمْ ، إِنَّكُمْ",
+            "hi": "हुरूफ़ के साथ ज़मीर जमा मुख़ातब: لَكُمْ ، مِنْكُمْ ، إِنَّكُمْ"
+          },
+          "itemCount": 226,
           "page_numbers": [
             74,
             75,
@@ -394,7 +950,13 @@
         {
           "number": 13,
           "title": "Muslimoona : Nahnu Muslimoona (Hum Musalman Hain)",
-          "arabic_Focus": "مُسْلِمُونَ ← نَحْنُ مُسْلِمُونَ",
+          "title_i18n": {
+            "hinglish": "Muslimoona : Nahnu Muslimoona (Hum Musalman Hain)",
+            "en": "1st Person Plural Detached Pronoun (We): مُسْلِمُونَ ← نَحْنُ مُسْلِمُونَ",
+            "ur": "ضمیرِ منفصل جمع متکلم: مُسْلِمُونَ ← نَحْنُ مُسْلِمُونَ (ہم مسلمان ہیں)",
+            "hi": "ज़मीर-ए-मुन्फ़सिल जमा मुतकल्लिम: مُسْلِمُونَ ← نَحْنُ مُسْلِمُونَ (हम मुसलमान हैं)"
+          },
+          "itemCount": 24,
           "page_numbers": [
             80
           ]
@@ -402,7 +964,13 @@
         {
           "number": 14,
           "title": "Kitaabun : Kitaabunaa (Hamari Kitaab)",
-          "arabic_Focus": "كِتَابٌ ← كِتَابُنَا",
+          "title_i18n": {
+            "hinglish": "Kitaabun : Kitaabunaa (Hamari Kitaab)",
+            "en": "1st Person Plural Attached Pronoun (Our): كِتَابٌ ← كِتَابُنَا",
+            "ur": "ضمیرِ متصل جمع متکلم: كِتَابٌ ← كِتَابُنَا (ہماری کتاب)",
+            "hi": "ज़मीर-ए-मुत्तसिल जमा मुतकल्लिम: كِتَابٌ ← كِتَابُنَا (हमारी किताब)"
+          },
+          "itemCount": 80,
           "page_numbers": [
             81,
             82
@@ -411,7 +979,13 @@
         {
           "number": 15,
           "title": "Kitaabunaa → Fii Kitaabinaa (Hamaari Kitaab → Hamaari Kitaab Mein)",
-          "arabic_Focus": "كِتَابُنَا ← فِي كِتَابِنَا",
+          "title_i18n": {
+            "hinglish": "Kitaabunaa → Fii Kitaabinaa (Hamaari Kitaab → Hamaari Kitaab Mein)",
+            "en": "Prepositions with 1st Plural Pronoun (In our book): كِتَابُنَا ← فِي كِتَابِنَا",
+            "ur": "حرفِ جر بمع ضمیرِ جمع متکلم: كِتَابُنَا ← فِي كِتَابِنَا (ہماری کتاب میں)",
+            "hi": "हर्फ़-ए-जर्र ब-ज़मीर जमा मुतकल्लिम: كِتَابُنَا ← فِي كِتَابِنَا (हमारी किताब में)"
+          },
+          "itemCount": 62,
           "page_numbers": [
             83,
             84
@@ -420,7 +994,13 @@
         {
           "number": 16,
           "title": "Li → Lanaa, 'Alaa → 'Alaynaa, Inna → Innaa (Huroof ke saath Zameer نَا)",
-          "arabic_Focus": "لِـ ← لَنَا ، مِنْ ← مِنَّا ، إِنَّ ← إِنَّنَا / إِنَّا",
+          "title_i18n": {
+            "hinglish": "Li → Lanaa, 'Alaa → 'Alaynaa, Inna → Innaa (Huroof ke saath Zameer نَا)",
+            "en": "Particles Fused with 1st Plural Pronoun (نَا): لَنَا ، مِنَّا ، إِنَّنَا / إِنَّا",
+            "ur": "حروف کے ساتھ ضمیرِ 'نَا': لَنَا ، مِنَّا ، إِنَّنَا / إِنَّا",
+            "hi": "हुरूफ़ के साथ ज़मीर 'ना': لَنَا ، مِنَّا ، إِنَّنَا / إِنَّا"
+          },
+          "itemCount": 102,
           "page_numbers": [
             85,
             86,
@@ -430,7 +1010,13 @@
         {
           "number": 17,
           "title": "Muslimoona : Ulaa'ika Muslimoona (Woh Log Musalman Hain)",
-          "arabic_Focus": "مُسْلِمُونَ ← أُولَٰئِكَ مُسْلِمُونَ",
+          "title_i18n": {
+            "hinglish": "Muslimoona : Ulaa'ika Muslimoona (Woh Log Musalman Hain)",
+            "en": "Far Plural Demonstrative (Those): مُسْلِمُونَ ← أُولَٰئِكَ مُسْلِمُونَ",
+            "ur": "اسمِ اشارہ بعید جمع: مُسْلِمُونَ ← أُولَٰئِكَ مُسْلِمُونَ (وہ لوگ مسلمان ہیں)",
+            "hi": "इस्म-ए-इशारा बईद जमा: مُسْلِمُونَ ← أُولَٰئِكَ مُسْلِمُونَ (वे लोग मुसलमान हैं)"
+          },
+          "itemCount": 93,
           "page_numbers": [
             88,
             89,
@@ -440,7 +1026,13 @@
         {
           "number": 18,
           "title": "Muslimoona : Haa'ulaa'i Muslimoona (Yeh Log Musalman Hain)",
-          "arabic_Focus": "مُسْلِمُونَ ← هَٰؤُلَاءِ مُسْلِمُونَ",
+          "title_i18n": {
+            "hinglish": "Muslimoona : Haa'ulaa'i Muslimoona (Yeh Log Musalman Hain)",
+            "en": "Near Plural Demonstrative (These): مُسْلِمُونَ ← هَٰؤُلَاءِ مُسْلِمُونَ",
+            "ur": "اسمِ اشارہ قریب جمع: مُسْلِمُونَ ← هَٰؤُلَاءِ مُسْلِمُونَ (یہ لوگ مسلمان ہیں)",
+            "hi": "इस्म-ए-इशारा क़रीब जमा: مُسْلِمُونَ ← هَٰؤُلَاءِ مُسْلِمُونَ (ये लोग मुसलमान हैं)"
+          },
+          "itemCount": 25,
           "page_numbers": [
             91
           ]
@@ -448,7 +1040,13 @@
         {
           "number": 19,
           "title": "Mashhoor Qur'ani Usloob: Hasr-o-Ta'keed (Maa/In... Illaa, Innamaa)",
-          "arabic_Focus": "مَا هَٰذَا إِلَّا سِحْرٌ ، إِنْ هَٰذَا إِلَّا سِحْرٌ ، إِنَّمَا أَنْتَ نَذِيرٌ",
+          "title_i18n": {
+            "hinglish": "Mashhoor Qur'ani Usloob: Hasr-o-Ta'keed (Maa/In... Illaa, Innamaa)",
+            "en": "Famous Qur'anic Style: Restriction & Emphasis (مَا/إِنْ — إِلَّا ، إِنَّمَا)",
+            "ur": "مشہور قرآنی اسلوب: حصر و تاکید (مَا/إِنْ — إِلَّا ، إِنَّمَا)",
+            "hi": "मशहूर क़ुरआनी उस्लूब: हस्र-ओ-ताकीद (مَا/إِنْ — إِلَّا ، إِنَّمَا)"
+          },
+          "itemCount": 99,
           "page_numbers": [
             92,
             93,
@@ -458,7 +1056,13 @@
         {
           "number": 20,
           "title": "Qur'ani Jumlon ke Shuru mein Aane Wale Aham Alfaaz (Laysa, Maa, Hal, Am, Annaa, Bal, Ka'anna)",
-          "arabic_Focus": "لَيْسَ ، مَا ، أَ / هَلْ ، أَمْ ، أَنَّىٰ ، بَلْ ، كَأَنَّ",
+          "title_i18n": {
+            "hinglish": "Qur'ani Jumlon ke Shuru mein Aane Wale Aham Alfaaz (Laysa, Maa, Hal, Am, Annaa, Bal, Ka'anna)",
+            "en": "Sentence-Opening Qur'anic Particles (لَيْسَ ، مَا ، أَ/هَلْ ، أَمْ ، أَنَّىٰ ، بَلْ ، كَأَنَّ)",
+            "ur": "قرآنی جملوں کے شروع میں آنے والے اہم الفاظ (لَيْسَ ، مَا ، أَ/هَلْ ، أَمْ ، أَنَّىٰ ، بَلْ ، كَأَنَّ)",
+            "hi": "क़ुरआनी जुमलों के शुरू में आने वाले अहम अल्फ़ाज़ (لَيْسَ ، مَا ، أَ/هَلْ ، أَمْ ، أَنَّىٰ ، بَلْ ، كَأَنَّ)"
+          },
+          "itemCount": 131,
           "page_numbers": [
             95,
             96,
@@ -469,7 +1073,13 @@
         {
           "number": 21,
           "title": "Chand Mashhoor Qur'ani Muhaware (15 Key Qur'anic Idioms — Pages 99–106)",
-          "arabic_Focus": "أَلَا ، أَلَيْسَ ، الْيَوْمَ ، يَوْمَئِذٍ ، سُبْحَانَ ، وَمَا بَيْنَهُمَا ، قُلْ ، إِذًا ، بِئْسَ ، نِعْمَ ، كَلَّا ، مَا أَدْرَاكَ مَا ، حَسْبُ ، أَعْلَمُ بِـ ، الْمَصِير",
+          "title_i18n": {
+            "hinglish": "Chand Mashhoor Qur'ani Muhaware (15 Key Qur'anic Idioms — Pages 99–106)",
+            "en": "15 Famous Qur'anic Idioms (Pages 99–106)",
+            "ur": "چند مشہور قرآنی محاورے (۱۵ اہم قرآنی محاورے — صفحات ۹۹–۱۰۶)",
+            "hi": "चंद मशहूर क़ुरआनी मुहावरे (15 अहम क़ुरआनी मुहावरे — सफ़हा 99–106)"
+          },
+          "itemCount": 244,
           "page_numbers": [
             99,
             100,
@@ -484,7 +1094,13 @@
         {
           "number": 22,
           "title": "Ism-e-Tafzeel aur Tamyeez: Deenun se Deenan (Ashaddu Quwwatan)",
-          "arabic_Focus": "دِينٌ ← دِينًا",
+          "title_i18n": {
+            "hinglish": "Ism-e-Tafzeel aur Tamyeez: Deenun se Deenan (Ashaddu Quwwatan)",
+            "en": "Superlative & Accusative Specification (Tamyeez): دِينٌ ← دِينًا",
+            "ur": "اسمِ تفضیل اور تمییز: دِينٌ ← دِينًا (أَشَدُّ قُوَّةً)",
+            "hi": "इस्म-ए-तफ़ज़ील और तमीज़: دِينٌ ← دِينًا (أَشَدُّ قُوَّةً)"
+          },
+          "itemCount": 73,
           "page_numbers": [
             107,
             108,
@@ -494,7 +1110,13 @@
         {
           "number": 23,
           "title": "Nafi-e-Aam aur 'Min' Taakeed: Khaaliqin se Min Khaaliqin",
-          "arabic_Focus": "خَالِقٌ ← مِنْ خَالِقٍ",
+          "title_i18n": {
+            "hinglish": "Nafi-e-Aam aur 'Min' Taakeed: Khaaliqin se Min Khaaliqin",
+            "en": "Emphatic Partitive 'Min' in Negation: خَالِقٌ ← مِنْ خَالِقٍ",
+            "ur": "نفیِ عام اور 'مِنْ' تاکید: خَالِقٌ ← مِنْ خَالِقٍ",
+            "hi": "नफ़ी-ए-आम और 'मिन' ताकीद: خَالِقٌ ← مِنْ خَالِقٍ"
+          },
+          "itemCount": 80,
           "page_numbers": [
             110,
             111,
@@ -511,127 +1133,253 @@
         {
           "number": 1,
           "title": "Aham Qur'ani Af'aal — Fe'l Muzare Wahid Ghaib (Ya'budu, Yasjudu)",
-          "arabic_Focus": "يَعْبُدُ ، يَسْجُدُ ، يُسَافِرُ",
+          "title_i18n": {
+            "hinglish": "Aham Qur'ani Af'aal — Fe'l Muzare Wahid Ghaib (Ya'budu, Yasjudu)",
+            "en": "Present-Future Verb (3rd Masc. Singular): يَعْبُدُ ، يَسْجُدُ ، يُسَافِرُ",
+            "ur": "اہم قرآنی افعال — فعلِ مضارع واحد غائب (يَعْبُدُ ، يَسْجُدُ)",
+            "hi": "अहम क़ुरआनी अफ़आल — फ़ेल मुज़ारे वाहिद ग़ायब (يَعْبُدُ ، يَسْجُدُ)"
+          },
+          "itemCount": 125,
           "page_numbers": "2-3"
         },
         {
           "number": 2,
           "title": "Qur'ani Af'aal ke saath Aane Waale Aham Alfaaz (Laa, Allazee, Maa)",
-          "arabic_Focus": "يُرْسِلُ ← لَا يُرْسِلُ ، الَّذِي يُرْسِلُ ، مَا يُرْسِلُ",
+          "title_i18n": {
+            "hinglish": "Qur'ani Af'aal ke saath Aane Waale Aham Alfaaz (Laa, Allazee, Maa)",
+            "en": "Particles Preceding Present Verbs (لَا ، الَّذِي ، مَا)",
+            "ur": "قرآنی افعال کے ساتھ آنے والے اہم الفاظ (لَا ، الَّذِي ، مَا)",
+            "hi": "क़ुरआनी अफ़आल के साथ आने वाले अहम अल्फ़ाज़ (لَا ، الَّذِي ، مَا)"
+          },
+          "itemCount": 131,
           "page_numbers": "4-6"
         },
         {
           "number": 3,
           "title": "Fe'l Muzare ke ba'd Faa'il aur Maf'ool (Yaghfirullaahu-z-Zunooba)",
-          "arabic_Focus": "يَغْفِرُ ← يَغْفِرُ اللَّهُ ← يَغْفِرُ اللَّهُ الذُّنُوبَ",
+          "title_i18n": {
+            "hinglish": "Fe'l Muzare ke ba'd Faa'il aur Maf'ool (Yaghfirullaahu-z-Zunooba)",
+            "en": "Verb + Subject (Faa'il) & Object (Maf'ool): يَغْفِرُ اللَّهُ الذُّنُوبَ",
+            "ur": "فعلِ مضارع کے بعد فاعل اور مفعول: يَغْفِرُ اللَّهُ الذُّنُوبَ",
+            "hi": "फ़ेल मुज़ारे के बाद फ़ाइल और मफ़ऊल: يَغْفِرُ اللَّهُ الذُّنُوبَ"
+          },
+          "itemCount": 551,
           "page_numbers": "7-19"
         },
         {
           "number": 4,
           "title": "Mashhoor Qur'ani Muhawarah: Man Yashaa'u & Maa Yashaa'u",
-          "arabic_Focus": "يَشَاءُ ← مَنْ يَشَاءُ ، لِمَنْ يَشَاءُ ، عَلَىٰ مَنْ يَشَاءُ ، مَا يَشَاءُ",
+          "title_i18n": {
+            "hinglish": "Mashhoor Qur'ani Muhawarah: Man Yashaa'u & Maa Yashaa'u",
+            "en": "Famous Qur'anic Idiom: مَنْ يَشَاءُ & مَا يَشَاءُ (Whom / What He wills)",
+            "ur": "مشہور قرآنی محاورہ: مَنْ يَشَاءُ اور مَا يَشَاءُ",
+            "hi": "मशहूर क़ुरआनी मुहावरा: مَنْ يَشَاءُ और مَا يَشَاءُ"
+          },
+          "itemCount": 84,
           "page_numbers": "20-22"
         },
         {
           "number": 5,
           "title": "Fe'l Muzare ke saath Maf'ool ki Zameer (Ya'murukum, Ya'muruhum)",
-          "arabic_Focus": "يَأْمُرُ ← يَأْمُرُكُمْ ، يَأْمُرُهُمْ ، يَأْمُرُهُ",
+          "title_i18n": {
+            "hinglish": "Fe'l Muzare ke saath Maf'ool ki Zameer (Ya'murukum, Ya'muruhum)",
+            "en": "Present Verb with Attached Object Pronouns: يَأْمُرُكُمْ ، يَأْمُرُهُمْ ، يَأْمُرُهُ",
+            "ur": "فعلِ مضارع کے ساتھ مفعول کی ضمیر: يَأْمُرُكُمْ ، يَأْمُرُهُمْ ، يَأْمُرُهُ",
+            "hi": "फ़ेल मुज़ारे के साथ मफ़ऊल की ज़मीर: يَأْمُرُكُمْ ، يَأْمُرُهُمْ ، يَأْمُرُهُ"
+          },
+          "itemCount": 113,
           "page_numbers": "23-25"
         },
         {
           "number": 6,
           "title": "Fe'l Muzare Jama Muzakkar Ghaib: Ya'budoona",
-          "arabic_Focus": "يَعْبُدُ ← يَعْبُدُونَ",
+          "title_i18n": {
+            "hinglish": "Fe'l Muzare Jama Muzakkar Ghaib: Ya'budoona",
+            "en": "Present-Future Verb (3rd Masc. Plural): يَعْبُدُ ← يَعْبُدُونَ",
+            "ur": "فعلِ مضارع جمع مذکر غائب: يَعْبُدُ ← يَعْبُدُونَ",
+            "hi": "फ़ेल मुज़ारे जमा मुज़क्कर ग़ायब: يَعْبُدُ ← يَعْبُدُونَ"
+          },
+          "itemCount": 339,
           "page_numbers": "26-33"
         },
         {
           "number": 7,
           "title": "Seegha Ya'budoona ke saath Mashhoor Qur'ani Muhaware",
-          "arabic_Focus": "أَكْثَرُ النَّاسِ لَا يَعْلَمُونَ / لِقَوْمٍ يَعْلَمُونَ / لَعَلَّهُمْ / أَفَلَا",
+          "title_i18n": {
+            "hinglish": "Seegha Ya'budoona ke saath Mashhoor Qur'ani Muhaware",
+            "en": "Famous Qur'anic Idioms with 3rd Plural Verbs (لَا يَعْلَمُونَ / أَفَلَا)",
+            "ur": "صیغہ يَعْبُدُونَ کے ساتھ مشہور قرآنی محاورے",
+            "hi": "सीग़ा يَعْبُدُونَ के साथ मशहूर क़ुरआनी मुहावरे"
+          },
+          "itemCount": 92,
           "page_numbers": "34-36"
         },
         {
           "number": 8,
           "title": "Ism-e-Mawsool 'Allazeena' Fe'l Muzare ke saath (Allazeena Yu'minoona)",
-          "arabic_Focus": "يُؤْمِنُونَ ← الَّذِينَ يُؤْمِنُونَ",
+          "title_i18n": {
+            "hinglish": "Ism-e-Mawsool 'Allazeena' Fe'l Muzare ke saath (Allazeena Yu'minoona)",
+            "en": "Relative Pronoun 'Allazeena' with Present Verbs: الَّذِينَ يُؤْمِنُونَ",
+            "ur": "اسمِ موصول 'الَّذِينَ' فعلِ مضارع کے ساتھ: الَّذِينَ يُؤْمِنُونَ",
+            "hi": "इस्म-ए-मौसूल 'अल्लज़ीना' फ़ेल मुज़ारे के साथ: الَّذِينَ يُؤْمِنُونَ"
+          },
+          "itemCount": 90,
           "page_numbers": "37-39"
         },
         {
           "number": 9,
           "title": "Fe'l Muzare Wahid Muzakkar Mukhaatab: Ta'budu & Taraa",
-          "arabic_Focus": "يَعْبُدُ ← تَعْبُدُ (تَرَىٰ ، وَلَوْ تَرَىٰ ، لَا تَجِدُ)",
+          "title_i18n": {
+            "hinglish": "Fe'l Muzare Wahid Muzakkar Mukhaatab: Ta'budu & Taraa",
+            "en": "Present-Future Verb (2nd Masc. Singular): تَعْبُدُ ، تَرَىٰ",
+            "ur": "فعلِ مضارع واحد مذکر مخاطب: تَعْبُدُ اور تَرَىٰ",
+            "hi": "फ़ेल मुज़ारे वाहिद मुज़क्कर मुख़ातब: تَعْبُدُ और تَرَىٰ"
+          },
+          "itemCount": 86,
           "page_numbers": "40-42"
         },
         {
           "number": 10,
           "title": "Fe'l Muzare Jama Muzakkar Mukhaatab: Ta'budoona & Bimaa Ta'maloona",
-          "arabic_Focus": "تَعْبُدُ ← تَعْبُدُونَ / بِمَا تَعْمَلُونَ",
+          "title_i18n": {
+            "hinglish": "Fe'l Muzare Jama Muzakkar Mukhaatab: Ta'budoona & Bimaa Ta'maloona",
+            "en": "Present-Future Verb (2nd Masc. Plural): تَعْبُدُونَ / بِمَا تَعْمَلُونَ",
+            "ur": "فعلِ مضارع جمع مذکر مخاطب: تَعْبُدُونَ اور بِمَا تَعْمَلُونَ",
+            "hi": "फ़ेल मुज़ारे जमा मुज़क्कर मुख़ातब: تَعْبُدُونَ और بِمَا تَعْمَلُونَ"
+          },
+          "itemCount": 220,
           "page_numbers": "43-48"
         },
         {
           "number": 11,
           "title": "Seegha Ta'budoona ke saath Mashhoor Qur'ani Muhaware",
-          "arabic_Focus": "وَأَنْتُمْ تَعْلَمُونَ / لَعَلَّكُمْ / أَفَلَا / كُنْتُمْ / مَا لَكُمْ لَا",
+          "title_i18n": {
+            "hinglish": "Seegha Ta'budoona ke saath Mashhoor Qur'ani Muhaware",
+            "en": "Famous Qur'anic Idioms with 2nd Plural Verbs (وَأَنْتُمْ تَعْلَمُونَ / لَعَلَّكُمْ)",
+            "ur": "صیغہ تَعْبُدُونَ کے ساتھ مشہور قرآنی محاورے",
+            "hi": "सीग़ा تَعْبُدُونَ के साथ मशहूर क़ुरआनी मुहावरे"
+          },
+          "itemCount": 130,
           "page_numbers": "49-52"
         },
         {
           "number": 12,
           "title": "Fe'l Muzare Wahid Mutakallim: A'budu, Uqsimu & Ad'ookum",
-          "arabic_Focus": "يَعْبُدُ ← أَعْبُدُ (لَا أُقْسِمُ ، أَدْعُوكُمْ)",
+          "title_i18n": {
+            "hinglish": "Fe'l Muzare Wahid Mutakallim: A'budu, Uqsimu & Ad'ookum",
+            "en": "Present-Future Verb (1st Person Singular): أَعْبُدُ ، لَا أُقْسِمُ ، أَدْعُوكُمْ",
+            "ur": "فعلِ مضارع واحد متکلم: أَعْبُدُ ، لَا أُقْسِمُ ، أَدْعُوكُمْ",
+            "hi": "फ़ेल मुज़ारे वाहिद मुतकल्लिम: أَعْبُدُ ، لَا أُقْسِمُ ، أَدْعُوكُمْ"
+          },
+          "itemCount": 117,
           "page_numbers": "53-55"
         },
         {
           "number": 13,
           "title": "Fe'l Muzare Jama Mutakallim & Lan Naasibah: Na'budu, Kazaalika Najzee, Nahshuruhum & Lan Nasbira",
-          "arabic_Focus": "يَعْبُدُ ← نَعْبُدُ (كَذَٰلِكَ نَجْزِي ، يَوْمَ نَدْعُو ، إِنَّا نَعْلَمُ ، لَنْ نَصْبِرَ)",
+          "title_i18n": {
+            "hinglish": "Fe'l Muzare Jama Mutakallim & Lan Naasibah: Na'budu, Kazaalika Najzee, Nahshuruhum & Lan Nasbira",
+            "en": "1st Plural Present Verb & Future Negation 'Lan': نَعْبُدُ ، لَنْ نَصْبِرَ",
+            "ur": "فعلِ مضارع جمع متکلم اور 'لَنْ' ناصبہ: نَعْبُدُ ، لَنْ نَصْبِرَ",
+            "hi": "फ़ेल मुज़ारे जमा मुतकल्लिम और 'लन' नासिबा: نَعْبُدُ ، لَنْ نَصْبِرَ"
+          },
+          "itemCount": 258,
           "page_numbers": "56-60"
         },
         {
           "number": 14,
           "title": "Fe'l Nahi Jama Muzakkar: Laa Taqtuloo",
-          "arabic_Focus": "تَقْتُلُونَ ← لَا تَقْتُلُوا",
+          "title_i18n": {
+            "hinglish": "Fe'l Nahi Jama Muzakkar: Laa Taqtuloo",
+            "en": "Plural Prohibition (Fe'l Nahi): تَقْتُلُونَ ← لَا تَقْتُلُوا",
+            "ur": "فعلِ نہی جمع مذکر: تَقْتُلُونَ ← لَا تَقْتُلُوا",
+            "hi": "फ़ेल नहीं जमा मुज़क्कर: تَقْتُلُونَ ← لَا تَقْتُلُوا"
+          },
+          "itemCount": 118,
           "page_numbers": "61-63"
         },
         {
           "number": 15,
           "title": "Fe'l Nahi Wahid Muzakkar: Laa Tazlim, Laa Tad'u & Laa Takhaf",
-          "arabic_Focus": "تَظْلِمُ ← لَا تَظْلِمْ (لَا تَدْعُ ، لَا تَخَفْ ، لَا تَقُلْ)",
+          "title_i18n": {
+            "hinglish": "Fe'l Nahi Wahid Muzakkar: Laa Tazlim, Laa Tad'u & Laa Takhaf",
+            "en": "Singular Prohibition (Fe'l Nahi): لَا تَظْلِمْ ، لَا تَدْعُ ، لَا تَخَفْ",
+            "ur": "فعلِ نہی واحد مذکر: لَا تَظْلِمْ ، لَا تَدْعُ ، لَا تَخَفْ",
+            "hi": "फ़ेल नहीं वाहिद मुज़क्कर: لَا تَظْلِمْ ، لَا تَدْعُ ، لَا تَخَفْ"
+          },
+          "itemCount": 83,
           "page_numbers": "64-65"
         },
         {
           "number": 16,
           "title": "Man Shartiyyah (Jazm): Man Yashkur (Shart aur Jawaab-e-Shart)",
-          "arabic_Focus": "يَشْكُرُ ← مَنْ يَشْكُرْ",
+          "title_i18n": {
+            "hinglish": "Man Shartiyyah (Jazm): Man Yashkur (Shart aur Jawaab-e-Shart)",
+            "en": "Conditional 'Man' (Whoever): يَشْكُرُ ← مَنْ يَشْكُرْ",
+            "ur": "'مَنْ' شرطیہ (شرط اور جوابِ شرط): يَشْكُرُ ← مَنْ يَشْكُرْ",
+            "hi": "'मन' शर्तिया (शर्त और जवाब-ए-शर्त): يَشْكُرُ ← مَنْ يَشْكُرْ"
+          },
+          "itemCount": 61,
           "page_numbers": "66-67"
         },
         {
           "number": 17,
           "title": "Harf-e-Nasb 'An': An Yatooba, 'Asaa An & Maa Kaana Lahu An",
-          "arabic_Focus": "يَتُوبُ ← أَنْ يَتُوبَ (عَسَىٰ أَنْ يَتُوبَ)",
+          "title_i18n": {
+            "hinglish": "Harf-e-Nasb 'An': An Yatooba, 'Asaa An & Maa Kaana Lahu An",
+            "en": "Subjunctive Particle 'An' (To / That): يَتُوبُ ← أَنْ يَتُوبَ",
+            "ur": "حرفِ نصب 'أَنْ': يَتُوبُ ← أَنْ يَتُوبَ (عَسَىٰ أَنْ يَتُوبَ)",
+            "hi": "हर्फ़-ए-नस्ब 'अन': يَتُوبُ ← أَنْ يَتُوبَ (عَسَىٰ أَنْ يَتُوبَ)"
+          },
+          "itemCount": 89,
           "page_numbers": "68-70"
         },
         {
           "number": 18,
           "title": "Laam-ut-Ta'leel 'Li': Li-yaghfira & Li-ya'lamoo",
-          "arabic_Focus": "يَغْفِرُ ← لِيَغْفِرَ (لِيَعْلَمُوا)",
+          "title_i18n": {
+            "hinglish": "Laam-ut-Ta'leel 'Li': Li-yaghfira & Li-ya'lamoo",
+            "en": "Purpose Particle 'Li-' (So that): يَغْفِرُ ← لِيَغْفِرَ ، لِيَعْلَمُوا",
+            "ur": "لامِ تعلیل 'لِـ': يَغْفِرُ ← لِيَغْفِرَ ، لِيَعْلَمُوا",
+            "hi": "लाम-उत-तालील 'लि': يَغْفِرُ ← لِيَغْفِرَ ، لِيَعْلَمُوا"
+          },
+          "itemCount": 71,
           "page_numbers": "71-72"
         },
         {
           "number": 19,
           "title": "Harf-e-Jazm 'Lam': Lam Yaj'al, Alam Ya'lam & Man Lam Yajid",
-          "arabic_Focus": "يَجْعَلُ ← لَمْ يَجْعَلْ (أَلَمْ يَعْلَمْ؟ ، مَنْ لَمْ يَجِدْ)",
+          "title_i18n": {
+            "hinglish": "Harf-e-Jazm 'Lam': Lam Yaj'al, Alam Ya'lam & Man Lam Yajid",
+            "en": "Past Negation 'Lam' (Did not): يَجْعَلُ ← لَمْ يَجْعَلْ ، أَلَمْ يَعْلَمْ",
+            "ur": "حرفِ جزم 'لَمْ': يَجْعَلُ ← لَمْ يَجْعَلْ ، أَلَمْ يَعْلَمْ",
+            "hi": "हर्फ़-ए-जज़्म 'लम': يَجْعَلُ ← لَمْ يَجْعَلْ ، أَلَمْ يَعْلَمْ"
+          },
+          "itemCount": 105,
           "page_numbers": "73-75"
         },
         {
           "number": 20,
           "title": "Fe'l Muzare Jama ke saath Maf'ool ki Zameerein: Yas'aloonaka & Takhluqoonahu",
-          "arabic_Focus": "يَسْأَلُونَ ← يَسْأَلُونَكَ ، يَسْأَلُونَكُمْ ، تَخْلُقُونَهُ",
+          "title_i18n": {
+            "hinglish": "Fe'l Muzare Jama ke saath Maf'ool ki Zameerein: Yas'aloonaka & Takhluqoonahu",
+            "en": "Plural Present Verbs with Object Pronouns: يَسْأَلُونَكَ ، تَخْلُقُونَهُ",
+            "ur": "فعلِ مضارع جمع کے ساتھ مفعول کی ضمیریں: يَسْأَلُونَكَ ، تَخْلُقُونَهُ",
+            "hi": "फ़ेल मुज़ारे जमा के साथ मफ़ऊल की ज़मीरें: يَسْأَلُونَكَ ، تَخْلُقُونَهُ"
+          },
+          "itemCount": 146,
           "page_numbers": "76-79"
         },
         {
           "number": 21,
           "title": "Fe'l Ma'roof se Fe'l Majhool: Yurzaqu, Yurzaqoona & Turja'oona",
-          "arabic_Focus": "يَرْزُقُ ← يُرْزَقُ (يُرْزَقُونَ ، تُرْجَعُونَ)",
+          "title_i18n": {
+            "hinglish": "Fe'l Ma'roof se Fe'l Majhool: Yurzaqu, Yurzaqoona & Turja'oona",
+            "en": "Active to Passive Present Voice: يَرْزُقُ ← يُرْزَقُ ، يُرْزَقُونَ ، تُرْجَعُونَ",
+            "ur": "فعلِ معروف سے فعلِ مجہول: يَرْزُقُ ← يُرْزَقُ ، يُرْزَقُونَ ، تُرْجَعُونَ",
+            "hi": "फ़ेल मारूफ़ से फ़ेल मजहूल: يَرْزُقُ ← يُرْزَقُ ، يُرْزَقُونَ ، تُرْجَعُونَ"
+          },
+          "itemCount": 113,
           "page_numbers": "80-82"
         }
       ]
@@ -643,46 +1391,524 @@
       "lessons": [
         {
           "number": 1,
-          "title": "Fe'l Mazi Wahid Muzakkar Ghaib: Alima, Jaahada, Anzala"
+          "title": "Fe'l Maazi ki Pehli Shakl (Wahid Muzakkar Ghaib): عَمِلَ ، جَاهَدَ ، أَنْزَلَ ، اسْتَغْفَرَ",
+          "title_i18n": {
+            "hinglish": "Fe'l Maazi ki Pehli Shakl (Wahid Muzakkar Ghaib): عَمِلَ ، جَاهَدَ ، أَنْزَلَ ، اسْتَغْفَرَ",
+            "en": "Past Tense Form 1 (3rd Person Masc. Singular): عَمِلَ ، جَاهَدَ ، أَنْزَلَ ، اسْتَغْفَرَ",
+            "ur": "فعلِ ماضی کی پہلی شکل (واحد مذکر غائب): عَمِلَ ، جَاهَدَ ، أَنْزَلَ ، اسْتَغْفَرَ",
+            "hi": "फ़ेल माज़ी की पहली शक्ल (वाहिद मुज़क्कर ग़ायब): عَمِلَ ، جَاهَدَ ، أَنْزَلَ ، اسْتَغْفَرَ"
+          },
+          "itemCount": 1264,
+          "page_numbers": "9–47"
         },
         {
           "number": 2,
-          "title": "Fe'l Mazi Jama Muzakkar Ghaib: Abadoo (Unkohn ne Ibadat Ki)"
+          "title": "Fe'l Maazi ki Doosri Shakl (Jama Muzakkar Ghaib): عَبَدَ ← عَبَدُوا",
+          "title_i18n": {
+            "hinglish": "Fe'l Maazi ki Doosri Shakl (Jama Muzakkar Ghaib): عَبَدَ ← عَبَدُوا",
+            "en": "Past Tense Form 2 (3rd Person Masc. Plural): عَبَدَ ← عَبَدُوا",
+            "ur": "فعلِ ماضی کی دوسری شکل (جمع مذکر غائب): عَبَدَ ← عَبَدُوا",
+            "hi": "फ़ेल माज़ी की दूसरी शक्ल (जमा मुज़क्कर ग़ायब): عَبَدَ ← عَبَدُوا"
+          },
+          "itemCount": 876,
+          "page_numbers": "48–77"
         },
         {
           "number": 3,
-          "title": "Mazi Jama Ghaib ke Murakkabat aur Aayat: Allazeena Kafaroo"
+          "title": "Fe'l Maazi ki Teesri Shakl (Jama Mutakallim): ذَهَبْنَا ، كَتَبْنَا ، جَعَلْنَا",
+          "title_i18n": {
+            "hinglish": "Fe'l Maazi ki Teesri Shakl (Jama Mutakallim): ذَهَبْنَا ، كَتَبْنَا ، جَعَلْنَا",
+            "en": "Past Tense Form 3 (1st Person Plural — We did): ذَهَبْنَا ، كَتَبْنَا ، جَعَلْنَا",
+            "ur": "فعلِ ماضی کی تیسری شکل (جمع متکلم): ذَهَبْنَا ، كَتَبْنَا ، جَعَلْنَا",
+            "hi": "फ़ेल माज़ी की तीसरी शक्ल (जमा मुतकल्लिम): ذَهَبْنَا ، كَتَبْنَا ، جَعَلْنَا"
+          },
+          "itemCount": 840,
+          "page_numbers": "78–103"
         },
         {
           "number": 4,
-          "title": "Fe'l Mazi Jama ke sath Mukhtalif Waqiaat: Attakhazoo, Ataw"
+          "title": "Fe'l Maazi ki Chauthi Shakl (Jama Muzakkar Mukhaatab): عَبَدَ ← عَبَدْتُمْ",
+          "title_i18n": {
+            "hinglish": "Fe'l Maazi ki Chauthi Shakl (Jama Muzakkar Mukhaatab): عَبَدَ ← عَبَدْتُمْ",
+            "en": "Past Tense Form 4 (2nd Person Masc. Plural — You all did): عَبَدَ ← عَبَدْتُمْ",
+            "ur": "فعلِ ماضی کی چوتھی شکل (جمع مذکر مخاطب): عَبَدَ ← عَبَدْتُمْ",
+            "hi": "फ़ेल माज़ी की चौथी शक्ल (जमा मुज़क्कर मुख़ातब): عَبَدَ ← عَبَدْتُمْ"
+          },
+          "itemCount": 521,
+          "page_numbers": "104–119"
         },
         {
           "number": 5,
-          "title": "Fe'l Mazi Jama Mutakallim: Aghraqnaa, Najjaynaa, Baaraknaa"
+          "title": "Fe'l Maazi ki Paanchveen Shakl (Wahid Mutakallim): عَبَدَ ← عَبَدْتُ",
+          "title_i18n": {
+            "hinglish": "Fe'l Maazi ki Paanchveen Shakl (Wahid Mutakallim): عَبَدَ ← عَبَدْتُ",
+            "en": "Past Tense Form 5 (1st Person Singular — I did): عَبَدَ ← عَبَدْتُ",
+            "ur": "فعلِ ماضی کی پانچویں شکل (واحد متکلم): عَبَدَ ← عَبَدْتُ",
+            "hi": "फ़ेल माज़ी की पाँचवीं शक्ल (वाहिद मुतकल्लिम): عَبَدَ ← عَبَدْتُ"
+          },
+          "itemCount": 160,
+          "page_numbers": "120–125"
         },
         {
           "number": 6,
-          "title": "Fe'l Mazi Wahid Muzakkar Mukhatab: Abadta (Tu ne Ibadat Ki)"
+          "title": "Fe'l Maazi ki Chhati Shakl (Wahid Muzakkar Mukhaatab): عَبَدَ ← عَبَدْتَ",
+          "title_i18n": {
+            "hinglish": "Fe'l Maazi ki Chhati Shakl (Wahid Muzakkar Mukhaatab): عَبَدَ ← عَبَدْتَ",
+            "en": "Past Tense Form 6 (2nd Person Masc. Singular — You did): عَبَدَ ← عَبَدْتَ",
+            "ur": "فعلِ ماضی کی چھٹی شکل (واحد مذکر مخاطب): عَبَدَ ← عَبَدْتَ",
+            "hi": "फ़ेल माज़ी की छठी शक्ल (वाहिद मुज़क्कर मुख़ातब): عَبَدَ ← عَبَدْتَ"
+          },
+          "itemCount": 203,
+          "page_numbers": "126–133"
         },
         {
           "number": 7,
-          "title": "Shartiyyah Usloob: In Kuntum Mu'mineen (Agar Tum Momin Ho)"
+          "title": "Fe'l Maazi ki Saatveen Shakl (Wahid Mu'annas Ghaib): عَبَدَ ← عَبَدَتْ",
+          "title_i18n": {
+            "hinglish": "Fe'l Maazi ki Saatveen Shakl (Wahid Mu'annas Ghaib): عَبَدَ ← عَبَدَتْ",
+            "en": "Past Tense Form 7 (3rd Person Fem. Singular — She/It did): عَبَدَ ← عَبَدَتْ",
+            "ur": "فعلِ ماضی کی ساتویں شکل (واحد مؤنث غائب): عَبَدَ ← عَبَدَتْ",
+            "hi": "फ़ेल माज़ी की सातवीं शक्ल (वाहिद मुअन्नस ग़ायब): عَبَدَ ← عَبَدَتْ"
+          },
+          "itemCount": 284,
+          "page_numbers": "134–143"
         },
         {
           "number": 8,
-          "title": "Fe'l Mazi Majhool Wahid: Unzila (Naazil Kiya Gaya)"
+          "title": "Fe'l Maazi Majhool Wahid (Bina Nisbat Fe'l Maazi): أَنْزَلَ ← أُنْزِلَ ، خَلَقَ ← خُلِقَ",
+          "title_i18n": {
+            "hinglish": "Fe'l Maazi Majhool Wahid (Bina Nisbat Fe'l Maazi): أَنْزَلَ ← أُنْزِلَ ، خَلَقَ ← خُلِقَ",
+            "en": "Passive Past Tense Singular (Maazi Majhool Wahid): أَنْزَلَ ← أُنْزِلَ",
+            "ur": "فعلِ ماضی مجہول واحد: أَنْزَلَ ← أُنْزِلَ ، خَلَقَ ← خُلِقَ",
+            "hi": "फ़ेल माज़ी मजहूल वाहिद: أَنْزَلَ ← أُنْزِلَ ، خَلَقَ ← خُلِقَ"
+          },
+          "itemCount": 361,
+          "page_numbers": "144–155"
         },
         {
           "number": 9,
-          "title": "Fe'l Mazi Majhool Jama: Ukhrijoo (Nikaale Gaye)"
+          "title": "Fe'l Maazi Majhool Jama: أُخْرِجَ ← أُخْرِجُوا ، الَّذِينَ أُوتُوا الْكِتَابَ",
+          "title_i18n": {
+            "hinglish": "Fe'l Maazi Majhool Jama: أُخْرِجَ ← أُخْرِجُوا ، الَّذِينَ أُوتُوا الْكِتَابَ",
+            "en": "Passive Past Tense Plural (Maazi Majhool Jama): أُخْرِجَ ← أُخْرِجُوا",
+            "ur": "فعلِ ماضی مجہول جمع: أُخْرِجَ ← أُخْرِجُوا ، الَّذِينَ أُوتُوا الْكِتَابَ",
+            "hi": "फ़ेल माज़ी मजहूल जमा: أُخْرِجَ ← أُخْرِجُوا ، الَّذِينَ أُوتُوا الْكِتَابَ"
+          },
+          "itemCount": 98,
+          "page_numbers": "156–159"
         },
         {
           "number": 10,
-          "title": "Mazi se Munsalik Quranic Usloob aur Aayat (Fa-ammaa man ootiya)"
+          "title": "Fe'l Maazi se Munsalik Khaas Qur'ani Asaleeb aur Muhaware (10 Capstone Patterns)",
+          "title_i18n": {
+            "hinglish": "Fe'l Maazi se Munsalik Khaas Qur'ani Asaleeb aur Muhaware (10 Capstone Patterns)",
+            "en": "Special Qur'anic Idioms & Rhetorical Styles Connected to Past Tense (10 Capstone Patterns)",
+            "ur": "فعلِ ماضی سے منسلک خاص قرآنی اسالیب اور محاورے (۱۰ اہم اسالیب)",
+            "hi": "फ़ेल माज़ी से मुंसलिक ख़ास क़ुरआनी असालीब और मुहावरे (10 अहम असालीब)"
+          },
+          "itemCount": 335,
+          "page_numbers": "160–175"
         }
       ]
     }
   ],
-  "totalLessons": 114
+  "totalLessons": 114,
+  "totalItems": 14956,
+  "pillars": [
+    {
+      "id": 1,
+      "title": "Nouns, Definiteness (الْـ), Tanween & Gender",
+      "lessons": [
+        "s1l1",
+        "s1l2",
+        "s1l3",
+        "s1l4",
+        "s1l5",
+        "s1l6",
+        "s1l7",
+        "s1l8",
+        "s1l9",
+        "s1l10",
+        "s1l11",
+        "s1l13",
+        "s1l14",
+        "s1l17",
+        "s3l1",
+        "s3l2",
+        "s3l3",
+        "s4l9",
+        "s4l10",
+        "s4l11",
+        "s4l12",
+        "s7l7"
+      ],
+      "summary": "Definite الْـ (Ma'rifah) vs. proper names without الْـ (U1L1); dropping الْـ for indefinite Tanween ـٌ (Nakirah) and equational predicates (U1L13–U1L14); feminine Taa Marbootah ة/ـة nouns (U1L2–U1L5), feminine adjective conversion (Stage 3 p. 76), feminine demonstratives (U1L17), feminine pronouns (U4L9–U4L12), and 3rd-singular feminine past verb agreement (U7L7).",
+      "examples": [
+        "اَلْكِتَابُ ➔ كِتَابٌ",
+        "مُحَمَّدٌ ، مُوسَىٰ ، فِرْعَوْنُ",
+        "آيَةٌ ➔ هٰذِهِ آيَةٌ",
+        "فِتْنَةٌ ⬅ هِيَ فِتْنَةٌ",
+        "عَبَدَ ⬅ عَبَدَتْ"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Number Systems (Singular, Dual / Tasniyah, Sound & Broken Plurals)",
+      "lessons": [
+        "s1l1",
+        "s1l2",
+        "s1l3",
+        "s1l4",
+        "s1l5",
+        "s1l6",
+        "s1l7",
+        "s1l8",
+        "s1l9",
+        "s1l10",
+        "s1l11",
+        "s3l10",
+        "s5l1",
+        "s5l2",
+        "s5l3",
+        "s5l4",
+        "s5l5",
+        "s5l6",
+        "s5l7",
+        "s5l8",
+        "s5l9",
+        "s5l10",
+        "s5l11",
+        "s5l12",
+        "s5l13",
+        "s5l14",
+        "s5l15",
+        "s5l16",
+        "s5l17",
+        "s5l18",
+        "s6l6",
+        "s6l7",
+        "s6l8",
+        "s6l9",
+        "s6l10",
+        "s6l11",
+        "s6l12",
+        "s6l13",
+        "s6l14",
+        "s6l21",
+        "s7l2",
+        "s7l3",
+        "s7l4",
+        "s7l9"
+      ],
+      "summary": "Singular noun base (U1L1–U1L9); Broken Plurals (Jama Mukassar, U1L10 & U5L4) and Sound Feminine Plurals (ـَاتٌ, U1L11); Dual / Tasniyah (ـَانِ / ـَيْنِ, U3L10); Sound Masculine Plurals (ـُونَ / ـِينَ, U5L1–U5L3); plural detached/attached pronouns & demonstratives (U5L5–U5L18); plural present, prohibitive, passive, and past verb forms.",
+      "examples": [
+        "قَلَمٌ ➔ أَقْلَامٌ",
+        "الْجَنَّةُ ➔ الْجَنَّاتُ",
+        "مُؤْمِنٌ ➔ مُؤْمِنَانِ / مُؤْمِنَيْنِ",
+        "الْمُسْلِمُ ⬅ الْمُسْلِمُونَ / الْمُسْلِمِينَ",
+        "يَعْبُدُ ⬅ يَعْبُدُونَ ، عَبَدَ ⬅ عَبَدُوا"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Case Endings (Raf', Nasb, Jarr) & Case Triggers",
+      "lessons": [
+        "s1l6",
+        "s1l13",
+        "s1l14",
+        "s2l1",
+        "s2l2",
+        "s2l3",
+        "s2l4",
+        "s2l5",
+        "s2l6",
+        "s2l7",
+        "s2l8",
+        "s2l9",
+        "s2l10",
+        "s2l11",
+        "s2l12",
+        "s3l1",
+        "s3l2",
+        "s3l3",
+        "s3l4",
+        "s3l5",
+        "s3l6",
+        "s3l7",
+        "s3l10",
+        "s4l3",
+        "s4l7",
+        "s4l11",
+        "s4l15",
+        "s4l17",
+        "s5l1",
+        "s5l2",
+        "s5l3",
+        "s5l22",
+        "s5l23",
+        "s6l3",
+        "s6l13",
+        "s6l14",
+        "s6l15",
+        "s6l16",
+        "s6l17",
+        "s6l18",
+        "s6l19"
+      ],
+      "summary": "Raf' (ـُ / ـٌ / ـَانِ / ـُونَ) on baseline nouns and verbal subjects (Faa'il, U6L3); Jarr (ـِ / ـٍ / ـَيْنِ / ـِينَ) triggered by prepositions (U2L2–U2L7, U5L23), oath وَ (U2L10), and Mudaaf Ilaih (U3L4–U3L7); Nasb (ـَ / ـًا / ـَيْنِ / ـِينَ) triggered by إِنَّ/أَنَّ, لَا, إِلَّا, كَانَ, Haal (U4L17), Tamyeez (U5L22), and Maf'ool (U6L3); plus verbal mood Nasb and Jazm.",
+      "examples": [
+        "الْكِتَابُ ➔ إِنَّ الْكِتَابَ",
+        "لِلْكِتَابِ ، فِي عَذَابٍ عَظِيمٍ",
+        "كَانَ رَسُولًا ، مُجْرِمٌ ⬅ مُجْرِمًا",
+        "يَغْفِرُ اللَّهُ الذُّنُوبَ",
+        "لَنْ نَصْبِرَ ، لَمْ يَجْعَلْ"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Prepositions (Huroof-e-Jarr) & High-Frequency Particles",
+      "lessons": [
+        "s1l12",
+        "s1l18",
+        "s2l1",
+        "s2l2",
+        "s2l3",
+        "s2l4",
+        "s2l5",
+        "s2l6",
+        "s2l7",
+        "s2l8",
+        "s2l9",
+        "s2l10",
+        "s2l11",
+        "s2l12",
+        "s2l13",
+        "s3l3",
+        "s3l6",
+        "s4l4",
+        "s4l8",
+        "s4l12",
+        "s4l16",
+        "s5l8",
+        "s5l12",
+        "s5l16",
+        "s5l19",
+        "s5l20",
+        "s5l23",
+        "s6l2",
+        "s6l13",
+        "s6l14",
+        "s6l15",
+        "s6l16",
+        "s6l17",
+        "s6l18",
+        "s6l19",
+        "s7l1",
+        "s7l2",
+        "s7l3",
+        "s7l4",
+        "s7l5",
+        "s7l6",
+        "s7l7",
+        "s7l8",
+        "s7l9",
+        "s7l10"
+      ],
+      "summary": "Conjunction وَ (U1L12) and emphatic لَـ (U1L18); core prepositions (لِـ, فِي, عَلَىٰ, مِنْ, إِلَىٰ, بِـ) and particles (إِنَّ, لَا, إِلَّا, وَ, أَنَّ, يَا) in U2L1–U2L13; pronoun fusions in Units 4–5; restrictive & sentence-opening particles (U5L19–U5L20); verbal prefixes and past-verb connectors (فَـ, إِذْ, مَا, قَدْ, لَمَّا, إِذَا, لَوْ, لَوْلَا).",
+      "examples": [
+        "كِتَابٌ ➔ لَكِتَابٌ",
+        "لَهُ ، مِنْهُ ، فِيهِ ، إِنَّهُمْ",
+        "مَا هَٰذَا إِلَّا سِحْرٌ",
+        "لَنْ نَصْبِرَ ، أَنْ يَتُوبَ ، لِيَغْفِرَ ، لَمْ يَجْعَلْ",
+        "فَعَلِمَ ، قَدْ جَعَلْنَا ، لَوْ شَاءَ اللَّهُ"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Pronouns (Detached & Attached — Singular, Dual/Plural)",
+      "lessons": [
+        "s4l1",
+        "s4l2",
+        "s4l3",
+        "s4l4",
+        "s4l5",
+        "s4l6",
+        "s4l7",
+        "s4l8",
+        "s4l9",
+        "s4l10",
+        "s4l11",
+        "s4l12",
+        "s4l13",
+        "s4l14",
+        "s4l15",
+        "s4l16",
+        "s5l5",
+        "s5l6",
+        "s5l7",
+        "s5l8",
+        "s5l9",
+        "s5l10",
+        "s5l11",
+        "s5l12",
+        "s5l13",
+        "s5l14",
+        "s5l15",
+        "s5l16",
+        "s5l21",
+        "s6l5",
+        "s6l12",
+        "s6l13",
+        "s6l20",
+        "s7l3",
+        "s7l5",
+        "s7l6"
+      ],
+      "summary": "Singular detached & attached pronouns across 4 persons/genders: هُوَ/ـهُ (U4L1–U4L4), أَنْتَ/ـكَ (U4L5–U4L8), هِيَ/ـهَا (U4L9–U4L12), أَنَا/ـي/ـنِي (U4L13–U4L16); plural detached & attached pronouns: هُمْ/ـهُمْ (U5L5–U5L8), أَنْتُمْ/ـكُمْ (U5L9–U5L12), نَحْنُ/ـنَا (U5L13–U5L16); dual ـهُمَا in وَمَا بَيْنَهُمَا (U5L21); and attached object pronouns on present & past verbs.",
+      "examples": [
+        "هُوَ رَسُولٌ ، بَيْتُهُ ، فِي بَيْتِهِ",
+        "أَنْتَ يُوسُفُ ، بَيْتُكَ ، هِيَ فِتْنَةٌ ، بَيْتُهَا",
+        "أَنَا يُوسُفُ ، بَيْتِي ، مِنِّي",
+        "هُمْ مُسْلِمُونَ ، كِتَابُكُمْ ، كِتَابُنَا",
+        "يَأْمُرُكُمْ ، يَسْأَلُونَكَ ، جَعَلْنَاهُمْ ، خَلَقْتُكَ"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Nominal & Genitive Compounds (Tawseefi, Izaafi, Ishaari)",
+      "lessons": [
+        "s1l15",
+        "s1l16",
+        "s1l17",
+        "s3l1",
+        "s3l2",
+        "s3l3",
+        "s3l4",
+        "s3l5",
+        "s3l6",
+        "s3l7",
+        "s4l2",
+        "s4l6",
+        "s4l10",
+        "s4l14",
+        "s5l3",
+        "s5l6",
+        "s5l10",
+        "s5l14",
+        "s5l17",
+        "s5l18"
+      ],
+      "summary": "Ishaari demonstratives هَٰذَا, ذَٰلِكَ, هٰذِهِ, تِلْكَ (U1L15–U1L17) and plural أُولٰئِكَ, هٰؤُلَاءِ (U5L17–U5L18); Tawseefi noun + adjective agreement (U3L1–U3L3, preceded by Stage 3 p. 76); Izaafi possessive chains (Mudaaf drops tanween, Mudaaf Ilaih takes Jarr, U3L4–U3L7, U5L3), including كُلُّ (U3L7) and noun + attached pronoun chains.",
+      "examples": [
+        "هَٰذَا كِتَابٌ ، ذَٰلِكَ الْفَضْلُ ، أُولَٰئِكَ مُسْلِمُونَ",
+        "شَيْءٌ عَظِيمٌ ، فِي عَذَابٍ عَظِيمٍ",
+        "رَبُّ الْمَشْرِقِ ، كِتَابُ اللَّهِ ، فِي سَبِيلِ اللَّهِ",
+        "كُلُّ نَفْسٍ ، أَجْرُ الْمُسْلِمِينَ"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Active & Passive Participles (Ism Faa'il, Ism Maf'ool, Ism Tafzeel)",
+      "lessons": [
+        "s1l19",
+        "s3l8",
+        "s3l9",
+        "s4l18",
+        "s5l1",
+        "s5l2",
+        "s5l21",
+        "s5l22",
+        "s7l1"
+      ],
+      "summary": "Ism-ut-Tafzeel (أَفْعَلُ, U1L19, paired with Tamyeez U5L22 and مِنْ comparison U7L1); triliteral Ism Faa'il (فَاعِلٌ) and intensive Mubalaghah (فَعَّالٌ, U3L8); derived active and passive participles with مُـ (U3L9); triliteral Ism Maf'ool (مَفْعُولٌ, U4L18); and sound masculine plural participles (U5L1–U5L2).",
+      "examples": [
+        "كَبِيرٌ ➔ أَكْبَرُ ، أَشَدُّ قُوَّةً",
+        "خَالِقٌ ، رَازِقٌ ، حَافِظٌ ، خَلَّاقٌ",
+        "مُسْلِمٌ ، مُهَاجِرٌ ، مُنْتَظِرٌ ، مُسَخَّرٌ",
+        "مَظْلُومٌ ، مَذْكُورٌ ، مَنْصُورٌ",
+        "الْمُكَذِّبُونَ ، الْمَسْحُورُونَ"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Verb System (Mudhari', Amr, Nahi, Shart, Nasb/Jazm, Majhool, Maazi)",
+      "lessons": [
+        "s2l12",
+        "s5l20",
+        "s5l21",
+        "s6l1",
+        "s6l2",
+        "s6l3",
+        "s6l4",
+        "s6l5",
+        "s6l6",
+        "s6l7",
+        "s6l8",
+        "s6l9",
+        "s6l10",
+        "s6l11",
+        "s6l12",
+        "s6l13",
+        "s6l14",
+        "s6l15",
+        "s6l16",
+        "s6l17",
+        "s6l18",
+        "s6l19",
+        "s6l20",
+        "s6l21",
+        "s7l1",
+        "s7l2",
+        "s7l3",
+        "s7l4",
+        "s7l5",
+        "s7l6",
+        "s7l7",
+        "s7l8",
+        "s7l9",
+        "s7l10"
+      ],
+      "summary": "Proto-verbs كَانَ (U2L12), لَيْسَ (U5L20), Amr قُلْ (U5L21); complete Unit 6 Fe'l Mudhari' (3rd/2nd/1st persons, active & passive Majhool, Nahi, Shart, Nasb, Jazm); and complete Unit 7 single-sighah Fe'l Maazi mastery (عَمِلَ, عَبَدُوا, جَعَلْنَا, عَبَدْتُمْ, عَبَدْتُ, عَبَدْتَ, عَبَدَتْ, plus passive أُنْزِلَ and أُخْرِجُوا) including weak/irregular and derived stems.",
+      "examples": [
+        "يَعْبُدُ ← تَعْبُدُ ، يَعْبُدُونَ ، تَعْبُدُونَ ، أَعْبُدُ ، نَعْبُدُ",
+        "لَا تَقْتُلُوا ، لَا تَظْلِمْ ، لَا تَدْعُ ، لَا تَخَفْ",
+        "مَنْ يَشْكُرْ ، أَنْ يَتُوبَ ، لِيَغْفِرَ ، لَمْ يَجْعَلْ",
+        "يَرْزُقُ ⬅ يُرْزَقُ ، أَنْزَلَ ⬅ أُنْزِلَ",
+        "عَمِلَ ، جَاهَدَ ، أَنْزَلَ ، اِسْتَغْفَرَ ، أُوتُوا"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Recurring Qur'anic Idioms (Muhaawaraat)",
+      "lessons": [
+        "s5l19",
+        "s5l21",
+        "s5l23",
+        "s6l4",
+        "s6l7",
+        "s6l11",
+        "s6l13",
+        "s6l16",
+        "s6l17",
+        "s6l19",
+        "s7l1",
+        "s7l2",
+        "s7l3",
+        "s7l4",
+        "s7l5",
+        "s7l6",
+        "s7l7",
+        "s7l8",
+        "s7l9",
+        "s7l10"
+      ],
+      "summary": "Idiomatic clause frames taught as whole semantic templates: restrictive negation (U5L19), 15 foundational idioms (U5L21), emphatic Min negation (U5L23), relative/conditional Mudhari' idioms (U6L4, U6L7, U6L11, U6L13, U6L16–U6L17, U6L19), past-verb Muhaawaraat anchored to خَلَقَ, قَالَ, كَانَ, كَفَرُوا, جَعَلْنَا, رَأَيْتُمْ, حَبِطَتْ, أُنْزِلَ, أُوتُوا (U7L1–U7L9), and 10 capstone rhetorical styles (U7L10).",
+      "examples": [
+        "أَلَيْسَ ، مَا أَدْرَاكَ مَا ، سُبْحَانَ",
+        "مَنْ يَشَاءُ ، أَفَلَا يَعْلَمُونَ ، مَنْ يَشْكُرْ",
+        "أَلَمْ تَرَ أَنَّ ، قَالَ لِقَوْمِهِ ، كَانُوا يَكْسِبُونَ",
+        "لَوْ شَاءَ اللَّهُ ، أَفَمَنْ ... كَمَنْ ، إِنَّهُ لَا يُفْلِحُ الظَّالِمُونَ"
+      ]
+    }
+  ]
 }
