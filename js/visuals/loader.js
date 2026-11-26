@@ -1,51 +1,55 @@
 // @ts-check
 
 /**
- * Muallim ul-Qur'an — Modular Grammar Visuals Loader (v2.0)
- * Handles dynamic import of unit visual modules, memory cleanup via destroy(),
- * and graceful fallback to archetypes.
+ * Muallim ul-Qur'an — Modular Grammar Visuals Loader (v7.0)
+ * Handles dynamic import of unit visual modules with monotonic cancellation tokens
+ * and memory cleanup via destroy().
  */
 
 /**
  * @type {Map<string, {mount: Function, destroy: Function}>}
  */
 const _activeVisual = new Map();
+let _loadToken = 0;
 
 /**
  * Load and mount a lesson's grammar visual.
  * @param {string} lessonKey - Format: "s1l3" (unit 1, lesson 3)
- * @param {string} containerId - DOM element ID to mount into
+ * @param {string | HTMLElement} containerId - DOM element ID or element to mount into
  * @returns {Promise<void>}
  */
 export async function loadVisual(lessonKey, containerId) {
+  const token = ++_loadToken;
   const cKey = typeof containerId === 'string' ? containerId : (containerId?.id || 'visual-container');
-  // Destroy previous visual to prevent memory leaks (QG-1)
+
+  // Destroy previous visual before loading next to prevent memory leaks
   if (_activeVisual.has(cKey)) {
     const prev = _activeVisual.get(cKey);
     if (prev && typeof prev.destroy === 'function') {
       try {
         prev.destroy();
       } catch (err) {
-        console.warn('Error during visual destroy():', err);
+        console.warn('[VisualLoader] Error during visual destroy():', err);
       }
     }
     _activeVisual.delete(cKey);
   }
 
-  const normalizedKey = (lessonKey || '').toLowerCase();
+  const normalizedKey = String(lessonKey || '').toLowerCase();
   const match = normalizedKey.match(/s(\d+)l(\d+)/);
-  const unitNum = match ? parseInt(match[1], 10) : 1;
+  const unitNum = Math.min(7, Math.max(1, match ? parseInt(match[1], 10) : 1));
 
   let mod;
   try {
     mod = await import(`./unit${unitNum}.js`);
   } catch (err) {
-    // Graceful fallback to archetypes (mixed-state deployment §2.3)
-    try {
-      mod = await import('./archetypes.js');
-    } catch (fallbackErr) {
-      console.warn('Failed to load fallback archetypes:', fallbackErr);
-    }
+    console.warn(`[VisualLoader] Failed to load unit${unitNum}.js:`, err);
+    return;
+  }
+
+  // Abort if another loadVisual or destroyVisual call superseded this import
+  if (token !== _loadToken) {
+    return;
   }
 
   if (mod && typeof mod.mount === 'function') {
@@ -55,11 +59,12 @@ export async function loadVisual(lessonKey, containerId) {
 }
 
 /**
- * Clean up active visual in container.
+ * Clean up active visual in container and invalidate pending imports.
  * @param {string | HTMLElement} containerId
  * @returns {void}
  */
 export function destroyVisual(containerId) {
+  _loadToken++;
   const cKey = typeof containerId === 'string' ? containerId : (containerId?.id || 'visual-container');
   if (_activeVisual.has(cKey)) {
     const prev = _activeVisual.get(cKey);
@@ -67,48 +72,11 @@ export function destroyVisual(containerId) {
       try {
         prev.destroy();
       } catch (err) {
-        console.warn('Error during visual destroy():', err);
+        console.warn('[VisualLoader] Error during visual destroy():', err);
       }
     }
     _activeVisual.delete(cKey);
   }
   const el = typeof containerId === 'string' ? document.getElementById(containerId) : containerId;
   if (el) el.innerHTML = '';
-}
-
-// Attach to window for non-module script consumption and legacy GrammarVisuals compatibility
-if (typeof window !== 'undefined') {
-  /** @type {any} */ (window).VisualLoader = {
-    loadVisual,
-    destroyVisual
-  };
-
-  const existingRegistry = /** @type {any} */ (window).GrammarVisuals?.Registry || {};
-
-  /** @type {any} */ (window).GrammarVisuals = {
-    Registry: existingRegistry,
-    /**
-     * Compatibility shim delegating legacy GrammarVisuals.mount(lessonKey, containerId) to VisualLoader.
-     * @param {string} lessonKey
-     * @param {string | HTMLElement} containerId
-     * @returns {Promise<void>}
-     */
-    mount(lessonKey, containerId) {
-      return loadVisual(lessonKey, containerId);
-    },
-    /**
-     * @param {string | HTMLElement} containerId
-     * @returns {void}
-     */
-    destroy(containerId) {
-      destroyVisual(containerId);
-    },
-    /**
-     * @param {string} _lessonKey
-     * @returns {boolean}
-     */
-    has(_lessonKey) {
-      return true;
-    }
-  };
 }

@@ -1,7 +1,7 @@
 // @ts-check
 
 /**
- * Muallim ul-Qur'an — Practice Quiz & Morphology Builder Controller (v6.0)
+ * Muallim ul-Qur'an — Practice Quiz & Morphology Builder Controller (v7.0)
  * Owns #practice-dialog: multilingual curated quizzes (data/quizzes/unitN.json)
  * plus interactive Root & Affix Morphology Builder for Units 5–7.
  */
@@ -9,6 +9,8 @@
 import { store } from './store.js';
 import { audioPlayer } from './audio.js';
 import { AudioFX } from '../audio-fx.js';
+
+const ICON_SPEAK = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M15.54 8.46a5 5 0 0 1 0 7.07"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></svg>`;
 
 /**
  * @param {string} val
@@ -37,14 +39,107 @@ function shuffle(arr) {
 }
 
 /**
+ * Parse a segment HTML string into token descriptors (works in DOM and pure Node).
+ * @param {string} segHtml
+ * @returns {{
+ *   words: Array<Array<{role: 'root' | 'affix' | 'other', text: string}>>,
+ *   flatTokens: Array<{role: 'root' | 'affix' | 'other', text: string, spacedBefore: boolean}>
+ * }}
+ */
+function parseSegmentTokens(segHtml) {
+  /** @type {Array<Array<{role: 'root' | 'affix' | 'other', text: string}>>} */
+  const words = [];
+  /** @type {Array<{role: 'root' | 'affix' | 'other', text: string, spacedBefore: boolean}>} */
+  const flatTokens = [];
+
+  if (typeof document !== 'undefined' && typeof Node !== 'undefined') {
+    const tpl = document.createElement('template');
+    tpl.innerHTML = segHtml;
+
+    let current = [];
+    let hadSpace = false;
+    for (const node of tpl.content.childNodes) {
+      if (node.nodeType === Node.TEXT_NODE) {
+        const txt = node.textContent || '';
+        if (txt.trim() === '') {
+          hadSpace = true;
+          if (current.length) {
+            words.push(current);
+            current = [];
+          }
+        } else {
+          const clean = txt.trim();
+          const tok = { role: /** @type {'other'} */ ('other'), text: clean };
+          current.push(tok);
+          flatTokens.push({ ...tok, spacedBefore: hadSpace });
+          hadSpace = false;
+        }
+      } else if (node.nodeType === Node.ELEMENT_NODE) {
+        const el = /** @type {HTMLElement} */ (node);
+        const role = el.classList.contains('arabic-root')
+          ? 'root'
+          : el.classList.contains('nonroot')
+            ? 'affix'
+            : 'other';
+        const text = (el.textContent || '').trim();
+        if (text) {
+          const tok = { role: /** @type {'root' | 'affix' | 'other'} */ (role), text };
+          current.push(tok);
+          flatTokens.push({ ...tok, spacedBefore: hadSpace });
+          hadSpace = false;
+        }
+      }
+    }
+    if (current.length) words.push(current);
+    return { words, flatTokens };
+  }
+
+  // Fallback parser for pure Node.js unit tests without DOM
+  const re = /<span\s+class=["']([^"']+)["'][^>]*>([\s\S]*?)<\/span>|([^<]+)/gi;
+  let current = [];
+  let hadSpace = false;
+  let match;
+  while ((match = re.exec(segHtml)) !== null) {
+    if (match[3] !== undefined) {
+      const txt = match[3];
+      if (txt.trim() === '') {
+        hadSpace = true;
+        if (current.length) {
+          words.push(current);
+          current = [];
+        }
+      } else {
+        const tok = { role: /** @type {'other'} */ ('other'), text: txt.trim() };
+        current.push(tok);
+        flatTokens.push({ ...tok, spacedBefore: hadSpace });
+        hadSpace = false;
+      }
+    } else {
+      const cls = match[1] || '';
+      const text = (match[2] || '').replace(/<[^>]+>/g, '').trim();
+      if (!text) continue;
+      const role = cls.includes('arabic-root') ? 'root' : cls.includes('nonroot') ? 'affix' : 'other';
+      const tok = { role: /** @type {'root' | 'affix' | 'other'} */ (role), text };
+      current.push(tok);
+      flatTokens.push({ ...tok, spacedBefore: hadSpace });
+      hadSpace = false;
+    }
+  }
+  if (current.length) words.push(current);
+  return { words, flatTokens };
+}
+
+/**
  * Extract a Morphology Builder challenge from an item's `arabic_markup` spans.
- * Parses HTML via <template> rather than brittle regex over tags.
+ * Supports intra-word affixes (`affix+root`, `root+affix`, `affix+root+affix`),
+ * multi-word particle+root expressions (`أَنْتُمْ مُسْلِمُونَ`, `أُولَٰئِكَ أَصْحَابُ`, `أَشَدُّ بَطْشًا`, `مِنْ شِرْكٍ`),
+ * and `nonroot` particle phrases (`أَنْ يَغْفِرَ`, `لَمْ يُؤْمِنْ`).
  * @param {any} item
  * @returns {{prefix: string, root: string, suffix: string, target: string, baseHint: string, meaning: string, ref: string} | null}
  */
 export function extractMorphChallenge(item) {
   const am = item && item.arabic_markup;
-  if (!am || typeof am !== 'string' || !am.includes('arabic-root') || !am.includes('nonroot')) {
+  if (!am || typeof am !== 'string' || !am.includes('nonroot')) {
     return null;
   }
 
@@ -52,58 +147,31 @@ export function extractMorphChallenge(item) {
   const baseHint = segments.length > 1
     ? segments[0].replace(/<[^>]+>/g, '').trim()
     : '';
+  const meaning = store.getTranslation(item);
+  const ref = item.ref || '';
 
-  const tpl = document.createElement('template');
+  // Pass 1: Intra-word contiguous affix+root / root+affix / affix+root+affix
   for (let s = segments.length - 1; s >= 0; s--) {
-    tpl.innerHTML = segments[s];
-    // Group contiguous inline nodes separated by whitespace text nodes
-    /** @type {Array<Array<Node>>} */
-    const words = [];
-    let current = [];
-    for (const node of tpl.content.childNodes) {
-      if (node.nodeType === Node.TEXT_NODE) {
-        if ((node.textContent || '').trim() === '') {
-          if (current.length) {
-            words.push(current);
-            current = [];
-          }
-        } else {
-          current.push(node);
-        }
-      } else {
-        current.push(node);
-      }
-    }
-    if (current.length) words.push(current);
-
+    const { words } = parseSegmentTokens(segments[s]);
     for (const wordNodes of words) {
-      if (wordNodes.some(n => n.nodeType !== Node.ELEMENT_NODE)) continue;
-      const els = /** @type {HTMLElement[]} */ (wordNodes);
-      const roles = els.map(el => {
-        if (el.classList.contains('arabic-root')) return 'root';
-        if (el.classList.contains('nonroot')) return 'affix';
-        return 'other';
-      });
-      if (roles.includes('other')) continue;
-
-      const key = roles.join('+');
+      if (wordNodes.some(t => t.role === 'other')) continue;
+      const key = wordNodes.map(t => t.role).join('+');
       let prefix = '';
       let root = '';
       let suffix = '';
       if (key === 'affix+root') {
-        prefix = (els[0].textContent || '').trim();
-        root = (els[1].textContent || '').trim();
+        prefix = wordNodes[0].text;
+        root = wordNodes[1].text;
       } else if (key === 'root+affix') {
-        root = (els[0].textContent || '').trim();
-        suffix = (els[1].textContent || '').trim();
+        root = wordNodes[0].text;
+        suffix = wordNodes[1].text;
       } else if (key === 'affix+root+affix') {
-        prefix = (els[0].textContent || '').trim();
-        root = (els[1].textContent || '').trim();
-        suffix = (els[2].textContent || '').trim();
+        prefix = wordNodes[0].text;
+        root = wordNodes[1].text;
+        suffix = wordNodes[2].text;
       } else {
         continue;
       }
-
       if (!root || (!prefix && !suffix)) continue;
       return {
         prefix,
@@ -111,11 +179,96 @@ export function extractMorphChallenge(item) {
         suffix,
         target: `${prefix}${root}${suffix}`,
         baseHint,
-        meaning: store.getTranslation(item),
-        ref: item.ref || ''
+        meaning,
+        ref
       };
     }
   }
+
+  // Pass 2: Multi-word expressions (e.g. nonroot particle/pronoun + arabic-root, or arabic-root + nonroot)
+  for (let s = segments.length - 1; s >= 0; s--) {
+    const { flatTokens } = parseSegmentTokens(segments[s]);
+    if (flatTokens.length < 2) continue;
+
+    // Look for affix + root + affix (e.g. مَا هٰذَا إِلَّا)
+    for (let i = 0; i <= flatTokens.length - 3; i++) {
+      const a = flatTokens[i];
+      const b = flatTokens[i + 1];
+      const c = flatTokens[i + 2];
+      if (a.role === 'affix' && b.role === 'root' && c.role === 'affix') {
+        const prefix = `${a.text} `;
+        const root = b.text;
+        const suffix = ` ${c.text}`;
+        return {
+          prefix,
+          root,
+          suffix,
+          target: `${prefix}${root}${suffix}`,
+          baseHint,
+          meaning,
+          ref
+        };
+      }
+    }
+
+    // Look for affix + root (e.g. أَنْتُمْ مُسْلِمُونَ, أُولَٰئِكَ أَصْحَابُ, مِنْ شِرْكٍ, وَمَا مُحَمَّدٌ)
+    for (let i = 0; i <= flatTokens.length - 2; i++) {
+      const a = flatTokens[i];
+      const b = flatTokens[i + 1];
+      if (a.role === 'affix' && b.role === 'root') {
+        const prefix = `${a.text} `;
+        const root = b.text;
+        return {
+          prefix,
+          root,
+          suffix: '',
+          target: `${prefix}${root}`,
+          baseHint,
+          meaning,
+          ref
+        };
+      }
+    }
+
+    // Look for root + affix (e.g. أَشَدُّ بَطْشًا, أَنْ يُبَدِّلَ)
+    for (let i = 0; i <= flatTokens.length - 2; i++) {
+      const a = flatTokens[i];
+      const b = flatTokens[i + 1];
+      if (a.role === 'root' && b.role === 'affix') {
+        const root = a.text;
+        const suffix = ` ${b.text}`;
+        return {
+          prefix: '',
+          root,
+          suffix,
+          target: `${root}${suffix}`,
+          baseHint,
+          meaning,
+          ref
+        };
+      }
+    }
+
+    // Pass 3: nonroot particle phrases (e.g. <span class="nonroot">أَنْ</span> <span class="nonroot">يَغْفِرَ</span>)
+    for (let i = 0; i <= flatTokens.length - 2; i++) {
+      const a = flatTokens[i];
+      const b = flatTokens[i + 1];
+      if (a.role === 'affix' && b.role === 'affix') {
+        const prefix = `${a.text} `;
+        const root = b.text;
+        return {
+          prefix,
+          root,
+          suffix: '',
+          target: `${prefix}${root}`,
+          baseHint,
+          meaning,
+          ref
+        };
+      }
+    }
+  }
+
   return null;
 }
 
@@ -136,7 +289,8 @@ export class PracticeController {
     this.isLoadingQuiz = false;
 
     // Quiz state
-    this.questions = /** @type {Array<{prompt: string, arabic: string, options: Array<{text: string, isCorrect: boolean, explanation: string}>}>} */ ([]);
+    /** @type {Array<{key: string, prompt: string, arabic: string, options: Array<{text: string, isCorrect: boolean, explanation: string}>}>} */
+    this.questions = [];
     this.qIndex = 0;
     this.qScore = 0;
     this.qAnswered = false;
@@ -144,11 +298,14 @@ export class PracticeController {
     this.qFinished = false;
 
     // Morphology Builder state
-    this.morphDeck = /** @type {Array<{prefix: string, root: string, suffix: string, target: string, baseHint: string, meaning: string, ref: string}>} */ ([]);
+    /** @type {Array<{key: string, prefix: string, root: string, suffix: string, target: string, baseHint: string, meaning: string, ref: string}>} */
+    this.morphDeck = [];
     this.morphIndex = 0;
     this.morphScore = 0;
-    this.morphPrefixOptions = /** @type {string[]} */ ([]);
-    this.morphSuffixOptions = /** @type {string[]} */ ([]);
+    /** @type {string[]} */
+    this.morphPrefixOptions = [];
+    /** @type {string[]} */
+    this.morphSuffixOptions = [];
     this.selectedPrefix = '';
     this.selectedSuffix = '';
     this.morphChecked = false;
@@ -195,10 +352,77 @@ export class PracticeController {
     if (!dlg.open) dlg.showModal();
 
     if (mode === 'morph') {
+      await this._ensureUnitLoadedForMorph(store.currentUnit);
       this._prepareMorphDeck();
       this.render();
     } else {
       await this._loadAndStartQuiz();
+    }
+  }
+
+  async _ensureUnitLoadedForMorph(unitNum) {
+    if (unitNum >= 5 && !store.unitsCache[unitNum] && typeof store.loadUnit === 'function') {
+      try {
+        await store.loadUnit(unitNum);
+      } catch (err) {
+        console.warn('[Morph] Unit pool load skipped:', err);
+      }
+    }
+  }
+
+  /**
+   * Resolve a canonical itemKey for a quiz question by matching against the active lesson.
+   * @param {number} u
+   * @param {number} l
+   * @param {string} arabic
+   * @param {string | number} fallbackId
+   * @returns {string}
+   */
+  _resolveQuizQuestionKey(u, l, arabic, fallbackId) {
+    const lesson = store.getLesson(u, l);
+    if (lesson && Array.isArray(lesson.sections) && arabic) {
+      for (let sIdx = 0; sIdx < lesson.sections.length; sIdx++) {
+        const items = (lesson.sections[sIdx].data && lesson.sections[sIdx].data.items) || [];
+        for (let iIdx = 0; iIdx < items.length; iIdx++) {
+          const it = items[iIdx];
+          if (it.arabic === arabic) {
+            return store.getItemKey(u, l, it, sIdx, iIdx);
+          }
+        }
+      }
+    }
+    return `S${u}L${l}_num_${fallbackId}`;
+  }
+
+  /**
+   * Record a missed item in weakWords and reset its Leitner SRS entry to Box 1.
+   * @param {{key: string, arabic: string, gloss: string, ref?: string}} info
+   */
+  _recordMiss(info) {
+    if (!info || !info.key) return;
+    if (typeof store.recordWeakWord === 'function') {
+      store.recordWeakWord({
+        key: info.key,
+        arabic: info.arabic || '',
+        gloss: info.gloss || '',
+        ref: info.ref || '',
+        stage: store.currentUnit,
+        lesson: store.currentLesson
+      });
+    }
+    if (typeof store.saveSrsState === 'function') {
+      const now = Date.now();
+      const prev = (store.srs && store.srs[info.key]) || { box: 1, reps: 0, lapses: 0, lastReview: 0, nextReview: now };
+      store.saveSrsState({
+        ...(store.srs || {}),
+        [info.key]: {
+          box: 1,
+          reps: (prev.reps || 0) + 1,
+          lapses: (prev.lapses || 0) + 1,
+          lastReview: now,
+          nextReview: now
+        }
+      });
     }
   }
 
@@ -228,18 +452,20 @@ export class PracticeController {
         const entry = list.find(x => String(x.lessonId || '').toLowerCase() === lKey);
         if (entry && Array.isArray(entry.questions) && entry.questions.length > 0) {
           const lang = store.lang;
-          questions = entry.questions.map(q => {
+          questions = entry.questions.map((q, qIdx) => {
             const prompt = (q.question && (q.question[lang] || q.question.hinglish || q.question.en)) || '';
             const rawOpts = (q.options && (q.options[lang] || q.options.hinglish || q.options.en)) || [];
             const expl = (q.explanation && (q.explanation[lang] || q.explanation.hinglish || q.explanation.en)) || '';
+            const arabic = q.arabic || '';
             return {
+              key: this._resolveQuizQuestionKey(u, l, arabic, q.id || `q${qIdx + 1}`),
               prompt,
-              arabic: q.arabic || '',
-              options: rawOpts.map((text, idx) => ({
+              arabic,
+              options: shuffle(rawOpts.map((text, idx) => ({
                 text,
                 isCorrect: idx === q.correct,
                 explanation: expl
-              }))
+              })))
             };
           });
         }
@@ -265,11 +491,18 @@ export class PracticeController {
     const lesson = store.getLesson(unit, lessonId);
     const items = [];
     if (lesson && Array.isArray(lesson.sections)) {
-      for (const sec of lesson.sections) {
-        for (const it of ((sec.data && sec.data.items) || [])) {
+      for (let sIdx = 0; sIdx < lesson.sections.length; sIdx++) {
+        const sec = lesson.sections[sIdx];
+        const secItems = (sec.data && sec.data.items) || [];
+        for (let iIdx = 0; iIdx < secItems.length; iIdx++) {
+          const it = secItems[iIdx];
           const tr = store.getTranslation(it);
           if (it.arabic && tr && !String(it.arabic).includes('----')) {
-            items.push({ arabic: it.arabic, gloss: tr });
+            items.push({
+              key: store.getItemKey(unit, lessonId, it, sIdx, iIdx),
+              arabic: it.arabic,
+              gloss: tr
+            });
           }
         }
       }
@@ -281,6 +514,7 @@ export class PracticeController {
       const others = shuffle(items.filter(x => x.gloss !== target.gloss)).slice(0, 3);
       if (others.length < 3) break;
       out.push({
+        key: target.key,
         prompt: 'Select the accurate translation for this Arabic expression:',
         arabic: target.arabic,
         options: shuffle([
@@ -302,31 +536,48 @@ export class PracticeController {
       return;
     }
 
-    const lesson = store.getLesson(store.currentUnit, store.currentLesson);
-    const unitLessons = store.unitsCache[store.currentUnit] || [];
+    const u = store.currentUnit;
+    const lid = store.currentLesson;
+    const lesson = store.getLesson(u, lid);
+    const unitLessons = store.unitsCache[u] || [];
     const currentChallenges = [];
     const unitChallenges = [];
+    const seenTargets = new Set();
 
     if (lesson) {
-      for (const sec of (lesson.sections || [])) {
-        for (const it of ((sec.data && sec.data.items) || [])) {
+      const secs = lesson.sections || [];
+      for (let sIdx = 0; sIdx < secs.length; sIdx++) {
+        const items = (secs[sIdx].data && secs[sIdx].data.items) || [];
+        for (let iIdx = 0; iIdx < items.length; iIdx++) {
+          const it = items[iIdx];
           const ch = extractMorphChallenge(it);
-          if (ch) currentChallenges.push(ch);
+          if (ch && !seenTargets.has(ch.target)) {
+            seenTargets.add(ch.target);
+            currentChallenges.push({ ...ch, key: store.getItemKey(u, lid, it, sIdx, iIdx) });
+          }
         }
       }
     }
 
     for (const ul of unitLessons) {
-      for (const sec of (ul.sections || [])) {
-        for (const it of ((sec.data && sec.data.items) || [])) {
+      const ulId = Number(ul.lesson_id);
+      const secs = ul.sections || [];
+      for (let sIdx = 0; sIdx < secs.length; sIdx++) {
+        const items = (secs[sIdx].data && secs[sIdx].data.items) || [];
+        for (let iIdx = 0; iIdx < items.length; iIdx++) {
+          const it = items[iIdx];
           const ch = extractMorphChallenge(it);
-          if (ch) unitChallenges.push(ch);
+          if (ch) {
+            unitChallenges.push({ ...ch, key: store.getItemKey(u, ulId, it, sIdx, iIdx) });
+          }
         }
       }
     }
 
-    const pool = currentChallenges.length >= 3 ? currentChallenges : unitChallenges;
-    this.morphDeck = shuffle(pool).slice(0, 6);
+    const pool = currentChallenges.length >= 6
+      ? currentChallenges
+      : [...currentChallenges, ...unitChallenges.filter(c => !seenTargets.has(c.target))];
+    this.morphDeck = shuffle(pool.slice(0, 24)).slice(0, 6);
     this._setupMorphRound();
   }
 
@@ -339,15 +590,27 @@ export class PracticeController {
     if (!round) return;
 
     const unitLessons = store.unitsCache[store.currentUnit] || [];
-    const prefixPool = new Set(['يَ', 'تَ', 'أَ', 'نَ', 'لَا ', 'لِـ', 'بِ']);
-    const suffixPool = new Set(['ُونَ', 'ِينَ', 'ُوا', 'نَا', 'تُمْ', 'هُمْ', 'كُمْ', 'هَا', 'تْ']);
+    const isSpacedPrefix = round.prefix.endsWith(' ');
+    const isSpacedSuffix = round.suffix.startsWith(' ');
+
+    const prefixPool = new Set(
+      isSpacedPrefix
+        ? ['أَنْتُمْ ', 'أُولَٰئِكَ ', 'مَا ', 'مِنْ ', 'أَنْ ', 'لَنْ ', 'لَمْ ']
+        : ['يَ', 'تَ', 'أَ', 'نَ', 'لَا ', 'لِـ', 'بِ']
+    );
+    const suffixPool = new Set(
+      isSpacedSuffix
+        ? [' بَطْشًا', ' قُوَّةً', ' عَذَابًا', ' إِلَّا', ' مُبِينٌ', ' نَذِيرٌ']
+        : ['ُونَ', 'ِينَ', 'ُوا', 'نَا', 'تُمْ', 'هُمْ', 'كُمْ', 'هَا', 'تْ']
+    );
+
     for (const ul of unitLessons) {
       for (const sec of (ul.sections || [])) {
         for (const it of ((sec.data && sec.data.items) || [])) {
           const ch = extractMorphChallenge(it);
           if (ch) {
-            if (ch.prefix) prefixPool.add(ch.prefix);
-            if (ch.suffix) suffixPool.add(ch.suffix);
+            if (ch.prefix && ch.prefix.endsWith(' ') === isSpacedPrefix) prefixPool.add(ch.prefix);
+            if (ch.suffix && ch.suffix.startsWith(' ') === isSpacedSuffix) suffixPool.add(ch.suffix);
           }
         }
       }
@@ -430,7 +693,7 @@ export class PracticeController {
 
     const q = this.questions[this.qIndex];
     const isUrdu = store.lang === 'ur';
-    const pct = Math.round(((this.qIndex + 1) / this.questions.length) * 100);
+    const ratio = Math.min(1, Math.max(0, (this.qIndex + 1) / Math.max(1, this.questions.length)));
 
     body.innerHTML = `
       <div class="quiz-progress-row tabular-nums">
@@ -438,7 +701,7 @@ export class PracticeController {
         <span>Score: ${this.qScore} / ${this.qAnswered ? this.qIndex + 1 : this.qIndex}</span>
       </div>
       <div class="quiz-progress-track">
-        <div class="quiz-progress-fill" style="width:${pct}%"></div>
+        <div class="quiz-progress-fill" id="quiz-progress-fill"></div>
       </div>
 
       <div class="quiz-prompt" ${isUrdu ? 'dir="rtl" lang="ur"' : ''}>${esc(q.prompt)}</div>
@@ -470,6 +733,11 @@ export class PracticeController {
       ` : ''}
     `;
 
+    const fillEl = /** @type {HTMLElement | null} */ (body.querySelector('#quiz-progress-fill'));
+    if (fillEl) {
+      fillEl.style.setProperty('--progress-scale', String(ratio));
+    }
+
     body.querySelectorAll('[data-opt-idx]').forEach(btn => {
       btn.addEventListener('click', () => {
         if (this.qAnswered) return;
@@ -482,6 +750,12 @@ export class PracticeController {
           AudioFX.play('correct');
         } else {
           AudioFX.play('wrong');
+          const correctOpt = q.options.find(o => o.isCorrect);
+          this._recordMiss({
+            key: q.key,
+            arabic: q.arabic || q.prompt,
+            gloss: correctOpt ? correctOpt.text : ''
+          });
         }
         this.render();
       });
@@ -496,6 +770,16 @@ export class PracticeController {
       } else {
         this.qFinished = true;
         this._persistQuizScore();
+        if (typeof store.recordExamAttempt === 'function') {
+          store.recordExamAttempt({
+            examId: `quiz_s${store.currentUnit}l${store.currentLesson}`,
+            mode: 'quiz',
+            score: this.qScore,
+            total: this.questions.length,
+            pct: Math.round((this.qScore / Math.max(1, this.questions.length)) * 100),
+            completedAt: Date.now()
+          });
+        }
         store.recordStudyActivity(1);
         this.render();
       }
@@ -541,7 +825,7 @@ export class PracticeController {
       body.innerHTML = `
         <div class="empty-state">
           <div class="empty-state-title">No morphology roots found</div>
-          <p class="empty-state-desc">This lesson has no single-word root/affix items. Switch to Practice Quiz or try another Unit 5–7 lesson.</p>
+          <p class="empty-state-desc">This lesson has no root/affix items. Switch to Practice Quiz or try another Unit 5–7 lesson.</p>
           <button type="button" class="btn-primary" id="morph-switch-quiz">Switch to Practice Quiz</button>
         </div>
       `;
@@ -579,12 +863,16 @@ export class PracticeController {
     const round = this.morphDeck[this.morphIndex];
     const assembled = `${this.selectedPrefix}${round.root}${this.selectedSuffix}`;
     const isUrdu = store.lang === 'ur';
+    const ratio = Math.min(1, Math.max(0, (this.morphIndex + 1) / Math.max(1, this.morphDeck.length)));
 
     body.innerHTML = `
       <div class="morph-stage">
         <div class="quiz-progress-row tabular-nums">
           <span>Word ${this.morphIndex + 1} of ${this.morphDeck.length}</span>
           <span>Score: ${this.morphScore}</span>
+        </div>
+        <div class="quiz-progress-track">
+          <div class="quiz-progress-fill" id="morph-progress-fill"></div>
         </div>
 
         <div class="morph-prompt-box">
@@ -595,7 +883,7 @@ export class PracticeController {
         <div class="morph-assembly-slots" aria-label="Word assembly slots (RTL: Prefix, Root, Suffix)">
           <div class="morph-slot ${this.selectedPrefix ? 'is-filled' : ''}">
             <span class="morph-slot-label">Prefix</span>
-            <span class="morph-slot-ar nonroot">${esc(this.selectedPrefix || '—')}</span>
+            <span class="morph-slot-ar nonroot">${esc(this.selectedPrefix.trim() || '...')}</span>
           </div>
           <div class="morph-slot is-filled">
             <span class="morph-slot-label">Root</span>
@@ -603,7 +891,7 @@ export class PracticeController {
           </div>
           <div class="morph-slot ${this.selectedSuffix ? 'is-filled' : ''}">
             <span class="morph-slot-label">Suffix</span>
-            <span class="morph-slot-ar nonroot">${esc(this.selectedSuffix || '—')}</span>
+            <span class="morph-slot-ar nonroot">${esc(this.selectedSuffix.trim() || '...')}</span>
           </div>
         </div>
 
@@ -617,7 +905,7 @@ export class PracticeController {
               <div class="morph-chip-group-label">Prefix Chips (tap to toggle)</div>
               <div class="morph-chips-row">
                 ${this.morphPrefixOptions.map(p => `
-                  <button type="button" class="morph-chip ${this.selectedPrefix === p ? 'selected' : ''}" data-pick-prefix="${esc(p)}" ${this.morphChecked ? 'disabled' : ''}>${esc(p)}</button>
+                  <button type="button" class="morph-chip ${this.selectedPrefix === p ? 'selected' : ''}" data-pick-prefix="${esc(p)}" ${this.morphChecked ? 'disabled' : ''}>${esc(p.trim())}</button>
                 `).join('')}
               </div>
             </div>
@@ -628,7 +916,7 @@ export class PracticeController {
               <div class="morph-chip-group-label">Suffix Chips (tap to toggle)</div>
               <div class="morph-chips-row">
                 ${this.morphSuffixOptions.map(s => `
-                  <button type="button" class="morph-chip ${this.selectedSuffix === s ? 'selected' : ''}" data-pick-suffix="${esc(s)}" ${this.morphChecked ? 'disabled' : ''}>${esc(s)}</button>
+                  <button type="button" class="morph-chip ${this.selectedSuffix === s ? 'selected' : ''}" data-pick-suffix="${esc(s)}" ${this.morphChecked ? 'disabled' : ''}>${esc(s.trim())}</button>
                 `).join('')}
               </div>
             </div>
@@ -639,18 +927,23 @@ export class PracticeController {
           <div class="quiz-explanation">
             ${this.morphIsCorrect
               ? `<strong>✓ Exact match!</strong> Target form: <span class="arabic-text" style="font-size:1.3rem">${esc(round.target)}</span>`
-              : `<strong>Target form:</strong> <span class="arabic-text" style="font-size:1.3rem">${esc(round.target)}</span> (${esc(round.prefix ? `${round.prefix} + ` : '')}${esc(round.root)}${esc(round.suffix ? ` + ${round.suffix}` : '')})`}
+              : `<strong>Target form:</strong> <span class="arabic-text" style="font-size:1.3rem">${esc(round.target)}</span> (${esc(round.prefix ? `${round.prefix.trim()} + ` : '')}${esc(round.root)}${esc(round.suffix ? ` + ${round.suffix.trim()}` : '')})`}
           </div>
         ` : ''}
 
         <div class="lesson-action-group" style="justify-content:space-between;">
-          <button type="button" class="btn-secondary" id="morph-audio-btn">🔊 Hear</button>
+          <button type="button" class="btn-secondary btn-sm" id="morph-audio-btn">${ICON_SPEAK} <span>Hear</span></button>
           ${!this.morphChecked
             ? `<button type="button" class="btn-primary" id="morph-check-btn">Check Word</button>`
             : `<button type="button" class="btn-primary" id="morph-next-btn">${this.morphIndex + 1 < this.morphDeck.length ? 'Next Word →' : 'See Scorecard →'}</button>`}
         </div>
       </div>
     `;
+
+    const morphFillEl = /** @type {HTMLElement | null} */ (body.querySelector('#morph-progress-fill'));
+    if (morphFillEl) {
+      morphFillEl.style.setProperty('--progress-scale', String(ratio));
+    }
 
     body.querySelectorAll('[data-pick-prefix]').forEach(btn => {
       btn.addEventListener('click', () => {
@@ -688,6 +981,12 @@ export class PracticeController {
         AudioFX.play('correct');
       } else {
         AudioFX.play('wrong');
+        this._recordMiss({
+          key: round.key,
+          arabic: round.target,
+          gloss: round.meaning,
+          ref: round.ref
+        });
       }
       this.render();
     });
@@ -699,6 +998,16 @@ export class PracticeController {
         this.render();
       } else {
         this.morphFinished = true;
+        if (typeof store.recordExamAttempt === 'function') {
+          store.recordExamAttempt({
+            examId: `morph_s${store.currentUnit}l${store.currentLesson}`,
+            mode: 'morph',
+            score: this.morphScore,
+            total: this.morphDeck.length,
+            pct: Math.round((this.morphScore / Math.max(1, this.morphDeck.length)) * 100),
+            completedAt: Date.now()
+          });
+        }
         store.recordStudyActivity(1);
         this.render();
       }
