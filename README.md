@@ -1,189 +1,119 @@
 # Muallim ul-Qur'an (معلم القرآن) — Interactive Qur'anic Arabic PWA
 
 [![Live App](https://img.shields.io/badge/Live_App-Muallim_PWA-1B4332?style=for-the-badge&logo=pwa&logoColor=white)](https://nomaanc.github.io/muallim/)
-[![Ustaad Portal](https://img.shields.io/badge/Ustaad-Teacher_Portal-2563EB?style=for-the-badge&logo=googleclassroom&logoColor=white)](https://nomaanc.github.io/muallim/teacher.html)
-[![Admin Dashboard](https://img.shields.io/badge/Admin-Dashboard-D97706?style=for-the-badge&logo=firebase&logoColor=white)](https://nomaanc.github.io/muallim/admin.html)
 [![PWA Ready](https://img.shields.io/badge/PWA-Offline_First-2D6A4F?style=for-the-badge&logo=googlechrome&logoColor=white)](https://nomaanc.github.io/muallim/)
-[![Curriculum](https://img.shields.io/badge/Curriculum-7_Units_·_113_Lessons_·_8871_Items-0284C7?style=for-the-badge)](https://nomaanc.github.io/muallim/)
+[![Curriculum](https://img.shields.io/badge/Curriculum-7_Units_·_114_Lessons_·_14956_Items-0284C7?style=for-the-badge)](https://nomaanc.github.io/muallim/)
+[![Quizzes & Exams](https://img.shields.io/badge/Practice-570_Quizzes_·_4_Model_Papers-7C3AED?style=for-the-badge)](https://nomaanc.github.io/muallim/#exam/vol1)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
-[![Zero npm Dependencies](https://img.shields.io/badge/Dependencies-Zero_npm-black?style=for-the-badge&logo=javascript&logoColor=white)](https://nomaanc.github.io/muallim/)
+[![Zero Build Step](https://img.shields.io/badge/Runtime-Vanilla_ES_Modules-black?style=for-the-badge&logo=javascript&logoColor=white)](https://nomaanc.github.io/muallim/)
 
-> **Muallim ul-Qur'an** is an offline-first Progressive Web Application (PWA) designed to teach Qur'anic Arabic vocabulary and syntax through authentic Roman Urdu (Hinglish) translations, interactive animated SVG grammar diagrams, Leitner 5-box spaced repetition drills, and interactive exercises.
-
----
-
-## 📖 Overview
-
-Based on the classical curriculum *Muallim ul-Qur'an*, this application presents **7 complete Units containing 113 lessons**, digitizing **8,871 Qur'anic vocabulary entries, phrases, and verses** while preserving **100% of authentic Arabic diacritics (harakat/tashkeel)**.
-
-The platform pairs classical Arabic pedagogy with web engineering standards: students learn through interactive visual breakdowns, phonetic Roman Urdu translations following Subject-Object-Verb (SOV) order, Leitner 5-box memory drills, and instant self-assessment tools.
+> **Muallim ul-Qur'an (v7.0.0)** is an offline-first, student-only Progressive Web Application (PWA) for learning Qur'anic Arabic vocabulary, morphology, and syntax across **7 Units, 114 Lessons, and 14,956 verified items** in **4 languages** (Roman Urdu/Hinglish, English, Nastaliq Urdu, and Devanagari Hindi).
 
 ---
 
-## 🏛️ Curriculum Structure (100% Complete & Verified)
+## Overview
 
-All 7 units are digitized, marked up, and verified with zero missing IDs, zero diacritic drift, and zero forbidden words:
+Built directly from the 7-unit *Muallim ul-Qur'an* workbook, v7.0.0 delivers per-lesson lazy loading (`114` lesson chunks), interactive SVG grammar models, clause-by-clause verse stepping, Leitner 5-box spaced repetition, `570` lesson quizzes, `4` official summative model papers, a `6`-page Mushaf comprehension showcase, and a 9-pillar spiral grammar explorer. All progress stays local by default with optional owner-only Firebase cloud sync.
 
-| Unit | Topic Focus | Lessons | Total Items | Markup Coverage | Quality Audit |
+---
+
+## Curriculum Structure (v7.0.0)
+
+| Unit | Topic Focus | Lessons | Total Items | Lesson Quizzes | Status |
 |:---:|:---|:---:|:---:|:---:|:---:|
-| **Unit 1** | Mufrad Asma (Singular Nouns), Tanween, Alif-Laam, Gender, Broken Plurals | 19 Lessons | 804 Items | 804 / 804 (100%) | Passed (0 Errors) |
-| **Unit 2** | Huroof-e-Jarr, Ta'keed (Inna), Kaana, Waw-e-Qasam, Huroof-e-Nida | 13 Lessons | 827 Items | 827 / 827 (100%) | Passed (0 Errors) |
-| **Unit 3** | Murakkab-e-Tawseefi (Adjective Phrases), Mudaaf-o-Mudaaf Ilaih, Ism Faa'il | 10 Lessons | 973 Items | 973 / 973 (100%) | Passed (0 Errors) |
-| **Unit 4** | Murakkab-e-Izafi, Attached Pronouns (Hu, Humaa, Hum), Harf-e-Jarr with Pronouns | 17 Lessons | 1,404 Items | 1,404 / 1,404 (100%) | Passed (0 Errors) |
-| **Unit 5** | Jumla Ismiyyah (Nominal Sentences), Demonstrative Pronouns (Haaza, Zaalika), Negation | 23 Lessons | 2,407 Items | 2,407 / 2,407 (100%) | Passed (0 Errors) |
-| **Unit 6** | Fe'l Mazi (Past Tense Verbs), Trilateral Roots, Subject Pronoun Affixes | 21 Lessons | 1,120 Items | 1,120 / 1,120 (100%) | Passed (0 Errors) |
-| **Unit 7** | Advanced Conjugations, Shartiyyah (In Kuntum), Fe'l Majhool, Qur'anic Usloob | 10 Lessons | 1,336 Items | 1,336 / 1,336 (100%) | Passed (0 Errors) |
-| **TOTAL** | **Complete Classical Qur'anic Arabic Curriculum** | **113 Lessons** | **8,871 Items** | **8,871 / 8,871 (100%)** | **100% Verified** |
+| **Unit 1** | Mufrad Asma (Singular Nouns), Tanween, Alif-Laam, Demonstratives | 19 Lessons | 961 Items | 95 Questions | Verified |
+| **Unit 2** | Huroof-e-Jarr, Inna, Kaana, Qasam, Huroof-e-Nida | 13 Lessons | 1,004 Items | 65 Questions | Verified |
+| **Unit 3** | Murakkab-e-Tawseefi, Mudaaf-o-Mudaaf Ilaih, Ism Faa'il & Maf'ool | 10 Lessons | 1,015 Items | 50 Questions | Verified |
+| **Unit 4** | Attached Pronouns (Damair), Prepositions with Pronouns, Relative Clauses | 18 Lessons | 1,487 Items | 90 Questions | Verified |
+| **Unit 5** | Jumla Ismiyyah, Advanced Particles, Conditionals & Negation | 23 Lessons | 2,425 Items | 115 Questions | Verified |
+| **Unit 6** | Fe'l Maazi & Mudhari' Conjugations, Pronouns, Derived Verb Forms | 21 Lessons | 3,122 Items | 105 Questions | Verified |
+| **Unit 7** | Passive Voice (Majhool), Amr/Nahy, Weak Verbs & Qur'anic Usloob | 10 Lessons | 4,942 Items | 50 Questions | Verified |
+| **TOTAL** | **Complete 7-Unit Qur'anic Arabic Curriculum** | **114 Lessons** | **14,956 Items** | **570 Questions** | **100% Verified** |
 
 ---
 
-## 🎯 The Four Pillars of Pedagogical Integrity
+## Features
 
-The application enforces four non-negotiable architectural standards across all 8,871 items:
+### Per-Lesson Lazy Chunks & Pedagogical Integrity
+- **114 Per-Lesson Payloads (`data/lessons/s{u}l{l}.json`)**: Fast lesson switching without parsing multi-megabyte unit bundles upfront, while retaining `data/unit1.json`–`unit7.json` for cross-lesson drills.
+- **100% Harakat Parity**: Every item enforces Unicode NFC parity (`arabic_markup` stripped of HTML tags matches `arabic` character-for-character) with standard Arabic `ي` and `ك`.
+- **Horizontal RTL Grids & Clause Stepper**: Multi-column vocabulary grids read right-to-left; slash-segmented verses (`/`) split into interactive clause-by-clause chips for focused translation practice.
+- **4 Languages & 3 Themes**: Switch dynamically between Hinglish (Roman Urdu SOV), English, Nastaliq Urdu (`ur` RTL), and Devanagari Hindi (`hi`) across **Parchment**, **Night**, and **Sepia** themes.
 
-1. **Horizontal Right-to-Left (RTL) Reading Order**
-   Multi-column vocabulary grids flow row-by-row from right to left across columns (Row 1: Right ➔ Center ➔ Left, Row 2: Right ➔ Center ➔ Left), mirroring physical Qur'anic typography.
+### Interactive Grammar Visuals (`js/visuals/unit1..7.js`)
+- Context-aware animated SVG grammar diagrams per lesson, themed with CSS custom properties (`var(--bg-surface)`, `var(--ink-primary)`).
+- Shuffled *"Kya Hoga?"* prediction prompts, an expandable **Steps & Examples** drawer, and a full-viewport zoom/pan lightbox.
 
-2. **Intermediary Hinglish Descriptions**
-   Textbook rules and section transitions are presented as authentic Roman Urdu `rule_paragraph` and `section_label` elements directly preceding exercises, contextualizing vocabulary before usage.
+### Practice, Assessment & Discovery
+- **Leitner 5-Box SRS (`js/core/srs.js`)**: Box 1 (1d) through Box 5 (30d), plus a dedicated **Mistakes** deck, prompt direction selector (`Arabic → Meaning`, `Meaning → Arabic`, `Audio → Meaning`), and separate Qari + browser TTS audio buttons.
+- **570 Lesson Quizzes & Morphology Builder (`js/core/quiz.js`)**: 5 randomized 4-language questions per lesson plus Units 5–7 interactive Root-and-Affix Morphology Builder.
+- **4 Summative Model Papers (`#exam/vol1`, `#exam/u4`, `#exam/u5`, `#exam/u7`)**: Official workbook exams from `data/exams/model_papers.json` including *Bayyinat* continuous passages and a pauseable `120:00` timer on the Unit 7 final exam.
+- **6-Page Mushaf Coverage Showcase (`#mushaf-check`)**: Real Qur'anic passages from Page 176 (`data/exams/mushaf_showcase.json`) comparing current mastery against the post-Unit-7 comprehension benchmark with tap-to-peek masks.
+- **9-Pillar Spiral & Root Explorer (`#spiral`)**: Trace the 9 cross-cutting grammar pillars across `U#L#` chains and browse cognate nouns, participles, and verbs by trilateral root.
 
-3. **Authentic Sentence Numbering**
-   Printed textbook numbers (e.g., `1.`, `2.`) are strictly preserved as numerical badges on Qur'anic verses and phrases, while reference flashcard grids remain clean and unnumbered.
-
-4. **Dual-Highlight Semantic Markup (`arabic_markup`)**
-   Every Arabic item is marked with dual semantic styles:
-   - `<span class="nonroot">`: Red ink elements highlighting either the lesson topic focus (Reason A) or morphological affixes/prefixes (Reason B).
-   - `<span class="arabic-root">`: Black ink elements preserving base roots and nominal stems.
-   - **Tashkeel Guarantee**: `arabic_markup.replace(/<[^>]+>/g, '')` matches the base `arabic` field character-for-character with 100% harakat preserved.
-
----
-
-## ✨ Features
-
-### ⚡ Interactive SVG Grammar Visualizer (`js/grammar-visuals.js`)
-- Context-aware animated SVG diagrams positioned at the head of every lesson.
-- Interactive, multi-state visual demonstrations:
-  - **Unit 1**: Definite article (*Alif-Laam*) attachment and Tanween cancellation morpher.
-  - **Unit 2**: Preposition (*Huroof-e-Jarr*: *Fii*, *Alaa*, *Min*, *Ilaa*, *Bi*) container & platform force visualizers.
-  - **Unit 3**: Noun-Adjective (*Tawseefi*) 4-attribute harmony scale & *Mudaaf-o-Mudaaf Ilaih* connector chains.
-  - **Unit 4**: Attached and detached pronouns (*Damair*) morphological connectors.
-  - **Unit 5**: *Inna* & Nominal Sentence dynamic balance beam scale.
-  - **Unit 6**: *Fe'l Mazi* 14-form morphological conjugation wheel.
-  - **Unit 7**: Active (*Ma'roof*) to Passive (*Majhool*) vowel shift morpher & Conditional (*Shart wa Jaza*) scale.
-- Zero external dependencies: constructed with pure vanilla ES6, CSS `@keyframes`, and procedural Web Audio API sound synthesis.
-
-### 🧠 Adaptive Spaced-Repetition System (Leitner 5-Box SRS)
-- Evidence-based Leitner 5-box memory scheduling built directly into the vocabulary drill.
-- Interval expansion: Box 1 (1d) ➔ Box 2 (3d) ➔ Box 3 (7d) ➔ Box 4 (14d) ➔ Box 5 (30d 🌟 Mastered).
-- Multi-grade memory ratings (`🔴 Again`, `🟡 Hard`, `🟢 Good`, `🔵 Easy`) with automated sync to Cloud Firestore.
-
-### 📝 Interactive Grammar Multiple-Choice Exercises
-- 5-question targeted drills per lesson with instant Roman Urdu feedback explanations.
-- Grammatical voice identification, I'raab detection, and dynamic vocabulary distractor options.
-
-### 👨‍🏫 Ustaad / Teacher Portal (`teacher.html`)
-- Dedicated teacher dashboard built with Tailwind CSS:
-  - Track assigned students' progress, study hours, starred vocabulary, and exam history.
-  - Push custom timed exams to students with configurable question counts and passing scores.
-  - Broadcast instant notifications to active student sessions.
-
-### 📱 Offline-First Progressive Web App (PWA)
-- Installable on Android, iOS, Windows, macOS, and Linux.
-- Service Worker (`sw.js` v2.7.0) with Cache-First asset caching and on-demand JSON dataset storage.
-- Operates without internet connectivity after initial load.
-
-### 🔍 Multi-Dimensional Instant Search
-- Instant search index with 5,900+ terms (`data/search-index.json`).
-- Search across Arabic (with/without tashkeel), Roman Urdu transliterations, and English meanings.
+### Audio & Offline PWA
+- **Qari Recitation & Continuous Queue (`js/core/audio.js`)**: Streams ayah MP3s (`everyayah.com`), chains range (`50:12-13`) and multi-ref (`2:39; 2:82`) passages, caches up to 150 clips in `muallim-audio-v1`, and falls back to browser Arabic TTS.
+- **Service Worker (`sw.js` `muallim-v7.0.0-cache`)**: Stale-While-Revalidate shell caching plus on-demand caching for lesson chunks, quizzes, exams, visuals, and the `14,956`-entry search index.
+- **Optional Personal Cloud Sync (`js/core/sync.js`)**: Works offline with zero login; when signed in, syncs strictly to `/user_data/{uid}` with tombstone support for deletions.
 
 ---
 
-## 🛠️ Architecture & Stack
+## Architecture
 
-Zero build tools or package managers required. The application runs natively in any standard web browser:
+Zero runtime build step or bundler. Pure vanilla ES modules, HTML5, and CSS3:
 
-```
-muallim/
-├── index.html               # Main PWA application shell (~508 lines)
-├── teacher.html             # Dedicated Ustaad / Teacher Portal
-├── admin.html               # Super Admin analytics dashboard
-├── manifest.json            # PWA manifest with standalone display configuration
-├── sw.js                    # Service Worker (v2.7.0) with cache-first routing
+```text
+pwa/
+├── index.html                  # Student-only shell (5 <dialog> modals + view mount)
+├── manifest.json               # PWA manifest with bookmarks & starred shortcuts
+├── sw.js                       # Service Worker (muallim-v7.0.0-cache)
+├── firestore.rules             # Strict owner-only /user_data/{userId} rules
 ├── css/
-│   └── styles.css           # Sovereign design system, emerald/amber themes, dialogs
+│   ├── styles.css              # Design tokens, themes, components, exam & stepper UI
+│   └── layout.css              # Responsive grid, mobile bottom bar, lightbox
 ├── js/
-│   ├── app.js               # Core app state, Leitner SRS engine, drill spinner, exercises
-│   └── grammar-visuals.js   # Interactive SVG Grammar Engine & Web Audio synthesizer
-└── data/
-    ├── metadata.json        # Fast-loading table of contents and curriculum index
-    ├── search-index.json    # 5,900+ term multi-lingual search index
-    └── unit1.json - unit7.json  # 7 lazy-loaded unit datasets (8,871 verified items)
+│   ├── app.js                  # App shell, navigation guard, in-place store handlers
+│   ├── audio-fx.js             # Web Audio UI feedback synthesizer
+│   ├── core/                   # store, router, renderer, audio, srs, quiz, exams, search, sync
+│   └── visuals/                # loader, visual-helper, unit1.js .. unit7.js
+├── data/
+│   ├── metadata.json           # 7 units, 114 lesson titles (4 langs), 9 spiral pillars
+│   ├── search-index.json       # 14,956 pre-indexed items with roots & transliterations
+│   ├── lessons/                # 114 minified per-lesson JSON chunks (s1l1..s7l10)
+│   ├── quizzes/                # unit1.json .. unit7.json (570 questions)
+│   ├── exams/                  # model_papers.json (4 papers) & mushaf_showcase.json (6 passages)
+│   └── unit1.json .. unit7.json
+├── scripts/                    # optimize_data.py, verify_v6.py
+└── tests/                      # unit/*.test.js & e2e/playtest.spec.js
 ```
-
-- **Frontend**: Vanilla JavaScript (ES6+), HTML5, CSS3 with CSS Custom Properties.
-- **Backend (Optional)**: Firebase Authentication and Cloud Firestore for multi-device sync and admin features.
-- **Deployment**: Zero build step. Host directly on GitHub Pages, Cloudflare Pages, or Firebase Hosting.
 
 ---
 
-## 🚀 Quick Start & Installation
+## Quick Start & Testing
 
-### Option 1: Open in Browser
-Access the live PWA directly: **[https://nomaanc.github.io/muallim/](https://nomaanc.github.io/muallim/)**
-
-### Option 2: Install as a PWA
-1. Open the URL in Google Chrome, Microsoft Edge, or Safari.
-2. Click **Install App** in the address bar or tap **Share ➔ Add to Home Screen** on mobile.
-3. Access directly from your home screen or application launcher offline.
-
-### Option 3: Run Locally
-Clone the repository and serve with any local HTTP server:
-
+### Run Locally
 ```bash
-# Clone the repository
 git clone https://github.com/nomaanc/muallim.git
 cd muallim
-
-# Serve using Python 3
-python -m http.server 8000
-
-# Or serve using Node npx
-npx serve .
+python -m http.server 8080
 ```
+Open `http://127.0.0.1:8080` in your browser.
 
-Open `http://localhost:8000` in your web browser.
+### Verify & Test (Dev Dependencies)
+`package.json` includes `@playwright/test` strictly for automated CI and local verification:
 
----
+```powershell
+# Python invariant & schema gate
+$env:PYTHONIOENCODING='utf-8'; python scripts/verify_v6.py
 
-## 📜 Metadata & Semantic Schema
-
-```json
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
-  "name": "Muallim ul-Qur'an PWA",
-  "operatingSystem": "All modern browsers (Android, iOS, Windows, macOS, Linux)",
-  "applicationCategory": "EducationalApplication",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  },
-  "educationalLevel": "Beginner to Advanced Qur'anic Arabic",
-  "inLanguage": ["ar", "ur-Latn", "en"],
-  "description": "Interactive, offline-first Progressive Web App for learning Qur'anic Arabic vocabulary and grammar through Roman Urdu (Hinglish), animated SVG models, and self-assessment exams."
-}
+# Node unit tests & Playwright E2E suite
+npm ci
+npm run test:unit
+npm run test:e2e
 ```
 
 ---
 
-## 📜 License
+## License
 
 Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
-
----
-
-## 🌟 Acknowledgements
-
-- Dedicated to students seeking to understand the Arabic of the Noble Qur'an.
-- Curriculum based on the traditional *Muallim ul-Qur'an* pedagogy.

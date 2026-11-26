@@ -1,4 +1,4 @@
-name: CI Verify & Deploy (v6.0)
+name: CI Verify & Deploy (v7.0)
 
 on:
   push:
@@ -12,7 +12,7 @@ concurrency:
 
 jobs:
   verify:
-    name: Invariant Gate & Playwright E2E
+    name: Invariant Gate, Unit Tests & Playwright E2E
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -31,13 +31,16 @@ jobs:
           node-version: "20"
           cache: "npm"
 
-      - name: Run Python v6.0 invariant gate
+      - name: Run Python v7.0 invariant gate
         env:
           PYTHONIOENCODING: utf-8
         run: python scripts/verify_v6.py
 
       - name: Install Playwright test runner
         run: npm ci
+
+      - name: Run Node unit tests
+        run: npm run test:unit
 
       - name: Install Chromium browser & OS dependencies
         run: npx playwright install --with-deps chromium
@@ -99,7 +102,6 @@ jobs:
             --exclude='firestore.*' \
             --exclude='package*.json' \
             --exclude='playwright.config.js' \
-            --exclude='data/da_audit_log.json' \
             --exclude='_site/' \
             ./ _site/
           touch _site/.nojekyll

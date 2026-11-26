@@ -1,7 +1,7 @@
 /**
- * Firestore Security Rules Test Suite — muallim-123
+ * Firestore Security Rules Test Suite — muallim-123 (v7.0.0 Student-Only)
  * Uses @firebase/rules-unit-testing v3 with Jest
- * Run: npm test (with emulator on port 8080)
+ * Run: npm test (with Firestore emulator running on localhost:8080)
  */
 
 const {
@@ -17,35 +17,54 @@ const RULES_PATH = path.resolve(__dirname, "../firestore.rules");
 
 let testEnv;
 
-// ── Helpers ────────────────────────────────────────────────────
-function adminCtx() { return testEnv.authenticatedContext("admin-uid"); }
-function studentCtx(uid = "student-uid") { return testEnv.authenticatedContext(uid); }
-function anonCtx() { return testEnv.unauthenticatedContext(); }
-
-// Pre-seed admin user doc so isAdmin() works
-async function seedAdminDoc() {
-  await testEnv.withSecurityRulesDisabled(async (ctx) => {
-    await ctx.firestore().doc("users/admin-uid").set({
-      email: "ustaad@muallim.app",
-      name: "Ustaad",
-      role: "admin",
-      createdAt: new Date(),
-    });
-  });
+function ownerCtx(uid = "student-uid") {
+  return testEnv.authenticatedContext(uid);
 }
 
-async function seedStudentDoc(uid = "student-uid") {
-  await testEnv.withSecurityRulesDisabled(async (ctx) => {
-    await ctx.firestore().doc("users/" + uid).set({
-      email: uid + "@test.com",
-      name: "Test Student",
-      role: "student",
-      createdAt: new Date(),
-    });
-  });
+function otherCtx() {
+  return testEnv.authenticatedContext("other-student-uid");
 }
 
-// ── Setup / Teardown ──────────────────────────────────────────
+function anonCtx() {
+  return testEnv.unauthenticatedContext();
+}
+
+function makeMap(prefix, count) {
+  const obj = {};
+  for (let i = 0; i < count; i += 1) {
+    obj[`${prefix}_${i}`] = i;
+  }
+  return obj;
+}
+
+function validUserPayload(uid = "student-uid", overrides = {}) {
+  return {
+    uid,
+    name: "Learner One",
+    deviceId: "dev_abc123",
+    role: "student",
+    preferredLang: "hinglish",
+    theme: "parchment",
+    currentStage: 1,
+    currentLesson: 1,
+    streak: { current: 3, longest: 7, lastStudyDate: "2026-11-26" },
+    completedLessons: { S1L1: true },
+    studyLog: { "2026-11-26": 12 },
+    starredItems: [{ key: "S1L1_num_1", arabic: "كِتَابٌ" }],
+    customTranslations: { S1L1_num_1: "Kitaab" },
+    lastBookmark: { stage: 1, lesson: 1, itemId: 1 },
+    srs: { S1L1_num_1: { box: 2, nextReview: 1795700000000, lastReview: 1795600000000 } },
+    weakWords: { S1L1_num_2: { key: "S1L1_num_2", misses: 1 } },
+    examHistory: [{ examId: "vol1", score: 45, total: 50, pct: 90 }],
+    deletedItems: { S1L1_num_99: 1795600000000 },
+    fieldUpdatedAt: { theme: 1795600000000, preferredLang: 1795600000000 },
+    createdAt: new Date("2026-11-01T00:00:00Z"),
+    lastSeen: new Date("2026-11-26T00:00:00Z"),
+    updatedAt: new Date("2026-11-26T00:00:00Z"),
+    ...overrides,
+  };
+}
+
 beforeAll(async () => {
   testEnv = await initializeTestEnvironment({
     projectId: PROJECT_ID,
@@ -59,8 +78,6 @@ beforeAll(async () => {
 
 beforeEach(async () => {
   await testEnv.clearFirestore();
-  await seedAdminDoc();
-  await seedStudentDoc();
 });
 
 afterAll(async () => {
@@ -68,296 +85,182 @@ afterAll(async () => {
 });
 
 // ═══════════════════════════════════════════════════════════════
-// COLLECTION: users
+// COLLECTION: /user_data/{userId}
 // ═══════════════════════════════════════════════════════════════
-describe("users collection", () => {
-  // READ
-  test("owner can read own profile", async () => {
-    await assertSucceeds(studentCtx().firestore().doc("users/student-uid").get());
-  });
-  test("admin can read any profile", async () => {
-    await assertSucceeds(adminCtx().firestore().doc("users/student-uid").get());
-  });
-  test("student cannot read another student profile", async () => {
-    await assertFails(studentCtx("other-uid").firestore().doc("users/student-uid").get());
-  });
-  test("unauthenticated cannot read any profile", async () => {
-    await assertFails(anonCtx().firestore().doc("users/student-uid").get());
-  });
-
-  // CREATE
-  test("admin can create a user doc", async () => {
+describe("user_data collection (v7.0 student-only)", () => {
+  test("owner can create valid user_data doc with deletedItems and fieldUpdatedAt", async () => {
     await assertSucceeds(
-      adminCtx().firestore().doc("users/new-uid").set({
-        email: "new@test.com", name: "New User", role: "student", createdAt: new Date(),
-      })
-    );
-  });
-  test("student cannot create user docs", async () => {
-    await assertFails(
-      studentCtx().firestore().doc("users/new-uid").set({
-        email: "x@y.com", name: "Hacker", role: "student", createdAt: new Date(),
-      })
-    );
-  });
-  test("unauthenticated cannot create user docs", async () => {
-    await assertFails(
-      anonCtx().firestore().doc("users/new-uid").set({ name: "Anon" })
+      ownerCtx().firestore().doc("user_data/student-uid").set(validUserPayload())
     );
   });
 
-  // UPDATE — privilege escalation prevention
-  test("owner can update own non-role fields", async () => {
-    await assertSucceeds(
-      studentCtx().firestore().doc("users/student-uid").update({ name: "Updated Name" })
-    );
-  });
-  test("owner CANNOT escalate own role to admin", async () => {
-    await assertFails(
-      studentCtx().firestore().doc("users/student-uid").update({ role: "admin" })
-    );
-  });
-  test("admin can update role on any user", async () => {
-    await assertSucceeds(
-      adminCtx().firestore().doc("users/student-uid").update({ role: "admin" })
-    );
-  });
-  test("student cannot update another student profile", async () => {
-    await assertFails(
-      studentCtx("other-uid").firestore().doc("users/student-uid").update({ name: "Hacked" })
-    );
-  });
-
-  // DELETE
-  test("admin can delete a user doc", async () => {
-    await assertSucceeds(adminCtx().firestore().doc("users/student-uid").delete());
-  });
-  test("student cannot delete any user doc", async () => {
-    await assertFails(studentCtx().firestore().doc("users/student-uid").delete());
-  });
-});
-
-// ═══════════════════════════════════════════════════════════════
-// COLLECTION: user_data
-// ═══════════════════════════════════════════════════════════════
-describe("user_data collection", () => {
-  beforeEach(async () => {
+  test("owner can read own user_data doc", async () => {
     await testEnv.withSecurityRulesDisabled(async (ctx) => {
-      await ctx.firestore().doc("user_data/student-uid").set({
-        starred: ["item-1"], bookmark: { stage: 1, lesson: 2 },
-      });
+      await ctx.firestore().doc("user_data/student-uid").set(validUserPayload());
     });
+    await assertSucceeds(ownerCtx().firestore().doc("user_data/student-uid").get());
   });
 
-  test("owner can read own user_data", async () => {
-    await assertSucceeds(studentCtx().firestore().doc("user_data/student-uid").get());
-  });
-  test("admin can read any user_data", async () => {
-    await assertSucceeds(adminCtx().firestore().doc("user_data/student-uid").get());
-  });
-  test("student cannot read another student user_data", async () => {
-    await assertFails(studentCtx("other-uid").firestore().doc("user_data/student-uid").get());
-  });
-  test("owner can update own user_data", async () => {
+  test("owner can update allowed fields and tombstones", async () => {
+    await testEnv.withSecurityRulesDisabled(async (ctx) => {
+      await ctx.firestore().doc("user_data/student-uid").set(validUserPayload());
+    });
     await assertSucceeds(
-      studentCtx().firestore().doc("user_data/student-uid").update({ starred: ["item-1", "item-2"] })
+      ownerCtx().firestore().doc("user_data/student-uid").update({
+        theme: "sepia",
+        deletedItems: { S1L1_num_1: 1795700000000 },
+        fieldUpdatedAt: { theme: 1795700000000 },
+        updatedAt: new Date(),
+      })
     );
   });
-  test("student cannot write another student user_data", async () => {
+
+  test("owner can delete own user_data doc", async () => {
+    await testEnv.withSecurityRulesDisabled(async (ctx) => {
+      await ctx.firestore().doc("user_data/student-uid").set(validUserPayload());
+    });
+    await assertSucceeds(ownerCtx().firestore().doc("user_data/student-uid").delete());
+  });
+
+  test("cross-user read, create, update, and delete are denied", async () => {
+    await testEnv.withSecurityRulesDisabled(async (ctx) => {
+      await ctx.firestore().doc("user_data/student-uid").set(validUserPayload());
+    });
+    await assertFails(otherCtx().firestore().doc("user_data/student-uid").get());
     await assertFails(
-      studentCtx("other-uid").firestore().doc("user_data/student-uid").set({ starred: [] })
+      otherCtx().firestore().doc("user_data/student-uid").set(validUserPayload("student-uid"))
     );
+    await assertFails(
+      otherCtx().firestore().doc("user_data/student-uid").update({ name: "Hijacked" })
+    );
+    await assertFails(otherCtx().firestore().doc("user_data/student-uid").delete());
   });
-  test("unauthenticated cannot read user_data", async () => {
+
+  test("unauthenticated read, write, and delete are denied", async () => {
+    await testEnv.withSecurityRulesDisabled(async (ctx) => {
+      await ctx.firestore().doc("user_data/student-uid").set(validUserPayload());
+    });
     await assertFails(anonCtx().firestore().doc("user_data/student-uid").get());
+    await assertFails(
+      anonCtx().firestore().doc("user_data/student-uid").set(validUserPayload())
+    );
+    await assertFails(anonCtx().firestore().doc("user_data/student-uid").delete());
   });
-});
 
-// ═══════════════════════════════════════════════════════════════
-// COLLECTION: pushed_exams
-// ═══════════════════════════════════════════════════════════════
-describe("pushed_exams collection", () => {
-  beforeEach(async () => {
+  test("rejects mismatched uid on create", async () => {
+    await assertFails(
+      ownerCtx().firestore().doc("user_data/student-uid").set(
+        validUserPayload("other-student-uid")
+      )
+    );
+  });
+
+  test("enforces uid and createdAt immutability on update", async () => {
     await testEnv.withSecurityRulesDisabled(async (ctx) => {
-      await ctx.firestore().doc("pushed_exams/exam-1").set({
-        title: "Lesson 1 Quiz", questions: [], pushedAt: new Date(), pushedBy: "admin-uid",
-      });
+      await ctx.firestore().doc("user_data/student-uid").set(validUserPayload());
     });
-  });
-
-  test("authenticated student can read pushed exams", async () => {
-    await assertSucceeds(studentCtx().firestore().doc("pushed_exams/exam-1").get());
-  });
-  test("unauthenticated cannot read pushed exams", async () => {
-    await assertFails(anonCtx().firestore().doc("pushed_exams/exam-1").get());
-  });
-  test("admin can create pushed exam", async () => {
-    await assertSucceeds(
-      adminCtx().firestore().doc("pushed_exams/exam-2").set({
-        title: "Lesson 2 Quiz", questions: [], pushedAt: new Date(), pushedBy: "admin-uid",
+    await assertFails(
+      ownerCtx().firestore().doc("user_data/student-uid").update({ uid: "other-student-uid" })
+    );
+    await assertFails(
+      ownerCtx().firestore().doc("user_data/student-uid").update({
+        createdAt: new Date("2026-12-01T00:00:00Z"),
       })
     );
   });
-  test("student cannot create pushed exam", async () => {
+
+  test("blocks role privilege escalation (only 'student' or 'guest' allowed)", async () => {
     await assertFails(
-      studentCtx().firestore().doc("pushed_exams/exam-2").set({ title: "Hacked Quiz" })
+      ownerCtx().firestore().doc("user_data/student-uid").set(
+        validUserPayload("student-uid", { role: "admin" })
+      )
     );
-  });
-  test("student cannot delete pushed exam", async () => {
-    await assertFails(studentCtx().firestore().doc("pushed_exams/exam-1").delete());
-  });
-  test("admin can delete pushed exam", async () => {
-    await assertSucceeds(adminCtx().firestore().doc("pushed_exams/exam-1").delete());
-  });
-});
-
-// ═══════════════════════════════════════════════════════════════
-// COLLECTION: exam_results
-// ═══════════════════════════════════════════════════════════════
-describe("exam_results collection", () => {
-  const RESULT = {
-    score: 85, answers: ["a", "b"], submittedAt: new Date(), uid: "student-uid",
-  };
-  beforeEach(async () => {
-    await testEnv.withSecurityRulesDisabled(async (ctx) => {
-      await ctx.firestore().doc("exam_results/exam-1/student-uid").set(RESULT);
-    });
-  });
-
-  test("student can read own result", async () => {
-    await assertSucceeds(studentCtx().firestore().doc("exam_results/exam-1/student-uid").get());
-  });
-  test("admin can read any result", async () => {
-    await assertSucceeds(adminCtx().firestore().doc("exam_results/exam-1/student-uid").get());
-  });
-  test("student cannot read another student result", async () => {
-    await assertFails(studentCtx("other-uid").firestore().doc("exam_results/exam-1/student-uid").get());
-  });
-  test("student can create own result with correct uid", async () => {
+    await assertFails(
+      ownerCtx().firestore().doc("user_data/student-uid").set(
+        validUserPayload("student-uid", { role: "teacher" })
+      )
+    );
     await assertSucceeds(
-      studentCtx().firestore().doc("exam_results/exam-1/student-uid").set({ ...RESULT })
+      ownerCtx().firestore().doc("user_data/student-uid").set(
+        validUserPayload("student-uid", { role: "guest" })
+      )
     );
   });
-  test("student cannot create result with spoofed uid", async () => {
+
+  test("rejects unknown fields outside allowlist and empty documents", async () => {
     await assertFails(
-      studentCtx("other-uid").firestore().doc("exam_results/exam-1/student-uid").set({
-        ...RESULT, uid: "student-uid",
+      ownerCtx().firestore().doc("user_data/student-uid").set({})
+    );
+    await assertFails(
+      ownerCtx().firestore().doc("user_data/student-uid").set(
+        validUserPayload("student-uid", { isAdmin: true })
+      )
+    );
+  });
+
+  test("validates theme, currentStage, and currentLesson bounds", async () => {
+    await assertFails(
+      ownerCtx().firestore().doc("user_data/student-uid").set(
+        validUserPayload("student-uid", { theme: "neon" })
+      )
+    );
+    await assertFails(
+      ownerCtx().firestore().doc("user_data/student-uid").set(
+        validUserPayload("student-uid", { currentStage: 8 })
+      )
+    );
+    await assertFails(
+      ownerCtx().firestore().doc("user_data/student-uid").set(
+        validUserPayload("student-uid", { currentLesson: 31 })
+      )
+    );
+  });
+
+  test("enforces map and list size caps including deletedItems (5000) and fieldUpdatedAt (50)", async () => {
+    await assertFails(
+      ownerCtx().firestore().doc("user_data/student-uid").set({
+        fieldUpdatedAt: makeMap("f", 51),
+      })
+    );
+    await assertSucceeds(
+      ownerCtx().firestore().doc("user_data/student-uid").set({
+        fieldUpdatedAt: makeMap("f", 50),
+      })
+    );
+    await assertFails(
+      ownerCtx().firestore().doc("user_data/student-uid").set({
+        streak: makeMap("k", 11),
+      })
+    );
+    await assertFails(
+      ownerCtx().firestore().doc("user_data/student-uid").set({
+        deletedItems: makeMap("d", 5001),
+      })
+    );
+    await assertFails(
+      ownerCtx().firestore().doc("user_data/student-uid").set({
+        starredItems: new Array(2501).fill({ key: "x" }),
       })
     );
   });
-  test("student cannot update existing result", async () => {
-    await assertFails(
-      studentCtx().firestore().doc("exam_results/exam-1/student-uid").update({ score: 100 })
-    );
-  });
-  test("admin can update result", async () => {
-    await assertSucceeds(
-      adminCtx().firestore().doc("exam_results/exam-1/student-uid").update({ score: 90 })
-    );
-  });
-  test("admin cannot change uid on update (ownership immutability)", async () => {
-    await assertFails(
-      adminCtx().firestore().doc("exam_results/exam-1/student-uid").update({ uid: "hacked-uid" })
-    );
-  });
 });
 
 // ═══════════════════════════════════════════════════════════════
-// COLLECTION: muallim_students (legacy)
+// DEFAULT DENY — removed & arbitrary collections
 // ═══════════════════════════════════════════════════════════════
-describe("muallim_students (legacy) collection", () => {
-  const VALID_DOC = { deviceId: "dev_abc123", name: "Ali" };
+describe("default deny — legacy and arbitrary paths", () => {
+  const deniedPaths = [
+    "users/student-uid",
+    "pushed_exams/exam-1",
+    "exam_results/exam-1",
+    "muallim_students/dev_abc123",
+    "muallim_broadcasts/msg-1",
+    "random_collection/any-doc",
+  ];
 
-  test("anyone can read muallim_students", async () => {
-    await assertSucceeds(anonCtx().firestore().doc("muallim_students/dev_abc123").get());
-  });
-  test("can write with valid deviceId + name", async () => {
-    await assertSucceeds(
-      anonCtx().firestore().doc("muallim_students/dev_abc123").set(VALID_DOC)
-    );
-  });
-  test("cannot write with mismatched deviceId", async () => {
-    await assertFails(
-      anonCtx().firestore().doc("muallim_students/dev_abc123").set({ deviceId: "dev_WRONG", name: "Ali" })
-    );
-  });
-  test("cannot write without name field", async () => {
-    await assertFails(
-      anonCtx().firestore().doc("muallim_students/dev_abc123").set({ deviceId: "dev_abc123" })
-    );
-  });
-  test("cannot write with name > 100 chars", async () => {
-    await assertFails(
-      anonCtx().firestore().doc("muallim_students/dev_abc123").set({
-        deviceId: "dev_abc123", name: "x".repeat(101),
-      })
-    );
-  });
-  test("cannot write with empty name", async () => {
-    await assertFails(
-      anonCtx().firestore().doc("muallim_students/dev_abc123").set({ deviceId: "dev_abc123", name: "" })
-    );
-  });
-});
-
-// ═══════════════════════════════════════════════════════════════
-// COLLECTION: muallim_broadcasts (legacy)
-// ═══════════════════════════════════════════════════════════════
-describe("muallim_broadcasts (legacy) collection", () => {
-  const VALID_MSG = { message: "Test broadcast!", sentAt: new Date() };
-
-  test("anyone can read broadcasts", async () => {
-    await assertSucceeds(anonCtx().firestore().doc("muallim_broadcasts/msg-1").get());
-  });
-  test("authenticated user can create valid broadcast", async () => {
-    await assertSucceeds(
-      studentCtx().firestore().doc("muallim_broadcasts/msg-1").set(VALID_MSG)
-    );
-  });
-  test("unauthenticated cannot create broadcast (spam prevention)", async () => {
-    await assertFails(
-      anonCtx().firestore().doc("muallim_broadcasts/msg-1").set(VALID_MSG)
-    );
-  });
-  test("cannot create broadcast with empty message", async () => {
-    await assertFails(
-      studentCtx().firestore().doc("muallim_broadcasts/msg-1").set({ message: "", sentAt: new Date() })
-    );
-  });
-  test("cannot create broadcast with message > 500 chars", async () => {
-    await assertFails(
-      studentCtx().firestore().doc("muallim_broadcasts/msg-1").set({
-        message: "x".repeat(501), sentAt: new Date(),
-      })
-    );
-  });
-  test("cannot update a broadcast (immutable)", async () => {
-    await testEnv.withSecurityRulesDisabled(async (ctx) => {
-      await ctx.firestore().doc("muallim_broadcasts/msg-1").set(VALID_MSG);
-    });
-    await assertFails(
-      studentCtx().firestore().doc("muallim_broadcasts/msg-1").update({ message: "changed" })
-    );
-  });
-  test("cannot delete a broadcast", async () => {
-    await testEnv.withSecurityRulesDisabled(async (ctx) => {
-      await ctx.firestore().doc("muallim_broadcasts/msg-1").set(VALID_MSG);
-    });
-    await assertFails(adminCtx().firestore().doc("muallim_broadcasts/msg-1").delete());
-  });
-});
-
-// ═══════════════════════════════════════════════════════════════
-// DEFAULT DENY — arbitrary paths
-// ═══════════════════════════════════════════════════════════════
-describe("default deny — arbitrary paths", () => {
-  test("cannot read arbitrary collection", async () => {
-    await assertFails(studentCtx().firestore().doc("random_collection/any-doc").get());
-  });
-  test("admin cannot read arbitrary collection", async () => {
-    await assertFails(adminCtx().firestore().doc("secret_data/anything").get());
-  });
-  test("unauthenticated cannot read arbitrary collection", async () => {
-    await assertFails(anonCtx().firestore().doc("users_backup/anything").get());
+  test.each(deniedPaths)("denies read and write on %s", async (docPath) => {
+    await assertFails(ownerCtx().firestore().doc(docPath).get());
+    await assertFails(ownerCtx().firestore().doc(docPath).set({ test: true }));
+    await assertFails(anonCtx().firestore().doc(docPath).get());
   });
 });
