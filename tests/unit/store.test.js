@@ -240,4 +240,22 @@ describe('store.js — v7.0 migrations, backup round-trip & DST-safe streak math
 
     t.mock.timers.reset();
   });
+
+  it('getTranslation() returns item.hinglish in hinglish mode when translations.hinglish is deduplicated', () => {
+    const item = {
+      id: 's5l2_pairs_1',
+      arabic: 'الْمُشْرِكُونَ / الْمُشْرِكِينَ',
+      hinglish: 'shirk karne wale',
+      translations: {
+        en: 'The polytheists',
+        ur: 'شرک کرنے والے',
+        hi: 'शिर्क करने वाले'
+      }
+    };
+    store.lang = 'hinglish';
+    assert.equal(store.getTranslation(item), 'shirk karne wale');
+    assert.equal(store.getTranslation(item, 'en'), 'The polytheists');
+    assert.equal(store.getTranslation(item, 'ur'), 'شرک کرنے والے');
+    assert.equal(store.getTranslation(item, 'hi'), 'शिर्क करने वाले');
+  });
 });

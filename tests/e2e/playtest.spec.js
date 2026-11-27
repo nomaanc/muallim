@@ -895,4 +895,16 @@ test.describe("Muallim ul-Qur'an v7.0 E2E Playtest Suite", () => {
     expect(errors).toEqual([]);
   });
 
+  test('Flow 26 (k): Hinglish mode renders item.hinglish (not English fallback) on deduplicated items (#u5/l2)', async ({ page }) => {
+    const errors = trackPageErrors(page);
+
+    await page.goto('./index.html#u5/l2');
+    const firstGloss = page.locator('#lesson-content-mount .vocab-card .gloss-text').first();
+    await expect(firstGloss).toBeVisible();
+    await expect(firstGloss).toContainText(/shirk karne wale/i);
+    await expect(firstGloss).not.toContainText(/The polytheists/i);
+
+    expect(errors).toEqual([]);
+  });
+
 });

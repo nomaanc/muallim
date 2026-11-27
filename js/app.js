@@ -686,7 +686,7 @@ function renderSettingsBody() {
         </section>
 
         <section class="settings-section">
-          <label class="field-label">App Version &amp; Cache (v7.0.0)</label>
+          <label class="field-label">App Version &amp; Cache (v7.0.1)</label>
           <p class="search-status-line" style="margin:0 0 6px">If an older version appears cached on your device, clear the offline cache and reload fresh.</p>
           <div class="lesson-action-group">
             <button type="button" class="btn-secondary btn-sm" id="btn-force-refresh">Force Refresh App</button>
@@ -845,7 +845,9 @@ function renderSettingsBody() {
       } catch (err) {
         console.warn('[Cache] Clear failed:', err);
       }
-      window.location.reload();
+      const nextUrl = new URL(window.location.href);
+      nextUrl.searchParams.set('_refresh', String(Date.now()));
+      window.location.replace(nextUrl.toString());
     });
     return;
   }
@@ -1205,7 +1207,7 @@ function initApp() {
       swReloading = true;
       window.location.reload();
     });
-    navigator.serviceWorker.register('./sw.js').then((reg) => {
+    navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' }).then((reg) => {
       reg.update().catch(err => console.warn('[SW] Update check skipped:', err));
       reg.addEventListener('updatefound', () => {
         const next = reg.installing;

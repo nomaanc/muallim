@@ -1,6 +1,6 @@
 {
   "name": "muallim-pwa",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "type": "module",
   "description": "Muallim ul-Qur'an offline-first Arabic workbook PWA (vanilla ES modules; devDependencies used strictly for Playwright E2E tests)",
   "private": true,

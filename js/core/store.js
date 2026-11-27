@@ -655,9 +655,17 @@ class AppStore {
     if (typeof item === 'string') return item;
     const active = langOverride || this.lang;
     const tr = item.translations;
+    if (active === 'hinglish') {
+      if (item.hinglish) return String(item.hinglish);
+      if (item.hinglish_meaning) return String(item.hinglish_meaning);
+      if (tr && typeof tr === 'object' && tr.hinglish) return String(tr.hinglish);
+      if (tr && typeof tr === 'object' && tr.en) return String(tr.en);
+      return '';
+    }
     if (tr && typeof tr === 'object') {
       if (tr[active]) return String(tr[active]);
-      if (active !== 'hinglish' && tr.hinglish) return String(tr.hinglish);
+      if (tr.hinglish) return String(tr.hinglish);
+      if (item.hinglish) return String(item.hinglish);
       if (tr.en) return String(tr.en);
     }
     if (active === 'ur' && item.urdu) return String(item.urdu);
